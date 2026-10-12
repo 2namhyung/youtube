@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-387204d07b43afae",
+  "topic": "'엽떡'부터 치킨상자까지…이웃 옥상에 '쓰레기 폭탄' 투하",
+  "query": "'엽떡'부터 치킨상자까지…이웃 옥상에 '쓰레기 폭탄' 투하",
+  "keywords": [
+    "엽떡",
+    "부터",
+    "치킨상자까지",
+    "이웃",
+    "옥상에",
+    "쓰레기",
+    "폭탄",
+    "투하",
+    "배달음식을",
+    "먹고"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv",
+    "naver-news",
+    "daum-news",
+    "news1-society"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "JTBC 뉴스 사회",
+      "title": "'엽떡'부터 치킨상자까지…이웃 옥상에 '쓰레기 폭탄' 투하",
+      "url": "https://news.jtbc.co.kr/article/NB12311930"
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "엽떡",
+      "부터",
+      "치킨상자까지",
+      "이웃",
+      "옥상에",
+      "쓰레기",
+      "폭탄",
+      "투하",
+      "배달음식을",
+      "먹고"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "엽떡",
+        "terms": [
+          "엽떡"
+        ]
+      },
+      {
+        "name": "부터",
+        "terms": [
+          "부터"
+        ]
+      },
+      {
+        "name": "치킨상자까지",
+        "terms": [
+          "치킨상자까지"
+        ]
+      },
+      {
+        "name": "이웃",
+        "terms": [
+          "이웃"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "엽떡",
+      "부터",
+      "치킨상자까지",
+      "이웃",
+      "옥상에",
+      "쓰레기",
+      "폭탄",
+      "투하",
+      "배달음식을",
+      "먹고"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "엽떡",
+        "terms": [
+          "엽떡"
+        ]
+      },
+      {
+        "name": "부터",
+        "terms": [
+          "부터"
+        ]
+      },
+      {
+        "name": "치킨상자까지",
+        "terms": [
+          "치킨상자까지"
+        ]
+      },
+      {
+        "name": "이웃",
+        "terms": [
+          "이웃"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "contradictions": [],
+  "limit": 50,
+  "generatedFrom": "promoted-newsroom-candidate"
+}

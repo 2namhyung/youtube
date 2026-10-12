@@ -1,0 +1,40 @@
+{
+  "schema": "adult-front-rig-study-manifest-v1",
+  "status": "private-review-candidate",
+  "productionApproved": false,
+  "parentAuthority": {
+    "id": "generic-anonymous-adult-01",
+    "sha256": "8be0b62640316bb0311d171bc1e5db599740092ae1daa73377b15b55395b1136"
+  },
+  "appearancePacks": [
+    "appearance-pack-a",
+    "appearance-pack-b"
+  ],
+  "assets": [
+    {
+      "relativePath": "front-rig-spec.json",
+      "bytes": 1320,
+      "sha256": "d220b72e0422efd61c9cb2f324d85f1e991b27e4effeba810ccfe655aed5663c"
+    },
+    {
+      "relativePath": "source/appearance-pack-a/front-master-chroma.png",
+      "bytes": 1310715,
+      "sha256": "93dc10cf299c6dbf5f7e67b961338a228eca7ce7582dee56fc32aaf1504efd41"
+    },
+    {
+      "relativePath": "source/appearance-pack-a/front-master-alpha.png",
+      "bytes": 485379,
+      "sha256": "9280b13d75cb605dbb621fe3ba71d1947be42a54b33557b9567d380b504bfcae"
+    },
+    {
+      "relativePath": "source/appearance-pack-b/front-master-chroma.png",
+      "bytes": 1539167,
+      "sha256": "9e61d87849ec312bea2b42ed2cd623dee1319ed59e3aaf650ffd3fac1b65a252"
+    },
+    {
+      "relativePath": "source/appearance-pack-b/front-master-alpha-normalized.png",
+      "bytes": 936734,
+      "sha256": "49f8945e8a48724d34d7eace88e509b088bb4545612b97d9e98dfe5f5e234a5e"
+    }
+  ]
+}

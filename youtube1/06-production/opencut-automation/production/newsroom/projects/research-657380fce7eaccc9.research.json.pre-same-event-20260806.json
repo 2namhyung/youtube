@@ -1,0 +1,560 @@
+{
+  "slug": "research-657380fce7eaccc9",
+  "topic": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+  "mode": "investigation",
+  "fetchedAt": "2026-08-06T03:21:58.688Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-657380fce7eaccc9.research.config.json",
+    "queries": [
+      "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+      "직장 동료 커피에",
+      "직장 동료",
+      "직장 동료 몰래 간호조무사",
+      "직장 동료 경찰 OR 신고 OR 수사 OR 처분",
+      "직장 동료 후속 OR 사과 OR 합의 OR 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "뉴시스 사회",
+      "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+      "url": "https://www.newsis.com/view/NISX20260806_0003738534",
+      "date": "2026-08-06T11:56:24+09:00",
+      "status": "verified",
+      "snippet": "[서울=뉴시스]홍연우 기자 = 평소 업무 문제로 관계가 좋지 않았던 동료 간호조무사의 커피에 살충제를 탄 간호조무사가 2심에서 징역형 집행유예로 감형됐다. 6일 법조계에 따르면 서울고법 형사7부(부장판사 구회근)는 50대 간호조무사 A씨 살인미수 혐의 항소심에서 최근 징역 1년 6개월에 집행유예 3년을 선고했다. 징역 2년의 실형을 선고한 1심보다 대폭 감..",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "직장",
+          "동료",
+          "커피에",
+          "몰래",
+          "살충제",
+          "간호조무사",
+          "2심서",
+          "감형"
+        ],
+        "snippetLength": 202
+      },
+      "fetchedAt": "2026-08-06T03:21:58.695Z"
+    }
+  ],
+  "relatedCoverage": [
+    {
+      "title": "‘직장’ 경찰서 여자 화장실 들어간 남성 경찰…동료가 목격해 신고",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81LUFzYmE3Rl9zckJwcGp2c194REROM0NZRzlpUll2eFZQejhzUExxVnNxYVdZY1AwdmkyZlZ4T2tKTFlNQ2QtYm9Ra1pfd0Y0ZzFNQzhpVjlXbkYxdFQw?oc=5",
+      "publisher": "한겨레",
+      "date": "2026-07-24T07:00:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 25,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [
+          "들어간"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [
+          "신고",
+          "경찰"
+        ],
+        "solutionPotential": [
+          "신고"
+        ],
+        "visualizability": [
+          "목격",
+          "남성"
+        ]
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "동료 카톡 몰래 캡처해 ‘직장 내 괴롭힘’ 신고한 20대 결말은?",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55MkVJVDRKaTQ0NGRiM0w0SXJiQmNaNnZJNHc2U2RzWWNYOVcyY1A1akF3aEFOZ3RtTElHRnVMS2U2V1o4VTZFbjhsUGlFTWJa?oc=5",
+      "publisher": "문화일보",
+      "date": "2026-01-31T08:00:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 20,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [
+          "몰래"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [
+          "신고"
+        ],
+        "solutionPotential": [
+          "신고"
+        ],
+        "visualizability": [
+          "문"
+        ]
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "'속옷 훔쳐보려고'…여성 동료 혼자 사는 집 몰래 들어간 20대",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ETXo3c210MERWQy1RNVFIeDNGc0ZGczNlQXNudWZrazRRYXdIbUVhUElxZXNBdVF6X0dHSlFVdngwdkJSeWpDX2ZmQ3lMWjZXYURkN0xZa0FTTHc?oc=5",
+      "publisher": "경기일보",
+      "date": "2025-11-20T08:00:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 20,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [
+          "몰래",
+          "들어간"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": []
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "직장동료의 수상한 메시지…창원 흉기 살해, 스토킹 정황 있었다",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA0aGlnV3ZKTjktLWpqckxIVUtqX2dqanFmNVY5ZDhGMGtqWDdCRGVzcENja01HWGY5Tl9FNEtoXzVNNUFQYXc?oc=5",
+      "publisher": "v.daum.net",
+      "date": "2026-04-02T07:00:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 18,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [
+          "수상한"
+        ],
+        "sustainedVictimFear": [
+          "흉기"
+        ],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": []
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "몰래 본 동료 카톡 캡처...‘직장 내 괴롭힘’ 신고한 20대, 유죄?",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SS202Nkl3Zmh3UU1MbGV0S3NnWTFMX3BzR3FGc3hVSHJhd0daRzVXaWF3ZVdWREZwUnBrc0tsZktNLWtpYUk2aS1jTkN3aUx0ZGfSAVNBVV95cUxPZ0JJWlQ4R1JBZEhwanp6bG9POGlNaDB0YmpyWTdEVWVhQ1BYMWhlWWo0YTlvTVpHaTR4UTRCMkxad0ZBMUN6MUtHd01GWEdkTDJUZw?oc=5",
+      "publisher": "서울경제",
+      "date": "2026-02-01T08:00:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 18,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [
+          "몰래"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [
+          "신고"
+        ],
+        "solutionPotential": [
+          "신고"
+        ],
+        "visualizability": []
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "동료 카톡 몰래 캡처해 ‘직장 내 괴롭힘’ 신고…합법일까?",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zOV9Vc0VqOW9PQ2E5U3N3dUdubG4tb3ozRWJ4NEdhcHNOaHg1b08zN1ZxcWNKT2FXQ0lDNEpVeGw4N1BxQ3o5RzNJUDNzTXM?oc=5",
+      "publisher": "v.daum.net",
+      "date": "2026-01-31T08:00:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 18,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [
+          "몰래"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [
+          "신고"
+        ],
+        "solutionPotential": [
+          "신고"
+        ],
+        "visualizability": []
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "동료 카톡 몰래 캡처해 '직내괴' 신고…비밀 침해죄 될까",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUNi01ZDdVaUI0akFNcklXZExjSVhNVGk4RkZPTGdETWRBWGxNNlFvQ2tNLWREekEtU2U1elRuR1NBV29JOWtCdjctS1ZpU04xS2FaSTdMWHBNcG_SAWBBVV95cUxPMk4ybkgyVGx1c3lRNWlpeDViWFlMZUpzalpBQm9EeklMNFEzM3JVQ2dONzBkSXBUcHVTbkdKUmUzUTJoSGdfdEROYW5Memp5eTdYaUpGYTJnS0tmaGlPSEw?oc=5",
+      "publisher": "연합뉴스",
+      "date": "2026-01-31T08:00:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 18,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [
+          "몰래"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [
+          "신고"
+        ],
+        "solutionPotential": [
+          "신고"
+        ],
+        "visualizability": []
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "[단독] 평소 무시하던 직장동료 폭행에 흉기 휘두른 20대 남성 체포",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKaFlfVUtaUk5fallKQ0JjY3Ryc21FSV9Db24ydGE2S3VVcUwySDJBUjctenZESFRiemUxTHktN0gwVXJGOGVuTDVGYy1odkNRZ1N5MUc2VVYxX2M?oc=5",
+      "publisher": "경기일보",
+      "date": "2026-04-07T07:00:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 17,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [],
+        "sustainedVictimFear": [
+          "흉기"
+        ],
+        "institutionalFrustration": [
+          "무시"
+        ],
+        "solutionPotential": [],
+        "visualizability": [
+          "남성"
+        ]
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "창원서 20대女, 직장동료에게 피살… 관계성 범죄 공포↑",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4UHBlaWhkYmJnRjBTWFYxMmFZVTU2WEFuVkhERnR0U0lRY29FWk5KRTdCbGpMT3Y2UXFuNEZXWU9pQlBDZFdNMzJuU0toNGtWR0FhX3BrNmdhbVMweko1djNSWV9QYWPSAWxBVV95cUxOZlptN00zLTkzTlQ2T3YxYjV2Wk9obzVkVWxvZkpuSF8wN0lpdmVjQ2NHcERtSExpME1yUzJoUEhwaHpIWUNkTGhySzVRV0tQUnYxRjBCNlJJRjVmR3pBaF8tTkQyNENyaHY1REw?oc=5",
+      "publisher": "국민일보",
+      "date": "2026-03-30T07:00:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 16,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [],
+        "sustainedVictimFear": [
+          "공포",
+          "범죄"
+        ],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": []
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "창원서 20대女, 직장동료에게 피살… 관계성 범죄 공포↑",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMZ2FIRE05UzdxVFpSbUQ0RjVRZExzUVF1Vk8ta21TeVZrRjQ1WWZNWDhTZ0hZSmp6T3o0T0wxc1JrRnFaUDh1THpuN0ZuZVk?oc=5",
+      "publisher": "v.daum.net",
+      "date": "2026-03-29T07:00:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 16,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [],
+        "sustainedVictimFear": [
+          "공포",
+          "범죄"
+        ],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": []
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "요양병원 직장 동료에게 흉기 휘둘러…60대 중국인 남성 구속",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnc0tVUC1ScnlfLUh2QWtKaU91MWtUQmpsTFc2dzdmNElzdGxhVzRKV1FCdnotaEhzWndUNU9zUmg3Y1dfMklCTk9VMlhnbUl3YU41bzB4OXUzS0d6UndERlNhZ3ZraW8?oc=5",
+      "publisher": "연합뉴스TV",
+      "date": "2026-07-24T01:51:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 15,
+      "evidence": {
+        "everydayProximity": [
+          "병원"
+        ],
+        "inexplicableBehavior": [],
+        "sustainedVictimFear": [
+          "흉기"
+        ],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "남성"
+        ]
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "중국인 60대男, 직장 동료에 흉기 휘둘러…살인미수 구속",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE52bTNwYm05Ql9wLUk5dzJ5Qmh5V2JNSFlDZUI2M0hybHBGZDA1WjcwaEpCcmpyYS1JSk00WnJ5bzNOYUxTM19PUlVUcFNpanlJSGlxbE16aWRzSlFSUnFieE53?oc=5",
+      "publisher": "매일신문",
+      "date": "2026-07-24T03:22:54.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T03:22:04.436Z",
+      "score": 14,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [],
+        "sustainedVictimFear": [
+          "흉기",
+          "매일"
+        ],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "문"
+        ]
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    },
+    {
+      "title": "직장 동료는 친구가 될 수 없다 #인간관계 #직장동료 #하와이대저택 #shorts",
+      "url": "https://www.youtube.com/watch?v=1CZu77AYIZc",
+      "publisher": "하와이 대저택",
+      "date": "2024-08-14T11:00:01Z",
+      "status": "indexed",
+      "snippet": "꿈만 꾸던 삶을 일상으로 [삼단지] https://.samdanzi.com/ 1년 동안 고심과 고심 끝에 100일간 100번 쓰기 [100일 미라클] 실행북을 ...",
+      "fetchedAt": "2026-08-06T03:22:04.434Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/1CZu77AYIZc/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video"
+    },
+    {
+      "title": "회사에 내 불륜 소문낸 직장동료, 명예훼손과 협박죄로 고소할 수 있나요? | 이혼전문 양나래 변호사",
+      "url": "https://www.youtube.com/watch?v=qRiBhH6dJUo",
+      "publisher": "양나래 변호사",
+      "date": "2026-08-05T11:00:09Z",
+      "status": "indexed",
+      "snippet": "안녕하세요, 여러분의 편이 되어드리는 이혼전문변호사 양나래입니다. 오늘 사연은 40대 남성분이 보내주신 사연입니다. 직장에서 ...",
+      "fetchedAt": "2026-08-06T03:22:04.434Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/qRiBhH6dJUo/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video"
+    },
+    {
+      "title": "일머리 없는 직장동료 특",
+      "url": "https://www.youtube.com/watch?v=8XCuiRMnpK4",
+      "publisher": "총몇명",
+      "date": "2026-04-04T09:00:11Z",
+      "status": "indexed",
+      "snippet": "오늘도 시청해주셔서 감사드립니다!♥! [총몇명 스튜디오] 총감독 : 총몇명 / 부감독 : 킹밍주 / 제작진행 : 다윙 / 스토리보드 : 채유 / 원 ...",
+      "fetchedAt": "2026-08-06T03:22:04.434Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/8XCuiRMnpK4/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video"
+    },
+    {
+      "title": "즉문즉설모음 직장동료편",
+      "url": "https://www.youtube.com/watch?v=EapSOQ5A7y8",
+      "publisher": "법륜스님의 즉문즉설",
+      "date": "2025-02-11T22:00:08Z",
+      "status": "indexed",
+      "snippet": "법륜스님 즉문즉설 매주 금요일 정토사회문화회관에서!!! https://m.jungto.org/jungto/news_view... 00:00 직장에서 일어나는 분노 ...",
+      "fetchedAt": "2026-08-06T03:22:04.434Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/EapSOQ5A7y8/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video"
+    },
+    {
+      "title": "직장동료가 이렇게 무서운 사람인 줄    조폭같은 상사, 참다 못한 여군 UDT 707 특임대 중령 출신의 참교육이 시작되는데",
+      "url": "https://www.youtube.com/watch?v=n0ocBeKr1ZE",
+      "publisher": "boncliff918",
+      "date": "2026-08-03T20:10:20Z",
+      "status": "indexed",
+      "snippet": "마음을 울리는 따뜻한 이야기 채널 누군가의 삶 속에 담긴 진심 어린 이야기, 지친 하루 끝에 작은 위로가 되어줄 감성 콘텐츠를 전해 ...",
+      "fetchedAt": "2026-08-06T03:22:04.434Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/n0ocBeKr1ZE/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video"
+    }
+  ],
+  "followUps": [],
+  "laws": [],
+  "contradictions": [],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 17,
+    "originalMedia": 5,
+    "followUps": 0,
+    "laws": 0,
+    "errors": 0
+  }
+}

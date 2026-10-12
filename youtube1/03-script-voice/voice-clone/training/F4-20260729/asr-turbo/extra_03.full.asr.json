@@ -1,0 +1,724 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-20260729\\admission-work\\extra_03.full.wav",
+  "model": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F\\asr-turbo\\model-cache\\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\\snapshots\\0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 59.8826875,
+  "duration_after_vad": 49.952,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.87,
+      "end": 3.71,
+      "text": "넷플릭스 시리즈 참교육 속 교권보호국",
+      "avg_logprob": -0.10830745193528833,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.495702005730659,
+      "words": [
+        {
+          "start": 0.87,
+          "end": 1.47,
+          "word": " 넷플릭스",
+          "probability": 0.98486328125
+        },
+        {
+          "start": 1.47,
+          "end": 1.87,
+          "word": " 시리즈",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 1.87,
+          "end": 2.53,
+          "word": " 참교육",
+          "probability": 0.9861653645833334
+        },
+        {
+          "start": 2.53,
+          "end": 2.71,
+          "word": " 속",
+          "probability": 0.94677734375
+        },
+        {
+          "start": 2.71,
+          "end": 3.71,
+          "word": " 교권보호국",
+          "probability": 0.9123186383928571
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 3.71,
+      "end": 5.59,
+      "text": "현실에도 진짜 필요한 거 아니에요?",
+      "avg_logprob": -0.10830745193528833,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.495702005730659,
+      "words": [
+        {
+          "start": 3.71,
+          "end": 4.53,
+          "word": " 현실에도",
+          "probability": 0.8343098958333334
+        },
+        {
+          "start": 4.53,
+          "end": 4.79,
+          "word": " 진짜",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 4.79,
+          "end": 5.19,
+          "word": " 필요한",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 5.19,
+          "end": 5.29,
+          "word": " 거",
+          "probability": 0.9599609375
+        },
+        {
+          "start": 5.29,
+          "end": 5.59,
+          "word": " 아니에요?",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 6.72,
+      "end": 9.94,
+      "text": "지난 4월 제주한 초등학교 교실에 누군가 침입했습니다.",
+      "avg_logprob": -0.10830745193528833,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.495702005730659,
+      "words": [
+        {
+          "start": 6.72,
+          "end": 7.0,
+          "word": " 지난",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 7.0,
+          "end": 7.44,
+          "word": " 4월",
+          "probability": 1.0
+        },
+        {
+          "start": 7.44,
+          "end": 7.88,
+          "word": " 제주한",
+          "probability": 0.88671875
+        },
+        {
+          "start": 7.88,
+          "end": 8.38,
+          "word": " 초등학교",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 8.38,
+          "end": 8.78,
+          "word": " 교실에",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 8.78,
+          "end": 9.22,
+          "word": " 누군가",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 9.22,
+          "end": 9.94,
+          "word": " 침입했습니다.",
+          "probability": 0.98095703125
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 11.2,
+      "end": 15.86,
+      "text": "다음날 여교사의 텀블러에서 발견된 액체는 충격적이게도 남성의 정액이었습니다.",
+      "avg_logprob": -0.10830745193528833,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.495702005730659,
+      "words": [
+        {
+          "start": 11.2,
+          "end": 11.52,
+          "word": " 다음날",
+          "probability": 0.9861653645833334
+        },
+        {
+          "start": 11.52,
+          "end": 12.0,
+          "word": " 여교사의",
+          "probability": 0.992919921875
+        },
+        {
+          "start": 12.0,
+          "end": 12.56,
+          "word": " 텀블러에서",
+          "probability": 0.9979654947916666
+        },
+        {
+          "start": 12.56,
+          "end": 13.08,
+          "word": " 발견된",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 13.08,
+          "end": 13.5,
+          "word": " 액체는",
+          "probability": 0.9993896484375
+        },
+        {
+          "start": 13.5,
+          "end": 14.36,
+          "word": " 충격적이게도",
+          "probability": 0.991455078125
+        },
+        {
+          "start": 14.36,
+          "end": 15.08,
+          "word": " 남성의",
+          "probability": 0.9986979166666666
+        },
+        {
+          "start": 15.08,
+          "end": 15.86,
+          "word": " 정액이었습니다.",
+          "probability": 0.9952392578125
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 16.67,
+      "end": 20.89,
+      "text": "한 달 뒤 같은 침입자가 교사용 의자에 소변을 받습니다.",
+      "avg_logprob": -0.10830745193528833,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.495702005730659,
+      "words": [
+        {
+          "start": 16.67,
+          "end": 16.79,
+          "word": " 한",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 16.79,
+          "end": 16.91,
+          "word": " 달",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 16.91,
+          "end": 17.11,
+          "word": " 뒤",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 17.11,
+          "end": 17.79,
+          "word": " 같은",
+          "probability": 0.9462890625
+        },
+        {
+          "start": 18.03,
+          "end": 18.57,
+          "word": " 침입자가",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 18.57,
+          "end": 19.73,
+          "word": " 교사용",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 19.73,
+          "end": 20.13,
+          "word": " 의자에",
+          "probability": 0.9739583333333334
+        },
+        {
+          "start": 20.13,
+          "end": 20.45,
+          "word": " 소변을",
+          "probability": 0.9890950520833334
+        },
+        {
+          "start": 20.45,
+          "end": 20.89,
+          "word": " 받습니다.",
+          "probability": 0.987548828125
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 21.7,
+      "end": 23.44,
+      "text": "범인은 16살 고등학생.",
+      "avg_logprob": -0.10830745193528833,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.495702005730659,
+      "words": [
+        {
+          "start": 21.7,
+          "end": 22.18,
+          "word": " 범인은",
+          "probability": 0.9952392578125
+        },
+        {
+          "start": 22.18,
+          "end": 22.82,
+          "word": " 16살",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 22.82,
+          "end": 23.44,
+          "word": " 고등학생.",
+          "probability": 0.99560546875
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 24.25,
+      "end": 30.01,
+      "text": "혐의를 모두 인정했지만 교사를 노린 것도 성적 목적도 아니고 화장실이 급했다고 진술했습니다.",
+      "avg_logprob": -0.10830745193528833,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.495702005730659,
+      "words": [
+        {
+          "start": 24.25,
+          "end": 24.67,
+          "word": " 혐의를",
+          "probability": 0.9986572265625
+        },
+        {
+          "start": 24.67,
+          "end": 24.91,
+          "word": " 모두",
+          "probability": 1.0
+        },
+        {
+          "start": 24.91,
+          "end": 25.59,
+          "word": " 인정했지만",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 25.59,
+          "end": 26.15,
+          "word": " 교사를",
+          "probability": 0.982177734375
+        },
+        {
+          "start": 26.49,
+          "end": 26.77,
+          "word": " 노린",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 26.77,
+          "end": 27.09,
+          "word": " 것도",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 27.09,
+          "end": 27.81,
+          "word": " 성적",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 27.81,
+          "end": 28.23,
+          "word": " 목적도",
+          "probability": 0.9934895833333334
+        },
+        {
+          "start": 28.23,
+          "end": 28.47,
+          "word": " 아니고",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 28.47,
+          "end": 28.95,
+          "word": " 화장실이",
+          "probability": 0.8865559895833334
+        },
+        {
+          "start": 28.95,
+          "end": 29.35,
+          "word": " 급했다고",
+          "probability": 0.9988606770833334
+        },
+        {
+          "start": 29.35,
+          "end": 30.01,
+          "word": " 진술했습니다.",
+          "probability": 0.99365234375
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 30.01,
+      "end": 44.16,
+      "text": "피해 교사 측은 요청하는 휴대전화와 컴퓨터 프렌식 영장 기각됐고 혐의는 건족을 침입과 재물선계뿐, 물건 오염만으로는 성범죄가 적용되지 않기 때문입니다.",
+      "avg_logprob": -0.09043710103517846,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.4596100278551531,
+      "words": [
+        {
+          "start": 30.01,
+          "end": 30.65,
+          "word": " 피해",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 31.46,
+          "end": 31.7,
+          "word": " 교사",
+          "probability": 0.954345703125
+        },
+        {
+          "start": 31.7,
+          "end": 32.12,
+          "word": " 측은",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 32.12,
+          "end": 32.6,
+          "word": " 요청하는",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 32.6,
+          "end": 33.62,
+          "word": " 휴대전화와",
+          "probability": 0.9986165364583334
+        },
+        {
+          "start": 33.62,
+          "end": 34.14,
+          "word": " 컴퓨터",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 34.14,
+          "end": 34.58,
+          "word": " 프렌식",
+          "probability": 0.7589518229166666
+        },
+        {
+          "start": 34.58,
+          "end": 34.92,
+          "word": " 영장",
+          "probability": 0.848388671875
+        },
+        {
+          "start": 34.92,
+          "end": 35.66,
+          "word": " 기각됐고",
+          "probability": 0.9169921875
+        },
+        {
+          "start": 36.51,
+          "end": 37.25,
+          "word": " 혐의는",
+          "probability": 0.928466796875
+        },
+        {
+          "start": 37.25,
+          "end": 38.05,
+          "word": " 건족을",
+          "probability": 0.611083984375
+        },
+        {
+          "start": 38.05,
+          "end": 38.49,
+          "word": " 침입과",
+          "probability": 0.973388671875
+        },
+        {
+          "start": 38.49,
+          "end": 39.35,
+          "word": " 재물선계뿐,",
+          "probability": 0.8034144810267857
+        },
+        {
+          "start": 40.08,
+          "end": 40.54,
+          "word": " 물건",
+          "probability": 0.997314453125
+        },
+        {
+          "start": 40.54,
+          "end": 41.46,
+          "word": " 오염만으로는",
+          "probability": 0.9979654947916666
+        },
+        {
+          "start": 41.7,
+          "end": 42.84,
+          "word": " 성범죄가",
+          "probability": 0.9912923177083334
+        },
+        {
+          "start": 42.84,
+          "end": 43.32,
+          "word": " 적용되지",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 43.32,
+          "end": 43.56,
+          "word": " 않기",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 43.56,
+          "end": 44.16,
+          "word": " 때문입니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 45.08,
+      "end": 45.92,
+      "text": "이게 말이 되나요?",
+      "avg_logprob": -0.09043710103517846,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.4596100278551531,
+      "words": [
+        {
+          "start": 45.08,
+          "end": 45.3,
+          "word": " 이게",
+          "probability": 0.998046875
+        },
+        {
+          "start": 45.3,
+          "end": 45.54,
+          "word": " 말이",
+          "probability": 1.0
+        },
+        {
+          "start": 45.54,
+          "end": 45.92,
+          "word": " 되나요?",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 46.8,
+      "end": 52.7,
+      "text": "범인이 잡혔는데도 누구인지도 몰라서 피해자는 늘 공포에 시달리며 아직도 일상으로 돌아가지 못하고 있습니다.",
+      "avg_logprob": -0.09043710103517846,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.4596100278551531,
+      "words": [
+        {
+          "start": 46.8,
+          "end": 47.2,
+          "word": " 범인이",
+          "probability": 0.98583984375
+        },
+        {
+          "start": 47.2,
+          "end": 47.86,
+          "word": " 잡혔는데도",
+          "probability": 0.999609375
+        },
+        {
+          "start": 47.86,
+          "end": 48.42,
+          "word": " 누구인지도",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 48.42,
+          "end": 48.96,
+          "word": " 몰라서",
+          "probability": 1.0
+        },
+        {
+          "start": 48.96,
+          "end": 49.62,
+          "word": " 피해자는",
+          "probability": 0.997802734375
+        },
+        {
+          "start": 49.62,
+          "end": 49.8,
+          "word": " 늘",
+          "probability": 1.0
+        },
+        {
+          "start": 49.8,
+          "end": 50.24,
+          "word": " 공포에",
+          "probability": 0.9729817708333334
+        },
+        {
+          "start": 50.24,
+          "end": 50.68,
+          "word": " 시달리며",
+          "probability": 0.9989013671875
+        },
+        {
+          "start": 50.68,
+          "end": 51.1,
+          "word": " 아직도",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 51.1,
+          "end": 51.56,
+          "word": " 일상으로",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 51.56,
+          "end": 51.94,
+          "word": " 돌아가지",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 51.94,
+          "end": 52.32,
+          "word": " 못하고",
+          "probability": 1.0
+        },
+        {
+          "start": 52.32,
+          "end": 52.7,
+          "word": " 있습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 53.7,
+      "end": 55.58,
+      "text": "드라마처럼 응징을 하자는 게 아닙니다.",
+      "avg_logprob": -0.09043710103517846,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.4596100278551531,
+      "words": [
+        {
+          "start": 53.7,
+          "end": 54.24,
+          "word": " 드라마처럼",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 54.24,
+          "end": 54.7,
+          "word": " 응징을",
+          "probability": 0.9869791666666666
+        },
+        {
+          "start": 54.7,
+          "end": 55.0,
+          "word": " 하자는",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 55.0,
+          "end": 55.18,
+          "word": " 게",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 55.18,
+          "end": 55.58,
+          "word": " 아닙니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 56.44,
+      "end": 59.34,
+      "text": "하지만 수사 상황 통지와 피해자 보호는 풀려하지 않을까요?",
+      "avg_logprob": -0.09043710103517846,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.4596100278551531,
+      "words": [
+        {
+          "start": 56.44,
+          "end": 56.7,
+          "word": " 하지만",
+          "probability": 1.0
+        },
+        {
+          "start": 56.7,
+          "end": 57.04,
+          "word": " 수사",
+          "probability": 1.0
+        },
+        {
+          "start": 57.04,
+          "end": 57.26,
+          "word": " 상황",
+          "probability": 0.90087890625
+        },
+        {
+          "start": 57.26,
+          "end": 57.78,
+          "word": " 통지와",
+          "probability": 0.9794921875
+        },
+        {
+          "start": 57.78,
+          "end": 58.24,
+          "word": " 피해자",
+          "probability": 0.9978841145833334
+        },
+        {
+          "start": 58.24,
+          "end": 58.54,
+          "word": " 보호는",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 58.54,
+          "end": 58.94,
+          "word": " 풀려하지",
+          "probability": 0.876220703125
+        },
+        {
+          "start": 58.94,
+          "end": 59.34,
+          "word": " 않을까요?",
+          "probability": 0.999755859375
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\admission-work\\bwat.full.wav",
+  "model": "03-script-voice/voice-clone/training/F/asr/model-cache/models--Systran--faster-whisper-large-v3/snapshots/edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 14.8266875,
+  "duration_after_vad": 10.688,
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.16,
+      "end": 3.48,
+      "text": "교사는 복도에 남은 흔적을 봤습니다.",
+      "avg_logprob": -0.09928385516007741,
+      "no_speech_prob": 0.01383209228515625,
+      "compression_ratio": 1.3071895424836601,
+      "words": [
+        {
+          "start": 1.16,
+          "end": 1.6,
+          "word": " 교사는",
+          "probability": 0.9962565104166666
+        },
+        {
+          "start": 1.6,
+          "end": 2.22,
+          "word": " 복도에",
+          "probability": 0.9944661458333334
+        },
+        {
+          "start": 2.22,
+          "end": 2.58,
+          "word": " 남은",
+          "probability": 1.0
+        },
+        {
+          "start": 2.58,
+          "end": 2.98,
+          "word": " 흔적을",
+          "probability": 1.0
+        },
+        {
+          "start": 2.98,
+          "end": 3.48,
+          "word": " 봤습니다.",
+          "probability": 0.9873046875
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 4.04,
+      "end": 6.72,
+      "text": "신고를 받은 경찰이 현장을 확인했습니다.",
+      "avg_logprob": -0.09928385516007741,
+      "no_speech_prob": 0.01383209228515625,
+      "compression_ratio": 1.3071895424836601,
+      "words": [
+        {
+          "start": 4.04,
+          "end": 4.8,
+          "word": " 신고를",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 4.8,
+          "end": 5.2,
+          "word": " 받은",
+          "probability": 1.0
+        },
+        {
+          "start": 5.2,
+          "end": 5.78,
+          "word": " 경찰이",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 5.78,
+          "end": 6.2,
+          "word": " 현장을",
+          "probability": 1.0
+        },
+        {
+          "start": 6.2,
+          "end": 6.72,
+          "word": " 확인했습니다.",
+          "probability": 0.999267578125
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 7.93,
+      "end": 9.79,
+      "text": "조사관은 경고선을 밟았습니다.",
+      "avg_logprob": -0.09928385516007741,
+      "no_speech_prob": 0.01383209228515625,
+      "compression_ratio": 1.3071895424836601,
+      "words": [
+        {
+          "start": 7.93,
+          "end": 8.69,
+          "word": " 조사관은",
+          "probability": 0.9930419921875
+        },
+        {
+          "start": 8.69,
+          "end": 9.31,
+          "word": " 경고선을",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 9.31,
+          "end": 9.79,
+          "word": " 밟았습니다.",
+          "probability": 0.9998372395833334
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 10.9,
+      "end": 13.2,
+      "text": "담당자는 표지판 위치를 바꿨습니다.",
+      "avg_logprob": -0.09928385516007741,
+      "no_speech_prob": 0.01383209228515625,
+      "compression_ratio": 1.3071895424836601,
+      "words": [
+        {
+          "start": 10.9,
+          "end": 11.6,
+          "word": " 담당자는",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 11.6,
+          "end": 12.24,
+          "word": " 표지판",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 12.24,
+          "end": 12.58,
+          "word": " 위치를",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 12.58,
+          "end": 13.2,
+          "word": " 바꿨습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    }
+  ]
+}

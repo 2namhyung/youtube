@@ -1,0 +1,932 @@
+{
+  "slug": "research-850236285c0d81ad",
+  "topic": "[단독] \"벌금 못 내\" 버티고…하루 6.6억 원 '황제 노역'",
+  "mode": "investigation",
+  "fetchedAt": "2026-09-04T11:31:08.577Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-850236285c0d81ad.research.config.json",
+    "queries": [
+      "[단독] \"벌금 못 내\" 버티고…하루 6.6억 원 '황제 노역'",
+      "단독 벌금 버티고",
+      "단독 벌금 벌금 못 내 황제 노역",
+      "단독 벌금 하루 황제",
+      "단독 벌금 경찰 신고 수사 처분",
+      "단독 벌금 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv",
+      "naver-news",
+      "daum-news",
+      "news1-society"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ],
+    "eventFingerprint": {
+      "anchors": [
+        "단독",
+        "34",
+        "벌금",
+        "버티고",
+        "hellip",
+        "하루",
+        "6억",
+        "황제",
+        "노역",
+        "어렵게"
+      ],
+      "distinctiveAnchors": [
+        {
+          "name": "휴대전화",
+          "terms": [
+            "휴대전화",
+            "휴대폰",
+            "스마트폰",
+            "전화기",
+            "폰"
+          ]
+        }
+      ],
+      "minDistinctiveMatches": 1,
+      "minTotalMatches": 3,
+      "semanticFacets": {
+        "locations": [],
+        "actions": [],
+        "roles": [],
+        "dates": []
+      }
+    }
+  },
+  "sources": [
+    {
+      "publisher": "SBS NEWS",
+      "title": "[단독] &#34;벌금 못 내&#34; 버티고&hellip;하루 6.6억 원 '황제 노역'",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008732798&plink=RSSLINK&cooper=RSSREADER",
+      "date": "2026-09-01T20:48:14+09:00",
+      "status": "verified",
+      "snippet": "어렵게 붙잡았지만, 이 남성은 벌금 낼 돈이 없다며 오리발을 내밀고 있습니다. 수천억 원의 벌금을 내지 않아도 법적으로는 최대 3년까지만 노역을 시킬 수 있어, 현재 교도소에서 일당 6억 6천만 원짜리 황제 노역을 하고 있습니다. 이어서 안희재 기자의 단독 보도입니다. A 씨 추적에 속도가 붙은 건 두 달 전부터입니다. 수사권 폐지를 비롯한 형사소송법 개정 논의가 급물살을 타자, 검찰 조직이 남아 있을 때 최고액 미납자부터 우선 잡아야겠다고 나선 겁니다. [김학록/서울서부지검 집행과 : (형사소송법 개정안 초안에는) 검찰 수사관이 더 이상 형 집행 업무를 할 수 없는 것으로 돼 있었습니다. 10월 안에 A 씨를 포함해서 그동안 장기 미제 사건을 처리해야 된다고….] 지난 7년간 지명수배에도 A 씨가 붙잡히지 않았던 건, 범죄 수사 단계와 달리 형 집행 단계의 경우 실시간 위치 추적이 쉽지 않기 때문입니다. [염철진/서울서부지검 집행과 : 압수영장이나 계좌영장 없이, 밤낮없이 몸으로 뛰는 수밖에 없습니다. 이러한 영장이 허용됐다면 7년이 아니라 훨씬 더 단기간에 (검거가 가능했다고 봅니다.)] A 씨는 휴대전화 여러 대를 돌려쓰고, 텔레그램 메신저는 일본인 명의로 사용하면서 추적을 피해 온 걸로 드러났습니다. 검거 당시 A 씨는 \"벌금형 소멸시효 5년이 지났다\"며 반발했는데, 검찰이 시효를 연장했다고 하자, 이번엔 벌금 낼 돈이 없다며 버틴 걸로 전해졌습니다. 벌금 납부를 거부해 다시 교도소로 끌려간 A 씨는 현재 일당 6억 6천만 원짜리 '황제 노역'을 매일 하고 있는 걸로 알려졌습니다. 벌금 미납액이 아무리 많아도 최대 3년까지만 노역을 시킬 수 있기 때문입니다. [김학록/서울서부지검 집행과 : 허탈하긴 했습니다. 매달 2백억 원의 벌금을 탕감받게 되는 꼴입니다. (노역장 유치 제도가) 고액 벌금을 탕감받기 위한 수단으로 악용돼선 안 된다고 생각합니다.] 올해 7월까지 전체 벌금 미납액은 약 5조 5천억 원, A 씨 수감 기간에 약 10%가 줄어들겠지만 나머지 90%를 추적·환수하는 건 검찰과 이후 출범할 공소청의 숙제로 남았습니다. (영상취재 : 김승태, 영상편집 : 전민규, 디자인 : 박천웅)",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "단독",
+          "벌금",
+          "버티고",
+          "하루",
+          "6억",
+          "황제",
+          "노역"
+        ],
+        "snippetLength": 1079,
+        "contentLength": 1079
+      },
+      "fetchedAt": "2026-09-04T11:31:08.586Z"
+    }
+  ],
+  "relatedCoverage": [],
+  "priorContext": [],
+  "followUps": [],
+  "laws": [],
+  "actors": [],
+  "contradictions": [],
+  "unknowns": [],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 0,
+    "priorContext": 0,
+    "originalMedia": 0,
+    "followUps": 0,
+    "laws": 0,
+    "errors": 0
+  },
+  "eventDossier": {
+    "schemaVersion": 3,
+    "slug": "research-850236285c0d81ad",
+    "generatedAt": "2026-09-04T11:31:08.577Z",
+    "researchSnapshotSha256": "f493f44546ea510d57f1a13ffab462baa2f87ec004ddc5c0b2414b0aeca7d065",
+    "eventIdentity": {
+      "title": "[단독] \"벌금 못 내\" 버티고…하루 6.6억 원 '황제 노역'",
+      "fingerprint": {
+        "anchors": [
+          "단독",
+          "34",
+          "벌금",
+          "버티고",
+          "hellip",
+          "하루",
+          "6억",
+          "황제",
+          "노역",
+          "어렵게"
+        ],
+        "distinctiveAnchors": [
+          {
+            "name": "휴대전화",
+            "terms": [
+              "휴대전화",
+              "휴대폰",
+              "스마트폰",
+              "전화기",
+              "폰"
+            ]
+          }
+        ],
+        "minDistinctiveMatches": 1,
+        "minTotalMatches": 3,
+        "semanticFacets": {
+          "locations": [],
+          "actions": [],
+          "roles": [],
+          "dates": []
+        }
+      }
+    },
+    "actors": [],
+    "confirmedFacts": [
+      {
+        "id": "claim-b8fc7b576fde",
+        "summary": "어렵게 붙잡았지만, 이 남성은 벌금 낼 돈이 없다며 오리발을 내밀고 있습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-87841b582bae",
+        "summary": "수천억 원의 벌금을 내지 않아도 법적으로는 최대 3년까지만 노역을 시킬 수 있어, 현재 교도소에서 일당 6억 6천만 원짜리 황제 노역을 하고 있습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4fc1141325dc",
+        "summary": "A 씨 추적에 속도가 붙은 건 두 달 전부터입니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-87bffdb636f9",
+        "summary": "[염철진/서울서부지검 집행과 : 압수영장이나 계좌영장 없이, 밤낮없이 몸으로 뛰는 수밖에 없습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-bc929a6d85a8",
+        "summary": "이러한 영장이 허용됐다면 7년이 아니라 훨씬 더 단기간에 (검거가 가능했다고 봅니다.)] A 씨는 휴대전화 여러 대를 돌려쓰고, 텔레그램 메신저는 일본인 명의로 사용하면서 추적을 피해 온 걸로 드러났습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-332577c140bb",
+        "summary": "검거 당시 A 씨는 \"벌금형 소멸시효 5년이 지났다\"며 반발했는데, 검찰이 시효를 연장했다고 하자, 이번엔 벌금 낼 돈이 없다며 버틴 걸로 전해졌습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-cd7d441de662",
+        "summary": "벌금 납부를 거부해 다시 교도소로 끌려간 A 씨는 현재 일당 6억 6천만 원짜리 '황제 노역'을 매일 하고 있는 걸로 알려졌습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-5cf7f12a90d0",
+        "summary": "벌금 미납액이 아무리 많아도 최대 3년까지만 노역을 시킬 수 있기 때문입니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-5269b2fd0516",
+        "summary": "[김학록/서울서부지검 집행과 : 허탈하긴 했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "investigationAndCharges": [
+      {
+        "id": "claim-4bb587914c49",
+        "summary": "수사권 폐지를 비롯한 형사소송법 개정 논의가 급물살을 타자, 검찰 조직이 남아 있을 때 최고액 미납자부터 우선 잡아야겠다고 나선 겁니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-532aa458adc8",
+        "summary": "[김학록/서울서부지검 집행과 : (형사소송법 개정안 초안에는) 검찰 수사관이 더 이상 형 집행 업무를 할 수 없는 것으로 돼 있었습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-47c9ffdf6b08",
+        "summary": "10월 안에 A 씨를 포함해서 그동안 장기 미제 사건을 처리해야 된다고….] 지난 7년간 지명수배에도 A 씨가 붙잡히지 않았던 건, 범죄 수사 단계와 달리 형 집행 단계의 경우 실시간 위치 추적이 쉽지 않기 때문입니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-850236285c0d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "trialStagesAndSentenceChanges": [],
+    "prosecutionClaims": [],
+    "defenseClaims": [],
+    "courtFindings": [],
+    "victimImpact": [],
+    "timeline": [],
+    "conflicts": [],
+    "unknowns": [],
+    "laterChanges": [],
+    "narrative": {
+      "overview": [
+        {
+          "id": "claim-b8fc7b576fde",
+          "summary": "어렵게 붙잡았지만, 이 남성은 벌금 낼 돈이 없다며 오리발을 내밀고 있습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-87841b582bae",
+          "summary": "수천억 원의 벌금을 내지 않아도 법적으로는 최대 3년까지만 노역을 시킬 수 있어, 현재 교도소에서 일당 6억 6천만 원짜리 황제 노역을 하고 있습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4fc1141325dc",
+          "summary": "A 씨 추적에 속도가 붙은 건 두 달 전부터입니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4bb587914c49",
+          "summary": "수사권 폐지를 비롯한 형사소송법 개정 논의가 급물살을 타자, 검찰 조직이 남아 있을 때 최고액 미납자부터 우선 잡아야겠다고 나선 겁니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-532aa458adc8",
+          "summary": "[김학록/서울서부지검 집행과 : (형사소송법 개정안 초안에는) 검찰 수사관이 더 이상 형 집행 업무를 할 수 없는 것으로 돼 있었습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-47c9ffdf6b08",
+          "summary": "10월 안에 A 씨를 포함해서 그동안 장기 미제 사건을 처리해야 된다고….] 지난 7년간 지명수배에도 A 씨가 붙잡히지 않았던 건, 범죄 수사 단계와 달리 형 집행 단계의 경우 실시간 위치 추적이 쉽지 않기 때문입니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-87bffdb636f9",
+          "summary": "[염철진/서울서부지검 집행과 : 압수영장이나 계좌영장 없이, 밤낮없이 몸으로 뛰는 수밖에 없습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-bc929a6d85a8",
+          "summary": "이러한 영장이 허용됐다면 7년이 아니라 훨씬 더 단기간에 (검거가 가능했다고 봅니다.)] A 씨는 휴대전화 여러 대를 돌려쓰고, 텔레그램 메신저는 일본인 명의로 사용하면서 추적을 피해 온 걸로 드러났습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "chronology": [],
+      "sameEventFindings": [
+        {
+          "id": "claim-b8fc7b576fde",
+          "summary": "어렵게 붙잡았지만, 이 남성은 벌금 낼 돈이 없다며 오리발을 내밀고 있습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-87841b582bae",
+          "summary": "수천억 원의 벌금을 내지 않아도 법적으로는 최대 3년까지만 노역을 시킬 수 있어, 현재 교도소에서 일당 6억 6천만 원짜리 황제 노역을 하고 있습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4fc1141325dc",
+          "summary": "A 씨 추적에 속도가 붙은 건 두 달 전부터입니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4bb587914c49",
+          "summary": "수사권 폐지를 비롯한 형사소송법 개정 논의가 급물살을 타자, 검찰 조직이 남아 있을 때 최고액 미납자부터 우선 잡아야겠다고 나선 겁니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-532aa458adc8",
+          "summary": "[김학록/서울서부지검 집행과 : (형사소송법 개정안 초안에는) 검찰 수사관이 더 이상 형 집행 업무를 할 수 없는 것으로 돼 있었습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-47c9ffdf6b08",
+          "summary": "10월 안에 A 씨를 포함해서 그동안 장기 미제 사건을 처리해야 된다고….] 지난 7년간 지명수배에도 A 씨가 붙잡히지 않았던 건, 범죄 수사 단계와 달리 형 집행 단계의 경우 실시간 위치 추적이 쉽지 않기 때문입니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-87bffdb636f9",
+          "summary": "[염철진/서울서부지검 집행과 : 압수영장이나 계좌영장 없이, 밤낮없이 몸으로 뛰는 수밖에 없습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-bc929a6d85a8",
+          "summary": "이러한 영장이 허용됐다면 7년이 아니라 훨씬 더 단기간에 (검거가 가능했다고 봅니다.)] A 씨는 휴대전화 여러 대를 돌려쓰고, 텔레그램 메신저는 일본인 명의로 사용하면서 추적을 피해 온 걸로 드러났습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-332577c140bb",
+          "summary": "검거 당시 A 씨는 \"벌금형 소멸시효 5년이 지났다\"며 반발했는데, 검찰이 시효를 연장했다고 하자, 이번엔 벌금 낼 돈이 없다며 버틴 걸로 전해졌습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-cd7d441de662",
+          "summary": "벌금 납부를 거부해 다시 교도소로 끌려간 A 씨는 현재 일당 6억 6천만 원짜리 '황제 노역'을 매일 하고 있는 걸로 알려졌습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-5cf7f12a90d0",
+          "summary": "벌금 미납액이 아무리 많아도 최대 3년까지만 노역을 시킬 수 있기 때문입니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-5269b2fd0516",
+          "summary": "[김학록/서울서부지검 집행과 : 허탈하긴 했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "priorContext": [],
+      "followUpDevelopments": [],
+      "detailSections": [
+        {
+          "id": "harm",
+          "title": "피해와 후유증",
+          "description": "신체·정신적 피해와 공개되지 않은 범위",
+          "claims": [
+            {
+              "id": "claim-bc929a6d85a8",
+              "summary": "이러한 영장이 허용됐다면 7년이 아니라 훨씬 더 단기간에 (검거가 가능했다고 봅니다.)] A 씨는 휴대전화 여러 대를 돌려쓰고, 텔레그램 메신저는 일본인 명의로 사용하면서 추적을 피해 온 걸로 드러났습니다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-850236285c0d"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "investigation",
+          "title": "수사와 양측 주장",
+          "description": "적용 혐의와 검찰·피고인 측 주장",
+          "claims": [
+            {
+              "id": "claim-4bb587914c49",
+              "summary": "수사권 폐지를 비롯한 형사소송법 개정 논의가 급물살을 타자, 검찰 조직이 남아 있을 때 최고액 미납자부터 우선 잡아야겠다고 나선 겁니다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-850236285c0d"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-532aa458adc8",
+              "summary": "[김학록/서울서부지검 집행과 : (형사소송법 개정안 초안에는) 검찰 수사관이 더 이상 형 집행 업무를 할 수 없는 것으로 돼 있었습니다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-850236285c0d"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-47c9ffdf6b08",
+              "summary": "10월 안에 A 씨를 포함해서 그동안 장기 미제 사건을 처리해야 된다고….] 지난 7년간 지명수배에도 A 씨가 붙잡히지 않았던 건, 범죄 수사 단계와 달리 형 집행 단계의 경우 실시간 위치 추적이 쉽지 않기 때문입니다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-850236285c0d"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        }
+      ],
+      "sourceAgreement": [
+        {
+          "claimId": "claim-b8fc7b576fde",
+          "summary": "어렵게 붙잡았지만, 이 남성은 벌금 낼 돈이 없다며 오리발을 내밀고 있습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-87841b582bae",
+          "summary": "수천억 원의 벌금을 내지 않아도 법적으로는 최대 3년까지만 노역을 시킬 수 있어, 현재 교도소에서 일당 6억 6천만 원짜리 황제 노역을 하고 있습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-4fc1141325dc",
+          "summary": "A 씨 추적에 속도가 붙은 건 두 달 전부터입니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-4bb587914c49",
+          "summary": "수사권 폐지를 비롯한 형사소송법 개정 논의가 급물살을 타자, 검찰 조직이 남아 있을 때 최고액 미납자부터 우선 잡아야겠다고 나선 겁니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-532aa458adc8",
+          "summary": "[김학록/서울서부지검 집행과 : (형사소송법 개정안 초안에는) 검찰 수사관이 더 이상 형 집행 업무를 할 수 없는 것으로 돼 있었습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-47c9ffdf6b08",
+          "summary": "10월 안에 A 씨를 포함해서 그동안 장기 미제 사건을 처리해야 된다고….] 지난 7년간 지명수배에도 A 씨가 붙잡히지 않았던 건, 범죄 수사 단계와 달리 형 집행 단계의 경우 실시간 위치 추적이 쉽지 않기 때문입니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-87bffdb636f9",
+          "summary": "[염철진/서울서부지검 집행과 : 압수영장이나 계좌영장 없이, 밤낮없이 몸으로 뛰는 수밖에 없습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-bc929a6d85a8",
+          "summary": "이러한 영장이 허용됐다면 7년이 아니라 훨씬 더 단기간에 (검거가 가능했다고 봅니다.)] A 씨는 휴대전화 여러 대를 돌려쓰고, 텔레그램 메신저는 일본인 명의로 사용하면서 추적을 피해 온 걸로 드러났습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-332577c140bb",
+          "summary": "검거 당시 A 씨는 \"벌금형 소멸시효 5년이 지났다\"며 반발했는데, 검찰이 시효를 연장했다고 하자, 이번엔 벌금 낼 돈이 없다며 버틴 걸로 전해졌습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-cd7d441de662",
+          "summary": "벌금 납부를 거부해 다시 교도소로 끌려간 A 씨는 현재 일당 6억 6천만 원짜리 '황제 노역'을 매일 하고 있는 걸로 알려졌습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-5cf7f12a90d0",
+          "summary": "벌금 미납액이 아무리 많아도 최대 3년까지만 노역을 시킬 수 있기 때문입니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-5269b2fd0516",
+          "summary": "[김학록/서울서부지검 집행과 : 허탈하긴 했습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-850236285c0d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        }
+      ],
+      "conflicts": [],
+      "unresolvedQuestions": [],
+      "limitations": [
+        "독립적으로 검증된 동일 사건 추가 보도를 찾지 못했습니다.",
+        "이 사건의 직접적인 사전 맥락으로 확인된 보도를 찾지 못했습니다.",
+        "현재까지 확인된 후속 보도가 없습니다."
+      ]
+    },
+    "sourceCoverage": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "sameEventCoverageCount": 0,
+      "priorContextCount": 0,
+      "followUpCount": 0,
+      "independentPublisherCount": 1,
+      "corroboration": "single-source",
+      "rejectedSameEventSourceCount": 0
+    },
+    "readiness": {
+      "readyForLegal": true,
+      "readyForDraft": true,
+      "preferredCorroborationMet": false,
+      "detailedNarrativeComplete": true,
+      "storyClaimCount": 12,
+      "narrativePhaseCount": 3,
+      "blockers": [],
+      "warnings": [
+        "single-source-only"
+      ]
+    },
+    "sourceIndex": [
+      {
+        "sourceId": "src-850236285c0d",
+        "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008732798&plink=RSSLINK&cooper=RSSREADER",
+        "title": "[단독] \"벌금 못 내\" 버티고…하루 6.6억 원 '황제 노역'",
+        "publisher": "SBS NEWS",
+        "date": "2026-09-01T20:48:14+09:00",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "sourceExclusions": [],
+    "currentHash": "0e5ca9a4d54fd6b750ed670b9e439d0f3ab6f388d62f58aab1a459e3bf3a66bd"
+  }
+}

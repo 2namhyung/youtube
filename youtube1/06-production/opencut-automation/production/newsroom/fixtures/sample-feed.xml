@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>OpenCut newsroom fixture</title>
+    <item>
+      <title><![CDATA[지역 학교 통학로 안전 점검 확대 - SBS 뉴스]]></title>
+      <link>https://example.test/news/safe-school-route</link>
+      <pubDate>Fri, 24 Jul 2026 06:20:00 GMT</pubDate>
+      <source url="https://news.sbs.co.kr/">SBS 뉴스</source>
+      <description><![CDATA[이 본문 설명은 후보나 작업 파일에 저장되면 안 됩니다.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[집중호우 뒤 지역 교통 복구 진행 - 연합뉴스TV]]></title>
+      <link>https://example.test/news/local-recovery</link>
+      <pubDate>Fri, 24 Jul 2026 04:10:00 GMT</pubDate>
+      <source url="https://www.yonhapnewstv.co.kr/">연합뉴스TV</source>
+      <description><![CDATA[저장 금지 설명 필드]]></description>
+    </item>
+    <item>
+      <title><![CDATA[아파트 주차장 출입구 막혀 주민들 불편, 황당한 상황 - 지역뉴스]]></title>
+      <link>https://example.test/news/apartment-parking</link>
+      <pubDate>Thu, 23 Jul 2026 23:00:00 GMT</pubDate>
+      <source url="https://example.test/">지역뉴스</source>
+      <description><![CDATA[이 설명도 메타데이터에 저장하지 않습니다.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[대기업 신제품 출시 이벤트 개최 - 경제일보]]></title>
+      <link>https://example.test/news/product-event</link>
+      <pubDate>Fri, 24 Jul 2026 07:50:00 GMT</pubDate>
+      <source url="https://example.test/">경제일보</source>
+      <description><![CDATA[홍보용 본문은 후보에 포함하지 않습니다.]]></description>
+    </item>
+    <item>
+      <title>오래된 항목</title>
+      <link>javascript:alert(1)</link>
+      <pubDate>invalid</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-0b5e8a6a5fd888df",
+  "topic": "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+  "query": "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+  "keywords": [
+    "허위",
+    "종결",
+    "의혹",
+    "제주",
+    "경장",
+    "실종신고",
+    "63건",
+    "삭제하거나",
+    "미입력했다",
+    "실종"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv",
+    "naver-news",
+    "daum-news",
+    "news1-society"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "JTBC 공식 일별 기사 sitemap",
+      "title": "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+      "url": "https://news.jtbc.co.kr/article/NB12315898"
+    },
+    {
+      "publisher": "뉴스1",
+      "title": "\"빚 많다, 잘 지내라\"…경찰, 제주 60대男 실종신고때 '위험신호' 묵살",
+      "url": "https://www.news1.kr/society/incident-accident/6268725",
+      "kind": "same-event",
+      "relationshipReason": "후보 단계에서 원문 본문과 동일 사건을 검증한 독립 보도이며 프로젝트 조사에서 다시 검증합니다."
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "허위",
+      "종결",
+      "의혹",
+      "제주",
+      "경장",
+      "실종신고",
+      "63건",
+      "삭제하거나",
+      "미입력했다",
+      "실종"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "허위",
+        "terms": [
+          "허위"
+        ]
+      },
+      {
+        "name": "종결",
+        "terms": [
+          "종결"
+        ]
+      },
+      {
+        "name": "의혹",
+        "terms": [
+          "의혹"
+        ]
+      },
+      {
+        "name": "제주",
+        "terms": [
+          "제주"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "허위",
+      "종결",
+      "의혹",
+      "제주",
+      "경장",
+      "실종신고",
+      "63건",
+      "삭제하거나",
+      "미입력했다",
+      "실종"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "허위",
+        "terms": [
+          "허위"
+        ]
+      },
+      {
+        "name": "종결",
+        "terms": [
+          "종결"
+        ]
+      },
+      {
+        "name": "의혹",
+        "terms": [
+          "의혹"
+        ]
+      },
+      {
+        "name": "제주",
+        "terms": [
+          "제주"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "contradictions": [],
+  "limit": 50,
+  "generatedFrom": "promoted-newsroom-candidate"
+}

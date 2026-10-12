@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-autonomous-narration-v1",
+  "title": "Newsroom autonomous narration authority v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "narration", "beats", "editorialDecision", "evidenceLineage"],
+  "properties": {
+    "schema": { "const": "newsroom-autonomous-narration-v1" },
+    "narration": { "type": "string", "minLength": 1, "maxLength": 30000 },
+    "beats": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 64,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["role", "summary", "claimRefs"],
+        "properties": {
+          "role": { "type": "string", "minLength": 1, "maxLength": 200 },
+          "summary": { "type": "string", "minLength": 1, "maxLength": 1000 },
+          "claimRefs": { "type": "array", "maxItems": 64, "items": { "type": "string", "minLength": 1, "maxLength": 200 } }
+        }
+      }
+    },
+    "editorialDecision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["approach", "rationale", "hook", "sceneCraft", "coda"],
+      "properties": {
+        "approach": { "type": "string", "minLength": 1, "maxLength": 1000, "description": "The single central narrative axis autonomously selected from the current case evidence." },
+        "rationale": { "type": "string", "minLength": 1, "maxLength": 2000, "description": "Why that axis, evidence selection, compression, rhythm, reveal and required affective final movement fit this case." },
+        "hook": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["choice", "rationale", "openingText", "impactText", "impactClaimRefs", "impactMechanism", "expectationText", "expectationClaimRefs", "breachText", "breachClaimRefs", "withheldQuestion", "retentionGap", "payoff", "payoffClaimRefs"],
+          "properties": {
+            "choice": { "type": "string", "minLength": 1, "maxLength": 500, "description": "The model-selected case-specific hook form in its own words, not a fixed taxonomy." },
+            "rationale": { "type": "string", "minLength": 1, "maxLength": 1500, "description": "Why the opening directly collides a verified ordinary role, relationship, situation or protection/trust expectation with the verified action or risk that breaks it." },
+            "openingText": { "type": "string", "minLength": 1, "maxLength": 2000, "description": "The exact first one or two narration sentences, preserved for deterministic opening validation." },
+            "impactText": { "type": "string", "minLength": 2, "maxLength": 1500, "description": "An exact openingText span carrying the highest-impact verified current-case fact or action." },
+            "impactClaimRefs": { "type": "array", "minItems": 1, "maxItems": 64, "items": { "type": "string", "minLength": 1, "maxLength": 200 } },
+            "impactMechanism": { "type": "string", "minLength": 1, "maxLength": 1000, "description": "A free-form explanation of why the selected verified detail creates immediate case-specific impact without exaggeration." },
+            "expectationText": { "type": "string", "minLength": 2, "maxLength": 1000, "description": "An exact openingText span expressing the verified ordinary role, relationship, situation or protection/trust expectation." },
+            "expectationClaimRefs": { "type": "array", "minItems": 1, "maxItems": 64, "items": { "type": "string", "minLength": 1, "maxLength": 200 } },
+            "breachText": { "type": "string", "minLength": 2, "maxLength": 1000, "description": "An exact openingText span expressing the verified concrete action or risk that breaks the expectation." },
+            "breachClaimRefs": { "type": "array", "minItems": 1, "maxItems": 64, "items": { "type": "string", "minLength": 1, "maxLength": 200 } },
+            "withheldQuestion": { "type": "string", "minLength": 1, "maxLength": 1000, "description": "The single evidence-supported cause, process or result question left for later; it need not appear as a spoken question." },
+            "retentionGap": { "type": "string", "minLength": 1, "maxLength": 1000, "description": "A free-form audit explanation of the evidence-supported cause, escalation or result gap left after the concrete opening." },
+            "payoff": { "type": "string", "minLength": 1, "maxLength": 1500, "description": "An exact later narration span that accurately answers the withheld question without harming chronological clarity." },
+            "payoffClaimRefs": { "type": "array", "minItems": 1, "maxItems": 64, "items": { "type": "string", "minLength": 1, "maxLength": 200 } }
+          }
+        },
+        "sceneCraft": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["approach", "continuityRationale", "sceneSpans", "attributionStrategy", "attributions"],
+          "properties": {
+            "approach": { "type": "string", "minLength": 1, "maxLength": 1000, "description": "The model-selected way the narration embeds the listener inside this case's verified physical sequence, without a fixed scene template." },
+            "continuityRationale": { "type": "string", "minLength": 1, "maxLength": 1500, "description": "How verified spatial, audible or action cues let an audio-only listener follow changes and continuity." },
+            "sceneSpans": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 64,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["text", "claimRefs", "continuityRole"],
+                "properties": {
+                  "text": { "type": "string", "minLength": 2, "maxLength": 1500, "description": "An exact narration span carrying a verified physical cue or linked action." },
+                  "claimRefs": { "type": "array", "minItems": 1, "maxItems": 64, "items": { "type": "string", "minLength": 1, "maxLength": 200 } },
+                  "continuityRole": { "type": "string", "minLength": 1, "maxLength": 500, "description": "A free-form account of how this span advances spatial, audible, action or temporal continuity; not a fixed taxonomy." }
+                }
+              }
+            },
+            "attributionStrategy": { "type": "string", "minLength": 1, "maxLength": 1500, "description": "How legally necessary attribution remains accurate through a clearly responsible named source or evidence object, while reportorial production meta and subjectless passive attribution are excluded." },
+            "attributions": {
+              "type": "array",
+              "maxItems": 64,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["text", "claimRefs", "necessity"],
+                "properties": {
+                  "text": { "type": "string", "minLength": 2, "maxLength": 1500, "description": "An exact narration attribution span that identifies the responsible source, record or evidence object." },
+                  "claimRefs": { "type": "array", "minItems": 1, "maxItems": 64, "items": { "type": "string", "minLength": 1, "maxLength": 200 } },
+                  "necessity": { "type": "string", "minLength": 1, "maxLength": 1000, "description": "Why attribution or qualification is necessary for these current-case claims." }
+                }
+              }
+            }
+          }
+        },
+        "coda": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["dominantAftertaste", "codaRationale", "closingText", "claimRefs"],
+          "properties": {
+            "dominantAftertaste": { "type": "string", "minLength": 1, "maxLength": 300, "description": "The model-selected case-specific emotional aftertaste in free text, with no fixed taxonomy." },
+            "codaRationale": { "type": "string", "minLength": 1, "maxLength": 1500, "description": "Why this coda follows from current-case evidence and avoids a reusable stock ending." },
+            "closingText": { "type": "string", "minLength": 2, "maxLength": 1500, "description": "The exact final narration sentence." },
+            "claimRefs": { "type": "array", "minItems": 1, "maxItems": 64, "items": { "type": "string", "minLength": 1, "maxLength": 200 } }
+          }
+        }
+      }
+    },
+    "evidenceLineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "packageSha256", "eventDossierSha256", "legalReportSha256", "usedClaimRefs"],
+      "properties": {
+        "schema": { "const": "newsroom-autonomous-narration-evidence-lineage-v1" },
+        "packageSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "eventDossierSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "legalReportSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "usedClaimRefs": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 200 } }
+      }
+    }
+  }
+}

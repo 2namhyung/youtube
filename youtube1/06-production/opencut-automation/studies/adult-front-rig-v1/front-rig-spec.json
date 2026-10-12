@@ -1,0 +1,38 @@
+{
+  "schema": "adult-front-rig-spec-v1",
+  "status": "private-review-candidate",
+  "productionApproved": false,
+  "canvas": { "width": 1024, "height": 1536 },
+  "geometryAuthority": {
+    "view": "orthographic-front",
+    "alphaBounds": { "left": 182, "top": 110, "right": 842, "bottom": 1430 },
+    "jointTolerancePx": 4,
+    "joints": {
+      "root": [512, 824],
+      "neck": [512, 397],
+      "head": [512, 252],
+      "shoulderL": [386, 456],
+      "elbowL": [318, 637],
+      "wristL": [252, 782],
+      "shoulderR": [638, 456],
+      "elbowR": [706, 637],
+      "wristR": [772, 782],
+      "hipL": [443, 844],
+      "kneeL": [424, 1092],
+      "ankleL": [410, 1334],
+      "hipR": [581, 844],
+      "kneeR": [600, 1092],
+      "ankleR": [614, 1334]
+    }
+  },
+  "appearancePackRules": {
+    "allowed": ["hair-inside-head-envelope", "face-details", "skin-palette", "garment-colors", "garment-interior-details"],
+    "forbidden": ["pose", "camera-view", "joint-centers", "limb-length", "limb-thickness", "body-proportion", "canvas", "case-role-insignia", "logo", "text"]
+  },
+  "renderPolicy": {
+    "engine": "OpenToonz-1.8-Plastic",
+    "sameSkeletonRequired": true,
+    "singleFlattenedRaster": "review-only-small-motion",
+    "productionActingRequirement": "separated-overlapping-parts-with-hidden-fills"
+  }
+}

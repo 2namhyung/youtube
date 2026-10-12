@@ -1,0 +1,167 @@
+{
+  "$defs": {
+    "Attestation": {
+      "additionalProperties": false,
+      "properties": {
+        "actor": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Actor",
+          "type": "string"
+        },
+        "model": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Model",
+          "type": "string"
+        },
+        "surface": {
+          "enum": [
+            "chrome-use",
+            "computer-use",
+            "manual",
+            "fixture",
+            "youtube-data-api"
+          ],
+          "title": "Surface",
+          "type": "string"
+        },
+        "receipt_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Receipt Ids",
+          "type": "array"
+        },
+        "notes": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Notes",
+          "type": "string"
+        }
+      },
+      "required": [
+        "actor",
+        "model",
+        "surface",
+        "receipt_ids",
+        "notes"
+      ],
+      "title": "Attestation",
+      "type": "object"
+    },
+    "Claim": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "level": {
+          "enum": [
+            "seller_claim",
+            "independently_observed",
+            "unverified"
+          ],
+          "title": "Level",
+          "type": "string"
+        },
+        "receipt_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Receipt Ids",
+          "type": "array"
+        },
+        "expires_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Expires At"
+        }
+      },
+      "required": [
+        "id",
+        "text",
+        "level",
+        "receipt_ids"
+      ],
+      "title": "Claim",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Name",
+      "type": "string"
+    },
+    "brand": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Brand",
+      "type": "string"
+    },
+    "model": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Model",
+      "type": "string"
+    },
+    "variant": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Variant",
+      "type": "string"
+    },
+    "url": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Url",
+      "type": "string"
+    },
+    "claims": {
+      "items": {
+        "$ref": "#/$defs/Claim"
+      },
+      "maxItems": 50,
+      "minItems": 1,
+      "title": "Claims",
+      "type": "array"
+    },
+    "attestation": {
+      "$ref": "#/$defs/Attestation"
+    }
+  },
+  "required": [
+    "name",
+    "brand",
+    "model",
+    "variant",
+    "url",
+    "claims",
+    "attestation"
+  ],
+  "title": "Product",
+  "type": "object"
+}

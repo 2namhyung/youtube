@@ -1,0 +1,29 @@
+{
+  "projectId": "research-657380fce7eaccc9-editorial-cartoon",
+  "title": { "line1": "커피에 살충제", "line2": "항소심 감형" },
+  "scriptSource": "script.final.json",
+  "assetsRoot": "assets",
+  "scenes": [
+    { "label": "AI 재연·편집", "captionAnchor": "커피에 살충제를" },
+    { "label": "AI 재연·편집", "captionAnchor": "1심은 특수상해" },
+    { "label": "AI 재연·편집", "captionAnchor": "사건일은 보도마다" }
+  ],
+  "sceneAssets": ["assets/scene-01-cafe-placeholder.png", "assets/scene-02-court-placeholder.png", "assets/scene-03-record-placeholder.png"],
+  "imageGenPrompts": [
+    "Editorial 2D cartoon, anonymous hospital break-room table with two plain coffee cups and a sealed generic bottle kept out of reach, no labels, no people, no readable text, non-graphic factual reenactment, vertical 9:16.",
+    "Editorial 2D cartoon, neutral courtroom exterior and split timeline cards for first trial and appeal, no judge faces, no logos, no exact date text, restrained factual palette, vertical 9:16.",
+    "Editorial 2D cartoon, evidence ledger with disputed-date marker and magnifying glass, no chemical depiction, no people, no readable text, AI reenactment disclosure area, vertical 9:16."
+  ],
+  "evidenceBasis": [
+    "workflow draft.incident and claim-652fe8c81aa8/claim-d481b0781ff8: coffee contamination reported; incident date conflict must remain unresolved",
+    "workflow draft.timeline and claims claim-fc54d3811ea6/claim-9cfeb9654123: first-trial and appeal sentences reported",
+    "workflow draft.confirmation and legal report prohibitedClaims: omit pesticide type/amount and exact appeal date"
+  ],
+  "aiDisclosureLabel": "AI 재연·편집",
+  "narration": { "mode": "edge-tts", "voice": "ko-KR-SunHiNeural", "rate": "+0%", "pitch": "+0Hz" },
+  "bgm": { "provider": "stable-audio-3", "prompt": "restrained factual newsroom underscore, no suspense swell", "seed": 732, "provenance": "script.final.json", "duckUnderNarration": true, "required": false },
+  "captionPreset": { "id": "information-delta-v14-white-on-black-2line", "fontFamily": "Noto Sans KR", "fontWeight": 800, "fontSize": 88, "scaleX": 94, "safeWidth": 920, "maxLines": 2, "lineHeight": 1.08, "x": 540, "y": 1400, "color": "#FFFFFF", "outlineColor": "#000000", "outlineWidth": 5, "background": "black" },
+  "releaseGate": { "publishable": false, "releaseStatus": "preview", "uploadBlocked": true, "blockers": [{ "id": "stage07-review-required", "stage": "07-quality-assurance", "severity": "block", "claim": "Editorial-cartoon preview", "reason": "Render, exact artifact hashing, and Stage 07 approval are pending.", "authority": { "case": "local-release-policy", "url": "https://example.invalid/local-release-policy" } }] },
+  "output": { "frames": 360, "durationSeconds": 12, "width": 1080, "height": 1920, "fps": 30 },
+  "wanMotionScenes": []
+}

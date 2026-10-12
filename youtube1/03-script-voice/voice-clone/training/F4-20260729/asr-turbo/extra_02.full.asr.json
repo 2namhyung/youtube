@@ -1,0 +1,370 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-20260729\\admission-work\\extra_02.full.wav",
+  "model": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F\\asr-turbo\\model-cache\\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\\snapshots\\0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 30.6986875,
+  "duration_after_vad": 25.856,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.9,
+      "end": 3.72,
+      "text": "담당자는 현장을 보존하고 출입 기록을 받았습니다.",
+      "avg_logprob": -0.07934736465515733,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5232558139534884,
+      "words": [
+        {
+          "start": 0.9,
+          "end": 1.5,
+          "word": " 담당자는",
+          "probability": 0.9944661458333334
+        },
+        {
+          "start": 1.5,
+          "end": 1.96,
+          "word": " 현장을",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 1.96,
+          "end": 2.52,
+          "word": " 보존하고",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 2.52,
+          "end": 2.86,
+          "word": " 출입",
+          "probability": 0.99609375
+        },
+        {
+          "start": 2.86,
+          "end": 3.2,
+          "word": " 기록을",
+          "probability": 0.92236328125
+        },
+        {
+          "start": 3.2,
+          "end": 3.72,
+          "word": " 받았습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 4.68,
+      "end": 11.0,
+      "text": "기록에는 오전 7시 55분부터 8시 12분까지 낯선 방문자가 머문 흔적이 남아있었습니다.",
+      "avg_logprob": -0.07934736465515733,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5232558139534884,
+      "words": [
+        {
+          "start": 4.68,
+          "end": 5.26,
+          "word": " 기록에는",
+          "probability": 0.9934895833333334
+        },
+        {
+          "start": 5.26,
+          "end": 5.64,
+          "word": " 오전",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 5.64,
+          "end": 6.12,
+          "word": " 7시",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 6.12,
+          "end": 7.06,
+          "word": " 55분부터",
+          "probability": 0.9918212890625
+        },
+        {
+          "start": 7.06,
+          "end": 7.58,
+          "word": " 8시",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 7.58,
+          "end": 8.42,
+          "word": " 12분까지",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 8.42,
+          "end": 9.02,
+          "word": " 낯선",
+          "probability": 0.9931640625
+        },
+        {
+          "start": 9.02,
+          "end": 9.48,
+          "word": " 방문자가",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 9.48,
+          "end": 9.82,
+          "word": " 머문",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 9.82,
+          "end": 10.24,
+          "word": " 흔적이",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 10.24,
+          "end": 11.0,
+          "word": " 남아있었습니다.",
+          "probability": 0.964111328125
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 12.67,
+      "end": 16.05,
+      "text": "교사는 아이들이 오기 전에 무엇을 확인해야 할까요? 라고 물었고",
+      "avg_logprob": -0.07934736465515733,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5232558139534884,
+      "words": [
+        {
+          "start": 12.67,
+          "end": 13.11,
+          "word": " 교사는",
+          "probability": 0.9972330729166666
+        },
+        {
+          "start": 13.11,
+          "end": 13.59,
+          "word": " 아이들이",
+          "probability": 0.992919921875
+        },
+        {
+          "start": 13.59,
+          "end": 13.83,
+          "word": " 오기",
+          "probability": 1.0
+        },
+        {
+          "start": 13.83,
+          "end": 14.01,
+          "word": " 전에",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 14.01,
+          "end": 14.47,
+          "word": " 무엇을",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 14.47,
+          "end": 14.87,
+          "word": " 확인해야",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 14.87,
+          "end": 15.23,
+          "word": " 할까요?",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 15.35,
+          "end": 15.51,
+          "word": " 라고",
+          "probability": 0.982421875
+        },
+        {
+          "start": 15.51,
+          "end": 16.05,
+          "word": " 물었고",
+          "probability": 0.9991861979166666
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 16.42,
+      "end": 21.16,
+      "text": "안전 담당자는 먼저 문 손잡이와 주변 영상을 살펴보겠습니다. 라고 답했습니다.",
+      "avg_logprob": -0.07934736465515733,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5232558139534884,
+      "words": [
+        {
+          "start": 16.42,
+          "end": 16.96,
+          "word": " 안전",
+          "probability": 0.904296875
+        },
+        {
+          "start": 16.96,
+          "end": 17.54,
+          "word": " 담당자는",
+          "probability": 0.9440104166666666
+        },
+        {
+          "start": 17.54,
+          "end": 17.86,
+          "word": " 먼저",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 17.86,
+          "end": 18.1,
+          "word": " 문",
+          "probability": 0.998046875
+        },
+        {
+          "start": 18.1,
+          "end": 18.74,
+          "word": " 손잡이와",
+          "probability": 0.9708251953125
+        },
+        {
+          "start": 18.74,
+          "end": 19.1,
+          "word": " 주변",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 19.1,
+          "end": 19.5,
+          "word": " 영상을",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 19.5,
+          "end": 20.22,
+          "word": " 살펴보겠습니다.",
+          "probability": 0.9981689453125
+        },
+        {
+          "start": 20.56,
+          "end": 20.56,
+          "word": " 라고",
+          "probability": 0.99609375
+        },
+        {
+          "start": 20.56,
+          "end": 21.16,
+          "word": " 답했습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 22.73,
+      "end": 24.95,
+      "text": "두 사람은 서두르지 않고 사진을 찍었으며",
+      "avg_logprob": -0.07934736465515733,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5232558139534884,
+      "words": [
+        {
+          "start": 22.73,
+          "end": 22.83,
+          "word": " 두",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 22.83,
+          "end": 23.19,
+          "word": " 사람은",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 23.19,
+          "end": 23.67,
+          "word": " 서두르지",
+          "probability": 0.9993896484375
+        },
+        {
+          "start": 23.67,
+          "end": 23.85,
+          "word": " 않고",
+          "probability": 1.0
+        },
+        {
+          "start": 23.85,
+          "end": 24.29,
+          "word": " 사진을",
+          "probability": 1.0
+        },
+        {
+          "start": 24.29,
+          "end": 24.95,
+          "word": " 찍었으며",
+          "probability": 0.9998779296875
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 25.19,
+      "end": 29.77,
+      "text": "훼손된 안내판에 수리비가 32만원 정도라는 설명도 덧붙였습니다.",
+      "avg_logprob": -0.07934736465515733,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5232558139534884,
+      "words": [
+        {
+          "start": 25.19,
+          "end": 25.91,
+          "word": " 훼손된",
+          "probability": 0.99306640625
+        },
+        {
+          "start": 25.91,
+          "end": 26.55,
+          "word": " 안내판에",
+          "probability": 0.9759521484375
+        },
+        {
+          "start": 26.55,
+          "end": 27.15,
+          "word": " 수리비가",
+          "probability": 0.9991455078125
+        },
+        {
+          "start": 27.15,
+          "end": 28.01,
+          "word": " 32만원",
+          "probability": 0.984375
+        },
+        {
+          "start": 28.01,
+          "end": 28.65,
+          "word": " 정도라는",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 28.65,
+          "end": 29.23,
+          "word": " 설명도",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 29.23,
+          "end": 29.77,
+          "word": " 덧붙였습니다.",
+          "probability": 0.9991048177083334
+        }
+      ]
+    }
+  ]
+}

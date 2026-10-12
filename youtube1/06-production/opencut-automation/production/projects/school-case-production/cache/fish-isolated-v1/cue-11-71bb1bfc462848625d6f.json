@@ -1,0 +1,41 @@
+{
+  "cacheSchema": 3,
+  "audioPolicy": "leading-trim-100ms-tail-pad-v1",
+  "alignmentPolicy": "word-dp-critical-exact-v2",
+  "synthesisPolicy": "canonical-syllables-punctuation-microsegment-v3",
+  "duration": 5.753469387755102,
+  "wavSha256": "b29b1117b22c89c17dc0455898a854d601d9003f17cf034ab4b94ff891bc1b3c",
+  "acceptance": {
+    "seed": 20271928,
+    "attempt": 1,
+    "leadingTrimSeconds": 0,
+    "validator": "per-microsegment-exact-asr",
+    "microSegments": [
+      {
+        "originalText": "혐의는 건조물",
+        "synthesisText": "혐의는 건 조 물",
+        "variant": 3,
+        "seed": 20271928,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-small"
+      },
+      {
+        "originalText": "침입과",
+        "synthesisText": "침입과",
+        "variant": 1,
+        "seed": 20271743,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-medium"
+      },
+      {
+        "originalText": "재물손괴뿐.",
+        "synthesisText": "재물, 손. 괴뿐.",
+        "variant": 1,
+        "seed": 20271760,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-medium"
+      }
+    ],
+    "microSegmentPauseSeconds": 0.16
+  }
+}

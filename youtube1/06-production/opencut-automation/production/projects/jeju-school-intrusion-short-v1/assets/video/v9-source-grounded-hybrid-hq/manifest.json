@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-05T04:04:24.803Z",
+  "purpose": "Restore source-grounded environmental motion clips before the fixed 1080x1920 Shorts composition.",
+  "engine": {
+    "name": "Real-ESRGAN ncnn Vulkan",
+    "release": "v0.2.3.0 / realesrgan-ncnn-vulkan-20211212-windows",
+    "repository": "https://github.com/xinntao/Real-ESRGAN",
+    "model": "realesrgan-x4plus",
+    "scale": 2,
+    "executableSha256": "50dff64fe2d6c346abdcec4d1b0fa9b894bb8bfc9137f70bf97f229de0477c39",
+    "modelParamSha256": "35330ececcea33b6c397a72548e788d5d53becee4734c50b7fada36e89f10a86",
+    "modelWeightsSha256": "713ee713b0353afaa27976f0563a64a5043bd70b9bd8936c2e26e25ebcdbcddf"
+  },
+  "temporalPolicy": {
+    "fps": 16,
+    "interpolation": "FFmpeg minterpolate only where the scene slot exceeds the original 25-frame clip",
+    "noTailFreeze": true
+  },
+  "assets": [
+    {
+      "name": "01-classroom-window.mp4",
+      "source": "assets/video/v8-source-grounded-hybrid/01-classroom-window.mp4",
+      "sourceSha256": "52d7441e4d731c5f69eeb39b269640c378bdc21ada51e1222eab82d85c9332a6",
+      "sourceMedia": {
+        "width": 480,
+        "height": 832,
+        "fps": "16/1",
+        "frames": 25
+      },
+      "output": "assets/video/v9-source-grounded-hybrid-hq/01-classroom-window.mp4",
+      "outputSha256": "ffadb5c420c61ee4bf52814585c36353a2ee3c2a5d7c45db05122d6218c18d92",
+      "outputMedia": {
+        "width": 960,
+        "height": 1664,
+        "fps": "16/1",
+        "frames": 25
+      }
+    },
+    {
+      "name": "02-school-exterior.mp4",
+      "source": "assets/video/v8-source-grounded-hybrid/02-school-exterior.mp4",
+      "sourceSha256": "7c292bd139d7ecb56df9874d36960ba441ff4b24b2ffed1124470b4cae2855de",
+      "sourceMedia": {
+        "width": 480,
+        "height": 832,
+        "fps": "16/1",
+        "frames": 25
+      },
+      "output": "assets/video/v9-source-grounded-hybrid-hq/02-school-exterior.mp4",
+      "outputSha256": "236582743b0dddf3fd76acea9c85dd24a16fc8425586b49c92b6e7a81af6a19f",
+      "outputMedia": {
+        "width": 960,
+        "height": 1664,
+        "fps": "16/1",
+        "frames": 26
+      }
+    },
+    {
+      "name": "03-tumbler-rim.mp4",
+      "source": "assets/video/v8-source-grounded-hybrid/03-tumbler-rim.mp4",
+      "sourceSha256": "da626efefcbcd4c2e576eea2adf1134f1dab6a81ab0733f556eff0ae26753987",
+      "sourceMedia": {
+        "width": 480,
+        "height": 832,
+        "fps": "16/1",
+        "frames": 25
+      },
+      "output": "assets/video/v9-source-grounded-hybrid-hq/03-tumbler-rim.mp4",
+      "outputSha256": "ce7f51c3748ef09c246518e759d4eb5d0e74408142735455f437cb56a1157666",
+      "outputMedia": {
+        "width": 960,
+        "height": 1664,
+        "fps": "16/1",
+        "frames": 25
+      }
+    },
+    {
+      "name": "04-cctv-monitor.mp4",
+      "source": "assets/video/v8-source-grounded-hybrid/04-cctv-monitor.mp4",
+      "sourceSha256": "a50f767d84ebeb8e576c741ef7e98ae177e050146bcf59ba71e7b94a3fe17944",
+      "sourceMedia": {
+        "width": 480,
+        "height": 832,
+        "fps": "16/1",
+        "frames": 25
+      },
+      "output": "assets/video/v9-source-grounded-hybrid-hq/04-cctv-monitor.mp4",
+      "outputSha256": "881d07847960173962eb467d5b9a93b281e813224a813576df07d1945edf6f77",
+      "outputMedia": {
+        "width": 960,
+        "height": 1664,
+        "fps": "16/1",
+        "frames": 37
+      }
+    },
+    {
+      "name": "05-locked-door.mp4",
+      "source": "assets/video/v8-source-grounded-hybrid/05-locked-door.mp4",
+      "sourceSha256": "f62e1fc068e4ad189c9b2f8dc00c74b5466c875fa4cae77e51fcca304f9f7bec",
+      "sourceMedia": {
+        "width": 480,
+        "height": 832,
+        "fps": "16/1",
+        "frames": 25
+      },
+      "output": "assets/video/v9-source-grounded-hybrid-hq/05-locked-door.mp4",
+      "outputSha256": "5bcf0e2adabbeb23f5e51494c659917f8e0e9391ce626a7c02dd80df85a89945",
+      "outputMedia": {
+        "width": 960,
+        "height": 1664,
+        "fps": "16/1",
+        "frames": 26
+      }
+    }
+  ]
+}

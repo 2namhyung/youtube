@@ -1,0 +1,2974 @@
+{
+  "schema_version": 1,
+  "pilot_id": "model-ab-20260729",
+  "privacy": "private/local-only; no upload/render/production mutation",
+  "created": "2026-07-29",
+  "hardware_gate": {
+    "initial_temperature_c": 52.0,
+    "gate_max_c": 52,
+    "hard_stop_c": 74,
+    "poll_seconds": 0.5,
+    "unknown_process_kill": false
+  },
+  "reference": {
+    "source": "C:\\Users\\User\\Documents\\소리 녹음\\F4_target_gyogwon.m4a.m4a",
+    "source_sha256": "C3BABD0C005309E1F3550124E4837F2441C9812529344E86AD41204D02770DCD",
+    "converted_audio": "f4_ref_gyogwon.wav",
+    "converted_sha256": "31B3FDEE6E1417DAEE8DD863F479B01408A840CC21762C2927E2A3C97B4A4646",
+    "ref_text": "교권보호국은 교권을 보호하는 가상의 기관입니다. 현실의 교권 보호 제도는 제대로 작동하고 있을까요? 교권과 권한은 서로 다른 의미를 가집니다."
+  },
+  "fixed_text": {
+    "critical": "교권보호국은 제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물침입과 재물손괴 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+    "heldout": "검찰은 건조물침입과 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호 장치가 필요할까요?",
+    "tempo": 1.0
+  },
+  "models": {
+    "qwen": {
+      "package": "qwen-tts==0.1.1",
+      "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "license": "Apache-2.0",
+      "status": "completed",
+      "peak_temperature_c": 59.0,
+      "peak_vram_used_mb": 5042.0,
+      "outputs": {
+        "critical": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\qwen_critical.wav",
+          "sha256": "529F08ED77C1FE7545D1F5F979AD8116D2ED8C5B79CE52057903194502015F6F",
+          "sample_rate": 24000,
+          "duration_seconds": 14.96
+        },
+        "heldout": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\qwen_heldout.wav",
+          "sha256": "32BCD74696D720D7A98DC273BBC242D8170CE48C12D35464DC921B96F3312FE7",
+          "sample_rate": 24000,
+          "duration_seconds": 16.48
+        }
+      },
+      "asr": {
+        "primary": {
+          "critical": {
+            "transcript": "교권보호국은 제주에서 제주한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물송계 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "expected": "교권보호국은 제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물침입과 재물손괴 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "exact_normalized": false,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 8.3,
+                "text": " 교권보호국은 제주에서 제주한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다.",
+                "avg_logprob": -0.07590662563840549
+              },
+              {
+                "start": 9.08,
+                "end": 14.8,
+                "text": " 경찰은 건조물 침입과 재물송계 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+                "avg_logprob": -0.07590662563840549
+              }
+            ]
+          },
+          "heldout": {
+            "transcript": "검찰은 건조물 침입과 재물손괴 혐의를 따로 검토했고 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?",
+            "expected": "검찰은 건조물침입과 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호 장치가 필요할까요?",
+            "exact_normalized": false,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 6.86,
+                "text": " 검찰은 건조물 침입과 재물손괴 혐의를 따로 검토했고 디지털 포렌식 결과도 함께 살폈습니다.",
+                "avg_logprob": -0.09081483667805082
+              },
+              {
+                "start": 8.32,
+                "end": 12.040000000000001,
+                "text": " 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다.",
+                "avg_logprob": -0.09081483667805082
+              },
+              {
+                "start": 13.780000000000001,
+                "end": 16.42,
+                "text": " 반복을 막으려면 어떤 보호장치가 필요할까요?",
+                "avg_logprob": -0.09081483667805082
+              }
+            ]
+          }
+        },
+        "turbo": {
+          "critical": {
+            "transcript": "교권보호국은 제주에서 제주한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물손괴 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "expected": "교권보호국은 제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물침입과 재물손괴 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "exact_normalized": false,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 14.780000000000001,
+                "text": " 교권보호국은 제주에서 제주한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물손괴 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+                "avg_logprob": -0.0758925082094698
+              }
+            ]
+          },
+          "heldout": {
+            "transcript": "검찰은 건조물 침입과 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?",
+            "expected": "검찰은 건조물침입과 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호 장치가 필요할까요?",
+            "exact_normalized": true,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 6.76,
+                "text": " 검찰은 건조물 침입과 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다.",
+                "avg_logprob": -0.08963173417484059
+              },
+              {
+                "start": 8.32,
+                "end": 11.94,
+                "text": " 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다.",
+                "avg_logprob": -0.08963173417484059
+              },
+              {
+                "start": 13.780000000000001,
+                "end": 16.42,
+                "text": " 반복을 막으려면 어떤 보호장치가 필요할까요?",
+                "avg_logprob": -0.08963173417484059
+              }
+            ]
+          }
+        }
+      },
+      "audio_metrics": {
+        "gpt_critical": {
+          "duration_seconds": 15.58,
+          "sample_rate": 32000,
+          "peak_dbfs": -8.68565440492491,
+          "silence_intervals_ge_50ms": [
+            {
+              "start": 2.39725,
+              "end": 2.844125,
+              "duration": 0.446875
+            },
+            {
+              "start": 3.92559375,
+              "end": 4.4169375,
+              "duration": 0.49134375
+            },
+            {
+              "start": 5.58465625,
+              "end": 6.3640625,
+              "duration": 0.77940625
+            },
+            {
+              "start": 6.57884375,
+              "end": 6.63434375,
+              "duration": 0.0555
+            },
+            {
+              "start": 6.89340625,
+              "end": 7.21228125,
+              "duration": 0.318875
+            },
+            {
+              "start": 8.25628125,
+              "end": 8.87434375,
+              "duration": 0.6180625
+            },
+            {
+              "start": 9.826,
+              "end": 9.876875,
+              "duration": 0.050875
+            },
+            {
+              "start": 10.09853125,
+              "end": 10.22990625,
+              "duration": 0.131375
+            },
+            {
+              "start": 11.592375,
+              "end": 11.64625,
+              "duration": 0.053875
+            },
+            {
+              "start": 11.8440625,
+              "end": 11.9186875,
+              "duration": 0.074625
+            },
+            {
+              "start": 12.032875,
+              "end": 12.0876875,
+              "duration": 0.0548125
+            },
+            {
+              "start": 12.31609375,
+              "end": 12.767875,
+              "duration": 0.45178125
+            },
+            {
+              "start": 13.24425,
+              "end": 13.32659375,
+              "duration": 0.08234375
+            },
+            {
+              "start": 13.6869375,
+              "end": 13.75615625,
+              "duration": 0.06921875
+            },
+            {
+              "start": 14.1630625,
+              "end": 14.42046875,
+              "duration": 0.25740625
+            }
+          ],
+          "max_silence_seconds": 0.77940625,
+          "pitch_median_hz": 115.7871897002253,
+          "pitch_jump_count_gt_80hz": 129,
+          "pitch_max_jump_hz": 281.7793560151639,
+          "boundary_leading_silence_seconds": 0.35440625,
+          "boundary_trailing_silence_seconds": 0.4039375
+        },
+        "gpt_heldout": {
+          "duration_seconds": 14.46,
+          "sample_rate": 32000,
+          "peak_dbfs": -8.203565037058484,
+          "silence_intervals_ge_50ms": [
+            {
+              "start": 1.84046875,
+              "end": 1.9368125,
+              "duration": 0.09634375
+            },
+            {
+              "start": 2.17959375,
+              "end": 2.23621875,
+              "duration": 0.056625
+            },
+            {
+              "start": 2.4496875,
+              "end": 2.5168125,
+              "duration": 0.067125
+            },
+            {
+              "start": 2.71446875,
+              "end": 2.856875,
+              "duration": 0.14240625
+            },
+            {
+              "start": 3.00975,
+              "end": 3.43696875,
+              "duration": 0.42721875
+            },
+            {
+              "start": 3.65996875,
+              "end": 3.7193125,
+              "duration": 0.05934375
+            },
+            {
+              "start": 3.88759375,
+              "end": 3.95175,
+              "duration": 0.06415625
+            },
+            {
+              "start": 3.951875,
+              "end": 4.01525,
+              "duration": 0.063375
+            },
+            {
+              "start": 4.35871875,
+              "end": 4.43921875,
+              "duration": 0.0805
+            },
+            {
+              "start": 5.18275,
+              "end": 5.25653125,
+              "duration": 0.07378125
+            },
+            {
+              "start": 6.03265625,
+              "end": 6.726875,
+              "duration": 0.69421875
+            },
+            {
+              "start": 7.9185625,
+              "end": 7.9993125,
+              "duration": 0.08075
+            },
+            {
+              "start": 8.5373125,
+              "end": 8.87,
+              "duration": 0.3326875
+            },
+            {
+              "start": 8.98734375,
+              "end": 9.05440625,
+              "duration": 0.0670625
+            },
+            {
+              "start": 10.43259375,
+              "end": 11.1143125,
+              "duration": 0.68171875
+            },
+            {
+              "start": 12.1509375,
+              "end": 12.5885625,
+              "duration": 0.437625
+            },
+            {
+              "start": 13.51865625,
+              "end": 13.57675,
+              "duration": 0.05809375
+            },
+            {
+              "start": 13.85225,
+              "end": 13.9114375,
+              "duration": 0.0591875
+            }
+          ],
+          "max_silence_seconds": 0.69421875,
+          "pitch_median_hz": 120.02927415031743,
+          "pitch_jump_count_gt_80hz": 125,
+          "pitch_max_jump_hz": 281.7793560151639,
+          "boundary_leading_silence_seconds": 0.75428125,
+          "boundary_trailing_silence_seconds": 0.33609375
+        },
+        "gpt_ref_trim": {
+          "duration_seconds": 8.0,
+          "sample_rate": 32000,
+          "peak_dbfs": -5.694401807640749,
+          "silence_intervals_ge_50ms": [
+            {
+              "start": 0.05378125,
+              "end": 0.4431875,
+              "duration": 0.38940625
+            },
+            {
+              "start": 0.494875,
+              "end": 1.42565625,
+              "duration": 0.93078125
+            },
+            {
+              "start": 1.55078125,
+              "end": 1.6639375,
+              "duration": 0.11315625
+            },
+            {
+              "start": 2.65778125,
+              "end": 2.752875,
+              "duration": 0.09509375
+            },
+            {
+              "start": 2.75296875,
+              "end": 2.99721875,
+              "duration": 0.24425
+            },
+            {
+              "start": 3.12625,
+              "end": 3.19990625,
+              "duration": 0.07365625
+            },
+            {
+              "start": 3.47359375,
+              "end": 3.52459375,
+              "duration": 0.051
+            },
+            {
+              "start": 4.10484375,
+              "end": 4.1621875,
+              "duration": 0.05734375
+            },
+            {
+              "start": 5.3439375,
+              "end": 6.37196875,
+              "duration": 1.02803125
+            },
+            {
+              "start": 6.95659375,
+              "end": 7.04425,
+              "duration": 0.08765625
+            }
+          ],
+          "max_silence_seconds": 1.02803125,
+          "pitch_median_hz": 112.45429475754898,
+          "pitch_jump_count_gt_80hz": 90,
+          "pitch_max_jump_hz": 280.80755164400944,
+          "boundary_leading_silence_seconds": 0.051,
+          "boundary_trailing_silence_seconds": 0.00734375
+        },
+        "qwen_critical": {
+          "duration_seconds": 14.96,
+          "sample_rate": 24000,
+          "peak_dbfs": -7.456204542546025,
+          "silence_intervals_ge_50ms": [
+            {
+              "start": 0.3207083333333333,
+              "end": 0.421,
+              "duration": 0.10029166666666667
+            },
+            {
+              "start": 1.3050416666666667,
+              "end": 1.3580833333333333,
+              "duration": 0.05304166666666667
+            },
+            {
+              "start": 2.9727083333333333,
+              "end": 3.030666666666667,
+              "duration": 0.057958333333333334
+            },
+            {
+              "start": 3.632833333333333,
+              "end": 3.7679583333333335,
+              "duration": 0.135125
+            },
+            {
+              "start": 4.934125,
+              "end": 5.005041666666667,
+              "duration": 0.07091666666666667
+            },
+            {
+              "start": 6.400458333333333,
+              "end": 6.714333333333333,
+              "duration": 0.313875
+            },
+            {
+              "start": 6.95075,
+              "end": 7.014125,
+              "duration": 0.063375
+            },
+            {
+              "start": 7.572916666666667,
+              "end": 7.632875,
+              "duration": 0.059958333333333336
+            },
+            {
+              "start": 7.7145,
+              "end": 7.835541666666667,
+              "duration": 0.12104166666666667
+            },
+            {
+              "start": 8.453375,
+              "end": 9.003375,
+              "duration": 0.55
+            },
+            {
+              "start": 9.021458333333333,
+              "end": 9.087541666666667,
+              "duration": 0.06608333333333333
+            },
+            {
+              "start": 10.439708333333334,
+              "end": 10.531375,
+              "duration": 0.09166666666666666
+            },
+            {
+              "start": 12.044708333333332,
+              "end": 12.132833333333334,
+              "duration": 0.088125
+            },
+            {
+              "start": 12.46175,
+              "end": 12.7335,
+              "duration": 0.27175
+            },
+            {
+              "start": 13.680666666666667,
+              "end": 13.749958333333334,
+              "duration": 0.06929166666666667
+            }
+          ],
+          "max_silence_seconds": 0.55,
+          "pitch_median_hz": 107.7961694426975,
+          "pitch_jump_count_gt_80hz": 60,
+          "pitch_max_jump_hz": 277.422303898515,
+          "boundary_leading_silence_seconds": 0.21016666666666667,
+          "boundary_trailing_silence_seconds": 0.050708333333333334
+        },
+        "qwen_heldout": {
+          "duration_seconds": 16.48,
+          "sample_rate": 24000,
+          "peak_dbfs": -6.727159160114483,
+          "silence_intervals_ge_50ms": [
+            {
+              "start": 1.37525,
+              "end": 1.4724166666666667,
+              "duration": 0.09716666666666667
+            },
+            {
+              "start": 2.746625,
+              "end": 2.821833333333333,
+              "duration": 0.07520833333333334
+            },
+            {
+              "start": 3.433333333333333,
+              "end": 3.5417083333333332,
+              "duration": 0.108375
+            },
+            {
+              "start": 3.7125,
+              "end": 4.2724166666666665,
+              "duration": 0.5599166666666666
+            },
+            {
+              "start": 4.480541666666666,
+              "end": 4.560375,
+              "duration": 0.07983333333333334
+            },
+            {
+              "start": 4.727833333333334,
+              "end": 4.788375,
+              "duration": 0.06054166666666667
+            },
+            {
+              "start": 5.132041666666667,
+              "end": 5.1935416666666665,
+              "duration": 0.0615
+            },
+            {
+              "start": 5.708083333333334,
+              "end": 5.791,
+              "duration": 0.08291666666666667
+            },
+            {
+              "start": 6.225,
+              "end": 6.278291666666667,
+              "duration": 0.05329166666666667
+            },
+            {
+              "start": 6.868625,
+              "end": 8.317333333333334,
+              "duration": 1.4487083333333333
+            },
+            {
+              "start": 9.483541666666667,
+              "end": 9.577333333333334,
+              "duration": 0.09379166666666666
+            },
+            {
+              "start": 10.055375,
+              "end": 10.175,
+              "duration": 0.119625
+            },
+            {
+              "start": 10.337666666666667,
+              "end": 10.408125,
+              "duration": 0.07045833333333333
+            },
+            {
+              "start": 10.869166666666667,
+              "end": 10.92,
+              "duration": 0.050833333333333335
+            },
+            {
+              "start": 12.063375,
+              "end": 12.657833333333333,
+              "duration": 0.5944583333333333
+            },
+            {
+              "start": 12.677791666666666,
+              "end": 13.323083333333333,
+              "duration": 0.6452916666666667
+            },
+            {
+              "start": 13.340125,
+              "end": 13.776958333333333,
+              "duration": 0.43683333333333335
+            },
+            {
+              "start": 14.990083333333333,
+              "end": 15.076041666666667,
+              "duration": 0.08595833333333333
+            },
+            {
+              "start": 15.852416666666667,
+              "end": 15.913708333333334,
+              "duration": 0.06129166666666667
+            },
+            {
+              "start": 16.198916666666666,
+              "end": 16.25825,
+              "duration": 0.059333333333333335
+            }
+          ],
+          "max_silence_seconds": 1.4487083333333333,
+          "pitch_median_hz": 110.88162658710056,
+          "pitch_jump_count_gt_80hz": 81,
+          "pitch_max_jump_hz": 265.3871138755198,
+          "boundary_leading_silence_seconds": 0.06404166666666666,
+          "boundary_trailing_silence_seconds": 0.029291666666666667
+        }
+      },
+      "speaker_similarity": {
+        "method": "CAMPPlus ONNX",
+        "model_sha256": "A6AC6A63997761AE2997373E2EE1C47040854B4B759EA41EC48E4E42DF0F4D73",
+        "reference": "f4_ref_gyogwon.wav",
+        "outputs": {
+          "qwen_critical": {
+            "cosine_to_f4_ref": 0.8254004120826721
+          },
+          "qwen_heldout": {
+            "cosine_to_f4_ref": 0.8350900411605835
+          }
+        }
+      }
+    },
+    "gpt_sovits": {
+      "status": "completed",
+      "engine": "GPT-SoVITS V2 zero-shot",
+      "source_repo": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "commit": "d523079fc05d9a8028d6085bffe4a2757c32abb6",
+      "license": "MIT (repository LICENSE)",
+      "environment": "C:\\Users\\User\\tools\\GPT-SoVITS-official\\extracted\\GPT-SoVITS-v3lora-20250228\\runtime",
+      "install_fallback_error": "jieba-fast==0.53 build failed: Microsoft Visual C++ 14.0 or greater is required",
+      "integrated_package_url": "https://huggingface.co/lj1995/GPT-SoVITS-windows-package/resolve/main/GPT-SoVITS-v3lora-20250228.7z?download=true",
+      "integrated_package_etag": "7a12bd559264253f7dbd2e87096c8ef9ec25185c0252e6da0787c500308b01af",
+      "integrated_package_bytes": 6754961256,
+      "integrated_package_sha256": "4D0CA857A36A81BADB65AB865958BE635ACBBA7F388AB7B216B519B0958023B7",
+      "archive_uncompressed_bytes": 12551951793,
+      "archive_file_count": 50010,
+      "peak_temperature_c": 48.0,
+      "peak_vram_used_mb": 2890.0,
+      "outputs": {
+        "critical": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt_critical.wav",
+          "sample_rate": 32000,
+          "duration_seconds": 15.58
+        },
+        "heldout": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt_heldout.wav",
+          "sample_rate": 32000,
+          "duration_seconds": 14.46
+        }
+      },
+      "asr": {
+        "primary": {
+          "critical": {
+            "transcript": "제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 봐봤습니다. 안내판 위치를 바꿨습니다. 경찰은 건조 물침입과 재물 송비의 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "expected": "교권보호국은 제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물침입과 재물손괴 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "exact_normalized": false,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 2.32,
+                "text": " 제주에서 제조한 텀블러를 봤습니다.",
+                "avg_logprob": -0.17924517883973964
+              },
+              {
+                "start": 2.84,
+                "end": 3.74,
+                "text": " 상자를 받았습니다.",
+                "avg_logprob": -0.17924517883973964
+              },
+              {
+                "start": 4.4,
+                "end": 5.54,
+                "text": " 경고선을 봐봤습니다.",
+                "avg_logprob": -0.17924517883973964
+              },
+              {
+                "start": 6.38,
+                "end": 8.120000000000001,
+                "text": " 안내판 위치를 바꿨습니다.",
+                "avg_logprob": -0.17924517883973964
+              },
+              {
+                "start": 8.88,
+                "end": 12.24,
+                "text": " 경찰은 건조 물침입과 재물 송비의 가능성을 기록하고",
+                "avg_logprob": -0.17924517883973964
+              },
+              {
+                "start": 12.24,
+                "end": 14.96,
+                "text": " 휴대전화 포렌식 자료를 확인했습니다.",
+                "avg_logprob": -0.17924517883973964
+              }
+            ]
+          },
+          "heldout": {
+            "transcript": "재물손괴 혐의를 따로 검토했고 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?",
+            "expected": "검찰은 건조물침입과 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호 장치가 필요할까요?",
+            "exact_normalized": false,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 6.1000000000000005,
+                "text": " 재물손괴 혐의를 따로 검토했고 디지털 포렌식 결과도 함께 살폈습니다.",
+                "avg_logprob": -0.11334643774741404
+              },
+              {
+                "start": 6.74,
+                "end": 10.42,
+                "text": " 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다.",
+                "avg_logprob": -0.11334643774741404
+              },
+              {
+                "start": 11.1,
+                "end": 14.1,
+                "text": " 반복을 막으려면 어떤 보호장치가 필요할까요?",
+                "avg_logprob": -0.11334643774741404
+              }
+            ]
+          }
+        },
+        "turbo": {
+          "critical": {
+            "transcript": "제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 받았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물송비의 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "expected": "교권보호국은 제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물침입과 재물손괴 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "exact_normalized": false,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 2.32,
+                "text": " 제주에서 제조한 텀블러를 봤습니다.",
+                "avg_logprob": -0.18876783549785614
+              },
+              {
+                "start": 2.86,
+                "end": 3.74,
+                "text": " 상자를 받았습니다.",
+                "avg_logprob": -0.18876783549785614
+              },
+              {
+                "start": 4.42,
+                "end": 5.34,
+                "text": " 경고선을 받았습니다.",
+                "avg_logprob": -0.18876783549785614
+              },
+              {
+                "start": 6.38,
+                "end": 8.120000000000001,
+                "text": " 안내판 위치를 바꿨습니다.",
+                "avg_logprob": -0.18876783549785614
+              },
+              {
+                "start": 8.88,
+                "end": 14.96,
+                "text": " 경찰은 건조물 침입과 재물송비의 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+                "avg_logprob": -0.18876783549785614
+              }
+            ]
+          },
+          "heldout": {
+            "transcript": "재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제조 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?",
+            "expected": "검찰은 건조물침입과 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호 장치가 필요할까요?",
+            "exact_normalized": false,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 6.08,
+                "text": " 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다.",
+                "avg_logprob": -0.12278804779052735
+              },
+              {
+                "start": 6.74,
+                "end": 10.42,
+                "text": " 지난 6월 제조 한 학교에서 비슷한 신고가 접수됐습니다.",
+                "avg_logprob": -0.12278804779052735
+              },
+              {
+                "start": 11.1,
+                "end": 14.08,
+                "text": " 반복을 막으려면 어떤 보호장치가 필요할까요?",
+                "avg_logprob": -0.12278804779052735
+              }
+            ]
+          }
+        }
+      },
+      "audio_metrics": {
+        "critical": {
+          "duration_seconds": 15.58,
+          "sample_rate": 32000,
+          "peak_dbfs": -8.68565440492491,
+          "silence_intervals_ge_50ms": [
+            {
+              "start": 2.39725,
+              "end": 2.844125,
+              "duration": 0.446875
+            },
+            {
+              "start": 3.92559375,
+              "end": 4.4169375,
+              "duration": 0.49134375
+            },
+            {
+              "start": 5.58465625,
+              "end": 6.3640625,
+              "duration": 0.77940625
+            },
+            {
+              "start": 6.57884375,
+              "end": 6.63434375,
+              "duration": 0.0555
+            },
+            {
+              "start": 6.89340625,
+              "end": 7.21228125,
+              "duration": 0.318875
+            },
+            {
+              "start": 8.25628125,
+              "end": 8.87434375,
+              "duration": 0.6180625
+            },
+            {
+              "start": 9.826,
+              "end": 9.876875,
+              "duration": 0.050875
+            },
+            {
+              "start": 10.09853125,
+              "end": 10.22990625,
+              "duration": 0.131375
+            },
+            {
+              "start": 11.592375,
+              "end": 11.64625,
+              "duration": 0.053875
+            },
+            {
+              "start": 11.8440625,
+              "end": 11.9186875,
+              "duration": 0.074625
+            },
+            {
+              "start": 12.032875,
+              "end": 12.0876875,
+              "duration": 0.0548125
+            },
+            {
+              "start": 12.31609375,
+              "end": 12.767875,
+              "duration": 0.45178125
+            },
+            {
+              "start": 13.24425,
+              "end": 13.32659375,
+              "duration": 0.08234375
+            },
+            {
+              "start": 13.6869375,
+              "end": 13.75615625,
+              "duration": 0.06921875
+            },
+            {
+              "start": 14.1630625,
+              "end": 14.42046875,
+              "duration": 0.25740625
+            }
+          ],
+          "max_silence_seconds": 0.77940625,
+          "pitch_median_hz": 115.7871897002253,
+          "pitch_jump_count_gt_80hz": 129,
+          "pitch_max_jump_hz": 281.7793560151639,
+          "boundary_leading_silence_seconds": 0.35440625,
+          "boundary_trailing_silence_seconds": 0.4039375
+        },
+        "heldout": {
+          "duration_seconds": 14.46,
+          "sample_rate": 32000,
+          "peak_dbfs": -8.203565037058484,
+          "silence_intervals_ge_50ms": [
+            {
+              "start": 1.84046875,
+              "end": 1.9368125,
+              "duration": 0.09634375
+            },
+            {
+              "start": 2.17959375,
+              "end": 2.23621875,
+              "duration": 0.056625
+            },
+            {
+              "start": 2.4496875,
+              "end": 2.5168125,
+              "duration": 0.067125
+            },
+            {
+              "start": 2.71446875,
+              "end": 2.856875,
+              "duration": 0.14240625
+            },
+            {
+              "start": 3.00975,
+              "end": 3.43696875,
+              "duration": 0.42721875
+            },
+            {
+              "start": 3.65996875,
+              "end": 3.7193125,
+              "duration": 0.05934375
+            },
+            {
+              "start": 3.88759375,
+              "end": 3.95175,
+              "duration": 0.06415625
+            },
+            {
+              "start": 3.951875,
+              "end": 4.01525,
+              "duration": 0.063375
+            },
+            {
+              "start": 4.35871875,
+              "end": 4.43921875,
+              "duration": 0.0805
+            },
+            {
+              "start": 5.18275,
+              "end": 5.25653125,
+              "duration": 0.07378125
+            },
+            {
+              "start": 6.03265625,
+              "end": 6.726875,
+              "duration": 0.69421875
+            },
+            {
+              "start": 7.9185625,
+              "end": 7.9993125,
+              "duration": 0.08075
+            },
+            {
+              "start": 8.5373125,
+              "end": 8.87,
+              "duration": 0.3326875
+            },
+            {
+              "start": 8.98734375,
+              "end": 9.05440625,
+              "duration": 0.0670625
+            },
+            {
+              "start": 10.43259375,
+              "end": 11.1143125,
+              "duration": 0.68171875
+            },
+            {
+              "start": 12.1509375,
+              "end": 12.5885625,
+              "duration": 0.437625
+            },
+            {
+              "start": 13.51865625,
+              "end": 13.57675,
+              "duration": 0.05809375
+            },
+            {
+              "start": 13.85225,
+              "end": 13.9114375,
+              "duration": 0.0591875
+            }
+          ],
+          "max_silence_seconds": 0.69421875,
+          "pitch_median_hz": 120.02927415031743,
+          "pitch_jump_count_gt_80hz": 125,
+          "pitch_max_jump_hz": 281.7793560151639,
+          "boundary_leading_silence_seconds": 0.75428125,
+          "boundary_trailing_silence_seconds": 0.33609375
+        }
+      },
+      "speaker_similarity": {
+        "method": "CAMPPlus ONNX",
+        "model_sha256": "A6AC6A63997761AE2997373E2EE1C47040854B4B759EA41EC48E4E42DF0F4D73",
+        "reference": "f4_ref_gyogwon.wav",
+        "outputs": {
+          "gpt_critical": {
+            "cosine_to_f4_ref": 0.7633472681045532
+          },
+          "gpt_heldout": {
+            "cosine_to_f4_ref": 0.7915037870407104
+          }
+        }
+      }
+    },
+    "gpt_sovits_finetuned": {
+      "status": "completed",
+      "variant": "V2 S1 GPT fine-tune; SoVITS S2 not run",
+      "license": "MIT (official repository)",
+      "checkpoint": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\training\\full\\weights\\model-ab-20260729-gpt-v2-full-e2.ckpt",
+      "checkpoint_sha256": "ADD493CF0095500A8C94BFD060F02899A20E528E0B79C4390C424349F18A905C",
+      "dataset_manifest": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\dataset\\dataset-manifest.json",
+      "dataset_manifest_sha256": "BEB30A3F578FF47B22FF871F086AA17A96227FC293E294B18E2B83813C7847BB",
+      "feature_prep": {
+        "engine": "GPT-SoVITS V2 official prepare_datasets",
+        "initial_gpu": {
+          "temperature_c": 47.0,
+          "vram_used_mb": 1167.0
+        },
+        "stages": [
+          {
+            "stage": "stage1_text",
+            "returncode": 0,
+            "log": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\stage1_text.log",
+            "hard_stop": false
+          },
+          {
+            "stage": "stage2_hubert",
+            "returncode": 0,
+            "log": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\stage2_hubert.log",
+            "hard_stop": false
+          },
+          {
+            "stage": "stage3_semantic",
+            "returncode": 0,
+            "log": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\stage3_semantic.log",
+            "hard_stop": false
+          }
+        ],
+        "status": "completed",
+        "gpu_events": [
+          {
+            "unix_time": 1785322911.8920069,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322912.4313488,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322912.9728782,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322913.513312,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322914.054923,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322914.6143959,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322915.1636367,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322915.7043061,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322916.2467148,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322916.7922275,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322917.3499105,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322917.892632,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322918.448443,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322918.9905407,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322919.5459971,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322920.0860379,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322920.630444,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322921.17295,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322921.7149065,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322922.2712717,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322922.8142793,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322923.370229,
+            "temperature_c": 48.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322923.9102592,
+            "temperature_c": 52.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322924.450782,
+            "temperature_c": 53.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322924.9938529,
+            "temperature_c": 54.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322925.537468,
+            "temperature_c": 54.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322926.0789196,
+            "temperature_c": 54.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322926.6214194,
+            "temperature_c": 54.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322927.1635635,
+            "temperature_c": 54.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322927.7202997,
+            "temperature_c": 54.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322928.2672281,
+            "temperature_c": 55.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322928.8117402,
+            "temperature_c": 55.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322929.3519883,
+            "temperature_c": 55.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322929.8974953,
+            "temperature_c": 51.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322930.4522657,
+            "temperature_c": 50.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322930.9933138,
+            "temperature_c": 49.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322931.5347567,
+            "temperature_c": 48.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322932.089786,
+            "temperature_c": 48.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322932.6303291,
+            "temperature_c": 48.0,
+            "vram_used_mb": 1921.0,
+            "stage": "stage1_text"
+          },
+          {
+            "unix_time": 1785322933.1941266,
+            "temperature_c": 48.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322933.786287,
+            "temperature_c": 48.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322934.3258455,
+            "temperature_c": 48.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322934.8828385,
+            "temperature_c": 48.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322935.4381294,
+            "temperature_c": 48.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322935.9937108,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322936.5397034,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322937.0810163,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322937.6349049,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322938.1769173,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322938.7205703,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322939.261981,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322939.803017,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322940.3445382,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322940.885635,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322941.4270182,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322941.9811676,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322942.5371463,
+            "temperature_c": 49.0,
+            "vram_used_mb": 1501.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322943.0766459,
+            "temperature_c": 51.0,
+            "vram_used_mb": 1501.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322943.6174278,
+            "temperature_c": 52.0,
+            "vram_used_mb": 1501.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322944.1591904,
+            "temperature_c": 52.0,
+            "vram_used_mb": 1523.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322944.7004392,
+            "temperature_c": 52.0,
+            "vram_used_mb": 1675.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322945.2434535,
+            "temperature_c": 52.0,
+            "vram_used_mb": 1839.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322945.7844734,
+            "temperature_c": 52.0,
+            "vram_used_mb": 1845.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322946.3399827,
+            "temperature_c": 53.0,
+            "vram_used_mb": 1935.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322946.8958626,
+            "temperature_c": 53.0,
+            "vram_used_mb": 1935.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322947.437432,
+            "temperature_c": 53.0,
+            "vram_used_mb": 2053.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322947.9924364,
+            "temperature_c": 53.0,
+            "vram_used_mb": 2053.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322948.550459,
+            "temperature_c": 53.0,
+            "vram_used_mb": 2053.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322949.0916252,
+            "temperature_c": 53.0,
+            "vram_used_mb": 2053.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322949.6482432,
+            "temperature_c": 50.0,
+            "vram_used_mb": 2053.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322950.1908987,
+            "temperature_c": 49.0,
+            "vram_used_mb": 2053.0,
+            "stage": "stage2_hubert"
+          },
+          {
+            "unix_time": 1785322950.7819152,
+            "temperature_c": 48.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322951.3335762,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322951.8756514,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322952.420162,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322952.9643996,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322953.5074055,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322954.0489545,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322954.6045382,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322955.163505,
+            "temperature_c": 45.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322955.706951,
+            "temperature_c": 45.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322956.2485514,
+            "temperature_c": 45.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322956.7890978,
+            "temperature_c": 45.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322957.3368554,
+            "temperature_c": 45.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322957.8881059,
+            "temperature_c": 45.0,
+            "vram_used_mb": 1167.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322958.4442806,
+            "temperature_c": 45.0,
+            "vram_used_mb": 1375.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322958.9860988,
+            "temperature_c": 50.0,
+            "vram_used_mb": 1477.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322959.5417528,
+            "temperature_c": 51.0,
+            "vram_used_mb": 1481.0,
+            "stage": "stage3_semantic"
+          },
+          {
+            "unix_time": 1785322960.0827417,
+            "temperature_c": 51.0,
+            "vram_used_mb": 1481.0,
+            "stage": "stage3_semantic"
+          }
+        ],
+        "hard_stop": {},
+        "peak_temperature_c": 55.0,
+        "peak_vram_used_mb": 2053.0
+      },
+      "training": {
+        "engine": "GPT-SoVITS V2 S1",
+        "policy": "pilot-only; no production connection",
+        "smoke": {
+          "name": "smoke",
+          "epochs": 1,
+          "initial_gpu": {
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0
+          },
+          "config": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\configs\\s1-smoke.yaml",
+          "log": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\smoke-training.log",
+          "returncode": 0,
+          "status": "completed",
+          "hard_stop": null,
+          "peak_temperature_c": 47.0,
+          "peak_vram_used_mb": 2574.0
+        },
+        "events": [
+          {
+            "unix_time": 1785323108.4299161,
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323108.9679277,
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323109.5099292,
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323110.0509524,
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323110.5924642,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323111.1345174,
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323111.6746643,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323112.2157097,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323112.7711723,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323113.3116915,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323113.8527024,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323114.3937583,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323114.949224,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323115.5042484,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323116.0608222,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2498.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323116.6316736,
+            "temperature_c": 45.0,
+            "vram_used_mb": 2574.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323117.1857727,
+            "temperature_c": 46.0,
+            "vram_used_mb": 2574.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323117.726699,
+            "temperature_c": 46.0,
+            "vram_used_mb": 2574.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323118.2692342,
+            "temperature_c": 46.0,
+            "vram_used_mb": 2574.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323118.8133059,
+            "temperature_c": 47.0,
+            "vram_used_mb": 2574.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323119.3584385,
+            "temperature_c": 47.0,
+            "vram_used_mb": 2574.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323119.9029362,
+            "temperature_c": 47.0,
+            "vram_used_mb": 2574.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323120.4604194,
+            "temperature_c": 47.0,
+            "vram_used_mb": 2574.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323121.0169547,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1354.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323121.5720797,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1354.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323122.1128707,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1354.0,
+            "name": "smoke"
+          },
+          {
+            "unix_time": 1785323122.7094607,
+            "temperature_c": 43.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323123.2584982,
+            "temperature_c": 42.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323123.801174,
+            "temperature_c": 42.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323124.3421688,
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323124.8983803,
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323125.453227,
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323126.0101979,
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323126.5517216,
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323127.0945094,
+            "temperature_c": 41.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323127.6541212,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323128.1963189,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323128.7393994,
+            "temperature_c": 40.0,
+            "vram_used_mb": 1195.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323129.2835171,
+            "temperature_c": 44.0,
+            "vram_used_mb": 1978.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323129.8252661,
+            "temperature_c": 45.0,
+            "vram_used_mb": 1978.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323130.3667026,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1978.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323130.9140258,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1978.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323131.4565778,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1978.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323132.0013182,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1978.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323132.5556772,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1978.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323133.0992541,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1978.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323133.6413262,
+            "temperature_c": 47.0,
+            "vram_used_mb": 2432.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323134.181322,
+            "temperature_c": 48.0,
+            "vram_used_mb": 3292.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323134.7514954,
+            "temperature_c": 48.0,
+            "vram_used_mb": 3292.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323135.3076031,
+            "temperature_c": 49.0,
+            "vram_used_mb": 3316.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323135.8627582,
+            "temperature_c": 50.0,
+            "vram_used_mb": 3320.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323136.4209244,
+            "temperature_c": 51.0,
+            "vram_used_mb": 3380.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323136.9752545,
+            "temperature_c": 52.0,
+            "vram_used_mb": 3400.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323137.5307815,
+            "temperature_c": 52.0,
+            "vram_used_mb": 3400.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323138.0861082,
+            "temperature_c": 52.0,
+            "vram_used_mb": 3400.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323138.6418765,
+            "temperature_c": 50.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323139.1981413,
+            "temperature_c": 51.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323139.7396731,
+            "temperature_c": 52.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323140.2802846,
+            "temperature_c": 53.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323140.8358638,
+            "temperature_c": 52.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323141.3764224,
+            "temperature_c": 53.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323141.931934,
+            "temperature_c": 53.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323142.4909172,
+            "temperature_c": 52.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323143.0446155,
+            "temperature_c": 54.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323143.6011026,
+            "temperature_c": 53.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323144.1571214,
+            "temperature_c": 53.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323144.710892,
+            "temperature_c": 54.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323145.2652755,
+            "temperature_c": 54.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323145.8202848,
+            "temperature_c": 55.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323146.376642,
+            "temperature_c": 54.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323146.9169316,
+            "temperature_c": 54.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323147.4727645,
+            "temperature_c": 54.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323148.0287404,
+            "temperature_c": 56.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323148.5697544,
+            "temperature_c": 54.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323149.1117573,
+            "temperature_c": 53.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323149.667531,
+            "temperature_c": 53.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323150.2220993,
+            "temperature_c": 50.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323150.778102,
+            "temperature_c": 49.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323151.3332086,
+            "temperature_c": 48.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323151.8733559,
+            "temperature_c": 47.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323152.4183645,
+            "temperature_c": 45.0,
+            "vram_used_mb": 5224.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323152.973126,
+            "temperature_c": 49.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323153.5290163,
+            "temperature_c": 53.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323154.0984998,
+            "temperature_c": 54.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323154.6545076,
+            "temperature_c": 54.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323155.209426,
+            "temperature_c": 55.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323155.7659202,
+            "temperature_c": 55.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323156.3237672,
+            "temperature_c": 55.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323156.8784306,
+            "temperature_c": 55.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323157.4334028,
+            "temperature_c": 55.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323157.9885406,
+            "temperature_c": 55.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323158.5429432,
+            "temperature_c": 56.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323159.1000087,
+            "temperature_c": 57.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323159.6554682,
+            "temperature_c": 56.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323160.2149732,
+            "temperature_c": 56.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323160.7674842,
+            "temperature_c": 56.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323161.3216805,
+            "temperature_c": 56.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323161.8796654,
+            "temperature_c": 56.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323162.4379785,
+            "temperature_c": 54.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323162.9911892,
+            "temperature_c": 55.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323163.5453048,
+            "temperature_c": 56.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323164.1016128,
+            "temperature_c": 58.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323164.6582606,
+            "temperature_c": 57.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323165.2116444,
+            "temperature_c": 56.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323165.7679698,
+            "temperature_c": 57.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323166.3075917,
+            "temperature_c": 57.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323166.864583,
+            "temperature_c": 57.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323167.419057,
+            "temperature_c": 56.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323167.9600651,
+            "temperature_c": 55.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323168.515693,
+            "temperature_c": 52.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323169.0869787,
+            "temperature_c": 51.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323169.6412678,
+            "temperature_c": 51.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323170.1979089,
+            "temperature_c": 50.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323170.7517514,
+            "temperature_c": 48.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323171.3082705,
+            "temperature_c": 47.0,
+            "vram_used_mb": 5226.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323171.8487217,
+            "temperature_c": 47.0,
+            "vram_used_mb": 1442.0,
+            "name": "full"
+          },
+          {
+            "unix_time": 1785323172.4038026,
+            "temperature_c": 46.0,
+            "vram_used_mb": 1442.0,
+            "name": "full"
+          }
+        ],
+        "full": {
+          "name": "full",
+          "epochs": 2,
+          "initial_gpu": {
+            "temperature_c": 43.0,
+            "vram_used_mb": 1195.0
+          },
+          "config": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\configs\\s1-full.yaml",
+          "log": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\full-training.log",
+          "returncode": 0,
+          "status": "completed",
+          "hard_stop": null,
+          "peak_temperature_c": 58.0,
+          "peak_vram_used_mb": 5226.0
+        },
+        "status": "completed"
+      },
+      "generation": {
+        "engine": "GPT-SoVITS V2 S1 fine-tuned candidate",
+        "version": "v2",
+        "tempo": 1.0,
+        "gate": {
+          "temperature_c": 39.0,
+          "vram_used_mb": 1194.0
+        },
+        "ref_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt_ref_trim.wav",
+        "ref_text": "교권보호국은 교권을 보호하는 가상의 기관입니다.",
+        "texts": {
+          "critical": "교권보호국은 제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물침입과 재물손괴 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.\n",
+          "heldout": "검찰은 건조물침입과 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호 장치가 필요할까요?\n"
+        },
+        "checkpoint": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\training\\full\\weights\\model-ab-20260729-gpt-v2-full-e2.ckpt",
+        "outputs": {
+          "critical": {
+            "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\gpt_ft_critical.wav",
+            "sample_rate": 32000,
+            "duration_seconds": 13.22
+          },
+          "heldout": {
+            "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\gpt_ft_heldout.wav",
+            "sample_rate": 32000,
+            "duration_seconds": 13.34
+          }
+        },
+        "status": "completed",
+        "gpu_events": [
+          {
+            "unix_time": 1785323229.544236,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1194.0
+          },
+          {
+            "unix_time": 1785323230.094236,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1194.0
+          },
+          {
+            "unix_time": 1785323230.6483493,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1194.0
+          },
+          {
+            "unix_time": 1785323231.199347,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1194.0
+          },
+          {
+            "unix_time": 1785323231.7433014,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1194.0
+          },
+          {
+            "unix_time": 1785323232.2993875,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1194.0
+          },
+          {
+            "unix_time": 1785323232.869759,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1194.0
+          },
+          {
+            "unix_time": 1785323233.484976,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1194.0
+          },
+          {
+            "unix_time": 1785323234.0399733,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323234.5959573,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323235.1509438,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323235.693932,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323236.2489314,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323236.8599312,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323237.4243822,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323237.9753835,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323238.5483973,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323239.194556,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323239.7516973,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323240.3216982,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323240.8778644,
+            "temperature_c": 39.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323241.4354672,
+            "temperature_c": 38.0,
+            "vram_used_mb": 1193.0
+          },
+          {
+            "unix_time": 1785323241.9904668,
+            "temperature_c": 38.0,
+            "vram_used_mb": 1214.0
+          },
+          {
+            "unix_time": 1785323242.5454664,
+            "temperature_c": 43.0,
+            "vram_used_mb": 2012.0
+          },
+          {
+            "unix_time": 1785323243.100388,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2152.0
+          },
+          {
+            "unix_time": 1785323243.6563895,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2246.0
+          },
+          {
+            "unix_time": 1785323244.211388,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2396.0
+          },
+          {
+            "unix_time": 1785323244.8113885,
+            "temperature_c": 45.0,
+            "vram_used_mb": 2396.0
+          },
+          {
+            "unix_time": 1785323245.3813882,
+            "temperature_c": 45.0,
+            "vram_used_mb": 2396.0
+          },
+          {
+            "unix_time": 1785323245.9373891,
+            "temperature_c": 45.0,
+            "vram_used_mb": 2396.0
+          },
+          {
+            "unix_time": 1785323246.492388,
+            "temperature_c": 45.0,
+            "vram_used_mb": 2396.0
+          },
+          {
+            "unix_time": 1785323247.0473893,
+            "temperature_c": 46.0,
+            "vram_used_mb": 2550.0
+          },
+          {
+            "unix_time": 1785323247.6023886,
+            "temperature_c": 46.0,
+            "vram_used_mb": 2550.0
+          },
+          {
+            "unix_time": 1785323248.4708183,
+            "temperature_c": 46.0,
+            "vram_used_mb": 2550.0
+          },
+          {
+            "unix_time": 1785323249.043922,
+            "temperature_c": 41.0,
+            "vram_used_mb": 2580.0
+          },
+          {
+            "unix_time": 1785323249.5990405,
+            "temperature_c": 42.0,
+            "vram_used_mb": 2580.0
+          },
+          {
+            "unix_time": 1785323250.1690404,
+            "temperature_c": 43.0,
+            "vram_used_mb": 2580.0
+          },
+          {
+            "unix_time": 1785323250.7243721,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2580.0
+          },
+          {
+            "unix_time": 1785323251.2795682,
+            "temperature_c": 43.0,
+            "vram_used_mb": 2580.0
+          },
+          {
+            "unix_time": 1785323251.8345683,
+            "temperature_c": 43.0,
+            "vram_used_mb": 2600.0
+          },
+          {
+            "unix_time": 1785323252.4045684,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2600.0
+          },
+          {
+            "unix_time": 1785323252.9744391,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2600.0
+          },
+          {
+            "unix_time": 1785323253.5443783,
+            "temperature_c": 43.0,
+            "vram_used_mb": 2600.0
+          },
+          {
+            "unix_time": 1785323254.0998836,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2600.0
+          },
+          {
+            "unix_time": 1785323254.6549504,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2600.0
+          },
+          {
+            "unix_time": 1785323255.2121177,
+            "temperature_c": 43.0,
+            "vram_used_mb": 2730.0
+          },
+          {
+            "unix_time": 1785323255.7735655,
+            "temperature_c": 43.0,
+            "vram_used_mb": 2730.0
+          },
+          {
+            "unix_time": 1785323256.330567,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2732.0
+          },
+          {
+            "unix_time": 1785323256.887758,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2746.0
+          },
+          {
+            "unix_time": 1785323257.4577582,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2746.0
+          },
+          {
+            "unix_time": 1785323258.0127585,
+            "temperature_c": 42.0,
+            "vram_used_mb": 2746.0
+          },
+          {
+            "unix_time": 1785323258.583775,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2746.0
+          },
+          {
+            "unix_time": 1785323259.1536696,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2748.0
+          },
+          {
+            "unix_time": 1785323259.724566,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2748.0
+          },
+          {
+            "unix_time": 1785323260.2795653,
+            "temperature_c": 43.0,
+            "vram_used_mb": 2764.0
+          },
+          {
+            "unix_time": 1785323260.8497744,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2764.0
+          },
+          {
+            "unix_time": 1785323261.4347749,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2764.0
+          },
+          {
+            "unix_time": 1785323261.990083,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2764.0
+          },
+          {
+            "unix_time": 1785323262.5600834,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2764.0
+          },
+          {
+            "unix_time": 1785323263.1150832,
+            "temperature_c": 44.0,
+            "vram_used_mb": 2764.0
+          }
+        ],
+        "peak_temperature_c": 46.0,
+        "peak_vram_used_mb": 2764.0
+      },
+      "asr": {
+        "primary": {
+          "critical": {
+            "transcript": "탕전을 받았습니다. 경고선을 봐봤습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물 송대 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "expected": "교권보호국은 제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물침입과 재물손괴 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "exact_normalized": false,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 12.780000000000001,
+                "text": " 탕전을 받았습니다. 경고선을 봐봤습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물 송대 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+                "avg_logprob": -0.10807466317736913
+              }
+            ]
+          },
+          "heldout": {
+            "transcript": "재물송대의 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?",
+            "expected": "검찰은 건조물침입과 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호 장치가 필요할까요?",
+            "exact_normalized": false,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 5.4,
+                "text": " 재물송대의 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다.",
+                "avg_logprob": -0.1149777086575826
+              },
+              {
+                "start": 6.5200000000000005,
+                "end": 9.66,
+                "text": " 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다.",
+                "avg_logprob": -0.1149777086575826
+              },
+              {
+                "start": 10.4,
+                "end": 12.96,
+                "text": " 반복을 막으려면 어떤 보호장치가 필요할까요?",
+                "avg_logprob": -0.1149777086575826
+              }
+            ]
+          }
+        },
+        "turbo": {
+          "critical": {
+            "transcript": "탕전을 받았습니다. 경고선을 받았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물 손대 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "expected": "교권보호국은 제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물침입과 재물손괴 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+            "exact_normalized": false,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 12.8,
+                "text": " 탕전을 받았습니다. 경고선을 받았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물 손대 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+                "avg_logprob": -0.11518874129310983
+              }
+            ]
+          },
+          "heldout": {
+            "transcript": "재물손괴의 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?",
+            "expected": "검찰은 건조물침입과 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호 장치가 필요할까요?",
+            "exact_normalized": false,
+            "segments": [
+              {
+                "start": 0.0,
+                "end": 5.38,
+                "text": " 재물손괴의 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다.",
+                "avg_logprob": -0.11809228821412514
+              },
+              {
+                "start": 6.5200000000000005,
+                "end": 9.66,
+                "text": " 지난 6월 제주한 학교에서 비슷한 신고가 접수됐습니다.",
+                "avg_logprob": -0.11809228821412514
+              },
+              {
+                "start": 10.4,
+                "end": 12.94,
+                "text": " 반복을 막으려면 어떤 보호장치가 필요할까요?",
+                "avg_logprob": -0.11809228821412514
+              }
+            ]
+          }
+        }
+      },
+      "audio_metrics": {
+        "critical": {
+          "duration_seconds": 13.22,
+          "sample_rate": 32000,
+          "peak_dbfs": -7.0463677784954,
+          "silence_intervals_ge_50ms": [
+            {
+              "start": 1.4741875,
+              "end": 1.954375,
+              "duration": 0.4801875
+            },
+            {
+              "start": 2.53478125,
+              "end": 2.58725,
+              "duration": 0.05246875
+            },
+            {
+              "start": 3.29228125,
+              "end": 4.096375,
+              "duration": 0.80409375
+            },
+            {
+              "start": 5.072,
+              "end": 5.14634375,
+              "duration": 0.07434375
+            },
+            {
+              "start": 5.7470625,
+              "end": 6.67678125,
+              "duration": 0.92971875
+            },
+            {
+              "start": 7.939875,
+              "end": 8.0579375,
+              "duration": 0.1180625
+            },
+            {
+              "start": 9.47796875,
+              "end": 9.52965625,
+              "duration": 0.0516875
+            },
+            {
+              "start": 9.71828125,
+              "end": 9.7741875,
+              "duration": 0.05590625
+            },
+            {
+              "start": 10.1246875,
+              "end": 10.65434375,
+              "duration": 0.52965625
+            },
+            {
+              "start": 11.1769375,
+              "end": 11.25178125,
+              "duration": 0.07484375
+            },
+            {
+              "start": 11.253625,
+              "end": 11.30778125,
+              "duration": 0.05415625
+            },
+            {
+              "start": 11.638,
+              "end": 11.7318125,
+              "duration": 0.0938125
+            }
+          ],
+          "max_silence_seconds": 0.92971875,
+          "pitch_median_hz": 112.05728747175394,
+          "pitch_jump_count_gt_80hz": 133,
+          "pitch_max_jump_hz": 274.93839991340906,
+          "boundary_leading_silence_seconds": 0.31328125,
+          "boundary_trailing_silence_seconds": 0.30203125
+        },
+        "heldout": {
+          "duration_seconds": 13.34,
+          "sample_rate": 32000,
+          "peak_dbfs": -9.092776303367447,
+          "silence_intervals_ge_50ms": [
+            {
+              "start": 1.165875,
+              "end": 1.2284375,
+              "duration": 0.0625625
+            },
+            {
+              "start": 1.4086875,
+              "end": 1.48284375,
+              "duration": 0.07415625
+            },
+            {
+              "start": 1.808,
+              "end": 1.98640625,
+              "duration": 0.17840625
+            },
+            {
+              "start": 2.14784375,
+              "end": 2.80934375,
+              "duration": 0.6615
+            },
+            {
+              "start": 3.00246875,
+              "end": 3.0681875,
+              "duration": 0.06571875
+            },
+            {
+              "start": 3.23296875,
+              "end": 3.2876875,
+              "duration": 0.05471875
+            },
+            {
+              "start": 3.28790625,
+              "end": 3.346,
+              "duration": 0.05809375
+            },
+            {
+              "start": 3.67303125,
+              "end": 3.73171875,
+              "duration": 0.0586875
+            },
+            {
+              "start": 4.44059375,
+              "end": 4.49415625,
+              "duration": 0.0535625
+            },
+            {
+              "start": 5.44740625,
+              "end": 6.510625,
+              "duration": 1.06321875
+            },
+            {
+              "start": 7.5894375,
+              "end": 7.72946875,
+              "duration": 0.14003125
+            },
+            {
+              "start": 8.010125,
+              "end": 8.0728125,
+              "duration": 0.0626875
+            },
+            {
+              "start": 8.2226875,
+              "end": 8.286875,
+              "duration": 0.0641875
+            },
+            {
+              "start": 9.8099375,
+              "end": 10.4305625,
+              "duration": 0.620625
+            },
+            {
+              "start": 11.504,
+              "end": 11.579,
+              "duration": 0.075
+            },
+            {
+              "start": 11.7525,
+              "end": 11.81140625,
+              "duration": 0.05890625
+            },
+            {
+              "start": 12.692625,
+              "end": 12.79928125,
+              "duration": 0.10665625
+            }
+          ],
+          "max_silence_seconds": 1.06321875,
+          "pitch_median_hz": 116.87962573300673,
+          "pitch_jump_count_gt_80hz": 84,
+          "pitch_max_jump_hz": 276.02397610358156,
+          "boundary_leading_silence_seconds": 0.122375,
+          "boundary_trailing_silence_seconds": 0.33765625
+        }
+      },
+      "speaker_similarity": {
+        "method": "CAMPPlus ONNX",
+        "model_sha256": "A6AC6A63997761AE2997373E2EE1C47040854B4B759EA41EC48E4E42DF0F4D73",
+        "reference": "f4_ref_gyogwon.wav",
+        "outputs": {
+          "gpt_ft_critical": {
+            "cosine_to_f4_ref": 0.8207111358642578
+          },
+          "gpt_ft_heldout": {
+            "cosine_to_f4_ref": 0.8133716583251953
+          }
+        }
+      },
+      "evaluation": {
+        "baseline": "GPT-SoVITS V2 zero-shot",
+        "candidate": "GPT-SoVITS V2 S1 fine-tuned full-e2 checkpoint",
+        "strict_gate": {
+          "zero_shot": false,
+          "few_shot": false,
+          "improvement_gate_pass": false
+        },
+        "asr": {
+          "primary": {
+            "critical": {
+              "zero_shot_exact_normalized": false,
+              "few_shot_exact_normalized": false,
+              "improved": false,
+              "zero_shot_transcript": "제주에서 제주한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 봐봤습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물 송비의 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+              "few_shot_transcript": "탕전을 받았습니다. 경고선을 봐봤습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물 송대 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다."
+            },
+            "heldout": {
+              "zero_shot_exact_normalized": false,
+              "few_shot_exact_normalized": false,
+              "improved": false,
+              "zero_shot_transcript": "재물손괴 혐의를 따로 검토했고 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?",
+              "few_shot_transcript": "재물송대의 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?"
+            }
+          },
+          "turbo": {
+            "critical": {
+              "zero_shot_exact_normalized": false,
+              "few_shot_exact_normalized": false,
+              "improved": false,
+              "zero_shot_transcript": "제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 받았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물송비의 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+              "few_shot_transcript": "탕전을 받았습니다. 경고선을 받았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물 손대 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다."
+            },
+            "heldout": {
+              "zero_shot_exact_normalized": false,
+              "few_shot_exact_normalized": false,
+              "improved": false,
+              "zero_shot_transcript": "재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제조 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?",
+              "few_shot_transcript": "재물손괴의 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?"
+            }
+          }
+        },
+        "campplus": {
+          "critical": {
+            "zero_shot": 0.7633472681045532,
+            "few_shot": 0.8207111358642578,
+            "delta": 0.057363868,
+            "improved": true
+          },
+          "heldout": {
+            "zero_shot": 0.7915037870407104,
+            "few_shot": 0.8133716583251953,
+            "delta": 0.021867871,
+            "improved": true
+          }
+        },
+        "audio_metrics": {
+          "critical": {
+            "zero_shot_duration_seconds": 15.58,
+            "few_shot_duration_seconds": 13.22,
+            "zero_shot_max_silence_seconds": 0.77940625,
+            "few_shot_max_silence_seconds": 0.92971875,
+            "zero_shot_pitch_jump_count_gt_80hz": 129,
+            "few_shot_pitch_jump_count_gt_80hz": 133
+          },
+          "heldout": {
+            "zero_shot_duration_seconds": 14.46,
+            "few_shot_duration_seconds": 13.34,
+            "zero_shot_max_silence_seconds": 0.69421875,
+            "few_shot_max_silence_seconds": 1.06321875,
+            "zero_shot_pitch_jump_count_gt_80hz": 125,
+            "few_shot_pitch_jump_count_gt_80hz": 84
+          }
+        },
+        "decision": "REJECT_FEWSHOT_NO_STRICT_IMPROVEMENT",
+        "production_model_changed": false
+      },
+      "s2_status": "not_run_8GB_safety_scope",
+      "production_model_changed": false
+    }
+  },
+  "decision": "GPT-SoVITS V2 S1 few-shot candidate generated; CAMPPlus improved but strict dual-ASR improvement gate failed, so no model promotion."
+}

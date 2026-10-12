@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "editorial-thumbnail-contract.schema.json",
+  "type": "object",
+  "required": ["schema", "layoutId", "canvas", "spokenCaptions", "headline", "aiDisclosure", "source", "tokens", "renderer", "output"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": "editorial-thumbnail-contract-v1" },
+    "layoutId": { "const": "reference-v3-caption-free-headline-v1" },
+    "canvas": {
+      "type": "object", "required": ["width", "height"], "additionalProperties": false,
+      "properties": { "width": { "const": 1080 }, "height": { "const": 1920 } }
+    },
+    "spokenCaptions": { "const": false },
+    "headline": {
+      "type": "object", "required": ["required", "line1", "line2"], "additionalProperties": false,
+      "properties": { "required": { "const": true }, "line1": { "type": "string", "minLength": 1 }, "line2": { "type": "string", "minLength": 1 } }
+    },
+    "aiDisclosure": {
+      "type": "object", "required": ["required", "text"], "additionalProperties": false,
+      "properties": { "required": { "const": true }, "text": { "type": "string", "minLength": 1 } }
+    },
+    "source": { "$ref": "#/$defs/hashedImage" },
+    "tokens": { "$ref": "#/$defs/hashedFile" },
+    "renderer": {
+      "type": "object", "required": ["id", "version", "script", "sha256", "config", "configSha256"], "additionalProperties": false,
+      "properties": { "id": { "const": "deterministic-editorial-thumbnail" }, "version": { "const": 1 }, "script": { "type": "string", "minLength": 1 }, "sha256": { "$ref": "#/$defs/sha256" }, "config": { "type": "string", "minLength": 1 }, "configSha256": { "$ref": "#/$defs/sha256" } }
+    },
+    "output": {
+      "type": "object", "required": ["image", "sha256", "bytes", "width", "height"], "additionalProperties": false,
+      "properties": { "image": { "type": "string", "pattern": "\\.png$" }, "sha256": { "$ref": "#/$defs/sha256" }, "bytes": { "type": "integer", "minimum": 24 }, "width": { "const": 1080 }, "height": { "const": 1920 } }
+    }
+  },
+  "$defs": {
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "hashedFile": {
+      "type": "object", "required": ["path", "sha256"], "additionalProperties": false,
+      "properties": { "path": { "type": "string", "minLength": 1 }, "sha256": { "$ref": "#/$defs/sha256" } }
+    },
+    "hashedImage": {
+      "type": "object", "required": ["image", "sha256", "role"], "additionalProperties": false,
+      "properties": { "image": { "type": "string", "pattern": "\\.png$" }, "sha256": { "$ref": "#/$defs/sha256" }, "role": { "type": "string", "minLength": 1 } }
+    }
+  }
+}

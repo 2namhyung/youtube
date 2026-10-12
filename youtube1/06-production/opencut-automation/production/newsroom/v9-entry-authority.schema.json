@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-v9-entry-authority-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "storyId", "authorities", "sources", "legalReview", "titleApproval", "ownerNarrationApproval", "supersessionReconciliation", "approval"],
+  "properties": {
+    "schema": {"const": "newsroom-v9-entry-authority-v1"},
+    "storyId": {"type": "string", "minLength": 1},
+    "authorities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["storylineSha256", "semanticCutPlanSha256"],
+      "properties": {
+        "storylineSha256": {"$ref": "#/$defs/sha256"},
+        "semanticCutPlanSha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "sources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["legalReview", "titleApproval", "ownerNarrationApproval", "supersessionReconciliation"],
+      "properties": {
+        "legalReview": {"$ref": "#/$defs/source"},
+        "titleApproval": {"$ref": "#/$defs/source"},
+        "ownerNarrationApproval": {"$ref": "#/$defs/source"},
+        "supersessionReconciliation": {"$ref": "#/$defs/source"}
+      }
+    },
+    "legalReview": {"$ref": "#/$defs/admittedSource"},
+    "titleApproval": {
+      "type": "object", "additionalProperties": false,
+      "required": ["storyId", "approved", "status", "artifactSha256", "titleSha256", "lines"],
+      "properties": {"storyId": {"type": "string", "minLength": 1}, "approved": {"const": true}, "status": {"const": "approved"}, "artifactSha256": {"$ref": "#/$defs/sha256"}, "titleSha256": {"$ref": "#/$defs/sha256"}, "lines": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "string", "minLength": 1}}}
+    },
+    "ownerNarrationApproval": {
+      "type": "object", "additionalProperties": false,
+      "required": ["storyId", "approved", "status", "artifactSha256", "ownerVoice", "audioSha256", "timingSha256"],
+      "properties": {"storyId": {"type": "string", "minLength": 1}, "approved": {"const": true}, "status": {"const": "approved"}, "artifactSha256": {"$ref": "#/$defs/sha256"}, "ownerVoice": {"const": true}, "audioSha256": {"$ref": "#/$defs/sha256"}, "timingSha256": {"$ref": "#/$defs/sha256"}}
+    },
+    "supersessionReconciliation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["storyId", "approved", "status", "artifactSha256", "noUnresolvedConflicts", "currentAuthorityTupleSha256"],
+      "properties": {
+        "storyId": {"type": "string", "minLength": 1}, "approved": {"const": true}, "status": {"const": "current"},
+        "artifactSha256": {"$ref": "#/$defs/sha256"}, "noUnresolvedConflicts": {"const": true}, "currentAuthorityTupleSha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "approval": {"type": "object", "additionalProperties": false, "required": ["approved", "status", "sha256"], "properties": {"approved": {"const": true}, "status": {"const": "admitted"}, "sha256": {"$ref": "#/$defs/sha256"}}}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "source": {"type": "object", "additionalProperties": false, "required": ["schema", "storyId", "canonicalBytes", "sha256", "approvalSha256"], "properties": {"schema": {"type": "string", "minLength": 1}, "storyId": {"type": "string", "minLength": 1}, "canonicalBytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha256"}, "approvalSha256": {"$ref": "#/$defs/sha256"}}},
+    "admittedSource": {"type": "object", "additionalProperties": false, "required": ["storyId", "approved", "status", "artifactSha256"], "properties": {"storyId": {"type": "string", "minLength": 1}, "approved": {"const": true}, "status": {"const": "approved"}, "artifactSha256": {"$ref": "#/$defs/sha256"}}}
+  }
+}

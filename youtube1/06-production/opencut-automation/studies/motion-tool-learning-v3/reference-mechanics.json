@@ -1,0 +1,86 @@
+{
+  "schema": "motion-reference-mechanics-v3",
+  "definition": "Similarity is semantic-mechanic agreement, not copyrighted-pixel similarity. Each sample is scored from ten independently decoded 48-frame observations. Nine or more observations must pass (>=90).",
+  "captured": "2026-08-14",
+  "commonObservationClasses": [
+    "translate-x",
+    "scale-up",
+    "quarter-turn",
+    "opacity-reveal",
+    "stagger-three",
+    "progressive-draw",
+    "horizontal-wipe",
+    "closed-orbit",
+    "bounce-settle",
+    "two-stage-sequence"
+  ],
+  "tools": {
+    "gsap-html-v1": {
+      "officialReferences": [
+        "https://gsap.com/docs/v3/GSAP/",
+        "https://gsap.com/docs/v3/GSAP/Timeline/"
+      ],
+      "frameApi": "gsap.timeline({paused:true}).seek(seconds,false)",
+      "observed": "Tweens interpolate target properties; timelines position and sequence tweens under one seekable playhead.",
+      "mechanics": ["x-tween", "scale-tween", "rotation-tween", "opacity-tween", "stagger", "stroke-progress", "clip-wipe", "keyframe-orbit", "bounce-ease", "timeline-sequence"]
+    },
+    "motion-canvas-v1": {
+      "officialReferences": [
+        "https://motioncanvas.io/docs/signals/",
+        "https://motioncanvas.io/docs/category/getting-started/",
+        "https://motioncanvas.io/api/core/"
+      ],
+      "frameApi": "MotionCanvasAuthored.seek(frame,48) backed by @motion-canvas/core createSignal",
+      "observed": "Signals hold time-varying values and drive dependent animation state; the core exposes tweening and flow utilities.",
+      "mechanics": ["signal-position", "signal-scale", "signal-rotation", "signal-opacity", "flow-stagger", "signal-path-progress", "signal-mask", "signal-orbit", "signal-bounce", "flow-sequence"]
+    },
+    "canvas-d3-v1": {
+      "officialReferences": [
+        "https://d3js.org/d3-transition",
+        "https://d3js.org/d3-selection",
+        "https://d3js.org/d3-shape"
+      ],
+      "frameApi": "d3 selection/scale/interpolator update from authored frame progress",
+      "observed": "D3 selections bind and modify DOM data; transitions/interpolators produce intermediate numeric, transform, color and path states.",
+      "mechanics": ["scale-position", "interpolate-size", "interpolate-transform", "interpolate-opacity", "data-join-stagger", "line-progress", "rectangular-clip", "radial-orbit", "ease-bounce", "piecewise-sequence"]
+    },
+    "lottie-web-v1": {
+      "officialReferences": [
+        "https://github.com/airbnb/lottie-web/blob/master/README.md",
+        "https://github.com/airbnb/lottie-web/wiki/loadAnimation-options"
+      ],
+      "frameApi": "animation.goToAndStop(frame,true)",
+      "observed": "Authored JSON is rendered by the player and goToAndStop with isFrame=true seeks an exact animation frame.",
+      "mechanics": ["position-keyframes", "scale-keyframes", "rotation-keyframes", "opacity-keyframes", "layer-stagger", "segment-reveal", "matte-like-wipe", "position-orbit", "bounce-keyframes", "state-sequence"]
+    },
+    "dotlottie-web-v1": {
+      "officialReferences": [
+        "https://github.com/LottieFiles/dotlottie-web",
+        "https://developers.lottiefiles.com/docs/dotlottie-player/dotlottie-web/api"
+      ],
+      "frameApi": "DotLottie.setFrame(frame)",
+      "observed": "The locally pinned WASM player renders authored Lottie data to Canvas; setFrame provides deterministic frame control after load.",
+      "mechanics": ["canvas-position", "canvas-scale", "canvas-rotation", "canvas-opacity", "canvas-layer-stagger", "canvas-segment-reveal", "canvas-wipe", "canvas-orbit", "canvas-bounce", "canvas-state-sequence"]
+    },
+    "ffmpeg-layer-keyframes-v1": {
+      "officialReferences": [
+        "https://ffmpeg.org/ffmpeg-filters.html"
+      ],
+      "frameApi": "ffmpeg filter_complex evaluated at 24fps",
+      "observed": "FFmpeg video filters such as overlay, scale, rotate, fade, crop and drawbox evaluate time/frame expressions to compose deterministic frames.",
+      "mechanics": ["overlay-x", "scale-eval", "rotate", "fade-alpha", "enabled-layer-stagger", "drawbox-progress", "crop-wipe", "overlay-orbit", "overlay-bounce", "filter-chain-sequence"]
+    }
+  },
+  "samples": [
+    {"index": 1, "topic": "compass-route", "observationClass": "translate-x"},
+    {"index": 2, "topic": "coffee-steam", "observationClass": "scale-up"},
+    {"index": 3, "topic": "wind-turbine", "observationClass": "quarter-turn"},
+    {"index": 4, "topic": "seedling-growth", "observationClass": "opacity-reveal"},
+    {"index": 5, "topic": "metro-map", "observationClass": "stagger-three"},
+    {"index": 6, "topic": "weather-front", "observationClass": "progressive-draw"},
+    {"index": 7, "topic": "archive-index", "observationClass": "horizontal-wipe"},
+    {"index": 8, "topic": "solar-orbit", "observationClass": "closed-orbit"},
+    {"index": 9, "topic": "parcel-sort", "observationClass": "bounce-settle"},
+    {"index": 10, "topic": "music-wave", "observationClass": "two-stage-sequence"}
+  ]
+}

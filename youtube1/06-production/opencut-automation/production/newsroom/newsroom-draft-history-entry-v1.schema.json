@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-draft-history-entry-v1",
+  "title": "Append-only newsroom draft history entry v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "reason", "archivedAt", "draftSnapshot", "draftSnapshotSha256"],
+  "properties": {
+    "schema": { "const": "newsroom-draft-history-entry-v1" },
+    "reason": { "const": "active-unfinalized-draft-replaced" },
+    "archivedAt": { "type": "string", "format": "date-time" },
+    "draftSnapshot": {
+      "type": "object",
+      "description": "Exact prior active draft object with the recursive history field removed."
+    },
+    "draftSnapshotSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "productionApprovalSnapshot": { "type": "object" },
+    "productionApprovalSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  },
+  "dependentRequired": {
+    "productionApprovalSnapshot": ["productionApprovalSha256"],
+    "productionApprovalSha256": ["productionApprovalSnapshot"]
+  }
+}

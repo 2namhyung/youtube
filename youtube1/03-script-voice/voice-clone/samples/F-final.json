@@ -1,0 +1,30 @@
+{
+  "selected": true,
+  "profile": "F",
+  "source": {
+    "path": "voice-clone/samples/f-trained-model-vc/F-model-from-E.wav",
+    "sha256": "943D4014F5FCD8B11923CE5CF9DE4E9CA27E8F5C32983074C3747F3D5E9BE7DB",
+    "byteIdenticalCopy": true
+  },
+  "model": {
+    "engine": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+    "mode": "AutoModel.inference_vc",
+    "trainedVoiceModel": "C:/Users/User/tools/fish-speech/checkpoints/fish-speech-1.5-F-r8-step100-20260726",
+    "selectedLora": "C:/Users/User/tools/fish-speech/results/F_lora_20260726_r8/checkpoints/step_000000100.ckpt"
+  },
+  "trainingManifest": "voice-clone/samples/f-trained-model-vc/manifest.json",
+  "sourceCarrier": {
+    "path": "voice-clone/samples/f-trained-model-vc/provenance/E-carrier.wav",
+    "sha256": "967844C23F89F012D6415B9A29E0923C87C7B3689BD9DE7D511B623761D85DB6"
+  },
+  "audio": {
+    "format": "1ch 24000 Hz PCM_F",
+    "sampleRateHz": 24000,
+    "channels": 1,
+    "durationSeconds": 8.3,
+    "integratedLufs": -23.1,
+    "truePeakDbtp": -2.7,
+    "clippedSamples": 0
+  }
+}

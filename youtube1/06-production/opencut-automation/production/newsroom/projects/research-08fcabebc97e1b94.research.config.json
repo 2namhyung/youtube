@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-08fcabebc97e1b94",
+  "topic": "\"볶아달라니까!\"…셀프 볶음밥 안 볶아줬다고 사장 폭행한 손님",
+  "query": "\"볶아달라니까!\"…셀프 볶음밥 안 볶아줬다고 사장 폭행한 손님",
+  "keywords": [
+    "볶아달라니까",
+    "셀프",
+    "볶음밥",
+    "볶아줬다고",
+    "사장",
+    "폭행한",
+    "손님",
+    "볶음밥을",
+    "직접",
+    "볶으라는"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv",
+    "naver-news",
+    "daum-news",
+    "news1-society"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "뉴시스 사회",
+      "title": "\"볶아달라니까!\"…셀프 볶음밥 안 볶아줬다고 사장 폭행한 손님",
+      "url": "https://www.newsis.com/view/NISX20260807_0003740192"
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "볶아달라니까",
+      "셀프",
+      "볶음밥",
+      "볶아줬다고",
+      "사장",
+      "폭행한",
+      "손님",
+      "볶음밥을",
+      "직접",
+      "볶으라는"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "볶아달라니까",
+        "terms": [
+          "볶아달라니까"
+        ]
+      },
+      {
+        "name": "셀프",
+        "terms": [
+          "셀프"
+        ]
+      },
+      {
+        "name": "볶음밥",
+        "terms": [
+          "볶음밥"
+        ]
+      },
+      {
+        "name": "볶아줬다고",
+        "terms": [
+          "볶아줬다고"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "볶아달라니까",
+      "셀프",
+      "볶음밥",
+      "볶아줬다고",
+      "사장",
+      "폭행한",
+      "손님",
+      "볶음밥을",
+      "직접",
+      "볶으라는"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "볶아달라니까",
+        "terms": [
+          "볶아달라니까"
+        ]
+      },
+      {
+        "name": "셀프",
+        "terms": [
+          "셀프"
+        ]
+      },
+      {
+        "name": "볶음밥",
+        "terms": [
+          "볶음밥"
+        ]
+      },
+      {
+        "name": "볶아줬다고",
+        "terms": [
+          "볶아줬다고"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "contradictions": [],
+  "limit": 50,
+  "generatedFrom": "promoted-newsroom-candidate"
+}

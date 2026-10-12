@@ -1,0 +1,122 @@
+{
+  "additionalProperties": false,
+  "description": "First pass intentionally has no product fields: assess the story first.",
+  "properties": {
+    "video_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,100}$",
+      "title": "Video Id",
+      "type": "string"
+    },
+    "event_key": {
+      "pattern": "^[A-Za-z0-9_-]{1,100}$",
+      "title": "Event Key",
+      "type": "string"
+    },
+    "domain": {
+      "enum": [
+        "relationships",
+        "work",
+        "daily_life",
+        "hobbies",
+        "culture",
+        "curiosity"
+      ],
+      "title": "Domain",
+      "type": "string"
+    },
+    "content_kind": {
+      "enum": [
+        "personal_story",
+        "reported_event",
+        "fiction",
+        "explanation",
+        "unknown"
+      ],
+      "title": "Content Kind",
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "candidate",
+        "reject",
+        "needs_content"
+      ],
+      "title": "Decision",
+      "type": "string"
+    },
+    "summary": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Summary",
+      "type": "string"
+    },
+    "reason": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Reason",
+      "type": "string"
+    },
+    "hook": {
+      "default": "",
+      "maxLength": 2000,
+      "title": "Hook",
+      "type": "string"
+    },
+    "change": {
+      "default": "",
+      "maxLength": 2000,
+      "title": "Change",
+      "type": "string"
+    },
+    "payoff": {
+      "default": "",
+      "maxLength": 2000,
+      "title": "Payoff",
+      "type": "string"
+    },
+    "evidence_ids": {
+      "items": {
+        "pattern": "^[A-Za-z0-9_-]{1,100}$",
+        "type": "string"
+      },
+      "maxItems": 10,
+      "title": "Evidence Ids",
+      "type": "array"
+    },
+    "followup_queries": {
+      "items": {
+        "maxLength": 200,
+        "minLength": 2,
+        "type": "string"
+      },
+      "maxItems": 5,
+      "title": "Followup Queries",
+      "type": "array"
+    },
+    "actor": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Actor",
+      "type": "string"
+    },
+    "model": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Model",
+      "type": "string"
+    }
+  },
+  "required": [
+    "video_id",
+    "event_key",
+    "domain",
+    "content_kind",
+    "decision",
+    "summary",
+    "reason",
+    "actor",
+    "model"
+  ],
+  "title": "NarrativeIntake",
+  "type": "object"
+}

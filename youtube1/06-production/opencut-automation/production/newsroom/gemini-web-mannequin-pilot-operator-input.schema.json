@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-gemini-web-mannequin-pilot-operator-input-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "storyId", "pilotId", "performedBy", "capturedAt", "surface", "modelLabel", "modeLabel", "promptCopiedSha256", "uploadOrder", "receiptRelativePath", "statement"],
+  "properties": {
+    "schema": {"const": "newsroom-gemini-web-mannequin-pilot-operator-input-v1"},
+    "storyId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,79}$"},
+    "pilotId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,79}$"},
+    "performedBy": {"type": "string", "minLength": 1, "maxLength": 160},
+    "capturedAt": {"type": "string", "format": "date-time"},
+    "surface": {"const": "gemini-web"},
+    "modelLabel": {"type": "string", "minLength": 1, "maxLength": 160},
+    "modeLabel": {"type": "string", "minLength": 1, "maxLength": 160},
+    "promptCopiedSha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "uploadOrder": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ordinal", "assetId", "sha256", "bytes"],
+        "properties": {
+          "ordinal": {"type": "integer", "minimum": 1, "maximum": 5},
+          "assetId": {"type": "string", "minLength": 1},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "bytes": {"type": "integer", "minimum": 1}
+        }
+      }
+    },
+    "receiptRelativePath": {"type": "string", "minLength": 1},
+    "statement": {"const": "I operated the recorded Gemini Web UI, copied the exact submitted prompt, uploaded the recorded references in the recorded order, and downloaded this source from that pilot run."}
+  }
+}

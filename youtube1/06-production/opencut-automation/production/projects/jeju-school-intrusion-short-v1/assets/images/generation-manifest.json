@@ -1,0 +1,76 @@
+{
+  "version": "canonical-v2",
+  "generatedAt": "2026-08-01",
+  "generator": "OpenAI built-in imagegen",
+  "scriptSource": "../../../../newsroom/projects/jeju-school-intrusion.json",
+  "scriptTextSha256": "ec7e9dd3bdf868e201f171ae22557527d11001764aa5e3ce88e3d9ae2b89af44",
+  "policy": {
+    "fictionalReenactment": true,
+    "visibleFaces": false,
+    "identifiableSchool": false,
+    "embeddedText": false,
+    "legacyAssetsAllowed": false
+  },
+  "assets": [
+    {
+      "file": "canonical-v2-scene-01-hook.png",
+      "sha256": "1de890f30474d4f419099b69ecf9769cb621c8adbf1d0c3a1ed4daa69b12297c",
+      "scene": "교권보호국 훅과 빈 학교 복도"
+    },
+    {
+      "file": "canonical-v2-scene-02-intrusion.png",
+      "sha256": "83f319af6e3e9ee39d0d3d211adeda254a57902b7384f88a0b51433001d91ba9",
+      "scene": "야간 교실 침입"
+    },
+    {
+      "file": "canonical-v2-scene-03-tumbler.png",
+      "sha256": "736ddd3e8a6dc949f2a0d87604e235c10c67dc3842afec576ddd1572df30726a",
+      "scene": "교사의 텀블러 발견"
+    },
+    {
+      "file": "canonical-v2-scene-04-forensic.png",
+      "sha256": "235872232326ee61e4c11df8dccf8befe2cc601a132969f760fdcd7b0c6ae47c",
+      "scene": "텀블러 감식"
+    },
+    {
+      "file": "canonical-v2-scene-05-chair.png",
+      "sha256": "ea623eabb99d55793701317fb520aa1f64006e5aa566748f13845ba9b1ae4cf1",
+      "scene": "같은 교실 재침입"
+    },
+    {
+      "file": "canonical-v2-scene-06-cctv.png",
+      "sha256": "794d51f0dc5bbc12893ca38035e238ada2e4eff498d8e487d91a1bfd697d386f",
+      "scene": "CCTV 확인"
+    },
+    {
+      "file": "canonical-v2-scene-07-suspect.png",
+      "sha256": "71f920c6c18e546c0f40d6aa0ef39841e97bb1198cba5af30717c47f1c14b4b5",
+      "scene": "익명 처리한 미성년 피의자"
+    },
+    {
+      "file": "canonical-v2-scene-08-digital-forensics.png",
+      "sha256": "5a132fd51929573cccb02cd60358ba7ea66d228fa2a5a2a9d8c4c2f5f3344ce8",
+      "scene": "휴대전화와 컴퓨터 포렌식 요청"
+    },
+    {
+      "file": "canonical-v2-scene-09-warrant-denied.png",
+      "sha256": "543d0f5a385a1ddae089dfff53592d3f6ce61b7d4852fb6b291d5a0dd1ab61a2",
+      "scene": "영장 기각"
+    },
+    {
+      "file": "canonical-v2-scene-10-stalemate.png",
+      "sha256": "17e8a2d876a5f7255235fd664a152e97a77dc6c8c205453293adf529e65c5a69",
+      "scene": "수사와 보호의 공백"
+    },
+    {
+      "file": "canonical-v2-scene-11-teacher-anxiety.png",
+      "sha256": "9e4c79cb235b70ee543358f27717804f9f6eee507f2f42bc615d207aeb1e1a13",
+      "scene": "피해 교사의 일상 복귀 불안"
+    },
+    {
+      "file": "canonical-v2-scene-12-protection.png",
+      "sha256": "008b99917d6cc6ce4865db446f02e68717c159e6d46ae5ea815d30114677ffff",
+      "scene": "출입 통제와 피해자 보호 시스템"
+    }
+  ]
+}

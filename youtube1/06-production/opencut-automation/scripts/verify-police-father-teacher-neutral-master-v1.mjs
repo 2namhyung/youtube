@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import { fileURLToPath } from 'node:url';
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const out = path.join(root, 'out', 'prototypes', 'research-6b1a8af9b4143acb-v34-teacher-neutral-master-production-v1');
+const manifestPath = path.join(out, 'production-admission-v1.json');
+const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+const file = path.resolve(out, manifest.asset.file);
+const sha = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
+if (manifest.schema !== 'character-master-production-admission-v1' || manifest.production?.approved !== true || manifest.production?.privateOnly !== true || manifest.production?.public !== false) throw new Error('admission boundary drift');
+if (!file.startsWith(`${path.resolve(out)}${path.sep}`) || fs.lstatSync(file).isSymbolicLink()) throw new Error('asset containment failed');
+const bytes = fs.readFileSync(file);
+if (bytes.length !== manifest.asset.bytes || sha(bytes) !== manifest.asset.sha256 || manifest.asset.role !== 'character' || !manifest.asset.invariants.includes('empty hands')) throw new Error('asset bytes or invariants drifted');
+console.log(JSON.stringify({ verified: true, assetSha256: sha(bytes), manifestSha256: sha(fs.readFileSync(manifestPath)) }, null, 2));

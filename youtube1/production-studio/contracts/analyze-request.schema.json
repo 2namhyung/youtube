@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"AnalyzeRequest","type":"object","additionalProperties":false,"required":["script","expected_revision"],"properties":{"script":{"type":"string","minLength":1,"maxLength":200000},"expected_revision":{"type":"integer","minimum":1}}}

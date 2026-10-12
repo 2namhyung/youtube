@@ -1,0 +1,28 @@
+{
+  "schema": "rive-vector-master-report-v1",
+  "status": "technical-structure-pass-visual-review-pending",
+  "productionApproved": false,
+  "svg": {
+    "path": "source/front-vector-master-v1.svg",
+    "sha256": "31eb175ddcc6dfd3a1fcaed66744538413211d3fbf29a0e3bb69e854310cbbbc"
+  },
+  "preview": {
+    "path": "review/front-vector-master-v1.png",
+    "sha256": "01261b46893f3bba35b0357dd857758e17571e20c2f7e087f4cd830371687c68"
+  },
+  "semanticGroups": [
+    "arms",
+    "face",
+    "hands",
+    "legs",
+    "neck_head",
+    "torso"
+  ],
+  "embeddedRasterCount": 0,
+  "torsoContainsSleeve": false,
+  "visualKnownIssues": [
+    "shoulder silhouette is more angular than the preferred raster design",
+    "face and clothing finish do not yet match the preferred raster design",
+    "not authorized as a replacement design authority"
+  ]
+}

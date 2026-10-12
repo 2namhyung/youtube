@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-sequence-first-radio-edit-v3",
+  "type": "object",
+  "required": ["schema", "sequenceAuthority", "semanticUnits", "visualBlocks", "sourceAssets", "cuts", "stories"],
+  "properties": {
+    "schema": {"const": "newsroom-sequence-first-radio-edit-v3"},
+    "sequenceAuthority": {"type": "object", "required": ["source", "authorityRun", "narrationAudioSha256", "semanticCutPlanSha256", "storyAuthorities"]},
+    "visualBlocks": {"type": "array", "items": {"type": "object", "required": ["blockId", "phaseId", "visualRole", "cutIds", "sourceAssetIds", "treatments"]}},
+    "sourceAssets": {"type": "array", "items": {"type": "object", "required": ["assetId", "storyId", "rightsEvidence", "privacyReview", "providerInputStatus", "editScope"]}},
+    "cuts": {"type": "array"},
+    "stories": {"type": "array", "items": {"type": "object", "required": ["storyId", "photoScreenTimeCoverage", "evidenceCompleteness", "unresolvedEvidenceGaps"]}}
+  }
+}

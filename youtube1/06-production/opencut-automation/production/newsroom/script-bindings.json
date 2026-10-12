@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "bindings": [
+    {
+      "newsroomSlug": "research-657380fce7eaccc9",
+      "productionProjectId": "coffee-pesticide-hospital-short-v1",
+      "authoritativeScript": "production/projects/coffee-pesticide-hospital-short-v1/script.final.json",
+      "projectAuthority": "production/projects/coffee-pesticide-hospital-short-v1/project-editorial-cartoon.json",
+      "handoffSelection": "latest-private-no-register"
+    }
+  ]
+}

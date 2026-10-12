@@ -1,0 +1,50 @@
+{
+  "schema": "newsroom-curated-short-narration-corpus-v1",
+  "status": "immutable-style-reference-not-factual-evidence",
+  "approvedStyleReferences": [
+    {
+      "id": "user-liked-road-rage-full-script-v1",
+      "approvalBasis": "user-explicitly-liked-wording-in-conversation",
+      "approvedFor": [
+        "concrete-audio-first-sequencing",
+        "physical-escalation",
+        "role-conflict",
+        "sentence-rhythm"
+      ],
+      "limitations": "Style only. It is not evidence for any new case. Later user feedback rejects portable reflective endings, so its final reflection is not a required or approved ending template.",
+      "text": "좁은 도로에서 큰길로 우회전해 합류한 승용차. 운전석에는 여성이, 옆에는 중학생 딸이 타고 있었습니다. 바로 뒤에서 긴 경적이 울렸고, 뒤따르던 차는 이들을 추월해 앞을 가로막았습니다. 운전자가 차에서 내려 다가왔습니다. 손에는 총처럼 보이는 물건이 들려 있었습니다. 실제 총인지 알 수 없었던 여성은 그대로 차를 몰아 빠져나갔지만, 위협은 멈추지 않았습니다. 뒤차는 약 8분 동안 따라붙었습니다. 정체로 피해 차량이 느려지자 뒤범퍼를 두 차례 들이받았습니다. 운전자는 다시 내려 총기 모형을 겨누고, 창문을 두드리며 내리라고 소리쳤습니다. 앞 유리와 창문도 여러 차례 내리쳤습니다. 여기서도 끝이 아니었습니다. 자기 차로 돌아간 운전자는 후진해 피해 차량을 또 들이받았습니다. 장갑을 끼고 송곳을 꺼내 타이어에 구멍을 내고 유리창까지 훼손했습니다. 피해 차량의 여성과 10대 자녀는 가벼운 상처를 입었습니다. 경찰 조사에서 이 남성은 상대 차량이 한 번에 차선을 바꾸자 순간적으로 화가 났다고 진술한 것으로 알려졌습니다. 남성은 특수상해와 특수협박 등의 혐의로 구속됐습니다. 그런데 이 모든 추격과 충돌이 이어지는 동안, 남성의 차 안에도 다섯 살 딸이 타고 있었습니다. 한순간의 분노가 덮친 두 대의 차, 그 안에는 모두 누군가의 어린 자녀가 있었습니다. 가장 익숙해야 할 보호자의 곁조차 두려움의 자리가 될 수 있다는 사실은 오래 마음에 남습니다."
+    },
+    {
+      "id": "user-liked-road-rage-hook-v1",
+      "approvalBasis": "user-explicitly-liked-wording-in-conversation",
+      "approvedFor": [
+        "immediate-role-conflict",
+        "specific-duration",
+        "concrete-threat",
+        "curiosity-gap"
+      ],
+      "limitations": "Style only. Never copy names, ages, roles, duration or objects into another case unless its current-case claims verify them.",
+      "text": "다섯 살 딸을 태운 아버지가, 중학생 딸이 탄 차를 8분 동안 쫓았습니다. 손에는 총처럼 보이는 물건이 들려 있었습니다."
+    }
+  ],
+  "antiPatterns": [
+    {
+      "id": "machine-source-first-summary",
+      "approvalBasis": "rejected-machine-pattern-not-user-approved",
+      "text": "경찰 조사에 따르면 사건이 벌어졌습니다. 발단은 평범한 상황이었습니다.",
+      "reason": "기사 출처와 요약 표지판이 사건의 구체적 긴장보다 먼저 나온다."
+    },
+    {
+      "id": "machine-provenance-padding",
+      "approvalBasis": "rejected-machine-pattern-not-user-approved",
+      "text": "독립 보도 한 곳에서 확인된 범위이며 같은 보도의 수치만 사용했습니다.",
+      "reason": "취재 provenance를 낭독해 이야기 대신 검증 메타데이터로 시간을 채운다."
+    },
+    {
+      "id": "machine-portable-ending",
+      "approvalBasis": "rejected-machine-pattern-not-user-approved",
+      "text": "이 사건은 우리 모두에게 씁쓸함을 남기며 되돌아보게 합니다.",
+      "reason": "고유명만 바꾸면 다른 사건에도 붙는 도덕적·반성형 결말이다."
+    }
+  ]
+}

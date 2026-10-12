@@ -1,0 +1,60 @@
+{
+  "verifiedAt": "2026-07-26",
+  "system": {
+    "os": "Windows 11",
+    "cpu": "Intel Core i5-13500",
+    "ramGiB": 15.8,
+    "gpu": "NVIDIA GeForce RTX 3060 Ti",
+    "vramGiB": 8,
+    "driver": "591.86"
+  },
+  "runtime": {
+    "python": "3.10.19",
+    "torch": "2.3.1+cu121",
+    "torchaudio": "2.3.1+cu121",
+    "cudaAvailable": true,
+    "inference": "cuda-fp16 eager",
+    "onnxruntime": "1.18.0 CPU provider on Windows"
+  },
+  "upstream": {
+    "cosyVoiceCommit": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+    "matchaTtsCommit": "dd9105b34bf2be2230f4aa1e4769fb586a3c824e",
+    "model": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "modelRevision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18"
+  },
+  "samples": {
+    "hook": {
+      "path": "samples/hook.wav",
+      "durationSeconds": 4,
+      "sampleRate": 24000,
+      "channels": 1,
+      "meanDb": -22.2,
+      "peakDb": -3.7,
+      "sha256": "C6F2899C8580E3A9DFBEBBED2B73B388A46A3C53678B0D5D68978D1CC7D1456A",
+      "localStt": "잡혔는데도 끝나지 않은 사건, 대체 무엇이 잘못된 걸까요?"
+    },
+    "solution": {
+      "path": "samples/solution.wav",
+      "durationSeconds": 5.64,
+      "sampleRate": 24000,
+      "channels": 1,
+      "meanDb": -21.7,
+      "peakDb": -2.6,
+      "sha256": "A31804721CEBE2650560623965DCD6CFC9C62800B9619353F29E64985322D83D",
+      "localStt": "사건이 끝난 뒤에도 피해자가 안전할 수 있도록 보호시스템이 끝까지 책임져야 합니다."
+    }
+  },
+  "tests": {
+    "production": "passed",
+    "renderHandoff": "passed",
+    "newsroom": "passed",
+    "localCloneProviderUnit": "passed",
+    "localCloneProviderE2E": "passed"
+  },
+  "modelIntegrity": {
+    "revisionPinned": true,
+    "coreSha256Allowlist": true,
+    "existingSnapshotReuseSeconds": 4.6,
+    "tamperFixture": "failed closed as expected"
+  }
+}

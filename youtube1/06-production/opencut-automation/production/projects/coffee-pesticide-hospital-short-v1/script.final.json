@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-657380fce7eaccc9",
+  "status": "final",
+  "selectedDraftId": "suspense",
+  "finalizedAt": "2026-08-08T07:00:20.439Z",
+  "draft": "방금까지는 평범한 커피였습니다.\n잠깐 자리를 비운 사이, 누군가 살충제를 넣기 전까지는 말입니다.\n\n경기도 구리시 한 병원.\n간호조무사 A씨는 업무로 핀잔을 주던 B씨에게 불만이 있었습니다.\n다툰 다음 날, B씨가 자리를 뜨자 커피에 살충제를 넣었습니다.\nB씨는 한 모금 뒤 이상한 맛에 멈췄지만 위장장애와 불안장애를 겪었습니다.\n\n사람이 먹으면 안 되는 살충제잖아요.\n검찰은 살인미수를 주장했지만 법원이 인정한 건 특수상해였습니다.\n1심 징역 2년.\n항소심에선 징역 1년 6개월에 집행유예 3년으로 형이 줄었습니다.\n\n하지만 피해자의 커피잔에 남은 공포도 줄었을까요?\n\n형은 언젠가 끝나지만,\n피해자는 그 이후를 살아가야 합니다.\n열린 컵, 건네받은 음료, 잠깐 비운 자리까지 의심하게 될지도 모릅니다.\n\n안심하고 일할 수 없다면 이 사건은 판결만으로 끝난 게 아닙니다.\n\n직장 책상에 두고 온 커피.\n여러분은 아무렇지 않게 다시 마실 수 있나요?",
+  "restoration": {
+    "schema": "authoritative-script-restoration-v1",
+    "mode": "restore-pre-normalization-authoritative-draft",
+    "normalizedDraftSha256": "9e1a2bd3effa8524468f01eb332f69371d178a92561220f1daa9fb8895859c79",
+    "restoredDraftSha256": "740d18db54134f4bee1db672bebaa50c3a8ce7396ffb19b1fcb8ab6acc317a8d",
+    "normalizationEvidenceSha256": "bf1c1e44ac03d340d72accd7ea5326a95444e97a3a2f1cf3f818717ff72c512a",
+    "removedRuleIds": [
+      "legal-attempted-murder-plain-v1",
+      "legal-special-injury-plain-v1",
+      "legal-suspended-sentence-plain-v1"
+    ],
+    "exactCharacterRestoration": true,
+    "spokenOnlyOverride": false,
+    "creator": "scripts/restore-authoritative-script.mjs"
+  },
+  "revision": {
+    "schemaVersion": "authoritative-script-revision-v1",
+    "revisionId": "coffee-suspense-transition-v2",
+    "previousDraftSha256": "bf43f0e97c1eb916d544ff3d6fe28b2fdbc02e8ffe420b4db8f17c571f64873e",
+    "draftSha256": "1e79b194c356f52ef41dc010c60b11c3b56abc4c2c1f808a933c0cad31c4aba2",
+    "appliedAt": "2026-08-08T07:00:20.439Z",
+    "requestedBy": "user-editorial-action",
+    "reason": "Remove the repeated sentence transition while preserving the appeal outcome, victim-impact question and ending tone.",
+    "scope": "exact-editorial-replacement; facts-and-victim-impact-ending-preserved",
+    "protectedExactPhrases": [
+      "검찰은 살인미수를 주장했지만 법원이 인정한 건 특수상해였습니다.",
+      "1심 징역 2년.",
+      "징역 1년 6개월",
+      "집행유예 3년",
+      "피해자의 커피잔에 남은 공포",
+      "형은 언젠가",
+      "피해자는",
+      "열린 컵, 건네받은 음료, 잠깐 비운 자리까지 의심하게 될지도 모릅니다."
+    ],
+    "creator": "scripts/revise-authoritative-script.mjs",
+    "verifier": "scripts/authoritative-script-revision-lib.mjs",
+    "sourceRestoration": {
+      "schema": "authoritative-script-restoration-v1",
+      "mode": "restore-pre-normalization-authoritative-draft",
+      "normalizedDraftSha256": "9e1a2bd3effa8524468f01eb332f69371d178a92561220f1daa9fb8895859c79",
+      "restoredDraftSha256": "740d18db54134f4bee1db672bebaa50c3a8ce7396ffb19b1fcb8ab6acc317a8d",
+      "normalizationEvidenceSha256": "bf1c1e44ac03d340d72accd7ea5326a95444e97a3a2f1cf3f818717ff72c512a",
+      "removedRuleIds": [
+        "legal-attempted-murder-plain-v1",
+        "legal-special-injury-plain-v1",
+        "legal-suspended-sentence-plain-v1"
+      ],
+      "exactCharacterRestoration": true,
+      "spokenOnlyOverride": false,
+      "creator": "scripts/restore-authoritative-script.mjs"
+    },
+    "previousRevision": {
+      "schemaVersion": "authoritative-script-revision-v1",
+      "revisionId": "coffee-suspense-transition-v1",
+      "previousDraftSha256": "740d18db54134f4bee1db672bebaa50c3a8ce7396ffb19b1fcb8ab6acc317a8d",
+      "draftSha256": "bf43f0e97c1eb916d544ff3d6fe28b2fdbc02e8ffe420b4db8f17c571f64873e",
+      "appliedAt": "2026-08-08T07:00:20.439Z",
+      "requestedBy": "user-editorial-action",
+      "reason": "Remove the repeated sentence transition while preserving the appeal outcome, victim-impact question and ending tone.",
+      "scope": "exact-editorial-replacement; facts-and-victim-impact-ending-preserved",
+      "protectedExactPhrases": [
+        "검찰은 살인미수를 주장했지만 법원이 인정한 건 특수상해였습니다.",
+        "1심 징역 2년.",
+        "징역 1년 6개월",
+        "집행유예 3년",
+        "피해자의 커피잔에 남은 공포",
+        "형은 언젠가 끝납니다.",
+        "열린 컵, 건네받은 음료, 잠깐 비운 자리까지 의심하게 될지도 모릅니다."
+      ],
+      "creator": "scripts/revise-authoritative-script.mjs",
+      "verifier": "scripts/authoritative-script-revision-lib.mjs",
+      "sourceRestoration": {
+        "schema": "authoritative-script-restoration-v1",
+        "mode": "restore-pre-normalization-authoritative-draft",
+        "normalizedDraftSha256": "9e1a2bd3effa8524468f01eb332f69371d178a92561220f1daa9fb8895859c79",
+        "restoredDraftSha256": "740d18db54134f4bee1db672bebaa50c3a8ce7396ffb19b1fcb8ab6acc317a8d",
+        "normalizationEvidenceSha256": "bf1c1e44ac03d340d72accd7ea5326a95444e97a3a2f1cf3f818717ff72c512a",
+        "removedRuleIds": [
+          "legal-attempted-murder-plain-v1",
+          "legal-special-injury-plain-v1",
+          "legal-suspended-sentence-plain-v1"
+        ],
+        "exactCharacterRestoration": true,
+        "spokenOnlyOverride": false,
+        "creator": "scripts/restore-authoritative-script.mjs"
+      },
+      "previousRevision": null
+    }
+  }
+}

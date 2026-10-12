@@ -1,0 +1,846 @@
+{
+  "slug": "research-63c8b8ed8a51c5aa",
+  "topic": "또 다른 허위 종결 가족, 두 차례 경찰 찾아갔지만 그마저 무시당했다",
+  "mode": "investigation",
+  "fetchedAt": "2026-09-02T13:21:15.158Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-63c8b8ed8a51c5aa.research.config.json",
+    "queries": [
+      "또 다른 허위 종결 가족, 두 차례 경찰 찾아갔지만 그마저 무시당했다",
+      "다른 허위 종결",
+      "다른 허위",
+      "다른 허위 가족 경찰",
+      "다른 허위 경찰 신고 수사 처분",
+      "다른 허위 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ],
+    "eventFingerprint": {
+      "anchors": [
+        "다른",
+        "허위",
+        "종결",
+        "가족",
+        "차례",
+        "찾아갔지만",
+        "그마저",
+        "무시당했다",
+        "실종"
+      ],
+      "distinctiveAnchors": [
+        {
+          "name": "다른",
+          "terms": [
+            "다른"
+          ]
+        },
+        {
+          "name": "허위",
+          "terms": [
+            "허위"
+          ]
+        },
+        {
+          "name": "종결",
+          "terms": [
+            "종결"
+          ]
+        },
+        {
+          "name": "가족",
+          "terms": [
+            "가족"
+          ]
+        }
+      ],
+      "minDistinctiveMatches": 2,
+      "minTotalMatches": 3
+    }
+  },
+  "sources": [
+    {
+      "publisher": "JTBC 뉴스",
+      "title": "또 다른 허위 종결 가족, 두 차례 경찰 찾아갔지만 그마저 무시당했다",
+      "url": "https://news.jtbc.co.kr/article/NB12314647",
+      "date": null,
+      "status": "verified",
+      "snippet": "실종 신고 허위 종결 뒤 51일 만에 백골 시신으로 발견된 60대 남성의 가족들이 최초 신고 뒤 2차례 더 경찰서를 방문했지만 무시당했다는 사실...",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "다른",
+          "허위",
+          "종결",
+          "가족",
+          "차례",
+          "경찰",
+          "찾아갔지만",
+          "그마저",
+          "무시당했다"
+        ],
+        "snippetLength": 83,
+        "contentLength": 83
+      },
+      "fetchedAt": "2026-09-02T13:21:15.180Z"
+    }
+  ],
+  "relatedCoverage": [
+    {
+      "title": "장동혁, 담당 경찰관의 다른 허위종결 사례도 거론",
+      "url": "https://www.youtube.com/watch?v=IAoZ_HH-s7M",
+      "publisher": "아이디아",
+      "date": "2026-09-02T10:56:04Z",
+      "status": "indexed",
+      "snippet": "",
+      "fetchedAt": "2026-09-02T13:21:23.652Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/IAoZ_HH-s7M/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.8875000000000001,
+        "matchedAnchors": [
+          "다른",
+          "허위",
+          "종결"
+        ],
+        "matchedDistinctiveAnchors": [
+          "다른",
+          "허위",
+          "종결"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "다른",
+            "허위",
+            "종결",
+            "가족",
+            "차례",
+            "찾아갔지만",
+            "그마저",
+            "무시당했다",
+            "실종"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "다른",
+              "terms": [
+                "다른"
+              ]
+            },
+            {
+              "name": "허위",
+              "terms": [
+                "허위"
+              ]
+            },
+            {
+              "name": "종결",
+              "terms": [
+                "종결"
+              ]
+            },
+            {
+              "name": "가족",
+              "terms": [
+                "가족"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      }
+    },
+    {
+      "title": "경찰, &#39;실종 허위 종결&#39; 제주청장 문책성 인사…승진 내정됐다. 취소 [MBN 뉴스7]",
+      "url": "https://www.youtube.com/watch?v=whVKFO1m1dQ",
+      "publisher": "MBN News",
+      "date": "2026-09-02T10:37:36Z",
+      "status": "indexed",
+      "snippet": "【 앵커멘트 】 어젯밤 정부가 경찰 고위직 인사들을 대대적으로 물갈이했습니다. 시도 경찰청장 18명 가운데 14명이 교체됐는데요.",
+      "fetchedAt": "2026-09-02T13:21:23.652Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/whVKFO1m1dQ/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.775,
+        "matchedAnchors": [
+          "허위",
+          "종결",
+          "실종"
+        ],
+        "matchedDistinctiveAnchors": [
+          "허위",
+          "종결"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "다른",
+            "허위",
+            "종결",
+            "가족",
+            "차례",
+            "찾아갔지만",
+            "그마저",
+            "무시당했다",
+            "실종"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "다른",
+              "terms": [
+                "다른"
+              ]
+            },
+            {
+              "name": "허위",
+              "terms": [
+                "허위"
+              ]
+            },
+            {
+              "name": "종결",
+              "terms": [
+                "종결"
+              ]
+            },
+            {
+              "name": "가족",
+              "terms": [
+                "가족"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      }
+    },
+    {
+      "title": "[단독]A 경장, 다른 실종사건 초과근무·식비 신청 / 채널A / 뉴스A",
+      "url": "https://www.youtube.com/watch?v=VTSyiXnYQfY",
+      "publisher": "채널A News",
+      "date": "2026-08-30T10:31:49Z",
+      "status": "indexed",
+      "snippet": "[단독]A 경장, 다른 실종사건 초과근무·식비 신청 제주 실종 신고 허위 종결 사건으로 이어갑니다. 구속 수사를 받고 있는 문제의 경찰관 ...",
+      "fetchedAt": "2026-09-02T13:21:23.652Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/VTSyiXnYQfY/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.8875000000000001,
+        "matchedAnchors": [
+          "다른",
+          "허위",
+          "종결",
+          "실종"
+        ],
+        "matchedDistinctiveAnchors": [
+          "다른",
+          "허위",
+          "종결"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "다른",
+            "허위",
+            "종결",
+            "가족",
+            "차례",
+            "찾아갔지만",
+            "그마저",
+            "무시당했다",
+            "실종"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "다른",
+              "terms": [
+                "다른"
+              ]
+            },
+            {
+              "name": "허위",
+              "terms": [
+                "허위"
+              ]
+            },
+            {
+              "name": "종결",
+              "terms": [
+                "종결"
+              ]
+            },
+            {
+              "name": "가족",
+              "terms": [
+                "가족"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      }
+    },
+    {
+      "title": "&quot;동료가 알고 있으니&quot;...&#39;허위 종결&#39; 부 경장, 사건마다 수법 달랐다 [자막뉴스] / YTN",
+      "url": "https://www.youtube.com/watch?v=MsTmSvp6Zcw",
+      "publisher": " YTN",
+      "date": "2026-09-02T01:14:28Z",
+      "status": "indexed",
+      "snippet": "부 경장이 실종 사건을 조작하며 쓴 방식은 크게 두 가지입니다. 지난 5월 접수된 30대 여성 장 모 씨 사건의 경우, 실종 프로파일링 ...",
+      "fetchedAt": "2026-09-02T13:21:23.652Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/MsTmSvp6Zcw/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.775,
+        "matchedAnchors": [
+          "허위",
+          "종결",
+          "실종"
+        ],
+        "matchedDistinctiveAnchors": [
+          "허위",
+          "종결"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "다른",
+            "허위",
+            "종결",
+            "가족",
+            "차례",
+            "찾아갔지만",
+            "그마저",
+            "무시당했다",
+            "실종"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "다른",
+              "terms": [
+                "다른"
+              ]
+            },
+            {
+              "name": "허위",
+              "terms": [
+                "허위"
+              ]
+            },
+            {
+              "name": "종결",
+              "terms": [
+                "종결"
+              ]
+            },
+            {
+              "name": "가족",
+              "terms": [
+                "가족"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      }
+    },
+    {
+      "title": "‘허위 종결’ 경장, 다른 실종 사건 초과근무·식비 신청 / 채널A / 뉴스A 라이브",
+      "url": "https://www.youtube.com/watch?v=r1YhD9Z29iM",
+      "publisher": "채널A News",
+      "date": "2026-08-31T04:27:10Z",
+      "status": "indexed",
+      "snippet": "'허위 종결' 경장, 다른 실종 사건 초과근무·식비 신청 제주 실종 신고 허위 종결 사건으로 이어갑니다.구속 수사를 받고 있는 문제의 ...",
+      "fetchedAt": "2026-09-02T13:21:23.652Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/r1YhD9Z29iM/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.8875000000000001,
+        "matchedAnchors": [
+          "다른",
+          "허위",
+          "종결",
+          "실종"
+        ],
+        "matchedDistinctiveAnchors": [
+          "다른",
+          "허위",
+          "종결"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "다른",
+            "허위",
+            "종결",
+            "가족",
+            "차례",
+            "찾아갔지만",
+            "그마저",
+            "무시당했다",
+            "실종"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "다른",
+              "terms": [
+                "다른"
+              ]
+            },
+            {
+              "name": "허위",
+              "terms": [
+                "허위"
+              ]
+            },
+            {
+              "name": "종결",
+              "terms": [
+                "종결"
+              ]
+            },
+            {
+              "name": "가족",
+              "terms": [
+                "가족"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      }
+    },
+    {
+      "title": "사건 멋대로 &#39;허위종결&#39; 처리하더니... 법원 송치되며 기자에게 들은 말",
+      "url": "https://www.youtube.com/watch?v=e1iFeJaFbLA",
+      "publisher": "한라일보TV",
+      "date": "2026-09-01T05:27:11Z",
+      "status": "indexed",
+      "snippet": "제주에서 실종사건 허위로 종결한 혐의를 받는 현직 경찰관이 구속 상태로 검찰에 넘겨졌다. 1일 오후 1시쯤 제주서부경찰서 소속 A ...",
+      "fetchedAt": "2026-09-02T13:21:23.652Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/e1iFeJaFbLA/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.775,
+        "matchedAnchors": [
+          "허위",
+          "종결",
+          "실종"
+        ],
+        "matchedDistinctiveAnchors": [
+          "허위",
+          "종결"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "다른",
+            "허위",
+            "종결",
+            "가족",
+            "차례",
+            "찾아갔지만",
+            "그마저",
+            "무시당했다",
+            "실종"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "다른",
+              "terms": [
+                "다른"
+              ]
+            },
+            {
+              "name": "허위",
+              "terms": [
+                "허위"
+              ]
+            },
+            {
+              "name": "종결",
+              "terms": [
+                "종결"
+              ]
+            },
+            {
+              "name": "가족",
+              "terms": [
+                "가족"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      }
+    },
+    {
+      "title": "장미란 실종사건 &#39;허위 종결&#39; 경찰, 또 다른 사건도 묻었다 &quot;백골 될 때까지 뭐 했나&quot;",
+      "url": "https://www.youtube.com/watch?v=mGKAbKPUbOk",
+      "publisher": "MBN News",
+      "date": "2026-08-24T01:54:02Z",
+      "status": "indexed",
+      "snippet": "아침&매일경제 평일 오전 8시 방송 #MBN #MBN아침앤매일경제 #민지숙앵커 #제주 #실종 #장미란 #허위종결 #셀프종결 #사건 ...",
+      "fetchedAt": "2026-09-02T13:21:23.652Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/mGKAbKPUbOk/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.8875000000000001,
+        "matchedAnchors": [
+          "다른",
+          "허위",
+          "종결",
+          "실종"
+        ],
+        "matchedDistinctiveAnchors": [
+          "다른",
+          "허위",
+          "종결"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "다른",
+            "허위",
+            "종결",
+            "가족",
+            "차례",
+            "찾아갔지만",
+            "그마저",
+            "무시당했다",
+            "실종"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "다른",
+              "terms": [
+                "다른"
+              ]
+            },
+            {
+              "name": "허위",
+              "terms": [
+                "허위"
+              ]
+            },
+            {
+              "name": "종결",
+              "terms": [
+                "종결"
+              ]
+            },
+            {
+              "name": "가족",
+              "terms": [
+                "가족"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      }
+    },
+    {
+      "title": "&#39;무사하다&#39;더니 시신 발견...다른 사건도 &#39;허위종결&#39; / YTN",
+      "url": "https://www.youtube.com/watch?v=ntwO1ztAvGo",
+      "publisher": " YTN",
+      "date": "2026-08-23T03:27:32Z",
+      "status": "indexed",
+      "snippet": "[앵커] 제주에서 실종된 장미란 씨 사건을 허위로 종결한 경찰관이, 다른 실종사건도 허위종결한 사실이 확인돼 긴급체포됐습니다.",
+      "fetchedAt": "2026-09-02T13:21:23.652Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/ntwO1ztAvGo/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.8875000000000001,
+        "matchedAnchors": [
+          "다른",
+          "허위",
+          "종결",
+          "실종"
+        ],
+        "matchedDistinctiveAnchors": [
+          "다른",
+          "허위",
+          "종결"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "다른",
+            "허위",
+            "종결",
+            "가족",
+            "차례",
+            "찾아갔지만",
+            "그마저",
+            "무시당했다",
+            "실종"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "다른",
+              "terms": [
+                "다른"
+              ]
+            },
+            {
+              "name": "허위",
+              "terms": [
+                "허위"
+              ]
+            },
+            {
+              "name": "종결",
+              "terms": [
+                "종결"
+              ]
+            },
+            {
+              "name": "가족",
+              "terms": [
+                "가족"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      }
+    }
+  ],
+  "priorContext": [],
+  "followUps": [],
+  "laws": [],
+  "actors": [],
+  "contradictions": [],
+  "unknowns": [],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 8,
+    "priorContext": 0,
+    "originalMedia": 8,
+    "followUps": 0,
+    "laws": 0,
+    "errors": 0
+  },
+  "eventDossier": {
+    "schemaVersion": 3,
+    "slug": "research-63c8b8ed8a51c5aa",
+    "generatedAt": "2026-09-02T13:21:15.158Z",
+    "researchSnapshotSha256": "5622896d2a53240427496d7b4c8dadeaab625d29faad129516b7a026dcb50ab7",
+    "eventIdentity": {
+      "title": "또 다른 허위 종결 가족, 두 차례 경찰 찾아갔지만 그마저 무시당했다",
+      "fingerprint": {
+        "anchors": [
+          "다른",
+          "허위",
+          "종결",
+          "가족",
+          "차례",
+          "찾아갔지만",
+          "그마저",
+          "무시당했다",
+          "실종"
+        ],
+        "distinctiveAnchors": [
+          {
+            "name": "다른",
+            "terms": [
+              "다른"
+            ]
+          },
+          {
+            "name": "허위",
+            "terms": [
+              "허위"
+            ]
+          },
+          {
+            "name": "종결",
+            "terms": [
+              "종결"
+            ]
+          },
+          {
+            "name": "가족",
+            "terms": [
+              "가족"
+            ]
+          }
+        ],
+        "minDistinctiveMatches": 2,
+        "minTotalMatches": 3
+      }
+    },
+    "actors": [],
+    "confirmedFacts": [
+      {
+        "id": "claim-9f8a169cd0e5",
+        "summary": "실종 신고 허위 종결 뒤 51일 만에 백골 시신으로 발견된 60대 남성의 가족들이 최초 신고 뒤 2차례 더 경찰서를 방문했지만 무시당했다는 사실...",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-63c8b8ed8a51"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "investigationAndCharges": [],
+    "trialStagesAndSentenceChanges": [],
+    "prosecutionClaims": [],
+    "defenseClaims": [],
+    "courtFindings": [],
+    "victimImpact": [],
+    "timeline": [],
+    "conflicts": [],
+    "unknowns": [],
+    "laterChanges": [],
+    "narrative": {
+      "overview": [
+        {
+          "id": "claim-9f8a169cd0e5",
+          "summary": "실종 신고 허위 종결 뒤 51일 만에 백골 시신으로 발견된 60대 남성의 가족들이 최초 신고 뒤 2차례 더 경찰서를 방문했지만 무시당했다는 사실...",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-63c8b8ed8a51"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "chronology": [],
+      "sameEventFindings": [
+        {
+          "id": "claim-9f8a169cd0e5",
+          "summary": "실종 신고 허위 종결 뒤 51일 만에 백골 시신으로 발견된 60대 남성의 가족들이 최초 신고 뒤 2차례 더 경찰서를 방문했지만 무시당했다는 사실...",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-63c8b8ed8a51"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "priorContext": [],
+      "followUpDevelopments": [],
+      "detailSections": [],
+      "sourceAgreement": [
+        {
+          "claimId": "claim-9f8a169cd0e5",
+          "summary": "실종 신고 허위 종결 뒤 51일 만에 백골 시신으로 발견된 60대 남성의 가족들이 최초 신고 뒤 2차례 더 경찰서를 방문했지만 무시당했다는 사실...",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-63c8b8ed8a51"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        }
+      ],
+      "conflicts": [],
+      "unresolvedQuestions": [],
+      "limitations": [
+        "독립적으로 검증된 동일 사건 추가 보도를 찾지 못했습니다.",
+        "이 사건의 직접적인 사전 맥락으로 확인된 보도를 찾지 못했습니다.",
+        "현재까지 확인된 후속 보도가 없습니다."
+      ]
+    },
+    "sourceCoverage": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "sameEventCoverageCount": 0,
+      "priorContextCount": 0,
+      "followUpCount": 0,
+      "independentPublisherCount": 1,
+      "corroboration": "single-source"
+    },
+    "readiness": {
+      "readyForLegal": false,
+      "readyForDraft": false,
+      "preferredCorroborationMet": false,
+      "detailedNarrativeComplete": false,
+      "storyClaimCount": 1,
+      "narrativePhaseCount": 1,
+      "blockers": [
+        "at-least-four-event-claims-required",
+        "event-progression-required"
+      ],
+      "warnings": [
+        "single-source-only"
+      ]
+    },
+    "sourceIndex": [
+      {
+        "sourceId": "src-63c8b8ed8a51",
+        "url": "https://news.jtbc.co.kr/article/NB12314647",
+        "title": "또 다른 허위 종결 가족, 두 차례 경찰 찾아갔지만 그마저 무시당했다",
+        "publisher": "JTBC 뉴스",
+        "date": "",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "currentHash": "dc51a92ebe8d2cce62af6300d00aff81ee513810dea783634aa7a559820d43a2"
+  }
+}

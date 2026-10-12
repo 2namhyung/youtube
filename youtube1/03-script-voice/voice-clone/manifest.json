@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "engine": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+  "modelRevision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+  "sampleRate": 24000,
+  "privacy": {
+    "localOnly": true,
+    "uploadReferenceAudio": false
+  },
+  "styles": {
+    "neutral": {
+      "role": "default timbre and conversational delivery",
+      "fullReference": "refs/01_neutral.full.wav",
+      "promptAudio": "refs/01_neutral.prompt.wav",
+      "promptText": "안녕하세요. 지금부터 제 목소리를 녹음하겠습니다. 평소 이야기할 때 사용하는 자연스러운 목소리로 읽고 있습니다. 너무 빠르지도, 너무 느리지도 않게 말하겠습니다."
+    },
+    "hook": {
+      "role": "short, firm attention hook",
+      "fullReference": "refs/02_hook.full.wav",
+      "promptAudio": "refs/02_hook.prompt.wav",
+      "promptText": "여러분이라면, 이 상황을 그냥 넘길 수 있습니까? 범인은 잡혔습니다. 그런데 피해자의 공포는 그때부터 시작됐습니다. 매일 사용하는 물건에 누군가 손을 댔다면 어떨까요?"
+    },
+    "news": {
+      "role": "calm factual narration",
+      "fullReference": "refs/03_news.full.wav",
+      "promptAudio": null,
+      "promptText": null,
+      "status": "full reference retained; prompt segment requires transcript alignment"
+    },
+    "tension": {
+      "role": "slower, lower, tense delivery",
+      "fullReference": "refs/04_tension.full.wav",
+      "promptAudio": null,
+      "promptText": null,
+      "status": "excluded from initial zero-shot prompts because STT found possible subject-word mismatch"
+    },
+    "criticism": {
+      "role": "restrained frustration and criticism",
+      "fullReference": "refs/05_criticism.full.wav",
+      "promptAudio": null,
+      "promptText": null,
+      "status": "full reference retained; prompt segment requires transcript alignment"
+    },
+    "solution": {
+      "role": "firm solution-oriented close",
+      "fullReference": "refs/06_solution.full.wav",
+      "promptAudio": "refs/06_solution.prompt.wav",
+      "promptText": "필요한 것은 개인적인 응징이 아닙니다. 사건이 발생하면 먼저 출입을 통제해야 합니다. 영상과 디지털 기록도 최대한 빠르게 확보해야 합니다."
+    }
+  }
+}

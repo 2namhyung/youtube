@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "production-script-qa-v1",
+  "type": "object",
+  "required": ["schemaVersion", "newsroomSlug", "productionProjectId", "authoritativeDraftSha256", "bindingSha256", "artifact", "normalization", "thresholds", "checks", "summary", "creator", "verifier", "qaSha256"],
+  "properties": {
+    "schemaVersion": { "const": "production-script-qa-v1" },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "status", "summary", "details"],
+        "properties": { "status": { "enum": ["pass", "warning", "fail"] } }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["status", "passes", "warnings", "failures", "humanListeningRequired"],
+      "properties": { "status": { "enum": ["pass", "warning", "fail"] } }
+    },
+    "qaSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  },
+  "additionalProperties": true
+}

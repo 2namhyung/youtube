@@ -1,0 +1,20 @@
+import crypto from 'node:crypto';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const root = path.resolve(import.meta.dirname, '..');
+const base = path.join(root, 'out', 'studies', 'gongu-domestic-photo-visual-review-v1');
+const sha = (value) => crypto.createHash('sha256').update(value).digest('hex');
+const dirs = (await fs.readdir(base, {withFileTypes: true})).filter((entry) => entry.isDirectory() && entry.name.startsWith('run-')).sort((a, b) => b.name.localeCompare(a.name));
+if (!dirs.length) throw new Error('no review run');
+const runDir = path.join(base, dirs[0].name); const manifestPath = path.join(runDir, 'manifest.json');
+const outer = JSON.parse(await fs.readFile(manifestPath, 'utf8')); const reviewPath = path.resolve(root, outer.reviewRelativePath); const reviewBytes = await fs.readFile(reviewPath); const review = JSON.parse(reviewBytes);
+if (sha(reviewBytes) !== outer.reviewSha256 || review.schema !== 'gongu-domestic-photo-visual-review-v1') throw new Error('review hash/schema mismatch');
+const acquisitionPath = path.resolve(root, review.acquisition.manifestRelativePath); const acquisitionBytes = await fs.readFile(acquisitionPath); const acquisition = JSON.parse(acquisitionBytes);
+if (sha(acquisitionBytes) !== review.acquisition.manifestSha256) throw new Error('acquisition hash mismatch');
+const sheet = await fs.readFile(path.resolve(root, review.acquisition.contactSheetRelativePath)); if (sha(sheet) !== review.acquisition.contactSheetSha256) throw new Error('contact sheet mismatch');
+const ids = new Set(); const composites = new Set();
+for (const item of review.reviews) { if (ids.has(item.assetId)) throw new Error(`duplicate review ${item.assetId}`); ids.add(item.assetId); const source = acquisition.assets.find((asset) => asset.assetId === item.assetId); if (!source || source.original.sha256 !== item.sourceSha256 || source.evidence.itemUrl !== item.itemUrl) throw new Error(`source binding mismatch ${item.assetId}`); const composite = `${item.storyId}:${item.cutId}`; if (composites.has(composite)) throw new Error(`duplicate cut ${composite}`); composites.add(composite); if (!['approved','conditional','rejected'].includes(item.decision) || !item.reason) throw new Error(`invalid decision ${item.assetId}`); }
+if (ids.size !== acquisition.assets.length) throw new Error('review coverage mismatch');
+const counts = {reviewed: review.reviews.length, approved: review.reviews.filter((entry) => entry.decision === 'approved').length, conditional: review.reviews.filter((entry) => entry.decision === 'conditional').length, rejected: review.reviews.filter((entry) => entry.decision === 'rejected').length};
+if (JSON.stringify(counts) !== JSON.stringify(review.counts) || Object.values(review.production).some(Boolean)) throw new Error('count/production mismatch');
+const result = {ok: true, runDir, reviewSha256: sha(reviewBytes), acquisitionSha256: sha(acquisitionBytes), contactSheetSha256: sha(sheet), counts}; await fs.writeFile(path.join(runDir, 'verifier.json'), `${JSON.stringify(result, null, 2)}\n`); console.log(JSON.stringify(result, null, 2));

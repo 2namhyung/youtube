@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "engineId": "ace-step-1.5-official-local-v1",
+  "provider": "ACE-Step 1.5 official local inference",
+  "installedVersion": "1.5.0",
+  "officialRepository": "https://github.com/ace-step/ACE-Step-1.5",
+  "officialRepositoryCommit": "6d467e4b5081ccb0abf1ec1bf4fdf9051a2d34b0",
+  "models": {
+    "dit": "acestep-v15-turbo",
+    "lm": "acestep-5Hz-lm-0.6B"
+  },
+  "runtime": {
+    "backend": "PyTorch",
+    "device": "CUDA",
+    "quantization": "int8_weight_only",
+    "offloadToCpu": true,
+    "offloadDitToCpu": true
+  },
+  "rights": {
+    "license": "MIT (ACE-Step code and official model repository metadata)",
+    "thirdPartySamplesAllowed": false
+  },
+  "output": {
+    "sampleRate": 48000,
+    "channels": 2,
+    "codec": "pcm_s24le",
+    "targetLufs": -24
+  },
+  "mixDefaults": {
+    "volumeDb": -16,
+    "duckUnderNarration": true,
+    "fadeSeconds": 1.2
+  },
+  "eventBinding": {
+    "promptRequired": true,
+    "seedRequired": true,
+    "eventSlugRequired": true,
+    "crossEventAudioReuseForbidden": true
+  }
+}

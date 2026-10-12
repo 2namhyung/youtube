@@ -1,0 +1,13 @@
+{
+  "name": "civilian-jacket-front-v1-runtime",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build-manifest": "node build-manifest.mjs",
+    "validate": "node validate-manifest.mjs",
+    "extract-contact": "node contact-extraction.mjs",
+    "report": "node write-report.mjs",
+    "verify": "node verify-study.mjs",
+    "verify:scaffold": "node verify-study.mjs --allow-pending"
+  }
+}

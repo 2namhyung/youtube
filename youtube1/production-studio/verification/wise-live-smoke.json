@@ -1,0 +1,27 @@
+{
+  "tested_at": "2026-09-23T00:15:55.804863+00:00",
+  "wise_commit": "e2da814fef8099b9aa6bfb5c10bd959476517da0",
+  "model": "mlfoundations/open_clip/ViT-B-16-SigLIP2-512/webli",
+  "fixture_only": true,
+  "real_production_approved": false,
+  "info_status": 200,
+  "search_status": 200,
+  "media_count": 2,
+  "vector_count": 5,
+  "search_targets": {
+    "image": [
+      "mlfoundations/open_clip/ViT-B-16-SigLIP2-512/webli"
+    ],
+    "video": [
+      "mlfoundations/open_clip/ViT-B-16-SigLIP2-512/webli"
+    ]
+  },
+  "video_windows": [
+    {
+      "media_id": "2",
+      "distance": 0.547,
+      "ts": 0.0,
+      "te": 5.5
+    }
+  ]
+}

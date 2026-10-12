@@ -1,0 +1,76 @@
+{
+  "contractId": "jeju-school-intrusion-v14-information-delta",
+  "parentContract": "jeju-school-intrusion-v13-information-delta",
+  "version": 14,
+  "purpose": "Reusable ImageGen-still plus information-delta Wan I2V pipeline contract",
+  "generation": {
+    "imageGen": "Still must make the narration beat immediately understandable; use fictional, non-identifiable, source-grounded visuals.",
+    "wanI2V": "Use only when a concrete temporal, causal, procedural or spatial fact is absent from both narration and still; never add gratuitous hands or actions.",
+    "acceptedWanScenes": [
+      6,
+      11,
+      20
+    ],
+    "staticFallbackScenes": [
+      17
+    ],
+    "rejectedWanScenes": {
+      "17": "No honest information delta and prior takes failed QA; keep ImageGen still."
+    },
+    "scene11Implementation": "Wan camera-A exit, editorial hard cut, ImageGen camera-B arrival still; single-take route attempt rejected."
+  },
+  "output": {
+    "scenes": 21,
+    "frames": 1524,
+    "durationSeconds": 50.8,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "lockedContent": {
+    "title": "unchanged from v13",
+    "captions": {
+      "cueCount": 36,
+      "text": "unchanged from v13",
+      "timing": "unchanged from v13"
+    },
+    "narration": "unchanged from v13",
+    "bgm": "unchanged from v13",
+    "disclosure": "unchanged from v13"
+  },
+  "captionPreset": {
+    "id": "information-delta-v14-white-on-black-2line",
+    "fontFamily": "Noto Sans KR",
+    "fontWeight": 800,
+    "fontSize": 88,
+    "scaleX": 94,
+    "safeWidth": 920,
+    "maxLines": 2,
+    "lineHeight": 1.08,
+    "x": 540,
+    "y": 1400,
+    "color": "#FFFFFF",
+    "outlineColor": "#000000",
+    "outlineWidth": 5,
+    "background": "black",
+    "box": {
+      "fill": "#000000",
+      "opacity": 1,
+      "borderStyle": 3
+    },
+    "unchanged": [
+      "fontSize",
+      "x",
+      "y",
+      "maxLines",
+      "lineHeight",
+      "text",
+      "timing"
+    ]
+  },
+  "sourceIntegrity": {
+    "project": "project-v14-information-delta.json",
+    "plan": "scene-motion-plan-v14-information-delta.json",
+    "baseline": "canonical-baseline.json"
+  }
+}

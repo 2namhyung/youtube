@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "profileId": "F",
+  "variant": "fair-comparison-v2",
+  "lineage": {
+    "referenceFull": "../../profiles/F/refs/02_hook.full.wav",
+    "referenceSha256": "8EB47A39F6A97600BFC549D80EF175E79EF508F6B06E4C5FB44A6B24729CDD98",
+    "promptAudio": "F-prompt.wav",
+    "promptExtraction": {
+      "startSeconds": 1.225583,
+      "endSeconds": 13.080458,
+      "basis": "silencedetect noise=-35dB:d=0.25; complete four-sentence hook ends at post-sentence silence"
+    },
+    "promptText": "여러분이라면, 이 상황을 그냥 넘길 수 있습니까? 범인은 잡혔습니다. 그런데 피해자의 공포는 그때부터 시작됐습니다. 매일 사용하는 물건에 누군가 손을 댄다면 어떨까요?",
+    "targetText": "범인은 잡혔습니다. 그런데 피해자의 공포는 그때부터 시작했습니다. 잡혔는데도 끝나지 않은 사건 대체 무엇이 잘못된 걸까요?",
+    "targetTextIdentity": "exact combined A/C/E target text; UTF-8; no timestamps passed to CosyVoice"
+  },
+  "synthesis": {
+    "engine": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "modelRevision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+    "style": "hook",
+    "speed": 0.98,
+    "device": "cuda-fp16",
+    "command": "voice-clone\\.venv\\Scripts\\python.exe voice-clone\\synthesize.py --manifest voice-clone\\samples\\f-comparison-v2\\f-synthesis-manifest.json --style hook --text \"범인은 잡혔습니다. 그런데 피해자의 공포는 그때부터 시작했습니다. 잡혔는데도 끝나지 않은 사건 대체 무엇이 잘못된 걸까요?\" --speed 0.98 --output voice-clone\\samples\\f-comparison-v2\\F-raw.wav",
+    "postSynthesisGain": "+8.1 dB to -22.9 LUFS; no pitch/time processing",
+    "trim": "atrim=end=8.3 at trailing silence; no time stretch"
+  },
+  "processing": {
+    "sourceForBranches": "F-raw.wav",
+    "pitchTimingInvariant": true,
+    "cChain": "highpass=f=75,equalizer=f=250:t=q:w=1:g=-1.5,equalizer=f=3200:t=q:w=1:g=2.0,equalizer=f=7000:t=q:w=1:g=-1.5,acompressor=threshold=-18dB:ratio=1.6:attack=8:release=100:makeup=1,loudnorm=I=-22.9:TP=-2:LRA=7:dual_mono=false",
+    "eChain": "highpass=f=80,equalizer=f=250:t=o:w=1:g=-2.25,equalizer=f=2000:t=o:w=1:g=0.5,equalizer=f=3200:t=o:w=1:g=2.6,equalizer=f=4500:t=o:w=1:g=0.65,acompressor=threshold=-20dB:ratio=1.7:attack=8:release=100:makeup=1.0,deesser=i=0.24:m=0.50:f=0.65,aexciter=amount=0.04:drive=1.2:blend=0.06:freq=3000:ceil=12000,equalizer=f=7000:t=o:w=1:g=-1.8,loudnorm=I=-22.9:TP=-2:LRA=7:dual_mono=false,volume=0.1dB",
+    "formatCommand": "ffmpeg -ar 24000 -ac 1 -c:a pcm_f32le"
+  },
+  "outputs": {
+    "F-raw.wav": {"format": "mono pcm_f32le WAV", "durationSeconds": 8.3, "integratedLufs": -22.9, "truePeakDbfs": -4.0, "clipping": false, "sha256": "0498459AB4CE3AEE7D42768CEEEC980F49E5B1958E0FE942190F94048A0F2F71"},
+    "F-C-chain.wav": {"format": "mono pcm_f32le WAV", "durationSeconds": 8.3, "integratedLufs": -23.0, "truePeakDbfs": -3.3, "clipping": false, "sha256": "8EE4EDB77FFCE6749B18A3BE8897647719E2912E661863B63DBA5C21AA295824"},
+    "F-E-chain.wav": {"format": "mono pcm_f32le WAV", "durationSeconds": 8.3, "integratedLufs": -22.9, "truePeakDbfs": -3.3, "clipping": false, "sha256": "BD40AB529E45907D5C191341C44E29499F831E558F73E5E419021F39959145A0"}
+  },
+  "promptQc": {
+    "format": "mono pcm_s16le WAV",
+    "sampleRateHz": 24000,
+    "durationSeconds": 11.854875,
+    "sha256": "73954A74CA41D4402EF0511BF09ABC207D58EB44A9A609D56B05E50975B5AAD9",
+    "utf8Manifest": true
+  },
+  "provenance": {
+    "localOnly": true,
+    "runtimeNetwork": "CosyVoice wetext frontend cache auto-check only; no manual model/reference download",
+    "priorFRelabeled": false,
+    "branchesUseOnlyFraw": true
+  }
+}

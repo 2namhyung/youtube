@@ -1,0 +1,142 @@
+{
+  "language": "ko",
+  "languageProbability": 1.0,
+  "durationSeconds": 6.8,
+  "generationSeconds": 0.545,
+  "transcript": "하지만 다리가 너무 짧아서 긋지 못하는 곳이 많죠 그래서 주변에 나무나 철조만 같은 곳에 몸을 비비며 가령을 해결합니다",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.76,
+      "text": "하지만 다리가 너무 짧아서 긋지 못하는 곳이 많죠",
+      "avgLogProbability": -0.263587,
+      "noSpeechProbability": 0.01281,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.28,
+          "text": "하지만",
+          "probability": 0.960449
+        },
+        {
+          "start": 0.28,
+          "end": 0.62,
+          "text": "다리가",
+          "probability": 0.990234
+        },
+        {
+          "start": 0.62,
+          "end": 0.82,
+          "text": "너무",
+          "probability": 0.995117
+        },
+        {
+          "start": 0.82,
+          "end": 1.34,
+          "text": "짧아서",
+          "probability": 0.992432
+        },
+        {
+          "start": 1.34,
+          "end": 1.78,
+          "text": "긋지",
+          "probability": 0.628743
+        },
+        {
+          "start": 1.78,
+          "end": 2.12,
+          "text": "못하는",
+          "probability": 0.932373
+        },
+        {
+          "start": 2.12,
+          "end": 2.4,
+          "text": "곳이",
+          "probability": 0.991943
+        },
+        {
+          "start": 2.4,
+          "end": 2.76,
+          "text": "많죠",
+          "probability": 0.996826
+        }
+      ]
+    },
+    {
+      "start": 2.76,
+      "end": 6.52,
+      "text": "그래서 주변에 나무나 철조만 같은 곳에 몸을 비비며 가령을 해결합니다",
+      "avgLogProbability": -0.263587,
+      "noSpeechProbability": 0.01281,
+      "words": [
+        {
+          "start": 2.76,
+          "end": 3.22,
+          "text": "그래서",
+          "probability": 0.405029
+        },
+        {
+          "start": 3.22,
+          "end": 3.7,
+          "text": "주변에",
+          "probability": 0.856771
+        },
+        {
+          "start": 3.7,
+          "end": 3.96,
+          "text": "나무나",
+          "probability": 0.801758
+        },
+        {
+          "start": 3.96,
+          "end": 4.3,
+          "text": "철조만",
+          "probability": 0.740723
+        },
+        {
+          "start": 4.3,
+          "end": 4.46,
+          "text": "같은",
+          "probability": 0.94043
+        },
+        {
+          "start": 4.46,
+          "end": 4.88,
+          "text": "곳에",
+          "probability": 0.981445
+        },
+        {
+          "start": 4.88,
+          "end": 5.32,
+          "text": "몸을",
+          "probability": 0.970459
+        },
+        {
+          "start": 5.32,
+          "end": 5.68,
+          "text": "비비며",
+          "probability": 0.893229
+        },
+        {
+          "start": 5.68,
+          "end": 6.2,
+          "text": "가령을",
+          "probability": 0.721354
+        },
+        {
+          "start": 6.2,
+          "end": 6.52,
+          "text": "해결합니다",
+          "probability": 0.984049
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceFile": "tension.wav",
+  "sourceSha256": "8ced7c85ac56d878a244eabae5f097d20ab6bb88db69c9707ade60892d86079c",
+  "model": "small",
+  "device": "cuda",
+  "computeType": "float16",
+  "diagnosticOnly": true
+}

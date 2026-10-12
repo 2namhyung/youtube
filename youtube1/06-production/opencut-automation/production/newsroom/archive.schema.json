@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-archive.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "creator", "selection", "entryCount", "entries"],
+  "properties": {
+    "schemaVersion": { "const": "newsroom-archive-v1" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "creator": { "const": "scripts/create-newsroom-archive.mjs" },
+    "selection": { "type": "object" },
+    "entryCount": { "type": "integer", "minimum": 0 },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "storyTitle", "status", "archivedAt", "upload", "production"],
+        "properties": {
+          "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{5,80}$" },
+          "storyTitle": { "type": "string", "minLength": 1 },
+          "status": { "const": "archived" },
+          "archivedAt": { "type": "string", "format": "date-time" },
+          "upload": {
+            "type": "object",
+            "required": ["provider", "jobId", "jobPath", "jobSha256", "versionId", "platformId", "postUrl", "title", "privacy", "providerStatus", "videoSha256"],
+            "properties": {
+              "provider": { "const": "youtube" },
+              "privacy": { "const": "public" },
+              "postUrl": { "type": "string", "pattern": "^https://(?:www\\.)?youtube\\.com/watch\\?v=" },
+              "jobSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+              "videoSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+            },
+            "additionalProperties": true
+          },
+          "production": {
+            "type": "object",
+            "required": ["versionRegistryPath", "versionRegistrySha256", "handoffPath", "handoffSha256", "videoPath", "videoSha256"]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

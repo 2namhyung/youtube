@@ -1,0 +1,148 @@
+{
+  "status": "pass",
+  "support": "unsupported-experimental",
+  "seed": 20260730,
+  "started_utc": "2026-07-30T01:56:49Z",
+  "config": {
+    "rank": 4,
+    "alpha": 8,
+    "learning_rate": 1e-05,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_optimizer_steps": 16,
+    "eval_interval": 4,
+    "max_validation_regression": 1.02
+  },
+  "inputs": {
+    "train_jsonl": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\train_with_codes.jsonl",
+    "train_jsonl_sha256": "ad873ca21a3e4f5ef235b9aa7e3cb5c69691177bb302196c11586b45b1a7d393",
+    "validation_jsonl": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\validation_with_codes.jsonl",
+    "validation_jsonl_sha256": "a7f71c4c0d3e28e22d780108d1ad0d0ab7b287e14457db060e6a5c7eaa483e2b",
+    "dataset_audit_sha256": "7e2332d2753c059ed3575cd8d4a1d824c5be88384d2b5238ea33d4951144de2b",
+    "dataset_counts": {
+      "audited_unique_train": 35,
+      "raw_original": 35,
+      "mild_augmented": 17,
+      "total_train": 52,
+      "raw_fraction": 0.6730769230769231,
+      "validation": 2
+    },
+    "protected_validation": {
+      "row_audio_sha256": [
+        "7AA9E59583196D293C8F4767DEE7EF5F44535E5EE5CA0B2D592CB28BD66C152D",
+        "F92982CF3EBDAE11BF770A45952E9AED8DF86F712BB8817A6E6B3EFEE2AB13E0"
+      ],
+      "source_sha256": "180AC9954D84B3A7AC6ED5E4CFAAB0F53DF35F1E03CF64CFDB39FE6FBF2B7DE8",
+      "pcm_sha256": "47844B884948F67B3BEA8F88742F1C6C9A1073410F4B6FC3699C2A1FF06859EF",
+      "used_in_training": false,
+      "used_in_augmentation": false,
+      "used_as_reference": false
+    }
+  },
+  "training": {
+    "optimizer_steps": 16,
+    "micro_steps": 128,
+    "first_16_train_loss_mean": 14.700832962989807,
+    "last_16_train_loss_mean": 14.550123155117035,
+    "all_losses_finite": true,
+    "evals": [
+      {
+        "optimizer_step": 4,
+        "losses": [
+          13.606739044189453,
+          13.981322288513184
+        ],
+        "mean": 13.794030666351318,
+        "gpu": {
+          "name": "NVIDIA GeForce RTX 3060 Ti",
+          "total_mib": 8192,
+          "used_mib": 3461,
+          "free_mib": 4564,
+          "temperature_c": 52
+        }
+      },
+      {
+        "optimizer_step": 8,
+        "losses": [
+          13.568062782287598,
+          13.94701862335205
+        ],
+        "mean": 13.757540702819824,
+        "gpu": {
+          "name": "NVIDIA GeForce RTX 3060 Ti",
+          "total_mib": 8192,
+          "used_mib": 3860,
+          "free_mib": 4165,
+          "temperature_c": 51
+        }
+      },
+      {
+        "optimizer_step": 12,
+        "losses": [
+          13.523849487304688,
+          13.908143997192383
+        ],
+        "mean": 13.715996742248535,
+        "gpu": {
+          "name": "NVIDIA GeForce RTX 3060 Ti",
+          "total_mib": 8192,
+          "used_mib": 3859,
+          "free_mib": 4166,
+          "temperature_c": 54
+        }
+      },
+      {
+        "optimizer_step": 16,
+        "losses": [
+          13.49135971069336,
+          13.862438201904297
+        ],
+        "mean": 13.676898956298828,
+        "gpu": {
+          "name": "NVIDIA GeForce RTX 3060 Ti",
+          "total_mib": 8192,
+          "used_mib": 3869,
+          "free_mib": 4156,
+          "temperature_c": 59
+        }
+      }
+    ]
+  },
+  "validation": {
+    "baseline_losses": [
+      13.601489067077637,
+      13.970062255859375
+    ],
+    "baseline_mean": 13.785775661468506,
+    "best_step": 16,
+    "best_mean": 13.676898956298828,
+    "restored_losses": [
+      13.49135971069336,
+      13.862438201904297
+    ],
+    "restored_mean": 13.676898956298828,
+    "material_regression_limit": 14.061491174697876
+  },
+  "adapter": {
+    "saved": true,
+    "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\perceptual_adapter_rank4_step16",
+    "files": {
+      "adapter_config.json": "866555f1a387c10a2a91bf7fe95aaa28108c44d24aed49e0a64a382f61f14dea",
+      "adapter_model.safetensors": "7a134a3dc43d087bfc147a6f7688f06b3cf8a39bbd60115b123185ce67c28fde",
+      "README.md": "9181c5d9f1eb8c14e8af1d6fdb3fffff191f67aaf68bc566d3b83d169481455d"
+    },
+    "target_module_count": 112
+  },
+  "watchdog": {
+    "torch_peak_allocated_mib": 2442.97,
+    "torch_peak_reserved_mib": 2902.0,
+    "final_gpu": {
+      "name": "NVIDIA GeForce RTX 3060 Ti",
+      "total_mib": 8192,
+      "used_mib": 3869,
+      "free_mib": 4156,
+      "temperature_c": 59
+    }
+  },
+  "finished_utc": "2026-07-30T01:57:44Z"
+}

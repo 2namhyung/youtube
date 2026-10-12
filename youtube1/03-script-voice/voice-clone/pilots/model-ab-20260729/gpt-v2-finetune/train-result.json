@@ -1,0 +1,739 @@
+{
+  "engine": "GPT-SoVITS V2 S1",
+  "policy": "pilot-only; no production connection",
+  "smoke": {
+    "name": "smoke",
+    "epochs": 1,
+    "initial_gpu": {
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0
+    },
+    "config": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\configs\\s1-smoke.yaml",
+    "log": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\smoke-training.log",
+    "returncode": 0,
+    "status": "completed",
+    "hard_stop": null,
+    "peak_temperature_c": 47.0,
+    "peak_vram_used_mb": 2574.0
+  },
+  "events": [
+    {
+      "unix_time": 1785323108.4299161,
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323108.9679277,
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323109.5099292,
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323110.0509524,
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323110.5924642,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323111.1345174,
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323111.6746643,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323112.2157097,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323112.7711723,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323113.3116915,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323113.8527024,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323114.3937583,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323114.949224,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323115.5042484,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323116.0608222,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2498.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323116.6316736,
+      "temperature_c": 45.0,
+      "vram_used_mb": 2574.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323117.1857727,
+      "temperature_c": 46.0,
+      "vram_used_mb": 2574.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323117.726699,
+      "temperature_c": 46.0,
+      "vram_used_mb": 2574.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323118.2692342,
+      "temperature_c": 46.0,
+      "vram_used_mb": 2574.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323118.8133059,
+      "temperature_c": 47.0,
+      "vram_used_mb": 2574.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323119.3584385,
+      "temperature_c": 47.0,
+      "vram_used_mb": 2574.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323119.9029362,
+      "temperature_c": 47.0,
+      "vram_used_mb": 2574.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323120.4604194,
+      "temperature_c": 47.0,
+      "vram_used_mb": 2574.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323121.0169547,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1354.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323121.5720797,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1354.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323122.1128707,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1354.0,
+      "name": "smoke"
+    },
+    {
+      "unix_time": 1785323122.7094607,
+      "temperature_c": 43.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323123.2584982,
+      "temperature_c": 42.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323123.801174,
+      "temperature_c": 42.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323124.3421688,
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323124.8983803,
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323125.453227,
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323126.0101979,
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323126.5517216,
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323127.0945094,
+      "temperature_c": 41.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323127.6541212,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323128.1963189,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323128.7393994,
+      "temperature_c": 40.0,
+      "vram_used_mb": 1195.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323129.2835171,
+      "temperature_c": 44.0,
+      "vram_used_mb": 1978.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323129.8252661,
+      "temperature_c": 45.0,
+      "vram_used_mb": 1978.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323130.3667026,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1978.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323130.9140258,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1978.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323131.4565778,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1978.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323132.0013182,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1978.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323132.5556772,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1978.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323133.0992541,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1978.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323133.6413262,
+      "temperature_c": 47.0,
+      "vram_used_mb": 2432.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323134.181322,
+      "temperature_c": 48.0,
+      "vram_used_mb": 3292.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323134.7514954,
+      "temperature_c": 48.0,
+      "vram_used_mb": 3292.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323135.3076031,
+      "temperature_c": 49.0,
+      "vram_used_mb": 3316.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323135.8627582,
+      "temperature_c": 50.0,
+      "vram_used_mb": 3320.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323136.4209244,
+      "temperature_c": 51.0,
+      "vram_used_mb": 3380.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323136.9752545,
+      "temperature_c": 52.0,
+      "vram_used_mb": 3400.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323137.5307815,
+      "temperature_c": 52.0,
+      "vram_used_mb": 3400.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323138.0861082,
+      "temperature_c": 52.0,
+      "vram_used_mb": 3400.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323138.6418765,
+      "temperature_c": 50.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323139.1981413,
+      "temperature_c": 51.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323139.7396731,
+      "temperature_c": 52.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323140.2802846,
+      "temperature_c": 53.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323140.8358638,
+      "temperature_c": 52.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323141.3764224,
+      "temperature_c": 53.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323141.931934,
+      "temperature_c": 53.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323142.4909172,
+      "temperature_c": 52.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323143.0446155,
+      "temperature_c": 54.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323143.6011026,
+      "temperature_c": 53.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323144.1571214,
+      "temperature_c": 53.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323144.710892,
+      "temperature_c": 54.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323145.2652755,
+      "temperature_c": 54.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323145.8202848,
+      "temperature_c": 55.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323146.376642,
+      "temperature_c": 54.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323146.9169316,
+      "temperature_c": 54.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323147.4727645,
+      "temperature_c": 54.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323148.0287404,
+      "temperature_c": 56.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323148.5697544,
+      "temperature_c": 54.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323149.1117573,
+      "temperature_c": 53.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323149.667531,
+      "temperature_c": 53.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323150.2220993,
+      "temperature_c": 50.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323150.778102,
+      "temperature_c": 49.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323151.3332086,
+      "temperature_c": 48.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323151.8733559,
+      "temperature_c": 47.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323152.4183645,
+      "temperature_c": 45.0,
+      "vram_used_mb": 5224.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323152.973126,
+      "temperature_c": 49.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323153.5290163,
+      "temperature_c": 53.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323154.0984998,
+      "temperature_c": 54.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323154.6545076,
+      "temperature_c": 54.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323155.209426,
+      "temperature_c": 55.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323155.7659202,
+      "temperature_c": 55.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323156.3237672,
+      "temperature_c": 55.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323156.8784306,
+      "temperature_c": 55.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323157.4334028,
+      "temperature_c": 55.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323157.9885406,
+      "temperature_c": 55.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323158.5429432,
+      "temperature_c": 56.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323159.1000087,
+      "temperature_c": 57.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323159.6554682,
+      "temperature_c": 56.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323160.2149732,
+      "temperature_c": 56.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323160.7674842,
+      "temperature_c": 56.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323161.3216805,
+      "temperature_c": 56.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323161.8796654,
+      "temperature_c": 56.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323162.4379785,
+      "temperature_c": 54.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323162.9911892,
+      "temperature_c": 55.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323163.5453048,
+      "temperature_c": 56.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323164.1016128,
+      "temperature_c": 58.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323164.6582606,
+      "temperature_c": 57.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323165.2116444,
+      "temperature_c": 56.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323165.7679698,
+      "temperature_c": 57.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323166.3075917,
+      "temperature_c": 57.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323166.864583,
+      "temperature_c": 57.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323167.419057,
+      "temperature_c": 56.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323167.9600651,
+      "temperature_c": 55.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323168.515693,
+      "temperature_c": 52.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323169.0869787,
+      "temperature_c": 51.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323169.6412678,
+      "temperature_c": 51.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323170.1979089,
+      "temperature_c": 50.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323170.7517514,
+      "temperature_c": 48.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323171.3082705,
+      "temperature_c": 47.0,
+      "vram_used_mb": 5226.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323171.8487217,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1442.0,
+      "name": "full"
+    },
+    {
+      "unix_time": 1785323172.4038026,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1442.0,
+      "name": "full"
+    }
+  ],
+  "full": {
+    "name": "full",
+    "epochs": 2,
+    "initial_gpu": {
+      "temperature_c": 43.0,
+      "vram_used_mb": 1195.0
+    },
+    "config": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\configs\\s1-full.yaml",
+    "log": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\full-training.log",
+    "returncode": 0,
+    "status": "completed",
+    "hard_stop": null,
+    "peak_temperature_c": 58.0,
+    "peak_vram_used_mb": 5226.0
+  },
+  "status": "completed"
+}

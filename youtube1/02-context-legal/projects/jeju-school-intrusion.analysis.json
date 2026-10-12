@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "slug": "jeju-school-intrusion",
+  "researchedAt": "2026-07-27",
+  "status": "human-legal-review-required",
+  "analysisOnly": true,
+  "scriptLocked": true,
+  "authoritativeScriptSha256": "612D65BA88206B407D032A6B5AE1945545F2D68465984D79C6A3167FB6AFFBE1",
+  "editorialQuestion": "왜 피해자가 답답함과 불안을 느끼는지 현행법과 공식 판례로 설명할 수 있는가",
+  "conclusion": {
+    "safe": "공개된 사실만으로 강제추행 등 성범죄의 성립 또는 불성립을 단정할 수 없다. 물건 오염은 별도 성범죄로 자동 분류되지 않지만, 행위 태양과 성적 맥락, 피해자 신체·의복과의 관계, 폭행·협박 및 고의가 추가로 확인되면 강제추행 적용 가능성을 배제할 수 없다.",
+    "unsafe": "정액을 물건에 남겼으므로 현행법상 성추행·성희롱이 절대 아니다.",
+    "whyFrustrating": "피해자가 느끼는 성적 모욕과 재접근 공포는 크지만 공개된 잠정 죄명은 침입과 재물 효용 침해 중심이다. 성범죄, 교원 보호, 피해자 통지는 각각 별도 구성요건과 신청·위험도 판단을 요구해 체감 피해와 즉시 작동하는 보호 사이에 간극이 생긴다."
+  },
+  "verifiedLaw": [
+    {
+      "id": "KR-CRIMINAL-298",
+      "title": "형법 제298조 강제추행",
+      "point": "폭행 또는 협박으로 사람에 대해 추행한 경우가 구성요건이다.",
+      "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?ancYnChk=&chrClsCd=010202&lsJoLnkSeq=1020147851"
+    },
+    {
+      "id": "SC-2021DO7538",
+      "title": "대법원 2021도7538",
+      "point": "피해자의 머리카락과 옷 위에 소변을 본 행위가 성적 자기결정권을 침해하는 추행에 해당할 여지가 있다고 보아 무죄 원심을 파기환송했다. 피해자가 당시 행위를 인식하지 못했다는 사정만으로 추행성이 배제되지 않는다.",
+      "difference": "피해자 신체·의복에 직접 행한 사안으로, 텀블러·의자라는 별도 물건이 문제인 제주 사건과 사실관계가 다르다.",
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=219557"
+    },
+    {
+      "id": "SC-2011DO8805",
+      "title": "대법원 2011도8805",
+      "point": "직접 신체접촉 없는 성기 노출만으로는 해당 사안의 강제추행 구성요건이 충족되지 않는다고 판단했다.",
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=164660"
+    },
+    {
+      "id": "SC-2022DO9676",
+      "title": "대법원 2022도9676",
+      "point": "강제추행 성립에 행위자의 성욕 자극·흥분 목적이 반드시 필요한 것은 아니다.",
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?mode=0&precSeq=606755"
+    },
+    {
+      "id": "KR-CRIMINAL-319",
+      "title": "형법 제319조 건조물침입",
+      "point": "사람이 관리하는 건조물 등에 침입한 행위를 처벌한다.",
+      "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029508035"
+    },
+    {
+      "id": "KR-CRIMINAL-366",
+      "title": "형법 제366조 재물손괴등",
+      "point": "손괴·은닉 또는 기타 방법으로 타인의 재물 효용을 해한 경우를 처벌한다.",
+      "url": "https://law.go.kr/LSW/LsiJoLinkP.do?docType=JO&joNo=036600000&languageType=KO&lsNm=%ED%98%95%EB%B2%95&paras=1"
+    },
+    {
+      "id": "SC-2019DO13764",
+      "title": "대법원 2019도13764",
+      "point": "물리적 훼손이 없어도 본래 용도, 불쾌감, 원상회복 난이도·비용 등을 종합해 재물 효용 침해를 판단할 수 있다.",
+      "url": "https://www.law.go.kr/precInfoP.do?precSeq=218343"
+    },
+    {
+      "id": "TEACHER-STATUS-19-20",
+      "title": "교원지위법 제19조·제20조",
+      "point": "교육활동 침해행위의 범위와 피해교원에 대한 심리상담·치료 등 보호조치를 정한다. 행위자 관계와 교육활동 중 발생 여부에 따라 적용 판단이 필요하다.",
+      "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1029092011"
+    },
+    {
+      "id": "CRIME-VICTIM-8",
+      "title": "범죄피해자보호법 제8조·제8조의2",
+      "point": "피해자의 형사절차 참여와 사건 진행·지원 정보 제공 근거를 둔다. 모든 정보가 실시간·자동 제공된다는 뜻은 아니다.",
+      "url": "https://www.law.go.kr/LSW/lsRvsDocListP.do?chrClsCd=010102&lsId=010109"
+    }
+  ],
+  "terminology": {
+    "sexualAssault": "강제추행 등 형사 성범죄는 개별 구성요건과 증거로 판단한다.",
+    "sexualHarassment": "성희롱은 형법상 독립 죄명이 아니며 고용·교육 등 관계별 제도에서 별도 정의된다. 이 사건에 직장 내 성희롱 규정이 바로 적용된다고 단정할 수 없다."
+  },
+  "knownUnknowns": [
+    "경찰·검찰의 최종 적용 죄명과 처분",
+    "체액 감정 결과와 보도상 정액·체액 표현의 정확성",
+    "포렌식 영장 기각의 구체적 이유",
+    "피해자 신체·의복에 직접 접촉한 추가 행위의 존재",
+    "피의자의 성적 맥락·고의·표적성에 관한 증거",
+    "교원지위법상 교육활동 침해행위 및 보호조치의 실제 적용 여부"
+  ],
+  "comparableCaseStatus": "공식 판례에서 사실관계가 동일한 사건은 확인하지 못했다. 2021도7538은 비교 가능한 법리 자료지만 직접 신체·의복에 소변을 본 사안이라는 차이가 있다."
+}

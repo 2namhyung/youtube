@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "profileId": "qwen-f4-reference-guide-v1-retake5",
+  "ownerVoice": true,
+  "engine": {
+    "provider": "qwen3-tts",
+    "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+    "precision": "bf16",
+    "language": "Korean"
+  },
+  "guide": {
+    "method": "locked Jeju prosody carrier converted using a blended original owner reference plus recording 5",
+    "speakerIdentity": "F4 owner, Jeju baseline retained and recording 5 supplemented",
+    "prosodySource": "locked Jeju Instagram male narration carrier",
+    "directProsodyPrompt": true,
+    "candidateSelection": false
+  },
+  "promptBank": {
+    "manifest": "prompt-bank/manifest.json",
+    "manifestSha256": "c1a05f093d4e5e8a46d87c676afbef41d0af475994aeb39cc24cecfca68d4280",
+      "styles": [
+      "hook",
+      "news_exposition",
+      "tension",
+      "criticism",
+      "solution_closing",
+      "question"
+    ],
+    "validationStatus": "machine-candidate-owner-playback-pending",
+    "ownerVoiceOnly": true,
+    "loraAllowed": false,
+    "adapterAllowed": false
+  }
+}

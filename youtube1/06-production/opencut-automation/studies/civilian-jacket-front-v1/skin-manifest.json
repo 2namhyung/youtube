@@ -1,0 +1,1168 @@
+{
+  "schema": "godot-skin-slot-contract-v1",
+  "manifestId": "civilian-jacket-front-v1",
+  "view": "front",
+  "canvas": {
+    "width": 1024,
+    "height": 1536
+  },
+  "skeleton": {
+    "id": "civilian-jacket-shared-skeleton-v1",
+    "bones": [
+      {
+        "id": "root_bone",
+        "parent": null,
+        "joint": {
+          "x": 512,
+          "y": 768
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": -1,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -5,
+            5
+          ],
+          "translation": {
+            "x": [
+              -8,
+              8
+            ],
+            "y": [
+              -8,
+              8
+            ]
+          }
+        }
+      },
+      {
+        "id": "head_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 512,
+          "y": 190
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 0,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -12,
+            12
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "hair_back_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 512,
+          "y": 250
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 1,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -12,
+            12
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "hair_front_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 512,
+          "y": 270
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 2,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -12,
+            12
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "torso_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 512,
+          "y": 390
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 3,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "upper_arm_l_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 386,
+          "y": 456
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 4,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "upper_arm_r_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 638,
+          "y": 456
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 5,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "forearm_l_bone",
+        "parent": "upper_arm_l_bone",
+        "joint": {
+          "x": 386,
+          "y": 646
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 6,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "forearm_r_bone",
+        "parent": "upper_arm_r_bone",
+        "joint": {
+          "x": 638,
+          "y": 646
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 7,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "hand_l_bone",
+        "parent": "forearm_l_bone",
+        "joint": {
+          "x": 386,
+          "y": 798
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 8,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -12,
+            12
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "hand_r_bone",
+        "parent": "forearm_r_bone",
+        "joint": {
+          "x": 638,
+          "y": 798
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 9,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -12,
+            12
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "thigh_l_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 450,
+          "y": 850
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 10,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "thigh_r_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 574,
+          "y": 850
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 11,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "shin_l_bone",
+        "parent": "thigh_l_bone",
+        "joint": {
+          "x": 450,
+          "y": 1100
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 12,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "shin_r_bone",
+        "parent": "thigh_r_bone",
+        "joint": {
+          "x": 574,
+          "y": 1100
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 13,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "foot_l_bone",
+        "parent": "shin_l_bone",
+        "joint": {
+          "x": 450,
+          "y": 1280
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 14,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -12,
+            12
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "foot_r_bone",
+        "parent": "shin_r_bone",
+        "joint": {
+          "x": 574,
+          "y": 1280
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 15,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -12,
+            12
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "slots": [
+    {
+      "id": "head",
+      "boneId": "head_bone",
+      "z": 0,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "core-v1",
+      "attachments": [
+        {
+          "id": "head-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/head-visible.png",
+          "bytes": 565039,
+          "sha256": "ea58b4ad493c1ccc6252a9a389bd47f5bce7d132937aa17738cfb3431970e034",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 383,
+            "y": 120,
+            "width": 257,
+            "height": 300
+          },
+          "geometryGroup": "core-v1"
+        }
+      ]
+    },
+    {
+      "id": "hair_back",
+      "boneId": "hair_back_bone",
+      "z": 1,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "core-v1",
+      "attachments": [
+        {
+          "id": "hair_back-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/hair_back-visible.png",
+          "bytes": 567365,
+          "sha256": "7cc777aa582d9d580583665295e2cf9b18b154f309632f14b9e75b8d34a22537",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 355,
+            "y": 110,
+            "width": 315,
+            "height": 350
+          },
+          "geometryGroup": "core-v1"
+        }
+      ]
+    },
+    {
+      "id": "hair_front",
+      "boneId": "hair_front_bone",
+      "z": 2,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "core-v1",
+      "attachments": [
+        {
+          "id": "hair_front-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/hair_front-visible.png",
+          "bytes": 567365,
+          "sha256": "7cc777aa582d9d580583665295e2cf9b18b154f309632f14b9e75b8d34a22537",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 355,
+            "y": 110,
+            "width": 315,
+            "height": 350
+          },
+          "geometryGroup": "core-v1"
+        }
+      ]
+    },
+    {
+      "id": "torso",
+      "boneId": "torso_bone",
+      "z": 3,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "core-v1",
+      "attachments": [
+        {
+          "id": "torso-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/torso-visible.png",
+          "bytes": 197279,
+          "sha256": "b38d99d6e29f17712611bf39a4abf5d1912713b329d92fad168177e2bcead886",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 343,
+            "y": 356,
+            "width": 337,
+            "height": 457
+          },
+          "geometryGroup": "core-v1"
+        },
+        {
+          "id": "torso-hidden-fill",
+          "role": "hidden-fill",
+          "path": "assets/skin-civilian-jacket-front-v1/torso-hidden-fill.png",
+          "bytes": 9707,
+          "sha256": "7aa4dad2ac55605e6630180818b68ac9e0b1d096c1c22b727bfaf4cb8bb51497",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 362,
+            "y": 405,
+            "width": 300,
+            "height": 70
+          },
+          "geometryGroup": "core-v1"
+        }
+      ]
+    },
+    {
+      "id": "upper_arm_l",
+      "boneId": "upper_arm_l_bone",
+      "z": 4,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "upper_arm_l-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/upper_arm_l-visible.png",
+          "bytes": 32040,
+          "sha256": "85f27860b3f03f80d5da80014960adcef07f6d92c2b131a05cc20d45767d4d91",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 351,
+            "y": 446,
+            "width": 68,
+            "height": 205
+          },
+          "geometryGroup": "limb-v1"
+        },
+        {
+          "id": "upper_arm_l-hidden-fill",
+          "role": "hidden-fill",
+          "path": "assets/skin-civilian-jacket-front-v1/upper_arm_l-hidden-fill.png",
+          "bytes": 10442,
+          "sha256": "0832173f4f46026d93e660bdf74d07cf7830e3b5762189831b06170b770167f1",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 352,
+            "y": 443,
+            "width": 68,
+            "height": 52
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "upper_arm_r",
+      "boneId": "upper_arm_r_bone",
+      "z": 5,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "upper_arm_r-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/upper_arm_r-visible.png",
+          "bytes": 32069,
+          "sha256": "2a9f3d188ff498743cdca069fc8778c6b939d386520febfdf2203402fd14f33a",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 605,
+            "y": 446,
+            "width": 68,
+            "height": 205
+          },
+          "geometryGroup": "limb-v1"
+        },
+        {
+          "id": "upper_arm_r-hidden-fill",
+          "role": "hidden-fill",
+          "path": "assets/skin-civilian-jacket-front-v1/upper_arm_r-hidden-fill.png",
+          "bytes": 10451,
+          "sha256": "f50ab5dfdd8e5da9a197999b6e05bfe8b66c54824648af631d339f7e9ed38d22",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 604,
+            "y": 443,
+            "width": 68,
+            "height": 52
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "forearm_l",
+      "boneId": "forearm_l_bone",
+      "z": 6,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "forearm_l-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/forearm_l-visible.png",
+          "bytes": 27254,
+          "sha256": "57c7b2eb3aaecd2da26ac3f39fbb2bdfb70f873eb761793d584cad9c3db45dce",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 353,
+            "y": 637,
+            "width": 67,
+            "height": 168
+          },
+          "geometryGroup": "limb-v1"
+        },
+        {
+          "id": "forearm_l-hidden-fill",
+          "role": "hidden-fill",
+          "path": "assets/skin-civilian-jacket-front-v1/forearm_l-hidden-fill.png",
+          "bytes": 9782,
+          "sha256": "62e60b57bafddcacb1c84a4f7e1893bd903a5c9f452094de3d7bb90b91f6b3a1",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 355,
+            "y": 631,
+            "width": 62,
+            "height": 48
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "forearm_r",
+      "boneId": "forearm_r_bone",
+      "z": 7,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "forearm_r-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/forearm_r-visible.png",
+          "bytes": 27180,
+          "sha256": "d93376c266e754ff3e838f4c9697e45f6b115550a6f4adc9294167d32cb332f2",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 604,
+            "y": 637,
+            "width": 67,
+            "height": 168
+          },
+          "geometryGroup": "limb-v1"
+        },
+        {
+          "id": "forearm_r-hidden-fill",
+          "role": "hidden-fill",
+          "path": "assets/skin-civilian-jacket-front-v1/forearm_r-hidden-fill.png",
+          "bytes": 9782,
+          "sha256": "d41e8258123f085edf2e0e3dbb7514c8638631eb4eb9ee1b8cc7426dbc7309c9",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 607,
+            "y": 631,
+            "width": 62,
+            "height": 48
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "hand_l",
+      "boneId": "hand_l_bone",
+      "z": 8,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "hand_l-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/hand_l-visible.png",
+          "bytes": 565645,
+          "sha256": "301c6d2c919ef11440b2fa3be85d197bee469253e2eb5b1fe8e33b42634ecd52",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 182,
+            "y": 700,
+            "width": 138,
+            "height": 216
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "hand_r",
+      "boneId": "hand_r_bone",
+      "z": 9,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "hand_r-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/hand_r-visible.png",
+          "bytes": 565782,
+          "sha256": "9a718855619c1a7514b49af3fc48723ab7973c5790d9996402b9a46e3f977b86",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 704,
+            "y": 700,
+            "width": 138,
+            "height": 216
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "thigh_l",
+      "boneId": "thigh_l_bone",
+      "z": 10,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "thigh_l-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/thigh_l-visible.png",
+          "bytes": 569756,
+          "sha256": "707d68db0a3988e6c175f94c3ddd775cf8769fa0d8a2476fb8aeede655fcf653",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 362,
+            "y": 790,
+            "width": 178,
+            "height": 340
+          },
+          "geometryGroup": "leg-v1"
+        },
+        {
+          "id": "thigh_l-hidden-fill",
+          "role": "hidden-fill",
+          "path": "assets/skin-civilian-jacket-front-v1/thigh_l-hidden-fill.png",
+          "bytes": 513430,
+          "sha256": "9a2c65ca0772d6ce27536b8720573846f4caae5c1d6dd5c58b1f5dc476d44d41",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 362,
+            "y": 790,
+            "width": 178,
+            "height": 340
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    },
+    {
+      "id": "thigh_r",
+      "boneId": "thigh_r_bone",
+      "z": 11,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "thigh_r-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/thigh_r-visible.png",
+          "bytes": 570094,
+          "sha256": "fb18b3b5184a8a860f50c1356da1b4bc8f3a0b0106d7d3cd4d56a2a2d25bf398",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 484,
+            "y": 790,
+            "width": 178,
+            "height": 340
+          },
+          "geometryGroup": "leg-v1"
+        },
+        {
+          "id": "thigh_r-hidden-fill",
+          "role": "hidden-fill",
+          "path": "assets/skin-civilian-jacket-front-v1/thigh_r-hidden-fill.png",
+          "bytes": 514112,
+          "sha256": "aa572a717b8b4a57f781b2402051efe11b7288f3fd347d5d733d95e1a7b13406",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 484,
+            "y": 790,
+            "width": 178,
+            "height": 340
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    },
+    {
+      "id": "shin_l",
+      "boneId": "shin_l_bone",
+      "z": 12,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "shin_l-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/shin_l-visible.png",
+          "bytes": 567814,
+          "sha256": "8797d00edba346675c23805996ee342e743bd1b104f6de210784f67b9018afc0",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 345,
+            "y": 1030,
+            "width": 141,
+            "height": 350
+          },
+          "geometryGroup": "leg-v1"
+        },
+        {
+          "id": "shin_l-hidden-fill",
+          "role": "hidden-fill",
+          "path": "assets/skin-civilian-jacket-front-v1/shin_l-hidden-fill.png",
+          "bytes": 527991,
+          "sha256": "d9aedc65150340795240f0783a5bc538b1b5ec6c49a30059aa5a44a889a3c0cd",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 345,
+            "y": 1030,
+            "width": 141,
+            "height": 350
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    },
+    {
+      "id": "shin_r",
+      "boneId": "shin_r_bone",
+      "z": 13,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "shin_r-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/shin_r-visible.png",
+          "bytes": 567808,
+          "sha256": "4260cabea6be3c894bddffff5a4c7b65b89d707ec74f90c59f8f15b5b756cdb9",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 537,
+            "y": 1030,
+            "width": 145,
+            "height": 350
+          },
+          "geometryGroup": "leg-v1"
+        },
+        {
+          "id": "shin_r-hidden-fill",
+          "role": "hidden-fill",
+          "path": "assets/skin-civilian-jacket-front-v1/shin_r-hidden-fill.png",
+          "bytes": 528492,
+          "sha256": "dbb4b27dd4f85710d038387ef79e31df52ba506801c53309be5d5dcf361fb85c",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 537,
+            "y": 1030,
+            "width": 145,
+            "height": 350
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    },
+    {
+      "id": "foot_l",
+      "boneId": "foot_l_bone",
+      "z": 14,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "foot_l-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/foot_l-visible.png",
+          "bytes": 562524,
+          "sha256": "ad369c96e57828495e9b2488938d031ce9536dbe9996cca5897b6fff0b31976d",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 327,
+            "y": 1280,
+            "width": 131,
+            "height": 150
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    },
+    {
+      "id": "foot_r",
+      "boneId": "foot_r_bone",
+      "z": 15,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "foot_r-visible",
+          "role": "visible",
+          "path": "assets/skin-civilian-jacket-front-v1/foot_r-visible.png",
+          "bytes": 562465,
+          "sha256": "d8948037c68d4063d1f46ec4c6e20e8d6caa9b3f44903e0baadcadefffe6dcfa",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "alphaBounds": {
+            "x": 566,
+            "y": 1280,
+            "width": 130,
+            "height": 150
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "id": "civilian-jacket-v1",
+      "slots": {
+        "head": "head-visible",
+        "hair_back": "hair_back-visible",
+        "hair_front": "hair_front-visible",
+        "torso": "torso-visible",
+        "upper_arm_l": "upper_arm_l-visible",
+        "upper_arm_r": "upper_arm_r-visible",
+        "forearm_l": "forearm_l-visible",
+        "forearm_r": "forearm_r-visible",
+        "hand_l": "hand_l-visible",
+        "hand_r": "hand_r-visible",
+        "thigh_l": "thigh_l-visible",
+        "thigh_r": "thigh_r-visible",
+        "shin_l": "shin_l-visible",
+        "shin_r": "shin_r-visible",
+        "foot_l": "foot_l-visible",
+        "foot_r": "foot_r-visible"
+      }
+    }
+  ],
+  "geometryCompatibility": {
+    "groups": {
+      "core-v1": [
+        "head",
+        "hair_back",
+        "hair_front",
+        "torso"
+      ],
+      "limb-v1": [
+        "upper_arm_l",
+        "upper_arm_r",
+        "forearm_l",
+        "forearm_r",
+        "hand_l",
+        "hand_r"
+      ],
+      "leg-v1": [
+        "thigh_l",
+        "thigh_r",
+        "shin_l",
+        "shin_r",
+        "foot_l",
+        "foot_r"
+      ]
+    }
+  }
+}

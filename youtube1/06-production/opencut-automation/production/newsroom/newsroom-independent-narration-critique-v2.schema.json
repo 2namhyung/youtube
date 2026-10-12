@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-independent-narration-critique-v2",
+  "title": "Independent newsroom narration critique v2",
+  "description": "Legacy critique shape used by critic prompt v3; retained for read compatibility with v13 drafts.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "initialVerdict", "findings", "revisionApplied", "revisionSummary", "initialAuthoritySha256", "finalAuthoritySha256", "timing"],
+  "properties": {
+    "schema": { "const": "newsroom-independent-narration-critique-v2" },
+    "initialVerdict": { "enum": ["pass", "revise"] },
+    "findings": {
+      "type": "array",
+      "minItems": 9,
+      "maxItems": 9,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["category", "initialStatus", "finalStatus", "targetAuthority", "detail", "exactQuote"],
+        "properties": {
+          "category": { "enum": ["factual-grounding", "legal-qualification", "observer-summary", "repetition", "progression", "interest", "modality-fit", "coda", "advisory-duration"] },
+          "initialStatus": { "enum": ["pass", "revise"] },
+          "finalStatus": { "const": "pass" },
+          "targetAuthority": { "enum": ["global", "initial", "final"] },
+          "detail": { "type": "string", "minLength": 1, "maxLength": 1200 },
+          "exactQuote": { "type": "string", "maxLength": 500 }
+        }
+      }
+    },
+    "revisionApplied": { "type": "boolean" },
+    "revisionSummary": { "type": "string", "maxLength": 2000 },
+    "initialAuthoritySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "finalAuthoritySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "timing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["initial", "final"],
+      "properties": {
+        "initial": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["schema", "compactCharacters", "observedCompactKoreanCharactersPerSecond", "estimatedSeconds", "targetMinimumSeconds", "targetMaximumSeconds", "withinAdvisoryTarget", "authority"],
+          "properties": {
+            "schema": { "const": "newsroom-owner-rate-advisory-estimate-v1" },
+            "compactCharacters": { "type": "integer", "minimum": 0 },
+            "observedCompactKoreanCharactersPerSecond": { "type": "number", "exclusiveMinimum": 0 },
+            "estimatedSeconds": { "type": "number", "minimum": 0 },
+            "targetMinimumSeconds": { "type": "number", "minimum": 0 },
+            "targetMaximumSeconds": { "type": "number", "minimum": 0 },
+            "withinAdvisoryTarget": { "type": "boolean" },
+            "authority": { "const": "advisory-only-owner-narration-locked-timing-remains-required" }
+          }
+        },
+        "final": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["schema", "compactCharacters", "observedCompactKoreanCharactersPerSecond", "estimatedSeconds", "targetMinimumSeconds", "targetMaximumSeconds", "withinAdvisoryTarget", "authority"],
+          "properties": {
+            "schema": { "const": "newsroom-owner-rate-advisory-estimate-v1" },
+            "compactCharacters": { "type": "integer", "minimum": 0 },
+            "observedCompactKoreanCharactersPerSecond": { "type": "number", "exclusiveMinimum": 0 },
+            "estimatedSeconds": { "type": "number", "minimum": 0 },
+            "targetMinimumSeconds": { "type": "number", "minimum": 0 },
+            "targetMaximumSeconds": { "type": "number", "minimum": 0 },
+            "withinAdvisoryTarget": { "type": "boolean" },
+            "authority": { "const": "advisory-only-owner-narration-locked-timing-remains-required" }
+          }
+        }
+      },
+      "description": "Deterministic advisory estimates for initial and final authorities; owner narration locked timing remains authoritative."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-gemini-faceless-review-source-receipt-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "storyId", "previewId", "sourceId", "surface", "performedBy", "capturedAt", "modelLabel", "modeLabel", "sourceRelativePath", "promptRelativePath", "promptSha256", "screenshotRelativePath", "uploadOrder", "statement"],
+  "properties": {
+    "schema": { "const": "newsroom-gemini-faceless-review-source-receipt-v1" },
+    "storyId": { "type": "string" },
+    "previewId": { "type": "string" },
+    "sourceId": { "type": "string" },
+    "surface": { "const": "gemini-web" },
+    "performedBy": { "type": "string" },
+    "capturedAt": { "type": "string", "format": "date-time" },
+    "modelLabel": { "type": "string" },
+    "modeLabel": { "type": "string" },
+    "sourceRelativePath": { "type": "string" },
+    "sourceSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "sourceBytes": { "type": "integer", "minimum": 1 },
+    "sourceMedia": { "type": "object", "additionalProperties": false, "required": ["width", "height", "fps", "durationSeconds", "audioPresent"], "properties": { "width": { "type": "integer", "minimum": 1 }, "height": { "type": "integer", "minimum": 1 }, "fps": { "type": "number", "exclusiveMinimum": 0 }, "durationSeconds": { "type": "number", "exclusiveMinimum": 0 }, "audioPresent": { "type": "boolean" } } },
+    "promptRelativePath": { "type": "string" },
+    "promptSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "screenshotRelativePath": { "type": "string" },
+    "screenshotSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "uploadOrder": { "type": "array", "minItems": 1, "items": { "type": "object", "additionalProperties": false, "required": ["ordinal", "assetId", "assetRelativePath", "sha256", "bytes"], "properties": { "ordinal": { "type": "integer", "minimum": 1 }, "assetId": { "type": "string" }, "assetRelativePath": { "type": "string" }, "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "bytes": { "type": "integer", "minimum": 1 } } } },
+    "statement": { "const": "I operated the recorded Gemini Web UI, submitted the exact recorded prompt, uploaded the recorded references, and preserved this source receipt." }
+  }
+}

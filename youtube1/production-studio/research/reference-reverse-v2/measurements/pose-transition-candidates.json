@@ -1,0 +1,254 @@
+{
+  "interval": {
+    "startSeconds": 44.0,
+    "endSeconds": 48.5,
+    "stepSeconds": 0.1,
+    "sourceFps": 29.97002997002997
+  },
+  "roi": {
+    "x": 0,
+    "y": 170,
+    "width": 360,
+    "height": 270
+  },
+  "frames": [
+    {
+      "requestedTimeSeconds": 44.0,
+      "frameIndex": 1319,
+      "actualTimeSeconds": 44.010633
+    },
+    {
+      "requestedTimeSeconds": 44.1,
+      "frameIndex": 1322,
+      "actualTimeSeconds": 44.110733
+    },
+    {
+      "requestedTimeSeconds": 44.2,
+      "frameIndex": 1325,
+      "actualTimeSeconds": 44.210833
+    },
+    {
+      "requestedTimeSeconds": 44.3,
+      "frameIndex": 1328,
+      "actualTimeSeconds": 44.310933
+    },
+    {
+      "requestedTimeSeconds": 44.4,
+      "frameIndex": 1331,
+      "actualTimeSeconds": 44.411033
+    },
+    {
+      "requestedTimeSeconds": 44.5,
+      "frameIndex": 1334,
+      "actualTimeSeconds": 44.511133
+    },
+    {
+      "requestedTimeSeconds": 44.6,
+      "frameIndex": 1337,
+      "actualTimeSeconds": 44.611233
+    },
+    {
+      "requestedTimeSeconds": 44.7,
+      "frameIndex": 1340,
+      "actualTimeSeconds": 44.711333
+    },
+    {
+      "requestedTimeSeconds": 44.8,
+      "frameIndex": 1343,
+      "actualTimeSeconds": 44.811433
+    },
+    {
+      "requestedTimeSeconds": 44.9,
+      "frameIndex": 1346,
+      "actualTimeSeconds": 44.911533
+    },
+    {
+      "requestedTimeSeconds": 45.0,
+      "frameIndex": 1349,
+      "actualTimeSeconds": 45.011633
+    },
+    {
+      "requestedTimeSeconds": 45.1,
+      "frameIndex": 1352,
+      "actualTimeSeconds": 45.111733
+    },
+    {
+      "requestedTimeSeconds": 45.2,
+      "frameIndex": 1355,
+      "actualTimeSeconds": 45.211833
+    },
+    {
+      "requestedTimeSeconds": 45.3,
+      "frameIndex": 1358,
+      "actualTimeSeconds": 45.311933
+    },
+    {
+      "requestedTimeSeconds": 45.4,
+      "frameIndex": 1361,
+      "actualTimeSeconds": 45.412033
+    },
+    {
+      "requestedTimeSeconds": 45.5,
+      "frameIndex": 1364,
+      "actualTimeSeconds": 45.512133
+    },
+    {
+      "requestedTimeSeconds": 45.6,
+      "frameIndex": 1367,
+      "actualTimeSeconds": 45.612233
+    },
+    {
+      "requestedTimeSeconds": 45.7,
+      "frameIndex": 1370,
+      "actualTimeSeconds": 45.712333
+    },
+    {
+      "requestedTimeSeconds": 45.8,
+      "frameIndex": 1373,
+      "actualTimeSeconds": 45.812433
+    },
+    {
+      "requestedTimeSeconds": 45.9,
+      "frameIndex": 1376,
+      "actualTimeSeconds": 45.912533
+    },
+    {
+      "requestedTimeSeconds": 46.0,
+      "frameIndex": 1379,
+      "actualTimeSeconds": 46.012633
+    },
+    {
+      "requestedTimeSeconds": 46.1,
+      "frameIndex": 1382,
+      "actualTimeSeconds": 46.112733
+    },
+    {
+      "requestedTimeSeconds": 46.2,
+      "frameIndex": 1385,
+      "actualTimeSeconds": 46.212833
+    },
+    {
+      "requestedTimeSeconds": 46.3,
+      "frameIndex": 1388,
+      "actualTimeSeconds": 46.312933
+    },
+    {
+      "requestedTimeSeconds": 46.4,
+      "frameIndex": 1391,
+      "actualTimeSeconds": 46.413033
+    },
+    {
+      "requestedTimeSeconds": 46.5,
+      "frameIndex": 1394,
+      "actualTimeSeconds": 46.513133
+    },
+    {
+      "requestedTimeSeconds": 46.6,
+      "frameIndex": 1397,
+      "actualTimeSeconds": 46.613233
+    },
+    {
+      "requestedTimeSeconds": 46.7,
+      "frameIndex": 1400,
+      "actualTimeSeconds": 46.713333
+    },
+    {
+      "requestedTimeSeconds": 46.8,
+      "frameIndex": 1403,
+      "actualTimeSeconds": 46.813433
+    },
+    {
+      "requestedTimeSeconds": 46.9,
+      "frameIndex": 1406,
+      "actualTimeSeconds": 46.913533
+    },
+    {
+      "requestedTimeSeconds": 47.0,
+      "frameIndex": 1409,
+      "actualTimeSeconds": 47.013633
+    },
+    {
+      "requestedTimeSeconds": 47.1,
+      "frameIndex": 1412,
+      "actualTimeSeconds": 47.113733
+    },
+    {
+      "requestedTimeSeconds": 47.2,
+      "frameIndex": 1415,
+      "actualTimeSeconds": 47.213833
+    },
+    {
+      "requestedTimeSeconds": 47.3,
+      "frameIndex": 1418,
+      "actualTimeSeconds": 47.313933
+    },
+    {
+      "requestedTimeSeconds": 47.4,
+      "frameIndex": 1421,
+      "actualTimeSeconds": 47.414033
+    },
+    {
+      "requestedTimeSeconds": 47.5,
+      "frameIndex": 1424,
+      "actualTimeSeconds": 47.514133
+    },
+    {
+      "requestedTimeSeconds": 47.6,
+      "frameIndex": 1427,
+      "actualTimeSeconds": 47.614233
+    },
+    {
+      "requestedTimeSeconds": 47.7,
+      "frameIndex": 1430,
+      "actualTimeSeconds": 47.714333
+    },
+    {
+      "requestedTimeSeconds": 47.8,
+      "frameIndex": 1433,
+      "actualTimeSeconds": 47.814433
+    },
+    {
+      "requestedTimeSeconds": 47.9,
+      "frameIndex": 1436,
+      "actualTimeSeconds": 47.914533
+    },
+    {
+      "requestedTimeSeconds": 48.0,
+      "frameIndex": 1439,
+      "actualTimeSeconds": 48.014633
+    },
+    {
+      "requestedTimeSeconds": 48.1,
+      "frameIndex": 1442,
+      "actualTimeSeconds": 48.114733
+    },
+    {
+      "requestedTimeSeconds": 48.2,
+      "frameIndex": 1445,
+      "actualTimeSeconds": 48.214833
+    },
+    {
+      "requestedTimeSeconds": 48.3,
+      "frameIndex": 1448,
+      "actualTimeSeconds": 48.314933
+    },
+    {
+      "requestedTimeSeconds": 48.4,
+      "frameIndex": 1451,
+      "actualTimeSeconds": 48.415033
+    },
+    {
+      "requestedTimeSeconds": 48.5,
+      "frameIndex": 1454,
+      "actualTimeSeconds": 48.515133
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\User\\Desktop\\app\\youtube\\production-studio\\research\\reference-reverse-v2\\evidence\\pose-detail-01.png",
+    "C:\\Users\\User\\Desktop\\app\\youtube\\production-studio\\research\\reference-reverse-v2\\evidence\\pose-detail-02.png",
+    "C:\\Users\\User\\Desktop\\app\\youtube\\production-studio\\research\\reference-reverse-v2\\evidence\\pose-detail-03.png",
+    "C:\\Users\\User\\Desktop\\app\\youtube\\production-studio\\research\\reference-reverse-v2\\evidence\\pose-detail-04.png",
+    "C:\\Users\\User\\Desktop\\app\\youtube\\production-studio\\research\\reference-reverse-v2\\evidence\\pose-detail-05.png"
+  ],
+  "semanticLabels": "omitted; parent assigns shot meaning"
+}

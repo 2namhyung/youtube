@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14171a">
+  <title>VOICE / 기준 음성 캡처</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="console-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">●</span><div><p class="eyebrow">LOCAL CAPTURE CONSOLE</p><h1>VOICE / 기준 음성 캡처</h1></div></div>
+      <div class="status-pill"><span id="serverDot" class="dot"></span><span id="serverStatus">로컬 서버 확인 중</span></div>
+    </header>
+    <main class="workspace">
+      <section class="card script-card" aria-labelledby="script-title">
+        <div class="card-heading"><div><p class="eyebrow">REFERENCE SCRIPT</p><h2 id="script-title">오늘의 기준 대본</h2></div><span class="duration-tag">약 50초</span></div>
+        <label for="transcript">정확한 transcript <span class="required">필수</span></label>
+        <textarea id="transcript" rows="9" spellcheck="false" aria-describedby="transcriptHelp"></textarea>
+        <p id="transcriptHelp" class="hint">실제 발화와 한 글자까지 일치하도록 다듬으세요. 쉼표와 숫자도 그대로 남겨 주세요.</p>
+        <div class="script-meta"><span id="charCount">0자</span><button id="resetScript" class="text-btn" type="button">기본 대본으로 되돌리기</button></div>
+      </section>
+      <section class="card capture-card" aria-labelledby="capture-title">
+        <div class="card-heading"><div><p class="eyebrow">INPUT MONITOR</p><h2 id="capture-title">녹음 채널</h2></div><span id="recordState" class="state">대기</span></div>
+        <div class="control-row"><label class="field-label" for="deviceSelect">마이크 입력</label><select id="deviceSelect"><option>권한을 허용하면 장치를 불러옵니다</option></select><button id="refreshDevices" class="icon-btn" type="button" title="장치 새로고침">↻</button></div>
+        <button id="permissionBtn" class="permission" type="button">마이크 권한 확인</button>
+        <div class="meter-panel"><div class="meter-top"><span>LEVEL / dBFS</span><strong id="dbValue">— dB</strong></div><div class="meter-track"><div id="levelFill" class="meter-fill"></div><div id="peakMarker" class="peak-marker"></div></div><canvas id="waveform" width="900" height="150" aria-label="실시간 오디오 파형"></canvas><div class="metric-row"><span>PEAK <b id="peakValue">— dB</b></span><span>CLIP <b id="clipValue">정상</b></span><span>SILENCE <b id="silenceValue">— %</b></span></div></div>
+        <div class="timer" id="timer" aria-live="polite">00:00.0</div>
+        <div class="record-actions"><button id="recordBtn" class="record-btn" type="button" disabled><span class="record-icon"></span><span>녹음 시작</span></button><button id="pauseBtn" class="secondary-btn" type="button" disabled>일시정지</button><button id="stopBtn" class="secondary-btn danger" type="button" disabled>정지</button></div>
+        <p id="countdown" class="countdown" aria-live="assertive"></p><div id="quality" class="quality" role="status"></div>
+      </section>
+      <section class="card review-card" aria-labelledby="review-title">
+        <div class="card-heading"><div><p class="eyebrow">TAKE REVIEW</p><h2 id="review-title">테이크 확인</h2></div><span id="takeBadge" class="duration-tag">미완료</span></div>
+        <audio id="playback" controls preload="metadata" aria-label="녹음된 음성 재생"></audio>
+        <div class="check-row"><input id="voiceCheck" type="checkbox"><label for="voiceCheck">이 녹음은 제 목소리이며, transcript와 일치합니다.</label></div>
+        <button id="saveBtn" class="save-btn" type="button" disabled>로컬에 WAV + transcript 저장</button>
+        <p class="privacy-note">이 브라우저와 로컬 서버 밖으로 오디오를 전송하지 않습니다. 저장 폴더: <code>recordings/</code></p>
+        <div id="saveMessage" class="save-message" role="status"></div>
+      </section>
+    </main>
+    <footer><span>48 kHz 권장 · mono / PCM 16-bit</span><span>OmniVoice Studio · CosyVoice 3 ready</span></footer>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

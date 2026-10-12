@@ -1,0 +1,94 @@
+{
+  "contractId": "research-657380fce7eaccc9-editorial-cartoon-editorial-cartoon",
+  "templateId": "editorial-cartoon-default-v1",
+  "version": 1,
+  "output": {
+    "scenes": 3,
+    "frames": 360,
+    "durationSeconds": 12,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "locked": {
+    "camera": {
+      "mode": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5
+    },
+    "captions": {
+      "color": "#FFFFFF",
+      "background": "black",
+      "safeArea": "preserve-source-caption-anchors"
+    },
+    "aiDisclosure": "required-on-output",
+    "imageGen": "every-cut-must-explain-script",
+    "wanI2V": "only-when-motion-conveys-unstated-information",
+    "transitions": "FFmpeg-purposeful-only",
+    "handsAndCameraShake": "avoid-gratuitous-use",
+    "release": "private-first-exact-file-stage07-gate"
+  },
+  "configurable": [
+    "projectId",
+    "title",
+    "scriptSource",
+    "sourceProject",
+    "sourcePlan",
+    "scenes",
+    "sceneAssets",
+    "sceneTiming",
+    "imageGenPrompts",
+    "evidenceBasis",
+    "wanMotionScenes",
+    "aiDisclosureLabel",
+    "transitionContract",
+    "narration",
+    "bgm",
+    "thumbnail",
+    "releaseGate"
+  ],
+  "scriptSource": "script.final.json",
+  "narration": {
+    "mode": "edge-tts",
+    "voice": "ko-KR-SunHiNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "bgm": {
+    "provider": "stable-audio-3",
+    "prompt": "restrained factual newsroom underscore, no suspense swell",
+    "seed": 732,
+    "provenance": "script.final.json",
+    "duckUnderNarration": true,
+    "required": false
+  },
+  "assets": [
+    {
+      "scene": 1,
+      "asset": "assets/scene-01-cafe-placeholder.png",
+      "assetType": "image",
+      "imageGenPrompt": "Editorial 2D cartoon, anonymous hospital break-room table with two plain coffee cups and a sealed generic bottle kept out of reach, no labels, no people, no readable text, non-graphic factual reenactment, vertical 9:16.",
+      "evidenceBasis": "workflow draft.incident and claim-652fe8c81aa8/claim-d481b0781ff8: coffee contamination reported; incident date conflict must remain unresolved",
+      "useWan": false
+    },
+    {
+      "scene": 2,
+      "asset": "assets/scene-02-court-placeholder.png",
+      "assetType": "image",
+      "imageGenPrompt": "Editorial 2D cartoon, neutral courtroom exterior and split timeline cards for first trial and appeal, no judge faces, no logos, no exact date text, restrained factual palette, vertical 9:16.",
+      "evidenceBasis": "workflow draft.timeline and claims claim-fc54d3811ea6/claim-9cfeb9654123: first-trial and appeal sentences reported",
+      "useWan": false
+    },
+    {
+      "scene": 3,
+      "asset": "assets/scene-03-record-placeholder.png",
+      "assetType": "image",
+      "imageGenPrompt": "Editorial 2D cartoon, evidence ledger with disputed-date marker and magnifying glass, no chemical depiction, no people, no readable text, AI reenactment disclosure area, vertical 9:16.",
+      "evidenceBasis": "workflow draft.confirmation and legal report prohibitedClaims: omit pesticide type/amount and exact appeal date",
+      "useWan": false
+    }
+  ],
+  "wanMotionScenes": []
+}

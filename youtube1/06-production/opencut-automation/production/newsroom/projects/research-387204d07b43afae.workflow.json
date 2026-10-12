@@ -1,0 +1,2205 @@
+{
+  "version": 1,
+  "slug": "research-387204d07b43afae",
+  "title": "'엽떡'부터 치킨상자까지…이웃 옥상에 '쓰레기 폭탄' 투하",
+  "candidate": {
+    "id": "research-387204d07b43afae",
+    "slug": "research-387204d07b43afae",
+    "editorialStatus": "active-review",
+    "title": "'엽떡'부터 치킨상자까지…이웃 옥상에 '쓰레기 폭탄' 투하",
+    "source": "JTBC 뉴스 사회",
+    "url": "https://news.jtbc.co.kr/article/NB12311930",
+    "publishedAt": "2026-08-05T22:37:51+09:00",
+    "hook": "배달음식을 먹고 남은 쓰레기가 난데없이 이웃 숙박업소 옥상으로 쏟아졌습니다.",
+    "storySummary": "부산에서 숙박업소를 운영하는 사장은 이웃 아파트 주민 때문에 피해를 보고 있다고 제보했다. 해당 주민은 아파트 옥상과 건물 사이로 엽기떡볶이 용기와 치킨 상자 등 각종 배달 음식 쓰레기를 무단 투척했다. 쓰레기는 이웃 숙박업소 옥상에 떨어져 업소 측에 피해를 줬다. 사장의 제보는 8월 5일 JTBC 〈사건반장〉을 통해 보도됐다.",
+    "rationale": "주거지와 숙박업소가 맞닿은 평범한 공간에서 음식물 쓰레기를 이웃 건물로 던진 행동이 직접적인 피해로 이어진 사건이다. 사소한 뒤처리를 타인의 공간에 떠넘겼다는 점에서 황당함과 답답함이 크고, 낙하물·위생 문제라는 현실적 위험도 있다. 다만 투척자의 해명이나 후속 조치가 탐색 정보에 없어 행동과 해명의 모순은 확인되지 않는다.",
+    "dimensions": {
+      "ordinaryContext": 3,
+      "disproportionateEscalation": 3,
+      "explanationActionMismatch": 0,
+      "tangibleRisk": 3,
+      "responsibilityEvasion": 3,
+      "relatableEmotion": 3
+    },
+    "factCheckRisks": [
+      "발행사 제공 요약만으로는 투척 횟수와 기간, 피해 규모를 확인할 수 없다.",
+      "투척자가 특정됐는지와 고의성을 인정했는지 확인이 필요하다.",
+      "경찰 신고, 관리사무소 조치, 청소·보상 여부 등 보도 이후 상황이 제시되지 않았다.",
+      "실제 투척 장면이나 쓰레기의 출처를 입증하는 영상·사진이 있는지 확인해야 한다."
+    ],
+    "selectionReasons": [
+      "아파트와 숙박업소라는 일상 공간에서 벌어진 비상식적인 투기 행위다.",
+      "배달 쓰레기를 이웃 옥상으로 던져 위생 문제와 낙하물 위험을 만들었다.",
+      "개인의 쓰레기 처리 책임을 이웃에게 전가한 구조가 선명하다.",
+      "쓰레기 종류와 투척 장소가 구체적으로 제시돼 사건 흐름을 짧게 전달하기 좋다."
+    ],
+    "relatedCoverage": [],
+    "approval": {
+      "kind": "human-promotion",
+      "approvedAt": "2026-08-09T03:47:03.819Z",
+      "sourceAction": "newsroom-semantic-card"
+    },
+    "provenance": {
+      "semanticSelectionPath": "out/newsroom/research-llm-analysis.json",
+      "semanticGeneratedAt": "2026-08-09T03:38:01.262Z",
+      "articlePoolPath": "01-research/news_radar/data/latest_article_pool.json",
+      "articlePoolGeneratedAt": "2026-08-09T12:36:27+09:00",
+      "articleId": "387204d07b43afae40d542ea",
+      "excerptProvenance": "rss-description-or-atom-summary"
+    },
+    "verification": {
+      "state": "cross-source-verification-required",
+      "missing": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토"
+      ]
+    }
+  },
+  "createdAt": "2026-08-09T03:47:04.321Z",
+  "updatedAt": "2026-09-04T19:58:57.552Z",
+  "stages": {
+    "01": {
+      "status": "ready",
+      "completedAt": "2026-08-09T03:47:04.321Z"
+    },
+    "02": {
+      "status": "ready",
+      "completedAt": "2026-09-04T11:31:26.329Z",
+      "reportGeneratedAt": "2026-09-04T11:31:26.329Z",
+      "evidenceSha256": "3ee6c88c1dd182d4adc608f9e1aa6dfc696b3345eec2239e1f038278a8681d8e"
+    },
+    "03": {
+      "status": "in-progress"
+    },
+    "04": {
+      "status": "pending"
+    },
+    "05": {
+      "status": "pending"
+    },
+    "06": {
+      "status": "pending"
+    },
+    "07": {
+      "status": "pending"
+    },
+    "08": {
+      "status": "pending"
+    }
+  },
+  "legalContextReport": {
+    "schemaVersion": 5,
+    "slug": "research-387204d07b43afae",
+    "generatedAt": "2026-09-04T11:31:26.329Z",
+    "candidateSha256": "6ae061c6505dd7c4ede598b733e40f58bdc7c72ae5b507341f9539f9091a9d84",
+    "researchSnapshotSha256": "3ee6c88c1dd182d4adc608f9e1aa6dfc696b3345eec2239e1f038278a8681d8e",
+    "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+    "confirmedFacts": [
+      {
+        "id": "claim-35f26d197286",
+        "summary": "이웃 아파트에서 한 주민이 옥상과 건물 사이로 각종 배달 음식 쓰레기를 무단으로 투척해 피해를 입고 있다는 숙박업소 사장의 제보가 오늘(5일) JTBC 〈사건반장〉 을 통해 보도됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-06a78480a4d9",
+        "summary": "부산에서 숙박업소를 운영 중인 제보자에 따르면 지난 5월부터 건물 옥상에 정체를 알 수 없는 쓰레기가 날아들기 시작했다고 합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4666c4620c39",
+        "summary": "옥상 관리 차원에서 올라갔다가 조개가 가득 담긴 쓰레기를 발견한 것이 그 시작이었다고 하는데요.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-318045dc5ab2",
+        "summary": "제보자는 당시 화가 났지만 '치워두면 사람이 관리하는 줄 알고 안 버리겠지' 하는 마음으로 직접 쓰레기를 치웠다고 전했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f7674d21a770",
+        "summary": "하지만 이후에도 쓰레기 투척은 계속됐다고 합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-738561515f12",
+        "summary": "제보자는 쓰레기가 날아온 방향 등을 토대로 이웃 아파트 주민의 소행일 것으로 보고, 곧장 해당 아파트 관리사무소를 찾아가 엘리베이터에 '쓰레기 무단 투기 금지' 경고문을 붙여 달라고 요청했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-7e0df8f9078b",
+        "summary": "이에 따라 지난 6월부터 경고문이 부착됐다고 하는데요.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-67a62b10657d",
+        "summary": "하지만 경고문이 붙은 이후에도 쓰레기 투척은 멈추지 않았습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4f3e21f7497e",
+        "summary": "버려진 쓰레기들은 매운 떡볶이 프랜차이즈 포장 용기부터 각종 프랜차이즈 치킨 상자, 햄버거 포장지까지 종류도 다양했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-2c2fc411d470",
+        "summary": "비닐봉지에 배달 음식 용기와 음료수, 물티슈 등 각종 쓰레기를 한꺼번에 넣어 던지거나, 배달 용기째 그대로 투척하기도 했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-85462bc8d32c",
+        "summary": "제보자는 이렇게 투척된 쓰레기로 인해 옥상뿐 아니라 건물과 건물 사이 바닥, 뒷건물 옥상까지 난장판이 됐다고 분통을 터뜨렸습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-12329c6cb727",
+        "summary": "〈사진=JTBC '사건반장' 방송화면 캡처〉 그런데 쓰레기에서는 누가 버렸는지 특정할 수 있는 영수증은 단 한장도 발견되지 않았다고 합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "reportedFacts": [
+      {
+        "id": "claim-35f26d197286",
+        "summary": "이웃 아파트에서 한 주민이 옥상과 건물 사이로 각종 배달 음식 쓰레기를 무단으로 투척해 피해를 입고 있다는 숙박업소 사장의 제보가 오늘(5일) JTBC 〈사건반장〉 을 통해 보도됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-06a78480a4d9",
+        "summary": "부산에서 숙박업소를 운영 중인 제보자에 따르면 지난 5월부터 건물 옥상에 정체를 알 수 없는 쓰레기가 날아들기 시작했다고 합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4666c4620c39",
+        "summary": "옥상 관리 차원에서 올라갔다가 조개가 가득 담긴 쓰레기를 발견한 것이 그 시작이었다고 하는데요.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-318045dc5ab2",
+        "summary": "제보자는 당시 화가 났지만 '치워두면 사람이 관리하는 줄 알고 안 버리겠지' 하는 마음으로 직접 쓰레기를 치웠다고 전했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f7674d21a770",
+        "summary": "하지만 이후에도 쓰레기 투척은 계속됐다고 합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-738561515f12",
+        "summary": "제보자는 쓰레기가 날아온 방향 등을 토대로 이웃 아파트 주민의 소행일 것으로 보고, 곧장 해당 아파트 관리사무소를 찾아가 엘리베이터에 '쓰레기 무단 투기 금지' 경고문을 붙여 달라고 요청했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-7e0df8f9078b",
+        "summary": "이에 따라 지난 6월부터 경고문이 부착됐다고 하는데요.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-67a62b10657d",
+        "summary": "하지만 경고문이 붙은 이후에도 쓰레기 투척은 멈추지 않았습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4f3e21f7497e",
+        "summary": "버려진 쓰레기들은 매운 떡볶이 프랜차이즈 포장 용기부터 각종 프랜차이즈 치킨 상자, 햄버거 포장지까지 종류도 다양했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-2c2fc411d470",
+        "summary": "비닐봉지에 배달 음식 용기와 음료수, 물티슈 등 각종 쓰레기를 한꺼번에 넣어 던지거나, 배달 용기째 그대로 투척하기도 했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-85462bc8d32c",
+        "summary": "제보자는 이렇게 투척된 쓰레기로 인해 옥상뿐 아니라 건물과 건물 사이 바닥, 뒷건물 옥상까지 난장판이 됐다고 분통을 터뜨렸습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-12329c6cb727",
+        "summary": "〈사진=JTBC '사건반장' 방송화면 캡처〉 그런데 쓰레기에서는 누가 버렸는지 특정할 수 있는 영수증은 단 한장도 발견되지 않았다고 합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "unverifiedFacts": [],
+    "possibleLegalIssues": [],
+    "missingFacts": [],
+    "safePhrasing": [
+      "검찰은 …라고 주장했습니다",
+      "당사자는 …라고 주장했습니다",
+      "재판부는 …라고 판단했습니다",
+      "정확한 내용은 확인되지 않았습니다"
+    ],
+    "sources": [
+      {
+        "sourceId": "src-387204d07b43",
+        "url": "https://news.jtbc.co.kr/article/NB12311930",
+        "title": "‘엽떡’부터 치킨상자까지…이웃 옥상에 ‘쓰레기 폭탄’ 투하",
+        "publisher": "JTBC 뉴스",
+        "date": "",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "legalSources": [],
+    "evidence": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "independentPublisherCount": 1,
+      "sameEventSnapshot": true,
+      "eventDossierCurrent": true
+    },
+    "verdict": "conditional",
+    "verdictLabel": "조건부 사용",
+    "reasons": [
+      "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다."
+    ],
+    "reasonCodes": [
+      "single-source"
+    ],
+    "requiredEdits": [],
+    "allowedMaterials": [
+      "사건 히스토리의 승인된 사실",
+      "직접 제작한 비식별 재연"
+    ],
+    "restrictedMaterials": [
+      "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+      "피해자와 제3자는 익명 표기를 유지하기",
+      "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+      "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+    ],
+    "requiredConditions": [],
+    "assessment": {
+      "sourceCorroboration": "single-source",
+      "conflicts": 0,
+      "unknowns": 0
+    },
+    "contradictions": [],
+    "scriptPolicy": {
+      "version": 2,
+      "allowedFacts": [
+        "이웃 아파트에서 한 주민이 옥상과 건물 사이로 각종 배달 음식 쓰레기를 무단으로 투척해 피해를 입고 있다는 숙박업소 사장의 제보가 오늘(5일) JTBC 〈사건반장〉 을 통해 보도됐습니다.",
+        "부산에서 숙박업소를 운영 중인 제보자에 따르면 지난 5월부터 건물 옥상에 정체를 알 수 없는 쓰레기가 날아들기 시작했다고 합니다.",
+        "옥상 관리 차원에서 올라갔다가 조개가 가득 담긴 쓰레기를 발견한 것이 그 시작이었다고 하는데요.",
+        "제보자는 당시 화가 났지만 '치워두면 사람이 관리하는 줄 알고 안 버리겠지' 하는 마음으로 직접 쓰레기를 치웠다고 전했습니다.",
+        "하지만 이후에도 쓰레기 투척은 계속됐다고 합니다.",
+        "제보자는 쓰레기가 날아온 방향 등을 토대로 이웃 아파트 주민의 소행일 것으로 보고, 곧장 해당 아파트 관리사무소를 찾아가 엘리베이터에 '쓰레기 무단 투기 금지' 경고문을 붙여 달라고 요청했습니다.",
+        "이에 따라 지난 6월부터 경고문이 부착됐다고 하는데요.",
+        "하지만 경고문이 붙은 이후에도 쓰레기 투척은 멈추지 않았습니다.",
+        "버려진 쓰레기들은 매운 떡볶이 프랜차이즈 포장 용기부터 각종 프랜차이즈 치킨 상자, 햄버거 포장지까지 종류도 다양했습니다.",
+        "비닐봉지에 배달 음식 용기와 음료수, 물티슈 등 각종 쓰레기를 한꺼번에 넣어 던지거나, 배달 용기째 그대로 투척하기도 했습니다.",
+        "제보자는 이렇게 투척된 쓰레기로 인해 옥상뿐 아니라 건물과 건물 사이 바닥, 뒷건물 옥상까지 난장판이 됐다고 분통을 터뜨렸습니다.",
+        "〈사진=JTBC '사건반장' 방송화면 캡처〉 그런데 쓰레기에서는 누가 버렸는지 특정할 수 있는 영수증은 단 한장도 발견되지 않았다고 합니다."
+      ],
+      "allowedClaims": [
+        {
+          "claimId": "claim-35f26d197286",
+          "summary": "이웃 아파트에서 한 주민이 옥상과 건물 사이로 각종 배달 음식 쓰레기를 무단으로 투척해 피해를 입고 있다는 숙박업소 사장의 제보가 오늘(5일) JTBC 〈사건반장〉 을 통해 보도됐습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-06a78480a4d9",
+          "summary": "부산에서 숙박업소를 운영 중인 제보자에 따르면 지난 5월부터 건물 옥상에 정체를 알 수 없는 쓰레기가 날아들기 시작했다고 합니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-4666c4620c39",
+          "summary": "옥상 관리 차원에서 올라갔다가 조개가 가득 담긴 쓰레기를 발견한 것이 그 시작이었다고 하는데요.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-318045dc5ab2",
+          "summary": "제보자는 당시 화가 났지만 '치워두면 사람이 관리하는 줄 알고 안 버리겠지' 하는 마음으로 직접 쓰레기를 치웠다고 전했습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-f7674d21a770",
+          "summary": "하지만 이후에도 쓰레기 투척은 계속됐다고 합니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-738561515f12",
+          "summary": "제보자는 쓰레기가 날아온 방향 등을 토대로 이웃 아파트 주민의 소행일 것으로 보고, 곧장 해당 아파트 관리사무소를 찾아가 엘리베이터에 '쓰레기 무단 투기 금지' 경고문을 붙여 달라고 요청했습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-7e0df8f9078b",
+          "summary": "이에 따라 지난 6월부터 경고문이 부착됐다고 하는데요.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-67a62b10657d",
+          "summary": "하지만 경고문이 붙은 이후에도 쓰레기 투척은 멈추지 않았습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-4f3e21f7497e",
+          "summary": "버려진 쓰레기들은 매운 떡볶이 프랜차이즈 포장 용기부터 각종 프랜차이즈 치킨 상자, 햄버거 포장지까지 종류도 다양했습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-2c2fc411d470",
+          "summary": "비닐봉지에 배달 음식 용기와 음료수, 물티슈 등 각종 쓰레기를 한꺼번에 넣어 던지거나, 배달 용기째 그대로 투척하기도 했습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-85462bc8d32c",
+          "summary": "제보자는 이렇게 투척된 쓰레기로 인해 옥상뿐 아니라 건물과 건물 사이 바닥, 뒷건물 옥상까지 난장판이 됐다고 분통을 터뜨렸습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-12329c6cb727",
+          "summary": "〈사진=JTBC '사건반장' 방송화면 캡처〉 그런데 쓰레기에서는 누가 버렸는지 특정할 수 있는 영수증은 단 한장도 발견되지 않았다고 합니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        }
+      ],
+      "prohibitedClaims": [],
+      "prohibitedPhrases": [
+        "보도에 따르면"
+      ],
+      "requiredQualifications": [],
+      "safeReplacements": [],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ],
+      "uncertaintyInstructions": [],
+      "omissionInstructions": [],
+      "identityRestrictions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기"
+      ],
+      "footageRestrictions": [
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+      ],
+      "sourceAttribution": {
+        "mode": "not-required",
+        "neutralPrefix": "",
+        "claimIds": []
+      }
+    },
+    "factBrief": {
+      "confirmedFacts": [
+        "이웃 아파트에서 한 주민이 옥상과 건물 사이로 각종 배달 음식 쓰레기를 무단으로 투척해 피해를 입고 있다는 숙박업소 사장의 제보가 오늘(5일) JTBC 〈사건반장〉 을 통해 보도됐습니다.",
+        "부산에서 숙박업소를 운영 중인 제보자에 따르면 지난 5월부터 건물 옥상에 정체를 알 수 없는 쓰레기가 날아들기 시작했다고 합니다.",
+        "옥상 관리 차원에서 올라갔다가 조개가 가득 담긴 쓰레기를 발견한 것이 그 시작이었다고 하는데요.",
+        "제보자는 당시 화가 났지만 '치워두면 사람이 관리하는 줄 알고 안 버리겠지' 하는 마음으로 직접 쓰레기를 치웠다고 전했습니다.",
+        "하지만 이후에도 쓰레기 투척은 계속됐다고 합니다.",
+        "제보자는 쓰레기가 날아온 방향 등을 토대로 이웃 아파트 주민의 소행일 것으로 보고, 곧장 해당 아파트 관리사무소를 찾아가 엘리베이터에 '쓰레기 무단 투기 금지' 경고문을 붙여 달라고 요청했습니다.",
+        "이에 따라 지난 6월부터 경고문이 부착됐다고 하는데요.",
+        "하지만 경고문이 붙은 이후에도 쓰레기 투척은 멈추지 않았습니다.",
+        "버려진 쓰레기들은 매운 떡볶이 프랜차이즈 포장 용기부터 각종 프랜차이즈 치킨 상자, 햄버거 포장지까지 종류도 다양했습니다.",
+        "비닐봉지에 배달 음식 용기와 음료수, 물티슈 등 각종 쓰레기를 한꺼번에 넣어 던지거나, 배달 용기째 그대로 투척하기도 했습니다.",
+        "제보자는 이렇게 투척된 쓰레기로 인해 옥상뿐 아니라 건물과 건물 사이 바닥, 뒷건물 옥상까지 난장판이 됐다고 분통을 터뜨렸습니다.",
+        "〈사진=JTBC '사건반장' 방송화면 캡처〉 그런데 쓰레기에서는 누가 버렸는지 특정할 수 있는 영수증은 단 한장도 발견되지 않았다고 합니다."
+      ],
+      "timeline": [],
+      "disputedFacts": [],
+      "unknownFacts": [],
+      "followUpChanges": []
+    },
+    "videoDecision": {
+      "decision": "conditional",
+      "reasons": [
+        "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다."
+      ]
+    },
+    "caseDispositionReview": {
+      "status": "complete",
+      "question": "이 사건의 처리와 판단은 유사한 과거 사례 및 법리에 비추어 설명 가능한가",
+      "similarCases": [],
+      "applicableIssues": [],
+      "assessment": "현재 검증된 유사 판례를 찾지 못했습니다. 비교 결론을 만들지 않고, 이 한계를 대본에 반영해 사건의 형사책임·처벌·향후 수사 결과를 단정하지 않습니다.",
+      "limitations": [
+        "공개 보도만으로 전체 소송기록과 증거를 재평가할 수 없습니다.",
+        "검증된 유사 판례가 없다는 사실은 유사 사건이나 적용 법리가 존재하지 않는다는 뜻이 아닙니다.",
+        "이 검토는 법률 자문이나 판결의 옳고 그름을 확정하는 의견이 아닙니다."
+      ]
+    },
+    "videoUseReview": {
+      "status": "complete",
+      "decision": "conditional",
+      "question": "이 사건을 영상 소재로 활용할 수 있는가",
+      "allowedUse": [
+        "검증된 기사와 판결·법령을 요약한 자체 서술",
+        "실제 화면과 혼동되지 않도록 고지한 비식별 AI 재구성",
+        "출처와 불확실성을 함께 표시한 사건 연표"
+      ],
+      "conditions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기",
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+      ],
+      "prohibitedUse": [
+        "권리 확인 없는 기사·방송·CCTV 원본 재사용",
+        "관계자의 얼굴·이름·직장·위치를 추가로 특정",
+        "수사·재판 결과 또는 정신건강과 행위의 인과를 확인 사실처럼 단정"
+      ],
+      "reasons": [
+        "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다."
+      ]
+    },
+    "scriptWritingReview": {
+      "status": "complete",
+      "decision": "approved-with-conditions",
+      "question": "대본 작성 시 무엇을 지키고 피해야 하는가",
+      "required": [
+        "사건 사실은 확인된 증거 범위 안에서만 서술하며 미확인·불일치 내용을 확정하지 않습니다.",
+        "발견·신고·입건·강제수사 등 실제로 확인된 사건 단계만 시간순으로 설명합니다."
+      ],
+      "avoid": [
+        "보도에 따르면"
+      ],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ]
+    },
+    "reviewCompletion": {
+      "caseDisposition": true,
+      "videoUse": true,
+      "scriptWriting": true,
+      "allComplete": true
+    }
+  },
+  "draftFinalized": false,
+  "draft": {
+    "schema": "newsroom-autonomous-script-draft-v5",
+    "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v14",
+    "generation": {
+      "schemaVersion": 17,
+      "provider": "codex-cli",
+      "model": "gpt-5.6-sol",
+      "reasoning": "medium",
+      "promptContractVersion": "newsroom-autonomous-narration-prompt-v14",
+      "criticPromptContractVersion": "newsroom-independent-narration-critic-prompt-v4",
+      "generatorPromptSha256": "0964b8bc638bf356ef4d76199e9a2b1ab42daf658cc35a62796719d8a392647f",
+      "criticPromptSha256": "5136d1deaed0b7059e42dae5c1acd8765f6ec8409e460701d1e9b4a8c6ed73ae",
+      "packageSha256": "008d12bdf9e8ec984e37037ebf0809a1eccdce31e8e046713209153e9d3415d4",
+      "initialOutputSha256": "370a9dffde0d0f099699679191e2f3553ab6ec9c8e3af121680a98104fbbb932",
+      "critiqueOutputSha256": "01e17bbe3628d5ad599b09ce67b6cec4aa38aea659519bf3de20437e0e251337",
+      "outputSha256": "dd769e9fadf0ae73c20b20eeae029045aa9a3e71f4c789fe0bd3fd0c637e75f3",
+      "currentAuthoritySha256": "dd769e9fadf0ae73c20b20eeae029045aa9a3e71f4c789fe0bd3fd0c637e75f3",
+      "userEdited": false,
+      "cliVersion": "codex-cli 0.146.0",
+      "callCount": 2,
+      "generatorAttemptCount": 1,
+      "criticAttemptCount": 1,
+      "retryCount": 0,
+      "decision": "accept",
+      "revisionApplied": true,
+      "timing": {
+        "initial": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 449,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 65.357,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        },
+        "final": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 503,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 73.217,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": true,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        }
+      },
+      "generatedAt": "2026-09-04T19:58:57.350Z"
+    },
+    "critique": {
+      "schema": "newsroom-independent-narration-critique-v3",
+      "decision": "accept",
+      "rejectionReasons": [],
+      "initialVerdict": "revise",
+      "findings": [
+        {
+          "category": "factual-grounding",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "초안과 수정본의 행동, 물건, 장소, 시점은 모두 currentCase의 제보 내용으로 뒷받침되며 투척자를 사실로 단정하지 않았습니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "legal-qualification",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "이웃 아파트 주민이라는 부분은 사장이 날아온 방향을 근거로 한 추정으로 한정했고, 나머지 핵심 내용도 사장의 말·제보·주장임을 인접하게 밝혔습니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "observer-summary",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "첫머리가 출처나 보도 과정의 요약문이 아니라 옥상에서 발견된 구체적인 물체와 행동으로 곧바로 진입합니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "repetition",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "초안 결말이 앞서 제시한 경고문 이후의 지속을 다시 요약했습니다. 수정본은 이 반복을 없애고 영수증 부재라는 미해결 단서로 닫았습니다.",
+          "exactQuote": "6월의 경고문 뒤에도 투척은 이어졌다는 게 업소 사장의 제보지만"
+        },
+        {
+          "category": "progression",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "초안 마지막 문장은 이미 설명한 경고 이후의 투척을 되풀이해 정보 증가가 멈췄습니다. 수정본은 발견, 자진 청소, 재발, 추정, 관리사무소 요청, 경고 실패, 투척 형태, 공간 확장, 특정 단서 부재 순으로 전진합니다.",
+          "exactQuote": "6월의 경고문 뒤에도 투척은 이어졌다는 게 업소 사장의 제보지만"
+        },
+        {
+          "category": "interest",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "조개가 든 쓰레기가 숙박업소 옥상에 떨어졌다는 구체적인 침범이 첫 5초의 긴장을 만들고, 경고문도 막지 못한 재발과 투척 방식·범위의 확장이 흐름을 견인합니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "modality-fit",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "action-scene에 맞게 첫 문장부터 숙박업소 옥상이라는 공간과 쓰레기의 낙하·발견이 제시되고, 이후 낙하 범위가 인접 공간으로 확장됩니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "coda",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "상투적인 감정 포장 없이 투척자를 가리킬 영수증이 없다는 사건 고유의 미해결 상태에서 직접 끝납니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "advisory-duration",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "초안 계산값 65.357초는 기준보다 짧았습니다. 수정본은 동일한 관찰 속도 기준 계산값이 약 74.1초로 70~80초 범위에 들어옵니다.",
+          "exactQuote": ""
+        }
+      ],
+      "revisionApplied": true,
+      "revisionSummary": "경고 이후에도 투척됐다는 결론의 중복을 제거하고, 확인된 투척 형태와 피해 공간을 단계적으로 분리해 약 74.1초로 확장했습니다. 모든 내용은 업소 사장의 제보·추정 범위로 유지했습니다.",
+      "initialAuthoritySha256": "370a9dffde0d0f099699679191e2f3553ab6ec9c8e3af121680a98104fbbb932",
+      "finalAuthoritySha256": "dd769e9fadf0ae73c20b20eeae029045aa9a3e71f4c789fe0bd3fd0c637e75f3",
+      "timing": {
+        "initial": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 449,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 65.357,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        },
+        "final": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 503,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 73.217,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": true,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        }
+      }
+    },
+    "authority": {
+      "schema": "newsroom-autonomous-narration-v3",
+      "modality": "action-scene",
+      "narration": "부산의 한 숙박업소 사장이 2026년 5월 옥상을 관리하러 올라가 보니, 조개가 가득 든 쓰레기가 떨어져 있었다고 합니다. 사장은 화가 났지만, 치워 두면 누군가 관리하는 줄 알고 더는 버리지 않으리라 생각해 직접 치웠다고 말했습니다. 그러나 기대와 달리 쓰레기는 다시 옥상으로 날아들었다는 게 사장의 제보입니다. 날아온 방향을 근거로 이웃 아파트 주민의 소행일 것으로 본 사장은 곧장 그 아파트 관리사무소를 찾아갔습니다. 그는 관리사무소에 엘리베이터에 ‘쓰레기 무단 투기 금지’ 경고문을 붙여 달라고 요청했습니다. 이에 따라 6월부터 경고문이 붙었지만, 그 뒤에도 투척은 멈추지 않았다는 게 사장의 설명입니다. 옥상에 떨어진 것은 조개뿐이 아니었습니다. 매운 떡볶이 프랜차이즈 포장 용기, 치킨 상자, 햄버거 포장지까지 종류도 다양했다고 합니다. 어떤 비닐봉지에는 배달 음식 용기와 음료수, 물티슈 등 각종 쓰레기가 한꺼번에 담겨 있었다고 사장은 주장했습니다. 다른 경우에는 봉지에 넣는 대신 배달 용기째 그대로 옥상으로 던져졌다고 했습니다. 그렇게 투척된 쓰레기는 숙박업소 옥상뿐 아니라 건물과 건물 사이 바닥, 뒤 건물 옥상까지 번져 난장판이 됐다고 했습니다. 하지만 버려진 포장과 봉지에서는 누가 버렸는지 특정할 영수증이 단 한 장도 발견되지 않았다고 사장은 말했습니다.",
+      "sentences": [
+        {
+          "text": "부산의 한 숙박업소 사장이 2026년 5월 옥상을 관리하러 올라가 보니, 조개가 가득 든 쓰레기가 떨어져 있었다고 합니다.",
+          "claimRefs": [
+            "claim-06a78480a4d9",
+            "claim-4666c4620c39"
+          ]
+        },
+        {
+          "text": "사장은 화가 났지만, 치워 두면 누군가 관리하는 줄 알고 더는 버리지 않으리라 생각해 직접 치웠다고 말했습니다.",
+          "claimRefs": [
+            "claim-318045dc5ab2"
+          ]
+        },
+        {
+          "text": "그러나 기대와 달리 쓰레기는 다시 옥상으로 날아들었다는 게 사장의 제보입니다.",
+          "claimRefs": [
+            "claim-f7674d21a770"
+          ]
+        },
+        {
+          "text": "날아온 방향을 근거로 이웃 아파트 주민의 소행일 것으로 본 사장은 곧장 그 아파트 관리사무소를 찾아갔습니다.",
+          "claimRefs": [
+            "claim-738561515f12"
+          ]
+        },
+        {
+          "text": "그는 관리사무소에 엘리베이터에 ‘쓰레기 무단 투기 금지’ 경고문을 붙여 달라고 요청했습니다.",
+          "claimRefs": [
+            "claim-738561515f12"
+          ]
+        },
+        {
+          "text": "이에 따라 6월부터 경고문이 붙었지만, 그 뒤에도 투척은 멈추지 않았다는 게 사장의 설명입니다.",
+          "claimRefs": [
+            "claim-7e0df8f9078b",
+            "claim-67a62b10657d"
+          ]
+        },
+        {
+          "text": "옥상에 떨어진 것은 조개뿐이 아니었습니다.",
+          "claimRefs": [
+            "claim-4666c4620c39",
+            "claim-4f3e21f7497e"
+          ]
+        },
+        {
+          "text": "매운 떡볶이 프랜차이즈 포장 용기, 치킨 상자, 햄버거 포장지까지 종류도 다양했다고 합니다.",
+          "claimRefs": [
+            "claim-4f3e21f7497e"
+          ]
+        },
+        {
+          "text": "어떤 비닐봉지에는 배달 음식 용기와 음료수, 물티슈 등 각종 쓰레기가 한꺼번에 담겨 있었다고 사장은 주장했습니다.",
+          "claimRefs": [
+            "claim-2c2fc411d470"
+          ]
+        },
+        {
+          "text": "다른 경우에는 봉지에 넣는 대신 배달 용기째 그대로 옥상으로 던져졌다고 했습니다.",
+          "claimRefs": [
+            "claim-2c2fc411d470"
+          ]
+        },
+        {
+          "text": "그렇게 투척된 쓰레기는 숙박업소 옥상뿐 아니라 건물과 건물 사이 바닥, 뒤 건물 옥상까지 번져 난장판이 됐다고 했습니다.",
+          "claimRefs": [
+            "claim-85462bc8d32c"
+          ]
+        },
+        {
+          "text": "하지만 버려진 포장과 봉지에서는 누가 버렸는지 특정할 영수증이 단 한 장도 발견되지 않았다고 사장은 말했습니다.",
+          "claimRefs": [
+            "claim-12329c6cb727"
+          ]
+        }
+      ],
+      "evidenceLineage": {
+        "schema": "newsroom-autonomous-narration-evidence-lineage-v3",
+        "packageSha256": "008d12bdf9e8ec984e37037ebf0809a1eccdce31e8e046713209153e9d3415d4",
+        "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+        "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+        "usedClaimRefs": [
+          "claim-06a78480a4d9",
+          "claim-4666c4620c39",
+          "claim-318045dc5ab2",
+          "claim-f7674d21a770",
+          "claim-738561515f12",
+          "claim-7e0df8f9078b",
+          "claim-67a62b10657d",
+          "claim-4f3e21f7497e",
+          "claim-2c2fc411d470",
+          "claim-85462bc8d32c",
+          "claim-12329c6cb727"
+        ]
+      }
+    },
+    "editorialDirection": "화면 없이도 부산 숙박업소 옥상과 이웃 아파트 사이의 낙하 경로, 처음 발견된 쓰레기, 관리사무소 경고문, 그 뒤에도 이어졌다는 제보와 옥상·건물 사이 바닥에 쌓인 포장 용기의 공간 변화를 따라갈 수 있게 한다. 2026년 5월부터 쓰레기가 날아들기 시작했다는 제보, 6월 경고문 부착, 엽기떡볶이·치킨·햄버거 포장지와 비닐봉지 투척, 영수증이 발견되지 않았다는 내용은 각각 제보 범위로 구분한다. 투척자를 특정하거나 고의·횟수·기간·피해액·청소비·신고·보상을 확인된 사실처럼 만들지 않는다. 한 번의 불쾌한 발견이 반복되는 낙하와 경고 이후에도 계속된다는 주장으로 커지는 생활 공간의 경계 붕괴는 central axis 후보지만 훅과 정보 공개 순서, 리듬과 beat는 모델이 자율 결정한다. 쓰레기가 날아온 방향을 근거로 한 이웃 주민 추정은 제보자의 판단일 뿐 사실 확정이 아니며, 아파트 전체 주민이나 특정 세대를 암시하지 않는다. 이 사건은 JTBC 사건반장을 통한 단일 제보라 조건부 귀속을 지키고 실제 영상·사진·출처가 확인된 범위만 사용한다. 법적·행정적 결과가 확인되지 않은 상태에서 결말을 처벌이나 해결로 만들지 않으며, 새로 확인된 결과가 있다면 affective coda보다 앞에 놓는다. final movement는 반복되는 생활 경계 침범이라는 확인 범위에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 구성하고 제보자의 내면·분노를 대변하지 않는다. 행동 처방·보편적 바람·감정·질문·훈계·상투어를 미리 쓰지 말고 전체 narration을 통합 편집한다. 2026년 8월 5일 보도와 확인된 절대 날짜를 사용하고 상대 날짜를 피한다. 70~80초는 locked owner narration으로만 판정한다.",
+    "policyBinding": {
+      "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+      "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+      "packageSha256": "008d12bdf9e8ec984e37037ebf0809a1eccdce31e8e046713209153e9d3415d4"
+    },
+    "history": [
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T12:52:09.656Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v4",
+          "generation": {
+            "schemaVersion": 7,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v4",
+            "promptSha256": "593bf01bb907b725036fede001de5fceec5d281b0ef1fcb6aaf430b04df8e6ff",
+            "packageSha256": "6d5e470e3914d97d3fd9e46c6a39f22df67bf2f2375f536f16cf0e867b45d81e",
+            "outputSha256": "5674edb2b292e6f1c8aba9a80321135f9c35b34dfb41fcc55acc67a0a35a2ef4",
+            "currentAuthoritySha256": "5674edb2b292e6f1c8aba9a80321135f9c35b34dfb41fcc55acc67a0a35a2ef4",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T11:34:17.300Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "부산의 한 숙박업소 옥상. 지난 5월, 관리를 위해 올라간 사장 앞에 조개가 가득 담긴 쓰레기가 놓여 있었습니다. 사장은 화가 났지만 직접 치웠다고 합니다. 사람이 관리하는 곳인 줄 알면 다시는 버리지 않겠지, 그렇게 생각했다고 전했습니다. 하지만 옥상에는 또 쓰레기가 날아들었습니다. 매운 떡볶이 포장 용기, 치킨 상자, 햄버거 포장지. 음료수와 물티슈까지 비닐봉지 하나에 몰아넣어 던지거나, 배달 용기째 날아오기도 했습니다. 제보자는 날아온 방향 등을 보고 이웃 아파트 주민의 소행으로 추정했습니다. 관리사무소를 찾아가 요청했고, 지난 6월부터 엘리베이터에는 쓰레기 무단 투기를 금지하는 경고문도 붙었습니다. 여기서 멈췄을까요. 경고문 뒤에도 투척은 계속됐습니다. 쓰레기는 숙박업소 옥상을 넘어 건물 사이 바닥과 뒷건물 옥상까지 흩어졌다고 합니다. 그런데 버려진 것들 가운데 누가 던졌는지 특정할 영수증은 단 한 장도 발견되지 않았습니다. 치우면 멈출 거라는 기대도, 글로 남긴 경고도 닿지 않은 자리. 누군가에게는 버리는 순간 끝난 일이, 다른 누군가에게는 매번 다시 마주해야 하는 일상이 됩니다.",
+            "beats": [
+              {
+                "role": "첫 발견과 작은 기대",
+                "summary": "옥상에서 조개 쓰레기를 발견한 사장이 직접 치우며 투기가 멈추기를 기대했던 출발점을 제시한다.",
+                "claimRefs": [
+                  "claim-06a78480a4d9",
+                  "claim-4666c4620c39",
+                  "claim-318045dc5ab2"
+                ]
+              },
+              {
+                "role": "반복과 물리적 확산",
+                "summary": "다양한 배달 쓰레기의 투척 방식과 종류를 압축해 반복 피해의 강도를 높인다.",
+                "claimRefs": [
+                  "claim-f7674d21a770",
+                  "claim-4f3e21f7497e",
+                  "claim-2c2fc411d470"
+                ]
+              },
+              {
+                "role": "경고 이후의 재상승",
+                "summary": "제보자의 추정과 관리사무소 경고문 부착을 거쳐서도 투기가 멈추지 않았다는 전환을 만든다.",
+                "claimRefs": [
+                  "claim-738561515f12",
+                  "claim-7e0df8f9078b",
+                  "claim-67a62b10657d"
+                ]
+              },
+              {
+                "role": "넓어진 피해와 남지 않은 단서",
+                "summary": "쓰레기가 주변 공간까지 번졌지만 투척자를 특정할 영수증은 없었다는 사실로 반복 피해의 막막함을 선명하게 한다.",
+                "claimRefs": [
+                  "claim-85462bc8d32c",
+                  "claim-12329c6cb727"
+                ]
+              },
+              {
+                "role": "엇갈린 일상의 잔향",
+                "summary": "버리는 사람에게는 한순간이지만 치우는 사람에게는 반복되는 일상이 된다는 사건 기반의 정서적 대비로 닫는다.",
+                "claimRefs": [
+                  "claim-318045dc5ab2",
+                  "claim-f7674d21a770",
+                  "claim-67a62b10657d",
+                  "claim-85462bc8d32c"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "‘치우면 멈출 것’이라는 기대와 공식 경고까지 무력화한 반복 투기가 한 사람의 관리 공간을 주변 건물까지 잠식해 가는 과정.",
+              "rationale": "최초 발견, 자발적 청소, 경고문 부착이라는 두 차례의 제동이 모두 실패하는 흐름을 중심축으로 삼았다. 음식 브랜드와 투척 방식은 반복성과 현장감을 높이는 수준으로 압축하고, 이웃 주민의 소행은 제보자의 추정으로 한정했다. 영수증이 없었다는 사실은 범인을 단정하는 반전이 아니라 반복 피해가 남긴 막막함을 강화하는 후반 단서로 배치했다. 마지막은 투척의 짧은 순간과 누군가가 계속 치워야 하는 일상의 시간차를 겹쳐, 청자가 자신의 생활 공간에 대입할 수 있는 잔향으로 마무리했다."
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "6d5e470e3914d97d3fd9e46c6a39f22df67bf2f2375f536f16cf0e867b45d81e",
+              "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+              "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+              "usedClaimRefs": [
+                "claim-06a78480a4d9",
+                "claim-4666c4620c39",
+                "claim-318045dc5ab2",
+                "claim-f7674d21a770",
+                "claim-4f3e21f7497e",
+                "claim-2c2fc411d470",
+                "claim-738561515f12",
+                "claim-7e0df8f9078b",
+                "claim-67a62b10657d",
+                "claim-85462bc8d32c",
+                "claim-12329c6cb727"
+              ]
+            }
+          },
+          "editorialDirection": null,
+          "policyBinding": {
+            "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+            "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+            "packageSha256": "6d5e470e3914d97d3fd9e46c6a39f22df67bf2f2375f536f16cf0e867b45d81e"
+          }
+        },
+        "draftSnapshotSha256": "5f489ac5edbf8e5f4062e4d90cb660cefe68cbd22790adacc7023de6ac1b8f8b"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T15:00:53.959Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v4",
+          "generation": {
+            "schemaVersion": 7,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v4",
+            "promptSha256": "9c9d0d9c58b539eefeb33de635b34bdb5dffef6c2daa24da4191d01018fbb3e2",
+            "packageSha256": "289906d7124b4da55b0b5b57b15b951f19ea22d0591e35e4bc3c8b80393f20fe",
+            "outputSha256": "174b0a28c296308c6b9ef58adde9d1e4fc494b3493f239c50c7c9c1ebfc9db52",
+            "currentAuthoritySha256": "174b0a28c296308c6b9ef58adde9d1e4fc494b3493f239c50c7c9c1ebfc9db52",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T12:52:09.592Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "부산의 한 숙박업소 옥상. 2026년 5월, 관리하러 올라간 사장이 조개가 가득 든 쓰레기를 발견했습니다. 치워두면 누군가 관리하는 곳임을 알고 더는 버리지 않으리라 생각해 직접 치웠다고 합니다. 그러나 옥상 위로 쓰레기는 다시 날아들었습니다. 매운 떡볶이 용기, 치킨 상자, 햄버거 포장지. 비닐봉지 하나에 배달 용기와 음료수, 물티슈를 함께 담아 던진 흔적도 있었고, 어떤 것은 용기째 떨어졌습니다. 제보자는 날아온 방향을 근거로 이웃 아파트 주민의 소행이라고 추정했습니다. 관리사무소에 요청해 6월부터 엘리베이터에 무단 투기 금지 경고문도 붙였습니다. 여기서 멈췄다면 한 번의 무질서로 남았을 겁니다. 하지만 제보에 따르면 경고문 뒤에도 투척은 이어졌고, 쓰레기는 옥상을 넘어 건물 사이 바닥과 뒷건물 옥상까지 흩어졌습니다. 정작 버린 사람을 특정할 영수증은 한 장도 발견되지 않았습니다. 이 내용은 8월 5일 JTBC 사건반장에 소개된 숙박업소 사장의 제보로, 투척자는 확인되지 않았습니다. 치워도 되돌아오고, 경고해도 넘어오는 물건들 앞에서 생활 공간의 경계는 점점 희미해집니다. 익명의 쓰레기가 남긴 것은 어지러운 바닥만이 아니라, 내 공간이 온전히 지켜진다는 평범한 안도감의 흔들림입니다.",
+            "beats": [
+              {
+                "role": "최초 침범",
+                "summary": "옥상 관리 중 조개 쓰레기를 발견하고 직접 치운 순간으로 생활 공간 침범의 시작을 제시한다.",
+                "claimRefs": [
+                  "claim-06a78480a4d9",
+                  "claim-4666c4620c39",
+                  "claim-318045dc5ab2"
+                ]
+              },
+              {
+                "role": "반복과 물리적 확장",
+                "summary": "다양한 배달 포장 쓰레기의 투척 방식과 종류를 짧게 겹쳐 반복성이 체감되게 한다.",
+                "claimRefs": [
+                  "claim-f7674d21a770",
+                  "claim-4f3e21f7497e",
+                  "claim-2c2fc411d470"
+                ]
+              },
+              {
+                "role": "경고라는 경계선",
+                "summary": "이웃 아파트 주민이라는 제보자의 추정을 확정하지 않은 채 관리사무소 요청과 경고문 부착을 배치한다.",
+                "claimRefs": [
+                  "claim-738561515f12",
+                  "claim-7e0df8f9078b"
+                ]
+              },
+              {
+                "role": "경고 이후의 재침범",
+                "summary": "경고 뒤에도 멈추지 않은 투척과 옥상에서 건물 사이·뒷건물 옥상으로 번진 공간 변화를 긴장의 정점으로 삼는다.",
+                "claimRefs": [
+                  "claim-67a62b10657d",
+                  "claim-85462bc8d32c"
+                ]
+              },
+              {
+                "role": "남은 익명성과 잔향",
+                "summary": "영수증이 없어 투척자를 특정하지 못했다는 한계를 밝힌 뒤, 반복되는 생활 경계 침범이 흔드는 보편적 안도감으로 닫는다.",
+                "claimRefs": [
+                  "claim-12329c6cb727",
+                  "claim-35f26d197286"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "치우고 경고해도 다시 넘어온 쓰레기가 옥상에서 건물 사이로 번지며 생활 공간의 경계를 무너뜨리는 반복적 침범",
+              "rationale": "투척자를 확정할 수 없는 단일 제보이므로 범인 추적이나 처벌 대신, 처음 발견해 치운 행동과 6월 경고문, 그 이후에도 이어졌다는 제보를 시간축으로 묶었다. 떡볶이·치킨·햄버거 포장과 비닐봉지는 반복을 들려주는 감각적 단서로 압축하고, 옥상에서 건물 사이 바닥과 뒷건물 옥상으로 넓어진 범위를 긴장 상승에 활용했다. 영수증 부재는 해결되지 않은 익명성을 선명하게 하되 반전으로 과장하지 않았으며, 마지막은 침범당한 생활 공간에서 자연스럽게 생기는 안도감의 흔들림에 청취자가 자신을 겹쳐 볼 수 있도록 구성했다."
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "289906d7124b4da55b0b5b57b15b951f19ea22d0591e35e4bc3c8b80393f20fe",
+              "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+              "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+              "usedClaimRefs": [
+                "claim-06a78480a4d9",
+                "claim-4666c4620c39",
+                "claim-318045dc5ab2",
+                "claim-f7674d21a770",
+                "claim-4f3e21f7497e",
+                "claim-2c2fc411d470",
+                "claim-738561515f12",
+                "claim-7e0df8f9078b",
+                "claim-67a62b10657d",
+                "claim-85462bc8d32c",
+                "claim-12329c6cb727",
+                "claim-35f26d197286"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이도 부산 숙박업소 옥상과 이웃 아파트 사이의 낙하 경로, 처음 발견된 쓰레기, 관리사무소 경고문, 그 뒤에도 이어졌다는 제보와 옥상·건물 사이 바닥에 쌓인 포장 용기의 공간 변화를 따라갈 수 있게 한다. 2026년 5월부터 쓰레기가 날아들기 시작했다는 제보, 6월 경고문 부착, 엽기떡볶이·치킨·햄버거 포장지와 비닐봉지 투척, 영수증이 발견되지 않았다는 내용은 각각 제보 범위로 구분한다. 투척자를 특정하거나 고의·횟수·기간·피해액·청소비·신고·보상을 확인된 사실처럼 만들지 않는다. 한 번의 불쾌한 발견이 반복되는 낙하와 경고 이후에도 계속된다는 주장으로 커지는 생활 공간의 경계 붕괴는 central axis 후보지만 훅과 정보 공개 순서, 리듬과 beat는 모델이 자율 결정한다. 쓰레기가 날아온 방향을 근거로 한 이웃 주민 추정은 제보자의 판단일 뿐 사실 확정이 아니며, 아파트 전체 주민이나 특정 세대를 암시하지 않는다. 이 사건은 JTBC 사건반장을 통한 단일 제보라 조건부 귀속을 지키고 실제 영상·사진·출처가 확인된 범위만 사용한다. 법적·행정적 결과가 확인되지 않은 상태에서 결말을 처벌이나 해결로 만들지 않으며, 새로 확인된 결과가 있다면 affective coda보다 앞에 놓는다. final movement는 반복되는 생활 경계 침범이라는 확인 범위에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 구성하고 제보자의 내면·분노를 대변하지 않는다. 행동 처방·보편적 바람·감정·질문·훈계·상투어를 미리 쓰지 말고 전체 narration을 통합 편집한다. 2026년 8월 5일 보도와 확인된 절대 날짜를 사용하고 상대 날짜를 피한다. 70~80초는 locked owner narration으로만 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+            "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+            "packageSha256": "289906d7124b4da55b0b5b57b15b951f19ea22d0591e35e4bc3c8b80393f20fe"
+          }
+        },
+        "draftSnapshotSha256": "181761ff3d7103fbdc8110395cf377e61b86d231d31fbc937724eef51ef887d7"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T15:33:58.763Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v7",
+          "generation": {
+            "schemaVersion": 10,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v7",
+            "promptSha256": "516ee51fb1e4d861867d1c263a5ee4ed03007f094d4d81c0e0e4abd0913b8206",
+            "packageSha256": "afe2fc0d614546f72c5c8df4576d7d3b3d62e1f8b17d7d0a5139b0fcd000ecaf",
+            "outputSha256": "aac761f4549797021db24fcfcb163d463ed48d01833fdf3db7c9c136e606311a",
+            "currentAuthoritySha256": "aac761f4549797021db24fcfcb163d463ed48d01833fdf3db7c9c136e606311a",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T15:00:53.888Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "부산의 한 숙박업소 사장이 건물 옥상을 관리하러 올라갔다가, 조개가 가득 든 쓰레기를 발견했습니다. 제보자에 따르면 2026년 5월부터 정체를 알 수 없는 쓰레기가 옥상으로 날아들기 시작했습니다. 처음에는 치우면 관리하는 곳인 줄 알고 더는 버리지 않으리라 생각해 직접 치웠다고 합니다. 하지만 투척은 계속됐습니다. 제보자는 날아온 방향을 근거로 이웃 아파트 주민의 소행일 것으로 보고 관리사무소에 엘리베이터 경고문 부착을 요청했습니다. 하지만 6월부터 엘리베이터에 경고문이 붙은 뒤에도 투척은 멈추지 않았다는 게 제보자의 설명입니다. 매운 떡볶이 포장 용기와 치킨 상자, 햄버거 포장지가 날아왔고, 음료수와 물티슈까지 비닐봉지에 한꺼번에 담기거나 배달 용기째 던져졌다고 합니다. 쓰레기는 옥상에서 건물 사이 바닥, 뒷건물 옥상까지 번졌습니다. 그런데 버린 사람을 특정할 영수증은 한 장도 나오지 않았다고 합니다. 치우면 끝날 듯했던 한 번의 발견은 경고문으로도 막히지 않는 반복이 됐습니다. 내가 관리하는 생활 공간에 남의 흔적이 계속 떨어지는 일은, 익숙한 경계가 허물어질 때의 막막함을 남깁니다.",
+            "beats": [
+              {
+                "role": "관리 공간을 깨뜨린 첫 낙하",
+                "summary": "숙박업소 사장이 관리하던 옥상에서 조개 쓰레기를 발견하고, 2026년 5월부터 쓰레기가 날아들었다는 제보로 시작한다.",
+                "claimRefs": [
+                  "claim-4666c4620c39",
+                  "claim-06a78480a4d9"
+                ]
+              },
+              {
+                "role": "선의로 치운 뒤 이어진 반복",
+                "summary": "직접 치우면 투척이 끝날 것이라는 기대와 달리 쓰레기가 계속됐다는 흐름을 압축한다.",
+                "claimRefs": [
+                  "claim-318045dc5ab2",
+                  "claim-f7674d21a770"
+                ]
+              },
+              {
+                "role": "경고문이라는 경계선",
+                "summary": "제보자가 낙하 방향을 근거로 이웃 주민을 추정해 관리사무소에 경고문을 요청한 과정을 밝힌다.",
+                "claimRefs": [
+                  "claim-738561515f12"
+                ]
+              },
+              {
+                "role": "경고 이후의 회수와 확산",
+                "summary": "6월 경고문 부착 뒤에도 투척이 멈추지 않았고 여러 배달 포장 쓰레기가 더 넓은 공간에 쌓였다는 제보로 핵심 질문을 회수한다.",
+                "claimRefs": [
+                  "claim-7e0df8f9078b",
+                  "claim-67a62b10657d",
+                  "claim-4f3e21f7497e",
+                  "claim-2c2fc411d470",
+                  "claim-85462bc8d32c"
+                ]
+              },
+              {
+                "role": "남은 흔적과 사라진 단서",
+                "summary": "투척자를 특정할 영수증이 없었다는 한계를 밝히고, 반복되는 생활 경계 침범의 막막함으로 닫는다.",
+                "claimRefs": [
+                  "claim-12329c6cb727",
+                  "claim-318045dc5ab2",
+                  "claim-67a62b10657d",
+                  "claim-85462bc8d32c"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "관리하던 숙박업소 옥상에 시작된 한 번의 쓰레기 낙하가 자발적 청소와 관리사무소 경고를 지나서도 멈추지 않고 주변 공간으로 번진 ‘생활 경계의 반복적 붕괴’를 단일 축으로 삼았습니다.",
+              "rationale": "오디오만으로 낙하와 확산을 따라가도록 옥상, 이웃 아파트, 엘리베이터 경고문, 건물 사이 바닥과 뒷건물 옥상을 순서대로 연결했습니다. 첫 발견 뒤 직접 치운 행동은 짧게 두고, 경고 뒤에도 계속됐다는 사실을 중심 회수 지점으로 배치했습니다. 포장 쓰레기의 종류는 현장 규모를 들려주는 수준으로 묶었으며, 단일 제보인 점을 고려해 투척자의 신원과 고의성은 확정하지 않았습니다. 마지막에는 해결되지 않은 반복이 생활 공간의 경계를 무너뜨릴 때 생기는 보편적 막막함으로 이동했습니다.",
+              "hook": {
+                "choice": "관리 업무 중 발견한 조개 쓰레기와 2026년 5월부터 이어진 낙하를 맞부딪치는 공간 침범형 도입",
+                "rationale": "숙박업소 사장이 관리해야 할 자기 건물 옥상이라는 평범한 상황과, 그곳에 조개 쓰레기를 비롯한 정체불명의 쓰레기가 날아들었다는 구체적 침범을 첫 두 문장에 붙였습니다. 이후 경고문이 실제로 반복을 멈췄는지는 남겨 두어 전개 과정에서 회수했습니다.",
+                "openingText": "부산의 한 숙박업소 사장이 건물 옥상을 관리하러 올라갔다가, 조개가 가득 든 쓰레기를 발견했습니다. 제보자에 따르면 2026년 5월부터 정체를 알 수 없는 쓰레기가 옥상으로 날아들기 시작했습니다.",
+                "expectationText": "부산의 한 숙박업소 사장이 건물 옥상을 관리하러 올라갔다가",
+                "expectationClaimRefs": [
+                  "claim-4666c4620c39"
+                ],
+                "breachText": "조개가 가득 든 쓰레기를 발견했습니다. 제보자에 따르면 2026년 5월부터 정체를 알 수 없는 쓰레기가 옥상으로 날아들기 시작했습니다.",
+                "breachClaimRefs": [
+                  "claim-4666c4620c39",
+                  "claim-06a78480a4d9"
+                ],
+                "withheldQuestion": "관리사무소가 경고문을 붙인 뒤에는 쓰레기 투척이 멈췄는가?",
+                "payoff": "하지만 6월부터 엘리베이터에 경고문이 붙은 뒤에도 투척은 멈추지 않았다는 게 제보자의 설명입니다.",
+                "payoffClaimRefs": [
+                  "claim-7e0df8f9078b",
+                  "claim-67a62b10657d"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "afe2fc0d614546f72c5c8df4576d7d3b3d62e1f8b17d7d0a5139b0fcd000ecaf",
+              "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+              "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+              "usedClaimRefs": [
+                "claim-4666c4620c39",
+                "claim-06a78480a4d9",
+                "claim-318045dc5ab2",
+                "claim-f7674d21a770",
+                "claim-738561515f12",
+                "claim-7e0df8f9078b",
+                "claim-67a62b10657d",
+                "claim-4f3e21f7497e",
+                "claim-2c2fc411d470",
+                "claim-85462bc8d32c",
+                "claim-12329c6cb727"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이도 부산 숙박업소 옥상과 이웃 아파트 사이의 낙하 경로, 처음 발견된 쓰레기, 관리사무소 경고문, 그 뒤에도 이어졌다는 제보와 옥상·건물 사이 바닥에 쌓인 포장 용기의 공간 변화를 따라갈 수 있게 한다. 2026년 5월부터 쓰레기가 날아들기 시작했다는 제보, 6월 경고문 부착, 엽기떡볶이·치킨·햄버거 포장지와 비닐봉지 투척, 영수증이 발견되지 않았다는 내용은 각각 제보 범위로 구분한다. 투척자를 특정하거나 고의·횟수·기간·피해액·청소비·신고·보상을 확인된 사실처럼 만들지 않는다. 한 번의 불쾌한 발견이 반복되는 낙하와 경고 이후에도 계속된다는 주장으로 커지는 생활 공간의 경계 붕괴는 central axis 후보지만 훅과 정보 공개 순서, 리듬과 beat는 모델이 자율 결정한다. 쓰레기가 날아온 방향을 근거로 한 이웃 주민 추정은 제보자의 판단일 뿐 사실 확정이 아니며, 아파트 전체 주민이나 특정 세대를 암시하지 않는다. 이 사건은 JTBC 사건반장을 통한 단일 제보라 조건부 귀속을 지키고 실제 영상·사진·출처가 확인된 범위만 사용한다. 법적·행정적 결과가 확인되지 않은 상태에서 결말을 처벌이나 해결로 만들지 않으며, 새로 확인된 결과가 있다면 affective coda보다 앞에 놓는다. final movement는 반복되는 생활 경계 침범이라는 확인 범위에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 구성하고 제보자의 내면·분노를 대변하지 않는다. 행동 처방·보편적 바람·감정·질문·훈계·상투어를 미리 쓰지 말고 전체 narration을 통합 편집한다. 2026년 8월 5일 보도와 확인된 절대 날짜를 사용하고 상대 날짜를 피한다. 70~80초는 locked owner narration으로만 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+            "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+            "packageSha256": "afe2fc0d614546f72c5c8df4576d7d3b3d62e1f8b17d7d0a5139b0fcd000ecaf"
+          }
+        },
+        "draftSnapshotSha256": "ce59bbbf8420920417e1f188d33da03b1cf66b7034beae94980f2b30b0666b7f"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T16:37:47.230Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v8",
+          "generation": {
+            "schemaVersion": 11,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v8",
+            "promptSha256": "ee44afc2366ca1487a13735252b40d3d66f4db222e7b4eaae6cff8d19e70d532",
+            "packageSha256": "253f02c17fe3de8e510cfa8a507ed8fe7a06b779114e3cbd475acf74e03cb2fb",
+            "outputSha256": "d0644a33a172e88fd9debb12a092734f3cd6684656b8715caec15a8a61e5d7a7",
+            "currentAuthoritySha256": "d0644a33a172e88fd9debb12a092734f3cd6684656b8715caec15a8a61e5d7a7",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T15:33:58.700Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "숙박업소 사장이 관리하던 옥상으로, 누군가 배달 음식 용기와 음료수, 물티슈를 비닐봉지에 한꺼번에 담아 던졌다고 합니다. 제보자는 쓰레기가 옥상뿐 아니라 건물 사이 바닥과 뒷건물 옥상까지 번졌다고 말했습니다. 부산에서 숙박업소를 운영하는 제보자가 처음 이상을 확인한 건 2026년 5월입니다. 옥상을 관리하러 올라갔다가 조개가 가득 든 쓰레기를 발견했습니다. 그는 치워두면 관리하는 곳인 줄 알고 더는 버리지 않으리라 생각해 직접 치웠다고 전했습니다. 하지만 쓰레기는 또 날아들었습니다. 매운 떡볶이 프랜차이즈 용기, 치킨 상자, 햄버거 포장지가 이어졌고, 봉지째 던진 쓰레기도, 배달 용기째 던진 쓰레기도 있었다고 합니다. 날아온 방향을 근거로 이웃 아파트 주민의 소행이라고 본 제보자는 관리사무소에 경고문을 요청했습니다. 그러나 제보자는 6월부터 엘리베이터에 경고문이 붙은 뒤에도 투척이 멈추지 않았다고 말했습니다. 쓰레기가 놓인 곳은 옥상에서 건물 사이 바닥과 뒷건물 옥상까지 이어졌지만, 버린 이를 특정할 영수증은 한 장도 나오지 않았다고 합니다. 한 번 치운 옥상에 다시 떨어지는 떡볶이 용기와 치킨 상자는, 남이 남긴 것이 내 공간으로 넘어올 때의 막막함을 오래 남깁니다.",
+            "beats": [
+              {
+                "role": "관리 공간을 침범한 낙하",
+                "summary": "숙박업소 사장이 관리하는 옥상에 봉지와 배달 용기째 쓰레기가 투척됐고, 여러 건물 공간으로 번졌다는 제보를 즉시 제시한다.",
+                "claimRefs": [
+                  "claim-06a78480a4d9",
+                  "claim-4666c4620c39",
+                  "claim-2c2fc411d470",
+                  "claim-85462bc8d32c"
+                ]
+              },
+              {
+                "role": "첫 발견과 자발적 수습",
+                "summary": "2026년 5월 조개 쓰레기를 발견한 뒤, 관리 중인 곳임을 알면 멈출 것이라는 생각으로 직접 치운 과정을 따라간다.",
+                "claimRefs": [
+                  "claim-06a78480a4d9",
+                  "claim-4666c4620c39",
+                  "claim-318045dc5ab2"
+                ]
+              },
+              {
+                "role": "종류와 방식의 누적",
+                "summary": "투척이 계속되면서 떡볶이 용기, 치킨 상자, 햄버거 포장지와 봉지째 던진 쓰레기가 쌓였다는 제보로 강도를 높인다.",
+                "claimRefs": [
+                  "claim-f7674d21a770",
+                  "claim-4f3e21f7497e",
+                  "claim-2c2fc411d470"
+                ]
+              },
+              {
+                "role": "경고를 통한 제지 시도",
+                "summary": "제보자가 낙하 방향을 근거로 이웃 아파트 주민을 의심하고 관리사무소에 경고문 부착을 요청한 경위를 밝힌다.",
+                "claimRefs": [
+                  "claim-738561515f12",
+                  "claim-7e0df8f9078b"
+                ]
+              },
+              {
+                "role": "경고 뒤에도 멈추지 않은 투척",
+                "summary": "6월부터 경고문이 붙었지만 투척이 계속됐다는 사실로 오프닝에서 남긴 결과 질문을 회수한다.",
+                "claimRefs": [
+                  "claim-7e0df8f9078b",
+                  "claim-67a62b10657d"
+                ]
+              },
+              {
+                "role": "넓어진 흔적과 특정되지 않은 투척자",
+                "summary": "쓰레기가 여러 공간에 이어졌지만 영수증은 발견되지 않았다는 미해결 상태를 거쳐, 치운 자리에 다시 포장 용기가 떨어지는 막막함으로 닫는다.",
+                "claimRefs": [
+                  "claim-318045dc5ab2",
+                  "claim-f7674d21a770",
+                  "claim-4f3e21f7497e",
+                  "claim-85462bc8d32c",
+                  "claim-12329c6cb727"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "관리하는 옥상을 한 번 치우면 멈출 것이라는 기대가 경고문 이후까지 계속된 배달 쓰레기 투척으로 거듭 깨지는 과정",
+              "rationale": "투척자를 확정하거나 횟수와 피해액을 부풀리지 않고, 조개 쓰레기의 첫 발견에서 직접 수습, 다양한 포장 용기의 재등장, 관리사무소 경고, 경고 이후의 지속으로 긴장을 높였다. 낙하 방향과 쓰레기가 퍼진 공간을 연결해 화면 없이도 이동 경로가 들리게 했으며, 법률·행정 결과가 없는 만큼 특정되지 않은 투척자보다 반복해서 침범당한 관리 공간의 감각을 마지막에 남겼다.",
+              "hook": {
+                "choice": "관리해야 할 옥상과 봉지째 날아든 배달 쓰레기를 정면으로 맞붙인 공간 침범형 도입",
+                "rationale": "숙박업소 사장이 관리하던 옥상이라는 평범한 관리 상황을 먼저 세우고, 음식 용기와 음료수, 물티슈를 봉지째 던진 구체적 행동 및 세 공간으로 번진 결과를 바로 붙여 사건의 부조리와 규모를 첫 두 문장만으로 이해하게 한다.",
+                "openingText": "숙박업소 사장이 관리하던 옥상으로, 누군가 배달 음식 용기와 음료수, 물티슈를 비닐봉지에 한꺼번에 담아 던졌다고 합니다. 제보자는 쓰레기가 옥상뿐 아니라 건물 사이 바닥과 뒷건물 옥상까지 번졌다고 말했습니다.",
+                "impactText": "제보자는 쓰레기가 옥상뿐 아니라 건물 사이 바닥과 뒷건물 옥상까지 번졌다고 말했습니다.",
+                "impactClaimRefs": [
+                  "claim-85462bc8d32c"
+                ],
+                "impactMechanism": "쓰레기가 한 지점에 그치지 않고 옥상, 건물 사이 바닥, 뒷건물 옥상까지 이어졌다는 검증된 공간 범위가 반복 투척의 생활 피해를 과장 없이 즉시 가시화한다.",
+                "expectationText": "숙박업소 사장이 관리하던 옥상",
+                "expectationClaimRefs": [
+                  "claim-06a78480a4d9",
+                  "claim-4666c4620c39"
+                ],
+                "breachText": "누군가 배달 음식 용기와 음료수, 물티슈를 비닐봉지에 한꺼번에 담아 던졌다고 합니다",
+                "breachClaimRefs": [
+                  "claim-2c2fc411d470"
+                ],
+                "withheldQuestion": "관리사무소가 경고문을 붙인 뒤에는 쓰레기 투척이 멈췄는가?",
+                "retentionGap": "오프닝에서 투척과 피해 범위는 공개하되, 직접 청소하고 관리사무소에 경고를 요청한 뒤 실제로 상황이 달라졌는지는 남겨 둔다. 이후 시간순으로 첫 발견과 수습, 경고문 부착을 거쳐 경고 이후에도 멈추지 않았다는 결과를 회수한다.",
+                "payoff": "그러나 제보자는 6월부터 엘리베이터에 경고문이 붙은 뒤에도 투척이 멈추지 않았다고 말했습니다.",
+                "payoffClaimRefs": [
+                  "claim-7e0df8f9078b",
+                  "claim-67a62b10657d"
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "치운 옥상 위로 남의 식사 흔적이 다시 넘어오는 막막함",
+                "codaRationale": "직접 치운 뒤에도 투척이 이어졌고 떡볶이 용기와 치킨 상자가 실제 쓰레기 종류로 확인된 점을 결합했다. 피해자의 내면을 단정하지 않으면서 청자가 자신의 공간에 남의 음식 쓰레기가 넘어오는 상황을 구체적으로 투영하도록 해, 다른 사건에 그대로 붙일 수 없는 여운을 만든다.",
+                "closingText": "한 번 치운 옥상에 다시 떨어지는 떡볶이 용기와 치킨 상자는, 남이 남긴 것이 내 공간으로 넘어올 때의 막막함을 오래 남깁니다.",
+                "claimRefs": [
+                  "claim-318045dc5ab2",
+                  "claim-f7674d21a770",
+                  "claim-4f3e21f7497e"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "253f02c17fe3de8e510cfa8a507ed8fe7a06b779114e3cbd475acf74e03cb2fb",
+              "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+              "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+              "usedClaimRefs": [
+                "claim-06a78480a4d9",
+                "claim-4666c4620c39",
+                "claim-2c2fc411d470",
+                "claim-85462bc8d32c",
+                "claim-318045dc5ab2",
+                "claim-f7674d21a770",
+                "claim-4f3e21f7497e",
+                "claim-738561515f12",
+                "claim-7e0df8f9078b",
+                "claim-67a62b10657d",
+                "claim-12329c6cb727"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이도 부산 숙박업소 옥상과 이웃 아파트 사이의 낙하 경로, 처음 발견된 쓰레기, 관리사무소 경고문, 그 뒤에도 이어졌다는 제보와 옥상·건물 사이 바닥에 쌓인 포장 용기의 공간 변화를 따라갈 수 있게 한다. 2026년 5월부터 쓰레기가 날아들기 시작했다는 제보, 6월 경고문 부착, 엽기떡볶이·치킨·햄버거 포장지와 비닐봉지 투척, 영수증이 발견되지 않았다는 내용은 각각 제보 범위로 구분한다. 투척자를 특정하거나 고의·횟수·기간·피해액·청소비·신고·보상을 확인된 사실처럼 만들지 않는다. 한 번의 불쾌한 발견이 반복되는 낙하와 경고 이후에도 계속된다는 주장으로 커지는 생활 공간의 경계 붕괴는 central axis 후보지만 훅과 정보 공개 순서, 리듬과 beat는 모델이 자율 결정한다. 쓰레기가 날아온 방향을 근거로 한 이웃 주민 추정은 제보자의 판단일 뿐 사실 확정이 아니며, 아파트 전체 주민이나 특정 세대를 암시하지 않는다. 이 사건은 JTBC 사건반장을 통한 단일 제보라 조건부 귀속을 지키고 실제 영상·사진·출처가 확인된 범위만 사용한다. 법적·행정적 결과가 확인되지 않은 상태에서 결말을 처벌이나 해결로 만들지 않으며, 새로 확인된 결과가 있다면 affective coda보다 앞에 놓는다. final movement는 반복되는 생활 경계 침범이라는 확인 범위에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 구성하고 제보자의 내면·분노를 대변하지 않는다. 행동 처방·보편적 바람·감정·질문·훈계·상투어를 미리 쓰지 말고 전체 narration을 통합 편집한다. 2026년 8월 5일 보도와 확인된 절대 날짜를 사용하고 상대 날짜를 피한다. 70~80초는 locked owner narration으로만 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+            "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+            "packageSha256": "253f02c17fe3de8e510cfa8a507ed8fe7a06b779114e3cbd475acf74e03cb2fb"
+          }
+        },
+        "draftSnapshotSha256": "6ddfe396566f9bfc6ae8bf335e4be7f7bd6b9c29ef05f277825ce73f1240beda"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T17:02:11.947Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v9",
+          "generation": {
+            "schemaVersion": 12,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v9",
+            "promptSha256": "f9f311ba6e771c53a8ad3d10a376bcf9c1c8fe62a098e001fca5fe406e8dd5e6",
+            "packageSha256": "28b32e1d2d3402816106707079e7bd4ef6c16191e00c1a7fd210f9db749631d5",
+            "outputSha256": "b840b120d25f2b13123a5c688cdcdf1fabfe816e324771d2eb8c459433f85f34",
+            "currentAuthoritySha256": "b840b120d25f2b13123a5c688cdcdf1fabfe816e324771d2eb8c459433f85f34",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T16:37:47.148Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "부산의 한 숙박업소 사장은 사람이 관리하는 옥상인 줄 알면 멈출 거라 여기며, 처음 날아든 조개 쓰레기를 직접 치웠다고 전했습니다. 하지만 이웃 아파트 쪽에서 날아온 것으로 추정한 배달 쓰레기는 경고문이 붙은 뒤에도 옥상과 건물 사이로 계속 떨어졌다는 게 사장의 설명입니다. 시작은 2026년 5월이었습니다. 옥상을 관리하러 올라갔다가 조개가 가득 담긴 쓰레기를 발견했고, 이를 치운 뒤에도 투척은 이어졌습니다. 비닐봉지 안에 배달 용기와 음료수, 물티슈를 한꺼번에 넣어 던지거나, 용기째 그대로 날아들기도 했다고 합니다. 사장은 쓰레기가 날아온 방향을 근거로 이웃 아파트 주민의 소행일 것으로 보고 관리사무소를 찾아갔습니다. 요청에 따라 6월부터 엘리베이터에 쓰레기 무단 투기 금지 경고문이 붙었습니다. 그래도 멈추지 않았습니다. 매운 떡볶이 포장 용기와 치킨 상자, 햄버거 포장지가 옥상에 쌓였고, 건물 사이 바닥과 뒤 건물 옥상까지 흩어졌다는 게 사장의 주장입니다. 쓰레기 안에는 버린 사람을 특정할 영수증이 단 한 장도 없었다고 합니다. 치워두면 멈출 거라던 기대 위로 다시 포장 용기가 날아든 장면은, 내 수고가 누군가에게는 아무 신호도 되지 못할 때의 씁쓸함을 남깁니다.",
+            "beats": [
+              {
+                "role": "먼저 치우면 멈출 것이라는 기대와 경고 뒤에도 계속된 투척을 맞부딪치는 도입",
+                "summary": "숙박업소 사장이 조개 쓰레기를 직접 치웠지만 배달 쓰레기가 옥상과 건물 사이로 계속 떨어졌다는 제보의 핵심 충돌을 즉시 제시한다.",
+                "claimRefs": [
+                  "claim-318045dc5ab2",
+                  "claim-4666c4620c39",
+                  "claim-738561515f12",
+                  "claim-67a62b10657d",
+                  "claim-85462bc8d32c"
+                ]
+              },
+              {
+                "role": "최초 발견에서 반복 투척으로 이어지는 시간 복원",
+                "summary": "2026년 5월 조개 쓰레기 발견 이후 봉지와 배달 용기 투척이 계속됐다는 순서를 따라간다.",
+                "claimRefs": [
+                  "claim-06a78480a4d9",
+                  "claim-4666c4620c39",
+                  "claim-f7674d21a770",
+                  "claim-2c2fc411d470"
+                ]
+              },
+              {
+                "role": "개인의 청소가 공동주택 경고로 확대되는 대응",
+                "summary": "사장이 낙하 방향을 근거로 이웃 아파트 주민을 추정하고 관리사무소에 경고문 부착을 요청한 과정을 회수한다.",
+                "claimRefs": [
+                  "claim-738561515f12",
+                  "claim-7e0df8f9078b"
+                ]
+              },
+              {
+                "role": "경고가 효력을 내지 못한 뒤 넓어진 오염 범위",
+                "summary": "경고문 이후에도 떡볶이·치킨·햄버거 포장 쓰레기가 옥상에서 건물 사이와 뒤 건물 옥상까지 번졌다는 주장을 구체화한다.",
+                "claimRefs": [
+                  "claim-67a62b10657d",
+                  "claim-4f3e21f7497e",
+                  "claim-85462bc8d32c"
+                ]
+              },
+              {
+                "role": "특정되지 않은 투척자와 무력해진 수고의 여운",
+                "summary": "영수증이 발견되지 않아 투척자를 특정할 단서가 없었다는 제보 뒤, 먼저 치운 수고가 반복 투척을 막지 못한 씁쓸함으로 닫는다.",
+                "claimRefs": [
+                  "claim-12329c6cb727",
+                  "claim-318045dc5ab2",
+                  "claim-67a62b10657d",
+                  "claim-2c2fc411d470"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "누군가 관리하는 숙박업소 옥상을 이웃의 배달 쓰레기 투척 지점처럼 침범하고, 자발적 청소와 공식 경고조차 반복을 막지 못했다는 생활 공간 침범을 단일 축으로 선택했다.",
+              "rationale": "투척자의 신원이나 동기를 추정하지 않고, 조개 쓰레기 발견에서 직접 청소, 관리사무소 경고, 경고 이후의 반복과 오염 범위 확대로 이어지는 검증된 변화만 남겼다. 음식 포장 종류는 반복성과 구체적인 장면을 드러내는 수준으로 압축했으며, 법적·행정적 결과는 입력에 없어 만들지 않았다. 짧은 ‘그래도 멈추지 않았습니다’로 대응과 실패 사이의 리듬을 꺾고, 먼저 치운 수고가 아무 신호가 되지 못한 씁쓸함으로 청자의 자기 투영을 이끌었다.",
+              "hook": {
+                "choice": "자발적으로 치운 관리자의 기대와 경고 이후에도 계속된 배달 쓰레기 낙하를 인접한 두 문장으로 충돌시키는 행동 중심 도입",
+                "rationale": "숙박업소 사장이 관리 공간을 직접 치웠다는 평범한 책임 행동과, 이웃 아파트 쪽에서 날아왔다고 추정되는 쓰레기가 공식 경고 뒤에도 옥상과 건물 사이로 떨어졌다는 침범을 즉시 붙였다. 단일 제보라는 한계는 문장 끝의 출처 표현으로 유지했다.",
+                "openingText": "부산의 한 숙박업소 사장은 사람이 관리하는 옥상인 줄 알면 멈출 거라 여기며, 처음 날아든 조개 쓰레기를 직접 치웠다고 전했습니다. 하지만 이웃 아파트 쪽에서 날아온 것으로 추정한 배달 쓰레기는 경고문이 붙은 뒤에도 옥상과 건물 사이로 계속 떨어졌다는 게 사장의 설명입니다.",
+                "impactText": "배달 쓰레기는 경고문이 붙은 뒤에도 옥상과 건물 사이로 계속 떨어졌다는 게 사장의 설명입니다.",
+                "impactClaimRefs": [
+                  "claim-67a62b10657d",
+                  "claim-85462bc8d32c"
+                ],
+                "impactMechanism": "금지 경고가 붙은 뒤에도 쓰레기가 옥상뿐 아니라 두 건물 사이로 계속 떨어졌다는 구체적 공간과 대응 실패가 반복 침범의 규모를 즉시 보여준다.",
+                "expectationText": "사람이 관리하는 옥상인 줄 알면 멈출 거라 여기며, 처음 날아든 조개 쓰레기를 직접 치웠다고 전했습니다.",
+                "expectationClaimRefs": [
+                  "claim-318045dc5ab2",
+                  "claim-4666c4620c39"
+                ],
+                "breachText": "하지만 이웃 아파트 쪽에서 날아온 것으로 추정한 배달 쓰레기는 경고문이 붙은 뒤에도 옥상과 건물 사이로 계속 떨어졌다는 게 사장의 설명입니다.",
+                "breachClaimRefs": [
+                  "claim-738561515f12",
+                  "claim-67a62b10657d",
+                  "claim-85462bc8d32c"
+                ],
+                "withheldQuestion": "첫 청소로 투척이 멈추지 않자 사장은 어떤 대응까지 했는가?",
+                "retentionGap": "도입은 직접 청소와 경고 이후에도 계속된 결과를 먼저 보여주되, 개인의 청소가 어떻게 관리사무소를 통한 공식 경고로 확대됐는지는 뒤에 남겨 사건의 대응 과정을 따라가게 한다.",
+                "payoff": "사장은 쓰레기가 날아온 방향을 근거로 이웃 아파트 주민의 소행일 것으로 보고 관리사무소를 찾아갔습니다. 요청에 따라 6월부터 엘리베이터에 쓰레기 무단 투기 금지 경고문이 붙었습니다.",
+                "payoffClaimRefs": [
+                  "claim-738561515f12",
+                  "claim-7e0df8f9078b"
+                ]
+              },
+              "sceneCraft": {
+                "approach": "옥상에서 발견한 조개 쓰레기, 날아드는 봉지와 용기, 이웃 아파트 엘리베이터의 경고문, 옥상에서 건물 사이와 뒤 건물 옥상으로 넓어진 쓰레기의 위치를 시간 순서에 결합했다.",
+                "continuityRationale": "청자는 5월의 최초 발견 뒤 투척물이 어떤 형태로 날아왔는지, 대응 장소가 관리사무소와 엘리베이터로 어떻게 옮겨가는지, 이후 쓰레기가 어느 공간까지 퍼졌는지를 화면 없이 연속적으로 따라갈 수 있다.",
+                "sceneSpans": [
+                  {
+                    "text": "처음 날아든 조개 쓰레기를 직접 치웠다고 전했습니다.",
+                    "claimRefs": [
+                      "claim-4666c4620c39",
+                      "claim-318045dc5ab2"
+                    ],
+                    "continuityRole": "opening 안에서 옥상의 최초 발견물과 사장의 다음 행동인 직접 청소를 연결한다."
+                  },
+                  {
+                    "text": "비닐봉지 안에 배달 용기와 음료수, 물티슈를 한꺼번에 넣어 던지거나, 용기째 그대로 날아들기도 했다고 합니다.",
+                    "claimRefs": [
+                      "claim-2c2fc411d470"
+                    ],
+                    "continuityRole": "반복 투척물의 형태와 낙하 행동을 구체화해 최초 발견 이후의 변화를 들려준다."
+                  },
+                  {
+                    "text": "요청에 따라 6월부터 엘리베이터에 쓰레기 무단 투기 금지 경고문이 붙었습니다.",
+                    "claimRefs": [
+                      "claim-7e0df8f9078b"
+                    ],
+                    "continuityRole": "옥상에서 시작한 대응이 이웃 아파트 엘리베이터의 공식 경고로 이동했음을 시간과 장소로 잇는다."
+                  },
+                  {
+                    "text": "매운 떡볶이 포장 용기와 치킨 상자, 햄버거 포장지가 옥상에 쌓였고, 건물 사이 바닥과 뒤 건물 옥상까지 흩어졌다는 게 사장의 주장입니다.",
+                    "claimRefs": [
+                      "claim-4f3e21f7497e",
+                      "claim-85462bc8d32c"
+                    ],
+                    "continuityRole": "경고 이후에도 쓰레기의 종류와 오염 공간이 옥상 밖으로 넓어진 결과를 한 동선 안에 배치한다."
+                  }
+                ],
+                "attributionStrategy": "단일 제보의 한계를 지키기 위해 사장의 관찰·추정·주장을 행동과 공간 묘사 뒤에 짧게 붙였고, 이웃 아파트 주민의 소행은 사실이 아닌 사장의 방향 근거 추정으로 명시했다.",
+                "attributions": [
+                  {
+                    "text": "직접 치웠다고 전했습니다.",
+                    "claimRefs": [
+                      "claim-318045dc5ab2"
+                    ],
+                    "necessity": "직접 청소와 당시 기대가 숙박업소 사장의 단일 제보에 따른 내용임을 밝힌다."
+                  },
+                  {
+                    "text": "계속 떨어졌다는 게 사장의 설명입니다.",
+                    "claimRefs": [
+                      "claim-67a62b10657d",
+                      "claim-85462bc8d32c"
+                    ],
+                    "necessity": "경고 이후의 반복과 피해 공간이 단일 제보자의 설명임을 확정 사실과 구분한다."
+                  },
+                  {
+                    "text": "사장은 쓰레기가 날아온 방향을 근거로 이웃 아파트 주민의 소행일 것으로 보고",
+                    "claimRefs": [
+                      "claim-738561515f12"
+                    ],
+                    "necessity": "투척 주체가 확인된 것이 아니라 낙하 방향에 근거한 사장의 추정임을 보존한다."
+                  },
+                  {
+                    "text": "흩어졌다는 게 사장의 주장입니다.",
+                    "claimRefs": [
+                      "claim-85462bc8d32c"
+                    ],
+                    "necessity": "오염 범위에 관한 표현을 제보자의 주장 범위로 한정한다."
+                  },
+                  {
+                    "text": "없었다고 합니다.",
+                    "claimRefs": [
+                      "claim-12329c6cb727"
+                    ],
+                    "necessity": "영수증 부재 역시 독립적으로 확인된 결과가 아닌 입력의 단일 제보 범위임을 유지한다."
+                  }
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "먼저 치운 수고가 반복 투척을 막는 신호조차 되지 못한 데서 오는 구체적인 무력감과 씁쓸함",
+                "codaRationale": "사장이 ‘치워두면 관리하는 줄 알고 안 버리겠지’라고 생각해 직접 치웠지만 포장 용기 투척이 이어졌다는 사건 고유의 대비를 청자의 수고가 무시되는 감각으로 확장했다. 피해자의 내면을 새로 만들거나 해결책을 덧붙이지 않았다.",
+                "closingText": "치워두면 멈출 거라던 기대 위로 다시 포장 용기가 날아든 장면은, 내 수고가 누군가에게는 아무 신호도 되지 못할 때의 씁쓸함을 남깁니다.",
+                "claimRefs": [
+                  "claim-318045dc5ab2",
+                  "claim-67a62b10657d",
+                  "claim-2c2fc411d470"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "28b32e1d2d3402816106707079e7bd4ef6c16191e00c1a7fd210f9db749631d5",
+              "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+              "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+              "usedClaimRefs": [
+                "claim-318045dc5ab2",
+                "claim-4666c4620c39",
+                "claim-738561515f12",
+                "claim-67a62b10657d",
+                "claim-85462bc8d32c",
+                "claim-06a78480a4d9",
+                "claim-f7674d21a770",
+                "claim-2c2fc411d470",
+                "claim-7e0df8f9078b",
+                "claim-4f3e21f7497e",
+                "claim-12329c6cb727"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이도 부산 숙박업소 옥상과 이웃 아파트 사이의 낙하 경로, 처음 발견된 쓰레기, 관리사무소 경고문, 그 뒤에도 이어졌다는 제보와 옥상·건물 사이 바닥에 쌓인 포장 용기의 공간 변화를 따라갈 수 있게 한다. 2026년 5월부터 쓰레기가 날아들기 시작했다는 제보, 6월 경고문 부착, 엽기떡볶이·치킨·햄버거 포장지와 비닐봉지 투척, 영수증이 발견되지 않았다는 내용은 각각 제보 범위로 구분한다. 투척자를 특정하거나 고의·횟수·기간·피해액·청소비·신고·보상을 확인된 사실처럼 만들지 않는다. 한 번의 불쾌한 발견이 반복되는 낙하와 경고 이후에도 계속된다는 주장으로 커지는 생활 공간의 경계 붕괴는 central axis 후보지만 훅과 정보 공개 순서, 리듬과 beat는 모델이 자율 결정한다. 쓰레기가 날아온 방향을 근거로 한 이웃 주민 추정은 제보자의 판단일 뿐 사실 확정이 아니며, 아파트 전체 주민이나 특정 세대를 암시하지 않는다. 이 사건은 JTBC 사건반장을 통한 단일 제보라 조건부 귀속을 지키고 실제 영상·사진·출처가 확인된 범위만 사용한다. 법적·행정적 결과가 확인되지 않은 상태에서 결말을 처벌이나 해결로 만들지 않으며, 새로 확인된 결과가 있다면 affective coda보다 앞에 놓는다. final movement는 반복되는 생활 경계 침범이라는 확인 범위에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 구성하고 제보자의 내면·분노를 대변하지 않는다. 행동 처방·보편적 바람·감정·질문·훈계·상투어를 미리 쓰지 말고 전체 narration을 통합 편집한다. 2026년 8월 5일 보도와 확인된 절대 날짜를 사용하고 상대 날짜를 피한다. 70~80초는 locked owner narration으로만 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+            "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+            "packageSha256": "28b32e1d2d3402816106707079e7bd4ef6c16191e00c1a7fd210f9db749631d5"
+          }
+        },
+        "draftSnapshotSha256": "55a20495ce6dfcf9d216d1dc9e2295213c8c9054f84ad0c0f63eb36ca29bbc5a"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T19:07:20.973Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v10",
+          "generation": {
+            "schemaVersion": 13,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v10",
+            "promptSha256": "0eed8f9097ab0bff4c8606eee06f279bb7a967cafa14b5065309e41feb70a221",
+            "packageSha256": "f04580b31beea414b1048fe6cae9298349449b85c4641ec7ef5859435366ede3",
+            "outputSha256": "d9ea81cf61c61165d52570aac4ad2e23540eb9f34bddb6f3f6289107a4e204c0",
+            "currentAuthoritySha256": "d9ea81cf61c61165d52570aac4ad2e23540eb9f34bddb6f3f6289107a4e204c0",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T17:02:11.871Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "업주에 따르면, 부산에서 숙박업소를 운영하며 관리하러 올라간 옥상에는 조개가 가득 든 쓰레기가 놓여 있었습니다. 업주가 직접 치우고 엘리베이터에 무단 투기 경고문을 붙여 달라고 요청했지만, 이웃 아파트 쪽에서 날아온 것으로 보는 배달 쓰레기는 멈추지 않았다고 업주는 말했습니다. 시작은 2026년 5월이었습니다. 처음 발견한 쓰레기를 치우면 관리하는 사람이 있다는 걸 알고 더는 버리지 않으리라 생각했지만, 쓰레기는 다시 날아들었습니다. 업주는 날아온 방향 등을 근거로 이웃 아파트 주민의 소행이라고 보고 관리사무소를 찾아갔고, 6월부터 엘리베이터에 경고문이 붙었습니다. 그래도 달라지지 않았습니다. 매운 떡볶이 포장 용기와 치킨 상자, 햄버거 포장지가 이어졌고, 배달 용기와 음료수, 물티슈를 한꺼번에 담은 비닐봉지나 용기 자체가 던져지기도 했다고 업주는 밝혔습니다. 쓰레기가 내려앉은 곳도 옥상에 그치지 않았습니다. 건물과 건물 사이 바닥을 지나 뒷건물 옥상까지 포장 쓰레기가 흩어졌다고 업주는 말했습니다. 그러나 버린 사람을 특정할 영수증은 한 장도 발견하지 못했습니다. 남의 한 끼를 담았던 포장지가 내 지붕의 골칫거리가 되고, 치운 자리로 또 날아들 수 있다는 막막함은 쉽게 걷히지 않습니다.",
+            "beats": [
+              {
+                "role": "관리 공간을 침범한 첫 발견과 반복의 충돌",
+                "summary": "숙박업소 업주가 관리하던 옥상에서 조개 쓰레기를 발견하고 직접 치웠지만, 이웃 아파트 쪽에서 날아온 것으로 추정하는 배달 쓰레기가 계속됐다는 핵심 충돌을 먼저 제시한다.",
+                "claimRefs": [
+                  "claim-06a78480a4d9",
+                  "claim-4666c4620c39",
+                  "claim-318045dc5ab2",
+                  "claim-f7674d21a770",
+                  "claim-738561515f12"
+                ]
+              },
+              {
+                "role": "치우면 끝날 것이라는 판단의 실패",
+                "summary": "2026년 5월 첫 발견과 자진 청소 뒤에도 투척이 반복된 시간 순서를 복원한다.",
+                "claimRefs": [
+                  "claim-06a78480a4d9",
+                  "claim-318045dc5ab2",
+                  "claim-f7674d21a770"
+                ]
+              },
+              {
+                "role": "경고문 이후에도 이어진 낙하",
+                "summary": "업주가 관리사무소에 요청해 6월부터 경고문이 붙었지만 쓰레기가 멈추지 않은 과정을 짧은 전환으로 강조한다.",
+                "claimRefs": [
+                  "claim-738561515f12",
+                  "claim-7e0df8f9078b",
+                  "claim-67a62b10657d"
+                ]
+              },
+              {
+                "role": "포장물과 낙하 범위의 확장",
+                "summary": "떡볶이 용기, 치킨 상자, 햄버거 포장지와 봉지째 던져진 쓰레기를 열거하고, 피해 공간이 건물 사이 바닥과 뒷건물 옥상까지 번졌다는 제보로 규모를 드러낸다.",
+                "claimRefs": [
+                  "claim-4f3e21f7497e",
+                  "claim-2c2fc411d470",
+                  "claim-85462bc8d32c"
+                ]
+              },
+              {
+                "role": "반복은 남고 투척자는 남지 않은 결말",
+                "summary": "특정 가능한 영수증이 없었다는 미해결 상태를 밝힌 뒤, 남의 식사 포장물이 자신의 지붕으로 다시 넘어올 수 있다는 사건 고유의 막막함으로 닫는다.",
+                "claimRefs": [
+                  "claim-f7674d21a770",
+                  "claim-67a62b10657d",
+                  "claim-4f3e21f7497e",
+                  "claim-12329c6cb727"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "관리하는 사람이 있는 숙박업소 옥상으로 배달 음식 쓰레기가 반복해서 넘어오고, 청소와 경고문도 이를 막지 못한 생활 공간 침범을 단일 축으로 삼았다.",
+              "rationale": "첫 조개 쓰레기 발견에서 직접 청소, 관리사무소 요청, 6월 경고문, 이후 더 다양한 포장물과 넓어진 낙하 공간으로 이어지는 순서를 유지했다. 투척 횟수나 특정 세대처럼 확인되지 않은 내용은 배제하고, 법률·행정 결과가 없는 사건이므로 해결을 만들지 않았다. 짧은 ‘그래도 달라지지 않았습니다’를 경첩으로 삼아 경고 전후의 반복을 강조하고, 마지막에는 음식 포장지가 타인의 지붕으로 넘어오는 사건 고유의 막막함을 남겼다.",
+              "hook": {
+                "choice": "관리하러 올라간 옥상에서 마주친 음식물 쓰레기와 청소·경고에도 멈추지 않은 투척을 맞붙인 현장형 도입",
+                "rationale": "숙박업소 업주가 관리해야 하는 옥상이라는 평범한 업무 공간을 먼저 제시한 뒤, 조개 쓰레기 발견과 반복되는 배달 쓰레기 투척을 바로 충돌시킨다. 이웃 아파트 주민이라는 부분은 업주의 방향 판단에 따른 추정임을 opening 안에서 한정했다.",
+                "openingText": "업주에 따르면, 부산에서 숙박업소를 운영하며 관리하러 올라간 옥상에는 조개가 가득 든 쓰레기가 놓여 있었습니다. 업주가 직접 치우고 엘리베이터에 무단 투기 경고문을 붙여 달라고 요청했지만, 이웃 아파트 쪽에서 날아온 것으로 보는 배달 쓰레기는 멈추지 않았다고 업주는 말했습니다.",
+                "impactText": "업주가 직접 치우고 엘리베이터에 무단 투기 경고문을 붙여 달라고 요청했지만, 이웃 아파트 쪽에서 날아온 것으로 보는 배달 쓰레기는 멈추지 않았다고 업주는 말했습니다.",
+                "impactClaimRefs": [
+                  "claim-318045dc5ab2",
+                  "claim-f7674d21a770",
+                  "claim-738561515f12",
+                  "claim-67a62b10657d"
+                ],
+                "impactMechanism": "직접 청소하고 공식적인 경고까지 요청했는데도 투척이 계속됐다는 반복의 구조가, 과장 없이 침범의 지속성과 대응의 무력함을 즉시 보여준다.",
+                "expectationText": "부산에서 숙박업소를 운영하며 관리하러 올라간 옥상",
+                "expectationClaimRefs": [
+                  "claim-06a78480a4d9",
+                  "claim-4666c4620c39"
+                ],
+                "breachText": "조개가 가득 든 쓰레기가 놓여 있었습니다. 업주가 직접 치우고 엘리베이터에 무단 투기 경고문을 붙여 달라고 요청했지만, 이웃 아파트 쪽에서 날아온 것으로 보는 배달 쓰레기는 멈추지 않았다고 업주는 말했습니다.",
+                "breachClaimRefs": [
+                  "claim-4666c4620c39",
+                  "claim-318045dc5ab2",
+                  "claim-f7674d21a770",
+                  "claim-738561515f12",
+                  "claim-67a62b10657d"
+                ],
+                "withheldQuestion": "경고문 이후 쓰레기 투척은 어떻게 확대됐고 어디까지 영향을 미쳤는가?",
+                "retentionGap": "opening은 청소와 경고에도 투척이 멈추지 않았다는 충돌까지 공개하되, 뒤이어 날아온 쓰레기의 구체적인 종류와 옥상 밖으로 넓어진 공간적 결과는 남겨 둔다.",
+                "payoff": "매운 떡볶이 포장 용기와 치킨 상자, 햄버거 포장지가 이어졌고, 배달 용기와 음료수, 물티슈를 한꺼번에 담은 비닐봉지나 용기 자체가 던져지기도 했다고 업주는 밝혔습니다. 쓰레기가 내려앉은 곳도 옥상에 그치지 않았습니다. 건물과 건물 사이 바닥을 지나 뒷건물 옥상까지 포장 쓰레기가 흩어졌다고 업주는 말했습니다.",
+                "payoffClaimRefs": [
+                  "claim-4f3e21f7497e",
+                  "claim-2c2fc411d470",
+                  "claim-85462bc8d32c"
+                ]
+              },
+              "sceneCraft": {
+                "approach": "옥상에서 첫 쓰레기를 발견한 동작을 출발점으로 삼고, 청소와 관리사무소 방문, 엘리베이터 경고문, 다시 날아든 포장물, 건물 사이 바닥과 뒷건물 옥상으로 이어지는 공간 이동을 따라간다.",
+                "continuityRationale": "‘올라간 옥상’에서 시작해 ‘날아온 방향’, ‘엘리베이터’, ‘옥상에서 건물 사이 바닥을 지나 뒷건물 옥상’으로 장소를 단계적으로 옮긴다. 쓰레기의 형태도 조개 쓰레기에서 상자와 포장지, 내용물이 든 비닐봉지와 용기 자체로 구체화해 화면 없이 낙하와 확산을 따라갈 수 있게 했다.",
+                "sceneSpans": [
+                  {
+                    "text": "업주에 따르면, 부산에서 숙박업소를 운영하며 관리하러 올라간 옥상에는 조개가 가득 든 쓰레기가 놓여 있었습니다.",
+                    "claimRefs": [
+                      "claim-06a78480a4d9",
+                      "claim-4666c4620c39"
+                    ],
+                    "continuityRole": "업주의 이동과 첫 발견을 한 동작으로 묶어 사건의 출발 장소와 물체를 고정한다."
+                  },
+                  {
+                    "text": "업주는 날아온 방향 등을 근거로 이웃 아파트 주민의 소행이라고 보고 관리사무소를 찾아갔고, 6월부터 엘리베이터에 경고문이 붙었습니다.",
+                    "claimRefs": [
+                      "claim-738561515f12",
+                      "claim-7e0df8f9078b"
+                    ],
+                    "continuityRole": "옥상에서 추정한 낙하 방향을 관리사무소 방문과 엘리베이터 경고문으로 연결해 대응의 공간적 흐름을 만든다."
+                  },
+                  {
+                    "text": "매운 떡볶이 포장 용기와 치킨 상자, 햄버거 포장지가 이어졌고, 배달 용기와 음료수, 물티슈를 한꺼번에 담은 비닐봉지나 용기 자체가 던져지기도 했다고 업주는 밝혔습니다.",
+                    "claimRefs": [
+                      "claim-4f3e21f7497e",
+                      "claim-2c2fc411d470"
+                    ],
+                    "continuityRole": "날아든 물체의 형태와 투척 방식을 구체화해 경고 이후에도 계속된 행동을 들려준다."
+                  },
+                  {
+                    "text": "건물과 건물 사이 바닥을 지나 뒷건물 옥상까지 포장 쓰레기가 흩어졌다고 업주는 말했습니다.",
+                    "claimRefs": [
+                      "claim-85462bc8d32c"
+                    ],
+                    "continuityRole": "낙하 결과를 원래 옥상에서 인접한 바닥과 다른 옥상까지 확장해 피해 범위를 공간적으로 마무리한다."
+                  }
+                ],
+                "attributionStrategy": "단일 제보 사건이라는 한계를 유지하기 위해 업주를 책임 주체로 명시하고, 이웃 주민 추정·반복 투척·쓰레기 종류·공간적 피해·영수증 부재를 업주의 관찰과 판단 범위 안에서 서술했다.",
+                "attributions": [
+                  {
+                    "text": "업주에 따르면",
+                    "claimRefs": [
+                      "claim-06a78480a4d9",
+                      "claim-4666c4620c39"
+                    ],
+                    "necessity": "첫 발견과 시작 시점이 단일 업주의 설명에 근거하므로 관찰 주체를 밝힌다."
+                  },
+                  {
+                    "text": "이웃 아파트 쪽에서 날아온 것으로 보는 배달 쓰레기는 멈추지 않았다고 업주는 말했습니다.",
+                    "claimRefs": [
+                      "claim-f7674d21a770",
+                      "claim-738561515f12",
+                      "claim-67a62b10657d"
+                    ],
+                    "necessity": "낙하 방향과 행위자 범위는 업주의 판단이며, 반복 여부도 단일 제보에 근거하므로 확정 사실처럼 단정하지 않는다."
+                  },
+                  {
+                    "text": "배달 용기와 음료수, 물티슈를 한꺼번에 담은 비닐봉지나 용기 자체가 던져지기도 했다고 업주는 밝혔습니다.",
+                    "claimRefs": [
+                      "claim-4f3e21f7497e",
+                      "claim-2c2fc411d470"
+                    ],
+                    "necessity": "쓰레기 종류와 투척 방식의 구체적 묘사가 업주의 제보 범위임을 문장 끝에서 한정한다."
+                  },
+                  {
+                    "text": "건물과 건물 사이 바닥을 지나 뒷건물 옥상까지 포장 쓰레기가 흩어졌다고 업주는 말했습니다.",
+                    "claimRefs": [
+                      "claim-85462bc8d32c"
+                    ],
+                    "necessity": "피해 공간의 범위가 단일 업주의 설명에 근거하므로 책임 주체를 명시한다."
+                  }
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "타인의 식사가 남긴 포장물이 반복해서 자신의 지붕으로 넘어오는 데서 생기는 막막함",
+                "codaRationale": "떡볶이·치킨·햄버거 포장물, 업주의 청소, 이후에도 이어진 투척이라는 검증 사실을 한 이미지로 결합했다. 피해자의 내면을 대신 말하거나 해결을 지시하지 않고, 청자가 자기 지붕에 같은 물체가 다시 날아드는 상황을 투영하도록 한다.",
+                "closingText": "남의 한 끼를 담았던 포장지가 내 지붕의 골칫거리가 되고, 치운 자리로 또 날아들 수 있다는 막막함은 쉽게 걷히지 않습니다.",
+                "claimRefs": [
+                  "claim-318045dc5ab2",
+                  "claim-f7674d21a770",
+                  "claim-67a62b10657d",
+                  "claim-4f3e21f7497e"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "f04580b31beea414b1048fe6cae9298349449b85c4641ec7ef5859435366ede3",
+              "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+              "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+              "usedClaimRefs": [
+                "claim-06a78480a4d9",
+                "claim-4666c4620c39",
+                "claim-318045dc5ab2",
+                "claim-f7674d21a770",
+                "claim-738561515f12",
+                "claim-7e0df8f9078b",
+                "claim-67a62b10657d",
+                "claim-4f3e21f7497e",
+                "claim-2c2fc411d470",
+                "claim-85462bc8d32c",
+                "claim-12329c6cb727"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이도 부산 숙박업소 옥상과 이웃 아파트 사이의 낙하 경로, 처음 발견된 쓰레기, 관리사무소 경고문, 그 뒤에도 이어졌다는 제보와 옥상·건물 사이 바닥에 쌓인 포장 용기의 공간 변화를 따라갈 수 있게 한다. 2026년 5월부터 쓰레기가 날아들기 시작했다는 제보, 6월 경고문 부착, 엽기떡볶이·치킨·햄버거 포장지와 비닐봉지 투척, 영수증이 발견되지 않았다는 내용은 각각 제보 범위로 구분한다. 투척자를 특정하거나 고의·횟수·기간·피해액·청소비·신고·보상을 확인된 사실처럼 만들지 않는다. 한 번의 불쾌한 발견이 반복되는 낙하와 경고 이후에도 계속된다는 주장으로 커지는 생활 공간의 경계 붕괴는 central axis 후보지만 훅과 정보 공개 순서, 리듬과 beat는 모델이 자율 결정한다. 쓰레기가 날아온 방향을 근거로 한 이웃 주민 추정은 제보자의 판단일 뿐 사실 확정이 아니며, 아파트 전체 주민이나 특정 세대를 암시하지 않는다. 이 사건은 JTBC 사건반장을 통한 단일 제보라 조건부 귀속을 지키고 실제 영상·사진·출처가 확인된 범위만 사용한다. 법적·행정적 결과가 확인되지 않은 상태에서 결말을 처벌이나 해결로 만들지 않으며, 새로 확인된 결과가 있다면 affective coda보다 앞에 놓는다. final movement는 반복되는 생활 경계 침범이라는 확인 범위에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 구성하고 제보자의 내면·분노를 대변하지 않는다. 행동 처방·보편적 바람·감정·질문·훈계·상투어를 미리 쓰지 말고 전체 narration을 통합 편집한다. 2026년 8월 5일 보도와 확인된 절대 날짜를 사용하고 상대 날짜를 피한다. 70~80초는 locked owner narration으로만 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+            "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+            "packageSha256": "f04580b31beea414b1048fe6cae9298349449b85c4641ec7ef5859435366ede3"
+          }
+        },
+        "draftSnapshotSha256": "b49d927663b6af00c7f328a72a1625f8dd5f55600b6ccf132df028562c286065"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T19:58:57.552Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v4",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v13",
+          "generation": {
+            "schemaVersion": 16,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v13",
+            "criticPromptContractVersion": "newsroom-independent-narration-critic-prompt-v3",
+            "generatorPromptSha256": "eee73b050d488443cdcab41c8d894976da9021fad6aacc15adb81e4c3da66895",
+            "criticPromptSha256": "a148adce33223896381699e58b3f1525ef2944798aea4e350231f19fb50d8aae",
+            "packageSha256": "cddb9b1131aada55c062b00541e5158d91c84bc21fbabb7c737791f9c68fbc02",
+            "initialOutputSha256": "47afe93c6b2cedb9ed2683eb8f512dc576fe36c6b4d2361c3dc5800fd962e50c",
+            "critiqueOutputSha256": "40304d9b13961e64b7e096a847bfd17ae60bd8ba25bc881611c6d4ce7c4ba759",
+            "outputSha256": "cacb924279176713325c6f27e6ee77f834a3ef540c1098959c0ec47826717f22",
+            "currentAuthoritySha256": "cacb924279176713325c6f27e6ee77f834a3ef540c1098959c0ec47826717f22",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "callCount": 2,
+            "generatorAttemptCount": 1,
+            "criticAttemptCount": 1,
+            "retryCount": 0,
+            "revisionApplied": true,
+            "timing": {
+              "initial": {
+                "schema": "newsroom-owner-rate-advisory-estimate-v1",
+                "compactCharacters": 498,
+                "observedCompactKoreanCharactersPerSecond": 6.87,
+                "estimatedSeconds": 72.489,
+                "targetMinimumSeconds": 70,
+                "targetMaximumSeconds": 80,
+                "withinAdvisoryTarget": true,
+                "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+              },
+              "final": {
+                "schema": "newsroom-owner-rate-advisory-estimate-v1",
+                "compactCharacters": 460,
+                "observedCompactKoreanCharactersPerSecond": 6.87,
+                "estimatedSeconds": 66.958,
+                "targetMinimumSeconds": 70,
+                "targetMaximumSeconds": 80,
+                "withinAdvisoryTarget": false,
+                "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+              }
+            },
+            "generatedAt": "2026-09-04T19:07:20.864Z"
+          },
+          "critique": {
+            "schema": "newsroom-independent-narration-critique-v2",
+            "initialVerdict": "revise",
+            "findings": [
+              {
+                "category": "factual-grounding",
+                "initialStatus": "revise",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "쓰레기 종류가 다양했다는 근거는 있지만 종류가 계속 달라졌다는 시간적 변화는 확인되지 않았습니다. 경고문이 옥상의 관리 상태를 알렸다는 해석도 근거보다 나아갑니다. 최종본에서는 다양성만 서술하고 경고문의 실제 내용과 이후 투척 주장만 연결했습니다.",
+                "exactQuote": "버려진 종류도 계속 달라졌습니다."
+              },
+              {
+                "category": "legal-qualification",
+                "initialStatus": "pass",
+                "finalStatus": "pass",
+                "targetAuthority": "global",
+                "detail": "초안과 최종본 모두 투척 경위와 지속 여부를 숙박업소 사장의 단일 제보로 한정하고, 이웃 아파트 주민의 소행이라는 판단을 추정으로 명시했습니다. 투척자의 신원이나 법적·행정적 결과를 확정하지 않았습니다.",
+                "exactQuote": ""
+              },
+              {
+                "category": "observer-summary",
+                "initialStatus": "pass",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "첫 두 문장은 옥상에서의 발견과 직접 치운 행동을 곧바로 전개하며, 출처나 보도 과정을 앞세운 요약 프레임으로 시작하지 않습니다. 최종본도 같은 행동 중심의 진입을 유지했습니다.",
+                "exactQuote": ""
+              },
+              {
+                "category": "repetition",
+                "initialStatus": "pass",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "최초 발견 뒤 직접 치운 결정과 이후 투척의 지속으로 전개돼, 결론을 먼저 제시한 뒤 발단부터 다시 시작하는 구조는 아닙니다. 최종본은 날짜를 최초 발견에 결합해 시간 흐름을 더 선명하게 했습니다.",
+                "exactQuote": ""
+              },
+              {
+                "category": "progression",
+                "initialStatus": "revise",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "옥상 밖으로 피해 공간이 넓어졌다는 내용을 추상적인 예고와 구체적인 설명으로 나눠 하나의 정보 단위가 두 문장에 걸쳐 있습니다. 최종본에서는 구체적인 세 공간과 결과를 한 문장에 결합했습니다.",
+                "exactQuote": "쓰레기가 떨어진 곳도 옥상에 그치지 않았습니다."
+              },
+              {
+                "category": "interest",
+                "initialStatus": "revise",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "첫 발견과 반복 투척의 이해관계는 구체적이지만, 피해 공간을 예고만 하는 짧은 연결 문장이 정보 밀도와 오디오 추진력을 낮춥니다. 최종본은 발견, 재투척, 내용물, 공간 확장, 추정, 경고문, 미해결 단서로 연속 상승하도록 정리했습니다.",
+                "exactQuote": "쓰레기가 떨어진 곳도 옥상에 그치지 않았습니다."
+              },
+              {
+                "category": "modality-fit",
+                "initialStatus": "pass",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "action-scene에 맞게 첫 두 문장 안에서 숙박업소 옥상이라는 공간, 쓰레기 발견, 직접 치운 행동, 다시 날아든 변화가 제시됩니다. 최종본도 검증된 행동과 공간만 사용했습니다.",
+                "exactQuote": ""
+              },
+              {
+                "category": "coda",
+                "initialStatus": "pass",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "초안은 상투적인 감정·교훈 문구 없이 경고 뒤에도 투척이 이어졌다는 사건 고유의 미해결 상태로 닫습니다. 최종본은 투척 지속 주장과 영수증 부재를 마지막 결과로 배치했습니다.",
+                "exactQuote": ""
+              },
+              {
+                "category": "advisory-duration",
+                "initialStatus": "pass",
+                "finalStatus": "pass",
+                "targetAuthority": "global",
+                "detail": "초안의 권고 추정치는 72.489초로 70~80초 범위 안입니다. 최종본도 초안과 비슷한 분량으로 통합 편집해 권고 범위를 지향했습니다.",
+                "exactQuote": ""
+              }
+            ],
+            "revisionApplied": true,
+            "revisionSummary": "근거 없는 시간적 변화와 경고문의 의미 해석을 삭제하고, 피해 공간을 나눠 말하던 문장을 통합했습니다. 최초 발견부터 반복 투척, 경고 요청, 경고 뒤 지속, 특정 단서 부재까지 단일 제보의 범위를 유지하며 시간순으로 재구성했습니다.",
+            "initialAuthoritySha256": "47afe93c6b2cedb9ed2683eb8f512dc576fe36c6b4d2361c3dc5800fd962e50c",
+            "finalAuthoritySha256": "cacb924279176713325c6f27e6ee77f834a3ef540c1098959c0ec47826717f22",
+            "timing": {
+              "initial": {
+                "schema": "newsroom-owner-rate-advisory-estimate-v1",
+                "compactCharacters": 498,
+                "observedCompactKoreanCharactersPerSecond": 6.87,
+                "estimatedSeconds": 72.489,
+                "targetMinimumSeconds": 70,
+                "targetMaximumSeconds": 80,
+                "withinAdvisoryTarget": true,
+                "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+              },
+              "final": {
+                "schema": "newsroom-owner-rate-advisory-estimate-v1",
+                "compactCharacters": 460,
+                "observedCompactKoreanCharactersPerSecond": 6.87,
+                "estimatedSeconds": 66.958,
+                "targetMinimumSeconds": 70,
+                "targetMaximumSeconds": 80,
+                "withinAdvisoryTarget": false,
+                "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+              }
+            }
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v3",
+            "modality": "action-scene",
+            "narration": "2026년 5월, 부산의 한 숙박업소 사장은 옥상을 관리하러 올라갔다가 조개가 가득 담긴 쓰레기를 발견했다고 했습니다. 누군가 관리하는 곳임을 알면 더는 버리지 않으리라 생각해 직접 치웠지만, 이후에도 정체를 알 수 없는 쓰레기가 옥상으로 날아들었다고 설명했습니다. 사장 제보에 따르면 비닐봉지에는 배달 음식 용기와 음료수, 물티슈가 한꺼번에 들어 있었고, 배달 용기 자체가 그대로 던져지기도 했습니다. 매운 떡볶이 프랜차이즈 용기부터 치킨 상자와 햄버거 포장지까지 쓰레기의 종류도 다양했습니다. 쓰레기는 숙박업소 옥상뿐 아니라 건물과 건물 사이 바닥과 뒷건물 옥상에도 쌓여, 사장은 주변이 난장판이 됐다고 호소했습니다. 사장은 쓰레기가 날아온 방향을 근거로 이웃 아파트 주민의 소행일 것으로 추정했지만, 이는 확인된 신원이 아니라 사장의 판단이었습니다. 그는 해당 아파트 관리사무소를 찾아가 엘리베이터에 쓰레기 무단 투기 금지 경고문을 붙여 달라고 요청했습니다. 6월부터 경고문이 붙었지만, 사장은 2026년 8월 5일 제보에서도 그 뒤 투척이 멈추지 않았다고 했습니다. 그런데 남겨진 쓰레기에서는 투척자를 특정할 영수증이 단 한 장도 발견되지 않았다고 합니다.",
+            "sentences": [
+              {
+                "text": "2026년 5월, 부산의 한 숙박업소 사장은 옥상을 관리하러 올라갔다가 조개가 가득 담긴 쓰레기를 발견했다고 했습니다.",
+                "claimRefs": [
+                  "claim-06a78480a4d9",
+                  "claim-4666c4620c39"
+                ]
+              },
+              {
+                "text": "누군가 관리하는 곳임을 알면 더는 버리지 않으리라 생각해 직접 치웠지만, 이후에도 정체를 알 수 없는 쓰레기가 옥상으로 날아들었다고 설명했습니다.",
+                "claimRefs": [
+                  "claim-318045dc5ab2",
+                  "claim-f7674d21a770"
+                ]
+              },
+              {
+                "text": "사장 제보에 따르면 비닐봉지에는 배달 음식 용기와 음료수, 물티슈가 한꺼번에 들어 있었고, 배달 용기 자체가 그대로 던져지기도 했습니다.",
+                "claimRefs": [
+                  "claim-2c2fc411d470"
+                ]
+              },
+              {
+                "text": "매운 떡볶이 프랜차이즈 용기부터 치킨 상자와 햄버거 포장지까지 쓰레기의 종류도 다양했습니다.",
+                "claimRefs": [
+                  "claim-4f3e21f7497e"
+                ]
+              },
+              {
+                "text": "쓰레기는 숙박업소 옥상뿐 아니라 건물과 건물 사이 바닥과 뒷건물 옥상에도 쌓여, 사장은 주변이 난장판이 됐다고 호소했습니다.",
+                "claimRefs": [
+                  "claim-85462bc8d32c"
+                ]
+              },
+              {
+                "text": "사장은 쓰레기가 날아온 방향을 근거로 이웃 아파트 주민의 소행일 것으로 추정했지만, 이는 확인된 신원이 아니라 사장의 판단이었습니다.",
+                "claimRefs": [
+                  "claim-738561515f12"
+                ]
+              },
+              {
+                "text": "그는 해당 아파트 관리사무소를 찾아가 엘리베이터에 쓰레기 무단 투기 금지 경고문을 붙여 달라고 요청했습니다.",
+                "claimRefs": [
+                  "claim-738561515f12"
+                ]
+              },
+              {
+                "text": "6월부터 경고문이 붙었지만, 사장은 2026년 8월 5일 제보에서도 그 뒤 투척이 멈추지 않았다고 했습니다.",
+                "claimRefs": [
+                  "claim-7e0df8f9078b",
+                  "claim-67a62b10657d",
+                  "claim-35f26d197286"
+                ]
+              },
+              {
+                "text": "그런데 남겨진 쓰레기에서는 투척자를 특정할 영수증이 단 한 장도 발견되지 않았다고 합니다.",
+                "claimRefs": [
+                  "claim-12329c6cb727"
+                ]
+              }
+            ],
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v3",
+              "packageSha256": "cddb9b1131aada55c062b00541e5158d91c84bc21fbabb7c737791f9c68fbc02",
+              "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+              "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+              "usedClaimRefs": [
+                "claim-06a78480a4d9",
+                "claim-4666c4620c39",
+                "claim-318045dc5ab2",
+                "claim-f7674d21a770",
+                "claim-2c2fc411d470",
+                "claim-4f3e21f7497e",
+                "claim-85462bc8d32c",
+                "claim-738561515f12",
+                "claim-7e0df8f9078b",
+                "claim-67a62b10657d",
+                "claim-35f26d197286",
+                "claim-12329c6cb727"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이도 부산 숙박업소 옥상과 이웃 아파트 사이의 낙하 경로, 처음 발견된 쓰레기, 관리사무소 경고문, 그 뒤에도 이어졌다는 제보와 옥상·건물 사이 바닥에 쌓인 포장 용기의 공간 변화를 따라갈 수 있게 한다. 2026년 5월부터 쓰레기가 날아들기 시작했다는 제보, 6월 경고문 부착, 엽기떡볶이·치킨·햄버거 포장지와 비닐봉지 투척, 영수증이 발견되지 않았다는 내용은 각각 제보 범위로 구분한다. 투척자를 특정하거나 고의·횟수·기간·피해액·청소비·신고·보상을 확인된 사실처럼 만들지 않는다. 한 번의 불쾌한 발견이 반복되는 낙하와 경고 이후에도 계속된다는 주장으로 커지는 생활 공간의 경계 붕괴는 central axis 후보지만 훅과 정보 공개 순서, 리듬과 beat는 모델이 자율 결정한다. 쓰레기가 날아온 방향을 근거로 한 이웃 주민 추정은 제보자의 판단일 뿐 사실 확정이 아니며, 아파트 전체 주민이나 특정 세대를 암시하지 않는다. 이 사건은 JTBC 사건반장을 통한 단일 제보라 조건부 귀속을 지키고 실제 영상·사진·출처가 확인된 범위만 사용한다. 법적·행정적 결과가 확인되지 않은 상태에서 결말을 처벌이나 해결로 만들지 않으며, 새로 확인된 결과가 있다면 affective coda보다 앞에 놓는다. final movement는 반복되는 생활 경계 침범이라는 확인 범위에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 구성하고 제보자의 내면·분노를 대변하지 않는다. 행동 처방·보편적 바람·감정·질문·훈계·상투어를 미리 쓰지 말고 전체 narration을 통합 편집한다. 2026년 8월 5일 보도와 확인된 절대 날짜를 사용하고 상대 날짜를 피한다. 70~80초는 locked owner narration으로만 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "f73b82b1ab6a5625887b482b6c75058bf238c6a45b8058099d10fe5118fd4933",
+            "legalReportSha256": "870a1ae38aedfe99fcddccde200825194d5dbffd275fc9387f493e9a2af55360",
+            "packageSha256": "cddb9b1131aada55c062b00541e5158d91c84bc21fbabb7c737791f9c68fbc02"
+          }
+        },
+        "draftSnapshotSha256": "deaa003ca2cd75ac96f017242e044030955505a29d2903dd0ca4cffe3823e77d"
+      }
+    ]
+  }
+}

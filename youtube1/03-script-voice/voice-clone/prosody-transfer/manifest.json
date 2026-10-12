@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "text": "교권보호국은 교권을 보호하는 가상의 기관입니다.",
+  "text_source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\runs\\qwen-canonical-20260730\\smoke-script.txt",
+  "text_sha256": "6fbaa7f68c595f7234c6704643ccdc6b7b610ca4bb12ed911381439945d34e26",
+  "source": {
+    "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\runs\\qwen-canonical-20260730\\smoke.wav",
+    "sha256": "2a3a73b715c4a0b87e5755d58c31860af7a58bdd261e71a58ce9229d36e6789b"
+  },
+  "profile": {
+    "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\instagram-prosody-profile.json",
+    "sha256": "244ce624a112d42e9cbb4759f98c7786ba2299964f7af3827d5d836ee1560225"
+  },
+  "algorithm": {
+    "type": "relative_post_generation_prosody",
+    "pitch_engine": "ffmpeg rubberband",
+    "formant_mode": "preserved",
+    "strengths": [
+      0,
+      0.5,
+      0.8
+    ],
+    "absolute_pitch_shift": false,
+    "reference_audio_used": false,
+    "loudness_normalization": {
+      "shared_target_lufs": -28.23,
+      "peak_ceiling_dbfs": -1.0,
+      "method": "pre-measure integrated LUFS then apply per-render gain"
+    },
+    "source_median_hz": 108.597,
+    "source_spread_st": 4.458,
+    "profile_slope_st_per_s": -0.59,
+    "profile_relative_spread_st": 11.303
+  },
+  "outputs": {
+    "qwen_original": {
+      "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\prosody-transfer\\qwen_original.wav",
+      "sha256": "8efb04d74edcdfdf3f49490226bfd08743850153184cdc28b6480f3e73e1d7da",
+      "strength": 0
+    },
+    "relative_prosody_50": {
+      "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\prosody-transfer\\relative_prosody_50.wav",
+      "sha256": "93377ef7b5329de8a46df69560ef98b36bae70a00836f8d911af62627df76dea",
+      "strength": 0.5
+    },
+    "relative_prosody_80": {
+      "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\prosody-transfer\\relative_prosody_80.wav",
+      "sha256": "797c48a50bf09bf85f94966172c85d815db06b077fe1c768944dab10cd6ca574",
+      "strength": 0.8
+    }
+  },
+  "metrics": {
+    "qwen_original": {
+      "sample_rate_hz": 24000,
+      "duration_s": 3.7516,
+      "integrated_lufs": -28.3,
+      "peak_dbfs": -8.52,
+      "clipped_samples": 0,
+      "f0_median_hz": 108.6,
+      "f0_spread_st": 4.458
+    },
+    "relative_prosody_50": {
+      "sample_rate_hz": 24000,
+      "duration_s": 3.7516,
+      "integrated_lufs": -28.2,
+      "peak_dbfs": -4.29,
+      "clipped_samples": 0,
+      "f0_median_hz": 107.62,
+      "f0_spread_st": 5.044
+    },
+    "relative_prosody_80": {
+      "sample_rate_hz": 24000,
+      "duration_s": 3.7516,
+      "integrated_lufs": -28.2,
+      "peak_dbfs": -1.05,
+      "clipped_samples": 0,
+      "f0_median_hz": 109.09,
+      "f0_spread_st": 5.779
+    }
+  },
+  "limitations": [
+    "This 3.75-second one-sentence prototype validates relative pitch contour only; pause timing, speaking rate, and emphasis transfer require a longer multi-sentence sample in the next stage.",
+    "Prototype uses short-window Rubber Band pitch shifts; boundary artefacts may remain.",
+    "Instagram material contributes aggregate numeric contour statistics only; no third-party waveform or speaker embedding is used.",
+    "Text/ASR is inherited from the canonical Qwen acceptance record; this manifest does not rerun ASR."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "variantId": "v10-observational-v4",
+  "versionId": "msfrwaic-16016-tyqcaj",
+  "contractId": "jeju-school-intrusion-v10-source-grounded-hybrid-hq-7jq-layout",
+  "parentBaseline": {
+    "path": "canonical-baseline.json",
+    "sha256": "653ad797eb284c31bf1bfb2c5f98123bfa8e08b4cab3d8efd004b791fda8ec92",
+    "contractId": "jeju-school-intrusion-v10-source-grounded-hybrid-hq-7jq-layout",
+    "versionId": "msfll44b-2216-2cb29k"
+  },
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 1524,
+    "duration": 50.8
+  },
+  "artifacts": {
+    "videoPath": "out/jeju-school-intrusion-short-v10-observational-v4-msfrwaic-16016-tyqcaj.mp4",
+    "videoSha256": "7d5919aeb20c00887e2d7dd239ac25290191fbe2d34b5f5fd6b07415848bc28e",
+    "thumbnailPath": "out/jeju-school-intrusion-short-v10-observational-v4-msfrwaic-16016-tyqcaj-0_5.png",
+    "thumbnailSha256": "6e962b6d52cccd3066b2cef45107b1cb2bf4cb385d6a500a637022adeac630c7",
+    "latestRenderJsonSha256": "8d46be9c3deecf44e8d49fa1228c2524c73429d9aaa35805d3ed33d5dce20e46",
+    "registryJsonPath": "out/registry/versions/msfrwaic-16016-tyqcaj.json",
+    "registryJsonSha256": "8d46be9c3deecf44e8d49fa1228c2524c73429d9aaa35805d3ed33d5dce20e46",
+    "handoffJsonPath": "out/registry/versions/msfrwaic-16016-tyqcaj.handoff.json",
+    "handoffSha256": "80d97119a3492043096cb128f9e7eb4ae00673311fcda21d0a85f0b01b694218",
+    "projectConfigPath": "production/projects/jeju-school-intrusion-short-v1/project-v10-observational-v4.json",
+    "projectConfigSha256": "170d3b10b5b1df89b350e1c0007a7187a5a054ecc875ab32635c5178e0f52c3f",
+    "visualConfigSha256": "ed30bdda432488ec47f517e867aabe3012fe675a8c225a2629475ba5da4099cb",
+    "scriptSha256": "ec7e9dd3bdf868e201f171ae22557527d11001764aa5e3ce88e3d9ae2b89af44",
+    "scriptJsonPath": "out/registry/handoffs/msfrwaic-16016-tyqcaj/script.json",
+    "scriptJsonSha256": "5ea7f9bdf1aef192c2e3ad44329eafb8c3a7ec9b45eb0a987706a3dd7c99875f"
+  },
+  "cueCount": 36,
+  "cuesSha256": "ed1e9f998211ba2e0f9a70dc6904c3f1f46369aecec1a8d809e2db66e5364f23",
+  "visualOverrides": [
+    {
+      "index": 1,
+      "sourcePath": "assets/video/v10-observational-clean-hq/scene-01-classroom-window.mp4",
+      "sourceSha256": "443aa899dc3c8a91a5f4a600b2377f0fe5d4b18f168780c6bed5b496be033943",
+      "handoffAssetName": "scene-01-classroom-window.mp4",
+      "handoffPath": "out/registry/handoffs/msfrwaic-16016-tyqcaj/scene-01-classroom-window.mp4",
+      "handoffSha256": "89f0b779f66c429c8df509ca48cefd1fd7b1e01a81fee68186733077863f4f04",
+      "probe": { "width": 960, "height": 1664, "fps": "24/1", "frames": 49 },
+      "handoffProbe": { "width": 960, "height": 1664, "fps": "30/1", "frames": 42 }
+    },
+    {
+      "index": 3,
+      "sourcePath": "assets/video/v10-observational-clean-hq/scene-02-school-exterior.mp4",
+      "sourceSha256": "364f6da095f2faf1f43e88c802a5c5673de8780884b6f89ba873bd8c04fff879",
+      "handoffAssetName": "scene-02-school-exterior.mp4",
+      "handoffPath": "out/registry/handoffs/msfrwaic-16016-tyqcaj/scene-02-school-exterior.mp4",
+      "handoffSha256": "eb63114921d93b5aeaaa09b2dc67d633ec716177f580d990c3871b0c18a68f11",
+      "probe": { "width": 960, "height": 1664, "fps": "24/1", "frames": 49 },
+      "handoffProbe": { "width": 960, "height": 1664, "fps": "30/1", "frames": 48 }
+    },
+    {
+      "index": 7,
+      "sourcePath": "assets/video/v10-observational-clean-hq/scene-03-tumbler-rim-macro.mp4",
+      "sourceSha256": "e9b7c938bf336ff38c467c0892448b7028ed15727610896bf6edad7af24fb83a",
+      "handoffAssetName": "scene-03-tumbler-rim-macro.mp4",
+      "handoffPath": "out/registry/handoffs/msfrwaic-16016-tyqcaj/scene-03-tumbler-rim-macro.mp4",
+      "handoffSha256": "db1904054f2983a7c9f5b2e6f825f6e4e5ffd1644756ec8c2301943f1c90eb44",
+      "probe": { "width": 960, "height": 1664, "fps": "24/1", "frames": 49 },
+      "handoffProbe": { "width": 960, "height": 1664, "fps": "30/1", "frames": 43 }
+    },
+    {
+      "index": 10,
+      "sourcePath": "assets/video/v10-observational-clean-hq/scene-04-cctv-monitor-detail.mp4",
+      "sourceSha256": "e60ce2199823cc667f77dc7141c8f83ab41bb9d310366700981dfdabb9f3a24f",
+      "handoffAssetName": "scene-04-cctv-monitor-detail.mp4",
+      "handoffPath": "out/registry/handoffs/msfrwaic-16016-tyqcaj/scene-04-cctv-monitor-detail.mp4",
+      "handoffSha256": "7ab97957e06e91224dd5cb9ca523ea529290b575bf1ab85f373966f31528e08d",
+      "probe": { "width": 960, "height": 1664, "fps": "24/1", "frames": 49 },
+      "handoffProbe": { "width": 960, "height": 1664, "fps": "30/1", "frames": 69 }
+    },
+    {
+      "index": 16,
+      "sourcePath": "assets/video/v10-observational-clean-hq/scene-05-locked-door.mp4",
+      "sourceSha256": "19e427270c7f656c2c1c2f1f635350dfc1317f4a89816c76d28f6b47cdf59358",
+      "handoffAssetName": "scene-05-locked-door.mp4",
+      "handoffPath": "out/registry/handoffs/msfrwaic-16016-tyqcaj/scene-05-locked-door.mp4",
+      "handoffSha256": "131a9bfd38aeb3d9bd48345a8e5f2d604986f2be29da9c93aeef05caebe0d9d1",
+      "probe": { "width": 960, "height": 1664, "fps": "24/1", "frames": 49 },
+      "handoffProbe": { "width": 960, "height": 1664, "fps": "30/1", "frames": 47 }
+    }
+  ]
+}

@@ -1,0 +1,1127 @@
+{
+  "slug": "research-b7bd6a39023f5a83",
+  "topic": "빵집 앞 흡연 제지에 '어깨빵' 난동…\"우울증 탓\" 황당 해명",
+  "mode": "investigation",
+  "fetchedAt": "2026-09-04T11:30:13.745Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-b7bd6a39023f5a83.research.config.json",
+    "queries": [
+      "빵집 앞 흡연 제지에 '어깨빵' 난동…\"우울증 탓\" 황당 해명",
+      "빵집 흡연 제지에",
+      "빵집 흡연 어깨빵 우울증 탓",
+      "빵집 흡연 어깨빵 우울증",
+      "빵집 흡연 경찰 신고 수사 처분",
+      "빵집 흡연 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ],
+    "eventFingerprint": {
+      "anchors": [
+        "빵집",
+        "흡연",
+        "제지에",
+        "어깨빵",
+        "난동",
+        "우울증",
+        "황당",
+        "해명",
+        "담배를",
+        "말렸더니"
+      ],
+      "distinctiveAnchors": [
+        {
+          "name": "빵집",
+          "terms": [
+            "빵집"
+          ]
+        },
+        {
+          "name": "흡연",
+          "terms": [
+            "흡연"
+          ]
+        },
+        {
+          "name": "제지에",
+          "terms": [
+            "제지에"
+          ]
+        },
+        {
+          "name": "어깨빵",
+          "terms": [
+            "어깨빵"
+          ]
+        }
+      ],
+      "minDistinctiveMatches": 2,
+      "minTotalMatches": 3,
+      "semanticFacets": {
+        "locations": [
+          "서울"
+        ],
+        "actions": [],
+        "roles": [],
+        "dates": []
+      }
+    }
+  },
+  "sources": [
+    {
+      "publisher": "뉴시스",
+      "title": "빵집 앞 흡연 제지에 '어깨빵' 난동…\"우울증 탓\" 황당 해명",
+      "url": "https://www.newsis.com/view/NISX20260803_0003733399",
+      "extractedClaims": [
+        {
+          "field": "reportOrigin",
+          "value": "jtbc-incident-chief-video-tip",
+          "date": "2026-07-31",
+          "category": "confirmedFacts",
+          "summary": "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다."
+        },
+        {
+          "field": "initialRequest",
+          "value": "move-smoking-away-from-entrance",
+          "category": "confirmedFacts",
+          "detailGroup": "trigger",
+          "summary": "A씨는 매장 입구 근처 흡연자들에게 자신이 비흡연자라며 다른 곳에서 담배를 피워 달라고 요청했다."
+        },
+        {
+          "field": "verbalResponse",
+          "value": "close-your-door-informal-retort",
+          "category": "confirmedFacts",
+          "detailGroup": "trigger",
+          "summary": "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했다."
+        },
+        {
+          "field": "recordingStarted",
+          "value": "owner-started-recording",
+          "category": "confirmedFacts",
+          "detailGroup": "execution",
+          "summary": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔다."
+        },
+        {
+          "field": "physicalContact",
+          "value": "shoulder-shove-and-fall",
+          "category": "victimImpact",
+          "detailGroup": "harm",
+          "summary": "일행 중 한 사람이 A씨를 어깨로 강하게 밀쳐 넘어뜨렸다는 것이 공개된 제보 영상과 A씨의 설명이다."
+        },
+        {
+          "field": "verbalAbuse",
+          "value": "continued-profanity",
+          "category": "victimImpact",
+          "detailGroup": "harm",
+          "summary": "신체 접촉 뒤에도 일행의 욕설이 이어졌다는 것이 A씨의 설명이다."
+        },
+        {
+          "field": "entryAttempt",
+          "value": "attempted-entry-to-buy-bread",
+          "category": "confirmedFacts",
+          "detailGroup": "discovery",
+          "summary": "A씨가 나가 달라고 요구했지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했다."
+        },
+        {
+          "field": "postIncidentContact",
+          "value": "spouse-contacted-owner",
+          "category": "laterChanges",
+          "detailGroup": "followup",
+          "summary": "사건 뒤 일행 중 한 사람의 배우자가 A씨에게 연락했다."
+        },
+        {
+          "field": "explanation",
+          "value": "depression-cited",
+          "category": "defenseClaims",
+          "perspective": "subject",
+          "detailGroup": "followup",
+          "summary": "연락 과정에서 당사자의 우울증이 언급됐지만 진단 여부와 사건 행동 사이의 의학적 인과관계는 확인되지 않았다."
+        }
+      ],
+      "date": "2026-08-04T06:18:23+09:00",
+      "status": "verified",
+      "snippet": "[서울=뉴시스] 매장 앞 흡연을 제지했다가 봉변을 당한 빵집 사장의 사연이 공개돼 공분을 사고 있다. (사진=JTBC '사건반장' 유튜브 채널 캡처) *재판매 및 DB 금지 [서울=뉴시스]이준형 인턴 기자 = 빵집 사장이 매장 앞 흡연자들을 제지하다가 폭언과 물리적 위협을 당한 사연이 알려졌다. 31일 JTBC '사건반장'은 빵집 사장 A씨가 제보한 영상을 공개했다. 제보 영상에 따르면 A씨는 매장 입구 근처에서 담배를 피우던 사람들에게 \"비흡연자인데 다른 곳에서 담배를 피워주시면 안 되겠냐\"고 요청했다. 그러나 흡연자들은 \"네가 문을 꽉 닫으면 되잖아\"라며 다짜고짜 반말로 응수했다. 또한 입에 담배를 문 채 A씨의 얼굴 가까이 다가와 연기와 냄새를 뿜어대는 등 위협적인 태도를 취했다. 상황을 기록하기 위해 A씨가 휴대전화로 촬영을 시작하자, 흡연자 중 한 명이 갑자기 A씨에게 다가와 어깨로 강하게 밀쳐 A씨를 넘어뜨렸다. 이 과정에서 가해자 본인도 함께 중심을 잃고 넘어졌다. 이후 이들은 A씨를 향해 \"담배 피운다고 지금 신고했냐\", \"완전히 개X라이네\"라며 거침없이 욕설과 모욕적인 언사를 퍼부었다. A씨가 매장 밖으로 나가라고 요구하자 이들은 \"빵 사러 왔다. 문 열었으니까 빵 사러 왔다\"며 적반하장의 태도로 매장 안 진입을 시도하기도 했다. 사건 이후 가해자 중 한 사람의 부인이 A씨에게 연락을 취해왔으나 사과보다는 황당한 변명을 늘어놓았다. 부인은 \"그분(가해자)이 지금 우울증이 심해서 병원에 입원을 시켜야 할 것 같다. 지금 컨트롤이 안 된다\"며 책임을 회피하려는 듯한 입장을 밝혔다. A씨는 \"얼굴을 보고 이야기하자는데 왜 제3자가 나오는지 이해할 수 없다\"며 억울함을 호소했다. ◎공감언론 뉴시스 [email protected]",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "빵집",
+          "흡연",
+          "제지에",
+          "어깨빵",
+          "난동",
+          "우울증",
+          "황당",
+          "해명"
+        ],
+        "snippetLength": 873,
+        "contentLength": 873
+      },
+      "fetchedAt": "2026-09-04T11:30:13.748Z"
+    }
+  ],
+  "relatedCoverage": [],
+  "priorContext": [],
+  "followUps": [],
+  "laws": [
+    {
+      "publisher": "국가법령정보센터",
+      "title": "판례 &gt; 업무방해·무고·폭행 | 국가법령정보센터",
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=614631",
+      "kind": "precedent",
+      "category": "precedent",
+      "court": "대법원",
+      "legalPrinciple": "점포 운영자에 대한 유형력 행사와 영업 방해는 행위 태양과 현장 증거를 개별적으로 판단한다.",
+      "comparison": "빵집 사장에 대한 접촉·위협의 정도와 실제 영업 지장을 영상·진술·고객 이탈 자료로 구분해 판단해야 한다.",
+      "expectedTokens": [
+        "업무방해",
+        "폭행"
+      ],
+      "date": null,
+      "status": "verified",
+      "snippet": "자바스크립트를 지원하지 않아 일부 기능을 사용할 수 없습니다. 본문 바로가기 판례정보 본문 판시사항 판결요지 참조조문 참조판례 전문 관련자료 판례체계도 첨부파일 점자뷰어 화면내검색 팝업여부 카카오톡 페이스북 트위터 라인 주소복사 업무방해·무고·폭행 [서울북부지법 2024. 1. 19. 선고 2023노1593 판결 : 확정] 【판시사항】 상가건물 내 점포 소유자인 피고인이 관리사무소 사무실에서 관리비 부과 및 체납 문제로 관리소장 甲에게 욕설을 하는 등 위력으로 甲의 업무를 방해하고, 관리실 밖으로 나가려는 甲을 밀쳐 폭행하였으며, 甲으로부터 폭행을 당하였다고 수사기관에 허위 사실을 신고하여 甲을 무고하였다는 공소사실에 대하여, 제1심이 이를 유죄로 인정하면서 甲이 관리실의 CCTV 재생 화면을 휴대전화로 재촬영하여 제출한 동영상 및 캡처사진(재촬영물)을 증거로 채택하였는데, 피고인은 재촬영물이 임의로 조작·편집된 것이어서 증거능력이 없다고 주장하며 항소하여 그 증거능력이 문제 된 사안에서, 재촬영물은 원본 CCTV 영상파일과의 관계에서 전자적 방법에 의하여 복사된 것이 아니고 그 자체로 재촬영본의 원본이 되는바, 제반 사정을 종합하면 재촬영물은 증거능력이 인정된다는 이유로, 피고인의 주장을 배척하고 항소를 기각한 사례 【판결요지】 상가건물 내 점포 소유자인 피고인이 관리사무소 사무실에서 관리비 부과 및 체납 문제로 관리소장 甲에게 욕설을 하는 등 위력으로 甲의 업무를 방해하고, 관리실 밖으로 나가려는 甲을 밀쳐 폭행하였으며, 甲으로부터 폭행을 당하였다고 수사기관에 허위 사실을 신고하여 甲을 무고하였다는 공소사실에 대하여, 제1심이 이를 유죄로 인정하면서 甲이 관리실의 CCTV 재생 화면을 휴대전화로 재촬영하여 제출한 동영상 및 캡처사진(이하 ‘재촬영물’이라 한다)을 증거로 채택하였는데, 피고인은 재촬영물이 임의로 조작·편집된 것이어서 증거능력이 없다고 주장하며 항소하여 그 증거능력이 문제 된 사안이다. 재촬영물은 원본 CCTV 영상파일과의 관계에서 전자적 방법에 의하여 복사된 것이 아니고 그 자체로 재촬영본의 원본이 되므로, 디지털 증거에서 문제 되는 원본 CCTV 영상파일과의 동일성과 무결성은 증거능력 인정의 요건이 된다고 볼 수 없고, 이 경우 재촬영된 원본의 증거능력은 원본 CCTV 영상을 법정에 제출할 수 없거나 제출이 곤란한 사정이 있고, 촬영자 및 동석자 등의 진술, 재촬영된 영상의 내용 및 상태 등에 의하여 사건과의 관련성 및 인위적 조작이 가해지지 않았다는 점이 증명되면 인정되는바, ① CCTV 영상은 일반적으로 저장매체의 용량 한계로 보관기간이 설정되어 있는 점, ② 재촬영물의 원본 CCTV 영상은 현재 보관기간이 경과하여 법정에 제출하는 것이 불가능한 상태인 점, ③ 재촬영물의 촬영자인 甲은 제1심 법정에서 ‘관리사무소에 설치된 CCTV의 보관기간이 15일 내지 1달 반 정도로 길지 않았고, 원본을 백업하려고 하였으나 USB 오류로 백업이 되지 않았다. 설치기사에게 연락하여 A/S를 받으려고도 했으나 시간이 오래 걸린다고 하면서 백업 방법을 알려주겠다고 하였으나 계속 오류가 났다. 다른 방법이 없어 CCTV를 틀어 놓고 휴대전화로 촬영한 것을 증거자료로 제출하였다.’고 진술한 점, ④ 피고인과 변호인은 재촬영물이 조작되었다고만 주장할 뿐 구체적인 조작 내용, 조작이 가해진 시간 등에 대해서는 설명하지 못하는 점, ⑤ 재촬영물의 내용상 앞뒤에 모순이 발생하거나 부자연스러운 부분은 찾을 수 없는 점 등 제반 사정을 종합하면 재촬영물은 증거능력이 인정된다는 이유로, 피고인의 주장을 배척하고 항소를 기각한 사례이다. 【참조조문】 형법 제156조 , 제260조 제1항 , 제314조 제1항 , 형사소송법 제307조 【전문】 【피 고 인】 피고인 【항 소 인】 피고인 【검 사】 임기웅 외 3인 【변 호 인】 법무법인 이안 담당변호사 한정미 【원심판결】 서울북부지법 2023. 9. 8. 선고 2021고단1656, 2022고단978, 1275, 5151 판결 【주 문】 피고인의 항소를 기각한다. 【이 유】 1. 항소이유의 요지 가. 법리오해 공소외 1이 수사기관에 제출한 CCTV 영상과 캡처사진은 원본 CCTV 영상을 휴대폰으로 재촬영한 것으로, 공소외 1이 임의로 조작, 편집한 것이어서 증거능력이 없다. 그럼에도 원심은 증거법칙에 관한 법리를 오해하여 이를 증거로 채택하여 유죄의 증거로 사용하였다. 나. 사실오인 피고인은 원심 판시 범죄사실과 같이 공소외 1의 업무를 방해하거나 공소외 1을 폭행한 사실이 없고, 공소외 1에게 실제로 폭행을 당하였으므로 무고죄도 성립하지 않는다. 그럼에도 공소사실을 전부 유죄로 판단한 원심에는 사실오인의 위법이 있다. 다. 양형부당 원심의 형(징역 1년)은 너무 무거워서 부당하다. 2. 판단 가. CCTV 영상 캡처사진의 증거능력에 대한 판단 1) 피고인은 원심에서도 항소이유와 동일한 주장을 하면서 원심이 증거로 채택한 CCTV 영상 캡처사진의 증거능력에 관하여 다투었고, 원심은 원심이 적법하게 채택하여 조사한 증거들에 의하여 인정되는 다음과 같은 사정, 즉 ① 공소외 1이 전기장치를 다루는 전문가가 아닌 점을 감안하면 휴대폰으로 CCTV 영상을 재촬영한 경위를 납득할 수 있고 그 과정에서 편집하는 등으로 개작하였음을 인정할 만한 정황이 확인되지 않는 점, ② CCTV 영상은 일반적으로 보관기간 제한이 있어 보관기간을 도과하여 원본을 제출하거나 원본과 비교를 통하여 사본과 원본의 동일성을 판단하는 것은 거의 불가능한 점, ③ 캡처사진 중 피고인과 변호인이 특별히 위조되었다고 지적하는 장면은 없고, CCTV 영상을 재촬영한 이후 그 영상을 위조하거나 변조하였을 만한 사정도 확인되지 않는 점, ④ 이 사건을 수사한 담당경찰관도 피해자가 제출한 증거들에 위조된 흔적이 없었다고 진술한 점 등을 종합하여 보면 이 사건 촬영물이 위조되거나 변조되었다고 볼 수 없다고 판단하여 위 증거들의 증거능력을 인정하였다. 2) 공소외 1이 관리실의 CCTV 재생 화면을 휴대폰으로 재촬영한 동영상 및 사진(이하 ‘이 사건 재촬영물’이라 한다)은 원본 CCTV 영상파일과의 관계에서 전자적 방법에 의하여 복사된 것이 아니고 그 자체로 재촬영본의 원본이 된다. 따라서 디지털 증거에서 문제 되는 원본 CCTV 영상파일과의 동일성과 무결성은 증거능력 인정의 요건이 된다고 볼 수 없다. 이 경우 재촬영된 원본의 증거능력은 원본 CCTV 영상을 법정에 제출할 수 없거나 제출이 곤란한 사정이 있고, 촬영자 및 동석자 등의 진술, 재촬영된 영상의 내용 및 상태 등에 의하여 사건과의 관련성 및 인위적 조작이 가해지지 않았다는 점이 증명된다면 증거능력이 인정된다. 원심이 설시한 사정들에다가, 원심이 적법하게 채택하여 조사한 증거들에 의하여 인정되는 다음의 사실 내지 사정, 즉 ① CCTV 영상은 일반적으로 저장매체의 용량 한계로 보관기간이 설정되어 있는 점, ② 이 사건 재촬영물의 원본 CCTV 영상은 현재 보관기간이 경과하여 법정에 제출하는 것이 불가능한 상태인 점, ③ 이 사건 재촬영물의 촬영자 공소외 1은 원심 법정에서 ‘관리사무소에 설치된 CCTV의 보관기간이 15일 내지 1달 반 정도로 길지 않았고, 원본을 백업하려고 하였으나 USB 오류로 백업이 되지 않았다. 설치기사에게 연락하여 A/S를 받으려고도 했으나 시간이 오래 걸린다고 하면서 백업 방법을 알려주겠다고 하였으나 계속 오류가 났다. 다른 방법이 없어 CCTV를 틀어 놓고 휴대폰으로 촬영한 것을 증거자료로 제출하였다.’고 진술한 점, ④ 피고인과 변호인은 이 사건 재촬영물이 조작되었다고만 주장할 뿐 구체적인 조작 내용, 조작이 가해진 시간 등에 대해서는 설명하지 못하고 있는 점, ⑤ 이 사건 재촬영물의 내용상 앞뒤에 모순이 발생하거나 부자연스러운 부분은 찾을 수 없는 점 등에 비추어 보면, 이 사건 재촬영물은 증거능력이 인정된다고 봄이 타당하다. 이 사건 재촬영물의 증거능력에 관한 피고인과 변호인의 주장은 받아들이지 않는다. 나. 사실오인 주장에 대한 판단 피고인은 원심에서도 이 사건 범행 전부를 부인하며 다투었고, 원심은 원심이 적법하게 채택하여 인정되는 다음의 사",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-authoritative-legal-source",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "판례",
+          "업무방해",
+          "무고",
+          "폭행",
+          "사건"
+        ],
+        "snippetLength": 4000,
+        "contentLength": 4000
+      },
+      "fetchedAt": "2026-09-04T11:30:18.784Z"
+    },
+    {
+      "publisher": "국가법령정보센터",
+      "title": "판례 &gt; 건조물침입,업무방해,명예훼손 | 국가법령정보센터",
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=86735",
+      "kind": "precedent",
+      "category": "precedent",
+      "court": "대법원",
+      "legalPrinciple": "영업장에서 고성과 위세로 고객을 이탈시키는 행위는 구체적 사정에 따라 위력에 의한 업무방해가 될 수 있다.",
+      "comparison": "단순 말다툼인지 정상 영업을 곤란하게 한 위력인지 시간·반복성·고객 이탈·영업 중단 자료로 확인해야 한다.",
+      "expectedTokens": [
+        "업무방해",
+        "명예훼손"
+      ],
+      "date": null,
+      "status": "verified",
+      "snippet": "자바스크립트를 지원하지 않아 일부 기능을 사용할 수 없습니다. 본문 바로가기 판례정보 본문 판시사항 판결요지 참조조문 참조판례 전문 관련자료 판례체계도 첨부파일 점자뷰어 화면내검색 팝업여부 카카오톡 페이스북 트위터 라인 주소복사 건조물침입,업무방해,명예훼손 [대법원 1961. 2. 24. 선고 4293형상864 판결] 【판시사항】 가. 공유자중 1인이 단독경영하는 다방 영업장소에 침입한 행위의 죄책 나. 형법 제314조 의 위력의 성질 다. 「죽일놈」 「도둑놈」이라는 언설과 모욕죄 【판결요지】 다방내에 불의의 침입을 하여 상당시간 고성으로 악담을 반복하고 혹은 격외의 기물을 반입하는 등 행위는 업무방해죄가 성립한다. 【참조조문】 형법 제314조 , 형법 제311조 【전문】 【상고인, 피고인】 【원심판결】 제1심 서울지방, 제2심 서울고등 【이 유】 상고이유 제1점에 대하여 그러나 본건 건물이 피고인과 공소외 1과의 사이에 공동소유 관계에 있다는 일사만으로서는 동 건물내 일부 특정장소에서 양인간의 성약에 의하여 우 공소외 1이 단독 경영하는 다방영업 장소에 피고인이 판시 불법 목적으로 침입한 장소의 위법성을 조각하는 연유로 삼을 수 없은즉 동 논지는 이유없음에 귀하고 동 제2점에 대하여 그러나 원판결이 의거한 제 증거에 의하면 동 판시내용을 인정하기에 부족함이 없을 뿐 더러 또 소론 욕설이 업무방해죄 각 요건에 해당하는 여부에 있어서는 형법 제314조 에 이른바 위력이라 함은 무릇 의사의 자유를 제압 혼란게 할 세력을 널리 호칭하는것으로서 이에 본건의 경우를 비추어보면 본시 휴식과 담화의 장소로서 정온을 필요로하는다방내에서 불의의 침입자에 의하여 상당시간 고성으로 악담을 반복하고 혹은 격외의 기물을 반입하는 등 사로 취합중의 내객에게 혐오와 염정을 일게 하므로서 불가불이산을 촉구함이 될 것인즉 이는 십분 다방 업무의 방해라고 아니할 수 없다. 동 제3점에 대하여 피고인이 판시 각개의 경우 전시 공소외 1에 대하여 「도둑놈」 「죽일놈」 등등이라고 한 언설은 동 표시 언설만으로는 구체적으로 사실을 적시한 것으로 볼 수 없는 것임으로 이를 가리켜 명예훼손이라 할 수 없고 단지 모욕일 따름임에 불구하고 원심은 이를 간과하고 동 사실을 그릇 인정한 위법이 있다할 것이다. 위로 아래로 검색조문선택 화면내검색 입력 폼 검색어 입력 모드 전체저장 목록저장 닫기 파일형식 XLS(엑셀) TXT(텍스트) 저장 닫기 모드 전체저장 목록저장 닫기 파일형식 XLS(엑셀) TXT(텍스트) 한글(본문) 저장 닫기 내용저장 닫기 파일형식 한글(HWP) PDF 오피스(DOC) 저장 닫기 파일형식 선택 파일형식 HTML XLS(엑셀) 내용저장 닫기 파일형식 HTML HWP(한글) XLS(엑셀) PDF 저장 닫기 내용저장 닫기 파일형식 HWP HWPX PDF DOC 저장 닫기 내용저장 닫기 파일형식 한글(HWP) PDF 오피스(DOC) 저장 닫기 목록저장 닫기 파일형식 HWP(한글) TXT(텍스트) 저장 닫기 목록저장 닫기 파일형식 HWP(한글) TXT(텍스트) 저장 닫기 목록 저장 닫기 파일형식 HWP(한글) TXT(텍스트) 저장 닫기 목록저장 닫기 파일형식 한글(HWP) PDF 오피스(DOC) 저장 닫기 본문저장 닫기 파일형식 한글(HWP) PDF 오피스(DOC) 저장 닫기 파일형식 선택 법령용어명 파일형식 한글(HWP) PDF 오피스(DOC) --> 법령용어명 목록저장 닫기 파일형식 한글(HWP) TXT(텍스트) 파일형식 선택 파일형식 HTML HWP(한글) XLS(엑셀) 내용저장 닫기 파일형식 HTML HWP(한글) XLS(엑셀) PDF DOC 저장 닫기 파일형식 선택 파일형식 HTML XLS(엑셀) HWP(한글) 내용저장 닫기 파일형식 HTML HWP(한글) XLS(엑셀) 저장 닫기 내용저장 닫기 파일형식 HTML HWP(한글) XLS(엑셀) 저장 닫기 파일형식 선택 파일형식 한글(HWP) 한글(HWPX) PDF 오피스(DOC)",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-authoritative-legal-source",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "대법원",
+          "판례",
+          "건조물침입",
+          "업무방해",
+          "명예훼손"
+        ],
+        "snippetLength": 1935,
+        "contentLength": 1935
+      },
+      "fetchedAt": "2026-09-04T11:30:18.784Z"
+    }
+  ],
+  "actors": [],
+  "contradictions": [],
+  "unknowns": [
+    "사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.",
+    "경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.",
+    "신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.",
+    "우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+    "현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다."
+  ],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 0,
+    "priorContext": 0,
+    "originalMedia": 0,
+    "followUps": 0,
+    "laws": 2,
+    "errors": 0
+  },
+  "eventDossier": {
+    "schemaVersion": 3,
+    "slug": "research-b7bd6a39023f5a83",
+    "generatedAt": "2026-09-04T11:30:13.745Z",
+    "researchSnapshotSha256": "ac33bb5bab18ad1ff3f96c7e7f63f4a6010b9c4e6c968a2105cf3dad83c06633",
+    "eventIdentity": {
+      "title": "빵집 앞 흡연 제지에 '어깨빵' 난동…\"우울증 탓\" 황당 해명",
+      "fingerprint": {
+        "anchors": [
+          "빵집",
+          "흡연",
+          "제지에",
+          "어깨빵",
+          "난동",
+          "우울증",
+          "황당",
+          "해명",
+          "담배를",
+          "말렸더니"
+        ],
+        "distinctiveAnchors": [
+          {
+            "name": "빵집",
+            "terms": [
+              "빵집"
+            ]
+          },
+          {
+            "name": "흡연",
+            "terms": [
+              "흡연"
+            ]
+          },
+          {
+            "name": "제지에",
+            "terms": [
+              "제지에"
+            ]
+          },
+          {
+            "name": "어깨빵",
+            "terms": [
+              "어깨빵"
+            ]
+          }
+        ],
+        "minDistinctiveMatches": 2,
+        "minTotalMatches": 3,
+        "semanticFacets": {
+          "locations": [
+            "서울"
+          ],
+          "actions": [],
+          "roles": [],
+          "dates": []
+        }
+      }
+    },
+    "actors": [],
+    "confirmedFacts": [
+      {
+        "id": "claim-ec83e4abcace",
+        "summary": "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다.",
+        "field": "reportOrigin",
+        "value": "jtbc-incident-chief-video-tip",
+        "date": "2026-07-31",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-cbbb44d10c07",
+        "summary": "A씨는 매장 입구 근처 흡연자들에게 자신이 비흡연자라며 다른 곳에서 담배를 피워 달라고 요청했다.",
+        "field": "initialRequest",
+        "value": "move-smoking-away-from-entrance",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "trigger",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-bbfcd800f1aa",
+        "summary": "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했다.",
+        "field": "verbalResponse",
+        "value": "close-your-door-informal-retort",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "trigger",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-ac2176041d17",
+        "summary": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔다.",
+        "field": "recordingStarted",
+        "value": "owner-started-recording",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "execution",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-0ef1fe333088",
+        "summary": "A씨가 나가 달라고 요구했지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했다.",
+        "field": "entryAttempt",
+        "value": "attempted-entry-to-buy-bread",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "discovery",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "investigationAndCharges": [],
+    "trialStagesAndSentenceChanges": [],
+    "prosecutionClaims": [],
+    "defenseClaims": [
+      {
+        "id": "claim-b43c4ae41bac",
+        "summary": "연락 과정에서 당사자의 우울증이 언급됐지만 진단 여부와 사건 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+        "field": "explanation",
+        "value": "depression-cited",
+        "perspective": "subject",
+        "status": "reported",
+        "detailGroup": "followup",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "courtFindings": [],
+    "victimImpact": [
+      {
+        "id": "claim-4c461bf00283",
+        "summary": "일행 중 한 사람이 A씨를 어깨로 강하게 밀쳐 넘어뜨렸다는 것이 공개된 제보 영상과 A씨의 설명이다.",
+        "field": "physicalContact",
+        "value": "shoulder-shove-and-fall",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-59a63736d711",
+        "summary": "신체 접촉 뒤에도 일행의 욕설이 이어졌다는 것이 A씨의 설명이다.",
+        "field": "verbalAbuse",
+        "value": "continued-profanity",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "timeline": [
+      {
+        "id": "claim-ec83e4abcace",
+        "summary": "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다.",
+        "field": "reportOrigin",
+        "value": "jtbc-incident-chief-video-tip",
+        "date": "2026-07-31",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "conflicts": [],
+    "unknowns": [
+      "사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.",
+      "경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.",
+      "신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.",
+      "우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+      "현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다."
+    ],
+    "laterChanges": [],
+    "narrative": {
+      "overview": [
+        {
+          "id": "claim-ec83e4abcace",
+          "summary": "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다.",
+          "field": "reportOrigin",
+          "value": "jtbc-incident-chief-video-tip",
+          "date": "2026-07-31",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-cbbb44d10c07",
+          "summary": "A씨는 매장 입구 근처 흡연자들에게 자신이 비흡연자라며 다른 곳에서 담배를 피워 달라고 요청했다.",
+          "field": "initialRequest",
+          "value": "move-smoking-away-from-entrance",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "trigger",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-bbfcd800f1aa",
+          "summary": "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했다.",
+          "field": "verbalResponse",
+          "value": "close-your-door-informal-retort",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "trigger",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-ac2176041d17",
+          "summary": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔다.",
+          "field": "recordingStarted",
+          "value": "owner-started-recording",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "execution",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4c461bf00283",
+          "summary": "일행 중 한 사람이 A씨를 어깨로 강하게 밀쳐 넘어뜨렸다는 것이 공개된 제보 영상과 A씨의 설명이다.",
+          "field": "physicalContact",
+          "value": "shoulder-shove-and-fall",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-59a63736d711",
+          "summary": "신체 접촉 뒤에도 일행의 욕설이 이어졌다는 것이 A씨의 설명이다.",
+          "field": "verbalAbuse",
+          "value": "continued-profanity",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-0ef1fe333088",
+          "summary": "A씨가 나가 달라고 요구했지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했다.",
+          "field": "entryAttempt",
+          "value": "attempted-entry-to-buy-bread",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "discovery",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-e15478534816",
+          "summary": "사건 뒤 일행 중 한 사람의 배우자가 A씨에게 연락했다.",
+          "field": "postIncidentContact",
+          "value": "spouse-contacted-owner",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "followup",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "chronology": [
+        {
+          "id": "claim-ec83e4abcace",
+          "summary": "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다.",
+          "field": "reportOrigin",
+          "value": "jtbc-incident-chief-video-tip",
+          "date": "2026-07-31",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "sameEventFindings": [
+        {
+          "id": "claim-ec83e4abcace",
+          "summary": "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다.",
+          "field": "reportOrigin",
+          "value": "jtbc-incident-chief-video-tip",
+          "date": "2026-07-31",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-cbbb44d10c07",
+          "summary": "A씨는 매장 입구 근처 흡연자들에게 자신이 비흡연자라며 다른 곳에서 담배를 피워 달라고 요청했다.",
+          "field": "initialRequest",
+          "value": "move-smoking-away-from-entrance",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "trigger",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-bbfcd800f1aa",
+          "summary": "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했다.",
+          "field": "verbalResponse",
+          "value": "close-your-door-informal-retort",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "trigger",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-ac2176041d17",
+          "summary": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔다.",
+          "field": "recordingStarted",
+          "value": "owner-started-recording",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "execution",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4c461bf00283",
+          "summary": "일행 중 한 사람이 A씨를 어깨로 강하게 밀쳐 넘어뜨렸다는 것이 공개된 제보 영상과 A씨의 설명이다.",
+          "field": "physicalContact",
+          "value": "shoulder-shove-and-fall",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-59a63736d711",
+          "summary": "신체 접촉 뒤에도 일행의 욕설이 이어졌다는 것이 A씨의 설명이다.",
+          "field": "verbalAbuse",
+          "value": "continued-profanity",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-0ef1fe333088",
+          "summary": "A씨가 나가 달라고 요구했지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했다.",
+          "field": "entryAttempt",
+          "value": "attempted-entry-to-buy-bread",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "discovery",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-e15478534816",
+          "summary": "사건 뒤 일행 중 한 사람의 배우자가 A씨에게 연락했다.",
+          "field": "postIncidentContact",
+          "value": "spouse-contacted-owner",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "followup",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-b43c4ae41bac",
+          "summary": "연락 과정에서 당사자의 우울증이 언급됐지만 진단 여부와 사건 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+          "field": "explanation",
+          "value": "depression-cited",
+          "perspective": "subject",
+          "status": "reported",
+          "detailGroup": "followup",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "priorContext": [],
+      "followUpDevelopments": [],
+      "detailSections": [
+        {
+          "id": "trigger",
+          "title": "범행 직전의 직접 계기",
+          "description": "직전 상황과 감정적 촉발 요인",
+          "claims": [
+            {
+              "id": "claim-cbbb44d10c07",
+              "summary": "A씨는 매장 입구 근처 흡연자들에게 자신이 비흡연자라며 다른 곳에서 담배를 피워 달라고 요청했다.",
+              "field": "initialRequest",
+              "value": "move-smoking-away-from-entrance",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "trigger",
+              "sourceIds": [
+                "src-b7bd6a39023f"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-bbfcd800f1aa",
+              "summary": "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했다.",
+              "field": "verbalResponse",
+              "value": "close-your-door-informal-retort",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "trigger",
+              "sourceIds": [
+                "src-b7bd6a39023f"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "execution",
+          "title": "실행 방식과 당시 상황",
+          "description": "언제 어디서 어떤 틈을 이용했는지",
+          "claims": [
+            {
+              "id": "claim-ac2176041d17",
+              "summary": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔다.",
+              "field": "recordingStarted",
+              "value": "owner-started-recording",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "execution",
+              "sourceIds": [
+                "src-b7bd6a39023f"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "discovery",
+          "title": "피해자가 알아챈 과정",
+          "description": "음용과 이상 징후, 즉시 대응",
+          "claims": [
+            {
+              "id": "claim-0ef1fe333088",
+              "summary": "A씨가 나가 달라고 요구했지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했다.",
+              "field": "entryAttempt",
+              "value": "attempted-entry-to-buy-bread",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "discovery",
+              "sourceIds": [
+                "src-b7bd6a39023f"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "harm",
+          "title": "피해와 후유증",
+          "description": "신체·정신적 피해와 공개되지 않은 범위",
+          "claims": [
+            {
+              "id": "claim-4c461bf00283",
+              "summary": "일행 중 한 사람이 A씨를 어깨로 강하게 밀쳐 넘어뜨렸다는 것이 공개된 제보 영상과 A씨의 설명이다.",
+              "field": "physicalContact",
+              "value": "shoulder-shove-and-fall",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-b7bd6a39023f"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-59a63736d711",
+              "summary": "신체 접촉 뒤에도 일행의 욕설이 이어졌다는 것이 A씨의 설명이다.",
+              "field": "verbalAbuse",
+              "value": "continued-profanity",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-b7bd6a39023f"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        }
+      ],
+      "sourceAgreement": [
+        {
+          "claimId": "claim-ec83e4abcace",
+          "summary": "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-cbbb44d10c07",
+          "summary": "A씨는 매장 입구 근처 흡연자들에게 자신이 비흡연자라며 다른 곳에서 담배를 피워 달라고 요청했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-bbfcd800f1aa",
+          "summary": "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-ac2176041d17",
+          "summary": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-4c461bf00283",
+          "summary": "일행 중 한 사람이 A씨를 어깨로 강하게 밀쳐 넘어뜨렸다는 것이 공개된 제보 영상과 A씨의 설명이다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-59a63736d711",
+          "summary": "신체 접촉 뒤에도 일행의 욕설이 이어졌다는 것이 A씨의 설명이다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-0ef1fe333088",
+          "summary": "A씨가 나가 달라고 요구했지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-e15478534816",
+          "summary": "사건 뒤 일행 중 한 사람의 배우자가 A씨에게 연락했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-b43c4ae41bac",
+          "summary": "연락 과정에서 당사자의 우울증이 언급됐지만 진단 여부와 사건 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-b7bd6a39023f"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        }
+      ],
+      "conflicts": [],
+      "unresolvedQuestions": [
+        "사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.",
+        "경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.",
+        "신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.",
+        "우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+        "현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다."
+      ],
+      "limitations": [
+        "독립적으로 검증된 동일 사건 추가 보도를 찾지 못했습니다.",
+        "이 사건의 직접적인 사전 맥락으로 확인된 보도를 찾지 못했습니다.",
+        "현재까지 확인된 후속 보도가 없습니다."
+      ]
+    },
+    "sourceCoverage": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "sameEventCoverageCount": 0,
+      "priorContextCount": 0,
+      "followUpCount": 0,
+      "independentPublisherCount": 1,
+      "corroboration": "single-source",
+      "rejectedSameEventSourceCount": 0
+    },
+    "readiness": {
+      "readyForLegal": true,
+      "readyForDraft": true,
+      "preferredCorroborationMet": false,
+      "detailedNarrativeComplete": true,
+      "storyClaimCount": 9,
+      "narrativePhaseCount": 6,
+      "blockers": [],
+      "warnings": [
+        "single-source-only"
+      ]
+    },
+    "sourceIndex": [
+      {
+        "sourceId": "src-b7bd6a39023f",
+        "url": "https://www.newsis.com/view/NISX20260803_0003733399",
+        "title": "빵집 앞 흡연 제지에 '어깨빵' 난동…\"우울증 탓\" 황당 해명",
+        "publisher": "뉴시스",
+        "date": "2026-08-04T06:18:23+09:00",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "sourceExclusions": [],
+    "currentHash": "98fb7fc60273fe731d1d6869ac119ad297e800127ed97c0d0f9dd4c48e7c6502"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "production-script-qa-v1",
+  "newsroomSlug": "research-657380fce7eaccc9",
+  "productionProjectId": "coffee-pesticide-hospital-short-v1",
+  "authoritativeDraftSha256": "1e79b194c356f52ef41dc010c60b11c3b56abc4c2c1f808a933c0cad31c4aba2",
+  "bindingSha256": "8162a77fef5021dee2570c03c07d956874893a9040386c837290fdbd862d86f5",
+  "artifact": {
+    "versionId": "msk7ah24-20136-k4g3v4",
+    "handoffPath": "out/.private/coffee-pesticide-hospital-short-v1/msk7ah24-20136-k4g3v4.handoff/handoff.json",
+    "handoffSha256": "636938ebf470a8db53b9a9e1cf3ef9109258d47062287d13f24be2fa162651e5",
+    "releaseStatus": "preview",
+    "publishable": false,
+    "bgmSourceSha256": "dcb7fb93fe0651b348c4e97e032b0d5687f8a2efcad5c1eadf278973bf2eb68b",
+    "profileManifestSha256": "e1fbc1dc0d482cd9fa52b5fe63b545a30858b40602782cf9c9f7f2f2b5b08ff7"
+  },
+  "normalization": {
+    "id": "ko-caption-layout-v1",
+    "unicode": "NFC",
+    "ignoredForIntegrityComparison": [
+      "Unicode layout whitespace",
+      "Unicode punctuation",
+      "Unicode symbols"
+    ],
+    "preserved": [
+      "letters",
+      "numbers",
+      "word order"
+    ]
+  },
+  "thresholds": {
+    "minCueDurationSeconds": 0.6,
+    "maxCueDurationSeconds": 3.6,
+    "maxInterCueGapSeconds": 0.35,
+    "maxCaptionLeadSeconds": 0.5,
+    "maxCaptionLagSeconds": 0.35,
+    "maxCaptionLateStartSeconds": 0.25,
+    "maxCaptionEarlyEndSeconds": 0.25
+  },
+  "checks": [
+    {
+      "id": "script-caption-integrity",
+      "status": "pass",
+      "summary": "자막 25개의 결합문이 권위 대본과 일치합니다.",
+      "details": []
+    },
+    {
+      "id": "caption-structure",
+      "status": "pass",
+      "summary": "순서·겹침·간격·지속시간·레이아웃·보호 용어가 계약을 통과했습니다.",
+      "details": []
+    },
+    {
+      "id": "caption-audio-timing",
+      "status": "pass",
+      "summary": "모든 자막 cue가 음성 word anchor와 허용 오차 안에서 정렬됩니다.",
+      "details": []
+    },
+    {
+      "id": "narration-integrity",
+      "status": "pass",
+      "summary": "sourceText·spokenText·구간 순서·신호 무결성이 통과했습니다.",
+      "details": [
+        {
+          "code": "signal-metrics",
+          "segmentCount": 8,
+          "finalSignal": {
+            "sampleRate": 24000,
+            "durationSeconds": 48.793791666666664,
+            "peak": 0.656219482421875,
+            "peakDbfs": -3.6590176008307917,
+            "rmsDbfs": -23.811527455542326,
+            "activeRmsDbfs": -21.951220770280464,
+            "firstSample": 0,
+            "lastSample": 0,
+            "endpointAmplitude": 0,
+            "boundaryMaxAdjacentJump": 0.000091552734375,
+            "clippedSamples": 0
+          },
+          "joins": [
+            {
+              "afterSegment": 1,
+              "adjacentJump": 0,
+              "passes": true
+            },
+            {
+              "afterSegment": 2,
+              "adjacentJump": 0,
+              "passes": true
+            },
+            {
+              "afterSegment": 3,
+              "adjacentJump": 0,
+              "passes": true
+            },
+            {
+              "afterSegment": 4,
+              "adjacentJump": 0,
+              "passes": true
+            },
+            {
+              "afterSegment": 5,
+              "adjacentJump": 0,
+              "passes": true
+            },
+            {
+              "afterSegment": 6,
+              "adjacentJump": 0,
+              "passes": true
+            },
+            {
+              "afterSegment": 7,
+              "adjacentJump": 0,
+              "passes": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asr-diagnostic",
+      "status": "warning",
+      "summary": "인식기 교차 불일치 2건이 있습니다. 합의 계약은 통과했지만 사람 청취가 필요합니다.",
+      "details": [
+        {
+          "code": "confidence-is-diagnostic-not-sample-accurate",
+          "maxCer": 0.05194805194805195
+        },
+        {
+          "segment": 3,
+          "phrase": "살인미수",
+          "recognizedModels": [
+            "small"
+          ],
+          "missingModels": [
+            "medium"
+          ],
+          "agreement": "at-least-one-model"
+        },
+        {
+          "segment": 3,
+          "phrase": "특수상해",
+          "recognizedModels": [
+            "medium"
+          ],
+          "missingModels": [
+            "small"
+          ],
+          "agreement": "at-least-one-model"
+        }
+      ]
+    },
+    {
+      "id": "render-freshness",
+      "status": "pass",
+      "summary": "렌더가 현재 대본·프로젝트·계약·프로필·BGM 결합과 일치합니다.",
+      "details": []
+    },
+    {
+      "id": "authority-conflict",
+      "status": "warning",
+      "summary": "같은 newsroom slug를 주장하는 다른 production authority 1개가 있습니다. 명시적 binding만 사용합니다.",
+      "details": [
+        {
+          "projectId": "research-657380fce7eaccc9-editorial-cartoon",
+          "path": "production/projects/research-657380fce7eaccc9-editorial-cartoon/script.final.json",
+          "status": "final",
+          "finalizedAt": "2026-08-06T14:16:59.329Z",
+          "draftSha256": "86e9681f36756e1dcf897cf55fe4d897d55f7e2a47d0431eba9c9f3aa7ae0612"
+        }
+      ]
+    },
+    {
+      "id": "human-listening-gate",
+      "status": "warning",
+      "summary": "ASR/CER은 표본 단위 동기나 자연스러움을 증명하지 않습니다. 이 exact 렌더의 전체 사람 청취 승인이 남아 있습니다.",
+      "details": [
+        {
+          "id": "human-playback-review-required",
+          "stage": "07-quality-assurance",
+          "severity": "block",
+          "claim": "커피 살충제 사건 비공개 완성본",
+          "reason": "정확한 렌더 파일에 대한 사람의 전체 재생 검토와 최종 승인이 필요합니다.",
+          "authority": {
+            "case": "local-editorial-approval",
+            "url": "https://example.invalid/local-editorial-approval"
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "status": "warning",
+    "passes": 5,
+    "warnings": 3,
+    "failures": 0,
+    "humanListeningRequired": true
+  },
+  "creator": "scripts/sync-production-script-qa.mjs",
+  "verifier": "scripts/script-sync-qa-lib.mjs",
+  "generatedAt": "2026-08-08T09:58:45.419Z",
+  "qaSha256": "5d4da3e59714333d6e5722ec611aeb15aaa71595f80aeb4e024962329eeb813c"
+}

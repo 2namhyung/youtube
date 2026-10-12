@@ -1,0 +1,458 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-20260729\\admission-work\\extra_04.full.wav",
+  "model": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F\\asr\\model-cache\\models--Systran--faster-whisper-large-v3\\snapshots\\edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 35.2,
+  "duration_after_vad": 29.264,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.78,
+      "end": 5.32,
+      "text": "세솔리 주민센터의 가상 교권보호국은 교사의 권한을 빼앗는 기간이 아니라",
+      "avg_logprob": -0.06538722688413184,
+      "no_speech_prob": 0.00279998779296875,
+      "compression_ratio": 1.6765498652291104,
+      "words": [
+        {
+          "start": 0.78,
+          "end": 1.18,
+          "word": " 세솔리",
+          "probability": 0.92919921875
+        },
+        {
+          "start": 1.18,
+          "end": 1.84,
+          "word": " 주민센터의",
+          "probability": 0.98994140625
+        },
+        {
+          "start": 1.84,
+          "end": 2.18,
+          "word": " 가상",
+          "probability": 0.994140625
+        },
+        {
+          "start": 2.18,
+          "end": 3.32,
+          "word": " 교권보호국은",
+          "probability": 0.951416015625
+        },
+        {
+          "start": 3.32,
+          "end": 3.88,
+          "word": " 교사의",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 3.88,
+          "end": 4.32,
+          "word": " 권한을",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 4.32,
+          "end": 4.7,
+          "word": " 빼앗는",
+          "probability": 0.9996337890625
+        },
+        {
+          "start": 4.7,
+          "end": 5.12,
+          "word": " 기간이",
+          "probability": 0.96142578125
+        },
+        {
+          "start": 5.12,
+          "end": 5.32,
+          "word": " 아니라",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 5.32,
+      "end": 9.06,
+      "text": "수업과 안전을 지키도록 돕는 창구로 소개됐습니다.",
+      "avg_logprob": -0.06538722688413184,
+      "no_speech_prob": 0.00279998779296875,
+      "compression_ratio": 1.6765498652291104,
+      "words": [
+        {
+          "start": 5.32,
+          "end": 6.16,
+          "word": " 수업과",
+          "probability": 0.9925130208333334
+        },
+        {
+          "start": 6.72,
+          "end": 7.14,
+          "word": " 안전을",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 7.14,
+          "end": 7.6,
+          "word": " 지키도록",
+          "probability": 0.9991455078125
+        },
+        {
+          "start": 7.6,
+          "end": 7.94,
+          "word": " 돕는",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 7.94,
+          "end": 8.42,
+          "word": " 창구로",
+          "probability": 0.9733072916666666
+        },
+        {
+          "start": 8.42,
+          "end": 9.06,
+          "word": " 소개됐습니다.",
+          "probability": 0.9986572265625
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 9.9,
+      "end": 13.32,
+      "text": "담당 직원은 교권과 권한을 혼동하면 안 된다고 말했습니다.",
+      "avg_logprob": -0.06538722688413184,
+      "no_speech_prob": 0.00279998779296875,
+      "compression_ratio": 1.6765498652291104,
+      "words": [
+        {
+          "start": 9.9,
+          "end": 10.52,
+          "word": " 담당",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 10.52,
+          "end": 10.92,
+          "word": " 직원은",
+          "probability": 0.9900716145833334
+        },
+        {
+          "start": 10.92,
+          "end": 11.48,
+          "word": " 교권과",
+          "probability": 0.9954427083333334
+        },
+        {
+          "start": 11.48,
+          "end": 12.0,
+          "word": " 권한을",
+          "probability": 0.9981689453125
+        },
+        {
+          "start": 12.0,
+          "end": 12.44,
+          "word": " 혼동하면",
+          "probability": 0.9981689453125
+        },
+        {
+          "start": 12.44,
+          "end": 12.62,
+          "word": " 안",
+          "probability": 0.9248046875
+        },
+        {
+          "start": 12.62,
+          "end": 12.9,
+          "word": " 된다고",
+          "probability": 1.0
+        },
+        {
+          "start": 12.9,
+          "end": 13.32,
+          "word": " 말했습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 14.92,
+      "end": 18.82,
+      "text": "교사는 학생을 통제하는 사람이 아니라 배울 권리를 보호하는 사람이며",
+      "avg_logprob": -0.06538722688413184,
+      "no_speech_prob": 0.00279998779296875,
+      "compression_ratio": 1.6765498652291104,
+      "words": [
+        {
+          "start": 14.92,
+          "end": 15.34,
+          "word": " 교사는",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 15.34,
+          "end": 15.8,
+          "word": " 학생을",
+          "probability": 1.0
+        },
+        {
+          "start": 15.8,
+          "end": 16.24,
+          "word": " 통제하는",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 16.24,
+          "end": 16.56,
+          "word": " 사람이",
+          "probability": 1.0
+        },
+        {
+          "start": 16.56,
+          "end": 16.86,
+          "word": " 아니라",
+          "probability": 1.0
+        },
+        {
+          "start": 16.86,
+          "end": 17.32,
+          "word": " 배울",
+          "probability": 1.0
+        },
+        {
+          "start": 17.32,
+          "end": 17.68,
+          "word": " 권리를",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 17.68,
+          "end": 18.2,
+          "word": " 보호하는",
+          "probability": 1.0
+        },
+        {
+          "start": 18.2,
+          "end": 18.82,
+          "word": " 사람이며",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 19.54,
+      "end": 22.74,
+      "text": "보호국은 그 원칙을 확인하는 곳이라는 설명입니다.",
+      "avg_logprob": -0.06538722688413184,
+      "no_speech_prob": 0.00279998779296875,
+      "compression_ratio": 1.6765498652291104,
+      "words": [
+        {
+          "start": 19.54,
+          "end": 20.38,
+          "word": " 보호국은",
+          "probability": 0.9737548828125
+        },
+        {
+          "start": 20.38,
+          "end": 20.56,
+          "word": " 그",
+          "probability": 1.0
+        },
+        {
+          "start": 20.56,
+          "end": 21.24,
+          "word": " 원칙을",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 21.24,
+          "end": 21.66,
+          "word": " 확인하는",
+          "probability": 1.0
+        },
+        {
+          "start": 21.66,
+          "end": 22.06,
+          "word": " 곳이라는",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 22.06,
+          "end": 22.74,
+          "word": " 설명입니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 23.98,
+      "end": 26.48,
+      "text": "발표를 듣던 주민 한 명이 그렇다면 신고 뒤",
+      "avg_logprob": -0.06538722688413184,
+      "no_speech_prob": 0.00279998779296875,
+      "compression_ratio": 1.6765498652291104,
+      "words": [
+        {
+          "start": 23.98,
+          "end": 24.34,
+          "word": " 발표를",
+          "probability": 0.9988606770833334
+        },
+        {
+          "start": 24.34,
+          "end": 24.72,
+          "word": " 듣던",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 24.72,
+          "end": 25.0,
+          "word": " 주민",
+          "probability": 1.0
+        },
+        {
+          "start": 25.0,
+          "end": 25.1,
+          "word": " 한",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 25.1,
+          "end": 25.46,
+          "word": " 명이",
+          "probability": 1.0
+        },
+        {
+          "start": 25.46,
+          "end": 25.92,
+          "word": " 그렇다면",
+          "probability": 0.98828125
+        },
+        {
+          "start": 25.92,
+          "end": 26.38,
+          "word": " 신고",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 26.38,
+          "end": 26.48,
+          "word": " 뒤",
+          "probability": 0.97705078125
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 26.48,
+      "end": 29.46,
+      "text": "교사는 누구에게 도움을 받습니까? 라고 묻자",
+      "avg_logprob": -0.06538722688413184,
+      "no_speech_prob": 0.00279998779296875,
+      "compression_ratio": 1.6765498652291104,
+      "words": [
+        {
+          "start": 26.48,
+          "end": 27.28,
+          "word": " 교사는",
+          "probability": 0.9962565104166666
+        },
+        {
+          "start": 27.28,
+          "end": 27.8,
+          "word": " 누구에게",
+          "probability": 1.0
+        },
+        {
+          "start": 27.8,
+          "end": 28.14,
+          "word": " 도움을",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 28.14,
+          "end": 28.52,
+          "word": " 받습니까?",
+          "probability": 0.996826171875
+        },
+        {
+          "start": 28.76,
+          "end": 29.02,
+          "word": " 라고",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 29.02,
+          "end": 29.46,
+          "word": " 묻자",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 29.96,
+      "end": 33.84,
+      "text": "직원은 상담 기록과 긴급 연락망을 함께 받았다고 답했습니다.",
+      "avg_logprob": -0.06538722688413184,
+      "no_speech_prob": 0.00279998779296875,
+      "compression_ratio": 1.6765498652291104,
+      "words": [
+        {
+          "start": 29.96,
+          "end": 30.68,
+          "word": " 직원은",
+          "probability": 0.9973958333333334
+        },
+        {
+          "start": 30.68,
+          "end": 31.0,
+          "word": " 상담",
+          "probability": 1.0
+        },
+        {
+          "start": 31.0,
+          "end": 31.48,
+          "word": " 기록과",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 31.48,
+          "end": 32.06,
+          "word": " 긴급",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 32.06,
+          "end": 32.72,
+          "word": " 연락망을",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 32.72,
+          "end": 32.92,
+          "word": " 함께",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 32.92,
+          "end": 33.42,
+          "word": " 받았다고",
+          "probability": 1.0
+        },
+        {
+          "start": 33.42,
+          "end": 33.84,
+          "word": " 답했습니다.",
+          "probability": 1.0
+        }
+      ]
+    }
+  ]
+}

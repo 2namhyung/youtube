@@ -1,0 +1,11 @@
+{
+  "id": "wise-job-3c72b75b28e8439dd686505f",
+  "status": "ready",
+  "source_count": 1,
+  "run_id": "project-wise-35346ce5bdcb430d93afb8d5b1cd0100",
+  "wise_url": "http://127.0.0.1:9670/project-wise-35346ce5bdcb430d93afb8d5b1cd0100/",
+  "server_pid": 6684,
+  "source_ids": [
+    "source_9ea86762369fec09d34e"
+  ]
+}

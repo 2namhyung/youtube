@@ -1,0 +1,70 @@
+{
+  "status": "pass",
+  "support": "unsupported-experimental",
+  "started_utc": "2026-07-30T01:45:16Z",
+  "command": "overfit-gate",
+  "source": {
+    "commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+    "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "revision": "5d83992436eae1d760afd27aff78a71d676296fc"
+  },
+  "versions": {
+    "qwen-tts": "0.1.1",
+    "peft": "0.20.0",
+    "torch": "2.4.1+cu124",
+    "transformers": "4.57.3",
+    "accelerate": "1.12.0",
+    "librosa": "0.11.0",
+    "soundfile": "0.14.0",
+    "safetensors": "0.8.0"
+  },
+  "qwen_source": {
+    "module_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\vendor\\qwen_tts\\inference\\qwen3_tts_model.py",
+    "source_commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+    "version": "0.1.1"
+  },
+  "inputs": {
+    "train_jsonl": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\derived\\train_with_codes.jsonl",
+    "train_jsonl_sha256": "f7ad9b6bd3fc0bc7b6fc69f2c1e4421a97bf24ceca201da9f0eae8514216f2f8",
+    "model_config_sha256": "2e714c787c8edb98b05432685cddb634add2de4d4e645f653d68251ef72ba011",
+    "model_weights_sha256": "180b3b10eb1c9f1b4db7806d5475bae3071c0243c299d49926bab1da3b6946f6"
+  },
+  "overfit_gate": {
+    "gate_passed": true,
+    "micro_steps": 8,
+    "gradient_accumulation_steps": 8,
+    "optimizer_steps": 1,
+    "train_losses": [
+      17.175945281982422,
+      14.53256607055664,
+      17.175945281982422,
+      14.53256607055664,
+      17.175945281982422,
+      14.53256607055664,
+      17.175945281982422,
+      14.53256607055664
+    ],
+    "pre_update_eval_losses": [
+      17.175945281982422,
+      14.53256607055664
+    ],
+    "post_update_eval_losses": [
+      17.190265655517578,
+      14.515188217163086
+    ],
+    "pre_update_eval_mean": 15.854255676269531,
+    "post_update_eval_mean": 15.852726936340332,
+    "learning_rate": 1e-05,
+    "target_module_count": 112,
+    "torch_peak_reserved_mib": 2226.0,
+    "gpu": {
+      "name": "NVIDIA GeForce RTX 3060 Ti",
+      "total_mib": 8192,
+      "used_mib": 4016,
+      "free_mib": 4009,
+      "temperature_c": 48
+    },
+    "adapter_saved": false
+  },
+  "finished_utc": "2026-07-30T01:45:27Z"
+}

@@ -1,0 +1,111 @@
+{
+  "schema": "rive-layered-psd-handoff-v1",
+  "status": "private-rive-import-candidate",
+  "productionApproved": false,
+  "sourceManifest": {
+    "path": "../manifest.json",
+    "sha256": "9546135817f72a4e7ead28b8a4bf77e25a50cfe628792aaaef7a39ed2bf929c4"
+  },
+  "psd": {
+    "path": "char_anon01_front_upper_body-v1.psd",
+    "sha256": "4a82faabcfdddb4ad94e213861a3c1330b6cdfb9f12db29b7c11a3f7528c485c",
+    "bytes": 7880697,
+    "signature": "8BPS",
+    "colorMode": "RGB",
+    "depth": 8,
+    "dimensions": [
+      361,
+      949
+    ]
+  },
+  "layerOrderTopToBottom": [
+    "hand_r",
+    "hand_l",
+    "torso",
+    "arm_r",
+    "arm_l"
+  ],
+  "layers": [
+    {
+      "slot": "hand_r",
+      "name": "char_anon01_front_hand_r",
+      "sourcePath": "layers/char_anon01_front_hand_r.png",
+      "sourceSha256": "8faa5f2384a756790b3b486bdd596b86724309e32895231bc4f27ad820aa8f4a",
+      "origin": [
+        0,
+        0
+      ],
+      "dimensions": [
+        361,
+        949
+      ]
+    },
+    {
+      "slot": "hand_l",
+      "name": "char_anon01_front_hand_l",
+      "sourcePath": "layers/char_anon01_front_hand_l.png",
+      "sourceSha256": "34e33e0d237bd848f5849f38c2de6f0ca411fc406d4db8488a4ca9006dd578f8",
+      "origin": [
+        0,
+        0
+      ],
+      "dimensions": [
+        361,
+        949
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "char_anon01_front_torso",
+      "sourcePath": "layers/char_anon01_front_torso.png",
+      "sourceSha256": "6bfb95e6a773de348eace94beefaed09a8261ba8af92f71780b7e42fed3ae5d1",
+      "origin": [
+        0,
+        0
+      ],
+      "dimensions": [
+        361,
+        949
+      ]
+    },
+    {
+      "slot": "arm_r",
+      "name": "char_anon01_front_arm_r",
+      "sourcePath": "layers/char_anon01_front_arm_r.png",
+      "sourceSha256": "81c7ea7666398827181df9d4eba6558754a8baa883d82d8bb5f7603e5123444a",
+      "origin": [
+        0,
+        0
+      ],
+      "dimensions": [
+        361,
+        949
+      ]
+    },
+    {
+      "slot": "arm_l",
+      "name": "char_anon01_front_arm_l",
+      "sourcePath": "layers/char_anon01_front_arm_l.png",
+      "sourceSha256": "13b4db18015484dbcbe9944977ccfeed73c2707341da60e3f95707fd3f05713d",
+      "origin": [
+        0,
+        0
+      ],
+      "dimensions": [
+        361,
+        949
+      ]
+    }
+  ],
+  "riveImportGate": {
+    "scope": "left-arm-only-mesh-proof",
+    "meshLayer": "char_anon01_front_arm_l",
+    "rigidLayer": "char_anon01_front_hand_l",
+    "requiredBones": [
+      "shoulder_l",
+      "elbow_l",
+      "wrist_l"
+    ],
+    "blockedUntil": "owner-signed-in-rive-editor-and-import-review"
+  }
+}

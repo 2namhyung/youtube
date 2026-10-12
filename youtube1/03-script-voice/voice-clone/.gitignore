@@ -1,0 +1,12 @@
+# Private voice material and generated speech
+refs/*.wav
+samples/*.wav
+
+# Reproducible local runtime and downloaded upstream artifacts
+.venv/
+cache/
+models/
+vendor/
+
+# Runtime logs
+*.log

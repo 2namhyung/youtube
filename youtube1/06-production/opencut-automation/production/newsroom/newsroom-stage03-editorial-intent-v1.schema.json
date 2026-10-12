@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-stage03-editorial-intent-v1",
+  "title": "Stage 03 editorial intent v1",
+  "description": "Hash-bound user editorial intent. Wording remains model-autonomous while opening disclosure and current-case priority claims are authoritative.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "direction", "openingDisclosure", "priorityClaimRefs", "sha256"],
+  "properties": {
+    "schema": { "const": "newsroom-stage03-editorial-intent-v1" },
+    "direction": { "type": "string", "maxLength": 2000 },
+    "openingDisclosure": { "enum": ["model-choice", "opening", "defer"] },
+    "priorityClaimRefs": { "type": "array", "maxItems": 12, "items": { "type": "string", "minLength": 1, "maxLength": 200 } },
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  }
+}

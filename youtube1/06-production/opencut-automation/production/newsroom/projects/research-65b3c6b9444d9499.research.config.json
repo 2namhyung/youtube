@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-65b3c6b9444d9499",
+  "topic": "5살 자녀 태우고 모녀 차량 보복운전... 흉기 든 운전자 영장",
+  "query": "5살 자녀 태우고 모녀 차량 보복운전... 흉기 든 운전자 영장",
+  "keywords": [
+    "5살",
+    "자녀",
+    "태우고",
+    "모녀",
+    "차량",
+    "보복운전",
+    "흉기",
+    "운전자",
+    "영장",
+    "차선"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv",
+    "naver-news",
+    "daum-news",
+    "news1-society"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "insight.co.kr",
+      "title": "5살 자녀 태우고 모녀 차량 보복운전... 흉기 든 운전자 영장",
+      "url": "https://www.insight.co.kr/news/570284"
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "5살",
+      "자녀",
+      "태우고",
+      "모녀",
+      "차량",
+      "보복운전",
+      "흉기",
+      "운전자",
+      "영장",
+      "차선"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "5살",
+        "terms": [
+          "5살"
+        ]
+      },
+      {
+        "name": "자녀",
+        "terms": [
+          "자녀"
+        ]
+      },
+      {
+        "name": "태우고",
+        "terms": [
+          "태우고"
+        ]
+      },
+      {
+        "name": "모녀",
+        "terms": [
+          "모녀"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "5살",
+      "자녀",
+      "태우고",
+      "모녀",
+      "차량",
+      "보복운전",
+      "흉기",
+      "운전자",
+      "영장",
+      "차선"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "5살",
+        "terms": [
+          "5살"
+        ]
+      },
+      {
+        "name": "자녀",
+        "terms": [
+          "자녀"
+        ]
+      },
+      {
+        "name": "태우고",
+        "terms": [
+          "태우고"
+        ]
+      },
+      {
+        "name": "모녀",
+        "terms": [
+          "모녀"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "contradictions": [],
+  "limit": 50,
+  "generatedFrom": "promoted-newsroom-candidate"
+}

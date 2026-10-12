@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-1b6228cfdb86ef94",
+  "topic": "\"으악!\" 연기했지만 덜미…택시 바퀴에 발 넣은 남성 결국",
+  "query": "\"으악!\" 연기했지만 덜미…택시 바퀴에 발 넣은 남성 결국",
+  "keywords": [
+    "으악",
+    "연기했지만",
+    "덜미",
+    "택시",
+    "바퀴에",
+    "넣은",
+    "남성",
+    "결국",
+    "스스로",
+    "발을"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv",
+    "naver-news",
+    "daum-news",
+    "news1-society"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "JTBC 공식 일별 기사 sitemap",
+      "title": "\"으악!\" 연기했지만 덜미…택시 바퀴에 발 넣은 남성 결국",
+      "url": "https://news.jtbc.co.kr/article/NB12315132"
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "으악",
+      "연기했지만",
+      "덜미",
+      "택시",
+      "바퀴에",
+      "넣은",
+      "결국",
+      "스스로",
+      "발을"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "으악",
+        "terms": [
+          "으악"
+        ]
+      },
+      {
+        "name": "연기했지만",
+        "terms": [
+          "연기했지만"
+        ]
+      },
+      {
+        "name": "덜미",
+        "terms": [
+          "덜미"
+        ]
+      },
+      {
+        "name": "택시",
+        "terms": [
+          "택시"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "으악",
+      "연기했지만",
+      "덜미",
+      "택시",
+      "바퀴에",
+      "넣은",
+      "결국",
+      "스스로",
+      "발을"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "으악",
+        "terms": [
+          "으악"
+        ]
+      },
+      {
+        "name": "연기했지만",
+        "terms": [
+          "연기했지만"
+        ]
+      },
+      {
+        "name": "덜미",
+        "terms": [
+          "덜미"
+        ]
+      },
+      {
+        "name": "택시",
+        "terms": [
+          "택시"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "contradictions": [],
+  "limit": 50,
+  "generatedFrom": "promoted-newsroom-candidate"
+}

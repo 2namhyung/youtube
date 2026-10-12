@@ -1,0 +1,145 @@
+{
+  "language": "ko",
+  "languageProbability": 1.0,
+  "durationSeconds": 6.0,
+  "generationSeconds": 0.552,
+  "transcript": "사실 원뱃은 사람을 꽤 좋아하는 동물입니다 사람과 함께 있는 걸 좋아하고 사람이 해주는 보살님도 꽤 즐기는 편이죠",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.2,
+      "text": "사실 원뱃은 사람을 꽤 좋아하는 동물입니다",
+      "avgLogProbability": -0.211914,
+      "noSpeechProbability": 0.015396,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.18,
+          "text": "사실",
+          "probability": 0.850098
+        },
+        {
+          "start": 0.18,
+          "end": 0.72,
+          "text": "원뱃은",
+          "probability": 0.913818
+        },
+        {
+          "start": 0.72,
+          "end": 1.12,
+          "text": "사람을",
+          "probability": 0.98877
+        },
+        {
+          "start": 1.12,
+          "end": 1.38,
+          "text": "꽤",
+          "probability": 0.995117
+        },
+        {
+          "start": 1.38,
+          "end": 1.68,
+          "text": "좋아하는",
+          "probability": 0.962891
+        },
+        {
+          "start": 1.68,
+          "end": 2.2,
+          "text": "동물입니다",
+          "probability": 0.958822
+        }
+      ]
+    },
+    {
+      "start": 2.2,
+      "end": 3.72,
+      "text": "사람과 함께 있는 걸 좋아하고",
+      "avgLogProbability": -0.211914,
+      "noSpeechProbability": 0.015396,
+      "words": [
+        {
+          "start": 2.2,
+          "end": 2.86,
+          "text": "사람과",
+          "probability": 0.743652
+        },
+        {
+          "start": 2.86,
+          "end": 3.06,
+          "text": "함께",
+          "probability": 0.998047
+        },
+        {
+          "start": 3.06,
+          "end": 3.24,
+          "text": "있는",
+          "probability": 0.967773
+        },
+        {
+          "start": 3.24,
+          "end": 3.34,
+          "text": "걸",
+          "probability": 0.855957
+        },
+        {
+          "start": 3.34,
+          "end": 3.72,
+          "text": "좋아하고",
+          "probability": 0.985352
+        }
+      ]
+    },
+    {
+      "start": 3.72,
+      "end": 5.76,
+      "text": "사람이 해주는 보살님도 꽤 즐기는 편이죠",
+      "avgLogProbability": -0.211914,
+      "noSpeechProbability": 0.015396,
+      "words": [
+        {
+          "start": 3.72,
+          "end": 4.02,
+          "text": "사람이",
+          "probability": 0.802246
+        },
+        {
+          "start": 4.02,
+          "end": 4.34,
+          "text": "해주는",
+          "probability": 0.955322
+        },
+        {
+          "start": 4.34,
+          "end": 4.92,
+          "text": "보살님도",
+          "probability": 0.864502
+        },
+        {
+          "start": 4.92,
+          "end": 5.22,
+          "text": "꽤",
+          "probability": 0.997314
+        },
+        {
+          "start": 5.22,
+          "end": 5.5,
+          "text": "즐기는",
+          "probability": 0.98877
+        },
+        {
+          "start": 5.5,
+          "end": 5.76,
+          "text": "편이죠",
+          "probability": 0.985596
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceFile": "legal_explanation.wav",
+  "sourceSha256": "586f394b22f14299636191809f4a5e27de67cd9ae728b3402b68b67f951047c8",
+  "model": "small",
+  "device": "cuda",
+  "computeType": "float16",
+  "diagnosticOnly": true
+}

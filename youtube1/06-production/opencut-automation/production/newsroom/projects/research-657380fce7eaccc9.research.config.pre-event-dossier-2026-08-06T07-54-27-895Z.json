@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-657380fce7eaccc9",
+  "topic": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+  "query": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+  "keywords": [
+    "직장",
+    "동료",
+    "커피에",
+    "몰래",
+    "살충제",
+    "간호조무사",
+    "2심서",
+    "감형",
+    "동료의",
+    "살충제를"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "서울신문",
+      "title": "직장 동료 커피에 몰래 살충제 탄 50대 간호조무사",
+      "url": "https://www.seoul.co.kr/news/society/law/2025/09/29/20250929500264",
+      "extractedClaims": [
+        { "field": "incidentDate", "value": "2025-03-28", "date": "2025-03-28", "category": "confirmedFacts", "summary": "2025년 3월 28일경 구리시의 한 병원에서 간호조무사가 동료의 커피에 살충제를 넣었다고 보도됐다." },
+        { "field": "firstTrial", "value": "2025-09-29", "date": "2025-09-29", "category": "trialStagesAndSentenceChanges", "perspective": "court", "summary": "2025년 9월 29일 1심은 특수상해를 인정해 징역 2년을 선고했다." },
+        { "field": "prosecutionTheory", "value": "attempted-murder", "category": "prosecutionClaims", "perspective": "prosecution", "summary": "검찰은 커피에 살충제를 넣은 행위가 살인미수에 해당한다고 주장했다." },
+        { "field": "defenseTheory", "value": "no-murder-intent", "category": "defenseClaims", "perspective": "defense", "summary": "피고인 측은 살인의 고의가 없었다는 취지로 다퉜다." },
+        { "field": "courtFinding", "value": "special-injury", "category": "courtFindings", "perspective": "court", "summary": "재판부는 살인미수는 증명되지 않았고 특수상해만 인정된다고 판단했다." }
+      ]
+    },
+    {
+      "publisher": "뉴시스",
+      "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 징역 2년",
+      "url": "https://www.newsis.com/view/NISX20250929_0003348677",
+      "extractedClaims": [
+        { "field": "incidentDate", "value": "2025-03-29", "date": "2025-03-29", "category": "confirmedFacts", "summary": "다른 보도는 사건일을 2025년 3월 29일로 표기했다." },
+        { "field": "firstTrial", "value": "2025-09-29", "date": "2025-09-29", "category": "trialStagesAndSentenceChanges", "perspective": "court", "summary": "2025년 9월 29일 1심은 특수상해를 인정해 징역 2년을 선고했다." },
+        { "field": "prosecutionTheory", "value": "attempted-murder", "category": "prosecutionClaims", "perspective": "prosecution", "summary": "검찰은 커피에 살충제를 넣은 행위가 살인미수에 해당한다고 주장했다." },
+        { "field": "courtFinding", "value": "special-injury", "category": "courtFindings", "perspective": "court", "summary": "재판부는 사용량과 치사 가능성이 충분히 증명되지 않아 살인미수를 인정하지 않고 특수상해만 인정했다." }
+      ]
+    },
+    {
+      "publisher": "뉴시스",
+      "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+      "url": "https://www.newsis.com/view/NISX20260806_0003738534",
+      "kind": "follow-up",
+      "extractedClaims": [
+        { "field": "appealSentence", "value": "1y6m-suspended3y", "date": "2026", "category": "trialStagesAndSentenceChanges", "perspective": "court", "summary": "항소심은 1심의 징역 2년을 파기하고 징역 1년 6개월에 집행유예 3년을 선고했다." },
+        { "field": "appealFactor", "value": "settlement-nonpunishment", "date": "2026", "category": "courtFindings", "perspective": "court", "summary": "재판부는 피해자와의 합의와 처벌불원 의사를 항소심 양형 요소로 고려했다." }
+      ]
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "커피에",
+      "몰래",
+      "살충제",
+      "간호조무사",
+      "2심서",
+      "감형",
+      "동료의",
+      "살충제를"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "커피",
+        "terms": [
+          "커피",
+          "음료",
+          "컵",
+          "카페"
+        ]
+      },
+      {
+        "name": "살충제",
+        "terms": [
+          "살충제",
+          "농약",
+          "독극물",
+          "독성물질",
+          "제초제"
+        ]
+      },
+      {
+        "name": "간호조무사",
+        "terms": [
+          "간호조무사",
+          "간호사",
+          "병원 직원",
+          "의료인"
+        ]
+      },
+      {
+        "name": "항소",
+        "terms": [
+          "항소",
+          "2심",
+          "2심",
+          "이심",
+          "감형",
+          "선고"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 3,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "커피에",
+      "몰래",
+      "살충제",
+      "간호조무사",
+      "2심서",
+      "감형",
+      "동료의",
+      "살충제를"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "커피",
+        "terms": [
+          "커피",
+          "음료",
+          "컵",
+          "카페"
+        ]
+      },
+      {
+        "name": "살충제",
+        "terms": [
+          "살충제",
+          "농약",
+          "독극물",
+          "독성물질",
+          "제초제"
+        ]
+      },
+      {
+        "name": "간호조무사",
+        "terms": [
+          "간호조무사",
+          "간호사",
+          "병원 직원",
+          "의료인"
+        ]
+      },
+      {
+        "name": "항소",
+        "terms": [
+          "항소",
+          "2심",
+          "2심",
+          "이심",
+          "감형",
+          "선고"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 3,
+    "minTotalMatches": 3
+  },
+  "contradictions": [
+    { "field": "incidentDate", "values": ["2025-03-28", "2025-03-29"], "status": "unresolved", "note": "검증된 동일 사건 보도의 날짜 표기가 엇갈린다." }
+  ],
+  "unknowns": [
+    "정확한 살충제 종류",
+    "정확한 살충제 투입량",
+    "항소심의 정확한 선고일"
+  ],
+  "actors": [
+    { "id": "actor-accused", "role": "피고인", "anonymizedLabel": "간호조무사 A" },
+    { "id": "actor-victim", "role": "피해자", "anonymizedLabel": "동료 간호조무사 B" }
+  ],
+  "limit": 30,
+  "generatedFrom": "event-dossier-migration-v1"
+}

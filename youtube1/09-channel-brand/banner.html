@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>내 무습다 YouTube Banner</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      width: 2560px;
+      height: 1440px;
+      margin: 0;
+      overflow: hidden;
+      background: #080808;
+      font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
+    }
+    .canvas {
+      position: relative;
+      width: 2560px;
+      height: 1440px;
+      overflow: hidden;
+      background: #0b0b0b;
+    }
+    .background {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(.88) contrast(1.08) brightness(.84);
+    }
+    .veil {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(0,0,0,.05) 0%, rgba(0,0,0,.38) 27%, rgba(0,0,0,.56) 50%, rgba(0,0,0,.38) 73%, rgba(0,0,0,.05) 100%),
+        radial-gradient(ellipse at center, rgba(0,0,0,.06) 0%, rgba(0,0,0,.22) 72%, rgba(0,0,0,.52) 100%);
+    }
+    .grain {
+      position: absolute;
+      inset: 0;
+      opacity: .09;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E");
+      mix-blend-mode: soft-light;
+    }
+    .safe {
+      position: absolute;
+      left: 507px;
+      top: 508px;
+      width: 1546px;
+      height: 423px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #f6f0e2;
+      text-shadow: 0 4px 26px rgba(0,0,0,.9);
+    }
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      margin-bottom: 8px;
+      color: #e7b84b;
+      font-size: 29px;
+      font-weight: 700;
+      letter-spacing: .22em;
+    }
+    .eyebrow::before, .eyebrow::after {
+      content: "";
+      width: 66px;
+      height: 3px;
+      background: #8e2222;
+    }
+    h1 {
+      margin: 0;
+      font-size: 166px;
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: -.06em;
+    }
+    .tagline {
+      margin-top: 24px;
+      font-size: 40px;
+      line-height: 1.25;
+      font-weight: 540;
+      letter-spacing: -.025em;
+      color: #eee7da;
+    }
+    .accent {
+      color: #e7b84b;
+    }
+  </style>
+</head>
+<body>
+  <main class="canvas" aria-label="내 무습다 유튜브 채널 배너">
+    <img class="background" src="assets/banner-background-v1.png" alt="">
+    <div class="veil"></div>
+    <div class="grain"></div>
+    <section class="safe">
+      <div class="eyebrow">일상 속 비상식 아카이브</div>
+      <h1>내 무습다</h1>
+      <div class="tagline">우리 주변에서 실제로 벌어진, <span class="accent">이해하기 어려운 사건들</span></div>
+    </section>
+  </main>
+</body>
+</html>

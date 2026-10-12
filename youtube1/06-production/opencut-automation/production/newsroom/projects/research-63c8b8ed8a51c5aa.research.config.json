@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-63c8b8ed8a51c5aa",
+  "topic": "또 다른 허위 종결 가족, 두 차례 경찰 찾아갔지만 그마저 무시당했다",
+  "query": "또 다른 허위 종결 가족, 두 차례 경찰 찾아갔지만 그마저 무시당했다",
+  "keywords": [
+    "다른",
+    "허위",
+    "종결",
+    "가족",
+    "차례",
+    "경찰",
+    "찾아갔지만",
+    "그마저",
+    "무시당했다",
+    "실종"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "JTBC 공식 일별 기사 sitemap",
+      "title": "또 다른 허위 종결 가족, 두 차례 경찰 찾아갔지만 그마저 무시당했다",
+      "url": "https://news.jtbc.co.kr/article/NB12314647"
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "다른",
+      "허위",
+      "종결",
+      "가족",
+      "차례",
+      "찾아갔지만",
+      "그마저",
+      "무시당했다",
+      "실종"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "다른",
+        "terms": [
+          "다른"
+        ]
+      },
+      {
+        "name": "허위",
+        "terms": [
+          "허위"
+        ]
+      },
+      {
+        "name": "종결",
+        "terms": [
+          "종결"
+        ]
+      },
+      {
+        "name": "가족",
+        "terms": [
+          "가족"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "다른",
+      "허위",
+      "종결",
+      "가족",
+      "차례",
+      "찾아갔지만",
+      "그마저",
+      "무시당했다",
+      "실종"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "다른",
+        "terms": [
+          "다른"
+        ]
+      },
+      {
+        "name": "허위",
+        "terms": [
+          "허위"
+        ]
+      },
+      {
+        "name": "종결",
+        "terms": [
+          "종결"
+        ]
+      },
+      {
+        "name": "가족",
+        "terms": [
+          "가족"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "contradictions": [],
+  "limit": 30,
+  "generatedFrom": "promoted-newsroom-candidate"
+}

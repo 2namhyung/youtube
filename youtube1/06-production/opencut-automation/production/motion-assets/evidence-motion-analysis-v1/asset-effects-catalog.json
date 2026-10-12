@@ -1,0 +1,2374 @@
+{
+  "schema_id": "asset-effects-catalog-v1",
+  "source_manifests": [
+    {
+      "version": "evidence-motion-v1",
+      "manifest_id": "evidence-motion-v1",
+      "asset_count": 20,
+      "manifest_path": "../evidence-motion-v1/manifest.json"
+    },
+    {
+      "version": "evidence-motion-v2",
+      "manifest_id": "evidence-motion-v2",
+      "asset_count": 158,
+      "manifest_path": "../evidence-motion-v2/manifest.json"
+    }
+  ],
+  "asset_count": 178,
+  "module_count": 14,
+  "modules": [
+    {
+      "module_id": "effect-01-data-viz",
+      "effect_family": "data-viz",
+      "title": "Data-viz geometry and chart-story emphasis",
+      "asset_ids": [
+        "hyperframes-data-chart",
+        "d3-d3-array-bin-js",
+        "d3-d3-array-group-js",
+        "d3-d3-array-license",
+        "d3-d3-array-mean-js",
+        "d3-d3-array-readme-md",
+        "d3-d3-scale-band-js",
+        "d3-d3-scale-license",
+        "d3-d3-scale-linear-js",
+        "d3-d3-scale-log-js",
+        "d3-d3-scale-readme-md",
+        "d3-d3-scale-symlog-js",
+        "d3-d3-shape-arc-js",
+        "d3-d3-shape-area-js",
+        "d3-d3-shape-curve-cardinal-js",
+        "d3-d3-shape-curve-catmullrom-js",
+        "d3-d3-shape-license",
+        "d3-d3-shape-line-js",
+        "d3-d3-shape-pie-js",
+        "d3-d3-shape-readme-md",
+        "d3-d3-shape-stack-js",
+        "d3-d3-shape-symbol-js",
+        "hyperframes-v2-components-chart-story-chart-story-html",
+        "hyperframes-v2-components-chart-story-registry-item-json"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "hyperframes-data-chart",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/hyperframes/blocks/data-chart/data-chart.html",
+          "format": "html",
+          "bytes": 13870,
+          "sha256": "02ccb24bfa21850d19c2842853256a3c47d5fd25dc746d6b99986bef268bf027"
+        },
+        {
+          "asset_id": "d3-d3-array-bin-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-array/bin.js",
+          "format": "js",
+          "bytes": 4055,
+          "sha256": "41f7cc39e146683c5da6ea7489903de2c5edb9bf725ca15b7cd015f603b306ac"
+        },
+        {
+          "asset_id": "d3-d3-array-group-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-array/group.js",
+          "format": "js",
+          "bytes": 1725,
+          "sha256": "63272376bb45ba323e22c56254ed9e068d526ec86d115fc7cd2d23a1c2360f8a"
+        },
+        {
+          "asset_id": "d3-d3-array-license",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-array/LICENSE",
+          "format": "binary",
+          "bytes": 731,
+          "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4"
+        },
+        {
+          "asset_id": "d3-d3-array-mean-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-array/mean.js",
+          "format": "js",
+          "bytes": 483,
+          "sha256": "880f69bfc02be2d3acd943de51cf075b6a9ffb06ce751a42da8a73a091172e48"
+        },
+        {
+          "asset_id": "d3-d3-array-readme-md",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-array/README.md",
+          "format": "md",
+          "bytes": 417,
+          "sha256": "7c2d38a3f95d0526ffb039d62f2c89acba495a596304972c5eb3e3c9cf9270f4"
+        },
+        {
+          "asset_id": "d3-d3-scale-band-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-scale/band.js",
+          "format": "js",
+          "bytes": 2653,
+          "sha256": "9b6f6d65a4343c446fa3354a899b5f141a707b277ba7474acbef621c4212ec05"
+        },
+        {
+          "asset_id": "d3-d3-scale-license",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-scale/LICENSE",
+          "format": "binary",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        },
+        {
+          "asset_id": "d3-d3-scale-linear-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-scale/linear.js",
+          "format": "js",
+          "bytes": 1620,
+          "sha256": "6223d1339147f7a311374307451183a110912c230e62f484b4dc06914c78ac87"
+        },
+        {
+          "asset_id": "d3-d3-scale-log-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-scale/log.js",
+          "format": "js",
+          "bytes": 3460,
+          "sha256": "a8d231005032382f02b9ce4d3ad546c3b354bdd78657f27fbd01bf8029296816"
+        },
+        {
+          "asset_id": "d3-d3-scale-readme-md",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-scale/README.md",
+          "format": "md",
+          "bytes": 803,
+          "sha256": "85f069e579a483a0aa79571cd4224dc4e21d7594b3fa61dbd2cc8a5c2e178554"
+        },
+        {
+          "asset_id": "d3-d3-scale-symlog-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-scale/symlog.js",
+          "format": "js",
+          "bytes": 848,
+          "sha256": "c012eee906c5d173631766a1c4f181ce09fc1585b04d6187e9b232eab9f0ee04"
+        },
+        {
+          "asset_id": "d3-d3-shape-arc-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-shape/arc.js",
+          "format": "js",
+          "bytes": 8844,
+          "sha256": "e657e8455af7c62613bde73cd45cea79709608d97759fe5e4c3e5ef6cdbd8deb"
+        },
+        {
+          "asset_id": "d3-d3-shape-area-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-shape/area.js",
+          "format": "js",
+          "bytes": 3218,
+          "sha256": "a2b2a221aaac4ed5715ff22d5a8d2264dd2992bd7ba22b0973e1555f6c3fd85a"
+        },
+        {
+          "asset_id": "d3-d3-shape-curve-cardinal-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-shape/curve__cardinal.js",
+          "format": "js",
+          "bytes": 1639,
+          "sha256": "0e9893ab95b71f4cfe52ddfdaa55de4997c1944774f6906c2fc5ea9f1421dffa"
+        },
+        {
+          "asset_id": "d3-d3-shape-curve-catmullrom-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-shape/curve__catmullRom.js",
+          "format": "js",
+          "bytes": 2649,
+          "sha256": "ce34a4dea067b85dd7d7e3c374dbeceb6424a0f31e7f2964943c6a8371c7a9cc"
+        },
+        {
+          "asset_id": "d3-d3-shape-license",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-shape/LICENSE",
+          "format": "binary",
+          "bytes": 731,
+          "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+        },
+        {
+          "asset_id": "d3-d3-shape-line-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-shape/line.js",
+          "format": "js",
+          "bytes": 1733,
+          "sha256": "90eac879faa69aa2178a21e4ed2838c8f975e3d3282936dcc415b48573352da6"
+        },
+        {
+          "asset_id": "d3-d3-shape-pie-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-shape/pie.js",
+          "format": "js",
+          "bytes": 2396,
+          "sha256": "5316912248e7e426fd41bab3af62719bada72fb0394a097c6cf251667f053c75"
+        },
+        {
+          "asset_id": "d3-d3-shape-readme-md",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-shape/README.md",
+          "format": "md",
+          "bytes": 603,
+          "sha256": "00db0191d99ec1314fa7f18619afb7f51af33fd3564f1ea93dee54d0d33a2732"
+        },
+        {
+          "asset_id": "d3-d3-shape-stack-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-shape/stack.js",
+          "format": "js",
+          "bytes": 1428,
+          "sha256": "d53a92ad2b8212cb90eb143e721a59c97a77031c9e86ee1880b3c0b7dedc6aa6"
+        },
+        {
+          "asset_id": "d3-d3-shape-symbol-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/d3/d3-shape/symbol.js",
+          "format": "js",
+          "bytes": 1839,
+          "sha256": "0b4cdaee30f23496ec3d4d0603ba304ce7552694597efc0cf0732713228349c0"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-chart-story-chart-story-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/chart-story/chart-story.html",
+          "format": "html",
+          "bytes": 30464,
+          "sha256": "d65180b77637521ea98676c9af1d59395f1e70ce0d0d5e1f604d02bee2821310"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-chart-story-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/chart-story/registry-item.json",
+          "format": "json",
+          "bytes": 3090,
+          "sha256": "62ebc6f7586075177bba9b44f36d4c9a08864b00a01931187e6d5618cba036fb"
+        }
+      ],
+      "visual_behavior": "Data-viz geometry and chart-story emphasis; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "Apache-2.0 — https://github.com/heygen-com/hyperframes/blob/main/LICENSE",
+        "ISC — https://github.com/d3/d3-array/blob/main/LICENSE",
+        "ISC — https://github.com/d3/d3-scale/blob/main/LICENSE",
+        "ISC — https://github.com/d3/d3-shape/blob/main/LICENSE"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "support",
+        "phone": "support"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack data-viz as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": true
+      }
+    },
+    {
+      "module_id": "effect-02-diagram",
+      "effect_family": "diagram",
+      "title": "Flowchart/vertical investigation diagram",
+      "asset_ids": [
+        "hyperframes-flowchart",
+        "hyperframes-v2-blocks-flowchart-vertical-flowchart-vertical-html",
+        "hyperframes-v2-blocks-flowchart-vertical-registry-item-json"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "hyperframes-flowchart",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/hyperframes/blocks/flowchart/flowchart.html",
+          "format": "html",
+          "bytes": 14232,
+          "sha256": "0b3455fe4f185351ff9cf2d7a6230ea2f1440709443ed9fbf3852852c1ef603a"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-flowchart-vertical-flowchart-vertical-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/flowchart-vertical/flowchart-vertical.html",
+          "format": "html",
+          "bytes": 13952,
+          "sha256": "371a521511591c15ea6b0a659ab31522a1fae70443c0b13d10f877360274200a"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-flowchart-vertical-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/flowchart-vertical/registry-item.json",
+          "format": "json",
+          "bytes": 849,
+          "sha256": "a7bfe67ee57c87556de39c0a8434f8ddb7a822b7521e905a652e56ab3644d251"
+        }
+      ],
+      "visual_behavior": "Flowchart/vertical investigation diagram; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "Apache-2.0 — https://github.com/heygen-com/hyperframes/blob/main/LICENSE"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "support",
+        "phone": "support"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack diagram as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": true
+      }
+    },
+    {
+      "module_id": "effect-03-transition",
+      "effect_family": "transition",
+      "title": "Editorial wipe, mask and flash transition",
+      "asset_ids": [
+        "hyperframes-flash-through-white",
+        "hyperframes-v2-components-before-after-wipe-before-after-wipe-html",
+        "hyperframes-v2-components-before-after-wipe-registry-item-json",
+        "hyperframes-v2-components-directional-wipe-directional-wipe-html",
+        "hyperframes-v2-components-directional-wipe-registry-item-json",
+        "hyperframes-v2-components-headline-slam-headline-slam-html",
+        "hyperframes-v2-components-headline-slam-registry-item-json"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "hyperframes-flash-through-white",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/hyperframes/blocks/flash-through-white/flash-through-white.html",
+          "format": "html",
+          "bytes": 12474,
+          "sha256": "d63cdbe17d81c12ee23406dd2dacf7e6a9489121906a7a3a2f74980ece623bac"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-before-after-wipe-before-after-wipe-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/before-after-wipe/before-after-wipe.html",
+          "format": "html",
+          "bytes": 19440,
+          "sha256": "c04e8bf1bfbcec71d0921a03a786cc09e660732428aa04bf79036a30b7755e09"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-before-after-wipe-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/before-after-wipe/registry-item.json",
+          "format": "json",
+          "bytes": 2728,
+          "sha256": "7b1927e8c2f7368e5d3af755cd1be00425124246bbf64b391e0465905431c87b"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-directional-wipe-directional-wipe-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/directional-wipe/directional-wipe.html",
+          "format": "html",
+          "bytes": 6157,
+          "sha256": "1cfa283162eef79eadc222ef3aeeb56ab78aab61b5b5621c0624f9ab1feee7c4"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-directional-wipe-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/directional-wipe/registry-item.json",
+          "format": "json",
+          "bytes": 1632,
+          "sha256": "974b44b4cd419d6480d7cc3184ee46ae5c083aebec4c10a74d696b3fdd819c89"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-headline-slam-headline-slam-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/headline-slam/headline-slam.html",
+          "format": "html",
+          "bytes": 8784,
+          "sha256": "b16ac28b01bf7f352d6a3f267838253de85794cd9bedd8065b48d7675e9295cd"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-headline-slam-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/headline-slam/registry-item.json",
+          "format": "json",
+          "bytes": 1863,
+          "sha256": "4effd43c7db989e27014ee2a1f609fade0068e9a5eba6f54bf14282d95585f09"
+        }
+      ],
+      "visual_behavior": "Editorial wipe, mask and flash transition; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "Apache-2.0 — https://github.com/heygen-com/hyperframes/blob/main/LICENSE"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "support",
+        "phone": "support"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack transition as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": true
+      }
+    },
+    {
+      "module_id": "effect-04-map",
+      "effect_family": "map",
+      "title": "Authority-bound route/map motion",
+      "asset_ids": [
+        "hyperframes-nyc-paris-flight",
+        "hyperframes-nyc-paris-map",
+        "natural-earth-110m-admin0-countries",
+        "natural-earth-10m-coastline",
+        "hyperframes-v2-blocks-us-map-flow-registry-item-json",
+        "hyperframes-v2-blocks-us-map-flow-us-map-flow-html",
+        "hyperframes-v2-blocks-world-map-registry-item-json",
+        "hyperframes-v2-blocks-world-map-world-map-html",
+        "topojson-runtime-d3-7-min-js",
+        "topojson-runtime-topojson-client-3-1-0-min-js",
+        "topojson-us-atlas-3-license",
+        "topojson-us-atlas-3-package-json",
+        "topojson-us-atlas-3-states-10m-json",
+        "topojson-world-atlas-2-countries-110m-json",
+        "topojson-world-atlas-2-license",
+        "topojson-world-atlas-2-package-json"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "hyperframes-nyc-paris-flight",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/hyperframes/blocks/nyc-paris-flight/nyc-paris-flight.html",
+          "format": "html",
+          "bytes": 15105,
+          "sha256": "185fdae537f43f6cd3750d38ef23287c1a26c86108ebde9a90bda126acd3fa2c"
+        },
+        {
+          "asset_id": "hyperframes-nyc-paris-map",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/hyperframes/blocks/nyc-paris-flight/assets/map-nyc-paris.png",
+          "format": "png",
+          "bytes": 451841,
+          "sha256": "982e87145e1f7aa4b97674dba2ceabc7605d67c46234d4f105cdb336ce411688"
+        },
+        {
+          "asset_id": "natural-earth-110m-admin0-countries",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/natural-earth/ne_110m_admin_0_countries.zip",
+          "format": "zip/shapefile",
+          "bytes": 214976,
+          "sha256": "0f243aeac8ac6cf26f0417285b0bd33ac47f1b5bdb719fd3e0df37d03ea37110"
+        },
+        {
+          "asset_id": "natural-earth-10m-coastline",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/natural-earth/ne_10m_coastline.zip",
+          "format": "zip/shapefile",
+          "bytes": 3069451,
+          "sha256": "bfa04cdbcbef07ef90dfca1dabb48062eca29900a113df0f389303e255484017"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-us-map-flow-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/us-map-flow/registry-item.json",
+          "format": "json",
+          "bytes": 820,
+          "sha256": "75fdff94d1976ce5fc0d3cd3c29179217b1ea437939ecfbd0051c49d8af94f74"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-us-map-flow-us-map-flow-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/us-map-flow/us-map-flow.html",
+          "format": "html",
+          "bytes": 13724,
+          "sha256": "d331e43b6e0bfa51dd7cdfceee8c3cf4c01186887e4c405bac3a0f5f35ba11f2"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-world-map-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/world-map/registry-item.json",
+          "format": "json",
+          "bytes": 812,
+          "sha256": "eaac0b25e67c56ae23fdc169c8bc5668b50356576dae1a63abe77fb214e0a052"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-world-map-world-map-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/world-map/world-map.html",
+          "format": "html",
+          "bytes": 12899,
+          "sha256": "f0e3f9b9841137f8639136a1bcd6fcb233c50f780ea8eb5792f20faa8f62e85d"
+        },
+        {
+          "asset_id": "topojson-runtime-d3-7-min-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/topojson/runtime/d3-7.min.js",
+          "format": "js",
+          "bytes": 279706,
+          "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
+        },
+        {
+          "asset_id": "topojson-runtime-topojson-client-3-1-0-min-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/topojson/runtime/topojson-client-3.1.0.min.js",
+          "format": "js",
+          "bytes": 7169,
+          "sha256": "25cd02ae486cc5063e0215a4e4cfb15de83700c87ac48bac4d57dc6aaf3ebb89"
+        },
+        {
+          "asset_id": "topojson-us-atlas-3-license",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/topojson/us-atlas-3/LICENSE",
+          "format": "binary",
+          "bytes": 734,
+          "sha256": "8048290dfdb6e83fbed17e8985c8cfc4ce9da9b842642f3d3e497280790cfa31"
+        },
+        {
+          "asset_id": "topojson-us-atlas-3-package-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/topojson/us-atlas-3/package.json",
+          "format": "json",
+          "bytes": 773,
+          "sha256": "c3426694d7ebf0eb006997565897618fcb06311eb174e028ab9daf467d471a14"
+        },
+        {
+          "asset_id": "topojson-us-atlas-3-states-10m-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/topojson/us-atlas-3/states-10m.json",
+          "format": "json",
+          "bytes": 114554,
+          "sha256": "d76b391ccfa8bff601d51e3e3da5d43a89fa46cd5caca72ce731b383be5596d0"
+        },
+        {
+          "asset_id": "topojson-world-atlas-2-countries-110m-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/topojson/world-atlas-2/countries-110m.json",
+          "format": "json",
+          "bytes": 107761,
+          "sha256": "2516c915867c7baf18ddec727aec46c315541a07cfb3d79a6559b05d5e94eee8"
+        },
+        {
+          "asset_id": "topojson-world-atlas-2-license",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/topojson/world-atlas-2/LICENSE",
+          "format": "binary",
+          "bytes": 734,
+          "sha256": "8048290dfdb6e83fbed17e8985c8cfc4ce9da9b842642f3d3e497280790cfa31"
+        },
+        {
+          "asset_id": "topojson-world-atlas-2-package-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/topojson/world-atlas-2/package.json",
+          "format": "json",
+          "bytes": 783,
+          "sha256": "0bc5556d38851087779b77cff787e16778d76e7860136c9c7537b37fdc79e146"
+        }
+      ],
+      "visual_behavior": "Authority-bound route/map motion; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "Apache-2.0 — https://github.com/heygen-com/hyperframes/blob/main/LICENSE",
+        "Public domain — https://www.naturalearthdata.com/about/terms-of-use/",
+        "ISC — https://github.com/d3/d3/blob/main/LICENSE",
+        "ISC — https://github.com/topojson/topojson-client/blob/master/LICENSE",
+        "ISC — https://github.com/topojson/us-atlas/blob/master/LICENSE",
+        "ISC — https://github.com/topojson/world-atlas/blob/master/LICENSE"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "primary",
+        "nurse": "support",
+        "phone": "support"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack map as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": true
+      }
+    },
+    {
+      "module_id": "effect-05-audio",
+      "effect_family": "audio",
+      "title": "Documentary sound cue",
+      "asset_ids": [
+        "hyperframes-nyc-paris-sfx",
+        "sfx-contact-type-public-domain-ogg",
+        "sfx-pocket-camera-start-stop-public-domain-ogg",
+        "sfx-teleprinter-typing-cc-by-ogg"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "hyperframes-nyc-paris-sfx",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/hyperframes/blocks/nyc-paris-flight/assets/sfx-mix.wav",
+          "format": "wav",
+          "bytes": 1152044,
+          "sha256": "e3da3426014c629093ef5a50883f24de6445d5ea9f636ad029b25cb68f854493"
+        },
+        {
+          "asset_id": "sfx-contact-type-public-domain-ogg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/sfx/contact-type-public-domain.ogg",
+          "format": "ogg",
+          "bytes": 170085,
+          "sha256": "b3186c7dd89285ec2c237aac91638c8e62e007900f5a11511fcc62997c446136"
+        },
+        {
+          "asset_id": "sfx-pocket-camera-start-stop-public-domain-ogg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/sfx/pocket-camera-start-stop-public-domain.ogg",
+          "format": "ogg",
+          "bytes": 186116,
+          "sha256": "0acb541c09f87c77ad35bed2796d6963811e60a5c7261c1b1c3264215e196e6b"
+        },
+        {
+          "asset_id": "sfx-teleprinter-typing-cc-by-ogg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/sfx/teleprinter-typing-cc-by.ogg",
+          "format": "ogg",
+          "bytes": 1470595,
+          "sha256": "341c429eb0836ee6f244d92afc61fdb3a7bda103a72f101ba50eaed5c6585395"
+        }
+      ],
+      "visual_behavior": "Documentary sound cue; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "Apache-2.0 — https://github.com/heygen-com/hyperframes/blob/main/LICENSE",
+        "Public domain — https://commons.wikimedia.org/wiki/File:Contact_type_(1).ogg",
+        "Public domain — https://commons.wikimedia.org/wiki/File:Pocket_camera_start_and_shut_down.ogg",
+        "CC-BY-4.0 — https://commons.wikimedia.org/wiki/File:WWS_Teleprintertyping.ogg"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "support",
+        "phone": "primary"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack audio as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": false
+      }
+    },
+    {
+      "module_id": "effect-06-caption",
+      "effect_family": "caption",
+      "title": "Korean caption/word reveal",
+      "asset_ids": [
+        "hyperframes-caption-clip-wipe"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "hyperframes-caption-clip-wipe",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/hyperframes/components/caption-clip-wipe/caption-clip-wipe.html",
+          "format": "html",
+          "bytes": 7211,
+          "sha256": "8b9e06353df3ea3bc0113a9c7ef3e480293a6ed75bee46744b053bf5e02dc5f6"
+        }
+      ],
+      "visual_behavior": "Korean caption/word reveal; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "Apache-2.0 — https://github.com/heygen-com/hyperframes/blob/main/LICENSE"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "support",
+        "phone": "primary"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack caption as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": true
+      }
+    },
+    {
+      "module_id": "effect-07-lower-third",
+      "effect_family": "lower-third",
+      "title": "News lower-third/ticker",
+      "asset_ids": [
+        "hyperframes-yt-lower-third",
+        "hyperframes-yt-avatar",
+        "hyperframes-v2-blocks-lower-third-bild-barlowcondensed-bold-woff2",
+        "hyperframes-v2-blocks-lower-third-bild-barlowcondensed-extrabold-woff2",
+        "hyperframes-v2-blocks-lower-third-bild-lower-third-bild-html",
+        "hyperframes-v2-blocks-lower-third-bild-registry-item-json",
+        "hyperframes-v2-blocks-lt-clean-bar-lt-clean-bar-html",
+        "hyperframes-v2-blocks-lt-clean-bar-registry-item-json",
+        "hyperframes-v2-blocks-lt-mask-reveal-lt-mask-reveal-html",
+        "hyperframes-v2-blocks-lt-mask-reveal-registry-item-json",
+        "hyperframes-v2-blocks-news-ticker-news-ticker-html",
+        "hyperframes-v2-blocks-news-ticker-registry-item-json"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "hyperframes-yt-lower-third",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/hyperframes/blocks/yt-lower-third/yt-lower-third.html",
+          "format": "html",
+          "bytes": 5890,
+          "sha256": "35c8eaf005a39a52a68a2944f063628c77f5890f265da9c26de4683fcd904ba2"
+        },
+        {
+          "asset_id": "hyperframes-yt-avatar",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/hyperframes/blocks/yt-lower-third/assets/avatar.jpg",
+          "format": "jpg",
+          "bytes": 5010,
+          "sha256": "a300f59c31d2ea16195a2ff9a9af50b29c6aecc05d505d69f2a2132a53b99032"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-lower-third-bild-barlowcondensed-bold-woff2",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/lower-third-bild/BarlowCondensed-Bold.woff2",
+          "format": "woff2",
+          "bytes": 23028,
+          "sha256": "75b7b8e878ea0c33be73e888d0d192df09da34af0cf428b69f8c208e0c27e688"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-lower-third-bild-barlowcondensed-extrabold-woff2",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/lower-third-bild/BarlowCondensed-ExtraBold.woff2",
+          "format": "woff2",
+          "bytes": 23116,
+          "sha256": "2e5732c61470a890aee05ee399f6720664835efab8749dfc87d487e7882ffc44"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-lower-third-bild-lower-third-bild-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/lower-third-bild/lower-third-bild.html",
+          "format": "html",
+          "bytes": 4042,
+          "sha256": "9f645b77aefefa4815990f7a498f220349ed5c9edd1be5e07da8100b797d3fee"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-lower-third-bild-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/lower-third-bild/registry-item.json",
+          "format": "json",
+          "bytes": 1206,
+          "sha256": "76423bb914f11b346877c85cc860462215a022e2f08fb0f50b4a9631c4542802"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-lt-clean-bar-lt-clean-bar-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/lt-clean-bar/lt-clean-bar.html",
+          "format": "html",
+          "bytes": 3277,
+          "sha256": "6648b428ea74128368545a5cdf8d83a82e75dc468e9d3bbbac933e1463df5a67"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-lt-clean-bar-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/lt-clean-bar/registry-item.json",
+          "format": "json",
+          "bytes": 590,
+          "sha256": "8ee55069c2f348c65c963fa8911daad5200a3c39c4df8986fbb2ba29d94d233c"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-lt-mask-reveal-lt-mask-reveal-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/lt-mask-reveal/lt-mask-reveal.html",
+          "format": "html",
+          "bytes": 3882,
+          "sha256": "7f348ec3124e211f7ec8e7241f21220134504ab713143e3f9dc10e016892e2e3"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-lt-mask-reveal-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/lt-mask-reveal/registry-item.json",
+          "format": "json",
+          "bytes": 605,
+          "sha256": "befe86d7bd1598242f43fbdd032230d06f511184172d8dcf5b9990b53073b143"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-news-ticker-news-ticker-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/news-ticker/news-ticker.html",
+          "format": "html",
+          "bytes": 11403,
+          "sha256": "8da727da9c8c2e7adda0d5f7ce1991b5443eb65145d058ccfa64b3331fc565df"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-news-ticker-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/news-ticker/registry-item.json",
+          "format": "json",
+          "bytes": 568,
+          "sha256": "01adb34a6fa20f21b99de0836b3d6a073ea998fb7c4810cb7c0933fe4fa0adea"
+        }
+      ],
+      "visual_behavior": "News lower-third/ticker; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "Apache-2.0 — https://github.com/heygen-com/hyperframes/blob/main/LICENSE",
+        "OFL-1.1 — https://github.com/jpt/barlow/blob/main/OFL.txt"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "support",
+        "phone": "support"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack lower-third as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": true
+      }
+    },
+    {
+      "module_id": "effect-08-icon",
+      "effect_family": "icon",
+      "title": "Semantic evidence icon primitive",
+      "asset_ids": [
+        "lucide-smartphone",
+        "lucide-map-pin",
+        "lucide-hospital",
+        "lucide-activity",
+        "lucide-stethoscope",
+        "lucide-file-text",
+        "lucide-clock-3",
+        "iconoir-icons-activity-svg",
+        "iconoir-icons-book-stack-svg",
+        "iconoir-icons-chat-lines-svg",
+        "iconoir-icons-clock-svg",
+        "iconoir-icons-community-svg",
+        "iconoir-icons-git-branch-svg",
+        "iconoir-icons-hospital-svg",
+        "iconoir-icons-map-pin-svg",
+        "iconoir-icons-media-video-list-svg",
+        "iconoir-icons-network-svg",
+        "iconoir-icons-phone-svg",
+        "iconoir-icons-shield-check-svg",
+        "iconoir-icons-smartphone-device-svg",
+        "iconoir-icons-submit-document-svg",
+        "iconoir-icons-warning-circle-svg",
+        "iconoir-license",
+        "phosphor-icons-regular-camera-svg",
+        "phosphor-icons-regular-clock-svg",
+        "phosphor-icons-regular-device-mobile-svg",
+        "phosphor-icons-regular-file-text-svg",
+        "phosphor-icons-regular-git-branch-svg",
+        "phosphor-icons-regular-heartbeat-svg",
+        "phosphor-icons-regular-hospital-svg",
+        "phosphor-icons-regular-map-pin-svg",
+        "phosphor-icons-regular-microphone-svg",
+        "phosphor-icons-regular-newspaper-svg",
+        "phosphor-icons-regular-phone-svg",
+        "phosphor-icons-regular-shield-check-svg",
+        "phosphor-icons-regular-stethoscope-svg",
+        "phosphor-icons-regular-users-three-svg",
+        "phosphor-icons-regular-warning-circle-svg",
+        "phosphor-license",
+        "tabler-icons-outline-alert-circle-svg",
+        "tabler-icons-outline-building-hospital-svg",
+        "tabler-icons-outline-camera-svg",
+        "tabler-icons-outline-chart-line-svg",
+        "tabler-icons-outline-clock-svg",
+        "tabler-icons-outline-device-mobile-svg",
+        "tabler-icons-outline-file-text-svg",
+        "tabler-icons-outline-git-branch-svg",
+        "tabler-icons-outline-map-pin-svg",
+        "tabler-icons-outline-microphone-svg",
+        "tabler-icons-outline-news-svg",
+        "tabler-icons-outline-shield-check-svg",
+        "tabler-icons-outline-stethoscope-svg",
+        "tabler-icons-outline-timeline-svg",
+        "tabler-icons-outline-users-svg",
+        "tabler-license"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "lucide-smartphone",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/lucide/icons/smartphone.svg",
+          "format": "svg",
+          "bytes": 294,
+          "sha256": "f9fdb700b50feb5fc6436f53eb9813e9eb56a9071ac4cdcba69c7f7c1c13877d"
+        },
+        {
+          "asset_id": "lucide-map-pin",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/lucide/icons/map-pin.svg",
+          "format": "svg",
+          "bytes": 359,
+          "sha256": "16f1042a62f1bda20ebab8bfc1cb79c0be285c980dea6c2c733a17902631405b"
+        },
+        {
+          "asset_id": "lucide-hospital",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/lucide/icons/hospital.svg",
+          "format": "svg",
+          "bytes": 442,
+          "sha256": "d13d08f229cb151593c5e5a55a0c287b223f353acab6b2c805b5ca2a73958601"
+        },
+        {
+          "asset_id": "lucide-activity",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/lucide/icons/activity.svg",
+          "format": "svg",
+          "bytes": 346,
+          "sha256": "050fbcda05e13c2051cf857683645e19c6b180861ef4d0cc28a6f09ba1ea1666"
+        },
+        {
+          "asset_id": "lucide-stethoscope",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/lucide/icons/stethoscope.svg",
+          "format": "svg",
+          "bytes": 399,
+          "sha256": "a5621a048bcb911d4d51a6b8e6b5821dc68b0e7554dc001389ee9bc5f251c3ad"
+        },
+        {
+          "asset_id": "lucide-file-text",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/lucide/icons/file-text.svg",
+          "format": "svg",
+          "bytes": 444,
+          "sha256": "52ca55846c202335fb870c8aa23e9345630ec10489303756d62e750f7109605c"
+        },
+        {
+          "asset_id": "lucide-clock-3",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/lucide/icons/clock-3.svg",
+          "format": "svg",
+          "bytes": 269,
+          "sha256": "0e097d0b66278965fb53bc14900575d95f5c21b9cca932028bbb33294b56c9e2"
+        },
+        {
+          "asset_id": "iconoir-icons-activity-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/activity.svg",
+          "format": "svg",
+          "bytes": 230,
+          "sha256": "ea5a6551259d02f425678cb7f96f67c06391c30527c9437f6ce4d595d71a1b9f"
+        },
+        {
+          "asset_id": "iconoir-icons-book-stack-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/book-stack.svg",
+          "format": "svg",
+          "bytes": 810,
+          "sha256": "28be934727133bed4c7e634edbe7de774a712c4462993d6e2ad15c7a63bb3c35"
+        },
+        {
+          "asset_id": "iconoir-icons-chat-lines-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/chat-lines.svg",
+          "format": "svg",
+          "bytes": 576,
+          "sha256": "8e30fa2899e6b8ef60215a059b91fc11347e78327c3965369d79a26e9c5400ea"
+        },
+        {
+          "asset_id": "iconoir-icons-clock-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/clock.svg",
+          "format": "svg",
+          "bytes": 416,
+          "sha256": "4ded22c3d1eda6eb07bb6820bf6f23fbd217a4d44dbf680a1ab587d92d9427dd"
+        },
+        {
+          "asset_id": "iconoir-icons-community-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/community.svg",
+          "format": "svg",
+          "bytes": 1100,
+          "sha256": "2f4b2c139f10028eb9d082307ef6f4c7c3dee27fbb93c6f42265bb099ab99651"
+        },
+        {
+          "asset_id": "iconoir-icons-git-branch-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/git-branch.svg",
+          "format": "svg",
+          "bytes": 709,
+          "sha256": "75c67ac6427c633daae8fec14191e60c91fd1ad7364dfe90412e1998c4fcb889"
+        },
+        {
+          "asset_id": "iconoir-icons-hospital-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/hospital.svg",
+          "format": "svg",
+          "bytes": 1207,
+          "sha256": "29563924308d0339c5476ef5410a83417e44d3e8291394ef9e36d58b2113b959"
+        },
+        {
+          "asset_id": "iconoir-icons-map-pin-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/map-pin.svg",
+          "format": "svg",
+          "bytes": 497,
+          "sha256": "afbeccb875ea967ef90a14bb78f6687954ba4149c260f9b1e9335c4561e2e15c"
+        },
+        {
+          "asset_id": "iconoir-icons-media-video-list-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/media-video-list.svg",
+          "format": "svg",
+          "bytes": 733,
+          "sha256": "61e53f02bd66171e93b1169bbefb18207445ea98993f9af475ce04643a2470eb"
+        },
+        {
+          "asset_id": "iconoir-icons-network-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/network.svg",
+          "format": "svg",
+          "bytes": 606,
+          "sha256": "fd2d0d2f903f2dc686a787156a4b730dc8b2e2f8bd269f6326db9798185152c7"
+        },
+        {
+          "asset_id": "iconoir-icons-phone-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/phone.svg",
+          "format": "svg",
+          "bytes": 485,
+          "sha256": "d6bafffb5865751d70e41075e734beda756797df73051fdcadbbe63684aa1732"
+        },
+        {
+          "asset_id": "iconoir-icons-shield-check-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/shield-check.svg",
+          "format": "svg",
+          "bytes": 579,
+          "sha256": "fcd0f7aaf49be11d89eccf2486165e0bdfafb0b9c7d05f659f084bbf1dbe8823"
+        },
+        {
+          "asset_id": "iconoir-icons-smartphone-device-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/smartphone-device.svg",
+          "format": "svg",
+          "bytes": 419,
+          "sha256": "12ea7a50dcc55c0724b12766a6945a3d46dc3c5893ad8d295d865c1175a57694"
+        },
+        {
+          "asset_id": "iconoir-icons-submit-document-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/submit-document.svg",
+          "format": "svg",
+          "bytes": 615,
+          "sha256": "1551937c9a03764424b443026bbe681243a96c5a6c34dd1c56138d84fb80b842"
+        },
+        {
+          "asset_id": "iconoir-icons-warning-circle-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/icons/warning-circle.svg",
+          "format": "svg",
+          "bytes": 515,
+          "sha256": "95340b84f91951c5fca05d3e71486047b2cca32bd639a8948fd85d782dd820fe"
+        },
+        {
+          "asset_id": "iconoir-license",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/iconoir/LICENSE",
+          "format": "binary",
+          "bytes": 1068,
+          "sha256": "869b60da1ada5b896d1f285c3c24ca193d612e308d1710a77a58f2f572eb4fa2"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-camera-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/camera.svg",
+          "format": "svg",
+          "bytes": 499,
+          "sha256": "e1fb071d5326bc4de193746b38457a6f73c89df90d65d33eaa8386eb22b219f5"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-clock-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/clock.svg",
+          "format": "svg",
+          "bytes": 287,
+          "sha256": "b8c6c2899d2b9af48a55ba02ba6d7faf89b757915772dd24f5397f7b0d02aa5c"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-device-mobile-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/device-mobile.svg",
+          "format": "svg",
+          "bytes": 311,
+          "sha256": "db1f74b205590c98d61f61dff7b1f702eddd5a9e15eec7d9681798054ccb757a"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-file-text-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/file-text.svg",
+          "format": "svg",
+          "bytes": 416,
+          "sha256": "9a580a038cce9f6dd223597864abe1b5c5c03bf8176d2f7171574598468b16f7"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-git-branch-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/git-branch.svg",
+          "format": "svg",
+          "bytes": 411,
+          "sha256": "3aaa3ec833418cdce445f8e1f901ab4021a9de02264610563e51e7109511b816"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-heartbeat-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/heartbeat.svg",
+          "format": "svg",
+          "bytes": 742,
+          "sha256": "1b3225bb7cbc6a8fe3dd6f5013b61484f59cdfae3bd19120197eff0db362f9cc"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-hospital-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/hospital.svg",
+          "format": "svg",
+          "bytes": 425,
+          "sha256": "f8fabc7326525fefc0dec50b2c2a425ba3ed63e4a6056aff8964e67ca3f3de54"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-map-pin-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/map-pin.svg",
+          "format": "svg",
+          "bytes": 459,
+          "sha256": "523f024fa467fc285d95c1db4ed6c32b640513c79780d14310bebf342b6f94fb"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-microphone-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/microphone.svg",
+          "format": "svg",
+          "bytes": 362,
+          "sha256": "b49dabfaf603e82594cef0c5e5784c747f4c098b7723d2973c92965745ca93a9"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-newspaper-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/newspaper.svg",
+          "format": "svg",
+          "bytes": 393,
+          "sha256": "edd422b8baf7fcbe2e4ee511b7926f1b92d40e344115fd1ae816d3ff37edab5b"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-phone-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/phone.svg",
+          "format": "svg",
+          "bytes": 709,
+          "sha256": "a6eaa18b76ebeff885aad0eff89dc286a659f263bea801359a6fe2d15cde24f8"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-shield-check-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/shield-check.svg",
+          "format": "svg",
+          "bytes": 536,
+          "sha256": "bb04d552c0baaaabd90f7eb60760cb0c7ddb7e9f47e4b76e9599ddd7dfd8eaa7"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-stethoscope-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/stethoscope.svg",
+          "format": "svg",
+          "bytes": 529,
+          "sha256": "93d2d423bba239d0927dd810f34d42508480d2d41bca7949d12a060b9216f8c1"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-users-three-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/users-three.svg",
+          "format": "svg",
+          "bytes": 689,
+          "sha256": "0e326e4ef7d1ae16f9988791f68fde7bae513bdc8c06db437cfd55bf13670bcf"
+        },
+        {
+          "asset_id": "phosphor-icons-regular-warning-circle-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/icons/regular/warning-circle.svg",
+          "format": "svg",
+          "bytes": 294,
+          "sha256": "e48a90760a68659fd3f06dd9187e471aead4877c72e915339071b2c7f7bd714c"
+        },
+        {
+          "asset_id": "phosphor-license",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/phosphor/LICENSE",
+          "format": "binary",
+          "bytes": 1071,
+          "sha256": "b5b1f1da112d18ea2147decfd48ddc1bf2b5aeb6c265381579340e95b15a2bb2"
+        },
+        {
+          "asset_id": "tabler-icons-outline-alert-circle-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/alert-circle.svg",
+          "format": "svg",
+          "bytes": 457,
+          "sha256": "b6354407e0d1a6b2a37ec0239e1d5d915fc888c4ddd03c9993f64be3fd31df83"
+        },
+        {
+          "asset_id": "tabler-icons-outline-building-hospital-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/building-hospital.svg",
+          "format": "svg",
+          "bytes": 561,
+          "sha256": "20ac8f8b9cc7740ac7238b8ff5b8dab21c001c7e69a8dde5bb338c75c9e7d73b"
+        },
+        {
+          "asset_id": "tabler-icons-outline-camera-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/camera.svg",
+          "format": "svg",
+          "bytes": 560,
+          "sha256": "24c3560560e6177528dada3805efab129c5667ef97b0ea342a21d0a34032baa8"
+        },
+        {
+          "asset_id": "tabler-icons-outline-chart-line-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/chart-line.svg",
+          "format": "svg",
+          "bytes": 428,
+          "sha256": "0a2ec43a92e585dfc29e515cedaf1fc656c466bab5a6b9e0aa0a56f0c384f88a"
+        },
+        {
+          "asset_id": "tabler-icons-outline-clock-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/clock.svg",
+          "format": "svg",
+          "bytes": 431,
+          "sha256": "bb582eb2c9d6709d285623bea586e1f532872a9db3d2391308360636e93d199d"
+        },
+        {
+          "asset_id": "tabler-icons-outline-device-mobile-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/device-mobile.svg",
+          "format": "svg",
+          "bytes": 510,
+          "sha256": "b716bffe6840f23dd39a2b16fa9cc18bc24ba94e82464521f78269b7e21fe705"
+        },
+        {
+          "asset_id": "tabler-icons-outline-file-text-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/file-text.svg",
+          "format": "svg",
+          "bytes": 547,
+          "sha256": "b76d018034764160f7661768f56a38003ed208a20843781a0a04aaae01dcbf66"
+        },
+        {
+          "asset_id": "tabler-icons-outline-git-branch-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/git-branch.svg",
+          "format": "svg",
+          "bytes": 615,
+          "sha256": "485a7aef87bd8f711455cc5fad59e4b011b7f02aed9f1c6d5108bece5305b588"
+        },
+        {
+          "asset_id": "tabler-icons-outline-map-pin-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/map-pin.svg",
+          "format": "svg",
+          "bytes": 491,
+          "sha256": "980c1cccd35d4244cf1625306e900d9b54f512e1ba253c61ffb2b1374746f04d"
+        },
+        {
+          "asset_id": "tabler-icons-outline-microphone-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/microphone.svg",
+          "format": "svg",
+          "bytes": 534,
+          "sha256": "804b6189fea0ae697def236da6790d3ae81e99449cd5c056245c205eb7f333f2"
+        },
+        {
+          "asset_id": "tabler-icons-outline-news-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/news.svg",
+          "format": "svg",
+          "bytes": 528,
+          "sha256": "02c9f0177abc2fbecf2a7c89bf94d6be5189bbfa732762f8259c94d748b93c6f"
+        },
+        {
+          "asset_id": "tabler-icons-outline-shield-check-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/shield-check.svg",
+          "format": "svg",
+          "bytes": 502,
+          "sha256": "9c3d5fac4793c7df5b3f2418037f16cd2bb7ba217ca5ee619e17b715b2720364"
+        },
+        {
+          "asset_id": "tabler-icons-outline-stethoscope-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/stethoscope.svg",
+          "format": "svg",
+          "bytes": 587,
+          "sha256": "2efbfbc7e8e2426847aacbce6193dc46eb03b1bfd6496176ca3f7b3895fcd1e4"
+        },
+        {
+          "asset_id": "tabler-icons-outline-timeline-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/timeline.svg",
+          "format": "svg",
+          "bytes": 568,
+          "sha256": "b72fd22a6b3d5e814874a7527b807d767d89647539d0d6578e34be2c05632f0f"
+        },
+        {
+          "asset_id": "tabler-icons-outline-users-svg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/icons/outline/users.svg",
+          "format": "svg",
+          "bytes": 550,
+          "sha256": "ee1ec96e17087cbcb5663d84d2e5e1e46d56356c19d88bc42f8100154c1e298f"
+        },
+        {
+          "asset_id": "tabler-license",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/tabler/LICENSE",
+          "format": "binary",
+          "bytes": 1073,
+          "sha256": "b740a1d46122672da62833e97f7e7c8a13fa85cbc7445b584b297cc00dde93db"
+        }
+      ],
+      "visual_behavior": "Semantic evidence icon primitive; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "ISC — https://github.com/lucide-icons/lucide/blob/main/LICENSE",
+        "MIT — https://github.com/iconoir-icons/iconoir/blob/main/LICENSE",
+        "MIT — https://github.com/phosphor-icons/core/blob/main/LICENSE",
+        "MIT — https://github.com/tabler/tabler-icons/blob/main/LICENSE"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "primary",
+        "nurse": "primary",
+        "phone": "primary"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack icon as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": false
+      }
+    },
+    {
+      "module_id": "effect-09-texture",
+      "effect_family": "texture",
+      "title": "Editorial material texture",
+      "asset_ids": [
+        "polyhaven-wood-floor-diffuse-1k",
+        "polyhaven-concrete-floor-diffuse-1k"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "polyhaven-wood-floor-diffuse-1k",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/polyhaven/wood_floor_diff_1k.jpg",
+          "format": "jpg",
+          "bytes": 734493,
+          "sha256": "2a1c07687b6dbb214c4b9213739c6d92d425f1f0fc8ab3ac157f105d78240789"
+        },
+        {
+          "asset_id": "polyhaven-concrete-floor-diffuse-1k",
+          "manifest_version": "evidence-motion-v1",
+          "local_path": "sources/polyhaven/concrete_floor_01_diff_1k.jpg",
+          "format": "jpg",
+          "bytes": 755740,
+          "sha256": "db7c800f1464359b5f359fc743e82ac51b34e014fdfd53844f4af34bb1949229"
+        }
+      ],
+      "visual_behavior": "Editorial material texture; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "CC0 — https://polyhaven.com/license"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "support",
+        "phone": "support"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack texture as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": false
+      }
+    },
+    {
+      "module_id": "effect-10-motion",
+      "effect_family": "motion",
+      "title": "Motion Canvas/Lottie/GSAP timing primitive",
+      "asset_ids": [
+        "dotlottie-web-fixtures-focal-test-json",
+        "dotlottie-web-fixtures-markers-example-json",
+        "dotlottie-web-fixtures-sample-json",
+        "dotlottie-web-fixtures-test-json",
+        "dotlottie-web-license",
+        "gsap-gsap-js",
+        "gsap-gsap-min-js",
+        "gsap-package-json",
+        "gsap-readme-md",
+        "hyperframes-v2-license",
+        "lottie-web-license-md",
+        "lottie-web-samples-adrock-json",
+        "lottie-web-samples-bacon-json",
+        "lottie-web-samples-banner-json",
+        "lottie-web-samples-dalek-json",
+        "lottie-web-samples-lights-json",
+        "lottie-web-samples-monster-json",
+        "lottie-web-samples-ripple-json",
+        "lottie-web-samples-starfish-json",
+        "motion-canvas-examples-2023-04-06-example-cubic-tsx",
+        "motion-canvas-examples-2023-04-06-example-quadratic-tsx",
+        "motion-canvas-examples-2023-05-08-cardinal-tsx",
+        "motion-canvas-examples-2023-07-23-curve-tsx",
+        "motion-canvas-examples-2023-07-23-path-tsx",
+        "motion-canvas-examples-2023-10-14-skew-tsx",
+        "motion-canvas-examples-2023-12-31-line-tsx",
+        "motion-canvas-examples-2023-12-31-spawner-tsx",
+        "motion-canvas-examples-2023-12-31-txt-tsx",
+        "motion-canvas-examples-2024-02-04-shaders-tsx",
+        "motion-canvas-examples-2024-03-21-loop-tsx",
+        "motion-canvas-examples-2024-05-16-camera-tsx",
+        "motion-canvas-examples-2024-05-16-effects-tsx",
+        "motion-canvas-examples-2024-05-16-vectors-tsx",
+        "motion-canvas-examples-example-tsx",
+        "motion-canvas-license"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "dotlottie-web-fixtures-focal-test-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/dotlottie-web/fixtures/focal_test.json",
+          "format": "json",
+          "bytes": 65298,
+          "sha256": "4cfd6c80763ded8f4c70e9381c92cb52c38a1a599ca4399a54c290aa2907f968"
+        },
+        {
+          "asset_id": "dotlottie-web-fixtures-markers-example-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/dotlottie-web/fixtures/markers_example.json",
+          "format": "json",
+          "bytes": 312349,
+          "sha256": "4ea432945ad330b8aaca8dbbf47fac681b133fe612ada94e4979c667ffe20408"
+        },
+        {
+          "asset_id": "dotlottie-web-fixtures-sample-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/dotlottie-web/fixtures/sample.json",
+          "format": "json",
+          "bytes": 28006,
+          "sha256": "53d8732662594e97eac3886fed4d52724ac2639ff1c7adb56cb35cf9d7fd0af2"
+        },
+        {
+          "asset_id": "dotlottie-web-fixtures-test-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/dotlottie-web/fixtures/test.json",
+          "format": "json",
+          "bytes": 12679,
+          "sha256": "3dfe339ba9239ec2ffd591dda91761142799e3b384d31e119483f44d5cc7a5ee"
+        },
+        {
+          "asset_id": "dotlottie-web-license",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/dotlottie-web/LICENSE",
+          "format": "binary",
+          "bytes": 1072,
+          "sha256": "779cec663b3c6590082566f2a000170d7a4d1a4bfc6f954e61efa4adddc652a8"
+        },
+        {
+          "asset_id": "gsap-gsap-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/gsap/gsap.js",
+          "format": "js",
+          "bytes": 179557,
+          "sha256": "01effe0e121c22ba0f885a3f091f3dc6d1f0d445c4fba37dcb298e314eca5cfb"
+        },
+        {
+          "asset_id": "gsap-gsap-min-js",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/gsap/gsap.min.js",
+          "format": "js",
+          "bytes": 72927,
+          "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+        },
+        {
+          "asset_id": "gsap-package-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/gsap/package.json",
+          "format": "json",
+          "bytes": 2255,
+          "sha256": "4ca16b896affd09e270d4dcf5149a02f57def55e4747ce11f68c7723fd3dedaa"
+        },
+        {
+          "asset_id": "gsap-readme-md",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/gsap/README.md",
+          "format": "md",
+          "bytes": 6199,
+          "sha256": "66a79667b0538b19634b5a000a9a3debe588c98d390424e73e5d4de847270828"
+        },
+        {
+          "asset_id": "hyperframes-v2-license",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/LICENSE",
+          "format": "binary",
+          "bytes": 10763,
+          "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8"
+        },
+        {
+          "asset_id": "lottie-web-license-md",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/lottie-web/LICENSE.md",
+          "format": "md",
+          "bytes": 1075,
+          "sha256": "9d8d4d8b4bb99572ee8b51025a30b8493d949798cac465c6c15b1b29420bcb06"
+        },
+        {
+          "asset_id": "lottie-web-samples-adrock-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/lottie-web/samples/adrock.json",
+          "format": "json",
+          "bytes": 126898,
+          "sha256": "d7aff23a26d05f1005afd636bb8fd55a10d2ed08458cc16adf1ab5e896331693"
+        },
+        {
+          "asset_id": "lottie-web-samples-bacon-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/lottie-web/samples/bacon.json",
+          "format": "json",
+          "bytes": 397312,
+          "sha256": "2a2b0c41a827b818fced97425a62f3f366ec0e387328200be6b61b8fcdd88dc2"
+        },
+        {
+          "asset_id": "lottie-web-samples-banner-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/lottie-web/samples/banner.json",
+          "format": "json",
+          "bytes": 195847,
+          "sha256": "e18ddce5a70eadacedf3299ae8e9137546b1a1c3dad2fecd8d7c351f2ec9a39d"
+        },
+        {
+          "asset_id": "lottie-web-samples-dalek-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/lottie-web/samples/dalek.json",
+          "format": "json",
+          "bytes": 88635,
+          "sha256": "be4236f433e1276d17dfd796381758fa988670c322f4271feb6a262e00187e0d"
+        },
+        {
+          "asset_id": "lottie-web-samples-lights-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/lottie-web/samples/lights.json",
+          "format": "json",
+          "bytes": 22043,
+          "sha256": "6a4ac49f8b0b9d2a93bc6ecede15cc5a43088a5e6c5179ff4e7a614ba868dd5d"
+        },
+        {
+          "asset_id": "lottie-web-samples-monster-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/lottie-web/samples/monster.json",
+          "format": "json",
+          "bytes": 4713147,
+          "sha256": "d04819241e9d6db3df8fd6977836e3c9a31af3ff6ef272595ee98ca4792f141c"
+        },
+        {
+          "asset_id": "lottie-web-samples-ripple-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/lottie-web/samples/ripple.json",
+          "format": "json",
+          "bytes": 11458,
+          "sha256": "9bae16bf6c26263b37d1330c2fbc49468a83753f6179818badcf4954ca8f11f0"
+        },
+        {
+          "asset_id": "lottie-web-samples-starfish-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/lottie-web/samples/starfish.json",
+          "format": "json",
+          "bytes": 24780,
+          "sha256": "8a87402d48c24b8f3045679505536c8ad4c5dfe26703adb92429a9a13765c3cd"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2023-04-06-example-cubic-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2023-04-06-example-cubic.tsx",
+          "format": "tsx",
+          "bytes": 500,
+          "sha256": "8e548fc53a00769413d1024b11e2f3067fab0b6f4c879a720c30e4d939fb18f9"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2023-04-06-example-quadratic-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2023-04-06-example-quadratic.tsx",
+          "format": "tsx",
+          "bytes": 480,
+          "sha256": "48bbf54b77cdf03c5d87beed39e5a7d957ee3e4d1b71c493a0ab177bd5b924f8"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2023-05-08-cardinal-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2023-05-08-cardinal.tsx",
+          "format": "tsx",
+          "bytes": 688,
+          "sha256": "4f73d385b04261fd7dbab2fff5c121cd35651062b326adf74ce50ca8ca79ced6"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2023-07-23-curve-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2023-07-23-curve.tsx",
+          "format": "tsx",
+          "bytes": 542,
+          "sha256": "dfd381087dbb54a8734e12f3ff86de3e567cd5ef44f7067d7abaf1ba22051d2b"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2023-07-23-path-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2023-07-23-path.tsx",
+          "format": "tsx",
+          "bytes": 374,
+          "sha256": "0aaada82803a4b12b36a6c473cdc0b39d8f7dc7e5f353147f5d29956a3f78098"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2023-10-14-skew-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2023-10-14-skew.tsx",
+          "format": "tsx",
+          "bytes": 446,
+          "sha256": "077bf7b88bdbd1ca23fc75c9d9366a39b5b446b919fe994c9e5a31f0255de416"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2023-12-31-line-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2023-12-31-line.tsx",
+          "format": "tsx",
+          "bytes": 573,
+          "sha256": "298f0cdc83db35a5208a8c242b0f67ad1cb5a6cfdf7845875c685adfc648c3bb"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2023-12-31-spawner-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2023-12-31-spawner.tsx",
+          "format": "tsx",
+          "bytes": 172,
+          "sha256": "f7144026fc3c0f3b68a566f7084877296e3215ed0fb4dc6eaf6127bcce2a5d43"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2023-12-31-txt-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2023-12-31-txt.tsx",
+          "format": "tsx",
+          "bytes": 505,
+          "sha256": "e52bb5bedc06cf5c30393eb3c86b94e65ba76ead6f0a2076f4345f28fef85253"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2024-02-04-shaders-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2024-02-04-shaders.tsx",
+          "format": "tsx",
+          "bytes": 1117,
+          "sha256": "de2d799cc8cb4fc6919a0990f8aa5f9e39b9053176085fc2096028ee86b69ae5"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2024-03-21-loop-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2024-03-21-loop.tsx",
+          "format": "tsx",
+          "bytes": 157,
+          "sha256": "44c687fb801c884016589bdb3b909e1bedcfeb05799a24e6a52d25e3ca556f65"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2024-05-16-camera-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2024-05-16-camera.tsx",
+          "format": "tsx",
+          "bytes": 1137,
+          "sha256": "3148869068bef73e2d18ef25d2fd587cdc7694ae992ee54f08047d454d35eae6"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2024-05-16-effects-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2024-05-16-effects.tsx",
+          "format": "tsx",
+          "bytes": 293,
+          "sha256": "e59ff43f5fbe3e7f8f613d214b95853041e56fb8f57cb3bd24a8b3f7544a2d3d"
+        },
+        {
+          "asset_id": "motion-canvas-examples-2024-05-16-vectors-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/2024-05-16-vectors.tsx",
+          "format": "tsx",
+          "bytes": 161,
+          "sha256": "b159c4f9d556ce9c6f26b0171ba049f9c6c2b470eb3c44dcb28ae8bfe90831f2"
+        },
+        {
+          "asset_id": "motion-canvas-examples-example-tsx",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/examples/example.tsx",
+          "format": "tsx",
+          "bytes": 338,
+          "sha256": "6977e9ebb51dca78587e5d363a64b50a6ba494280d59562b5c22721ce3843ddc"
+        },
+        {
+          "asset_id": "motion-canvas-license",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/motion-canvas/LICENSE",
+          "format": "binary",
+          "bytes": 1070,
+          "sha256": "b3f12201916c5d478263cd210cf17f3d0c007d03bd574e0b77cac6307953068e"
+        }
+      ],
+      "visual_behavior": "Motion Canvas/Lottie/GSAP timing primitive; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "MIT (repository fixture; source-only) — https://github.com/LottieFiles/dotlottie-web/blob/main/LICENSE",
+        "MIT — https://github.com/LottieFiles/dotlottie-web/blob/main/LICENSE",
+        "GSAP standard no-charge license — https://gsap.com/standard-license",
+        "Apache-2.0 — https://github.com/heygen-com/hyperframes/blob/main/LICENSE",
+        "MIT — https://github.com/airbnb/lottie-web/blob/master/LICENSE.md",
+        "MIT (repository sample; source-only) — https://github.com/airbnb/lottie-web/blob/master/LICENSE.md",
+        "MIT — https://github.com/motion-canvas/motion-canvas/blob/main/LICENSE"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "support",
+        "phone": "support"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack motion as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": true
+      }
+    },
+    {
+      "module_id": "effect-11-typography",
+      "effect_family": "typography",
+      "title": "Korean news typography",
+      "asset_ids": [
+        "fonts-noto-sans-kr-notosanskr-vf-ttf",
+        "fonts-pretendard-pretendard-bold-ttf",
+        "fonts-pretendard-pretendard-regular-ttf"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "fonts-noto-sans-kr-notosanskr-vf-ttf",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/fonts/noto-sans-kr/NotoSansKR-VF.ttf",
+          "format": "ttf",
+          "bytes": 10415420,
+          "sha256": "9e1d729e7e2b36f9ef439da102f8c134c10aabe46f1c843bf0aca5c043b86f76"
+        },
+        {
+          "asset_id": "fonts-pretendard-pretendard-bold-ttf",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/fonts/pretendard/Pretendard-Bold.ttf",
+          "format": "ttf",
+          "bytes": 2661752,
+          "sha256": "c16b88c670d23e83fa1170c954cbc4822d3b8dad3c3cde15d798a94b43d97985"
+        },
+        {
+          "asset_id": "fonts-pretendard-pretendard-regular-ttf",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/fonts/pretendard/Pretendard-Regular.ttf",
+          "format": "ttf",
+          "bytes": 2725828,
+          "sha256": "6d0af5258997aec7354a6e340fc2325ba321c410ca48b3af858c8c3d6e92a324"
+        }
+      ],
+      "visual_behavior": "Korean news typography; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "OFL-1.1 — https://github.com/googlefonts/noto-cjk/blob/main/Sans/LICENSE",
+        "OFL-1.1 — https://github.com/orioncactus/pretendard/blob/main/LICENSE"
+      ],
+      "direct_or_source_only": "direct-local",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "primary",
+        "phone": "support"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack typography as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": false
+      }
+    },
+    {
+      "module_id": "effect-12-document",
+      "effect_family": "document",
+      "title": "Document forensics/annotation/comparison",
+      "asset_ids": [
+        "hyperframes-v2-blocks-code-diff-code-diff-html",
+        "hyperframes-v2-blocks-code-diff-registry-item-json",
+        "hyperframes-v2-components-caption-editorial-emphasis-caption-editorial-emphasis-html",
+        "hyperframes-v2-components-caption-editorial-emphasis-registry-item-json",
+        "hyperframes-v2-components-comparison-split-comparison-split-html",
+        "hyperframes-v2-components-comparison-split-registry-item-json",
+        "hyperframes-v2-components-marker-highlight-marker-highlight-html",
+        "hyperframes-v2-components-marker-highlight-registry-item-json",
+        "nara-bill-of-rights-630-jpg",
+        "nara-constitution-page1-630-jpg",
+        "nara-constitution-transcript-html",
+        "nara-declaration-630-jpg"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "hyperframes-v2-blocks-code-diff-code-diff-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/code-diff/code-diff.html",
+          "format": "html",
+          "bytes": 26936,
+          "sha256": "5356890fec4947e384b044d7dda3d03601432125a4ce60087caac0e3639d9d93"
+        },
+        {
+          "asset_id": "hyperframes-v2-blocks-code-diff-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/blocks/code-diff/registry-item.json",
+          "format": "json",
+          "bytes": 772,
+          "sha256": "e68d7c12d89c91e908ef331f394523e4f98af5d939a94d018fb57bc8bb45e260"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-caption-editorial-emphasis-caption-editorial-emphasis-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/caption-editorial-emphasis/caption-editorial-emphasis.html",
+          "format": "html",
+          "bytes": 12117,
+          "sha256": "6144571b6c73dbdec282284fe2277d3c958e15cddaf362295ba9cca02e705d1c"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-caption-editorial-emphasis-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/caption-editorial-emphasis/registry-item.json",
+          "format": "json",
+          "bytes": 806,
+          "sha256": "9ddbc86a0cec3b22fdd2ae9600b4d4d7e06822dda7ad730358924a92b33c243c"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-comparison-split-comparison-split-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/comparison-split/comparison-split.html",
+          "format": "html",
+          "bytes": 16869,
+          "sha256": "2637b4dd260eb9ef272fad2f3b3921fe8f282cb498b8de112ec6faa76d5ef3b8"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-comparison-split-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/comparison-split/registry-item.json",
+          "format": "json",
+          "bytes": 1881,
+          "sha256": "1b5773463056aaca0c84766b1c4ddaea34321efd58675f80784c53c10d864415"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-marker-highlight-marker-highlight-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/marker-highlight/marker-highlight.html",
+          "format": "html",
+          "bytes": 15209,
+          "sha256": "bedd128ffab3808b4624f9aa5bcd0e80c9022726fdad59191301259adb0512dc"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-marker-highlight-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/marker-highlight/registry-item.json",
+          "format": "json",
+          "bytes": 2864,
+          "sha256": "66ecd05b382175bb2ffa7d0a90cf3eda97b0ff47e1f96392dbe23d91a102093b"
+        },
+        {
+          "asset_id": "nara-bill-of-rights-630-jpg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/nara/bill_of_rights_630.jpg",
+          "format": "jpg",
+          "bytes": 64665964,
+          "sha256": "f101a45d09eb1685f1c231eaaa344d3049fe7d389221e73d3e46fdcb4c172dd7"
+        },
+        {
+          "asset_id": "nara-constitution-page1-630-jpg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/nara/constitution_page1_630.jpg",
+          "format": "jpg",
+          "bytes": 115796,
+          "sha256": "d8eb7df75dcb0b3512523c99f1164a3f59c34cc022bd58d353fdbf0c7f9fd148"
+        },
+        {
+          "asset_id": "nara-constitution-transcript-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/nara/constitution_transcript.html",
+          "format": "html",
+          "bytes": 71829,
+          "sha256": "9bfc8bc55b5c9d1aa261d3effb4f44fbafb4f499a3cfe7227c32ae137402cb2a"
+        },
+        {
+          "asset_id": "nara-declaration-630-jpg",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/nara/declaration_630.jpg",
+          "format": "jpg",
+          "bytes": 91445,
+          "sha256": "54b7d79d43e422e760d9421835bcbc929e487daca5e2499b84c436f479ef110f"
+        }
+      ],
+      "visual_behavior": "Document forensics/annotation/comparison; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "Apache-2.0 — https://github.com/heygen-com/hyperframes/blob/main/LICENSE",
+        "Public domain (credit NARA) — https://www.archives.gov/founding-docs/downloads"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "primary",
+        "phone": "primary"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack document as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": true
+      }
+    },
+    {
+      "module_id": "effect-13-timeline",
+      "effect_family": "timeline",
+      "title": "Investigation timeline",
+      "asset_ids": [
+        "hyperframes-v2-components-beat-timeline-beat-timeline-html",
+        "hyperframes-v2-components-beat-timeline-registry-item-json"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "hyperframes-v2-components-beat-timeline-beat-timeline-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/beat-timeline/beat-timeline.html",
+          "format": "html",
+          "bytes": 12426,
+          "sha256": "19c6528e970766422978e26d5ac483bfe2c711b7fdcaf1f8a28805a4a53f584c"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-beat-timeline-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/beat-timeline/registry-item.json",
+          "format": "json",
+          "bytes": 1637,
+          "sha256": "d918488cced50ef06b6fab3890faa92fcfc430d9aef9b8699cbd2eb6b2a58ff1"
+        }
+      ],
+      "visual_behavior": "Investigation timeline; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "Apache-2.0 — https://github.com/heygen-com/hyperframes/blob/main/LICENSE"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "primary",
+        "phone": "support"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack timeline as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": true
+      }
+    },
+    {
+      "module_id": "effect-14-network",
+      "effect_family": "network",
+      "title": "Relationship network",
+      "asset_ids": [
+        "hyperframes-v2-components-constellation-hub-constellation-hub-html",
+        "hyperframes-v2-components-constellation-hub-registry-item-json"
+      ],
+      "asset_files": [
+        {
+          "asset_id": "hyperframes-v2-components-constellation-hub-constellation-hub-html",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/constellation-hub/constellation-hub.html",
+          "format": "html",
+          "bytes": 17591,
+          "sha256": "6ebed16e6f7d2aff53507fc719639e4b9332b1882c4c4b8e3e8ff0b53011805e"
+        },
+        {
+          "asset_id": "hyperframes-v2-components-constellation-hub-registry-item-json",
+          "manifest_version": "evidence-motion-v2",
+          "local_path": "sources/hyperframes-v2/components/constellation-hub/registry-item.json",
+          "format": "json",
+          "bytes": 2387,
+          "sha256": "28b0360a8a9f83cd0c6f8abb6ad7cb704ebbc24f5b5f58ce3f84b7cca56c2d5f"
+        }
+      ],
+      "visual_behavior": "Relationship network; exact source examples are retained in the listed files.",
+      "inputs_parameters": [
+        "evidence payload",
+        "source/claim label",
+        "palette/contrast",
+        "frame start/end",
+        "safe-area layout"
+      ],
+      "animation_phases": [
+        "context hold 0–15%",
+        "reveal/draw 15–55%",
+        "emphasis 55–80%",
+        "settle/exit 80–100%"
+      ],
+      "duration_easing": "Recommended 1.2–4.0 s; ease-out reveal, linear ticker/route draw, 150–250 ms settle. Measure source timing in the adapter.",
+      "layout_aspect": "9:16 1080x1920; 72 px side gutters; 180 px title/caption reserve; stack columns when Korean text becomes sub-42 px.",
+      "editability": "HTML/TSX/JS/SVG/JSON are editable; raster/audio/fonts/license records are source-backed and not semantically editable.",
+      "runtime_dependencies": "Node + deterministic frame-seek adapter; localize any remote HTML dependencies before render.",
+      "source_license": [
+        "Apache-2.0 — https://github.com/heygen-com/hyperframes/blob/main/LICENSE"
+      ],
+      "direct_or_source_only": "source-only/localize-first",
+      "evidence_use_cases": [
+        "Jeju route/chronology/source document",
+        "간호조무사 clinical role/timeline/document comparison",
+        "휴대전화 device/call/media provenance"
+      ],
+      "case_mappings": {
+        "jeju": "support",
+        "nurse": "support",
+        "phone": "support"
+      },
+      "privacy_semantic_risks": [
+        "Do not infer identity, guilt, diagnosis or location from a template.",
+        "Redact phone numbers, faces and protected health information.",
+        "Use authority-bound geography and exact source labels."
+      ],
+      "suggested_916_implementation": "Stack network as one-column evidence cards, bind animation to frame index, and keep source/evidence labels persistent.",
+      "inspection_evidence": {
+        "manifest_fields_verified": true,
+        "source_files_read": "byte/hash and text/media metadata inspected; downloaded code not executed",
+        "remote_dependency": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto'; import { execFileSync } from 'node:child_process';
+const EXPECT={jobId:'production-38b942bd6f69a92105bfd57952bee9da2d7f506a',authorityHash:'38b942bd6f69a92105bfd57952bee9da2d7f506a231a16ade826ff680980b242',evidenceBundleSha256:'64e45f87eb1e26bf0634930a67e4e021e183a38a6d5b49547b6af5f50a98546f',narrationAudioSha256:'d57593fd6d5437caac96148b8ba8e963ebc164f3e8db2cdb99fe4edab88a6ac6',duration:15.709298,fps:24,width:1080,height:1920,frames:377};
+const get=name=>{const i=process.argv.indexOf(name);if(i<0||!process.argv[i+1])throw new Error(`Missing ${name}`);return path.resolve(process.argv[i+1])}; const manifestFile=get('--manifest'),video=get('--video'),thumbnail=get('--thumbnail'),contact=get('--contact');
+const hash=file=>crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'),m=JSON.parse(fs.readFileSync(manifestFile,'utf8'));
+if(m.schema!=='phone-evidence-prototype-v1'||m.sourceAuthority?.jobId!==EXPECT.jobId||m.sourceAuthority?.authorityHash!==EXPECT.authorityHash)throw new Error('Prototype source authority mismatch');
+if(m.sourceAuthority?.excludedCurrentWorkflowJobId!=='production-b1739e79c1e8771f6ad0ab31565c60fd0572919e'||m.sourceAuthority?.exclusionReason!=='headline-bytes-corrupted-fail-closed')throw new Error('Corrupt current workflow exclusion is missing');
+if(JSON.stringify(m.headline)!==JSON.stringify({line1:'경찰 아버지가',line2:'부순 휴대전화'}))throw new Error('Approved headline mismatch');
+if(m.evidence?.bundleSha256!==EXPECT.evidenceBundleSha256||JSON.stringify(m.evidence?.spanIds)!==JSON.stringify(['span-001','span-002'])||JSON.stringify(m.evidence?.claimIds)!==JSON.stringify(['claim-97b1d75f713d']))throw new Error('Evidence binding mismatch');
+if(m.narration?.audioSha256!==EXPECT.narrationAudioSha256||m.narration?.cues?.length!==2)throw new Error('Narration binding mismatch');
+if(m.canvas?.width!==EXPECT.width||m.canvas?.height!==EXPECT.height||m.canvas?.frameRate!==EXPECT.fps||m.canvas?.expectedFrameCount!==EXPECT.frames||Math.abs(m.canvas.durationSeconds-EXPECT.duration)>.000001)throw new Error('Canvas contract mismatch');
+if(m.policy?.deterministic!==true||m.policy?.externalMedia!==false||m.policy?.generativeMedia!==false||m.policy?.network!==false||m.policy?.privateOnly!==true||m.policy?.upload!==false)throw new Error('Private deterministic policy mismatch');
+if(hash(video)!==m.outputs?.videoSha256||hash(thumbnail)!==m.outputs?.thumbnailSha256||hash(contact)!==m.outputs?.contactSheetSha256)throw new Error('Output hash mismatch');
+const probe=JSON.parse(execFileSync('ffprobe',['-v','error','-count_frames','-show_streams','-show_format','-of','json',video],{encoding:'utf8',windowsHide:true})),v=probe.streams.find(s=>s.codec_type==='video'),a=probe.streams.find(s=>s.codec_type==='audio'),duration=Number(probe.format?.duration);
+if(!v||!a||v.width!==EXPECT.width||v.height!==EXPECT.height||v.r_frame_rate!=='24/1'||Number(v.nb_read_frames)!==EXPECT.frames||Math.abs(duration-EXPECT.duration)>.08)throw new Error(`Media contract mismatch: ${JSON.stringify({duration,frames:v?.nb_read_frames,fps:v?.r_frame_rate})}`);
+const source=fs.readFileSync(new URL('./board.html',import.meta.url),'utf8'); if(/POLICE|경찰청|경찰 마크|실제 인물 사진|https?:\/\//iu.test(source))throw new Error('Forbidden visual/provider content found');
+console.log(JSON.stringify({verified:true,durationSeconds:duration,frames:Number(v.nb_read_frames),fps:v.r_frame_rate,videoSha256:m.outputs.videoSha256},null,2));

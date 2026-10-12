@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "profileId": "qwen-f4",
+  "ownerVoice": true,
+  "engine": {
+    "provider": "qwen3-tts",
+    "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+    "precision": "bf16",
+    "language": "Korean"
+  },
+  "reference": {
+    "audio": "../../pilots/model-ab-20260729/f4_ref_gyogwon.wav",
+    "sha256": "31B3FDEE6E1417DAEE8DD863F479B01408A840CC21762C2927E2A3C97B4A4646",
+    "transcript": "교권보호국은 교권을 보호하는 가상의 기관입니다. 현실의 교권 보호 제도는 제대로 작동하고 있을까요? 교권과 권한은 서로 다른 의미를 가집니다."
+  },
+  "generation": {
+    "baseSpeed": 1.0,
+    "finalTempo": 1.0,
+    "maxFinalTempo": 1.08,
+    "candidateSeeds": [20260730, 20260731, 20260732],
+    "fallback": null
+  },
+  "promptBank": {
+    "manifest": "prompt-bank/manifest.json",
+    "manifestSha256": "7FE6EA9AD30BC5AB6F1CE12702B7ED497EAE1595EDEAECBC917BEE74DECAF791",
+    "defaultStyle": "neutral",
+    "styles": ["hook", "news_exposition", "tension", "criticism", "solution_closing"],
+    "validationStatus": "passed",
+    "ownerVoiceOnly": true,
+    "loraAllowed": false,
+    "adapterAllowed": false
+  },
+  "validation": {
+    "dualAsrModels": ["small", "medium"],
+    "maxCharacterErrorRate": 0.08,
+    "speakerValidator": "../../validators/campplus.onnx",
+    "failClosed": true
+  }
+}

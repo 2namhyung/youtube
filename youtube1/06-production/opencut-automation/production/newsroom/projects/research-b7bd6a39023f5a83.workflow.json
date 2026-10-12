@@ -1,0 +1,1932 @@
+{
+  "version": 1,
+  "slug": "research-b7bd6a39023f5a83",
+  "title": "빵집 앞 흡연 제지에 '어깨빵' 난동…\"우울증 탓\" 황당 해명",
+  "candidate": {
+    "id": "research-b7bd6a39023f5a83",
+    "slug": "research-b7bd6a39023f5a83",
+    "editorialStatus": "active-review",
+    "title": "빵집 앞 흡연 제지에 '어깨빵' 난동…\"우울증 탓\" 황당 해명",
+    "source": "뉴시스 사회",
+    "url": "https://www.newsis.com/view/NISX20260803_0003733399",
+    "publishedAt": "2026-08-04T06:12:00+09:00",
+    "hook": "빵집 앞 담배를 말렸더니, 손님이 사장에게 어깨를 들이받고 매장까지 들어오려 했습니다.",
+    "storySummary": "빵집 사장 A씨는 매장 입구 근처에서 담배를 피우던 사람들에게 비흡연자라며 다른 곳에서 피워 달라고 요청했다. 흡연자들은 매장 문을 닫으라고 반말로 응수했고, 촬영을 시작하자 한 명이 다가와 A씨를 어깨로 강하게 밀쳐 넘어뜨렸다. 이들은 욕설을 하고 A씨가 나가 달라고 요구한 뒤에도 빵을 사러 왔다며 매장 안으로 들어가려 했다. 사건 이후 가해자 중 한 사람의 부인이 연락했지만 사과보다는 황당한 반응을 보인 것으로 전해졌고, JTBC 사건반장이 제보 영상을 공개했다.",
+    "rationale": "빵집 앞이라는 평범한 생활 공간에서 흡연 제지가 폭언과 신체적 충돌, 매장 진입 시도로 빠르게 확대된다. 피해자의 정당한 요청과 상대방의 행동이 크게 어긋나고, 이후에도 사과 대신 책임을 흐리는 해명이 제시됐다는 점이 채널의 답답함·황당함·불안 요소와 강하게 맞는다.",
+    "dimensions": {
+      "ordinaryContext": 3,
+      "disproportionateEscalation": 3,
+      "explanationActionMismatch": 3,
+      "tangibleRisk": 3,
+      "responsibilityEvasion": 3,
+      "relatableEmotion": 3
+    },
+    "factCheckRisks": [
+      "입력된 피드 요약이 중간에서 끊겨 부인의 구체적인 발언과 후속 대응을 확인할 수 없음",
+      "제보 영상의 촬영·편집 맥락과 실제 충돌 장면을 원문 또는 영상으로 재확인해야 함",
+      "피해 정도와 신고·수사·법적 처분 여부가 요약에 제시되지 않음"
+    ],
+    "selectionReasons": [
+      "일상적인 빵집 앞 흡연 갈등이 물리적 위협과 매장 침입 시도로 확대됨",
+      "촬영 중인 피해자를 밀쳐 넘어뜨린 구체적 행동이 제시됨",
+      "가해자 측이 사과보다 황당한 반응을 보였다는 책임 회피 정황이 있음"
+    ],
+    "relatedCoverage": [],
+    "approval": {
+      "kind": "human-promotion",
+      "approvedAt": "2026-08-04T03:49:31.189Z",
+      "sourceAction": "newsroom-semantic-card"
+    },
+    "provenance": {
+      "semanticSelectionPath": "out/newsroom/research-llm-analysis.json",
+      "semanticGeneratedAt": "2026-08-04T01:25:12.665Z",
+      "articlePoolPath": "01-research/news_radar/data/latest_article_pool.json",
+      "articlePoolGeneratedAt": "2026-08-04T09:47:24+09:00",
+      "articleId": "b7bd6a39023f5a8348981a2a",
+      "excerptProvenance": "rss-description-or-atom-summary"
+    },
+    "verification": {
+      "state": "cross-source-verification-required",
+      "missing": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토"
+      ]
+    }
+  },
+  "createdAt": "2026-08-04T03:49:38.608Z",
+  "updatedAt": "2026-09-04T19:52:13.041Z",
+  "stages": {
+    "01": {
+      "status": "ready",
+      "completedAt": "2026-08-04T03:49:38.608Z"
+    },
+    "02": {
+      "status": "ready",
+      "completedAt": "2026-09-04T11:31:26.156Z",
+      "reportGeneratedAt": "2026-09-04T11:31:26.156Z",
+      "evidenceSha256": "6e8116756e96421570498dff4d8474d3e5969cf9004caa43c5d3758fc3e9d660"
+    },
+    "03": {
+      "status": "in-progress"
+    },
+    "04": {
+      "status": "pending"
+    },
+    "05": {
+      "status": "pending"
+    },
+    "06": {
+      "status": "pending"
+    },
+    "07": {
+      "status": "pending"
+    },
+    "08": {
+      "status": "pending"
+    }
+  },
+  "draftFinalized": false,
+  "legalContextReport": {
+    "schemaVersion": 5,
+    "slug": "research-b7bd6a39023f5a83",
+    "generatedAt": "2026-09-04T11:31:26.156Z",
+    "candidateSha256": "b18c88d032d7f01a0baaac3898f1dd75f8f409e1d580886a8226965548c6a20d",
+    "researchSnapshotSha256": "6e8116756e96421570498dff4d8474d3e5969cf9004caa43c5d3758fc3e9d660",
+    "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+    "confirmedFacts": [
+      {
+        "id": "claim-ec83e4abcace",
+        "summary": "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다.",
+        "field": "reportOrigin",
+        "value": "jtbc-incident-chief-video-tip",
+        "date": "2026-07-31",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-cbbb44d10c07",
+        "summary": "A씨는 매장 입구 근처 흡연자들에게 자신이 비흡연자라며 다른 곳에서 담배를 피워 달라고 요청했다.",
+        "field": "initialRequest",
+        "value": "move-smoking-away-from-entrance",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "trigger",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-bbfcd800f1aa",
+        "summary": "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했다.",
+        "field": "verbalResponse",
+        "value": "close-your-door-informal-retort",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "trigger",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-ac2176041d17",
+        "summary": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔다.",
+        "field": "recordingStarted",
+        "value": "owner-started-recording",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "execution",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-0ef1fe333088",
+        "summary": "A씨가 나가 달라고 요구했지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했다.",
+        "field": "entryAttempt",
+        "value": "attempted-entry-to-buy-bread",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "discovery",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "reportedFacts": [
+      {
+        "id": "claim-ec83e4abcace",
+        "summary": "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다.",
+        "field": "reportOrigin",
+        "value": "jtbc-incident-chief-video-tip",
+        "date": "2026-07-31",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-cbbb44d10c07",
+        "summary": "A씨는 매장 입구 근처 흡연자들에게 자신이 비흡연자라며 다른 곳에서 담배를 피워 달라고 요청했다.",
+        "field": "initialRequest",
+        "value": "move-smoking-away-from-entrance",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "trigger",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-bbfcd800f1aa",
+        "summary": "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했다.",
+        "field": "verbalResponse",
+        "value": "close-your-door-informal-retort",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "trigger",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-ac2176041d17",
+        "summary": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔다.",
+        "field": "recordingStarted",
+        "value": "owner-started-recording",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "execution",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-0ef1fe333088",
+        "summary": "A씨가 나가 달라고 요구했지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했다.",
+        "field": "entryAttempt",
+        "value": "attempted-entry-to-buy-bread",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "discovery",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-b43c4ae41bac",
+        "summary": "연락 과정에서 당사자의 우울증이 언급됐지만 진단 여부와 사건 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+        "field": "explanation",
+        "value": "depression-cited",
+        "perspective": "subject",
+        "status": "reported",
+        "detailGroup": "followup",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4c461bf00283",
+        "summary": "일행 중 한 사람이 A씨를 어깨로 강하게 밀쳐 넘어뜨렸다는 것이 공개된 제보 영상과 A씨의 설명이다.",
+        "field": "physicalContact",
+        "value": "shoulder-shove-and-fall",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-59a63736d711",
+        "summary": "신체 접촉 뒤에도 일행의 욕설이 이어졌다는 것이 A씨의 설명이다.",
+        "field": "verbalAbuse",
+        "value": "continued-profanity",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-b7bd6a39023f"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "unverifiedFacts": [
+      "사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.",
+      "경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.",
+      "신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.",
+      "우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+      "현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다."
+    ],
+    "possibleLegalIssues": [],
+    "missingFacts": [
+      "사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.",
+      "경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.",
+      "신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.",
+      "우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+      "현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다."
+    ],
+    "safePhrasing": [
+      "검찰은 …라고 주장했습니다",
+      "당사자는 …라고 주장했습니다",
+      "재판부는 …라고 판단했습니다",
+      "정확한 내용은 확인되지 않았습니다"
+    ],
+    "sources": [
+      {
+        "sourceId": "src-b7bd6a39023f",
+        "url": "https://www.newsis.com/view/NISX20260803_0003733399",
+        "title": "빵집 앞 흡연 제지에 '어깨빵' 난동…\"우울증 탓\" 황당 해명",
+        "publisher": "뉴시스",
+        "date": "2026-08-04T06:18:23+09:00",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "legalSources": [
+      {
+        "title": "판례 &gt; 업무방해·무고·폭행 | 국가법령정보센터",
+        "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=614631",
+        "status": "authoritative-reference"
+      },
+      {
+        "title": "판례 &gt; 건조물침입,업무방해,명예훼손 | 국가법령정보센터",
+        "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=86735",
+        "status": "authoritative-reference"
+      }
+    ],
+    "evidence": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "independentPublisherCount": 1,
+      "sameEventSnapshot": true,
+      "eventDossierCurrent": true
+    },
+    "verdict": "conditional",
+    "verdictLabel": "조건부 사용",
+    "reasons": [
+      "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다.",
+      "확인되지 않은 세부사항은 단정하거나 보완해 쓰면 안 됩니다."
+    ],
+    "reasonCodes": [
+      "single-source",
+      "unknown-details"
+    ],
+    "requiredEdits": [
+      "별도 확인 전 생략: 사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+      "별도 확인 전 생략: 경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.을 확인된 사실로 단정하는 주장",
+      "별도 확인 전 생략: 신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+      "별도 확인 전 생략: 우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+      "별도 확인 전 생략: 현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다.을 확인된 사실로 단정하는 주장"
+    ],
+    "allowedMaterials": [
+      "사건 히스토리의 승인된 사실",
+      "직접 제작한 비식별 재연"
+    ],
+    "restrictedMaterials": [
+      "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+      "피해자와 제3자는 익명 표기를 유지하기",
+      "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+      "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+    ],
+    "requiredConditions": [],
+    "assessment": {
+      "sourceCorroboration": "single-source",
+      "conflicts": 0,
+      "unknowns": 5
+    },
+    "contradictions": [],
+    "scriptPolicy": {
+      "version": 2,
+      "allowedFacts": [
+        "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다.",
+        "A씨는 매장 입구 근처 흡연자들에게 자신이 비흡연자라며 다른 곳에서 담배를 피워 달라고 요청했다.",
+        "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했다.",
+        "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔다.",
+        "A씨가 나가 달라고 요구했지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했다.",
+        "연락 과정에서 당사자의 우울증이 언급됐지만 진단 여부와 사건 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+        "일행 중 한 사람이 A씨를 어깨로 강하게 밀쳐 넘어뜨렸다는 것이 공개된 제보 영상과 A씨의 설명이다.",
+        "신체 접촉 뒤에도 일행의 욕설이 이어졌다는 것이 A씨의 설명이다."
+      ],
+      "allowedClaims": [
+        {
+          "claimId": "claim-ec83e4abcace",
+          "summary": "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-cbbb44d10c07",
+          "summary": "A씨는 매장 입구 근처 흡연자들에게 자신이 비흡연자라며 다른 곳에서 담배를 피워 달라고 요청했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-bbfcd800f1aa",
+          "summary": "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-ac2176041d17",
+          "summary": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-0ef1fe333088",
+          "summary": "A씨가 나가 달라고 요구했지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-b43c4ae41bac",
+          "summary": "연락 과정에서 당사자의 우울증이 언급됐지만 진단 여부와 사건 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+          "attributionRequired": false,
+          "perspective": "subject",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-4c461bf00283",
+          "summary": "일행 중 한 사람이 A씨를 어깨로 강하게 밀쳐 넘어뜨렸다는 것이 공개된 제보 영상과 A씨의 설명이다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-59a63736d711",
+          "summary": "신체 접촉 뒤에도 일행의 욕설이 이어졌다는 것이 A씨의 설명이다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        }
+      ],
+      "prohibitedClaims": [
+        "사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.을 확인된 사실로 단정하는 주장",
+        "신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다.을 확인된 사실로 단정하는 주장"
+      ],
+      "prohibitedPhrases": [
+        "보도에 따르면"
+      ],
+      "requiredQualifications": [],
+      "safeReplacements": [],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ],
+      "uncertaintyInstructions": [
+        "사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.",
+        "경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.",
+        "신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.",
+        "우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+        "현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다."
+      ],
+      "omissionInstructions": [
+        "별도 확인 전 생략: 사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다.을 확인된 사실로 단정하는 주장"
+      ],
+      "identityRestrictions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기"
+      ],
+      "footageRestrictions": [
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+      ],
+      "sourceAttribution": {
+        "mode": "not-required",
+        "neutralPrefix": "",
+        "claimIds": []
+      }
+    },
+    "factBrief": {
+      "confirmedFacts": [
+        "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다.",
+        "A씨는 매장 입구 근처 흡연자들에게 자신이 비흡연자라며 다른 곳에서 담배를 피워 달라고 요청했다.",
+        "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했다.",
+        "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔다.",
+        "A씨가 나가 달라고 요구했지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했다.",
+        "연락 과정에서 당사자의 우울증이 언급됐지만 진단 여부와 사건 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+        "일행 중 한 사람이 A씨를 어깨로 강하게 밀쳐 넘어뜨렸다는 것이 공개된 제보 영상과 A씨의 설명이다.",
+        "신체 접촉 뒤에도 일행의 욕설이 이어졌다는 것이 A씨의 설명이다."
+      ],
+      "timeline": [
+        "뉴시스는 7월 31일 JTBC 사건반장이 공개한 빵집 사장 A씨의 제보 영상과 설명을 직접 자료로 인용했다."
+      ],
+      "disputedFacts": [],
+      "unknownFacts": [
+        "사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.",
+        "경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.",
+        "신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.",
+        "우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.",
+        "현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다."
+      ],
+      "followUpChanges": []
+    },
+    "videoDecision": {
+      "decision": "conditional",
+      "reasons": [
+        "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다.",
+        "확인되지 않은 세부사항은 단정하거나 보완해 쓰면 안 됩니다."
+      ]
+    },
+    "caseDispositionReview": {
+      "status": "complete",
+      "question": "이 사건의 처리와 판단은 유사한 과거 사례 및 법리에 비추어 설명 가능한가",
+      "similarCases": [
+        {
+          "title": "판례 &gt; 업무방해·무고·폭행 | 국가법령정보센터",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=614631",
+          "court": "대법원",
+          "caseNumber": "",
+          "legalPrinciple": "점포 운영자에 대한 유형력 행사와 영업 방해는 행위 태양과 현장 증거를 개별적으로 판단한다.",
+          "comparison": "빵집 사장에 대한 접촉·위협의 정도와 실제 영업 지장을 영상·진술·고객 이탈 자료로 구분해 판단해야 한다.",
+          "status": "authoritative-reference"
+        },
+        {
+          "title": "판례 &gt; 건조물침입,업무방해,명예훼손 | 국가법령정보센터",
+          "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=86735",
+          "court": "대법원",
+          "caseNumber": "",
+          "legalPrinciple": "영업장에서 고성과 위세로 고객을 이탈시키는 행위는 구체적 사정에 따라 위력에 의한 업무방해가 될 수 있다.",
+          "comparison": "단순 말다툼인지 정상 영업을 곤란하게 한 위력인지 시간·반복성·고객 이탈·영업 중단 자료로 확인해야 한다.",
+          "status": "authoritative-reference"
+        }
+      ],
+      "applicableIssues": [],
+      "assessment": "확인된 판결 이유와 유사 판례의 판단 요소를 비교했습니다. 죄명과 형량은 행위 수단, 결과, 고의, 증거 및 양형자료가 달라질 수 있으므로 동일 결론을 자동 적용하지 않습니다.",
+      "limitations": [
+        "공개 보도만으로 전체 소송기록과 증거를 재평가할 수 없습니다.",
+        "검증된 유사 판례가 없다는 사실은 유사 사건이나 적용 법리가 존재하지 않는다는 뜻이 아닙니다.",
+        "이 검토는 법률 자문이나 판결의 옳고 그름을 확정하는 의견이 아닙니다."
+      ]
+    },
+    "videoUseReview": {
+      "status": "complete",
+      "decision": "conditional",
+      "question": "이 사건을 영상 소재로 활용할 수 있는가",
+      "allowedUse": [
+        "검증된 기사와 판결·법령을 요약한 자체 서술",
+        "실제 화면과 혼동되지 않도록 고지한 비식별 AI 재구성",
+        "출처와 불확실성을 함께 표시한 사건 연표"
+      ],
+      "conditions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기",
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기",
+        "별도 확인 전 생략: 사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다.을 확인된 사실로 단정하는 주장"
+      ],
+      "prohibitedUse": [
+        "권리 확인 없는 기사·방송·CCTV 원본 재사용",
+        "관계자의 얼굴·이름·직장·위치를 추가로 특정",
+        "수사·재판 결과 또는 정신건강과 행위의 인과를 확인 사실처럼 단정"
+      ],
+      "reasons": [
+        "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다.",
+        "확인되지 않은 세부사항은 단정하거나 보완해 쓰면 안 됩니다."
+      ]
+    },
+    "scriptWritingReview": {
+      "status": "complete",
+      "decision": "approved-with-conditions",
+      "question": "대본 작성 시 무엇을 지키고 피해야 하는가",
+      "required": [
+        "사건 사실은 확인된 증거 범위 안에서만 서술하며 미확인·불일치 내용을 확정하지 않습니다.",
+        "검찰·당사자·재판부의 주장은 해당 발화 주체를 분명히 붙입니다.",
+        "출처 간 불일치나 중요한 미확인 사실은 필요한 경우 한 문장으로만 한정합니다.",
+        "발견·신고·입건·강제수사 등 실제로 확인된 사건 단계만 시간순으로 설명합니다."
+      ],
+      "avoid": [
+        "사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.을 확인된 사실로 단정하는 주장",
+        "신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "보도에 따르면",
+        "별도 확인 전 생략: 사건 발생 장소와 정확한 일시, 당사자들의 신원은 공개 보도에서 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 경찰 신고·입건·처분 또는 합의가 있었는지 후속 확인 자료가 없다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 신체 접촉의 강도, 피해자의 진단 또는 상해 여부, 실제 영업 중단·고객 이탈 규모는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 우울증 진단 여부와 사건 당시 행동 사이의 의학적 인과관계는 확인되지 않았다.을 확인된 사실로 단정하는 주장",
+        "별도 확인 전 생략: 현재 확보된 직접 기사는 뉴시스 1건이며 독립된 동일 사건 보도와 사건 이후 후속 보도는 확인되지 않았다.을 확인된 사실로 단정하는 주장"
+      ],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ]
+    },
+    "reviewCompletion": {
+      "caseDisposition": true,
+      "videoUse": true,
+      "scriptWriting": true,
+      "allComplete": true
+    }
+  },
+  "draft": {
+    "schema": "newsroom-autonomous-script-draft-v4",
+    "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v13",
+    "generation": {
+      "schemaVersion": 16,
+      "provider": "codex-cli",
+      "model": "gpt-5.6-sol",
+      "reasoning": "medium",
+      "promptContractVersion": "newsroom-autonomous-narration-prompt-v13",
+      "criticPromptContractVersion": "newsroom-independent-narration-critic-prompt-v3",
+      "generatorPromptSha256": "df54145f99e67c058f35692f42541f8ff352aae0bef16f323885f692f8a2cc34",
+      "criticPromptSha256": "f6562de91367c8571c4c96731be33a0564510ce17fd9c84d0391f14ab91d7673",
+      "packageSha256": "cbd822b05c32161ed21cc491e0888dbe963a0aa4e02eca763522ebc5f296c63c",
+      "initialOutputSha256": "f39ee554d11653a82b23097af893f394bdd2d5707c69632b0c00d4e7ec8434bd",
+      "critiqueOutputSha256": "88426f2a6febd52827f4af6f1c2ac04abf6f14f8ea9c879bf5c0cafc1fb6ef99",
+      "outputSha256": "f48436526c3f6639b8154559b3a3d0dc508936bc08a67ed43c369fc34bfa2c79",
+      "currentAuthoritySha256": "f48436526c3f6639b8154559b3a3d0dc508936bc08a67ed43c369fc34bfa2c79",
+      "userEdited": false,
+      "cliVersion": "codex-cli 0.146.0",
+      "callCount": 2,
+      "generatorAttemptCount": 1,
+      "criticAttemptCount": 1,
+      "retryCount": 0,
+      "revisionApplied": true,
+      "timing": {
+        "initial": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 444,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 64.629,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        },
+        "final": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 431,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 62.737,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        }
+      },
+      "generatedAt": "2026-09-04T19:01:40.346Z"
+    },
+    "critique": {
+      "schema": "newsroom-independent-narration-critique-v2",
+      "initialVerdict": "revise",
+      "findings": [
+        {
+          "category": "factual-grounding",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "A씨의 구체적 위치를 근거보다 좁혀 표현한 부분을 제거했습니다. 최종본의 행동, 발언, 불확실성은 모두 사건 자료의 확인 범위 안에 있습니다.",
+          "exactQuote": "매장 쪽에 있던 A씨"
+        },
+        {
+          "category": "legal-qualification",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "초안과 최종본 모두 단일 보도와 당사자 설명에 따른 확인 수준을 유지하며, 우울증의 진단 여부나 의학적 인과관계를 단정하지 않습니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "observer-summary",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "첫머리가 출처나 사건 요약 문구가 아니라 매장 입구의 요청과 응수로 곧바로 시작합니다. 최종본도 같은 직접성을 유지합니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "repetition",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "마지막 문장이 앞서 제시한 요청, 응수, 촬영, 밀침과 욕설을 다시 압축해 반복했습니다. 최종본은 각 사건 요소를 한 번씩 전개하고 아직 나오지 않은 매장 진입 시도로 닫았습니다.",
+          "exactQuote": "촬영이 시작되자 접근과 밀침, 욕설이 뒤따랐으며"
+        },
+        {
+          "category": "progression",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "추상적인 중간 정리와 결말의 전체 재진술이 새로운 진행을 멈췄습니다. 최종본은 요청, 응수, 접근, 신체 접촉, 욕설, 확인 한계, 해명 한계, 퇴거 요구와 진입 시도로 이동합니다.",
+          "exactQuote": "확인된 흐름에서 더 선명한 것은 매장 경계를 둘러싼 충돌입니다."
+        },
+        {
+          "category": "interest",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "초반의 역할 충돌은 선명하지만 중간의 추상적 설명과 반복 결말이 정보 밀도를 떨어뜨렸습니다. 최종본은 구체적 행동 변화와 확인된 반전을 연속해 배치했습니다.",
+          "exactQuote": "확인된 흐름에서 더 선명한 것은"
+        },
+        {
+          "category": "modality-fit",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "행동 장면 형식에 맞게 첫 두 문장 안에서 빵집 입구의 흡연 제지와 문을 닫으라는 응수가 발생합니다. 최종본도 공간과 행동의 변화를 즉시 제시합니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "coda",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "상투적인 감정 문구는 없지만 기존 결말은 전체 사건을 다시 요약했습니다. 최종본은 나가 달라는 요구와 반대되는 매장 진입 시도라는 사건 고유의 마지막 행동에서 직접 끝냅니다.",
+          "exactQuote": "마지막에는 나가 달라는 업주의 요구와 정반대 방향으로"
+        },
+        {
+          "category": "advisory-duration",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "초기 자문 추정치가 권고 구간보다 짧았습니다. 최종본은 새로운 사실과 필요한 불확실성 설명을 보강해 권고 구간에 맞도록 조정했습니다.",
+          "exactQuote": ""
+        }
+      ],
+      "revisionApplied": true,
+      "revisionSummary": "근거에 없는 공간 표현과 반복적인 중간 요약·결말을 제거하고, 단일 보도의 한계와 확인되지 않은 피해 범위 및 우울증 관련 불확실성을 보존하면서 행동 순서를 다시 구성했습니다.",
+      "initialAuthoritySha256": "f39ee554d11653a82b23097af893f394bdd2d5707c69632b0c00d4e7ec8434bd",
+      "finalAuthoritySha256": "f48436526c3f6639b8154559b3a3d0dc508936bc08a67ed43c369fc34bfa2c79",
+      "timing": {
+        "initial": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 444,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 64.629,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        },
+        "final": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 431,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 62.737,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        }
+      }
+    },
+    "authority": {
+      "schema": "newsroom-autonomous-narration-v3",
+      "modality": "action-scene",
+      "narration": "빵집 매장 입구에서 담배를 피우던 사람들에게 업주 A씨가 자신은 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다. 그 요청에 돌아온 말은 매장 문을 닫으라는 반말이었습니다. A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔습니다. 공개된 영상과 A씨 설명에 따르면, 이 사람은 A씨를 어깨로 강하게 밀쳤고 A씨는 넘어졌습니다. A씨 설명으로는 신체 접촉 뒤에도 일행의 욕설이 이어졌습니다. 다만 접촉의 정확한 강도와 피해 진단이나 상해 여부, 실제 영업 중단이나 고객 이탈 규모는 확인되지 않았습니다. 이후 연락 과정에서는 당사자의 우울증이 언급됐습니다. 그러나 진단 여부는 확인되지 않았으며, 우울증과 당시 행동 사이의 의학적 인과관계도 확인되지 않았습니다. 이 사건의 현재 확인 근거는 2026년 7월 31일 JTBC 사건반장이 공개한 영상과 A씨 설명을 뉴시스가 직접 자료로 인용한 보도 한 건입니다. 사건의 정확한 장소와 일시, 당사자들의 신원도 확인되지 않았습니다. 그 뒤 A씨는 일행에게 나가 달라고 요구했습니다. 하지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했습니다.",
+      "sentences": [
+        {
+          "text": "빵집 매장 입구에서 담배를 피우던 사람들에게 업주 A씨가 자신은 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다.",
+          "claimRefs": [
+            "claim-cbbb44d10c07"
+          ]
+        },
+        {
+          "text": "그 요청에 돌아온 말은 매장 문을 닫으라는 반말이었습니다.",
+          "claimRefs": [
+            "claim-bbfcd800f1aa"
+          ]
+        },
+        {
+          "text": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔습니다.",
+          "claimRefs": [
+            "claim-ac2176041d17"
+          ]
+        },
+        {
+          "text": "공개된 영상과 A씨 설명에 따르면, 이 사람은 A씨를 어깨로 강하게 밀쳤고 A씨는 넘어졌습니다.",
+          "claimRefs": [
+            "claim-4c461bf00283"
+          ]
+        },
+        {
+          "text": "A씨 설명으로는 신체 접촉 뒤에도 일행의 욕설이 이어졌습니다.",
+          "claimRefs": [
+            "claim-59a63736d711"
+          ]
+        },
+        {
+          "text": "다만 접촉의 정확한 강도와 피해 진단이나 상해 여부, 실제 영업 중단이나 고객 이탈 규모는 확인되지 않았습니다.",
+          "claimRefs": []
+        },
+        {
+          "text": "이후 연락 과정에서는 당사자의 우울증이 언급됐습니다.",
+          "claimRefs": [
+            "claim-b43c4ae41bac"
+          ]
+        },
+        {
+          "text": "그러나 진단 여부는 확인되지 않았으며, 우울증과 당시 행동 사이의 의학적 인과관계도 확인되지 않았습니다.",
+          "claimRefs": [
+            "claim-b43c4ae41bac"
+          ]
+        },
+        {
+          "text": "이 사건의 현재 확인 근거는 2026년 7월 31일 JTBC 사건반장이 공개한 영상과 A씨 설명을 뉴시스가 직접 자료로 인용한 보도 한 건입니다.",
+          "claimRefs": [
+            "claim-ec83e4abcace"
+          ]
+        },
+        {
+          "text": "사건의 정확한 장소와 일시, 당사자들의 신원도 확인되지 않았습니다.",
+          "claimRefs": []
+        },
+        {
+          "text": "그 뒤 A씨는 일행에게 나가 달라고 요구했습니다.",
+          "claimRefs": [
+            "claim-0ef1fe333088"
+          ]
+        },
+        {
+          "text": "하지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했습니다.",
+          "claimRefs": [
+            "claim-0ef1fe333088"
+          ]
+        }
+      ],
+      "evidenceLineage": {
+        "schema": "newsroom-autonomous-narration-evidence-lineage-v3",
+        "packageSha256": "cbd822b05c32161ed21cc491e0888dbe963a0aa4e02eca763522ebc5f296c63c",
+        "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+        "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+        "usedClaimRefs": [
+          "claim-cbbb44d10c07",
+          "claim-bbfcd800f1aa",
+          "claim-ac2176041d17",
+          "claim-4c461bf00283",
+          "claim-59a63736d711",
+          "claim-b43c4ae41bac",
+          "claim-ec83e4abcace",
+          "claim-0ef1fe333088"
+        ]
+      }
+    },
+    "editorialDirection": "화면 없이 들어도 빵집 매장 입구, 흡연을 제지한 말, 촬영을 시작한 순간, 어깨로 밀쳐 넘어지는 신체 접촉과 매장 안으로 들어오려 한 행동의 순서를 따라갈 수 있게 한다. 매장 입구 흡연 제지, 매장 문을 닫으라는 응수, 일행 중 한 사람의 접근·어깨 밀침·욕설은 공개 제보 영상과 A씨 설명에 근거한 사건 요소이며, 구체적인 장소·일시·상해 정도·영업 피해는 확인되지 않은 채로 둔다. 일상적 경계 요청이 물리적 접촉과 손님·업주의 역할 충돌로 번지는 흐름은 central axis 후보지만 훅, 공개 순서, 문장 리듬과 beat 수는 모델이 자율적으로 정한다. 빵을 사러 왔다며 들어가려 한 행동과 나가 달라는 업주의 요구를 구분해 공간의 이동을 들려주되, 영상 밖의 대사·속도·의도는 만들지 않는다. 이 사건은 제보 기반 단일 보도라 조건부 귀속이 필요하다. ‘제보 영상과 업주 설명에 따르면’, ‘전해진 내용’처럼 확인 수준에 맞춘 표현을 쓰고, 우울증 언급을 진단 사실이나 행동의 의학적 원인으로 연결하지 않는다. 경찰 신고·입건·합의·처분, 피해 진단은 근거가 없으므로 대본에 추가하지 않는다. 법적 결과가 새 근거로 확인될 때만 coda보다 먼저 배치한다. 그렇지 않다면 조사·처분이 없었던 것처럼 결론 내리지 않는다. final movement는 확인된 충돌과 경계의 붕괴에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 닫되 피해자의 내면을 대변하지 않는다. 특정 행동·바람·감정·질문·훈계·상투어를 고정하지 말고 전체 narration을 재편집한다. 2026년 7월 31일 공개 보도와 확인된 절대 날짜를 우선하며 상대 날짜는 피한다. 70~80초는 locked owner narration에서만 판정한다.",
+    "policyBinding": {
+      "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+      "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+      "packageSha256": "cbd822b05c32161ed21cc491e0888dbe963a0aa4e02eca763522ebc5f296c63c"
+    },
+    "history": [
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T12:51:06.223Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v4",
+          "generation": {
+            "schemaVersion": 7,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v4",
+            "promptSha256": "a5eec8ea898224fdde25315893156f47faae919c5d35dfacfaac1cab3f6545a9",
+            "packageSha256": "c9a6a35606c772537f06670849804cc11ff1fec68788f17a6fec093cc9554348",
+            "outputSha256": "5f9b17f30870d141bce1fc632273fbc870605481b78c5c0c2b41bd4a4eb25581",
+            "currentAuthoritySha256": "5f9b17f30870d141bce1fc632273fbc870605481b78c5c0c2b41bd4a4eb25581",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T11:33:12.969Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "빵집 문 앞에서 시작된 건 짧고 평범한 부탁이었습니다. 빵집 사장 A씨는 매장 입구 근처에서 담배를 피우던 사람들에게 자신은 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다. 돌아온 말은 매장 문을 닫으라는 반말이었습니다. 부탁은 여기서 끝나지 않았습니다. A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨 쪽으로 다가왔습니다. A씨는 나가 달라고 했지만, 일행은 빵을 사러 왔다며 오히려 매장 안으로 들어가려 했습니다. 손님을 맞는 문턱이 순식간에 실랑이의 경계가 된 겁니다. 그리고 공개된 제보 영상과 A씨의 설명에는, 일행 중 한 사람이 A씨를 어깨로 강하게 밀쳐 넘어뜨리는 장면이 담겼습니다. 신체 접촉 뒤에도 욕설은 이어졌다고 A씨는 설명했습니다. 이후 연락 과정에서는 당사자의 우울증이 언급됐습니다. 하지만 실제 진단 여부도, 우울증과 당시 행동 사이의 의학적 인과관계도 확인되지 않았습니다. 다른 곳에서 담배를 피워 달라는 말, 나가 달라는 말, 두 번의 경계는 모두 밀려났습니다. 평범한 부탁이 모욕과 폭력으로 되돌아오는 순간, 익숙한 일터의 문턱마저 낯설고 불안한 경계로 남습니다.",
+            "beats": [
+              {
+                "role": "평범한 부탁에서 시작된 경계",
+                "summary": "매장 입구의 흡연을 피해 달라는 A씨의 요청과 반말로 돌아온 응수를 대비시킨다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-bbfcd800f1aa"
+                ]
+              },
+              {
+                "role": "문턱 안으로 번진 긴장",
+                "summary": "촬영이 시작되자 한 사람이 다가오고, 퇴거 요청에도 빵을 사러 왔다며 들어가려 한 흐름으로 긴장을 높인다.",
+                "claimRefs": [
+                  "claim-ac2176041d17",
+                  "claim-0ef1fe333088"
+                ]
+              },
+              {
+                "role": "접촉과 욕설의 정점",
+                "summary": "공개 영상과 A씨 설명에 근거해 밀침과 이후 욕설을 사건의 가장 강한 장면으로 배치한다.",
+                "claimRefs": [
+                  "claim-4c461bf00283",
+                  "claim-59a63736d711"
+                ]
+              },
+              {
+                "role": "확인되지 않은 해명의 한계",
+                "summary": "연락 과정에서 언급된 우울증을 전하되 진단과 인과관계가 확인되지 않았음을 분명히 한다.",
+                "claimRefs": [
+                  "claim-b43c4ae41bac"
+                ]
+              },
+              {
+                "role": "무너진 일터의 경계",
+                "summary": "두 차례의 경계 요청이 받아들여지지 않은 흐름을 압축해, 일상적인 일터가 낯선 경계로 바뀌는 감각으로 닫는다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-0ef1fe333088",
+                  "claim-4c461bf00283"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "빵집 사장이 매장 문턱에서 세운 평범한 경계가 말과 진입 시도, 신체 접촉으로 차례로 무너지는 과정",
+              "rationale": "사건의 기억점을 ‘흡연 시비’나 확인되지 않은 해명 자체보다 일터의 경계가 단계적으로 침범되는 흐름에 두었다. 입구의 부탁, 다가오는 움직임, 매장 진입 시도, 밀침과 욕설을 강도가 상승하도록 배열하고, 우울증 언급은 행동의 원인처럼 소비하지 않도록 확인 한계와 함께 짧게 압축했다. 마지막에는 새로운 사실을 더하지 않고, 평범한 일터의 문턱이 불안한 경계로 변하는 감각을 통해 청취자가 자신의 일상 공간을 겹쳐 느끼도록 했다."
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "c9a6a35606c772537f06670849804cc11ff1fec68788f17a6fec093cc9554348",
+              "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+              "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+              "usedClaimRefs": [
+                "claim-cbbb44d10c07",
+                "claim-bbfcd800f1aa",
+                "claim-ac2176041d17",
+                "claim-0ef1fe333088",
+                "claim-4c461bf00283",
+                "claim-59a63736d711",
+                "claim-b43c4ae41bac"
+              ]
+            }
+          },
+          "editorialDirection": null,
+          "policyBinding": {
+            "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+            "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+            "packageSha256": "c9a6a35606c772537f06670849804cc11ff1fec68788f17a6fec093cc9554348"
+          }
+        },
+        "draftSnapshotSha256": "1dc4dc8ec596a6fec36f415486e0d24d6611414e21573dea3bce0b6096a53944"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T14:58:42.455Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v4",
+          "generation": {
+            "schemaVersion": 7,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v4",
+            "promptSha256": "f33535cb572f3d497c71bfce60584fbec60cb2b4b24f464e650b540be0eb0cc4",
+            "packageSha256": "da050150f68f7038008488e81532eb34752451abe1d7a59961596a844687cead",
+            "outputSha256": "52f909e2acf92e4650cdf07082372552167778da148047c1c30b23125d274f2c",
+            "currentAuthoritySha256": "52f909e2acf92e4650cdf07082372552167778da148047c1c30b23125d274f2c",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T12:51:06.163Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "빵집 매장 입구에서 시작된 말다툼은, 문 하나를 사이에 둔 경계가 무너지는 장면으로 번졌습니다. 공개된 제보 영상과 빵집 사장 A씨의 설명에 따르면, A씨는 입구 근처에서 담배를 피우던 이들에게 자신은 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다. 돌아온 말은 매장 문을 닫으라는 반말이었습니다. A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨 쪽으로 다가왔습니다. 그리고 어깨로 강하게 밀쳐 A씨를 넘어뜨렸다는 것이 영상과 A씨 설명에 담긴 내용입니다. 신체 접촉 뒤에도 욕설은 이어졌습니다. 여기서 상황은 다시 매장 문턱을 향합니다. A씨가 나가 달라고 요구했지만, 일행은 빵을 사러 왔다며 안으로 들어가려 했습니다. 담배를 다른 곳에서 피워 달라는 부탁이, 문을 닫으라는 응수로 바뀌고, 촬영이 시작되자 접근과 밀침으로 이어진 겁니다. 이후 연락 과정에서는 당사자의 우울증이 언급됐습니다. 하지만 실제 진단 여부도, 그 언급과 당시 행동 사이의 의학적 인과관계도 확인되지 않았습니다. 확인된 흐름에 남는 것은 병명이 아니라 행동입니다. 매장 밖에서 경계를 지켜 달라는 업주의 요구와, 손님이라며 안으로 들어가려 한 일행의 행동이 정면으로 충돌했습니다. 누구나 자기 일터의 문턱만큼은 안전한 경계라고 느끼지만, 그 평범한 감각이 한순간 흔들릴 때 남는 불안은 낯설지 않습니다.",
+            "beats": [
+              {
+                "role": "공간과 경계 설정",
+                "summary": "빵집 입구를 중심 공간으로 제시하고 흡연 장소를 옮겨 달라는 업주의 요청에서 사건을 시작한다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07"
+                ]
+              },
+              {
+                "role": "말에서 접근으로 상승",
+                "summary": "매장 문을 닫으라는 응수와 촬영 직후의 접근을 연결해 긴장을 높인다.",
+                "claimRefs": [
+                  "claim-bbfcd800f1aa",
+                  "claim-ac2176041d17"
+                ]
+              },
+              {
+                "role": "물리적 침범의 정점",
+                "summary": "제보 영상과 A씨 설명이라는 확인 수준을 유지하며 어깨 밀침, 넘어짐, 이어진 욕설을 전달한다.",
+                "claimRefs": [
+                  "claim-4c461bf00283",
+                  "claim-59a63736d711"
+                ]
+              },
+              {
+                "role": "문턱에서 드러난 역할 충돌",
+                "summary": "나가 달라는 업주의 요구와 빵을 사러 왔다며 들어가려는 일행의 행동을 대비해 중심축을 선명하게 한다.",
+                "claimRefs": [
+                  "claim-0ef1fe333088"
+                ]
+              },
+              {
+                "role": "해명 한정과 감정적 잔향",
+                "summary": "우울증 언급의 확인 한계를 분명히 한 뒤, 병명이 아닌 검증된 행동과 무너진 일상적 경계에 초점을 돌려 청자의 자기투영으로 닫는다.",
+                "claimRefs": [
+                  "claim-b43c4ae41bac",
+                  "claim-cbbb44d10c07",
+                  "claim-0ef1fe333088",
+                  "claim-4c461bf00283"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "빵집 입구의 흡연 제지를 출발점으로, 말의 충돌이 접근과 어깨 밀침을 거쳐 매장 문턱의 침범으로 확대되는 ‘일상적 경계의 붕괴’를 단일 중심축으로 삼았다.",
+              "rationale": "화면 없이도 입구 밖 흡연, 촬영 직후의 접근, 밀침과 넘어짐, 매장 안으로 향한 이동을 순서대로 들을 수 있게 공간 변화를 중심으로 압축했다. 우울증 언급은 사건의 원인이나 진단으로 소비하지 않고 확인되지 않은 연결을 차단하는 짧은 전환으로 배치했다. 법적 결과나 상해 정도처럼 근거가 없는 내용은 제외하고, 업주와 손님의 역할 충돌을 문턱이라는 동일 공간에 모아 긴장을 정리했다. 마지막은 피해자의 내면을 추정하지 않으면서도 누구나 익숙하게 여기는 일터의 안전한 경계가 흔들리는 감각으로 사건의 잔향을 확장했다."
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "da050150f68f7038008488e81532eb34752451abe1d7a59961596a844687cead",
+              "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+              "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+              "usedClaimRefs": [
+                "claim-cbbb44d10c07",
+                "claim-bbfcd800f1aa",
+                "claim-ac2176041d17",
+                "claim-4c461bf00283",
+                "claim-59a63736d711",
+                "claim-0ef1fe333088",
+                "claim-b43c4ae41bac"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이 들어도 빵집 매장 입구, 흡연을 제지한 말, 촬영을 시작한 순간, 어깨로 밀쳐 넘어지는 신체 접촉과 매장 안으로 들어오려 한 행동의 순서를 따라갈 수 있게 한다. 매장 입구 흡연 제지, 매장 문을 닫으라는 응수, 일행 중 한 사람의 접근·어깨 밀침·욕설은 공개 제보 영상과 A씨 설명에 근거한 사건 요소이며, 구체적인 장소·일시·상해 정도·영업 피해는 확인되지 않은 채로 둔다. 일상적 경계 요청이 물리적 접촉과 손님·업주의 역할 충돌로 번지는 흐름은 central axis 후보지만 훅, 공개 순서, 문장 리듬과 beat 수는 모델이 자율적으로 정한다. 빵을 사러 왔다며 들어가려 한 행동과 나가 달라는 업주의 요구를 구분해 공간의 이동을 들려주되, 영상 밖의 대사·속도·의도는 만들지 않는다. 이 사건은 제보 기반 단일 보도라 조건부 귀속이 필요하다. ‘제보 영상과 업주 설명에 따르면’, ‘전해진 내용’처럼 확인 수준에 맞춘 표현을 쓰고, 우울증 언급을 진단 사실이나 행동의 의학적 원인으로 연결하지 않는다. 경찰 신고·입건·합의·처분, 피해 진단은 근거가 없으므로 대본에 추가하지 않는다. 법적 결과가 새 근거로 확인될 때만 coda보다 먼저 배치한다. 그렇지 않다면 조사·처분이 없었던 것처럼 결론 내리지 않는다. final movement는 확인된 충돌과 경계의 붕괴에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 닫되 피해자의 내면을 대변하지 않는다. 특정 행동·바람·감정·질문·훈계·상투어를 고정하지 말고 전체 narration을 재편집한다. 2026년 7월 31일 공개 보도와 확인된 절대 날짜를 우선하며 상대 날짜는 피한다. 70~80초는 locked owner narration에서만 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+            "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+            "packageSha256": "da050150f68f7038008488e81532eb34752451abe1d7a59961596a844687cead"
+          }
+        },
+        "draftSnapshotSha256": "b16baede05a8ba684c377607b815241162469d8991d84fc3b023d5249dd14625"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T15:32:04.878Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v7",
+          "generation": {
+            "schemaVersion": 10,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v7",
+            "promptSha256": "6a7c091eba321f37c05367c2f94559ac79e139041ab4ec923075e23f154fe03f",
+            "packageSha256": "f0f2951c235697068990ff6404822d33c4bd6efc8eeee7ca720bbadb37bc6ed8",
+            "outputSha256": "d433be329206764b455ea2ca416053c0eced935ef6d697a02100c39e3cb05ff7",
+            "currentAuthoritySha256": "d433be329206764b455ea2ca416053c0eced935ef6d697a02100c39e3cb05ff7",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T14:58:42.373Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "제보 영상과 업주 설명에 따르면, 빵집 사장 A씨는 매장 입구 근처에서 담배를 피우던 이들에게 자신이 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다. 돌아온 건 일행 중 한 사람이 어깨로 강하게 밀쳐 A씨를 넘어뜨리는 신체 접촉이었습니다. 시작은 매장 앞의 경계를 지켜 달라는 말이었습니다. 흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했습니다. A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 다가왔고, 공개된 제보 영상과 A씨 설명상 그 사람은 A씨를 어깨로 강하게 밀쳐 넘어뜨렸습니다. 접촉 뒤에도 A씨 설명상 욕설은 이어졌습니다. A씨가 나가 달라고 요구했지만, 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했습니다. 입구 근처의 흡연을 다른 곳에서 해 달라는 요청이 문을 닫으라는 응수와 신체 접촉을 거쳐, 매장 안으로 들어오려는 움직임까지 번진 겁니다. 연락 과정에서는 당사자의 우울증이 언급됐습니다. 하지만 진단 여부도, 사건 행동과의 의학적 인과관계도 확인되지 않았습니다. 따라서 그 언급만으로 밀침의 원인을 설명할 수는 없습니다. 가게 입구는 업주와 빵을 사러 온 사람이 평범하게 마주치는 자리입니다. 그 평범한 경계가 존중받지 못하는 순간의 불안은, 자신의 일상도 안전한 자리이기를 믿는 누구에게나 낯설지 않습니다.",
+            "beats": [
+              {
+                "role": "일상적 경계와 물리적 침해의 선충돌",
+                "summary": "매장 입구의 흡연 장소를 옮겨 달라는 업주의 요청과, 어깨로 밀쳐 넘어뜨린 신체 접촉을 첫 두 문장에서 맞붙인다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-4c461bf00283"
+                ]
+              },
+              {
+                "role": "말에서 접근과 밀침으로 번진 과정",
+                "summary": "매장 문을 닫으라는 응수, 촬영 시작, 일행의 접근과 밀침을 시간 순서대로 연결해 오프닝에서 남긴 확대 과정의 질문을 회수한다.",
+                "claimRefs": [
+                  "claim-bbfcd800f1aa",
+                  "claim-ac2176041d17",
+                  "claim-4c461bf00283"
+                ]
+              },
+              {
+                "role": "접촉 이후에도 무너진 매장 경계",
+                "summary": "욕설이 이어지고, 나가 달라는 요구에도 빵을 사러 왔다며 매장 안으로 들어가려 한 행동으로 역할 충돌을 선명하게 만든다.",
+                "claimRefs": [
+                  "claim-59a63736d711",
+                  "claim-0ef1fe333088"
+                ]
+              },
+              {
+                "role": "원인으로 단정할 수 없는 언급",
+                "summary": "우울증 언급은 짧게 다루되 진단과 의학적 인과관계가 확인되지 않았음을 분명히 해 행동의 원인으로 연결하지 않는다.",
+                "claimRefs": [
+                  "claim-b43c4ae41bac"
+                ]
+              },
+              {
+                "role": "평범한 문턱에 남은 불안",
+                "summary": "업주와 빵을 사러 온 사람이 마주치는 일상적 공간의 경계가 무너진 장면을 청자의 일상적 안전감에 비춰 닫는다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-0ef1fe333088",
+                  "claim-4c461bf00283"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "빵집 입구에서 경계를 지켜 달라는 업주의 일상적 요청이 신체 접촉과 매장 진입 시도로 확대되며, 업주와 빵을 사러 왔다고 한 이들의 역할 질서까지 뒤집힌 흐름을 중심축으로 삼았다.",
+              "rationale": "오프닝에서 요청과 밀침을 즉시 충돌시킨 뒤, 문을 닫으라는 응수와 촬영을 계기로 한 접근을 시간 순서대로 풀어 확대 과정을 회수했다. 욕설과 매장 진입 시도는 경계 붕괴를 강화하므로 남겼고, 우울증 언급은 인과관계가 확인되지 않았다는 한정과 함께 압축했다. 법적 결과는 근거가 없어 넣지 않았으며, 마지막은 평범한 가게 입구가 불안한 경계로 바뀐 의미를 청자의 일상적 안전감에 연결했다.",
+              "hook": {
+                "choice": "업주의 평범한 흡연 이동 요청과 어깨 밀침을 첫 두 문장에서 직접 맞붙이는 결과 선공개형 충돌",
+                "rationale": "누가 어떤 공간에서 무엇을 요청했는지와 그 요청 뒤 발생한 구체적인 신체 접촉을 제보 근거의 한정 표현과 함께 즉시 제시한다. 다만 문을 닫으라는 응수, 촬영, 접근이라는 확대 과정은 뒤에 남겨 사실로 회수한다.",
+                "openingText": "제보 영상과 업주 설명에 따르면, 빵집 사장 A씨는 매장 입구 근처에서 담배를 피우던 이들에게 자신이 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다. 돌아온 건 일행 중 한 사람이 어깨로 강하게 밀쳐 A씨를 넘어뜨리는 신체 접촉이었습니다.",
+                "expectationText": "빵집 사장 A씨는 매장 입구 근처에서 담배를 피우던 이들에게 자신이 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다.",
+                "expectationClaimRefs": [
+                  "claim-cbbb44d10c07"
+                ],
+                "breachText": "돌아온 건 일행 중 한 사람이 어깨로 강하게 밀쳐 A씨를 넘어뜨리는 신체 접촉이었습니다.",
+                "breachClaimRefs": [
+                  "claim-4c461bf00283"
+                ],
+                "withheldQuestion": "흡연 장소를 옮겨 달라는 요청은 어떤 과정을 거쳐 물리적 접촉으로 확대됐는가?",
+                "payoff": "흡연자들은 A씨에게 매장 문을 닫으라고 반말로 응수했습니다. A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 다가왔고, 공개된 제보 영상과 A씨 설명상 그 사람은 A씨를 어깨로 강하게 밀쳐 넘어뜨렸습니다.",
+                "payoffClaimRefs": [
+                  "claim-bbfcd800f1aa",
+                  "claim-ac2176041d17",
+                  "claim-4c461bf00283"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "f0f2951c235697068990ff6404822d33c4bd6efc8eeee7ca720bbadb37bc6ed8",
+              "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+              "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+              "usedClaimRefs": [
+                "claim-cbbb44d10c07",
+                "claim-4c461bf00283",
+                "claim-bbfcd800f1aa",
+                "claim-ac2176041d17",
+                "claim-59a63736d711",
+                "claim-0ef1fe333088",
+                "claim-b43c4ae41bac"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이 들어도 빵집 매장 입구, 흡연을 제지한 말, 촬영을 시작한 순간, 어깨로 밀쳐 넘어지는 신체 접촉과 매장 안으로 들어오려 한 행동의 순서를 따라갈 수 있게 한다. 매장 입구 흡연 제지, 매장 문을 닫으라는 응수, 일행 중 한 사람의 접근·어깨 밀침·욕설은 공개 제보 영상과 A씨 설명에 근거한 사건 요소이며, 구체적인 장소·일시·상해 정도·영업 피해는 확인되지 않은 채로 둔다. 일상적 경계 요청이 물리적 접촉과 손님·업주의 역할 충돌로 번지는 흐름은 central axis 후보지만 훅, 공개 순서, 문장 리듬과 beat 수는 모델이 자율적으로 정한다. 빵을 사러 왔다며 들어가려 한 행동과 나가 달라는 업주의 요구를 구분해 공간의 이동을 들려주되, 영상 밖의 대사·속도·의도는 만들지 않는다. 이 사건은 제보 기반 단일 보도라 조건부 귀속이 필요하다. ‘제보 영상과 업주 설명에 따르면’, ‘전해진 내용’처럼 확인 수준에 맞춘 표현을 쓰고, 우울증 언급을 진단 사실이나 행동의 의학적 원인으로 연결하지 않는다. 경찰 신고·입건·합의·처분, 피해 진단은 근거가 없으므로 대본에 추가하지 않는다. 법적 결과가 새 근거로 확인될 때만 coda보다 먼저 배치한다. 그렇지 않다면 조사·처분이 없었던 것처럼 결론 내리지 않는다. final movement는 확인된 충돌과 경계의 붕괴에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 닫되 피해자의 내면을 대변하지 않는다. 특정 행동·바람·감정·질문·훈계·상투어를 고정하지 말고 전체 narration을 재편집한다. 2026년 7월 31일 공개 보도와 확인된 절대 날짜를 우선하며 상대 날짜는 피한다. 70~80초는 locked owner narration에서만 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+            "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+            "packageSha256": "f0f2951c235697068990ff6404822d33c4bd6efc8eeee7ca720bbadb37bc6ed8"
+          }
+        },
+        "draftSnapshotSha256": "400d36ea3abffd70c4be5821b84834958fcc79f9ffd97350b0a33d39ad55537e"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T16:35:22.974Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v8",
+          "generation": {
+            "schemaVersion": 11,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v8",
+            "promptSha256": "345bf8181a4027e0654c249ce1f7fde974d49ca1cb2190c9e3ff799958300542",
+            "packageSha256": "4ee073620fd9c3583a2a25476891072ba0c13286cb8387a8c41e97715e4473df",
+            "outputSha256": "410f95c26106116bf3b969cbfc5b647b9059c333c30318c37d5813ae32d2b40d",
+            "currentAuthoritySha256": "410f95c26106116bf3b969cbfc5b647b9059c333c30318c37d5813ae32d2b40d",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T15:32:04.810Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "제보 영상과 업주 A씨 설명에 따르면, 빵집 주인은 매장 입구에서 담배를 다른 곳에서 피워 달라고 요청했습니다. 돌아온 건 매장 문을 닫으라는 반말이었고, 일행 중 한 사람은 A씨를 어깨로 강하게 밀쳐 넘어뜨렸습니다. 상황은 말다툼에서 멈추지 않았습니다. A씨가 자신은 비흡연자라고 밝히며 흡연 장소를 옮겨 달라고 하자, 흡연자들은 오히려 가게 문을 닫으라고 응수했습니다. A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔습니다. A씨가 나가 달라고 요구했지만, 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했습니다. 그 과정에서 전해진 어깨 밀침으로 A씨가 넘어졌고, 신체 접촉 뒤에도 욕설이 이어졌다는 게 A씨의 설명입니다. 이후 연락 과정에서는 당사자의 우울증이 언급됐습니다. 하지만 진단 여부도, 이 행동과의 의학적 인과관계도 확인되지 않았습니다. 담배를 다른 곳에서 피워 달라는 평범한 부탁이 자기 가게 문턱에서 밀려 넘어지는 장면으로 돌아왔다는 사실은, 누구라도 건넬 법한 한마디가 뜻밖의 모욕으로 되돌아올 수 있다는 씁쓸함을 남깁니다.",
+            "beats": [
+              {
+                "role": "문턱에서 뒤집힌 주도권",
+                "summary": "흡연 장소를 옮겨 달라는 업주의 일상적인 요청과 문을 닫으라는 응수, 어깨 밀침을 즉시 충돌시킨다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-bbfcd800f1aa",
+                  "claim-4c461bf00283"
+                ]
+              },
+              {
+                "role": "말에서 접근으로",
+                "summary": "흡연 제지가 반말 응수와 촬영 직후의 물리적 접근으로 확대되는 과정을 시간순으로 좁혀 간다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-bbfcd800f1aa",
+                  "claim-ac2176041d17"
+                ]
+              },
+              {
+                "role": "가게 안까지 이어진 역할 충돌",
+                "summary": "나가 달라는 업주의 요구와 빵을 사러 왔다며 들어가려 한 일행의 행동을 대비하고, 밀침과 뒤이은 욕설로 긴장을 정점에 놓는다.",
+                "claimRefs": [
+                  "claim-0ef1fe333088",
+                  "claim-4c461bf00283",
+                  "claim-59a63736d711"
+                ]
+              },
+              {
+                "role": "해명과 확인의 경계",
+                "summary": "우울증 언급을 전하되 진단이나 행동의 의학적 원인으로 확정하지 않는다.",
+                "claimRefs": [
+                  "claim-b43c4ae41bac"
+                ]
+              },
+              {
+                "role": "평범한 부탁이 모욕으로 돌아온 잔상",
+                "summary": "흡연 장소를 옮겨 달라는 요청이 업주를 자기 가게 문턱에서 넘어뜨리는 접촉으로 귀결된 부조리를 청자의 경험 가능성과 연결한다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-4c461bf00283"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "자기 매장 입구의 흡연을 제지한 업주가 오히려 문을 닫으라는 말을 듣고, 매장 진입을 막는 과정에서 밀려 넘어지는 역할과 공간 주도권의 역전",
+              "rationale": "사건에서 가장 선명한 축은 흡연 시비 자체보다 업주가 자기 가게 문턱에서 통제권을 잃는 과정이다. 오프닝에서 요청과 밀침을 먼저 맞부딪치고, 이후 반말 응수에서 촬영, 접근, 진입 시도, 욕설로 확대되는 순서를 회수했다. 우울증 언급은 원인으로 오인되지 않도록 짧게 한정했으며, 확인되지 않은 상해와 법적 결과는 제외했다.",
+              "hook": {
+                "choice": "업주의 평범한 영업공간 요청과 즉각적인 언어·신체 침범을 맞붙인 결과 선공개형 오프닝",
+                "rationale": "빵집 주인이 매장 입구의 흡연 장소를 옮겨 달라고 한 상황과, 문을 닫으라는 응수 및 어깨로 밀쳐 넘어뜨린 행동을 인접한 두 문장에 배치해 기대와 침해의 규모를 즉시 이해하게 한다.",
+                "openingText": "제보 영상과 업주 A씨 설명에 따르면, 빵집 주인은 매장 입구에서 담배를 다른 곳에서 피워 달라고 요청했습니다. 돌아온 건 매장 문을 닫으라는 반말이었고, 일행 중 한 사람은 A씨를 어깨로 강하게 밀쳐 넘어뜨렸습니다.",
+                "impactText": "일행 중 한 사람은 A씨를 어깨로 강하게 밀쳐 넘어뜨렸습니다.",
+                "impactClaimRefs": [
+                  "claim-4c461bf00283"
+                ],
+                "impactMechanism": "흡연 장소를 옮겨 달라는 요청이 신체 접촉과 넘어짐으로 확대된 결과를 도구인 어깨와 구체적인 동작으로 전달해, 과장 없이 즉각적인 위험을 만든다.",
+                "expectationText": "빵집 주인은 매장 입구에서 담배를 다른 곳에서 피워 달라고 요청했습니다.",
+                "expectationClaimRefs": [
+                  "claim-cbbb44d10c07"
+                ],
+                "breachText": "돌아온 건 매장 문을 닫으라는 반말이었고, 일행 중 한 사람은 A씨를 어깨로 강하게 밀쳐 넘어뜨렸습니다.",
+                "breachClaimRefs": [
+                  "claim-bbfcd800f1aa",
+                  "claim-4c461bf00283"
+                ],
+                "withheldQuestion": "흡연 장소를 옮겨 달라는 요청은 어떤 과정을 거쳐 물리적 접촉으로 확대됐는가?",
+                "retentionGap": "오프닝은 요청과 넘어짐이라는 충돌을 공개하되, 촬영이 시작된 뒤 일행 한 사람이 접근하고 매장 안으로 들어가려 한 확대 과정은 뒤에 남긴다.",
+                "payoff": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔습니다. A씨가 나가 달라고 요구했지만, 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했습니다.",
+                "payoffClaimRefs": [
+                  "claim-ac2176041d17",
+                  "claim-0ef1fe333088"
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "자기 가게 문턱에서 되돌아온 뜻밖의 모욕",
+                "codaRationale": "흡연 장소를 옮겨 달라는 구체적인 부탁과 어깨 밀침으로 넘어진 결과를 한 문장 안에 다시 결속해, 피해자의 내면을 대신 말하지 않으면서 청자가 평범한 부탁을 건네는 순간에 자신을 투영하게 한다.",
+                "closingText": "담배를 다른 곳에서 피워 달라는 평범한 부탁이 자기 가게 문턱에서 밀려 넘어지는 장면으로 돌아왔다는 사실은, 누구라도 건넬 법한 한마디가 뜻밖의 모욕으로 되돌아올 수 있다는 씁쓸함을 남깁니다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-4c461bf00283"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "4ee073620fd9c3583a2a25476891072ba0c13286cb8387a8c41e97715e4473df",
+              "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+              "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+              "usedClaimRefs": [
+                "claim-cbbb44d10c07",
+                "claim-bbfcd800f1aa",
+                "claim-4c461bf00283",
+                "claim-ac2176041d17",
+                "claim-0ef1fe333088",
+                "claim-59a63736d711",
+                "claim-b43c4ae41bac"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이 들어도 빵집 매장 입구, 흡연을 제지한 말, 촬영을 시작한 순간, 어깨로 밀쳐 넘어지는 신체 접촉과 매장 안으로 들어오려 한 행동의 순서를 따라갈 수 있게 한다. 매장 입구 흡연 제지, 매장 문을 닫으라는 응수, 일행 중 한 사람의 접근·어깨 밀침·욕설은 공개 제보 영상과 A씨 설명에 근거한 사건 요소이며, 구체적인 장소·일시·상해 정도·영업 피해는 확인되지 않은 채로 둔다. 일상적 경계 요청이 물리적 접촉과 손님·업주의 역할 충돌로 번지는 흐름은 central axis 후보지만 훅, 공개 순서, 문장 리듬과 beat 수는 모델이 자율적으로 정한다. 빵을 사러 왔다며 들어가려 한 행동과 나가 달라는 업주의 요구를 구분해 공간의 이동을 들려주되, 영상 밖의 대사·속도·의도는 만들지 않는다. 이 사건은 제보 기반 단일 보도라 조건부 귀속이 필요하다. ‘제보 영상과 업주 설명에 따르면’, ‘전해진 내용’처럼 확인 수준에 맞춘 표현을 쓰고, 우울증 언급을 진단 사실이나 행동의 의학적 원인으로 연결하지 않는다. 경찰 신고·입건·합의·처분, 피해 진단은 근거가 없으므로 대본에 추가하지 않는다. 법적 결과가 새 근거로 확인될 때만 coda보다 먼저 배치한다. 그렇지 않다면 조사·처분이 없었던 것처럼 결론 내리지 않는다. final movement는 확인된 충돌과 경계의 붕괴에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 닫되 피해자의 내면을 대변하지 않는다. 특정 행동·바람·감정·질문·훈계·상투어를 고정하지 말고 전체 narration을 재편집한다. 2026년 7월 31일 공개 보도와 확인된 절대 날짜를 우선하며 상대 날짜는 피한다. 70~80초는 locked owner narration에서만 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+            "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+            "packageSha256": "4ee073620fd9c3583a2a25476891072ba0c13286cb8387a8c41e97715e4473df"
+          }
+        },
+        "draftSnapshotSha256": "52fd951f53980349eb78e54cdaac3ec606b0ec6717fa74f5d0a9f0c69a680113"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T16:59:33.028Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v9",
+          "generation": {
+            "schemaVersion": 12,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v9",
+            "promptSha256": "14319c43d492635abe873e39bd31b82e8804c70284014ea65cec7396a2d9c692",
+            "packageSha256": "9396ec23721504642c31d4071828938fb418c35cfb7ddc66e6cf9e9a739bdfc5",
+            "outputSha256": "f0229ed628efbab7ba6d4fbbc6151c59d8533f56c181b893ba473fd4f4155301",
+            "currentAuthoritySha256": "f0229ed628efbab7ba6d4fbbc6151c59d8533f56c181b893ba473fd4f4155301",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T16:35:22.885Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "빵집 사장 A씨는 매장 입구에서 담배를 피우던 이들에게 자신은 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다. 하지만 일행 중 한 사람은 A씨에게 다가와 어깨로 강하게 밀쳐 넘어뜨렸다는 게 공개된 제보 영상과 A씨 설명의 내용입니다. 그 짧은 요청이 어떻게 몸싸움으로 번졌을까요. 흡연자들은 자리를 옮기는 대신 A씨에게 매장 문을 닫으라고 반말로 응수했습니다. A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 가까이 다가왔습니다. A씨는 나가 달라고 요구했지만, 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했습니다. 손님을 맞는 문이 순식간에 업주와 일행이 맞서는 경계가 된 겁니다. 이어 한 사람이 어깨로 A씨를 강하게 밀쳐 넘어뜨렸고, 신체 접촉 뒤에도 욕설이 계속됐다는 게 A씨 설명입니다. 이후 연락 과정에서는 당사자의 우울증이 언급됐습니다. 그러나 진단 여부도, 그 언급과 당시 행동 사이의 의학적 인과관계도 확인되지 않았습니다. 빵을 파는 사람이 자기 가게 문턱에서 담배를 피해 달라고 말한 대가가 어깨에 밀려 넘어지는 일이었다는 사실 앞에서는, 누구라도 억울함과 서늘함을 함께 떠올리게 됩니다.",
+            "beats": [
+              {
+                "role": "가게 문턱에서 깨진 최소한의 요청",
+                "summary": "비흡연자인 빵집 사장이 매장 입구의 흡연을 제지하자 일행 중 한 사람이 다가와 어깨로 밀쳐 넘어뜨렸다는 핵심 충돌을 먼저 제시한다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-ac2176041d17",
+                  "claim-4c461bf00283"
+                ]
+              },
+              {
+                "role": "말로 시작된 반발",
+                "summary": "다른 곳에서 피워 달라는 요청에 매장 문을 닫으라는 반말이 돌아오며 갈등이 확대된 과정을 복원한다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-bbfcd800f1aa"
+                ]
+              },
+              {
+                "role": "입구에서 안쪽으로 향한 대치",
+                "summary": "촬영 시작 뒤 한 사람이 접근하고, 나가 달라는 요구에도 빵을 사러 왔다며 매장 안으로 들어가려 한 이동을 들려준다.",
+                "claimRefs": [
+                  "claim-ac2176041d17",
+                  "claim-0ef1fe333088"
+                ]
+              },
+              {
+                "role": "밀침 뒤까지 이어진 공격성",
+                "summary": "어깨로 밀쳐 넘어뜨린 신체 접촉과 이후 욕설을 A씨 설명에 맞춰 한정한다.",
+                "claimRefs": [
+                  "claim-4c461bf00283",
+                  "claim-59a63736d711"
+                ]
+              },
+              {
+                "role": "원인으로 확정할 수 없는 해명과 잔향",
+                "summary": "우울증 언급을 의학적 원인과 분리한 뒤, 자기 가게 문턱에서 밀려난 업주의 역할 충돌이 남기는 감정으로 닫는다.",
+                "claimRefs": [
+                  "claim-b43c4ae41bac",
+                  "claim-cbbb44d10c07",
+                  "claim-4c461bf00283"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "매장 입구에서 흡연을 피해 달라고 한 업주의 경계 요청이 반말, 접근, 매장 진입 시도, 어깨 밀침으로 확대되며 결국 업주가 자기 가게 문턱에서 밀려나는 역할 충돌을 중심축으로 삼았다.",
+              "rationale": "확인된 사실이 제보 기반 단일 보도에 한정돼 있어 장소·상해·법적 후속 조치는 배제했다. 대신 입구의 요청에서 매장 안으로 향한 움직임과 신체 접촉까지를 순서대로 압축해 공간적 긴장을 만들고, 우울증 언급은 인과관계가 확인되지 않았다는 한정과 함께 짧게 처리했다. 결말은 빵집 주인이 자기 가게 문턱에서 밀려났다는 사건 고유의 부조리에 집중했다.",
+              "hook": {
+                "choice": "가게를 지키는 업주의 평범한 흡연 제지와 그 업주를 넘어뜨린 어깨 밀침을 인접한 두 문장으로 정면 충돌시켰다.",
+                "rationale": "비흡연자인 빵집 사장이 매장 입구의 흡연자들에게 다른 곳에서 피워 달라고 한 구체적 상황과, 일행이 다가와 어깨로 밀쳐 넘어뜨렸다는 결과가 함께 제시돼 역할과 위험 규모가 즉시 드러난다.",
+                "openingText": "빵집 사장 A씨는 매장 입구에서 담배를 피우던 이들에게 자신은 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다. 하지만 일행 중 한 사람은 A씨에게 다가와 어깨로 강하게 밀쳐 넘어뜨렸다는 게 공개된 제보 영상과 A씨 설명의 내용입니다.",
+                "impactText": "일행 중 한 사람은 A씨에게 다가와 어깨로 강하게 밀쳐 넘어뜨렸다는 게 공개된 제보 영상과 A씨 설명의 내용입니다.",
+                "impactClaimRefs": [
+                  "claim-ac2176041d17",
+                  "claim-4c461bf00283"
+                ],
+                "impactMechanism": "손님을 맞는 빵집 입구에서 업주가 단순히 흡연 장소를 옮겨 달라고 요청한 뒤, 상대가 직접 접근해 어깨로 넘어뜨렸다는 구체적 행동이 말다툼을 넘어선 물리적 위험을 즉시 보여준다.",
+                "expectationText": "빵집 사장 A씨는 매장 입구에서 담배를 피우던 이들에게 자신은 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다.",
+                "expectationClaimRefs": [
+                  "claim-cbbb44d10c07"
+                ],
+                "breachText": "하지만 일행 중 한 사람은 A씨에게 다가와 어깨로 강하게 밀쳐 넘어뜨렸다는 게 공개된 제보 영상과 A씨 설명의 내용입니다.",
+                "breachClaimRefs": [
+                  "claim-ac2176041d17",
+                  "claim-4c461bf00283"
+                ],
+                "withheldQuestion": "흡연 장소를 옮겨 달라는 요청은 어떤 과정을 거쳐 접근과 신체 접촉으로 확대됐는가?",
+                "retentionGap": "첫 두 문장에서 요청과 최종 신체 접촉은 공개하되, 그 사이의 반말 응수와 촬영 시작, 접근, 매장 진입 시도를 뒤에 남겨 갈등이 단계적으로 확대된 경로를 회수하도록 했다.",
+                "payoff": "흡연자들은 자리를 옮기는 대신 A씨에게 매장 문을 닫으라고 반말로 응수했습니다. A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 가까이 다가왔습니다. A씨는 나가 달라고 요구했지만, 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했습니다.",
+                "payoffClaimRefs": [
+                  "claim-bbfcd800f1aa",
+                  "claim-ac2176041d17",
+                  "claim-0ef1fe333088"
+                ]
+              },
+              "sceneCraft": {
+                "approach": "매장 입구의 흡연 제지에서 시작해 촬영과 접근, 문턱을 넘어 안으로 들어가려는 움직임, 어깨 밀침으로 이어지는 물리적 순서를 따라가게 했다.",
+                "continuityRationale": "‘매장 입구’, ‘가까이 다가왔습니다’, ‘매장 안으로 들어가려 했습니다’, ‘밀쳐 넘어뜨렸고’라는 검증된 공간·행동 단서가 바깥에서 안쪽으로 향하는 대치와 신체 접촉의 연속을 화면 없이도 구분하게 한다.",
+                "sceneSpans": [
+                  {
+                    "text": "빵집 사장 A씨는 매장 입구에서 담배를 피우던 이들에게 자신은 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다.",
+                    "claimRefs": [
+                      "claim-cbbb44d10c07"
+                    ],
+                    "continuityRole": "사건의 출발 공간인 빵집 입구와 업주의 첫 행동을 동시에 고정한다."
+                  },
+                  {
+                    "text": "하지만 일행 중 한 사람은 A씨에게 다가와 어깨로 강하게 밀쳐 넘어뜨렸다는 게 공개된 제보 영상과 A씨 설명의 내용입니다.",
+                    "claimRefs": [
+                      "claim-ac2176041d17",
+                      "claim-4c461bf00283"
+                    ],
+                    "continuityRole": "접근에서 어깨 접촉과 넘어짐까지 이어지는 핵심 물리 행동을 opening 안에서 제시한다."
+                  },
+                  {
+                    "text": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 가까이 다가왔습니다.",
+                    "claimRefs": [
+                      "claim-ac2176041d17"
+                    ],
+                    "continuityRole": "말로 맞서던 상황이 인물 간 거리 축소로 바뀌는 전환점을 들려준다."
+                  },
+                  {
+                    "text": "A씨는 나가 달라고 요구했지만, 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했습니다.",
+                    "claimRefs": [
+                      "claim-0ef1fe333088"
+                    ],
+                    "continuityRole": "업주는 밖으로 나가라고 하고 일행은 안으로 들어가려 하는 반대 방향의 움직임을 명확히 한다."
+                  },
+                  {
+                    "text": "이어 한 사람이 어깨로 A씨를 강하게 밀쳐 넘어뜨렸고, 신체 접촉 뒤에도 욕설이 계속됐다는 게 A씨 설명입니다.",
+                    "claimRefs": [
+                      "claim-4c461bf00283",
+                      "claim-59a63736d711"
+                    ],
+                    "continuityRole": "매장 진입 대치가 신체 접촉으로 정점에 이르고 그 뒤에도 언어적 공격이 이어졌음을 연결한다."
+                  }
+                ],
+                "attributionStrategy": "제보 기반 단일 보도라는 확인 수준을 반영해 출처를 장면 앞에 세우지 않고, 신체 접촉과 후속 욕설을 서술한 문장 끝에 공개 영상 또는 A씨 설명이라는 한정을 붙였다.",
+                "attributions": [
+                  {
+                    "text": "공개된 제보 영상과 A씨 설명의 내용입니다.",
+                    "claimRefs": [
+                      "claim-4c461bf00283"
+                    ],
+                    "necessity": "신체 접촉은 공개된 제보 영상과 당사자 설명에 근거한 단일 출처 내용이므로 확인 범위를 드러내기 위해 필요하다."
+                  },
+                  {
+                    "text": "신체 접촉 뒤에도 욕설이 계속됐다는 게 A씨 설명입니다.",
+                    "claimRefs": [
+                      "claim-59a63736d711"
+                    ],
+                    "necessity": "후속 욕설은 A씨 설명으로 제시된 사실이므로 이를 독립적으로 확정하지 않도록 귀속했다."
+                  }
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "자기 가게 문턱에서 경계를 말한 업주가 오히려 몸으로 밀려난 데서 오는 억울함과 서늘함",
+                "codaRationale": "흡연을 피해 달라는 업주의 요청과 어깨 밀침이라는 두 확인 사실을 다시 맞물려, 피해자의 내면을 대신 말하지 않으면서 청자가 같은 부조리 앞에서 느낄 감정을 투영하게 한다. 빵을 파는 사람과 자기 가게 문턱이라는 사건 고유 요소가 빠지면 성립하지 않는 결말이다.",
+                "closingText": "빵을 파는 사람이 자기 가게 문턱에서 담배를 피해 달라고 말한 대가가 어깨에 밀려 넘어지는 일이었다는 사실 앞에서는, 누구라도 억울함과 서늘함을 함께 떠올리게 됩니다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-4c461bf00283"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "9396ec23721504642c31d4071828938fb418c35cfb7ddc66e6cf9e9a739bdfc5",
+              "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+              "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+              "usedClaimRefs": [
+                "claim-cbbb44d10c07",
+                "claim-ac2176041d17",
+                "claim-4c461bf00283",
+                "claim-bbfcd800f1aa",
+                "claim-0ef1fe333088",
+                "claim-59a63736d711",
+                "claim-b43c4ae41bac"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이 들어도 빵집 매장 입구, 흡연을 제지한 말, 촬영을 시작한 순간, 어깨로 밀쳐 넘어지는 신체 접촉과 매장 안으로 들어오려 한 행동의 순서를 따라갈 수 있게 한다. 매장 입구 흡연 제지, 매장 문을 닫으라는 응수, 일행 중 한 사람의 접근·어깨 밀침·욕설은 공개 제보 영상과 A씨 설명에 근거한 사건 요소이며, 구체적인 장소·일시·상해 정도·영업 피해는 확인되지 않은 채로 둔다. 일상적 경계 요청이 물리적 접촉과 손님·업주의 역할 충돌로 번지는 흐름은 central axis 후보지만 훅, 공개 순서, 문장 리듬과 beat 수는 모델이 자율적으로 정한다. 빵을 사러 왔다며 들어가려 한 행동과 나가 달라는 업주의 요구를 구분해 공간의 이동을 들려주되, 영상 밖의 대사·속도·의도는 만들지 않는다. 이 사건은 제보 기반 단일 보도라 조건부 귀속이 필요하다. ‘제보 영상과 업주 설명에 따르면’, ‘전해진 내용’처럼 확인 수준에 맞춘 표현을 쓰고, 우울증 언급을 진단 사실이나 행동의 의학적 원인으로 연결하지 않는다. 경찰 신고·입건·합의·처분, 피해 진단은 근거가 없으므로 대본에 추가하지 않는다. 법적 결과가 새 근거로 확인될 때만 coda보다 먼저 배치한다. 그렇지 않다면 조사·처분이 없었던 것처럼 결론 내리지 않는다. final movement는 확인된 충돌과 경계의 붕괴에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 닫되 피해자의 내면을 대변하지 않는다. 특정 행동·바람·감정·질문·훈계·상투어를 고정하지 말고 전체 narration을 재편집한다. 2026년 7월 31일 공개 보도와 확인된 절대 날짜를 우선하며 상대 날짜는 피한다. 70~80초는 locked owner narration에서만 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+            "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+            "packageSha256": "9396ec23721504642c31d4071828938fb418c35cfb7ddc66e6cf9e9a739bdfc5"
+          }
+        },
+        "draftSnapshotSha256": "32bfdbaf76819822dfe2999607caaaf2554206d4a5eb11c56a68e3ad08e0ad7e"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T19:01:40.451Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v10",
+          "generation": {
+            "schemaVersion": 13,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v10",
+            "promptSha256": "c47dc74f5ffe282e40d1df1abaaee15415ec0cb7b936c169bbe7a69d9954822e",
+            "packageSha256": "275ff12d285b6ae329f61b66132b039bb74d1fa2321e2e9c9da7db354c33422a",
+            "outputSha256": "1e85bd1459d861ffc244df0811fca41a6ba3b7e2eedeb768ae45bd63054d6af7",
+            "currentAuthoritySha256": "1e85bd1459d861ffc244df0811fca41a6ba3b7e2eedeb768ae45bd63054d6af7",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T16:59:32.952Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "빵집 주인은 매장 입구에서 담배를 피우던 사람들에게 다른 곳에서 피워 달라고 요청했습니다. 그러자 일행 중 한 사람이 다가와 주인을 어깨로 강하게 밀쳐 넘어뜨리는 장면이 공개된 영상에 담겼고, A씨도 같은 내용을 설명했습니다. 흡연자들은 부탁을 받아들이는 대신 A씨에게 매장 문을 닫으라고 반말로 응수했습니다. 매장 입구의 담배를 피해 달라는 요청이 업주에게 자기 가게 문부터 닫으라는 말로 돌아온 겁니다. A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔습니다. A씨는 나가 달라고 요구했습니다. 하지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했습니다. 밖에서 담배를 피우던 일행이 이제는 안으로 향했고, 업주는 출입구에서 다시 나가 달라고 요구한 셈입니다. 이어 한 사람이 어깨로 A씨를 강하게 밀쳤고 A씨는 넘어졌습니다. 신체 접촉 뒤에도 욕설이 이어졌다고 A씨는 설명했습니다. 빵을 사러 왔다는 말은 손님의 자리였지만, 문을 닫으라는 반말과 어깨 밀침은 그 자리와 정반대였습니다. 담배를 다른 곳에서 피워 달라는 한마디가 빵집 문 앞에서 업주가 넘어지는 장면까지 번졌다는 씁쓸함은 쉽게 가시지 않습니다.",
+            "beats": [
+              {
+                "role": "일상적인 요청과 물리적 침해의 즉각 충돌",
+                "summary": "매장 입구의 흡연을 피해 달라는 업주의 요청과 업주를 밀쳐 넘어뜨린 행동을 첫 두 문장에 맞붙인다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-ac2176041d17",
+                  "claim-4c461bf00283"
+                ]
+              },
+              {
+                "role": "말로 시작된 역할 전도",
+                "summary": "흡연자들이 요청을 거절하며 오히려 업주에게 매장 문을 닫으라고 응수한 부조리를 부각한다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-bbfcd800f1aa"
+                ]
+              },
+              {
+                "role": "출입구로 좁혀지는 대치",
+                "summary": "촬영 시작, 일행의 접근, 퇴거 요구, 매장 진입 시도를 공간 이동에 따라 잇는다.",
+                "claimRefs": [
+                  "claim-ac2176041d17",
+                  "claim-0ef1fe333088"
+                ]
+              },
+              {
+                "role": "신체 접촉과 뒤이은 욕설",
+                "summary": "접근과 진입 시도가 어깨 밀침과 넘어짐으로 확대되고 이후에도 욕설이 이어진 흐름을 회수한다.",
+                "claimRefs": [
+                  "claim-4c461bf00283",
+                  "claim-59a63736d711"
+                ]
+              },
+              {
+                "role": "손님이라는 말과 행동의 충돌이 남긴 여운",
+                "summary": "빵을 사러 왔다는 말과 업주에게 가해진 반말·밀침의 모순을 사건 고유의 씁쓸함으로 닫는다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-bbfcd800f1aa",
+                  "claim-0ef1fe333088",
+                  "claim-4c461bf00283"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "매장 입구에서 흡연을 피해 달라는 업주의 통상적인 요청이, 업주에게 문을 닫으라는 응수와 매장 진입 시도, 어깨 밀침으로 뒤집히는 역할 전도를 중심축으로 삼았다.",
+              "rationale": "사건의 기억점을 단순한 흡연 시비가 아니라 자기 매장의 경계를 정하려던 업주가 오히려 밀려 넘어지는 과정에 두었다. 확인되지 않은 장소·상해·수사 결과와 중심축을 약화하는 우울증 언급은 제외하고, 요청에서 접근과 진입 시도, 신체 접촉으로 높아지는 흐름에 집중했다.",
+              "hook": {
+                "choice": "업주의 평범한 흡연 이동 요청과 업주를 넘어뜨린 어깨 밀침을 인접한 두 문장으로 정면 충돌시키는 결과 선공개형 도입",
+                "rationale": "빵집 주인이라는 일상적 역할과 매장 입구에서 다른 곳으로 흡연 장소를 옮겨 달라는 구체적 요청을 먼저 제시한 뒤, 일행이 다가와 어깨로 밀쳐 넘어뜨렸다는 가장 강한 검증 행동을 즉시 붙였다.",
+                "openingText": "빵집 주인은 매장 입구에서 담배를 피우던 사람들에게 다른 곳에서 피워 달라고 요청했습니다. 그러자 일행 중 한 사람이 다가와 주인을 어깨로 강하게 밀쳐 넘어뜨리는 장면이 공개된 영상에 담겼고, A씨도 같은 내용을 설명했습니다.",
+                "impactText": "일행 중 한 사람이 다가와 주인을 어깨로 강하게 밀쳐 넘어뜨리는 장면",
+                "impactClaimRefs": [
+                  "claim-ac2176041d17",
+                  "claim-4c461bf00283"
+                ],
+                "impactMechanism": "매장 앞 흡연을 피해 달라는 요청에 일행이 접근해 업주를 어깨로 밀쳐 넘어뜨렸다는 대상·수단·결과가 한꺼번에 드러나 사건의 부조리와 위험을 과장 없이 즉시 전달한다.",
+                "expectationText": "빵집 주인은 매장 입구에서 담배를 피우던 사람들에게 다른 곳에서 피워 달라고 요청했습니다.",
+                "expectationClaimRefs": [
+                  "claim-cbbb44d10c07"
+                ],
+                "breachText": "그러자 일행 중 한 사람이 다가와 주인을 어깨로 강하게 밀쳐 넘어뜨리는 장면이 공개된 영상에 담겼고, A씨도 같은 내용을 설명했습니다.",
+                "breachClaimRefs": [
+                  "claim-ac2176041d17",
+                  "claim-4c461bf00283"
+                ],
+                "withheldQuestion": "흡연 장소를 옮겨 달라는 요청이 어떤 과정을 거쳐 업주를 넘어뜨리는 신체 접촉으로 확대됐는가?",
+                "retentionGap": "오프닝에서 요청과 최종 신체 접촉은 공개하되, 그 사이의 문을 닫으라는 응수, 촬영 시작, 접근, 퇴거 요구와 매장 진입 시도를 남겨 확대 과정을 뒤에서 시간순으로 회수한다.",
+                "payoff": "흡연자들은 부탁을 받아들이는 대신 A씨에게 매장 문을 닫으라고 반말로 응수했습니다. 매장 입구의 담배를 피해 달라는 요청이 업주에게 자기 가게 문부터 닫으라는 말로 돌아온 겁니다. A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔습니다. A씨는 나가 달라고 요구했습니다. 하지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했습니다. 밖에서 담배를 피우던 일행이 이제는 안으로 향했고, 업주는 출입구에서 다시 나가 달라고 요구한 셈입니다. 이어 한 사람이 어깨로 A씨를 강하게 밀쳤고 A씨는 넘어졌습니다.",
+                "payoffClaimRefs": [
+                  "claim-bbfcd800f1aa",
+                  "claim-ac2176041d17",
+                  "claim-0ef1fe333088",
+                  "claim-4c461bf00283"
+                ]
+              },
+              "sceneCraft": {
+                "approach": "매장 입구 바깥의 흡연에서 시작해 촬영 중 접근하는 사람, 안으로 들어가려는 일행과 이를 제지하는 업주, 어깨 밀침과 넘어짐으로 이어지는 출입구의 행동선을 따라간다.",
+                "continuityRationale": "입구 근처 흡연, A씨 쪽으로의 접근, 매장 안으로 향하는 이동, 어깨 접촉과 넘어짐을 순서대로 연결해 화면이 없어도 인물과 공간의 변화가 끊기지 않게 했다.",
+                "sceneSpans": [
+                  {
+                    "text": "빵집 주인은 매장 입구에서 담배를 피우던 사람들에게 다른 곳에서 피워 달라고 요청했습니다.",
+                    "claimRefs": [
+                      "claim-cbbb44d10c07"
+                    ],
+                    "continuityRole": "매장 입구 바깥이라는 시작 위치와 업주의 첫 행동을 동시에 설정한다."
+                  },
+                  {
+                    "text": "그러자 일행 중 한 사람이 다가와 주인을 어깨로 강하게 밀쳐 넘어뜨리는 장면이 공개된 영상에 담겼고, A씨도 같은 내용을 설명했습니다.",
+                    "claimRefs": [
+                      "claim-ac2176041d17",
+                      "claim-4c461bf00283"
+                    ],
+                    "continuityRole": "사람이 업주에게 접근한 뒤 어깨 접촉과 넘어짐으로 이어지는 핵심 물리 행동을 오프닝 안에서 제시한다."
+                  },
+                  {
+                    "text": "A씨가 상황을 촬영하기 시작하자 일행 중 한 사람이 A씨에게 다가왔습니다. A씨는 나가 달라고 요구했습니다. 하지만 일행은 빵을 사러 왔다며 매장 안으로 들어가려 했습니다.",
+                    "claimRefs": [
+                      "claim-ac2176041d17",
+                      "claim-0ef1fe333088"
+                    ],
+                    "continuityRole": "촬영 시작을 시간 이음매로 삼아 접근, 퇴거 요구, 매장 안쪽으로 향하는 이동을 순차적으로 들려준다."
+                  },
+                  {
+                    "text": "이어 한 사람이 어깨로 A씨를 강하게 밀쳤고 A씨는 넘어졌습니다. 신체 접촉 뒤에도 욕설이 이어졌다고 A씨는 설명했습니다.",
+                    "claimRefs": [
+                      "claim-4c461bf00283",
+                      "claim-59a63736d711"
+                    ],
+                    "continuityRole": "진입을 둘러싼 대치 다음에 신체 접촉과 그 이후의 욕설을 배치해 사건의 상승과 후속 행동을 마무리한다."
+                  }
+                ],
+                "attributionStrategy": "단일 출처 사건임을 고려해 핵심 신체 접촉은 공개된 영상과 A씨를 책임 주체로 명시하고, 영상으로 확인 범위가 분명하지 않은 접촉 이후 욕설은 A씨의 설명으로 한정했다.",
+                "attributions": [
+                  {
+                    "text": "공개된 영상에 담겼고, A씨도 같은 내용을 설명했습니다.",
+                    "claimRefs": [
+                      "claim-4c461bf00283"
+                    ],
+                    "necessity": "어깨 밀침과 넘어짐이 단일 보도에 인용된 영상 및 당사자 설명에 근거하므로 증거 객체와 설명 주체를 분명히 하기 위해 필요하다."
+                  },
+                  {
+                    "text": "신체 접촉 뒤에도 욕설이 이어졌다고 A씨는 설명했습니다.",
+                    "claimRefs": [
+                      "claim-59a63736d711"
+                    ],
+                    "necessity": "접촉 이후 욕설은 A씨의 단일 설명에 근거하므로 확정적 서술로 넓히지 않기 위해 필요하다."
+                  }
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "자기 가게 문 앞에서 흡연 장소를 옮겨 달라고 말한 업주가 오히려 문을 닫으라는 응수와 어깨 밀침을 받은 역할 전도의 씁쓸함",
+                "codaRationale": "일반적인 안전이나 신뢰를 추상적으로 말하지 않고, 빵집 문·흡연 이동 요청·업주의 넘어짐이라는 이 사건의 구체 요소를 한 문장에 다시 맞물려 청자가 같은 자리에 선 감각을 투영하도록 했다.",
+                "closingText": "담배를 다른 곳에서 피워 달라는 한마디가 빵집 문 앞에서 업주가 넘어지는 장면까지 번졌다는 씁쓸함은 쉽게 가시지 않습니다.",
+                "claimRefs": [
+                  "claim-cbbb44d10c07",
+                  "claim-4c461bf00283"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "275ff12d285b6ae329f61b66132b039bb74d1fa2321e2e9c9da7db354c33422a",
+              "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+              "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+              "usedClaimRefs": [
+                "claim-cbbb44d10c07",
+                "claim-ac2176041d17",
+                "claim-4c461bf00283",
+                "claim-bbfcd800f1aa",
+                "claim-0ef1fe333088",
+                "claim-59a63736d711"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이 들어도 빵집 매장 입구, 흡연을 제지한 말, 촬영을 시작한 순간, 어깨로 밀쳐 넘어지는 신체 접촉과 매장 안으로 들어오려 한 행동의 순서를 따라갈 수 있게 한다. 매장 입구 흡연 제지, 매장 문을 닫으라는 응수, 일행 중 한 사람의 접근·어깨 밀침·욕설은 공개 제보 영상과 A씨 설명에 근거한 사건 요소이며, 구체적인 장소·일시·상해 정도·영업 피해는 확인되지 않은 채로 둔다. 일상적 경계 요청이 물리적 접촉과 손님·업주의 역할 충돌로 번지는 흐름은 central axis 후보지만 훅, 공개 순서, 문장 리듬과 beat 수는 모델이 자율적으로 정한다. 빵을 사러 왔다며 들어가려 한 행동과 나가 달라는 업주의 요구를 구분해 공간의 이동을 들려주되, 영상 밖의 대사·속도·의도는 만들지 않는다. 이 사건은 제보 기반 단일 보도라 조건부 귀속이 필요하다. ‘제보 영상과 업주 설명에 따르면’, ‘전해진 내용’처럼 확인 수준에 맞춘 표현을 쓰고, 우울증 언급을 진단 사실이나 행동의 의학적 원인으로 연결하지 않는다. 경찰 신고·입건·합의·처분, 피해 진단은 근거가 없으므로 대본에 추가하지 않는다. 법적 결과가 새 근거로 확인될 때만 coda보다 먼저 배치한다. 그렇지 않다면 조사·처분이 없었던 것처럼 결론 내리지 않는다. final movement는 확인된 충돌과 경계의 붕괴에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 닫되 피해자의 내면을 대변하지 않는다. 특정 행동·바람·감정·질문·훈계·상투어를 고정하지 말고 전체 narration을 재편집한다. 2026년 7월 31일 공개 보도와 확인된 절대 날짜를 우선하며 상대 날짜는 피한다. 70~80초는 locked owner narration에서만 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+            "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+            "packageSha256": "275ff12d285b6ae329f61b66132b039bb74d1fa2321e2e9c9da7db354c33422a"
+          }
+        },
+        "draftSnapshotSha256": "01c3e389e8d81c27eca06612e4a3e0899d65c718f983c2ad55baa28b030ae745"
+      }
+    ]
+  },
+  "draftRejectionHistory": [
+    {
+      "schema": "newsroom-script-rejection-audit-v1",
+      "decision": "reject",
+      "reasons": [
+        {
+          "code": "insufficient-narrative-material",
+          "detail": "검증된 사건 전개가 요청, 반말 응수, 촬영, 접근, 신체 접촉, 욕설, 진입 시도와 확인되지 않은 해명으로 한정돼 있어 반복이나 취재 메타 없이 70초를 지탱하기 어렵습니다."
+        },
+        {
+          "code": "duration-below-minimum",
+          "detail": "초안 예상 시간은 41.776초이며, 근거 밖 확장을 제거한 최종 시도도 70초 최소 기준에 미달합니다."
+        }
+      ],
+      "generation": {
+        "schemaVersion": 17,
+        "provider": "codex-cli",
+        "model": "gpt-5.6-sol",
+        "reasoning": "medium",
+        "promptContractVersion": "newsroom-autonomous-narration-prompt-v14",
+        "criticPromptContractVersion": "newsroom-independent-narration-critic-prompt-v4",
+        "generatorPromptSha256": "6f371b2ad93f97d97c7d61cac6499194f2cc3137c03d2714493b8d68b96ad425",
+        "criticPromptSha256": "f352679a4318f9ca7d31e5eb6d504667196d9ddb95f4cd0d7fceafbd7daafc0e",
+        "packageSha256": "ec91bf43ea67504f365bb74690dfe43911f51b70d7f46f9ebe8ce16756d14f25",
+        "initialOutputSha256": "9e3f2f06fe3be79f29d094db3e1e27a06749c2df2660551bf595d7be41c2ea87",
+        "critiqueOutputSha256": "1631361f4952254961a906a36d2516d830dfa9e37717ba429e92dde4826c7c3d",
+        "outputSha256": "4ab6765a2a9d9f895a10bf6dc458e2eb3276a1e40157fe4c7e8f91c86f760ed6",
+        "cliVersion": "codex-cli 0.146.0",
+        "callCount": 2,
+        "generatorAttemptCount": 1,
+        "criticAttemptCount": 1,
+        "retryCount": 0,
+        "decision": "reject",
+        "revisionApplied": true,
+        "timing": {
+          "initial": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 287,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 41.776,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          },
+          "final": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 253,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 36.827,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          }
+        },
+        "generatedAt": "2026-09-04T19:52:12.901Z"
+      },
+      "critique": {
+        "schema": "newsroom-independent-narration-critique-v3",
+        "decision": "reject",
+        "rejectionReasons": [
+          {
+            "code": "insufficient-narrative-material",
+            "detail": "검증된 사건 전개가 요청, 반말 응수, 촬영, 접근, 신체 접촉, 욕설, 진입 시도와 확인되지 않은 해명으로 한정돼 있어 반복이나 취재 메타 없이 70초를 지탱하기 어렵습니다."
+          },
+          {
+            "code": "duration-below-minimum",
+            "detail": "초안 예상 시간은 41.776초이며, 근거 밖 확장을 제거한 최종 시도도 70초 최소 기준에 미달합니다."
+          }
+        ],
+        "initialVerdict": "revise",
+        "findings": [
+          {
+            "category": "factual-grounding",
+            "initialStatus": "revise",
+            "finalStatus": "pass",
+            "targetAuthority": "initial",
+            "detail": "나가 달라는 요구 뒤 매장에 들어가려 했다는 claim은 있지만, 별도로 물러나지 않았다고 단정할 근거는 없습니다. 최종본은 두 행동을 하나의 검증된 대비로 결합했습니다.",
+            "exactQuote": "일행은 물러나지 않았습니다."
+          },
+          {
+            "category": "legal-qualification",
+            "initialStatus": "revise",
+            "finalStatus": "pass",
+            "targetAuthority": "initial",
+            "detail": "초반 응수와 신체 접촉을 단정적으로 서술해 제보 기반 주장이라는 한정이 충분히 밀착되지 않았습니다. 최종본은 A씨 설명과 공개 영상이라는 책임 주체를 각 주장에 압축해 붙였고, 우울증은 진단이나 인과관계로 단정하지 않았습니다.",
+            "exactQuote": "흡연자들은 오히려 A씨에게 매장 문을 닫으라고 반말로 응수했습니다."
+          },
+          {
+            "category": "observer-summary",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "global",
+            "detail": "초안과 최종본 모두 첫 두 문장이 취재 과정이나 출처 소개만으로 흐름을 대신하지 않고 공간 내 충돌과 행동 변화를 곧바로 제시합니다.",
+            "exactQuote": ""
+          },
+          {
+            "category": "repetition",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "global",
+            "detail": "결론을 먼저 요약한 뒤 처음부터 다시 출발하는 구조는 없습니다. 최종본도 같은 사실을 분량 확보용으로 재진술하지 않았습니다.",
+            "exactQuote": ""
+          },
+          {
+            "category": "progression",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "global",
+            "detail": "요청과 응수에서 촬영, 접근, 신체 접촉, 욕설, 퇴거 요구와 진입 시도, 해명의 한계로 순차적으로 새 정보가 생깁니다.",
+            "exactQuote": ""
+          },
+          {
+            "category": "interest",
+            "initialStatus": "revise",
+            "finalStatus": "pass",
+            "targetAuthority": "initial",
+            "detail": "초안은 가장 강한 신체적 충돌이 뒤늦게 등장했습니다. 최종본은 첫 문장에서 업주와 흡연자의 역할·경계 충돌을 압축하고 곧바로 접근과 밀침으로 상승시켰습니다.",
+            "exactQuote": "자신은 비흡연자라며 다른 곳에서 피워 달라고 요청했습니다."
+          },
+          {
+            "category": "modality-fit",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "global",
+            "detail": "action-scene에 맞게 첫 두 문장 안에서 빵집 입구의 언쟁과 촬영 뒤 접근이라는 구체적인 공간·행동 변화가 발생합니다.",
+            "exactQuote": ""
+          },
+          {
+            "category": "coda",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "global",
+            "detail": "상투적인 감정 문구 없이 우울증 언급과 입증되지 않은 의학적 인과관계의 대비로 사건 고유의 미해결 상태에서 닫습니다.",
+            "exactQuote": ""
+          },
+          {
+            "category": "advisory-duration",
+            "initialStatus": "revise",
+            "finalStatus": "reject",
+            "targetAuthority": "global",
+            "detail": "초안은 41.776초로 기준에 미달합니다. 검증된 사실만으로 작성한 최종본도 70초에 이르지 않으며, 목표 시간을 맞추려면 반복·패딩·출처 메타 낭독 또는 근거 밖 세부 추가가 필요합니다.",
+            "exactQuote": ""
+          }
+        ],
+        "revisionApplied": true,
+        "revisionSummary": "근거 없는 ‘물러나지 않았다’는 단정을 삭제하고, 제보 기반 주장에 귀속을 밀착했으며, 역할 충돌과 신체 접촉이 더 빨리 전개되도록 압축했습니다. 다만 검증된 재료만으로는 70초 최소 길이를 충족할 수 없습니다.",
+        "initialAuthoritySha256": "9e3f2f06fe3be79f29d094db3e1e27a06749c2df2660551bf595d7be41c2ea87",
+        "finalAuthoritySha256": "4ab6765a2a9d9f895a10bf6dc458e2eb3276a1e40157fe4c7e8f91c86f760ed6",
+        "timing": {
+          "initial": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 287,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 41.776,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          },
+          "final": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 253,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 36.827,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          }
+        }
+      },
+      "policyBinding": {
+        "eventDossierSha256": "246a290e5270ef3b0d30dfc89c1533e465dba71b868ed17d68de72726c4f4389",
+        "legalReportSha256": "ee0b0b751cec15519ababd1c4298677243ca97ec913f12c9c6e496f44f158b1c",
+        "packageSha256": "ec91bf43ea67504f365bb74690dfe43911f51b70d7f46f9ebe8ce16756d14f25"
+      },
+      "editorialDirection": "화면 없이 들어도 빵집 매장 입구, 흡연을 제지한 말, 촬영을 시작한 순간, 어깨로 밀쳐 넘어지는 신체 접촉과 매장 안으로 들어오려 한 행동의 순서를 따라갈 수 있게 한다. 매장 입구 흡연 제지, 매장 문을 닫으라는 응수, 일행 중 한 사람의 접근·어깨 밀침·욕설은 공개 제보 영상과 A씨 설명에 근거한 사건 요소이며, 구체적인 장소·일시·상해 정도·영업 피해는 확인되지 않은 채로 둔다. 일상적 경계 요청이 물리적 접촉과 손님·업주의 역할 충돌로 번지는 흐름은 central axis 후보지만 훅, 공개 순서, 문장 리듬과 beat 수는 모델이 자율적으로 정한다. 빵을 사러 왔다며 들어가려 한 행동과 나가 달라는 업주의 요구를 구분해 공간의 이동을 들려주되, 영상 밖의 대사·속도·의도는 만들지 않는다. 이 사건은 제보 기반 단일 보도라 조건부 귀속이 필요하다. ‘제보 영상과 업주 설명에 따르면’, ‘전해진 내용’처럼 확인 수준에 맞춘 표현을 쓰고, 우울증 언급을 진단 사실이나 행동의 의학적 원인으로 연결하지 않는다. 경찰 신고·입건·합의·처분, 피해 진단은 근거가 없으므로 대본에 추가하지 않는다. 법적 결과가 새 근거로 확인될 때만 coda보다 먼저 배치한다. 그렇지 않다면 조사·처분이 없었던 것처럼 결론 내리지 않는다. final movement는 확인된 충돌과 경계의 붕괴에서 모델이 선택한 추상적 affective resonance와 listener self-projection으로 닫되 피해자의 내면을 대변하지 않는다. 특정 행동·바람·감정·질문·훈계·상투어를 고정하지 말고 전체 narration을 재편집한다. 2026년 7월 31일 공개 보도와 확인된 절대 날짜를 우선하며 상대 날짜는 피한다. 70~80초는 locked owner narration에서만 판정한다.",
+      "recordedAt": "2026-09-04T19:52:13.041Z",
+      "previousEntrySha256": "",
+      "entrySha256": "ed9e2360626709ab069224cae44d52aed76880e9c342832570048849bd524683"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\admission-work\\gyogwon.full.wav",
+  "model": "03-script-voice/voice-clone/training/F/asr-turbo/model-cache/models--mobiuslabsgmbh--faster-whisper-large-v3-turbo/snapshots/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 14.8693125,
+  "duration_after_vad": 10.672,
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.35,
+      "end": 5.15,
+      "text": "교권 보호국은 교권을 보호하는 가상의 기관입니다.",
+      "avg_logprob": -0.09322033772024058,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.2857142857142858,
+      "words": [
+        {
+          "start": 1.35,
+          "end": 1.81,
+          "word": " 교권",
+          "probability": 0.7724609375
+        },
+        {
+          "start": 1.81,
+          "end": 2.59,
+          "word": " 보호국은",
+          "probability": 0.9947509765625
+        },
+        {
+          "start": 2.59,
+          "end": 3.47,
+          "word": " 교권을",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 3.47,
+          "end": 3.97,
+          "word": " 보호하는",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 3.97,
+          "end": 4.55,
+          "word": " 가상의",
+          "probability": 0.9986979166666666
+        },
+        {
+          "start": 4.55,
+          "end": 5.15,
+          "word": " 기관입니다.",
+          "probability": 0.9959309895833334
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 6.16,
+      "end": 9.4,
+      "text": "현실의 교권 보호 제도는 제대로 작동하고 있을까요?",
+      "avg_logprob": -0.09322033772024058,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.2857142857142858,
+      "words": [
+        {
+          "start": 6.16,
+          "end": 6.78,
+          "word": " 현실의",
+          "probability": 0.99365234375
+        },
+        {
+          "start": 6.78,
+          "end": 7.2,
+          "word": " 교권",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 7.2,
+          "end": 7.48,
+          "word": " 보호",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 7.48,
+          "end": 7.92,
+          "word": " 제도는",
+          "probability": 0.9889322916666666
+        },
+        {
+          "start": 7.92,
+          "end": 8.26,
+          "word": " 제대로",
+          "probability": 1.0
+        },
+        {
+          "start": 8.26,
+          "end": 8.88,
+          "word": " 작동하고",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 8.88,
+          "end": 9.4,
+          "word": " 있을까요?",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 10.23,
+      "end": 13.09,
+      "text": "교권과 권한은 서로 다른 의미를 가집니다.",
+      "avg_logprob": -0.09322033772024058,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.2857142857142858,
+      "words": [
+        {
+          "start": 10.23,
+          "end": 10.93,
+          "word": " 교권과",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 10.93,
+          "end": 11.49,
+          "word": " 권한은",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 11.49,
+          "end": 11.77,
+          "word": " 서로",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 11.77,
+          "end": 12.05,
+          "word": " 다른",
+          "probability": 1.0
+        },
+        {
+          "start": 12.05,
+          "end": 12.55,
+          "word": " 의미를",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 12.55,
+          "end": 13.09,
+          "word": " 가집니다.",
+          "probability": 0.9978841145833334
+        }
+      ]
+    }
+  ]
+}

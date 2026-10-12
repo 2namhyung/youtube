@@ -1,0 +1,13 @@
+# Motion-tool learning v5 independent shape-aware verifier
+
+`motion-tool-learning-v5-independent-input-v2` accepts only the frame contract, hash-bound reference/learned media, semantic object class and unique component labels. Creator-provided scores, gates, measurements or decisions are additional properties and fail strict validation.
+
+The verifier rehashes both physical contained media files, checks bytes and FFprobe dimensions/fps/frame count, decodes all frames with FFmpeg, and records every decoded-frame SHA-256. It independently segments foreground components and recomputes component count, bbox/centroid/trajectory, aspect, solidity, contour complexity, hole topology, area and luminance hierarchy, pairwise spatial relations, overlap/layer-order proxy, active timing and velocity/easing agreement. Layout, motion and structure/style each require 90, weighted score requires 90, and any artifact drift, invisible endpoint, component collapse, topology mismatch, relationship/hierarchy mismatch, same-frame pixel clone or semantic-class mismatch fails closed.
+
+`npm run test:motion-tool-learning-v5` renders real browser fixtures, encodes and decodes them, proves one neutral-color/same-structure positive, and rejects heart-to-same-bbox rectangle, multi-component-to-single rectangle, missing labels/components, both-invisible endpoints, color hierarchy mismatch, donut-to-solid topology mismatch, injected scores/gates, missing schema fields and artifact drift. This validates verifier correctness only; it creates no corrected curriculum sample or promotion candidate.
+
+## Corrected reconstruction readiness attempts
+
+Append-only `motion-tool-learning-v5-reference-structure-a` exposed a bad gradient/color-bin segmentation and is not creator authority. Successor `motion-tool-learning-v5-reference-structure-b` rehashes and decodes official source-derived clips and emits only numeric/semantic structural records. It found a stable 110-component binary raster inventory but no persistently associated motion node in the cropped GSAP page, one connected foreground component for Lottie's green composition band, and a dynamic one-to-eight component dotLottie morph.
+
+`motion-tool-learning-v5-reconstruction-readiness-rejection-b` therefore blocks all three before any learned creator. GSAP still needs DOM-semantic association of its five motion nodes and text hierarchy; Lottie needs renderer-layer masks rather than one connected raster band; dotLottie needs event-aware identity through flame→heart→ring split/merge. Passing those incomplete records to a creator would invite another primitive or raster-mask substitution. No learned artifact or comparison MP4 was produced, and no result is promoted.

@@ -1,0 +1,378 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-20260729\\admission-work\\recording_08.full.wav",
+  "model": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F\\asr-turbo\\model-cache\\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\\snapshots\\0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 35.52,
+  "duration_after_vad": 29.984,
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.61,
+      "end": 6.91,
+      "text": "기록에는 제주에서 가져온 감귤 상자와 제주에서 만든 제품이라는 표시가 함께 있었습니다.",
+      "avg_logprob": -0.09374999766256295,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5577464788732394,
+      "words": [
+        {
+          "start": 1.61,
+          "end": 2.13,
+          "word": " 기록에는",
+          "probability": 0.99365234375
+        },
+        {
+          "start": 2.13,
+          "end": 2.63,
+          "word": " 제주에서",
+          "probability": 0.9617513020833334
+        },
+        {
+          "start": 2.63,
+          "end": 3.09,
+          "word": " 가져온",
+          "probability": 0.997802734375
+        },
+        {
+          "start": 3.09,
+          "end": 3.45,
+          "word": " 감귤",
+          "probability": 0.9845377604166666
+        },
+        {
+          "start": 3.45,
+          "end": 3.97,
+          "word": " 상자와",
+          "probability": 0.9134114583333334
+        },
+        {
+          "start": 3.97,
+          "end": 4.61,
+          "word": " 제주에서",
+          "probability": 0.9977213541666666
+        },
+        {
+          "start": 4.61,
+          "end": 4.89,
+          "word": " 만든",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 4.89,
+          "end": 5.47,
+          "word": " 제품이라는",
+          "probability": 0.992431640625
+        },
+        {
+          "start": 5.47,
+          "end": 6.07,
+          "word": " 표시가",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 6.07,
+          "end": 6.33,
+          "word": " 함께",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 6.33,
+          "end": 6.91,
+          "word": " 있었습니다.",
+          "probability": 0.998291015625
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 7.78,
+      "end": 14.06,
+      "text": "담당자는 지명인 제주와 물건을 만든다는 뜻에 제주를 혼동하지 않도록 문장을 다시 읽었습니다.",
+      "avg_logprob": -0.09374999766256295,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5577464788732394,
+      "words": [
+        {
+          "start": 7.78,
+          "end": 8.5,
+          "word": " 담당자는",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 8.5,
+          "end": 9.06,
+          "word": " 지명인",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 9.06,
+          "end": 9.54,
+          "word": " 제주와",
+          "probability": 0.9762369791666666
+        },
+        {
+          "start": 9.54,
+          "end": 10.12,
+          "word": " 물건을",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 10.12,
+          "end": 10.64,
+          "word": " 만든다는",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 10.64,
+          "end": 11.14,
+          "word": " 뜻에",
+          "probability": 0.852294921875
+        },
+        {
+          "start": 11.14,
+          "end": 12.04,
+          "word": " 제주를",
+          "probability": 0.8916015625
+        },
+        {
+          "start": 12.04,
+          "end": 12.56,
+          "word": " 혼동하지",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 12.56,
+          "end": 12.88,
+          "word": " 않도록",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 12.88,
+          "end": 13.3,
+          "word": " 문장을",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 13.3,
+          "end": 13.52,
+          "word": " 다시",
+          "probability": 1.0
+        },
+        {
+          "start": 13.52,
+          "end": 14.06,
+          "word": " 읽었습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 15.35,
+      "end": 23.56,
+      "text": "제주에서 제조한 부품이라는 표현은 장소와 생산 행위를 한 문장에 담지만 두 낱말의 소리와 뜻은 다릅니다.",
+      "avg_logprob": -0.09374999766256295,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5577464788732394,
+      "words": [
+        {
+          "start": 15.35,
+          "end": 15.89,
+          "word": " 제주에서",
+          "probability": 0.9954427083333334
+        },
+        {
+          "start": 15.89,
+          "end": 16.45,
+          "word": " 제조한",
+          "probability": 0.8548177083333334
+        },
+        {
+          "start": 16.45,
+          "end": 17.59,
+          "word": " 부품이라는",
+          "probability": 0.7939453125
+        },
+        {
+          "start": 17.59,
+          "end": 18.29,
+          "word": " 표현은",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 18.56,
+          "end": 19.3,
+          "word": " 장소와",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 19.3,
+          "end": 19.7,
+          "word": " 생산",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 19.7,
+          "end": 20.16,
+          "word": " 행위를",
+          "probability": 0.8748372395833334
+        },
+        {
+          "start": 20.16,
+          "end": 20.62,
+          "word": " 한",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 20.62,
+          "end": 21.12,
+          "word": " 문장에",
+          "probability": 0.99609375
+        },
+        {
+          "start": 21.12,
+          "end": 21.64,
+          "word": " 담지만",
+          "probability": 0.9576416015625
+        },
+        {
+          "start": 21.64,
+          "end": 21.84,
+          "word": " 두",
+          "probability": 0.650390625
+        },
+        {
+          "start": 21.84,
+          "end": 22.36,
+          "word": " 낱말의",
+          "probability": 0.9820556640625
+        },
+        {
+          "start": 22.36,
+          "end": 22.74,
+          "word": " 소리와",
+          "probability": 0.997802734375
+        },
+        {
+          "start": 22.74,
+          "end": 23.08,
+          "word": " 뜻은",
+          "probability": 1.0
+        },
+        {
+          "start": 23.08,
+          "end": 23.56,
+          "word": " 다릅니다.",
+          "probability": 0.9993489583333334
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 24.53,
+      "end": 34.4,
+      "text": "숫자도 정확해야 합니다. 7월 18일 오후 3시 보관비용은 하루 12,000원, 교체 견적은 32만원이라고 천천히 확인했습니다.",
+      "avg_logprob": -0.09374999766256295,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5577464788732394,
+      "words": [
+        {
+          "start": 24.53,
+          "end": 24.95,
+          "word": " 숫자도",
+          "probability": 0.9952392578125
+        },
+        {
+          "start": 24.95,
+          "end": 25.43,
+          "word": " 정확해야",
+          "probability": 0.995361328125
+        },
+        {
+          "start": 25.43,
+          "end": 25.77,
+          "word": " 합니다.",
+          "probability": 0.998046875
+        },
+        {
+          "start": 26.69,
+          "end": 27.01,
+          "word": " 7월",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 27.01,
+          "end": 27.45,
+          "word": " 18일",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 27.45,
+          "end": 27.79,
+          "word": " 오후",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 27.79,
+          "end": 28.25,
+          "word": " 3시",
+          "probability": 0.995361328125
+        },
+        {
+          "start": 28.52,
+          "end": 29.56,
+          "word": " 보관비용은",
+          "probability": 0.89013671875
+        },
+        {
+          "start": 29.56,
+          "end": 29.84,
+          "word": " 하루",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 29.84,
+          "end": 30.48,
+          "word": " 12",
+          "probability": 0.6103515625
+        },
+        {
+          "start": 30.48,
+          "end": 31.18,
+          "word": ",000원,",
+          "probability": 0.9651692708333334
+        },
+        {
+          "start": 31.44,
+          "end": 31.94,
+          "word": " 교체",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 31.94,
+          "end": 32.42,
+          "word": " 견적은",
+          "probability": 0.995361328125
+        },
+        {
+          "start": 32.42,
+          "end": 33.36,
+          "word": " 32만원이라고",
+          "probability": 0.989013671875
+        },
+        {
+          "start": 33.36,
+          "end": 33.84,
+          "word": " 천천히",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 33.84,
+          "end": 34.4,
+          "word": " 확인했습니다.",
+          "probability": 0.999755859375
+        }
+      ]
+    }
+  ]
+}

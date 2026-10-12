@@ -1,0 +1,1702 @@
+{
+  "version": 1,
+  "slug": "research-d532c8fd7edb7d69",
+  "title": "'선결제 유도한 뒤 먹튀' 나주 헬스장 고소…경찰 수사",
+  "candidate": {
+    "id": "research-d532c8fd7edb7d69",
+    "slug": "research-d532c8fd7edb7d69",
+    "editorialStatus": "active-review",
+    "title": "'선결제 유도한 뒤 먹튀' 나주 헬스장 고소…경찰 수사",
+    "source": "뉴시스 사회",
+    "url": "https://www.newsis.com/view/NISX20260727_0003724943",
+    "publishedAt": "2026-07-27T15:10:30+09:00",
+    "hook": "헬스장 선결제까지 했는데, 어느 날 업장이 사라졌다?",
+    "rationale": "A routine fitness purchase allegedly becomes a direct financial-loss story when the seller solicits advance payments and then disappears. The apparent transaction/action mismatch and alleged seller evasion create immediate, highly relatable frustration.",
+    "dimensions": {
+      "ordinaryContext": 3,
+      "disproportionateEscalation": 3,
+      "explanationActionMismatch": 3,
+      "tangibleRisk": 3,
+      "responsibilityEvasion": 3,
+      "relatableEmotion": 3
+    },
+    "factCheckRisks": [
+      "The headline describes allegations in a complaint, not established facts",
+      "Verify whether the business actually closed or disappeared and whether refunds were attempted",
+      "Confirm the number of complainants and the total alleged losses"
+    ],
+    "selectionReasons": [
+      "Ordinary consumer transaction allegedly turns into financial harm",
+      "Strong seller-responsibility and disappearance angle",
+      "Easy for viewers to understand and personally relate to"
+    ],
+    "relatedCoverage": [],
+    "approval": {
+      "kind": "human-promotion",
+      "approvedAt": "2026-07-27T11:33:03.088Z",
+      "sourceAction": "newsroom-semantic-card"
+    },
+    "provenance": {
+      "semanticSelectionPath": "out/newsroom/research-llm-analysis.json",
+      "semanticGeneratedAt": "2026-07-27T10:33:46.227Z",
+      "articlePoolPath": "01-research/news_radar/data/latest_article_pool.json",
+      "articlePoolGeneratedAt": "2026-07-27T20:32:40+09:00",
+      "articleId": "9be19d716bd0ff30185ddd38",
+      "excerptProvenance": "rss-description-or-atom-summary"
+    },
+    "verification": {
+      "state": "cross-source-verification-required",
+      "missing": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토"
+      ]
+    }
+  },
+  "createdAt": "2026-08-09T03:47:39.122Z",
+  "updatedAt": "2026-09-04T20:00:36.792Z",
+  "stages": {
+    "01": {
+      "status": "ready",
+      "completedAt": "2026-08-09T03:47:39.122Z"
+    },
+    "02": {
+      "status": "ready",
+      "completedAt": "2026-09-04T11:31:26.422Z",
+      "reportGeneratedAt": "2026-09-04T11:31:26.422Z",
+      "evidenceSha256": "e357d674a0d7a8628db3ca9330981572e8432f5b0f91dd39b17bb64ed7a7286a"
+    },
+    "03": {
+      "status": "in-progress"
+    },
+    "04": {
+      "status": "pending"
+    },
+    "05": {
+      "status": "pending"
+    },
+    "06": {
+      "status": "pending"
+    },
+    "07": {
+      "status": "pending"
+    },
+    "08": {
+      "status": "pending"
+    }
+  },
+  "legalContextReport": {
+    "schemaVersion": 5,
+    "slug": "research-d532c8fd7edb7d69",
+    "generatedAt": "2026-09-04T11:31:26.422Z",
+    "candidateSha256": "861fca1f58e8d42015b3dfcc066a74d2f73b66ddb75cd7db050b27a25a59bd16",
+    "researchSnapshotSha256": "e357d674a0d7a8628db3ca9330981572e8432f5b0f91dd39b17bb64ed7a7286a",
+    "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+    "confirmedFacts": [
+      {
+        "id": "claim-283d3de96c6a",
+        "summary": "피해 규모는 이날 오전 기준 56명에 금액은 총 5600만원에 달한다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-53a31e520f39",
+        "summary": "◎공감언론 뉴시스 [email protected]",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "reportedFacts": [
+      {
+        "id": "claim-283d3de96c6a",
+        "summary": "피해 규모는 이날 오전 기준 56명에 금액은 총 5600만원에 달한다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-53a31e520f39",
+        "summary": "◎공감언론 뉴시스 [email protected]",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-d3cf61aac597",
+        "summary": "[email protected] [전남광주=뉴시스]이영주 기자 = 전남광주 나주 한 헬스장에서 업체 대표가 선결제 회원들을 상대로 사기행각을 벌이고 잠적했다는 고소장이 접수돼 당국이 수사에 나섰다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-a19effa90870",
+        "summary": "전남 나주경찰서는 지역 한 헬스장 업체 대표 A씨를 사기 혐의로 처벌해달라는 내용의 헬스장 회원들의 고소장을 접수해 수사 중이라고 27일 밝혔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-50dbe00571ea",
+        "summary": "고소장에는 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담긴 것으로 전해졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-2590bdc45921",
+        "summary": "경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침이다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "unverifiedFacts": [],
+    "possibleLegalIssues": [],
+    "missingFacts": [],
+    "safePhrasing": [
+      "검찰은 …라고 주장했습니다",
+      "당사자는 …라고 주장했습니다",
+      "재판부는 …라고 판단했습니다",
+      "정확한 내용은 확인되지 않았습니다"
+    ],
+    "sources": [
+      {
+        "sourceId": "src-d532c8fd7edb",
+        "url": "https://www.newsis.com/view/NISX20260727_0003724943",
+        "title": "'선결제 유도한 뒤 먹튀' 나주 헬스장 고소…경찰 수사",
+        "publisher": "뉴시스",
+        "date": "2026-07-27T16:12:24+09:00",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "legalSources": [
+      {
+        "title": "국가법령정보센터 형법",
+        "url": "https://www.law.go.kr/법령/형법",
+        "status": "authoritative-reference"
+      }
+    ],
+    "evidence": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "independentPublisherCount": 1,
+      "sameEventSnapshot": true,
+      "eventDossierCurrent": true
+    },
+    "verdict": "conditional",
+    "verdictLabel": "조건부 사용",
+    "reasons": [
+      "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다."
+    ],
+    "reasonCodes": [
+      "single-source"
+    ],
+    "requiredEdits": [],
+    "allowedMaterials": [
+      "사건 히스토리의 승인된 사실",
+      "직접 제작한 비식별 재연"
+    ],
+    "restrictedMaterials": [
+      "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+      "피해자와 제3자는 익명 표기를 유지하기",
+      "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+      "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+    ],
+    "requiredConditions": [],
+    "assessment": {
+      "sourceCorroboration": "single-source",
+      "conflicts": 0,
+      "unknowns": 0
+    },
+    "contradictions": [],
+    "scriptPolicy": {
+      "version": 2,
+      "allowedFacts": [
+        "피해 규모는 이날 오전 기준 56명에 금액은 총 5600만원에 달한다.",
+        "◎공감언론 뉴시스 [email protected]",
+        "[email protected] [전남광주=뉴시스]이영주 기자 = 전남광주 나주 한 헬스장에서 업체 대표가 선결제 회원들을 상대로 사기행각을 벌이고 잠적했다는 고소장이 접수돼 당국이 수사에 나섰다.",
+        "전남 나주경찰서는 지역 한 헬스장 업체 대표 A씨를 사기 혐의로 처벌해달라는 내용의 헬스장 회원들의 고소장을 접수해 수사 중이라고 27일 밝혔다.",
+        "고소장에는 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담긴 것으로 전해졌다.",
+        "경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침이다."
+      ],
+      "allowedClaims": [
+        {
+          "claimId": "claim-283d3de96c6a",
+          "summary": "피해 규모는 이날 오전 기준 56명에 금액은 총 5600만원에 달한다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-53a31e520f39",
+          "summary": "◎공감언론 뉴시스 [email protected]",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-d3cf61aac597",
+          "summary": "[email protected] [전남광주=뉴시스]이영주 기자 = 전남광주 나주 한 헬스장에서 업체 대표가 선결제 회원들을 상대로 사기행각을 벌이고 잠적했다는 고소장이 접수돼 당국이 수사에 나섰다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-a19effa90870",
+          "summary": "전남 나주경찰서는 지역 한 헬스장 업체 대표 A씨를 사기 혐의로 처벌해달라는 내용의 헬스장 회원들의 고소장을 접수해 수사 중이라고 27일 밝혔다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-50dbe00571ea",
+          "summary": "고소장에는 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담긴 것으로 전해졌다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-2590bdc45921",
+          "summary": "경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침이다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        }
+      ],
+      "prohibitedClaims": [],
+      "prohibitedPhrases": [
+        "보도에 따르면"
+      ],
+      "requiredQualifications": [],
+      "safeReplacements": [],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ],
+      "uncertaintyInstructions": [],
+      "omissionInstructions": [],
+      "identityRestrictions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기"
+      ],
+      "footageRestrictions": [
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+      ],
+      "sourceAttribution": {
+        "mode": "not-required",
+        "neutralPrefix": "",
+        "claimIds": []
+      }
+    },
+    "factBrief": {
+      "confirmedFacts": [
+        "피해 규모는 이날 오전 기준 56명에 금액은 총 5600만원에 달한다.",
+        "◎공감언론 뉴시스 [email protected]",
+        "[email protected] [전남광주=뉴시스]이영주 기자 = 전남광주 나주 한 헬스장에서 업체 대표가 선결제 회원들을 상대로 사기행각을 벌이고 잠적했다는 고소장이 접수돼 당국이 수사에 나섰다.",
+        "전남 나주경찰서는 지역 한 헬스장 업체 대표 A씨를 사기 혐의로 처벌해달라는 내용의 헬스장 회원들의 고소장을 접수해 수사 중이라고 27일 밝혔다.",
+        "고소장에는 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담긴 것으로 전해졌다.",
+        "경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침이다."
+      ],
+      "timeline": [],
+      "disputedFacts": [],
+      "unknownFacts": [],
+      "followUpChanges": []
+    },
+    "videoDecision": {
+      "decision": "conditional",
+      "reasons": [
+        "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다."
+      ]
+    },
+    "caseDispositionReview": {
+      "status": "complete",
+      "question": "이 사건의 처리와 판단은 유사한 과거 사례 및 법리에 비추어 설명 가능한가",
+      "similarCases": [],
+      "applicableIssues": [
+        "[email protected] [전남광주=뉴시스]이영주 기자 = 전남광주 나주 한 헬스장에서 업체 대표가 선결제 회원들을 상대로 사기행각을 벌이고 잠적했다는 고소장이 접수돼 당국이 수사에 나섰다.",
+        "전남 나주경찰서는 지역 한 헬스장 업체 대표 A씨를 사기 혐의로 처벌해달라는 내용의 헬스장 회원들의 고소장을 접수해 수사 중이라고 27일 밝혔다.",
+        "고소장에는 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담긴 것으로 전해졌다.",
+        "경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침이다."
+      ],
+      "assessment": "현재 검증된 유사 판례를 찾지 못했습니다. 비교 결론을 만들지 않고, 이 한계를 대본에 반영해 사건의 형사책임·처벌·향후 수사 결과를 단정하지 않습니다.",
+      "limitations": [
+        "공개 보도만으로 전체 소송기록과 증거를 재평가할 수 없습니다.",
+        "검증된 유사 판례가 없다는 사실은 유사 사건이나 적용 법리가 존재하지 않는다는 뜻이 아닙니다.",
+        "이 검토는 법률 자문이나 판결의 옳고 그름을 확정하는 의견이 아닙니다."
+      ]
+    },
+    "videoUseReview": {
+      "status": "complete",
+      "decision": "conditional",
+      "question": "이 사건을 영상 소재로 활용할 수 있는가",
+      "allowedUse": [
+        "검증된 기사와 판결·법령을 요약한 자체 서술",
+        "실제 화면과 혼동되지 않도록 고지한 비식별 AI 재구성",
+        "출처와 불확실성을 함께 표시한 사건 연표"
+      ],
+      "conditions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기",
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+      ],
+      "prohibitedUse": [
+        "권리 확인 없는 기사·방송·CCTV 원본 재사용",
+        "관계자의 얼굴·이름·직장·위치를 추가로 특정",
+        "수사·재판 결과 또는 정신건강과 행위의 인과를 확인 사실처럼 단정"
+      ],
+      "reasons": [
+        "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다."
+      ]
+    },
+    "scriptWritingReview": {
+      "status": "complete",
+      "decision": "approved-with-conditions",
+      "question": "대본 작성 시 무엇을 지키고 피해야 하는가",
+      "required": [
+        "사건 사실은 확인된 증거 범위 안에서만 서술하며 미확인·불일치 내용을 확정하지 않습니다.",
+        "발견·신고·입건·강제수사 등 실제로 확인된 사건 단계만 시간순으로 설명합니다."
+      ],
+      "avoid": [
+        "보도에 따르면"
+      ],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ]
+    },
+    "reviewCompletion": {
+      "caseDisposition": true,
+      "videoUse": true,
+      "scriptWriting": true,
+      "allComplete": true
+    }
+  },
+  "draftFinalized": false,
+  "draft": {
+    "schema": "newsroom-autonomous-script-draft-v4",
+    "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v13",
+    "generation": {
+      "schemaVersion": 16,
+      "provider": "codex-cli",
+      "model": "gpt-5.6-sol",
+      "reasoning": "medium",
+      "promptContractVersion": "newsroom-autonomous-narration-prompt-v13",
+      "criticPromptContractVersion": "newsroom-independent-narration-critic-prompt-v3",
+      "generatorPromptSha256": "a3b73dc215d14aab01cb5f8edc300e3106c92191399c5c1c0e438cf370656855",
+      "criticPromptSha256": "ff560f232357175b183bf8fc7387078599ca7ab83efc6f13c607b743c4ce700e",
+      "packageSha256": "37a1456d8e0a90af18c75a6d1cf9c38330d688ec51913af25c33eaeb8af8b0e5",
+      "initialOutputSha256": "61cc1742733b0175919def8d8765de39ec5d516a1854f4e9290957445a51a559",
+      "critiqueOutputSha256": "64f829399f26692de5afb16eeccc55d807c310884349ccf17037a426405a0dea",
+      "outputSha256": "4627eb57417c00b906d98ae0b5e46ecd6fb9998af2e9d8277417b3919f0478f7",
+      "currentAuthoritySha256": "4627eb57417c00b906d98ae0b5e46ecd6fb9998af2e9d8277417b3919f0478f7",
+      "userEdited": false,
+      "cliVersion": "codex-cli 0.146.0",
+      "callCount": 2,
+      "generatorAttemptCount": 1,
+      "criticAttemptCount": 1,
+      "retryCount": 0,
+      "revisionApplied": true,
+      "timing": {
+        "initial": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 467,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 67.977,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        },
+        "final": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 465,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 67.686,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        }
+      },
+      "generatedAt": "2026-09-04T19:09:29.811Z"
+    },
+    "critique": {
+      "schema": "newsroom-independent-narration-critique-v2",
+      "initialVerdict": "revise",
+      "findings": [
+        {
+          "category": "factual-grounding",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "초안과 수정본의 사건 사실, 수치, 행위 주장은 모두 currentCase의 claim 범위 안에 있으며 창작된 대사·감각·동기는 없습니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "legal-qualification",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "고소장에 담긴 회원 측 주장과 경찰이 확인한 절차를 구분하고, 대표의 유죄나 사기 행위를 확정하지 않았습니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "observer-summary",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "초안과 수정본 모두 첫 두 문장을 출처 표지판이나 보도 과정 설명이 아니라 피해 주장 수치와 고소 전환으로 시작합니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "repetition",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "초안은 고소 접수와 사실 판단이 다르다는 취지를 여러 차례 되풀이합니다. 수정본은 주장, 수치의 한계, 고소 접수, 수사 단계가 한 번씩 전진하도록 통합했습니다.",
+          "exactQuote": "고소장을 접수했다는 사실과 고소 내용이 사실이라는 판단은 같은 단계가 아닙니다."
+        },
+        {
+          "category": "progression",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "초안의 중반부는 제도적 변화라는 예고 뒤 고소 접수와 법적 단계 설명을 잘게 반복해 흐름이 정체됩니다. 수정본은 선결제, 폐업·잠적 주장, 수치의 한계, 고소 접수, 수사 쟁점 순으로 재배열했습니다.",
+          "exactQuote": "확인된 제도적 변화는 따로 있습니다."
+        },
+        {
+          "category": "interest",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "구체적인 피해 규모로 시작하는 훅은 유효하지만, 뒤이어 법적 주의 문장이 연속되면서 정보 상승이 약해집니다. 수정본은 56명·5,600만 원에서 선결제와 고소의 역할 충돌로 곧바로 연결하고 절차적 대비를 압축했습니다.",
+          "exactQuote": "아직 수사 단계여서 회원들이 주장한 내용과 경찰이 확인할 사실도 구분해야 합니다."
+        },
+        {
+          "category": "modality-fit",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "물리적 현장을 꾸미지 않고 고소장에 기록된 주장, 피해 수치, 경찰의 접수와 조사 단계 변화로 긴장을 만드는 record-institution 방식에 맞습니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "coda",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "상투적인 감정 성찰 없이 대표의 유죄가 확정되지 않은 현재 수사 단계에서 직접 닫습니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "advisory-duration",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "INITIAL_TIMING이 약 68초로 권고 범위보다 짧습니다. 수정본은 사실과 법적 한정을 유지하면서 설명을 보강해 동일 관측 속도 기준으로 70~80초 범위를 겨냥했습니다.",
+          "exactQuote": ""
+        }
+      ],
+      "revisionApplied": true,
+      "revisionSummary": "중복된 법적 설명을 통합하고 선결제에서 고소·수사로 이어지는 진행을 선명하게 재배열했으며, 권고 재생시간을 충족하도록 근거 있는 절차 설명을 보강했습니다.",
+      "initialAuthoritySha256": "61cc1742733b0175919def8d8765de39ec5d516a1854f4e9290957445a51a559",
+      "finalAuthoritySha256": "4627eb57417c00b906d98ae0b5e46ecd6fb9998af2e9d8277417b3919f0478f7",
+      "timing": {
+        "initial": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 467,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 67.977,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        },
+        "final": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 465,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 67.686,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        }
+      }
+    },
+    "authority": {
+      "schema": "newsroom-autonomous-narration-v3",
+      "modality": "record-institution",
+      "narration": "회원 56명의 선결제가 오전 기준 총 5,600만 원 규모의 피해 주장으로 묶였습니다. 이 선결제는 나주의 한 헬스장 대표 A씨를 사기 혐의로 처벌해 달라는 회원들의 고소로 이어졌습니다. 고소장에는 A씨가 할인 행사 등을 내세워 회원들에게 먼저 결제하도록 유도했다는 내용이 담겼습니다. 이어 선결제를 받은 뒤 헬스장을 폐업하고 잠적했다는 주장도 적혔습니다. 하지만 폐업과 잠적, 사기 행위는 현재 확정된 사실이 아니라 회원들이 고소장에 적은 내용입니다. 56명과 5,600만 원이라는 피해 규모 역시 이날 오전 기준으로 제시된 단일 출처 수치여서 최종 규모로 단정할 수 없습니다. 지금 확인된 절차상의 변화는 전남 나주경찰서가 이 고소장을 접수했다는 점입니다. 고소장이 지목한 처벌 대상은 업체 대표 A씨이고, 적용해 달라고 한 혐의는 사기입니다. 경찰은 접수만으로 고소 내용을 사실로 판단한 것이 아니라, 그 내용을 토대로 정확한 경위를 조사할 방침입니다. 따라서 대표가 할인 행사를 내세워 선결제를 유도했는지, 이후 폐업하고 잠적했는지는 수사에서 가려져야 할 주장으로 남아 있습니다. 현재 이 사건의 법적 상태는 대표의 유죄 판단도, 사기 혐의의 확정도 아닌 경찰의 경위 조사 단계입니다.",
+      "sentences": [
+        {
+          "text": "회원 56명의 선결제가 오전 기준 총 5,600만 원 규모의 피해 주장으로 묶였습니다.",
+          "claimRefs": [
+            "claim-283d3de96c6a"
+          ]
+        },
+        {
+          "text": "이 선결제는 나주의 한 헬스장 대표 A씨를 사기 혐의로 처벌해 달라는 회원들의 고소로 이어졌습니다.",
+          "claimRefs": [
+            "claim-a19effa90870",
+            "claim-50dbe00571ea"
+          ]
+        },
+        {
+          "text": "고소장에는 A씨가 할인 행사 등을 내세워 회원들에게 먼저 결제하도록 유도했다는 내용이 담겼습니다.",
+          "claimRefs": [
+            "claim-50dbe00571ea"
+          ]
+        },
+        {
+          "text": "이어 선결제를 받은 뒤 헬스장을 폐업하고 잠적했다는 주장도 적혔습니다.",
+          "claimRefs": [
+            "claim-50dbe00571ea"
+          ]
+        },
+        {
+          "text": "하지만 폐업과 잠적, 사기 행위는 현재 확정된 사실이 아니라 회원들이 고소장에 적은 내용입니다.",
+          "claimRefs": [
+            "claim-a19effa90870",
+            "claim-50dbe00571ea"
+          ]
+        },
+        {
+          "text": "56명과 5,600만 원이라는 피해 규모 역시 이날 오전 기준으로 제시된 단일 출처 수치여서 최종 규모로 단정할 수 없습니다.",
+          "claimRefs": [
+            "claim-283d3de96c6a"
+          ]
+        },
+        {
+          "text": "지금 확인된 절차상의 변화는 전남 나주경찰서가 이 고소장을 접수했다는 점입니다.",
+          "claimRefs": [
+            "claim-a19effa90870"
+          ]
+        },
+        {
+          "text": "고소장이 지목한 처벌 대상은 업체 대표 A씨이고, 적용해 달라고 한 혐의는 사기입니다.",
+          "claimRefs": [
+            "claim-a19effa90870"
+          ]
+        },
+        {
+          "text": "경찰은 접수만으로 고소 내용을 사실로 판단한 것이 아니라, 그 내용을 토대로 정확한 경위를 조사할 방침입니다.",
+          "claimRefs": [
+            "claim-a19effa90870",
+            "claim-2590bdc45921"
+          ]
+        },
+        {
+          "text": "따라서 대표가 할인 행사를 내세워 선결제를 유도했는지, 이후 폐업하고 잠적했는지는 수사에서 가려져야 할 주장으로 남아 있습니다.",
+          "claimRefs": [
+            "claim-50dbe00571ea",
+            "claim-2590bdc45921"
+          ]
+        },
+        {
+          "text": "현재 이 사건의 법적 상태는 대표의 유죄 판단도, 사기 혐의의 확정도 아닌 경찰의 경위 조사 단계입니다.",
+          "claimRefs": [
+            "claim-a19effa90870",
+            "claim-2590bdc45921"
+          ]
+        }
+      ],
+      "evidenceLineage": {
+        "schema": "newsroom-autonomous-narration-evidence-lineage-v3",
+        "packageSha256": "37a1456d8e0a90af18c75a6d1cf9c38330d688ec51913af25c33eaeb8af8b0e5",
+        "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+        "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+        "usedClaimRefs": [
+          "claim-283d3de96c6a",
+          "claim-a19effa90870",
+          "claim-50dbe00571ea",
+          "claim-2590bdc45921"
+        ]
+      }
+    },
+    "editorialDirection": "화면 없이도 나주 헬스장의 할인 행사와 선결제, 회원들이 다시 이용하려 한 시점, 폐업·잠적을 주장하는 고소와 경찰 수사라는 사건 처리 흐름을 따라갈 수 있게 한다. 56명이 총 5,600만 원의 피해를 주장했다는 수치와 대표가 선결제를 유도한 뒤 폐업하고 잠적했다는 내용은 고소장·보도에 담긴 주장으로 구분한다. 이것이 실제 사기였다고 확정하거나 사업의 폐업·재산·환불 시도·피해자 수와 총액을 보도 밖에서 보완하지 않는다. 미리 결제한 서비스에 대한 신뢰가 끊기고 개인들의 결제가 수사 대상이 되는 간극은 central axis 후보지만, 훅·정보 공개 순서·문장 리듬·beat 수는 모델이 자율적으로 정한다. 전남 나주경찰서가 회원들의 사기 혐의 고소장을 접수해 정확한 경위를 조사 중이라는 현재 법적 상태를 보도 시점에 맞춰 명시한다. 조건부 단일 출처 사건이므로 ‘고소장에는’, ‘회원들은’, ‘경찰은 수사 중이라고 밝혔다’처럼 귀속을 유지하고 대표의 유죄·고의·잠적 사실을 단정하지 않는다. 확인된 법적 결과가 있다면 감정 coda보다 먼저 두되, 수사 중인 상태를 판결처럼 표현하지 않는다. final movement에는 선결제라는 일상적 약속과 확인되지 않은 책임 판단 사이의 불확실성에서 모델이 선택한 affective resonance와 listener self-projection을 둔다. 피해 회원의 내면·손실 후유증을 창작하지 않고, 구체적 환불 요구·행동·바람·질문·훈계·상투어를 고정하지 않는다. 반전과 coda는 전체 narration을 재편집해 통합한다. 기사와 조사에 확인된 절대 날짜만 사용하고 상대 날짜는 피하며 70~80초는 owner narration locked timing에서 판정한다.",
+    "policyBinding": {
+      "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+      "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+      "packageSha256": "37a1456d8e0a90af18c75a6d1cf9c38330d688ec51913af25c33eaeb8af8b0e5"
+    },
+    "history": [
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T12:52:34.381Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v4",
+          "generation": {
+            "schemaVersion": 7,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v4",
+            "promptSha256": "b81f44739e2aefabcf31ac163949113b6c46c27e0d6faf8f10f8d457236cd7b1",
+            "packageSha256": "7c71937efd4df515891a22e7a803802f416cda04ecf42ed3c20bd5de426f50c2",
+            "outputSha256": "a7bc9a36fb96dec6515dfe7b4e3c0667082160d8ccc04a4ededf00169e9e1b82",
+            "currentAuthoritySha256": "a7bc9a36fb96dec6515dfe7b4e3c0667082160d8ccc04a4ededf00169e9e1b82",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T11:34:45.388Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "돈은 지금 내고, 운동은 앞으로 이어가는 선결제. 전남 나주의 한 헬스장에서 바로 그 순서가 고소 사건의 출발점이 됐습니다. 회원들이 제출한 고소장에는 업체 대표 A씨가 할인 행사 등을 내세워 선결제를 유도했다는 내용이 담겼습니다. 그런데 그다음은 운동이 아니었습니다. 고소장에 적힌 내용은 폐업, 그리고 대표의 잠적이었습니다. 한두 사람의 결제가 아니었습니다. 이날 오전 기준 피해를 호소한 회원은 56명, 금액은 모두 5천6백만 원에 달했습니다. 회원들은 A씨를 사기 혐의로 처벌해 달라며 고소장을 냈고, 나주경찰서는 이를 접수해 수사하고 있습니다. 다만 지금 확인된 것은 회원들이 제기한 고소 내용과 피해 규모입니다. 경찰은 이를 토대로 정확한 경위를 조사할 방침입니다. 할인이라는 말 앞에서 먼저 건넨 돈, 그리고 앞으로 이용할 수 있다고 여겼던 시간. 이 사건에선 그 평범한 선결제가 수십 명의 고소로 바뀌었습니다. 미리 내는 돈에는 금액만이 아니라, 약속이 계속될 것이라는 사람의 믿음도 함께 담깁니다.",
+            "beats": [
+              {
+                "role": "선결제의 의미 설정",
+                "summary": "돈을 먼저 내고 이후 서비스를 이용하는 구조를 짧게 제시해 사건의 중심축을 세운다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea"
+                ]
+              },
+              {
+                "role": "약속된 순서의 단절",
+                "summary": "고소장에 담긴 할인 행사, 선결제 유도, 폐업과 잠적 주장을 순차적으로 압축해 긴장을 높인다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea"
+                ]
+              },
+              {
+                "role": "피해 규모의 확장",
+                "summary": "개별 결제 문제가 56명과 5600만원 규모의 집단 고소 사건으로 번졌음을 드러낸다.",
+                "claimRefs": [
+                  "claim-283d3de96c6a"
+                ]
+              },
+              {
+                "role": "현재 법적 단계와 한계",
+                "summary": "사기 혐의 고소와 경찰 수사 사실을 밝히고, 아직 고소 내용을 토대로 경위를 조사하는 단계임을 분명히 한다.",
+                "claimRefs": [
+                  "claim-a19effa90870",
+                  "claim-2590bdc45921"
+                ]
+              },
+              {
+                "role": "믿음의 잔향",
+                "summary": "선결제를 돈과 미래 이용에 대한 믿음이 함께 건너가는 행위로 비추며 청자가 자신의 일상적 신뢰를 투영하도록 닫는다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "할인에 이끌린 선결제가 폐업·잠적 주장과 맞물리며 56명의 집단 고소로 뒤바뀐 ‘선결제와 신뢰의 단절’을 중심축으로 삼는다.",
+              "rationale": "독립 검증 보도가 한 곳뿐이고 확정된 재판 결과도 없으므로, 대표의 행위는 고소장 내용으로 한정하고 경찰 수사 단계를 명확히 했다. 세부 법률 설명 대신 선결제 유도에서 폐업·잠적 주장, 피해 규모, 수사로 이어지는 흐름을 압축했다. 짧은 문장으로 순서의 단절을 강조한 뒤 56명과 5600만원으로 강도를 높이고, 법적 현황을 먼저 정리한 다음 선결제에 내포된 일상적 믿음으로 이동해 근거 기반의 공감과 자기 투영을 만들었다."
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "7c71937efd4df515891a22e7a803802f416cda04ecf42ed3c20bd5de426f50c2",
+              "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+              "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+              "usedClaimRefs": [
+                "claim-50dbe00571ea",
+                "claim-283d3de96c6a",
+                "claim-a19effa90870",
+                "claim-2590bdc45921"
+              ]
+            }
+          },
+          "editorialDirection": null,
+          "policyBinding": {
+            "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+            "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+            "packageSha256": "7c71937efd4df515891a22e7a803802f416cda04ecf42ed3c20bd5de426f50c2"
+          }
+        },
+        "draftSnapshotSha256": "452a57bf692281a9b02b7bd5b734cc15c135838b850f278bf98731125da76537"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T15:01:59.588Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v4",
+          "generation": {
+            "schemaVersion": 7,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v4",
+            "promptSha256": "19add982eed2c10a364cde5d3389ed5d7e502cc13c36e29d5787f11567bb0047",
+            "packageSha256": "360f5e1ea2281937d8648263539a3b9043c4b1476ddbbf595e88d0b5cd255079",
+            "outputSha256": "ccbcc1152dd741b3e0cd3e30d1cf6178fae9cc3e1908a6317e82dcd7be2b5448",
+            "currentAuthoritySha256": "ccbcc1152dd741b3e0cd3e30d1cf6178fae9cc3e1908a6317e82dcd7be2b5448",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T12:52:34.310Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "할인 행사라는 말이 먼저였습니다. 전남 나주의 한 헬스장 대표 A씨가 할인을 내세워 회원들에게 이용료를 미리 결제하도록 유도했다는 내용입니다. 돈을 먼저 내면, 앞으로 받을 서비스를 약속받는 셈입니다. 그런데 고소장에 적힌 다음 장면은 달랐습니다. 회원들은 A씨가 선결제를 받은 뒤 업체를 폐업하고 잠적했다고 주장하며, 사기 혐의로 처벌해 달라는 고소장을 냈습니다. 이날 오전 기준으로 알려진 피해 규모는 56명, 모두 5천6백만 원에 달합니다. 한 사람의 결제가 아니라 수십 명의 선결제가 한꺼번에 수사 대상이 된 겁니다. 다만 지금 확인된 것은 회원들이 제기한 고소와 수사의 시작까지입니다. 전남 나주경찰서는 고소장을 접수했고, 정확한 경위를 조사하고 있다고 밝혔습니다. 대표가 실제로 고의로 속였는지, 사기 혐의가 인정되는지는 아직 확정되지 않았습니다. 할인으로 시작된 약속은 폐업과 잠적을 주장하는 고소로 바뀌었고, 미리 건넨 돈의 의미도 달라졌습니다. 먼저 믿고 맡긴다는 평범한 선택이 설명을 기다리는 시간이 될 때, 흔들리는 것은 돈만이 아니라 약속을 믿어도 된다는 마음입니다.",
+            "beats": [
+              {
+                "role": "선결제의 출발점",
+                "summary": "할인 행사를 앞세운 선결제 유도 주장을 제시하고, 사건의 중심을 미리 건넨 돈과 약속에 둔다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea"
+                ]
+              },
+              {
+                "role": "약속의 단절",
+                "summary": "고소장에 담긴 폐업·잠적 주장을 이어 붙여 선결제의 의미가 바뀌는 지점을 드러낸다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-a19effa90870"
+                ]
+              },
+              {
+                "role": "피해 규모의 확장",
+                "summary": "56명과 5천6백만 원이라는 수치로 개인 결제가 집단적 사건으로 커진 규모를 압축한다.",
+                "claimRefs": [
+                  "claim-283d3de96c6a"
+                ]
+              },
+              {
+                "role": "확정되지 않은 책임",
+                "summary": "현재 법적 상태가 고소 접수와 경찰 수사 단계임을 분명히 하고 유죄 단정을 피한다.",
+                "claimRefs": [
+                  "claim-a19effa90870",
+                  "claim-2590bdc45921"
+                ]
+              },
+              {
+                "role": "신뢰의 잔향",
+                "summary": "선결제에 담긴 일상적 신뢰가 불확실한 기다림으로 변한 간극을 청자의 감정에 연결한다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-2590bdc45921"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "할인으로 시작된 선결제의 약속이 폐업·잠적을 주장하는 고소와 경찰 수사로 바뀌며, 일상적 신뢰의 의미가 뒤집히는 과정",
+              "rationale": "검증된 정보가 단일 출처의 고소 및 수사 단계에 한정돼 있어, 대표의 행위를 사실로 확정하지 않고 모든 핵심 내용을 고소장과 회원 주장에 귀속했다. 할인 행사, 선결제, 폐업·잠적 주장, 56명·5천6백만 원, 경찰 수사 순으로 긴장을 높인 뒤 현재의 불확정 상태를 명시했다. 별도의 반전 대신 선결제가 집단적 수사 사안으로 변한 지점을 hinge로 삼았으며, 법적 상태를 먼저 정리하고 약속에 대한 신뢰가 흔들리는 감정으로 마무리했다."
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "360f5e1ea2281937d8648263539a3b9043c4b1476ddbbf595e88d0b5cd255079",
+              "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+              "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+              "usedClaimRefs": [
+                "claim-50dbe00571ea",
+                "claim-a19effa90870",
+                "claim-283d3de96c6a",
+                "claim-2590bdc45921"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이도 나주 헬스장의 할인 행사와 선결제, 회원들이 다시 이용하려 한 시점, 폐업·잠적을 주장하는 고소와 경찰 수사라는 사건 처리 흐름을 따라갈 수 있게 한다. 56명이 총 5,600만 원의 피해를 주장했다는 수치와 대표가 선결제를 유도한 뒤 폐업하고 잠적했다는 내용은 고소장·보도에 담긴 주장으로 구분한다. 이것이 실제 사기였다고 확정하거나 사업의 폐업·재산·환불 시도·피해자 수와 총액을 보도 밖에서 보완하지 않는다. 미리 결제한 서비스에 대한 신뢰가 끊기고 개인들의 결제가 수사 대상이 되는 간극은 central axis 후보지만, 훅·정보 공개 순서·문장 리듬·beat 수는 모델이 자율적으로 정한다. 전남 나주경찰서가 회원들의 사기 혐의 고소장을 접수해 정확한 경위를 조사 중이라는 현재 법적 상태를 보도 시점에 맞춰 명시한다. 조건부 단일 출처 사건이므로 ‘고소장에는’, ‘회원들은’, ‘경찰은 수사 중이라고 밝혔다’처럼 귀속을 유지하고 대표의 유죄·고의·잠적 사실을 단정하지 않는다. 확인된 법적 결과가 있다면 감정 coda보다 먼저 두되, 수사 중인 상태를 판결처럼 표현하지 않는다. final movement에는 선결제라는 일상적 약속과 확인되지 않은 책임 판단 사이의 불확실성에서 모델이 선택한 affective resonance와 listener self-projection을 둔다. 피해 회원의 내면·손실 후유증을 창작하지 않고, 구체적 환불 요구·행동·바람·질문·훈계·상투어를 고정하지 않는다. 반전과 coda는 전체 narration을 재편집해 통합한다. 기사와 조사에 확인된 절대 날짜만 사용하고 상대 날짜는 피하며 70~80초는 owner narration locked timing에서 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+            "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+            "packageSha256": "360f5e1ea2281937d8648263539a3b9043c4b1476ddbbf595e88d0b5cd255079"
+          }
+        },
+        "draftSnapshotSha256": "041ba2ebb1022d3cb9c752071df40ddd9a6dc8ebc5a07c78409501da9bbf4d07"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T15:35:19.400Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v7",
+          "generation": {
+            "schemaVersion": 10,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v7",
+            "promptSha256": "726642021c5bd74ef62933dd105954ec58f72bb17b08c4e2f39d0a0459ca09e6",
+            "packageSha256": "c0fe2c9e961fa5ed6204f315be230b8cf4a7151b25ce86fbf4060eb55fada891",
+            "outputSha256": "271ea11de90881e9f5a9c57ee664c3c9e08c9bdad67076b21e965070462f75c8",
+            "currentAuthoritySha256": "271ea11de90881e9f5a9c57ee664c3c9e08c9bdad67076b21e965070462f75c8",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T15:01:59.516Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "전남 나주의 한 헬스장 회원들은 이용료를 먼저 결제한 고객들이었습니다. 그런데 이날 오전 기준 피해 규모는 56명, 총 5,600만 원에 달했고, 고소장에는 업체 대표 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담겼습니다. 먼저 낸 이용료가 경찰 수사로 이어진 과정은 회원들이 제출한 고소장에서 드러납니다. 회원들은 A씨를 사기 혐의로 처벌해 달라는 고소장을 냈고, 전남 나주경찰서는 27일 이를 접수해 수사 중이라고 밝혔습니다. 할인 행사와 선결제, 폐업과 잠적은 현재 고소장에 담긴 내용입니다. 대표의 사기 혐의가 확정된 것은 아닙니다. 경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침입니다. 결국 확인된 법적 상태는 처벌이 아니라 수사의 시작입니다. 헬스장 이용을 위해 각자가 먼저 건넨 돈은 이제 56명, 5,600만 원이라는 하나의 사건 규모로 모였습니다. 누구든 값을 먼저 치르는 순간에는 약속된 이용이 이어질 거라는 신뢰도 함께 맡기게 됩니다.",
+            "beats": [
+              {
+                "role": "선결제 고객과 폐업·잠적 주장의 즉시 충돌",
+                "summary": "헬스장 이용료를 먼저 낸 회원들의 평범한 거래 상황에 56명·5,600만 원의 피해 규모와 폐업·잠적이 담긴 고소 내용을 맞붙인다.",
+                "claimRefs": [
+                  "claim-d3cf61aac597",
+                  "claim-283d3de96c6a",
+                  "claim-50dbe00571ea"
+                ]
+              },
+              {
+                "role": "개별 결제가 사건으로 전환된 경로",
+                "summary": "회원들이 대표의 사기 혐의 처벌을 요구하는 고소장을 제출하면서 선결제가 경찰 사건으로 이어졌음을 설명한다.",
+                "claimRefs": [
+                  "claim-a19effa90870"
+                ]
+              },
+              {
+                "role": "주장과 확정 사실의 경계",
+                "summary": "폐업·잠적과 선결제 유도는 고소장 내용이며 현재는 혐의가 확정되지 않은 수사 단계임을 분명히 한다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-a19effa90870"
+                ]
+              },
+              {
+                "role": "남겨 둔 결과의 회수",
+                "summary": "경찰이 정확한 경위를 조사할 방침이라는 현재 처리 결과를 제시한다.",
+                "claimRefs": [
+                  "claim-2590bdc45921"
+                ]
+              },
+              {
+                "role": "숫자로 모인 선결제 신뢰의 잔향",
+                "summary": "각자의 선결제가 56명과 5,600만 원 규모의 사건으로 모였다는 사실에서, 먼저 지불할 때 맡기는 일상적 신뢰를 청자 자신의 경험으로 확장한다.",
+                "claimRefs": [
+                  "claim-283d3de96c6a",
+                  "claim-d3cf61aac597"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "헬스장 이용을 위해 먼저 건넨 돈이 폐업·잠적을 주장하는 고소를 거쳐 경찰 수사 대상이 된 간극을 중심축으로 삼는다.",
+              "rationale": "단일 출처의 수사 초기 사건이므로 선결제 유도와 폐업·잠적을 고소장 내용으로 한정하고, 56명·5,600만 원이라는 피해 규모와 경찰의 현재 조치만 남겼다. 오프닝에서 평범한 선결제 고객과 구체적 피해 및 폐업·잠적 주장을 바로 충돌시킨 뒤, 고소 접수와 수사 착수의 순서로 전개했다. 혐의 확정과 수사 단계를 구분한 후에는 각자의 결제가 하나의 사건 규모로 모였다는 장면을 거쳐, 선결제에 수반되는 일상적 신뢰로 감정의 범위를 넓혔다.",
+              "hook": {
+                "choice": "평범한 헬스장 선결제를 구체적인 피해 규모와 폐업·잠적 고소 내용에 맞붙이는 수치형 거래 붕괴 오프닝",
+                "rationale": "회원들이 이용료를 먼저 낸 통상적인 고객 관계를 제시한 직후, 56명·5,600만 원의 피해 규모와 대표가 폐업하고 잠적했다는 고소 내용을 붙여 누가 어떤 신뢰 상황에 있었고 무엇이 이를 깼는지 두 문장만으로 이해하게 한다.",
+                "openingText": "전남 나주의 한 헬스장 회원들은 이용료를 먼저 결제한 고객들이었습니다. 그런데 이날 오전 기준 피해 규모는 56명, 총 5,600만 원에 달했고, 고소장에는 업체 대표 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담겼습니다.",
+                "expectationText": "전남 나주의 한 헬스장 회원들은 이용료를 먼저 결제한 고객들이었습니다.",
+                "expectationClaimRefs": [
+                  "claim-d3cf61aac597"
+                ],
+                "breachText": "이날 오전 기준 피해 규모는 56명, 총 5,600만 원에 달했고, 고소장에는 업체 대표 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담겼습니다.",
+                "breachClaimRefs": [
+                  "claim-283d3de96c6a",
+                  "claim-50dbe00571ea"
+                ],
+                "withheldQuestion": "회원들의 선결제와 폐업·잠적 주장은 현재 어떤 사건 처리 단계로 이어졌는가?",
+                "payoff": "경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침입니다. 결국 확인된 법적 상태는 처벌이 아니라 수사의 시작입니다.",
+                "payoffClaimRefs": [
+                  "claim-2590bdc45921",
+                  "claim-a19effa90870"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "c0fe2c9e961fa5ed6204f315be230b8cf4a7151b25ce86fbf4060eb55fada891",
+              "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+              "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+              "usedClaimRefs": [
+                "claim-d3cf61aac597",
+                "claim-283d3de96c6a",
+                "claim-50dbe00571ea",
+                "claim-a19effa90870",
+                "claim-2590bdc45921"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이도 나주 헬스장의 할인 행사와 선결제, 회원들이 다시 이용하려 한 시점, 폐업·잠적을 주장하는 고소와 경찰 수사라는 사건 처리 흐름을 따라갈 수 있게 한다. 56명이 총 5,600만 원의 피해를 주장했다는 수치와 대표가 선결제를 유도한 뒤 폐업하고 잠적했다는 내용은 고소장·보도에 담긴 주장으로 구분한다. 이것이 실제 사기였다고 확정하거나 사업의 폐업·재산·환불 시도·피해자 수와 총액을 보도 밖에서 보완하지 않는다. 미리 결제한 서비스에 대한 신뢰가 끊기고 개인들의 결제가 수사 대상이 되는 간극은 central axis 후보지만, 훅·정보 공개 순서·문장 리듬·beat 수는 모델이 자율적으로 정한다. 전남 나주경찰서가 회원들의 사기 혐의 고소장을 접수해 정확한 경위를 조사 중이라는 현재 법적 상태를 보도 시점에 맞춰 명시한다. 조건부 단일 출처 사건이므로 ‘고소장에는’, ‘회원들은’, ‘경찰은 수사 중이라고 밝혔다’처럼 귀속을 유지하고 대표의 유죄·고의·잠적 사실을 단정하지 않는다. 확인된 법적 결과가 있다면 감정 coda보다 먼저 두되, 수사 중인 상태를 판결처럼 표현하지 않는다. final movement에는 선결제라는 일상적 약속과 확인되지 않은 책임 판단 사이의 불확실성에서 모델이 선택한 affective resonance와 listener self-projection을 둔다. 피해 회원의 내면·손실 후유증을 창작하지 않고, 구체적 환불 요구·행동·바람·질문·훈계·상투어를 고정하지 않는다. 반전과 coda는 전체 narration을 재편집해 통합한다. 기사와 조사에 확인된 절대 날짜만 사용하고 상대 날짜는 피하며 70~80초는 owner narration locked timing에서 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+            "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+            "packageSha256": "c0fe2c9e961fa5ed6204f315be230b8cf4a7151b25ce86fbf4060eb55fada891"
+          }
+        },
+        "draftSnapshotSha256": "10f0a1ab1a5a024dbcae3db34f9c3d1833c4891b53f872a7e5f2610e05dc1a13"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T16:39:16.412Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v8",
+          "generation": {
+            "schemaVersion": 11,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v8",
+            "promptSha256": "65cb5a19bdd9e90ddcfabae5a0918530b9e059a4a8eda1cb089f5667649af63b",
+            "packageSha256": "f4a5b9b5d9350678f93115b0a5ab4dde9dbcef4cc7bece3cdfd7f182cb98abd2",
+            "outputSha256": "672b180c862e5fd6a6967f715cea676fcbfacb339436e061242db87be19aa1a4",
+            "currentAuthoritySha256": "672b180c862e5fd6a6967f715cea676fcbfacb339436e061242db87be19aa1a4",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T15:35:19.354Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "헬스장 이용을 위해 할인 행사에 맞춰 돈을 먼저 낸 회원들. 하지만 고소장에는 대표 A씨가 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담겼고, 회원들이 고소로 제시한 피해 규모는 56명, 총 5천600만 원에 달했습니다. 시작은 할인 행사였습니다. 회원들의 결제가 이어졌지만, 이후 업체가 문을 닫고 대표가 잠적했다는 주장이 나오면서 미리 낸 이용료는 사기 혐의 고소로 이어졌습니다. 다만 폐업과 잠적, 사기 혐의는 현재 고소장에 담긴 내용입니다. 전남 나주경찰서는 대표 A씨를 사기 혐의로 처벌해 달라는 회원들의 고소장을 접수했고, 현재 고소 내용을 토대로 정확한 경위를 조사하고 있습니다. 아직 수사 단계인 만큼 대표가 실제로 사기를 저질렀다고 확정할 수는 없습니다. 선결제는 돈을 먼저 건네고 이용은 나중에 받는 순서입니다. 회원들이 제시한 56명과 5천600만 원은, 폐업과 잠적 주장으로 그 평범한 순서가 멈췄을 때 생기는 막막함을 구체적인 숫자로 남깁니다.",
+            "beats": [
+              {
+                "role": "약속과 단절의 정면충돌",
+                "summary": "할인 행사에 따른 선결제라는 이용 기대와 폐업·잠적 주장을 피해 인원 및 금액과 함께 곧바로 맞붙인다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ]
+              },
+              {
+                "role": "결제에서 고소까지의 전개",
+                "summary": "할인 행사, 회원들의 선결제, 폐업·잠적 주장, 사기 혐의 고소로 이어진 사건 흐름을 압축한다.",
+                "claimRefs": [
+                  "claim-d3cf61aac597",
+                  "claim-50dbe00571ea"
+                ]
+              },
+              {
+                "role": "주장과 확정 사실의 경계",
+                "summary": "폐업·잠적과 사기 혐의가 고소 내용임을 분명히 해 수사 중인 사건을 유죄처럼 단정하지 않는다.",
+                "claimRefs": [
+                  "claim-a19effa90870",
+                  "claim-50dbe00571ea"
+                ]
+              },
+              {
+                "role": "남겨 둔 법적 단계의 회수",
+                "summary": "경찰이 고소장을 접수해 정확한 경위를 조사하고 있다는 현재 처리 상태를 밝힌다.",
+                "claimRefs": [
+                  "claim-a19effa90870",
+                  "claim-2590bdc45921"
+                ]
+              },
+              {
+                "role": "멈춘 선결제의 순서",
+                "summary": "56명과 5천600만 원을 단순 합계가 아니라 나중의 이용을 전제로 먼저 건넨 돈이 멈춘 규모로 되비춘다.",
+                "claimRefs": [
+                  "claim-283d3de96c6a",
+                  "claim-50dbe00571ea"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "나중의 헬스장 이용을 전제로 한 선결제가 폐업·잠적 주장과 사기 혐의 수사로 뒤바뀐 간극을 중심축으로 삼는다.",
+              "rationale": "확인된 정보가 단일 출처의 고소 및 수사 초기 내용에 한정되므로 동기나 책임을 추정하지 않았다. 할인 행사에서 선결제, 폐업·잠적 주장, 고소 접수와 경찰 조사로 이어지는 시간 순서를 유지하면서 56명과 5천600만 원을 축의 규모를 보여주는 핵심 수치로 배치했다. 마지막에는 법적 단정 대신 먼저 결제하고 나중에 이용하는 순서가 멈춘 데서 생기는 사건 고유의 막막함으로 이동했다.",
+              "hook": {
+                "choice": "할인 선결제로 시작된 이용 기대를 폐업·잠적 주장과 56명·5천600만 원의 피해 규모에 즉시 충돌시키는 수치 결합형 도입",
+                "rationale": "회원이 헬스장 이용을 위해 먼저 결제한 평범한 상황과, 대표가 폐업하고 잠적했다는 고소 내용이 인접한 두 문장 안에서 맞부딪힌다. 피해 인원과 금액을 함께 제시해 부조리의 규모도 즉시 이해되도록 했다.",
+                "openingText": "헬스장 이용을 위해 할인 행사에 맞춰 돈을 먼저 낸 회원들. 하지만 고소장에는 대표 A씨가 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담겼고, 회원들이 고소로 제시한 피해 규모는 56명, 총 5천600만 원에 달했습니다.",
+                "impactText": "회원들이 고소로 제시한 피해 규모는 56명, 총 5천600만 원에 달했습니다.",
+                "impactClaimRefs": [
+                  "claim-283d3de96c6a"
+                ],
+                "impactMechanism": "한 사람의 결제 문제가 아니라 56명의 선결제와 총 5천600만 원의 피해 주장이라는 구체적 규모를 제시해, 폐업·잠적 주장이 가져온 파장을 과장 없이 즉시 체감하게 한다.",
+                "expectationText": "헬스장 이용을 위해 할인 행사에 맞춰 돈을 먼저 낸 회원들.",
+                "expectationClaimRefs": [
+                  "claim-50dbe00571ea"
+                ],
+                "breachText": "하지만 고소장에는 대표 A씨가 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담겼고, 회원들이 고소로 제시한 피해 규모는 56명, 총 5천600만 원에 달했습니다.",
+                "breachClaimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ],
+                "withheldQuestion": "회원들의 고소는 현재 어떤 법적 처리 단계에 있는가?",
+                "retentionGap": "오프닝에서 선결제와 폐업·잠적 주장, 피해 규모는 공개하되 고소가 접수됐는지와 경찰이 무엇을 하고 있는지는 남겨 두었다. 이후 현재 상태가 수사 단계임을 밝혀 책임이 확정되지 않았다는 경계까지 함께 회수한다.",
+                "payoff": "전남 나주경찰서는 대표 A씨를 사기 혐의로 처벌해 달라는 회원들의 고소장을 접수했고, 현재 고소 내용을 토대로 정확한 경위를 조사하고 있습니다.",
+                "payoffClaimRefs": [
+                  "claim-a19effa90870",
+                  "claim-2590bdc45921"
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "먼저 돈을 건네고 나중에 이용하는 순서가 집단 피해 주장으로 멈춰 선 막막함",
+                "codaRationale": "선결제의 시간적 구조와 56명·5천600만 원, 폐업·잠적 주장을 한 문장에 결합해 이 사건을 빼면 성립하지 않는 여운을 만들었다. 피해자의 내면을 단정하지 않고 누구나 이해할 수 있는 선결제의 순서를 통해 감정을 투영하도록 했다.",
+                "closingText": "회원들이 제시한 56명과 5천600만 원은, 폐업과 잠적 주장으로 그 평범한 순서가 멈췄을 때 생기는 막막함을 구체적인 숫자로 남깁니다.",
+                "claimRefs": [
+                  "claim-283d3de96c6a",
+                  "claim-50dbe00571ea"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "f4a5b9b5d9350678f93115b0a5ab4dde9dbcef4cc7bece3cdfd7f182cb98abd2",
+              "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+              "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+              "usedClaimRefs": [
+                "claim-50dbe00571ea",
+                "claim-283d3de96c6a",
+                "claim-d3cf61aac597",
+                "claim-a19effa90870",
+                "claim-2590bdc45921"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이도 나주 헬스장의 할인 행사와 선결제, 회원들이 다시 이용하려 한 시점, 폐업·잠적을 주장하는 고소와 경찰 수사라는 사건 처리 흐름을 따라갈 수 있게 한다. 56명이 총 5,600만 원의 피해를 주장했다는 수치와 대표가 선결제를 유도한 뒤 폐업하고 잠적했다는 내용은 고소장·보도에 담긴 주장으로 구분한다. 이것이 실제 사기였다고 확정하거나 사업의 폐업·재산·환불 시도·피해자 수와 총액을 보도 밖에서 보완하지 않는다. 미리 결제한 서비스에 대한 신뢰가 끊기고 개인들의 결제가 수사 대상이 되는 간극은 central axis 후보지만, 훅·정보 공개 순서·문장 리듬·beat 수는 모델이 자율적으로 정한다. 전남 나주경찰서가 회원들의 사기 혐의 고소장을 접수해 정확한 경위를 조사 중이라는 현재 법적 상태를 보도 시점에 맞춰 명시한다. 조건부 단일 출처 사건이므로 ‘고소장에는’, ‘회원들은’, ‘경찰은 수사 중이라고 밝혔다’처럼 귀속을 유지하고 대표의 유죄·고의·잠적 사실을 단정하지 않는다. 확인된 법적 결과가 있다면 감정 coda보다 먼저 두되, 수사 중인 상태를 판결처럼 표현하지 않는다. final movement에는 선결제라는 일상적 약속과 확인되지 않은 책임 판단 사이의 불확실성에서 모델이 선택한 affective resonance와 listener self-projection을 둔다. 피해 회원의 내면·손실 후유증을 창작하지 않고, 구체적 환불 요구·행동·바람·질문·훈계·상투어를 고정하지 않는다. 반전과 coda는 전체 narration을 재편집해 통합한다. 기사와 조사에 확인된 절대 날짜만 사용하고 상대 날짜는 피하며 70~80초는 owner narration locked timing에서 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+            "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+            "packageSha256": "f4a5b9b5d9350678f93115b0a5ab4dde9dbcef4cc7bece3cdfd7f182cb98abd2"
+          }
+        },
+        "draftSnapshotSha256": "7e470df61fc339d0b589372e91d1b780c6a511590dd799c62744bf8def9408ec"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T17:03:35.474Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v9",
+          "generation": {
+            "schemaVersion": 12,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v9",
+            "promptSha256": "8fe9348fb99c9635ad90505db9a1377de0894d8f72bd76feb179703b55240543",
+            "packageSha256": "2d46639d4bf88ed646c1235ed2cf34c5f9f1b1fc1809edfb2d9e39830982de70",
+            "outputSha256": "cde0211fad9e38ee43f21c96fa4e7043329df24c7f16c6bd1385cafd0aee80cb",
+            "currentAuthoritySha256": "cde0211fad9e38ee43f21c96fa4e7043329df24c7f16c6bd1385cafd0aee80cb",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T16:39:16.319Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "헬스장을 이용하려고 돈을 먼저 낸 회원들이 있었습니다. 그런데 할인 행사로 선결제를 유도한 대표가 폐업하고 잠적했다는 내용이 고소장에 담겼고, 회원 56명이 주장한 피해액은 모두 5천600만 원에 달했습니다. 흐름은 할인 행사에서 시작됩니다. 돈을 먼저 내면 앞으로 이용할 몫이 남는 선결제였습니다. 할인이라는 조건은 결제를 앞당겼지만, 고소장에 적힌 다음 순서는 폐업, 이어 대표의 잠적입니다. 다만 이는 확정된 사기 판단이 아니라 회원들이 제기한 고소 내용입니다. 한 사람의 이용권 결제로 끝날 것 같던 일은 56명의 피해 주장으로 번졌고, 합계는 5천600만 원이 됐습니다. 전남 나주경찰서는 회원들의 고소장을 접수해 사기 혐의와 정확한 경위를 수사 중이라고 27일 밝혔습니다. 경찰이 확인할 부분은 할인 행사와 선결제, 폐업과 잠적 주장 사이에 실제로 어떤 일이 있었는지입니다. 현재 확인된 법적 단계는 수사 중이며, 대표의 고의나 유죄가 결론 난 것은 아닙니다. 할인받아 운동할 시간을 남겨두려던 선결제가 56명, 5천600만 원의 피해 주장으로 바뀐 그 간극은 쉽게 가벼워지지 않습니다.",
+            "beats": [
+              {
+                "role": "선결제가 깨진 순간을 규모와 함께 제시",
+                "summary": "헬스장 이용을 위해 먼저 돈을 낸 관계와 폐업·잠적 고소 내용, 56명·5천600만 원의 피해 주장을 곧바로 충돌시킨다.",
+                "claimRefs": [
+                  "claim-d3cf61aac597",
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ]
+              },
+              {
+                "role": "할인에서 잠적 주장까지 행동 순서 복원",
+                "summary": "할인 행사, 선결제, 폐업, 잠적 주장으로 이어지는 고소장의 흐름을 짧은 문장으로 따라간다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea"
+                ]
+              },
+              {
+                "role": "주장과 확정 판단 사이의 경계",
+                "summary": "사기나 잠적을 확정하지 않고 회원들이 제기한 고소 내용임을 분명히 한다.",
+                "claimRefs": [
+                  "claim-d3cf61aac597",
+                  "claim-a19effa90870",
+                  "claim-50dbe00571ea"
+                ]
+              },
+              {
+                "role": "개별 결제가 집단 피해 주장으로 확대",
+                "summary": "56명과 총 5천600만 원이라는 수치로 사건 규모를 다시 결집한다.",
+                "claimRefs": [
+                  "claim-283d3de96c6a"
+                ]
+              },
+              {
+                "role": "남겨둔 절차적 질문 회수",
+                "summary": "회원들의 고소장이 경찰 수사로 이어졌고 정확한 경위를 조사 중이라는 현재 단계를 밝힌다.",
+                "claimRefs": [
+                  "claim-a19effa90870",
+                  "claim-2590bdc45921"
+                ]
+              },
+              {
+                "role": "선결제의 의미가 뒤집힌 여운",
+                "summary": "앞으로 이용할 몫이던 선결제가 대규모 피해 주장으로 바뀐 간극을 사건 고유의 감정적 잔향으로 남긴다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "앞으로 받을 헬스장 서비스를 믿고 먼저 낸 돈이 폐업·잠적 고소와 56명, 5천600만 원의 피해 주장으로 바뀐 간극을 단일 축으로 삼았다.",
+              "rationale": "근거가 단일 출처이고 수사 초기 단계이므로 대표의 세부 행위나 법률 평가를 늘리지 않았다. 대신 할인 행사에서 선결제, 폐업·잠적 주장, 집단 피해 규모, 경찰 수사로 이어지는 순서를 반복 없이 압축하고, 확정되지 않은 책임 판단은 명확히 분리했다. 짧은 행동 문장 뒤에 수치와 법적 한정을 배치해 긴장을 높인 뒤, 선결제의 본래 시간적 약속이 뒤집힌 감각으로 마무리했다.",
+              "hook": {
+                "choice": "미리 돈을 내고 나중에 이용하는 헬스장 회원의 평범한 위치를 먼저 세운 뒤, 폐업·잠적 주장과 피해 규모를 바로 맞부딪치는 사실 충돌형 도입",
+                "rationale": "서비스를 받기 위해 선결제한 회원이라는 구체적 기대와, 할인 행사 뒤 폐업하고 대표가 잠적했다는 고소 내용이 인접한 두 문장 안에서 충돌한다. 여기에 56명과 5천600만 원을 붙여 사건의 규모도 도입부만으로 이해하게 했다.",
+                "openingText": "헬스장을 이용하려고 돈을 먼저 낸 회원들이 있었습니다. 그런데 할인 행사로 선결제를 유도한 대표가 폐업하고 잠적했다는 내용이 고소장에 담겼고, 회원 56명이 주장한 피해액은 모두 5천600만 원에 달했습니다.",
+                "impactText": "할인 행사로 선결제를 유도한 대표가 폐업하고 잠적했다는 내용이 고소장에 담겼고, 회원 56명이 주장한 피해액은 모두 5천600만 원에 달했습니다.",
+                "impactClaimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ],
+                "impactMechanism": "할인과 선결제라는 구체적 유도 방식, 폐업·잠적이라는 단절, 56명·5천600만 원이라는 규모를 한 흐름으로 결합하되 모두 고소 및 피해 주장으로 한정해 즉각적인 충격과 정확성을 함께 확보한다.",
+                "expectationText": "헬스장을 이용하려고 돈을 먼저 낸 회원들이 있었습니다.",
+                "expectationClaimRefs": [
+                  "claim-d3cf61aac597"
+                ],
+                "breachText": "할인 행사로 선결제를 유도한 대표가 폐업하고 잠적했다는 내용이 고소장에 담겼고",
+                "breachClaimRefs": [
+                  "claim-50dbe00571ea"
+                ],
+                "withheldQuestion": "회원들이 제기한 고소는 어떤 법적 절차로 이어졌으며 현재 어디까지 확인됐는가?",
+                "retentionGap": "도입에서 선결제와 폐업·잠적 주장, 피해 규모는 공개하지만 그 고소를 누가 접수했고 현재 판단 단계가 무엇인지는 남겨둔다. 이후 경찰 수사 사실로 회수할 수 있는 절차적 공백이다.",
+                "payoff": "전남 나주경찰서는 회원들의 고소장을 접수해 사기 혐의와 정확한 경위를 수사 중이라고 27일 밝혔습니다.",
+                "payoffClaimRefs": [
+                  "claim-a19effa90870",
+                  "claim-2590bdc45921"
+                ]
+              },
+              "sceneCraft": {
+                "approach": "감각을 창작하지 않고 결제의 시간 순서와 사업 상태의 변화만으로 장면을 잇는다. 할인 행사가 결제를 앞으로 당기고, 선결제 뒤 폐업과 잠적 주장이 이어지며, 회원들의 고소장이 경찰 수사로 넘어가는 연속을 청자가 따라가게 했다.",
+                "continuityRationale": "입력에 현장 소리나 구체 공간 이동이 없으므로 이를 만들지 않았다. 대신 ‘할인 행사→선결제→폐업→잠적 주장→고소장 접수→수사’라는 검증된 행동·절차 변화가 오디오상의 연속성을 담당한다.",
+                "sceneSpans": [
+                  {
+                    "text": "그런데 할인 행사로 선결제를 유도한 대표가 폐업하고 잠적했다는 내용이 고소장에 담겼고",
+                    "claimRefs": [
+                      "claim-50dbe00571ea"
+                    ],
+                    "continuityRole": "오프닝 안에서 할인과 선결제 이후 사업장이 폐업하고 대표의 잠적 주장이 제기되는 변화를 한 호흡으로 연결한다."
+                  },
+                  {
+                    "text": "할인이라는 조건은 결제를 앞당겼지만, 고소장에 적힌 다음 순서는 폐업, 이어 대표의 잠적입니다.",
+                    "claimRefs": [
+                      "claim-50dbe00571ea"
+                    ],
+                    "continuityRole": "사건의 핵심 행동을 시간 순서대로 재배열해 화면 없이도 상태 변화를 따라가게 한다."
+                  },
+                  {
+                    "text": "전남 나주경찰서는 회원들의 고소장을 접수해 사기 혐의와 정확한 경위를 수사 중이라고 27일 밝혔습니다.",
+                    "claimRefs": [
+                      "claim-a19effa90870",
+                      "claim-2590bdc45921"
+                    ],
+                    "continuityRole": "회원들의 피해 주장이 고소장 접수와 경찰 수사라는 다음 절차로 이동했음을 보여준다."
+                  }
+                ],
+                "attributionStrategy": "폐업·잠적과 피해 규모는 고소 내용 및 회원들의 주장으로 문장 내부에서 한정하고, 현재 법적 상태는 경찰 발표와 수사 중이라는 표현으로 짧게 고정했다.",
+                "attributions": [
+                  {
+                    "text": "폐업하고 잠적했다는 내용이 고소장에 담겼고",
+                    "claimRefs": [
+                      "claim-50dbe00571ea"
+                    ],
+                    "necessity": "대표의 폐업·잠적 행위는 고소장에 담긴 내용이므로 확정 사실과 구분해야 한다."
+                  },
+                  {
+                    "text": "회원 56명이 주장한 피해액은 모두 5천600만 원에 달했습니다.",
+                    "claimRefs": [
+                      "claim-283d3de96c6a"
+                    ],
+                    "necessity": "단일 출처의 피해 수치이며 입력의 편집 지시에 따라 회원들의 피해 주장으로 한정할 필요가 있다."
+                  },
+                  {
+                    "text": "다만 이는 확정된 사기 판단이 아니라 회원들이 제기한 고소 내용입니다.",
+                    "claimRefs": [
+                      "claim-d3cf61aac597",
+                      "claim-a19effa90870",
+                      "claim-50dbe00571ea"
+                    ],
+                    "necessity": "수사 단계의 혐의를 유죄나 확정된 사기로 오인하지 않게 한다."
+                  },
+                  {
+                    "text": "전남 나주경찰서는 회원들의 고소장을 접수해 사기 혐의와 정확한 경위를 수사 중이라고 27일 밝혔습니다.",
+                    "claimRefs": [
+                      "claim-a19effa90870",
+                      "claim-2590bdc45921"
+                    ],
+                    "necessity": "고소장 접수와 수사 중이라는 현재 절차를 경찰 발표에 귀속해 정확히 표시한다."
+                  }
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "앞으로 누릴 운동 시간을 위해 앞당긴 결제가 집단 피해 주장으로 뒤집힌 허탈한 간극",
+                "codaRationale": "일반적인 안전이나 신뢰를 추상적으로 말하지 않고, 할인 선결제와 헬스장 이용이라는 사건 고유의 약속이 56명·5천600만 원의 피해 주장으로 변한 대비에만 감정을 실었다. 피해자의 구체적 내면이나 후유증은 단정하지 않는다.",
+                "closingText": "할인받아 운동할 시간을 남겨두려던 선결제가 56명, 5천600만 원의 피해 주장으로 바뀐 그 간극은 쉽게 가벼워지지 않습니다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "2d46639d4bf88ed646c1235ed2cf34c5f9f1b1fc1809edfb2d9e39830982de70",
+              "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+              "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+              "usedClaimRefs": [
+                "claim-d3cf61aac597",
+                "claim-50dbe00571ea",
+                "claim-283d3de96c6a",
+                "claim-a19effa90870",
+                "claim-2590bdc45921"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이도 나주 헬스장의 할인 행사와 선결제, 회원들이 다시 이용하려 한 시점, 폐업·잠적을 주장하는 고소와 경찰 수사라는 사건 처리 흐름을 따라갈 수 있게 한다. 56명이 총 5,600만 원의 피해를 주장했다는 수치와 대표가 선결제를 유도한 뒤 폐업하고 잠적했다는 내용은 고소장·보도에 담긴 주장으로 구분한다. 이것이 실제 사기였다고 확정하거나 사업의 폐업·재산·환불 시도·피해자 수와 총액을 보도 밖에서 보완하지 않는다. 미리 결제한 서비스에 대한 신뢰가 끊기고 개인들의 결제가 수사 대상이 되는 간극은 central axis 후보지만, 훅·정보 공개 순서·문장 리듬·beat 수는 모델이 자율적으로 정한다. 전남 나주경찰서가 회원들의 사기 혐의 고소장을 접수해 정확한 경위를 조사 중이라는 현재 법적 상태를 보도 시점에 맞춰 명시한다. 조건부 단일 출처 사건이므로 ‘고소장에는’, ‘회원들은’, ‘경찰은 수사 중이라고 밝혔다’처럼 귀속을 유지하고 대표의 유죄·고의·잠적 사실을 단정하지 않는다. 확인된 법적 결과가 있다면 감정 coda보다 먼저 두되, 수사 중인 상태를 판결처럼 표현하지 않는다. final movement에는 선결제라는 일상적 약속과 확인되지 않은 책임 판단 사이의 불확실성에서 모델이 선택한 affective resonance와 listener self-projection을 둔다. 피해 회원의 내면·손실 후유증을 창작하지 않고, 구체적 환불 요구·행동·바람·질문·훈계·상투어를 고정하지 않는다. 반전과 coda는 전체 narration을 재편집해 통합한다. 기사와 조사에 확인된 절대 날짜만 사용하고 상대 날짜는 피하며 70~80초는 owner narration locked timing에서 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+            "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+            "packageSha256": "2d46639d4bf88ed646c1235ed2cf34c5f9f1b1fc1809edfb2d9e39830982de70"
+          }
+        },
+        "draftSnapshotSha256": "a2afe448cb07b01879c924655dffe2eb94088ad8c03fe8dabab151ee61826972"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T19:09:29.914Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v10",
+          "generation": {
+            "schemaVersion": 13,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v10",
+            "promptSha256": "8533fe8fe1aed71ea933ea44367fd0fee3e15107bef1d93b25ac34522078e849",
+            "packageSha256": "fce89ebacc5c4fd3ddc923a1f24821043b8ca78e9a8bd1b2e12d5207e94cec94",
+            "outputSha256": "f0b8050ac62688a91a56f4e3b1272c5fbb849ffd90c65d0d625ffc0e12aff4b6",
+            "currentAuthoritySha256": "f0b8050ac62688a91a56f4e3b1272c5fbb849ffd90c65d0d625ffc0e12aff4b6",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T17:03:35.411Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "헬스장을 이용하려고 할인된 이용료를 먼저 낸 회원들 앞에서, 헬스장이 폐업하고 대표가 잠적했다는 주장이 고소장에 담겼습니다. 회원들이 주장한 피해는 56명, 모두 5천600만원입니다. 흐름은 할인 행사에서 시작됩니다. 고소장 내용대로라면 업체 대표 A씨는 할인을 내세워 회원들의 선결제를 유도했고, 그 뒤 헬스장은 폐업했으며 A씨는 잠적했습니다. 한 사람의 결제 문제가 아니었습니다. 이날 오전 기준 회원들이 주장한 피해 규모는 56명에 총 5천600만원이었습니다. 회원들은 A씨를 사기 혐의로 처벌해 달라는 고소장을 냈습니다. 전남 나주경찰서는 27일 이 고소장을 접수해 수사 중이라고 밝혔고, 고소 내용을 토대로 정확한 경위를 조사할 방침입니다. 수사가 진행 중인 만큼 대표의 사기 혐의나 고의가 확정된 것은 아닙니다. 운동할 시간을 먼저 사 둔 5천600만원이 고소장 속 피해 주장으로 바뀐 간극 앞에서는, 누구라도 먼저 건넨 돈과 약속된 이용 사이의 막막함을 떠올리게 됩니다.",
+            "beats": [
+              {
+                "role": "선결제 약속이 폐업 주장과 맞부딪히는 순간",
+                "summary": "할인을 보고 이용료를 먼저 낸 회원들의 상황과 폐업·잠적을 주장하는 고소 내용을 즉시 충돌시키고 피해 주장 규모를 제시한다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ]
+              },
+              {
+                "role": "할인에서 잠적 주장까지 이어지는 고소장 속 순서",
+                "summary": "할인 행사, 선결제 유도, 폐업과 잠적 주장으로 이어지는 행동 순서를 고소장에 한정해 재구성한다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea"
+                ]
+              },
+              {
+                "role": "개별 결제가 집단 피해 주장으로 넓어진 지점",
+                "summary": "회원 56명과 총 5천600만원이라는 수치로 사건의 주장된 규모를 다시 선명하게 만든다.",
+                "claimRefs": [
+                  "claim-283d3de96c6a"
+                ]
+              },
+              {
+                "role": "고소 이후의 현재 위치",
+                "summary": "회원들의 고소장 제출과 경찰의 접수·수사, 향후 경위 조사 방침을 밝히고 아직 책임이 확정되지 않았음을 분명히 한다.",
+                "claimRefs": [
+                  "claim-a19effa90870",
+                  "claim-2590bdc45921"
+                ]
+              },
+              {
+                "role": "먼저 건넨 돈과 이용 사이에 남은 간극",
+                "summary": "선결제로 약속된 헬스장 이용이 피해 주장과 수사로 바뀐 사건 고유의 막막함에 청자를 겹쳐 놓는다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "헬스장 이용을 위해 먼저 낸 돈이 폐업·잠적을 주장하는 고소와 경찰 수사로 넘어간 간극을 중심축으로 삼았다.",
+              "rationale": "단일 출처이며 수사 초기 단계인 사건이므로 사기 성립이나 대표의 고의를 단정하지 않았다. 할인, 선결제, 폐업·잠적 주장, 56명·5천600만원, 고소장 접수와 수사라는 핵심 흐름만 남겨 선결제 약속이 법적 분쟁으로 바뀐 의미를 집중시켰다.",
+              "hook": {
+                "choice": "미리 산 헬스장 이용과 폐업·잠적 주장을 정면으로 충돌시킨 수치 결합형 도입",
+                "rationale": "회원이라는 평범한 이용 관계에서 할인된 이용료를 먼저 냈다는 상황을, 헬스장 폐업과 대표 잠적이라는 고소 내용에 곧바로 맞붙였다. 이어 56명과 5천600만원을 제시해 주장된 규모까지 두 문장 안에서 이해되도록 했다.",
+                "openingText": "헬스장을 이용하려고 할인된 이용료를 먼저 낸 회원들 앞에서, 헬스장이 폐업하고 대표가 잠적했다는 주장이 고소장에 담겼습니다. 회원들이 주장한 피해는 56명, 모두 5천600만원입니다.",
+                "impactText": "헬스장이 폐업하고 대표가 잠적했다는 주장이 고소장에 담겼습니다. 회원들이 주장한 피해는 56명, 모두 5천600만원입니다.",
+                "impactClaimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ],
+                "impactMechanism": "이용을 전제로 먼저 돈을 낸 상황이 폐업·잠적 주장으로 뒤집힌 행동적 충돌에 피해 인원과 총액을 붙여, 과장 없이 사건의 부조리와 규모를 즉시 드러낸다.",
+                "expectationText": "헬스장을 이용하려고 할인된 이용료를 먼저 낸 회원들",
+                "expectationClaimRefs": [
+                  "claim-50dbe00571ea"
+                ],
+                "breachText": "헬스장이 폐업하고 대표가 잠적했다는 주장이 고소장에 담겼습니다. 회원들이 주장한 피해는 56명, 모두 5천600만원입니다.",
+                "breachClaimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ],
+                "withheldQuestion": "회원들의 고소 이후 사건은 현재 어떤 절차에 놓여 있는가?",
+                "retentionGap": "폐업·잠적 주장과 피해 규모는 열어 두되, 고소장이 어느 기관에 접수됐고 책임 판단이 어디까지 진행됐는지는 뒤에 남겨 수사 중이라는 현재 상태로 회수한다.",
+                "payoff": "전남 나주경찰서는 27일 이 고소장을 접수해 수사 중이라고 밝혔고, 고소 내용을 토대로 정확한 경위를 조사할 방침입니다.",
+                "payoffClaimRefs": [
+                  "claim-a19effa90870",
+                  "claim-2590bdc45921"
+                ]
+              },
+              "sceneCraft": {
+                "approach": "물리적 감각을 꾸며내지 않고 할인 행사에서 선결제, 폐업·잠적 주장, 고소장 제출과 경찰 수사로 이동하는 검증된 행동의 연쇄를 따라간다.",
+                "continuityRationale": "회원들의 선결제에서 헬스장 폐업 주장으로 상황이 바뀌고, 여러 회원의 결제가 고소장에 모여 경찰 수사로 넘어가는 순서를 유지해 화면 없이도 사건의 변화를 추적할 수 있게 했다.",
+                "sceneSpans": [
+                  {
+                    "text": "헬스장을 이용하려고 할인된 이용료를 먼저 낸 회원들 앞에서, 헬스장이 폐업하고 대표가 잠적했다는 주장이 고소장에 담겼습니다.",
+                    "claimRefs": [
+                      "claim-50dbe00571ea"
+                    ],
+                    "continuityRole": "선결제라는 첫 행동과 폐업·잠적이라는 뒤이은 변화를 하나의 연속 안에 놓는 오프닝 장면이다."
+                  },
+                  {
+                    "text": "고소장 내용대로라면 업체 대표 A씨는 할인을 내세워 회원들의 선결제를 유도했고, 그 뒤 헬스장은 폐업했으며 A씨는 잠적했습니다.",
+                    "claimRefs": [
+                      "claim-50dbe00571ea"
+                    ],
+                    "continuityRole": "할인 제시에서 선결제 유도, 이후 폐업과 잠적 주장까지의 시간적 순서를 명시한다."
+                  },
+                  {
+                    "text": "회원들은 A씨를 사기 혐의로 처벌해 달라는 고소장을 냈습니다. 전남 나주경찰서는 27일 이 고소장을 접수해 수사 중이라고 밝혔고, 고소 내용을 토대로 정확한 경위를 조사할 방침입니다.",
+                    "claimRefs": [
+                      "claim-a19effa90870",
+                      "claim-2590bdc45921"
+                    ],
+                    "continuityRole": "헬스장 내부의 거래 문제가 회원들의 고소를 거쳐 경찰 수사 절차로 이동했음을 행동 주체별로 잇는다."
+                  }
+                ],
+                "attributionStrategy": "폐업·잠적과 피해 규모는 회원 및 고소장의 주장으로 한정하고, 현재 절차는 전남 나주경찰서를 책임 주체로 밝혀 단일 출처·수사 단계의 불확실성을 장면 흐름 안에서 유지했다.",
+                "attributions": [
+                  {
+                    "text": "헬스장이 폐업하고 대표가 잠적했다는 주장이 고소장에 담겼습니다.",
+                    "claimRefs": [
+                      "claim-50dbe00571ea"
+                    ],
+                    "necessity": "폐업 뒤 잠적했다는 내용은 확정된 법원 판단이 아니라 고소장에 담긴 주장이므로 기록 주체를 밝혀야 한다."
+                  },
+                  {
+                    "text": "회원들이 주장한 피해는 56명, 모두 5천600만원입니다.",
+                    "claimRefs": [
+                      "claim-283d3de96c6a"
+                    ],
+                    "necessity": "피해 인원과 금액을 회원들의 주장 범위로 한정해 수사 초기 사건의 수치를 확정 피해로 오인하지 않게 한다."
+                  },
+                  {
+                    "text": "고소장 내용대로라면 업체 대표 A씨는 할인을 내세워 회원들의 선결제를 유도했고, 그 뒤 헬스장은 폐업했으며 A씨는 잠적했습니다.",
+                    "claimRefs": [
+                      "claim-50dbe00571ea"
+                    ],
+                    "necessity": "대표의 행동과 잠적 여부가 고소 내용에 근거한 주장임을 문장 첫머리에서 명확히 제한한다."
+                  },
+                  {
+                    "text": "전남 나주경찰서는 27일 이 고소장을 접수해 수사 중이라고 밝혔고, 고소 내용을 토대로 정확한 경위를 조사할 방침입니다.",
+                    "claimRefs": [
+                      "claim-a19effa90870",
+                      "claim-2590bdc45921"
+                    ],
+                    "necessity": "고소장 접수와 수사 상태, 조사 계획의 책임 주체를 경찰로 특정한다."
+                  }
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "미리 산 운동 시간이 피해 주장으로 바뀌며 생기는 구체적인 막막함",
+                "codaRationale": "헬스장 선결제와 5천600만원의 피해 주장이라는 사건 고유 요소를 한 문장에 결합했다. 피해자의 실제 내면을 단정하지 않으면서 청자가 먼저 낸 돈과 제공되지 않았다고 주장되는 이용 사이의 간극을 자신의 감정으로 가늠하게 한다.",
+                "closingText": "운동할 시간을 먼저 사 둔 5천600만원이 고소장 속 피해 주장으로 바뀐 간극 앞에서는, 누구라도 먼저 건넨 돈과 약속된 이용 사이의 막막함을 떠올리게 됩니다.",
+                "claimRefs": [
+                  "claim-50dbe00571ea",
+                  "claim-283d3de96c6a"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "fce89ebacc5c4fd3ddc923a1f24821043b8ca78e9a8bd1b2e12d5207e94cec94",
+              "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+              "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+              "usedClaimRefs": [
+                "claim-50dbe00571ea",
+                "claim-283d3de96c6a",
+                "claim-a19effa90870",
+                "claim-2590bdc45921"
+              ]
+            }
+          },
+          "editorialDirection": "화면 없이도 나주 헬스장의 할인 행사와 선결제, 회원들이 다시 이용하려 한 시점, 폐업·잠적을 주장하는 고소와 경찰 수사라는 사건 처리 흐름을 따라갈 수 있게 한다. 56명이 총 5,600만 원의 피해를 주장했다는 수치와 대표가 선결제를 유도한 뒤 폐업하고 잠적했다는 내용은 고소장·보도에 담긴 주장으로 구분한다. 이것이 실제 사기였다고 확정하거나 사업의 폐업·재산·환불 시도·피해자 수와 총액을 보도 밖에서 보완하지 않는다. 미리 결제한 서비스에 대한 신뢰가 끊기고 개인들의 결제가 수사 대상이 되는 간극은 central axis 후보지만, 훅·정보 공개 순서·문장 리듬·beat 수는 모델이 자율적으로 정한다. 전남 나주경찰서가 회원들의 사기 혐의 고소장을 접수해 정확한 경위를 조사 중이라는 현재 법적 상태를 보도 시점에 맞춰 명시한다. 조건부 단일 출처 사건이므로 ‘고소장에는’, ‘회원들은’, ‘경찰은 수사 중이라고 밝혔다’처럼 귀속을 유지하고 대표의 유죄·고의·잠적 사실을 단정하지 않는다. 확인된 법적 결과가 있다면 감정 coda보다 먼저 두되, 수사 중인 상태를 판결처럼 표현하지 않는다. final movement에는 선결제라는 일상적 약속과 확인되지 않은 책임 판단 사이의 불확실성에서 모델이 선택한 affective resonance와 listener self-projection을 둔다. 피해 회원의 내면·손실 후유증을 창작하지 않고, 구체적 환불 요구·행동·바람·질문·훈계·상투어를 고정하지 않는다. 반전과 coda는 전체 narration을 재편집해 통합한다. 기사와 조사에 확인된 절대 날짜만 사용하고 상대 날짜는 피하며 70~80초는 owner narration locked timing에서 판정한다.",
+          "policyBinding": {
+            "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+            "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+            "packageSha256": "fce89ebacc5c4fd3ddc923a1f24821043b8ca78e9a8bd1b2e12d5207e94cec94"
+          }
+        },
+        "draftSnapshotSha256": "c48e7012cb8ddb5091317359727e780241f9b08ce585a7bd77ef2d852139c3ec"
+      }
+    ]
+  },
+  "draftRejectionHistory": [
+    {
+      "schema": "newsroom-script-rejection-audit-v1",
+      "decision": "reject",
+      "reasons": [
+        {
+          "code": "duration-below-minimum",
+          "detail": "근거 안에서 중복을 걷어낸 최종 시도도 70초 최소 길이에 미치지 못합니다."
+        },
+        {
+          "code": "insufficient-narrative-material",
+          "detail": "확인된 재료가 피해 인원·총액, 고소 내용, 수사 착수와 조사 방침에 한정돼 있어 70~80초를 새로운 정보로 채울 수 없습니다."
+        }
+      ],
+      "generation": {
+        "schemaVersion": 17,
+        "provider": "codex-cli",
+        "model": "gpt-5.6-sol",
+        "reasoning": "medium",
+        "promptContractVersion": "newsroom-autonomous-narration-prompt-v14",
+        "criticPromptContractVersion": "newsroom-independent-narration-critic-prompt-v4",
+        "generatorPromptSha256": "5383a85a346a99fac151a6b387a41077437e18bdb9c6c51c8066a7a23c5a5ba1",
+        "criticPromptSha256": "4737e95ee5b50610e08ad452a798f93a176a59be12d3f1a539008a06e29847b6",
+        "packageSha256": "4bdda8344397761629b2959547788fcf696bb851da961e856f3dd987eed8b160",
+        "initialOutputSha256": "1a15464501fcd06649362bc88af454ff98a8d067bd3da726ed7daf2c3b7bd8f8",
+        "critiqueOutputSha256": "ee77ef685dfbe1fcdcf6011c9289b3f0c69ec7e7e18337593c6b01228e3104d0",
+        "outputSha256": "556014c522114fc4b3dd24d84e1fd310a777122ac477147b026a156a5de16537",
+        "cliVersion": "codex-cli 0.146.0",
+        "callCount": 2,
+        "generatorAttemptCount": 1,
+        "criticAttemptCount": 1,
+        "retryCount": 0,
+        "decision": "reject",
+        "revisionApplied": true,
+        "timing": {
+          "initial": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 318,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 46.288,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          },
+          "final": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 221,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 32.169,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          }
+        },
+        "generatedAt": "2026-09-04T20:00:36.649Z"
+      },
+      "critique": {
+        "schema": "newsroom-independent-narration-critique-v3",
+        "decision": "reject",
+        "rejectionReasons": [
+          {
+            "code": "duration-below-minimum",
+            "detail": "근거 안에서 중복을 걷어낸 최종 시도도 70초 최소 길이에 미치지 못합니다."
+          },
+          {
+            "code": "insufficient-narrative-material",
+            "detail": "확인된 재료가 피해 인원·총액, 고소 내용, 수사 착수와 조사 방침에 한정돼 있어 70~80초를 새로운 정보로 채울 수 없습니다."
+          }
+        ],
+        "initialVerdict": "revise",
+        "findings": [
+          {
+            "category": "factual-grounding",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "global",
+            "detail": "초안과 최종본의 수치, 고소 내용, 수사 단계는 지정된 claim으로 뒷받침됩니다. 1인당 100만 원은 5,600만 원을 56명으로 단순 계산한 값임을 명시해 개인별 피해액으로 단정하지 않았습니다.",
+            "exactQuote": ""
+          },
+          {
+            "category": "legal-qualification",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "final",
+            "detail": "피해액과 폐업·잠적은 회원들의 주장 또는 고소 내용으로 한정했고, 사기는 혐의 및 수사 대상으로 표현했습니다.",
+            "exactQuote": "회원들의 고소장에는"
+          },
+          {
+            "category": "observer-summary",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "global",
+            "detail": "두 대본 모두 출처나 취재 과정을 설명하는 문장 대신 구체적인 피해 주장 수치로 바로 시작합니다.",
+            "exactQuote": ""
+          },
+          {
+            "category": "repetition",
+            "initialStatus": "revise",
+            "finalStatus": "pass",
+            "targetAuthority": "initial",
+            "detail": "초안의 마지막 문장이 앞서 제시한 5,600만 원과 수사 상태를 다시 요약합니다. 최종본에서는 이 반복 결말을 제거했습니다.",
+            "exactQuote": "5,600만 원의 결제는 피해 주장으로 집계됐지만"
+          },
+          {
+            "category": "progression",
+            "initialStatus": "revise",
+            "finalStatus": "pass",
+            "targetAuthority": "initial",
+            "detail": "초안은 마지막에 이미 나온 수치와 수사 상태로 되돌아갑니다. 최종본은 규모, 산술적 의미, 고소 내용, 처벌 요구, 수사 착수, 조사 방침 순으로 새 정보를 더합니다.",
+            "exactQuote": "책임 판단은 아직 경찰 수사에 남아 있습니다"
+          },
+          {
+            "category": "interest",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "final",
+            "detail": "56명과 5,600만 원이라는 구체적 위험을 즉시 제시하고, 평균값의 한계에서 선결제 유도 주장과 경찰 수사로 전개합니다.",
+            "exactQuote": "회원 56명이 주장한 피해액은 모두 5,600만 원입니다."
+          },
+          {
+            "category": "modality-fit",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "final",
+            "detail": "number-explanation 형식에 맞게 물리적 장면을 꾸미지 않고 인원·총액·산술적 평균의 의미와 수사 단계 변화를 중심에 뒀습니다.",
+            "exactQuote": "한 명당 100만 원꼴입니다"
+          },
+          {
+            "category": "coda",
+            "initialStatus": "revise",
+            "finalStatus": "pass",
+            "targetAuthority": "initial",
+            "detail": "초안 결말은 사건 고유의 새 결과 없이 앞선 수치와 법적 상태를 재진술합니다. 최종본은 경찰의 정확한 경위 조사 방침에서 직접 닫습니다.",
+            "exactQuote": "5,600만 원의 결제는 피해 주장으로 집계됐지만"
+          },
+          {
+            "category": "advisory-duration",
+            "initialStatus": "revise",
+            "finalStatus": "reject",
+            "targetAuthority": "global",
+            "detail": "초안 예상 시간은 46.288초로 기준 밖입니다. 중복을 제거한 최종본도 70초에 못 미치며, 확인된 사실만으로 70~80초를 채우려면 반복이나 취재 메타가 필요합니다.",
+            "exactQuote": ""
+          }
+        ],
+        "revisionApplied": true,
+        "revisionSummary": "중복되는 결말을 삭제하고 숫자의 의미, 고소 내용, 처벌 요구, 수사 절차가 한 번씩만 전진하도록 재구성했습니다. 다만 근거가 부족해 목표 길이는 충족하지 못했습니다.",
+        "initialAuthoritySha256": "1a15464501fcd06649362bc88af454ff98a8d067bd3da726ed7daf2c3b7bd8f8",
+        "finalAuthoritySha256": "556014c522114fc4b3dd24d84e1fd310a777122ac477147b026a156a5de16537",
+        "timing": {
+          "initial": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 318,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 46.288,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          },
+          "final": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 221,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 32.169,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          }
+        }
+      },
+      "policyBinding": {
+        "eventDossierSha256": "3d6c0d111d7f421fd982d85bad3c818ea5be356d0b576f001b428ac3308d9d40",
+        "legalReportSha256": "dd47af57f4bce8c130704e95d68c574807884dc16fcc07473f2c6d6bc9121a43",
+        "packageSha256": "4bdda8344397761629b2959547788fcf696bb851da961e856f3dd987eed8b160"
+      },
+      "editorialDirection": "화면 없이도 나주 헬스장의 할인 행사와 선결제, 회원들이 다시 이용하려 한 시점, 폐업·잠적을 주장하는 고소와 경찰 수사라는 사건 처리 흐름을 따라갈 수 있게 한다. 56명이 총 5,600만 원의 피해를 주장했다는 수치와 대표가 선결제를 유도한 뒤 폐업하고 잠적했다는 내용은 고소장·보도에 담긴 주장으로 구분한다. 이것이 실제 사기였다고 확정하거나 사업의 폐업·재산·환불 시도·피해자 수와 총액을 보도 밖에서 보완하지 않는다. 미리 결제한 서비스에 대한 신뢰가 끊기고 개인들의 결제가 수사 대상이 되는 간극은 central axis 후보지만, 훅·정보 공개 순서·문장 리듬·beat 수는 모델이 자율적으로 정한다. 전남 나주경찰서가 회원들의 사기 혐의 고소장을 접수해 정확한 경위를 조사 중이라는 현재 법적 상태를 보도 시점에 맞춰 명시한다. 조건부 단일 출처 사건이므로 ‘고소장에는’, ‘회원들은’, ‘경찰은 수사 중이라고 밝혔다’처럼 귀속을 유지하고 대표의 유죄·고의·잠적 사실을 단정하지 않는다. 확인된 법적 결과가 있다면 감정 coda보다 먼저 두되, 수사 중인 상태를 판결처럼 표현하지 않는다. final movement에는 선결제라는 일상적 약속과 확인되지 않은 책임 판단 사이의 불확실성에서 모델이 선택한 affective resonance와 listener self-projection을 둔다. 피해 회원의 내면·손실 후유증을 창작하지 않고, 구체적 환불 요구·행동·바람·질문·훈계·상투어를 고정하지 않는다. 반전과 coda는 전체 narration을 재편집해 통합한다. 기사와 조사에 확인된 절대 날짜만 사용하고 상대 날짜는 피하며 70~80초는 owner narration locked timing에서 판정한다.",
+      "recordedAt": "2026-09-04T20:00:36.792Z",
+      "previousEntrySha256": "",
+      "entrySha256": "3d325f9e029e719eb94de12d5d010c622293c0d1ced99b868d34ea0e784ccd76"
+    }
+  ]
+}

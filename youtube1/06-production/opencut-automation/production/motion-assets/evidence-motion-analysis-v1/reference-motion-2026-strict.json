@@ -1,0 +1,133 @@
+{
+  "schema_id": "reference-motion-2026-strict-v1",
+  "retrieved_at": "2026-08-12T00:00:00+09:00",
+  "scope": {
+    "upload_year": 2026,
+    "official_youtube_channels_only": true,
+    "view_counts_are_snapshots": true,
+    "purpose": "Private study of contemporary motion-graphics mechanics; never factual evidence or style-copy authority."
+  },
+  "definition": {
+    "motion_graphics": "Designed graphical elements such as text, shapes, icons, diagrams, document annotations, or interface objects whose visual properties change over time.",
+    "important_distinction": "A video may mix motion graphics with footage, photographs, maps, interviews, or reenactments. Only the animated designed layer is classified as motion graphics.",
+    "not_motion_graphics_by_itself": ["footage", "photo pan or zoom", "hard cut", "static overlay", "static document", "3D reenactment"]
+  },
+  "primary_references": [
+    {
+      "reference_id": "fern-bank-heist-relationship-tree",
+      "video_id": "PSHQ_MuxxNw",
+      "channel": "fern",
+      "title": "The Bank Heist of the Century",
+      "upload_date": "2026-03-22",
+      "view_count_snapshot": 4590913,
+      "interval_seconds": [924.75, 939.25],
+      "timestamp_url": "https://www.youtube.com/watch?v=PSHQ_MuxxNw&t=925s",
+      "motion_type": "relationship_network_build",
+      "animated_designed_layers": ["person nodes", "role icons", "connector branches", "terminal node"],
+      "observed_changes": ["nodes appear", "connectors extend", "branches multiply", "terminal node settles"],
+      "case_fit": ["police-phone responsibility chain", "nurse-assistant institutional chain", "Jeju investigation actors"],
+      "exclude_when_copying": ["portraits", "names", "branding", "adjacent footage"],
+      "confidence": "high"
+    },
+    {
+      "reference_id": "fern-hansa-institution-state-graph",
+      "video_id": "V6d8Yy7Ji68",
+      "channel": "fern",
+      "title": "Hansa: The Infiltration of the Dark Web",
+      "upload_date": "2026-07-29",
+      "view_count_snapshot": 3189420,
+      "interval_seconds": [200, 218],
+      "timestamp_url": "https://www.youtube.com/watch?v=V6d8Yy7Ji68&t=200s",
+      "motion_type": "time_bound_institution_graph",
+      "animated_designed_layers": ["year labels", "person icons", "institution icons", "branch connectors", "state colors"],
+      "observed_changes": ["labels enter", "icons change state", "connectors extend", "branch colors change"],
+      "case_fit": ["phone evidence movement from incident to audit and prosecution", "hospital-to-prosecution-to-court progression"],
+      "exclude_when_copying": ["cyber aesthetic", "original icons", "brand styling", "adjacent footage"],
+      "confidence": "high"
+    },
+    {
+      "reference_id": "fern-hansa-document-highlight",
+      "video_id": "V6d8Yy7Ji68",
+      "channel": "fern",
+      "title": "Hansa: The Infiltration of the Dark Web",
+      "upload_date": "2026-07-29",
+      "view_count_snapshot": 3189420,
+      "interval_seconds": [500, 506],
+      "timestamp_url": "https://www.youtube.com/watch?v=V6d8Yy7Ji68&t=500s",
+      "motion_type": "document_forensic_highlight",
+      "animated_designed_layers": ["highlight mask", "text emphasis"],
+      "observed_changes": ["highlight sweeps across the line", "emphasis settles on the selected text"],
+      "case_fit": ["police internal-post wording", "Jeju warrant and charge wording", "nurse-assistant judgment comparison"],
+      "exclude_when_copying": ["original document", "original text", "adjacent footage"],
+      "confidence": "medium-high"
+    },
+    {
+      "reference_id": "fern-kid-hacker-terminal-build",
+      "video_id": "dNGUiWKn6Qs",
+      "channel": "fern",
+      "title": "The Kid Who Hacked America",
+      "upload_date": "2026-06-30",
+      "view_count_snapshot": 3058730,
+      "interval_seconds": [308, 319],
+      "timestamp_url": "https://www.youtube.com/watch?v=dNGUiWKn6Qs&t=308s",
+      "motion_type": "digital_record_text_build",
+      "animated_designed_layers": ["terminal lines", "cursor", "resolved result label"],
+      "observed_changes": ["characters type in", "cursor advances", "result label resolves"],
+      "case_fit": ["phone evidence-state ledger", "audit search progression"],
+      "exclude_when_copying": ["fake hacking claims", "original English text", "hacker branding", "adjacent reenactment"],
+      "confidence": "high"
+    },
+    {
+      "reference_id": "fern-pharma-node-population",
+      "video_id": "Eo0JQLIG6hA",
+      "channel": "fern",
+      "title": "Exposing a $1,900,000,000 Pharma Company",
+      "upload_date": "2026-08-05",
+      "view_count_snapshot": 1658068,
+      "interval_seconds": [89.75, 92.75],
+      "timestamp_url": "https://www.youtube.com/watch?v=Eo0JQLIG6hA&t=90s",
+      "motion_type": "rapid_node_population",
+      "animated_designed_layers": ["person nodes", "company nodes", "connector marks"],
+      "observed_changes": ["nodes populate", "node opacity changes", "network density increases"],
+      "case_fit": ["short responsibility-network insert"],
+      "exclude_when_copying": ["map background", "geographic inference", "labels", "adjacent footage"],
+      "confidence": "high"
+    }
+  ],
+  "valid_motion_graphics_but_low_case_fit": [
+    {
+      "video_id": "nAFw5i39m9I",
+      "channel": "Johnny Harris",
+      "title": "China’s Dirty Money Problem, Explained",
+      "upload_date": "2026-04-16",
+      "view_count_snapshot": 4135695,
+      "interval_seconds": [615, 627],
+      "timestamp_url": "https://www.youtube.com/watch?v=nAFw5i39m9I&t=615s",
+      "classification": "motion_graphics",
+      "reason_not_primary": "The animated relationship mechanics are valid, but geography is central and the current stories rarely need a map."
+    },
+    {
+      "video_id": "PN5JtcyqxKI",
+      "channel": "Search Party",
+      "title": "The shady ships getting through the Strait",
+      "upload_date": "2026-04-21",
+      "view_count_snapshot": 518981,
+      "interval_seconds": [188, 199],
+      "timestamp_url": "https://www.youtube.com/watch?v=PN5JtcyqxKI&t=188s",
+      "classification": "motion_graphics",
+      "reason_not_primary": "The animated map markers and routes are valid, but geographic explanation is not a recurring need in the current cases."
+    },
+    {
+      "video_id": "W4k_34hIdnQ",
+      "channel": "Vox",
+      "title": "How a Super El Niño affects the global climate",
+      "upload_date": "2026-07-29",
+      "view_count_snapshot": 764034,
+      "interval_seconds": [187, 198],
+      "timestamp_url": "https://www.youtube.com/watch?v=W4k_34hIdnQ&t=187s",
+      "classification": "motion_graphics",
+      "reason_not_primary": "The animated climate visualization is valid, but it is unrelated to the three current stories."
+    }
+  ],
+  "individually_retracted_claims_file": "reference-motion-2026-retraction.json"
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "reference-reverse-v2-motion-parameters-v1",
+  "reference": {
+    "pathsRelativeTo": "reconstruction",
+    "videoId": "VQazcEuV9Xw",
+    "source": "../../reference-reverse-v1/source/VQazcEuV9Xw.mp4",
+    "sha256": "595b1403ba99c1f8899c761b21564cbb15da7b8d4ee55ed929df8364fdcbcdc4",
+    "durationSeconds": 48.854,
+    "width": 360,
+    "height": 640,
+    "frameRate": "30000/1001",
+    "analysisOnly": true,
+    "measurementEvidence": [
+      "../measurements/drone-farmer-motion.json",
+      "../measurements/pose-transition-candidates.json"
+    ],
+    "measurementMethod": "fallback-patch-block-matching; cv2/LK/RANSAC unavailable; values are bounded candidates, not original curves"
+  },
+  "render": {
+    "fps": 29.97002997002997,
+    "width": 540,
+    "height": 960,
+    "segmentGapFrames": 0,
+    "label": "OWN SVG · 자체 SVG",
+    "sceneViewport": {"x": 0, "y": 246, "width": 540, "height": 507},
+    "localScene": {"width": 360, "height": 338, "scale": 1.5},
+    "parametersConsumedBy": "src/scene.jsx"
+  },
+  "segments": [
+    {
+      "id": "drone-farmer-rise",
+      "referenceIn": 19.185833,
+      "referenceOut": 22.6226,
+      "sourceFrameRange": [575, 678],
+      "durationSeconds": 3.436767,
+      "motion": "one-parent-group-rise-with-hand-anchors",
+      "anchors": {
+        "leftHand": [127, 99],
+        "rightHand": [233, 99],
+        "gripBarY": 99,
+        "groupPivot": [180, 100]
+      },
+      "keyframes": [
+        {"at": 0, "translateY": 250, "rotation": -2.5},
+        {"at": 0.8, "translateY": 165, "rotation": -1.2},
+        {"at": 1.6, "translateY": 75, "rotation": 0.1},
+        {"at": 2.6, "translateY": -25, "rotation": 1.2},
+        {"at": 3.436767, "translateY": -25, "rotation": 1.2}
+      ],
+      "geometryChecks": {
+        "farmerHeadTop": 109,
+        "farmerFeetBottom": 334,
+        "handsShareGripBar": true,
+        "gripBarAboveHead": true,
+        "firstFrameFarmerOutsideViewport": true,
+        "lastFrameFarmerInsideViewport": true,
+        "lastFrameDroneTopPartiallyCropped": true
+      },
+      "note": "The source mechanism is unverified; this is a parent-group hypothesis with fixed hand contacts on one lower bar."
+    },
+    {
+      "id": "robot-pose-prop-glitch",
+      "referenceIn": 43.510133,
+      "referenceOut": 48.8488,
+      "sourceFrameRange": [1304, 1464],
+      "durationSeconds": 5.338667,
+      "motion": "hold-pose-swap-blur-finger-pose-metal-ladle-like-prop-glitch",
+      "events": [
+        {"at": 0, "type": "front-robot-hold"},
+        {"at": 0.85, "type": "brief-blur-and-body-bounce", "duration": 0.28},
+        {"at": 1.09, "type": "smile-visible"},
+        {"at": 1.29, "type": "raised-index-finger-pose"},
+        {"at": 4.19, "type": "metal-ladle-like-prop-enters-from-top", "duration": 0.1, "identity": "uncertain"},
+        {"at": 4.29, "type": "glitch-caption"}
+      ],
+      "geometryChecks": {
+        "headBounds": [105, 25, 255, 160],
+        "mouthY": 128,
+        "raisedFingerSide": "viewer-left",
+        "raisedArmConnectedToShoulder": true,
+        "propFinalBowlCenter": [173, 34],
+        "propHandleEntry": "from-viewer-left-outside-frame",
+        "glitchCaptionBounds": [28, 275, 332, 320],
+        "allInsideLocalViewportAtFinal": true
+      },
+      "note": "Pose and prop are original SVG drawings; no source pixels or extracted character asset is reused."
+    }
+  ],
+  "gates": {
+    "sourcePixelReuse": false,
+    "voiceSynthesis": false,
+    "productionEligible": false,
+    "promotionEligible": false,
+    "similarityPassClaim": false
+  }
+}

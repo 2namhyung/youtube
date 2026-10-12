@@ -1,0 +1,33 @@
+{
+  "cacheSchema": 3,
+  "audioPolicy": "leading-trim-100ms-tail-pad-v1",
+  "alignmentPolicy": "word-dp-critical-exact-v2",
+  "synthesisPolicy": "canonical-syllables-punctuation-microsegment-v3",
+  "duration": 2.807074829931973,
+  "wavSha256": "e114fc1d5d3adf08f3ef6e1459f6e7f5eb3393f11a123d867e659a34ad7be092",
+  "acceptance": {
+    "seed": 20275726,
+    "attempt": 1,
+    "leadingTrimSeconds": 0,
+    "validator": "cached-per-microsegment-exact-asr",
+    "microSegments": [
+      {
+        "originalText": "피해자는 늘",
+        "synthesisText": "피해자는 늘",
+        "variant": 1,
+        "seed": 20275726,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-small"
+      },
+      {
+        "originalText": "공포에 시달리며",
+        "synthesisText": "공포에 시달리며",
+        "variant": 1,
+        "seed": 20275743,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-small"
+      }
+    ],
+    "microSegmentPauseSeconds": 0.16
+  }
+}

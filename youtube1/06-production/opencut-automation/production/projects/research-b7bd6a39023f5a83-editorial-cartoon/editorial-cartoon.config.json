@@ -1,0 +1,29 @@
+{
+  "projectId": "research-b7bd6a39023f5a83-editorial-cartoon",
+  "title": { "line1": "빵집 앞 흡연 제지", "line2": "'어깨빵' 난동, 황당 해명" },
+  "scriptSource": "script.final.json",
+  "assetsRoot": "assets",
+  "scenes": [
+    { "label": "AI 재연·편집", "captionAnchor": "빵집 앞 흡연을" },
+    { "label": "AI 재연·편집", "captionAnchor": "폭언과 물리적 위협" },
+    { "label": "AI 재연·편집", "captionAnchor": "모든 재연 화면" }
+  ],
+  "sceneAssets": ["assets/scene-01-bakery-placeholder.png", "assets/scene-02-entrance-placeholder.png", "assets/scene-03-evidence-placeholder.png"],
+  "imageGenPrompts": [
+    "Editorial 2D cartoon, anonymous bakery entrance in an ordinary neighborhood, a small no-smoking request sign without readable text, no identifiable people, no logos, restrained factual palette, vertical 9:16.",
+    "Editorial 2D cartoon, anonymous shop owner silhouette keeping distance from an approaching shoulder, static non-graphic reenactment, no faces, no contact detail, no readable text, vertical 9:16.",
+    "Editorial 2D cartoon, quiet bakery doorway and closed notebook labeled as a fact-check desk, no people, no logos, clear AI reenactment disclosure area, vertical 9:16."
+  ],
+  "evidenceBasis": [
+    "workflow draft.hook and legal report claim-badfb48a4406: bakery-front smoking dispute reported",
+    "workflow draft.incident and legal report claim-badfb48a4406: reported verbal and physical threat; do not depict contact graphically",
+    "workflow draft.confirmation and restrictedMaterials: original article/broadcast footage prohibited; use labeled reenactment"
+  ],
+  "aiDisclosureLabel": "AI 재연·편집",
+  "narration": { "mode": "edge-tts", "voice": "ko-KR-SunHiNeural", "rate": "+0%", "pitch": "+0Hz" },
+  "bgm": { "provider": "stable-audio-3", "prompt": "restrained factual newsroom underscore, no suspense swell", "seed": 731, "provenance": "script.final.json", "duckUnderNarration": true, "required": false },
+  "captionPreset": { "id": "information-delta-v14-white-on-black-2line", "fontFamily": "Noto Sans KR", "fontWeight": 800, "fontSize": 88, "scaleX": 94, "safeWidth": 920, "maxLines": 2, "lineHeight": 1.08, "x": 540, "y": 1400, "color": "#FFFFFF", "outlineColor": "#000000", "outlineWidth": 5, "background": "black" },
+  "releaseGate": { "publishable": false, "releaseStatus": "preview", "uploadBlocked": true, "blockers": [{ "id": "stage07-review-required", "stage": "07-quality-assurance", "severity": "block", "claim": "Editorial-cartoon preview", "reason": "Render, exact artifact hashing, and Stage 07 approval are pending.", "authority": { "case": "local-release-policy", "url": "https://example.invalid/local-release-policy" } }] },
+  "output": { "frames": 360, "durationSeconds": 12, "width": 1080, "height": 1920, "fps": 30 },
+  "wanMotionScenes": []
+}

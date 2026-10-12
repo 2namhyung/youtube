@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 3,
+  "generatedAt": "2026-08-07T10:08:43.483Z",
+  "renderRegistryPath": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\out\\registry\\versions\\msis571v-7580-4c38l6.json",
+  "projectSlug": "research-657380fce7eaccc9",
+  "versionId": "msis571v-7580-4c38l6",
+  "renderRegistrySha256": "e858bb3d251b1314f7478f96974d92b72b56aafac22386627c39b337705d0132",
+  "renderSha256": "6eb6a93946d9f2cca892d7991073338b9e86cca7cc4697870f32d2c9bd46f00e",
+  "thumbnailSha256": "a4e0fef092e536da20d74623ca278b59a9ffc067c6df976a3bc48949a1779f02",
+  "handoffSha256": "6e019eb4e8f775a24c70d2933d194d4a8fbfa026e8de3429b8dda483d4423b57",
+  "projectSha256": "e0945b7b471b30d732ede2d4c7ac69f97fe5ac17d23a6989397017d73e095da8",
+  "contractSha256": "2b3f49e0b26f79ba27f6a759c4829896760d8b2ff346c7f2091e462b098d2002",
+  "scriptSha256": "4514534a4d88e8402dfde82d7411bda77bd39d5779af1bdaf805b4126f33bce2",
+  "status": "blocked",
+  "publishable": false,
+  "uploadBlocked": true,
+  "checks": [
+    {
+      "id": "render-handoff-contract",
+      "category": "technical",
+      "label": "Reusable editorial-cartoon and exact handoff contract",
+      "blocking": true,
+      "status": "passed",
+      "evidence": "3e21871a04101db04117b945379f854f7387ec7db229162dc3225029d5a4e67a"
+    },
+    {
+      "id": "release-gate",
+      "category": "release",
+      "label": "Release gate is approved or covered by an exact signed legal decision",
+      "blocking": true,
+      "status": "failed",
+      "evidence": {
+        "publishable": false,
+        "releaseStatus": "preview",
+        "uploadBlocked": true,
+        "blockers": [
+          {
+            "id": "human-playback-review-required",
+            "stage": "07-quality-assurance",
+            "severity": "block",
+            "claim": "커피 살충제 사건 비공개 완성본",
+            "reason": "정확한 렌더 파일에 대한 사람의 전체 재생 검토와 최종 승인이 필요합니다.",
+            "authority": {
+              "case": "local-editorial-approval",
+              "url": "https://example.invalid/local-editorial-approval"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-integrity",
+      "category": "source",
+      "label": "Final script, project and contract hashes are locked",
+      "blocking": true,
+      "status": "passed",
+      "evidence": "4514534a4d88e8402dfde82d7411bda77bd39d5779af1bdaf805b4126f33bce2"
+    },
+    {
+      "id": "narration-acceptance",
+      "category": "audio",
+      "label": "Approved narration and strict ASR checks",
+      "blocking": true,
+      "status": "passed",
+      "evidence": [
+        {
+          "model": "small",
+          "text": "방금까지는 평범한 커피였습니다. 잠깐 자리를 비운 사이 누군가 살충제를 넣기 전까지는 말입니다. 경기도 구리시 한 병원 간호조무사 A 씨는 업무로 핀잔을 주던 b 씨에게 불만이 있었습니다. 다톤 다음날 b 씨가 자리를 뜨자 커피에 살충제를 넣었습니다. b 씨는 한 모금 뒤 이상한 맛에 멈췄지만 위장장애와 불안장애를 겪었습니다. 사람이 먹으면 안 되는 살충제 잖아요. 검찰은 살해 시도라 주장했지만 법원이 인정한 건 특수상의 였습니다. 있습니다. 1심 징역 2년 항소심 에선 징역 1년 6개월의 집행위에 3년 으로 감영됐습니다. 형량은 줄었습니다. 피해자의 커피잔에 남은 공포도 줄었 을까요 형은 언젠가 끝납니다. 피해자는 어떻게 살아갈까요 열린 컵 건네 받은 음료 잠깐 비운 자리까지 의심하게 될지도 모릅니다. 안심하고 일할 수 없다면 이 사건은 판결만으로 끝난 게 아닙니다. 직장 책상에 두고 온 커피 여러분은 아무렇지 않게 다시 마실 수 있나요",
+          "cer": 0.029585798816568046,
+          "missingCriticalPhrases": [
+            "특수상해",
+            "집행유예 3년"
+          ]
+        },
+        {
+          "model": "medium",
+          "text": "방금까지는 평범한 커피였습니다. 잠깐 자리를 비운 사이 누군가 살충제 를 넣기 전까지는 말입니다. 경기도 구리시 한 병원. 간호조무사 a씨는 업무로 핀잔을 주던 b씨에게 불만이 있었습니다. 다툰 다음날 b씨가 자리를 뜨자 커피에 살충제를 넣었습니다. b씨는 한 모금 뒤 이상한 맛에 멈췄지만 위장장애와 불안장애를 겪었습니다. 사람이 먹으면 안 되는 살충제 잖아요. 검찰은 살해 시도라 주장했지만 법원이 인정한 건 특수상해였습니다. 1심 징역 2년 항소심에선 징역 1년 6개월의 집행유예 3년으로 감형됐습니다 형량은 줄었습니다 피해자의 커피잔에 남은 공포도 줄었을까요? 형은 언젠가 끝납니다 피해자는 어떻게 살아갈까요? 열린 컵, 건네받은 음료 잠깐 비운 자리까지 의심하게 될지도 모릅니다 안심하고 일할 수 없다면 이 사건은 판결만으로 끝난 게 아닙니다 직장 책상에 두고 온 커피 여러분은 아무렇지 않게 다시 마실 수 있나요?",
+          "cer": 0.0029585798816568047,
+          "missingCriticalPhrases": []
+        }
+      ]
+    },
+    {
+      "id": "caption-contract",
+      "category": "captions",
+      "label": "Caption text, timing and Korean semantic split contract",
+      "blocking": true,
+      "status": "passed",
+      "evidence": "18 source cues"
+    },
+    {
+      "id": "render-contract",
+      "category": "video",
+      "label": "1080x1920 H.264 render and frame contract",
+      "blocking": true,
+      "status": "passed",
+      "evidence": "1843 frames"
+    },
+    {
+      "id": "bgm-contract",
+      "category": "audio",
+      "label": "BGM provenance, level and narration ducking",
+      "blocking": true,
+      "status": "passed",
+      "evidence": "-20 dB"
+    },
+    {
+      "id": "thumbnail-contract",
+      "category": "visual",
+      "label": "Approved caption-free thumbnail hash",
+      "blocking": true,
+      "status": "passed",
+      "evidence": "a4e0fef092e536da20d74623ca278b59a9ffc067c6df976a3bc48949a1779f02"
+    },
+    {
+      "id": "legal-rights-review",
+      "category": "legal",
+      "label": "Tiered factual, legal and media-rights review",
+      "blocking": true,
+      "status": "blocked",
+      "evidence": [
+        "human-playback-review-required"
+      ]
+    },
+    {
+      "id": "human-playback-approval",
+      "category": "human",
+      "label": "A reviewer watched the exact final file and approved release",
+      "blocking": true,
+      "status": "pending",
+      "evidence": null
+    }
+  ],
+  "blockers": [
+    {
+      "id": "human-playback-review-required",
+      "stage": "07-quality-assurance",
+      "severity": "block",
+      "claim": "커피 살충제 사건 비공개 완성본",
+      "reason": "정확한 렌더 파일에 대한 사람의 전체 재생 검토와 최종 승인이 필요합니다.",
+      "authority": {
+        "case": "local-editorial-approval",
+        "url": "https://example.invalid/local-editorial-approval"
+      }
+    },
+    {
+      "id": "human-playback-approval-required",
+      "stage": "07-quality-assurance",
+      "severity": "block",
+      "reason": "The exact final render has not been signed off by a human reviewer."
+    }
+  ],
+  "warnings": [],
+  "approval": null
+}

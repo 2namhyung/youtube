@@ -1,0 +1,77 @@
+{
+  "baseline": "GPT-SoVITS V2 zero-shot",
+  "candidate": "GPT-SoVITS V2 S1 fine-tuned full-e2 checkpoint",
+  "strict_gate": {
+    "zero_shot": false,
+    "few_shot": false,
+    "improvement_gate_pass": false
+  },
+  "asr": {
+    "primary": {
+      "critical": {
+        "zero_shot_exact_normalized": false,
+        "few_shot_exact_normalized": false,
+        "improved": false,
+        "zero_shot_transcript": "제주에서 제주한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 봐봤습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물 송비의 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+        "few_shot_transcript": "탕전을 받았습니다. 경고선을 봐봤습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물 송대 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다."
+      },
+      "heldout": {
+        "zero_shot_exact_normalized": false,
+        "few_shot_exact_normalized": false,
+        "improved": false,
+        "zero_shot_transcript": "재물손괴 혐의를 따로 검토했고 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?",
+        "few_shot_transcript": "재물송대의 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?"
+      }
+    },
+    "turbo": {
+      "critical": {
+        "zero_shot_exact_normalized": false,
+        "few_shot_exact_normalized": false,
+        "improved": false,
+        "zero_shot_transcript": "제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 받았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물송비의 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.",
+        "few_shot_transcript": "탕전을 받았습니다. 경고선을 받았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물 침입과 재물 손대 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다."
+      },
+      "heldout": {
+        "zero_shot_exact_normalized": false,
+        "few_shot_exact_normalized": false,
+        "improved": false,
+        "zero_shot_transcript": "재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제조 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?",
+        "few_shot_transcript": "재물손괴의 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호장치가 필요할까요?"
+      }
+    }
+  },
+  "campplus": {
+    "critical": {
+      "zero_shot": 0.7633472681045532,
+      "few_shot": 0.8207111358642578,
+      "delta": 0.057363868,
+      "improved": true
+    },
+    "heldout": {
+      "zero_shot": 0.7915037870407104,
+      "few_shot": 0.8133716583251953,
+      "delta": 0.021867871,
+      "improved": true
+    }
+  },
+  "audio_metrics": {
+    "critical": {
+      "zero_shot_duration_seconds": 15.58,
+      "few_shot_duration_seconds": 13.22,
+      "zero_shot_max_silence_seconds": 0.77940625,
+      "few_shot_max_silence_seconds": 0.92971875,
+      "zero_shot_pitch_jump_count_gt_80hz": 129,
+      "few_shot_pitch_jump_count_gt_80hz": 133
+    },
+    "heldout": {
+      "zero_shot_duration_seconds": 14.46,
+      "few_shot_duration_seconds": 13.34,
+      "zero_shot_max_silence_seconds": 0.69421875,
+      "few_shot_max_silence_seconds": 1.06321875,
+      "zero_shot_pitch_jump_count_gt_80hz": 125,
+      "few_shot_pitch_jump_count_gt_80hz": 84
+    }
+  },
+  "decision": "REJECT_FEWSHOT_NO_STRICT_IMPROVEMENT",
+  "production_model_changed": false
+}

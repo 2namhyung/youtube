@@ -1,0 +1,18 @@
+{
+  "status": "ready",
+  "provider": "local-procedural",
+  "model": "local-procedural-investigative-bed",
+  "version": "1.0.0",
+  "seed": 20260727,
+  "prompt": "restrained investigative tension, sparse pulse, uneasy everyday atmosphere, no vocals, no heroic resolution",
+  "instrumental": true,
+  "vocals": false,
+  "durationSeconds": 65.0,
+  "sampleRate": 44100,
+  "channels": 2,
+  "license": "project-original-no-third-party-samples",
+  "thirdPartySamples": false,
+  "sha256": "5598dd85fe41f062103aa0effca059c6b85a549030edce635fd9fbc6e5864fdb",
+  "generatedAt": "2026-07-27T11:33:36.420266+00:00",
+  "output": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\production\\projects\\school-case-production\\assets\\audio\\generated-bgm.wav"
+}

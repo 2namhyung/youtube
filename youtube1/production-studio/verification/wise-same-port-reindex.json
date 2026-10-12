@@ -1,0 +1,24 @@
+{
+  "fixture_only": true,
+  "check": "same-port-reindex-replaces-two-source-index-with-one-source-index",
+  "port": 9670,
+  "status": "available",
+  "results": [
+    {
+      "source_id": "source_9ea86762369fec09d34e",
+      "sha256": "ac953de3600e83a92fdc41ca7f8674b4974898c45cf377d44611d9b750ea304f",
+      "start": 0.0,
+      "end": 0.0,
+      "score": -3.315,
+      "thumbnail_ts": null,
+      "label": "source_9ea86762369fec09d34e.png",
+      "raw_start": 0.0,
+      "raw_end": 0.0,
+      "timestamp_clamped": false,
+      "source_duration": null,
+      "status": "candidate",
+      "mapping_basis": "known-source-id-and-hash"
+    }
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,594 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\profiles\\F\\refs\\05_criticism.full.wav",
+  "model": "large-v3",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 45.312,
+  "duration_after_vad": 36.976,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.97,
+      "end": 2.83,
+      "text": "가장 답답한 지점은 바로 이것입니다.",
+      "avg_logprob": -0.06963117836519729,
+      "no_speech_prob": 0.00690460205078125,
+      "compression_ratio": 1.67,
+      "words": [
+        {
+          "start": 0.97,
+          "end": 1.09,
+          "word": " 가장",
+          "probability": 0.9619140625
+        },
+        {
+          "start": 1.09,
+          "end": 1.61,
+          "word": " 답답한",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 1.61,
+          "end": 2.03,
+          "word": " 지점은",
+          "probability": 0.9969075520833334
+        },
+        {
+          "start": 2.03,
+          "end": 2.29,
+          "word": " 바로",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 2.29,
+          "end": 2.83,
+          "word": " 이것입니다.",
+          "probability": 0.99169921875
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 3.03,
+      "end": 5.27,
+      "text": "피해자는 분명한 피해를 입었습니다.",
+      "avg_logprob": -0.06963117836519729,
+      "no_speech_prob": 0.00690460205078125,
+      "compression_ratio": 1.67,
+      "words": [
+        {
+          "start": 3.03,
+          "end": 3.73,
+          "word": " 피해자는",
+          "probability": 0.9989013671875
+        },
+        {
+          "start": 3.73,
+          "end": 4.45,
+          "word": " 분명한",
+          "probability": 0.9962565104166666
+        },
+        {
+          "start": 4.45,
+          "end": 4.89,
+          "word": " 피해를",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 4.89,
+          "end": 5.27,
+          "word": " 입었습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 5.55,
+      "end": 9.91,
+      "text": "그런데 자신을 위협한 사람이 누구인지 충분한 정보를 받지 못했습니다.",
+      "avg_logprob": -0.06963117836519729,
+      "no_speech_prob": 0.00690460205078125,
+      "compression_ratio": 1.67,
+      "words": [
+        {
+          "start": 5.55,
+          "end": 5.99,
+          "word": " 그런데",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 6.61,
+          "end": 7.21,
+          "word": " 자신을",
+          "probability": 0.998046875
+        },
+        {
+          "start": 7.21,
+          "end": 7.49,
+          "word": " 위협한",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 7.49,
+          "end": 7.81,
+          "word": " 사람이",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 7.81,
+          "end": 8.31,
+          "word": " 누구인지",
+          "probability": 0.997314453125
+        },
+        {
+          "start": 8.31,
+          "end": 8.97,
+          "word": " 충분한",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 8.97,
+          "end": 9.25,
+          "word": " 정보를",
+          "probability": 1.0
+        },
+        {
+          "start": 9.25,
+          "end": 9.51,
+          "word": " 받지",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 9.51,
+          "end": 9.91,
+          "word": " 못했습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 11.23,
+      "end": 14.91,
+      "text": "추가 피해 가능성을 확인하려면 디지털 증거를 신속하게 확보해야 합니다.",
+      "avg_logprob": -0.06963117836519729,
+      "no_speech_prob": 0.00690460205078125,
+      "compression_ratio": 1.67,
+      "words": [
+        {
+          "start": 11.23,
+          "end": 11.55,
+          "word": " 추가",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 11.55,
+          "end": 11.81,
+          "word": " 피해",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 11.81,
+          "end": 12.23,
+          "word": " 가능성을",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 12.23,
+          "end": 12.87,
+          "word": " 확인하려면",
+          "probability": 0.9998779296875
+        },
+        {
+          "start": 12.87,
+          "end": 13.35,
+          "word": " 디지털",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 13.35,
+          "end": 13.75,
+          "word": " 증거를",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 13.75,
+          "end": 14.27,
+          "word": " 신속하게",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 14.27,
+          "end": 14.71,
+          "word": " 확보해야",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 14.71,
+          "end": 14.91,
+          "word": " 합니다.",
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 16.1,
+      "end": 19.16,
+      "text": "하지만 시간이 지나면 기록은 삭제되거나 훼손될 수 있습니다.",
+      "avg_logprob": -0.06963117836519729,
+      "no_speech_prob": 0.00690460205078125,
+      "compression_ratio": 1.67,
+      "words": [
+        {
+          "start": 16.1,
+          "end": 16.5,
+          "word": " 하지만",
+          "probability": 1.0
+        },
+        {
+          "start": 16.5,
+          "end": 16.86,
+          "word": " 시간이",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 16.86,
+          "end": 17.3,
+          "word": " 지나면",
+          "probability": 1.0
+        },
+        {
+          "start": 17.3,
+          "end": 17.68,
+          "word": " 기록은",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 17.68,
+          "end": 18.24,
+          "word": " 삭제되거나",
+          "probability": 0.998828125
+        },
+        {
+          "start": 18.24,
+          "end": 18.84,
+          "word": " 훼손될",
+          "probability": 0.9820963541666666
+        },
+        {
+          "start": 18.84,
+          "end": 18.9,
+          "word": " 수",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 18.9,
+          "end": 19.16,
+          "word": " 있습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 20.15,
+      "end": 23.63,
+      "text": "피해자에게 무조건 모든 수사 정보를 공개하자는 뜻은 아닙니다.",
+      "avg_logprob": -0.06963117836519729,
+      "no_speech_prob": 0.00690460205078125,
+      "compression_ratio": 1.67,
+      "words": [
+        {
+          "start": 20.15,
+          "end": 20.81,
+          "word": " 피해자에게",
+          "probability": 0.9996337890625
+        },
+        {
+          "start": 20.81,
+          "end": 21.33,
+          "word": " 무조건",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 21.33,
+          "end": 21.59,
+          "word": " 모든",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 21.59,
+          "end": 22.01,
+          "word": " 수사",
+          "probability": 1.0
+        },
+        {
+          "start": 22.01,
+          "end": 22.35,
+          "word": " 정보를",
+          "probability": 0.9938151041666666
+        },
+        {
+          "start": 22.35,
+          "end": 22.91,
+          "word": " 공개하자는",
+          "probability": 0.9993896484375
+        },
+        {
+          "start": 22.91,
+          "end": 23.27,
+          "word": " 뜻은",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 23.27,
+          "end": 23.63,
+          "word": " 아닙니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 24.3,
+      "end": 28.74,
+      "text": "적어도 현재 어떤 보호 조치가 시행되고 있는지는 설명할 필요가 있습니다.",
+      "avg_logprob": -0.06963117836519729,
+      "no_speech_prob": 0.00690460205078125,
+      "compression_ratio": 1.67,
+      "words": [
+        {
+          "start": 24.3,
+          "end": 24.84,
+          "word": " 적어도",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 24.84,
+          "end": 25.4,
+          "word": " 현재",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 25.4,
+          "end": 25.78,
+          "word": " 어떤",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 25.78,
+          "end": 26.32,
+          "word": " 보호",
+          "probability": 0.975341796875
+        },
+        {
+          "start": 26.32,
+          "end": 26.58,
+          "word": " 조치가",
+          "probability": 0.96728515625
+        },
+        {
+          "start": 26.58,
+          "end": 27.16,
+          "word": " 시행되고",
+          "probability": 0.9927978515625
+        },
+        {
+          "start": 27.16,
+          "end": 27.58,
+          "word": " 있는지는",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 27.58,
+          "end": 28.2,
+          "word": " 설명할",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 28.2,
+          "end": 28.52,
+          "word": " 필요가",
+          "probability": 1.0
+        },
+        {
+          "start": 28.52,
+          "end": 28.74,
+          "word": " 있습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 30.33,
+      "end": 34.19,
+      "text": "사건이 접수됐다는 이유만으로 피해자의 일상이 회복되는 것은 아닙니다.",
+      "avg_logprob": -0.06963117836519729,
+      "no_speech_prob": 0.00690460205078125,
+      "compression_ratio": 1.67,
+      "words": [
+        {
+          "start": 30.33,
+          "end": 30.77,
+          "word": " 사건이",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 30.77,
+          "end": 31.33,
+          "word": " 접수됐다는",
+          "probability": 0.9993896484375
+        },
+        {
+          "start": 31.33,
+          "end": 31.99,
+          "word": " 이유만으로",
+          "probability": 0.9923502604166666
+        },
+        {
+          "start": 31.99,
+          "end": 32.53,
+          "word": " 피해자의",
+          "probability": 0.9998779296875
+        },
+        {
+          "start": 32.53,
+          "end": 32.95,
+          "word": " 일상이",
+          "probability": 1.0
+        },
+        {
+          "start": 32.95,
+          "end": 33.43,
+          "word": " 회복되는",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 33.43,
+          "end": 33.65,
+          "word": " 것은",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 33.65,
+          "end": 34.19,
+          "word": " 아닙니다.",
+          "probability": 0.999755859375
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 34.19,
+      "end": 38.84,
+      "text": "범인을 특정하는 것과 피해자를 보호하는 것은 서로 다른 문제입니다.",
+      "avg_logprob": -0.05971575718610845,
+      "no_speech_prob": 0.002590179443359375,
+      "compression_ratio": 1.2348993288590604,
+      "words": [
+        {
+          "start": 34.19,
+          "end": 34.87,
+          "word": " 범인을",
+          "probability": 0.9988606770833334
+        },
+        {
+          "start": 35.56,
+          "end": 36.06,
+          "word": " 특정하는",
+          "probability": 0.9959309895833334
+        },
+        {
+          "start": 36.06,
+          "end": 36.44,
+          "word": " 것과",
+          "probability": 1.0
+        },
+        {
+          "start": 36.44,
+          "end": 37.22,
+          "word": " 피해자를",
+          "probability": 0.9996337890625
+        },
+        {
+          "start": 37.22,
+          "end": 37.6,
+          "word": " 보호하는",
+          "probability": 1.0
+        },
+        {
+          "start": 37.6,
+          "end": 37.84,
+          "word": " 것은",
+          "probability": 1.0
+        },
+        {
+          "start": 37.84,
+          "end": 38.08,
+          "word": " 서로",
+          "probability": 1.0
+        },
+        {
+          "start": 38.08,
+          "end": 38.34,
+          "word": " 다른",
+          "probability": 1.0
+        },
+        {
+          "start": 38.34,
+          "end": 38.84,
+          "word": " 문제입니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 38.98,
+      "end": 43.39,
+      "text": "그런데 왜 피해자가 스스로를 보호할 방법부터 찾아야 하는 걸까요?",
+      "avg_logprob": -0.05971575718610845,
+      "no_speech_prob": 0.002590179443359375,
+      "compression_ratio": 1.2348993288590604,
+      "words": [
+        {
+          "start": 38.98,
+          "end": 39.4,
+          "word": " 그런데",
+          "probability": 1.0
+        },
+        {
+          "start": 39.93,
+          "end": 40.21,
+          "word": " 왜",
+          "probability": 1.0
+        },
+        {
+          "start": 40.21,
+          "end": 40.89,
+          "word": " 피해자가",
+          "probability": 0.9993896484375
+        },
+        {
+          "start": 40.89,
+          "end": 41.43,
+          "word": " 스스로를",
+          "probability": 0.9991455078125
+        },
+        {
+          "start": 41.43,
+          "end": 41.83,
+          "word": " 보호할",
+          "probability": 0.9635416666666666
+        },
+        {
+          "start": 41.83,
+          "end": 42.45,
+          "word": " 방법부터",
+          "probability": 0.997314453125
+        },
+        {
+          "start": 42.45,
+          "end": 42.87,
+          "word": " 찾아야",
+          "probability": 1.0
+        },
+        {
+          "start": 42.87,
+          "end": 42.99,
+          "word": " 하는",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 42.99,
+          "end": 43.39,
+          "word": " 걸까요?",
+          "probability": 0.999755859375
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';import {validateDocuments,sha256} from './lottie-layer-instrumentation-g-gate.mjs';
+const here=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(here,'../..'),out=path.join(root,'out/studies/motion-tool-learning-v5-lottie-layer-instrumentation-g'),read=n=>JSON.parse(fs.readFileSync(path.join(out,n))),clone=x=>structuredClone(x),manifest=read('extractor.manifest.json'),full=read('instrumentation.json'),safe=read('creator-safe-record.json'),facts=new Map(manifest.sourceFiles.map(x=>{const p=path.join(root,x.file);return[x.file,{sha256:sha256(p),bytes:fs.statSync(p).size}]})),impl=sha256(path.join(root,manifest.implementation.file));
+assert.deepEqual(validateDocuments(manifest,full,safe,{implementationSha:impl,sourceFacts:facts}),[]);
+{const x=clone(manifest);x.implementation.sha256='0'.repeat(64);assert(validateDocuments(x,full,safe,{implementationSha:impl,sourceFacts:facts}).includes('instrumentation-drift'))}
+{const x=clone(full);x.frames[3].layers.pop();assert(validateDocuments(manifest,x,safe,{implementationSha:impl,sourceFacts:facts}).some(x=>x.startsWith('omitted-layer:3')))}
+{const x=clone(full);x.sourceStructuralIdentityMapping[1].members[0].order=0;assert(validateDocuments(manifest,x,safe,{implementationSha:impl,sourceFacts:facts}).includes('aggregation-collapse'))}
+{const x=clone(safe);x.frames[0].nodes[0].sourceIdentity={name:'leak'};assert(validateDocuments(manifest,full,x,{implementationSha:impl,sourceFacts:facts}).includes('safe-source-leak:0'))}
+{const x=clone(full);delete x.frames[0].layers[0].bbox;assert(validateDocuments(manifest,x,safe,{implementationSha:impl,sourceFacts:facts}).some(x=>x.startsWith('missing-measurement:0:')))}
+console.log('lottie layer instrumentation g gate: 1 positive + 5 negatives passed');

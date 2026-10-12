@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-script-admission-rejection-v2",
+  "title": "Newsroom script admission rejection v2",
+  "description": "Non-authoritative response envelope for a v15 Stage 03 attempt rejected by comparative hook, retention, grounding, legal or duration admission.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "decision", "reasons", "packageSha256", "generationSha256", "critiqueSha256", "initialAuthoritySha256", "attemptedFinalAuthoritySha256", "timing"],
+  "properties": {
+    "schema": { "const": "newsroom-script-admission-rejection-v2" },
+    "decision": { "const": "reject" },
+    "reasons": { "$ref": "newsroom-independent-narration-critique-v4.schema.json#/properties/rejectionReasons" },
+    "packageSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "generationSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "critiqueSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "initialAuthoritySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "attemptedFinalAuthoritySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "timing": { "$ref": "newsroom-independent-narration-critique-v4.schema.json#/properties/timing" }
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 2,
+  "contractId": "jeju-school-intrusion-v10-source-grounded-hybrid-hq-7jq-layout",
+  "promotedAt": "2026-08-05T04:43:43.565Z",
+  "versionId": "msfll44b-2216-2cb29k",
+  "projectId": "0986312f-e8a4-4354-8725-9134e71e247c",
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 1524,
+    "duration": 50.8
+  },
+  "mediaRegion": {
+    "fit": "cover",
+    "xPx": 0,
+    "yPx": 474,
+    "widthPx": 1080,
+    "heightPx": 972
+  },
+  "sceneCounts": {
+    "total": 21,
+    "still": 16,
+    "motion": 5
+  },
+  "captionPreset": {
+    "id": "reference-v3-semantic-2line",
+    "fontFamily": "Noto Sans KR",
+    "fontWeight": 800,
+    "fontSize": 88,
+    "scaleX": 94,
+    "safeWidth": 920,
+    "maxLines": 2,
+    "lineHeight": 1.08,
+    "x": 540,
+    "y": 1400,
+    "color": "#FFFFFF",
+    "outlineColor": "#000000",
+    "outlineWidth": 5,
+    "background": "none"
+  },
+  "cueCount": 36,
+  "cueTextSha256": "8dbc9e890b299f6f9c7a9604c521054d8a7a697bbb2b4ebee1192024de6bf91e",
+  "cuesSha256": "733da8ab4ca31f68533aa336613159729e3cc3f423c32d797bb0015870ef19bb",
+  "title": [
+    {
+      "text": "제주 초등학교",
+      "textStyle": {
+        "fontFamily": "Noto Sans KR",
+        "fontWeight": "bold",
+        "fontSizePx": 120,
+        "color": "#27D3E8",
+        "textAlign": "center",
+        "centerXPx": 540,
+        "topPx": 201,
+        "lineHeight": 1,
+        "background": false
+      }
+    },
+    {
+      "text": "교실 침입 사건",
+      "textStyle": {
+        "fontFamily": "Noto Sans KR",
+        "fontWeight": "bold",
+        "fontSizePx": 143,
+        "color": "#FFFFFF",
+        "textAlign": "center",
+        "centerXPx": 540,
+        "topPx": 326,
+        "lineHeight": 1,
+        "background": false
+      }
+    }
+  ],
+  "disclosure": {
+    "text": "사건 내용 기반 AI 재구성",
+    "count": 21,
+    "textStyle": {
+      "fontFamily": "Noto Sans KR",
+      "fontWeight": "bold",
+      "fontSizePx": 24,
+      "color": "#FFFFFF",
+      "textAlign": "right",
+      "centerXPx": 810,
+      "topPx": 1464,
+      "lineHeight": 1,
+      "background": false
+    }
+  },
+  "scenes": [
+    {
+      "index": 1,
+      "asset": "assets/images/v8-source-grounded-hybrid/03-classroom-window.png",
+      "mime": "image/png",
+      "sourceSha256": "a0726cab6e6fdf4520cac3b0a2417772165f40c15406b999235b74d35dcdd35e",
+      "handoffSha256": "a0726cab6e6fdf4520cac3b0a2417772165f40c15406b999235b74d35dcdd35e",
+      "startFrame": 0,
+      "frameCount": 44,
+      "camera": "push-in",
+      "intensity": 0.12,
+      "zoom": 1.02,
+      "captionAnchor": "넷플릭스 시리즈 참교육에",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 2,
+      "asset": "assets/video/v9-source-grounded-hybrid-hq/01-classroom-window.mp4",
+      "mime": "video/mp4",
+      "sourceSha256": "ffadb5c420c61ee4bf52814585c36353a2ee3c2a5d7c45db05122d6218c18d92",
+      "handoffSha256": "576efae78b59a009537133a7a2637076e12b4bd2a522af178a0f419753c035c3",
+      "startFrame": 44,
+      "frameCount": 42,
+      "camera": "push-in",
+      "intensity": 0.08,
+      "zoom": 1.01,
+      "captionAnchor": "나오는 교권보호국.",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 960,
+        "height": 1664,
+        "fps": "16/1",
+        "frames": 25
+      }
+    },
+    {
+      "index": 3,
+      "asset": "assets/images/v8-source-grounded-hybrid/08-cctv-desk.png",
+      "mime": "image/png",
+      "sourceSha256": "3345062428993ea9281654ef6389d0e0bf6b47dbbb5eeccc30c22225a257a0c5",
+      "handoffSha256": "3345062428993ea9281654ef6389d0e0bf6b47dbbb5eeccc30c22225a257a0c5",
+      "startFrame": 86,
+      "frameCount": 79,
+      "camera": "push-in",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "captionAnchor": "현실에도 진짜 필요한 거",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 4,
+      "asset": "assets/video/v9-source-grounded-hybrid-hq/02-school-exterior.mp4",
+      "mime": "video/mp4",
+      "sourceSha256": "236582743b0dddf3fd76acea9c85dd24a16fc8425586b49c92b6e7a81af6a19f",
+      "handoffSha256": "0b950b16da864648b633a385a94af5b1f6b23b7437cc3805e5502679231712b5",
+      "startFrame": 165,
+      "frameCount": 48,
+      "camera": "push-in",
+      "intensity": 0.08,
+      "zoom": 1.01,
+      "captionAnchor": "지난 4월 제주 한 초등학교",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 960,
+        "height": 1664,
+        "fps": "16/1",
+        "frames": 26
+      }
+    },
+    {
+      "index": 5,
+      "asset": "assets/images/v8-source-grounded-hybrid/13-window-latch-detail.png",
+      "mime": "image/png",
+      "sourceSha256": "d53b47a3fe61206b17ae88b0d4806b22b575ec991b62efb9291399f169325fe1",
+      "handoffSha256": "d53b47a3fe61206b17ae88b0d4806b22b575ec991b62efb9291399f169325fe1",
+      "startFrame": 213,
+      "frameCount": 55,
+      "camera": "drift-left",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "captionAnchor": "교실에 누군가 침입했습니다.",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 6,
+      "asset": "assets/images/v8-source-grounded-hybrid/04-teacher-desk.png",
+      "mime": "image/png",
+      "sourceSha256": "d3b93b258abd22232470fd443ab85d5c378cc4a15611a6a11b54e2155c647611",
+      "handoffSha256": "d3b93b258abd22232470fd443ab85d5c378cc4a15611a6a11b54e2155c647611",
+      "startFrame": 268,
+      "frameCount": 58,
+      "camera": "push-in",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "captionAnchor": "다음 날 여교사의 텀블러에서",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 7,
+      "asset": "assets/images/v8-source-grounded-hybrid/05-tumbler-closeup.png",
+      "mime": "image/png",
+      "sourceSha256": "933a14e560f68520231dd231ea3b8c40ec20a8c2ecf9183e393ffa5e021e1bc7",
+      "handoffSha256": "933a14e560f68520231dd231ea3b8c40ec20a8c2ecf9183e393ffa5e021e1bc7",
+      "startFrame": 326,
+      "frameCount": 59,
+      "camera": "push-in",
+      "intensity": 0.14,
+      "zoom": 1.03,
+      "captionAnchor": "발견된 액체는 충격적이게도",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 8,
+      "asset": "assets/video/v9-source-grounded-hybrid-hq/03-tumbler-rim.mp4",
+      "mime": "video/mp4",
+      "sourceSha256": "ce7f51c3748ef09c246518e759d4eb5d0e74408142735455f437cb56a1157666",
+      "handoffSha256": "6e8953ef3794076b5f949e50c9be7c767c207701f8fd875d0267e90c68ec681f",
+      "startFrame": 385,
+      "frameCount": 43,
+      "camera": "push-in",
+      "intensity": 0.08,
+      "zoom": 1.01,
+      "captionAnchor": "남성의 정액이었습니다.",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 960,
+        "height": 1664,
+        "fps": "16/1",
+        "frames": 25
+      }
+    },
+    {
+      "index": 9,
+      "asset": "assets/images/v8-source-grounded-hybrid/15-classroom-aisle.png",
+      "mime": "image/png",
+      "sourceSha256": "96d1c792ed9fcff41bd7389250e1b84dec25ba4139840a49259ee571c6e8d491",
+      "handoffSha256": "96d1c792ed9fcff41bd7389250e1b84dec25ba4139840a49259ee571c6e8d491",
+      "startFrame": 428,
+      "frameCount": 45,
+      "camera": "pull-out",
+      "intensity": 0.1,
+      "zoom": 1.03,
+      "captionAnchor": "한 달 뒤.",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 10,
+      "asset": "assets/images/v8-source-grounded-hybrid/07-empty-chair.png",
+      "mime": "image/png",
+      "sourceSha256": "93b470eaf5c692de075a88971856c8d599ee50062ea5e98e4c874f1792334192",
+      "handoffSha256": "93b470eaf5c692de075a88971856c8d599ee50062ea5e98e4c874f1792334192",
+      "startFrame": 473,
+      "frameCount": 80,
+      "camera": "push-in",
+      "intensity": 0.12,
+      "zoom": 1.03,
+      "captionAnchor": "같은 침입자가 교사용 의자에",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 11,
+      "asset": "assets/video/v9-source-grounded-hybrid-hq/04-cctv-monitor.mp4",
+      "mime": "video/mp4",
+      "sourceSha256": "881d07847960173962eb467d5b9a93b281e813224a813576df07d1945edf6f77",
+      "handoffSha256": "0f0e5e8f2936d0df9cedd5de0bbec4beeb0f47d55c0c6125019f41898552ddba",
+      "startFrame": 553,
+      "frameCount": 69,
+      "camera": "push-in",
+      "intensity": 0.08,
+      "zoom": 1.01,
+      "captionAnchor": "범인은 16살 고등학생.",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 960,
+        "height": 1664,
+        "fps": "16/1",
+        "frames": 37
+      }
+    },
+    {
+      "index": 12,
+      "asset": "assets/images/v8-source-grounded-hybrid/19-case-folder-recorder.png",
+      "mime": "image/png",
+      "sourceSha256": "1e606f0e1d2eca28e7563ca06749493fc8c031aadddeec0ab4f8f6ea6c93cf38",
+      "handoffSha256": "1e606f0e1d2eca28e7563ca06749493fc8c031aadddeec0ab4f8f6ea6c93cf38",
+      "startFrame": 622,
+      "frameCount": 86,
+      "camera": "drift-left",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "captionAnchor": "혐의를 모두 인정했지만",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 13,
+      "asset": "assets/images/v8-source-grounded-hybrid/09-interview-room.png",
+      "mime": "image/png",
+      "sourceSha256": "9be512f6aa7b4574020d8af5398e059e4595c60343bb05b6c8ba3f974fae3752",
+      "handoffSha256": "9be512f6aa7b4574020d8af5398e059e4595c60343bb05b6c8ba3f974fae3752",
+      "startFrame": 708,
+      "frameCount": 90,
+      "camera": "pull-out",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "captionAnchor": "성적인 목적도 아니고",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 14,
+      "asset": "assets/images/v8-source-grounded-hybrid/17-forensics-device-detail.png",
+      "mime": "image/png",
+      "sourceSha256": "417fa868e7770f7f267f5b7bec45eaae9f9d02f790976ef53118eecefcb8522b",
+      "handoffSha256": "417fa868e7770f7f267f5b7bec45eaae9f9d02f790976ef53118eecefcb8522b",
+      "startFrame": 798,
+      "frameCount": 95,
+      "camera": "push-in",
+      "intensity": 0.12,
+      "zoom": 1.02,
+      "captionAnchor": "피해 교사 측이 요청한",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 15,
+      "asset": "assets/images/v8-source-grounded-hybrid/10-digital-forensics.png",
+      "mime": "image/png",
+      "sourceSha256": "cc57d7fa2acb7c115e7bbe3ec88d78db61c07553bc888be8b472d3b6a0f68c86",
+      "handoffSha256": "cc57d7fa2acb7c115e7bbe3ec88d78db61c07553bc888be8b472d3b6a0f68c86",
+      "startFrame": 893,
+      "frameCount": 38,
+      "camera": "drift-right",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "captionAnchor": "영장은 기각됐고,",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 16,
+      "asset": "assets/images/v8-source-grounded-hybrid/06-forensic-evidence.png",
+      "mime": "image/png",
+      "sourceSha256": "85808f2ebde772dffbe6517e81d1eeab4929696cf61e490aac9b3f8aa7085093",
+      "handoffSha256": "85808f2ebde772dffbe6517e81d1eeab4929696cf61e490aac9b3f8aa7085093",
+      "startFrame": 931,
+      "frameCount": 172,
+      "camera": "push-in",
+      "intensity": 0.12,
+      "zoom": 1.02,
+      "captionAnchor": "혐의는 건조물침입과",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 17,
+      "asset": "assets/video/v9-source-grounded-hybrid-hq/05-locked-door.mp4",
+      "mime": "video/mp4",
+      "sourceSha256": "5bcf0e2adabbeb23f5e51494c659917f8e0e9391ce626a7c02dd80df85a89945",
+      "handoffSha256": "aa45375859407b9034e9e67c9f59bc106babf8716e831e624ac290ca73b5f8e4",
+      "startFrame": 1103,
+      "frameCount": 47,
+      "camera": "push-in",
+      "intensity": 0.08,
+      "zoom": 1.01,
+      "captionAnchor": "이게 말이 되나요?",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 960,
+        "height": 1664,
+        "fps": "16/1",
+        "frames": 26
+      }
+    },
+    {
+      "index": 18,
+      "asset": "assets/images/v8-source-grounded-hybrid/11-locked-door.png",
+      "mime": "image/png",
+      "sourceSha256": "a453131e4348cac6d44491c6276d9c362d46103ed5a340a69889632939174157",
+      "handoffSha256": "a453131e4348cac6d44491c6276d9c362d46103ed5a340a69889632939174157",
+      "startFrame": 1150,
+      "frameCount": 73,
+      "camera": "push-in",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "captionAnchor": "범인이 잡혔는데도",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 19,
+      "asset": "assets/images/v8-source-grounded-hybrid/02-low-classroom.png",
+      "mime": "image/png",
+      "sourceSha256": "b2d5b03d9f904d6e230fbbb8b5cf28fe7efea4c00324c04707d4df70449567ea",
+      "handoffSha256": "b2d5b03d9f904d6e230fbbb8b5cf28fe7efea4c00324c04707d4df70449567ea",
+      "startFrame": 1223,
+      "frameCount": 116,
+      "camera": "pull-out",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "captionAnchor": "피해자는 늘 공포에 시달리며",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 20,
+      "asset": "assets/images/v8-source-grounded-hybrid/12-access-control.png",
+      "mime": "image/png",
+      "sourceSha256": "74c717b4c8645ab888057bbfec5f9320869ebd319eafedb39a691cfe93eff2e4",
+      "handoffSha256": "74c717b4c8645ab888057bbfec5f9320869ebd319eafedb39a691cfe93eff2e4",
+      "startFrame": 1339,
+      "frameCount": 72,
+      "camera": "pull-out",
+      "intensity": 0.1,
+      "zoom": 1.03,
+      "captionAnchor": "드라마처럼 응징을 하자는 게",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    },
+    {
+      "index": 21,
+      "asset": "assets/images/v8-source-grounded-hybrid/18-access-reader-detail.png",
+      "mime": "image/png",
+      "sourceSha256": "5cd4870e4c497da4db32e440640e3ee57f20e77f3035a31ff4f428e455c90c7f",
+      "handoffSha256": "5cd4870e4c497da4db32e440640e3ee57f20e77f3035a31ff4f428e455c90c7f",
+      "startFrame": 1411,
+      "frameCount": 113,
+      "camera": "push-in",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "captionAnchor": "하지만 수사 상황 통지와",
+      "label": "사건 내용 기반 AI 재구성",
+      "sourceMedia": {
+        "width": 941,
+        "height": 1672
+      }
+    }
+  ],
+  "audio": {
+    "name": "narration-retimed.m4a",
+    "mime": "audio/mp4",
+    "sha256": "58e4d9d1bcfb04790953556b1fbf9f873386eb1dd978191e28853f593f554649"
+  },
+  "bgm": {
+    "name": "background-music.m4a",
+    "mime": "audio/mp4",
+    "sourceSha256": "9fe2ddabf1a7274706c3888ecd3316dcfef7447eb4b211617dd512762709c899",
+    "sha256": "a1408ee0d3f87fd494489f90d2c0463ede6f36dfeb6fffa11016a27b49170f8a",
+    "volumeDb": -16,
+    "duckUnderNarration": true,
+    "fadeSeconds": 1.2,
+    "durationSeconds": 50.8
+  },
+  "thumbnail": {
+    "image": "../../../../../04-visual-assets/runs/jeju-school-intrusion-thumbnail-20260803/jeju-school-intrusion-thumbnail-layout-v3-caption-free.png",
+    "sha256": "6e962b6d52cccd3066b2cef45107b1cb2bf4cb385d6a500a637022adeac630c7",
+    "source": "v7-source-grounded-03-classroom-window-layout-caption-free",
+    "provenance": "../../../../../04-visual-assets/runs/jeju-school-intrusion-thumbnail-20260803/selection-layout-v3.md"
+  },
+  "artifacts": {
+    "videoSha256": "03f6e657b9fe50699dbbc3bb2df18615fc059dff73118a24b7e0b4b0f6d0cbba",
+    "handoffSha256": "e26eaa12144826a56995f20c72b3fe0b5bc2db4832fe1aa92775885e28b7674c",
+    "projectConfigSha256": "a55e88864848ad910965f9d363007261398ae1fb0caf5b26708bf67e78557101"
+  },
+  "motionEnhancement": {
+    "engine": "Real-ESRGAN ncnn Vulkan",
+    "release": "v0.2.3.0 / realesrgan-ncnn-vulkan-20211212-windows",
+    "model": "realesrgan-x4plus",
+    "scale": 2,
+    "executableSha256": "50dff64fe2d6c346abdcec4d1b0fa9b894bb8bfc9137f70bf97f229de0477c39",
+    "modelParamSha256": "35330ececcea33b6c397a72548e788d5d53becee4734c50b7fada36e89f10a86",
+    "modelWeightsSha256": "713ee713b0353afaa27976f0563a64a5043bd70b9bd8936c2e26e25ebcdbcddf",
+    "manifest": "assets/video/v9-source-grounded-hybrid-hq/manifest.json",
+    "manifestSha256": "a2788fed3b37bd1a607a37b7b05748a65976b93159ffdc1462b1afe4c7dae4ab"
+  },
+  "sourceIntegrity": {
+    "authority": "production/newsroom/projects/jeju-school-intrusion.json",
+    "slug": "jeju-school-intrusion",
+    "status": "final",
+    "finalizedAt": "2026-08-02T00:00:00.000Z",
+    "scriptSha256": "ec7e9dd3bdf868e201f171ae22557527d11001764aa5e3ce88e3d9ae2b89af44",
+    "projectConfigSha256": "a55e88864848ad910965f9d363007261398ae1fb0caf5b26708bf67e78557101",
+    "narrationConfigSha256": "c888745e78dd8cfb9a3fd549ae8aa7a1fa9304f8ea218b8bac52aa7aff057d72",
+    "visualConfigSha256": "b298e797904d08dd2cec0ac8da8993a122d1f25efb224f09de8c7323cd58f8e3",
+    "sourceCueCount": 18
+  }
+}

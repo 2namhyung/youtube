@@ -1,0 +1,121 @@
+{
+  "$defs": {
+    "Crop": {
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "default": "fit",
+          "enum": [
+            "fit",
+            "crop"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "x": {
+          "default": 0,
+          "minimum": 0,
+          "title": "X",
+          "type": "integer"
+        },
+        "y": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Y",
+          "type": "integer"
+        },
+        "width": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Width",
+          "type": "integer"
+        },
+        "height": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Height",
+          "type": "integer"
+        },
+        "background": {
+          "default": "#141A19",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "title": "Background",
+          "type": "string"
+        }
+      },
+      "title": "Crop",
+      "type": "object"
+    },
+    "SoundPlacement": {
+      "additionalProperties": false,
+      "properties": {
+        "sound_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Sound Id",
+          "type": "string"
+        },
+        "beat_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Beat Id",
+          "type": "string"
+        },
+        "offset_samples": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Offset Samples",
+          "type": "integer"
+        },
+        "gain_db": {
+          "default": -12,
+          "maximum": 0,
+          "minimum": -40,
+          "title": "Gain Db",
+          "type": "number"
+        },
+        "fade_in_samples": {
+          "default": 240,
+          "minimum": 0,
+          "title": "Fade In Samples",
+          "type": "integer"
+        },
+        "fade_out_samples": {
+          "default": 480,
+          "minimum": 0,
+          "title": "Fade Out Samples",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "sound_id",
+        "beat_id"
+      ],
+      "title": "SoundPlacement",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "lock": {
+      "default": false,
+      "title": "Lock",
+      "type": "boolean"
+    },
+    "layouts": {
+      "additionalProperties": {
+        "$ref": "#/$defs/Crop"
+      },
+      "title": "Layouts",
+      "type": "object"
+    },
+    "sfx": {
+      "items": {
+        "$ref": "#/$defs/SoundPlacement"
+      },
+      "maxItems": 20,
+      "title": "Sfx",
+      "type": "array"
+    }
+  },
+  "title": "TimelineRequest",
+  "type": "object"
+}

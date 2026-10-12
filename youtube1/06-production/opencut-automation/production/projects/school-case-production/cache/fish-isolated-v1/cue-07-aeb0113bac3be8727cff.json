@@ -1,0 +1,41 @@
+{
+  "cacheSchema": 3,
+  "audioPolicy": "leading-trim-100ms-tail-pad-v1",
+  "alignmentPolicy": "word-dp-critical-exact-v2",
+  "synthesisPolicy": "canonical-syllables-punctuation-microsegment-v3",
+  "duration": 5.242630385487528,
+  "wavSha256": "900290c1062fd415b53cdb1785851a800e8c42de91712e22d286d095b33f113a",
+  "acceptance": {
+    "seed": 20267827,
+    "attempt": 1,
+    "leadingTrimSeconds": 0,
+    "validator": "per-microsegment-exact-asr",
+    "microSegments": [
+      {
+        "originalText": "같은 침입자가",
+        "synthesisText": "같은 침입자가,",
+        "variant": 2,
+        "seed": 20267827,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-medium"
+      },
+      {
+        "originalText": "교사용 의자에",
+        "synthesisText": "교사용 의자에",
+        "variant": 1,
+        "seed": 20267743,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-medium"
+      },
+      {
+        "originalText": "소변을 봤습니다.",
+        "synthesisText": "소변을 봤습니다.",
+        "variant": 3,
+        "seed": 20267962,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-small"
+      }
+    ],
+    "microSegmentPauseSeconds": 0.16
+  }
+}

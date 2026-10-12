@@ -1,0 +1,17 @@
+{
+  "schema_id":"private-motion-study-layer-spec-v1",
+  "canvas":{"width":1080,"height":1920,"fps":24,"duration_s":25,"action_y":[480,1280],"caption_safe_y":[1320,1580]},
+  "palette":{"background":"#07131f","panel":"#10283a","teal":"#38c2c9","coral":"#ff705d","paper":"#edf4f2","muted":"#8ba8b3"},
+  "source_label":"PRIVATE MOTION STUDY · NOT FOR DISTRIBUTION",
+  "content_policy":"Original neutral replacement content only; no WSJ logo/footage/audio/text/graphics/brand palette/proprietary map.",
+  "beats":[
+    {"beat_id":"b01","time":[0,3.5],"mechanics":["kinetic headline","source chip","progress rail"],"layer_stack":["background","coral rule","headline","phone icon","private label"],"easing":"cubic ease-out; 180ms overshoot then settle","confidence":"high","case_mapping":"neutral phone-evidence training sample"},
+    {"beat_id":"b02","time":[3.5,8.0],"mechanics":["map reveal","route draw","marker callout"],"layer_stack":["dummy geography","grid/scale","route","map pin","caption"],"easing":"route linear draw with 220ms ease-out marker","confidence":"high","case_mapping":"phone event location without a real location claim"},
+    {"beat_id":"b03","time":[8.0,12.0],"mechanics":["stacked panels","directional wipe","source chip"],"layer_stack":["panel A","panel B","wipe mask","source chips","progress rail"],"easing":"180ms directional mask; 320ms panel settle","confidence":"medium","case_mapping":"two neutral records shown as separate source objects"},
+    {"beat_id":"b04","time":[12.0,16.5],"mechanics":["route alternate","legend","icon callout"],"layer_stack":["map","alternate routes","legend","phone/map-pin icons"],"easing":"route stagger 80ms; labels fade in 140ms","confidence":"high","case_mapping":"call path versus location path; no real claim"},
+    {"beat_id":"b05","time":[16.5,21.0],"mechanics":["source chip/lower third","word wipe","caption hold"],"layer_stack":["neutral source card","phone icon","caption","chip","private label"],"easing":"word wipe 260ms; 700ms hold","confidence":"high","case_mapping":"source attribution discipline"},
+    {"beat_id":"b06","time":[21.0,25.0],"mechanics":["timeline rail","return test","wipe transition"],"layer_stack":["timeline","state markers","return arrow","closing headline","private label"],"easing":"rail linear; closing wipe 240ms ease-in-out","confidence":"high","case_mapping":"return-to-state check without a factual conclusion"}
+  ],
+  "geometry":{"side_gutter":72,"headline_box":{"x":72,"y":230,"w":936,"h":220},"map_box":{"x":72,"y":500,"w":936,"h":650},"caption_box":{"x":72,"y":1370,"w":936,"h":170},"source_chip":{"x":72,"y":1610,"w":420,"h":58},"private_label":{"x":72,"y":1810,"w":936,"h":30}},
+  "implementation":"Deterministic SVG/HTML frame generation with local Edge headless screenshots and FFmpeg; no runtime network."
+}

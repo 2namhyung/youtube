@@ -1,0 +1,136 @@
+{
+  "language": "ko",
+  "languageProbability": 1.0,
+  "durationSeconds": 6.8,
+  "generationSeconds": 0.915,
+  "transcript": "하지만 다리가 너무 짧아서 긁지 못하는 곳이 많죠 그래서 주변의 아무나 철저한 곳에 몸을 비비며 가령을 해결합니다",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.04,
+      "text": "하지만 다리가 너무 짧아서 긁지 못하는 곳이 많죠",
+      "avgLogProbability": -0.226199,
+      "noSpeechProbability": 0.284424,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.38,
+          "text": "하지만",
+          "probability": 0.960938
+        },
+        {
+          "start": 0.38,
+          "end": 0.72,
+          "text": "다리가",
+          "probability": 0.992188
+        },
+        {
+          "start": 0.72,
+          "end": 0.96,
+          "text": "너무",
+          "probability": 0.985352
+        },
+        {
+          "start": 0.96,
+          "end": 1.52,
+          "text": "짧아서",
+          "probability": 0.957275
+        },
+        {
+          "start": 1.52,
+          "end": 1.88,
+          "text": "긁지",
+          "probability": 0.74349
+        },
+        {
+          "start": 1.88,
+          "end": 2.18,
+          "text": "못하는",
+          "probability": 0.964355
+        },
+        {
+          "start": 2.18,
+          "end": 2.52,
+          "text": "곳이",
+          "probability": 0.983398
+        },
+        {
+          "start": 2.52,
+          "end": 3.04,
+          "text": "많죠",
+          "probability": 0.99585
+        }
+      ]
+    },
+    {
+      "start": 3.04,
+      "end": 6.62,
+      "text": "그래서 주변의 아무나 철저한 곳에 몸을 비비며 가령을 해결합니다",
+      "avgLogProbability": -0.226199,
+      "noSpeechProbability": 0.284424,
+      "words": [
+        {
+          "start": 3.04,
+          "end": 3.4,
+          "text": "그래서",
+          "probability": 0.668945
+        },
+        {
+          "start": 3.4,
+          "end": 3.8,
+          "text": "주변의",
+          "probability": 0.902507
+        },
+        {
+          "start": 3.8,
+          "end": 4.0,
+          "text": "아무나",
+          "probability": 0.826172
+        },
+        {
+          "start": 4.0,
+          "end": 4.38,
+          "text": "철저한",
+          "probability": 0.818481
+        },
+        {
+          "start": 4.38,
+          "end": 5.08,
+          "text": "곳에",
+          "probability": 0.82251
+        },
+        {
+          "start": 5.08,
+          "end": 5.44,
+          "text": "몸을",
+          "probability": 0.98999
+        },
+        {
+          "start": 5.44,
+          "end": 5.8,
+          "text": "비비며",
+          "probability": 0.987305
+        },
+        {
+          "start": 5.8,
+          "end": 6.26,
+          "text": "가령을",
+          "probability": 0.780599
+        },
+        {
+          "start": 6.26,
+          "end": 6.62,
+          "text": "해결합니다",
+          "probability": 0.990072
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceFile": "tension.wav",
+  "sourceSha256": "8ced7c85ac56d878a244eabae5f097d20ab6bb88db69c9707ade60892d86079c",
+  "model": "medium",
+  "device": "cuda",
+  "computeType": "float16",
+  "diagnosticOnly": true
+}

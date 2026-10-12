@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f2eee5" />
+    <title>Reference Reverse / VQazcEuV9Xw</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#workspace">본문으로 건너뛰기</a>
+    <header class="masthead">
+      <div class="brand-mark" aria-hidden="true"><span>RR</span><i></i></div>
+      <div class="masthead-copy">
+        <p class="eyebrow">REFERENCE REVERSE / STUDY 01</p>
+        <h1>한 편의 영상에서<br /><em>움직임을 채집하다</em></h1>
+      </div>
+      <div class="masthead-meta">
+        <span id="loadState" class="status-pill"><i></i> 자료를 불러오는 중</span>
+        <p>대본 · 샷 · 모션그래픽<br />역설계 데스크</p>
+      </div>
+    </header>
+
+    <main id="workspace" class="workspace">
+      <section class="stage-column" aria-label="레퍼런스 영상과 타임라인">
+        <div class="source-strip">
+          <div>
+            <p class="eyebrow">SOURCE FILM</p>
+            <h2 id="sourceTitle">VQazcEuV9Xw</h2>
+          </div>
+          <dl class="source-facts">
+            <div><dt>길이</dt><dd id="sourceDuration">—</dd></div>
+            <div><dt>프레임</dt><dd id="sourceFps">—</dd></div>
+            <div><dt>크기</dt><dd id="sourceDimensions">—</dd></div>
+          </dl>
+        </div>
+
+        <div class="video-frame" id="videoFrame">
+          <div class="video-rail"><span>ORIGINAL / PLAYBACK</span><span id="currentTimeLabel">00:00.000</span></div>
+          <video id="sourceVideo" controls playsinline preload="metadata" aria-label="레퍼런스 영상">
+            <source src="../../reference-reverse-v1/source/VQazcEuV9Xw.mp4" type="video/mp4" />
+          </video>
+          <div id="videoError" class="video-error" hidden>
+            <strong>브라우저에서 원본을 디코드하지 못했습니다.</strong>
+            <p>원본은 AV1일 수 있습니다. 파일을 직접 열어 확인하거나 H.264 프리뷰를 연결해 주세요.</p>
+            <a href="../../reference-reverse-v1/source/VQazcEuV9Xw.mp4">원본 파일 열기 ↗</a>
+          </div>
+        </div>
+
+        <div class="playback-tools" aria-label="재생 도구">
+          <button id="prevShot" class="tool-button" type="button" title="이전 샷 (Shift + ←)">↤ <span>이전 샷</span></button>
+          <button id="stepBack" class="icon-button" type="button" title="한 프레임 뒤로 (←)">−1f</button>
+          <button id="stepForward" class="icon-button" type="button" title="한 프레임 앞으로 (→)">+1f</button>
+          <button id="nextShot" class="tool-button" type="button" title="다음 샷 (Shift + →)"><span>다음 샷</span> ↦</button>
+          <span class="tool-divider" aria-hidden="true"></span>
+          <div class="rate-control" role="group" aria-label="재생 속도">
+            <span>속도</span>
+            <button type="button" data-rate="0.25" aria-pressed="false">.25×</button>
+            <button type="button" data-rate="0.5" aria-pressed="false">.5×</button>
+            <button class="is-active" type="button" data-rate="1" aria-pressed="true">1×</button>
+          </div>
+          <label class="loop-control"><input type="checkbox" id="loopShot" /> <span>현재 샷 반복</span></label>
+        </div>
+
+        <section class="timeline-panel" aria-label="샷 타임라인">
+          <div class="timeline-heading"><span>SHOT MAP</span><span id="timelineRange">—</span></div>
+          <div id="timeline" class="timeline" tabindex="0" aria-label="샷 위치 타임라인"></div>
+          <div class="timeline-legend"><span><i class="legend-dot"></i> 선택한 샷</span><span>시간은 원본 기준</span></div>
+        </section>
+
+        <section class="shot-browser" aria-labelledby="shotBrowserTitle">
+          <div class="section-heading">
+            <div><p class="eyebrow">CUT INDEX</p><h2 id="shotBrowserTitle">샷 목록</h2></div>
+            <label class="search-box"><span class="sr-only">샷 검색</span><input id="shotSearch" type="search" placeholder="라벨·기법 검색" autocomplete="off" /><kbd>/</kbd></label>
+          </div>
+          <div id="shotList" class="shot-list" role="list" aria-live="polite"></div>
+        </section>
+      </section>
+
+      <aside class="notes-column" aria-label="선택한 샷의 역설계 노트">
+        <div class="notes-topline"><span class="eyebrow">FIELD NOTES</span><span id="shotCounter">— / —</span></div>
+        <div id="emptyState" class="empty-state">
+          <span class="empty-glyph">↗</span>
+          <h2>샷을 선택하세요</h2>
+          <p>왼쪽의 영상이나 샷 목록을 움직이면<br />관찰·추론·재현 레시피가 여기에 기록됩니다.</p>
+        </div>
+        <article id="shotDetail" class="shot-detail" hidden>
+          <div class="detail-kicker"><span id="detailId">SHOT 01</span><span id="detailTime">00:00 — 00:00</span></div>
+          <h2 id="detailLabel">—</h2>
+          <p id="detailSummary" class="narration-summary">—</p>
+          <div class="detail-rule"></div>
+          <section class="note-block observed-block">
+            <div class="note-label"><i></i><span>관찰한 화면</span><b>OBSERVED</b></div>
+            <p id="detailObserved">—</p>
+          </section>
+          <section class="note-block">
+            <div class="note-label"><i></i><span>레이어 구조</span><b>LAYERS</b></div>
+            <ul id="detailLayers" class="tag-list"></ul>
+          </section>
+          <section class="note-block">
+            <div class="note-label"><i></i><span>사용 기법</span><b>TECHNIQUE</b></div>
+            <ul id="detailTechniques" class="technique-list"></ul>
+          </section>
+          <section class="recipe-block">
+            <div class="note-label"><i></i><span>재현 레시피</span><b>INFERRED</b></div>
+            <p id="detailRecipe">—</p>
+          </section>
+          <section id="uncertaintyBlock" class="uncertainty-block">
+            <div class="note-label"><i></i><span>남은 불확실성</span><b>CHECK</b></div>
+            <ul id="detailUncertainty"></ul>
+          </section>
+          <p class="confidence-line">분석 신뢰도 <strong id="detailConfidence">—</strong></p>
+        </article>
+        <div class="aside-footer">
+          <details class="comparison-box">
+            <summary>재현본 비교 영상 <span>+ 열기</span></summary>
+            <div class="comparison-content">
+              <video id="comparisonVideo" controls playsinline preload="none" hidden aria-label="모션구조 재현 비교 영상">
+                <source src="../reconstruction/output/comparison.mp4" type="video/mp4" />
+              </video>
+              <p id="comparisonFallback">비교 영상이 아직 연결되지 않았습니다. 이 패널은 원본의 시각적 복제가 아니라 자체 SVG로 모션 구조만 재현하는 자리입니다.</p>
+            </div>
+          </details>
+          <nav class="evidence-links" aria-label="연구 자료 링크">
+            <a href="../REPORT.md">리서치 리포트 <span>↗</span></a>
+            <a href="../evidence/">근거 자료 <span>↗</span></a>
+            <button type="button" id="downloadData">분석 JSON 저장 <span>↓</span></button>
+          </nav>
+          <p class="scope-note" id="scopeNote">이 화면은 원본의 관찰 기록과 재현 가설을 분리해 보여줍니다. 자동으로 원본 모션 곡선을 복원하지 않습니다.</p>
+        </div>
+      </aside>
+    </main>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-independent-narration-critique-v6",
+  "title": "Newsroom independent narration critique v6",
+  "description": "Read-only v17 critic decision over a case-brief-bound authority.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "decision", "findings", "authoritySha256", "timing"],
+  "properties": {
+    "schema": { "const": "newsroom-independent-narration-critique-v6" },
+    "decision": { "enum": ["pass", "revise", "reject"] },
+    "findings": { "type": "array", "minItems": 4, "maxItems": 4, "items": {
+      "type": "object", "additionalProperties": false, "required": ["category", "status", "detail", "exactQuote"], "properties": {
+        "category": { "enum": ["factual-legal", "audio-comprehension", "narrative-progression", "style-integrity"] },
+        "status": { "enum": ["pass", "revise", "reject"] },
+        "detail": { "type": "string", "minLength": 1, "maxLength": 1200 },
+        "exactQuote": { "type": "string", "maxLength": 500 }
+      }
+    } },
+    "authoritySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "timing": { "type": "object", "additionalProperties": false, "required": ["schema", "compactCharacters", "observedCompactKoreanCharactersPerSecond", "estimatedSeconds", "targetMinimumSeconds", "targetMaximumSeconds", "withinAdvisoryTarget", "authority"], "properties": {
+      "schema": { "const": "newsroom-owner-rate-advisory-estimate-v1" },
+      "compactCharacters": { "type": "integer", "minimum": 0 },
+      "observedCompactKoreanCharactersPerSecond": { "type": "number", "exclusiveMinimum": 0 },
+      "estimatedSeconds": { "type": "number", "minimum": 0 },
+      "targetMinimumSeconds": { "const": 70 },
+      "targetMaximumSeconds": { "const": 80 },
+      "withinAdvisoryTarget": { "type": "boolean" },
+      "authority": { "const": "advisory-only-owner-narration-locked-timing-remains-required" }
+    } }
+  }
+}

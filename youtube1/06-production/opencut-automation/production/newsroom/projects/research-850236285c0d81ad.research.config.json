@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-850236285c0d81ad",
+  "topic": "[단독] \"벌금 못 내\" 버티고…하루 6.6억 원 '황제 노역'",
+  "query": "[단독] \"벌금 못 내\" 버티고…하루 6.6억 원 '황제 노역'",
+  "keywords": [
+    "단독",
+    "벌금",
+    "버티고",
+    "하루",
+    "6억",
+    "황제",
+    "노역",
+    "수천억",
+    "벌금을",
+    "돈이"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv",
+    "naver-news",
+    "daum-news",
+    "news1-society"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "SBS 뉴스 사회",
+      "title": "[단독] \"벌금 못 내\" 버티고…하루 6.6억 원 '황제 노역'",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008732798&plink=RSSLINK&cooper=RSSREADER"
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "단독",
+      "벌금",
+      "버티고",
+      "하루",
+      "6억",
+      "황제",
+      "노역",
+      "수천억",
+      "벌금을",
+      "돈이"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "단독",
+        "terms": [
+          "단독"
+        ]
+      },
+      {
+        "name": "벌금",
+        "terms": [
+          "벌금"
+        ]
+      },
+      {
+        "name": "버티고",
+        "terms": [
+          "버티고"
+        ]
+      },
+      {
+        "name": "하루",
+        "terms": [
+          "하루"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "단독",
+      "벌금",
+      "버티고",
+      "하루",
+      "6억",
+      "황제",
+      "노역",
+      "수천억",
+      "벌금을",
+      "돈이"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "단독",
+        "terms": [
+          "단독"
+        ]
+      },
+      {
+        "name": "벌금",
+        "terms": [
+          "벌금"
+        ]
+      },
+      {
+        "name": "버티고",
+        "terms": [
+          "버티고"
+        ]
+      },
+      {
+        "name": "하루",
+        "terms": [
+          "하루"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "contradictions": [],
+  "limit": 50,
+  "generatedFrom": "promoted-newsroom-candidate"
+}

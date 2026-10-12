@@ -1,0 +1,30 @@
+{
+  "schema": "police-father-mg-preview-plan-v1",
+  "slug": "research-6b1a8af9b4143acb",
+  "nonAuthoritative": true,
+  "privateOnly": true,
+  "headlineStatus": "reapproval-required-corrupt-current-bytes",
+  "narration": {"durationSeconds": 55.016, "audioSha256": "d57593fd6d5437caac96148b8ba8e963ebc164f3e8db2cdb99fe4edab88a6ac6"},
+  "canvas": {"width": 1080, "height": 1920, "fps": 24, "frames": 1344, "titleBand": {"y": 0, "height": 474}, "mediaBand": {"y": 474, "height": 972}},
+  "policy": {"grok": false, "upload": false, "publication": false, "animationCutsRemainPlaceholder": true, "imageTextQa": "human-accepted-whitespace-variance"},
+  "cuts": [
+    {"id":"cut-001","start":0,"end":96,"mode":"image_to_video_animation","visual":"교사 고소와 학생 휴대전화 적발","status":"grok_wait"},
+    {"id":"cut-002","start":96,"end":192,"mode":"deterministic_motion_graphics","asset":"assets/mg-002-evidence-change.png","graphic":"intact-to-broken comparison","motion":"center split reveal, left hold, arrow wipe, right push-in"},
+    {"id":"cut-003","start":192,"end":264,"mode":"deterministic_motion_graphics","asset":"assets/mg-003-location-role.png","graphic":"spatial role map","motion":"map pin reveal, route trace, station push-in"},
+    {"id":"cut-004","start":264,"end":336,"mode":"image_to_video_animation","visual":"고등학생 아들의 불법 촬영 시도 적발","status":"grok_wait"},
+    {"id":"cut-005","start":336,"end":408,"mode":"image_to_video_animation","visual":"A 경감이 내부망에 파손 사실을 기록","status":"grok_wait"},
+    {"id":"cut-006","start":408,"end":480,"mode":"deterministic_motion_graphics","asset":"assets/mg-006-prosecution-transfer.png","graphic":"prosecution transfer flow","motion":"left subject reveal, arrow travel, prosecution landing"},
+    {"id":"cut-007","start":480,"end":552,"mode":"deterministic_motion_graphics","asset":"assets/mg-007-audit-grid.png","graphic":"family-case audit grid","motion":"wide grid scan and folder-by-folder focus"},
+    {"id":"cut-008","start":552,"end":624,"mode":"deterministic_motion_graphics","asset":"assets/mg-008-delayed-discovery.png","graphic":"delayed discovery","motion":"rapid push-in to burgundy folder and cyan outline pulse"},
+    {"id":"cut-009","start":624,"end":696,"mode":"image_to_video_animation","visual":"경찰의 증거 보존 의무와 가족 행동 충돌","status":"grok_wait"},
+    {"id":"cut-010","start":696,"end":768,"mode":"deterministic_motion_graphics","asset":"assets/mg-010-relationship.png","graphic":"victim-son-father relationship","motion":"teacher reveal, evidence folder reveal, son and father branch reveal"},
+    {"id":"cut-011","start":768,"end":840,"mode":"deterministic_motion_graphics","asset":"assets/mg-011-booking.png","graphic":"booking flow","motion":"father token hold, evidence folder slide, booking tray punch-in"},
+    {"id":"cut-012","start":840,"end":912,"mode":"image_to_video_animation","visual":"자택 압수수색과 증거 상자 반출","status":"grok_wait"},
+    {"id":"cut-013","start":912,"end":984,"mode":"deterministic_motion_graphics","asset":"assets/mg-013-investigation-links.png","graphic":"open investigation relationship map","motion":"three evidence cards converge, center 확인 중 pulse"},
+    {"id":"cut-014","start":984,"end":1056,"mode":"deterministic_motion_graphics","asset":"assets/mg-014-legal-barrier.png","graphic":"direct-family legal barrier","motion":"family token reveal, law wall rise"},
+    {"id":"cut-015","start":1056,"end":1128,"mode":"deterministic_motion_graphics","asset":"assets/mg-015-investigation-possible.png","graphic":"investigation possible lane","motion":"cyan 수사 lane left-to-right tracking"},
+    {"id":"cut-016","start":1128,"end":1200,"mode":"deterministic_motion_graphics","asset":"assets/mg-016-punishment-gap.png","graphic":"investigation-versus-punishment gap","motion":"reframe from cyan lane to burgundy 처벌 lane and stop at wall"},
+    {"id":"cut-017","start":1200,"end":1272,"mode":"image_to_video_animation","visual":"파손 휴대전화와 멈춘 사건 인계","status":"grok_wait"},
+    {"id":"cut-018","start":1272,"end":1344,"mode":"image_to_video_animation","visual":"시민 시점의 경찰 수사 신뢰 질문","status":"grok_wait_and_final_hold"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "production-script-binding-v1",
+  "type": "object",
+  "required": ["schemaVersion", "newsroomSlug", "productionProjectId", "authority", "workflow", "conflicts", "creator", "verifier", "bindingSha256"],
+  "properties": {
+    "schemaVersion": { "const": "production-script-binding-v1" },
+    "newsroomSlug": { "type": "string" },
+    "productionProjectId": { "type": "string" },
+    "authority": {
+      "type": "object",
+      "required": ["path", "status", "finalizedAt", "draft", "draftSha256", "fileSha256", "restorationStatus"],
+      "properties": {
+        "path": { "type": "string" },
+        "status": { "const": "final" },
+        "finalizedAt": { "type": "string" },
+        "generatedAt": { "type": ["string", "null"] },
+        "selectedDraftId": { "type": ["string", "null"] },
+        "draft": { "type": "string" },
+        "draftSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "fileSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "restorationStatus": { "enum": ["restored-exact", "editorial-revised", "not-restored", "invalid-restoration"] }
+      },
+      "additionalProperties": true
+    },
+    "workflow": { "type": "object" },
+    "conflicts": { "type": "array" },
+    "creator": { "const": "scripts/sync-production-script-qa.mjs" },
+    "verifier": { "const": "scripts/script-sync-qa-lib.mjs" },
+    "bindingSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  },
+  "additionalProperties": true
+}

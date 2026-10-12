@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-d532c8fd7edb7d69",
+  "topic": "'선결제 유도한 뒤 먹튀' 나주 헬스장 고소…경찰 수사",
+  "query": "'선결제 유도한 뒤 먹튀' 나주 헬스장 고소…경찰 수사",
+  "keywords": [
+    "선결제",
+    "유도한",
+    "먹튀",
+    "나주",
+    "헬스장",
+    "고소",
+    "경찰",
+    "수사",
+    "선결제까지",
+    "했는데"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv",
+    "naver-news",
+    "daum-news",
+    "news1-society"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "뉴시스 사회",
+      "title": "'선결제 유도한 뒤 먹튀' 나주 헬스장 고소…경찰 수사",
+      "url": "https://www.newsis.com/view/NISX20260727_0003724943"
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "선결제",
+      "유도한",
+      "먹튀",
+      "나주",
+      "헬스장",
+      "고소",
+      "선결제까지",
+      "했는데"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "선결제",
+        "terms": [
+          "선결제"
+        ]
+      },
+      {
+        "name": "유도한",
+        "terms": [
+          "유도한"
+        ]
+      },
+      {
+        "name": "먹튀",
+        "terms": [
+          "먹튀"
+        ]
+      },
+      {
+        "name": "나주",
+        "terms": [
+          "나주"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "선결제",
+      "유도한",
+      "먹튀",
+      "나주",
+      "헬스장",
+      "고소",
+      "선결제까지",
+      "했는데"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "선결제",
+        "terms": [
+          "선결제"
+        ]
+      },
+      {
+        "name": "유도한",
+        "terms": [
+          "유도한"
+        ]
+      },
+      {
+        "name": "먹튀",
+        "terms": [
+          "먹튀"
+        ]
+      },
+      {
+        "name": "나주",
+        "terms": [
+          "나주"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "contradictions": [],
+  "limit": 50,
+  "generatedFrom": "promoted-newsroom-candidate"
+}

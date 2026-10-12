@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-08T10:06:46.808Z",
+  "slug": "research-657380fce7eaccc9",
+  "versionId": "msk7ah24-20136-k4g3v4",
+  "status": "approved",
+  "publishable": true,
+  "uploadBlocked": false,
+  "renderSha256": "d5b12b315721eaa69ffd5be90d4b5c7faeb0a92f64464146b5c793ddcc2df832",
+  "thumbnailSha256": "4cd04acc6c92f98338498741f460073ffb84f257a5759f3df9b27e97baa07dc9",
+  "handoffSha256": "8e7b1262ad06897166bba0f091a1c3139757824ea31e79e5e696878b84e8639d",
+  "renderRegistrySha256": "6f7972bbdf2fdf00e7f94db22c354c6df50994780c70588090683c75fa415818",
+  "scriptSha256": "1e79b194c356f52ef41dc010c60b11c3b56abc4c2c1f808a933c0cad31c4aba2",
+  "renderPath": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\out\\coffee-pesticide-hospital-short-v1-msk7ah24-20136-k4g3v4.mp4",
+  "thumbnailPath": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\out\\coffee-pesticide-hospital-short-v1-msk7ah24-20136-k4g3v4-0_5.png",
+  "checks": [
+    {
+      "id": "script-finalized",
+      "category": "대본",
+      "label": "최종 대본이 확정됨",
+      "status": "passed",
+      "evidence": {
+        "finalized": true,
+        "characters": 475
+      }
+    },
+    {
+      "id": "render-integrity",
+      "category": "영상",
+      "label": "완성 영상 파일과 버전이 존재함",
+      "status": "passed",
+      "evidence": {
+        "versionId": "msk7ah24-20136-k4g3v4",
+        "renderPath": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\out\\coffee-pesticide-hospital-short-v1-msk7ah24-20136-k4g3v4.mp4",
+        "renderSha256": "d5b12b315721eaa69ffd5be90d4b5c7faeb0a92f64464146b5c793ddcc2df832"
+      }
+    },
+    {
+      "id": "thumbnail-integrity",
+      "category": "표지",
+      "label": "썸네일 파일이 존재함",
+      "status": "passed",
+      "evidence": {
+        "thumbnailPath": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\out\\coffee-pesticide-hospital-short-v1-msk7ah24-20136-k4g3v4-0_5.png"
+      }
+    },
+    {
+      "id": "handoff-integrity",
+      "category": "source",
+      "label": "Exact editable handoff binding",
+      "status": "passed",
+      "evidence": {
+        "handoffPath": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\out\\registry\\versions\\msk7ah24-20136-k4g3v4.handoff.json",
+        "handoffSha256": "8e7b1262ad06897166bba0f091a1c3139757824ea31e79e5e696878b84e8639d"
+      }
+    },
+    {
+      "id": "editorial-verification",
+      "category": "사실",
+      "label": "추가 확인 항목 검토",
+      "status": "warning",
+      "evidence": {
+        "missing": [
+          "기사 원문 사실 확인",
+          "독립 출처 교차 검증",
+          "당사자·기관 반론",
+          "02 Context/Legal 인계 검토"
+        ]
+      }
+    },
+    {
+      "id": "human-playback-approval",
+      "category": "사람 검수",
+      "label": "최종 영상 재생 검수",
+      "status": "passed",
+      "evidence": {
+        "schemaVersion": 2,
+        "approved": true,
+        "approvedAt": "2026-08-08T10:06:46.786Z",
+        "reviewer": "local-owner-public-upload-request",
+        "versionId": "msk7ah24-20136-k4g3v4",
+        "renderSha256": "d5b12b315721eaa69ffd5be90d4b5c7faeb0a92f64464146b5c793ddcc2df832",
+        "thumbnailSha256": "4cd04acc6c92f98338498741f460073ffb84f257a5759f3df9b27e97baa07dc9",
+        "handoffSha256": "8e7b1262ad06897166bba0f091a1c3139757824ea31e79e5e696878b84e8639d",
+        "renderRegistrySha256": "6f7972bbdf2fdf00e7f94db22c354c6df50994780c70588090683c75fa415818",
+        "scriptSha256": "1e79b194c356f52ef41dc010c60b11c3b56abc4c2c1f808a933c0cad31c4aba2"
+      }
+    }
+  ],
+  "blockers": [],
+  "warnings": [
+    {
+      "id": "verification-1",
+      "claim": "기사 원문 사실 확인"
+    },
+    {
+      "id": "verification-2",
+      "claim": "독립 출처 교차 검증"
+    },
+    {
+      "id": "verification-3",
+      "claim": "당사자·기관 반론"
+    },
+    {
+      "id": "verification-4",
+      "claim": "02 Context/Legal 인계 검토"
+    }
+  ],
+  "approval": {
+    "schemaVersion": 2,
+    "approved": true,
+    "approvedAt": "2026-08-08T10:06:46.786Z",
+    "reviewer": "local-owner-public-upload-request",
+    "versionId": "msk7ah24-20136-k4g3v4",
+    "renderSha256": "d5b12b315721eaa69ffd5be90d4b5c7faeb0a92f64464146b5c793ddcc2df832",
+    "thumbnailSha256": "4cd04acc6c92f98338498741f460073ffb84f257a5759f3df9b27e97baa07dc9",
+    "handoffSha256": "8e7b1262ad06897166bba0f091a1c3139757824ea31e79e5e696878b84e8639d",
+    "renderRegistrySha256": "6f7972bbdf2fdf00e7f94db22c354c6df50994780c70588090683c75fa415818",
+    "scriptSha256": "1e79b194c356f52ef41dc010c60b11c3b56abc4c2c1f808a933c0cad31c4aba2"
+  }
+}

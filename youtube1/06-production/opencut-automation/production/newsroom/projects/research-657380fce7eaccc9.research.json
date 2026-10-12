@@ -1,0 +1,2934 @@
+{
+  "slug": "research-657380fce7eaccc9",
+  "topic": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+  "mode": "investigation",
+  "fetchedAt": "2026-08-06T23:47:09.176Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-657380fce7eaccc9.research.config.json",
+    "queries": [
+      "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+      "직장 동료 커피에",
+      "직장 동료",
+      "직장 동료 몰래 간호조무사",
+      "직장 동료 경찰 신고 수사 처분",
+      "직장 동료 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "서울신문",
+      "title": "직장 동료 커피에 몰래 살충제 탄 50대 간호조무사",
+      "url": "https://www.seoul.co.kr/news/society/law/2025/09/29/20250929500264",
+      "extractedClaims": [
+        {
+          "field": "incidentDate",
+          "value": "2025-03-28",
+          "date": "2025-03-28",
+          "category": "confirmedFacts",
+          "summary": "2025년 3월 28일경 구리시의 한 한의원에서 간호조무사가 동료의 커피에 살충제를 넣었다고 보도됐다."
+        },
+        {
+          "field": "firstTrial",
+          "value": "2025-09-29",
+          "date": "2025-09-29",
+          "category": "trialStagesAndSentenceChanges",
+          "perspective": "court",
+          "summary": "2025년 9월 29일 1심은 특수상해를 인정해 징역 2년을 선고했다."
+        },
+        {
+          "field": "prosecutionTheory",
+          "value": "attempted-murder",
+          "category": "prosecutionClaims",
+          "perspective": "prosecution",
+          "summary": "검찰은 커피에 살충제를 넣은 행위가 살인미수에 해당한다고 주장했다."
+        },
+        {
+          "field": "defenseTheory",
+          "value": "no-murder-intent",
+          "category": "defenseClaims",
+          "perspective": "defense",
+          "summary": "피고인 측은 살인의 고의가 없었다는 취지로 다퉜다."
+        },
+        {
+          "field": "courtFinding",
+          "value": "special-injury",
+          "category": "courtFindings",
+          "perspective": "court",
+          "summary": "재판부는 살인미수는 증명되지 않았고 특수상해만 인정된다고 판단했다."
+        },
+        {
+          "field": "incidentOpportunity",
+          "value": "victim-away-from-seat",
+          "category": "confirmedFacts",
+          "detailGroup": "execution",
+          "summary": "A씨는 피해자 B씨가 자리를 비운 사이 커피에 살충제를 탔다."
+        },
+        {
+          "field": "substanceSource",
+          "value": "clinic-agricultural-pesticide",
+          "category": "confirmedFacts",
+          "detailGroup": "preparation",
+          "summary": "사용된 물질은 벌레 퇴치용으로 한의원에 보관돼 있던 농사용 살충제였다."
+        },
+        {
+          "field": "substanceRisk",
+          "value": "mucosal-and-systemic-symptoms",
+          "category": "confirmedFacts",
+          "detailGroup": "preparation",
+          "summary": "해당 살충제에는 과량 노출 시 점막 자극, 오심·구토, 무호흡, 감각 이상, 심계항진 등을 일으킬 수 있는 성분이 포함된 것으로 보도됐다."
+        },
+        {
+          "field": "victimDiscovery",
+          "value": "abnormal-taste-stopped-drinking",
+          "category": "victimImpact",
+          "detailGroup": "discovery",
+          "summary": "B씨는 약 10분 뒤 돌아와 커피를 마시다가 맛이 이상하다고 느껴 음용을 중단했다."
+        },
+        {
+          "field": "victimInjury",
+          "value": "gastrointestinal-and-anxiety-disorders",
+          "category": "victimImpact",
+          "detailGroup": "harm",
+          "summary": "B씨에게 치료일수가 특정되지 않은 위장장애와 불안장애가 생긴 것으로 보도됐다."
+        },
+        {
+          "field": "firstTrialMitigation",
+          "value": "no-record-minor-injury-deposit",
+          "category": "courtFindings",
+          "perspective": "court",
+          "detailGroup": "judgment",
+          "summary": "1심은 전과가 없는 점, 상해 정도가 비교적 가벼운 점, 피해자가 수령을 거부했지만 2000만원을 공탁한 점을 양형에 고려했다."
+        }
+      ],
+      "date": "2025-09-29T16:27:29+09:00",
+      "status": "verified",
+      "snippet": "평소 관계가 좋지 않았던 직장 동료의 커피에 살충제를 탄 50대 여성 간호조무사가 실형을 선고받았다. 29일 뉴시스에 따르면 의정부지법 남양주지원 형사1부(부장 김국식)는 살인미수 혐의로 기소된 A(54)씨에게 징역 2년을 선고했다고 밝혔다. A씨는 지난 3월 28일 경기 구리시의 한 ...",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "직장",
+          "동료",
+          "커피에",
+          "몰래",
+          "살충제",
+          "50대",
+          "간호조무사"
+        ],
+        "snippetLength": 163
+      },
+      "fetchedAt": "2026-08-06T23:47:09.178Z"
+    }
+  ],
+  "relatedCoverage": [
+    {
+      "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 징역 2년",
+      "url": "https://www.newsis.com/view/NISX20250929_0003348677",
+      "publisher": "뉴시스",
+      "date": "2025-09-29T17:30:24+09:00",
+      "status": "verified",
+      "snippet": "[남양주=뉴시스]이호진 기자 = 평소 업무 문제로 관계가 좋지 않았던 동료 간호조무사의 커피에 살충제를 탄 간호조무사에게 실형이 선고됐다.의정부지법 남양주지원 형사1부(부장판사 김국식)는 살인미수 혐의로 기소된 A(54·여)씨에게 징역 2년을 선고했다고 29일 밝혔다.다만 재판부는 A씨에게 살인의 고의가 있다고 판단하기 어렵다며 살인미수에 대해서는 무죄를 ..",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "직장",
+          "동료",
+          "커피에",
+          "몰래",
+          "살충제",
+          "간호조무사",
+          "징역",
+          "2년"
+        ],
+        "snippetLength": 202
+      },
+      "fetchedAt": "2026-08-06T23:47:09.183Z",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 1,
+        "matchedAnchors": [
+          "커피에",
+          "몰래",
+          "살충제",
+          "간호조무사",
+          "살충제를",
+          "커피",
+          "항소"
+        ],
+        "matchedDistinctiveAnchors": [
+          "커피",
+          "살충제",
+          "간호조무사",
+          "항소"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "커피에",
+            "몰래",
+            "살충제",
+            "간호조무사",
+            "2심서",
+            "감형",
+            "동료의",
+            "살충제를"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "커피",
+              "terms": [
+                "커피",
+                "음료",
+                "컵",
+                "카페"
+              ]
+            },
+            {
+              "name": "살충제",
+              "terms": [
+                "살충제",
+                "농약",
+                "독극물",
+                "독성물질",
+                "제초제"
+              ]
+            },
+            {
+              "name": "간호조무사",
+              "terms": [
+                "간호조무사",
+                "간호사",
+                "병원 직원",
+                "의료인"
+              ]
+            },
+            {
+              "name": "항소",
+              "terms": [
+                "항소",
+                "2심",
+                "2심",
+                "이심",
+                "감형",
+                "선고"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 3,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      },
+      "extractedClaims": [
+        {
+          "field": "incidentDate",
+          "value": "2025-03-28",
+          "date": "2025-03-28",
+          "category": "confirmedFacts",
+          "summary": "뉴시스 원문은 사건일을 2025년 3월 28일로 보도했다."
+        },
+        {
+          "field": "firstTrial",
+          "value": "2025-09-29",
+          "date": "2025-09-29",
+          "category": "trialStagesAndSentenceChanges",
+          "perspective": "court",
+          "summary": "2025년 9월 29일 1심은 특수상해를 인정해 징역 2년을 선고했다."
+        },
+        {
+          "field": "prosecutionTheory",
+          "value": "attempted-murder",
+          "category": "prosecutionClaims",
+          "perspective": "prosecution",
+          "summary": "검찰은 커피에 살충제를 넣은 행위가 살인미수에 해당한다고 주장했다."
+        },
+        {
+          "field": "courtFinding",
+          "value": "special-injury",
+          "category": "courtFindings",
+          "perspective": "court",
+          "summary": "재판부는 사용량과 치사 가능성이 충분히 증명되지 않아 살인미수를 인정하지 않고 특수상해만 인정했다."
+        },
+        {
+          "field": "defenseAmountClaim",
+          "value": "one-third-bottle-cap",
+          "category": "defenseClaims",
+          "perspective": "defense",
+          "detailGroup": "execution",
+          "summary": "A씨는 배탈이 나게 하려는 생각으로 생수병 뚜껑의 약 3분의 1 정도 분량을 넣었다고 주장했다."
+        },
+        {
+          "field": "preparationFinding",
+          "value": "bought-long-before-for-pest-control",
+          "category": "courtFindings",
+          "perspective": "court",
+          "detailGroup": "preparation",
+          "summary": "재판부는 살충제가 범행을 위해 새로 준비된 것이 아니라 해충을 잡기 위해 오래전에 가져다 둔 물질이라고 봤다."
+        },
+        {
+          "field": "lethalityResearch",
+          "value": "no-search-evidence",
+          "category": "courtFindings",
+          "perspective": "court",
+          "detailGroup": "judgment",
+          "summary": "범행 전에 살충제의 효과나 치사량을 검색했다는 증거도 확인되지 않았다."
+        }
+      ],
+      "kind": "same-event",
+      "mediaType": "article",
+      "relationshipReason": "같은 피고인·같은 구리시 의료기관·같은 1심 판결을 독립 기사로 보도한 동일 사건 자료"
+    },
+    {
+      "title": "동료 커피에 살충제 넣은 간호조무사, 징역 2년 실형",
+      "url": "https://www.khan.co.kr/article/202509291900001",
+      "publisher": "경향신문",
+      "date": "2025-09-29T19:00:00+09:00",
+      "status": "verified",
+      "snippet": "동료의 커피에 살충제를 넣은 간호조무사가 실형을 선고받았다. 29일 법조계에 따르면 의정부지법 남양주지원 형사1부(재판장 김국식)는 살인미수 혐의로 재판에 넘겨진 A씨(50대)에게 특수상해죄를 적용해 징역 2년을 선고했다. A씨는 지난 3월 경기도 구리시의 한 병원에서 동료 B씨의 커피에 몰래 살충제를 넣어 위장장애 등 상해를 입힌 혐의로 기소됐다. ...",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "동료",
+          "커피에",
+          "살충제",
+          "넣은",
+          "간호조무사",
+          "징역",
+          "2년",
+          "실형"
+        ],
+        "snippetLength": 200
+      },
+      "fetchedAt": "2026-08-06T23:47:09.183Z",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 1,
+        "matchedAnchors": [
+          "커피에",
+          "몰래",
+          "살충제",
+          "간호조무사",
+          "동료의",
+          "살충제를",
+          "커피",
+          "항소"
+        ],
+        "matchedDistinctiveAnchors": [
+          "커피",
+          "살충제",
+          "간호조무사",
+          "항소"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "커피에",
+            "몰래",
+            "살충제",
+            "간호조무사",
+            "2심서",
+            "감형",
+            "동료의",
+            "살충제를"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "커피",
+              "terms": [
+                "커피",
+                "음료",
+                "컵",
+                "카페"
+              ]
+            },
+            {
+              "name": "살충제",
+              "terms": [
+                "살충제",
+                "농약",
+                "독극물",
+                "독성물질",
+                "제초제"
+              ]
+            },
+            {
+              "name": "간호조무사",
+              "terms": [
+                "간호조무사",
+                "간호사",
+                "병원 직원",
+                "의료인"
+              ]
+            },
+            {
+              "name": "항소",
+              "terms": [
+                "항소",
+                "2심",
+                "2심",
+                "이심",
+                "감형",
+                "선고"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 3,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      },
+      "extractedClaims": [
+        {
+          "field": "motiveContext",
+          "value": "workplace-conflict",
+          "category": "reportedFacts",
+          "summary": "피고인과 피해자는 업무 문제로 갈등을 겪었고 피고인이 홧김에 범행한 것으로 조사됐다고 보도했다."
+        },
+        {
+          "field": "courtReason",
+          "value": "lethal-dose-unproven",
+          "category": "courtFindings",
+          "perspective": "court",
+          "summary": "재판부는 투입량이 치사량인지 알 수 없다고 보면서도 수법·동기·관계를 고려해 죄질이 좋지 않다고 판단했다."
+        }
+      ],
+      "kind": "same-event",
+      "mediaType": "article",
+      "relationshipReason": "같은 남양주지원 1심을 별도 매체가 확인한 동일 사건 보도"
+    },
+    {
+      "title": "동료 커피에 ‘살충제’ 탄 간호조무사 징역 2년…살인미수는 ‘무죄’, 왜? - 매일경제",
+      "url": "https://www.mk.co.kr/news/society/11432341",
+      "publisher": "매일경제",
+      "date": "2025-09-29T19:36:52+09:00",
+      "status": "verified",
+      "snippet": "평소 사이가 좋지 않던 동료 간호조무사의 커피에 살충제를 탄 50대 간호조무사가 실형을 선고 받았다. 의정부지법 남양주지원 형사1부(김국식 부장판사)는 살인미수 혐의로 기소된 피고인 A(54)씨에게 징역 2년을 선고했다고 29일 밝혔다. 단, 재판부는 A 씨에 대해 살인의 고의가 있다고 판단하기 어렵다고 보고 살인미수 혐의에 대해 무죄를 선고하고 대신 특수",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "동료",
+          "커피에",
+          "살충제",
+          "간호조무사",
+          "징역",
+          "2년",
+          "살인미수는",
+          "무죄"
+        ],
+        "snippetLength": 200
+      },
+      "fetchedAt": "2026-08-06T23:47:09.183Z",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 1,
+        "matchedAnchors": [
+          "커피에",
+          "살충제",
+          "간호조무사",
+          "살충제를",
+          "커피",
+          "항소"
+        ],
+        "matchedDistinctiveAnchors": [
+          "커피",
+          "살충제",
+          "간호조무사",
+          "항소"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "커피에",
+            "몰래",
+            "살충제",
+            "간호조무사",
+            "2심서",
+            "감형",
+            "동료의",
+            "살충제를"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "커피",
+              "terms": [
+                "커피",
+                "음료",
+                "컵",
+                "카페"
+              ]
+            },
+            {
+              "name": "살충제",
+              "terms": [
+                "살충제",
+                "농약",
+                "독극물",
+                "독성물질",
+                "제초제"
+              ]
+            },
+            {
+              "name": "간호조무사",
+              "terms": [
+                "간호조무사",
+                "간호사",
+                "병원 직원",
+                "의료인"
+              ]
+            },
+            {
+              "name": "항소",
+              "terms": [
+                "항소",
+                "2심",
+                "2심",
+                "이심",
+                "감형",
+                "선고"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 3,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      },
+      "extractedClaims": [
+        {
+          "field": "relationshipConflict",
+          "value": "instruction-and-reprimand",
+          "category": "confirmedFacts",
+          "detailGroup": "background",
+          "summary": "A씨는 B씨가 평소 일방적으로 업무를 가르치고 핀잔을 주는 데 불만을 품었다."
+        },
+        {
+          "field": "incidentDate",
+          "value": "2025-03-29",
+          "date": "2025-03-29",
+          "category": "confirmedFacts",
+          "summary": "매일경제는 사건일을 2025년 3월 29일로 보도해 다른 기사들의 3월 28일 보도와 하루 차이가 난다."
+        }
+      ],
+      "kind": "same-event",
+      "mediaType": "article",
+      "relationshipReason": "살인미수 무죄와 특수상해 인정 이유를 별도 매체가 설명한 동일 사건 보도"
+    }
+  ],
+  "priorContext": [],
+  "followUps": [
+    {
+      "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+      "url": "https://www.newsis.com/view/NISX20260806_0003738534",
+      "publisher": "뉴시스",
+      "date": "2026-08-06T11:56:24+09:00",
+      "status": "verified",
+      "snippet": "[서울=뉴시스]홍연우 기자 = 평소 업무 문제로 관계가 좋지 않았던 동료 간호조무사의 커피에 살충제를 탄 간호조무사가 2심에서 징역형 집행유예로 감형됐다. 6일 법조계에 따르면 서울고법 형사7부(부장판사 구회근)는 50대 간호조무사 A씨 살인미수 혐의 항소심에서 최근 징역 1년 6개월에 집행유예 3년을 선고했다. 징역 2년의 실형을 선고한 1심보다 대폭 감..",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "직장",
+          "동료",
+          "커피에",
+          "몰래",
+          "살충제",
+          "간호조무사",
+          "2심서",
+          "감형"
+        ],
+        "snippetLength": 202
+      },
+      "fetchedAt": "2026-08-06T23:47:09.183Z",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 1,
+        "matchedAnchors": [
+          "커피에",
+          "몰래",
+          "살충제",
+          "간호조무사",
+          "2심서",
+          "감형",
+          "살충제를",
+          "커피",
+          "항소"
+        ],
+        "matchedDistinctiveAnchors": [
+          "커피",
+          "살충제",
+          "간호조무사",
+          "항소"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "커피에",
+            "몰래",
+            "살충제",
+            "간호조무사",
+            "2심서",
+            "감형",
+            "동료의",
+            "살충제를"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "커피",
+              "terms": [
+                "커피",
+                "음료",
+                "컵",
+                "카페"
+              ]
+            },
+            {
+              "name": "살충제",
+              "terms": [
+                "살충제",
+                "농약",
+                "독극물",
+                "독성물질",
+                "제초제"
+              ]
+            },
+            {
+              "name": "간호조무사",
+              "terms": [
+                "간호조무사",
+                "간호사",
+                "병원 직원",
+                "의료인"
+              ]
+            },
+            {
+              "name": "항소",
+              "terms": [
+                "항소",
+                "2심",
+                "2심",
+                "이심",
+                "감형",
+                "선고"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 3,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      },
+      "extractedClaims": [
+        {
+          "field": "appealSentence",
+          "value": "1y6m-suspended3y",
+          "date": "2026",
+          "category": "trialStagesAndSentenceChanges",
+          "perspective": "court",
+          "summary": "항소심은 1심의 징역 2년을 파기하고 징역 1년 6개월에 집행유예 3년을 선고했다."
+        },
+        {
+          "field": "appealFactor",
+          "value": "settlement-nonpunishment",
+          "date": "2026",
+          "category": "courtFindings",
+          "perspective": "court",
+          "detailGroup": "appeal",
+          "summary": "재판부는 피해자와의 합의와 처벌불원 의사를 항소심 양형 요소로 고려했다."
+        },
+        {
+          "field": "immediateTrigger",
+          "value": "argument-day-before",
+          "category": "confirmedFacts",
+          "detailGroup": "trigger",
+          "summary": "범행 전날 B씨가 A씨의 업무에 끼어든다는 이유로 두 사람이 화를 내며 말다툼했다."
+        },
+        {
+          "field": "appealMotiveFinding",
+          "value": "insufficient-murder-motive",
+          "category": "courtFindings",
+          "perspective": "court",
+          "detailGroup": "appeal",
+          "summary": "항소심은 업무 갈등과 전날 말다툼이 있었더라도 그것만으로 피해자를 살해할 동기가 충분하다고 보기는 어렵다고 판단했다."
+        },
+        {
+          "field": "appealQuantityFinding",
+          "value": "actual-amount-unproven",
+          "category": "courtFindings",
+          "perspective": "court",
+          "detailGroup": "appeal",
+          "summary": "항소심은 실제 투입량이 명확히 증명되지 않았고 시중 판매 제품을 음료에 몰래 탈 정도의 양만으로 사람을 살해하기 충분하다고 단정하기 어렵다고 봤다."
+        }
+      ],
+      "kind": "follow-up",
+      "mediaType": "article"
+    }
+  ],
+  "laws": [
+    {
+      "publisher": "국가법령정보센터",
+      "title": "판례 &gt; 살인미수·촉탁살인 | 국가법령정보센터",
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=98943",
+      "kind": "precedent",
+      "category": "precedent",
+      "court": "대법원",
+      "legalPrinciple": "음료에 농약 성분을 넣은 살인미수 사건에서 투입량, 독성, 음용 경위와 사망 가능성을 종합해 실행행위와 고의를 판단했다.",
+      "comparison": "현재 사건도 살인의 고의와 치사 가능성은 물질 종류만으로 단정하지 않고 투입량·독성 감정·검색이나 준비 정황·피고인 진술을 함께 봐야 한다.",
+      "expectedTokens": [
+        "살인미수",
+        "살충제"
+      ],
+      "date": null,
+      "status": "verified",
+      "snippet": "판례 &gt; 살인미수·촉탁살인 | 국가법령정보센터 자바스크립트를 지원하지 않아 일부 기능을 사용할 수 없습니다. 본문 바로가기 판례정보 본문 판시사항 판결요지 참조조문 참조판례 전문 관련자료 판례체계도 첨부파일 점자뷰어 화면내검색 팝업여부 카카오톡 페이스북 트위터 라인 주소복사 살인미수·촉탁살인 [대법원 1984. 2. 28. 선고 83도3331 판결] 【판시사항】 사용한 독물량이 일반적으로는 치사량미달인 경우와 사망의 결과발생 가능성 【판결요지】 이 사건 농약의 치사추정량이 쥐에 대한 것을 인체에 대하여 추정하는 극히 일반적 추상적인 것이어서 마시는 사람의 연령, 체질, 영양 기타의 신체의 상황여하에 따라 상당한 차이가 있을 수 있는 것이라면 피고인이 요구르트 한병마다 섞은 농약 1.6씨씨가 그 치사량에 약간 미달한다 하더라도 이를 마시는 경우 사망의 결과발생 가능성을 배제할 수는 없다고 할 것이다. 【참조조문】 형법 제27조 , 제250조 , 제254조 【전문】 【피 고 인】 【상 고 인】 피고인 【변 호 인】 변호사 서차수 【원심판결】 서울고등법원 1983.12.7. 선고 83노2272 판결 【주 문】 상고를 기각한다. 상고후의 구금일수중 35일을 본",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-authoritative-legal-source",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "대법원",
+          "판례",
+          "살인미수",
+          "촉탁살인",
+          "사건"
+        ],
+        "snippetLength": 600
+      },
+      "fetchedAt": "2026-08-06T23:47:13.663Z"
+    },
+    {
+      "publisher": "국가법령정보센터",
+      "title": "판례 &gt; 살인미수(인정된죄명:특수상해)·특수재물손괴 | 국가법령정보센터",
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=206273",
+      "kind": "precedent",
+      "category": "precedent",
+      "court": "대법원",
+      "legalPrinciple": "살인의 고의가 합리적 의심 없이 증명되지 않더라도 위험한 물건을 이용한 상해의 고의와 결과가 증명되면 특수상해가 성립할 수 있다.",
+      "comparison": "1심이 살인미수를 무죄로 보고 특수상해를 인정한 구조와 비교할 수 있으나 구체적 증거가 달라 형량을 직접 비교해서는 안 된다.",
+      "expectedTokens": [
+        "살인미수",
+        "특수상해"
+      ],
+      "date": null,
+      "status": "verified",
+      "snippet": "판례 &gt; 살인미수(인정된죄명:특수상해)·특수재물손괴 | 국가법령정보센터 자바스크립트를 지원하지 않아 일부 기능을 사용할 수 없습니다. 본문 바로가기 판례정보 본문 판시사항 판결요지 참조조문 참조판례 전문 관련자료 판례체계도 첨부파일 점자뷰어 화면내검색 팝업여부 카카오톡 페이스북 트위터 라인 주소복사 살인미수(인정된죄명:특수상해)·특수재물손괴 [서울고법 2019. 3. 28. 선고 2018노2557 판결 : 확정] 【판시사항】 피고인은 임대차 문제로 오랫동안 분쟁을 겪어 오던 甲을 향해 자동차를 급가속하여 돌진하였으나 甲을 직접 충격하지는 못하고 그 옆에 서 있던 乙을 그대로 들이받아 공중에 몸이 뜬 후 바닥에 떨어지게 하여 상해를 가함과 동시에 그곳에 주차된 丙 주식회사 소유의 차량을 들이받아 손괴하였고, 도망가는 甲을 쇠망치를 들고 쫓아가 甲을 향해 수차례 던지거나 휘두르면서 이를 제지하는 甲과 서로 붙잡고 몸싸움을 하는 과정에서 甲에게 상해를 가하였다고 하여 甲, 乙에 대한 각 살인미수 및 특수재물손괴의 공소사실로 기소된 사안에서, 공소사실 중 각 살인미수의 점을 무죄로 판단하고 甲, 乙에 대한 각 특수상해 및 특수재물손괴의 점을 유죄로 인정한 사례",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-authoritative-legal-source",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "판례",
+          "살인미수",
+          "특수상해"
+        ],
+        "snippetLength": 600
+      },
+      "fetchedAt": "2026-08-06T23:47:13.663Z"
+    }
+  ],
+  "actors": [
+    {
+      "id": "actor-accused",
+      "role": "피고인",
+      "anonymizedLabel": "간호조무사 A"
+    },
+    {
+      "id": "actor-victim",
+      "role": "피해자",
+      "anonymizedLabel": "동료 간호조무사 B"
+    }
+  ],
+  "contradictions": [
+    {
+      "field": "incidentDate",
+      "values": [
+        "2025-03-28",
+        "2025-03-29"
+      ],
+      "status": "disputed",
+      "note": "서울신문·뉴시스는 3월 28일, 매일경제는 3월 29일로 보도해 하루 차이가 있다."
+    }
+  ],
+  "unknowns": [
+    "공개 기사만으로는 살충제 제품명·정확한 성분 농도·투입량 감정 결과를 확인할 수 없다.",
+    "항소심 판결문 전문과 정확한 선고일, 사건번호는 현재 수집 기사에 제시되지 않았다.",
+    "피해자의 현재 건강 상태와 합의의 구체적 조건은 공개되지 않았다.",
+    "항소심 감형은 합의·처벌불원 등 보도된 양형 사유로 설명해야 하며 범행 자체가 가볍다고 판단했다고 확대해석해서는 안 된다.",
+    "사건 이전에 당사자들 사이에서 신고·징계·분쟁 절차가 있었는지는 확인되지 않았다."
+  ],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 3,
+    "priorContext": 0,
+    "originalMedia": 0,
+    "followUps": 1,
+    "laws": 2,
+    "errors": 0
+  },
+  "eventDossier": {
+    "schemaVersion": 3,
+    "slug": "research-657380fce7eaccc9",
+    "generatedAt": "2026-08-06T23:47:09.176Z",
+    "researchSnapshotSha256": "2d98183069d87a06b24b5e81294e86da18ad8d88b59ab81fe77dafcc4b9f0a86",
+    "eventIdentity": {
+      "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+      "fingerprint": null
+    },
+    "actors": [
+      {
+        "id": "actor-accused",
+        "role": "피고인",
+        "label": "간호조무사 A",
+        "anonymized": true
+      },
+      {
+        "id": "actor-victim",
+        "role": "피해자",
+        "label": "동료 간호조무사 B",
+        "anonymized": true
+      }
+    ],
+    "confirmedFacts": [
+      {
+        "id": "claim-e6f5fae4060c",
+        "summary": "2025년 3월 28일경 구리시의 한 한의원에서 간호조무사가 동료의 커피에 살충제를 넣었다고 보도됐다.",
+        "field": "incidentDate",
+        "value": "2025-03-28",
+        "date": "2025-03-28",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "execution",
+        "sourceIds": [
+          "src-c60f4372e10c",
+          "src-c112fde7ccd4"
+        ],
+        "agreement": {
+          "sourceCount": 2,
+          "independentPublisherCount": 2
+        },
+        "confidence": "corroborated",
+        "followUp": false
+      },
+      {
+        "id": "claim-dab432c2f2c8",
+        "summary": "A씨는 피해자 B씨가 자리를 비운 사이 커피에 살충제를 탔다.",
+        "field": "incidentOpportunity",
+        "value": "victim-away-from-seat",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "execution",
+        "sourceIds": [
+          "src-c60f4372e10c"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-b749b59d879f",
+        "summary": "사용된 물질은 벌레 퇴치용으로 한의원에 보관돼 있던 농사용 살충제였다.",
+        "field": "substanceSource",
+        "value": "clinic-agricultural-pesticide",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "preparation",
+        "sourceIds": [
+          "src-c60f4372e10c"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-7f53cbc5b3ba",
+        "summary": "해당 살충제에는 과량 노출 시 점막 자극, 오심·구토, 무호흡, 감각 이상, 심계항진 등을 일으킬 수 있는 성분이 포함된 것으로 보도됐다.",
+        "field": "substanceRisk",
+        "value": "mucosal-and-systemic-symptoms",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "preparation",
+        "sourceIds": [
+          "src-c60f4372e10c"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-67d53cfe1b17",
+        "summary": "A씨는 B씨가 평소 일방적으로 업무를 가르치고 핀잔을 주는 데 불만을 품었다.",
+        "field": "relationshipConflict",
+        "value": "instruction-and-reprimand",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "background",
+        "sourceIds": [
+          "src-64ccfee80ee1"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-c58d2bb8db7a",
+        "summary": "매일경제는 사건일을 2025년 3월 29일로 보도해 다른 기사들의 3월 28일 보도와 하루 차이가 난다.",
+        "field": "incidentDate",
+        "value": "2025-03-29",
+        "date": "2025-03-29",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-64ccfee80ee1"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-88cfb6a5c046",
+        "summary": "범행 전날 B씨가 A씨의 업무에 끼어든다는 이유로 두 사람이 화를 내며 말다툼했다.",
+        "field": "immediateTrigger",
+        "value": "argument-day-before",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "trigger",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      }
+    ],
+    "investigationAndCharges": [],
+    "trialStagesAndSentenceChanges": [
+      {
+        "id": "claim-fc54d3811ea6",
+        "summary": "2025년 9월 29일 1심은 특수상해를 인정해 징역 2년을 선고했다.",
+        "field": "firstTrial",
+        "value": "2025-09-29",
+        "date": "2025-09-29",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-c60f4372e10c",
+          "src-c112fde7ccd4"
+        ],
+        "agreement": {
+          "sourceCount": 2,
+          "independentPublisherCount": 2
+        },
+        "confidence": "corroborated",
+        "followUp": false
+      },
+      {
+        "id": "claim-9cfeb9654123",
+        "summary": "항소심은 1심의 징역 2년을 파기하고 징역 1년 6개월에 집행유예 3년을 선고했다.",
+        "field": "appealSentence",
+        "value": "1y6m-suspended3y",
+        "date": "2026",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "appeal",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      }
+    ],
+    "prosecutionClaims": [
+      {
+        "id": "claim-8157343e251a",
+        "summary": "검찰은 커피에 살충제를 넣은 행위가 살인미수에 해당한다고 주장했다.",
+        "field": "prosecutionTheory",
+        "value": "attempted-murder",
+        "perspective": "prosecution",
+        "status": "reported",
+        "detailGroup": "execution",
+        "sourceIds": [
+          "src-c60f4372e10c",
+          "src-c112fde7ccd4"
+        ],
+        "agreement": {
+          "sourceCount": 2,
+          "independentPublisherCount": 2
+        },
+        "confidence": "corroborated",
+        "followUp": false
+      }
+    ],
+    "defenseClaims": [
+      {
+        "id": "claim-cf7dfb7230b2",
+        "summary": "피고인 측은 살인의 고의가 없었다는 취지로 다퉜다.",
+        "field": "defenseTheory",
+        "value": "no-murder-intent",
+        "perspective": "defense",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-c60f4372e10c"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-5eb1d801bb3d",
+        "summary": "A씨는 배탈이 나게 하려는 생각으로 생수병 뚜껑의 약 3분의 1 정도 분량을 넣었다고 주장했다.",
+        "field": "defenseAmountClaim",
+        "value": "one-third-bottle-cap",
+        "perspective": "defense",
+        "status": "reported",
+        "detailGroup": "execution",
+        "sourceIds": [
+          "src-c112fde7ccd4"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "courtFindings": [
+      {
+        "id": "claim-f153168990f6",
+        "summary": "재판부는 살인미수는 증명되지 않았고 특수상해만 인정된다고 판단했다.",
+        "field": "courtFinding",
+        "value": "special-injury",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-c60f4372e10c",
+          "src-c112fde7ccd4"
+        ],
+        "agreement": {
+          "sourceCount": 2,
+          "independentPublisherCount": 2
+        },
+        "confidence": "corroborated",
+        "followUp": false
+      },
+      {
+        "id": "claim-51e7c6f85444",
+        "summary": "1심은 전과가 없는 점, 상해 정도가 비교적 가벼운 점, 피해자가 수령을 거부했지만 2000만원을 공탁한 점을 양형에 고려했다.",
+        "field": "firstTrialMitigation",
+        "value": "no-record-minor-injury-deposit",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "judgment",
+        "sourceIds": [
+          "src-c60f4372e10c"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-78beacf9f305",
+        "summary": "재판부는 살충제가 범행을 위해 새로 준비된 것이 아니라 해충을 잡기 위해 오래전에 가져다 둔 물질이라고 봤다.",
+        "field": "preparationFinding",
+        "value": "bought-long-before-for-pest-control",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "preparation",
+        "sourceIds": [
+          "src-c112fde7ccd4"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-42d2533b39a4",
+        "summary": "범행 전에 살충제의 효과나 치사량을 검색했다는 증거도 확인되지 않았다.",
+        "field": "lethalityResearch",
+        "value": "no-search-evidence",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "judgment",
+        "sourceIds": [
+          "src-c112fde7ccd4"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-2e0a2365006b",
+        "summary": "재판부는 투입량이 치사량인지 알 수 없다고 보면서도 수법·동기·관계를 고려해 죄질이 좋지 않다고 판단했다.",
+        "field": "courtReason",
+        "value": "lethal-dose-unproven",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "judgment",
+        "sourceIds": [
+          "src-0a3f3c4e81fb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-c1884fab54ee",
+        "summary": "재판부는 피해자와의 합의와 처벌불원 의사를 항소심 양형 요소로 고려했다.",
+        "field": "appealFactor",
+        "value": "settlement-nonpunishment",
+        "date": "2026",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "appeal",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-2f8533b04244",
+        "summary": "항소심은 업무 갈등과 전날 말다툼이 있었더라도 그것만으로 피해자를 살해할 동기가 충분하다고 보기는 어렵다고 판단했다.",
+        "field": "appealMotiveFinding",
+        "value": "insufficient-murder-motive",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "appeal",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-abb1e6d3aa2c",
+        "summary": "항소심은 실제 투입량이 명확히 증명되지 않았고 시중 판매 제품을 음료에 몰래 탈 정도의 양만으로 사람을 살해하기 충분하다고 단정하기 어렵다고 봤다.",
+        "field": "appealQuantityFinding",
+        "value": "actual-amount-unproven",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "appeal",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      }
+    ],
+    "victimImpact": [
+      {
+        "id": "claim-2635dd573b3a",
+        "summary": "B씨는 약 10분 뒤 돌아와 커피를 마시다가 맛이 이상하다고 느껴 음용을 중단했다.",
+        "field": "victimDiscovery",
+        "value": "abnormal-taste-stopped-drinking",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "discovery",
+        "sourceIds": [
+          "src-c60f4372e10c"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-1044e6a16af1",
+        "summary": "B씨에게 치료일수가 특정되지 않은 위장장애와 불안장애가 생긴 것으로 보도됐다.",
+        "field": "victimInjury",
+        "value": "gastrointestinal-and-anxiety-disorders",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-c60f4372e10c"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "timeline": [
+      {
+        "id": "claim-e6f5fae4060c",
+        "summary": "2025년 3월 28일경 구리시의 한 한의원에서 간호조무사가 동료의 커피에 살충제를 넣었다고 보도됐다.",
+        "field": "incidentDate",
+        "value": "2025-03-28",
+        "date": "2025-03-28",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "execution",
+        "sourceIds": [
+          "src-c60f4372e10c",
+          "src-c112fde7ccd4"
+        ],
+        "agreement": {
+          "sourceCount": 2,
+          "independentPublisherCount": 2
+        },
+        "confidence": "corroborated",
+        "followUp": false
+      },
+      {
+        "id": "claim-c58d2bb8db7a",
+        "summary": "매일경제는 사건일을 2025년 3월 29일로 보도해 다른 기사들의 3월 28일 보도와 하루 차이가 난다.",
+        "field": "incidentDate",
+        "value": "2025-03-29",
+        "date": "2025-03-29",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-64ccfee80ee1"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-fc54d3811ea6",
+        "summary": "2025년 9월 29일 1심은 특수상해를 인정해 징역 2년을 선고했다.",
+        "field": "firstTrial",
+        "value": "2025-09-29",
+        "date": "2025-09-29",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-c60f4372e10c",
+          "src-c112fde7ccd4"
+        ],
+        "agreement": {
+          "sourceCount": 2,
+          "independentPublisherCount": 2
+        },
+        "confidence": "corroborated",
+        "followUp": false
+      },
+      {
+        "id": "claim-9cfeb9654123",
+        "summary": "항소심은 1심의 징역 2년을 파기하고 징역 1년 6개월에 집행유예 3년을 선고했다.",
+        "field": "appealSentence",
+        "value": "1y6m-suspended3y",
+        "date": "2026",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "appeal",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-c1884fab54ee",
+        "summary": "재판부는 피해자와의 합의와 처벌불원 의사를 항소심 양형 요소로 고려했다.",
+        "field": "appealFactor",
+        "value": "settlement-nonpunishment",
+        "date": "2026",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "appeal",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      }
+    ],
+    "conflicts": [
+      {
+        "id": "conflict-1",
+        "field": "incidentDate",
+        "values": [
+          "2025-03-28",
+          "2025-03-29"
+        ],
+        "status": "disputed",
+        "sourceIds": [],
+        "note": "서울신문·뉴시스는 3월 28일, 매일경제는 3월 29일로 보도해 하루 차이가 있다."
+      }
+    ],
+    "unknowns": [
+      "공개 기사만으로는 살충제 제품명·정확한 성분 농도·투입량 감정 결과를 확인할 수 없다.",
+      "항소심 판결문 전문과 정확한 선고일, 사건번호는 현재 수집 기사에 제시되지 않았다.",
+      "피해자의 현재 건강 상태와 합의의 구체적 조건은 공개되지 않았다.",
+      "항소심 감형은 합의·처벌불원 등 보도된 양형 사유로 설명해야 하며 범행 자체가 가볍다고 판단했다고 확대해석해서는 안 된다.",
+      "사건 이전에 당사자들 사이에서 신고·징계·분쟁 절차가 있었는지는 확인되지 않았다."
+    ],
+    "laterChanges": [
+      {
+        "id": "claim-9cfeb9654123",
+        "summary": "항소심은 1심의 징역 2년을 파기하고 징역 1년 6개월에 집행유예 3년을 선고했다.",
+        "field": "appealSentence",
+        "value": "1y6m-suspended3y",
+        "date": "2026",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "appeal",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-c1884fab54ee",
+        "summary": "재판부는 피해자와의 합의와 처벌불원 의사를 항소심 양형 요소로 고려했다.",
+        "field": "appealFactor",
+        "value": "settlement-nonpunishment",
+        "date": "2026",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "appeal",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-88cfb6a5c046",
+        "summary": "범행 전날 B씨가 A씨의 업무에 끼어든다는 이유로 두 사람이 화를 내며 말다툼했다.",
+        "field": "immediateTrigger",
+        "value": "argument-day-before",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "trigger",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-2f8533b04244",
+        "summary": "항소심은 업무 갈등과 전날 말다툼이 있었더라도 그것만으로 피해자를 살해할 동기가 충분하다고 보기는 어렵다고 판단했다.",
+        "field": "appealMotiveFinding",
+        "value": "insufficient-murder-motive",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "appeal",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-abb1e6d3aa2c",
+        "summary": "항소심은 실제 투입량이 명확히 증명되지 않았고 시중 판매 제품을 음료에 몰래 탈 정도의 양만으로 사람을 살해하기 충분하다고 단정하기 어렵다고 봤다.",
+        "field": "appealQuantityFinding",
+        "value": "actual-amount-unproven",
+        "perspective": "court",
+        "status": "reported",
+        "detailGroup": "appeal",
+        "sourceIds": [
+          "src-657380fce7ea"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      }
+    ],
+    "narrative": {
+      "overview": [
+        {
+          "id": "claim-e6f5fae4060c",
+          "summary": "2025년 3월 28일경 구리시의 한 한의원에서 간호조무사가 동료의 커피에 살충제를 넣었다고 보도됐다.",
+          "field": "incidentDate",
+          "value": "2025-03-28",
+          "date": "2025-03-28",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "execution",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 2,
+            "independentPublisherCount": 2
+          },
+          "confidence": "corroborated",
+          "followUp": false
+        },
+        {
+          "id": "claim-fc54d3811ea6",
+          "summary": "2025년 9월 29일 1심은 특수상해를 인정해 징역 2년을 선고했다.",
+          "field": "firstTrial",
+          "value": "2025-09-29",
+          "date": "2025-09-29",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 2,
+            "independentPublisherCount": 2
+          },
+          "confidence": "corroborated",
+          "followUp": false
+        },
+        {
+          "id": "claim-8157343e251a",
+          "summary": "검찰은 커피에 살충제를 넣은 행위가 살인미수에 해당한다고 주장했다.",
+          "field": "prosecutionTheory",
+          "value": "attempted-murder",
+          "perspective": "prosecution",
+          "status": "reported",
+          "detailGroup": "execution",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 2,
+            "independentPublisherCount": 2
+          },
+          "confidence": "corroborated",
+          "followUp": false
+        },
+        {
+          "id": "claim-cf7dfb7230b2",
+          "summary": "피고인 측은 살인의 고의가 없었다는 취지로 다퉜다.",
+          "field": "defenseTheory",
+          "value": "no-murder-intent",
+          "perspective": "defense",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f153168990f6",
+          "summary": "재판부는 살인미수는 증명되지 않았고 특수상해만 인정된다고 판단했다.",
+          "field": "courtFinding",
+          "value": "special-injury",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 2,
+            "independentPublisherCount": 2
+          },
+          "confidence": "corroborated",
+          "followUp": false
+        },
+        {
+          "id": "claim-dab432c2f2c8",
+          "summary": "A씨는 피해자 B씨가 자리를 비운 사이 커피에 살충제를 탔다.",
+          "field": "incidentOpportunity",
+          "value": "victim-away-from-seat",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "execution",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-b749b59d879f",
+          "summary": "사용된 물질은 벌레 퇴치용으로 한의원에 보관돼 있던 농사용 살충제였다.",
+          "field": "substanceSource",
+          "value": "clinic-agricultural-pesticide",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "preparation",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-7f53cbc5b3ba",
+          "summary": "해당 살충제에는 과량 노출 시 점막 자극, 오심·구토, 무호흡, 감각 이상, 심계항진 등을 일으킬 수 있는 성분이 포함된 것으로 보도됐다.",
+          "field": "substanceRisk",
+          "value": "mucosal-and-systemic-symptoms",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "preparation",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "chronology": [
+        {
+          "id": "claim-e6f5fae4060c",
+          "summary": "2025년 3월 28일경 구리시의 한 한의원에서 간호조무사가 동료의 커피에 살충제를 넣었다고 보도됐다.",
+          "field": "incidentDate",
+          "value": "2025-03-28",
+          "date": "2025-03-28",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "execution",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 2,
+            "independentPublisherCount": 2
+          },
+          "confidence": "corroborated",
+          "followUp": false
+        },
+        {
+          "id": "claim-c58d2bb8db7a",
+          "summary": "매일경제는 사건일을 2025년 3월 29일로 보도해 다른 기사들의 3월 28일 보도와 하루 차이가 난다.",
+          "field": "incidentDate",
+          "value": "2025-03-29",
+          "date": "2025-03-29",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-64ccfee80ee1"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-fc54d3811ea6",
+          "summary": "2025년 9월 29일 1심은 특수상해를 인정해 징역 2년을 선고했다.",
+          "field": "firstTrial",
+          "value": "2025-09-29",
+          "date": "2025-09-29",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 2,
+            "independentPublisherCount": 2
+          },
+          "confidence": "corroborated",
+          "followUp": false
+        },
+        {
+          "id": "claim-9cfeb9654123",
+          "summary": "항소심은 1심의 징역 2년을 파기하고 징역 1년 6개월에 집행유예 3년을 선고했다.",
+          "field": "appealSentence",
+          "value": "1y6m-suspended3y",
+          "date": "2026",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "appeal",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-c1884fab54ee",
+          "summary": "재판부는 피해자와의 합의와 처벌불원 의사를 항소심 양형 요소로 고려했다.",
+          "field": "appealFactor",
+          "value": "settlement-nonpunishment",
+          "date": "2026",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "appeal",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        }
+      ],
+      "sameEventFindings": [
+        {
+          "id": "claim-e6f5fae4060c",
+          "summary": "2025년 3월 28일경 구리시의 한 한의원에서 간호조무사가 동료의 커피에 살충제를 넣었다고 보도됐다.",
+          "field": "incidentDate",
+          "value": "2025-03-28",
+          "date": "2025-03-28",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "execution",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 2,
+            "independentPublisherCount": 2
+          },
+          "confidence": "corroborated",
+          "followUp": false
+        },
+        {
+          "id": "claim-fc54d3811ea6",
+          "summary": "2025년 9월 29일 1심은 특수상해를 인정해 징역 2년을 선고했다.",
+          "field": "firstTrial",
+          "value": "2025-09-29",
+          "date": "2025-09-29",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 2,
+            "independentPublisherCount": 2
+          },
+          "confidence": "corroborated",
+          "followUp": false
+        },
+        {
+          "id": "claim-8157343e251a",
+          "summary": "검찰은 커피에 살충제를 넣은 행위가 살인미수에 해당한다고 주장했다.",
+          "field": "prosecutionTheory",
+          "value": "attempted-murder",
+          "perspective": "prosecution",
+          "status": "reported",
+          "detailGroup": "execution",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 2,
+            "independentPublisherCount": 2
+          },
+          "confidence": "corroborated",
+          "followUp": false
+        },
+        {
+          "id": "claim-cf7dfb7230b2",
+          "summary": "피고인 측은 살인의 고의가 없었다는 취지로 다퉜다.",
+          "field": "defenseTheory",
+          "value": "no-murder-intent",
+          "perspective": "defense",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f153168990f6",
+          "summary": "재판부는 살인미수는 증명되지 않았고 특수상해만 인정된다고 판단했다.",
+          "field": "courtFinding",
+          "value": "special-injury",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 2,
+            "independentPublisherCount": 2
+          },
+          "confidence": "corroborated",
+          "followUp": false
+        },
+        {
+          "id": "claim-dab432c2f2c8",
+          "summary": "A씨는 피해자 B씨가 자리를 비운 사이 커피에 살충제를 탔다.",
+          "field": "incidentOpportunity",
+          "value": "victim-away-from-seat",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "execution",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-b749b59d879f",
+          "summary": "사용된 물질은 벌레 퇴치용으로 한의원에 보관돼 있던 농사용 살충제였다.",
+          "field": "substanceSource",
+          "value": "clinic-agricultural-pesticide",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "preparation",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-7f53cbc5b3ba",
+          "summary": "해당 살충제에는 과량 노출 시 점막 자극, 오심·구토, 무호흡, 감각 이상, 심계항진 등을 일으킬 수 있는 성분이 포함된 것으로 보도됐다.",
+          "field": "substanceRisk",
+          "value": "mucosal-and-systemic-symptoms",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "preparation",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-2635dd573b3a",
+          "summary": "B씨는 약 10분 뒤 돌아와 커피를 마시다가 맛이 이상하다고 느껴 음용을 중단했다.",
+          "field": "victimDiscovery",
+          "value": "abnormal-taste-stopped-drinking",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "discovery",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-1044e6a16af1",
+          "summary": "B씨에게 치료일수가 특정되지 않은 위장장애와 불안장애가 생긴 것으로 보도됐다.",
+          "field": "victimInjury",
+          "value": "gastrointestinal-and-anxiety-disorders",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-51e7c6f85444",
+          "summary": "1심은 전과가 없는 점, 상해 정도가 비교적 가벼운 점, 피해자가 수령을 거부했지만 2000만원을 공탁한 점을 양형에 고려했다.",
+          "field": "firstTrialMitigation",
+          "value": "no-record-minor-injury-deposit",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "judgment",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-5eb1d801bb3d",
+          "summary": "A씨는 배탈이 나게 하려는 생각으로 생수병 뚜껑의 약 3분의 1 정도 분량을 넣었다고 주장했다.",
+          "field": "defenseAmountClaim",
+          "value": "one-third-bottle-cap",
+          "perspective": "defense",
+          "status": "reported",
+          "detailGroup": "execution",
+          "sourceIds": [
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-78beacf9f305",
+          "summary": "재판부는 살충제가 범행을 위해 새로 준비된 것이 아니라 해충을 잡기 위해 오래전에 가져다 둔 물질이라고 봤다.",
+          "field": "preparationFinding",
+          "value": "bought-long-before-for-pest-control",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "preparation",
+          "sourceIds": [
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-42d2533b39a4",
+          "summary": "범행 전에 살충제의 효과나 치사량을 검색했다는 증거도 확인되지 않았다.",
+          "field": "lethalityResearch",
+          "value": "no-search-evidence",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "judgment",
+          "sourceIds": [
+            "src-c112fde7ccd4"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-6bb8b287541f",
+          "summary": "피고인과 피해자는 업무 문제로 갈등을 겪었고 피고인이 홧김에 범행한 것으로 조사됐다고 보도했다.",
+          "field": "motiveContext",
+          "value": "workplace-conflict",
+          "perspective": "defense",
+          "status": "reported",
+          "detailGroup": "background",
+          "sourceIds": [
+            "src-0a3f3c4e81fb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-2e0a2365006b",
+          "summary": "재판부는 투입량이 치사량인지 알 수 없다고 보면서도 수법·동기·관계를 고려해 죄질이 좋지 않다고 판단했다.",
+          "field": "courtReason",
+          "value": "lethal-dose-unproven",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "judgment",
+          "sourceIds": [
+            "src-0a3f3c4e81fb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-67d53cfe1b17",
+          "summary": "A씨는 B씨가 평소 일방적으로 업무를 가르치고 핀잔을 주는 데 불만을 품었다.",
+          "field": "relationshipConflict",
+          "value": "instruction-and-reprimand",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "background",
+          "sourceIds": [
+            "src-64ccfee80ee1"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-c58d2bb8db7a",
+          "summary": "매일경제는 사건일을 2025년 3월 29일로 보도해 다른 기사들의 3월 28일 보도와 하루 차이가 난다.",
+          "field": "incidentDate",
+          "value": "2025-03-29",
+          "date": "2025-03-29",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-64ccfee80ee1"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "priorContext": [],
+      "followUpDevelopments": [
+        {
+          "id": "claim-9cfeb9654123",
+          "summary": "항소심은 1심의 징역 2년을 파기하고 징역 1년 6개월에 집행유예 3년을 선고했다.",
+          "field": "appealSentence",
+          "value": "1y6m-suspended3y",
+          "date": "2026",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "appeal",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-c1884fab54ee",
+          "summary": "재판부는 피해자와의 합의와 처벌불원 의사를 항소심 양형 요소로 고려했다.",
+          "field": "appealFactor",
+          "value": "settlement-nonpunishment",
+          "date": "2026",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "appeal",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-88cfb6a5c046",
+          "summary": "범행 전날 B씨가 A씨의 업무에 끼어든다는 이유로 두 사람이 화를 내며 말다툼했다.",
+          "field": "immediateTrigger",
+          "value": "argument-day-before",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "trigger",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-2f8533b04244",
+          "summary": "항소심은 업무 갈등과 전날 말다툼이 있었더라도 그것만으로 피해자를 살해할 동기가 충분하다고 보기는 어렵다고 판단했다.",
+          "field": "appealMotiveFinding",
+          "value": "insufficient-murder-motive",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "appeal",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-abb1e6d3aa2c",
+          "summary": "항소심은 실제 투입량이 명확히 증명되지 않았고 시중 판매 제품을 음료에 몰래 탈 정도의 양만으로 사람을 살해하기 충분하다고 단정하기 어렵다고 봤다.",
+          "field": "appealQuantityFinding",
+          "value": "actual-amount-unproven",
+          "perspective": "court",
+          "status": "reported",
+          "detailGroup": "appeal",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        }
+      ],
+      "detailSections": [
+        {
+          "id": "background",
+          "title": "갈등과 관계의 배경",
+          "description": "왜 갈등이 시작됐는지 확인된 범위",
+          "claims": [
+            {
+              "id": "claim-6bb8b287541f",
+              "summary": "피고인과 피해자는 업무 문제로 갈등을 겪었고 피고인이 홧김에 범행한 것으로 조사됐다고 보도했다.",
+              "field": "motiveContext",
+              "value": "workplace-conflict",
+              "perspective": "defense",
+              "status": "reported",
+              "detailGroup": "background",
+              "sourceIds": [
+                "src-0a3f3c4e81fb"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-67d53cfe1b17",
+              "summary": "A씨는 B씨가 평소 일방적으로 업무를 가르치고 핀잔을 주는 데 불만을 품었다.",
+              "field": "relationshipConflict",
+              "value": "instruction-and-reprimand",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "background",
+              "sourceIds": [
+                "src-64ccfee80ee1"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "trigger",
+          "title": "범행 직전의 직접 계기",
+          "description": "직전 상황과 감정적 촉발 요인",
+          "claims": [
+            {
+              "id": "claim-88cfb6a5c046",
+              "summary": "범행 전날 B씨가 A씨의 업무에 끼어든다는 이유로 두 사람이 화를 내며 말다툼했다.",
+              "field": "immediateTrigger",
+              "value": "argument-day-before",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "trigger",
+              "sourceIds": [
+                "src-657380fce7ea"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": true
+            }
+          ]
+        },
+        {
+          "id": "preparation",
+          "title": "도구와 준비 정황",
+          "description": "사용 물질의 출처·위험성과 사전 준비 여부",
+          "claims": [
+            {
+              "id": "claim-b749b59d879f",
+              "summary": "사용된 물질은 벌레 퇴치용으로 한의원에 보관돼 있던 농사용 살충제였다.",
+              "field": "substanceSource",
+              "value": "clinic-agricultural-pesticide",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "preparation",
+              "sourceIds": [
+                "src-c60f4372e10c"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-7f53cbc5b3ba",
+              "summary": "해당 살충제에는 과량 노출 시 점막 자극, 오심·구토, 무호흡, 감각 이상, 심계항진 등을 일으킬 수 있는 성분이 포함된 것으로 보도됐다.",
+              "field": "substanceRisk",
+              "value": "mucosal-and-systemic-symptoms",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "preparation",
+              "sourceIds": [
+                "src-c60f4372e10c"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-78beacf9f305",
+              "summary": "재판부는 살충제가 범행을 위해 새로 준비된 것이 아니라 해충을 잡기 위해 오래전에 가져다 둔 물질이라고 봤다.",
+              "field": "preparationFinding",
+              "value": "bought-long-before-for-pest-control",
+              "perspective": "court",
+              "status": "reported",
+              "detailGroup": "preparation",
+              "sourceIds": [
+                "src-c112fde7ccd4"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "execution",
+          "title": "실행 방식과 당시 상황",
+          "description": "언제 어디서 어떤 틈을 이용했는지",
+          "claims": [
+            {
+              "id": "claim-e6f5fae4060c",
+              "summary": "2025년 3월 28일경 구리시의 한 한의원에서 간호조무사가 동료의 커피에 살충제를 넣었다고 보도됐다.",
+              "field": "incidentDate",
+              "value": "2025-03-28",
+              "date": "2025-03-28",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "execution",
+              "sourceIds": [
+                "src-c60f4372e10c",
+                "src-c112fde7ccd4"
+              ],
+              "agreement": {
+                "sourceCount": 2,
+                "independentPublisherCount": 2
+              },
+              "confidence": "corroborated",
+              "followUp": false
+            },
+            {
+              "id": "claim-8157343e251a",
+              "summary": "검찰은 커피에 살충제를 넣은 행위가 살인미수에 해당한다고 주장했다.",
+              "field": "prosecutionTheory",
+              "value": "attempted-murder",
+              "perspective": "prosecution",
+              "status": "reported",
+              "detailGroup": "execution",
+              "sourceIds": [
+                "src-c60f4372e10c",
+                "src-c112fde7ccd4"
+              ],
+              "agreement": {
+                "sourceCount": 2,
+                "independentPublisherCount": 2
+              },
+              "confidence": "corroborated",
+              "followUp": false
+            },
+            {
+              "id": "claim-dab432c2f2c8",
+              "summary": "A씨는 피해자 B씨가 자리를 비운 사이 커피에 살충제를 탔다.",
+              "field": "incidentOpportunity",
+              "value": "victim-away-from-seat",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "execution",
+              "sourceIds": [
+                "src-c60f4372e10c"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-5eb1d801bb3d",
+              "summary": "A씨는 배탈이 나게 하려는 생각으로 생수병 뚜껑의 약 3분의 1 정도 분량을 넣었다고 주장했다.",
+              "field": "defenseAmountClaim",
+              "value": "one-third-bottle-cap",
+              "perspective": "defense",
+              "status": "reported",
+              "detailGroup": "execution",
+              "sourceIds": [
+                "src-c112fde7ccd4"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "discovery",
+          "title": "피해자가 알아챈 과정",
+          "description": "음용과 이상 징후, 즉시 대응",
+          "claims": [
+            {
+              "id": "claim-2635dd573b3a",
+              "summary": "B씨는 약 10분 뒤 돌아와 커피를 마시다가 맛이 이상하다고 느껴 음용을 중단했다.",
+              "field": "victimDiscovery",
+              "value": "abnormal-taste-stopped-drinking",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "discovery",
+              "sourceIds": [
+                "src-c60f4372e10c"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "harm",
+          "title": "피해와 후유증",
+          "description": "신체·정신적 피해와 공개되지 않은 범위",
+          "claims": [
+            {
+              "id": "claim-fc54d3811ea6",
+              "summary": "2025년 9월 29일 1심은 특수상해를 인정해 징역 2년을 선고했다.",
+              "field": "firstTrial",
+              "value": "2025-09-29",
+              "date": "2025-09-29",
+              "perspective": "court",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-c60f4372e10c",
+                "src-c112fde7ccd4"
+              ],
+              "agreement": {
+                "sourceCount": 2,
+                "independentPublisherCount": 2
+              },
+              "confidence": "corroborated",
+              "followUp": false
+            },
+            {
+              "id": "claim-f153168990f6",
+              "summary": "재판부는 살인미수는 증명되지 않았고 특수상해만 인정된다고 판단했다.",
+              "field": "courtFinding",
+              "value": "special-injury",
+              "perspective": "court",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-c60f4372e10c",
+                "src-c112fde7ccd4"
+              ],
+              "agreement": {
+                "sourceCount": 2,
+                "independentPublisherCount": 2
+              },
+              "confidence": "corroborated",
+              "followUp": false
+            },
+            {
+              "id": "claim-1044e6a16af1",
+              "summary": "B씨에게 치료일수가 특정되지 않은 위장장애와 불안장애가 생긴 것으로 보도됐다.",
+              "field": "victimInjury",
+              "value": "gastrointestinal-and-anxiety-disorders",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-c60f4372e10c"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "investigation",
+          "title": "수사와 양측 주장",
+          "description": "적용 혐의와 검찰·피고인 측 주장",
+          "claims": [
+            {
+              "id": "claim-cf7dfb7230b2",
+              "summary": "피고인 측은 살인의 고의가 없었다는 취지로 다퉜다.",
+              "field": "defenseTheory",
+              "value": "no-murder-intent",
+              "perspective": "defense",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-c60f4372e10c"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "judgment",
+          "title": "1심 판단과 양형 이유",
+          "description": "인정된 죄명과 판단 근거",
+          "claims": [
+            {
+              "id": "claim-51e7c6f85444",
+              "summary": "1심은 전과가 없는 점, 상해 정도가 비교적 가벼운 점, 피해자가 수령을 거부했지만 2000만원을 공탁한 점을 양형에 고려했다.",
+              "field": "firstTrialMitigation",
+              "value": "no-record-minor-injury-deposit",
+              "perspective": "court",
+              "status": "reported",
+              "detailGroup": "judgment",
+              "sourceIds": [
+                "src-c60f4372e10c"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-42d2533b39a4",
+              "summary": "범행 전에 살충제의 효과나 치사량을 검색했다는 증거도 확인되지 않았다.",
+              "field": "lethalityResearch",
+              "value": "no-search-evidence",
+              "perspective": "court",
+              "status": "reported",
+              "detailGroup": "judgment",
+              "sourceIds": [
+                "src-c112fde7ccd4"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-2e0a2365006b",
+              "summary": "재판부는 투입량이 치사량인지 알 수 없다고 보면서도 수법·동기·관계를 고려해 죄질이 좋지 않다고 판단했다.",
+              "field": "courtReason",
+              "value": "lethal-dose-unproven",
+              "perspective": "court",
+              "status": "reported",
+              "detailGroup": "judgment",
+              "sourceIds": [
+                "src-0a3f3c4e81fb"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "appeal",
+          "title": "항소심 변화와 이유",
+          "description": "형이 달라진 결과와 확인된 감형 요소",
+          "claims": [
+            {
+              "id": "claim-9cfeb9654123",
+              "summary": "항소심은 1심의 징역 2년을 파기하고 징역 1년 6개월에 집행유예 3년을 선고했다.",
+              "field": "appealSentence",
+              "value": "1y6m-suspended3y",
+              "date": "2026",
+              "perspective": "court",
+              "status": "reported",
+              "detailGroup": "appeal",
+              "sourceIds": [
+                "src-657380fce7ea"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": true
+            },
+            {
+              "id": "claim-c1884fab54ee",
+              "summary": "재판부는 피해자와의 합의와 처벌불원 의사를 항소심 양형 요소로 고려했다.",
+              "field": "appealFactor",
+              "value": "settlement-nonpunishment",
+              "date": "2026",
+              "perspective": "court",
+              "status": "reported",
+              "detailGroup": "appeal",
+              "sourceIds": [
+                "src-657380fce7ea"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": true
+            },
+            {
+              "id": "claim-2f8533b04244",
+              "summary": "항소심은 업무 갈등과 전날 말다툼이 있었더라도 그것만으로 피해자를 살해할 동기가 충분하다고 보기는 어렵다고 판단했다.",
+              "field": "appealMotiveFinding",
+              "value": "insufficient-murder-motive",
+              "perspective": "court",
+              "status": "reported",
+              "detailGroup": "appeal",
+              "sourceIds": [
+                "src-657380fce7ea"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": true
+            },
+            {
+              "id": "claim-abb1e6d3aa2c",
+              "summary": "항소심은 실제 투입량이 명확히 증명되지 않았고 시중 판매 제품을 음료에 몰래 탈 정도의 양만으로 사람을 살해하기 충분하다고 단정하기 어렵다고 봤다.",
+              "field": "appealQuantityFinding",
+              "value": "actual-amount-unproven",
+              "perspective": "court",
+              "status": "reported",
+              "detailGroup": "appeal",
+              "sourceIds": [
+                "src-657380fce7ea"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": true
+            }
+          ]
+        }
+      ],
+      "sourceAgreement": [
+        {
+          "claimId": "claim-e6f5fae4060c",
+          "summary": "2025년 3월 28일경 구리시의 한 한의원에서 간호조무사가 동료의 커피에 살충제를 넣었다고 보도됐다.",
+          "confidence": "corroborated",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "sourceCount": 2,
+          "independentPublisherCount": 2
+        },
+        {
+          "claimId": "claim-fc54d3811ea6",
+          "summary": "2025년 9월 29일 1심은 특수상해를 인정해 징역 2년을 선고했다.",
+          "confidence": "corroborated",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "sourceCount": 2,
+          "independentPublisherCount": 2
+        },
+        {
+          "claimId": "claim-8157343e251a",
+          "summary": "검찰은 커피에 살충제를 넣은 행위가 살인미수에 해당한다고 주장했다.",
+          "confidence": "corroborated",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "sourceCount": 2,
+          "independentPublisherCount": 2
+        },
+        {
+          "claimId": "claim-cf7dfb7230b2",
+          "summary": "피고인 측은 살인의 고의가 없었다는 취지로 다퉜다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-f153168990f6",
+          "summary": "재판부는 살인미수는 증명되지 않았고 특수상해만 인정된다고 판단했다.",
+          "confidence": "corroborated",
+          "sourceIds": [
+            "src-c60f4372e10c",
+            "src-c112fde7ccd4"
+          ],
+          "sourceCount": 2,
+          "independentPublisherCount": 2
+        },
+        {
+          "claimId": "claim-dab432c2f2c8",
+          "summary": "A씨는 피해자 B씨가 자리를 비운 사이 커피에 살충제를 탔다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-b749b59d879f",
+          "summary": "사용된 물질은 벌레 퇴치용으로 한의원에 보관돼 있던 농사용 살충제였다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-7f53cbc5b3ba",
+          "summary": "해당 살충제에는 과량 노출 시 점막 자극, 오심·구토, 무호흡, 감각 이상, 심계항진 등을 일으킬 수 있는 성분이 포함된 것으로 보도됐다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-2635dd573b3a",
+          "summary": "B씨는 약 10분 뒤 돌아와 커피를 마시다가 맛이 이상하다고 느껴 음용을 중단했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-1044e6a16af1",
+          "summary": "B씨에게 치료일수가 특정되지 않은 위장장애와 불안장애가 생긴 것으로 보도됐다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-51e7c6f85444",
+          "summary": "1심은 전과가 없는 점, 상해 정도가 비교적 가벼운 점, 피해자가 수령을 거부했지만 2000만원을 공탁한 점을 양형에 고려했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c60f4372e10c"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-5eb1d801bb3d",
+          "summary": "A씨는 배탈이 나게 하려는 생각으로 생수병 뚜껑의 약 3분의 1 정도 분량을 넣었다고 주장했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c112fde7ccd4"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-78beacf9f305",
+          "summary": "재판부는 살충제가 범행을 위해 새로 준비된 것이 아니라 해충을 잡기 위해 오래전에 가져다 둔 물질이라고 봤다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c112fde7ccd4"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-42d2533b39a4",
+          "summary": "범행 전에 살충제의 효과나 치사량을 검색했다는 증거도 확인되지 않았다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c112fde7ccd4"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-6bb8b287541f",
+          "summary": "피고인과 피해자는 업무 문제로 갈등을 겪었고 피고인이 홧김에 범행한 것으로 조사됐다고 보도했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0a3f3c4e81fb"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-2e0a2365006b",
+          "summary": "재판부는 투입량이 치사량인지 알 수 없다고 보면서도 수법·동기·관계를 고려해 죄질이 좋지 않다고 판단했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0a3f3c4e81fb"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-67d53cfe1b17",
+          "summary": "A씨는 B씨가 평소 일방적으로 업무를 가르치고 핀잔을 주는 데 불만을 품었다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-64ccfee80ee1"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-c58d2bb8db7a",
+          "summary": "매일경제는 사건일을 2025년 3월 29일로 보도해 다른 기사들의 3월 28일 보도와 하루 차이가 난다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-64ccfee80ee1"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-9cfeb9654123",
+          "summary": "항소심은 1심의 징역 2년을 파기하고 징역 1년 6개월에 집행유예 3년을 선고했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-c1884fab54ee",
+          "summary": "재판부는 피해자와의 합의와 처벌불원 의사를 항소심 양형 요소로 고려했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-88cfb6a5c046",
+          "summary": "범행 전날 B씨가 A씨의 업무에 끼어든다는 이유로 두 사람이 화를 내며 말다툼했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-2f8533b04244",
+          "summary": "항소심은 업무 갈등과 전날 말다툼이 있었더라도 그것만으로 피해자를 살해할 동기가 충분하다고 보기는 어렵다고 판단했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-abb1e6d3aa2c",
+          "summary": "항소심은 실제 투입량이 명확히 증명되지 않았고 시중 판매 제품을 음료에 몰래 탈 정도의 양만으로 사람을 살해하기 충분하다고 단정하기 어렵다고 봤다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-657380fce7ea"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        }
+      ],
+      "conflicts": [
+        {
+          "id": "conflict-1",
+          "field": "incidentDate",
+          "values": [
+            "2025-03-28",
+            "2025-03-29"
+          ],
+          "status": "disputed",
+          "sourceIds": [],
+          "note": "서울신문·뉴시스는 3월 28일, 매일경제는 3월 29일로 보도해 하루 차이가 있다."
+        }
+      ],
+      "unresolvedQuestions": [
+        "공개 기사만으로는 살충제 제품명·정확한 성분 농도·투입량 감정 결과를 확인할 수 없다.",
+        "항소심 판결문 전문과 정확한 선고일, 사건번호는 현재 수집 기사에 제시되지 않았다.",
+        "피해자의 현재 건강 상태와 합의의 구체적 조건은 공개되지 않았다.",
+        "항소심 감형은 합의·처벌불원 등 보도된 양형 사유로 설명해야 하며 범행 자체가 가볍다고 판단했다고 확대해석해서는 안 된다.",
+        "사건 이전에 당사자들 사이에서 신고·징계·분쟁 절차가 있었는지는 확인되지 않았다."
+      ],
+      "limitations": [
+        "이 사건의 직접적인 사전 맥락으로 확인된 보도를 찾지 못했습니다."
+      ]
+    },
+    "sourceCoverage": {
+      "verifiedSourceCount": 5,
+      "representativeSourceCount": 1,
+      "sameEventCoverageCount": 3,
+      "priorContextCount": 0,
+      "followUpCount": 1,
+      "independentPublisherCount": 4,
+      "corroboration": "multi-source"
+    },
+    "readiness": {
+      "readyForLegal": true,
+      "preferredCorroborationMet": true,
+      "detailedNarrativeComplete": true,
+      "blockers": [],
+      "warnings": []
+    },
+    "sourceIndex": [
+      {
+        "sourceId": "src-c60f4372e10c",
+        "url": "https://www.seoul.co.kr/news/society/law/2025/09/29/20250929500264",
+        "title": "직장 동료 커피에 몰래 살충제 탄 50대 간호조무사",
+        "publisher": "서울신문",
+        "date": "2025-09-29T16:27:29+09:00",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      },
+      {
+        "sourceId": "src-c112fde7ccd4",
+        "url": "https://www.newsis.com/view/NISX20250929_0003348677",
+        "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 징역 2년",
+        "publisher": "뉴시스",
+        "date": "2025-09-29T17:30:24+09:00",
+        "bucket": "same-event",
+        "status": "verified",
+        "relationshipReason": "같은 피고인·같은 구리시 의료기관·같은 1심 판결을 독립 기사로 보도한 동일 사건 자료"
+      },
+      {
+        "sourceId": "src-0a3f3c4e81fb",
+        "url": "https://www.khan.co.kr/article/202509291900001",
+        "title": "동료 커피에 살충제 넣은 간호조무사, 징역 2년 실형",
+        "publisher": "경향신문",
+        "date": "2025-09-29T19:00:00+09:00",
+        "bucket": "same-event",
+        "status": "verified",
+        "relationshipReason": "같은 남양주지원 1심을 별도 매체가 확인한 동일 사건 보도"
+      },
+      {
+        "sourceId": "src-64ccfee80ee1",
+        "url": "https://www.mk.co.kr/news/society/11432341",
+        "title": "동료 커피에 ‘살충제’ 탄 간호조무사 징역 2년…살인미수는 ‘무죄’, 왜? - 매일경제",
+        "publisher": "매일경제",
+        "date": "2025-09-29T19:36:52+09:00",
+        "bucket": "same-event",
+        "status": "verified",
+        "relationshipReason": "살인미수 무죄와 특수상해 인정 이유를 별도 매체가 설명한 동일 사건 보도"
+      },
+      {
+        "sourceId": "src-657380fce7ea",
+        "url": "https://www.newsis.com/view/NISX20260806_0003738534",
+        "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+        "publisher": "뉴시스",
+        "date": "2026-08-06T11:56:24+09:00",
+        "bucket": "follow-up",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "currentHash": "cc4e54f8d32653bbcb4e10ab2d483288274cdb81754b492113b1cde8d376c20e"
+  }
+}

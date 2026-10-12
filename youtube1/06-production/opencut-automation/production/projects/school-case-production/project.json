@@ -1,0 +1,176 @@
+{
+  "id": "school-case",
+  "title": { "line1": "제주 초등학교", "line2": "교실 침입 사건" },
+  "scriptSource": "../../newsroom/projects/jeju-school-intrusion.json",
+  "assets": "../../../examples/school-case-assets",
+  "scenes": [
+    { "asset": "assets/images-v2/scene-02-school-night.png", "duration": 4.1, "zoom": 1.04, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-01-classroom-establishing.png", "duration": 4.1, "zoom": 1.08, "panY": 0.42, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-03-corridor-intrusion.png", "duration": 4.1, "zoom": 1.04, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-04-teacher-arrival.png", "duration": 3.508, "zoom": 1.08, "panX": 0.54, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-05-tumbler-discovery.png", "duration": 1.392, "zoom": 1.04, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-05-tumbler-discovery.png", "duration": 2.189, "zoom": 1.08, "panX": 0.54, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-06-forensic-evidence.png", "duration": 2.606, "zoom": 1.04, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-06-forensic-evidence.png", "duration": 2.605, "zoom": 1.1, "panX": 0.58, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-07-teacher-chair.png", "duration": 4.1, "zoom": 1.12, "panX": 0.56, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-03-corridor-intrusion.png", "duration": 4.1, "zoom": 1.08, "panX": 0.42, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-08-cctv-review.png", "duration": 4.1, "zoom": 1.04, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-10-suspect-interview.png", "duration": 4.1, "zoom": 1.08, "panY": 0.52, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-10-suspect-interview.png", "duration": 4.1, "zoom": 1.04, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-10-suspect-interview.png", "duration": 4.1, "zoom": 1.12, "panY": 0.56, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-09-digital-evidence.png", "duration": 4.1, "zoom": 1.04, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-09-digital-evidence.png", "duration": 4.1, "zoom": 1.1, "panY": 0.56, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-08-cctv-review.png", "duration": 4.1, "zoom": 1.04, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-11-teacher-anxiety.png", "duration": 4.1, "zoom": 1.1, "panY": 0.56, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-11-teacher-anxiety.png", "duration": 4.0833, "zoom": 1.04, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-02-school-night.png", "duration": 4.0834, "zoom": 1.12, "panY": 0.54, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-11-teacher-anxiety.png", "duration": 4.0833, "zoom": 1.1, "panX": 0.42, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-12-safety-controls.png", "duration": 4.0834, "zoom": 1.14, "panX": 0.58, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-12-safety-controls.png", "duration": 4.0833, "zoom": 1.08, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-01-classroom-establishing.png", "duration": 4.0834, "zoom": 1.04, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-12-safety-controls.png", "duration": 4.0833, "zoom": 1.1, "panX": 0.42, "label": "사건 내용 기반 AI 재구성" },
+    { "asset": "assets/images-v2/scene-01-classroom-establishing.png", "duration": 4.0834, "zoom": 1.1, "panY": 0.42, "label": "사건 내용 기반 AI 재구성" }
+  ],
+  "captionPreset": {
+    "id": "reference-v3-semantic-2line",
+    "fontFamily": "Noto Sans KR",
+    "fontWeight": 800,
+    "fontSize": 88,
+    "scaleX": 94,
+    "safeWidth": 920,
+    "maxLines": 2,
+    "lineHeight": 1.08,
+    "x": 540,
+    "y": 1400,
+    "color": "#FFFFFF",
+    "outlineColor": "#000000",
+    "outlineWidth": 5,
+    "background": "none"
+  },
+  "bgm": {
+    "provider": "local-file",
+    "prompt": "restrained investigative tension, sparse pulse, uneasy everyday atmosphere, no vocals, no heroic resolution",
+    "seed": 20260727,
+    "audio": "assets/audio/generated-bgm.wav",
+    "output": "assets/audio/generated-bgm.wav",
+    "model": "local-procedural-investigative-bed",
+    "version": "1.0.0",
+    "license": "project-original-no-third-party-samples",
+    "sha256": "5598dd85fe41f062103aa0effca059c6b85a549030edce635fd9fbc6e5864fdb",
+    "provenance": "assets/audio/generated-bgm.provenance.json",
+    "volumeDb": -25,
+    "duckUnderNarration": true,
+    "fadeSeconds": 1.2,
+    "required": true
+  },
+  "narration": {
+    "mode": "qwen3-tts",
+    "style": "auto",
+    "stylePlan": [
+      {
+        "segmentIndex": 1,
+        "style": "hook",
+        "textSha256": "81cf19349c2549c0ce9d099a4137c6343fa554cba4e449f96a75ce0d4cf2f3ad"
+      },
+      {
+        "segmentIndex": 2,
+        "style": "news_exposition",
+        "textSha256": "967b1e816dcccc8e9be49b75db62b0512dc1131291c9cea69ebb12b922cf8ed7"
+      },
+      {
+        "segmentIndex": 3,
+        "style": "news_exposition",
+        "textSha256": "b7ff105d780734f28ab1f1ce10d042516f1d8b141158e7f76f5f33792557cbf7"
+      },
+      {
+        "segmentIndex": 4,
+        "style": "tension",
+        "textSha256": "826a1ecb86c236caf2c1c3a21d353ed7650b5bcbff5339ce4fa0def7171ada13"
+      },
+      {
+        "segmentIndex": 7,
+        "style": "tension",
+        "textSha256": "cd05e84fb98cc91120123f0f748c29a831ef90b2610759217e3c11effc28f6de"
+      },
+      {
+        "segmentIndex": 8,
+        "style": "news_exposition",
+        "textSha256": "13e8946e2cd587a91d993dc858396675b66a8ac060ec846e2ee03706a46ad4bd"
+      },
+      {
+        "segmentIndex": 10,
+        "style": "news_exposition",
+        "textSha256": "7e57e6e5b755f3ae69ec1b55bdb71041d2000962071fcb8cf18842b2b331ad6a"
+      },
+      {
+        "segmentIndex": 13,
+        "style": "criticism",
+        "textSha256": "c0f3936bf886d7ab7af7c75e826efc1ca02bb6ed68d71805712dd66b5f36de33"
+      },
+      {
+        "segmentIndex": 15,
+        "style": "tension",
+        "textSha256": "f2e2d82c8d93d2e2c5642e1656c747934d293c44fce14aeabae10b05fb3d6563"
+      },
+      {
+        "segmentIndex": 16,
+        "style": "criticism",
+        "textSha256": "6b2ed39bd1e1de26fbe5b34ceac8d5ed355d018cde92180817b590e483fa8bef"
+      },
+      {
+        "segmentIndex": 17,
+        "style": "solution_closing",
+        "textSha256": "8fac9f6a56be73e29ea9a57e1bf70b507d8d723b41e4b3de067e6501b561849b"
+      }
+    ],
+    "device": "cuda",
+    "seed": 20260730,
+    "maxAttempts": 5,
+    "temperature": 0.7,
+    "finalTempo": 1,
+    "removeSilence": false,
+    "sentencePauseSeconds": 0,
+    "semanticPauseSeconds": 0,
+    "joinSafetySeconds": 0
+  },
+  "media": {
+    "source": {
+      "publisher": "KCTV 제주방송",
+      "candidateVideoId": "0l7AwfBJWBE",
+      "sourceUrl": "https://vod.kctvjeju.com/vclip/260616clip_01.mp4/playlist.m3u8",
+      "articleUrl": "https://www.kctvjeju.com/news/view.kctv?article=k244113",
+      "attribution": "출처: KCTV제주방송, 「초등 교실 연쇄 침입한 고등학생 '엽기행각'」, YouTube CC BY. https://www.youtube.com/watch?v=0l7AwfBJWBE",
+      "sha256": "2beefd674698ace28accc258562d460609bd1638e609e296b9e5354d3f0c73ce"
+    },
+    "sceneReplacements": {
+      "0": "assets/media/kctv-0l7AwfBJWBE-20-23-nocaptions.mp4",
+      "4": "assets/media/kctv-0l7AwfBJWBE-24-27-nocaptions.mp4",
+      "10": "assets/media/kctv-0l7AwfBJWBE-38-41-nocaptions.mp4",
+      "12": "assets/media/kctv-0l7AwfBJWBE-42-45-nocaptions.mp4"
+    },
+    "clips": [
+      { "path": "assets/media/kctv-0l7AwfBJWBE-20-23-nocaptions.mp4", "start": 20, "end": 23, "muted": true, "label": "KCTV 공식 원본 · 학교 외관 · 하단 자막 제거", "sha256": "fe626cfa161f77cf82aa1138a3b39c2647be815eff27604f2df39a8780561210", "encoding": "bottom-22pct-cropped-1080x972-crf17-medium-noaudio" },
+      { "path": "assets/media/kctv-0l7AwfBJWBE-24-27-nocaptions.mp4", "start": 24, "end": 27, "muted": true, "label": "KCTV 공식 원본 · 교실·텀블러 · 하단 자막 제거", "sha256": "74d60841a20af529e033579abdca24d97f32f81f8b383353048313c218c28987", "encoding": "bottom-22pct-cropped-1080x972-crf17-medium-noaudio" },
+      { "path": "assets/media/kctv-0l7AwfBJWBE-38-41-nocaptions.mp4", "start": 38, "end": 41, "muted": true, "label": "KCTV 공식 원본 · 빈 교실 · 하단 자막 제거", "sha256": "fb281ab89c880776d31a0403b2f3d81d62b6b99c7acb25980dacab5c63807d87", "encoding": "bottom-22pct-cropped-1080x972-crf17-medium-noaudio" },
+      { "path": "assets/media/kctv-0l7AwfBJWBE-42-45-nocaptions.mp4", "start": 42, "end": 45, "muted": true, "label": "KCTV 공식 원본 · 교사 책상 · 하단 자막 제거", "sha256": "2db3f933b9793723109873c75d2dddc2b72d57bc5b0cb1dd151be85f53f0ce46", "encoding": "bottom-22pct-cropped-1080x972-crf17-medium-noaudio" }
+    ]
+  },
+  "releaseGate": {
+    "publishable": false,
+    "releaseStatus": "preview",
+    "uploadBlocked": true,
+    "blockers": [
+      {
+        "id": "legal-claim-review-2021do7538",
+        "stage": "07-quality-assurance",
+        "severity": "block",
+        "claim": "물건 오염만으로 성범죄가 적용되진 않기 때문입니다",
+        "reason": "대법원 2021도7538은 피해자가 당시 인식하지 못한 상태에서 신체에 소변이 닿은 행위도 강제추행으로 판단될 수 있음을 보여 주므로, 고정 문장의 범주적 법률 단정은 공개 전 법률 검토가 필요합니다.",
+        "authority": {
+          "case": "대법원 2021도7538",
+          "url": "https://www.scourt.go.kr/supreme/news/NewsViewAction2.work?gubun=4&searchOption=&searchWord=&seqnum=8043"
+        }
+      }
+    ]
+  }
+}

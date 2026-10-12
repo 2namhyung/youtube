@@ -1,0 +1,139 @@
+{
+  "language": "ko",
+  "languageProbability": 1.0,
+  "durationSeconds": 6.48,
+  "generationSeconds": 0.88,
+  "transcript": "현실에도 진짜 필요한 거 아니에요? 이게 말이 되나요? 하지만 수사 상황 통지와 피해자 보호는 필요하지 않을까요?",
+  "segments": [
+    {
+      "start": 0.1,
+      "end": 1.96,
+      "text": "현실에도 진짜 필요한 거 아니에요?",
+      "avgLogProbability": -0.190805,
+      "noSpeechProbability": 0.02771,
+      "words": [
+        {
+          "start": 0.1,
+          "end": 0.72,
+          "text": "현실에도",
+          "probability": 0.87321
+        },
+        {
+          "start": 0.72,
+          "end": 1.02,
+          "text": "진짜",
+          "probability": 0.983398
+        },
+        {
+          "start": 1.02,
+          "end": 1.42,
+          "text": "필요한",
+          "probability": 0.998535
+        },
+        {
+          "start": 1.42,
+          "end": 1.6,
+          "text": "거",
+          "probability": 0.764648
+        },
+        {
+          "start": 1.6,
+          "end": 1.96,
+          "text": "아니에요?",
+          "probability": 0.921387
+        }
+      ]
+    },
+    {
+      "start": 2.26,
+      "end": 3.08,
+      "text": "이게 말이 되나요?",
+      "avgLogProbability": -0.190805,
+      "noSpeechProbability": 0.02771,
+      "words": [
+        {
+          "start": 2.26,
+          "end": 2.34,
+          "text": "이게",
+          "probability": 0.986816
+        },
+        {
+          "start": 2.34,
+          "end": 2.58,
+          "text": "말이",
+          "probability": 0.99707
+        },
+        {
+          "start": 2.58,
+          "end": 3.08,
+          "text": "되나요?",
+          "probability": 0.998535
+        }
+      ]
+    },
+    {
+      "start": 3.38,
+      "end": 6.3,
+      "text": "하지만 수사 상황 통지와 피해자 보호는 필요하지 않을까요?",
+      "avgLogProbability": -0.190805,
+      "noSpeechProbability": 0.02771,
+      "words": [
+        {
+          "start": 3.38,
+          "end": 3.58,
+          "text": "하지만",
+          "probability": 0.950684
+        },
+        {
+          "start": 3.58,
+          "end": 4.06,
+          "text": "수사",
+          "probability": 0.972412
+        },
+        {
+          "start": 4.06,
+          "end": 4.3,
+          "text": "상황",
+          "probability": 0.801758
+        },
+        {
+          "start": 4.3,
+          "end": 4.78,
+          "text": "통지와",
+          "probability": 0.918783
+        },
+        {
+          "start": 4.78,
+          "end": 5.2,
+          "text": "피해자",
+          "probability": 0.947266
+        },
+        {
+          "start": 5.2,
+          "end": 5.48,
+          "text": "보호는",
+          "probability": 0.977539
+        },
+        {
+          "start": 5.48,
+          "end": 5.94,
+          "text": "필요하지",
+          "probability": 0.995605
+        },
+        {
+          "start": 5.94,
+          "end": 6.3,
+          "text": "않을까요?",
+          "probability": 0.997559
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceFile": "viewer_question.wav",
+  "sourceSha256": "eca578b86fcfc6e35de187f34de97dbb681dc7994f6ee037a79aeb9602de82ec",
+  "model": "medium",
+  "device": "cuda",
+  "computeType": "float16",
+  "diagnosticOnly": true
+}

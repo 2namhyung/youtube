@@ -1,0 +1,55 @@
+{
+  "schema": "newsroom-imagegen-omni-i2v-v1",
+  "storyId": "replace-with-approved-story-id",
+  "providerProfile": {
+    "surface": "omni-ui-adapter",
+    "model": "record-observed-model",
+    "modelDisplayName": "record-observed-model-display-name",
+    "aspectRatio": "9:16",
+    "durationSeconds": 6,
+    "resolution": "record-observed-resolution"
+  },
+  "sequences": [
+    {
+      "sequenceId": "replace-sequence-01",
+      "locationBrief": {
+        "scope": "generic",
+        "countryOrCity": "replace-with-country-city-or-generic",
+        "era": "replace-with-era",
+        "anchors": {"building": "ordinary building", "road": "ordinary road", "material": "ordinary materials", "light": "ordinary light"},
+        "evidence": "replace-with-grounded-observation-or-source-brief",
+        "noInventedSiteEvidence": true,
+        "grounding": {"method": "source-backed-observation", "observerId": "replace-observer", "observedAt": "replace-observation-time", "locationScope": "generic", "observation": "replace-with-source-backed-observation", "sourceUrl": "https://replace.example/source", "evidenceFile": {"relativePath": "replace-location-grounding.json", "bytes": 1, "sha256": "replace"}}
+      },
+      "locationSource": {"kind": "text-only", "sourceUseStatus": "not-applicable", "transformStatus": "not-applicable", "imagegenUploadStatus": "not-applicable", "omniInputStatus": "not-applicable", "rightsEvidence": []},
+      "cuts": [
+        {
+          "cutId": "replace-cut-001",
+          "entryFrameAssetId": "replace-entry-frame-asset",
+          "firstFrameImageMediaId": "replace-adapter-receipt-media-id",
+          "inputProvenance": {"masterAssetIds": ["replace-character-master"], "locationAssetId": "replace-location-master"},
+          "action": {"subject": "replace-subject", "action": "replace-with-approved-action", "startState": "replace-approved-start-state", "endState": "replace-approved-end-state", "screenDirection": "replace-approved-screen-direction"},
+          "camera": {"framing": "replace-approved-framing", "angle": "replace-approved-angle", "movement": "replace-approved-movement", "composition": "replace-approved-composition"},
+          "continuity": {"entryStateId": "replace-entry-state", "exitStateId": "replace-exit-state", "screenDirection": "replace-approved-screen-direction", "axis": "replace-axis", "locationKey": "replace-location-key"},
+          "review": {"schema": "newsroom-imagegen-omni-i2v-frame-review-v1", "reviewerId": "replace-independent-reviewer", "reviewedAt": "replace-review-time", "decision": "pending", "geometricRealism": "pending", "oneActionSemantics": "pending", "locationGrounding": "pending", "actorsVehiclesSeats": "pending", "screenDirectionAxis": "pending", "noExtraText": "pending", "adjacentContinuity": "pending", "authorities": {"fullVisualStorylineSha256": "replace", "referenceCatalogSha256": "replace", "entryAuthoritySha256": "replace"}, "bindings": {"cutId": "replace-cut-001", "entryFrameAssetId": "replace-entry-frame-asset", "entryFrameSha256": "replace", "actionSha256": "replace", "cameraSha256": "replace", "continuitySha256": "replace", "inputProvenanceSha256": "replace", "locationBriefSha256": "replace", "locationSourceSha256": "replace", "resetSha256": "replace", "fullVisualStorylineSha256": "replace", "referenceCatalogSha256": "replace", "entryAuthoritySha256": "replace"}, "evidence": [{"relativePath": "replace-review-evidence.png", "bytes": 1, "sha256": "replace", "kind": "review-frame", "width": 480, "height": 853, "mimeType": "image/png"}], "attestationFile": {"relativePath": "replace-review-attestation.json", "bytes": 1, "sha256": "replace"}}
+        }
+      ]
+    }
+  ],
+  "revision": null,
+  "animatic": {"file": {"relativePath": "replace-owner-voice-animatic.mp4", "bytes": 1, "sha256": "replace", "mimeType": "video/mp4"}, "manifestFile": {"relativePath": "replace-owner-voice-animatic-manifest.json", "bytes": 1, "sha256": "replace"}},
+  "blockers": [
+    "Bind the current approved v9 entry authority and fullVisualStoryline.",
+    "Register unique ImageGen entry frames and selected masters with physical hashes.",
+    "Add a grounded location brief, separate source/transform/ImageGen-upload permissions, and physical review evidence.",
+    "Compile does not permit unresolved external-photo rights, provider execution, semantic QA, render, upload, or publication."
+  ],
+  "production": {
+    "provider": false,
+    "render": false,
+    "upload": false,
+    "publication": false,
+    "stage07": false,
+    "continuationAuthorized": false
+  }
+}

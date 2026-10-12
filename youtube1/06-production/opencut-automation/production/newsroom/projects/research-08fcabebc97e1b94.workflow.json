@@ -1,0 +1,2058 @@
+{
+  "version": 1,
+  "slug": "research-08fcabebc97e1b94",
+  "title": "\"볶아달라니까!\"…셀프 볶음밥 안 볶아줬다고 사장 폭행한 손님",
+  "candidate": {
+    "id": "research-08fcabebc97e1b94",
+    "slug": "research-08fcabebc97e1b94",
+    "editorialStatus": "active-review",
+    "title": "\"볶아달라니까!\"…셀프 볶음밥 안 볶아줬다고 사장 폭행한 손님",
+    "source": "뉴시스 사회",
+    "url": "https://www.newsis.com/view/NISX20260807_0003740192",
+    "publishedAt": "2026-08-07T19:46:00+09:00",
+    "hook": "셀프 볶음밥을 직접 볶으라는 안내에 격분한 손님은 결국 업주를 쫓아가 폭행했다.",
+    "storySummary": "경북 경산의 한 오리고기 전문점에서 중년 남녀 손님이 반찬 양에 불만을 제기했고, 업주는 반찬을 다시 채워줬다. 이들은 식사 뒤 메뉴판에 셀프라고 적힌 볶음밥을 주문한 뒤 직원이 볶아주지 않는다며 항의했고, 업주의 설명에도 남성 손님은 카운터까지 쫓아가 업주를 폭행한 것으로 전해졌다. 남성은 출동한 경찰에게도 영업 방식을 문제 삼으며 난동을 이어갔다. 이 사건은 업주의 제보 영상과 진술을 토대로 방송에서 소개됐다.",
+    "rationale": "식당이라는 친숙한 공간에서 작은 서비스 불만이 고성과 추격, 업주 폭행, 경찰 앞 난동으로 비약한 사건이다. 메뉴에 셀프라고 명시됐다는 설명과 손님의 폭력적 대응이 정면으로 어긋나 황당함과 답답함이 크고, 주변 손님과 종업원까지 위협받을 수 있는 현장성이 뚜렷하다.",
+    "dimensions": {
+      "ordinaryContext": 0,
+      "disproportionateEscalation": 0,
+      "explanationActionMismatch": 0,
+      "tangibleRisk": 0,
+      "responsibilityEvasion": 0,
+      "relatableEmotion": 0
+    },
+    "factCheckRisks": [
+      "발행사 요약이 JTBC ‘사건반장’의 제보 영상과 업주 진술을 재인용한 것이어서 경찰 사건 기록과 대조가 필요하다.",
+      "폭행의 구체적인 정도와 업주의 부상 여부, 손님의 입건·처벌 여부는 요약에 명시되지 않았다.",
+      "요약에 복수의 피해 사례가 함께 소개됐다고 적혀 있으므로 영상 편집 시 첫 번째 경산 식당 사례와 다른 사례가 섞이지 않도록 확인해야 한다."
+    ],
+    "selectionReasons": [
+      "반찬과 셀프 메뉴를 둘러싼 일상적인 갈등이 업주 폭행과 경찰 앞 난동으로 과도하게 확대됐다.",
+      "메뉴판 안내와 업주의 설명을 들은 뒤에도 영업 방식에 책임을 돌리며 폭력을 이어간 점이 핵심 기준에 부합한다.",
+      "제보 영상이 공개된 사건으로 식당 내부의 단계별 상황을 시각적으로 전달할 단서가 있다."
+    ],
+    "relatedCoverage": [],
+    "approval": {
+      "kind": "human-promotion",
+      "approvedAt": "2026-08-08T14:19:42.118Z",
+      "sourceAction": "newsroom-semantic-card"
+    },
+    "provenance": {
+      "semanticSelectionPath": "out/newsroom/research-llm-analysis.json",
+      "semanticGeneratedAt": "2026-08-08T14:05:21.772Z",
+      "articlePoolPath": "01-research/news_radar/data/latest_article_pool.json",
+      "articlePoolGeneratedAt": "2026-08-08T22:58:49+09:00",
+      "articleId": "08fcabebc97e1b949e321a9d",
+      "excerptProvenance": "rss-description-or-atom-summary"
+    },
+    "verification": {
+      "state": "cross-source-verification-required",
+      "missing": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토"
+      ]
+    }
+  },
+  "createdAt": "2026-08-08T14:36:15.216Z",
+  "updatedAt": "2026-09-04T19:55:55.893Z",
+  "stages": {
+    "01": {
+      "status": "ready",
+      "completedAt": "2026-08-08T14:36:15.216Z"
+    },
+    "02": {
+      "status": "ready",
+      "completedAt": "2026-09-04T11:31:26.234Z",
+      "reportGeneratedAt": "2026-09-04T11:31:26.234Z",
+      "evidenceSha256": "1baeb42bb05c0999f771d77bd1358fb3b414c5fbed9eb1ef86f32ac5b7be5a6f"
+    },
+    "03": {
+      "status": "in-progress"
+    },
+    "04": {
+      "status": "pending"
+    },
+    "05": {
+      "status": "pending"
+    },
+    "06": {
+      "status": "pending"
+    },
+    "07": {
+      "status": "pending"
+    },
+    "08": {
+      "status": "pending"
+    }
+  },
+  "legalContextReport": {
+    "schemaVersion": 5,
+    "slug": "research-08fcabebc97e1b94",
+    "generatedAt": "2026-09-04T11:31:26.234Z",
+    "candidateSha256": "3f9abcd257a56ea4bdcbb2baef9d9456cc03d14f56ff42e193e1c7d0f88b0e11",
+    "researchSnapshotSha256": "1baeb42bb05c0999f771d77bd1358fb3b414c5fbed9eb1ef86f32ac5b7be5a6f",
+    "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+    "confirmedFacts": [
+      {
+        "id": "claim-afd9f47604ca",
+        "summary": "[서울=뉴시스] 셀프 볶음밥을 안 볶아줬다는 이유로 식당 업주에게 폭행을 가한 손님의 모습이 공개됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-d3e94bc1cc48",
+        "summary": "(사진=JTBC '사건반장' 캡처) [서울=뉴시스]장인혜 인턴 기자 = 식당과 카페에서 직원과 업주에게 무리한 요구를 한 뒤, 폭행과 협박까지 이어간 손님들의 제보 영상이 공개됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-841bbec89337",
+        "summary": "7일 JTBC '사건반장'에서는 업주들이 겪은 황당한 피해 사례가 소개됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-482562ee7559",
+        "summary": "첫 번째 사례는 경북 경산의 한 오리고기 전문점에서 발생했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-ae59330496ba",
+        "summary": "제보자인 업주는 \"중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했다\"며 \"처음에는 웃으며 반찬을 다시 채워줬다\"고 전했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "background",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-64d38e1c4d2c",
+        "summary": "이후 손님들은 고기를 다 먹은 뒤 2000원짜리 셀프 볶음밥 2인분을 주문했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-b3d6df8acf75",
+        "summary": "메뉴판에는 볶음밥이 '셀프'라고 명시돼 있었지만, 남성 손님은 직원에게 \"왜 밥 안 볶아줘?\"라고 따졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-c6c23cb7435c",
+        "summary": "직원이 \"이 메뉴는 셀프 볶음밥\"이라고 설명하자 남성은 \"2000원이나 받아 쳐 놓고 장난해 지금\"이라며 소리를 지른 것으로 전해졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-de8f49a23504",
+        "summary": "업주가 메뉴판에 '셀프'라고 적혀 있고 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 2000원을 받는 것이라고 설명했지만, 남성은 카운터까지 쫓아가 업주를 폭행한 것으로 알려졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-7287eb68a130",
+        "summary": "남성은 경찰에게도 \"장사 이렇게 하면 안 되지 않냐\"며 난동을 이어갔고, 다른 손님에게 \"맛없지 않느냐\"고 묻기도 한 것으로 전해졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-40b0b166d421",
+        "summary": "한 남성이 다 마신 컵을 들고 카페에 들어와 \"이거 리필\"이라고 요구했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-82b14ee1afbb",
+        "summary": "카페 측이 \"저희는 리필이 안 됩니다\"라고 설명하자 남성은 밖으로 나갔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "reportedFacts": [
+      {
+        "id": "claim-afd9f47604ca",
+        "summary": "[서울=뉴시스] 셀프 볶음밥을 안 볶아줬다는 이유로 식당 업주에게 폭행을 가한 손님의 모습이 공개됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-d3e94bc1cc48",
+        "summary": "(사진=JTBC '사건반장' 캡처) [서울=뉴시스]장인혜 인턴 기자 = 식당과 카페에서 직원과 업주에게 무리한 요구를 한 뒤, 폭행과 협박까지 이어간 손님들의 제보 영상이 공개됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-841bbec89337",
+        "summary": "7일 JTBC '사건반장'에서는 업주들이 겪은 황당한 피해 사례가 소개됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-482562ee7559",
+        "summary": "첫 번째 사례는 경북 경산의 한 오리고기 전문점에서 발생했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-ae59330496ba",
+        "summary": "제보자인 업주는 \"중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했다\"며 \"처음에는 웃으며 반찬을 다시 채워줬다\"고 전했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "background",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-64d38e1c4d2c",
+        "summary": "이후 손님들은 고기를 다 먹은 뒤 2000원짜리 셀프 볶음밥 2인분을 주문했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-b3d6df8acf75",
+        "summary": "메뉴판에는 볶음밥이 '셀프'라고 명시돼 있었지만, 남성 손님은 직원에게 \"왜 밥 안 볶아줘?\"라고 따졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-c6c23cb7435c",
+        "summary": "직원이 \"이 메뉴는 셀프 볶음밥\"이라고 설명하자 남성은 \"2000원이나 받아 쳐 놓고 장난해 지금\"이라며 소리를 지른 것으로 전해졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-de8f49a23504",
+        "summary": "업주가 메뉴판에 '셀프'라고 적혀 있고 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 2000원을 받는 것이라고 설명했지만, 남성은 카운터까지 쫓아가 업주를 폭행한 것으로 알려졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-7287eb68a130",
+        "summary": "남성은 경찰에게도 \"장사 이렇게 하면 안 되지 않냐\"며 난동을 이어갔고, 다른 손님에게 \"맛없지 않느냐\"고 묻기도 한 것으로 전해졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-40b0b166d421",
+        "summary": "한 남성이 다 마신 컵을 들고 카페에 들어와 \"이거 리필\"이라고 요구했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-82b14ee1afbb",
+        "summary": "카페 측이 \"저희는 리필이 안 됩니다\"라고 설명하자 남성은 밖으로 나갔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "unverifiedFacts": [],
+    "possibleLegalIssues": [],
+    "missingFacts": [],
+    "safePhrasing": [
+      "검찰은 …라고 주장했습니다",
+      "당사자는 …라고 주장했습니다",
+      "재판부는 …라고 판단했습니다",
+      "정확한 내용은 확인되지 않았습니다"
+    ],
+    "sources": [
+      {
+        "sourceId": "src-08fcabebc97e",
+        "url": "https://www.newsis.com/view/NISX20260807_0003740192",
+        "title": "\"볶아달라니까!\"…셀프 볶음밥 안 볶아줬다고 사장 폭행한 손님",
+        "publisher": "뉴시스",
+        "date": "2026-08-07T19:46:00+09:00",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "legalSources": [],
+    "evidence": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "independentPublisherCount": 1,
+      "sameEventSnapshot": true,
+      "eventDossierCurrent": true
+    },
+    "verdict": "conditional",
+    "verdictLabel": "조건부 사용",
+    "reasons": [
+      "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다."
+    ],
+    "reasonCodes": [
+      "single-source"
+    ],
+    "requiredEdits": [],
+    "allowedMaterials": [
+      "사건 히스토리의 승인된 사실",
+      "직접 제작한 비식별 재연"
+    ],
+    "restrictedMaterials": [
+      "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+      "피해자와 제3자는 익명 표기를 유지하기",
+      "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+      "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+    ],
+    "requiredConditions": [],
+    "assessment": {
+      "sourceCorroboration": "single-source",
+      "conflicts": 0,
+      "unknowns": 0
+    },
+    "contradictions": [],
+    "scriptPolicy": {
+      "version": 2,
+      "allowedFacts": [
+        "[서울=뉴시스] 셀프 볶음밥을 안 볶아줬다는 이유로 식당 업주에게 폭행을 가한 손님의 모습이 공개됐다.",
+        "(사진=JTBC '사건반장' 캡처) [서울=뉴시스]장인혜 인턴 기자 = 식당과 카페에서 직원과 업주에게 무리한 요구를 한 뒤, 폭행과 협박까지 이어간 손님들의 제보 영상이 공개됐다.",
+        "7일 JTBC '사건반장'에서는 업주들이 겪은 황당한 피해 사례가 소개됐다.",
+        "첫 번째 사례는 경북 경산의 한 오리고기 전문점에서 발생했다.",
+        "제보자인 업주는 \"중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했다\"며 \"처음에는 웃으며 반찬을 다시 채워줬다\"고 전했다.",
+        "이후 손님들은 고기를 다 먹은 뒤 2000원짜리 셀프 볶음밥 2인분을 주문했다.",
+        "메뉴판에는 볶음밥이 '셀프'라고 명시돼 있었지만, 남성 손님은 직원에게 \"왜 밥 안 볶아줘?\"라고 따졌다.",
+        "직원이 \"이 메뉴는 셀프 볶음밥\"이라고 설명하자 남성은 \"2000원이나 받아 쳐 놓고 장난해 지금\"이라며 소리를 지른 것으로 전해졌다.",
+        "업주가 메뉴판에 '셀프'라고 적혀 있고 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 2000원을 받는 것이라고 설명했지만, 남성은 카운터까지 쫓아가 업주를 폭행한 것으로 알려졌다.",
+        "남성은 경찰에게도 \"장사 이렇게 하면 안 되지 않냐\"며 난동을 이어갔고, 다른 손님에게 \"맛없지 않느냐\"고 묻기도 한 것으로 전해졌다.",
+        "한 남성이 다 마신 컵을 들고 카페에 들어와 \"이거 리필\"이라고 요구했다.",
+        "카페 측이 \"저희는 리필이 안 됩니다\"라고 설명하자 남성은 밖으로 나갔다."
+      ],
+      "allowedClaims": [
+        {
+          "claimId": "claim-afd9f47604ca",
+          "summary": "[서울=뉴시스] 셀프 볶음밥을 안 볶아줬다는 이유로 식당 업주에게 폭행을 가한 손님의 모습이 공개됐다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-d3e94bc1cc48",
+          "summary": "(사진=JTBC '사건반장' 캡처) [서울=뉴시스]장인혜 인턴 기자 = 식당과 카페에서 직원과 업주에게 무리한 요구를 한 뒤, 폭행과 협박까지 이어간 손님들의 제보 영상이 공개됐다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-841bbec89337",
+          "summary": "7일 JTBC '사건반장'에서는 업주들이 겪은 황당한 피해 사례가 소개됐다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-482562ee7559",
+          "summary": "첫 번째 사례는 경북 경산의 한 오리고기 전문점에서 발생했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-ae59330496ba",
+          "summary": "제보자인 업주는 \"중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했다\"며 \"처음에는 웃으며 반찬을 다시 채워줬다\"고 전했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-64d38e1c4d2c",
+          "summary": "이후 손님들은 고기를 다 먹은 뒤 2000원짜리 셀프 볶음밥 2인분을 주문했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-b3d6df8acf75",
+          "summary": "메뉴판에는 볶음밥이 '셀프'라고 명시돼 있었지만, 남성 손님은 직원에게 \"왜 밥 안 볶아줘?\"라고 따졌다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-c6c23cb7435c",
+          "summary": "직원이 \"이 메뉴는 셀프 볶음밥\"이라고 설명하자 남성은 \"2000원이나 받아 쳐 놓고 장난해 지금\"이라며 소리를 지른 것으로 전해졌다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-de8f49a23504",
+          "summary": "업주가 메뉴판에 '셀프'라고 적혀 있고 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 2000원을 받는 것이라고 설명했지만, 남성은 카운터까지 쫓아가 업주를 폭행한 것으로 알려졌다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-7287eb68a130",
+          "summary": "남성은 경찰에게도 \"장사 이렇게 하면 안 되지 않냐\"며 난동을 이어갔고, 다른 손님에게 \"맛없지 않느냐\"고 묻기도 한 것으로 전해졌다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-40b0b166d421",
+          "summary": "한 남성이 다 마신 컵을 들고 카페에 들어와 \"이거 리필\"이라고 요구했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-82b14ee1afbb",
+          "summary": "카페 측이 \"저희는 리필이 안 됩니다\"라고 설명하자 남성은 밖으로 나갔다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        }
+      ],
+      "prohibitedClaims": [],
+      "prohibitedPhrases": [
+        "보도에 따르면"
+      ],
+      "requiredQualifications": [],
+      "safeReplacements": [],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ],
+      "uncertaintyInstructions": [],
+      "omissionInstructions": [],
+      "identityRestrictions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기"
+      ],
+      "footageRestrictions": [
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+      ],
+      "sourceAttribution": {
+        "mode": "not-required",
+        "neutralPrefix": "",
+        "claimIds": []
+      }
+    },
+    "factBrief": {
+      "confirmedFacts": [
+        "[서울=뉴시스] 셀프 볶음밥을 안 볶아줬다는 이유로 식당 업주에게 폭행을 가한 손님의 모습이 공개됐다.",
+        "(사진=JTBC '사건반장' 캡처) [서울=뉴시스]장인혜 인턴 기자 = 식당과 카페에서 직원과 업주에게 무리한 요구를 한 뒤, 폭행과 협박까지 이어간 손님들의 제보 영상이 공개됐다.",
+        "7일 JTBC '사건반장'에서는 업주들이 겪은 황당한 피해 사례가 소개됐다.",
+        "첫 번째 사례는 경북 경산의 한 오리고기 전문점에서 발생했다.",
+        "제보자인 업주는 \"중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했다\"며 \"처음에는 웃으며 반찬을 다시 채워줬다\"고 전했다.",
+        "이후 손님들은 고기를 다 먹은 뒤 2000원짜리 셀프 볶음밥 2인분을 주문했다.",
+        "메뉴판에는 볶음밥이 '셀프'라고 명시돼 있었지만, 남성 손님은 직원에게 \"왜 밥 안 볶아줘?\"라고 따졌다.",
+        "직원이 \"이 메뉴는 셀프 볶음밥\"이라고 설명하자 남성은 \"2000원이나 받아 쳐 놓고 장난해 지금\"이라며 소리를 지른 것으로 전해졌다.",
+        "업주가 메뉴판에 '셀프'라고 적혀 있고 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 2000원을 받는 것이라고 설명했지만, 남성은 카운터까지 쫓아가 업주를 폭행한 것으로 알려졌다.",
+        "남성은 경찰에게도 \"장사 이렇게 하면 안 되지 않냐\"며 난동을 이어갔고, 다른 손님에게 \"맛없지 않느냐\"고 묻기도 한 것으로 전해졌다.",
+        "한 남성이 다 마신 컵을 들고 카페에 들어와 \"이거 리필\"이라고 요구했다.",
+        "카페 측이 \"저희는 리필이 안 됩니다\"라고 설명하자 남성은 밖으로 나갔다."
+      ],
+      "timeline": [],
+      "disputedFacts": [],
+      "unknownFacts": [],
+      "followUpChanges": []
+    },
+    "videoDecision": {
+      "decision": "conditional",
+      "reasons": [
+        "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다."
+      ]
+    },
+    "caseDispositionReview": {
+      "status": "complete",
+      "question": "이 사건의 처리와 판단은 유사한 과거 사례 및 법리에 비추어 설명 가능한가",
+      "similarCases": [],
+      "applicableIssues": [],
+      "assessment": "현재 검증된 유사 판례를 찾지 못했습니다. 비교 결론을 만들지 않고, 이 한계를 대본에 반영해 사건의 형사책임·처벌·향후 수사 결과를 단정하지 않습니다.",
+      "limitations": [
+        "공개 보도만으로 전체 소송기록과 증거를 재평가할 수 없습니다.",
+        "검증된 유사 판례가 없다는 사실은 유사 사건이나 적용 법리가 존재하지 않는다는 뜻이 아닙니다.",
+        "이 검토는 법률 자문이나 판결의 옳고 그름을 확정하는 의견이 아닙니다."
+      ]
+    },
+    "videoUseReview": {
+      "status": "complete",
+      "decision": "conditional",
+      "question": "이 사건을 영상 소재로 활용할 수 있는가",
+      "allowedUse": [
+        "검증된 기사와 판결·법령을 요약한 자체 서술",
+        "실제 화면과 혼동되지 않도록 고지한 비식별 AI 재구성",
+        "출처와 불확실성을 함께 표시한 사건 연표"
+      ],
+      "conditions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기",
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+      ],
+      "prohibitedUse": [
+        "권리 확인 없는 기사·방송·CCTV 원본 재사용",
+        "관계자의 얼굴·이름·직장·위치를 추가로 특정",
+        "수사·재판 결과 또는 정신건강과 행위의 인과를 확인 사실처럼 단정"
+      ],
+      "reasons": [
+        "검증된 독립 보도가 한 곳뿐이므로 사실 범위와 불확실성을 보수적으로 유지합니다."
+      ]
+    },
+    "scriptWritingReview": {
+      "status": "complete",
+      "decision": "approved-with-conditions",
+      "question": "대본 작성 시 무엇을 지키고 피해야 하는가",
+      "required": [
+        "사건 사실은 확인된 증거 범위 안에서만 서술하며 미확인·불일치 내용을 확정하지 않습니다.",
+        "발견·신고·입건·강제수사 등 실제로 확인된 사건 단계만 시간순으로 설명합니다."
+      ],
+      "avoid": [
+        "보도에 따르면"
+      ],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ]
+    },
+    "reviewCompletion": {
+      "caseDisposition": true,
+      "videoUse": true,
+      "scriptWriting": true,
+      "allComplete": true
+    }
+  },
+  "draftFinalized": false,
+  "draft": {
+    "schema": "newsroom-autonomous-script-draft-v4",
+    "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v13",
+    "generation": {
+      "schemaVersion": 16,
+      "provider": "codex-cli",
+      "model": "gpt-5.6-sol",
+      "reasoning": "medium",
+      "promptContractVersion": "newsroom-autonomous-narration-prompt-v13",
+      "criticPromptContractVersion": "newsroom-independent-narration-critic-prompt-v3",
+      "generatorPromptSha256": "f790dca49b2e746b6276916bb9e841ebfb58074cfa3671f195f5bb7dbf51bfa7",
+      "criticPromptSha256": "0dd14123cf6a9341398744ae4e345384414689cb9aab487e345bff53f7ff3188",
+      "packageSha256": "d5bac4675151f46b49aa968018f25295d3c3709eceabfd986d94bc7dc3118186",
+      "initialOutputSha256": "0824197f8c873ac271d4ecc291faed229d4a9a718e3920a45f295ed53f276ada",
+      "critiqueOutputSha256": "56c1aba303bae6575f534f1d23b707c91023c0b7aa25dabeacfd7ee91e2f0683",
+      "outputSha256": "c635abecd5497c91cc960a3b43e2e998899338d3f796e50c3ac1ca259c7bcdff",
+      "currentAuthoritySha256": "c635abecd5497c91cc960a3b43e2e998899338d3f796e50c3ac1ca259c7bcdff",
+      "userEdited": false,
+      "cliVersion": "codex-cli 0.146.0",
+      "callCount": 2,
+      "generatorAttemptCount": 1,
+      "criticAttemptCount": 1,
+      "retryCount": 0,
+      "revisionApplied": true,
+      "timing": {
+        "initial": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 428,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 62.3,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        },
+        "final": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 416,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 60.553,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        }
+      },
+      "generatedAt": "2026-09-04T19:05:15.971Z"
+    },
+    "critique": {
+      "schema": "newsroom-independent-narration-critique-v2",
+      "initialVerdict": "revise",
+      "findings": [
+        {
+          "category": "factual-grounding",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "초안의 사건 순서는 대체로 근거에 부합하지만, 항의를 추상적인 공간 이동으로 표현한 대목은 확인된 행동보다 해석이 앞섭니다. 최종본은 주문, 설명, 추적, 폭행 주장처럼 개별 claim이 직접 지지하는 행동만 남겼습니다.",
+          "exactQuote": "말로 이어지던 항의는 이때 식당 안의 이동으로 바뀌었습니다."
+        },
+        {
+          "category": "legal-qualification",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "독립적으로 확인된 출처가 하나뿐인 사안인데 일부 행동이 확정 사실처럼 이어집니다. 최종본은 폭행과 이후 난동을 업주의 주장으로 한정하고, 확인되지 않은 부상이나 처분은 추가하지 않았습니다.",
+          "exactQuote": "이어 남성이 그곳에서 업주를 폭행했다고 업주는 밝혔습니다."
+        },
+        {
+          "category": "observer-summary",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "첫 두 문장은 출처나 보도 과정을 앞세우지 않고 식당 안의 주문과 행동으로 시작합니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "repetition",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "셀프 표시와 설명이 달라지지 않았다는 정리 뒤에 항의의 이동, 추적, 폭행을 다시 단계별로 풀어 같은 전환을 중복합니다. 최종본은 시간순 행동마다 한 번씩만 서술했습니다.",
+          "exactQuote": "메뉴판의 ‘셀프’ 표시는 그대로였고, 손님이 요구한 서비스는 직원과 업주의 설명으로도 달라지지 않았습니다."
+        },
+        {
+          "category": "progression",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "추상적인 해설이 구체적인 추적 행동 사이에 끼어 전개를 늦춥니다. 최종본은 주문, 항의, 설명, 고성, 추적, 폭행 주장, 경찰 앞 난동으로 계속 전진합니다.",
+          "exactQuote": "말로 이어지던 항의는 이때 식당 안의 이동으로 바뀌었습니다."
+        },
+        {
+          "category": "interest",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "초반의 반찬 보충이 길고 핵심인 셀프 규칙과 서비스 요구의 충돌이 늦게 등장합니다. 최종본은 배경을 압축하고 메뉴판 표시와 손님의 직접 요구를 빠르게 연결한 뒤 행동 수위를 높입니다.",
+          "exactQuote": "경북 경산의 한 오리고기 전문점에서 중년 남녀 손님이 반찬이 적다고 항의하자, 업주는 웃으며 반찬을 다시 채워줬다고 말했습니다."
+        },
+        {
+          "category": "modality-fit",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "구체적인 식당 공간과 반찬 보충, 주문이라는 행동 변화가 첫 두 문장 안에 있어 action-scene 형식에 맞습니다. 최종본도 물리적 행동의 시간순 흐름을 유지합니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "coda",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "상투적인 감정 문구 없이 경찰 앞에서도 난동이 이어졌다는 사건 고유의 결과로 닫습니다. 최종본도 같은 직접 종결 방식을 유지합니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "advisory-duration",
+          "initialStatus": "revise",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "초안의 자문 추정치는 목표 범위보다 짧습니다. 최종본은 새로운 사실을 만들지 않으면서 확인된 행동과 대사를 시간순으로 세분화해 목표 길이에 맞도록 확장했습니다.",
+          "exactQuote": ""
+        }
+      ],
+      "revisionApplied": true,
+      "revisionSummary": "추상적이고 중복된 전환을 제거하고, 단일 출처 한정을 분명히 유지하면서 식당 안의 행동을 시간순으로 재구성했습니다. 확인된 대사와 재료, 가격 설명을 활용해 청취 분량도 확장했습니다.",
+      "initialAuthoritySha256": "0824197f8c873ac271d4ecc291faed229d4a9a718e3920a45f295ed53f276ada",
+      "finalAuthoritySha256": "c635abecd5497c91cc960a3b43e2e998899338d3f796e50c3ac1ca259c7bcdff",
+      "timing": {
+        "initial": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 428,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 62.3,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        },
+        "final": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 416,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 60.553,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": false,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        }
+      }
+    },
+    "authority": {
+      "schema": "newsroom-autonomous-narration-v3",
+      "modality": "action-scene",
+      "narration": "경북 경산의 한 오리고기 전문점에서 중년 남녀 손님이 오리불고기를 주문한 뒤, 반찬이 적다고 항의했습니다. 업주는 처음에는 웃으며 부족하다는 반찬을 다시 채워줬다고 말했습니다. 두 사람은 오리불고기를 다 먹을 때까지 식사를 이어갔습니다. 식사를 마친 뒤에는 2천 원짜리 셀프 볶음밥을 두 인분 주문했습니다. 메뉴판에는 주문한 볶음밥이 ‘셀프’ 메뉴라고 명시돼 있었습니다. 하지만 남성 손님은 직원에게 “왜 밥 안 볶아줘?”라고 따졌습니다. 직원은 손님이 주문한 메뉴가 셀프 볶음밥이라고 다시 설명했습니다. 그러자 남성은 “2000원이나 받아 쳐 놓고 장난해 지금”이라며 소리를 질렀다고 업주는 전했습니다. 업주는 김가루와 김치, 깻잎, 참기름 등을 함께 제공하기 때문에 볶음밥 가격으로 2천 원을 받는다고 설명했습니다. 이 설명 뒤에도 남성은 업주를 카운터까지 쫓아갔다고 업주는 주장했습니다. 이어 남성이 카운터에서 자신을 폭행했다고 업주는 주장했습니다. 남성은 경찰에게도 “장사 이렇게 하면 안 되지 않냐”고 말하며 난동을 이어갔다고 업주는 주장했습니다.",
+      "sentences": [
+        {
+          "text": "경북 경산의 한 오리고기 전문점에서 중년 남녀 손님이 오리불고기를 주문한 뒤, 반찬이 적다고 항의했습니다.",
+          "claimRefs": [
+            "claim-482562ee7559",
+            "claim-ae59330496ba"
+          ]
+        },
+        {
+          "text": "업주는 처음에는 웃으며 부족하다는 반찬을 다시 채워줬다고 말했습니다.",
+          "claimRefs": [
+            "claim-ae59330496ba"
+          ]
+        },
+        {
+          "text": "두 사람은 오리불고기를 다 먹을 때까지 식사를 이어갔습니다.",
+          "claimRefs": [
+            "claim-64d38e1c4d2c"
+          ]
+        },
+        {
+          "text": "식사를 마친 뒤에는 2천 원짜리 셀프 볶음밥을 두 인분 주문했습니다.",
+          "claimRefs": [
+            "claim-64d38e1c4d2c"
+          ]
+        },
+        {
+          "text": "메뉴판에는 주문한 볶음밥이 ‘셀프’ 메뉴라고 명시돼 있었습니다.",
+          "claimRefs": [
+            "claim-b3d6df8acf75"
+          ]
+        },
+        {
+          "text": "하지만 남성 손님은 직원에게 “왜 밥 안 볶아줘?”라고 따졌습니다.",
+          "claimRefs": [
+            "claim-b3d6df8acf75"
+          ]
+        },
+        {
+          "text": "직원은 손님이 주문한 메뉴가 셀프 볶음밥이라고 다시 설명했습니다.",
+          "claimRefs": [
+            "claim-c6c23cb7435c"
+          ]
+        },
+        {
+          "text": "그러자 남성은 “2000원이나 받아 쳐 놓고 장난해 지금”이라며 소리를 질렀다고 업주는 전했습니다.",
+          "claimRefs": [
+            "claim-c6c23cb7435c"
+          ]
+        },
+        {
+          "text": "업주는 김가루와 김치, 깻잎, 참기름 등을 함께 제공하기 때문에 볶음밥 가격으로 2천 원을 받는다고 설명했습니다.",
+          "claimRefs": [
+            "claim-de8f49a23504"
+          ]
+        },
+        {
+          "text": "이 설명 뒤에도 남성은 업주를 카운터까지 쫓아갔다고 업주는 주장했습니다.",
+          "claimRefs": [
+            "claim-de8f49a23504"
+          ]
+        },
+        {
+          "text": "이어 남성이 카운터에서 자신을 폭행했다고 업주는 주장했습니다.",
+          "claimRefs": [
+            "claim-de8f49a23504"
+          ]
+        },
+        {
+          "text": "남성은 경찰에게도 “장사 이렇게 하면 안 되지 않냐”고 말하며 난동을 이어갔다고 업주는 주장했습니다.",
+          "claimRefs": [
+            "claim-7287eb68a130"
+          ]
+        }
+      ],
+      "evidenceLineage": {
+        "schema": "newsroom-autonomous-narration-evidence-lineage-v3",
+        "packageSha256": "d5bac4675151f46b49aa968018f25295d3c3709eceabfd986d94bc7dc3118186",
+        "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+        "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+        "usedClaimRefs": [
+          "claim-482562ee7559",
+          "claim-ae59330496ba",
+          "claim-64d38e1c4d2c",
+          "claim-b3d6df8acf75",
+          "claim-c6c23cb7435c",
+          "claim-de8f49a23504",
+          "claim-7287eb68a130"
+        ]
+      }
+    },
+    "editorialDirection": "이번 사건은 다른 카페 사례와 섞지 않고 경북 경산 오리고기 전문점의 한 흐름만 다룬다. 화면 없이도 식당 안에서 반찬 양에 대한 항의가 다시 채워지는 과정, 식사 뒤 2인분 셀프 볶음밥 주문, 메뉴판의 셀프 표시와 직원·업주의 설명, 남성 손님이 카운터까지 쫓아가 업주를 폭행했다는 순서를 들을 수 있게 한다. 2,000원 셀프 볶음밥과 김가루·김치·깻잎·참기름 제공은 현재 제보 내용의 범위에서만 사용하고, 폭행의 강도·부상·처분은 확인되지 않은 채로 둔다. ‘셀프’라는 매장 규칙과 손님이 요구한 서비스가 설명 뒤에도 신체적 충돌로 바뀐 역할 충돌은 central axis 후보지만 훅, 공개 시점, 리듬, beat 구성은 모델이 자율 결정한다. 뉴시스가 JTBC 사건반장 제보 영상과 업주 진술을 재인용한 단일 출처이므로 제보·전언에 맞춘 귀속을 유지한다. 기사에 함께 실린 카페 리필 사례, 다른 손님의 말, 복수 피해 사건은 이 사건에 넣지 않는다. 경찰 신고·입건·상해·합의·처벌을 새로 상정하지 않으며, 법적 결과가 확인된 경우에만 감정 coda보다 먼저 명시한다. final movement에는 서비스 규칙과 책임 경계가 무너지는 확인 사실에서 모델이 고른 affective resonance와 listener self-projection을 두되 업주의 내면이나 후유증을 사실처럼 만들지 않는다. 구체적인 보편 행동·바람·감정·질문·훈계·상투어를 고정하지 않고, 반전과 coda는 전체 narration을 다시 편집해 통합한다. 2026년 8월 7일 보도 및 확인된 절대 날짜를 우선하고 상대 날짜는 피한다. 70~80초는 owner narration locked timing에서만 검증한다.",
+    "policyBinding": {
+      "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+      "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+      "packageSha256": "d5bac4675151f46b49aa968018f25295d3c3709eceabfd986d94bc7dc3118186"
+    },
+    "history": [
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T12:51:39.660Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v4",
+          "generation": {
+            "schemaVersion": 7,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v4",
+            "promptSha256": "4b52b26c5b9aa9899b4ad0db8c8656e7abf004eee4cce2c6736c3238d147e223",
+            "packageSha256": "108197a1472d33de307e6e22be1d24f0e48fd402333568dc99965b14f9b5e87d",
+            "outputSha256": "35d70d04d4076cebc63358906446a6bbbd479a2ecfa3517d0b3f7d559959d4fa",
+            "currentAuthoritySha256": "35d70d04d4076cebc63358906446a6bbbd479a2ecfa3517d0b3f7d559959d4fa",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T11:33:50.534Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "경북 경산의 한 오리고기 전문점. 공개된 제보 내용에서 중년 남녀 손님은 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했습니다. 업주는 처음에는 웃으며 반찬을 다시 채워줬다고 했습니다. 고기를 다 먹은 손님들은 2천 원짜리 볶음밥 2인분을 주문했습니다. 메뉴판에는 분명 ‘셀프’라고 적혀 있었습니다. 그런데 남성 손님은 직원에게 왜 밥을 볶아주지 않느냐고 따졌습니다. 직원이 셀프 메뉴라고 설명하자 목소리는 더 커졌습니다. “2천 원이나 받아 놓고 장난하냐”는 취지의 고성이 이어졌습니다. 업주도 김가루와 김치, 깻잎, 참기름 등이 제공되는 셀프 볶음밥이라고 설명했습니다. 하지만 설명은 상황을 멈추지 못했습니다. 남성은 카운터까지 업주를 쫓아가 폭행한 것으로 알려졌습니다. 경찰이 온 뒤에도 “장사를 이렇게 하면 안 되지 않느냐”며 난동을 이어가고, 다른 손님에게 음식이 맛없지 않으냐고 묻기도 한 것으로 전해졌습니다. 처음에는 웃으며 반찬을 채워주던 사람이, 마지막에는 자기 식당 카운터까지 쫓기는 사람이 됐습니다. 누구나 편히 드나드는 식당에서 설명하던 사람과 쫓기는 사람이 갈린 그 순간은, 일상의 안전이 얼마나 쉽게 흔들릴 수 있는지를 씁쓸하게 비춥니다.",
+            "beats": [
+              {
+                "role": "웃음으로 시작된 응대",
+                "summary": "반찬이 적다는 불만에 업주가 웃으며 다시 채워준 상황으로 평온한 출발점을 설정한다.",
+                "claimRefs": [
+                  "claim-482562ee7559",
+                  "claim-ae59330496ba"
+                ]
+              },
+              {
+                "role": "메뉴판에 적힌 경계",
+                "summary": "식사 뒤 주문한 2천 원짜리 볶음밥이 명시된 셀프 메뉴였음을 제시한다.",
+                "claimRefs": [
+                  "claim-64d38e1c4d2c",
+                  "claim-b3d6df8acf75"
+                ]
+              },
+              {
+                "role": "설명과 고성의 충돌",
+                "summary": "직원의 안내에도 손님의 항의가 고성으로 커지는 과정을 짧은 인용과 함께 높인다.",
+                "claimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-c6c23cb7435c"
+                ]
+              },
+              {
+                "role": "카운터까지 이어진 폭력",
+                "summary": "업주의 재설명 뒤 남성이 카운터까지 따라가 폭행한 순간을 긴장의 정점으로 둔다.",
+                "claimRefs": [
+                  "claim-de8f49a23504",
+                  "claim-afd9f47604ca"
+                ]
+              },
+              {
+                "role": "멈추지 않은 난동",
+                "summary": "경찰이 온 뒤에도 항의와 다른 손님을 향한 질문이 이어졌다는 사실로 여파를 보여준다.",
+                "claimRefs": [
+                  "claim-7287eb68a130"
+                ]
+              },
+              {
+                "role": "응대자의 자리 뒤집힘",
+                "summary": "웃으며 응대하던 업주가 자기 식당 안에서 쫓기는 사람이 된 역할 변화를 통해 일상적 안전의 흔들림을 남긴다.",
+                "claimRefs": [
+                  "claim-ae59330496ba",
+                  "claim-de8f49a23504"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "‘셀프’라는 명확한 안내와 반복된 설명이 손님의 요구를 멈추지 못하고, 응대하던 업주가 자기 식당 카운터까지 쫓겨 폭행당하는 사람으로 바뀐 과정.",
+              "rationale": "식당과 카페의 여러 사례를 나열하지 않고 경산 식당 사건 하나에 집중했다. 웃으며 반찬을 채워준 초기 응대, 메뉴판의 셀프 표시, 직원과 업주의 거듭된 설명, 고성, 카운터 추격과 폭행을 차례로 배치해 요구가 폭력으로 변하는 강도를 높였다. 경찰 도착 뒤의 난동은 짧게 압축하고, 법적 결과가 입력에 없으므로 덧붙이지 않았다. 마지막은 업주의 내면을 추정하지 않은 채 ‘응대하던 사람’과 ‘쫓기는 사람’의 역할 변화를 되짚어, 청취자가 익숙한 식당 공간에서 일상의 안전이 흔들리는 감각을 투영하도록 설계했다."
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "108197a1472d33de307e6e22be1d24f0e48fd402333568dc99965b14f9b5e87d",
+              "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+              "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+              "usedClaimRefs": [
+                "claim-482562ee7559",
+                "claim-ae59330496ba",
+                "claim-64d38e1c4d2c",
+                "claim-b3d6df8acf75",
+                "claim-c6c23cb7435c",
+                "claim-de8f49a23504",
+                "claim-afd9f47604ca",
+                "claim-7287eb68a130"
+              ]
+            }
+          },
+          "editorialDirection": null,
+          "policyBinding": {
+            "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+            "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+            "packageSha256": "108197a1472d33de307e6e22be1d24f0e48fd402333568dc99965b14f9b5e87d"
+          }
+        },
+        "draftSnapshotSha256": "5ea56f1d3f3897c492969268a56b4b559a6515d6ca6926104db6502e593fe9ae"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T14:59:57.203Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v4",
+          "generation": {
+            "schemaVersion": 7,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v4",
+            "promptSha256": "e4a438b6df009effc03c9d181c4fa03d46140a647685c210d5ce592c06bc463c",
+            "packageSha256": "a99f5ccf735bcec80575b9ca2d3f1abd9cf8fbbd3ec2e9e3e64bdabcadfbc48b",
+            "outputSha256": "0eaba9184285858fc73f781c6a36afa03ee49a3182a2c862f84fdaa42c23126b",
+            "currentAuthoritySha256": "0eaba9184285858fc73f781c6a36afa03ee49a3182a2c862f84fdaa42c23126b",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T12:51:39.587Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "경북 경산의 한 오리고기 전문점. 중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 항의했습니다. 업주의 제보 내용입니다. 업주는 처음에는 웃으며 반찬을 다시 채워줬다고 했습니다. 그렇게 식사가 이어졌고, 두 사람은 고기를 다 먹은 뒤 2천 원짜리 셀프 볶음밥 2인분을 주문했습니다. 그런데 남성 손님이 직원을 향해 따졌습니다. “왜 밥 안 볶아줘?” 직원은 이 메뉴가 셀프 볶음밥이라고 설명했습니다. 메뉴판에도 분명 ‘셀프’라고 적혀 있었습니다. 하지만 남성은 2천 원이나 받으면서 왜 볶아주지 않느냐는 취지로 소리를 질렀다고 전해졌습니다. 업주도 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 받는 가격이라며 다시 설명했습니다. 말로 확인할 수 있는 규칙이었고, 설명도 한 번이 아니었습니다. 그런데 항의는 거기서 멈추지 않았습니다. 남성은 카운터까지 업주를 쫓아가 폭행한 것으로 알려졌습니다. 반찬을 다시 채워주던 식사의 흐름은, 셀프라는 짧은 안내를 받아들이지 않으면서 신체적 충돌로 바뀌었습니다. 누구나 손님이거나 일하는 사람이 될 수 있는 평범한 식당에서, 서로를 지켜주던 규칙과 설명의 경계가 한순간 무너질 때 남는 불안은 낯설지 않습니다.",
+            "beats": [
+              {
+                "role": "일상 속 첫 마찰",
+                "summary": "경산의 오리고기 전문점에서 반찬 양에 대한 항의가 있었고 업주가 웃으며 다시 채워준 과정을 제시한다.",
+                "claimRefs": [
+                  "claim-482562ee7559",
+                  "claim-ae59330496ba"
+                ]
+              },
+              {
+                "role": "갈등의 핵심 조건",
+                "summary": "식사 뒤 주문한 것은 메뉴판에 셀프라고 명시된 2천 원짜리 볶음밥 2인분이었다는 점을 분명히 한다.",
+                "claimRefs": [
+                  "claim-64d38e1c4d2c",
+                  "claim-b3d6df8acf75"
+                ]
+              },
+              {
+                "role": "설명과 요구의 충돌",
+                "summary": "직원과 업주의 거듭된 설명에도 남성 손님의 항의가 고성으로 높아지는 흐름을 압축한다.",
+                "claimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-c6c23cb7435c",
+                  "claim-de8f49a23504"
+                ]
+              },
+              {
+                "role": "물리적 경계의 붕괴",
+                "summary": "말로 시작된 갈등이 카운터까지 이어진 추격과 업주 폭행으로 전환됐음을 드러낸다.",
+                "claimRefs": [
+                  "claim-de8f49a23504",
+                  "claim-afd9f47604ca"
+                ]
+              },
+              {
+                "role": "공감의 잔향",
+                "summary": "평범한 식당의 서비스 규칙과 설명이 신체적 충돌 앞에서 무너진 사실을 청취자도 놓일 수 있는 공간의 불안으로 비춘다.",
+                "claimRefs": [
+                  "claim-ae59330496ba",
+                  "claim-b3d6df8acf75",
+                  "claim-de8f49a23504"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "명시된 ‘셀프’ 규칙과 반복된 설명이 손님의 서비스 요구를 멈추지 못하고 카운터에서의 폭행으로 넘어간 경계 붕괴를 중심축으로 삼았다.",
+              "rationale": "반찬을 다시 채워준 완화 장면에서 시작해 식사, 셀프 볶음밥 주문, 직원과 업주의 설명, 고성, 카운터 추격과 폭행 순으로 강도를 높였다. 가격과 제공 재료는 요구와 규칙의 충돌을 이해하는 데 필요한 만큼만 남겼고, 별개의 카페 사례와 다른 손님에 관한 내용은 제외했다. 단일 출처의 제보·전언이라는 한계를 반영해 귀속 표현을 유지했으며, 확인되지 않은 부상이나 법적 결과는 넣지 않았다. 마지막은 업주의 내면을 추정하지 않고 누구나 손님 또는 일하는 사람으로 서게 되는 평범한 공간에서 규칙과 설명의 경계가 무너지는 불안으로 사건을 확장했다."
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "a99f5ccf735bcec80575b9ca2d3f1abd9cf8fbbd3ec2e9e3e64bdabcadfbc48b",
+              "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+              "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+              "usedClaimRefs": [
+                "claim-482562ee7559",
+                "claim-ae59330496ba",
+                "claim-64d38e1c4d2c",
+                "claim-b3d6df8acf75",
+                "claim-c6c23cb7435c",
+                "claim-de8f49a23504",
+                "claim-afd9f47604ca"
+              ]
+            }
+          },
+          "editorialDirection": "이번 사건은 다른 카페 사례와 섞지 않고 경북 경산 오리고기 전문점의 한 흐름만 다룬다. 화면 없이도 식당 안에서 반찬 양에 대한 항의가 다시 채워지는 과정, 식사 뒤 2인분 셀프 볶음밥 주문, 메뉴판의 셀프 표시와 직원·업주의 설명, 남성 손님이 카운터까지 쫓아가 업주를 폭행했다는 순서를 들을 수 있게 한다. 2,000원 셀프 볶음밥과 김가루·김치·깻잎·참기름 제공은 현재 제보 내용의 범위에서만 사용하고, 폭행의 강도·부상·처분은 확인되지 않은 채로 둔다. ‘셀프’라는 매장 규칙과 손님이 요구한 서비스가 설명 뒤에도 신체적 충돌로 바뀐 역할 충돌은 central axis 후보지만 훅, 공개 시점, 리듬, beat 구성은 모델이 자율 결정한다. 뉴시스가 JTBC 사건반장 제보 영상과 업주 진술을 재인용한 단일 출처이므로 제보·전언에 맞춘 귀속을 유지한다. 기사에 함께 실린 카페 리필 사례, 다른 손님의 말, 복수 피해 사건은 이 사건에 넣지 않는다. 경찰 신고·입건·상해·합의·처벌을 새로 상정하지 않으며, 법적 결과가 확인된 경우에만 감정 coda보다 먼저 명시한다. final movement에는 서비스 규칙과 책임 경계가 무너지는 확인 사실에서 모델이 고른 affective resonance와 listener self-projection을 두되 업주의 내면이나 후유증을 사실처럼 만들지 않는다. 구체적인 보편 행동·바람·감정·질문·훈계·상투어를 고정하지 않고, 반전과 coda는 전체 narration을 다시 편집해 통합한다. 2026년 8월 7일 보도 및 확인된 절대 날짜를 우선하고 상대 날짜는 피한다. 70~80초는 owner narration locked timing에서만 검증한다.",
+          "policyBinding": {
+            "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+            "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+            "packageSha256": "a99f5ccf735bcec80575b9ca2d3f1abd9cf8fbbd3ec2e9e3e64bdabcadfbc48b"
+          }
+        },
+        "draftSnapshotSha256": "e044c4f82902617b3aca7b7623469899740cf463629c519905518287bd7c3dcb"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T15:32:53.778Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v7",
+          "generation": {
+            "schemaVersion": 10,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v7",
+            "promptSha256": "4089472f198c89f33d5370a2b20ddfb94839a6099cf533bb8c82d929c6d831ab",
+            "packageSha256": "770fc7510b5f07c07ff701bcf316d9f29ddf69694817e2b3c11b66ec47b2ad93",
+            "outputSha256": "c4233161654e9e484e2b43c8601a019b06ad5e0b88581137bcdfa69346e040bc",
+            "currentAuthoritySha256": "c4233161654e9e484e2b43c8601a019b06ad5e0b88581137bcdfa69346e040bc",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T14:59:57.128Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "경북 경산의 한 오리고기 전문점에서 중년 남녀 손님은 고기를 다 먹은 뒤 2천 원짜리 셀프 볶음밥 2인분을 주문한 것으로 전해졌습니다. 메뉴판에도 ‘셀프’라고 적혀 있었지만, 남성 손님은 업주를 카운터까지 쫓아가 폭행한 것으로 알려졌습니다. 업주 제보에 따르면, 갈등은 식사 중 반찬이 적다는 불만에서 시작됐습니다. 업주는 처음에는 웃으며 반찬을 다시 채워줬다고 했습니다. 식사가 끝나고 셀프 볶음밥을 주문한 남성은 직원에게 왜 밥을 볶아주지 않느냐고 따졌습니다. 직원이 이 메뉴는 셀프라고 설명하자 남성은 “2천 원이나 받아 놓고 장난하느냐”는 취지로 소리를 질렀다고 전해졌습니다. 업주가 메뉴판의 셀프 표시와 함께 김가루와 김치, 깻잎, 참기름 등이 제공된다고 설명했지만, 남성은 카운터까지 쫓아가 업주를 폭행한 것으로 알려졌습니다. 처음에는 반찬을 다시 내주는 것으로 지나갔던 불만이, 매장 규칙을 거듭 설명한 뒤에는 신체적 충돌로 번진 겁니다. 평범한 식사와 안내가 폭력으로 바뀐 이 장면은, 누구나 일상에서 기대하는 안전의 경계가 얼마나 쉽게 흔들릴 수 있는지를 남깁니다.",
+            "beats": [
+              {
+                "role": "결과를 먼저 맞부딪치는 구체적 도입",
+                "summary": "식사를 마친 손님이 명시된 셀프 볶음밥을 주문한 상황과 업주를 카운터까지 쫓아가 폭행했다는 결과를 바로 충돌시킨다.",
+                "claimRefs": [
+                  "claim-482562ee7559",
+                  "claim-ae59330496ba",
+                  "claim-64d38e1c4d2c",
+                  "claim-b3d6df8acf75",
+                  "claim-de8f49a23504"
+                ]
+              },
+              {
+                "role": "초기 불만과 응대",
+                "summary": "반찬 양에 대한 불만에 업주가 웃으며 반찬을 다시 채워준 앞선 상황으로 돌아간다.",
+                "claimRefs": [
+                  "claim-ae59330496ba"
+                ]
+              },
+              {
+                "role": "셀프 규칙을 둘러싼 언쟁",
+                "summary": "남성 손님이 볶아주지 않는 이유를 따지고, 직원의 셀프 메뉴 설명 뒤 가격을 문제 삼으며 소리친 과정을 들려준다.",
+                "claimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-c6c23cb7435c"
+                ]
+              },
+              {
+                "role": "설명 뒤 폭행으로 확대",
+                "summary": "업주가 가격에 포함된 재료와 셀프 표시를 설명했지만 남성이 카운터까지 따라가 폭행했다는 과정으로 도입에서 남긴 질문을 회수한다.",
+                "claimRefs": [
+                  "claim-de8f49a23504"
+                ]
+              },
+              {
+                "role": "일상의 안전으로 번지는 잔향",
+                "summary": "평범한 식사와 매장 안내가 신체적 충돌로 바뀐 역할 경계의 붕괴를 청취자가 기대하는 일상의 안전과 연결한다.",
+                "claimRefs": [
+                  "claim-ae59330496ba",
+                  "claim-b3d6df8acf75",
+                  "claim-de8f49a23504"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "명시된 ‘셀프’ 규칙을 직원과 업주가 거듭 설명했는데도 손님의 서비스 요구가 업주 폭행으로 확대된 역할·안전 경계의 붕괴를 중심축으로 삼았다.",
+              "rationale": "반찬 불만은 갈등의 시작과 업주의 초기 응대를 보여주는 정도로 압축하고, 2천 원짜리 셀프 볶음밥 2인분, 메뉴판 표시, 제공 재료, 카운터까지 이어진 폭행을 축으로 정보 강도를 높였다. 결과를 도입에 제시한 뒤 ‘어떤 설명을 거쳐 폭행까지 확대됐는가’를 시간순으로 회수해 화면 없이도 동선을 이해하게 했다. 확인되지 않은 폭행 강도·부상·처분은 배제했으며, 마지막에는 매장 규칙을 설명하는 평범한 일상이 폭력으로 전환된 사실을 누구나 기대하는 일상의 안전감에 연결했다.",
+              "hook": {
+                "choice": "식사를 마친 뒤 명시된 셀프 메뉴를 주문한 평범한 상황과 카운터까지 이어진 업주 폭행을 인접한 두 문장에 직접 배치하는 결과 선공개형 충돌",
+                "rationale": "‘2천 원짜리 셀프 볶음밥 2인분’, 메뉴판의 셀프 표시, 카운터까지 쫓아간 폭행이라는 사건 고유 정보를 사용해 어떤 규칙 아래 있던 누가 어떤 행동으로 그 경계를 깼는지 도입만으로 알 수 있게 했다. 폭행 결과는 숨기지 않되, 불만이 어떤 설명을 거쳐 폭행으로 확대됐는지는 뒤에 남겼다.",
+                "openingText": "경북 경산의 한 오리고기 전문점에서 중년 남녀 손님은 고기를 다 먹은 뒤 2천 원짜리 셀프 볶음밥 2인분을 주문한 것으로 전해졌습니다. 메뉴판에도 ‘셀프’라고 적혀 있었지만, 남성 손님은 업주를 카운터까지 쫓아가 폭행한 것으로 알려졌습니다.",
+                "expectationText": "경북 경산의 한 오리고기 전문점에서 중년 남녀 손님은 고기를 다 먹은 뒤 2천 원짜리 셀프 볶음밥 2인분을 주문한 것으로 전해졌습니다.",
+                "expectationClaimRefs": [
+                  "claim-482562ee7559",
+                  "claim-ae59330496ba",
+                  "claim-64d38e1c4d2c"
+                ],
+                "breachText": "남성 손님은 업주를 카운터까지 쫓아가 폭행한 것으로 알려졌습니다.",
+                "breachClaimRefs": [
+                  "claim-de8f49a23504"
+                ],
+                "withheldQuestion": "반찬에 대한 초기 불만은 어떤 요구와 설명을 거쳐 업주 폭행으로 확대됐는가?",
+                "payoff": "직원이 이 메뉴는 셀프라고 설명하자 남성은 “2천 원이나 받아 놓고 장난하느냐”는 취지로 소리를 질렀다고 전해졌습니다. 업주가 메뉴판의 셀프 표시와 함께 김가루와 김치, 깻잎, 참기름 등이 제공된다고 설명했지만, 남성은 카운터까지 쫓아가 업주를 폭행한 것으로 알려졌습니다.",
+                "payoffClaimRefs": [
+                  "claim-c6c23cb7435c",
+                  "claim-de8f49a23504"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "770fc7510b5f07c07ff701bcf316d9f29ddf69694817e2b3c11b66ec47b2ad93",
+              "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+              "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+              "usedClaimRefs": [
+                "claim-482562ee7559",
+                "claim-ae59330496ba",
+                "claim-64d38e1c4d2c",
+                "claim-b3d6df8acf75",
+                "claim-de8f49a23504",
+                "claim-c6c23cb7435c"
+              ]
+            }
+          },
+          "editorialDirection": "이번 사건은 다른 카페 사례와 섞지 않고 경북 경산 오리고기 전문점의 한 흐름만 다룬다. 화면 없이도 식당 안에서 반찬 양에 대한 항의가 다시 채워지는 과정, 식사 뒤 2인분 셀프 볶음밥 주문, 메뉴판의 셀프 표시와 직원·업주의 설명, 남성 손님이 카운터까지 쫓아가 업주를 폭행했다는 순서를 들을 수 있게 한다. 2,000원 셀프 볶음밥과 김가루·김치·깻잎·참기름 제공은 현재 제보 내용의 범위에서만 사용하고, 폭행의 강도·부상·처분은 확인되지 않은 채로 둔다. ‘셀프’라는 매장 규칙과 손님이 요구한 서비스가 설명 뒤에도 신체적 충돌로 바뀐 역할 충돌은 central axis 후보지만 훅, 공개 시점, 리듬, beat 구성은 모델이 자율 결정한다. 뉴시스가 JTBC 사건반장 제보 영상과 업주 진술을 재인용한 단일 출처이므로 제보·전언에 맞춘 귀속을 유지한다. 기사에 함께 실린 카페 리필 사례, 다른 손님의 말, 복수 피해 사건은 이 사건에 넣지 않는다. 경찰 신고·입건·상해·합의·처벌을 새로 상정하지 않으며, 법적 결과가 확인된 경우에만 감정 coda보다 먼저 명시한다. final movement에는 서비스 규칙과 책임 경계가 무너지는 확인 사실에서 모델이 고른 affective resonance와 listener self-projection을 두되 업주의 내면이나 후유증을 사실처럼 만들지 않는다. 구체적인 보편 행동·바람·감정·질문·훈계·상투어를 고정하지 않고, 반전과 coda는 전체 narration을 다시 편집해 통합한다. 2026년 8월 7일 보도 및 확인된 절대 날짜를 우선하고 상대 날짜는 피한다. 70~80초는 owner narration locked timing에서만 검증한다.",
+          "policyBinding": {
+            "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+            "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+            "packageSha256": "770fc7510b5f07c07ff701bcf316d9f29ddf69694817e2b3c11b66ec47b2ad93"
+          }
+        },
+        "draftSnapshotSha256": "be783ed223f85c23506955d9da66ba6fc08bf34748caf0f7ebbf9412326331bb"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T16:36:25.759Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v8",
+          "generation": {
+            "schemaVersion": 11,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v8",
+            "promptSha256": "4b88a2a2373e0e2a1ab9b01c27d12012ab04abfe903bec05b8b041d8dceb38b4",
+            "packageSha256": "7befc76d359d5e136ff6b521f361922b233a233876b2ebb59950f6d5ed83c597",
+            "outputSha256": "9a6d9fd805b7cd72ab26982bec06fe01614e1345ec4c172f9e9bbde97fd361fd",
+            "currentAuthoritySha256": "9a6d9fd805b7cd72ab26982bec06fe01614e1345ec4c172f9e9bbde97fd361fd",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T15:32:53.699Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "메뉴판에 ‘셀프’라고 적힌 2천 원 볶음밥을 두고, 남성 손님은 설명하던 업주를 카운터까지 쫓아가 폭행한 것으로 전해졌습니다. 경북 경산의 한 오리고기 전문점에서 벌어진 일입니다. 제보한 업주의 설명을 따라가면 시작은 반찬이었습니다. 중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했고, 업주는 처음에는 웃으며 다시 채워줬다고 합니다. 손님들은 고기를 다 먹고 2천 원짜리 셀프 볶음밥 2인분을 주문했습니다. 메뉴판에는 분명 ‘셀프’라고 표시돼 있었습니다. 그런데 남성 손님은 직원에게 왜 밥을 볶아주지 않느냐고 따졌습니다. 직원이 셀프 메뉴라고 설명하자, 남성은 2천 원이나 받는다며 소리를 지른 것으로 전해졌습니다. 업주도 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 받는 금액이라고 설명했습니다. 설명은 언쟁을 멈추지 못했습니다. 남성은 카운터까지 업주를 따라가 폭행한 것으로 알려졌고, 경찰에게도 장사를 이렇게 하면 안 되는 것 아니냐며 난동을 이어간 것으로 전해졌습니다. 폭행의 강도나 부상, 이후 처분은 공개된 내용만으로 확인되지 않았습니다. 메뉴판의 ‘셀프’라는 한 단어가 설명으로 끝나지 않고, 누군가를 카운터까지 몰아붙이는 폭력으로 바뀌는 순간은 그래서 오래 불편하게 남습니다.",
+            "beats": [
+              {
+                "role": "규칙과 폭력의 즉시 충돌",
+                "summary": "셀프라고 명시된 2천 원 메뉴에 대한 설명이 업주를 뒤쫓아 폭행하는 행동으로 번졌다는 핵심 모순을 먼저 제시한다.",
+                "claimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-de8f49a23504"
+                ]
+              },
+              {
+                "role": "앞선 응대의 온도",
+                "summary": "반찬 불만에 업주가 웃으며 다시 채워준 과정을 배치해, 처음에는 통상적인 서비스 응대였음을 들려준다.",
+                "claimRefs": [
+                  "claim-482562ee7559",
+                  "claim-ae59330496ba"
+                ]
+              },
+              {
+                "role": "갈등을 만든 주문",
+                "summary": "식사를 마친 손님들이 2천 원짜리 셀프 볶음밥 두 개를 주문하고, 표시된 운영 방식과 다른 서비스를 요구한 과정을 구체화한다.",
+                "claimRefs": [
+                  "claim-64d38e1c4d2c",
+                  "claim-b3d6df8acf75"
+                ]
+              },
+              {
+                "role": "두 차례 설명 뒤의 확대",
+                "summary": "직원과 업주가 각각 셀프 방식과 제공 재료를 설명했지만 고성과 추격, 폭행으로 이어진 순서를 회수한다.",
+                "claimRefs": [
+                  "claim-c6c23cb7435c",
+                  "claim-de8f49a23504"
+                ]
+              },
+              {
+                "role": "멈추지 않은 항의와 확인 한계",
+                "summary": "남성이 경찰에게도 난동을 이어갔다는 전언을 전하되, 입력에 없는 부상이나 처분은 단정하지 않는다.",
+                "claimRefs": [
+                  "claim-7287eb68a130"
+                ]
+              },
+              {
+                "role": "설명으로 끝나지 못한 한 단어의 잔상",
+                "summary": "셀프라는 명시적 규칙이 카운터까지 이어진 폭력으로 변한 사건 고유의 대비를 청자의 불편한 잔상으로 연결한다.",
+                "claimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-de8f49a23504"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "명시된 ‘셀프’ 규칙을 직원과 업주가 거듭 설명했는데도 서비스 요구가 카운터까지 이어진 폭행으로 확대된 역할 충돌",
+              "rationale": "다른 카페 사례와 법적 추정을 배제하고, 반찬 불만에 대한 응대에서 셀프 볶음밥 주문, 직원과 업주의 설명, 추격과 폭행으로 이어지는 한 식당의 흐름만 남겼다. 2천 원, 2인분, 제공 재료, 카운터라는 사건 고유 정보로 갈등의 규모와 이동을 들리게 하면서, 폭행의 강도·부상·처분처럼 확인되지 않은 내용은 명시적으로 열어뒀다.",
+              "hook": {
+                "choice": "가격과 운영 방식이 적힌 평범한 메뉴판을, 설명자를 뒤쫓는 폭력과 한 문장 안에서 맞부딪치는 사실 직결형 오프닝",
+                "rationale": "손님이 직접 조리하는 것으로 표시된 2천 원 메뉴라는 기대와, 이를 설명한 업주를 카운터까지 쫓아가 폭행했다는 구체 행동을 즉시 붙여 사건의 부조리를 배경 설명 없이 이해하게 한다.",
+                "openingText": "메뉴판에 ‘셀프’라고 적힌 2천 원 볶음밥을 두고, 남성 손님은 설명하던 업주를 카운터까지 쫓아가 폭행한 것으로 전해졌습니다.",
+                "impactText": "남성 손님은 설명하던 업주를 카운터까지 쫓아가 폭행한 것으로 전해졌습니다.",
+                "impactClaimRefs": [
+                  "claim-de8f49a23504"
+                ],
+                "impactMechanism": "단순 항의라는 추상어 대신 대상인 업주, 이동 지점인 카운터, 행동인 추격과 폭행을 한꺼번에 제시해 서비스 분쟁이 신체적 충돌로 바뀐 규모를 즉시 드러낸다.",
+                "expectationText": "메뉴판에 ‘셀프’라고 적힌 2천 원 볶음밥",
+                "expectationClaimRefs": [
+                  "claim-b3d6df8acf75"
+                ],
+                "breachText": "남성 손님은 설명하던 업주를 카운터까지 쫓아가 폭행한 것으로 전해졌습니다.",
+                "breachClaimRefs": [
+                  "claim-de8f49a23504"
+                ],
+                "withheldQuestion": "셀프 볶음밥을 둘러싼 요구는 어떤 설명을 거쳐 폭행까지 확대됐는가?",
+                "retentionGap": "오프닝에서 셀프 표시와 최종 폭행은 공개하되, 반찬 불만부터 두 차례의 설명과 고성을 거쳐 카운터 추격으로 번진 과정은 남겨 이후의 시간 순서로 회수한다.",
+                "payoff": "직원이 셀프 메뉴라고 설명하자, 남성은 2천 원이나 받는다며 소리를 지른 것으로 전해졌습니다. 업주도 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 받는 금액이라고 설명했습니다. 설명은 언쟁을 멈추지 못했습니다. 남성은 카운터까지 업주를 따라가 폭행한 것으로 알려졌고, 경찰에게도 장사를 이렇게 하면 안 되는 것 아니냐며 난동을 이어간 것으로 전해졌습니다.",
+                "payoffClaimRefs": [
+                  "claim-c6c23cb7435c",
+                  "claim-de8f49a23504",
+                  "claim-7287eb68a130"
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "메뉴판의 짧은 운영 규칙이 설명을 거쳐도 폭력으로 뒤집힌 데서 오는 구체적인 불편함",
+                "codaRationale": "‘셀프’ 표시와 카운터 추격이라는 이 사건의 두 물리적 단서를 다시 맞물려, 업주의 내면을 창작하거나 일반적인 안전·신뢰의 교훈으로 빠지지 않고 청자가 설명하는 사람의 자리를 떠올리게 한다.",
+                "closingText": "메뉴판의 ‘셀프’라는 한 단어가 설명으로 끝나지 않고, 누군가를 카운터까지 몰아붙이는 폭력으로 바뀌는 순간은 그래서 오래 불편하게 남습니다.",
+                "claimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-de8f49a23504"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "7befc76d359d5e136ff6b521f361922b233a233876b2ebb59950f6d5ed83c597",
+              "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+              "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+              "usedClaimRefs": [
+                "claim-b3d6df8acf75",
+                "claim-de8f49a23504",
+                "claim-482562ee7559",
+                "claim-ae59330496ba",
+                "claim-64d38e1c4d2c",
+                "claim-c6c23cb7435c",
+                "claim-7287eb68a130"
+              ]
+            }
+          },
+          "editorialDirection": "이번 사건은 다른 카페 사례와 섞지 않고 경북 경산 오리고기 전문점의 한 흐름만 다룬다. 화면 없이도 식당 안에서 반찬 양에 대한 항의가 다시 채워지는 과정, 식사 뒤 2인분 셀프 볶음밥 주문, 메뉴판의 셀프 표시와 직원·업주의 설명, 남성 손님이 카운터까지 쫓아가 업주를 폭행했다는 순서를 들을 수 있게 한다. 2,000원 셀프 볶음밥과 김가루·김치·깻잎·참기름 제공은 현재 제보 내용의 범위에서만 사용하고, 폭행의 강도·부상·처분은 확인되지 않은 채로 둔다. ‘셀프’라는 매장 규칙과 손님이 요구한 서비스가 설명 뒤에도 신체적 충돌로 바뀐 역할 충돌은 central axis 후보지만 훅, 공개 시점, 리듬, beat 구성은 모델이 자율 결정한다. 뉴시스가 JTBC 사건반장 제보 영상과 업주 진술을 재인용한 단일 출처이므로 제보·전언에 맞춘 귀속을 유지한다. 기사에 함께 실린 카페 리필 사례, 다른 손님의 말, 복수 피해 사건은 이 사건에 넣지 않는다. 경찰 신고·입건·상해·합의·처벌을 새로 상정하지 않으며, 법적 결과가 확인된 경우에만 감정 coda보다 먼저 명시한다. final movement에는 서비스 규칙과 책임 경계가 무너지는 확인 사실에서 모델이 고른 affective resonance와 listener self-projection을 두되 업주의 내면이나 후유증을 사실처럼 만들지 않는다. 구체적인 보편 행동·바람·감정·질문·훈계·상투어를 고정하지 않고, 반전과 coda는 전체 narration을 다시 편집해 통합한다. 2026년 8월 7일 보도 및 확인된 절대 날짜를 우선하고 상대 날짜는 피한다. 70~80초는 owner narration locked timing에서만 검증한다.",
+          "policyBinding": {
+            "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+            "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+            "packageSha256": "7befc76d359d5e136ff6b521f361922b233a233876b2ebb59950f6d5ed83c597"
+          }
+        },
+        "draftSnapshotSha256": "deeb3f8dd4cd36f8ea5a7eeb55a8b86d859bc34d06bde9a3d9670b24043ea4ce"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T17:00:50.909Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v9",
+          "generation": {
+            "schemaVersion": 12,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v9",
+            "promptSha256": "c2a3e1f7426fdf6f4618b36f383117507221978875d47e044f35dc33a6793cbd",
+            "packageSha256": "2734d8672f20b9bc6329e72495f1b4dbe5cbd6276a892f34e013f006f324b451",
+            "outputSha256": "74e9c5bb9a73adca955b20abf5f4db214deaa815aa41f7bf5ab13a48da19b9bd",
+            "currentAuthoritySha256": "74e9c5bb9a73adca955b20abf5f4db214deaa815aa41f7bf5ab13a48da19b9bd",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T16:36:25.698Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "메뉴판에 ‘셀프’라고 적힌 볶음밥을 주문한 손님은, 왜 직접 볶아야 하느냐며 직원을 몰아붙였습니다. 설명을 들은 뒤에는 카운터까지 업주를 쫓아가 폭행한 것으로 전해졌습니다. 경북 경산의 한 오리고기 전문점. 업주 설명에 따르면 중년 남녀 손님은 오리불고기를 주문한 뒤 반찬이 적다고 항의했고, 업주는 처음에는 웃으며 반찬을 다시 채워줬습니다. 고기를 다 먹은 손님들이 이어서 주문한 것은 한 그릇에 2천 원인 셀프 볶음밥 2인분이었습니다. 메뉴판에도 ‘셀프’라고 표시돼 있었습니다. 그런데 남성 손님은 직원에게 왜 밥을 볶아주지 않느냐고 따졌습니다. 직원이 셀프 메뉴라고 설명하자, 남성은 2천 원이나 받는다며 소리를 지른 것으로 전해졌습니다. 업주도 가격에는 김가루와 김치, 깻잎, 참기름 등이 포함돼 있고 손님이 직접 볶는 메뉴라고 다시 설명했습니다. 말로 규칙을 확인하는 과정은 거기서 끝나지 않았습니다. 남성은 업주를 따라 카운터까지 이동했고, 결국 업주를 폭행한 것으로 알려졌습니다. 폭행의 강도나 부상, 이후 처분은 확인된 내용이 없습니다. 확인되는 흐름은 반찬을 다시 채워준 응대가 식사와 셀프 메뉴 설명을 지나 업주를 향한 폭행으로 바뀌었다는 데까지입니다. 메뉴판의 ‘셀프’라는 두 글자가 거듭된 설명 뒤에도 폭행을 막지 못했다는 사실은, 누구라도 말로 정한 선이 이렇게 쉽게 짓밟힐 수 있다는 서늘함을 남깁니다.",
+            "beats": [
+              {
+                "role": "규칙과 폭행의 정면충돌",
+                "summary": "셀프라고 명시된 메뉴를 둘러싼 요구가 설명 뒤 업주 폭행으로 이어졌다는 핵심 모순을 먼저 제시한다.",
+                "claimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-de8f49a23504"
+                ]
+              },
+              {
+                "role": "응대에서 식사로 돌아가는 발단",
+                "summary": "업주 진술 범위에서 반찬 항의와 재응대를 짚어 갈등이 시작된 순서를 복원한다.",
+                "claimRefs": [
+                  "claim-482562ee7559",
+                  "claim-ae59330496ba"
+                ]
+              },
+              {
+                "role": "사건 고유의 쟁점 구체화",
+                "summary": "고기를 먹은 뒤 주문한 2천 원짜리 셀프 볶음밥 2인분과 메뉴판 표시를 제시한다.",
+                "claimRefs": [
+                  "claim-64d38e1c4d2c",
+                  "claim-b3d6df8acf75"
+                ]
+              },
+              {
+                "role": "설명이 고성으로 바뀌는 상승",
+                "summary": "직원의 셀프 안내 뒤 남성이 가격을 문제 삼아 소리친 과정을 전언으로 한정한다.",
+                "claimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-c6c23cb7435c"
+                ]
+              },
+              {
+                "role": "카운터까지 이어진 물리적 확대",
+                "summary": "업주의 구성품·가격 설명에도 남성이 카운터까지 따라가 폭행했다는 회수 지점을 놓는다.",
+                "claimRefs": [
+                  "claim-de8f49a23504"
+                ]
+              },
+              {
+                "role": "확인 범위와 사건 고유의 여운",
+                "summary": "확인되지 않은 피해·처분을 만들지 않고, 거듭된 셀프 메뉴 설명이 폭행을 막지 못한 역할 충돌로 닫는다.",
+                "claimRefs": [
+                  "claim-ae59330496ba",
+                  "claim-b3d6df8acf75",
+                  "claim-de8f49a23504"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "‘셀프’라고 명시된 2천 원 볶음밥의 서비스 경계를 직원과 업주가 거듭 설명했지만, 손님의 요구가 카운터까지 이어진 폭행으로 변한 역할 충돌을 단일 축으로 삼았다.",
+              "rationale": "카페 사례와 경찰 이후 행동은 제외하고, 반찬 재응대에서 식사·셀프 볶음밥 주문·직원 설명·업주 설명·카운터 폭행으로 이어지는 한 식당의 흐름만 남겼다. 가격과 제공 재료는 갈등의 쟁점을 구체화하는 만큼 유지했고, 확인되지 않은 폭행 강도·부상·처분은 명시적으로 열어뒀다. 짧은 문장으로 메뉴 규칙을 세운 뒤 설명이 반복될수록 행동이 커지는 리듬을 만들고, 마지막에는 ‘셀프’라는 구체적 표시가 폭행 앞에서 무시된 서늘함으로 청자를 사건에 투영시켰다.",
+              "hook": {
+                "choice": "메뉴 규칙과 이를 설명한 업주를 향한 폭행을 인접한 두 문장에 맞부딪치는 결과 선공개형 훅",
+                "rationale": "평범한 셀프 메뉴의 역할 분담을 첫 문장에 분명히 세우고, 설명 뒤 업주를 카운터까지 쫓아가 폭행했다는 가장 큰 위해를 곧바로 붙였다. 다만 그 요구가 어떤 응대와 주문, 두 차례 설명을 거쳐 확대됐는지는 뒤에 남겨 순서대로 회수했다.",
+                "openingText": "메뉴판에 ‘셀프’라고 적힌 볶음밥을 주문한 손님은, 왜 직접 볶아야 하느냐며 직원을 몰아붙였습니다. 설명을 들은 뒤에는 카운터까지 업주를 쫓아가 폭행한 것으로 전해졌습니다.",
+                "impactText": "설명을 들은 뒤에는 카운터까지 업주를 쫓아가 폭행한 것으로 전해졌습니다.",
+                "impactClaimRefs": [
+                  "claim-de8f49a23504"
+                ],
+                "impactMechanism": "단순한 서비스 불만이 아니라 설명을 맡은 업주를 카운터까지 추적해 신체적 공격으로 이어졌다는 이동과 결과가 즉시 위험의 크기를 드러낸다.",
+                "expectationText": "메뉴판에 ‘셀프’라고 적힌 볶음밥을 주문한 손님은",
+                "expectationClaimRefs": [
+                  "claim-b3d6df8acf75"
+                ],
+                "breachText": "설명을 들은 뒤에는 카운터까지 업주를 쫓아가 폭행한 것으로 전해졌습니다.",
+                "breachClaimRefs": [
+                  "claim-de8f49a23504"
+                ],
+                "withheldQuestion": "셀프 메뉴를 둘러싼 요구는 어떤 응대와 설명을 거쳐 카운터 폭행까지 확대됐는가?",
+                "retentionGap": "폭행이라는 결과와 셀프 규칙의 충돌은 즉시 공개하되, 반찬을 다시 채워준 초기 응대부터 2인분 주문, 직원과 업주의 연속 설명을 지나 행동이 물리적으로 확대되는 과정은 뒤에 남겼다.",
+                "payoff": "말로 규칙을 확인하는 과정은 거기서 끝나지 않았습니다. 남성은 업주를 따라 카운터까지 이동했고, 결국 업주를 폭행한 것으로 알려졌습니다.",
+                "payoffClaimRefs": [
+                  "claim-de8f49a23504"
+                ]
+              },
+              "sceneCraft": {
+                "approach": "식탁에서 반찬이 다시 채워지고, 식사가 끝난 뒤 셀프 볶음밥이 주문되며, 직원과 업주의 설명을 거쳐 남성이 카운터까지 이동하는 검증된 행동선을 따라간다.",
+                "continuityRationale": "‘반찬을 다시 채움→고기를 다 먹음→볶음밥 2인분 주문→메뉴판과 재료 설명→카운터까지 따라감’이라는 구체적 변화가 있어 화면 없이도 식탁에서 카운터로 옮겨가는 갈등의 방향과 상승을 들을 수 있다.",
+                "sceneSpans": [
+                  {
+                    "text": "설명을 들은 뒤에는 카운터까지 업주를 쫓아가 폭행한 것으로 전해졌습니다.",
+                    "claimRefs": [
+                      "claim-de8f49a23504"
+                    ],
+                    "continuityRole": "오프닝 안에서 설명 직후의 이동 경로와 물리적 결과를 한 호흡으로 연결한다."
+                  },
+                  {
+                    "text": "업주 설명에 따르면 중년 남녀 손님은 오리불고기를 주문한 뒤 반찬이 적다고 항의했고, 업주는 처음에는 웃으며 반찬을 다시 채워줬습니다.",
+                    "claimRefs": [
+                      "claim-ae59330496ba"
+                    ],
+                    "continuityRole": "식탁에서 발생한 최초 항의와 업주의 즉각적인 재응대를 행동 순서로 복원한다."
+                  },
+                  {
+                    "text": "고기를 다 먹은 손님들이 이어서 주문한 것은 한 그릇에 2천 원인 셀프 볶음밥 2인분이었습니다.",
+                    "claimRefs": [
+                      "claim-64d38e1c4d2c"
+                    ],
+                    "continuityRole": "본 식사가 끝난 시점에서 갈등의 직접 계기가 된 다음 주문으로 시간을 전진시킨다."
+                  },
+                  {
+                    "text": "업주도 가격에는 김가루와 김치, 깻잎, 참기름 등이 포함돼 있고 손님이 직접 볶는 메뉴라고 다시 설명했습니다.",
+                    "claimRefs": [
+                      "claim-de8f49a23504"
+                    ],
+                    "continuityRole": "직원의 안내에 이어 업주가 가격과 제공물을 설명하는 다음 행동을 잇는다."
+                  },
+                  {
+                    "text": "남성은 업주를 따라 카운터까지 이동했고, 결국 업주를 폭행한 것으로 알려졌습니다.",
+                    "claimRefs": [
+                      "claim-de8f49a23504"
+                    ],
+                    "continuityRole": "대화가 있던 자리에서 카운터로 공간이 바뀌고 폭행으로 확대되는 회수 장면이다."
+                  }
+                ],
+                "attributionStrategy": "업주에게서 나온 발단은 ‘업주 설명에 따르면’으로 범위를 먼저 한정하고, 고성과 폭행은 행동을 제시한 뒤 ‘전해졌습니다’와 ‘알려졌습니다’로 짧게 닫아 단일 출처의 불확실성을 흐름 안에 흡수했다.",
+                "attributions": [
+                  {
+                    "text": "업주 설명에 따르면",
+                    "claimRefs": [
+                      "claim-ae59330496ba"
+                    ],
+                    "necessity": "반찬 항의와 초기 응대가 업주의 제보 진술에 근거한 내용임을 구분하기 위해 필요하다."
+                  },
+                  {
+                    "text": "남성은 2천 원이나 받는다며 소리를 지른 것으로 전해졌습니다.",
+                    "claimRefs": [
+                      "claim-c6c23cb7435c"
+                    ],
+                    "necessity": "단일 출처가 전한 발언과 고성을 확정적 현장 사실로 단정하지 않기 위해 필요하다."
+                  },
+                  {
+                    "text": "결국 업주를 폭행한 것으로 알려졌습니다.",
+                    "claimRefs": [
+                      "claim-de8f49a23504"
+                    ],
+                    "necessity": "카운터 폭행 역시 재인용된 단일 출처 범위의 주장임을 유지하기 위해 필요하다."
+                  }
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "두 글자로 명시되고 두 차례 설명된 서비스 경계조차 폭행 앞에서 힘을 잃은 데서 오는 서늘함",
+                "codaRationale": "‘셀프’ 표시, 직원과 업주의 설명, 카운터 폭행이라는 사건 고유 사실을 한 문장에 결합했다. 업주의 감정이나 후유증을 대신 단정하지 않고, 청자가 자신이 설명하는 위치에 설 수 있다는 보편적 불안을 반영하되 새로운 사실이나 처방을 더하지 않았다.",
+                "closingText": "메뉴판의 ‘셀프’라는 두 글자가 거듭된 설명 뒤에도 폭행을 막지 못했다는 사실은, 누구라도 말로 정한 선이 이렇게 쉽게 짓밟힐 수 있다는 서늘함을 남깁니다.",
+                "claimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-de8f49a23504"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "2734d8672f20b9bc6329e72495f1b4dbe5cbd6276a892f34e013f006f324b451",
+              "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+              "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+              "usedClaimRefs": [
+                "claim-b3d6df8acf75",
+                "claim-de8f49a23504",
+                "claim-482562ee7559",
+                "claim-ae59330496ba",
+                "claim-64d38e1c4d2c",
+                "claim-c6c23cb7435c"
+              ]
+            }
+          },
+          "editorialDirection": "이번 사건은 다른 카페 사례와 섞지 않고 경북 경산 오리고기 전문점의 한 흐름만 다룬다. 화면 없이도 식당 안에서 반찬 양에 대한 항의가 다시 채워지는 과정, 식사 뒤 2인분 셀프 볶음밥 주문, 메뉴판의 셀프 표시와 직원·업주의 설명, 남성 손님이 카운터까지 쫓아가 업주를 폭행했다는 순서를 들을 수 있게 한다. 2,000원 셀프 볶음밥과 김가루·김치·깻잎·참기름 제공은 현재 제보 내용의 범위에서만 사용하고, 폭행의 강도·부상·처분은 확인되지 않은 채로 둔다. ‘셀프’라는 매장 규칙과 손님이 요구한 서비스가 설명 뒤에도 신체적 충돌로 바뀐 역할 충돌은 central axis 후보지만 훅, 공개 시점, 리듬, beat 구성은 모델이 자율 결정한다. 뉴시스가 JTBC 사건반장 제보 영상과 업주 진술을 재인용한 단일 출처이므로 제보·전언에 맞춘 귀속을 유지한다. 기사에 함께 실린 카페 리필 사례, 다른 손님의 말, 복수 피해 사건은 이 사건에 넣지 않는다. 경찰 신고·입건·상해·합의·처벌을 새로 상정하지 않으며, 법적 결과가 확인된 경우에만 감정 coda보다 먼저 명시한다. final movement에는 서비스 규칙과 책임 경계가 무너지는 확인 사실에서 모델이 고른 affective resonance와 listener self-projection을 두되 업주의 내면이나 후유증을 사실처럼 만들지 않는다. 구체적인 보편 행동·바람·감정·질문·훈계·상투어를 고정하지 않고, 반전과 coda는 전체 narration을 다시 편집해 통합한다. 2026년 8월 7일 보도 및 확인된 절대 날짜를 우선하고 상대 날짜는 피한다. 70~80초는 owner narration locked timing에서만 검증한다.",
+          "policyBinding": {
+            "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+            "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+            "packageSha256": "2734d8672f20b9bc6329e72495f1b4dbe5cbd6276a892f34e013f006f324b451"
+          }
+        },
+        "draftSnapshotSha256": "806f2dfa37c9b1f1dfcc8e19a8a55413f2db82448607c3a7797827b7dda5b734"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T19:05:16.074Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v10",
+          "generation": {
+            "schemaVersion": 13,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v10",
+            "promptSha256": "82a997b3db83e99de694c4ea84cfe15bddd9964cc56cb84e6bca844bb6558f5d",
+            "packageSha256": "755b6fb89fbd2f6b96b706ffbd20e596fc933d29c6e45c77d95d6fe57557e1a5",
+            "outputSha256": "6909becbbcdd72c85dad2b83fbc3300b5acc2a544220b0fc0b9a76688962265d",
+            "currentAuthoritySha256": "6909becbbcdd72c85dad2b83fbc3300b5acc2a544220b0fc0b9a76688962265d",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T17:00:50.860Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "오리불고기를 다 먹은 손님들은 2천 원짜리 셀프 볶음밥 2인분을 주문했습니다. 업주가 밝힌 경위에 따르면, 남성 손님은 밥을 볶아주지 않았다는 이유로 카운터까지 업주를 쫓아가 폭행했습니다. 2026년 8월 7일 소개된 경북 경산의 한 오리고기 전문점 사례입니다. 그보다 앞서 중년 남녀 손님은 반찬이 적다며 불만을 제기했고, 업주는 처음에는 웃으며 반찬을 다시 채워줬다고 밝혔습니다. 식사가 끝난 뒤 주문한 메뉴는 볶음밥 2인분. 메뉴판에는 ‘셀프’라고 적혀 있었습니다. 하지만 남성은 직원에게 왜 밥을 볶아주지 않느냐고 따졌습니다. 직원이 셀프 메뉴라고 설명하자, 남성은 2천 원이나 받으면서 장난하느냐는 취지로 소리를 질렀습니다. 업주는 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 2천 원을 받는다고 다시 설명했습니다. 그래도 항의는 멈추지 않았습니다. 남성은 업주를 카운터까지 뒤쫓았고, 그곳에서 폭행으로 이어졌다고 업주는 밝혔습니다. 폭행의 강도나 부상, 이후 처분은 확인된 내용이 없습니다. 우리가 메뉴판에서 무심히 넘기는 ‘셀프’라는 두 글자가, 이 식당에서는 설명으로 끝나지 않고 폭행으로 이어졌다는 사실이 씁쓸함을 남깁니다.",
+            "beats": [
+              {
+                "role": "결과를 먼저 맞닥뜨리는 역할 충돌",
+                "summary": "식사를 마친 손님이 셀프 볶음밥을 주문한 평범한 상황과, 업주를 카운터까지 쫓아가 폭행했다는 결과를 즉시 충돌시킨다.",
+                "claimRefs": [
+                  "claim-64d38e1c4d2c",
+                  "claim-afd9f47604ca",
+                  "claim-de8f49a23504"
+                ]
+              },
+              {
+                "role": "앞선 불만과 업주의 대응",
+                "summary": "반찬 불만에 업주가 반찬을 다시 채운 과정으로 돌아가 갈등의 시작점을 제시한다.",
+                "claimRefs": [
+                  "claim-482562ee7559",
+                  "claim-ae59330496ba"
+                ]
+              },
+              {
+                "role": "셀프 표시와 요구의 충돌",
+                "summary": "메뉴판의 셀프 표시에도 남성이 조리를 요구하고 직원의 설명 뒤 소리를 지른 흐름을 따라간다.",
+                "claimRefs": [
+                  "claim-64d38e1c4d2c",
+                  "claim-b3d6df8acf75",
+                  "claim-c6c23cb7435c"
+                ]
+              },
+              {
+                "role": "설명 뒤에도 계속된 추격",
+                "summary": "업주가 가격과 제공 재료를 설명했지만 남성이 카운터까지 따라가 폭행했다는 과정으로 오프닝의 결과를 회수한다.",
+                "claimRefs": [
+                  "claim-de8f49a23504"
+                ]
+              },
+              {
+                "role": "확인 범위와 사건 고유의 여운",
+                "summary": "확인되지 않은 피해·처분을 단정하지 않고, 셀프라는 명시적 규칙이 설명 뒤 폭행으로 이어진 부조리를 남긴다.",
+                "claimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-de8f49a23504"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "메뉴판에 명시된 ‘셀프’ 규칙을 직원과 업주가 거듭 설명했는데도 서비스 요구가 업주 추격과 폭행으로 바뀐 역할 충돌을 중심축으로 삼았다.",
+              "rationale": "다른 카페 사례와 경찰 상대 행동은 제외하고, 반찬 불만부터 식사 종료, 셀프 볶음밥 주문, 두 차례 설명, 카운터 추격과 폭행까지 한 식당 안의 연속만 남겼다. 결과를 먼저 제시한 뒤 갈등의 확대 과정을 시간순으로 회수하고, 확인되지 않은 폭행 강도·부상·처분은 명시적으로 열어뒀다.",
+              "hook": {
+                "choice": "식사를 마친 뒤의 평범한 추가 주문과 카운터 추격·폭행을 인접한 두 문장으로 맞부딪치는 결과 선공개형 오프닝",
+                "rationale": "‘2천 원짜리 셀프 볶음밥 2인분’이라는 구체적인 주문 상황 바로 뒤에 업주를 카운터까지 쫓아가 폭행했다는 행동을 배치해, 서비스 기대가 깨진 대상과 규모를 별도 배경 없이 이해하게 한다.",
+                "openingText": "오리불고기를 다 먹은 손님들은 2천 원짜리 셀프 볶음밥 2인분을 주문했습니다. 업주가 밝힌 경위에 따르면, 남성 손님은 밥을 볶아주지 않았다는 이유로 카운터까지 업주를 쫓아가 폭행했습니다.",
+                "impactText": "남성 손님은 밥을 볶아주지 않았다는 이유로 카운터까지 업주를 쫓아가 폭행했습니다.",
+                "impactClaimRefs": [
+                  "claim-afd9f47604ca",
+                  "claim-de8f49a23504"
+                ],
+                "impactMechanism": "단순한 조리 요구가 공간을 가로지른 추격과 업주 폭행으로 변했다는 구체적 동선과 행동이 갈등의 심각성을 즉시 드러낸다.",
+                "expectationText": "오리불고기를 다 먹은 손님들은 2천 원짜리 셀프 볶음밥 2인분을 주문했습니다.",
+                "expectationClaimRefs": [
+                  "claim-64d38e1c4d2c"
+                ],
+                "breachText": "업주가 밝힌 경위에 따르면, 남성 손님은 밥을 볶아주지 않았다는 이유로 카운터까지 업주를 쫓아가 폭행했습니다.",
+                "breachClaimRefs": [
+                  "claim-afd9f47604ca",
+                  "claim-de8f49a23504"
+                ],
+                "withheldQuestion": "셀프 볶음밥 주문은 어떤 설명과 항의를 거쳐 카운터에서의 폭행으로 확대됐는가?",
+                "retentionGap": "오프닝은 주문과 폭행 결과를 공개하되, 메뉴판의 셀프 표시와 직원·업주의 설명을 듣고도 남성이 어떻게 항의를 계속했는지는 남겨둔다.",
+                "payoff": "메뉴판에는 ‘셀프’라고 적혀 있었습니다. 하지만 남성은 직원에게 왜 밥을 볶아주지 않느냐고 따졌습니다. 직원이 셀프 메뉴라고 설명하자, 남성은 2천 원이나 받으면서 장난하느냐는 취지로 소리를 질렀습니다. 업주는 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 2천 원을 받는다고 다시 설명했습니다. 그래도 항의는 멈추지 않았습니다. 남성은 업주를 카운터까지 뒤쫓았고, 그곳에서 폭행으로 이어졌다고 업주는 밝혔습니다.",
+                "payoffClaimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-c6c23cb7435c",
+                  "claim-de8f49a23504"
+                ]
+              },
+              "sceneCraft": {
+                "approach": "식탁의 반찬 보충에서 식사 종료와 볶음밥 주문을 거쳐, 직원의 설명이 오간 뒤 카운터로 동선이 이동하는 과정을 행동 단위로 연결했다.",
+                "continuityRationale": "반찬을 다시 채우는 행동, 메뉴판의 셀프 표시, 직원과 업주의 연속된 설명, 카운터까지의 추격을 차례로 들려줘 화면 없이도 갈등의 위치와 강도 변화를 따라가게 한다.",
+                "sceneSpans": [
+                  {
+                    "text": "오리불고기를 다 먹은 손님들은 2천 원짜리 셀프 볶음밥 2인분을 주문했습니다.",
+                    "claimRefs": [
+                      "claim-64d38e1c4d2c"
+                    ],
+                    "continuityRole": "식사가 끝난 식탁에서 다음 주문으로 넘어가는 출발 행동을 고정한다."
+                  },
+                  {
+                    "text": "업주가 밝힌 경위에 따르면, 남성 손님은 밥을 볶아주지 않았다는 이유로 카운터까지 업주를 쫓아가 폭행했습니다.",
+                    "claimRefs": [
+                      "claim-afd9f47604ca",
+                      "claim-de8f49a23504"
+                    ],
+                    "continuityRole": "오프닝 안에서 식탁의 요구가 카운터 방향의 추격과 폭행으로 이동했음을 즉시 보여준다."
+                  },
+                  {
+                    "text": "그보다 앞서 중년 남녀 손님은 반찬이 적다며 불만을 제기했고, 업주는 처음에는 웃으며 반찬을 다시 채워줬다고 밝혔습니다.",
+                    "claimRefs": [
+                      "claim-ae59330496ba"
+                    ],
+                    "continuityRole": "시간을 명시적으로 되돌려 최초 항의와 업주의 대응 행동을 연결한다."
+                  },
+                  {
+                    "text": "직원이 셀프 메뉴라고 설명하자, 남성은 2천 원이나 받으면서 장난하느냐는 취지로 소리를 질렀습니다.",
+                    "claimRefs": [
+                      "claim-c6c23cb7435c"
+                    ],
+                    "continuityRole": "직원의 설명 직후 목소리가 높아지는 순서를 통해 갈등 상승을 전달한다."
+                  },
+                  {
+                    "text": "남성은 업주를 카운터까지 뒤쫓았고, 그곳에서 폭행으로 이어졌다고 업주는 밝혔습니다.",
+                    "claimRefs": [
+                      "claim-de8f49a23504"
+                    ],
+                    "continuityRole": "식탁 부근의 언쟁에서 카운터의 신체적 충돌로 공간과 행동이 바뀌는 지점을 완결한다."
+                  }
+                ],
+                "attributionStrategy": "단일 출처라는 한계를 반영해 핵심 폭행 경위와 초기 대응을 업주의 진술로 명시하고, 귀속 문구를 해당 행동과 같은 문장에 붙였다. 확인되지 않은 피해와 처분도 별도 문장으로 한정했다.",
+                "attributions": [
+                  {
+                    "text": "업주가 밝힌 경위에 따르면, 남성 손님은 밥을 볶아주지 않았다는 이유로 카운터까지 업주를 쫓아가 폭행했습니다.",
+                    "claimRefs": [
+                      "claim-afd9f47604ca",
+                      "claim-de8f49a23504"
+                    ],
+                    "necessity": "폭행 경위가 독립적으로 교차 검증되지 않은 단일 출처 내용이므로 책임 주체를 업주로 분명히 한다."
+                  },
+                  {
+                    "text": "그보다 앞서 중년 남녀 손님은 반찬이 적다며 불만을 제기했고, 업주는 처음에는 웃으며 반찬을 다시 채워줬다고 밝혔습니다.",
+                    "claimRefs": [
+                      "claim-ae59330496ba"
+                    ],
+                    "necessity": "초기 항의와 업주의 대응은 업주가 밝힌 경위이므로 진술 주체를 유지한다."
+                  },
+                  {
+                    "text": "남성은 업주를 카운터까지 뒤쫓았고, 그곳에서 폭행으로 이어졌다고 업주는 밝혔습니다.",
+                    "claimRefs": [
+                      "claim-de8f49a23504"
+                    ],
+                    "necessity": "오프닝의 폭행 결과를 회수하면서도 해당 과정이 업주가 밝힌 내용이라는 범위를 재확인한다."
+                  }
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "누구나 읽을 수 있는 ‘셀프’라는 두 글자가 거듭된 설명에도 폭행의 구실로 바뀐 데서 오는 씁쓸함",
+                "codaRationale": "추상적인 안전이나 신뢰를 말하는 대신, 이 사건에만 있는 메뉴판의 셀프 표시와 설명 뒤의 폭행을 청자가 익숙한 메뉴판 읽기에 겹쳐 보게 했다. 피해자의 내면이나 확인되지 않은 후유증은 덧붙이지 않았다.",
+                "closingText": "우리가 메뉴판에서 무심히 넘기는 ‘셀프’라는 두 글자가, 이 식당에서는 설명으로 끝나지 않고 폭행으로 이어졌다는 사실이 씁쓸함을 남깁니다.",
+                "claimRefs": [
+                  "claim-b3d6df8acf75",
+                  "claim-de8f49a23504"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "755b6fb89fbd2f6b96b706ffbd20e596fc933d29c6e45c77d95d6fe57557e1a5",
+              "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+              "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+              "usedClaimRefs": [
+                "claim-64d38e1c4d2c",
+                "claim-afd9f47604ca",
+                "claim-de8f49a23504",
+                "claim-482562ee7559",
+                "claim-ae59330496ba",
+                "claim-b3d6df8acf75",
+                "claim-c6c23cb7435c"
+              ]
+            }
+          },
+          "editorialDirection": "이번 사건은 다른 카페 사례와 섞지 않고 경북 경산 오리고기 전문점의 한 흐름만 다룬다. 화면 없이도 식당 안에서 반찬 양에 대한 항의가 다시 채워지는 과정, 식사 뒤 2인분 셀프 볶음밥 주문, 메뉴판의 셀프 표시와 직원·업주의 설명, 남성 손님이 카운터까지 쫓아가 업주를 폭행했다는 순서를 들을 수 있게 한다. 2,000원 셀프 볶음밥과 김가루·김치·깻잎·참기름 제공은 현재 제보 내용의 범위에서만 사용하고, 폭행의 강도·부상·처분은 확인되지 않은 채로 둔다. ‘셀프’라는 매장 규칙과 손님이 요구한 서비스가 설명 뒤에도 신체적 충돌로 바뀐 역할 충돌은 central axis 후보지만 훅, 공개 시점, 리듬, beat 구성은 모델이 자율 결정한다. 뉴시스가 JTBC 사건반장 제보 영상과 업주 진술을 재인용한 단일 출처이므로 제보·전언에 맞춘 귀속을 유지한다. 기사에 함께 실린 카페 리필 사례, 다른 손님의 말, 복수 피해 사건은 이 사건에 넣지 않는다. 경찰 신고·입건·상해·합의·처벌을 새로 상정하지 않으며, 법적 결과가 확인된 경우에만 감정 coda보다 먼저 명시한다. final movement에는 서비스 규칙과 책임 경계가 무너지는 확인 사실에서 모델이 고른 affective resonance와 listener self-projection을 두되 업주의 내면이나 후유증을 사실처럼 만들지 않는다. 구체적인 보편 행동·바람·감정·질문·훈계·상투어를 고정하지 않고, 반전과 coda는 전체 narration을 다시 편집해 통합한다. 2026년 8월 7일 보도 및 확인된 절대 날짜를 우선하고 상대 날짜는 피한다. 70~80초는 owner narration locked timing에서만 검증한다.",
+          "policyBinding": {
+            "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+            "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+            "packageSha256": "755b6fb89fbd2f6b96b706ffbd20e596fc933d29c6e45c77d95d6fe57557e1a5"
+          }
+        },
+        "draftSnapshotSha256": "e9a4de00dddbeaffb742cfc1c6dcf4f0f85f0ccbac8c7f591558e005ffa73a7b"
+      }
+    ]
+  },
+  "draftRejectionHistory": [
+    {
+      "schema": "newsroom-script-rejection-audit-v1",
+      "decision": "reject",
+      "reasons": [
+        {
+          "code": "duration-below-minimum",
+          "detail": "근거 중복과 취재 메타를 제거한 최선의 수정본도 70초 분량에 미치지 못합니다."
+        },
+        {
+          "code": "insufficient-narrative-material",
+          "detail": "확인된 사건 흐름이 주문, 두 차례의 설명, 폭행 주장, 경찰 상대 난동에 한정돼 있어 70~80초를 정보 증가만으로 지탱할 수 없습니다."
+        }
+      ],
+      "generation": {
+        "schemaVersion": 17,
+        "provider": "codex-cli",
+        "model": "gpt-5.6-sol",
+        "reasoning": "medium",
+        "promptContractVersion": "newsroom-autonomous-narration-prompt-v14",
+        "criticPromptContractVersion": "newsroom-independent-narration-critic-prompt-v4",
+        "generatorPromptSha256": "89bd8bb25693fdda93cbd382ef2ad574621238b6a14654584a17bef0bf83abec",
+        "criticPromptSha256": "a961c25fba6368069e4f8c3d56b6a5b0e1125467d583763bb91ec480843f024e",
+        "packageSha256": "8b2d804829260c612265f2dcf5e5039862f9d6db05d71c05f4403e0990b3eabd",
+        "initialOutputSha256": "ef0b7bfbe0501994aa19c7ad746b821feaa489e33006b5c8c8d545e0f91d4a7e",
+        "critiqueOutputSha256": "e4eaae08427559937fe640ab5730b554d776ae5acdc6a22b85bd13eda4a51a34",
+        "outputSha256": "1b32f9192bba663c826ef97a58583175f72997608ced3820bb08a753e2e427f2",
+        "cliVersion": "codex-cli 0.146.0",
+        "callCount": 2,
+        "generatorAttemptCount": 1,
+        "criticAttemptCount": 1,
+        "retryCount": 0,
+        "decision": "reject",
+        "revisionApplied": true,
+        "timing": {
+          "initial": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 437,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 63.61,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          },
+          "final": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 313,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 45.56,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          }
+        },
+        "generatedAt": "2026-09-04T19:55:55.735Z"
+      },
+      "critique": {
+        "schema": "newsroom-independent-narration-critique-v3",
+        "decision": "reject",
+        "rejectionReasons": [
+          {
+            "code": "duration-below-minimum",
+            "detail": "근거 중복과 취재 메타를 제거한 최선의 수정본도 70초 분량에 미치지 못합니다."
+          },
+          {
+            "code": "insufficient-narrative-material",
+            "detail": "확인된 사건 흐름이 주문, 두 차례의 설명, 폭행 주장, 경찰 상대 난동에 한정돼 있어 70~80초를 정보 증가만으로 지탱할 수 없습니다."
+          }
+        ],
+        "initialVerdict": "revise",
+        "findings": [
+          {
+            "category": "factual-grounding",
+            "initialStatus": "revise",
+            "finalStatus": "pass",
+            "targetAuthority": "initial",
+            "detail": "업주가 표시를 물리적으로 가리켰다는 행동은 claim에 없습니다. 수정본에서는 메뉴판에 적혀 있다는 사실과 업주의 설명만 남겼습니다.",
+            "exactQuote": "메뉴판의 셀프 표시를 짚고"
+          },
+          {
+            "category": "legal-qualification",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "global",
+            "detail": "폭행과 난동은 업주의 주장으로 바로 한정했으며, 확인되지 않은 입건·상해·처분은 추가하지 않았습니다.",
+            "exactQuote": ""
+          },
+          {
+            "category": "observer-summary",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "final",
+            "detail": "수정본은 출처나 보도 과정을 앞세우지 않고 메뉴 규칙과 손님의 요구가 충돌하는 행동으로 바로 시작합니다.",
+            "exactQuote": ""
+          },
+          {
+            "category": "repetition",
+            "initialStatus": "revise",
+            "finalStatus": "pass",
+            "targetAuthority": "initial",
+            "detail": "마지막 문장이 앞서 제시한 설명, 폭행 주장, 난동을 다시 요약합니다. 수정본은 경찰 상대 난동이라는 마지막 행동에서 직접 닫았습니다.",
+            "exactQuote": "폭행 주장과 경찰 앞 난동으로 번졌습니다."
+          },
+          {
+            "category": "progression",
+            "initialStatus": "revise",
+            "finalStatus": "pass",
+            "targetAuthority": "initial",
+            "detail": "설명들이 이어졌다는 중간 정리와 결말의 재요약이 새 정보를 만들지 않습니다. 수정본은 요구, 주문 맥락, 직원 설명, 업주 설명, 추격·폭행 주장, 경찰 상대 난동 순으로 새 정보만 전진시켰습니다.",
+            "exactQuote": "남성의 행동은 항의에서 멈추지 않았습니다."
+          },
+          {
+            "category": "interest",
+            "initialStatus": "revise",
+            "finalStatus": "pass",
+            "targetAuthority": "initial",
+            "detail": "초안은 반찬을 다시 채운 저강도 일상 행동으로 시작해 핵심 역할 충돌이 늦습니다. 수정본은 첫머리에서 ‘셀프’ 표시와 조리 요구를 맞부딪치게 했습니다.",
+            "exactQuote": "업주는 웃으며 반찬을 다시 채워줬다고 말했습니다."
+          },
+          {
+            "category": "modality-fit",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "final",
+            "detail": "식당이라는 공간에서 항의, 설명, 카운터 추격으로 행동 변화가 이어져 action-scene에 맞습니다.",
+            "exactQuote": ""
+          },
+          {
+            "category": "coda",
+            "initialStatus": "pass",
+            "finalStatus": "pass",
+            "targetAuthority": "final",
+            "detail": "일반적인 교훈이나 감정 포장 없이 경찰에게도 난동을 이어갔다는 사건 고유 행동으로 끝납니다.",
+            "exactQuote": ""
+          },
+          {
+            "category": "advisory-duration",
+            "initialStatus": "revise",
+            "finalStatus": "reject",
+            "targetAuthority": "global",
+            "detail": "초안 계산값부터 63.61초로 최소 70초에 못 미칩니다. 중복을 제거한 수정본은 더 짧으며, 검증된 사실만으로 70초 이상 늘리면 반복이나 패딩이 필요합니다.",
+            "exactQuote": ""
+          }
+        ],
+        "revisionApplied": true,
+        "revisionSummary": "근거 없는 물리 행동을 삭제하고, 저강도 도입과 중간·결말의 반복 요약을 걷어냈습니다. 메뉴 규칙과 서비스 요구의 충돌을 앞으로 옮기고 폭행·난동에는 업주 주장이라는 한정을 붙였습니다. 다만 검증된 재료만으로 목표 시간을 충족할 수 없어 채택은 거부했습니다.",
+        "initialAuthoritySha256": "ef0b7bfbe0501994aa19c7ad746b821feaa489e33006b5c8c8d545e0f91d4a7e",
+        "finalAuthoritySha256": "1b32f9192bba663c826ef97a58583175f72997608ced3820bb08a753e2e427f2",
+        "timing": {
+          "initial": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 437,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 63.61,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          },
+          "final": {
+            "schema": "newsroom-owner-rate-advisory-estimate-v1",
+            "compactCharacters": 313,
+            "observedCompactKoreanCharactersPerSecond": 6.87,
+            "estimatedSeconds": 45.56,
+            "targetMinimumSeconds": 70,
+            "targetMaximumSeconds": 80,
+            "withinAdvisoryTarget": false,
+            "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+          }
+        }
+      },
+      "policyBinding": {
+        "eventDossierSha256": "b0b0aea07e8568996d4645c251c8f64bc9323cb2f6517cf452e4873e4742dd55",
+        "legalReportSha256": "eded5aaf337d169011ca66c1d939dde4c04429bdb8250a4bd287391586b5a3b5",
+        "packageSha256": "8b2d804829260c612265f2dcf5e5039862f9d6db05d71c05f4403e0990b3eabd"
+      },
+      "editorialDirection": "이번 사건은 다른 카페 사례와 섞지 않고 경북 경산 오리고기 전문점의 한 흐름만 다룬다. 화면 없이도 식당 안에서 반찬 양에 대한 항의가 다시 채워지는 과정, 식사 뒤 2인분 셀프 볶음밥 주문, 메뉴판의 셀프 표시와 직원·업주의 설명, 남성 손님이 카운터까지 쫓아가 업주를 폭행했다는 순서를 들을 수 있게 한다. 2,000원 셀프 볶음밥과 김가루·김치·깻잎·참기름 제공은 현재 제보 내용의 범위에서만 사용하고, 폭행의 강도·부상·처분은 확인되지 않은 채로 둔다. ‘셀프’라는 매장 규칙과 손님이 요구한 서비스가 설명 뒤에도 신체적 충돌로 바뀐 역할 충돌은 central axis 후보지만 훅, 공개 시점, 리듬, beat 구성은 모델이 자율 결정한다. 뉴시스가 JTBC 사건반장 제보 영상과 업주 진술을 재인용한 단일 출처이므로 제보·전언에 맞춘 귀속을 유지한다. 기사에 함께 실린 카페 리필 사례, 다른 손님의 말, 복수 피해 사건은 이 사건에 넣지 않는다. 경찰 신고·입건·상해·합의·처벌을 새로 상정하지 않으며, 법적 결과가 확인된 경우에만 감정 coda보다 먼저 명시한다. final movement에는 서비스 규칙과 책임 경계가 무너지는 확인 사실에서 모델이 고른 affective resonance와 listener self-projection을 두되 업주의 내면이나 후유증을 사실처럼 만들지 않는다. 구체적인 보편 행동·바람·감정·질문·훈계·상투어를 고정하지 않고, 반전과 coda는 전체 narration을 다시 편집해 통합한다. 2026년 8월 7일 보도 및 확인된 절대 날짜를 우선하고 상대 날짜는 피한다. 70~80초는 owner narration locked timing에서만 검증한다.",
+      "recordedAt": "2026-09-04T19:55:55.893Z",
+      "previousEntrySha256": "",
+      "entrySha256": "f3327fda3f77054a36edcec415fa4d9d8ead35ae41326daeee2ca8c306043c0c"
+    }
+  ]
+}

@@ -1,0 +1,1848 @@
+{
+  "slug": "research-0b5e8a6a5fd888df",
+  "topic": "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+  "mode": "investigation",
+  "fetchedAt": "2026-09-04T11:30:01.324Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-0b5e8a6a5fd888df.research.config.json",
+    "queries": [
+      "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+      "허위 종결 의혹",
+      "허위 종결 허위 종결",
+      "허위 종결 제주 실종신고",
+      "허위 종결 경찰 신고 수사 처분",
+      "허위 종결 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv",
+      "naver-news",
+      "daum-news",
+      "news1-society"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ],
+    "eventFingerprint": {
+      "anchors": [
+        "허위",
+        "종결",
+        "의혹",
+        "제주",
+        "경장",
+        "실종신고",
+        "63건",
+        "삭제하거나",
+        "미입력했다",
+        "실종"
+      ],
+      "distinctiveAnchors": [
+        {
+          "name": "허위",
+          "terms": [
+            "허위"
+          ]
+        },
+        {
+          "name": "종결",
+          "terms": [
+            "종결"
+          ]
+        },
+        {
+          "name": "의혹",
+          "terms": [
+            "의혹"
+          ]
+        },
+        {
+          "name": "제주",
+          "terms": [
+            "제주"
+          ]
+        }
+      ],
+      "minDistinctiveMatches": 2,
+      "minTotalMatches": 3,
+      "semanticFacets": {
+        "locations": [
+          "제주"
+        ],
+        "actions": [
+          "record-manipulation"
+        ],
+        "roles": [
+          "police-officer"
+        ],
+        "dates": [
+          "2025년3월10일",
+          "3월10일",
+          "7월23일"
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "publisher": "JTBC 뉴스",
+      "title": "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+      "url": "https://news.jtbc.co.kr/article/NB12315898",
+      "date": null,
+      "status": "verified",
+      "snippet": "'제주 실종 신고 허위 종결 사건' 피의자 부모 경장이 실종 신고 접수 후 실종 프로파일링 시스템에서 삭제 처리한 사례가 더 있는 것으로 조사됐습니다. 오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다. 실종 프로파일링 시스템 관리목록 삭제 건 중에는 실종 신고 이후 숨진 채 발견된 장모씨도 포함됐습니다. 부 경장은 장씨 실종 사건을 허위로 종결 처리한 후 교통사고로 사망했다고 입력해 이 시스템에서 삭제했습니다. 미입력은 112 신고 단계에서 오인 신고나 곧바로 실종자가 발견된 상황에 해당합니다. 이때는 실종 프로파일링 시스템에 입력하지 않아도 되는 것으로 알려졌습니다. 다만, 부 경장의 프로파일링 시스템 미입력 및 삭제 사건이 허위 종결된 것인지는 아직 확인되지 않았습니다. 마스크를 쓰고 쏟아지는 취재진 질문에 묵묵부답인 이 남성 [부모 씨 / 제주서부경찰서 경장 (지난 24일)] {허위 종결 몇 건 했나요?} … {시스템에서 왜 삭제했나요?} … {억울한 부분 있나요?} … {유가족에게 한 말씀 부탁합니다.} … 제주에서 30대 여성 장모 씨의 실종 사건을 허위로 종결한 제주서부경찰서 소속 경장 부모 씨 입니다. 그런데, 부씨의 이런 시스템 삭제 처리가 더 있었던 것으로 파악됐습니다. 오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다. 실종 프로파일링 시스템 삭제 건 중에는 장씨도 포함돼 있습니다. 부씨는 장씨 실종 사건을 허위로 종결 처리한 후 '교통사고 사망'으로 허위 입력해 시스템에서 삭제했습니다. 미입력은 112 신고 단계에서 오인 신고나 곧바로 실종자가 발견된 경우에 해당합니다. 이때는 실종 프로파일링 시스템에 입력하지 않아도 되는 것으로 알려졌습니다. 다만, 이런 부씨의 프로파일링 시스템 미입력, 또는 삭제 사건 중 허위 종결된 사건이 또 있는지는 아직 확인되지 않았습니다.",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "허위",
+          "종결",
+          "의혹",
+          "제주",
+          "경장",
+          "실종신고",
+          "63건",
+          "삭제하거나",
+          "미입력했다"
+        ],
+        "snippetLength": 1102,
+        "contentLength": 1102
+      },
+      "fetchedAt": "2026-09-04T11:30:01.334Z"
+    }
+  ],
+  "relatedCoverage": [
+    {
+      "title": "\"빚 많다, 잘 지내라\"…경찰, 제주 60대男 실종신고때 &#x27;위험신호&#x27; 묵살",
+      "url": "https://www.news1.kr/society/incident-accident/6268725",
+      "publisher": "뉴스1",
+      "date": "2026-08-25T12:20:25+09:00",
+      "status": "verified",
+      "snippet": "(서울=뉴스1) 유채연 오미란 기자 = 제주 장미란 씨 실종 사건을 허위로 종결한 혐의를 받는 제주서부경찰서 소속 부 모 경장이 또 다른 60대 남성의 실종과 관련해 '사업에 실패해 부채가 많다'는 112 신고를 받고도 제대로 대응하지 않은 것으로 나타났다. 25일 서명옥 국민의힘 의원실이 경찰청으로부터 제출받은 112 신고 내역 자료에 따르면 60대 남성 A 씨의 아내는 지난달 2일 오후 6시 2분쯤 \"남편이 28일에 나가서 연락이 안 되고 있다\"며 경찰에 신고했다. 그는 이어 \"사업실패와 부채가 많다, '잘 먹고 잘 지내라'라는 말을 애한테 했다고 한다\"고 설명했다. 그러나 부 경장은 A 씨에 대한 실종 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났다. 앞서 부 경장은 장 씨의 남자 친구로부터 실종신고를 접수했으나 약 2시간 후 \"장 씨와 연락이 닿았다\"며 사건을 종결 처리했으며, A 씨에 대한 신고도 유사한 방식으로 처리한 것으로 파악됐다. A 씨 가족은 장미란 씨의 실종 신고가 허위 종결됐다는 언론 보도를 접한 뒤 지난 21일 재차 112에 신고했다. 경찰은 이튿날인 22일 제주시 구좌읍 송당리 해안에서 숨진 A 씨를 발견했다. A 씨가 지난달 2일 실종된 지 51일 만의 일이다. A 씨의 아들은 지난 23일 기자회견을 열고 \"경찰이 아버지가 무사하다고 해 그 말만 믿고 기다렸는데 51일 만에 돌아온 건 아버지의 시신이었다\"며 \"경찰을 믿고 있었지만 이후에는 전화를 받지 않거나 가족들이 개인적으로 알아보라는 취지의 이야기만 했다\"고 했다. 경찰은 부 경장이 실종 사건 업무에 배정된 지난해 3월부터 현재까지 종결한 298건을 전수조사하고 있다. 또 실종 사건 허위 종결에 대한 지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령 조치했다. kite@news1.kr",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "많다",
+          "지내라",
+          "경찰",
+          "제주",
+          "60대男",
+          "실종신고때",
+          "위험신호",
+          "묵살"
+        ],
+        "snippetLength": 903,
+        "contentLength": 903
+      },
+      "fetchedAt": "2026-09-04T11:30:01.339Z",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.8875000000000001,
+        "matchedAnchors": [
+          "허위",
+          "종결",
+          "제주",
+          "경장",
+          "실종신고",
+          "실종"
+        ],
+        "matchedDistinctiveAnchors": [
+          "허위",
+          "종결",
+          "제주"
+        ],
+        "semanticMatch": {
+          "sharedActions": [
+            "record-manipulation"
+          ],
+          "sharedLocations": [
+            "제주"
+          ],
+          "sharedRoles": [
+            "police-officer"
+          ],
+          "candidateFacets": {
+            "locations": [
+              "서울",
+              "제주"
+            ],
+            "actions": [
+              "record-manipulation"
+            ],
+            "roles": [
+              "spouses",
+              "police-officer"
+            ],
+            "dates": [
+              "지난달2일"
+            ]
+          },
+          "minimumActionMatches": 1,
+          "minimumRoleMatches": 1,
+          "locationConflict": false
+        },
+        "eventFingerprint": {
+          "anchors": [
+            "허위",
+            "종결",
+            "의혹",
+            "제주",
+            "경장",
+            "실종신고",
+            "63건",
+            "삭제하거나",
+            "미입력했다",
+            "실종"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "허위",
+              "terms": [
+                "허위"
+              ]
+            },
+            {
+              "name": "종결",
+              "terms": [
+                "종결"
+              ]
+            },
+            {
+              "name": "의혹",
+              "terms": [
+                "의혹"
+              ]
+            },
+            {
+              "name": "제주",
+              "terms": [
+                "제주"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3,
+          "semanticFacets": {
+            "locations": [
+              "제주"
+            ],
+            "actions": [
+              "record-manipulation"
+            ],
+            "roles": [
+              "police-officer"
+            ],
+            "dates": [
+              "2025년3월10일",
+              "3월10일",
+              "7월23일"
+            ]
+          }
+        },
+        "rejectionReason": null,
+        "verificationStage": "post-fetch",
+        "contentEvidenceVerified": true
+      },
+      "kind": "same-event",
+      "mediaType": "article",
+      "relationshipReason": "후보 단계에서 원문 본문과 동일 사건을 검증한 독립 보도이며 프로젝트 조사에서 다시 검증합니다."
+    },
+    {
+      "title": "실종 허위종결 유족, 법적 대응 나선다...오늘 입장 발표·부 경장 파면 촉구 [이슈PLAY] / JTBC News",
+      "url": "https://www.youtube.com/watch?v=8_1doTGmJ1I",
+      "publisher": "JTBC News",
+      "date": "2026-09-04T00:33:48Z",
+      "status": "indexed",
+      "snippet": "제주에서 실종신고를 허위종결한 부 모(30대) 경장 사건이 검찰에 송치된 가운데 실종신고 101일 만에 숨진 채 발견된 장 모(30대·여) ...",
+      "fetchedAt": "2026-09-04T11:30:12.386Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/8_1doTGmJ1I/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.8875000000000001,
+        "matchedAnchors": [
+          "허위",
+          "종결",
+          "제주",
+          "경장",
+          "실종신고",
+          "실종"
+        ],
+        "matchedDistinctiveAnchors": [
+          "허위",
+          "종결",
+          "제주"
+        ],
+        "semanticMatch": {
+          "sharedActions": [
+            "record-manipulation"
+          ],
+          "sharedLocations": [],
+          "sharedRoles": [
+            "police-officer"
+          ],
+          "candidateFacets": {
+            "locations": [],
+            "actions": [
+              "record-manipulation"
+            ],
+            "roles": [
+              "police-officer"
+            ],
+            "dates": []
+          },
+          "minimumActionMatches": 1,
+          "minimumRoleMatches": 1,
+          "locationConflict": false
+        },
+        "eventFingerprint": {
+          "anchors": [
+            "허위",
+            "종결",
+            "의혹",
+            "제주",
+            "경장",
+            "실종신고",
+            "63건",
+            "삭제하거나",
+            "미입력했다",
+            "실종"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "허위",
+              "terms": [
+                "허위"
+              ]
+            },
+            {
+              "name": "종결",
+              "terms": [
+                "종결"
+              ]
+            },
+            {
+              "name": "의혹",
+              "terms": [
+                "의혹"
+              ]
+            },
+            {
+              "name": "제주",
+              "terms": [
+                "제주"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3,
+          "semanticFacets": {
+            "locations": [
+              "제주"
+            ],
+            "actions": [
+              "record-manipulation"
+            ],
+            "roles": [
+              "police-officer"
+            ],
+            "dates": [
+              "2025년3월10일",
+              "3월10일",
+              "7월23일"
+            ]
+          }
+        },
+        "rejectionReason": null
+      }
+    },
+    {
+      "title": "&#39;실종 허위종결&#39; 유족 &quot;국가배상 청구…금전 배상 목적 아냐&quot; [현장영상] / 채널A",
+      "url": "https://www.youtube.com/watch?v=c_6e7v5ZgSk",
+      "publisher": "채널A News",
+      "date": "2026-09-04T09:08:12Z",
+      "status": "indexed",
+      "snippet": "'실종신고 허위 종결 사건'의 장모 씨의 유족이 피의자 부모 경장에 대한 파면을 요구하며, 국가배상 청구 계획을 밝혔습니다.",
+      "fetchedAt": "2026-09-04T11:30:12.386Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/c_6e7v5ZgSk/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.775,
+        "matchedAnchors": [
+          "허위",
+          "종결",
+          "경장",
+          "실종신고",
+          "실종"
+        ],
+        "matchedDistinctiveAnchors": [
+          "허위",
+          "종결"
+        ],
+        "semanticMatch": {
+          "sharedActions": [
+            "record-manipulation"
+          ],
+          "sharedLocations": [],
+          "sharedRoles": [
+            "police-officer"
+          ],
+          "candidateFacets": {
+            "locations": [],
+            "actions": [
+              "record-manipulation"
+            ],
+            "roles": [
+              "police-officer"
+            ],
+            "dates": []
+          },
+          "minimumActionMatches": 1,
+          "minimumRoleMatches": 1,
+          "locationConflict": false
+        },
+        "eventFingerprint": {
+          "anchors": [
+            "허위",
+            "종결",
+            "의혹",
+            "제주",
+            "경장",
+            "실종신고",
+            "63건",
+            "삭제하거나",
+            "미입력했다",
+            "실종"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "허위",
+              "terms": [
+                "허위"
+              ]
+            },
+            {
+              "name": "종결",
+              "terms": [
+                "종결"
+              ]
+            },
+            {
+              "name": "의혹",
+              "terms": [
+                "의혹"
+              ]
+            },
+            {
+              "name": "제주",
+              "terms": [
+                "제주"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3,
+          "semanticFacets": {
+            "locations": [
+              "제주"
+            ],
+            "actions": [
+              "record-manipulation"
+            ],
+            "roles": [
+              "police-officer"
+            ],
+            "dates": [
+              "2025년3월10일",
+              "3월10일",
+              "7월23일"
+            ]
+          }
+        },
+        "rejectionReason": null
+      }
+    }
+  ],
+  "priorContext": [],
+  "followUps": [],
+  "laws": [],
+  "actors": [],
+  "contradictions": [],
+  "unknowns": [],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 3,
+    "priorContext": 0,
+    "originalMedia": 2,
+    "followUps": 0,
+    "laws": 0,
+    "errors": 0
+  },
+  "eventDossier": {
+    "schemaVersion": 3,
+    "slug": "research-0b5e8a6a5fd888df",
+    "generatedAt": "2026-09-04T11:30:01.324Z",
+    "researchSnapshotSha256": "54c4c6a5fd39e2dfd68b6fee6a7e6edd8134d0c571a1b12b54563d87f6fcd8e5",
+    "eventIdentity": {
+      "title": "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+      "fingerprint": {
+        "anchors": [
+          "허위",
+          "종결",
+          "의혹",
+          "제주",
+          "경장",
+          "실종신고",
+          "63건",
+          "삭제하거나",
+          "미입력했다",
+          "실종"
+        ],
+        "distinctiveAnchors": [
+          {
+            "name": "허위",
+            "terms": [
+              "허위"
+            ]
+          },
+          {
+            "name": "종결",
+            "terms": [
+              "종결"
+            ]
+          },
+          {
+            "name": "의혹",
+            "terms": [
+              "의혹"
+            ]
+          },
+          {
+            "name": "제주",
+            "terms": [
+              "제주"
+            ]
+          }
+        ],
+        "minDistinctiveMatches": 2,
+        "minTotalMatches": 3,
+        "semanticFacets": {
+          "locations": [
+            "제주"
+          ],
+          "actions": [
+            "record-manipulation"
+          ],
+          "roles": [
+            "police-officer"
+          ],
+          "dates": [
+            "2025년3월10일",
+            "3월10일",
+            "7월23일"
+          ]
+        }
+      }
+    },
+    "actors": [],
+    "confirmedFacts": [
+      {
+        "id": "claim-affb687915d6",
+        "summary": "'제주 실종 신고 허위 종결 사건' 피의자 부모 경장이 실종 신고 접수 후 실종 프로파일링 시스템에서 삭제 처리한 사례가 더 있는 것으로 조사됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-9021521ce278",
+        "summary": "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "date": "2025년3월10일",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-a2c9733a384c",
+        "summary": "실종 프로파일링 시스템 관리목록 삭제 건 중에는 실종 신고 이후 숨진 채 발견된 장모씨도 포함됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4ef7d5db07f1",
+        "summary": "부 경장은 장씨 실종 사건을 허위로 종결 처리한 후 교통사고로 사망했다고 입력해 이 시스템에서 삭제했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-fc5985157490",
+        "summary": "미입력은 112 신고 단계에서 오인 신고나 곧바로 실종자가 발견된 상황에 해당합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-812090ca0b18",
+        "summary": "이때는 실종 프로파일링 시스템에 입력하지 않아도 되는 것으로 알려졌습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-3fb61fee6ef6",
+        "summary": "다만, 부 경장의 프로파일링 시스템 미입력 및 삭제 사건이 허위 종결된 것인지는 아직 확인되지 않았습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f2d53dbe9ec3",
+        "summary": "마스크를 쓰고 쏟아지는 취재진 질문에 묵묵부답인 이 남성 [부모 씨 / 제주서부경찰서 경장 (지난 24일)] {허위 종결 몇 건 했나요?} … {시스템에서 왜 삭제했나요?} … {억울한 부분 있나요?} … {유가족에게 한 말씀 부탁합니다.} … 제주에서 30대 여성 장모 씨의 실종 사건을 허위로 종결한 제주서부경찰서 소속 경장 부모 씨 입니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-78a5d112651f",
+        "summary": "그런데, 부씨의 이런 시스템 삭제 처리가 더 있었던 것으로 파악됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-51b5bdda0f85",
+        "summary": "오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "date": "2025년3월10일",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f60955327994",
+        "summary": "실종 프로파일링 시스템 삭제 건 중에는 장씨도 포함돼 있습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-eb0430f6783a",
+        "summary": "부씨는 장씨 실종 사건을 허위로 종결 처리한 후 '교통사고 사망'으로 허위 입력해 시스템에서 삭제했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-59a0e236a3e8",
+        "summary": "25일 서명옥 국민의힘 의원실이 경찰청으로부터 제출받은 112 신고 내역 자료에 따르면 60대 남성 A 씨의 아내는 지난달 2일 오후 6시 2분쯤 \"남편이 28일에 나가서 연락이 안 되고 있다\"며 경찰에 신고했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-bf654633457b",
+        "summary": "그는 이어 \"사업실패와 부채가 많다, '잘 먹고 잘 지내라'라는 말을 애한테 했다고 한다\"고 설명했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-62f10e76910d",
+        "summary": "그러나 부 경장은 A 씨에 대한 실종 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-43838b532246",
+        "summary": "앞서 부 경장은 장 씨의 남자 친구로부터 실종신고를 접수했으나 약 2시간 후 \"장 씨와 연락이 닿았다\"며 사건을 종결 처리했으며, A 씨에 대한 신고도 유사한 방식으로 처리한 것으로 파악됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-365acfa8c0d7",
+        "summary": "A 씨 가족은 장미란 씨의 실종 신고가 허위 종결됐다는 언론 보도를 접한 뒤 지난 21일 재차 112에 신고했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-18616907cacd",
+        "summary": "경찰은 이튿날인 22일 제주시 구좌읍 송당리 해안에서 숨진 A 씨를 발견했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-fb85fa9fbbb8",
+        "summary": "A 씨가 지난달 2일 실종된 지 51일 만의 일이다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-090419ce7010",
+        "summary": "A 씨의 아들은 지난 23일 기자회견을 열고 \"경찰이 아버지가 무사하다고 해 그 말만 믿고 기다렸는데 51일 만에 돌아온 건 아버지의 시신이었다\"며 \"경찰을 믿고 있었지만 이후에는 전화를 받지 않거나 가족들이 개인적으로 알아보라는 취지의 이야기만 했다\"고 했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-751bd3ea9493",
+        "summary": "또 실종 사건 허위 종결에 대한 지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령 조치했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "investigationAndCharges": [
+      {
+        "id": "claim-84353ab2834c",
+        "summary": "(서울=뉴스1) 유채연 오미란 기자 = 제주 장미란 씨 실종 사건을 허위로 종결한 혐의를 받는 제주서부경찰서 소속 부 모 경장이 또 다른 60대 남성의 실종과 관련해 '사업에 실패해 부채가 많다'는 112 신고를 받고도 제대로 대응하지 않은 것으로 나타났다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-6c9459a6c719",
+        "summary": "경찰은 부 경장이 실종 사건 업무에 배정된 지난해 3월부터 현재까지 종결한 298건을 전수조사하고 있다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "trialStagesAndSentenceChanges": [],
+    "prosecutionClaims": [],
+    "defenseClaims": [],
+    "courtFindings": [],
+    "victimImpact": [],
+    "timeline": [
+      {
+        "id": "claim-9021521ce278",
+        "summary": "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "date": "2025년3월10일",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-51b5bdda0f85",
+        "summary": "오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "date": "2025년3월10일",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "conflicts": [],
+    "unknowns": [],
+    "laterChanges": [],
+    "narrative": {
+      "overview": [
+        {
+          "id": "claim-affb687915d6",
+          "summary": "'제주 실종 신고 허위 종결 사건' 피의자 부모 경장이 실종 신고 접수 후 실종 프로파일링 시스템에서 삭제 처리한 사례가 더 있는 것으로 조사됐습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-9021521ce278",
+          "summary": "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+          "date": "2025년3월10일",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-a2c9733a384c",
+          "summary": "실종 프로파일링 시스템 관리목록 삭제 건 중에는 실종 신고 이후 숨진 채 발견된 장모씨도 포함됐습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4ef7d5db07f1",
+          "summary": "부 경장은 장씨 실종 사건을 허위로 종결 처리한 후 교통사고로 사망했다고 입력해 이 시스템에서 삭제했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-fc5985157490",
+          "summary": "미입력은 112 신고 단계에서 오인 신고나 곧바로 실종자가 발견된 상황에 해당합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-812090ca0b18",
+          "summary": "이때는 실종 프로파일링 시스템에 입력하지 않아도 되는 것으로 알려졌습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-3fb61fee6ef6",
+          "summary": "다만, 부 경장의 프로파일링 시스템 미입력 및 삭제 사건이 허위 종결된 것인지는 아직 확인되지 않았습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f2d53dbe9ec3",
+          "summary": "마스크를 쓰고 쏟아지는 취재진 질문에 묵묵부답인 이 남성 [부모 씨 / 제주서부경찰서 경장 (지난 24일)] {허위 종결 몇 건 했나요?} … {시스템에서 왜 삭제했나요?} … {억울한 부분 있나요?} … {유가족에게 한 말씀 부탁합니다.} … 제주에서 30대 여성 장모 씨의 실종 사건을 허위로 종결한 제주서부경찰서 소속 경장 부모 씨 입니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "chronology": [
+        {
+          "id": "claim-9021521ce278",
+          "summary": "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+          "date": "2025년3월10일",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-51b5bdda0f85",
+          "summary": "오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+          "date": "2025년3월10일",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "sameEventFindings": [
+        {
+          "id": "claim-affb687915d6",
+          "summary": "'제주 실종 신고 허위 종결 사건' 피의자 부모 경장이 실종 신고 접수 후 실종 프로파일링 시스템에서 삭제 처리한 사례가 더 있는 것으로 조사됐습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-9021521ce278",
+          "summary": "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+          "date": "2025년3월10일",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-a2c9733a384c",
+          "summary": "실종 프로파일링 시스템 관리목록 삭제 건 중에는 실종 신고 이후 숨진 채 발견된 장모씨도 포함됐습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4ef7d5db07f1",
+          "summary": "부 경장은 장씨 실종 사건을 허위로 종결 처리한 후 교통사고로 사망했다고 입력해 이 시스템에서 삭제했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-fc5985157490",
+          "summary": "미입력은 112 신고 단계에서 오인 신고나 곧바로 실종자가 발견된 상황에 해당합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-812090ca0b18",
+          "summary": "이때는 실종 프로파일링 시스템에 입력하지 않아도 되는 것으로 알려졌습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-3fb61fee6ef6",
+          "summary": "다만, 부 경장의 프로파일링 시스템 미입력 및 삭제 사건이 허위 종결된 것인지는 아직 확인되지 않았습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f2d53dbe9ec3",
+          "summary": "마스크를 쓰고 쏟아지는 취재진 질문에 묵묵부답인 이 남성 [부모 씨 / 제주서부경찰서 경장 (지난 24일)] {허위 종결 몇 건 했나요?} … {시스템에서 왜 삭제했나요?} … {억울한 부분 있나요?} … {유가족에게 한 말씀 부탁합니다.} … 제주에서 30대 여성 장모 씨의 실종 사건을 허위로 종결한 제주서부경찰서 소속 경장 부모 씨 입니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-78a5d112651f",
+          "summary": "그런데, 부씨의 이런 시스템 삭제 처리가 더 있었던 것으로 파악됐습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-51b5bdda0f85",
+          "summary": "오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+          "date": "2025년3월10일",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f60955327994",
+          "summary": "실종 프로파일링 시스템 삭제 건 중에는 장씨도 포함돼 있습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-eb0430f6783a",
+          "summary": "부씨는 장씨 실종 사건을 허위로 종결 처리한 후 '교통사고 사망'으로 허위 입력해 시스템에서 삭제했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-84353ab2834c",
+          "summary": "(서울=뉴스1) 유채연 오미란 기자 = 제주 장미란 씨 실종 사건을 허위로 종결한 혐의를 받는 제주서부경찰서 소속 부 모 경장이 또 다른 60대 남성의 실종과 관련해 '사업에 실패해 부채가 많다'는 112 신고를 받고도 제대로 대응하지 않은 것으로 나타났다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-59a0e236a3e8",
+          "summary": "25일 서명옥 국민의힘 의원실이 경찰청으로부터 제출받은 112 신고 내역 자료에 따르면 60대 남성 A 씨의 아내는 지난달 2일 오후 6시 2분쯤 \"남편이 28일에 나가서 연락이 안 되고 있다\"며 경찰에 신고했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-bf654633457b",
+          "summary": "그는 이어 \"사업실패와 부채가 많다, '잘 먹고 잘 지내라'라는 말을 애한테 했다고 한다\"고 설명했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-62f10e76910d",
+          "summary": "그러나 부 경장은 A 씨에 대한 실종 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-43838b532246",
+          "summary": "앞서 부 경장은 장 씨의 남자 친구로부터 실종신고를 접수했으나 약 2시간 후 \"장 씨와 연락이 닿았다\"며 사건을 종결 처리했으며, A 씨에 대한 신고도 유사한 방식으로 처리한 것으로 파악됐다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-365acfa8c0d7",
+          "summary": "A 씨 가족은 장미란 씨의 실종 신고가 허위 종결됐다는 언론 보도를 접한 뒤 지난 21일 재차 112에 신고했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-18616907cacd",
+          "summary": "경찰은 이튿날인 22일 제주시 구좌읍 송당리 해안에서 숨진 A 씨를 발견했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-fb85fa9fbbb8",
+          "summary": "A 씨가 지난달 2일 실종된 지 51일 만의 일이다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-090419ce7010",
+          "summary": "A 씨의 아들은 지난 23일 기자회견을 열고 \"경찰이 아버지가 무사하다고 해 그 말만 믿고 기다렸는데 51일 만에 돌아온 건 아버지의 시신이었다\"며 \"경찰을 믿고 있었지만 이후에는 전화를 받지 않거나 가족들이 개인적으로 알아보라는 취지의 이야기만 했다\"고 했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-6c9459a6c719",
+          "summary": "경찰은 부 경장이 실종 사건 업무에 배정된 지난해 3월부터 현재까지 종결한 298건을 전수조사하고 있다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-751bd3ea9493",
+          "summary": "또 실종 사건 허위 종결에 대한 지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령 조치했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "priorContext": [],
+      "followUpDevelopments": [],
+      "detailSections": [
+        {
+          "id": "investigation",
+          "title": "수사와 양측 주장",
+          "description": "적용 혐의와 검찰·피고인 측 주장",
+          "claims": [
+            {
+              "id": "claim-84353ab2834c",
+              "summary": "(서울=뉴스1) 유채연 오미란 기자 = 제주 장미란 씨 실종 사건을 허위로 종결한 혐의를 받는 제주서부경찰서 소속 부 모 경장이 또 다른 60대 남성의 실종과 관련해 '사업에 실패해 부채가 많다'는 112 신고를 받고도 제대로 대응하지 않은 것으로 나타났다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-0dc37e37ad05"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-6c9459a6c719",
+              "summary": "경찰은 부 경장이 실종 사건 업무에 배정된 지난해 3월부터 현재까지 종결한 298건을 전수조사하고 있다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-0dc37e37ad05"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        }
+      ],
+      "sourceAgreement": [
+        {
+          "claimId": "claim-affb687915d6",
+          "summary": "'제주 실종 신고 허위 종결 사건' 피의자 부모 경장이 실종 신고 접수 후 실종 프로파일링 시스템에서 삭제 처리한 사례가 더 있는 것으로 조사됐습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-9021521ce278",
+          "summary": "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-a2c9733a384c",
+          "summary": "실종 프로파일링 시스템 관리목록 삭제 건 중에는 실종 신고 이후 숨진 채 발견된 장모씨도 포함됐습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-4ef7d5db07f1",
+          "summary": "부 경장은 장씨 실종 사건을 허위로 종결 처리한 후 교통사고로 사망했다고 입력해 이 시스템에서 삭제했습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-fc5985157490",
+          "summary": "미입력은 112 신고 단계에서 오인 신고나 곧바로 실종자가 발견된 상황에 해당합니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-812090ca0b18",
+          "summary": "이때는 실종 프로파일링 시스템에 입력하지 않아도 되는 것으로 알려졌습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-3fb61fee6ef6",
+          "summary": "다만, 부 경장의 프로파일링 시스템 미입력 및 삭제 사건이 허위 종결된 것인지는 아직 확인되지 않았습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-f2d53dbe9ec3",
+          "summary": "마스크를 쓰고 쏟아지는 취재진 질문에 묵묵부답인 이 남성 [부모 씨 / 제주서부경찰서 경장 (지난 24일)] {허위 종결 몇 건 했나요?} … {시스템에서 왜 삭제했나요?} … {억울한 부분 있나요?} … {유가족에게 한 말씀 부탁합니다.} … 제주에서 30대 여성 장모 씨의 실종 사건을 허위로 종결한 제주서부경찰서 소속 경장 부모 씨 입니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-78a5d112651f",
+          "summary": "그런데, 부씨의 이런 시스템 삭제 처리가 더 있었던 것으로 파악됐습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-51b5bdda0f85",
+          "summary": "오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-f60955327994",
+          "summary": "실종 프로파일링 시스템 삭제 건 중에는 장씨도 포함돼 있습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-eb0430f6783a",
+          "summary": "부씨는 장씨 실종 사건을 허위로 종결 처리한 후 '교통사고 사망'으로 허위 입력해 시스템에서 삭제했습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0b5e8a6a5fd8"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-84353ab2834c",
+          "summary": "(서울=뉴스1) 유채연 오미란 기자 = 제주 장미란 씨 실종 사건을 허위로 종결한 혐의를 받는 제주서부경찰서 소속 부 모 경장이 또 다른 60대 남성의 실종과 관련해 '사업에 실패해 부채가 많다'는 112 신고를 받고도 제대로 대응하지 않은 것으로 나타났다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-59a0e236a3e8",
+          "summary": "25일 서명옥 국민의힘 의원실이 경찰청으로부터 제출받은 112 신고 내역 자료에 따르면 60대 남성 A 씨의 아내는 지난달 2일 오후 6시 2분쯤 \"남편이 28일에 나가서 연락이 안 되고 있다\"며 경찰에 신고했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-bf654633457b",
+          "summary": "그는 이어 \"사업실패와 부채가 많다, '잘 먹고 잘 지내라'라는 말을 애한테 했다고 한다\"고 설명했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-62f10e76910d",
+          "summary": "그러나 부 경장은 A 씨에 대한 실종 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-43838b532246",
+          "summary": "앞서 부 경장은 장 씨의 남자 친구로부터 실종신고를 접수했으나 약 2시간 후 \"장 씨와 연락이 닿았다\"며 사건을 종결 처리했으며, A 씨에 대한 신고도 유사한 방식으로 처리한 것으로 파악됐다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-365acfa8c0d7",
+          "summary": "A 씨 가족은 장미란 씨의 실종 신고가 허위 종결됐다는 언론 보도를 접한 뒤 지난 21일 재차 112에 신고했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-18616907cacd",
+          "summary": "경찰은 이튿날인 22일 제주시 구좌읍 송당리 해안에서 숨진 A 씨를 발견했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-fb85fa9fbbb8",
+          "summary": "A 씨가 지난달 2일 실종된 지 51일 만의 일이다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-090419ce7010",
+          "summary": "A 씨의 아들은 지난 23일 기자회견을 열고 \"경찰이 아버지가 무사하다고 해 그 말만 믿고 기다렸는데 51일 만에 돌아온 건 아버지의 시신이었다\"며 \"경찰을 믿고 있었지만 이후에는 전화를 받지 않거나 가족들이 개인적으로 알아보라는 취지의 이야기만 했다\"고 했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-6c9459a6c719",
+          "summary": "경찰은 부 경장이 실종 사건 업무에 배정된 지난해 3월부터 현재까지 종결한 298건을 전수조사하고 있다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-751bd3ea9493",
+          "summary": "또 실종 사건 허위 종결에 대한 지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령 조치했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0dc37e37ad05"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        }
+      ],
+      "conflicts": [],
+      "unresolvedQuestions": [],
+      "limitations": [
+        "이 사건의 직접적인 사전 맥락으로 확인된 보도를 찾지 못했습니다.",
+        "현재까지 확인된 후속 보도가 없습니다."
+      ]
+    },
+    "sourceCoverage": {
+      "verifiedSourceCount": 2,
+      "representativeSourceCount": 1,
+      "sameEventCoverageCount": 1,
+      "priorContextCount": 0,
+      "followUpCount": 0,
+      "independentPublisherCount": 2,
+      "corroboration": "multi-source",
+      "rejectedSameEventSourceCount": 0
+    },
+    "readiness": {
+      "readyForLegal": true,
+      "readyForDraft": true,
+      "preferredCorroborationMet": true,
+      "detailedNarrativeComplete": true,
+      "storyClaimCount": 23,
+      "narrativePhaseCount": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    "sourceIndex": [
+      {
+        "sourceId": "src-0b5e8a6a5fd8",
+        "url": "https://news.jtbc.co.kr/article/NB12315898",
+        "title": "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+        "publisher": "JTBC 뉴스",
+        "date": "",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      },
+      {
+        "sourceId": "src-0dc37e37ad05",
+        "url": "https://www.news1.kr/society/incident-accident/6268725",
+        "title": "\"빚 많다, 잘 지내라\"…경찰, 제주 60대男 실종신고때 '위험신호' 묵살",
+        "publisher": "뉴스1",
+        "date": "2026-08-25T12:20:25+09:00",
+        "bucket": "same-event",
+        "status": "verified",
+        "relationshipReason": "후보 단계에서 원문 본문과 동일 사건을 검증한 독립 보도이며 프로젝트 조사에서 다시 검증합니다."
+      }
+    ],
+    "sourceExclusions": [],
+    "currentHash": "cd8fdc2b40d9f304d6a5504f09a050f3f13548e8dad2f063c42bb3730106808b"
+  }
+}

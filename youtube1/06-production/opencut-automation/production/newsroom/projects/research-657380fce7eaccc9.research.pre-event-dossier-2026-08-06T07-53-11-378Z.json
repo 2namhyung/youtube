@@ -1,0 +1,175 @@
+{
+  "slug": "research-657380fce7eaccc9",
+  "topic": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+  "mode": "investigation",
+  "fetchedAt": "2026-08-06T06:34:17.336Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-657380fce7eaccc9.research.config.json",
+    "queries": [
+      "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+      "직장 동료 커피에",
+      "직장 동료",
+      "직장 동료 몰래 간호조무사",
+      "직장 동료 경찰 신고 수사 처분",
+      "직장 동료 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "뉴시스 사회",
+      "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+      "url": "https://www.newsis.com/view/NISX20260806_0003738534",
+      "date": "2026-08-06T11:56:24+09:00",
+      "status": "verified",
+      "snippet": "[서울=뉴시스]홍연우 기자 = 평소 업무 문제로 관계가 좋지 않았던 동료 간호조무사의 커피에 살충제를 탄 간호조무사가 2심에서 징역형 집행유예로 감형됐다. 6일 법조계에 따르면 서울고법 형사7부(부장판사 구회근)는 50대 간호조무사 A씨 살인미수 혐의 항소심에서 최근 징역 1년 6개월에 집행유예 3년을 선고했다. 징역 2년의 실형을 선고한 1심보다 대폭 감..",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "직장",
+          "동료",
+          "커피에",
+          "몰래",
+          "살충제",
+          "간호조무사",
+          "2심서",
+          "감형"
+        ],
+        "snippetLength": 202
+      },
+      "fetchedAt": "2026-08-06T06:34:17.345Z"
+    }
+  ],
+  "relatedCoverage": [
+    {
+      "title": "직장 동료 커피에 몰래 살충제 탄 50대 간호조무사",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lY0xvaEtCSVl6endvbFA0SzU5aUVnSzhrSkVEajVtNWxqUG5DYmNSV2JpZkdpcXkxaGJ0Nk9fSlpwZjBDbDdnWFloNDRmT0RTZFpMWFAtVnBCWkFmWE55aEpmMzg2ZmttTUlUa21jd05qWG9k?oc=5",
+      "publisher": "서울신문",
+      "date": "2025-09-29T07:00:00.000Z",
+      "status": "candidate",
+      "snippet": "Google News 중계 링크입니다. 원문 매체에서 사실관계를 추가 확인해야 합니다.",
+      "contentVerification": {
+        "status": "unverified",
+        "reason": "title-content-mismatch",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": false,
+        "overlapTokens": [],
+        "snippetLength": 98
+      },
+      "fetchedAt": "2026-08-06T06:34:22.004Z",
+      "score": 12,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [
+          "몰래"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "문"
+        ]
+      },
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.8875000000000001,
+        "matchedAnchors": [
+          "커피에",
+          "몰래",
+          "살충제",
+          "간호조무사",
+          "커피"
+        ],
+        "matchedDistinctiveAnchors": [
+          "커피",
+          "살충제",
+          "간호조무사"
+        ],
+        "eventFingerprint": {
+          "anchors": [
+            "커피에",
+            "몰래",
+            "살충제",
+            "간호조무사",
+            "2심서",
+            "감형",
+            "동료의",
+            "살충제를"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "커피",
+              "terms": [
+                "커피",
+                "음료",
+                "컵",
+                "카페"
+              ]
+            },
+            {
+              "name": "살충제",
+              "terms": [
+                "살충제",
+                "농약",
+                "독극물",
+                "독성물질",
+                "제초제"
+              ]
+            },
+            {
+              "name": "간호조무사",
+              "terms": [
+                "간호조무사",
+                "간호사",
+                "병원 직원",
+                "의료인"
+              ]
+            },
+            {
+              "name": "항소",
+              "terms": [
+                "항소",
+                "2심",
+                "2심",
+                "이심",
+                "감형",
+                "선고"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 3,
+          "minTotalMatches": 3
+        },
+        "rejectionReason": null
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    }
+  ],
+  "followUps": [],
+  "laws": [],
+  "contradictions": [],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 1,
+    "originalMedia": 0,
+    "followUps": 0,
+    "laws": 0,
+    "errors": 0
+  }
+}

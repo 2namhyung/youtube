@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "authoritative-script-revision-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "revisionId", "previousDraftSha256", "draftSha256", "appliedAt", "requestedBy", "reason", "scope", "protectedExactPhrases", "creator", "verifier", "sourceRestoration", "previousRevision"],
+  "properties": {
+    "schemaVersion": { "const": "authoritative-script-revision-v1" },
+    "revisionId": { "type": "string", "minLength": 1 },
+    "previousDraftSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "draftSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "appliedAt": { "type": "string", "format": "date-time" },
+    "requestedBy": { "const": "user-editorial-action" },
+    "reason": { "type": "string", "minLength": 1 },
+    "scope": { "const": "exact-editorial-replacement; facts-and-victim-impact-ending-preserved" },
+    "protectedExactPhrases": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+    "creator": { "const": "scripts/revise-authoritative-script.mjs" },
+    "verifier": { "const": "scripts/authoritative-script-revision-lib.mjs" },
+    "sourceRestoration": { "type": ["object", "null"] },
+    "previousRevision": { "type": ["object", "null"] }
+  }
+}

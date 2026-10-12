@@ -1,0 +1,2350 @@
+{
+  "slug": "research-65b3c6b9444d9499",
+  "topic": "5살 자녀 태우고 모녀 차량 보복운전... 흉기 든 운전자 영장",
+  "mode": "investigation",
+  "fetchedAt": "2026-09-04T11:29:50.818Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-65b3c6b9444d9499.research.config.json",
+    "queries": [
+      "5살 자녀 태우고 모녀 차량 보복운전... 흉기 든 운전자 영장",
+      "5살 자녀 태우고",
+      "5살 자녀",
+      "5살 자녀 모녀 보복운전",
+      "5살 자녀 경찰 신고 수사 처분",
+      "5살 자녀 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv",
+      "naver-news",
+      "daum-news",
+      "news1-society"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ],
+    "eventFingerprint": {
+      "anchors": [
+        "5살",
+        "자녀",
+        "태우고",
+        "모녀",
+        "차량",
+        "보복운전",
+        "흉기",
+        "운전자",
+        "영장",
+        "차선"
+      ],
+      "distinctiveAnchors": [
+        {
+          "name": "5살",
+          "terms": [
+            "5살"
+          ]
+        },
+        {
+          "name": "자녀",
+          "terms": [
+            "자녀"
+          ]
+        },
+        {
+          "name": "태우고",
+          "terms": [
+            "태우고"
+          ]
+        },
+        {
+          "name": "모녀",
+          "terms": [
+            "모녀"
+          ]
+        }
+      ],
+      "minDistinctiveMatches": 2,
+      "minTotalMatches": 3,
+      "semanticFacets": {
+        "locations": [
+          "대구",
+          "수성구"
+        ],
+        "actions": [
+          "road-retaliation",
+          "vehicle-impact",
+          "firearm-threat",
+          "puncture-tool"
+        ],
+        "roles": [
+          "offender-driving-with-young-child",
+          "victim-driving-with-teen-daughter",
+          "driver",
+          "mother-daughter"
+        ],
+        "dates": [
+          "지난달27일"
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "publisher": "인사이트",
+      "title": "5살 자녀 태우고 모녀 차량 보복운전... 흉기 든 운전자 영장",
+      "url": "https://www.insight.co.kr/news/570284",
+      "date": "2026-08-26T17:30:48+09:00",
+      "status": "verified",
+      "snippet": "대낮 도심 한대낮 도심 한복판에서 차선 변경 시비로 모녀가 탑승한 차량을 집요하게 추격하며 모형 총기와 흉기로 위협한 남성이 경찰에 덜미를 잡혔다. 대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 남성 운전자 B씨에 대한 구속영장을 신청했다. B씨는 대구 수성구 도로에서 여성 운전자 A씨의 차량을 상대로 고의 추돌과 협박을 일삼은 혐의를 받는다. 사건은 지난달 27일 A씨가 중학생 딸을 태우고 우회전하며 큰 도로로 합류하는 과정에서 시작됐다. 두 개 차선을 한 번에 진입한 A씨 차량에 불만을 품은 B씨는 경적을 울리며 곧바로 A씨 앞을 가로막아 세웠다. 이어 차에서 내린 B씨는 손에 든 총기 형태의 물건을 A씨 모녀를 향해 겨누며 접근했다. A씨는 극심한 공포 속에 차량을 몰아 현장을 벗어났으나, B씨는 약 8분간 집요한 추격을 이어갔다. 정체 구간에서 A씨 차량의 속도가 줄어들자 B씨는 뒤범퍼를 두 차례 들이받았다. 다시 차에서 내린 B씨는 창문을 두드리며 “내리라”고 고성을 질렀고, 총기 모형으로 차량 앞 유리를 내리치며 위협했다. 공격은 여기서 그치지 않았다. B씨는 자신의 차량으로 돌아가 후진한 뒤 A씨 차량을 재차 들이받았다. 이어 흉기인 송곳을 꺼내 A씨 차량의 타이어를 찔러 구멍을 내고 유리창을 추가로 파손했다. 당시 B씨의 차량 내부에는 본인의 5살 자녀가 탑승해 있던 상태였다. 현장에 출동한 경찰 앞에서 B씨는 “뺑소니 차량을 추격해 잡았을 뿐”이라며 피해자를 자처했으나, 블랙박스와 딸이 촬영한 영상, 목격자 진술이 확보되면서 위협 사실이 전모를 드러냈다. 피해 모녀는 사건 이후 극심한 불면증과 불안 증세로 정신과 치료를 이어가고 있다.",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "5살",
+          "자녀",
+          "태우고",
+          "모녀",
+          "차량",
+          "보복운전",
+          "흉기",
+          "운전자",
+          "영장"
+        ],
+        "snippetLength": 827,
+        "contentLength": 827
+      },
+      "fetchedAt": "2026-09-04T11:29:50.828Z"
+    }
+  ],
+  "relatedCoverage": [
+    {
+      "title": "총 겨누고 송곳으로 타이어 &#x27;콕콕&#x27;…5살 딸 태우고 모녀에 보복 운전[영상]",
+      "url": "https://www.news1.kr/society/general-society/6269671",
+      "publisher": "뉴스1",
+      "date": "2026-08-26T10:07:33+09:00",
+      "status": "verified",
+      "snippet": "(서울=뉴스1) 김학진 기자 = 대낮 도심을 운전 중인 여성이 총으로 보이는 물체와 송곳으로 보복 운전 등 위협을 받았다. 26일 JTBC '사건반장'에 따르면 제보자 A 씨는 지난달 27일 대구 수성구의 한 도로에서 중학교 1학년 딸을 차에 태우고 지나던 중 충격적인 보복 운전 피해를 봤다. 당시 A 씨는 좁은 도로에서 큰 도로로 합류하기 위해 좌측에서 차량이 오는지 확인 후 우회전했다. 그런데 직후 뒤따라오던 승용차가 크게 경적을 울렸다. 처음에는 자신을 향한 경적이라고 생각하지 않았던 A 씨는 해당 차량이 자신을 추월해 앞을 가로막고 멈춰 서자 끼어들기에 항의하는 '보복 운전'임을 인지했다. 이후 상대 차 운전자 B 씨가 정차 후 A 씨의 차량으로 다가왔다. B 씨의 손에는 총으로 보이는 물건이 들려 있었다. B 씨가 이를 겨눈 채 자기 차량으로 다가오자 겁에 질린 A 씨는 그대로 차를 몰아 현장을 벗어났다. A 씨는 실제 총기인지 장난감인지 여부는 구별할 수 없었고 \"그저 맞으면 죽겠다는 생각에 너무 무서워 도망갔다\"고 당시 상황을 설명했다. 하지만 B 씨가 다시 차를 타고 A 씨를 뒤쫓기 시작했고 약 8분간 추격이 계속됐다. A 씨 차량이 앞차에 막혀 속도를 줄이자 B 씨는 뒤에서 차량을 두 차례 들이받았고 다시 총기로 보이는 물체를 들고 차에서 내려 A 씨에게 겨누며 \"내리라\"고 소리치며 차량 앞 유리와 창문 등을 여러 차례 내리쳤다. B 씨는 자기 차로 돌아간 뒤 후진해 A 씨 차를 또 한 차례 들이받은 뒤 이번엔 장갑까지 착용한 채 송곳을 꺼내 들고 A 씨 차량 주변을 돌면서 송곳으로 타이어를 찔러 펑크를 내고 유리창도 여러 차례 찍어 훼손했다. A 씨는 \"남성이 송곳으로 찌르면서 웃는 표정을 봤다\"며 \"침착하게 휘두르는 모습이 소름 끼쳤고 사냥당하는 느낌이었다\"고 밝혔다. 당시 뒷좌석에는 A 씨의 중학교 1학년 딸도 타고 있었다. 딸은 눈앞에서 벌어진 상황을 휴대전화로 촬영했다. 이후 경찰이 출동하는 정에서 B 씨가 어린아이를 안아 달래는 모습도 목격됐다. 알고 보니 5살 딸을 차에 태운 상태로 보복 운전을 하며 위협했던 것이었고, A 씨를 위협한 총기 형체의 물건은 장난감 총이었다. B 씨는 또 경찰에게 \"나는 피해자이고 뺑소니범을 잡았을 뿐\"이라는 A 씨를 가해자로 몰며 피해를 주장했다. 사건 당일 두 사람은 모두 귀가했지만, 이후 블랙박스 영상 등을 확인한 경찰은 특수상해 등 혐의로 지난 24일 B 씨에 대한 구속영장을 신청했다. khj80@news1.kr",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "겨누고",
+          "송곳으로",
+          "타이어",
+          "콕콕",
+          "5살",
+          "태우고",
+          "모녀에",
+          "보복",
+          "운전",
+          "영상"
+        ],
+        "snippetLength": 1238,
+        "contentLength": 1238
+      },
+      "fetchedAt": "2026-09-04T11:29:59.155Z",
+      "score": 2,
+      "evidence": {
+        "everydayProximity": [],
+        "inexplicableBehavior": [],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "영상"
+        ]
+      },
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.8875000000000001,
+        "matchedAnchors": [
+          "5살",
+          "태우고",
+          "모녀",
+          "차량",
+          "보복운전",
+          "운전자",
+          "영장"
+        ],
+        "matchedDistinctiveAnchors": [
+          "5살",
+          "태우고",
+          "모녀"
+        ],
+        "semanticMatch": {
+          "sharedActions": [
+            "road-retaliation",
+            "vehicle-impact",
+            "firearm-threat",
+            "puncture-tool"
+          ],
+          "sharedLocations": [
+            "대구",
+            "수성구"
+          ],
+          "sharedRoles": [
+            "offender-driving-with-young-child",
+            "victim-driving-with-teen-daughter",
+            "driver",
+            "mother-daughter"
+          ],
+          "candidateFacets": {
+            "locations": [
+              "서울",
+              "대구",
+              "수성구"
+            ],
+            "actions": [
+              "road-retaliation",
+              "vehicle-impact",
+              "firearm-threat",
+              "puncture-tool"
+            ],
+            "roles": [
+              "offender-driving-with-young-child",
+              "victim-driving-with-teen-daughter",
+              "driver",
+              "mother-daughter"
+            ],
+            "dates": [
+              "지난달27일"
+            ]
+          },
+          "minimumActionMatches": 2,
+          "minimumRoleMatches": 1,
+          "locationConflict": false
+        },
+        "eventFingerprint": {
+          "anchors": [
+            "5살",
+            "자녀",
+            "태우고",
+            "모녀",
+            "차량",
+            "보복운전",
+            "흉기",
+            "운전자",
+            "영장",
+            "차선"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "5살",
+              "terms": [
+                "5살"
+              ]
+            },
+            {
+              "name": "자녀",
+              "terms": [
+                "자녀"
+              ]
+            },
+            {
+              "name": "태우고",
+              "terms": [
+                "태우고"
+              ]
+            },
+            {
+              "name": "모녀",
+              "terms": [
+                "모녀"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3,
+          "semanticFacets": {
+            "locations": [
+              "대구",
+              "수성구"
+            ],
+            "actions": [
+              "road-retaliation",
+              "vehicle-impact",
+              "firearm-threat",
+              "puncture-tool"
+            ],
+            "roles": [
+              "offender-driving-with-young-child",
+              "victim-driving-with-teen-daughter",
+              "driver",
+              "mother-daughter"
+            ],
+            "dates": [
+              "지난달27일"
+            ]
+          }
+        },
+        "rejectionReason": null,
+        "verificationStage": "post-fetch",
+        "contentEvidenceVerified": true
+      },
+      "kind": "same-topic",
+      "mediaType": "article"
+    }
+  ],
+  "priorContext": [],
+  "followUps": [
+    {
+      "title": "5살 딸 태우고 보복 운전…가짜 권총·송곳으로 모녀 위협한 40대",
+      "url": "https://www.segye.com/newsView/20260830506137?OutUrl=naver",
+      "publisher": "세계일보",
+      "date": "2026-08-30T13:45:51+09:00",
+      "status": "verified",
+      "snippet": "대낮 도심 한복판에서 차선 바꾸기를 하던 앞 차량을 상대로 보복 운전을 하고 가짜 권총으로 위협한 40대 남성이 경찰에 구속됐다. &nbsp; 대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 A씨를 구속했다고 30일 밝혔다. &nbsp; 대구 수성경찰서. 연합뉴스 경찰에 따르면 A씨는 지난달 27일 오후 4시 15분쯤 대구 수성구 범어동의 한 도로에서 차를 몰던 중 앞서가던 승용차를 고의로 들이받아 운전자 B(40대·여)씨와 10대 자녀에게 가벼운 상처를 입힌 혐의를 받고 있다. &nbsp; 당시 그는 앞서가던 B씨 차량이 좁은 도로에서 큰 도로로 합류하며 자신의 앞으로 차선을 바꾸자, 홧김에 길게 경적을&nbsp;울리며 뒤를 쫓아갔다. 이후 A씨는 소지하고 있던 가짜 권총을 꺼내 들어 B씨 모녀를 위협하고, 송곳으로 상대 차량의 바퀴(타이어)를 찌른 혐의도 함께 받고 있다. &nbsp; 경찰 조사 결과 A씨는 당시 자신의 차에 5살짜리 딸을 태운 상태에서 이 같은 보복 운전을 저지른 것으로 드러났다. &nbsp; A씨는 경찰 조사에서 “B씨 차량이 우회전한 뒤 곧바로 4차로까지 한 번에 들어오자 순간적으로 화가 나 범행을 저질렀다”고 진술한 것으로 알려졌다. 대구=김덕용 기자 kimdy@segye.com 기자페이지 바로가기 Copyright ⓒ 세계일보. 무단 전재 및 재배포 금지",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "5살",
+          "태우고",
+          "보복",
+          "운전",
+          "가짜",
+          "권총",
+          "송곳으로",
+          "모녀",
+          "위협한",
+          "40대"
+        ],
+        "snippetLength": 673,
+        "contentLength": 673
+      },
+      "fetchedAt": "2026-09-04T11:29:59.155Z",
+      "score": 20,
+      "evidence": {
+        "everydayProximity": [
+          "도로"
+        ],
+        "inexplicableBehavior": [],
+        "sustainedVictimFear": [
+          "위협"
+        ],
+        "institutionalFrustration": [
+          "경찰"
+        ],
+        "solutionPotential": [
+          "조사"
+        ],
+        "visualizability": [
+          "차량"
+        ]
+      },
+      "sameEvent": {
+        "verified": true,
+        "confidence": 1,
+        "matchedAnchors": [
+          "5살",
+          "자녀",
+          "태우고",
+          "모녀",
+          "차량",
+          "보복운전",
+          "운전자",
+          "차선"
+        ],
+        "matchedDistinctiveAnchors": [
+          "5살",
+          "자녀",
+          "태우고",
+          "모녀"
+        ],
+        "semanticMatch": {
+          "sharedActions": [
+            "road-retaliation",
+            "vehicle-impact",
+            "firearm-threat",
+            "puncture-tool"
+          ],
+          "sharedLocations": [
+            "대구"
+          ],
+          "sharedRoles": [
+            "offender-driving-with-young-child",
+            "victim-driving-with-teen-daughter",
+            "driver",
+            "mother-daughter"
+          ],
+          "candidateFacets": {
+            "locations": [
+              "대구",
+              "범어동"
+            ],
+            "actions": [
+              "road-retaliation",
+              "vehicle-impact",
+              "firearm-threat",
+              "puncture-tool"
+            ],
+            "roles": [
+              "offender-driving-with-young-child",
+              "victim-driving-with-teen-daughter",
+              "driver",
+              "mother-daughter"
+            ],
+            "dates": [
+              "지난달27일"
+            ]
+          },
+          "minimumActionMatches": 2,
+          "minimumRoleMatches": 1,
+          "locationConflict": false
+        },
+        "eventFingerprint": {
+          "anchors": [
+            "5살",
+            "자녀",
+            "태우고",
+            "모녀",
+            "차량",
+            "보복운전",
+            "흉기",
+            "운전자",
+            "영장",
+            "차선"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "5살",
+              "terms": [
+                "5살"
+              ]
+            },
+            {
+              "name": "자녀",
+              "terms": [
+                "자녀"
+              ]
+            },
+            {
+              "name": "태우고",
+              "terms": [
+                "태우고"
+              ]
+            },
+            {
+              "name": "모녀",
+              "terms": [
+                "모녀"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3,
+          "semanticFacets": {
+            "locations": [
+              "대구",
+              "수성구"
+            ],
+            "actions": [
+              "road-retaliation",
+              "vehicle-impact",
+              "firearm-threat",
+              "puncture-tool"
+            ],
+            "roles": [
+              "offender-driving-with-young-child",
+              "victim-driving-with-teen-daughter",
+              "driver",
+              "mother-daughter"
+            ],
+            "dates": [
+              "지난달27일"
+            ]
+          }
+        },
+        "rejectionReason": null,
+        "verificationStage": "post-fetch",
+        "contentEvidenceVerified": true
+      },
+      "kind": "follow-up",
+      "mediaType": "article"
+    }
+  ],
+  "laws": [],
+  "actors": [],
+  "contradictions": [],
+  "unknowns": [],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 1,
+    "priorContext": 0,
+    "originalMedia": 0,
+    "followUps": 1,
+    "laws": 0,
+    "errors": 0
+  },
+  "eventDossier": {
+    "schemaVersion": 3,
+    "slug": "research-65b3c6b9444d9499",
+    "generatedAt": "2026-09-04T11:29:50.818Z",
+    "researchSnapshotSha256": "960ae4e3203e41444ab2f2aa36db071b93eeacba73798564052e40c61d126304",
+    "eventIdentity": {
+      "title": "5살 자녀 태우고 모녀 차량 보복운전... 흉기 든 운전자 영장",
+      "fingerprint": {
+        "anchors": [
+          "5살",
+          "자녀",
+          "태우고",
+          "모녀",
+          "차량",
+          "보복운전",
+          "흉기",
+          "운전자",
+          "영장",
+          "차선"
+        ],
+        "distinctiveAnchors": [
+          {
+            "name": "5살",
+            "terms": [
+              "5살"
+            ]
+          },
+          {
+            "name": "자녀",
+            "terms": [
+              "자녀"
+            ]
+          },
+          {
+            "name": "태우고",
+            "terms": [
+              "태우고"
+            ]
+          },
+          {
+            "name": "모녀",
+            "terms": [
+              "모녀"
+            ]
+          }
+        ],
+        "minDistinctiveMatches": 2,
+        "minTotalMatches": 3,
+        "semanticFacets": {
+          "locations": [
+            "대구",
+            "수성구"
+          ],
+          "actions": [
+            "road-retaliation",
+            "vehicle-impact",
+            "firearm-threat",
+            "puncture-tool"
+          ],
+          "roles": [
+            "offender-driving-with-young-child",
+            "victim-driving-with-teen-daughter",
+            "driver",
+            "mother-daughter"
+          ],
+          "dates": [
+            "지난달27일"
+          ]
+        }
+      }
+    },
+    "actors": [],
+    "confirmedFacts": [
+      {
+        "id": "claim-7c872d3bcf29",
+        "summary": "대낮 도심 한대낮 도심 한복판에서 차선 변경 시비로 모녀가 탑승한 차량을 집요하게 추격하며 모형 총기와 흉기로 위협한 남성이 경찰에 덜미를 잡혔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-597f2153bd91",
+        "summary": "사건은 지난달 27일 A씨가 중학생 딸을 태우고 우회전하며 큰 도로로 합류하는 과정에서 시작됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-95b4855b039a",
+        "summary": "두 개 차선을 한 번에 진입한 A씨 차량에 불만을 품은 B씨는 경적을 울리며 곧바로 A씨 앞을 가로막아 세웠다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "background",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-d92e0b74bac7",
+        "summary": "이어 차에서 내린 B씨는 손에 든 총기 형태의 물건을 A씨 모녀를 향해 겨누며 접근했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-d0b2637c894e",
+        "summary": "A씨는 극심한 공포 속에 차량을 몰아 현장을 벗어났으나, B씨는 약 8분간 집요한 추격을 이어갔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f60fb8836693",
+        "summary": "정체 구간에서 A씨 차량의 속도가 줄어들자 B씨는 뒤범퍼를 두 차례 들이받았다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-18272752778d",
+        "summary": "다시 차에서 내린 B씨는 창문을 두드리며 “내리라”고 고성을 질렀고, 총기 모형으로 차량 앞 유리를 내리치며 위협했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-348fa315bd3c",
+        "summary": "B씨는 자신의 차량으로 돌아가 후진한 뒤 A씨 차량을 재차 들이받았다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-9e725b564134",
+        "summary": "이어 흉기인 송곳을 꺼내 A씨 차량의 타이어를 찔러 구멍을 내고 유리창을 추가로 파손했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-56580dd4b8bb",
+        "summary": "당시 B씨의 차량 내부에는 본인의 5살 자녀가 탑승해 있던 상태였다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-696902dc3341",
+        "summary": "(서울=뉴스1) 김학진 기자 = 대낮 도심을 운전 중인 여성이 총으로 보이는 물체와 송곳으로 보복 운전 등 위협을 받았다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-30ff5f1d8542",
+        "summary": "26일 JTBC '사건반장'에 따르면 제보자 A 씨는 지난달 27일 대구 수성구의 한 도로에서 중학교 1학년 딸을 차에 태우고 지나던 중 충격적인 보복 운전 피해를 봤다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-305dbfb14644",
+        "summary": "당시 A 씨는 좁은 도로에서 큰 도로로 합류하기 위해 좌측에서 차량이 오는지 확인 후 우회전했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-99e068ecb8e3",
+        "summary": "그런데 직후 뒤따라오던 승용차가 크게 경적을 울렸다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-51c7ce76be72",
+        "summary": "처음에는 자신을 향한 경적이라고 생각하지 않았던 A 씨는 해당 차량이 자신을 추월해 앞을 가로막고 멈춰 서자 끼어들기에 항의하는 '보복 운전'임을 인지했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-76c21ec54a29",
+        "summary": "이후 상대 차 운전자 B 씨가 정차 후 A 씨의 차량으로 다가왔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-511ad395ecd8",
+        "summary": "B 씨의 손에는 총으로 보이는 물건이 들려 있었다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-1d7dedb8c2a7",
+        "summary": "B 씨가 이를 겨눈 채 자기 차량으로 다가오자 겁에 질린 A 씨는 그대로 차를 몰아 현장을 벗어났다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-89c3bed347df",
+        "summary": "A 씨는 실제 총기인지 장난감인지 여부는 구별할 수 없었고 \"그저 맞으면 죽겠다는 생각에 너무 무서워 도망갔다\"고 당시 상황을 설명했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f7b54e8a5147",
+        "summary": "하지만 B 씨가 다시 차를 타고 A 씨를 뒤쫓기 시작했고 약 8분간 추격이 계속됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-335ceb1e2d64",
+        "summary": "A 씨 차량이 앞차에 막혀 속도를 줄이자 B 씨는 뒤에서 차량을 두 차례 들이받았고 다시 총기로 보이는 물체를 들고 차에서 내려 A 씨에게 겨누며 \"내리라\"고 소리치며 차량 앞 유리와 창문 등을 여러 차례 내리쳤다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-d55752584795",
+        "summary": "B 씨는 자기 차로 돌아간 뒤 후진해 A 씨 차를 또 한 차례 들이받은 뒤 이번엔 장갑까지 착용한 채 송곳을 꺼내 들고 A 씨 차량 주변을 돌면서 송곳으로 타이어를 찔러 펑크를 내고 유리창도 여러 차례 찍어 훼손했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-5cb93490a10d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-0b164d1735da",
+        "summary": "대낮 도심 한복판에서 차선 바꾸기를 하던 앞 차량을 상대로 보복 운전을 하고 가짜 권총으로 위협한 40대 남성이 경찰에 구속됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-2c5a5e5151b7",
+        "summary": "당시 그는 앞서가던 B씨 차량이 좁은 도로에서 큰 도로로 합류하며 자신의 앞으로 차선을 바꾸자, 홧김에 길게 경적을 울리며 뒤를 쫓아갔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "trigger",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-cf340fe972e3",
+        "summary": "경찰 조사 결과 A씨는 당시 자신의 차에 5살짜리 딸을 태운 상태에서 이 같은 보복 운전을 저지른 것으로 드러났다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-cc422d31f462",
+        "summary": "A씨는 경찰 조사에서 “B씨 차량이 우회전한 뒤 곧바로 4차로까지 한 번에 들어오자 순간적으로 화가 나 범행을 저질렀다”고 진술한 것으로 알려졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      }
+    ],
+    "investigationAndCharges": [
+      {
+        "id": "claim-a19f764e8f98",
+        "summary": "대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 남성 운전자 B씨에 대한 구속영장을 신청했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-6d303470cb62",
+        "summary": "B씨는 대구 수성구 도로에서 여성 운전자 A씨의 차량을 상대로 고의 추돌과 협박을 일삼은 혐의를 받는다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-65b3c6b9444d"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-45ecc835bc14",
+        "summary": "대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 A씨를 구속했다고 30일 밝혔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-61e5a42972f5",
+        "summary": "연합뉴스 경찰에 따르면 A씨는 지난달 27일 오후 4시 15분쯤 대구 수성구 범어동의 한 도로에서 차를 몰던 중 앞서가던 승용차를 고의로 들이받아 운전자 B(40대·여)씨와 10대 자녀에게 가벼운 상처를 입힌 혐의를 받고 있다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-eae072d1c237",
+        "summary": "이후 A씨는 소지하고 있던 가짜 권총을 꺼내 들어 B씨 모녀를 위협하고, 송곳으로 상대 차량의 바퀴(타이어)를 찌른 혐의도 함께 받고 있다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      }
+    ],
+    "trialStagesAndSentenceChanges": [],
+    "prosecutionClaims": [],
+    "defenseClaims": [],
+    "courtFindings": [],
+    "victimImpact": [],
+    "timeline": [],
+    "conflicts": [],
+    "unknowns": [],
+    "laterChanges": [
+      {
+        "id": "claim-0b164d1735da",
+        "summary": "대낮 도심 한복판에서 차선 바꾸기를 하던 앞 차량을 상대로 보복 운전을 하고 가짜 권총으로 위협한 40대 남성이 경찰에 구속됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-45ecc835bc14",
+        "summary": "대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 A씨를 구속했다고 30일 밝혔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-61e5a42972f5",
+        "summary": "연합뉴스 경찰에 따르면 A씨는 지난달 27일 오후 4시 15분쯤 대구 수성구 범어동의 한 도로에서 차를 몰던 중 앞서가던 승용차를 고의로 들이받아 운전자 B(40대·여)씨와 10대 자녀에게 가벼운 상처를 입힌 혐의를 받고 있다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-2c5a5e5151b7",
+        "summary": "당시 그는 앞서가던 B씨 차량이 좁은 도로에서 큰 도로로 합류하며 자신의 앞으로 차선을 바꾸자, 홧김에 길게 경적을 울리며 뒤를 쫓아갔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "trigger",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-eae072d1c237",
+        "summary": "이후 A씨는 소지하고 있던 가짜 권총을 꺼내 들어 B씨 모녀를 위협하고, 송곳으로 상대 차량의 바퀴(타이어)를 찌른 혐의도 함께 받고 있다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-cf340fe972e3",
+        "summary": "경찰 조사 결과 A씨는 당시 자신의 차에 5살짜리 딸을 태운 상태에서 이 같은 보복 운전을 저지른 것으로 드러났다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-cc422d31f462",
+        "summary": "A씨는 경찰 조사에서 “B씨 차량이 우회전한 뒤 곧바로 4차로까지 한 번에 들어오자 순간적으로 화가 나 범행을 저질렀다”고 진술한 것으로 알려졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0830fd5e0886"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      }
+    ],
+    "narrative": {
+      "overview": [
+        {
+          "id": "claim-7c872d3bcf29",
+          "summary": "대낮 도심 한대낮 도심 한복판에서 차선 변경 시비로 모녀가 탑승한 차량을 집요하게 추격하며 모형 총기와 흉기로 위협한 남성이 경찰에 덜미를 잡혔다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-a19f764e8f98",
+          "summary": "대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 남성 운전자 B씨에 대한 구속영장을 신청했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-6d303470cb62",
+          "summary": "B씨는 대구 수성구 도로에서 여성 운전자 A씨의 차량을 상대로 고의 추돌과 협박을 일삼은 혐의를 받는다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-597f2153bd91",
+          "summary": "사건은 지난달 27일 A씨가 중학생 딸을 태우고 우회전하며 큰 도로로 합류하는 과정에서 시작됐다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-95b4855b039a",
+          "summary": "두 개 차선을 한 번에 진입한 A씨 차량에 불만을 품은 B씨는 경적을 울리며 곧바로 A씨 앞을 가로막아 세웠다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "background",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-d92e0b74bac7",
+          "summary": "이어 차에서 내린 B씨는 손에 든 총기 형태의 물건을 A씨 모녀를 향해 겨누며 접근했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-d0b2637c894e",
+          "summary": "A씨는 극심한 공포 속에 차량을 몰아 현장을 벗어났으나, B씨는 약 8분간 집요한 추격을 이어갔다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f60fb8836693",
+          "summary": "정체 구간에서 A씨 차량의 속도가 줄어들자 B씨는 뒤범퍼를 두 차례 들이받았다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "chronology": [],
+      "sameEventFindings": [
+        {
+          "id": "claim-7c872d3bcf29",
+          "summary": "대낮 도심 한대낮 도심 한복판에서 차선 변경 시비로 모녀가 탑승한 차량을 집요하게 추격하며 모형 총기와 흉기로 위협한 남성이 경찰에 덜미를 잡혔다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-a19f764e8f98",
+          "summary": "대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 남성 운전자 B씨에 대한 구속영장을 신청했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-6d303470cb62",
+          "summary": "B씨는 대구 수성구 도로에서 여성 운전자 A씨의 차량을 상대로 고의 추돌과 협박을 일삼은 혐의를 받는다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-597f2153bd91",
+          "summary": "사건은 지난달 27일 A씨가 중학생 딸을 태우고 우회전하며 큰 도로로 합류하는 과정에서 시작됐다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-95b4855b039a",
+          "summary": "두 개 차선을 한 번에 진입한 A씨 차량에 불만을 품은 B씨는 경적을 울리며 곧바로 A씨 앞을 가로막아 세웠다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "background",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-d92e0b74bac7",
+          "summary": "이어 차에서 내린 B씨는 손에 든 총기 형태의 물건을 A씨 모녀를 향해 겨누며 접근했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-d0b2637c894e",
+          "summary": "A씨는 극심한 공포 속에 차량을 몰아 현장을 벗어났으나, B씨는 약 8분간 집요한 추격을 이어갔다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f60fb8836693",
+          "summary": "정체 구간에서 A씨 차량의 속도가 줄어들자 B씨는 뒤범퍼를 두 차례 들이받았다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-18272752778d",
+          "summary": "다시 차에서 내린 B씨는 창문을 두드리며 “내리라”고 고성을 질렀고, 총기 모형으로 차량 앞 유리를 내리치며 위협했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-348fa315bd3c",
+          "summary": "B씨는 자신의 차량으로 돌아가 후진한 뒤 A씨 차량을 재차 들이받았다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-9e725b564134",
+          "summary": "이어 흉기인 송곳을 꺼내 A씨 차량의 타이어를 찔러 구멍을 내고 유리창을 추가로 파손했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-56580dd4b8bb",
+          "summary": "당시 B씨의 차량 내부에는 본인의 5살 자녀가 탑승해 있던 상태였다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-696902dc3341",
+          "summary": "(서울=뉴스1) 김학진 기자 = 대낮 도심을 운전 중인 여성이 총으로 보이는 물체와 송곳으로 보복 운전 등 위협을 받았다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-30ff5f1d8542",
+          "summary": "26일 JTBC '사건반장'에 따르면 제보자 A 씨는 지난달 27일 대구 수성구의 한 도로에서 중학교 1학년 딸을 차에 태우고 지나던 중 충격적인 보복 운전 피해를 봤다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-305dbfb14644",
+          "summary": "당시 A 씨는 좁은 도로에서 큰 도로로 합류하기 위해 좌측에서 차량이 오는지 확인 후 우회전했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-99e068ecb8e3",
+          "summary": "그런데 직후 뒤따라오던 승용차가 크게 경적을 울렸다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-51c7ce76be72",
+          "summary": "처음에는 자신을 향한 경적이라고 생각하지 않았던 A 씨는 해당 차량이 자신을 추월해 앞을 가로막고 멈춰 서자 끼어들기에 항의하는 '보복 운전'임을 인지했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-76c21ec54a29",
+          "summary": "이후 상대 차 운전자 B 씨가 정차 후 A 씨의 차량으로 다가왔다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-511ad395ecd8",
+          "summary": "B 씨의 손에는 총으로 보이는 물건이 들려 있었다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-1d7dedb8c2a7",
+          "summary": "B 씨가 이를 겨눈 채 자기 차량으로 다가오자 겁에 질린 A 씨는 그대로 차를 몰아 현장을 벗어났다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-89c3bed347df",
+          "summary": "A 씨는 실제 총기인지 장난감인지 여부는 구별할 수 없었고 \"그저 맞으면 죽겠다는 생각에 너무 무서워 도망갔다\"고 당시 상황을 설명했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f7b54e8a5147",
+          "summary": "하지만 B 씨가 다시 차를 타고 A 씨를 뒤쫓기 시작했고 약 8분간 추격이 계속됐다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-335ceb1e2d64",
+          "summary": "A 씨 차량이 앞차에 막혀 속도를 줄이자 B 씨는 뒤에서 차량을 두 차례 들이받았고 다시 총기로 보이는 물체를 들고 차에서 내려 A 씨에게 겨누며 \"내리라\"고 소리치며 차량 앞 유리와 창문 등을 여러 차례 내리쳤다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-d55752584795",
+          "summary": "B 씨는 자기 차로 돌아간 뒤 후진해 A 씨 차를 또 한 차례 들이받은 뒤 이번엔 장갑까지 착용한 채 송곳을 꺼내 들고 A 씨 차량 주변을 돌면서 송곳으로 타이어를 찔러 펑크를 내고 유리창도 여러 차례 찍어 훼손했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "priorContext": [],
+      "followUpDevelopments": [
+        {
+          "id": "claim-0b164d1735da",
+          "summary": "대낮 도심 한복판에서 차선 바꾸기를 하던 앞 차량을 상대로 보복 운전을 하고 가짜 권총으로 위협한 40대 남성이 경찰에 구속됐다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-45ecc835bc14",
+          "summary": "대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 A씨를 구속했다고 30일 밝혔다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-61e5a42972f5",
+          "summary": "연합뉴스 경찰에 따르면 A씨는 지난달 27일 오후 4시 15분쯤 대구 수성구 범어동의 한 도로에서 차를 몰던 중 앞서가던 승용차를 고의로 들이받아 운전자 B(40대·여)씨와 10대 자녀에게 가벼운 상처를 입힌 혐의를 받고 있다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-2c5a5e5151b7",
+          "summary": "당시 그는 앞서가던 B씨 차량이 좁은 도로에서 큰 도로로 합류하며 자신의 앞으로 차선을 바꾸자, 홧김에 길게 경적을 울리며 뒤를 쫓아갔다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "trigger",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-eae072d1c237",
+          "summary": "이후 A씨는 소지하고 있던 가짜 권총을 꺼내 들어 B씨 모녀를 위협하고, 송곳으로 상대 차량의 바퀴(타이어)를 찌른 혐의도 함께 받고 있다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-cf340fe972e3",
+          "summary": "경찰 조사 결과 A씨는 당시 자신의 차에 5살짜리 딸을 태운 상태에서 이 같은 보복 운전을 저지른 것으로 드러났다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-cc422d31f462",
+          "summary": "A씨는 경찰 조사에서 “B씨 차량이 우회전한 뒤 곧바로 4차로까지 한 번에 들어오자 순간적으로 화가 나 범행을 저질렀다”고 진술한 것으로 알려졌다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        }
+      ],
+      "detailSections": [
+        {
+          "id": "background",
+          "title": "갈등과 관계의 배경",
+          "description": "왜 갈등이 시작됐는지 확인된 범위",
+          "claims": [
+            {
+              "id": "claim-95b4855b039a",
+              "summary": "두 개 차선을 한 번에 진입한 A씨 차량에 불만을 품은 B씨는 경적을 울리며 곧바로 A씨 앞을 가로막아 세웠다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "background",
+              "sourceIds": [
+                "src-65b3c6b9444d"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "trigger",
+          "title": "범행 직전의 직접 계기",
+          "description": "직전 상황과 감정적 촉발 요인",
+          "claims": [
+            {
+              "id": "claim-2c5a5e5151b7",
+              "summary": "당시 그는 앞서가던 B씨 차량이 좁은 도로에서 큰 도로로 합류하며 자신의 앞으로 차선을 바꾸자, 홧김에 길게 경적을 울리며 뒤를 쫓아갔다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "trigger",
+              "sourceIds": [
+                "src-0830fd5e0886"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": true
+            }
+          ]
+        },
+        {
+          "id": "harm",
+          "title": "피해와 후유증",
+          "description": "신체·정신적 피해와 공개되지 않은 범위",
+          "claims": [
+            {
+              "id": "claim-a19f764e8f98",
+              "summary": "대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 남성 운전자 B씨에 대한 구속영장을 신청했다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-65b3c6b9444d"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-30ff5f1d8542",
+              "summary": "26일 JTBC '사건반장'에 따르면 제보자 A 씨는 지난달 27일 대구 수성구의 한 도로에서 중학교 1학년 딸을 차에 태우고 지나던 중 충격적인 보복 운전 피해를 봤다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-5cb93490a10d"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-45ecc835bc14",
+              "summary": "대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 A씨를 구속했다고 30일 밝혔다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-0830fd5e0886"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": true
+            }
+          ]
+        },
+        {
+          "id": "investigation",
+          "title": "수사와 양측 주장",
+          "description": "적용 혐의와 검찰·피고인 측 주장",
+          "claims": [
+            {
+              "id": "claim-6d303470cb62",
+              "summary": "B씨는 대구 수성구 도로에서 여성 운전자 A씨의 차량을 상대로 고의 추돌과 협박을 일삼은 혐의를 받는다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-65b3c6b9444d"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-61e5a42972f5",
+              "summary": "연합뉴스 경찰에 따르면 A씨는 지난달 27일 오후 4시 15분쯤 대구 수성구 범어동의 한 도로에서 차를 몰던 중 앞서가던 승용차를 고의로 들이받아 운전자 B(40대·여)씨와 10대 자녀에게 가벼운 상처를 입힌 혐의를 받고 있다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-0830fd5e0886"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": true
+            },
+            {
+              "id": "claim-eae072d1c237",
+              "summary": "이후 A씨는 소지하고 있던 가짜 권총을 꺼내 들어 B씨 모녀를 위협하고, 송곳으로 상대 차량의 바퀴(타이어)를 찌른 혐의도 함께 받고 있다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-0830fd5e0886"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": true
+            }
+          ]
+        }
+      ],
+      "sourceAgreement": [
+        {
+          "claimId": "claim-7c872d3bcf29",
+          "summary": "대낮 도심 한대낮 도심 한복판에서 차선 변경 시비로 모녀가 탑승한 차량을 집요하게 추격하며 모형 총기와 흉기로 위협한 남성이 경찰에 덜미를 잡혔다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-a19f764e8f98",
+          "summary": "대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 남성 운전자 B씨에 대한 구속영장을 신청했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-6d303470cb62",
+          "summary": "B씨는 대구 수성구 도로에서 여성 운전자 A씨의 차량을 상대로 고의 추돌과 협박을 일삼은 혐의를 받는다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-597f2153bd91",
+          "summary": "사건은 지난달 27일 A씨가 중학생 딸을 태우고 우회전하며 큰 도로로 합류하는 과정에서 시작됐다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-95b4855b039a",
+          "summary": "두 개 차선을 한 번에 진입한 A씨 차량에 불만을 품은 B씨는 경적을 울리며 곧바로 A씨 앞을 가로막아 세웠다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-d92e0b74bac7",
+          "summary": "이어 차에서 내린 B씨는 손에 든 총기 형태의 물건을 A씨 모녀를 향해 겨누며 접근했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-d0b2637c894e",
+          "summary": "A씨는 극심한 공포 속에 차량을 몰아 현장을 벗어났으나, B씨는 약 8분간 집요한 추격을 이어갔다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-f60fb8836693",
+          "summary": "정체 구간에서 A씨 차량의 속도가 줄어들자 B씨는 뒤범퍼를 두 차례 들이받았다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-18272752778d",
+          "summary": "다시 차에서 내린 B씨는 창문을 두드리며 “내리라”고 고성을 질렀고, 총기 모형으로 차량 앞 유리를 내리치며 위협했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-348fa315bd3c",
+          "summary": "B씨는 자신의 차량으로 돌아가 후진한 뒤 A씨 차량을 재차 들이받았다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-9e725b564134",
+          "summary": "이어 흉기인 송곳을 꺼내 A씨 차량의 타이어를 찔러 구멍을 내고 유리창을 추가로 파손했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-56580dd4b8bb",
+          "summary": "당시 B씨의 차량 내부에는 본인의 5살 자녀가 탑승해 있던 상태였다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-65b3c6b9444d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-696902dc3341",
+          "summary": "(서울=뉴스1) 김학진 기자 = 대낮 도심을 운전 중인 여성이 총으로 보이는 물체와 송곳으로 보복 운전 등 위협을 받았다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-30ff5f1d8542",
+          "summary": "26일 JTBC '사건반장'에 따르면 제보자 A 씨는 지난달 27일 대구 수성구의 한 도로에서 중학교 1학년 딸을 차에 태우고 지나던 중 충격적인 보복 운전 피해를 봤다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-305dbfb14644",
+          "summary": "당시 A 씨는 좁은 도로에서 큰 도로로 합류하기 위해 좌측에서 차량이 오는지 확인 후 우회전했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-99e068ecb8e3",
+          "summary": "그런데 직후 뒤따라오던 승용차가 크게 경적을 울렸다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-51c7ce76be72",
+          "summary": "처음에는 자신을 향한 경적이라고 생각하지 않았던 A 씨는 해당 차량이 자신을 추월해 앞을 가로막고 멈춰 서자 끼어들기에 항의하는 '보복 운전'임을 인지했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-76c21ec54a29",
+          "summary": "이후 상대 차 운전자 B 씨가 정차 후 A 씨의 차량으로 다가왔다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-511ad395ecd8",
+          "summary": "B 씨의 손에는 총으로 보이는 물건이 들려 있었다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-1d7dedb8c2a7",
+          "summary": "B 씨가 이를 겨눈 채 자기 차량으로 다가오자 겁에 질린 A 씨는 그대로 차를 몰아 현장을 벗어났다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-89c3bed347df",
+          "summary": "A 씨는 실제 총기인지 장난감인지 여부는 구별할 수 없었고 \"그저 맞으면 죽겠다는 생각에 너무 무서워 도망갔다\"고 당시 상황을 설명했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-f7b54e8a5147",
+          "summary": "하지만 B 씨가 다시 차를 타고 A 씨를 뒤쫓기 시작했고 약 8분간 추격이 계속됐다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-335ceb1e2d64",
+          "summary": "A 씨 차량이 앞차에 막혀 속도를 줄이자 B 씨는 뒤에서 차량을 두 차례 들이받았고 다시 총기로 보이는 물체를 들고 차에서 내려 A 씨에게 겨누며 \"내리라\"고 소리치며 차량 앞 유리와 창문 등을 여러 차례 내리쳤다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-d55752584795",
+          "summary": "B 씨는 자기 차로 돌아간 뒤 후진해 A 씨 차를 또 한 차례 들이받은 뒤 이번엔 장갑까지 착용한 채 송곳을 꺼내 들고 A 씨 차량 주변을 돌면서 송곳으로 타이어를 찔러 펑크를 내고 유리창도 여러 차례 찍어 훼손했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-5cb93490a10d"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-0b164d1735da",
+          "summary": "대낮 도심 한복판에서 차선 바꾸기를 하던 앞 차량을 상대로 보복 운전을 하고 가짜 권총으로 위협한 40대 남성이 경찰에 구속됐다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-45ecc835bc14",
+          "summary": "대구 수성경찰서는 특수상해 및 특수협박 등의 혐의로 A씨를 구속했다고 30일 밝혔다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-61e5a42972f5",
+          "summary": "연합뉴스 경찰에 따르면 A씨는 지난달 27일 오후 4시 15분쯤 대구 수성구 범어동의 한 도로에서 차를 몰던 중 앞서가던 승용차를 고의로 들이받아 운전자 B(40대·여)씨와 10대 자녀에게 가벼운 상처를 입힌 혐의를 받고 있다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-2c5a5e5151b7",
+          "summary": "당시 그는 앞서가던 B씨 차량이 좁은 도로에서 큰 도로로 합류하며 자신의 앞으로 차선을 바꾸자, 홧김에 길게 경적을 울리며 뒤를 쫓아갔다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-eae072d1c237",
+          "summary": "이후 A씨는 소지하고 있던 가짜 권총을 꺼내 들어 B씨 모녀를 위협하고, 송곳으로 상대 차량의 바퀴(타이어)를 찌른 혐의도 함께 받고 있다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-cf340fe972e3",
+          "summary": "경찰 조사 결과 A씨는 당시 자신의 차에 5살짜리 딸을 태운 상태에서 이 같은 보복 운전을 저지른 것으로 드러났다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-cc422d31f462",
+          "summary": "A씨는 경찰 조사에서 “B씨 차량이 우회전한 뒤 곧바로 4차로까지 한 번에 들어오자 순간적으로 화가 나 범행을 저질렀다”고 진술한 것으로 알려졌다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-0830fd5e0886"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        }
+      ],
+      "conflicts": [],
+      "unresolvedQuestions": [],
+      "limitations": [
+        "이 사건의 직접적인 사전 맥락으로 확인된 보도를 찾지 못했습니다."
+      ]
+    },
+    "sourceCoverage": {
+      "verifiedSourceCount": 3,
+      "representativeSourceCount": 1,
+      "sameEventCoverageCount": 1,
+      "priorContextCount": 0,
+      "followUpCount": 1,
+      "independentPublisherCount": 3,
+      "corroboration": "multi-source",
+      "rejectedSameEventSourceCount": 0
+    },
+    "readiness": {
+      "readyForLegal": true,
+      "readyForDraft": true,
+      "preferredCorroborationMet": true,
+      "detailedNarrativeComplete": true,
+      "storyClaimCount": 31,
+      "narrativePhaseCount": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    "sourceIndex": [
+      {
+        "sourceId": "src-65b3c6b9444d",
+        "url": "https://www.insight.co.kr/news/570284",
+        "title": "5살 자녀 태우고 모녀 차량 보복운전... 흉기 든 운전자 영장",
+        "publisher": "인사이트",
+        "date": "2026-08-26T17:30:48+09:00",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      },
+      {
+        "sourceId": "src-5cb93490a10d",
+        "url": "https://www.news1.kr/society/general-society/6269671",
+        "title": "총 겨누고 송곳으로 타이어 '콕콕'…5살 딸 태우고 모녀에 보복 운전[영상]",
+        "publisher": "뉴스1",
+        "date": "2026-08-26T10:07:33+09:00",
+        "bucket": "same-event",
+        "status": "verified",
+        "relationshipReason": ""
+      },
+      {
+        "sourceId": "src-0830fd5e0886",
+        "url": "https://www.segye.com/newsView/20260830506137?OutUrl=naver",
+        "title": "5살 딸 태우고 보복 운전…가짜 권총·송곳으로 모녀 위협한 40대",
+        "publisher": "세계일보",
+        "date": "2026-08-30T13:45:51+09:00",
+        "bucket": "follow-up",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "sourceExclusions": [],
+    "currentHash": "cb0ebd7bdfe738733d9006280c7acd3498337258f341d62b1bc1e47d0bdf7eee"
+  }
+}

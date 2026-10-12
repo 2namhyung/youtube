@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 3,
+  "generatedAt": "2026-08-07T09:55:12.959Z",
+  "renderRegistryPath": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\out\\registry\\versions\\msirowqn-6948-birawn.json",
+  "projectSlug": "research-657380fce7eaccc9",
+  "versionId": "msirowqn-6948-birawn",
+  "renderRegistrySha256": "c1ca8253787ec0a2f2c3de7e84482eb2c2c10d580d88c79ae6606ea30b75fe7f",
+  "renderSha256": "bb3f70702ac2e194d73023e2bf42076873f2e401af036e1e365ea23f75ca253d",
+  "thumbnailSha256": "dcdfa4dfbb3a6134662cde17cfc976a214c8d7dc95be4e81ab4df5804fb58c7b",
+  "handoffSha256": "b6b89add3ce66a1d361d1cfba516df5921f817eca8ecd93f76d9e744539aa2d6",
+  "projectSha256": "a9a04d7489a7430e2c005990a35818755cc745e8e19c54c853b50d60041dd5d1",
+  "contractSha256": "2b3f49e0b26f79ba27f6a759c4829896760d8b2ff346c7f2091e462b098d2002",
+  "scriptSha256": "77fc7a1b4647fc8a2f3084b1dcf0dd2000b8a1f30fd295cfff4f6b4c83de05e8",
+  "status": "blocked",
+  "publishable": false,
+  "uploadBlocked": true,
+  "checks": [
+    {
+      "id": "render-handoff-contract",
+      "category": "technical",
+      "label": "Reusable editorial-cartoon and exact handoff contract",
+      "blocking": true,
+      "status": "passed",
+      "evidence": "a6524dc8aae567919484294d3b3d7cf89ec75ea999ffc257a102e49d5872d268"
+    },
+    {
+      "id": "release-gate",
+      "category": "release",
+      "label": "Release gate is approved or covered by an exact signed legal decision",
+      "blocking": true,
+      "status": "failed",
+      "evidence": {
+        "publishable": false,
+        "releaseStatus": "preview",
+        "uploadBlocked": true,
+        "blockers": [
+          {
+            "id": "human-playback-review-required",
+            "stage": "07-quality-assurance",
+            "severity": "block",
+            "claim": "커피 살충제 사건 비공개 완성본",
+            "reason": "정확한 렌더 파일에 대한 사람의 전체 재생 검토와 최종 승인이 필요합니다.",
+            "authority": {
+              "case": "local-editorial-approval",
+              "url": "https://example.invalid/local-editorial-approval"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-integrity",
+      "category": "source",
+      "label": "Final script, project and contract hashes are locked",
+      "blocking": true,
+      "status": "passed",
+      "evidence": "77fc7a1b4647fc8a2f3084b1dcf0dd2000b8a1f30fd295cfff4f6b4c83de05e8"
+    },
+    {
+      "id": "narration-acceptance",
+      "category": "audio",
+      "label": "Approved Qwen narration, ASR and signal checks",
+      "blocking": true,
+      "status": "failed",
+      "evidence": null
+    },
+    {
+      "id": "caption-contract",
+      "category": "captions",
+      "label": "Caption text, timing and Korean semantic split contract",
+      "blocking": true,
+      "status": "passed",
+      "evidence": "18 source cues"
+    },
+    {
+      "id": "render-contract",
+      "category": "video",
+      "label": "1080x1920 H.264 render and frame contract",
+      "blocking": true,
+      "status": "passed",
+      "evidence": "1842 frames"
+    },
+    {
+      "id": "bgm-contract",
+      "category": "audio",
+      "label": "BGM provenance, level and narration ducking",
+      "blocking": true,
+      "status": "passed",
+      "evidence": "-20 dB"
+    },
+    {
+      "id": "thumbnail-contract",
+      "category": "visual",
+      "label": "Approved caption-free thumbnail hash",
+      "blocking": true,
+      "status": "failed",
+      "evidence": "dcdfa4dfbb3a6134662cde17cfc976a214c8d7dc95be4e81ab4df5804fb58c7b"
+    },
+    {
+      "id": "legal-rights-review",
+      "category": "legal",
+      "label": "Tiered factual, legal and media-rights review",
+      "blocking": true,
+      "status": "blocked",
+      "evidence": [
+        "human-playback-review-required"
+      ]
+    },
+    {
+      "id": "human-playback-approval",
+      "category": "human",
+      "label": "A reviewer watched the exact final file and approved release",
+      "blocking": true,
+      "status": "pending",
+      "evidence": null
+    }
+  ],
+  "blockers": [
+    {
+      "id": "human-playback-review-required",
+      "stage": "07-quality-assurance",
+      "severity": "block",
+      "claim": "커피 살충제 사건 비공개 완성본",
+      "reason": "정확한 렌더 파일에 대한 사람의 전체 재생 검토와 최종 승인이 필요합니다.",
+      "authority": {
+        "case": "local-editorial-approval",
+        "url": "https://example.invalid/local-editorial-approval"
+      }
+    },
+    {
+      "id": "human-playback-approval-required",
+      "stage": "07-quality-assurance",
+      "severity": "block",
+      "reason": "The exact final render has not been signed off by a human reviewer."
+    }
+  ],
+  "warnings": [],
+  "approval": null
+}

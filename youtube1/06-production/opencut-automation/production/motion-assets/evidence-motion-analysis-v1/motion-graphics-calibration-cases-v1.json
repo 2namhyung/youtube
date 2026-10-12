@@ -1,0 +1,24 @@
+{
+  "schema_id": "motion-graphics-calibration-cases-v1",
+  "cases": [
+    {"id":"c01","scenario":"Circular person nodes appear one by one and connector strokes extend between them.","classification":"motion_graphics","reason":"Designed nodes and paths change count, opacity, and path length to explain relationships."},
+    {"id":"c02","scenario":"A static relationship chart remains on screen while the editor cuts to a close-up.","classification":"static_graphic","reason":"The chart itself does not change over time."},
+    {"id":"c03","scenario":"A map marker appears, a route draws, and a region changes color.","classification":"motion_graphics","reason":"Map graphics are designed layers with time-based state changes; relevance is a separate question."},
+    {"id":"c04","scenario":"The camera slowly zooms into an unmodified map image.","classification":"camera_motion_only","reason":"Only the camera transform changes; the graphic system does not."},
+    {"id":"c05","scenario":"A yellow mask sweeps across one exact sentence in a document and an annotation enters.","classification":"mixed_video_with_motion_graphics","reason":"The document may be static source material, while the animated mask and annotation are motion graphics."},
+    {"id":"c06","scenario":"A PDF page is held for five seconds with no animated annotation.","classification":"static_graphic","reason":"No designed property changes over time."},
+    {"id":"c07","scenario":"Real footage cuts between three camera angles.","classification":"video_editing","reason":"Shot selection and cutting are editing, not motion graphics."},
+    {"id":"c08","scenario":"A name label tracks a moving person and a line remains attached to the subject.","classification":"mixed_video_with_motion_graphics","reason":"The footage is not motion graphics; the tracked label and connector are."},
+    {"id":"c09","scenario":"A lower third fades from 0 to 100 percent opacity and slides into place.","classification":"motion_graphics","reason":"It qualifies technically, although design quality may be low."},
+    {"id":"c10","scenario":"A headline assembles word by word, then one term changes weight and color on the spoken emphasis.","classification":"motion_graphics","reason":"Kinetic typography changes content, opacity, weight, and color over time."},
+    {"id":"c11","scenario":"A photograph receives a slow pan and zoom with no added animated graphic layer.","classification":"photo_animation","reason":"Image movement alone is not sufficient for the pipeline's motion-graphics classification."},
+    {"id":"c12","scenario":"Bars grow from zero to exact values while labels count up and settle.","classification":"motion_graphics","reason":"Designed data marks and labels change to communicate quantities."},
+    {"id":"c13","scenario":"A photorealistic 3D character reenacts an incident without labels or explanatory graphics.","classification":"3d_animation_or_reconstruction","reason":"It is animation, but not automatically motion graphics."},
+    {"id":"c14","scenario":"Abstract 3D blocks represent institutions, rearrange by responsibility, and connect with animated lines.","classification":"motion_graphics","reason":"3D is being used as a designed information system."},
+    {"id":"c15","scenario":"A designed shape expands into a full-screen mask and becomes the next scene's document frame.","classification":"motion_graphics","reason":"The graphic transformation creates a semantic transition."},
+    {"id":"c16","scenario":"Two shots are joined only by a dissolve.","classification":"video_editing","reason":"A dissolve alone is an editing transition."},
+    {"id":"c17","scenario":"A multi-layer designed collage has foreground, middle, and background cards while a virtual camera moves through the information space.","classification":"motion_graphics","reason":"Camera animation participates in an authored graphic composition rather than merely moving over one photo."},
+    {"id":"c18","scenario":"Sparse sampled frames differ, but continuous playback has not been checked.","classification":"insufficient_evidence","reason":"Contact-sheet differences locate candidates but cannot establish the actual animated layer or transition."}
+  ]
+}
+

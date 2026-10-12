@@ -1,0 +1,203 @@
+{
+  "schema": "character-keypose-crops-v1",
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\production\\motion-assets\\generic-character-poc-v1\\phone-pickup-8-keyposes-v1-alpha.png",
+  "sourceSha256": "398cec29fd4fe5c21483b4c46534f5c3c6b4bae23d24b63740cc063d86ecab6b",
+  "sourceDimensions": [
+    1448,
+    1086
+  ],
+  "poses": [
+    {
+      "id": "pose-01",
+      "sourceCell": [
+        0,
+        0,
+        362,
+        543
+      ],
+      "opaqueBboxInCell": [
+        126,
+        51,
+        262,
+        514
+      ],
+      "cropInCell": [
+        118,
+        43,
+        270,
+        522
+      ],
+      "width": 152,
+      "height": 479,
+      "sha256": "7d37ca6a2027d2338f98b62d145e3cb2246519e2d6e30c100b4136a1213ea736"
+    },
+    {
+      "id": "pose-02",
+      "sourceCell": [
+        362,
+        0,
+        724,
+        543
+      ],
+      "opaqueBboxInCell": [
+        87,
+        51,
+        223,
+        514
+      ],
+      "cropInCell": [
+        79,
+        43,
+        231,
+        522
+      ],
+      "width": 152,
+      "height": 479,
+      "sha256": "42cbc514beb0ee1e4e62894130dbabc6ea64584a2b3c302d7f0882ce93b872ec"
+    },
+    {
+      "id": "pose-03",
+      "sourceCell": [
+        724,
+        0,
+        1086,
+        543
+      ],
+      "opaqueBboxInCell": [
+        30,
+        51,
+        216,
+        517
+      ],
+      "cropInCell": [
+        22,
+        43,
+        224,
+        525
+      ],
+      "width": 202,
+      "height": 482,
+      "sha256": "ea58485c61f40b171daaeb3e2d8d89ce303f44dd4deab8435090070717d3ef8a"
+    },
+    {
+      "id": "pose-04",
+      "sourceCell": [
+        1086,
+        0,
+        1448,
+        543
+      ],
+      "opaqueBboxInCell": [
+        1,
+        107,
+        265,
+        514
+      ],
+      "cropInCell": [
+        0,
+        99,
+        273,
+        522
+      ],
+      "width": 273,
+      "height": 423,
+      "sha256": "3220d7acda007f7a91765cb67e669e334384be0fd21f4017299123ec301ed7a0"
+    },
+    {
+      "id": "pose-05",
+      "sourceCell": [
+        0,
+        543,
+        362,
+        1086
+      ],
+      "opaqueBboxInCell": [
+        74,
+        79,
+        346,
+        448
+      ],
+      "cropInCell": [
+        66,
+        71,
+        354,
+        456
+      ],
+      "width": 288,
+      "height": 385,
+      "sha256": "084cd44951196a7ad41ea4e3c771873df5615d7496d22a6d748e15e61976f2ff"
+    },
+    {
+      "id": "pose-06",
+      "sourceCell": [
+        362,
+        543,
+        724,
+        1086
+      ],
+      "opaqueBboxInCell": [
+        50,
+        123,
+        312,
+        449
+      ],
+      "cropInCell": [
+        42,
+        115,
+        320,
+        457
+      ],
+      "width": 278,
+      "height": 342,
+      "sha256": "75b824383bff4d93a40a931cb65e9f174c2b891f222daa21ab01fbb8c79d1259"
+    },
+    {
+      "id": "pose-07",
+      "sourceCell": [
+        724,
+        543,
+        1086,
+        1086
+      ],
+      "opaqueBboxInCell": [
+        37,
+        26,
+        242,
+        452
+      ],
+      "cropInCell": [
+        29,
+        18,
+        250,
+        460
+      ],
+      "width": 221,
+      "height": 442,
+      "sha256": "73dd060ff89d6382a0593cd60b5cf466319172ee8e1dc6911aa869ebb1fd18c3"
+    },
+    {
+      "id": "pose-08",
+      "sourceCell": [
+        1086,
+        543,
+        1448,
+        1086
+      ],
+      "opaqueBboxInCell": [
+        66,
+        20,
+        223,
+        460
+      ],
+      "cropInCell": [
+        58,
+        12,
+        231,
+        468
+      ],
+      "width": 173,
+      "height": 456,
+      "sha256": "aaaf63324098fcfabd8714b93a1c3f2cecc56b134a6978c77a98db299b358fef"
+    }
+  ]
+}

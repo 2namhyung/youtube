@@ -1,0 +1,65 @@
+{
+  "schema": "shopping-implementation-verification-v1",
+  "created_at": "2026-09-22T11:49:58.479242+00:00",
+  "profile": "luna-browser-local-v1",
+  "test_count": 26,
+  "failures": 0,
+  "schema_count": 12,
+  "existing_required_suites": {
+    "editorial": {
+      "log_path": "C:\\Users\\User\\Desktop\\app\\youtube\\.codex-temp\\shopping-editorial-tests.log",
+      "sha256": "c1fc47bdf798a76cba09948b733c2d71e3f5770c39eef3a0731700e3c863ca8a",
+      "observed_exit_code": 0
+    },
+    "generic": {
+      "log_path": "C:\\Users\\User\\Desktop\\app\\youtube\\.codex-temp\\shopping-generic-tests.log",
+      "sha256": "269a3fa40aff22c6f9f0a10ebc7355dabbfc3b62246b59fe7581d3f53f9f9ae5",
+      "observed_exit_code": 0
+    }
+  },
+  "smoke": {
+    "project_id": "project_cd40605a663d48609628",
+    "render_id": "render_2f2e0f40cfac4eb2bd05",
+    "export_id": "export_59c4949923d448bebc73",
+    "export_blob_id": "blob_6555da7954ca497d8409",
+    "video_blob_id": "blob_d459476b235f4b6faa93",
+    "frames": 90,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "audio_sample_rate": 48000,
+    "layouts": [
+      "fit",
+      "crop"
+    ],
+    "sfx_mixed": true,
+    "stages_completed": 8,
+    "publication_authorized": false,
+    "evidence_level": "synthetic-only",
+    "real_luna_or_jev_called": false,
+    "sha256": "cdee069050fe7fc67d5fb492c110c429f6716cab2d53de14a7bc5354032fd62f",
+    "output_lufs": "-16.01",
+    "output_true_peak_dbtp": "-11.70"
+  },
+  "video_path": "C:\\Users\\User\\Desktop\\app\\youtube\\shopping-shorts\\data\\blobs\\cd\\cdee069050fe7fc67d5fb492c110c429f6716cab2d53de14a7bc5354032fd62f.mp4",
+  "bundle_path": "C:\\Users\\User\\Desktop\\app\\youtube\\shopping-shorts\\data\\blobs\\16\\16725cd4c479d823c6ecd40e554d28de8284731470bd3ca7fa9301a656954104.zip",
+  "bundle_sha256": "16725cd4c479d823c6ecd40e554d28de8284731470bd3ca7fa9301a656954104",
+  "browser_checks": {
+    "project_creation": "observed",
+    "operator_packet": "observed",
+    "result_submission": "observed",
+    "completion_revision": "observed",
+    "actual_luna_model_execution": "not_performed"
+  },
+  "external_accounts_tested": [],
+  "secrets_read": false,
+  "subagents_invoked": false,
+  "limitations": [
+    "Current-task Luna/browser operator is required for semantic stages.",
+    "Synthetic source and tone only; no actual product or speech-quality acceptance.",
+    "WISE, cloud TTS, JEV, distributed orchestration, scheduled collection are not active."
+  ],
+  "publication_authorized": false
+}

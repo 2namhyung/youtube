@@ -1,0 +1,7 @@
+{
+  "project": { "name": "OpenCut automation smoke", "width": 1080, "height": 1920, "fps": 30 },
+  "tracks": [
+    { "type": "text", "text": "자동화 스모크 테스트", "start": 0, "duration": 2 },
+    { "type": "video", "src": "clip01.mp4", "start": 0, "duration": 2 }
+  ]
+}

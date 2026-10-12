@@ -1,0 +1,107 @@
+{
+  "$defs": {
+    "Rights": {
+      "additionalProperties": false,
+      "properties": {
+        "license": {
+          "enum": [
+            "OWNED",
+            "CC0",
+            "CC-BY",
+            "WRITTEN_PERMISSION"
+          ],
+          "title": "License",
+          "type": "string"
+        },
+        "license_url": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "License Url",
+          "type": "string"
+        },
+        "author": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Author",
+          "type": "string"
+        },
+        "source_url": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Source Url",
+          "type": "string"
+        },
+        "statement": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Statement",
+          "type": "string"
+        },
+        "acquisition_basis": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Acquisition Basis",
+          "type": "string"
+        },
+        "receipt_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Receipt Ids",
+          "type": "array"
+        },
+        "provider_input_allowed": {
+          "default": false,
+          "title": "Provider Input Allowed",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "license",
+        "license_url",
+        "author",
+        "source_url",
+        "statement",
+        "acquisition_basis",
+        "receipt_ids"
+      ],
+      "title": "Rights",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "blob_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,100}$",
+      "title": "Blob Id",
+      "type": "string"
+    },
+    "name": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Name",
+      "type": "string"
+    },
+    "tags": {
+      "items": {
+        "maxLength": 4000,
+        "minLength": 1,
+        "type": "string"
+      },
+      "title": "Tags",
+      "type": "array"
+    },
+    "rights": {
+      "$ref": "#/$defs/Rights"
+    }
+  },
+  "required": [
+    "blob_id",
+    "name",
+    "rights"
+  ],
+  "title": "Sound",
+  "type": "object"
+}

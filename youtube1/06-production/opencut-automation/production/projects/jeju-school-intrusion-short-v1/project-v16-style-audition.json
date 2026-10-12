@@ -1,0 +1,114 @@
+{
+  "id": "jeju-school-intrusion-short-v1-v16-style-audition",
+  "title": {
+    "line1": "제주 초등학교",
+    "line2": "교실 침입 사건"
+  },
+  "parentProject": "project-v15-transition-only.json",
+  "manifest": "style-audition-manifest-v16.json",
+  "captionPreset": {
+    "id": "information-delta-v14-white-on-black-2line",
+    "fontFamily": "Noto Sans KR",
+    "fontWeight": 800,
+    "fontSize": 88,
+    "scaleX": 94,
+    "safeWidth": 920,
+    "maxLines": 2,
+    "lineHeight": 1.08,
+    "x": 540,
+    "y": 1400,
+    "color": "#FFFFFF",
+    "outlineColor": "#000000",
+    "outlineWidth": 5,
+    "background": "black"
+  },
+  "lockedTracks": {
+    "narration": "parent-v15",
+    "bgm": "parent-v15",
+    "title": "parent-v15",
+    "captions": "parent-v15-white-on-black",
+    "aiDisclosure": "parent-v15"
+  },
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 308,
+    "durationSeconds": 10.266666666666667
+  },
+  "scenes": [
+    {
+      "id": "scene-04-school-exterior",
+      "sourceScene": 4,
+      "startFrame": 165,
+      "endFrame": 213,
+      "frames": 48,
+      "durationSeconds": 1.6,
+      "description": "school exterior, empty campus approach"
+    },
+    {
+      "id": "scene-05-threshold",
+      "sourceScene": 5,
+      "startFrame": 213,
+      "endFrame": 268,
+      "frames": 55,
+      "durationSeconds": 1.8333333333333333,
+      "description": "classroom threshold and doorway"
+    },
+    {
+      "id": "scene-06-next-morning-discovery",
+      "sourceScene": 6,
+      "startFrame": 268,
+      "endFrame": 326,
+      "frames": 58,
+      "durationSeconds": 1.9333333333333333,
+      "description": "next-morning discovery motion, object-focused"
+    },
+    {
+      "id": "scene-07-tumbler",
+      "sourceScene": 7,
+      "startFrame": 326,
+      "endFrame": 385,
+      "frames": 59,
+      "durationSeconds": 1.9666666666666666,
+      "description": "sealed tumbler evidence on a desk"
+    },
+    {
+      "id": "scene-08-tumbler-interior",
+      "sourceScene": 8,
+      "startFrame": 385,
+      "endFrame": 428,
+      "frames": 43,
+      "durationSeconds": 1.4333333333333333,
+      "description": "tumbler interior, non-graphic evidence detail"
+    },
+    {
+      "id": "scene-09-classroom-aisle",
+      "sourceScene": 9,
+      "startFrame": 428,
+      "endFrame": 473,
+      "frames": 45,
+      "durationSeconds": 1.5,
+      "description": "empty classroom aisle, adult teacher rear view only"
+    }
+  ],
+  "transitionContract": {
+    "mode": "media-only",
+    "frameAccounting": "preserve-scene-sum",
+    "boundaries": [
+      {
+        "from": 5,
+        "to": 6,
+        "type": "dip-to-black",
+        "frames": 6,
+        "notes": "last 3 frames fade out; first 3 frames fade in; overlays remain fixed"
+      }
+    ]
+  },
+  "releaseGate": {
+    "publishable": false,
+    "releaseStatus": "preview",
+    "uploadBlocked": true,
+    "reason": "Style audition only; no upload or external release."
+  }
+}

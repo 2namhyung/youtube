@@ -1,0 +1,173 @@
+{
+  "schema": "godot-front-separated-appearance-pack-v2",
+  "parts": {
+    "a": {
+      "body": {
+        "bbox": [
+          332,
+          390,
+          693,
+          1430
+        ],
+        "bytes": 465898,
+        "sha256": "d189909075210b9fa0d99ff8b24b501c956996ac6bf0556976296d2661cbf6a7"
+      },
+      "head": {
+        "bbox": [
+          378,
+          110,
+          647,
+          431
+        ],
+        "bytes": 108322,
+        "sha256": "00b9fbd94a942be46bf44e75b9a5b9a96482d021f7b8ea832f0f1353ac1410de"
+      },
+      "upper_arm_l": {
+        "bbox": [
+          297,
+          408,
+          439,
+          668
+        ],
+        "bytes": 39504,
+        "sha256": "5ab213790bb25292e561171f706001827e453ad00e2f82e85ed77890e433ea67"
+      },
+      "forearm_l": {
+        "bbox": [
+          237,
+          618,
+          394,
+          798
+        ],
+        "bytes": 29509,
+        "sha256": "fb78ba55b80585451e20fe84a236160377dd427eafd66150814f33517b21332b"
+      },
+      "hand_l": {
+        "bbox": [
+          182,
+          765,
+          313,
+          916
+        ],
+        "bytes": 33951,
+        "sha256": "eb6fe21f760fe2761ddcc5155d7b414e0dd3cfbb43d80d393a7667fc80ea40b4"
+      },
+      "upper_arm_r": {
+        "bbox": [
+          586,
+          408,
+          727,
+          668
+        ],
+        "bytes": 39410,
+        "sha256": "8a713b49a47a347b1e136082c050b9fe00f31526274ba6f972aeaa3b09b44343"
+      },
+      "forearm_r": {
+        "bbox": [
+          631,
+          618,
+          788,
+          798
+        ],
+        "bytes": 29088,
+        "sha256": "055806487065f912bafd6ad4d2fdc383c47dceeb38dbb15a9d8b91a88fc97dff"
+      },
+      "hand_r": {
+        "bbox": [
+          711,
+          766,
+          842,
+          916
+        ],
+        "bytes": 33921,
+        "sha256": "4d4b5150ecd0eb9379a4b06f4c953eeb2276d1f4842eccaf452a438e469ea702"
+      }
+    },
+    "b": {
+      "body": {
+        "bbox": [
+          332,
+          390,
+          693,
+          1430
+        ],
+        "bytes": 903582,
+        "sha256": "3773962f2075990f864d0ab02ebc9e23e45f1cec8260897eeec1e3582bd85760"
+      },
+      "head": {
+        "bbox": [
+          368,
+          110,
+          651,
+          431
+        ],
+        "bytes": 120601,
+        "sha256": "5c4719bebaa0cf7fb23ec8507b35bb8fb113fb5ba823f66b9481632e0392c302"
+      },
+      "upper_arm_l": {
+        "bbox": [
+          297,
+          409,
+          439,
+          668
+        ],
+        "bytes": 41878,
+        "sha256": "7eb7788e2adf1e2dcbfcd066b3295f841bc0da2ab51d5fe88a66fba0f4502658"
+      },
+      "forearm_l": {
+        "bbox": [
+          237,
+          618,
+          394,
+          798
+        ],
+        "bytes": 30880,
+        "sha256": "9a46c1fd99c92546646f46f419af4eddbb18969422c38e02b7488d5e226ce4fe"
+      },
+      "hand_l": {
+        "bbox": [
+          182,
+          764,
+          312,
+          917
+        ],
+        "bytes": 35533,
+        "sha256": "4fa4d38851c8b30dd8c421faeeede9d29774967baabb62736591a3ec89a49131"
+      },
+      "upper_arm_r": {
+        "bbox": [
+          586,
+          409,
+          727,
+          668
+        ],
+        "bytes": 41392,
+        "sha256": "cefd8807efc9c62f54e74a07b471af86fa45a090e2d7e7d3ad018078477610e6"
+      },
+      "forearm_r": {
+        "bbox": [
+          631,
+          618,
+          788,
+          798
+        ],
+        "bytes": 30549,
+        "sha256": "828a6c09fbfd147b7e4e00aad0320e5835f60e785f4f0e41d601821fe6974955"
+      },
+      "hand_r": {
+        "bbox": [
+          711,
+          765,
+          842,
+          917
+        ],
+        "bytes": 35451,
+        "sha256": "0416ab844ffe7c2d152166705f471bbb225b6ded673b2721b98387149521bee2"
+      }
+    }
+  },
+  "sourceHashes": {
+    "a": "9280b13d75cb605dbb621fe3ba71d1947be42a54b33557b9567d380b504bfcae",
+    "b": "49f8945e8a48724d34d7eace88e509b088bb4545612b97d9e98dfe5f5e234a5e"
+  }
+}

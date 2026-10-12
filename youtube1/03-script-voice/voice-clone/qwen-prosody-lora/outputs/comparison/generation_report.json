@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "support": "unsupported-experimental",
+  "seed": 20260730,
+  "text": "교권보호국은 교권을 보호하는 가상의 기관입니다.",
+  "reference_text": "교권보호국은 교권을 보호하는 가상의 기관입니다. 현실의 교권 보호 제도는 제대로 작동하고 있을까요? 교권과 권한은 서로 다른 의미를 가집니다.",
+  "reference_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\f4_ref_gyogwon.wav",
+  "reference_sha256": "31b3fdee6e1417daee8dd863f479b01408a840cc21762c2927e2a3c97b4a4646",
+  "started_utc": "2026-07-30T02:00:44Z",
+  "base": {
+    "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\comparison\\base.wav",
+    "sha256": "316b485ed5208627e18a1d324c975042e5188ca910cb57a8c63940759a8a58c4",
+    "sample_rate": 24000,
+    "duration_seconds": 3.52,
+    "peak": 0.458984375
+  },
+  "base_gpu": {
+    "name": "NVIDIA GeForce RTX 3060 Ti",
+    "total_mib": 8192,
+    "used_mib": 4149,
+    "free_mib": 3876,
+    "temperature_c": 42
+  },
+  "adapter": {
+    "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\comparison\\adapter.wav",
+    "sha256": "fde5a98793ad748e0f13c259d72e77eeeebcede69730a98b902cda4c686d63fd",
+    "sample_rate": 24000,
+    "duration_seconds": 3.36,
+    "peak": 0.40234375
+  },
+  "adapter_gpu": {
+    "name": "NVIDIA GeForce RTX 3060 Ti",
+    "total_mib": 8192,
+    "used_mib": 4180,
+    "free_mib": 3845,
+    "temperature_c": 43
+  },
+  "merge": {
+    "mode": "in-memory PeftModel.from_pretrained + merge_and_unload",
+    "merged_checkpoint_saved": false,
+    "production_integration": false
+  },
+  "finished_utc": "2026-07-30T02:01:05Z"
+}

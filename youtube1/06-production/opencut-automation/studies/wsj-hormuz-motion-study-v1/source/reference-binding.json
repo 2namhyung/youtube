@@ -1,0 +1,16 @@
+{
+  "schema_id": "private-reference-study-binding-v1",
+  "reference_id": "wsj-hormuz-vertical",
+  "reference_url": "https://www.youtube.com/shorts/xhTbSgZqpvU",
+  "retrieval_tool": "yt-dlp 2026.07.04",
+  "review_format": "worst progressive MP4, 202x360, 24fps, 174.82s",
+  "inspection": {
+    "method": "dense 1-second FFmpeg contact sheet plus scene-change probe; visual only",
+    "coverage_percent": 100,
+    "raw_video_retained": false,
+    "raw_frames_retained": false,
+    "audio_inspected": false
+  },
+  "private_policy": "PRIVATE NONCOMMERCIAL LEARNING COPY STUDY; NEVER UPLOAD, PUBLISH OR MONETIZE",
+  "source_brand_or_content_reused": false
+}

@@ -1,0 +1,25 @@
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_01.wav|F4|KO|교권보호국이라는 설정은 허구지만, 현실의 교권 보호 제도는 제대로 작동하고 있을까요?
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_02.wav|F4|KO|다음 날 여교사가 매일 쓰던 텀블러에서 수상한 액체를 발견했다고 밝혔습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_03.wav|F4|KO|피의자는 혐의를 인정하면서도 교사를 노린 것은 아니라고 진술했습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_04.wav|F4|KO|경찰은 추가 조사를 이어가고 있습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_05.wav|F4|KO|출근하던 교사는 복도 바닥에 남은 흙자국을 먼저 봤습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_06.wav|F4|KO|담당자는 현장을 보존하고 출입 기록을 받았습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_07.wav|F4|KO|기록에는 오전 7시 55분부터 8시 12분까지 낯선 방문자가 머문 흔적이 남아 있었습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_08.wav|F4|KO|교사는 아이들이 오기 전에 무엇을 확인해야 할까요?라고 물었고, 안전 담당자는 먼저 문손잡이와 주변 영상을 살펴보겠습니다라고 답했습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_09.wav|F4|KO|담당 직원은 교권과 권한을 혼동하면 안 된다고 말했습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_10.wav|F4|KO|교사는 학생을 통제하는 사람이 아니라 배울 권리를 보호하는 사람이며, 보호국은 그 원칙을 확인하는 곳이라는 설명입니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_11.wav|F4|KO|발표를 듣던 주민 한 명이 그렇다면 신고 뒤 교사는 누구에게 도움을 받습니까?라고 묻자, 직원은 상담 기록과 긴급 연락망을 함께 받았다고 답했습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_12.wav|F4|KO|조사팀은 복도에서 신발 자국을 봤습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_13.wav|F4|KO|보관함 옆에는 누군가 놓고 간 상자를 받았습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_14.wav|F4|KO|급히 이동하던 사람이 경고선을 밟았습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_15.wav|F4|KO|이 네 장면은 비슷하게 들리지만 뜻이 다릅니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_16.wav|F4|KO|가상 수사관은 사건의 법적 이름을 서둘러 단정하지 않았습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_17.wav|F4|KO|피해자는 텀블러의 뚜껑이 열려 있었고 내용물이 조금 줄었다고 말했지만, 피의자는 복도에 들어간 사실만 인정했습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_18.wav|F4|KO|기록에는 제주에서 가져온 감귤 상자와 제주에서 만든 제품이라는 표시가 함께 있었습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_19.wav|F4|KO|숫자도 정확해야 합니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_20.wav|F4|KO|처음에는 단순한 장난으로 보였습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_21.wav|F4|KO|그러나 작은 흔적을 넘기면 다음 신고를 막기 어렵습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_22.wav|F4|KO|조사팀은 문 앞 조명을 밝히고, 교사가 혼자 대응하지 않도록 당직표를 바꿨습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_23.wav|F4|KO|주민센터는 상담 창구를 오후 6시까지 열고, 익명 제보도 받았습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_24.wav|F4|KO|한 달 뒤에는 같은 장소에서 모의 대피를 진행했습니다.
+C:\Users\User\Desktop\app\youtube\03-script-voice\voice-clone\pilots\model-ab-20260729\gpt-v2-finetune\dataset\wavs\f4_train_25.wav|F4|KO|문제를 숨기는 것보다 사실을 차분히 말하고, 피해자의 일상과 교사의 수업을 함께 지키는 해법을 찾는 일이 중요합니다.

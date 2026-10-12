@@ -1,0 +1,2750 @@
+{
+  "version": 1,
+  "slug": "research-0b5e8a6a5fd888df",
+  "title": "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+  "candidate": {
+    "id": "research-0b5e8a6a5fd888df",
+    "slug": "research-0b5e8a6a5fd888df",
+    "editorialStatus": "active-review",
+    "title": "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+    "source": "JTBC 공식 일별 기사 sitemap",
+    "url": "https://news.jtbc.co.kr/article/NB12315898",
+    "publishedAt": "2026-08-31T00:00:00+00:00",
+    "hook": "실종 신고 63건, 접수한 경찰이 삭제하거나 입력조차 하지 않았다",
+    "storySummary": "제주에서 실종 신고를 허위로 종결했다는 의혹이 불거지며 해당 사건 피의자인 경장에 대한 조사가 진행됐다. 조사 결과 이 경장은 실종 신고를 접수한 뒤 실종 프로파일링 시스템에서 관련 사례를 삭제하거나 아예 입력하지 않은 것으로 파악됐다. 이런 방식으로 처리된 신고는 모두 63건으로 조사됐다. 보도 시점에는 해당 경장이 피의자로 지목됐고 추가 사례가 확인된 상태다.",
+    "rationale": "시민을 보호해야 할 경찰이 일상적인 실종 신고 업무에서 기록을 삭제하거나 누락했다는 점이 강한 행동·책임 불일치를 만든다. 단순 행정 착오를 넘어 63건으로 확대됐고 실종자 수색에 영향을 미쳤을 가능성이 있어 공포와 답답함을 함께 유발하는 후보이다.",
+    "dimensions": {
+      "ordinaryContext": 3,
+      "disproportionateEscalation": 1,
+      "explanationActionMismatch": 2,
+      "tangibleRisk": 3,
+      "responsibilityEvasion": 3,
+      "relatableEmotion": 3
+    },
+    "factCheckRisks": [
+      "제목의 ‘부 경장’이 인명 일부인지 직급 표기인지 원문에서 확인해야 한다.",
+      "63건이 삭제와 미입력을 합친 수치인지, 기존 허위 종결 건까지 포함한 수치인지 확인해야 한다.",
+      "각 신고가 실제 수색 지연이나 피해로 이어졌는지는 제공된 탐색 정보만으로 확인되지 않는다.",
+      "행위의 기간과 동기, 경찰의 징계·수사 진행 단계는 기사 본문과 공식 발표로 검증해야 한다."
+    ],
+    "selectionReasons": [
+      "누구나 의지할 수밖에 없는 실종 신고 절차에서 담당 경찰의 삭제·미입력 행위가 확인됐다.",
+      "한 건의 허위 종결 의혹이 63건의 추가 사례로 확대돼 사건의 규모와 반복성이 뚜렷하다.",
+      "실종자 보호를 담당하는 직무와 실제 처리 방식이 정면으로 어긋난다.",
+      "기록 누락이 수색과 안전 확인에 미쳤을 위험을 직관적으로 전달할 수 있다."
+    ],
+    "relatedCoverage": [
+      {
+        "source": "조선일보 사회",
+        "title": "실종 ‘허위 종결’ 여파... 제주경찰청장 승진 무산됐다",
+        "url": "https://www.chosun.com/national/national_general/2026/09/02/J7HRFGFVEJDGPJEWM4ZAKZOIGE/",
+        "publishedAt": "2026-09-01T23:48:28+09:00",
+        "similarity": 0.25,
+        "status": "coverage-candidate-unverified"
+      },
+      {
+        "source": "SBS 뉴스 사회",
+        "title": "\"일 많아질까 봐 허위 종결\"…황당한 범행 동기",
+        "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008732794&plink=RSSLINK&cooper=RSSREADER",
+        "publishedAt": "2026-09-01T21:54:00+09:00",
+        "similarity": 0.25,
+        "status": "coverage-candidate-unverified"
+      },
+      {
+        "source": "JTBC 공식 일별 기사 sitemap",
+        "title": "또 다른 허위 종결 가족, 두 차례 경찰 찾아갔지만 그마저 무시당했다",
+        "url": "https://news.jtbc.co.kr/article/NB12314647",
+        "publishedAt": "2026-08-23T00:00:00+00:00",
+        "similarity": 0.25,
+        "status": "coverage-candidate-unverified"
+      },
+      {
+        "source": "JTBC 공식 일별 기사 sitemap",
+        "title": "장미란 실종 3번 신고됐는데…경찰, 19일 지나서야 ‘허위 종결’ 의심",
+        "url": "https://news.jtbc.co.kr/article/NB12315331",
+        "publishedAt": "2026-08-27T00:00:00+00:00",
+        "similarity": 0.22,
+        "status": "coverage-candidate-unverified"
+      }
+    ],
+    "approval": {
+      "kind": "human-promotion",
+      "approvedAt": "2026-09-02T13:28:54.877Z",
+      "sourceAction": "newsroom-semantic-card"
+    },
+    "provenance": {
+      "semanticSelectionPath": "out/newsroom/research-llm-analysis.json",
+      "semanticGeneratedAt": "2026-09-02T13:06:53.881Z",
+      "articlePoolPath": "01-research/news_radar/data/latest_article_pool.json",
+      "articlePoolGeneratedAt": "2026-09-02T22:09:22+09:00",
+      "articleId": "0b5e8a6a5fd888dfafb98cf6",
+      "excerptProvenance": "publisher-sitemap"
+    },
+    "verification": {
+      "state": "cross-source-verification-required",
+      "missing": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토"
+      ]
+    }
+  },
+  "createdAt": "2026-09-02T13:28:55.333Z",
+  "updatedAt": "2026-09-04T19:50:13.215Z",
+  "stages": {
+    "01": {
+      "status": "ready",
+      "completedAt": "2026-09-02T13:28:55.333Z"
+    },
+    "02": {
+      "status": "ready",
+      "completedAt": "2026-09-04T11:31:26.080Z",
+      "reportGeneratedAt": "2026-09-04T11:31:26.080Z",
+      "evidenceSha256": "11f49a30ef7f712802731e9a9a940fc63648b9447f38d855a5f84a5bb81ae4b9"
+    },
+    "03": {
+      "status": "in-progress"
+    },
+    "04": {
+      "status": "pending"
+    },
+    "05": {
+      "status": "pending"
+    },
+    "06": {
+      "status": "pending"
+    },
+    "07": {
+      "status": "pending"
+    },
+    "08": {
+      "status": "pending"
+    }
+  },
+  "legalContextReport": {
+    "schemaVersion": 5,
+    "slug": "research-0b5e8a6a5fd888df",
+    "generatedAt": "2026-09-04T11:31:26.080Z",
+    "candidateSha256": "e27074b4162d0d93f7a25cf3496e9e7a7646edd773e7e570724f9677dd98ac43",
+    "researchSnapshotSha256": "11f49a30ef7f712802731e9a9a940fc63648b9447f38d855a5f84a5bb81ae4b9",
+    "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+    "confirmedFacts": [
+      {
+        "id": "claim-affb687915d6",
+        "summary": "'제주 실종 신고 허위 종결 사건' 피의자 부모 경장이 실종 신고 접수 후 실종 프로파일링 시스템에서 삭제 처리한 사례가 더 있는 것으로 조사됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-9021521ce278",
+        "summary": "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "date": "2025년3월10일",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-a2c9733a384c",
+        "summary": "실종 프로파일링 시스템 관리목록 삭제 건 중에는 실종 신고 이후 숨진 채 발견된 장모씨도 포함됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4ef7d5db07f1",
+        "summary": "부 경장은 장씨 실종 사건을 허위로 종결 처리한 후 교통사고로 사망했다고 입력해 이 시스템에서 삭제했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-fc5985157490",
+        "summary": "미입력은 112 신고 단계에서 오인 신고나 곧바로 실종자가 발견된 상황에 해당합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-812090ca0b18",
+        "summary": "이때는 실종 프로파일링 시스템에 입력하지 않아도 되는 것으로 알려졌습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-3fb61fee6ef6",
+        "summary": "다만, 부 경장의 프로파일링 시스템 미입력 및 삭제 사건이 허위 종결된 것인지는 아직 확인되지 않았습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f2d53dbe9ec3",
+        "summary": "마스크를 쓰고 쏟아지는 취재진 질문에 묵묵부답인 이 남성 [부모 씨 / 제주서부경찰서 경장 (지난 24일)] {허위 종결 몇 건 했나요?} … {시스템에서 왜 삭제했나요?} … {억울한 부분 있나요?} … {유가족에게 한 말씀 부탁합니다.} … 제주에서 30대 여성 장모 씨의 실종 사건을 허위로 종결한 제주서부경찰서 소속 경장 부모 씨 입니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-78a5d112651f",
+        "summary": "그런데, 부씨의 이런 시스템 삭제 처리가 더 있었던 것으로 파악됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-51b5bdda0f85",
+        "summary": "오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "date": "2025년3월10일",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f60955327994",
+        "summary": "실종 프로파일링 시스템 삭제 건 중에는 장씨도 포함돼 있습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-eb0430f6783a",
+        "summary": "부씨는 장씨 실종 사건을 허위로 종결 처리한 후 '교통사고 사망'으로 허위 입력해 시스템에서 삭제했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-59a0e236a3e8",
+        "summary": "25일 서명옥 국민의힘 의원실이 경찰청으로부터 제출받은 112 신고 내역 자료에 따르면 60대 남성 A 씨의 아내는 지난달 2일 오후 6시 2분쯤 \"남편이 28일에 나가서 연락이 안 되고 있다\"며 경찰에 신고했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-bf654633457b",
+        "summary": "그는 이어 \"사업실패와 부채가 많다, '잘 먹고 잘 지내라'라는 말을 애한테 했다고 한다\"고 설명했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-62f10e76910d",
+        "summary": "그러나 부 경장은 A 씨에 대한 실종 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-43838b532246",
+        "summary": "앞서 부 경장은 장 씨의 남자 친구로부터 실종신고를 접수했으나 약 2시간 후 \"장 씨와 연락이 닿았다\"며 사건을 종결 처리했으며, A 씨에 대한 신고도 유사한 방식으로 처리한 것으로 파악됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-365acfa8c0d7",
+        "summary": "A 씨 가족은 장미란 씨의 실종 신고가 허위 종결됐다는 언론 보도를 접한 뒤 지난 21일 재차 112에 신고했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-18616907cacd",
+        "summary": "경찰은 이튿날인 22일 제주시 구좌읍 송당리 해안에서 숨진 A 씨를 발견했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-fb85fa9fbbb8",
+        "summary": "A 씨가 지난달 2일 실종된 지 51일 만의 일이다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-090419ce7010",
+        "summary": "A 씨의 아들은 지난 23일 기자회견을 열고 \"경찰이 아버지가 무사하다고 해 그 말만 믿고 기다렸는데 51일 만에 돌아온 건 아버지의 시신이었다\"며 \"경찰을 믿고 있었지만 이후에는 전화를 받지 않거나 가족들이 개인적으로 알아보라는 취지의 이야기만 했다\"고 했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-751bd3ea9493",
+        "summary": "또 실종 사건 허위 종결에 대한 지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령 조치했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "reportedFacts": [
+      {
+        "id": "claim-affb687915d6",
+        "summary": "'제주 실종 신고 허위 종결 사건' 피의자 부모 경장이 실종 신고 접수 후 실종 프로파일링 시스템에서 삭제 처리한 사례가 더 있는 것으로 조사됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-9021521ce278",
+        "summary": "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "date": "2025년3월10일",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-a2c9733a384c",
+        "summary": "실종 프로파일링 시스템 관리목록 삭제 건 중에는 실종 신고 이후 숨진 채 발견된 장모씨도 포함됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4ef7d5db07f1",
+        "summary": "부 경장은 장씨 실종 사건을 허위로 종결 처리한 후 교통사고로 사망했다고 입력해 이 시스템에서 삭제했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-fc5985157490",
+        "summary": "미입력은 112 신고 단계에서 오인 신고나 곧바로 실종자가 발견된 상황에 해당합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-812090ca0b18",
+        "summary": "이때는 실종 프로파일링 시스템에 입력하지 않아도 되는 것으로 알려졌습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-3fb61fee6ef6",
+        "summary": "다만, 부 경장의 프로파일링 시스템 미입력 및 삭제 사건이 허위 종결된 것인지는 아직 확인되지 않았습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f2d53dbe9ec3",
+        "summary": "마스크를 쓰고 쏟아지는 취재진 질문에 묵묵부답인 이 남성 [부모 씨 / 제주서부경찰서 경장 (지난 24일)] {허위 종결 몇 건 했나요?} … {시스템에서 왜 삭제했나요?} … {억울한 부분 있나요?} … {유가족에게 한 말씀 부탁합니다.} … 제주에서 30대 여성 장모 씨의 실종 사건을 허위로 종결한 제주서부경찰서 소속 경장 부모 씨 입니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-78a5d112651f",
+        "summary": "그런데, 부씨의 이런 시스템 삭제 처리가 더 있었던 것으로 파악됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-51b5bdda0f85",
+        "summary": "오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "date": "2025년3월10일",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f60955327994",
+        "summary": "실종 프로파일링 시스템 삭제 건 중에는 장씨도 포함돼 있습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-eb0430f6783a",
+        "summary": "부씨는 장씨 실종 사건을 허위로 종결 처리한 후 '교통사고 사망'으로 허위 입력해 시스템에서 삭제했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0b5e8a6a5fd8"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-59a0e236a3e8",
+        "summary": "25일 서명옥 국민의힘 의원실이 경찰청으로부터 제출받은 112 신고 내역 자료에 따르면 60대 남성 A 씨의 아내는 지난달 2일 오후 6시 2분쯤 \"남편이 28일에 나가서 연락이 안 되고 있다\"며 경찰에 신고했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-bf654633457b",
+        "summary": "그는 이어 \"사업실패와 부채가 많다, '잘 먹고 잘 지내라'라는 말을 애한테 했다고 한다\"고 설명했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-62f10e76910d",
+        "summary": "그러나 부 경장은 A 씨에 대한 실종 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-43838b532246",
+        "summary": "앞서 부 경장은 장 씨의 남자 친구로부터 실종신고를 접수했으나 약 2시간 후 \"장 씨와 연락이 닿았다\"며 사건을 종결 처리했으며, A 씨에 대한 신고도 유사한 방식으로 처리한 것으로 파악됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-365acfa8c0d7",
+        "summary": "A 씨 가족은 장미란 씨의 실종 신고가 허위 종결됐다는 언론 보도를 접한 뒤 지난 21일 재차 112에 신고했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-18616907cacd",
+        "summary": "경찰은 이튿날인 22일 제주시 구좌읍 송당리 해안에서 숨진 A 씨를 발견했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-fb85fa9fbbb8",
+        "summary": "A 씨가 지난달 2일 실종된 지 51일 만의 일이다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-090419ce7010",
+        "summary": "A 씨의 아들은 지난 23일 기자회견을 열고 \"경찰이 아버지가 무사하다고 해 그 말만 믿고 기다렸는데 51일 만에 돌아온 건 아버지의 시신이었다\"며 \"경찰을 믿고 있었지만 이후에는 전화를 받지 않거나 가족들이 개인적으로 알아보라는 취지의 이야기만 했다\"고 했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-751bd3ea9493",
+        "summary": "또 실종 사건 허위 종결에 대한 지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령 조치했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-84353ab2834c",
+        "summary": "(서울=뉴스1) 유채연 오미란 기자 = 제주 장미란 씨 실종 사건을 허위로 종결한 혐의를 받는 제주서부경찰서 소속 부 모 경장이 또 다른 60대 남성의 실종과 관련해 '사업에 실패해 부채가 많다'는 112 신고를 받고도 제대로 대응하지 않은 것으로 나타났다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-6c9459a6c719",
+        "summary": "경찰은 부 경장이 실종 사건 업무에 배정된 지난해 3월부터 현재까지 종결한 298건을 전수조사하고 있다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-0dc37e37ad05"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "unverifiedFacts": [],
+    "possibleLegalIssues": [],
+    "missingFacts": [],
+    "safePhrasing": [
+      "검찰은 …라고 주장했습니다",
+      "당사자는 …라고 주장했습니다",
+      "재판부는 …라고 판단했습니다",
+      "정확한 내용은 확인되지 않았습니다"
+    ],
+    "sources": [
+      {
+        "sourceId": "src-0b5e8a6a5fd8",
+        "url": "https://news.jtbc.co.kr/article/NB12315898",
+        "title": "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+        "publisher": "JTBC 뉴스",
+        "date": "",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      },
+      {
+        "sourceId": "src-0dc37e37ad05",
+        "url": "https://www.news1.kr/society/incident-accident/6268725",
+        "title": "\"빚 많다, 잘 지내라\"…경찰, 제주 60대男 실종신고때 '위험신호' 묵살",
+        "publisher": "뉴스1",
+        "date": "2026-08-25T12:20:25+09:00",
+        "bucket": "same-event",
+        "status": "verified",
+        "relationshipReason": "후보 단계에서 원문 본문과 동일 사건을 검증한 독립 보도이며 프로젝트 조사에서 다시 검증합니다."
+      }
+    ],
+    "legalSources": [
+      {
+        "title": "국가법령정보센터 형법",
+        "url": "https://www.law.go.kr/법령/형법",
+        "status": "authoritative-reference"
+      }
+    ],
+    "evidence": {
+      "verifiedSourceCount": 2,
+      "representativeSourceCount": 1,
+      "independentPublisherCount": 2,
+      "sameEventSnapshot": true,
+      "eventDossierCurrent": true
+    },
+    "verdict": "usable",
+    "verdictLabel": "사용 가능",
+    "reasons": [],
+    "reasonCodes": [],
+    "requiredEdits": [],
+    "allowedMaterials": [
+      "사건 히스토리의 승인된 사실",
+      "직접 제작한 비식별 재연"
+    ],
+    "restrictedMaterials": [
+      "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+      "피해자와 제3자는 익명 표기를 유지하기",
+      "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+      "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+    ],
+    "requiredConditions": [],
+    "assessment": {
+      "sourceCorroboration": "multi-source",
+      "conflicts": 0,
+      "unknowns": 0
+    },
+    "contradictions": [],
+    "scriptPolicy": {
+      "version": 2,
+      "allowedFacts": [
+        "'제주 실종 신고 허위 종결 사건' 피의자 부모 경장이 실종 신고 접수 후 실종 프로파일링 시스템에서 삭제 처리한 사례가 더 있는 것으로 조사됐습니다.",
+        "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "실종 프로파일링 시스템 관리목록 삭제 건 중에는 실종 신고 이후 숨진 채 발견된 장모씨도 포함됐습니다.",
+        "부 경장은 장씨 실종 사건을 허위로 종결 처리한 후 교통사고로 사망했다고 입력해 이 시스템에서 삭제했습니다.",
+        "미입력은 112 신고 단계에서 오인 신고나 곧바로 실종자가 발견된 상황에 해당합니다.",
+        "이때는 실종 프로파일링 시스템에 입력하지 않아도 되는 것으로 알려졌습니다.",
+        "다만, 부 경장의 프로파일링 시스템 미입력 및 삭제 사건이 허위 종결된 것인지는 아직 확인되지 않았습니다.",
+        "마스크를 쓰고 쏟아지는 취재진 질문에 묵묵부답인 이 남성 [부모 씨 / 제주서부경찰서 경장 (지난 24일)] {허위 종결 몇 건 했나요?} … {시스템에서 왜 삭제했나요?} … {억울한 부분 있나요?} … {유가족에게 한 말씀 부탁합니다.} … 제주에서 30대 여성 장모 씨의 실종 사건을 허위로 종결한 제주서부경찰서 소속 경장 부모 씨 입니다.",
+        "그런데, 부씨의 이런 시스템 삭제 처리가 더 있었던 것으로 파악됐습니다.",
+        "오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "실종 프로파일링 시스템 삭제 건 중에는 장씨도 포함돼 있습니다.",
+        "부씨는 장씨 실종 사건을 허위로 종결 처리한 후 '교통사고 사망'으로 허위 입력해 시스템에서 삭제했습니다.",
+        "25일 서명옥 국민의힘 의원실이 경찰청으로부터 제출받은 112 신고 내역 자료에 따르면 60대 남성 A 씨의 아내는 지난달 2일 오후 6시 2분쯤 \"남편이 28일에 나가서 연락이 안 되고 있다\"며 경찰에 신고했다.",
+        "그는 이어 \"사업실패와 부채가 많다, '잘 먹고 잘 지내라'라는 말을 애한테 했다고 한다\"고 설명했다.",
+        "그러나 부 경장은 A 씨에 대한 실종 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났다.",
+        "앞서 부 경장은 장 씨의 남자 친구로부터 실종신고를 접수했으나 약 2시간 후 \"장 씨와 연락이 닿았다\"며 사건을 종결 처리했으며, A 씨에 대한 신고도 유사한 방식으로 처리한 것으로 파악됐다.",
+        "A 씨 가족은 장미란 씨의 실종 신고가 허위 종결됐다는 언론 보도를 접한 뒤 지난 21일 재차 112에 신고했다.",
+        "경찰은 이튿날인 22일 제주시 구좌읍 송당리 해안에서 숨진 A 씨를 발견했다.",
+        "A 씨가 지난달 2일 실종된 지 51일 만의 일이다.",
+        "A 씨의 아들은 지난 23일 기자회견을 열고 \"경찰이 아버지가 무사하다고 해 그 말만 믿고 기다렸는데 51일 만에 돌아온 건 아버지의 시신이었다\"며 \"경찰을 믿고 있었지만 이후에는 전화를 받지 않거나 가족들이 개인적으로 알아보라는 취지의 이야기만 했다\"고 했다.",
+        "또 실종 사건 허위 종결에 대한 지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령 조치했다.",
+        "(서울=뉴스1) 유채연 오미란 기자 = 제주 장미란 씨 실종 사건을 허위로 종결한 혐의를 받는 제주서부경찰서 소속 부 모 경장이 또 다른 60대 남성의 실종과 관련해 '사업에 실패해 부채가 많다'는 112 신고를 받고도 제대로 대응하지 않은 것으로 나타났다.",
+        "경찰은 부 경장이 실종 사건 업무에 배정된 지난해 3월부터 현재까지 종결한 298건을 전수조사하고 있다."
+      ],
+      "allowedClaims": [
+        {
+          "claimId": "claim-affb687915d6",
+          "summary": "'제주 실종 신고 허위 종결 사건' 피의자 부모 경장이 실종 신고 접수 후 실종 프로파일링 시스템에서 삭제 처리한 사례가 더 있는 것으로 조사됐습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-9021521ce278",
+          "summary": "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-a2c9733a384c",
+          "summary": "실종 프로파일링 시스템 관리목록 삭제 건 중에는 실종 신고 이후 숨진 채 발견된 장모씨도 포함됐습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-4ef7d5db07f1",
+          "summary": "부 경장은 장씨 실종 사건을 허위로 종결 처리한 후 교통사고로 사망했다고 입력해 이 시스템에서 삭제했습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-fc5985157490",
+          "summary": "미입력은 112 신고 단계에서 오인 신고나 곧바로 실종자가 발견된 상황에 해당합니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-812090ca0b18",
+          "summary": "이때는 실종 프로파일링 시스템에 입력하지 않아도 되는 것으로 알려졌습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-3fb61fee6ef6",
+          "summary": "다만, 부 경장의 프로파일링 시스템 미입력 및 삭제 사건이 허위 종결된 것인지는 아직 확인되지 않았습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-f2d53dbe9ec3",
+          "summary": "마스크를 쓰고 쏟아지는 취재진 질문에 묵묵부답인 이 남성 [부모 씨 / 제주서부경찰서 경장 (지난 24일)] {허위 종결 몇 건 했나요?} … {시스템에서 왜 삭제했나요?} … {억울한 부분 있나요?} … {유가족에게 한 말씀 부탁합니다.} … 제주에서 30대 여성 장모 씨의 실종 사건을 허위로 종결한 제주서부경찰서 소속 경장 부모 씨 입니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-78a5d112651f",
+          "summary": "그런데, 부씨의 이런 시스템 삭제 처리가 더 있었던 것으로 파악됐습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-51b5bdda0f85",
+          "summary": "오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-f60955327994",
+          "summary": "실종 프로파일링 시스템 삭제 건 중에는 장씨도 포함돼 있습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-eb0430f6783a",
+          "summary": "부씨는 장씨 실종 사건을 허위로 종결 처리한 후 '교통사고 사망'으로 허위 입력해 시스템에서 삭제했습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-59a0e236a3e8",
+          "summary": "25일 서명옥 국민의힘 의원실이 경찰청으로부터 제출받은 112 신고 내역 자료에 따르면 60대 남성 A 씨의 아내는 지난달 2일 오후 6시 2분쯤 \"남편이 28일에 나가서 연락이 안 되고 있다\"며 경찰에 신고했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-bf654633457b",
+          "summary": "그는 이어 \"사업실패와 부채가 많다, '잘 먹고 잘 지내라'라는 말을 애한테 했다고 한다\"고 설명했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-62f10e76910d",
+          "summary": "그러나 부 경장은 A 씨에 대한 실종 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-43838b532246",
+          "summary": "앞서 부 경장은 장 씨의 남자 친구로부터 실종신고를 접수했으나 약 2시간 후 \"장 씨와 연락이 닿았다\"며 사건을 종결 처리했으며, A 씨에 대한 신고도 유사한 방식으로 처리한 것으로 파악됐다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-365acfa8c0d7",
+          "summary": "A 씨 가족은 장미란 씨의 실종 신고가 허위 종결됐다는 언론 보도를 접한 뒤 지난 21일 재차 112에 신고했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-18616907cacd",
+          "summary": "경찰은 이튿날인 22일 제주시 구좌읍 송당리 해안에서 숨진 A 씨를 발견했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-fb85fa9fbbb8",
+          "summary": "A 씨가 지난달 2일 실종된 지 51일 만의 일이다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-090419ce7010",
+          "summary": "A 씨의 아들은 지난 23일 기자회견을 열고 \"경찰이 아버지가 무사하다고 해 그 말만 믿고 기다렸는데 51일 만에 돌아온 건 아버지의 시신이었다\"며 \"경찰을 믿고 있었지만 이후에는 전화를 받지 않거나 가족들이 개인적으로 알아보라는 취지의 이야기만 했다\"고 했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-751bd3ea9493",
+          "summary": "또 실종 사건 허위 종결에 대한 지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령 조치했다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-84353ab2834c",
+          "summary": "(서울=뉴스1) 유채연 오미란 기자 = 제주 장미란 씨 실종 사건을 허위로 종결한 혐의를 받는 제주서부경찰서 소속 부 모 경장이 또 다른 60대 남성의 실종과 관련해 '사업에 실패해 부채가 많다'는 112 신고를 받고도 제대로 대응하지 않은 것으로 나타났다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-6c9459a6c719",
+          "summary": "경찰은 부 경장이 실종 사건 업무에 배정된 지난해 3월부터 현재까지 종결한 298건을 전수조사하고 있다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        }
+      ],
+      "prohibitedClaims": [],
+      "prohibitedPhrases": [
+        "보도에 따르면"
+      ],
+      "requiredQualifications": [],
+      "safeReplacements": [],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ],
+      "uncertaintyInstructions": [],
+      "omissionInstructions": [],
+      "identityRestrictions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기"
+      ],
+      "footageRestrictions": [
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+      ],
+      "sourceAttribution": {
+        "mode": "not-required",
+        "neutralPrefix": "",
+        "claimIds": []
+      }
+    },
+    "factBrief": {
+      "confirmedFacts": [
+        "'제주 실종 신고 허위 종결 사건' 피의자 부모 경장이 실종 신고 접수 후 실종 프로파일링 시스템에서 삭제 처리한 사례가 더 있는 것으로 조사됐습니다.",
+        "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "실종 프로파일링 시스템 관리목록 삭제 건 중에는 실종 신고 이후 숨진 채 발견된 장모씨도 포함됐습니다.",
+        "부 경장은 장씨 실종 사건을 허위로 종결 처리한 후 교통사고로 사망했다고 입력해 이 시스템에서 삭제했습니다.",
+        "미입력은 112 신고 단계에서 오인 신고나 곧바로 실종자가 발견된 상황에 해당합니다.",
+        "이때는 실종 프로파일링 시스템에 입력하지 않아도 되는 것으로 알려졌습니다.",
+        "다만, 부 경장의 프로파일링 시스템 미입력 및 삭제 사건이 허위 종결된 것인지는 아직 확인되지 않았습니다.",
+        "마스크를 쓰고 쏟아지는 취재진 질문에 묵묵부답인 이 남성 [부모 씨 / 제주서부경찰서 경장 (지난 24일)] {허위 종결 몇 건 했나요?} … {시스템에서 왜 삭제했나요?} … {억울한 부분 있나요?} … {유가족에게 한 말씀 부탁합니다.} … 제주에서 30대 여성 장모 씨의 실종 사건을 허위로 종결한 제주서부경찰서 소속 경장 부모 씨 입니다.",
+        "그런데, 부씨의 이런 시스템 삭제 처리가 더 있었던 것으로 파악됐습니다.",
+        "오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "실종 프로파일링 시스템 삭제 건 중에는 장씨도 포함돼 있습니다.",
+        "부씨는 장씨 실종 사건을 허위로 종결 처리한 후 '교통사고 사망'으로 허위 입력해 시스템에서 삭제했습니다.",
+        "25일 서명옥 국민의힘 의원실이 경찰청으로부터 제출받은 112 신고 내역 자료에 따르면 60대 남성 A 씨의 아내는 지난달 2일 오후 6시 2분쯤 \"남편이 28일에 나가서 연락이 안 되고 있다\"며 경찰에 신고했다.",
+        "그는 이어 \"사업실패와 부채가 많다, '잘 먹고 잘 지내라'라는 말을 애한테 했다고 한다\"고 설명했다.",
+        "그러나 부 경장은 A 씨에 대한 실종 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났다.",
+        "앞서 부 경장은 장 씨의 남자 친구로부터 실종신고를 접수했으나 약 2시간 후 \"장 씨와 연락이 닿았다\"며 사건을 종결 처리했으며, A 씨에 대한 신고도 유사한 방식으로 처리한 것으로 파악됐다.",
+        "A 씨 가족은 장미란 씨의 실종 신고가 허위 종결됐다는 언론 보도를 접한 뒤 지난 21일 재차 112에 신고했다.",
+        "경찰은 이튿날인 22일 제주시 구좌읍 송당리 해안에서 숨진 A 씨를 발견했다.",
+        "A 씨가 지난달 2일 실종된 지 51일 만의 일이다.",
+        "A 씨의 아들은 지난 23일 기자회견을 열고 \"경찰이 아버지가 무사하다고 해 그 말만 믿고 기다렸는데 51일 만에 돌아온 건 아버지의 시신이었다\"며 \"경찰을 믿고 있었지만 이후에는 전화를 받지 않거나 가족들이 개인적으로 알아보라는 취지의 이야기만 했다\"고 했다.",
+        "또 실종 사건 허위 종결에 대한 지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령 조치했다.",
+        "(서울=뉴스1) 유채연 오미란 기자 = 제주 장미란 씨 실종 사건을 허위로 종결한 혐의를 받는 제주서부경찰서 소속 부 모 경장이 또 다른 60대 남성의 실종과 관련해 '사업에 실패해 부채가 많다'는 112 신고를 받고도 제대로 대응하지 않은 것으로 나타났다.",
+        "경찰은 부 경장이 실종 사건 업무에 배정된 지난해 3월부터 현재까지 종결한 298건을 전수조사하고 있다."
+      ],
+      "timeline": [
+        "오늘(31일) 제주경찰청에 따르면 부 경장은 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다.",
+        "오늘(31) 제주경찰청에 따르면 부씨는 2025년 3월 10일부터 지난 7월 23일까지 제주서부경찰서 실종팀에서 근무하면서 자체 종결한 298건 중 63건을 실종 프로파일링 시스템에 미입력하거나 삭제 처리한 것으로 나타났습니다."
+      ],
+      "disputedFacts": [],
+      "unknownFacts": [],
+      "followUpChanges": []
+    },
+    "videoDecision": {
+      "decision": "allow",
+      "reasons": []
+    },
+    "caseDispositionReview": {
+      "status": "complete",
+      "question": "이 사건의 처리와 판단은 유사한 과거 사례 및 법리에 비추어 설명 가능한가",
+      "similarCases": [],
+      "applicableIssues": [
+        "(서울=뉴스1) 유채연 오미란 기자 = 제주 장미란 씨 실종 사건을 허위로 종결한 혐의를 받는 제주서부경찰서 소속 부 모 경장이 또 다른 60대 남성의 실종과 관련해 '사업에 실패해 부채가 많다'는 112 신고를 받고도 제대로 대응하지 않은 것으로 나타났다.",
+        "경찰은 부 경장이 실종 사건 업무에 배정된 지난해 3월부터 현재까지 종결한 298건을 전수조사하고 있다."
+      ],
+      "assessment": "현재 검증된 유사 판례를 찾지 못했습니다. 비교 결론을 만들지 않고, 이 한계를 대본에 반영해 사건의 형사책임·처벌·향후 수사 결과를 단정하지 않습니다.",
+      "limitations": [
+        "공개 보도만으로 전체 소송기록과 증거를 재평가할 수 없습니다.",
+        "검증된 유사 판례가 없다는 사실은 유사 사건이나 적용 법리가 존재하지 않는다는 뜻이 아닙니다.",
+        "이 검토는 법률 자문이나 판결의 옳고 그름을 확정하는 의견이 아닙니다."
+      ]
+    },
+    "videoUseReview": {
+      "status": "complete",
+      "decision": "allow",
+      "question": "이 사건을 영상 소재로 활용할 수 있는가",
+      "allowedUse": [
+        "검증된 기사와 판결·법령을 요약한 자체 서술",
+        "실제 화면과 혼동되지 않도록 고지한 비식별 AI 재구성",
+        "출처와 불확실성을 함께 표시한 사건 연표"
+      ],
+      "conditions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기",
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+      ],
+      "prohibitedUse": [
+        "권리 확인 없는 기사·방송·CCTV 원본 재사용",
+        "관계자의 얼굴·이름·직장·위치를 추가로 특정",
+        "수사·재판 결과 또는 정신건강과 행위의 인과를 확인 사실처럼 단정"
+      ],
+      "reasons": []
+    },
+    "scriptWritingReview": {
+      "status": "complete",
+      "decision": "approved-with-conditions",
+      "question": "대본 작성 시 무엇을 지키고 피해야 하는가",
+      "required": [
+        "사건 사실은 확인된 증거 범위 안에서만 서술하며 미확인·불일치 내용을 확정하지 않습니다.",
+        "발견·신고·입건·강제수사 등 실제로 확인된 사건 단계만 시간순으로 설명합니다."
+      ],
+      "avoid": [
+        "보도에 따르면"
+      ],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ]
+    },
+    "reviewCompletion": {
+      "caseDisposition": true,
+      "videoUse": true,
+      "scriptWriting": true,
+      "allComplete": true
+    }
+  },
+  "draftFinalized": false,
+  "draft": {
+    "schema": "newsroom-autonomous-script-draft-v5",
+    "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v14",
+    "generation": {
+      "schemaVersion": 17,
+      "provider": "codex-cli",
+      "model": "gpt-5.6-sol",
+      "reasoning": "medium",
+      "promptContractVersion": "newsroom-autonomous-narration-prompt-v14",
+      "criticPromptContractVersion": "newsroom-independent-narration-critic-prompt-v4",
+      "generatorPromptSha256": "9a00f140246eb89185bf6f827583a3ab54dc9243ec12816f7c2176b3bda28e72",
+      "criticPromptSha256": "e46ad2e1109d4ea6a73e8efce627e30d9d2e3eb9a9b39e844fa6f67c240efcbd",
+      "packageSha256": "bc0d4cf5ef054bea0e8edf49725e4f922a68321f5ae9e843975883d89b3cadff",
+      "initialOutputSha256": "5e3ca41917afb7e84ab43b2ecbf150cccda91dae46e572ae37b84ac84eb916dc",
+      "critiqueOutputSha256": "5fbc20cac7ca62a24d6f79b8c4fb8cae11b485e8e4e53117f6f99936f0dfd363",
+      "outputSha256": "5e3ca41917afb7e84ab43b2ecbf150cccda91dae46e572ae37b84ac84eb916dc",
+      "currentAuthoritySha256": "5e3ca41917afb7e84ab43b2ecbf150cccda91dae46e572ae37b84ac84eb916dc",
+      "userEdited": false,
+      "cliVersion": "codex-cli 0.146.0",
+      "callCount": 2,
+      "generatorAttemptCount": 1,
+      "criticAttemptCount": 1,
+      "retryCount": 0,
+      "decision": "accept",
+      "revisionApplied": false,
+      "timing": {
+        "initial": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 482,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 70.16,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": true,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        },
+        "final": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 482,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 70.16,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": true,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        }
+      },
+      "generatedAt": "2026-09-04T19:50:13.069Z"
+    },
+    "critique": {
+      "schema": "newsroom-independent-narration-critique-v3",
+      "decision": "accept",
+      "rejectionReasons": [],
+      "initialVerdict": "pass",
+      "findings": [
+        {
+          "category": "factual-grounding",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "수치, 근무 기간, 시스템 처리, 두 실종 사례, 조사 확대와 대기발령이 모두 currentCase의 확인된 claim 범위 안에 있습니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "legal-qualification",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "여성 사례는 허위 종결 혐의로 한정했고, 63건 전체에 대해서도 모두 허위 종결로 확인된 것은 아니라고 바로 구분했습니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "observer-summary",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "첫 두 문장은 출처 소개나 보도 과정이 아니라 298건 중 63건이라는 기록 변화와 담당 기간을 직접 제시합니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "repetition",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "훅 이후 처음으로 되돌아가 재출발하지 않으며, 수치에서 예외 범위와 개별 사례, 조사 결과로 전개됩니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "progression",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "각 문장이 기록 규모, 적용 범위, 예외, 사망 사례, 혐의, 삭제 방식, 추가 사례, 발견 결과, 후속 조치를 차례로 더합니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "interest",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "도입부에서 실종팀의 종결 업무와 63건의 미입력·삭제라는 역할 충돌이 즉시 생기고, 두 사망 사례와 전수조사로 긴장이 확대됩니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "modality-fit",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "물리적 장면을 꾸미지 않고 시스템 기록의 변화, 처리 건수, 예외와 행정 조치로 긴장을 구성해 record-institution 형식에 맞습니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "coda",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "initial",
+          "detail": "상투적인 감정 문구 없이 298건 전수조사와 지휘라인 대기발령이라는 사건 고유 결과로 닫습니다.",
+          "exactQuote": ""
+        },
+        {
+          "category": "advisory-duration",
+          "initialStatus": "pass",
+          "finalStatus": "pass",
+          "targetAuthority": "global",
+          "detail": "제공된 owner-rate advisory 예상 시간은 70.16초로 목표 범위인 70~80초 안에 있습니다.",
+          "exactQuote": ""
+        }
+      ],
+      "revisionApplied": false,
+      "revisionSummary": "",
+      "initialAuthoritySha256": "5e3ca41917afb7e84ab43b2ecbf150cccda91dae46e572ae37b84ac84eb916dc",
+      "finalAuthoritySha256": "5e3ca41917afb7e84ab43b2ecbf150cccda91dae46e572ae37b84ac84eb916dc",
+      "timing": {
+        "initial": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 482,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 70.16,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": true,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        },
+        "final": {
+          "schema": "newsroom-owner-rate-advisory-estimate-v1",
+          "compactCharacters": 482,
+          "observedCompactKoreanCharactersPerSecond": 6.87,
+          "estimatedSeconds": 70.16,
+          "targetMinimumSeconds": 70,
+          "targetMaximumSeconds": 80,
+          "withinAdvisoryTarget": true,
+          "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+        }
+      }
+    },
+    "authority": {
+      "schema": "newsroom-autonomous-narration-v3",
+      "modality": "record-institution",
+      "narration": "실종팀에서 자체 종결한 298건 가운데 63건이 실종 프로파일링 시스템에 들어가지 않거나, 입력된 뒤 삭제됐습니다. 제주경찰청은 해당 경찰관이 2025년 3월 10일부터 7월 23일까지 제주서부경찰서 실종팀에서 근무하며 이 기록들을 처리한 사실을 확인했습니다. 다만 63건이 모두 허위 종결된 것은 아직 확인되지 않았고, 112 신고가 오인이거나 실종자가 곧바로 발견됐다면 시스템에 입력하지 않아도 됩니다. 그러나 삭제된 관리 목록에는 실종 신고 뒤 숨진 채 발견된 30대 여성도 포함돼 있었습니다. 해당 경찰관은 이 여성의 실종 신고를 접수하고 약 두 시간 뒤 연락이 닿았다며 허위로 종결한 혐의를 받습니다. 이후에는 교통사고로 사망했다고 입력해 시스템에서 삭제한 것으로 경찰은 파악했습니다. 또 다른 60대 남성의 아내는 남편이 집을 나간 뒤 연락되지 않고 사업 실패와 많은 부채가 있다고 112에 신고했지만, 이 신고도 허위로 종결된 것으로 파악됐습니다. 가족이 다시 신고하자 경찰은 이튿날 제주시 구좌읍 송당리 해안에서 남성을 숨진 채 발견했으며, 최초 실종 뒤 51일이 지난 때였습니다. 경찰은 해당 경찰관이 맡아 종결한 298건 전부로 조사를 넓혔고, 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령했습니다.",
+      "sentences": [
+        {
+          "text": "실종팀에서 자체 종결한 298건 가운데 63건이 실종 프로파일링 시스템에 들어가지 않거나, 입력된 뒤 삭제됐습니다.",
+          "claimRefs": [
+            "claim-9021521ce278"
+          ]
+        },
+        {
+          "text": "제주경찰청은 해당 경찰관이 2025년 3월 10일부터 7월 23일까지 제주서부경찰서 실종팀에서 근무하며 이 기록들을 처리한 사실을 확인했습니다.",
+          "claimRefs": [
+            "claim-9021521ce278"
+          ]
+        },
+        {
+          "text": "다만 63건이 모두 허위 종결된 것은 아직 확인되지 않았고, 112 신고가 오인이거나 실종자가 곧바로 발견됐다면 시스템에 입력하지 않아도 됩니다.",
+          "claimRefs": [
+            "claim-fc5985157490",
+            "claim-812090ca0b18",
+            "claim-3fb61fee6ef6"
+          ]
+        },
+        {
+          "text": "그러나 삭제된 관리 목록에는 실종 신고 뒤 숨진 채 발견된 30대 여성도 포함돼 있었습니다.",
+          "claimRefs": [
+            "claim-a2c9733a384c"
+          ]
+        },
+        {
+          "text": "해당 경찰관은 이 여성의 실종 신고를 접수하고 약 두 시간 뒤 연락이 닿았다며 허위로 종결한 혐의를 받습니다.",
+          "claimRefs": [
+            "claim-43838b532246",
+            "claim-84353ab2834c"
+          ]
+        },
+        {
+          "text": "이후에는 교통사고로 사망했다고 입력해 시스템에서 삭제한 것으로 경찰은 파악했습니다.",
+          "claimRefs": [
+            "claim-4ef7d5db07f1"
+          ]
+        },
+        {
+          "text": "또 다른 60대 남성의 아내는 남편이 집을 나간 뒤 연락되지 않고 사업 실패와 많은 부채가 있다고 112에 신고했지만, 이 신고도 허위로 종결된 것으로 파악됐습니다.",
+          "claimRefs": [
+            "claim-59a0e236a3e8",
+            "claim-bf654633457b",
+            "claim-62f10e76910d"
+          ]
+        },
+        {
+          "text": "가족이 다시 신고하자 경찰은 이튿날 제주시 구좌읍 송당리 해안에서 남성을 숨진 채 발견했으며, 최초 실종 뒤 51일이 지난 때였습니다.",
+          "claimRefs": [
+            "claim-365acfa8c0d7",
+            "claim-18616907cacd",
+            "claim-fb85fa9fbbb8"
+          ]
+        },
+        {
+          "text": "경찰은 해당 경찰관이 맡아 종결한 298건 전부로 조사를 넓혔고, 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령했습니다.",
+          "claimRefs": [
+            "claim-6c9459a6c719",
+            "claim-751bd3ea9493"
+          ]
+        }
+      ],
+      "evidenceLineage": {
+        "schema": "newsroom-autonomous-narration-evidence-lineage-v3",
+        "packageSha256": "bc0d4cf5ef054bea0e8edf49725e4f922a68321f5ae9e843975883d89b3cadff",
+        "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+        "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+        "usedClaimRefs": [
+          "claim-9021521ce278",
+          "claim-fc5985157490",
+          "claim-812090ca0b18",
+          "claim-3fb61fee6ef6",
+          "claim-a2c9733a384c",
+          "claim-43838b532246",
+          "claim-84353ab2834c",
+          "claim-4ef7d5db07f1",
+          "claim-59a0e236a3e8",
+          "claim-bf654633457b",
+          "claim-62f10e76910d",
+          "claim-365acfa8c0d7",
+          "claim-18616907cacd",
+          "claim-fb85fa9fbbb8",
+          "claim-6c9459a6c719",
+          "claim-751bd3ea9493"
+        ]
+      }
+    },
+    "editorialDirection": "화면을 보지 않고 내레이션만 들어도 제주서부경찰서 실종팀의 신고 접수와 시스템 기록 흐름, 삭제·미입력의 반복과 조사 확장을 따라갈 수 있게 한다. 2025년 3월 10일부터 7월 23일까지 자체 종결 298건 중 63건이 미입력 또는 삭제 처리됐다는 제주경찰청 발표와, 그중 한 실종 사례가 사망 뒤 허위 입력으로 삭제됐다는 보도는 구분해 사용한다. 63건 모두가 허위 종결이었거나 실제 수색 지연·사망과 인과관계가 있었다고 확대하지 않는다. 기록해야 할 직무와 실제 기록 처리의 간극, 한 건의 의혹이 전체 조사로 넓어지는 과정은 central axis 후보 근거지만 훅, 정보 공개 순서, 문장 리듬과 beat 구성은 모델이 자율적으로 결정한다. 삭제와 미입력의 의미, 오인 신고·즉시 발견으로 입력하지 않아도 되는 경우, 허위 종결 여부가 아직 확인되지 않은 범위를 정확히 나눈다. 취재진 장면이나 당사자 침묵을 내면의 증거로 해석하지 않고, 실종 가족의 감정·수색 지연·책임 소재를 사실처럼 보태지 않는다. 아들이 경찰의 설명을 믿고 기다렸다고 기자회견에서 말한 사실은 그 발언의 귀속 범위에서만 사용할 수 있지만, 이를 가족 모두의 믿음·감정·기다림으로 일반화하거나 내레이션이 새로 대변하지 않는다. 확인된 지휘라인 대기발령 등 법적·행정적 결과가 쓰일 경우 그 사실과 시점을 먼저 정리한 뒤 coda로 이동한다. final movement의 affective resonance와 listener self-projection은 기록·수색 절차·공적 신뢰의 보편적 의미에서만 모델이 자율 선택하며 피해자·가족의 내면이나 기다림을 대변하지 않는다. 특정한 바람·행동·감정·질문·훈계·상투어를 처방하지 않으며, 감정의 종류와 추상도·표현·길이는 모델이 결정한다. 반전이나 coda를 뒤에 덧붙이지 말고 전체 narration을 재편집한다. 2026년 8월 31일 보도와 사건 근거에 확인된 절대 날짜만 사용하고 ‘오늘·지난달’ 같은 상대 날짜는 피한다. 70~80초는 청취 목표일 뿐 글자 수 기준이 아니며 최종 판정은 owner narration locked timing에서 한다.",
+    "policyBinding": {
+      "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+      "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+      "packageSha256": "bc0d4cf5ef054bea0e8edf49725e4f922a68321f5ae9e843975883d89b3cadff"
+    },
+    "history": [
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T12:50:36.840Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v4",
+          "generation": {
+            "schemaVersion": 7,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v4",
+            "promptSha256": "018a36c5008e7c8c719ac15ff00aebbc077f2c631e860a0377cc03750a4f85a0",
+            "packageSha256": "e361af1d9d07ccccece6f04c1f4a5d19f9f3cd6ff751403e48b4aec5325d3e15",
+            "outputSha256": "3b8a2dd6a441040a2d0a354ce6474c05c00cc6d3f78cdc31a7f650d81f1ccea7",
+            "currentAuthoritySha256": "3b8a2dd6a441040a2d0a354ce6474c05c00cc6d3f78cdc31a7f650d81f1ccea7",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T11:32:42.279Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "아내가 112에 전화를 걸었습니다. 남편이 나간 뒤 연락이 끊겼고, 사업 실패와 많은 빚이 있으며 아이에게는 “잘 먹고 잘 지내라”는 말까지 했다고 알렸습니다. 그러나 신고를 접수한 제주서부경찰서 부 경장은 이 사건을 허위로 종결한 것으로 나타났습니다. 가족은 경찰이 아버지가 무사하다고 한 말을 믿고 기다렸다고 했습니다. 전화가 닿지 않아도, 개인적으로 알아보라는 취지의 말을 들어도 기다림은 이어졌습니다. 그러다 다른 실종 신고가 허위로 종결됐다는 언론 보도를 본 가족이 다시 112에 신고했습니다. 바로 다음 날, 경찰은 제주시 구좌읍 송당리 해안에서 A 씨를 숨진 채 발견했습니다. 실종 51일 만이었습니다. 이 사건은 한 건에서 멈추지 않았습니다. 부 경장이 실종팀에서 자체 종결한 298건 가운데 63건이 실종 프로파일링 시스템에 입력되지 않았거나 삭제된 것으로 조사됐습니다. 앞서 숨진 채 발견된 장 씨 사건은 연락이 닿았다며 약 두 시간 만에 종결됐고, 이후 ‘교통사고 사망’으로 허위 입력돼 시스템에서 삭제됐습니다. 다만 63건의 미입력과 삭제가 모두 허위 종결인지는 아직 확인되지 않았습니다. 신고 단계의 오인이거나 실종자가 곧바로 발견돼 입력하지 않아도 되는 경우가 있기 때문입니다. 경찰은 298건을 전수조사하고, 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령했습니다. 실종 신고를 맡은 사람의 종결 처리가 오히려 수색을 멈춰 세운 사건. 누군가 무사하다는 말을 믿고 보낸 시간은, 그 믿음이 무너진 뒤에도 가족의 기다림 속에 오래 남습니다.",
+            "beats": [
+              {
+                "role": "도움을 청한 순간",
+                "summary": "아내가 112에 전한 실종 정황과 위험 신호를 구체적인 신고 내용으로 들려준다.",
+                "claimRefs": [
+                  "claim-59a0e236a3e8",
+                  "claim-bf654633457b"
+                ]
+              },
+              {
+                "role": "종결이 만든 정지",
+                "summary": "신고가 허위 종결되고 가족이 경찰의 말을 믿으며 기다린 과정을 중심 갈등으로 세운다.",
+                "claimRefs": [
+                  "claim-62f10e76910d",
+                  "claim-090419ce7010"
+                ]
+              },
+              {
+                "role": "51일 뒤의 발견",
+                "summary": "다른 허위 종결 보도가 재신고를 촉발했고 이튿날 해안에서 A 씨가 발견됐다는 결과로 긴장을 정점에 올린다.",
+                "claimRefs": [
+                  "claim-365acfa8c0d7",
+                  "claim-18616907cacd",
+                  "claim-fb85fa9fbbb8"
+                ]
+              },
+              {
+                "role": "한 건을 넘어선 범위",
+                "summary": "298건 중 63건의 미입력·삭제와 장 씨 사건의 허위 종결·삭제를 제시해 문제가 더 넓을 가능성을 드러낸다.",
+                "claimRefs": [
+                  "claim-9021521ce278",
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a"
+                ]
+              },
+              {
+                "role": "확인된 것과 아직 모르는 것",
+                "summary": "63건 전체가 허위 종결로 확인된 것은 아니며 정상적인 미입력 사유도 있음을 밝혀 과잉 일반화를 막는다.",
+                "claimRefs": [
+                  "claim-3fb61fee6ef6",
+                  "claim-fc5985157490",
+                  "claim-812090ca0b18"
+                ]
+              },
+              {
+                "role": "조사와 남은 기다림",
+                "summary": "전수조사와 지휘라인 대기발령을 법적·행정적 결과로 먼저 배치한 뒤, 믿고 기다린 시간의 잔향으로 닫는다.",
+                "claimRefs": [
+                  "claim-6c9459a6c719",
+                  "claim-751bd3ea9493",
+                  "claim-090419ce7010"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "실종자를 찾기 위해 맡긴 신고가 허위로 종결되면서, 경찰을 믿은 가족의 기다림이 51일로 늘어난 ‘신뢰와 종결의 충돌’을 중심 축으로 삼는다.",
+              "rationale": "63건이라는 규모만 앞세우면 아직 허위 종결 여부가 확인되지 않은 사례까지 같은 성격으로 오해할 수 있어, 먼저 A 씨 신고의 구체적 흐름과 51일 뒤 발견을 따라가게 했다. 이후 장 씨 사건과 298건 전수조사로 범위를 넓히되 정상적인 미입력 가능성을 즉시 한정했다. 마지막에는 지휘 조치보다 뒤에, 사건에서 직접 확인되는 ‘경찰의 말을 믿고 기다렸다’는 가족의 경험을 남겨 청자가 신뢰한 말이 무너질 때의 보편적인 상실감을 스스로 비춰보게 했다."
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "e361af1d9d07ccccece6f04c1f4a5d19f9f3cd6ff751403e48b4aec5325d3e15",
+              "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+              "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+              "usedClaimRefs": [
+                "claim-59a0e236a3e8",
+                "claim-bf654633457b",
+                "claim-62f10e76910d",
+                "claim-090419ce7010",
+                "claim-365acfa8c0d7",
+                "claim-18616907cacd",
+                "claim-fb85fa9fbbb8",
+                "claim-9021521ce278",
+                "claim-43838b532246",
+                "claim-eb0430f6783a",
+                "claim-3fb61fee6ef6",
+                "claim-fc5985157490",
+                "claim-812090ca0b18",
+                "claim-6c9459a6c719",
+                "claim-751bd3ea9493"
+              ]
+            }
+          },
+          "editorialDirection": null,
+          "policyBinding": {
+            "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+            "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+            "packageSha256": "e361af1d9d07ccccece6f04c1f4a5d19f9f3cd6ff751403e48b4aec5325d3e15"
+          }
+        },
+        "draftSnapshotSha256": "b58a345ab2d789cddbfa542efb125bfbdcfeac37cdb7fb7483c928f2eb972a22"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T12:59:33.525Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v4",
+          "generation": {
+            "schemaVersion": 7,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v4",
+            "promptSha256": "2723f0e24d0fe70c6f4466ca9f72bec295429e97a321cf9a22d3861afe851689",
+            "packageSha256": "36cbaaef5a2d33b0ec9863b5500aea25545abd1e1c542b53a91ab92e461b6aee",
+            "outputSha256": "1f9d2dead8ac18bed82f186678a97260c216673f5471603905a08ee65764ca66",
+            "currentAuthoritySha256": "1f9d2dead8ac18bed82f186678a97260c216673f5471603905a08ee65764ca66",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T12:50:36.782Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "실종 신고가 접수되면 사람을 찾는 절차와 함께 기록도 남아야 합니다. 그런데 제주서부경찰서 실종팀에서는 종결된 신고가 시스템에 들어가지 않거나, 목록에서 사라졌습니다. 제주경찰청 조사 결과, 부 경장이 2025년 3월 10일부터 7월 23일까지 자체 종결한 298건 가운데 63건이 실종 프로파일링 시스템에 미입력되거나 삭제 처리된 것으로 나타났습니다. 다만 63건 전부가 허위로 종결됐다는 뜻은 아닙니다. 112 신고가 오인이었거나 실종자가 곧바로 발견됐다면 시스템에 입력하지 않아도 되는 것으로 알려졌고, 각각의 미입력과 삭제가 허위 종결이었는지는 아직 확인되지 않았습니다. 하지만 삭제된 목록에는 이미 허위 종결 사실이 드러난 30대 여성 장 씨 사건도 있었습니다. 부 경장은 신고 약 두 시간 뒤 장 씨와 연락이 닿았다며 사건을 끝냈고, 이후에는 교통사고로 사망했다고 허위 입력해 시스템에서 삭제했습니다. 장 씨는 실종 신고 뒤 숨진 채 발견됐습니다. 한 건에서 시작된 의혹은 이제 298건 전체를 다시 들여다보는 조사로 번졌고, 제주서부경찰서장을 포함한 지휘라인도 대기발령됐습니다. 실종 신고를 맡은 사람의 기록이 오히려 확인의 대상을 지운 셈입니다. 누군가의 귀환을 기다리는 시간에는, 보이지 않는 기록 한 줄마저 믿음의 자리가 됩니다.",
+            "beats": [
+              {
+                "role": "절차와 이상 징후의 대비",
+                "summary": "실종 신고 뒤 남아야 할 기록이 미입력되거나 삭제됐다는 핵심 간극을 제시한다.",
+                "claimRefs": [
+                  "claim-affb687915d6"
+                ]
+              },
+              {
+                "role": "조사 규모의 확장",
+                "summary": "근무 기간과 자체 종결 298건, 미입력·삭제 63건을 밝혀 반복성과 규모를 드러낸다.",
+                "claimRefs": [
+                  "claim-9021521ce278"
+                ]
+              },
+              {
+                "role": "범위 한정의 호흡",
+                "summary": "입력하지 않아도 되는 경우와 63건의 허위 종결 여부가 미확인이라는 한계를 분명히 한다.",
+                "claimRefs": [
+                  "claim-fc5985157490",
+                  "claim-812090ca0b18",
+                  "claim-3fb61fee6ef6"
+                ]
+              },
+              {
+                "role": "기록 삭제의 구체적 의미",
+                "summary": "장 씨 사건의 허위 종결과 허위 사망 입력, 시스템 삭제를 연결해 기록 처리의 심각성을 구체화한다.",
+                "claimRefs": [
+                  "claim-a2c9733a384c",
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a"
+                ]
+              },
+              {
+                "role": "책임 조사와 신뢰의 잔향",
+                "summary": "전수조사와 지휘라인 대기발령을 법적·행정적 결과로 먼저 정리한 뒤, 실종 신고 기록에 기대는 보편적 신뢰로 닫는다.",
+                "claimRefs": [
+                  "claim-6c9459a6c719",
+                  "claim-751bd3ea9493"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "사람을 찾기 위해 남겨야 할 기록이 담당자의 처리로 미입력되거나 삭제됐고, 확인된 한 건의 허위 종결이 298건 전체 조사로 확대된 과정.",
+              "rationale": "63건이라는 규모를 전면에 두되 모두 허위 종결로 단정하지 않도록 예외와 미확인 범위를 곧바로 분리했다. 이어 장 씨 사건에서 확인된 허위 종결과 삭제 방식을 구체화해 앞선 숫자의 의미를 선명하게 만들고, 전수조사와 대기발령을 공감부보다 먼저 배치했다. 마지막은 피해자의 내면을 추정하지 않고, 누군가의 귀환을 기다릴 때 공적 기록에 놓이는 일반적 신뢰를 비춰 사건의 절차적 간극이 남기는 감정적 무게로 마무리했다."
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "36cbaaef5a2d33b0ec9863b5500aea25545abd1e1c542b53a91ab92e461b6aee",
+              "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+              "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+              "usedClaimRefs": [
+                "claim-affb687915d6",
+                "claim-9021521ce278",
+                "claim-fc5985157490",
+                "claim-812090ca0b18",
+                "claim-3fb61fee6ef6",
+                "claim-a2c9733a384c",
+                "claim-43838b532246",
+                "claim-eb0430f6783a",
+                "claim-6c9459a6c719",
+                "claim-751bd3ea9493"
+              ]
+            }
+          },
+          "editorialDirection": "화면을 보지 않고 내레이션만 들어도 제주서부경찰서 실종팀의 신고 접수와 시스템 기록 흐름, 삭제·미입력의 반복과 조사 확장을 따라갈 수 있게 한다. 2025년 3월 10일부터 7월 23일까지 자체 종결 298건 중 63건이 미입력 또는 삭제 처리됐다는 제주경찰청 발표와, 그중 한 실종 사례가 사망 뒤 허위 입력으로 삭제됐다는 보도는 구분해 사용한다. 63건 모두가 허위 종결이었거나 실제 수색 지연·사망과 인과관계가 있었다고 확대하지 않는다. 기록해야 할 직무와 실제 기록 처리의 간극, 한 건의 의혹이 전체 조사로 넓어지는 과정은 central axis 후보 근거지만 훅, 정보 공개 순서, 문장 리듬과 beat 구성은 모델이 자율적으로 결정한다. 삭제와 미입력의 의미, 오인 신고·즉시 발견으로 입력하지 않아도 되는 경우, 허위 종결 여부가 아직 확인되지 않은 범위를 정확히 나눈다. 취재진 장면이나 당사자 침묵을 내면의 증거로 해석하지 않고, 실종 가족의 감정·수색 지연·책임 소재를 사실처럼 보태지 않는다. 확인된 지휘라인 대기발령 등 법적·행정적 결과가 쓰일 경우 그 사실과 시점을 먼저 정리한 뒤 coda로 이동한다. final movement에는 현재 기록과 확인된 절차의 간극에서 자연스럽게 나오는 affective resonance와 listener self-projection을 두되 피해자·가족의 내면을 대변하지 않는다. 특정한 바람·행동·감정·질문·훈계·상투어를 처방하지 않으며, 감정의 종류와 추상도·표현·길이는 모델이 결정한다. 반전이나 coda를 뒤에 덧붙이지 말고 전체 narration을 재편집한다. 2026년 8월 31일 보도와 사건 근거에 확인된 절대 날짜만 사용하고 ‘오늘·지난달’ 같은 상대 날짜는 피한다. 70~80초는 청취 목표일 뿐 글자 수 기준이 아니며 최종 판정은 owner narration locked timing에서 한다.",
+          "policyBinding": {
+            "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+            "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+            "packageSha256": "36cbaaef5a2d33b0ec9863b5500aea25545abd1e1c542b53a91ab92e461b6aee"
+          }
+        },
+        "draftSnapshotSha256": "dbe77f14b738169662363529d3a6d7aef8961aeccd09720eee3ab9821d1dcaf1"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T14:57:43.052Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v4",
+          "generation": {
+            "schemaVersion": 7,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v4",
+            "promptSha256": "322f19e4115f726bfc598b37070d9d6a58cb73c51383308c4dc19352a7bb77f6",
+            "packageSha256": "aa97d535990d09c91c0249fe17e21c1733d9a971ed4156237d754d924513f66c",
+            "outputSha256": "9339d4f5ac23185cef22867280c4d567aa331264582555885765f0116100bf4f",
+            "currentAuthoritySha256": "9339d4f5ac23185cef22867280c4d567aa331264582555885765f0116100bf4f",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T12:59:33.476Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "제주서부경찰서 실종팀에서 자체 종결된 신고 298건. 그 가운데 63건은 실종자를 관리하는 프로파일링 시스템에 입력되지 않았거나, 입력 뒤 삭제된 것으로 조사됐습니다. 부 경장이 근무한 2025년 3월 10일부터 2026년 7월 23일까지의 처리 내역입니다. 다만 112 신고가 오인이었거나 실종자가 곧바로 발견됐다면 시스템에 입력하지 않아도 됩니다. 따라서 63건 모두가 허위 종결이었다고 단정할 수는 없습니다. 하지만 삭제된 기록 안에는 이미 허위 종결이 확인된 30대 장 씨 사건이 있었습니다. 부 경장은 장 씨와 연락이 닿았다고 처리한 뒤, 다시 ‘교통사고 사망’이라고 허위 입력해 시스템에서 삭제했습니다. 비슷한 방식으로 종결된 60대 A 씨 사건도 드러났습니다. 가족이 다시 신고한 다음 날, A 씨는 제주시 구좌읍 송당리 해안에서 숨진 채 발견됐습니다. 최초 실종 뒤 51일 만이었습니다. 경찰은 부 경장이 종결한 298건 전체를 다시 조사하고 있고, 제주서부경찰서장을 포함한 지휘라인은 대기발령됐습니다. 찾는 절차를 이어 가야 할 기록이 사라졌다는 것, 그 간극은 누군가의 소식을 기다리는 시간 앞에서 공적 신뢰가 얼마나 무거운지를 남깁니다.",
+            "beats": [
+              {
+                "role": "기록에서 드러난 규모",
+                "summary": "자체 종결 298건 가운데 63건이 시스템에 미입력되거나 삭제됐다는 조사 결과와 처리 기간을 제시한다.",
+                "claimRefs": [
+                  "claim-9021521ce278"
+                ]
+              },
+              {
+                "role": "단정 범위의 경계",
+                "summary": "미입력이 허용되는 경우와 아직 허위 종결 여부가 확인되지 않은 범위를 구분한다.",
+                "claimRefs": [
+                  "claim-fc5985157490",
+                  "claim-812090ca0b18",
+                  "claim-3fb61fee6ef6"
+                ]
+              },
+              {
+                "role": "숫자의 의미를 바꾸는 확인 사례",
+                "summary": "장 씨 사건이 허위 종결과 허위 사망 입력을 거쳐 시스템에서 삭제된 사실을 드러낸다.",
+                "claimRefs": [
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a"
+                ]
+              },
+              {
+                "role": "반복과 현실의 시간",
+                "summary": "A 씨 사건의 유사한 허위 종결, 재신고 뒤 해안에서의 발견, 51일이라는 경과를 압축한다.",
+                "claimRefs": [
+                  "claim-62f10e76910d",
+                  "claim-365acfa8c0d7",
+                  "claim-18616907cacd",
+                  "claim-fb85fa9fbbb8"
+                ]
+              },
+              {
+                "role": "조사 확장과 신뢰의 잔향",
+                "summary": "298건 전수조사와 지휘라인 대기발령을 먼저 정리한 뒤, 기록과 공적 신뢰의 간극으로 마무리한다.",
+                "claimRefs": [
+                  "claim-6c9459a6c719",
+                  "claim-751bd3ea9493"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "실종자를 찾는 절차를 이어 가야 할 공적 기록이 미입력·삭제된 간극과, 한 건의 확인 사례가 298건 전수조사로 확장되는 과정",
+              "rationale": "63건이라는 규모를 먼저 제시하되 모두 허위 종결이라는 오해를 막기 위해 합법적 미입력 가능성과 미확인 범위를 곧바로 분리했다. 이어 실제 허위 종결과 삭제가 확인된 장 씨 사건으로 숫자의 의미를 구체화하고, 유사하게 종결된 A 씨 사건의 51일을 통해 기록 처리와 현실의 시간 차이를 드러냈다. 행정 조치와 전수조사는 공감 이동 전에 배치했으며, 결말은 피해자의 내면을 추정하지 않고 실종 기록에 기대는 청자의 보편적 신뢰로 확장했다."
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "aa97d535990d09c91c0249fe17e21c1733d9a971ed4156237d754d924513f66c",
+              "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+              "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+              "usedClaimRefs": [
+                "claim-9021521ce278",
+                "claim-fc5985157490",
+                "claim-812090ca0b18",
+                "claim-3fb61fee6ef6",
+                "claim-43838b532246",
+                "claim-eb0430f6783a",
+                "claim-62f10e76910d",
+                "claim-365acfa8c0d7",
+                "claim-18616907cacd",
+                "claim-fb85fa9fbbb8",
+                "claim-6c9459a6c719",
+                "claim-751bd3ea9493"
+              ]
+            }
+          },
+          "editorialDirection": "화면을 보지 않고 내레이션만 들어도 제주서부경찰서 실종팀의 신고 접수와 시스템 기록 흐름, 삭제·미입력의 반복과 조사 확장을 따라갈 수 있게 한다. 2025년 3월 10일부터 7월 23일까지 자체 종결 298건 중 63건이 미입력 또는 삭제 처리됐다는 제주경찰청 발표와, 그중 한 실종 사례가 사망 뒤 허위 입력으로 삭제됐다는 보도는 구분해 사용한다. 63건 모두가 허위 종결이었거나 실제 수색 지연·사망과 인과관계가 있었다고 확대하지 않는다. 기록해야 할 직무와 실제 기록 처리의 간극, 한 건의 의혹이 전체 조사로 넓어지는 과정은 central axis 후보 근거지만 훅, 정보 공개 순서, 문장 리듬과 beat 구성은 모델이 자율적으로 결정한다. 삭제와 미입력의 의미, 오인 신고·즉시 발견으로 입력하지 않아도 되는 경우, 허위 종결 여부가 아직 확인되지 않은 범위를 정확히 나눈다. 취재진 장면이나 당사자 침묵을 내면의 증거로 해석하지 않고, 실종 가족의 감정·수색 지연·책임 소재를 사실처럼 보태지 않는다. 아들이 경찰의 설명을 믿고 기다렸다고 기자회견에서 말한 사실은 그 발언의 귀속 범위에서만 사용할 수 있지만, 이를 가족 모두의 믿음·감정·기다림으로 일반화하거나 내레이션이 새로 대변하지 않는다. 확인된 지휘라인 대기발령 등 법적·행정적 결과가 쓰일 경우 그 사실과 시점을 먼저 정리한 뒤 coda로 이동한다. final movement의 affective resonance와 listener self-projection은 기록·수색 절차·공적 신뢰의 보편적 의미에서만 모델이 자율 선택하며 피해자·가족의 내면이나 기다림을 대변하지 않는다. 특정한 바람·행동·감정·질문·훈계·상투어를 처방하지 않으며, 감정의 종류와 추상도·표현·길이는 모델이 결정한다. 반전이나 coda를 뒤에 덧붙이지 말고 전체 narration을 재편집한다. 2026년 8월 31일 보도와 사건 근거에 확인된 절대 날짜만 사용하고 ‘오늘·지난달’ 같은 상대 날짜는 피한다. 70~80초는 청취 목표일 뿐 글자 수 기준이 아니며 최종 판정은 owner narration locked timing에서 한다.",
+          "policyBinding": {
+            "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+            "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+            "packageSha256": "aa97d535990d09c91c0249fe17e21c1733d9a971ed4156237d754d924513f66c"
+          }
+        },
+        "draftSnapshotSha256": "456b4c403f974e98b18d0b6e1cb4fa29bfc69281c009c878922613b48b5ffcf3"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T15:31:10.780Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v7",
+          "generation": {
+            "schemaVersion": 10,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v7",
+            "promptSha256": "0f2eeea0e98269d05717fa7325436d0568b859096e523dcbccbccf93d37809e1",
+            "packageSha256": "9293c287c93a0234e8271f5eb25f27bac38cd9eef6d85e06da99dbcec731a15d",
+            "outputSha256": "9895c8a8066b38545c8d1828dde4b84f3fdbd9ae452b13ec6e1cf4f34d9162ca",
+            "currentAuthoritySha256": "9895c8a8066b38545c8d1828dde4b84f3fdbd9ae452b13ec6e1cf4f34d9162ca",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T14:57:42.978Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "연락이 끊긴 60대 남성을 찾아달라는 아내의 112 신고를 제주서부경찰서 실종팀 부 경장이 접수했습니다. 하지만 그는 신고를 허위로 종결했습니다. A 씨의 아들은 경찰이 아버지가 무사하다고 해 그 말을 믿고 기다렸다고 기자회견에서 밝혔습니다. 가족은 다른 실종 신고의 허위 종결 보도를 접한 뒤 다시 112에 신고했습니다. 재신고 이튿날, 경찰은 제주시 구좌읍 송당리 해안에서 숨진 A 씨를 발견했습니다. 첫 신고 51일 만이었습니다. 기록에서 사라진 신고는 이뿐만이 아니었습니다. 제주경찰청 조사 결과, 부 경장이 2025년 3월 10일부터 7월 23일까지 자체 종결한 298건 가운데 63건이 실종 프로파일링 시스템에 입력되지 않거나 삭제된 것으로 나타났습니다. 다만 오인 신고나 곧바로 실종자를 발견해 입력하지 않아도 되는 경우가 있어, 이 63건이 모두 허위로 종결됐는지는 아직 확인되지 않았습니다. 그러나 삭제 목록에는 실종 신고 뒤 숨진 채 발견된 30대 여성도 있었습니다. 부 경장은 이 사건을 허위로 종결한 뒤 ‘교통사고 사망’으로 허위 입력해 시스템에서 삭제했습니다. 경찰은 종결된 298건 전체를 조사하고 있으며, 제주서부경찰서장을 포함한 지휘라인 전원을 대기발령했습니다. 실종의 시간에 기록 한 줄이 비어 있다는 사실은, 누구라도 공적 절차에 기대는 마음이 얼마나 쉽게 흔들릴 수 있는지를 남깁니다.",
+            "beats": [
+              {
+                "role": "신고 접수와 절차의 단절을 즉시 충돌시키는 도입",
+                "summary": "아내가 남편의 실종을 신고하고 담당 경찰관이 이를 접수했지만 허위로 종결한 사실을 맞붙인다.",
+                "claimRefs": [
+                  "claim-59a0e236a3e8",
+                  "claim-62f10e76910d"
+                ]
+              },
+              {
+                "role": "공적 설명을 믿은 시간",
+                "summary": "아들이 경찰의 말을 믿고 기다렸다고 밝힌 발언과 가족의 재신고를 이어 붙인다.",
+                "claimRefs": [
+                  "claim-090419ce7010",
+                  "claim-365acfa8c0d7"
+                ]
+              },
+              {
+                "role": "남겨 둔 결과의 회수",
+                "summary": "재신고 다음 날 해안에서 A 씨가 숨진 채 발견됐고 첫 신고로부터 51일이 지났음을 짧게 드러낸다.",
+                "claimRefs": [
+                  "claim-18616907cacd",
+                  "claim-fb85fa9fbbb8"
+                ]
+              },
+              {
+                "role": "한 신고에서 298건 조사로 넓어지는 기록 흐름",
+                "summary": "63건의 미입력·삭제 사실을 제시하되 정당한 미입력 가능성과 허위 종결 미확인 범위를 함께 구분한다.",
+                "claimRefs": [
+                  "claim-9021521ce278",
+                  "claim-fc5985157490",
+                  "claim-812090ca0b18",
+                  "claim-3fb61fee6ef6"
+                ]
+              },
+              {
+                "role": "삭제가 감춘 구체 사례와 공적 신뢰의 잔향",
+                "summary": "숨진 채 발견된 여성의 기록이 허위 종결과 허위 입력을 거쳐 삭제된 사실, 전수조사와 지휘라인 대기발령을 거쳐 기록에 기대는 보편적 신뢰로 닫는다.",
+                "claimRefs": [
+                  "claim-a2c9733a384c",
+                  "claim-eb0430f6783a",
+                  "claim-6c9459a6c719",
+                  "claim-751bd3ea9493"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "실종자를 찾기 위해 접수된 신고가 담당자의 종결 처리와 시스템 기록 삭제로 끊기고, 한 가족의 재신고에서 298건 전수조사로 확대되는 ‘공적 기록과 신뢰의 단절’을 중심축으로 삼았다.",
+              "rationale": "A 씨 신고의 접수·허위 종결·재신고·발견을 시간순으로 배치해 기록 처리의 실제 결과를 먼저 체감하게 한 뒤, 63건 조사로 시야를 넓혔다. 동시에 미입력 가능한 정상 사례와 아직 확인되지 않은 범위를 바로 밝혀 63건 전체를 허위 종결로 확대하지 않았다. 여성 실종 기록의 허위 입력과 삭제는 추상적인 시스템 문제를 구체화하는 사례로 압축했고, 전수조사와 행정 조치를 공감 문장보다 앞에 두었다. 마지막에는 실종 절차에서 기록이 갖는 공적 신뢰의 의미를 청자의 위치로 확장했다.",
+              "hook": {
+                "choice": "도움을 요청한 가족의 신고 접수와 담당 경찰관의 허위 종결을 두 문장으로 정면 충돌시키는 절차 배반형 도입",
+                "rationale": "아내가 연락이 끊긴 남편을 찾기 위해 112에 신고했고 실종팀 경찰관이 이를 접수했다는 보호 기대를, 같은 경찰관이 신고를 허위로 종결했다는 구체 행동과 즉시 맞붙였다. 발견 결과는 뒤에 남겨 긴장을 유지하면서도 오프닝 자체만으로 당사자와 기대, 위반 행동이 분명하다.",
+                "openingText": "연락이 끊긴 60대 남성을 찾아달라는 아내의 112 신고를 제주서부경찰서 실종팀 부 경장이 접수했습니다. 하지만 그는 신고를 허위로 종결했습니다.",
+                "expectationText": "연락이 끊긴 60대 남성을 찾아달라는 아내의 112 신고를 제주서부경찰서 실종팀 부 경장이 접수했습니다",
+                "expectationClaimRefs": [
+                  "claim-59a0e236a3e8"
+                ],
+                "breachText": "하지만 그는 신고를 허위로 종결했습니다",
+                "breachClaimRefs": [
+                  "claim-62f10e76910d"
+                ],
+                "withheldQuestion": "허위로 종결된 첫 신고 뒤 A 씨는 언제, 어디에서 발견됐는가?",
+                "payoff": "재신고 이튿날, 경찰은 제주시 구좌읍 송당리 해안에서 숨진 A 씨를 발견했습니다. 첫 신고 51일 만이었습니다.",
+                "payoffClaimRefs": [
+                  "claim-18616907cacd",
+                  "claim-fb85fa9fbbb8"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "9293c287c93a0234e8271f5eb25f27bac38cd9eef6d85e06da99dbcec731a15d",
+              "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+              "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+              "usedClaimRefs": [
+                "claim-59a0e236a3e8",
+                "claim-62f10e76910d",
+                "claim-090419ce7010",
+                "claim-365acfa8c0d7",
+                "claim-18616907cacd",
+                "claim-fb85fa9fbbb8",
+                "claim-9021521ce278",
+                "claim-fc5985157490",
+                "claim-812090ca0b18",
+                "claim-3fb61fee6ef6",
+                "claim-a2c9733a384c",
+                "claim-eb0430f6783a",
+                "claim-6c9459a6c719",
+                "claim-751bd3ea9493"
+              ]
+            }
+          },
+          "editorialDirection": "화면을 보지 않고 내레이션만 들어도 제주서부경찰서 실종팀의 신고 접수와 시스템 기록 흐름, 삭제·미입력의 반복과 조사 확장을 따라갈 수 있게 한다. 2025년 3월 10일부터 7월 23일까지 자체 종결 298건 중 63건이 미입력 또는 삭제 처리됐다는 제주경찰청 발표와, 그중 한 실종 사례가 사망 뒤 허위 입력으로 삭제됐다는 보도는 구분해 사용한다. 63건 모두가 허위 종결이었거나 실제 수색 지연·사망과 인과관계가 있었다고 확대하지 않는다. 기록해야 할 직무와 실제 기록 처리의 간극, 한 건의 의혹이 전체 조사로 넓어지는 과정은 central axis 후보 근거지만 훅, 정보 공개 순서, 문장 리듬과 beat 구성은 모델이 자율적으로 결정한다. 삭제와 미입력의 의미, 오인 신고·즉시 발견으로 입력하지 않아도 되는 경우, 허위 종결 여부가 아직 확인되지 않은 범위를 정확히 나눈다. 취재진 장면이나 당사자 침묵을 내면의 증거로 해석하지 않고, 실종 가족의 감정·수색 지연·책임 소재를 사실처럼 보태지 않는다. 아들이 경찰의 설명을 믿고 기다렸다고 기자회견에서 말한 사실은 그 발언의 귀속 범위에서만 사용할 수 있지만, 이를 가족 모두의 믿음·감정·기다림으로 일반화하거나 내레이션이 새로 대변하지 않는다. 확인된 지휘라인 대기발령 등 법적·행정적 결과가 쓰일 경우 그 사실과 시점을 먼저 정리한 뒤 coda로 이동한다. final movement의 affective resonance와 listener self-projection은 기록·수색 절차·공적 신뢰의 보편적 의미에서만 모델이 자율 선택하며 피해자·가족의 내면이나 기다림을 대변하지 않는다. 특정한 바람·행동·감정·질문·훈계·상투어를 처방하지 않으며, 감정의 종류와 추상도·표현·길이는 모델이 결정한다. 반전이나 coda를 뒤에 덧붙이지 말고 전체 narration을 재편집한다. 2026년 8월 31일 보도와 사건 근거에 확인된 절대 날짜만 사용하고 ‘오늘·지난달’ 같은 상대 날짜는 피한다. 70~80초는 청취 목표일 뿐 글자 수 기준이 아니며 최종 판정은 owner narration locked timing에서 한다.",
+          "policyBinding": {
+            "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+            "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+            "packageSha256": "9293c287c93a0234e8271f5eb25f27bac38cd9eef6d85e06da99dbcec731a15d"
+          }
+        },
+        "draftSnapshotSha256": "00ab44fb86e7848d7ee2fff20029e17ec95373c37c8df6a4e3d649f54851f2d8"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T16:34:08.643Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v8",
+          "generation": {
+            "schemaVersion": 11,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v8",
+            "promptSha256": "f4d6c55a407a12c4dc3797f49a61965068b7055cff2ddea98e1c5487c4ec268f",
+            "packageSha256": "2d2c3a1a23b8e88d45cea5eb585a319f102e67be7f13dbba1d37760ece65b83c",
+            "outputSha256": "6eb23e5bf3a5d737c7cbc1cc2668d170c1d29d4c4566376310723035e4bb97c1",
+            "currentAuthoritySha256": "6eb23e5bf3a5d737c7cbc1cc2668d170c1d29d4c4566376310723035e4bb97c1",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T15:31:10.718Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "아내가 연락이 끊긴 60대 남편을 찾아달라고 112에 신고했지만, 실종 사건을 맡은 부 경장은 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났습니다. 아들은 경찰이 아버지가 무사하다고 해 믿고 기다렸다고 말했고, A 씨는 실종 51일 만에 제주시 해안에서 숨진 채 발견됐습니다. 신고 당시 아내는 남편의 사업 실패와 많은 부채, 자녀에게 남긴 ‘잘 먹고 잘 지내라’는 말까지 알렸습니다. 가족은 다른 실종 신고가 허위 종결됐다는 언론 보도를 접한 뒤 다시 신고했고, 경찰은 그 이튿날 A 씨를 발견했습니다. 조사는 한 건에서 끝나지 않았습니다. 2025년 3월 10일부터 7월 23일까지 부 경장이 자체 종결한 298건 가운데 63건이 실종 프로파일링 시스템에 미입력되거나 삭제 처리된 것으로 나타났습니다. 이 가운데 다른 실종자 장 씨 사건은 신고 약 두 시간 뒤 연락이 닿았다며 종결됐고, 이후 ‘교통사고 사망’으로 허위 입력돼 시스템에서 삭제됐습니다. 다만 63건 모두가 허위 종결로 확인된 것은 아닙니다. 오인 신고나 실종자를 곧바로 발견한 경우에는 입력하지 않아도 되는 것으로 알려졌고, 각 미입력과 삭제가 허위 종결이었는지는 아직 확인되지 않았습니다. 경찰은 종결된 298건을 전수조사하고 있으며, 제주서부경찰서장을 포함한 지휘라인 전원은 대기발령됐습니다. 아들이 말한 ‘믿고 기다린 51일’은, 실종 기록 한 줄의 정확성이 누군가에게 얼마나 무거운 약속인지 보여줍니다.",
+            "beats": [
+              {
+                "role": "구조 요청과 종결의 충돌",
+                "summary": "가족의 실종 신고를 담당 경찰관이 허위 종결한 사실과 51일 뒤의 발견 결과를 맞붙여 사건의 핵심 위험을 제시한다.",
+                "claimRefs": [
+                  "claim-59a0e236a3e8",
+                  "claim-62f10e76910d",
+                  "claim-090419ce7010",
+                  "claim-18616907cacd",
+                  "claim-fb85fa9fbbb8"
+                ]
+              },
+              {
+                "role": "신고에 담긴 위험 신호와 재신고",
+                "summary": "최초 신고에 전달된 구체적 정황과 다른 허위 종결 보도를 계기로 이뤄진 재신고, 이튿날의 발견을 시간순으로 잇는다.",
+                "claimRefs": [
+                  "claim-bf654633457b",
+                  "claim-365acfa8c0d7",
+                  "claim-18616907cacd"
+                ]
+              },
+              {
+                "role": "기록 이상 범위의 확대",
+                "summary": "한 사건에서 자체 종결 298건 중 미입력·삭제 63건으로 조사가 넓어진 사실을 수치로 회수한다.",
+                "claimRefs": [
+                  "claim-9021521ce278"
+                ]
+              },
+              {
+                "role": "실제 허위 입력 사례",
+                "summary": "장 씨 신고가 연락 확인을 이유로 종결된 뒤 교통사고 사망으로 허위 입력돼 삭제된 흐름을 압축한다.",
+                "claimRefs": [
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a"
+                ]
+              },
+              {
+                "role": "확인된 사실의 경계",
+                "summary": "입력이 불필요할 수 있는 경우와 63건 전체의 허위 종결 여부가 미확인이라는 한계를 분명히 한다.",
+                "claimRefs": [
+                  "claim-fc5985157490",
+                  "claim-812090ca0b18",
+                  "claim-3fb61fee6ef6"
+                ]
+              },
+              {
+                "role": "조사와 행정 조치",
+                "summary": "298건 전수조사와 지휘라인 대기발령을 공감 결말보다 먼저 배치한다.",
+                "claimRefs": [
+                  "claim-6c9459a6c719",
+                  "claim-751bd3ea9493"
+                ]
+              },
+              {
+                "role": "쉰하루와 기록의 무게",
+                "summary": "아들이 직접 밝힌 기다림과 51일이라는 사건 고유 사실을 통해 공적 기록의 의미를 청자의 감각으로 확장한다.",
+                "claimRefs": [
+                  "claim-090419ce7010",
+                  "claim-fb85fa9fbbb8"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "사람을 찾기 위해 접수된 신고가 허위 종결된 한 사례에서 출발해, 실종 기록 63건의 미입력·삭제와 298건 전수조사로 확장된 ‘구조 요청과 기록 처리의 간극’을 중심축으로 삼는다.",
+              "rationale": "A 씨 가족이 신고하고 경찰 설명을 믿었다는 구체적 관계를 먼저 세운 뒤 51일 만의 발견 결과로 기록 처리의 무게를 드러냈다. 이어 신고 당시 위험 신호, 재신고, 조사 확대를 시간순으로 배치했다. 장 씨 사건은 허위 입력과 삭제가 확인된 사례로 제시하되, 63건 전체가 허위 종결이라는 오해를 막기 위해 합법적으로 미입력할 수 있는 경우와 미확인 범위를 곧바로 구분했다. 취재진 장면과 반복되는 법률 표현은 중심축을 강화하지 않아 제외했다.",
+              "hook": {
+                "choice": "가족의 구조 요청과 담당 경찰관의 허위 종결을 즉시 충돌시킨 뒤, 아들이 밝힌 기다림과 51일 뒤의 사망 발견으로 결과의 크기를 제시하는 사실 직결형 오프닝",
+                "rationale": "연락이 끊긴 남편을 찾아달라는 신고는 경찰의 확인과 대응을 기대하게 하지만, 담당 경찰관이 이를 허위 종결했다는 행동이 그 기대를 직접 깨뜨린다. 곧이어 아들의 귀속 발언과 51일 만의 발견 결과를 붙여 추상적 시스템 문제가 아닌 사람을 찾는 절차의 문제임을 구체화한다.",
+                "openingText": "아내가 연락이 끊긴 60대 남편을 찾아달라고 112에 신고했지만, 실종 사건을 맡은 부 경장은 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났습니다. 아들은 경찰이 아버지가 무사하다고 해 믿고 기다렸다고 말했고, A 씨는 실종 51일 만에 제주시 해안에서 숨진 채 발견됐습니다.",
+                "impactText": "아들은 경찰이 아버지가 무사하다고 해 믿고 기다렸다고 말했고, A 씨는 실종 51일 만에 제주시 해안에서 숨진 채 발견됐습니다.",
+                "impactClaimRefs": [
+                  "claim-090419ce7010",
+                  "claim-18616907cacd",
+                  "claim-fb85fa9fbbb8"
+                ],
+                "impactMechanism": "경찰의 무사 설명을 믿었다는 아들의 발언과 51일 뒤 해안에서 숨진 채 발견된 결과를 한 문장에 결합해, 허위 종결이 가족에게 어떤 시간으로 남았는지를 과장 없이 즉시 전달한다.",
+                "expectationText": "아내가 연락이 끊긴 60대 남편을 찾아달라고 112에 신고했지만",
+                "expectationClaimRefs": [
+                  "claim-59a0e236a3e8"
+                ],
+                "breachText": "실종 사건을 맡은 부 경장은 신고를 접수한 뒤 사건을 허위로 종결한 것으로 나타났습니다.",
+                "breachClaimRefs": [
+                  "claim-62f10e76910d"
+                ],
+                "withheldQuestion": "한 사람의 허위 종결 사례를 확인한 뒤 조사는 어느 범위까지 확대됐는가?",
+                "retentionGap": "오프닝은 신고와 허위 종결, 51일 뒤 결과를 공개하지만, 같은 경찰관이 처리한 기록에서 이상이 얼마나 더 발견됐는지는 남겨 둔다. 이후 298건 중 63건이라는 조사 결과로 정확히 회수하되, 63건 전부가 허위 종결은 아니라는 한계까지 함께 밝힌다.",
+                "payoff": "2025년 3월 10일부터 7월 23일까지 부 경장이 자체 종결한 298건 가운데 63건이 실종 프로파일링 시스템에 미입력되거나 삭제 처리된 것으로 나타났습니다.",
+                "payoffClaimRefs": [
+                  "claim-9021521ce278"
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "경찰의 무사 설명을 믿었던 쉰하루와 실종 기록 한 줄 사이에 남은 무거운 약속",
+                "codaRationale": "아들의 기자회견 발언과 51일이라는 확인된 기간을 결합해 사건 고유의 여운을 만든다. 피해자나 가족의 내면을 새로 대변하지 않고, 사람을 찾는 공적 기록의 정확성이 청자 자신에게도 무거운 약속일 수 있다는 의미로 확장한다.",
+                "closingText": "아들이 말한 ‘믿고 기다린 51일’은, 실종 기록 한 줄의 정확성이 누군가에게 얼마나 무거운 약속인지 보여줍니다.",
+                "claimRefs": [
+                  "claim-090419ce7010",
+                  "claim-fb85fa9fbbb8"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "2d2c3a1a23b8e88d45cea5eb585a319f102e67be7f13dbba1d37760ece65b83c",
+              "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+              "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+              "usedClaimRefs": [
+                "claim-59a0e236a3e8",
+                "claim-62f10e76910d",
+                "claim-090419ce7010",
+                "claim-18616907cacd",
+                "claim-fb85fa9fbbb8",
+                "claim-bf654633457b",
+                "claim-365acfa8c0d7",
+                "claim-9021521ce278",
+                "claim-43838b532246",
+                "claim-eb0430f6783a",
+                "claim-fc5985157490",
+                "claim-812090ca0b18",
+                "claim-3fb61fee6ef6",
+                "claim-6c9459a6c719",
+                "claim-751bd3ea9493"
+              ]
+            }
+          },
+          "editorialDirection": "화면을 보지 않고 내레이션만 들어도 제주서부경찰서 실종팀의 신고 접수와 시스템 기록 흐름, 삭제·미입력의 반복과 조사 확장을 따라갈 수 있게 한다. 2025년 3월 10일부터 7월 23일까지 자체 종결 298건 중 63건이 미입력 또는 삭제 처리됐다는 제주경찰청 발표와, 그중 한 실종 사례가 사망 뒤 허위 입력으로 삭제됐다는 보도는 구분해 사용한다. 63건 모두가 허위 종결이었거나 실제 수색 지연·사망과 인과관계가 있었다고 확대하지 않는다. 기록해야 할 직무와 실제 기록 처리의 간극, 한 건의 의혹이 전체 조사로 넓어지는 과정은 central axis 후보 근거지만 훅, 정보 공개 순서, 문장 리듬과 beat 구성은 모델이 자율적으로 결정한다. 삭제와 미입력의 의미, 오인 신고·즉시 발견으로 입력하지 않아도 되는 경우, 허위 종결 여부가 아직 확인되지 않은 범위를 정확히 나눈다. 취재진 장면이나 당사자 침묵을 내면의 증거로 해석하지 않고, 실종 가족의 감정·수색 지연·책임 소재를 사실처럼 보태지 않는다. 아들이 경찰의 설명을 믿고 기다렸다고 기자회견에서 말한 사실은 그 발언의 귀속 범위에서만 사용할 수 있지만, 이를 가족 모두의 믿음·감정·기다림으로 일반화하거나 내레이션이 새로 대변하지 않는다. 확인된 지휘라인 대기발령 등 법적·행정적 결과가 쓰일 경우 그 사실과 시점을 먼저 정리한 뒤 coda로 이동한다. final movement의 affective resonance와 listener self-projection은 기록·수색 절차·공적 신뢰의 보편적 의미에서만 모델이 자율 선택하며 피해자·가족의 내면이나 기다림을 대변하지 않는다. 특정한 바람·행동·감정·질문·훈계·상투어를 처방하지 않으며, 감정의 종류와 추상도·표현·길이는 모델이 결정한다. 반전이나 coda를 뒤에 덧붙이지 말고 전체 narration을 재편집한다. 2026년 8월 31일 보도와 사건 근거에 확인된 절대 날짜만 사용하고 ‘오늘·지난달’ 같은 상대 날짜는 피한다. 70~80초는 청취 목표일 뿐 글자 수 기준이 아니며 최종 판정은 owner narration locked timing에서 한다.",
+          "policyBinding": {
+            "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+            "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+            "packageSha256": "2d2c3a1a23b8e88d45cea5eb585a319f102e67be7f13dbba1d37760ece65b83c"
+          }
+        },
+        "draftSnapshotSha256": "6da99ea894dbee696cd7f8ce94b5ba5f992940aaa5f9c083a0489bb943a69955"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T16:57:56.427Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v9",
+          "generation": {
+            "schemaVersion": 12,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v9",
+            "promptSha256": "ead611a0146e0b0d641a7422e721324f680709532262b6b81bfc9c5fd7b7fc97",
+            "packageSha256": "fbf867329f8ed05e199e577d5a9a9ef0eadf42a3473ca2293989ad56f3862300",
+            "outputSha256": "60b65d8f43f8261e9d4366eff2bbf9b59674dc7795e7a8391d02eb89742c8921",
+            "currentAuthoritySha256": "60b65d8f43f8261e9d4366eff2bbf9b59674dc7795e7a8391d02eb89742c8921",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T16:34:08.573Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "실종자를 찾아야 할 경찰 실종팀의 한 경장이, 자체 종결한 298건 가운데 63건을 시스템에 입력하지 않거나 삭제 처리했습니다. 그 삭제 목록에는 실종 신고 뒤 숨진 채 발견된 장 씨도 있었습니다. 장 씨의 남자친구가 신고하자 부 경장은 약 두 시간 뒤 “연락이 닿았다”며 사건을 종결했습니다. 이어 장 씨가 교통사고로 숨졌다고 허위 입력한 뒤, 실종 프로파일링 시스템에서 기록을 삭제했습니다. 이 한 건 뒤로 점검 범위는 더 넓어졌습니다. 제주경찰청에 따르면 부 경장이 2025년 3월 10일부터 7월 23일까지 실종팀에서 자체 종결한 298건 가운데 63건이 미입력 또는 삭제 처리됐습니다. 다만 미입력에는 오인 신고나 곧바로 실종자를 찾은 경우처럼 시스템에 넣지 않아도 되는 사례가 포함됩니다. 따라서 63건 모두가 허위 종결인지는 아직 확인되지 않았고, 경찰은 부 경장이 종결한 298건을 전수조사하고 있습니다. 허위 종결의 지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원도 대기발령됐습니다. “연락이 닿았다”는 두 시간 뒤의 종결과 “교통사고 사망”이라는 허위 입력 사이에서, 실종자를 찾는 기록을 믿는 마음은 어디에 기대야 할지 막막해집니다.",
+            "beats": [
+              {
+                "role": "기록을 맡은 사람과 지워진 기록의 정면충돌",
+                "summary": "실종팀 경장이 종결한 사건 298건 중 63건을 미입력하거나 삭제했고, 그 목록에 사망한 채 발견된 실종자가 포함됐다는 사실로 시작한다.",
+                "claimRefs": [
+                  "claim-9021521ce278",
+                  "claim-a2c9733a384c"
+                ]
+              },
+              {
+                "role": "한 신고가 삭제되기까지의 동선",
+                "summary": "장 씨 신고 접수부터 약 두 시간 뒤 종결, 허위 사망 사유 입력과 시스템 삭제까지 행동의 순서를 잇는다.",
+                "claimRefs": [
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a"
+                ]
+              },
+              {
+                "role": "한 건에서 63건으로 넓어진 점검",
+                "summary": "근무 기간과 전체 자체 종결 건수, 미입력·삭제 처리 규모를 제시해 조사 확장을 보여준다.",
+                "claimRefs": [
+                  "claim-78a5d112651f",
+                  "claim-9021521ce278"
+                ]
+              },
+              {
+                "role": "숫자의 의미를 제한하는 경계선",
+                "summary": "정상적으로 미입력할 수 있는 경우와 아직 확인되지 않은 허위 종결 범위를 분리하고 전수조사 상황을 밝힌다.",
+                "claimRefs": [
+                  "claim-fc5985157490",
+                  "claim-812090ca0b18",
+                  "claim-3fb61fee6ef6",
+                  "claim-6c9459a6c719"
+                ]
+              },
+              {
+                "role": "행정 조치 뒤 기록에 남은 막막함",
+                "summary": "지휘라인 대기발령을 먼저 전한 뒤, 사건에 실제 사용된 두 종결 문구 사이의 간극을 청자의 감정으로 되비춘다.",
+                "claimRefs": [
+                  "claim-751bd3ea9493",
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "실종자를 찾기 위해 남겨야 할 기록이 담당 경찰의 종결·허위 입력·삭제를 거치고, 한 사례에 대한 의혹이 298건 전수조사로 확대되는 과정을 중심축으로 삼았다.",
+              "rationale": "63건이라는 규모만 밀어붙이면 모두 허위 종결이었다는 오해를 부를 수 있어, 확인된 장 씨 사건의 구체적 처리 순서를 먼저 들려주고 전체 수치와 예외·미확인 범위를 뒤에서 분리했다. 가족 관련 별도 사례와 취재진 장면은 기록 처리라는 축을 흐릴 수 있어 제외했으며, 행정 조치는 공감의 여운보다 앞에 압축 배치했다.",
+              "hook": {
+                "choice": "실종자를 찾는 직무와 사망한 실종자의 기록까지 삭제 목록에 들어간 결과를 맞붙이는 수치·결과 결합형 도입",
+                "rationale": "실종팀이라는 보호 역할을 먼저 특정한 직후 298건 중 63건의 미입력·삭제와 사망한 채 발견된 장 씨의 포함 사실을 붙여, 직무상 기대와 이를 무너뜨린 처리 규모를 배경 설명 없이 이해하게 한다.",
+                "openingText": "실종자를 찾아야 할 경찰 실종팀의 한 경장이, 자체 종결한 298건 가운데 63건을 시스템에 입력하지 않거나 삭제 처리했습니다. 그 삭제 목록에는 실종 신고 뒤 숨진 채 발견된 장 씨도 있었습니다.",
+                "impactText": "그 삭제 목록에는 실종 신고 뒤 숨진 채 발견된 장 씨도 있었습니다.",
+                "impactClaimRefs": [
+                  "claim-a2c9733a384c"
+                ],
+                "impactMechanism": "단순한 시스템 통계가 아니라 결국 숨진 채 발견된 실종자의 기록도 삭제 목록에 포함됐다는 결과가 63건이라는 수치의 인간적 무게를 즉시 드러낸다.",
+                "expectationText": "실종자를 찾아야 할 경찰 실종팀",
+                "expectationClaimRefs": [
+                  "claim-9021521ce278"
+                ],
+                "breachText": "자체 종결한 298건 가운데 63건을 시스템에 입력하지 않거나 삭제 처리했습니다. 그 삭제 목록에는 실종 신고 뒤 숨진 채 발견된 장 씨도 있었습니다.",
+                "breachClaimRefs": [
+                  "claim-9021521ce278",
+                  "claim-a2c9733a384c"
+                ],
+                "withheldQuestion": "삭제 목록에 포함된 장 씨 사건의 기록은 구체적으로 어떤 과정을 거쳐 사라졌는가?",
+                "retentionGap": "오프닝은 처리 규모와 사망한 실종자의 포함 사실까지 공개하되, 신고가 접수된 뒤 어떤 종결 문구와 허위 입력을 거쳐 삭제됐는지는 남겨 다음 행동 연쇄로 회수한다.",
+                "payoff": "장 씨의 남자친구가 신고하자 부 경장은 약 두 시간 뒤 “연락이 닿았다”며 사건을 종결했습니다. 이어 장 씨가 교통사고로 숨졌다고 허위 입력한 뒤, 실종 프로파일링 시스템에서 기록을 삭제했습니다.",
+                "payoffClaimRefs": [
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a"
+                ]
+              },
+              "sceneCraft": {
+                "approach": "신고 접수에서 종결, 사망 사유 입력, 시스템 삭제, 전체 조사로 이어지는 기록의 이동을 시간순 행동으로 들려준다.",
+                "continuityRationale": "남자친구의 신고, 약 두 시간 뒤 종결, 허위 사망 입력, 시스템 삭제라는 연결된 동작을 사용해 화면 없이도 한 신고의 처리 경로를 따라가게 하고, 이후 63건과 298건 전수조사로 시야를 넓힌다.",
+                "sceneSpans": [
+                  {
+                    "text": "실종자를 찾아야 할 경찰 실종팀의 한 경장이, 자체 종결한 298건 가운데 63건을 시스템에 입력하지 않거나 삭제 처리했습니다.",
+                    "claimRefs": [
+                      "claim-9021521ce278"
+                    ],
+                    "continuityRole": "오프닝에서 담당 역할과 시스템 안에서 벌어진 처리 행동 및 규모를 한꺼번에 고정한다."
+                  },
+                  {
+                    "text": "장 씨의 남자친구가 신고하자 부 경장은 약 두 시간 뒤 “연락이 닿았다”며 사건을 종결했습니다.",
+                    "claimRefs": [
+                      "claim-43838b532246"
+                    ],
+                    "continuityRole": "신고 접수에서 두 시간 뒤 종결까지 시간과 행동의 첫 변화를 잇는다."
+                  },
+                  {
+                    "text": "이어 장 씨가 교통사고로 숨졌다고 허위 입력한 뒤, 실종 프로파일링 시스템에서 기록을 삭제했습니다.",
+                    "claimRefs": [
+                      "claim-eb0430f6783a"
+                    ],
+                    "continuityRole": "종결 다음에 이루어진 입력과 삭제를 순서대로 연결해 기록이 사라지는 과정을 완성한다."
+                  },
+                  {
+                    "text": "따라서 63건 모두가 허위 종결인지는 아직 확인되지 않았고, 경찰은 부 경장이 종결한 298건을 전수조사하고 있습니다.",
+                    "claimRefs": [
+                      "claim-3fb61fee6ef6",
+                      "claim-6c9459a6c719"
+                    ],
+                    "continuityRole": "확인된 개별 처리에서 아직 조사 중인 전체 사건군으로 시간적 현재를 확장한다."
+                  }
+                ],
+                "attributionStrategy": "수치의 발표 주체는 문장 첫머리가 아닌 행동 규모 바로 앞에 짧게 두고, 조사 중인 범위는 단정하지 않도록 미확인 한정을 같은 흐름 안에 배치했다.",
+                "attributions": [
+                  {
+                    "text": "제주경찰청에 따르면",
+                    "claimRefs": [
+                      "claim-9021521ce278"
+                    ],
+                    "necessity": "63건이라는 조사 수치가 제주경찰청 발표에 근거한다는 점을 간결하게 밝히기 위해 사용했다."
+                  },
+                  {
+                    "text": "63건 모두가 허위 종결인지는 아직 확인되지 않았고",
+                    "claimRefs": [
+                      "claim-3fb61fee6ef6"
+                    ],
+                    "necessity": "미입력 또는 삭제된 63건 전부를 허위 종결로 확대 해석하지 않도록 조사 단계의 한계를 명시한다."
+                  }
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "사람을 찾기 위한 기록과 그 기록을 없앤 허위 문구 사이에서 생기는 의지할 곳 없는 막막함",
+                "codaRationale": "어떤 사건에도 붙일 수 있는 일반적 신뢰 문구 대신, 이 사건에 실제 사용된 ‘연락이 닿았다’는 종결과 ‘교통사고 사망’이라는 허위 입력을 다시 맞세웠다. 피해자의 내면을 대신 말하지 않고, 그런 기록을 믿어야 하는 사람이라면 느낄 수 있는 막막함으로 청자의 자리를 만든다.",
+                "closingText": "“연락이 닿았다”는 두 시간 뒤의 종결과 “교통사고 사망”이라는 허위 입력 사이에서, 실종자를 찾는 기록을 믿는 마음은 어디에 기대야 할지 막막해집니다.",
+                "claimRefs": [
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "fbf867329f8ed05e199e577d5a9a9ef0eadf42a3473ca2293989ad56f3862300",
+              "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+              "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+              "usedClaimRefs": [
+                "claim-9021521ce278",
+                "claim-a2c9733a384c",
+                "claim-43838b532246",
+                "claim-eb0430f6783a",
+                "claim-78a5d112651f",
+                "claim-fc5985157490",
+                "claim-812090ca0b18",
+                "claim-3fb61fee6ef6",
+                "claim-6c9459a6c719",
+                "claim-751bd3ea9493"
+              ]
+            }
+          },
+          "editorialDirection": "화면을 보지 않고 내레이션만 들어도 제주서부경찰서 실종팀의 신고 접수와 시스템 기록 흐름, 삭제·미입력의 반복과 조사 확장을 따라갈 수 있게 한다. 2025년 3월 10일부터 7월 23일까지 자체 종결 298건 중 63건이 미입력 또는 삭제 처리됐다는 제주경찰청 발표와, 그중 한 실종 사례가 사망 뒤 허위 입력으로 삭제됐다는 보도는 구분해 사용한다. 63건 모두가 허위 종결이었거나 실제 수색 지연·사망과 인과관계가 있었다고 확대하지 않는다. 기록해야 할 직무와 실제 기록 처리의 간극, 한 건의 의혹이 전체 조사로 넓어지는 과정은 central axis 후보 근거지만 훅, 정보 공개 순서, 문장 리듬과 beat 구성은 모델이 자율적으로 결정한다. 삭제와 미입력의 의미, 오인 신고·즉시 발견으로 입력하지 않아도 되는 경우, 허위 종결 여부가 아직 확인되지 않은 범위를 정확히 나눈다. 취재진 장면이나 당사자 침묵을 내면의 증거로 해석하지 않고, 실종 가족의 감정·수색 지연·책임 소재를 사실처럼 보태지 않는다. 아들이 경찰의 설명을 믿고 기다렸다고 기자회견에서 말한 사실은 그 발언의 귀속 범위에서만 사용할 수 있지만, 이를 가족 모두의 믿음·감정·기다림으로 일반화하거나 내레이션이 새로 대변하지 않는다. 확인된 지휘라인 대기발령 등 법적·행정적 결과가 쓰일 경우 그 사실과 시점을 먼저 정리한 뒤 coda로 이동한다. final movement의 affective resonance와 listener self-projection은 기록·수색 절차·공적 신뢰의 보편적 의미에서만 모델이 자율 선택하며 피해자·가족의 내면이나 기다림을 대변하지 않는다. 특정한 바람·행동·감정·질문·훈계·상투어를 처방하지 않으며, 감정의 종류와 추상도·표현·길이는 모델이 결정한다. 반전이나 coda를 뒤에 덧붙이지 말고 전체 narration을 재편집한다. 2026년 8월 31일 보도와 사건 근거에 확인된 절대 날짜만 사용하고 ‘오늘·지난달’ 같은 상대 날짜는 피한다. 70~80초는 청취 목표일 뿐 글자 수 기준이 아니며 최종 판정은 owner narration locked timing에서 한다.",
+          "policyBinding": {
+            "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+            "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+            "packageSha256": "fbf867329f8ed05e199e577d5a9a9ef0eadf42a3473ca2293989ad56f3862300"
+          }
+        },
+        "draftSnapshotSha256": "956f1f0b1972376556894c718d041b48d76982177186931587fc89b1ab6a0a60"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T18:59:28.387Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v1",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v10",
+          "generation": {
+            "schemaVersion": 13,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v10",
+            "promptSha256": "7cf68b6c74fac6a2c42690ed65c755a812a8e9f78e50ee5fd19ca22fa8dfb307",
+            "packageSha256": "ad20e27c55df66000104d27986edb6d04ef7e9c2cf52d9f92b5c0a48b7ecf1c9",
+            "outputSha256": "c3d19af43af507bb41f9f305523bfdb13fb577a16c354e182927593828801673",
+            "currentAuthoritySha256": "c3d19af43af507bb41f9f305523bfdb13fb577a16c354e182927593828801673",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "attemptCount": 1,
+            "generatedAt": "2026-09-04T16:57:56.353Z"
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v1",
+            "narration": "실종 신고를 접수한 제주서부경찰서 실종팀 경장은, 한 여성과 연락이 닿았다고 허위로 종결한 뒤 ‘교통사고 사망’이라고 허위 입력해 그 기록을 시스템에서 지웠습니다. 같은 팀에서 자체 종결한 298건 가운데 63건이 아예 입력되지 않거나 삭제 처리됐습니다. 장 씨 남자친구의 신고는 약 두 시간 만에 그렇게 닫혔습니다. 또 다른 60대 남성 A 씨의 아내는 남편이 연락되지 않고, 사업 실패와 많은 빚, 아이에게 ‘잘 먹고 잘 지내라’는 말을 남겼다고 112에 신고했습니다. 이 신고도 비슷한 방식으로 허위 종결됐습니다. 가족이 다시 신고한 이튿날, 경찰은 제주시 해안에서 숨진 A 씨를 발견했습니다. 실종 51일 만이었습니다. 제주경찰청 집계로, 경장이 2025년 3월 10일부터 7월 23일까지 자체 종결한 298건 전부가 조사 대상이 됐습니다. 하지만 63건 모두가 허위 종결이라는 뜻은 아닙니다. 오인 신고나 즉시 발견된 경우에는 시스템에 입력하지 않아도 되며, 제주경찰청은 각각의 미입력과 삭제가 허위 종결인지는 아직 확인되지 않았다고 밝혔습니다. 경찰은 현재 298건을 전수조사하고 있습니다. A 씨의 아들은 경찰이 아버지가 무사하다는 말을 믿고 기다렸지만, 51일 만에 돌아온 건 시신이었다고 기자회견에서 말했습니다. 무사하다는 말을 믿고 보낸 51일은, 실종 신고의 ‘종결’이 가족에게 무엇을 남기는지 되묻게 합니다.",
+            "beats": [
+              {
+                "role": "기록을 맡은 사람과 기록을 지운 행동의 정면충돌",
+                "summary": "실종팀 경장이 장 씨 신고를 허위 종결하고 사망 사유를 허위 입력해 삭제한 사실을 63건의 미입력·삭제 규모와 맞붙인다.",
+                "claimRefs": [
+                  "claim-9021521ce278",
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a"
+                ]
+              },
+              {
+                "role": "한 건에서 되풀이된 종결 방식",
+                "summary": "장 씨 신고가 약 두 시간 만에 닫힌 뒤, 위험 신호가 담긴 A 씨 신고도 비슷하게 허위 종결된 흐름을 잇는다.",
+                "claimRefs": [
+                  "claim-43838b532246",
+                  "claim-59a0e236a3e8",
+                  "claim-bf654633457b",
+                  "claim-62f10e76910d"
+                ]
+              },
+              {
+                "role": "다시 열린 신고와 51일 뒤의 발견",
+                "summary": "가족의 재신고 다음 날 A 씨가 해안에서 숨진 채 발견된 결과를 짧게 드러낸다.",
+                "claimRefs": [
+                  "claim-365acfa8c0d7",
+                  "claim-18616907cacd",
+                  "claim-fb85fa9fbbb8"
+                ]
+              },
+              {
+                "role": "조사의 확대와 63건의 정확한 경계",
+                "summary": "298건 전수조사로 범위를 넓히되, 허용되는 미입력 사례와 아직 확인되지 않은 허위 종결 여부를 분리한다.",
+                "claimRefs": [
+                  "claim-9021521ce278",
+                  "claim-fc5985157490",
+                  "claim-812090ca0b18",
+                  "claim-3fb61fee6ef6",
+                  "claim-6c9459a6c719"
+                ]
+              },
+              {
+                "role": "종결이라는 말 뒤에 남은 시간",
+                "summary": "경찰의 말을 믿고 기다렸다는 아들의 기자회견 발언으로 공적 기록과 가족이 보낸 51일의 간극을 남긴다.",
+                "claimRefs": [
+                  "claim-090419ce7010",
+                  "claim-fb85fa9fbbb8"
+                ]
+              }
+            ],
+            "editorialDecision": {
+              "approach": "실종자를 찾기 위해 남겨져야 할 신고 기록이 담당 경장의 허위 종결과 삭제로 끊기고, 한 건의 문제에서 298건 전수조사로 확대되는 간극을 중심축으로 삼았다.",
+              "rationale": "장 씨 사건의 구체적인 허위 입력과 삭제를 먼저 제시한 뒤 A 씨 신고의 반복된 종결, 사망 확인, 전체 조사 순으로 강도를 높였다. 다만 63건을 모두 허위 종결로 오인하지 않도록 정상적인 미입력 가능성과 미확인 범위를 조사 확대 직후에 배치했다. 마지막에는 아들의 발언으로 ‘종결’이라는 행정 처리와 가족이 보낸 51일의 차이를 되비춘다.",
+              "hook": {
+                "choice": "실종 신고를 맡은 경찰이 신고 기록을 직접 허위 종결·삭제한 역할 역전과 63건의 규모를 연속 제시하는 단정형 도입",
+                "rationale": "실종 신고를 접수하는 실종팀이라는 보호 기대와, 허위 사망 사유를 입력해 기록을 삭제한 행동을 첫 문장 안에서 충돌시킨다. 바로 다음 문장의 298건 중 63건이라는 수치가 문제의 조사 규모를 구체화한다.",
+                "openingText": "실종 신고를 접수한 제주서부경찰서 실종팀 경장은, 한 여성과 연락이 닿았다고 허위로 종결한 뒤 ‘교통사고 사망’이라고 허위 입력해 그 기록을 시스템에서 지웠습니다.",
+                "impactText": "한 여성과 연락이 닿았다고 허위로 종결한 뒤 ‘교통사고 사망’이라고 허위 입력해 그 기록을 시스템에서 지웠습니다.",
+                "impactClaimRefs": [
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a"
+                ],
+                "impactMechanism": "연락 확인과 사망 사유라는 수색 판단의 핵심 정보가 모두 허위였고, 그 입력으로 기록까지 삭제됐다는 연속 행동이 구체적인 제도적 위험을 즉시 보여준다.",
+                "expectationText": "실종 신고를 접수한 제주서부경찰서 실종팀 경장은",
+                "expectationClaimRefs": [
+                  "claim-9021521ce278",
+                  "claim-43838b532246"
+                ],
+                "breachText": "한 여성과 연락이 닿았다고 허위로 종결한 뒤 ‘교통사고 사망’이라고 허위 입력해 그 기록을 시스템에서 지웠습니다.",
+                "breachClaimRefs": [
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a"
+                ],
+                "withheldQuestion": "미입력 또는 삭제된 63건은 모두 허위 종결이었는가?",
+                "retentionGap": "도입에서 63건이라는 규모를 공개하되 각 기록 처리의 성격은 남겨 두고, 정상적으로 입력하지 않아도 되는 경우와 아직 확인되지 않은 범위를 뒤에서 구분한다.",
+                "payoff": "하지만 63건 모두가 허위 종결이라는 뜻은 아닙니다. 오인 신고나 즉시 발견된 경우에는 시스템에 입력하지 않아도 되며, 제주경찰청은 각각의 미입력과 삭제가 허위 종결인지는 아직 확인되지 않았다고 밝혔습니다.",
+                "payoffClaimRefs": [
+                  "claim-fc5985157490",
+                  "claim-812090ca0b18",
+                  "claim-3fb61fee6ef6"
+                ]
+              },
+              "sceneCraft": {
+                "approach": "신고가 접수되고, 사건이 닫히고, 가족이 다시 신고한 뒤 해안에서 발견되는 순서와 시스템 기록의 변화를 교차시켜 청자가 절차의 단절을 따라가게 했다.",
+                "continuityRationale": "접수·종결·허위 입력·삭제라는 기록 동작을 시작점으로 삼고, A 씨 아내의 112 신고에서 재신고 다음 날 해안 발견까지 시간과 행동을 직선으로 연결했다.",
+                "sceneSpans": [
+                  {
+                    "text": "실종 신고를 접수한 제주서부경찰서 실종팀 경장은, 한 여성과 연락이 닿았다고 허위로 종결한 뒤 ‘교통사고 사망’이라고 허위 입력해 그 기록을 시스템에서 지웠습니다.",
+                    "claimRefs": [
+                      "claim-43838b532246",
+                      "claim-eb0430f6783a"
+                    ],
+                    "continuityRole": "신고 접수에서 허위 종결, 시스템 입력과 삭제까지 이어지는 기록의 물리적 처리 순서를 opening 안에서 완결한다."
+                  },
+                  {
+                    "text": "또 다른 60대 남성 A 씨의 아내는 남편이 연락되지 않고, 사업 실패와 많은 빚, 아이에게 ‘잘 먹고 잘 지내라’는 말을 남겼다고 112에 신고했습니다. 이 신고도 비슷한 방식으로 허위 종결됐습니다.",
+                    "claimRefs": [
+                      "claim-59a0e236a3e8",
+                      "claim-bf654633457b",
+                      "claim-62f10e76910d"
+                    ],
+                    "continuityRole": "아내가 전달한 구체적 위험 신호에서 다시 허위 종결되는 다음 사례로 이동한다."
+                  },
+                  {
+                    "text": "가족이 다시 신고한 이튿날, 경찰은 제주시 해안에서 숨진 A 씨를 발견했습니다. 실종 51일 만이었습니다.",
+                    "claimRefs": [
+                      "claim-365acfa8c0d7",
+                      "claim-18616907cacd",
+                      "claim-fb85fa9fbbb8"
+                    ],
+                    "continuityRole": "재신고, 다음 날의 해안 발견, 51일이라는 경과를 시간 순서대로 묶어 결과를 회수한다."
+                  }
+                ],
+                "attributionStrategy": "전체 조사와 미확인 범위는 제주경찰청을, 발견과 전수조사는 경찰을 책임 주체로 명시했다. 가족의 경험은 아들의 기자회견 발언으로 한정해 내레이션이 내면을 대신 단정하지 않도록 했다.",
+                "attributions": [
+                  {
+                    "text": "제주경찰청 집계로, 경장이 2025년 3월 10일부터 7월 23일까지 자체 종결한 298건 전부가 조사 대상이 됐습니다.",
+                    "claimRefs": [
+                      "claim-9021521ce278"
+                    ],
+                    "necessity": "298건과 근무 기간이라는 조사 수치의 책임 출처를 분명히 하기 위해 필요하다."
+                  },
+                  {
+                    "text": "제주경찰청은 각각의 미입력과 삭제가 허위 종결인지는 아직 확인되지 않았다고 밝혔습니다.",
+                    "claimRefs": [
+                      "claim-3fb61fee6ef6"
+                    ],
+                    "necessity": "63건 전체를 허위 종결로 확대하지 않고 현재 확인 수준을 경찰 발표 범위로 한정한다."
+                  },
+                  {
+                    "text": "경찰은 현재 298건을 전수조사하고 있습니다.",
+                    "claimRefs": [
+                      "claim-6c9459a6c719"
+                    ],
+                    "necessity": "진행 중인 조사 단계와 담당 주체를 명확히 한다."
+                  },
+                  {
+                    "text": "A 씨의 아들은 경찰이 아버지가 무사하다는 말을 믿고 기다렸지만, 51일 만에 돌아온 건 시신이었다고 기자회견에서 말했습니다.",
+                    "claimRefs": [
+                      "claim-090419ce7010"
+                    ],
+                    "necessity": "기다렸다는 경험과 경찰 대응 평가는 아들의 발언이므로 그에게 명시적으로 귀속한다."
+                  }
+                ]
+              },
+              "coda": {
+                "dominantAftertaste": "행정적으로 닫힌 ‘종결’과 가족이 무사 귀환을 믿으며 보낸 51일 사이의 돌이킬 수 없는 거리",
+                "codaRationale": "아들이 직접 밝힌 기다림과 사망 발견이라는 현재 사건의 구체적 사실에서 출발해, 실종 신고의 종결이라는 말이 가족에게 남기는 무게를 청자가 스스로 헤아리게 한다. 새로운 인과관계나 피해자의 내면은 덧붙이지 않는다.",
+                "closingText": "무사하다는 말을 믿고 보낸 51일은, 실종 신고의 ‘종결’이 가족에게 무엇을 남기는지 되묻게 합니다.",
+                "claimRefs": [
+                  "claim-090419ce7010",
+                  "claim-fb85fa9fbbb8"
+                ]
+              }
+            },
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v1",
+              "packageSha256": "ad20e27c55df66000104d27986edb6d04ef7e9c2cf52d9f92b5c0a48b7ecf1c9",
+              "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+              "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+              "usedClaimRefs": [
+                "claim-9021521ce278",
+                "claim-43838b532246",
+                "claim-eb0430f6783a",
+                "claim-59a0e236a3e8",
+                "claim-bf654633457b",
+                "claim-62f10e76910d",
+                "claim-365acfa8c0d7",
+                "claim-18616907cacd",
+                "claim-fb85fa9fbbb8",
+                "claim-fc5985157490",
+                "claim-812090ca0b18",
+                "claim-3fb61fee6ef6",
+                "claim-6c9459a6c719",
+                "claim-090419ce7010"
+              ]
+            }
+          },
+          "editorialDirection": "화면을 보지 않고 내레이션만 들어도 제주서부경찰서 실종팀의 신고 접수와 시스템 기록 흐름, 삭제·미입력의 반복과 조사 확장을 따라갈 수 있게 한다. 2025년 3월 10일부터 7월 23일까지 자체 종결 298건 중 63건이 미입력 또는 삭제 처리됐다는 제주경찰청 발표와, 그중 한 실종 사례가 사망 뒤 허위 입력으로 삭제됐다는 보도는 구분해 사용한다. 63건 모두가 허위 종결이었거나 실제 수색 지연·사망과 인과관계가 있었다고 확대하지 않는다. 기록해야 할 직무와 실제 기록 처리의 간극, 한 건의 의혹이 전체 조사로 넓어지는 과정은 central axis 후보 근거지만 훅, 정보 공개 순서, 문장 리듬과 beat 구성은 모델이 자율적으로 결정한다. 삭제와 미입력의 의미, 오인 신고·즉시 발견으로 입력하지 않아도 되는 경우, 허위 종결 여부가 아직 확인되지 않은 범위를 정확히 나눈다. 취재진 장면이나 당사자 침묵을 내면의 증거로 해석하지 않고, 실종 가족의 감정·수색 지연·책임 소재를 사실처럼 보태지 않는다. 아들이 경찰의 설명을 믿고 기다렸다고 기자회견에서 말한 사실은 그 발언의 귀속 범위에서만 사용할 수 있지만, 이를 가족 모두의 믿음·감정·기다림으로 일반화하거나 내레이션이 새로 대변하지 않는다. 확인된 지휘라인 대기발령 등 법적·행정적 결과가 쓰일 경우 그 사실과 시점을 먼저 정리한 뒤 coda로 이동한다. final movement의 affective resonance와 listener self-projection은 기록·수색 절차·공적 신뢰의 보편적 의미에서만 모델이 자율 선택하며 피해자·가족의 내면이나 기다림을 대변하지 않는다. 특정한 바람·행동·감정·질문·훈계·상투어를 처방하지 않으며, 감정의 종류와 추상도·표현·길이는 모델이 결정한다. 반전이나 coda를 뒤에 덧붙이지 말고 전체 narration을 재편집한다. 2026년 8월 31일 보도와 사건 근거에 확인된 절대 날짜만 사용하고 ‘오늘·지난달’ 같은 상대 날짜는 피한다. 70~80초는 청취 목표일 뿐 글자 수 기준이 아니며 최종 판정은 owner narration locked timing에서 한다.",
+          "policyBinding": {
+            "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+            "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+            "packageSha256": "ad20e27c55df66000104d27986edb6d04ef7e9c2cf52d9f92b5c0a48b7ecf1c9"
+          }
+        },
+        "draftSnapshotSha256": "8eb92fd3e57859dd15b1650f68c994d25a83db824ead58cad1203e5c76920a30"
+      },
+      {
+        "schema": "newsroom-draft-history-entry-v1",
+        "reason": "active-unfinalized-draft-replaced",
+        "archivedAt": "2026-09-04T19:50:13.215Z",
+        "draftSnapshot": {
+          "schema": "newsroom-autonomous-script-draft-v4",
+          "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-autonomous-narration-prompt-v13",
+          "generation": {
+            "schemaVersion": 16,
+            "provider": "codex-cli",
+            "model": "gpt-5.6-sol",
+            "reasoning": "medium",
+            "promptContractVersion": "newsroom-autonomous-narration-prompt-v13",
+            "criticPromptContractVersion": "newsroom-independent-narration-critic-prompt-v3",
+            "generatorPromptSha256": "dc0d9db449e0606a13d6f80681391f97ed87918973b54991617912b99658233c",
+            "criticPromptSha256": "e87d2ad081492153e621f79d70854d6ed5e47a60c1d9a3b0aad277d5eaffa6e9",
+            "packageSha256": "7e40bd6f26623871a6f8376e9840c71e248bd5d428ac17daeef87e006c918a55",
+            "initialOutputSha256": "b038614c34efc712f4a710442e552ea21507d999f00c6db1878ee0eaf01ef67c",
+            "critiqueOutputSha256": "ec53a83205d12066f6dc2d0a98e46ff77586d9ea8e25f02059d7e718ef1bfbf4",
+            "outputSha256": "8f539e1d9f1bdad3befd1032e3cc44082e578b68d565b95b1b262ce7d966d010",
+            "currentAuthoritySha256": "8f539e1d9f1bdad3befd1032e3cc44082e578b68d565b95b1b262ce7d966d010",
+            "userEdited": false,
+            "cliVersion": "codex-cli 0.146.0",
+            "callCount": 2,
+            "generatorAttemptCount": 1,
+            "criticAttemptCount": 1,
+            "retryCount": 0,
+            "revisionApplied": true,
+            "timing": {
+              "initial": {
+                "schema": "newsroom-owner-rate-advisory-estimate-v1",
+                "compactCharacters": 514,
+                "observedCompactKoreanCharactersPerSecond": 6.87,
+                "estimatedSeconds": 74.818,
+                "targetMinimumSeconds": 70,
+                "targetMaximumSeconds": 80,
+                "withinAdvisoryTarget": true,
+                "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+              },
+              "final": {
+                "schema": "newsroom-owner-rate-advisory-estimate-v1",
+                "compactCharacters": 528,
+                "observedCompactKoreanCharactersPerSecond": 6.87,
+                "estimatedSeconds": 76.856,
+                "targetMinimumSeconds": 70,
+                "targetMaximumSeconds": 80,
+                "withinAdvisoryTarget": true,
+                "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+              }
+            },
+            "generatedAt": "2026-09-04T18:59:28.259Z"
+          },
+          "critique": {
+            "schema": "newsroom-independent-narration-critique-v2",
+            "initialVerdict": "revise",
+            "findings": [
+              {
+                "category": "factual-grounding",
+                "initialStatus": "revise",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "전수조사가 63건 각각의 미입력·삭제 이유를 가리는 단계라는 설명은 제공된 claim보다 구체적입니다. 최종본에서는 확인된 전수조사 사실만 남겼습니다.",
+                "exactQuote": "63건 각각이 왜 미입력되거나 삭제됐는지를 가리는 단계에 있습니다."
+              },
+              {
+                "category": "legal-qualification",
+                "initialStatus": "revise",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "초안은 단일 출처로 제시된 63건 집계를 단정형으로 시작했습니다. 최종본은 제주경찰청이 파악한 집계임을 문장 안에 결합하고, 장 씨 사건의 혐의와 63건 전체의 미확인 범위를 분리했습니다.",
+                "exactQuote": "63건을 시스템에 넣지 않거나 지웠습니다."
+              },
+              {
+                "category": "observer-summary",
+                "initialStatus": "pass",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "첫 두 문장은 출처나 보도 과정을 앞세우지 않고 기록 누락·삭제 규모와 사망 발견 사례를 곧바로 제시합니다. 최종본도 이 구조를 유지했습니다.",
+                "exactQuote": ""
+              },
+              {
+                "category": "repetition",
+                "initialStatus": "revise",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "전수조사 사실이 중간과 결말에서 반복됩니다. 최종본은 근무 기간을 중간에 두고 전수조사는 행정 조치와 함께 결말에서 한 번만 제시했습니다.",
+                "exactQuote": "경찰은 종결된 298건을 전수조사하고 있습니다."
+              },
+              {
+                "category": "progression",
+                "initialStatus": "revise",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "마지막 문장이 이미 나온 전수조사를 반복한 뒤 근거보다 구체적인 조사 목적을 덧붙여 진행이 정체됩니다. 최종본은 기록 규모, 개별 처리, 다른 사례, 예외 범위, 행정 조치와 전수조사 순으로 새 정보를 전개합니다.",
+                "exactQuote": "전수조사는 63건 각각이 왜 미입력되거나 삭제됐는지를 가리는 단계에 있습니다."
+              },
+              {
+                "category": "interest",
+                "initialStatus": "revise",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "첫 5초의 역할 충돌과 수치 훅은 분명하지만, 종반의 전수조사 반복이 정보 증가와 결말의 추진력을 떨어뜨립니다. 최종본은 반복을 없애고 대기발령과 조사 확장으로 닫았습니다.",
+                "exactQuote": ""
+              },
+              {
+                "category": "modality-fit",
+                "initialStatus": "pass",
+                "finalStatus": "pass",
+                "targetAuthority": "final",
+                "detail": "물리 장면을 꾸미지 않고 시스템 기록의 누락·삭제, 종결 결정, 수치 변화와 조사 범위를 중심으로 긴장을 형성해 record-institution 형식에 맞습니다.",
+                "exactQuote": ""
+              },
+              {
+                "category": "coda",
+                "initialStatus": "revise",
+                "finalStatus": "pass",
+                "targetAuthority": "initial",
+                "detail": "초안의 결말은 사건 고유 정보이지만 확인되지 않은 조사 목적을 단정합니다. 최종본은 확인된 지휘라인 대기발령과 298건 전수조사라는 결과 및 미해결 상태에서 직접 끝냅니다.",
+                "exactQuote": "왜 미입력되거나 삭제됐는지를 가리는 단계에 있습니다."
+              },
+              {
+                "category": "advisory-duration",
+                "initialStatus": "pass",
+                "finalStatus": "pass",
+                "targetAuthority": "global",
+                "detail": "초안의 자문 추정치는 74.818초로 목표인 70~80초 안입니다. 최종본도 핵심 정보량과 전체 분량을 비슷하게 유지했습니다.",
+                "exactQuote": ""
+              }
+            ],
+            "revisionApplied": true,
+            "revisionSummary": "단일 출처인 63건 집계의 귀속을 명시하고, 중복된 전수조사 언급과 근거를 넘어선 조사 목적을 제거했습니다. 혐의가 확인된 장 씨 사건과 아직 허위 종결 여부가 확인되지 않은 63건 전체를 명확히 구분했으며, 확인된 대기발령과 전수조사로 마무리했습니다.",
+            "initialAuthoritySha256": "b038614c34efc712f4a710442e552ea21507d999f00c6db1878ee0eaf01ef67c",
+            "finalAuthoritySha256": "8f539e1d9f1bdad3befd1032e3cc44082e578b68d565b95b1b262ce7d966d010",
+            "timing": {
+              "initial": {
+                "schema": "newsroom-owner-rate-advisory-estimate-v1",
+                "compactCharacters": 514,
+                "observedCompactKoreanCharactersPerSecond": 6.87,
+                "estimatedSeconds": 74.818,
+                "targetMinimumSeconds": 70,
+                "targetMaximumSeconds": 80,
+                "withinAdvisoryTarget": true,
+                "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+              },
+              "final": {
+                "schema": "newsroom-owner-rate-advisory-estimate-v1",
+                "compactCharacters": 528,
+                "observedCompactKoreanCharactersPerSecond": 6.87,
+                "estimatedSeconds": 76.856,
+                "targetMinimumSeconds": 70,
+                "targetMaximumSeconds": 80,
+                "withinAdvisoryTarget": true,
+                "authority": "advisory-only-owner-narration-locked-timing-remains-required"
+              }
+            }
+          },
+          "authority": {
+            "schema": "newsroom-autonomous-narration-v3",
+            "modality": "record-institution",
+            "narration": "실종 신고를 관리해야 할 경찰관이 자체 종결한 298건 가운데 63건을 실종 프로파일링 시스템에 넣지 않거나 삭제한 것으로 제주경찰청은 파악했습니다. 삭제 목록에는 신고 뒤 숨진 채 발견된 장 씨도 포함됐습니다. 제주서부경찰서 실종팀의 부 경장은 2025년 3월 10일부터 7월 23일까지 이 사건들을 처리했습니다. 부 경장은 장 씨와 연락이 닿았다며 접수 약 두 시간 만에 사건을 종결한 뒤 ‘교통사고 사망’으로 입력해 삭제한 것으로 조사됐고, 이 사건을 허위 종결한 혐의를 받고 있습니다. 경찰청이 의원실에 제출한 112 신고 내역에는 또 다른 60대 남성 A 씨의 사업 실패와 많은 부채, 가족에게 “잘 먹고 잘 지내라”라고 말했다는 내용이 담겼고, 이 신고도 부 경장이 허위로 종결한 것으로 파악됐습니다. 가족이 장 씨 사건의 허위 종결 소식을 접하고 A 씨를 다시 신고하자, 경찰은 다음 날 해안에서 숨진 A 씨를 발견했습니다. 첫 신고 뒤 51일이 지난 때였고, 아들은 경찰이 아버지가 무사하다는 말을 믿고 기다렸지만 돌아온 것은 시신이었다고 기자회견에서 말했습니다. 다만 오인 신고나 즉시 발견처럼 시스템에 입력하지 않아도 되는 경우가 있어, 63건 모두가 허위 종결인지는 아직 확인되지 않았습니다. 지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원이 대기발령됐고, 경찰은 부 경장이 종결한 298건 전체를 전수조사하고 있습니다.",
+            "sentences": [
+              {
+                "text": "실종 신고를 관리해야 할 경찰관이 자체 종결한 298건 가운데 63건을 실종 프로파일링 시스템에 넣지 않거나 삭제한 것으로 제주경찰청은 파악했습니다.",
+                "claimRefs": [
+                  "claim-9021521ce278"
+                ]
+              },
+              {
+                "text": "삭제 목록에는 신고 뒤 숨진 채 발견된 장 씨도 포함됐습니다.",
+                "claimRefs": [
+                  "claim-a2c9733a384c"
+                ]
+              },
+              {
+                "text": "제주서부경찰서 실종팀의 부 경장은 2025년 3월 10일부터 7월 23일까지 이 사건들을 처리했습니다.",
+                "claimRefs": [
+                  "claim-9021521ce278"
+                ]
+              },
+              {
+                "text": "부 경장은 장 씨와 연락이 닿았다며 접수 약 두 시간 만에 사건을 종결한 뒤 ‘교통사고 사망’으로 입력해 삭제한 것으로 조사됐고, 이 사건을 허위 종결한 혐의를 받고 있습니다.",
+                "claimRefs": [
+                  "claim-43838b532246",
+                  "claim-eb0430f6783a",
+                  "claim-84353ab2834c"
+                ]
+              },
+              {
+                "text": "경찰청이 의원실에 제출한 112 신고 내역에는 또 다른 60대 남성 A 씨의 사업 실패와 많은 부채, 가족에게 “잘 먹고 잘 지내라”라고 말했다는 내용이 담겼고, 이 신고도 부 경장이 허위로 종결한 것으로 파악됐습니다.",
+                "claimRefs": [
+                  "claim-59a0e236a3e8",
+                  "claim-bf654633457b",
+                  "claim-62f10e76910d"
+                ]
+              },
+              {
+                "text": "가족이 장 씨 사건의 허위 종결 소식을 접하고 A 씨를 다시 신고하자, 경찰은 다음 날 해안에서 숨진 A 씨를 발견했습니다.",
+                "claimRefs": [
+                  "claim-365acfa8c0d7",
+                  "claim-18616907cacd"
+                ]
+              },
+              {
+                "text": "첫 신고 뒤 51일이 지난 때였고, 아들은 경찰이 아버지가 무사하다는 말을 믿고 기다렸지만 돌아온 것은 시신이었다고 기자회견에서 말했습니다.",
+                "claimRefs": [
+                  "claim-fb85fa9fbbb8",
+                  "claim-090419ce7010"
+                ]
+              },
+              {
+                "text": "다만 오인 신고나 즉시 발견처럼 시스템에 입력하지 않아도 되는 경우가 있어, 63건 모두가 허위 종결인지는 아직 확인되지 않았습니다.",
+                "claimRefs": [
+                  "claim-fc5985157490",
+                  "claim-812090ca0b18",
+                  "claim-3fb61fee6ef6"
+                ]
+              },
+              {
+                "text": "지휘 책임을 물어 제주서부경찰서장을 포함한 지휘라인 전원이 대기발령됐고, 경찰은 부 경장이 종결한 298건 전체를 전수조사하고 있습니다.",
+                "claimRefs": [
+                  "claim-751bd3ea9493",
+                  "claim-6c9459a6c719"
+                ]
+              }
+            ],
+            "evidenceLineage": {
+              "schema": "newsroom-autonomous-narration-evidence-lineage-v3",
+              "packageSha256": "7e40bd6f26623871a6f8376e9840c71e248bd5d428ac17daeef87e006c918a55",
+              "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+              "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+              "usedClaimRefs": [
+                "claim-9021521ce278",
+                "claim-a2c9733a384c",
+                "claim-43838b532246",
+                "claim-eb0430f6783a",
+                "claim-84353ab2834c",
+                "claim-59a0e236a3e8",
+                "claim-bf654633457b",
+                "claim-62f10e76910d",
+                "claim-365acfa8c0d7",
+                "claim-18616907cacd",
+                "claim-fb85fa9fbbb8",
+                "claim-090419ce7010",
+                "claim-fc5985157490",
+                "claim-812090ca0b18",
+                "claim-3fb61fee6ef6",
+                "claim-751bd3ea9493",
+                "claim-6c9459a6c719"
+              ]
+            }
+          },
+          "editorialDirection": "화면을 보지 않고 내레이션만 들어도 제주서부경찰서 실종팀의 신고 접수와 시스템 기록 흐름, 삭제·미입력의 반복과 조사 확장을 따라갈 수 있게 한다. 2025년 3월 10일부터 7월 23일까지 자체 종결 298건 중 63건이 미입력 또는 삭제 처리됐다는 제주경찰청 발표와, 그중 한 실종 사례가 사망 뒤 허위 입력으로 삭제됐다는 보도는 구분해 사용한다. 63건 모두가 허위 종결이었거나 실제 수색 지연·사망과 인과관계가 있었다고 확대하지 않는다. 기록해야 할 직무와 실제 기록 처리의 간극, 한 건의 의혹이 전체 조사로 넓어지는 과정은 central axis 후보 근거지만 훅, 정보 공개 순서, 문장 리듬과 beat 구성은 모델이 자율적으로 결정한다. 삭제와 미입력의 의미, 오인 신고·즉시 발견으로 입력하지 않아도 되는 경우, 허위 종결 여부가 아직 확인되지 않은 범위를 정확히 나눈다. 취재진 장면이나 당사자 침묵을 내면의 증거로 해석하지 않고, 실종 가족의 감정·수색 지연·책임 소재를 사실처럼 보태지 않는다. 아들이 경찰의 설명을 믿고 기다렸다고 기자회견에서 말한 사실은 그 발언의 귀속 범위에서만 사용할 수 있지만, 이를 가족 모두의 믿음·감정·기다림으로 일반화하거나 내레이션이 새로 대변하지 않는다. 확인된 지휘라인 대기발령 등 법적·행정적 결과가 쓰일 경우 그 사실과 시점을 먼저 정리한 뒤 coda로 이동한다. final movement의 affective resonance와 listener self-projection은 기록·수색 절차·공적 신뢰의 보편적 의미에서만 모델이 자율 선택하며 피해자·가족의 내면이나 기다림을 대변하지 않는다. 특정한 바람·행동·감정·질문·훈계·상투어를 처방하지 않으며, 감정의 종류와 추상도·표현·길이는 모델이 결정한다. 반전이나 coda를 뒤에 덧붙이지 말고 전체 narration을 재편집한다. 2026년 8월 31일 보도와 사건 근거에 확인된 절대 날짜만 사용하고 ‘오늘·지난달’ 같은 상대 날짜는 피한다. 70~80초는 청취 목표일 뿐 글자 수 기준이 아니며 최종 판정은 owner narration locked timing에서 한다.",
+          "policyBinding": {
+            "eventDossierSha256": "922bf437cdefef3df28f5ad5eb9c07270a4a0a205eb63d79ca59f1d9913637a2",
+            "legalReportSha256": "5f61b944b0faf3d1f08ded7647f84d6c55762a015925c2b46454b663ed182d78",
+            "packageSha256": "7e40bd6f26623871a6f8376e9840c71e248bd5d428ac17daeef87e006c918a55"
+          }
+        },
+        "draftSnapshotSha256": "250800b733af4fd821866c9e23cc53feed010b5a2902d3ccc2d70db1c1009d13"
+      }
+    ]
+  }
+}

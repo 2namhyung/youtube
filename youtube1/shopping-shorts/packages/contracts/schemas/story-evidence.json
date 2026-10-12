@@ -1,0 +1,128 @@
+{
+  "$defs": {
+    "TrendPoint": {
+      "additionalProperties": false,
+      "properties": {
+        "at": {
+          "format": "date-time",
+          "title": "At",
+          "type": "string"
+        },
+        "value": {
+          "minimum": 0,
+          "title": "Value",
+          "type": "number"
+        }
+      },
+      "required": [
+        "at",
+        "value"
+      ],
+      "title": "TrendPoint",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "url": {
+      "format": "uri",
+      "maxLength": 2083,
+      "minLength": 1,
+      "title": "Url",
+      "type": "string"
+    },
+    "title": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "summary": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Summary",
+      "type": "string"
+    },
+    "surface": {
+      "enum": [
+        "web-article",
+        "chrome-article",
+        "chrome-video",
+        "provided-transcript",
+        "search-results",
+        "search-trend"
+      ],
+      "title": "Surface",
+      "type": "string"
+    },
+    "observed_at": {
+      "format": "date-time",
+      "title": "Observed At",
+      "type": "string"
+    },
+    "published_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Published At"
+    },
+    "actor": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Actor",
+      "type": "string"
+    },
+    "model": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Model",
+      "type": "string"
+    },
+    "source_family": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Source Family",
+      "type": "string"
+    },
+    "observation_scope": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Observation Scope",
+      "type": "string"
+    },
+    "series": {
+      "items": {
+        "$ref": "#/$defs/TrendPoint"
+      },
+      "maxItems": 366,
+      "title": "Series",
+      "type": "array"
+    },
+    "series_basis": {
+      "default": "",
+      "maxLength": 2000,
+      "title": "Series Basis",
+      "type": "string"
+    }
+  },
+  "required": [
+    "url",
+    "title",
+    "summary",
+    "surface",
+    "observed_at",
+    "actor",
+    "model",
+    "source_family",
+    "observation_scope"
+  ],
+  "title": "StoryEvidence",
+  "type": "object"
+}

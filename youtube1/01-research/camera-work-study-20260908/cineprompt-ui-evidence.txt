@@ -1,0 +1,568 @@
+Browser tab: 1562644263, Title: "CinePrompt — AI Video Prompt Builder for Filmmakers", URL: "https://cineprompt.io/".
+0 AXWebArea CinePrompt — AI Video Prompt Builder for Filmmakers, URL: cineprompt.io/
+	1 container app-header
+		2 image CinePrompt
+		3 button Single
+		4 button Multi-Shot
+		5 button Frame → Motion
+		6 button Storyboard
+		7 container
+			8 button ⚙, Help: Settings, ID: header-settings-btn
+			9 button Sign In, ID: auth-sign-in-btn
+	479 container
+		480 button SIMPLE
+		481 button COMPLEX
+	13 container prompts-drawer
+		14 heading 💾 My Prompts, Value: 3
+			15 text 💾 My Prompts
+		16 button + Project, ID: prompts-add-project
+		17 button ✕, ID: prompts-drawer-close
+		18 text field (settable) prompts-search
+		19 container prompts-layout
+			20 text Loading...
+			21 container prompts-unsorted-panel
+				22 text Unsorted
+				23 text (0)
+	24 container sublib-drawer
+		25 heading 📚 Subject Library, Value: 3
+			26 text 📚 Subject Library
+		27 button ✕, ID: sublib-close
+		28 container sublib-body
+			29 button + New Subject, ID: sublib-add-btn
+			30 container
+				31 text No subjects yet.
+				32 text Create your first character, creature, or object to build a reusable cast for your projects.
+	33 container app-layout
+		482 container storyboard-container
+			483 container sb-stp-bar
+				484 text field (settable) sb-stp-input
+				485 container
+					486 button ✦ Fill, Help: Fill storyboard from description, ID: sb-stp-submit
+					487 button ▾, Help: Creativity level, ID: sb-stp-level-toggle
+			488 text GRID
+			489 container sb-grid-options
+				490 button 2×2
+				491 button 3×3
+				492 button 4×4
+				493 button 5×5
+			494 text CELL ASPECT RATIO
+			495 container sb-ar-options
+				496 button 16:9
+				497 button 4:3
+				498 button 1:1
+				499 button 9:16
+				500 button 21:9
+			501 container sb-global-section
+				502 container
+					503 text GLOBAL SETTINGS ▾
+				504 container sb-global-content
+					505 text MEDIA TYPE
+					506 container
+						507 button 🎬 Cinematic
+						508 button 📹 Documentary
+						509 button 💼 Commercial
+						510 button 🏢 Corporate
+						511 button 🎵 Music Video
+						512 button 📹 Home Video
+						513 button 🎨 Avant-Garde
+						514 button ✏️ Animation
+						515 button 📡 Broadcast / News
+						516 button 📱 Social Media
+						517 button 🎓 Educational
+						518 button 📼 Found Footage
+						519 button 🎬 Behind-the-Scenes
+					520 text LIGHTING
+					521 container
+						522 button ☀️ Daylight
+						523 button 🌞 Sunny
+						524 button 🌙 Moonlight
+						525 button 🕯️ Candlelight
+						526 button 🔥 Fire Light
+						527 button 💡 Artificial
+						528 button 🪔 Practical
+						529 button 🏪 Fluorescent
+						530 button 🟠 Tungsten
+						531 button 💜 Neon
+						532 button 🟡 Sodium Vapor
+						533 button 🔀 Mixed Light
+						534 button 🪟 Window Light
+						535 button 🪞 Reflected Light
+						536 button 🌤️ God Rays
+					537 text COLOR GRADE
+					538 container
+						539 button 🌿 Natural
+						540 button 🔥 Warm
+						541 button ❄️ Cool
+						542 button 🎬 Teal/Orange
+						543 button 🌫️ Desaturated
+						544 button 📷 Vintage
+						545 button ⚫ B&W
+						546 button 🌃 Neon Noir
+						547 button ⬛ Crushed Blacks
+						548 button 🔀 Cross-Processed
+						549 button 🌙 Day for Night
+						550 button 🟦 Monochromatic
+						551 button 🎨 Technicolor
+						552 button 🌈 High Saturation
+						553 button 🤎 Muted Earth
+						554 button 🩶 Bleach Bypass
+					555 text Environment / Location
+					556 text entry area (settable)
+			557 container sb-recurring-section
+				558 container
+					559 text RECURRING CHARACTERS / ELEMENTS ▾
+				560 container sb-recurring-content
+					561 text Define characters, objects, or vehicles once. Reference them by name in each frame's Scene Description.
+					562 button + New, ID: sb-add-character-btn
+					563 button 📚 From Library, ID: sb-from-library-btn
+			564 container sb-frames-container
+				565 container sb-frame-1
+					566 text FRAME 1
+					567 button ✕
+					568 text SHOT TYPE
+					569 container
+						570 button 🏔️ EWS
+						571 button 🌐 Wide
+						572 button 🏛️ Estab
+						573 button 🎬 Master
+						574 button 🧍 Full
+						575 button 📐 MWS
+						576 button 🤠 Cowboy
+						577 button 🙎 MS
+						578 button 🙂 MCU
+						579 button 👁️ CU
+						580 button 🔍 ECU
+						581 button 👆 High
+						582 button 👇 Low
+						583 button 👤 Eye
+						584 button 🦅 Bird
+						585 button ⬇️ God
+						586 button 🔷 Dutch
+						587 button 👥 Two
+						588 button 👥 Three
+						589 button 😮 React
+						590 button 🗣️ OTS
+						591 button 📌 Insert
+						592 button 👀 POV
+						593 button 🪞 Trunk
+					594 text Description
+					595 text entry area (settable)
+				596 container sb-frame-2
+					597 text FRAME 2
+					598 button ✕
+					599 text SHOT TYPE
+					600 container
+						601 button 🏔️ EWS
+						602 button 🌐 Wide
+						603 button 🏛️ Estab
+						604 button 🎬 Master
+						605 button 🧍 Full
+						606 button 📐 MWS
+						607 button 🤠 Cowboy
+						608 button 🙎 MS
+						609 button 🙂 MCU
+						610 button 👁️ CU
+						611 button 🔍 ECU
+						612 button 👆 High
+						613 button 👇 Low
+						614 button 👤 Eye
+						615 button 🦅 Bird
+						616 button ⬇️ God
+						617 button 🔷 Dutch
+						618 button 👥 Two
+						619 button 👥 Three
+						620 button 😮 React
+						621 button 🗣️ OTS
+						622 button 📌 Insert
+						623 button 👀 POV
+						624 button 🪞 Trunk
+					625 text Description
+					626 text entry area (settable)
+				627 container sb-frame-3
+					628 text FRAME 3
+					629 button ✕
+					630 text SHOT TYPE
+					631 container
+						632 button 🏔️ EWS
+						633 button 🌐 Wide
+						634 button 🏛️ Estab
+						635 button 🎬 Master
+						636 button 🧍 Full
+						637 button 📐 MWS
+						638 button 🤠 Cowboy
+						639 button 🙎 MS
+						640 button 🙂 MCU
+						641 button 👁️ CU
+						642 button 🔍 ECU
+						643 button 👆 High
+						644 button 👇 Low
+						645 button 👤 Eye
+						646 button 🦅 Bird
+						647 button ⬇️ God
+						648 button 🔷 Dutch
+						649 button 👥 Two
+						650 button 👥 Three
+						651 button 😮 React
+						652 button 🗣️ OTS
+						653 button 📌 Insert
+						654 button 👀 POV
+						655 button 🪞 Trunk
+					656 text Description
+					657 text entry area (settable)
+				658 container sb-frame-4
+					659 text FRAME 4
+					660 button ✕
+					661 text SHOT TYPE
+					662 container
+						663 button 🏔️ EWS
+						664 button 🌐 Wide
+						665 button 🏛️ Estab
+						666 button 🎬 Master
+						667 button 🧍 Full
+						668 button 📐 MWS
+						669 button 🤠 Cowboy
+						670 button 🙎 MS
+						671 button 🙂 MCU
+						672 button 👁️ CU
+						673 button 🔍 ECU
+						674 button 👆 High
+						675 button 👇 Low
+						676 button 👤 Eye
+						677 button 🦅 Bird
+						678 button ⬇️ God
+						679 button 🔷 Dutch
+						680 button 👥 Two
+						681 button 👥 Three
+						682 button 😮 React
+						683 button 🗣️ OTS
+						684 button 📌 Insert
+						685 button 👀 POV
+						686 button 🪞 Trunk
+					687 text Description
+					688 text entry area (settable)
+				689 container sb-frame-5
+					690 text FRAME 5
+					691 button ✕
+					692 text SHOT TYPE
+					693 container
+						694 button 🏔️ EWS
+						695 button 🌐 Wide
+						696 button 🏛️ Estab
+						697 button 🎬 Master
+						698 button 🧍 Full
+						699 button 📐 MWS
+						700 button 🤠 Cowboy
+						701 button 🙎 MS
+						702 button 🙂 MCU
+						703 button 👁️ CU
+						704 button 🔍 ECU
+						705 button 👆 High
+						706 button 👇 Low
+						707 button 👤 Eye
+						708 button 🦅 Bird
+						709 button ⬇️ God
+						710 button 🔷 Dutch
+						711 button 👥 Two
+						712 button 👥 Three
+						713 button 😮 React
+						714 button 🗣️ OTS
+						715 button 📌 Insert
+						716 button 👀 POV
+						717 button 🪞 Trunk
+					718 text Description
+					719 text entry area (settable)
+				720 container sb-frame-6
+					721 text FRAME 6
+					722 button ✕
+					723 text SHOT TYPE
+					724 container
+						725 button 🏔️ EWS
+						726 button 🌐 Wide
+						727 button 🏛️ Estab
+						728 button 🎬 Master
+						729 button 🧍 Full
+						730 button 📐 MWS
+						731 button 🤠 Cowboy
+						732 button 🙎 MS
+						733 button 🙂 MCU
+						734 button 👁️ CU
+						735 button 🔍 ECU
+						736 button 👆 High
+						737 button 👇 Low
+						738 button 👤 Eye
+						739 button 🦅 Bird
+						740 button ⬇️ God
+						741 button 🔷 Dutch
+						742 button 👥 Two
+						743 button 👥 Three
+						744 button 😮 React
+						745 button 🗣️ OTS
+						746 button 📌 Insert
+						747 button 👀 POV
+						748 button 🪞 Trunk
+					749 text Description
+					750 text entry area (settable)
+				751 container sb-frame-7
+					752 text FRAME 7
+					753 button ✕
+					754 text SHOT TYPE
+					755 container
+						756 button 🏔️ EWS
+						757 button 🌐 Wide
+						758 button 🏛️ Estab
+						759 button 🎬 Master
+						760 button 🧍 Full
+						761 button 📐 MWS
+						762 button 🤠 Cowboy
+						763 button 🙎 MS
+						764 button 🙂 MCU
+						765 button 👁️ CU
+						766 button 🔍 ECU
+						767 button 👆 High
+						768 button 👇 Low
+						769 button 👤 Eye
+						770 button 🦅 Bird
+						771 button ⬇️ God
+						772 button 🔷 Dutch
+						773 button 👥 Two
+						774 button 👥 Three
+						775 button 😮 React
+						776 button 🗣️ OTS
+						777 button 📌 Insert
+						778 button 👀 POV
+						779 button 🪞 Trunk
+					780 text Description
+					781 text entry area (settable)
+				782 container sb-frame-8
+					783 text FRAME 8
+					784 button ✕
+					785 text SHOT TYPE
+					786 container
+						787 button 🏔️ EWS
+						788 button 🌐 Wide
+						789 button 🏛️ Estab
+						790 button 🎬 Master
+						791 button 🧍 Full
+						792 button 📐 MWS
+						793 button 🤠 Cowboy
+						794 button 🙎 MS
+						795 button 🙂 MCU
+						796 button 👁️ CU
+						797 button 🔍 ECU
+						798 button 👆 High
+						799 button 👇 Low
+						800 button 👤 Eye
+						801 button 🦅 Bird
+						802 button ⬇️ God
+						803 button 🔷 Dutch
+						804 button 👥 Two
+						805 button 👥 Three
+						806 button 😮 React
+						807 button 🗣️ OTS
+						808 button 📌 Insert
+						809 button 👀 POV
+						810 button 🪞 Trunk
+					811 text Description
+					812 text entry area (settable)
+				813 container sb-frame-9
+					814 text FRAME 9
+					815 button ✕
+					816 text SHOT TYPE
+					817 container
+						818 button 🏔️ EWS
+						819 button 🌐 Wide
+						820 button 🏛️ Estab
+						821 button 🎬 Master
+						822 button 🧍 Full
+						823 button 📐 MWS
+						824 button 🤠 Cowboy
+						825 button 🙎 MS
+						826 button 🙂 MCU
+						827 button 👁️ CU
+						828 button 🔍 ECU
+						829 button 👆 High
+						830 button 👇 Low
+						831 button 👤 Eye
+						832 button 🦅 Bird
+						833 button ⬇️ God
+						834 button 🔷 Dutch
+						835 button 👥 Two
+						836 button 👥 Three
+						837 button 😮 React
+						838 button 🗣️ OTS
+						839 button 📌 Insert
+						840 button 👀 POV
+						841 button 🪞 Trunk
+					842 text Description
+					843 text entry area (settable)
+			844 container sb-output-section
+				845 container sb-output-controls
+					846 button Reset, ID: sb-reset-btn
+					847 container
+						848 button Storyboard
+						849 button Motion
+					850 button 💾, Help: Save Prompt, ID: sb-save-prompt-btn
+					851 button 🔗, Help: Share Prompt, ID: sb-share-prompt-btn
+					852 button ✏️, Help: Edit prompt text, ID: sb-edit-prompt-btn
+					853 button { }, Help: Switch to JSON format, ID: sb-json-toggle-btn
+					883 button 📋 Copy, ID: sb-copy-motion
+				884 container
+					885 text entry area (settable) sb-motion-textarea
+					886 text ADD
+					887 button 🎙️ Dialogue
+					888 button 🔊 Sound
+					889 text CAMERA
+					890 button 📌 Static
+					891 button 🔍 Push In
+					892 button ↩️ Pull Back
+					893 button ↔️ Pan
+					894 button 🎥 Track
+					895 button 🔄 Orbit
+					896 button 🏗️ Crane
+					897 button 📹 Handheld
+					898 button 🚁 Aerial
+					899 text PACING
+					900 button 🐌 Slow Mo
+					901 button ▶️ Real-Time
+					902 button ⏱️ Time-Lapse
+					903 text TRANSITION
+					904 button 💨 Whip Pan
+					905 button 🎬 Steadicam
+					906 button 🔍 Rack Focus
+					907 button ✨ Reveal
+					908 button 🌀 Morph
+					909 button 💭 Dissolve
+					910 text DIRECTION
+					911 button 📈 Slow Build
+					912 button 🔢 One at a Time
+					913 button 🫁 Breathe
+					914 button ⚓ Anchor
+					915 button 🍎 Physics
+					916 button 🌪️ Chaos
+					917 button 🪞 Match
+		858 container
+			859 container sb-gen-col-grids
+				860 text STORYBOARD MODEL
+				861 pop up button (collapsed, settable) Value: GPT Image 2, ID: sb-gen-model-select, Secondary Actions: Expand
+					862 menu
+						863 (selected) GPT Image 2
+						864 Grok Imagine Quality
+						865 Nano Banana Pro
+						866 GPT Image 2
+						867 Grok Imagine Quality
+						868 Nano Banana Pro
+						869 GPT Image 2
+				870 text EXPAND MODEL
+				871 pop up button (collapsed, settable) ID: sb-expand-model-select, Secondary Actions: Expand
+				872 button (disabled) Generate Grid, Help: Add an API key in Settings first, ID: sb-gen-submit-btn
+				873 text Est: ~$0.40 per grid
+				874 text Generate a storyboard grid to see results here.
+			875 container sb-gen-col-frames
+				876 text EXPANDED FRAMES
+				877 text RESOLUTION
+				878 container sb-expand-res-options
+					879 button 1K
+					880 button 2K
+					881 button 4K
+				882 text Select a frame from the grid to expand it to full resolution.
+		918 container generate-panel
+			919 container
+				920 text 💡
+				921 text Generate:
+				922 text  Add your API key in 
+				923 text Settings
+				924 text  to create videos directly. Your key stays in your browser and is never sent to CinePrompt.
+				925 button Dismiss
+				926 container gen-key-compact
+					927 text 🔑
+					928 link Description: Add an API key, ID: compact-key-add-link
+						929 text Add an API key
+					930 text  to generate
+				931 text IMG2VID MODEL
+				932 pop up button (collapsed, settable) Value: Grok Imagine 1.5 Private, ID: gen-model-select, Secondary Actions: Expand
+					933 menu
+						934 (selected) Grok Imagine 1.5 Private
+						935 Grok Imagine 1.5 R2V Private
+						936 Sora 2 Pro
+						937 Gemini Omni Flash 1.1
+						938 Gemini Omni Flash 1.1 R2V
+						939 Veo 3.1
+						940 Flux 3
+						941 Flux 3 First-Last
+						942 Seedance 2.5
+						943 Seedance 2.5 R2V
+						944 Seedance 2.0
+						945 Seedance 2.0 R2V
+						946 Seedance 1.5 Pro
+						947 Kling V3 4K R2V
+						948 Kling O3 4K
+						949 Kling O3 4K R2V
+						950 MiniMax H3
+						951 MiniMax H3 R2V
+						952 MiniMax H3 Enhanced R2V
+						953 WAN 3.0 Prime
+						954 WAN 3.0 Prime R2V
+						955 HappyHorse 1.1
+						956 HappyHorse 1.1 R2V
+						957 LTX 2.3
+						958 LTX 2.5 Pro
+						959 PixVerse C1
+						960 PixVerse C1 Transition
+						961 Runway Gen-4.5
+				962 container gen-settings-container
+					963 text DURATION
+					964 container gen-duration-btns
+						965 button 1s
+						966 button 2s
+						967 button 3s
+						968 button 4s
+						969 button 5s
+						970 button 6s
+						971 button 7s
+						972 button 8s
+						973 button 9s
+						974 button 10s
+						975 button 11s
+						976 button 12s
+						977 button 13s
+						978 button 14s
+						979 button 15s
+					980 text ASPECT RATIO
+					981 text Auto
+					982 text RESOLUTION
+					983 container gen-resolution-btns
+						984 button 1080p
+						985 button 720p
+						986 button 480p
+				987 container i2v-drop-container
+					988 text SOURCE IMAGES
+					989 container
+						990 text 🖼 START FRAME
+						991 button 파일 선택, Help: Upload image
+				992 container gen-cost-estimate
+					993 text Est: 
+					994 text ~80 credits ($0.80)
+					995 text  per clip
+				996 button (disabled) Generate Video from Image, Help: Set up an API key in Settings first, ID: gen-submit-btn
+				997 button ↑ Upload, ID: vid-upload-btn
+	460 container
+		461 text © 2026 Light Owl, LLC ·
+		462 link Description: Terms, Value: cineprompt.io/terms
+		463 text ·
+		464 link Description: Privacy, Value: cineprompt.io/privacy
+		465 text ·
+		466 link Description: Field Notes, Value: cineprompt.io/field-notes
+		467 text ·
+		468 link Description: Podcast, Value: cineprompt.io/podcast
+		469 text ·
+		470 link Description: Blog, Value: cineprompt.io/blog
+		471 text ·
+		472 link Description: Models, Value: cineprompt.io/models
+		473 text ·
+		474 link Description: Changelog, Value: cineprompt.io/changelog
+		475 text ·
+		476 link Description: Feature Requests, Value: mailto:requests@cineprompt.io
+		477 text ·
+		478 link Description: ▶ Tutorial, Value: cineprompt.io/#, ID: tutorial-open
+
+The focused UI element is 849 button Motion

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.youtube.invalid/news-radar/article-pool-v3.schema.json",
+  "title": "News Radar balanced article pool v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "generated_at",
+    "content_scope",
+    "metadata_only",
+    "full_bodies_included",
+    "excerpt_max_chars",
+    "stale_after_hours",
+    "rolling_window_days",
+    "bounded_limit",
+    "daily_article_limit",
+    "covered_day_count",
+    "daily_counts",
+    "archive",
+    "articles"
+  ],
+  "properties": {
+    "version": { "const": 3 },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "content_scope": { "const": "publisher-feed-and-sitemap-metadata-with-bounded-excerpt" },
+    "metadata_only": { "const": true },
+    "full_bodies_included": { "const": false },
+    "excerpt_max_chars": { "type": "integer", "minimum": 0, "maximum": 1200 },
+    "stale_after_hours": { "type": "integer", "minimum": 1, "maximum": 168 },
+    "rolling_window_days": { "const": 30 },
+    "bounded_limit": { "const": 3000 },
+    "daily_article_limit": { "const": 100 },
+    "covered_day_count": { "type": "integer", "minimum": 0, "maximum": 30 },
+    "daily_counts": {
+      "type": "object",
+      "maxProperties": 30,
+      "propertyNames": { "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+      "additionalProperties": { "type": "integer", "minimum": 1, "maximum": 100 }
+    },
+    "archive": { "type": "object" },
+    "articles": {
+      "type": "array",
+      "maxItems": 3000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "article_id",
+          "source",
+          "title",
+          "url",
+          "published_at",
+          "collected_at",
+          "deterministic_score",
+          "feed_excerpt",
+          "excerpt_provenance"
+        ],
+        "properties": {
+          "article_id": { "type": "string", "pattern": "^[a-f0-9]{24}$" },
+          "source": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+          "published_at": { "type": "string" },
+          "collected_at": { "type": "string", "format": "date-time" },
+          "deterministic_score": { "type": "integer" },
+          "feed_excerpt": { "type": "string", "maxLength": 1200 },
+          "excerpt_provenance": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

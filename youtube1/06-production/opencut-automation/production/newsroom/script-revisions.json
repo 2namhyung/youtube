@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "authoritative-script-revisions-v1",
+  "revisions": [
+    {
+      "revisionId": "coffee-suspense-transition-v2",
+      "newsroomSlug": "research-657380fce7eaccc9",
+      "productionProjectId": "coffee-pesticide-hospital-short-v1",
+      "expectedDraftSha256": "bf43f0e97c1eb916d544ff3d6fe28b2fdbc02e8ffe420b4db8f17c571f64873e",
+      "appliedAt": "2026-08-08T07:00:20.439Z",
+      "requestedBy": "user-editorial-action",
+      "reason": "Remove the repeated sentence transition while preserving the appeal outcome, victim-impact question and ending tone.",
+      "findText": "항소심에선 징역 1년 6개월에 집행유예 3년으로 감형됐습니다.\n\n하지만 피해자의 커피잔에 남은 공포도 줄었을까요?\n형은 언젠가 끝납니다.\n피해자는 그 이후를 어떻게 살아갈까요?",
+      "replacementText": "항소심에선 징역 1년 6개월에 집행유예 3년으로 형이 줄었습니다.\n\n하지만 피해자의 커피잔에 남은 공포도 줄었을까요?\n\n형은 언젠가 끝나지만,\n피해자는 그 이후를 살아가야 합니다.",
+      "protectedExactPhrases": [
+        "검찰은 살인미수를 주장했지만 법원이 인정한 건 특수상해였습니다.",
+        "1심 징역 2년.",
+        "징역 1년 6개월",
+        "집행유예 3년",
+        "피해자의 커피잔에 남은 공포",
+        "형은 언젠가",
+        "피해자는",
+        "열린 컵, 건네받은 음료, 잠깐 비운 자리까지 의심하게 될지도 모릅니다."
+      ]
+    }
+  ]
+}

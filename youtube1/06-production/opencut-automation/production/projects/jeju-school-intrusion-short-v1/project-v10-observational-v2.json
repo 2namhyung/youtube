@@ -1,0 +1,252 @@
+{
+  "id": "jeju-school-intrusion-short-v10-observational-v2",
+  "title": {
+    "line1": "제주 초등학교",
+    "line2": "교실 침입 사건"
+  },
+  "scriptSource": "../../newsroom/projects/jeju-school-intrusion.json",
+  "assets": "assets/images",
+  "thumbnail": {
+    "image": "../../../../../04-visual-assets/runs/jeju-school-intrusion-thumbnail-20260803/jeju-school-intrusion-thumbnail-layout-v3-caption-free.png",
+    "sha256": "6e962b6d52cccd3066b2cef45107b1cb2bf4cb385d6a500a637022adeac630c7",
+    "source": "v7-source-grounded-03-classroom-window-layout-caption-free",
+    "provenance": "../../../../../04-visual-assets/runs/jeju-school-intrusion-thumbnail-20260803/selection-layout-v3.md"
+  },
+  "scenes": [
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/03-classroom-window.png",
+      "captionAnchor": "넷플릭스 시리즈 참교육에",
+      "camera": "push-in",
+      "intensity": 0.12,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/video/v9-source-grounded-hybrid-hq/01-classroom-window.mp4",
+      "captionAnchor": "나오는 교권보호국.",
+      "camera": "push-in",
+      "intensity": 0.08,
+      "zoom": 1.01,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/08-cctv-desk.png",
+      "captionAnchor": "현실에도 진짜 필요한 거",
+      "camera": "push-in",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/video/v9-source-grounded-hybrid-hq/02-school-exterior.mp4",
+      "captionAnchor": "지난 4월 제주 한 초등학교",
+      "camera": "push-in",
+      "intensity": 0.08,
+      "zoom": 1.01,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/13-window-latch-detail.png",
+      "captionAnchor": "교실에 누군가 침입했습니다.",
+      "camera": "drift-left",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/04-teacher-desk.png",
+      "captionAnchor": "다음 날 여교사의 텀블러에서",
+      "camera": "push-in",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/05-tumbler-closeup.png",
+      "captionAnchor": "발견된 액체는 충격적이게도",
+      "camera": "push-in",
+      "intensity": 0.14,
+      "zoom": 1.03,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/video/v9-source-grounded-hybrid-hq/03-tumbler-rim.mp4",
+      "captionAnchor": "남성의 정액이었습니다.",
+      "camera": "push-in",
+      "intensity": 0.08,
+      "zoom": 1.01,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/15-classroom-aisle.png",
+      "captionAnchor": "한 달 뒤.",
+      "camera": "pull-out",
+      "intensity": 0.1,
+      "zoom": 1.03,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/07-empty-chair.png",
+      "captionAnchor": "같은 침입자가 교사용 의자에",
+      "camera": "push-in",
+      "intensity": 0.12,
+      "zoom": 1.03,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/video/v9-source-grounded-hybrid-hq/04-cctv-monitor.mp4",
+      "captionAnchor": "범인은 16살 고등학생.",
+      "camera": "push-in",
+      "intensity": 0.08,
+      "zoom": 1.01,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/19-case-folder-recorder.png",
+      "captionAnchor": "혐의를 모두 인정했지만",
+      "camera": "drift-left",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/09-interview-room.png",
+      "captionAnchor": "성적인 목적도 아니고",
+      "camera": "pull-out",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/17-forensics-device-detail.png",
+      "captionAnchor": "피해 교사 측이 요청한",
+      "camera": "push-in",
+      "intensity": 0.12,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/10-digital-forensics.png",
+      "captionAnchor": "영장은 기각됐고,",
+      "camera": "drift-right",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/06-forensic-evidence.png",
+      "captionAnchor": "혐의는 건조물침입과",
+      "camera": "push-in",
+      "intensity": 0.12,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/video/v9-source-grounded-hybrid-hq/05-locked-door.mp4",
+      "captionAnchor": "이게 말이 되나요?",
+      "camera": "push-in",
+      "intensity": 0.08,
+      "zoom": 1.01,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/11-locked-door.png",
+      "captionAnchor": "범인이 잡혔는데도",
+      "camera": "push-in",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/02-low-classroom.png",
+      "captionAnchor": "피해자는 늘 공포에 시달리며",
+      "camera": "pull-out",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/12-access-control.png",
+      "captionAnchor": "드라마처럼 응징을 하자는 게",
+      "camera": "pull-out",
+      "intensity": 0.1,
+      "zoom": 1.03,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "asset": "assets/images/v8-source-grounded-hybrid/18-access-reader-detail.png",
+      "captionAnchor": "하지만 수사 상황 통지와",
+      "camera": "push-in",
+      "intensity": 0.1,
+      "zoom": 1.02,
+      "label": "사건 내용 기반 AI 재구성"
+    }
+  ],
+  "captionPreset": {
+    "id": "reference-v3-semantic-2line",
+    "fontFamily": "Noto Sans KR",
+    "fontWeight": 800,
+    "fontSize": 88,
+    "scaleX": 94,
+    "safeWidth": 920,
+    "maxLines": 2,
+    "lineHeight": 1.08,
+    "x": 540,
+    "y": 1400,
+    "color": "#FFFFFF",
+    "outlineColor": "#000000",
+    "outlineWidth": 5,
+    "background": "none"
+  },
+  "bgm": {
+    "provider": "local-file",
+    "prompt": "restrained investigative documentary instrumental underscore, dark low drone, sparse felt piano pulses, muted bass, subtle ticking texture, slow 68 BPM, minor mode, tense but unobtrusive, no melody lead, no vocals, no drums overpowering narration",
+    "seed": 4101,
+    "audio": "../../../../../05-bgm-generation/runs/jeju-school-intrusion-ai-bgm-v1/a_candidate_normalized.wav",
+    "output": "../../../../../05-bgm-generation/runs/jeju-school-intrusion-ai-bgm-v1/a_candidate_normalized.wav",
+    "model": "acestep-v15-turbo + acestep-5Hz-lm-0.6B",
+    "version": "ACE-Step 1.5 (official local inference, commit 6d467e4b5081ccb0abf1ec1bf4fdf9051a2d34b0)",
+    "license": "MIT (ACE-Step code and model repository metadata)",
+    "sha256": "9fe2ddabf1a7274706c3888ecd3316dcfef7447eb4b211617dd512762709c899",
+    "provenance": "../../../../../05-bgm-generation/runs/jeju-school-intrusion-ai-bgm-v1/a_candidate.json",
+    "volumeDb": -16,
+    "duckUnderNarration": true,
+    "fadeSeconds": 1.2,
+    "required": false
+  },
+  "narration": {
+    "mode": "approved-locked",
+    "audio": "../../../../../03-script-voice/releases/qwen-jeju-canonical-20260801/approved-narration/narration-retimed.m4a",
+    "handoff": "../../../../../03-script-voice/releases/qwen-jeju-canonical-20260801/approved-narration/handoff.json",
+    "audioSha256": "58e4d9d1bcfb04790953556b1fbf9f873386eb1dd978191e28853f593f554649",
+    "cueCount": 36,
+    "source": "approved-locked-owner-audio"
+  },
+  "releaseGate": {
+    "publishable": false,
+    "releaseStatus": "preview",
+    "uploadBlocked": true,
+    "blockers": [
+      {
+        "id": "legal-claim-review-2021do7538",
+        "stage": "07-quality-assurance",
+        "severity": "block",
+        "claim": "물건 오염만으로 성범죄가 적용되진 않기 때문입니다",
+        "reason": "대법원 2021도7538은 피해자가 당시 인식하지 못한 상태에서 신체에 소변이 닿은 행위도 강제추행으로 판단될 수 있음을 보여 주므로, 고정 문장의 범주적 법률 단정은 공개 전 법률 검토가 필요합니다.",
+        "authority": {
+          "case": "대법원 2021도7538",
+          "url": "https://www.scourt.go.kr/supreme/news/NewsViewAction2.work?gubun=4&searchOption=&searchWord=&seqnum=8043"
+        }
+      }
+    ]
+  },
+  "media": {
+    "sceneReplacements": {
+      "2": "assets/video/v10-observational-hq/scene-01-classroom-window.mp4",
+      "4": "assets/video/v10-observational-hq/scene-02-school-exterior.mp4",
+      "8": "assets/video/v10-observational-hq/scene-03-tumbler-rim-macro.mp4",
+      "11": "assets/video/v10-observational-hq/scene-04-cctv-monitor-detail.mp4",
+      "17": "assets/video/v10-observational-hq/scene-05-locked-door.mp4"
+    }
+  }
+}

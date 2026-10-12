@@ -1,0 +1,623 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-20260728\\source-work\\F4_train.full.wav",
+  "model": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F\\asr\\model-cache\\models--Systran--faster-whisper-large-v3\\snapshots\\edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 68.117375,
+  "duration_after_vad": 46.592,
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.13,
+      "end": 6.69,
+      "text": "교권보호국이라는 설정은 허구지만 현실의 교권보호제도는 제대로 작동하고 있을까요?",
+      "avg_logprob": -0.06565411638769304,
+      "no_speech_prob": 0.003124237060546875,
+      "compression_ratio": 1.5680473372781065,
+      "words": [
+        {
+          "start": 1.13,
+          "end": 2.19,
+          "word": " 교권보호국이라는",
+          "probability": 0.9661865234375
+        },
+        {
+          "start": 2.19,
+          "end": 2.85,
+          "word": " 설정은",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 2.85,
+          "end": 3.35,
+          "word": " 허구지만",
+          "probability": 0.9925130208333334
+        },
+        {
+          "start": 3.35,
+          "end": 4.33,
+          "word": " 현실의",
+          "probability": 0.9462890625
+        },
+        {
+          "start": 4.33,
+          "end": 5.39,
+          "word": " 교권보호제도는",
+          "probability": 0.9460720486111112
+        },
+        {
+          "start": 5.39,
+          "end": 5.63,
+          "word": " 제대로",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 5.63,
+          "end": 6.21,
+          "word": " 작동하고",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 6.21,
+          "end": 6.69,
+          "word": " 있을까요?",
+          "probability": 0.999755859375
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 7.86,
+      "end": 12.74,
+      "text": "지난 4월 제주에서 16살 고등학생이 초등학교 교실에 침입했습니다.",
+      "avg_logprob": -0.06565411638769304,
+      "no_speech_prob": 0.003124237060546875,
+      "compression_ratio": 1.5680473372781065,
+      "words": [
+        {
+          "start": 7.86,
+          "end": 8.26,
+          "word": " 지난",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 8.26,
+          "end": 8.72,
+          "word": " 4월",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 8.72,
+          "end": 9.22,
+          "word": " 제주에서",
+          "probability": 0.9933268229166666
+        },
+        {
+          "start": 9.22,
+          "end": 10.1,
+          "word": " 16살",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 10.1,
+          "end": 10.94,
+          "word": " 고등학생이",
+          "probability": 0.9994140625
+        },
+        {
+          "start": 10.94,
+          "end": 11.66,
+          "word": " 초등학교",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 11.66,
+          "end": 12.3,
+          "word": " 교실에",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 12.3,
+          "end": 12.74,
+          "word": " 침입했습니다.",
+          "probability": 0.9998779296875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 15.09,
+      "end": 19.63,
+      "text": "다음날 여교사가 매일 쓰던 텀블러에서 수상한 액체를 발견했다고 밝혔습니다.",
+      "avg_logprob": -0.06565411638769304,
+      "no_speech_prob": 0.003124237060546875,
+      "compression_ratio": 1.5680473372781065,
+      "words": [
+        {
+          "start": 15.09,
+          "end": 15.75,
+          "word": " 다음날",
+          "probability": 0.9772135416666666
+        },
+        {
+          "start": 15.75,
+          "end": 16.23,
+          "word": " 여교사가",
+          "probability": 0.9969075520833334
+        },
+        {
+          "start": 16.23,
+          "end": 16.69,
+          "word": " 매일",
+          "probability": 0.90087890625
+        },
+        {
+          "start": 16.69,
+          "end": 16.99,
+          "word": " 쓰던",
+          "probability": 1.0
+        },
+        {
+          "start": 16.99,
+          "end": 17.55,
+          "word": " 텀블러에서",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 17.55,
+          "end": 18.05,
+          "word": " 수상한",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 18.05,
+          "end": 18.33,
+          "word": " 액체를",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 18.33,
+          "end": 18.97,
+          "word": " 발견했다고",
+          "probability": 1.0
+        },
+        {
+          "start": 18.97,
+          "end": 19.63,
+          "word": " 밝혔습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 22.52,
+      "end": 24.14,
+      "text": "교사용 의자에 소변을 받습니다.",
+      "avg_logprob": -0.06565411638769304,
+      "no_speech_prob": 0.003124237060546875,
+      "compression_ratio": 1.5680473372781065,
+      "words": [
+        {
+          "start": 22.52,
+          "end": 23.06,
+          "word": " 교사용",
+          "probability": 0.9983723958333334
+        },
+        {
+          "start": 23.06,
+          "end": 23.36,
+          "word": " 의자에",
+          "probability": 0.9847005208333334
+        },
+        {
+          "start": 23.36,
+          "end": 23.74,
+          "word": " 소변을",
+          "probability": 0.9918619791666666
+        },
+        {
+          "start": 23.74,
+          "end": 24.14,
+          "word": " 받습니다.",
+          "probability": 0.836669921875
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 25.39,
+      "end": 28.49,
+      "text": "신고를 받은 경찰은 현장에 남은 흔적을 확인했습니다.",
+      "avg_logprob": -0.06565411638769304,
+      "no_speech_prob": 0.003124237060546875,
+      "compression_ratio": 1.5680473372781065,
+      "words": [
+        {
+          "start": 25.39,
+          "end": 25.79,
+          "word": " 신고를",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 25.79,
+          "end": 26.15,
+          "word": " 받은",
+          "probability": 1.0
+        },
+        {
+          "start": 26.15,
+          "end": 26.75,
+          "word": " 경찰은",
+          "probability": 1.0
+        },
+        {
+          "start": 26.75,
+          "end": 27.35,
+          "word": " 현장에",
+          "probability": 0.9977213541666666
+        },
+        {
+          "start": 27.35,
+          "end": 27.71,
+          "word": " 남은",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 27.71,
+          "end": 28.07,
+          "word": " 흔적을",
+          "probability": 1.0
+        },
+        {
+          "start": 28.07,
+          "end": 28.49,
+          "word": " 확인했습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 31.41,
+      "end": 36.67,
+      "text": "경찰은 건조물 침입과 재물손기 혐의를 적용해 사건 경위를 조사했습니다.",
+      "avg_logprob": -0.06565411638769304,
+      "no_speech_prob": 0.003124237060546875,
+      "compression_ratio": 1.5680473372781065,
+      "words": [
+        {
+          "start": 31.41,
+          "end": 32.15,
+          "word": " 경찰은",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 32.15,
+          "end": 32.61,
+          "word": " 건조물",
+          "probability": 0.993896484375
+        },
+        {
+          "start": 32.61,
+          "end": 33.11,
+          "word": " 침입과",
+          "probability": 0.9984130859375
+        },
+        {
+          "start": 33.11,
+          "end": 33.75,
+          "word": " 재물손기",
+          "probability": 0.8424072265625
+        },
+        {
+          "start": 33.75,
+          "end": 34.17,
+          "word": " 혐의를",
+          "probability": 0.9996337890625
+        },
+        {
+          "start": 34.17,
+          "end": 34.71,
+          "word": " 적용해",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 35.11,
+          "end": 35.65,
+          "word": " 사건",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 35.65,
+          "end": 36.13,
+          "word": " 경위를",
+          "probability": 0.9986979166666666
+        },
+        {
+          "start": 36.13,
+          "end": 36.67,
+          "word": " 조사했습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 36.67,
+      "end": 44.96,
+      "text": "피해 교사 측은 휴대전화와 컴퓨터 포렌식 영장을 요청했지만 법원은 기각했습니다.",
+      "avg_logprob": -0.050686743651186264,
+      "no_speech_prob": 0.013427734375,
+      "compression_ratio": 1.486206896551724,
+      "words": [
+        {
+          "start": 36.67,
+          "end": 37.51,
+          "word": " 피해",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 40.02,
+          "end": 40.3,
+          "word": " 교사",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 40.3,
+          "end": 40.74,
+          "word": " 측은",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 40.74,
+          "end": 41.42,
+          "word": " 휴대전화와",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 41.42,
+          "end": 42.12,
+          "word": " 컴퓨터",
+          "probability": 1.0
+        },
+        {
+          "start": 42.12,
+          "end": 42.56,
+          "word": " 포렌식",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 42.56,
+          "end": 43.1,
+          "word": " 영장을",
+          "probability": 0.97802734375
+        },
+        {
+          "start": 43.1,
+          "end": 43.76,
+          "word": " 요청했지만",
+          "probability": 0.9998779296875
+        },
+        {
+          "start": 43.76,
+          "end": 44.44,
+          "word": " 법원은",
+          "probability": 0.9957682291666666
+        },
+        {
+          "start": 44.44,
+          "end": 44.96,
+          "word": " 기각했습니다.",
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 48.53,
+      "end": 52.41,
+      "text": "피의자는 혐의를 인정하면서도 교사를 노린 것은 아니라고 진술했습니다.",
+      "avg_logprob": -0.050686743651186264,
+      "no_speech_prob": 0.013427734375,
+      "compression_ratio": 1.486206896551724,
+      "words": [
+        {
+          "start": 48.53,
+          "end": 49.13,
+          "word": " 피의자는",
+          "probability": 0.9822591145833334
+        },
+        {
+          "start": 49.13,
+          "end": 49.55,
+          "word": " 혐의를",
+          "probability": 1.0
+        },
+        {
+          "start": 49.55,
+          "end": 50.37,
+          "word": " 인정하면서도",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 50.37,
+          "end": 50.87,
+          "word": " 교사를",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 50.87,
+          "end": 51.25,
+          "word": " 노린",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 51.25,
+          "end": 51.39,
+          "word": " 것은",
+          "probability": 1.0
+        },
+        {
+          "start": 51.39,
+          "end": 51.87,
+          "word": " 아니라고",
+          "probability": 1.0
+        },
+        {
+          "start": 51.87,
+          "end": 52.41,
+          "word": " 진술했습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 53.65,
+      "end": 55.67,
+      "text": "경찰은 추가 조사를 이어가고 있습니다.",
+      "avg_logprob": -0.050686743651186264,
+      "no_speech_prob": 0.013427734375,
+      "compression_ratio": 1.486206896551724,
+      "words": [
+        {
+          "start": 53.65,
+          "end": 54.37,
+          "word": " 경찰은",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 54.37,
+          "end": 54.55,
+          "word": " 추가",
+          "probability": 1.0
+        },
+        {
+          "start": 54.55,
+          "end": 54.95,
+          "word": " 조사를",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 54.95,
+          "end": 55.43,
+          "word": " 이어가고",
+          "probability": 0.9996337890625
+        },
+        {
+          "start": 55.43,
+          "end": 55.67,
+          "word": " 있습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 59.3,
+      "end": 62.54,
+      "text": "범인이 붙잡힌 뒤에도 피해자는 불안해서 벗어나지 못했습니다.",
+      "avg_logprob": -0.050686743651186264,
+      "no_speech_prob": 0.013427734375,
+      "compression_ratio": 1.486206896551724,
+      "words": [
+        {
+          "start": 59.3,
+          "end": 59.64,
+          "word": " 범인이",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 59.64,
+          "end": 60.18,
+          "word": " 붙잡힌",
+          "probability": 1.0
+        },
+        {
+          "start": 60.18,
+          "end": 60.5,
+          "word": " 뒤에도",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 60.5,
+          "end": 61.12,
+          "word": " 피해자는",
+          "probability": 0.9979248046875
+        },
+        {
+          "start": 61.12,
+          "end": 61.58,
+          "word": " 불안해서",
+          "probability": 0.8370768229166666
+        },
+        {
+          "start": 61.58,
+          "end": 62.1,
+          "word": " 벗어나지",
+          "probability": 1.0
+        },
+        {
+          "start": 62.1,
+          "end": 62.54,
+          "word": " 못했습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 63.45,
+      "end": 66.71,
+      "text": "학교의 출입관리와 피해자 보호가 정말 필요하지 않을까요?",
+      "avg_logprob": -0.050686743651186264,
+      "no_speech_prob": 0.013427734375,
+      "compression_ratio": 1.486206896551724,
+      "words": [
+        {
+          "start": 63.45,
+          "end": 63.93,
+          "word": " 학교의",
+          "probability": 0.9983723958333334
+        },
+        {
+          "start": 63.93,
+          "end": 64.67,
+          "word": " 출입관리와",
+          "probability": 0.9775390625
+        },
+        {
+          "start": 64.67,
+          "end": 65.19,
+          "word": " 피해자",
+          "probability": 0.998046875
+        },
+        {
+          "start": 65.19,
+          "end": 65.55,
+          "word": " 보호가",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 65.55,
+          "end": 65.77,
+          "word": " 정말",
+          "probability": 1.0
+        },
+        {
+          "start": 65.77,
+          "end": 66.27,
+          "word": " 필요하지",
+          "probability": 0.9296875
+        },
+        {
+          "start": 66.27,
+          "end": 66.71,
+          "word": " 않을까요?",
+          "probability": 1.0
+        }
+      ]
+    }
+  ]
+}

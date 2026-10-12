@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-photo-risk-v1",
+  "type": "object",
+  "required": ["assignmentKey", "riskTier", "copyrightUseStatus", "editorialContextStatus", "youtubeOriginalityStatus", "claimRisk", "coverageEligible", "providerInputStatus", "editScope"],
+  "properties": {
+    "assignmentKey": {"type": "string", "pattern": "^[^:]+:cut-[0-9]{3}$"},
+    "riskTier": {"enum": ["SAFE", "CONDITIONAL_EDITORIAL_ILLUSTRATIVE", "HIGH_RISK_DENY"]},
+    "copyrightUseStatus": {"type": "string"},
+    "editorialContextStatus": {"type": "string"},
+    "youtubeOriginalityStatus": {"type": "string"},
+    "claimRisk": {"type": "string"},
+    "coverageEligible": {"type": "boolean"},
+    "disclosure": {"type": ["string", "null"]},
+    "providerInputStatus": {"enum": ["denied"]},
+    "editScope": {"enum": ["local-only"]},
+    "visualClass": {"type": "string"},
+    "yppTransformation": {"type": ["object", "null"]}
+  },
+  "additionalProperties": true
+}

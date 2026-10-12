@@ -1,0 +1,582 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\profiles\\F\\refs\\03_news.full.wav",
+  "model": "large-v3",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 48.9386875,
+  "duration_after_vad": 41.216,
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.22,
+      "end": 5.61,
+      "text": "지난 4월 제주 서귀포시의 한 초등학교에서 사건이 발생했습니다.",
+      "avg_logprob": -0.07680007153087193,
+      "no_speech_prob": 0.0191192626953125,
+      "compression_ratio": 1.6920980926430518,
+      "words": [
+        {
+          "start": 1.22,
+          "end": 1.4,
+          "word": " 지난",
+          "probability": 0.9580078125
+        },
+        {
+          "start": 1.4,
+          "end": 1.82,
+          "word": " 4월",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 1.82,
+          "end": 2.16,
+          "word": " 제주",
+          "probability": 0.986083984375
+        },
+        {
+          "start": 2.16,
+          "end": 2.82,
+          "word": " 서귀포시의",
+          "probability": 0.885693359375
+        },
+        {
+          "start": 2.82,
+          "end": 3.58,
+          "word": " 한",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 3.95,
+          "end": 4.63,
+          "word": " 초등학교에서",
+          "probability": 0.9981689453125
+        },
+        {
+          "start": 4.63,
+          "end": 5.05,
+          "word": " 사건이",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 5.05,
+          "end": 5.61,
+          "word": " 발생했습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 6.07,
+      "end": 9.53,
+      "text": "다음날 출근한 교사는 교실 안에서 이상한 흔적을 발견했습니다.",
+      "avg_logprob": -0.07680007153087193,
+      "no_speech_prob": 0.0191192626953125,
+      "compression_ratio": 1.6920980926430518,
+      "words": [
+        {
+          "start": 6.07,
+          "end": 6.69,
+          "word": " 다음날",
+          "probability": 0.94677734375
+        },
+        {
+          "start": 6.69,
+          "end": 7.15,
+          "word": " 출근한",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 7.15,
+          "end": 7.53,
+          "word": " 교사는",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 7.53,
+          "end": 8.07,
+          "word": " 교실",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 8.07,
+          "end": 8.35,
+          "word": " 안에서",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 8.35,
+          "end": 8.75,
+          "word": " 이상한",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 8.75,
+          "end": 9.09,
+          "word": " 흔적을",
+          "probability": 1.0
+        },
+        {
+          "start": 9.09,
+          "end": 9.53,
+          "word": " 발견했습니다.",
+          "probability": 0.9996744791666666
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 10.58,
+      "end": 14.74,
+      "text": "교사는 즉시 학교의 상황을 알렸고 경찰은 현장 감식에 착수했습니다.",
+      "avg_logprob": -0.07680007153087193,
+      "no_speech_prob": 0.0191192626953125,
+      "compression_ratio": 1.6920980926430518,
+      "words": [
+        {
+          "start": 10.58,
+          "end": 11.12,
+          "word": " 교사는",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 11.12,
+          "end": 11.52,
+          "word": " 즉시",
+          "probability": 1.0
+        },
+        {
+          "start": 11.52,
+          "end": 12.12,
+          "word": " 학교의",
+          "probability": 0.9972330729166666
+        },
+        {
+          "start": 12.12,
+          "end": 12.5,
+          "word": " 상황을",
+          "probability": 1.0
+        },
+        {
+          "start": 12.5,
+          "end": 12.88,
+          "word": " 알렸고",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 12.88,
+          "end": 13.52,
+          "word": " 경찰은",
+          "probability": 0.987548828125
+        },
+        {
+          "start": 13.52,
+          "end": 13.9,
+          "word": " 현장",
+          "probability": 1.0
+        },
+        {
+          "start": 13.9,
+          "end": 14.32,
+          "word": " 감식에",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 14.32,
+          "end": 14.74,
+          "word": " 착수했습니다.",
+          "probability": 0.9993489583333334
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 16.37,
+      "end": 20.19,
+      "text": "수사가 진행되던 중 같은 장소에서 두 번째 사건이 발생했습니다.",
+      "avg_logprob": -0.07680007153087193,
+      "no_speech_prob": 0.0191192626953125,
+      "compression_ratio": 1.6920980926430518,
+      "words": [
+        {
+          "start": 16.37,
+          "end": 16.71,
+          "word": " 수사가",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 16.71,
+          "end": 17.61,
+          "word": " 진행되던",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 17.61,
+          "end": 17.81,
+          "word": " 중",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 17.81,
+          "end": 18.19,
+          "word": " 같은",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 18.19,
+          "end": 18.77,
+          "word": " 장소에서",
+          "probability": 1.0
+        },
+        {
+          "start": 18.77,
+          "end": 18.97,
+          "word": " 두",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 18.97,
+          "end": 19.21,
+          "word": " 번째",
+          "probability": 1.0
+        },
+        {
+          "start": 19.21,
+          "end": 19.67,
+          "word": " 사건이",
+          "probability": 1.0
+        },
+        {
+          "start": 19.67,
+          "end": 20.19,
+          "word": " 발생했습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 21.57,
+      "end": 26.21,
+      "text": "학교가 설치한 폐쇄회로 텔레비전에는 누군가 교실에 들어오는 장면이 찍혀 있었습니다.",
+      "avg_logprob": -0.07680007153087193,
+      "no_speech_prob": 0.0191192626953125,
+      "compression_ratio": 1.6920980926430518,
+      "words": [
+        {
+          "start": 21.57,
+          "end": 22.09,
+          "word": " 학교가",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 22.09,
+          "end": 22.53,
+          "word": " 설치한",
+          "probability": 0.9619140625
+        },
+        {
+          "start": 22.53,
+          "end": 23.05,
+          "word": " 폐쇄회로",
+          "probability": 0.92681884765625
+        },
+        {
+          "start": 23.05,
+          "end": 23.71,
+          "word": " 텔레비전에는",
+          "probability": 0.9976399739583334
+        },
+        {
+          "start": 23.71,
+          "end": 24.29,
+          "word": " 누군가",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 24.29,
+          "end": 24.75,
+          "word": " 교실에",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 24.75,
+          "end": 25.09,
+          "word": " 들어오는",
+          "probability": 1.0
+        },
+        {
+          "start": 25.09,
+          "end": 25.49,
+          "word": " 장면이",
+          "probability": 1.0
+        },
+        {
+          "start": 25.49,
+          "end": 25.75,
+          "word": " 찍혀",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 25.75,
+          "end": 26.21,
+          "word": " 있었습니다.",
+          "probability": 0.77587890625
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 27.47,
+      "end": 30.03,
+      "text": "경찰은 주변 영상과 출입기록을 확인했습니다.",
+      "avg_logprob": -0.07680007153087193,
+      "no_speech_prob": 0.0191192626953125,
+      "compression_ratio": 1.6920980926430518,
+      "words": [
+        {
+          "start": 27.47,
+          "end": 28.13,
+          "word": " 경찰은",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 28.13,
+          "end": 28.53,
+          "word": " 주변",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 28.53,
+          "end": 28.99,
+          "word": " 영상과",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 28.99,
+          "end": 29.65,
+          "word": " 출입기록을",
+          "probability": 0.918359375
+        },
+        {
+          "start": 29.65,
+          "end": 30.03,
+          "word": " 확인했습니다.",
+          "probability": 0.999755859375
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 30.83,
+      "end": 34.15,
+      "text": "이후 인근에 거주하는 피의자를 특정해 조사를 진행했습니다.",
+      "avg_logprob": -0.07680007153087193,
+      "no_speech_prob": 0.0191192626953125,
+      "compression_ratio": 1.6920980926430518,
+      "words": [
+        {
+          "start": 30.83,
+          "end": 31.27,
+          "word": " 이후",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 31.27,
+          "end": 31.79,
+          "word": " 인근에",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 31.79,
+          "end": 32.25,
+          "word": " 거주하는",
+          "probability": 1.0
+        },
+        {
+          "start": 32.25,
+          "end": 32.77,
+          "word": " 피의자를",
+          "probability": 0.9972330729166666
+        },
+        {
+          "start": 32.77,
+          "end": 33.27,
+          "word": " 특정해",
+          "probability": 0.9933268229166666
+        },
+        {
+          "start": 33.27,
+          "end": 33.63,
+          "word": " 조사를",
+          "probability": 1.0
+        },
+        {
+          "start": 33.63,
+          "end": 34.15,
+          "word": " 진행했습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 34.15,
+      "end": 39.48,
+      "text": "피의자는 일부 행동을 인정했지만 특정인을 노린 것은 아니었다고 주장했습니다.",
+      "avg_logprob": -0.07788461538461539,
+      "no_speech_prob": 0.01406097412109375,
+      "compression_ratio": 1.305263157894737,
+      "words": [
+        {
+          "start": 34.15,
+          "end": 35.09,
+          "word": " 피의자는",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 35.68,
+          "end": 36.16,
+          "word": " 일부",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 36.16,
+          "end": 36.52,
+          "word": " 행동을",
+          "probability": 0.9988606770833334
+        },
+        {
+          "start": 36.52,
+          "end": 37.1,
+          "word": " 인정했지만",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 37.1,
+          "end": 37.92,
+          "word": " 특정인을",
+          "probability": 0.9853515625
+        },
+        {
+          "start": 37.92,
+          "end": 38.26,
+          "word": " 노린",
+          "probability": 1.0
+        },
+        {
+          "start": 38.26,
+          "end": 38.42,
+          "word": " 것은",
+          "probability": 1.0
+        },
+        {
+          "start": 38.42,
+          "end": 38.94,
+          "word": " 아니었다고",
+          "probability": 0.9943033854166666
+        },
+        {
+          "start": 38.94,
+          "end": 39.48,
+          "word": " 주장했습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 40.46,
+      "end": 43.98,
+      "text": "경찰은 확보된 증거를 토대로 적용할 혐의를 검토했습니다.",
+      "avg_logprob": -0.07788461538461539,
+      "no_speech_prob": 0.01406097412109375,
+      "compression_ratio": 1.305263157894737,
+      "words": [
+        {
+          "start": 40.46,
+          "end": 41.18,
+          "word": " 경찰은",
+          "probability": 1.0
+        },
+        {
+          "start": 41.18,
+          "end": 41.7,
+          "word": " 확보된",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 41.7,
+          "end": 42.08,
+          "word": " 증거를",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 42.08,
+          "end": 42.5,
+          "word": " 토대로",
+          "probability": 1.0
+        },
+        {
+          "start": 42.5,
+          "end": 43.16,
+          "word": " 적용할",
+          "probability": 0.9931640625
+        },
+        {
+          "start": 43.16,
+          "end": 43.48,
+          "word": " 혐의를",
+          "probability": 0.9998779296875
+        },
+        {
+          "start": 43.48,
+          "end": 43.98,
+          "word": " 검토했습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 45.1,
+      "end": 48.08,
+      "text": "여기까지가 현재 확인된 사건의 경과입니다.",
+      "avg_logprob": -0.07788461538461539,
+      "no_speech_prob": 0.01406097412109375,
+      "compression_ratio": 1.305263157894737,
+      "words": [
+        {
+          "start": 45.1,
+          "end": 45.84,
+          "word": " 여기까지가",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 45.84,
+          "end": 46.14,
+          "word": " 현재",
+          "probability": 1.0
+        },
+        {
+          "start": 46.14,
+          "end": 47.14,
+          "word": " 확인된",
+          "probability": 0.9930013020833334
+        },
+        {
+          "start": 47.14,
+          "end": 47.56,
+          "word": " 사건의",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 47.56,
+          "end": 48.08,
+          "word": " 경과입니다.",
+          "probability": 0.9949544270833334
+        }
+      ]
+    }
+  ]
+}

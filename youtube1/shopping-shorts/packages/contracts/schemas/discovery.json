@@ -1,0 +1,193 @@
+{
+  "$defs": {
+    "Attestation": {
+      "additionalProperties": false,
+      "properties": {
+        "actor": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Actor",
+          "type": "string"
+        },
+        "model": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Model",
+          "type": "string"
+        },
+        "surface": {
+          "enum": [
+            "chrome-use",
+            "computer-use",
+            "manual",
+            "fixture",
+            "youtube-data-api"
+          ],
+          "title": "Surface",
+          "type": "string"
+        },
+        "receipt_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Receipt Ids",
+          "type": "array"
+        },
+        "notes": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Notes",
+          "type": "string"
+        }
+      },
+      "required": [
+        "actor",
+        "model",
+        "surface",
+        "receipt_ids",
+        "notes"
+      ],
+      "title": "Attestation",
+      "type": "object"
+    },
+    "Snapshot": {
+      "additionalProperties": false,
+      "properties": {
+        "video_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Video Id",
+          "type": "string"
+        },
+        "channel_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Channel Id",
+          "type": "string"
+        },
+        "published_at": {
+          "format": "date-time",
+          "title": "Published At",
+          "type": "string"
+        },
+        "observed_at": {
+          "format": "date-time",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "views": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Views"
+        },
+        "provider": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Provider",
+          "type": "string"
+        },
+        "definition": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Definition",
+          "type": "string"
+        },
+        "shorts_status": {
+          "enum": [
+            "confirmed",
+            "probable",
+            "unknown",
+            "not_short"
+          ],
+          "title": "Shorts Status",
+          "type": "string"
+        },
+        "commerce_type": {
+          "enum": [
+            "demo",
+            "review",
+            "unboxing",
+            "buying_guide",
+            "unrelated",
+            "unknown"
+          ],
+          "title": "Commerce Type",
+          "type": "string"
+        },
+        "shopping_tag_status": {
+          "default": "unknown",
+          "enum": [
+            "confirmed",
+            "absent",
+            "unknown"
+          ],
+          "title": "Shopping Tag Status",
+          "type": "string"
+        },
+        "receipt_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Receipt Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "video_id",
+        "channel_id",
+        "published_at",
+        "observed_at",
+        "views",
+        "provider",
+        "definition",
+        "shorts_status",
+        "commerce_type",
+        "receipt_id"
+      ],
+      "title": "Snapshot",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "snapshots": {
+      "items": {
+        "$ref": "#/$defs/Snapshot"
+      },
+      "maxItems": 2000,
+      "minItems": 1,
+      "title": "Snapshots",
+      "type": "array"
+    },
+    "candidate_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,100}$",
+      "title": "Candidate Id",
+      "type": "string"
+    },
+    "age_hours": {
+      "default": 72,
+      "enum": [
+        24,
+        72,
+        168
+      ],
+      "title": "Age Hours",
+      "type": "integer"
+    },
+    "attestation": {
+      "$ref": "#/$defs/Attestation"
+    }
+  },
+  "required": [
+    "snapshots",
+    "candidate_id",
+    "attestation"
+  ],
+  "title": "Discovery",
+  "type": "object"
+}

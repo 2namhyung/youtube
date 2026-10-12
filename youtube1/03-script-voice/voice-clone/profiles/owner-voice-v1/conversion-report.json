@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "seed": 20260808,
+  "engine": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512 inference_vc",
+  "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+  "ownerTimbreCoreSha256": "d2796135896a360345687d45e35fdf8e64d70b48dfc84c0a394b08e5612a1ba7",
+  "conversions": [
+    {
+      "style": "hook",
+      "carrier": "03-script-voice/voice-clone/profiles/owner-voice-v1/provenance/instagram-carrier-hook.wav",
+      "carrierSha256": "25cf781cd65d8f9b7b697f34e4a25563be60ea358a09a14b6bf2bb46c53f8616",
+      "rawSha256": "9a731a6b3ab1f27bfde59f3ce771cdf217718eb936fe2adb351de1771707d9b2",
+      "finalSha256": "41d9d3fd3753564f2445df28949c3586255b3434b698febe1ca29589d4e8e882"
+    },
+    {
+      "style": "news_exposition",
+      "carrier": "03-script-voice/voice-clone/profiles/owner-voice-v1/provenance/instagram-carrier-news_exposition.wav",
+      "carrierSha256": "f78d0e72f69bd2bb3b61d5a5c0c519c12aaac26eb73f5352bbd19839d796afb5",
+      "rawSha256": "c68ba43bde9a45b5ec46eba66a601b00e6addb18aa1eaa1b236c97265f14fb7c",
+      "finalSha256": "1ae5c6b35ea23bec4b48463536a04839da8138d64db0fa146583795297443dd6"
+    },
+    {
+      "style": "tension",
+      "carrier": "03-script-voice/voice-clone/profiles/owner-voice-v1/provenance/instagram-carrier-tension.wav",
+      "carrierSha256": "321744521ef4f0ff75d21f245879bd0e7f866cb40d508a12c05e1c544c6d9c08",
+      "rawSha256": "ae6209491ad0c517c63207c59a43235d96cb69cf15703171b82095499554b6aa",
+      "finalSha256": "8ced7c85ac56d878a244eabae5f097d20ab6bb88db69c9707ade60892d86079c"
+    },
+    {
+      "style": "legal_explanation",
+      "carrier": "03-script-voice/voice-clone/profiles/owner-voice-v1/provenance/instagram-carrier-legal_explanation.wav",
+      "carrierSha256": "b70088e0abb8e23319922239f81de95c772e1d76054df9e71daf6fc03ce22870",
+      "rawSha256": "79682327aeeb8add4b314d5f70d0f6f9ab21998f6d2d844e89d4e5980a97f259",
+      "finalSha256": "586f394b22f14299636191809f4a5e27de67cd9ae728b3402b68b67f951047c8"
+    },
+    {
+      "style": "closing",
+      "carrier": "03-script-voice/voice-clone/profiles/owner-voice-v1/provenance/instagram-carrier-closing.wav",
+      "carrierSha256": "4ac1f80145e1cef34ba15f47e729e75a929f6b6ef2eed719710666631543d4ad",
+      "rawSha256": "8eaafc8f39cf05f57d60468842da234b0096b35b5f2c8e4735a1f639fd3f5940",
+      "finalSha256": "cd4a766014eea80e58eab5ce8cad6892367d555862806995d3786a0bfea25b3c"
+    }
+  ],
+  "manifest": "03-script-voice/voice-clone/profiles/owner-voice-v1/prompt-bank/manifest.json",
+  "manifestSha256": "7f214d6077572cce9dfb461068a9f9360ae2a234db563b1dbcd99b44b755050a"
+}

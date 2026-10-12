@@ -1,0 +1,12 @@
+{
+  "cacheSchema": 1,
+  "audioPolicy": "leading-trim-100ms-tail-pad-v1",
+  "alignmentPolicy": "word-dp-critical-exact-v2",
+  "duration": 1.9504761904761905,
+  "wavSha256": "1d98be6a525e2e228b9f0269df05945dda5aadb7d233a9f9ddb9a4ab5f61ef64",
+  "acceptance": {
+    "seed": 20263928,
+    "attempt": 3,
+    "leadingTrimSeconds": 0
+  }
+}

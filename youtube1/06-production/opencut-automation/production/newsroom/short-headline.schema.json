@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-short-headline.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["approved", "line1", "line2"],
+  "properties": {
+    "approved": { "const": true },
+    "line1": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "line2": { "type": "string", "minLength": 1, "maxLength": 80 }
+  }
+}

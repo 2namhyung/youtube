@@ -1,0 +1,699 @@
+{
+  "slug": "research-d532c8fd7edb7d69",
+  "topic": "'선결제 유도한 뒤 먹튀' 나주 헬스장 고소…경찰 수사",
+  "mode": "investigation",
+  "fetchedAt": "2026-09-04T11:30:34.854Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-d532c8fd7edb7d69.research.config.json",
+    "queries": [
+      "'선결제 유도한 뒤 먹튀' 나주 헬스장 고소…경찰 수사",
+      "선결제 유도한 먹튀",
+      "선결제 유도한 선결제 유도한 뒤 먹튀",
+      "선결제 유도한 나주 고소",
+      "선결제 유도한 경찰 신고 수사 처분",
+      "선결제 유도한 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv",
+      "naver-news",
+      "daum-news",
+      "news1-society"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ],
+    "eventFingerprint": {
+      "anchors": [
+        "선결제",
+        "유도한",
+        "먹튀",
+        "나주",
+        "헬스장",
+        "고소",
+        "선결제까지",
+        "했는데"
+      ],
+      "distinctiveAnchors": [
+        {
+          "name": "선결제",
+          "terms": [
+            "선결제"
+          ]
+        },
+        {
+          "name": "유도한",
+          "terms": [
+            "유도한"
+          ]
+        },
+        {
+          "name": "먹튀",
+          "terms": [
+            "먹튀"
+          ]
+        },
+        {
+          "name": "나주",
+          "terms": [
+            "나주"
+          ]
+        }
+      ],
+      "minDistinctiveMatches": 2,
+      "minTotalMatches": 3,
+      "semanticFacets": {
+        "locations": [
+          "광주",
+          "전남"
+        ],
+        "actions": [],
+        "roles": [
+          "police-officer"
+        ],
+        "dates": []
+      }
+    }
+  },
+  "sources": [
+    {
+      "publisher": "뉴시스",
+      "title": "'선결제 유도한 뒤 먹튀' 나주 헬스장 고소…경찰 수사",
+      "url": "https://www.newsis.com/view/NISX20260727_0003724943",
+      "date": "2026-07-27T16:12:24+09:00",
+      "status": "verified",
+      "snippet": "[광주=뉴시스] = 경찰 마크. (사진=뉴시스 DB).&nbsp; [email protected] [전남광주=뉴시스]이영주 기자 = 전남광주 나주 한 헬스장에서 업체 대표가 선결제 회원들을 상대로 사기행각을 벌이고 잠적했다는 고소장이 접수돼 당국이 수사에 나섰다. 전남 나주경찰서는 지역 한 헬스장 업체 대표 A씨를 사기 혐의로 처벌해달라는 내용의 헬스장 회원들의 고소장을 접수해 수사 중이라고 27일 밝혔다. 고소장에는 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담긴 것으로 전해졌다. 피해 규모는 이날 오전 기준 56명에 금액은 총 5600만원에 달한다. 경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침이다. ◎공감언론 뉴시스 [email protected]",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "선결제",
+          "유도한",
+          "먹튀",
+          "나주",
+          "헬스장",
+          "고소",
+          "경찰",
+          "수사"
+        ],
+        "snippetLength": 392,
+        "contentLength": 392
+      },
+      "fetchedAt": "2026-09-04T11:30:34.865Z"
+    }
+  ],
+  "relatedCoverage": [],
+  "priorContext": [],
+  "followUps": [],
+  "laws": [],
+  "actors": [],
+  "contradictions": [],
+  "unknowns": [],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 0,
+    "priorContext": 0,
+    "originalMedia": 0,
+    "followUps": 0,
+    "laws": 0,
+    "errors": 0
+  },
+  "eventDossier": {
+    "schemaVersion": 3,
+    "slug": "research-d532c8fd7edb7d69",
+    "generatedAt": "2026-09-04T11:30:34.854Z",
+    "researchSnapshotSha256": "c0af165eaaa9bcfc809f2486dbb6ecddbf32d3cce793884ceaf0f796cca1a915",
+    "eventIdentity": {
+      "title": "'선결제 유도한 뒤 먹튀' 나주 헬스장 고소…경찰 수사",
+      "fingerprint": {
+        "anchors": [
+          "선결제",
+          "유도한",
+          "먹튀",
+          "나주",
+          "헬스장",
+          "고소",
+          "선결제까지",
+          "했는데"
+        ],
+        "distinctiveAnchors": [
+          {
+            "name": "선결제",
+            "terms": [
+              "선결제"
+            ]
+          },
+          {
+            "name": "유도한",
+            "terms": [
+              "유도한"
+            ]
+          },
+          {
+            "name": "먹튀",
+            "terms": [
+              "먹튀"
+            ]
+          },
+          {
+            "name": "나주",
+            "terms": [
+              "나주"
+            ]
+          }
+        ],
+        "minDistinctiveMatches": 2,
+        "minTotalMatches": 3,
+        "semanticFacets": {
+          "locations": [
+            "광주",
+            "전남"
+          ],
+          "actions": [],
+          "roles": [
+            "police-officer"
+          ],
+          "dates": []
+        }
+      }
+    },
+    "actors": [],
+    "confirmedFacts": [
+      {
+        "id": "claim-283d3de96c6a",
+        "summary": "피해 규모는 이날 오전 기준 56명에 금액은 총 5600만원에 달한다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-53a31e520f39",
+        "summary": "◎공감언론 뉴시스 [email protected]",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "investigationAndCharges": [
+      {
+        "id": "claim-d3cf61aac597",
+        "summary": "[email protected] [전남광주=뉴시스]이영주 기자 = 전남광주 나주 한 헬스장에서 업체 대표가 선결제 회원들을 상대로 사기행각을 벌이고 잠적했다는 고소장이 접수돼 당국이 수사에 나섰다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-a19effa90870",
+        "summary": "전남 나주경찰서는 지역 한 헬스장 업체 대표 A씨를 사기 혐의로 처벌해달라는 내용의 헬스장 회원들의 고소장을 접수해 수사 중이라고 27일 밝혔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-50dbe00571ea",
+        "summary": "고소장에는 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담긴 것으로 전해졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-2590bdc45921",
+        "summary": "경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침이다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-d532c8fd7edb"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "trialStagesAndSentenceChanges": [],
+    "prosecutionClaims": [],
+    "defenseClaims": [],
+    "courtFindings": [],
+    "victimImpact": [],
+    "timeline": [],
+    "conflicts": [],
+    "unknowns": [],
+    "laterChanges": [],
+    "narrative": {
+      "overview": [
+        {
+          "id": "claim-d3cf61aac597",
+          "summary": "[email protected] [전남광주=뉴시스]이영주 기자 = 전남광주 나주 한 헬스장에서 업체 대표가 선결제 회원들을 상대로 사기행각을 벌이고 잠적했다는 고소장이 접수돼 당국이 수사에 나섰다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-a19effa90870",
+          "summary": "전남 나주경찰서는 지역 한 헬스장 업체 대표 A씨를 사기 혐의로 처벌해달라는 내용의 헬스장 회원들의 고소장을 접수해 수사 중이라고 27일 밝혔다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-50dbe00571ea",
+          "summary": "고소장에는 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담긴 것으로 전해졌다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-283d3de96c6a",
+          "summary": "피해 규모는 이날 오전 기준 56명에 금액은 총 5600만원에 달한다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-2590bdc45921",
+          "summary": "경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침이다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-53a31e520f39",
+          "summary": "◎공감언론 뉴시스 [email protected]",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "chronology": [],
+      "sameEventFindings": [
+        {
+          "id": "claim-d3cf61aac597",
+          "summary": "[email protected] [전남광주=뉴시스]이영주 기자 = 전남광주 나주 한 헬스장에서 업체 대표가 선결제 회원들을 상대로 사기행각을 벌이고 잠적했다는 고소장이 접수돼 당국이 수사에 나섰다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-a19effa90870",
+          "summary": "전남 나주경찰서는 지역 한 헬스장 업체 대표 A씨를 사기 혐의로 처벌해달라는 내용의 헬스장 회원들의 고소장을 접수해 수사 중이라고 27일 밝혔다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-50dbe00571ea",
+          "summary": "고소장에는 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담긴 것으로 전해졌다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-283d3de96c6a",
+          "summary": "피해 규모는 이날 오전 기준 56명에 금액은 총 5600만원에 달한다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-2590bdc45921",
+          "summary": "경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침이다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-53a31e520f39",
+          "summary": "◎공감언론 뉴시스 [email protected]",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "priorContext": [],
+      "followUpDevelopments": [],
+      "detailSections": [
+        {
+          "id": "harm",
+          "title": "피해와 후유증",
+          "description": "신체·정신적 피해와 공개되지 않은 범위",
+          "claims": [
+            {
+              "id": "claim-283d3de96c6a",
+              "summary": "피해 규모는 이날 오전 기준 56명에 금액은 총 5600만원에 달한다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-d532c8fd7edb"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "investigation",
+          "title": "수사와 양측 주장",
+          "description": "적용 혐의와 검찰·피고인 측 주장",
+          "claims": [
+            {
+              "id": "claim-d3cf61aac597",
+              "summary": "[email protected] [전남광주=뉴시스]이영주 기자 = 전남광주 나주 한 헬스장에서 업체 대표가 선결제 회원들을 상대로 사기행각을 벌이고 잠적했다는 고소장이 접수돼 당국이 수사에 나섰다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-d532c8fd7edb"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-a19effa90870",
+              "summary": "전남 나주경찰서는 지역 한 헬스장 업체 대표 A씨를 사기 혐의로 처벌해달라는 내용의 헬스장 회원들의 고소장을 접수해 수사 중이라고 27일 밝혔다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-d532c8fd7edb"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-50dbe00571ea",
+              "summary": "고소장에는 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담긴 것으로 전해졌다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-d532c8fd7edb"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            },
+            {
+              "id": "claim-2590bdc45921",
+              "summary": "경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침이다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-d532c8fd7edb"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        }
+      ],
+      "sourceAgreement": [
+        {
+          "claimId": "claim-d3cf61aac597",
+          "summary": "[email protected] [전남광주=뉴시스]이영주 기자 = 전남광주 나주 한 헬스장에서 업체 대표가 선결제 회원들을 상대로 사기행각을 벌이고 잠적했다는 고소장이 접수돼 당국이 수사에 나섰다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-a19effa90870",
+          "summary": "전남 나주경찰서는 지역 한 헬스장 업체 대표 A씨를 사기 혐의로 처벌해달라는 내용의 헬스장 회원들의 고소장을 접수해 수사 중이라고 27일 밝혔다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-50dbe00571ea",
+          "summary": "고소장에는 A씨가 할인 행사 등을 내세워 선결제를 유도한 뒤 폐업하고 잠적했다는 내용이 담긴 것으로 전해졌다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-283d3de96c6a",
+          "summary": "피해 규모는 이날 오전 기준 56명에 금액은 총 5600만원에 달한다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-2590bdc45921",
+          "summary": "경찰은 고소 내용을 토대로 정확한 경위를 조사할 방침이다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-53a31e520f39",
+          "summary": "◎공감언론 뉴시스 [email protected]",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-d532c8fd7edb"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        }
+      ],
+      "conflicts": [],
+      "unresolvedQuestions": [],
+      "limitations": [
+        "독립적으로 검증된 동일 사건 추가 보도를 찾지 못했습니다.",
+        "이 사건의 직접적인 사전 맥락으로 확인된 보도를 찾지 못했습니다.",
+        "현재까지 확인된 후속 보도가 없습니다."
+      ]
+    },
+    "sourceCoverage": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "sameEventCoverageCount": 0,
+      "priorContextCount": 0,
+      "followUpCount": 0,
+      "independentPublisherCount": 1,
+      "corroboration": "single-source",
+      "rejectedSameEventSourceCount": 0
+    },
+    "readiness": {
+      "readyForLegal": true,
+      "readyForDraft": true,
+      "preferredCorroborationMet": false,
+      "detailedNarrativeComplete": true,
+      "storyClaimCount": 6,
+      "narrativePhaseCount": 3,
+      "blockers": [],
+      "warnings": [
+        "single-source-only"
+      ]
+    },
+    "sourceIndex": [
+      {
+        "sourceId": "src-d532c8fd7edb",
+        "url": "https://www.newsis.com/view/NISX20260727_0003724943",
+        "title": "'선결제 유도한 뒤 먹튀' 나주 헬스장 고소…경찰 수사",
+        "publisher": "뉴시스",
+        "date": "2026-07-27T16:12:24+09:00",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "sourceExclusions": [],
+    "currentHash": "17276071a4147a77dae9d081aa7a426bbae34a0a11c674ec22584f29a2986426"
+  }
+}

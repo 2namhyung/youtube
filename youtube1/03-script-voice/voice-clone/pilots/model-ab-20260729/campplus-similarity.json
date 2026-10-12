@@ -1,0 +1,22 @@
+{
+  "method": "CAMPPlus ONNX",
+  "model_sha256": "A6AC6A63997761AE2997373E2EE1C47040854B4B759EA41EC48E4E42DF0F4D73",
+  "reference": "f4_ref_gyogwon.wav",
+  "outputs": {
+    "gpt_critical": {
+      "cosine_to_f4_ref": 0.7633472681045532
+    },
+    "gpt_heldout": {
+      "cosine_to_f4_ref": 0.7915037870407104
+    },
+    "gpt_ref_trim": {
+      "cosine_to_f4_ref": 0.9854515194892883
+    },
+    "qwen_critical": {
+      "cosine_to_f4_ref": 0.8254004120826721
+    },
+    "qwen_heldout": {
+      "cosine_to_f4_ref": 0.8350900411605835
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "contractId": "research-b7bd6a39023f5a83-editorial-cartoon-editorial-cartoon",
+  "templateId": "editorial-cartoon-default-v1",
+  "version": 1,
+  "output": {
+    "scenes": 3,
+    "frames": 360,
+    "durationSeconds": 12,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "locked": {
+    "camera": {
+      "mode": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5
+    },
+    "captions": {
+      "color": "#FFFFFF",
+      "background": "black",
+      "safeArea": "preserve-source-caption-anchors"
+    },
+    "aiDisclosure": "required-on-output",
+    "imageGen": "every-cut-must-explain-script",
+    "wanI2V": "only-when-motion-conveys-unstated-information",
+    "transitions": "FFmpeg-purposeful-only",
+    "handsAndCameraShake": "avoid-gratuitous-use",
+    "release": "private-first-exact-file-stage07-gate"
+  },
+  "configurable": [
+    "projectId",
+    "title",
+    "scriptSource",
+    "sourceProject",
+    "sourcePlan",
+    "scenes",
+    "sceneAssets",
+    "sceneTiming",
+    "imageGenPrompts",
+    "evidenceBasis",
+    "wanMotionScenes",
+    "aiDisclosureLabel",
+    "transitionContract",
+    "narration",
+    "bgm",
+    "thumbnail",
+    "releaseGate"
+  ],
+  "scriptSource": "script.final.json",
+  "narration": {
+    "mode": "edge-tts",
+    "voice": "ko-KR-SunHiNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "bgm": {
+    "provider": "stable-audio-3",
+    "prompt": "restrained factual newsroom underscore, no suspense swell",
+    "seed": 731,
+    "provenance": "script.final.json",
+    "duckUnderNarration": true,
+    "required": false
+  },
+  "assets": [
+    {
+      "scene": 1,
+      "asset": "assets/scene-01-bakery-placeholder.png",
+      "assetType": "image",
+      "imageGenPrompt": "Editorial 2D cartoon, anonymous bakery entrance in an ordinary neighborhood, a small no-smoking request sign without readable text, no identifiable people, no logos, restrained factual palette, vertical 9:16.",
+      "evidenceBasis": "workflow draft.hook and legal report claim-badfb48a4406: bakery-front smoking dispute reported",
+      "useWan": false
+    },
+    {
+      "scene": 2,
+      "asset": "assets/scene-02-entrance-placeholder.png",
+      "assetType": "image",
+      "imageGenPrompt": "Editorial 2D cartoon, anonymous shop owner silhouette keeping distance from an approaching shoulder, static non-graphic reenactment, no faces, no contact detail, no readable text, vertical 9:16.",
+      "evidenceBasis": "workflow draft.incident and legal report claim-badfb48a4406: reported verbal and physical threat; do not depict contact graphically",
+      "useWan": false
+    },
+    {
+      "scene": 3,
+      "asset": "assets/scene-03-evidence-placeholder.png",
+      "assetType": "image",
+      "imageGenPrompt": "Editorial 2D cartoon, quiet bakery doorway and closed notebook labeled as a fact-check desk, no people, no logos, clear AI reenactment disclosure area, vertical 9:16.",
+      "evidenceBasis": "workflow draft.confirmation and restrictedMaterials: original article/broadcast footage prohibited; use labeled reenactment",
+      "useWan": false
+    }
+  ],
+  "wanMotionScenes": []
+}

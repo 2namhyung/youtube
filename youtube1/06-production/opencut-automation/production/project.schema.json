@@ -1,0 +1,690 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["id", "title", "narration"],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "required": ["productionAuthorityMode"],
+        "properties": { "productionAuthorityMode": { "const": true } }
+      },
+      "then": {
+        "properties": {
+          "title": {
+            "properties": {
+              "line1": { "type": "string", "minLength": 1, "maxLength": 80 },
+              "line2": { "type": "string", "minLength": 1, "maxLength": 80 }
+            }
+          },
+          "narration": {
+            "required": ["mode", "promptBank", "modelId", "modelRevision"],
+            "properties": {
+              "mode": { "const": "qwen3-tts" },
+              "promptBank": { "type": "string", "minLength": 1 },
+              "modelId": { "const": "Qwen/Qwen3-TTS-12Hz-0.6B-Base" },
+              "modelRevision": { "const": "5d83992436eae1d760afd27aff78a71d676296fc" }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "narration": { "properties": { "mode": { "const": "file" } } }
+        }
+      },
+      "then": {
+        "properties": {
+          "narration": {
+            "anyOf": [
+              { "required": ["audio", "srt"] },
+              {
+                "required": ["audio", "transcribe"],
+                "properties": { "transcribe": { "const": true } }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["scenes"],
+        "properties": { "scenes": { "contains": { "required": ["duration"] } } }
+      },
+      "then": {
+        "properties": { "scenes": { "items": { "required": ["duration"] } } }
+      }
+    },
+    {
+      "if": {
+        "required": ["scenes"],
+        "properties": { "scenes": { "contains": { "required": ["captionAnchor"] } } }
+      },
+      "then": {
+        "properties": { "scenes": { "items": { "required": ["captionAnchor"] } } }
+      }
+    }
+  ],
+  "properties": {
+    "productionAuthorityMode": { "type": "boolean" },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$" },
+    "title": {
+      "type": "object",
+      "required": ["line1", "line2"],
+      "additionalProperties": false,
+      "properties": {
+        "line1": { "type": "string", "minLength": 1 },
+        "line2": { "type": "string", "minLength": 1 }
+      }
+    },
+    "scriptFile": { "type": "string" },
+	"pipelineContract": {
+	  "type": "object",
+	  "required": ["path", "sha256"],
+	  "additionalProperties": false,
+	  "properties": {
+	    "path": { "type": "string", "minLength": 1 },
+	    "sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" }
+	  }
+	},
+    "releaseGate": {
+      "type": "object",
+      "required": ["publishable", "releaseStatus", "uploadBlocked", "blockers"],
+      "additionalProperties": false,
+      "properties": {
+        "publishable": { "type": "boolean" },
+        "releaseStatus": { "enum": ["preview", "approved"] },
+        "uploadBlocked": { "type": "boolean" },
+        "blockers": {
+          "type": "array",
+          "maxItems": 20,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "stage",
+              "severity",
+              "claim",
+              "reason",
+              "authority"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "stage": { "type": "string", "minLength": 1 },
+              "severity": { "const": "block" },
+              "claim": { "type": "string", "minLength": 1 },
+              "reason": { "type": "string", "minLength": 1 },
+              "authority": {
+                "type": "object",
+                "required": ["case", "url"],
+                "additionalProperties": false,
+                "properties": {
+                  "case": { "type": "string", "minLength": 1 },
+                  "url": { "type": "string", "pattern": "^https://" }
+                }
+              }
+            }
+          }
+        },
+        "approval": {
+          "type": "object",
+          "required": ["reportVersionId", "reportSha256", "scriptSha256", "reviewer", "approvedAt"],
+          "additionalProperties": false,
+          "properties": {
+            "reportVersionId": { "type": "string", "minLength": 1 },
+            "reportSha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+            "scriptSha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+            "reviewer": { "type": "string", "minLength": 2 },
+            "approvedAt": { "type": "string", "format": "date-time" }
+          }
+        }
+      },
+      "oneOf": [
+        {
+          "properties": {
+            "publishable": { "const": false },
+            "releaseStatus": { "const": "preview" },
+            "uploadBlocked": { "const": true },
+            "blockers": { "minItems": 1 }
+          },
+          "not": { "required": ["approval"] }
+        },
+        {
+          "required": ["approval"],
+          "properties": {
+            "publishable": { "const": true },
+            "releaseStatus": { "const": "approved" },
+            "uploadBlocked": { "const": false },
+            "blockers": { "maxItems": 0 }
+          }
+        }
+      ]
+    },
+    "assets": { "type": "string" },
+    "thumbnail": {
+      "type": "object",
+      "required": ["image", "sha256", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "image": { "type": "string", "minLength": 1, "pattern": "\\.png$" },
+        "sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+        "source": { "type": "string", "minLength": 1 },
+        "prompt": { "type": "string", "minLength": 1 },
+        "provenance": { "type": "string", "minLength": 1 }
+      }
+    },
+    "thumbnailContract": { "$ref": "templates/editorial-thumbnail-contract.schema.json" },
+    "transitionContract": {
+      "type": "object",
+      "required": ["mode", "frameAccounting", "boundaries"],
+      "additionalProperties": false,
+      "properties": {
+        "mode": { "const": "media-only" },
+        "frameAccounting": { "const": "preserve-scene-sum" },
+        "boundaries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["from", "to", "type", "frames"],
+            "additionalProperties": false,
+            "properties": {
+              "from": { "type": "integer", "minimum": 1 },
+              "to": { "type": "integer", "minimum": 2 },
+              "type": { "enum": ["hard-cut", "dip-to-black", "slide-left"] },
+              "frames": { "type": "integer", "minimum": 0, "maximum": 14 },
+              "notes": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "motionEvidence": {
+      "type": "object",
+      "required": ["schema", "camera", "ffmpeg", "wan"],
+      "additionalProperties": false,
+      "properties": {
+        "schema": { "const": "editorial-motion-evidence-v1" },
+        "camera": {
+          "type": "object",
+          "required": ["mode", "intensity", "zoom", "panX", "panY"],
+          "additionalProperties": false,
+          "properties": {
+            "mode": { "const": "none" },
+            "intensity": { "const": 0 },
+            "zoom": { "const": 1 },
+            "panX": { "const": 0.5 },
+            "panY": { "const": 0.5 }
+          }
+        },
+        "ffmpeg": {
+          "type": "object",
+          "required": ["mode", "overlayLock", "boundaries"],
+          "additionalProperties": false,
+          "properties": {
+            "mode": { "const": "transition-only" },
+            "overlayLock": { "const": true },
+            "boundaries": { "type": "array" }
+          }
+        },
+        "wan": {
+          "type": "object",
+          "required": ["status", "selectedScenes", "runtime", "models", "assets"],
+          "additionalProperties": false,
+          "properties": {
+            "status": { "enum": ["applied", "blocked", "not-applicable"] },
+            "selectedScenes": { "type": "array", "uniqueItems": true, "items": { "type": "integer", "minimum": 1 } },
+            "runtime": { "type": "object" },
+            "models": { "type": "array" },
+            "assets": { "type": "array" },
+            "rejectedCandidates": { "type": "array" },
+            "blocker": { "type": ["string", "null"] }
+          }
+        }
+      }
+    },
+    "captionPreset": {
+      "type": "object",
+      "required": [
+        "id",
+        "fontFamily",
+        "fontWeight",
+        "fontSize",
+        "scaleX",
+        "safeWidth",
+        "maxLines",
+        "lineHeight",
+        "x",
+        "y",
+        "color",
+        "outlineColor",
+        "outlineWidth",
+        "background"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "enum": ["reference-v3-semantic-2line", "information-delta-v14-white-on-black-2line"] },
+        "fontFamily": { "const": "Noto Sans KR" },
+        "fontWeight": { "const": 800 },
+        "fontSize": { "const": 88 },
+        "scaleX": { "const": 94 },
+        "safeWidth": { "const": 920 },
+        "maxLines": { "const": 2 },
+        "lineHeight": { "const": 1.08 },
+        "x": { "const": 540 },
+        "y": { "const": 1400 },
+        "color": { "const": "#FFFFFF" },
+        "outlineColor": { "const": "#000000" },
+        "outlineWidth": { "const": 5 },
+        "background": { "enum": ["none", "black"] }
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["asset"],
+        "additionalProperties": false,
+        "not": { "required": ["duration", "captionAnchor"] },
+        "properties": {
+          "asset": { "type": "string", "minLength": 1 },
+          "duration": { "type": "number", "exclusiveMinimum": 0 },
+          "captionAnchor": { "type": "string", "minLength": 2, "maxLength": 160 },
+          "zoom": { "type": "number", "minimum": 1, "maximum": 1.25 },
+          "panX": { "type": "number", "minimum": 0, "maximum": 1 },
+          "panY": { "type": "number", "minimum": 0, "maximum": 1 },
+          "camera": { "enum": ["none", "push-in", "pull-out", "drift-left", "drift-right", "handheld"] },
+          "intensity": { "type": "number", "minimum": 0, "maximum": 1 },
+          "label": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "bgm": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "provider": {
+          "enum": ["stable-audio-3", "ace-step-1.5", "local-file"]
+        },
+        "prompt": { "type": "string" },
+        "seed": { "type": "integer", "minimum": 0 },
+        "audio": { "type": "string" },
+        "output": { "type": "string" },
+        "model": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "minLength": 1 },
+        "license": { "type": "string", "minLength": 1 },
+        "sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+        "provenance": { "type": "string", "minLength": 1 },
+        "volumeDb": { "type": "number", "minimum": -60, "maximum": 0 },
+        "required": { "type": "boolean" },
+        "duckUnderNarration": { "type": "boolean" },
+        "fadeSeconds": { "type": "number", "minimum": 0, "maximum": 10 }
+      }
+    },
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "clips": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["path"],
+            "additionalProperties": false,
+            "properties": {
+              "path": { "type": "string" },
+              "start": { "type": "number", "minimum": 0 },
+              "end": { "type": "number", "exclusiveMinimum": 0 },
+              "label": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "narration": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["mode", "audio"],
+          "additionalProperties": false,
+          "properties": {
+            "mode": { "const": "file" },
+            "audio": { "type": "string", "minLength": 1 },
+            "srt": { "type": "string", "minLength": 1 },
+            "transcribe": { "type": "boolean" },
+            "speechTempo": { "type": "number", "minimum": 0.5, "maximum": 2 },
+            "removeSilence": { "type": "boolean" },
+            "sentencePauseSeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 2
+            },
+            "semanticPauseSeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "joinSafetySeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 0.05
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["mode"],
+          "additionalProperties": false,
+          "properties": {
+            "mode": { "const": "edge-tts" },
+            "voice": { "type": "string", "minLength": 1 },
+            "rate": { "type": "string", "minLength": 1 },
+            "pitch": { "type": "string", "minLength": 1 },
+            "speechTempo": { "type": "number", "minimum": 0.5, "maximum": 2 },
+            "removeSilence": { "type": "boolean" },
+            "sentencePauseSeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 2
+            },
+            "semanticPauseSeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "joinSafetySeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 0.05
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["mode"],
+          "additionalProperties": false,
+          "properties": {
+            "mode": { "const": "local-clone" },
+            "style": { "enum": ["neutral", "hook", "solution"] },
+            "cloneSpeed": { "type": "number", "minimum": 0.5, "maximum": 2 },
+            "fallback": { "const": "edge-tts" },
+            "fallbackVoice": { "type": "string", "minLength": 1 },
+            "fallbackRate": { "type": "string", "minLength": 1 },
+            "fallbackPitch": { "type": "string", "minLength": 1 },
+            "speechTempo": { "type": "number", "minimum": 0.5, "maximum": 2 },
+            "removeSilence": { "type": "boolean" },
+            "sentencePauseSeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 2
+            },
+            "semanticPauseSeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "joinSafetySeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 0.05
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["mode", "referenceAudio", "referenceTranscript"],
+          "additionalProperties": false,
+          "properties": {
+            "mode": { "const": "fish-speech-lora" },
+            "referenceAudio": { "type": "string", "minLength": 1 },
+            "referenceTranscript": { "type": "string", "minLength": 1 },
+            "subtitleSource": { "type": "string", "minLength": 1 },
+            "fishRoot": { "type": "string", "minLength": 1 },
+            "baseModel": { "type": "string", "minLength": 1 },
+            "mergedModel": { "type": "string", "minLength": 1 },
+            "mergedModelSha256": {
+              "type": "string",
+              "pattern": "^[0-9a-fA-F]{64}$"
+            },
+            "loraCheckpoint": { "type": "string", "minLength": 1 },
+            "loraSha256": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$" },
+            "modelRevision": { "type": "string", "minLength": 1 },
+            "modelFallbackFrom": { "type": "string", "minLength": 1 },
+            "modelFallbackReason": { "type": "string", "minLength": 1 },
+            "vqCheckpoint": { "type": "string", "minLength": 1 },
+            "device": { "enum": ["cuda", "cpu"] },
+            "seed": { "type": "integer", "minimum": 0 },
+            "chunkLength": { "type": "integer", "minimum": 20, "maximum": 300 },
+            "maxAttempts": { "type": "integer", "minimum": 1, "maximum": 8 },
+            "cueIsolated": { "type": "boolean" },
+            "pronunciationOverrides": {
+              "type": "object",
+              "additionalProperties": { "type": "string", "minLength": 1 }
+            },
+            "ownerRecordingOpening": {
+              "type": "object",
+              "required": ["audio", "sha256", "cueCount", "source"],
+              "additionalProperties": false,
+              "properties": {
+                "audio": { "type": "string", "minLength": 1 },
+                "sha256": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$" },
+                "cueCount": { "type": "integer", "minimum": 1 },
+                "source": { "const": "owner-recording" }
+              }
+            },
+            "speechTempo": { "type": "number", "minimum": 0.5, "maximum": 2 },
+            "removeSilence": { "type": "boolean" },
+            "sentencePauseSeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 2
+            },
+            "semanticPauseSeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "joinSafetySeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 0.05
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["mode", "audio", "handoff", "audioSha256", "cueCount"],
+          "additionalProperties": false,
+          "properties": {
+            "mode": { "const": "approved-locked" },
+            "audio": { "type": "string", "minLength": 1 },
+            "handoff": { "type": "string", "minLength": 1 },
+            "audioSha256": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$" },
+            "cueCount": { "type": "integer", "minimum": 1 },
+            "source": { "const": "approved-locked-owner-audio" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["mode"],
+          "additionalProperties": false,
+          "properties": {
+            "mode": { "const": "qwen3-tts" },
+            "style": {
+              "enum": [
+                "neutral",
+                "hook",
+                "news_exposition",
+                "tension",
+                "criticism",
+                "solution_closing",
+                "legal_explanation",
+                "viewer_question",
+                "closing",
+                "auto"
+              ]
+            },
+            "stylePlan": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["segmentIndex", "textSha256", "style"],
+                "additionalProperties": false,
+                "properties": {
+                  "segmentIndex": { "type": "integer", "minimum": 0 },
+                  "textSha256": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  "style": {
+                    "enum": [
+                      "hook",
+                      "news_exposition",
+                      "tension",
+                      "criticism",
+                      "solution_closing",
+                      "legal_explanation",
+                      "closing"
+                    ]
+                  }
+                }
+              }
+            },
+            "promptBank": { "type": "string", "minLength": 1 },
+            "referenceAudio": { "type": "string", "minLength": 1 },
+            "referenceAudioSha256": {
+              "type": "string",
+              "pattern": "^[0-9a-fA-F]{64}$"
+            },
+            "referenceTranscript": { "type": "string", "minLength": 1 },
+            "modelId": {
+              "enum": [
+                "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+                "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
+              ]
+            },
+            "modelRevision": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+            "modelLocalPath": { "type": "string", "minLength": 1 },
+            "attentionImplementation": { "enum": ["sdpa", "flash_attention_2"] },
+            "device": { "const": "cuda" },
+            "seed": { "type": "integer", "minimum": 0 },
+            "maxAttempts": { "type": "integer", "minimum": 1, "maximum": 12 },
+            "temperature": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 0.95
+            },
+            "finalTempo": { "type": "number", "minimum": 1, "maximum": 1.08 },
+            "maxSegmentChars": {
+              "type": "integer",
+              "minimum": 80,
+              "maximum": 220
+            },
+            "questionSentences": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "questionStyle": { "enum": ["question", "viewer_question"] },
+            "pitchCorrections": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "id",
+                  "phrase",
+                  "word",
+                  "activeFractionStart",
+                  "semitones",
+                  "crossfadeSeconds"
+                ],
+                "additionalProperties": false,
+                "properties": {
+    "id": {
+                    "type": "string",
+                    "pattern": "^[a-z0-9][a-z0-9-]*$"
+                  },
+                  "phrase": { "type": "string", "minLength": 1 },
+                  "word": { "type": "string", "minLength": 1 },
+                  "activeFractionStart": {
+                    "type": "number",
+                    "minimum": 0.35,
+                    "maximum": 0.8
+                  },
+                  "semitones": {
+                    "type": "number",
+                    "exclusiveMinimum": 0,
+                    "maximum": 4
+                  },
+                  "crossfadeSeconds": {
+                    "type": "number",
+                    "minimum": 0.005,
+                    "maximum": 0.03
+                  }
+                }
+              }
+            },
+            "criticalPhrases": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "criticalPhraseIsolation": { "type": "boolean" },
+            "criticalPhraseIsolationTerms": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "pronunciationHints": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["source", "spoken"],
+                "additionalProperties": false,
+                "properties": {
+                  "source": { "type": "string", "minLength": 1 },
+                  "spoken": { "type": "string", "minLength": 1 }
+                }
+              }
+            },
+            "criticalPhraseModels": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "enum": ["small", "medium"] }
+            },
+            "criticalPhraseAgreement": { "enum": ["all-models", "at-least-one-model"] },
+            "prosodyProfile": { "type": "string", "minLength": 1 },
+            "prosodyCandidates": {
+              "type": "integer",
+              "minimum": 2,
+              "maximum": 5
+            },
+            "removeSilence": { "type": "boolean" },
+            "sentencePauseSeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 2
+            },
+            "semanticPauseSeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "joinSafetySeconds": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 0.05
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "engine": "GPT-SoVITS V2 official prepare_datasets",
+  "initial_gpu": {
+    "temperature_c": 47.0,
+    "vram_used_mb": 1167.0
+  },
+  "stages": [
+    {
+      "stage": "stage1_text",
+      "returncode": 0,
+      "log": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\stage1_text.log",
+      "hard_stop": false
+    },
+    {
+      "stage": "stage2_hubert",
+      "returncode": 0,
+      "log": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\stage2_hubert.log",
+      "hard_stop": false
+    },
+    {
+      "stage": "stage3_semantic",
+      "returncode": 0,
+      "log": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\stage3_semantic.log",
+      "hard_stop": false
+    }
+  ],
+  "status": "completed",
+  "gpu_events": [
+    {
+      "unix_time": 1785322911.8920069,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322912.4313488,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322912.9728782,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322913.513312,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322914.054923,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322914.6143959,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322915.1636367,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322915.7043061,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322916.2467148,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322916.7922275,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322917.3499105,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322917.892632,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322918.448443,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322918.9905407,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322919.5459971,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322920.0860379,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322920.630444,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322921.17295,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322921.7149065,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322922.2712717,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322922.8142793,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322923.370229,
+      "temperature_c": 48.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322923.9102592,
+      "temperature_c": 52.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322924.450782,
+      "temperature_c": 53.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322924.9938529,
+      "temperature_c": 54.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322925.537468,
+      "temperature_c": 54.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322926.0789196,
+      "temperature_c": 54.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322926.6214194,
+      "temperature_c": 54.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322927.1635635,
+      "temperature_c": 54.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322927.7202997,
+      "temperature_c": 54.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322928.2672281,
+      "temperature_c": 55.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322928.8117402,
+      "temperature_c": 55.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322929.3519883,
+      "temperature_c": 55.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322929.8974953,
+      "temperature_c": 51.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322930.4522657,
+      "temperature_c": 50.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322930.9933138,
+      "temperature_c": 49.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322931.5347567,
+      "temperature_c": 48.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322932.089786,
+      "temperature_c": 48.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322932.6303291,
+      "temperature_c": 48.0,
+      "vram_used_mb": 1921.0,
+      "stage": "stage1_text"
+    },
+    {
+      "unix_time": 1785322933.1941266,
+      "temperature_c": 48.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322933.786287,
+      "temperature_c": 48.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322934.3258455,
+      "temperature_c": 48.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322934.8828385,
+      "temperature_c": 48.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322935.4381294,
+      "temperature_c": 48.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322935.9937108,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322936.5397034,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322937.0810163,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322937.6349049,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322938.1769173,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322938.7205703,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322939.261981,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322939.803017,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322940.3445382,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322940.885635,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322941.4270182,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322941.9811676,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322942.5371463,
+      "temperature_c": 49.0,
+      "vram_used_mb": 1501.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322943.0766459,
+      "temperature_c": 51.0,
+      "vram_used_mb": 1501.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322943.6174278,
+      "temperature_c": 52.0,
+      "vram_used_mb": 1501.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322944.1591904,
+      "temperature_c": 52.0,
+      "vram_used_mb": 1523.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322944.7004392,
+      "temperature_c": 52.0,
+      "vram_used_mb": 1675.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322945.2434535,
+      "temperature_c": 52.0,
+      "vram_used_mb": 1839.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322945.7844734,
+      "temperature_c": 52.0,
+      "vram_used_mb": 1845.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322946.3399827,
+      "temperature_c": 53.0,
+      "vram_used_mb": 1935.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322946.8958626,
+      "temperature_c": 53.0,
+      "vram_used_mb": 1935.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322947.437432,
+      "temperature_c": 53.0,
+      "vram_used_mb": 2053.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322947.9924364,
+      "temperature_c": 53.0,
+      "vram_used_mb": 2053.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322948.550459,
+      "temperature_c": 53.0,
+      "vram_used_mb": 2053.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322949.0916252,
+      "temperature_c": 53.0,
+      "vram_used_mb": 2053.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322949.6482432,
+      "temperature_c": 50.0,
+      "vram_used_mb": 2053.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322950.1908987,
+      "temperature_c": 49.0,
+      "vram_used_mb": 2053.0,
+      "stage": "stage2_hubert"
+    },
+    {
+      "unix_time": 1785322950.7819152,
+      "temperature_c": 48.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322951.3335762,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322951.8756514,
+      "temperature_c": 47.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322952.420162,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322952.9643996,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322953.5074055,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322954.0489545,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322954.6045382,
+      "temperature_c": 46.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322955.163505,
+      "temperature_c": 45.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322955.706951,
+      "temperature_c": 45.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322956.2485514,
+      "temperature_c": 45.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322956.7890978,
+      "temperature_c": 45.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322957.3368554,
+      "temperature_c": 45.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322957.8881059,
+      "temperature_c": 45.0,
+      "vram_used_mb": 1167.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322958.4442806,
+      "temperature_c": 45.0,
+      "vram_used_mb": 1375.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322958.9860988,
+      "temperature_c": 50.0,
+      "vram_used_mb": 1477.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322959.5417528,
+      "temperature_c": 51.0,
+      "vram_used_mb": 1481.0,
+      "stage": "stage3_semantic"
+    },
+    {
+      "unix_time": 1785322960.0827417,
+      "temperature_c": 51.0,
+      "vram_used_mb": 1481.0,
+      "stage": "stage3_semantic"
+    }
+  ],
+  "hard_stop": {},
+  "peak_temperature_c": 55.0,
+  "peak_vram_used_mb": 2053.0
+}

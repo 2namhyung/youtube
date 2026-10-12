@@ -1,0 +1,44 @@
+{
+  "project": {
+    "name": "제주 초등학교 교실 침입 사건 - caption v2",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "tracks": [
+    { "type": "text", "text": "제주 초등학교 교실 침입 사건", "start": 0, "duration": 130.728 },
+    { "type": "video", "src": "clip01.mp4", "start": 0, "duration": 12.642 },
+    { "type": "video", "src": "clip02.mp4", "start": 12.642, "duration": 14.616 },
+    { "type": "video", "src": "clip03.mp4", "start": 27.258, "duration": 4.611 },
+    { "type": "video", "src": "clip04.mp4", "start": 31.869, "duration": 7.463 },
+    { "type": "video", "src": "clip05.mp4", "start": 39.332, "duration": 5.406 },
+    { "type": "video", "src": "clip06.mp4", "start": 44.738, "duration": 2.868 },
+    { "type": "video", "src": "clip07.mp4", "start": 47.606, "duration": 7.741 },
+    { "type": "video", "src": "clip08.mp4", "start": 55.347, "duration": 12.608 },
+    { "type": "video", "src": "clip09.mp4", "start": 67.955, "duration": 7.766 },
+    { "type": "video", "src": "clip10.mp4", "start": 75.721, "duration": 12.137 },
+    { "type": "video", "src": "clip11.mp4", "start": 87.858, "duration": 23.935 },
+    { "type": "video", "src": "clip12.mp4", "start": 111.793, "duration": 18.935 },
+    { "type": "audio", "src": "preview_narration.mp3", "start": 0, "duration": 130.728 },
+    {
+      "type": "captions",
+      "src": "preview_subtitles_caption_v2.srt",
+      "start": 0,
+      "duration": 130.728,
+      "captionStyle": {
+        "fontSize": 3.795,
+        "fontFamily": "Arial",
+        "fontWeight": "bold",
+        "color": "#ffffff",
+        "background": { "enabled": false },
+        "textAlign": "center",
+        "placement": {
+          "verticalAlign": "bottom",
+          "marginLeftRatio": 0.14,
+          "marginRightRatio": 0.14,
+          "marginVerticalRatio": 0.1443
+        }
+      }
+    }
+  ]
+}

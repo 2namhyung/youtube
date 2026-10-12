@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-production-reconciliation-v1",
+  "type": "object",
+  "required": ["schema", "slug", "createdAt", "creator", "verifier", "workflow", "registry", "missingJobs", "successorIntent", "artifactSha256"],
+  "properties": {
+    "schema": { "const": "newsroom-production-reconciliation-v1" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{5,80}$" },
+    "creator": { "const": "newsroom-production-reconciliation-creator-v1" },
+    "verifier": { "const": "newsroom-production-reconciliation-verifier-v1" },
+    "artifactSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  },
+  "additionalProperties": true
+}

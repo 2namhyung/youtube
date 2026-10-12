@@ -1,0 +1,27 @@
+{
+  "id": "reference-v3",
+  "primitive": {
+    "canvas": { "width": 1080, "height": 1920, "fps": 30 },
+    "bands": { "top": 474, "middle": 972, "bottom": 474 },
+    "colors": { "black": "#000000", "accent": "#27D3E8", "white": "#FFFFFF" },
+    "font": { "family": "Noto Sans KR", "weight": 800 }
+  },
+  "semantic": {
+    "background": "#000000",
+    "titleAccent": "#27D3E8",
+    "titleSecondary": "#FFFFFF",
+    "caption": "#FFFFFF",
+    "captionOutline": "#000000",
+    "captionBackground": "none",
+    "safeWidth": 920,
+    "captionScaleX": 94
+  },
+  "component": {
+    "title": { "line1Y": 201, "line2Y": 326, "line1Size": 120, "line2Size": 143 },
+    "caption": { "x": 540, "y": 1400, "fontSize": 88, "outlineWidth": 5, "shadow": 0, "background": "none", "maxCharsPerLine": 16, "maxLines": 2, "lineHeight": 1.08, "targetDuration": 2.4, "minDuration": 1.4, "maxDuration": 3.6 },
+    "media": { "x": 0, "y": 474, "width": 1080, "height": 972, "fit": "cover" },
+    "sequence": { "sceneCount": 12, "frameAllocation": "balanced", "imageFirst": true },
+    "narration": { "speechTempo": 1.0106, "terminalPauseSeconds": 0.62, "semanticPauseSeconds": 0.30, "joinSafetySeconds": 0.005, "removeSilence": true }
+  },
+  "hook": false
+}

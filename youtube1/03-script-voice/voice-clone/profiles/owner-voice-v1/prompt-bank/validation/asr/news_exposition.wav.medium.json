@@ -1,0 +1,136 @@
+{
+  "language": "ko",
+  "languageProbability": 1.0,
+  "durationSeconds": 7.84,
+  "generationSeconds": 1.035,
+  "transcript": "원뱃은 땅굴을 파기에 다듬으러 거의 매일 땅을 파며 살아가는데요 그래서 몸에 흙이 많이 묻어 피부가 자주 가려워집니다",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.28,
+      "text": "원뱃은 땅굴을 파기에 다듬으러 거의 매일 땅을 파며 살아가는데요",
+      "avgLogProbability": -0.196907,
+      "noSpeechProbability": 0.018143,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.86,
+          "text": "원뱃은",
+          "probability": 0.93811
+        },
+        {
+          "start": 0.86,
+          "end": 1.4,
+          "text": "땅굴을",
+          "probability": 0.872559
+        },
+        {
+          "start": 1.4,
+          "end": 1.66,
+          "text": "파기에",
+          "probability": 0.967285
+        },
+        {
+          "start": 1.66,
+          "end": 2.36,
+          "text": "다듬으러",
+          "probability": 0.640771
+        },
+        {
+          "start": 2.36,
+          "end": 2.64,
+          "text": "거의",
+          "probability": 0.977051
+        },
+        {
+          "start": 2.64,
+          "end": 3.12,
+          "text": "매일",
+          "probability": 0.994873
+        },
+        {
+          "start": 3.12,
+          "end": 3.44,
+          "text": "땅을",
+          "probability": 0.997559
+        },
+        {
+          "start": 3.44,
+          "end": 3.64,
+          "text": "파며",
+          "probability": 0.640625
+        },
+        {
+          "start": 3.64,
+          "end": 4.28,
+          "text": "살아가는데요",
+          "probability": 0.947754
+        }
+      ]
+    },
+    {
+      "start": 4.28,
+      "end": 7.68,
+      "text": "그래서 몸에 흙이 많이 묻어 피부가 자주 가려워집니다",
+      "avgLogProbability": -0.196907,
+      "noSpeechProbability": 0.018143,
+      "words": [
+        {
+          "start": 4.28,
+          "end": 4.9,
+          "text": "그래서",
+          "probability": 0.764648
+        },
+        {
+          "start": 4.9,
+          "end": 5.42,
+          "text": "몸에",
+          "probability": 0.977539
+        },
+        {
+          "start": 5.42,
+          "end": 5.72,
+          "text": "흙이",
+          "probability": 0.965332
+        },
+        {
+          "start": 5.72,
+          "end": 5.94,
+          "text": "많이",
+          "probability": 0.979492
+        },
+        {
+          "start": 5.94,
+          "end": 6.48,
+          "text": "묻어",
+          "probability": 0.979736
+        },
+        {
+          "start": 6.48,
+          "end": 6.88,
+          "text": "피부가",
+          "probability": 0.994873
+        },
+        {
+          "start": 6.88,
+          "end": 7.12,
+          "text": "자주",
+          "probability": 0.990234
+        },
+        {
+          "start": 7.12,
+          "end": 7.68,
+          "text": "가려워집니다",
+          "probability": 0.979785
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceFile": "news_exposition.wav",
+  "sourceSha256": "1ae5c6b35ea23bec4b48463536a04839da8138d64db0fa146583795297443dd6",
+  "model": "medium",
+  "device": "cuda",
+  "computeType": "float16",
+  "diagnosticOnly": true
+}

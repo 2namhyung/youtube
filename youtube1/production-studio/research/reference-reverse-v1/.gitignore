@@ -1,0 +1,5 @@
+# Public-reference bytes and derived contact sheets stay local analysis evidence.
+source/
+analysis/
+*.mp4
+*.png

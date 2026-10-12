@@ -1,0 +1,211 @@
+{
+  "language": "ko",
+  "languageProbability": 1.0,
+  "durationSeconds": 10.76,
+  "generationSeconds": 1.346,
+  "transcript": "철조망에 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다 저번 호주 산불 때 아는 동월들을 자신의 굴로 숨겨 구해준 작은 영웅이죠 그런데 원뱃이 몸을 여기저기 비비는 이유가 있습니다",
+  "segments": [
+    {
+      "start": 0.04,
+      "end": 3.54,
+      "text": "철조망에 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다",
+      "avgLogProbability": -0.19109,
+      "noSpeechProbability": 0.039856,
+      "words": [
+        {
+          "start": 0.04,
+          "end": 0.66,
+          "text": "철조망에",
+          "probability": 0.804565
+        },
+        {
+          "start": 0.66,
+          "end": 1.02,
+          "text": "몸을",
+          "probability": 0.992432
+        },
+        {
+          "start": 1.02,
+          "end": 1.28,
+          "text": "계속",
+          "probability": 0.991211
+        },
+        {
+          "start": 1.28,
+          "end": 1.68,
+          "text": "비비고",
+          "probability": 0.989583
+        },
+        {
+          "start": 1.68,
+          "end": 1.86,
+          "text": "있는",
+          "probability": 0.96582
+        },
+        {
+          "start": 1.86,
+          "end": 2.08,
+          "text": "이",
+          "probability": 0.946289
+        },
+        {
+          "start": 2.08,
+          "end": 2.58,
+          "text": "동물은",
+          "probability": 0.997233
+        },
+        {
+          "start": 2.58,
+          "end": 2.9,
+          "text": "바로",
+          "probability": 0.959473
+        },
+        {
+          "start": 2.9,
+          "end": 3.54,
+          "text": "원뱃입니다",
+          "probability": 0.902222
+        }
+      ]
+    },
+    {
+      "start": 3.54,
+      "end": 7.72,
+      "text": "저번 호주 산불 때 아는 동월들을 자신의 굴로 숨겨 구해준 작은 영웅이죠",
+      "avgLogProbability": -0.19109,
+      "noSpeechProbability": 0.039856,
+      "words": [
+        {
+          "start": 3.54,
+          "end": 3.9,
+          "text": "저번",
+          "probability": 0.876221
+        },
+        {
+          "start": 3.9,
+          "end": 4.18,
+          "text": "호주",
+          "probability": 0.979248
+        },
+        {
+          "start": 4.18,
+          "end": 4.44,
+          "text": "산불",
+          "probability": 0.778809
+        },
+        {
+          "start": 4.44,
+          "end": 4.82,
+          "text": "때",
+          "probability": 0.989746
+        },
+        {
+          "start": 4.82,
+          "end": 5.1,
+          "text": "아는",
+          "probability": 0.91333
+        },
+        {
+          "start": 5.1,
+          "end": 5.58,
+          "text": "동월들을",
+          "probability": 0.747864
+        },
+        {
+          "start": 5.58,
+          "end": 6.02,
+          "text": "자신의",
+          "probability": 0.959229
+        },
+        {
+          "start": 6.02,
+          "end": 6.22,
+          "text": "굴로",
+          "probability": 0.956706
+        },
+        {
+          "start": 6.22,
+          "end": 6.6,
+          "text": "숨겨",
+          "probability": 0.995605
+        },
+        {
+          "start": 6.6,
+          "end": 7.02,
+          "text": "구해준",
+          "probability": 0.919922
+        },
+        {
+          "start": 7.02,
+          "end": 7.24,
+          "text": "작은",
+          "probability": 0.994629
+        },
+        {
+          "start": 7.24,
+          "end": 7.72,
+          "text": "영웅이죠",
+          "probability": 0.962891
+        }
+      ]
+    },
+    {
+      "start": 7.72,
+      "end": 10.62,
+      "text": "그런데 원뱃이 몸을 여기저기 비비는 이유가 있습니다",
+      "avgLogProbability": -0.19109,
+      "noSpeechProbability": 0.039856,
+      "words": [
+        {
+          "start": 7.72,
+          "end": 8.06,
+          "text": "그런데",
+          "probability": 0.973145
+        },
+        {
+          "start": 8.06,
+          "end": 8.9,
+          "text": "원뱃이",
+          "probability": 0.987183
+        },
+        {
+          "start": 8.9,
+          "end": 9.3,
+          "text": "몸을",
+          "probability": 0.840576
+        },
+        {
+          "start": 9.3,
+          "end": 9.62,
+          "text": "여기저기",
+          "probability": 0.944987
+        },
+        {
+          "start": 9.62,
+          "end": 10.02,
+          "text": "비비는",
+          "probability": 0.993001
+        },
+        {
+          "start": 10.02,
+          "end": 10.34,
+          "text": "이유가",
+          "probability": 0.996582
+        },
+        {
+          "start": 10.34,
+          "end": 10.62,
+          "text": "있습니다",
+          "probability": 0.990723
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceFile": "hook.wav",
+  "sourceSha256": "41d9d3fd3753564f2445df28949c3586255b3434b698febe1ca29589d4e8e882",
+  "model": "medium",
+  "device": "cuda",
+  "computeType": "float16",
+  "diagnosticOnly": true
+}

@@ -1,0 +1,61 @@
+{
+  "version": "v8-source-grounded-hybrid",
+  "createdAt": "2026-08-05",
+  "purpose": "제주 초등학교 교실 침입 사건의 어두운 취재 재연 톤을 유지하면서 환경·사물 장면에만 제한적으로 실제 움직임을 추가한다.",
+  "generator": {
+    "application": "ComfyUI",
+    "model": "Wan2.2 TI2V 5B Q5_0 GGUF",
+    "resolution": "480x832",
+    "frames": 25,
+    "fps": 16,
+    "steps": 16,
+    "cfg": 4.5
+  },
+  "policy": {
+    "allowed": [
+      "빈 교실과 학교 외관의 미세한 빛 변화",
+      "텀블러·CCTV·문 같은 사물 중심의 느린 카메라 이동"
+    ],
+    "rejected": [
+      "인물·얼굴·손이 생성되는 장면",
+      "기사 원본 인물이나 학교를 실제로 재현한다고 오인할 수 있는 장면",
+      "공포물처럼 과장된 조명과 비현실적인 움직임"
+    ]
+  },
+  "acceptedClips": [
+    {
+      "file": "01-classroom-window.mp4",
+      "sourceStill": "../../../images/v8-source-grounded-hybrid/03-classroom-window.png",
+      "sha256": "52d7441e4d731c5f69eeb39b269640c378bdc21ada51e1222eab82d85c9332a6"
+    },
+    {
+      "file": "02-school-exterior.mp4",
+      "sourceStill": "../../../images/v8-source-grounded-hybrid/01-school-exterior.png",
+      "sha256": "7c292bd139d7ecb56df9874d36960ba441ff4b24b2ffed1124470b4cae2855de"
+    },
+    {
+      "file": "03-tumbler-rim.mp4",
+      "sourceStill": "../../../images/v8-source-grounded-hybrid/14-tumbler-rim-macro.png",
+      "sha256": "da626efefcbcd4c2e576eea2adf1134f1dab6a81ab0733f556eff0ae26753987"
+    },
+    {
+      "file": "04-cctv-monitor.mp4",
+      "sourceStill": "../../../images/v8-source-grounded-hybrid/16-cctv-monitor-detail.png",
+      "sha256": "a50f767d84ebeb8e576c741ef7e98ae177e050146bcf59ba71e7b94a3fe17944"
+    },
+    {
+      "file": "05-locked-door.mp4",
+      "sourceStill": "../../../images/v8-source-grounded-hybrid/11-locked-door.png",
+      "sha256": "f62e1fc068e4ad189c9b2f8dc00c74b5466c875fa4cae77e51fcca304f9f7bec"
+    }
+  ],
+  "rejectedClips": [
+    {
+      "source": "scene-06-access-reader_00001_.mp4",
+      "reason": "중간 프레임부터 팔과 손이 새로 생겨 무인 환경·사물 장면 규칙을 위반했다.",
+      "includedInProject": false
+    }
+  ],
+  "generationPlan": "../../../../../../../comfyui-video/scene-motion-plan-v8-source-grounded.json",
+  "qaContactSheet": "../../../../../../../comfyui-video/review/v8-source-grounded-motion/contact.jpg"
+}

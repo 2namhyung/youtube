@@ -1,0 +1,903 @@
+{
+  "slug": "research-08fcabebc97e1b94",
+  "topic": "\"볶아달라니까!\"…셀프 볶음밥 안 볶아줬다고 사장 폭행한 손님",
+  "mode": "investigation",
+  "fetchedAt": "2026-09-04T11:30:19.159Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-08fcabebc97e1b94.research.config.json",
+    "queries": [
+      "\"볶아달라니까!\"…셀프 볶음밥 안 볶아줬다고 사장 폭행한 손님",
+      "볶아달라니까 셀프 볶음밥",
+      "볶아달라니까 셀프 볶아달라니까!",
+      "볶아달라니까 셀프 볶아줬다고 폭행한",
+      "볶아달라니까 셀프 경찰 신고 수사 처분",
+      "볶아달라니까 셀프 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv",
+      "naver-news",
+      "daum-news",
+      "news1-society"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ],
+    "eventFingerprint": {
+      "anchors": [
+        "볶아달라니까",
+        "셀프",
+        "볶음밥",
+        "볶아줬다고",
+        "사장",
+        "폭행한",
+        "손님",
+        "서울",
+        "뉴시스",
+        "볶음밥을"
+      ],
+      "distinctiveAnchors": [
+        {
+          "name": "커피",
+          "terms": [
+            "커피",
+            "음료",
+            "컵",
+            "카페"
+          ]
+        }
+      ],
+      "minDistinctiveMatches": 1,
+      "minTotalMatches": 3,
+      "semanticFacets": {
+        "locations": [
+          "서울",
+          "경북"
+        ],
+        "actions": [],
+        "roles": [],
+        "dates": []
+      }
+    }
+  },
+  "sources": [
+    {
+      "publisher": "뉴시스",
+      "title": "\"볶아달라니까!\"…셀프 볶음밥 안 볶아줬다고 사장 폭행한 손님",
+      "url": "https://www.newsis.com/view/NISX20260807_0003740192",
+      "date": "2026-08-07T19:46:00+09:00",
+      "status": "verified",
+      "snippet": "[서울=뉴시스] 셀프 볶음밥을 안 볶아줬다는 이유로 식당 업주에게 폭행을 가한 손님의 모습이 공개됐다. (사진=JTBC '사건반장' 캡처) [서울=뉴시스]장인혜 인턴 기자 = 식당과 카페에서 직원과 업주에게 무리한 요구를 한 뒤, 폭행과 협박까지 이어간 손님들의 제보 영상이 공개됐다. 7일 JTBC '사건반장'에서는 업주들이 겪은 황당한 피해 사례가 소개됐다. 첫 번째 사례는 경북 경산의 한 오리고기 전문점에서 발생했다. 제보자인 업주는 \"중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했다\"며 \"처음에는 웃으며 반찬을 다시 채워줬다\"고 전했다. 이후 손님들은 고기를 다 먹은 뒤 2000원짜리 셀프 볶음밥 2인분을 주문했다. 메뉴판에는 볶음밥이 '셀프'라고 명시돼 있었지만, 남성 손님은 직원에게 \"왜 밥 안 볶아줘?\"라고 따졌다. 직원이 \"이 메뉴는 셀프 볶음밥\"이라고 설명하자 남성은 \"2000원이나 받아 쳐 놓고 장난해 지금\"이라며 소리를 지른 것으로 전해졌다. 업주가 메뉴판에 '셀프'라고 적혀 있고 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 2000원을 받는 것이라고 설명했지만, 남성은 카운터까지 쫓아가 업주를 폭행한 것으로 알려졌다. 남성은 경찰에게도 \"장사 이렇게 하면 안 되지 않냐\"며 난동을 이어갔고, 다른 손님에게 \"맛없지 않느냐\"고 묻기도 한 것으로 전해졌다. 두 번째 사례는 한 카페에서 발생했다. 한 남성이 다 마신 컵을 들고 카페에 들어와 \"이거 리필\"이라고 요구했다. 카페 측이 \"저희는 리필이 안 됩니다\"라고 설명하자 남성은 밖으로 나갔다. 이후 야외 테라스에 있던 남성은 사장에게 다시 무언가를 요구했고, 사장이 따라 나오자 테이블 위에 있던 쟁반을 던진 것으로 전해졌다. 이어 욕설과 함께 \"앞으로 장사 못 하게 하겠다. 손님 못 오게 하겠다\"며 협박한 것으로 알려졌다. 결국 사장 측은 추가 피해를 막기 위해 남성에게 리필해 줬다. 하지만 이후 해당 남성을 업무방해, 공갈, 협박, 폭행, 재물손괴 등의 혐의로 고소한 상태라고 전해졌다. 피해를 본 사장은 사건 이후에도 \"아직 심장이 뛰고 손이 벌벌 떨린다\"고 호소한 것으로 알려졌다. 방송에서는 이 같은 업주들의 제보 영상을 차례로 공개하며 손님들의 무리한 요구와 폭언, 폭행 사례를 소개했다. ◎공감언론 뉴시스 [email protected]",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "볶아달라니까",
+          "셀프",
+          "볶음밥",
+          "볶아줬다고",
+          "사장",
+          "폭행한",
+          "손님"
+        ],
+        "snippetLength": 1156,
+        "contentLength": 1156
+      },
+      "fetchedAt": "2026-09-04T11:30:19.168Z"
+    }
+  ],
+  "relatedCoverage": [],
+  "priorContext": [],
+  "followUps": [],
+  "laws": [],
+  "actors": [],
+  "contradictions": [],
+  "unknowns": [],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 0,
+    "priorContext": 0,
+    "originalMedia": 0,
+    "followUps": 0,
+    "laws": 0,
+    "errors": 0
+  },
+  "eventDossier": {
+    "schemaVersion": 3,
+    "slug": "research-08fcabebc97e1b94",
+    "generatedAt": "2026-09-04T11:30:19.159Z",
+    "researchSnapshotSha256": "db445b71ba66642bda8a9d2d5b2bfc40ebaaedf83a63922b6b706cf836d4b688",
+    "eventIdentity": {
+      "title": "\"볶아달라니까!\"…셀프 볶음밥 안 볶아줬다고 사장 폭행한 손님",
+      "fingerprint": {
+        "anchors": [
+          "볶아달라니까",
+          "셀프",
+          "볶음밥",
+          "볶아줬다고",
+          "사장",
+          "폭행한",
+          "손님",
+          "서울",
+          "뉴시스",
+          "볶음밥을"
+        ],
+        "distinctiveAnchors": [
+          {
+            "name": "커피",
+            "terms": [
+              "커피",
+              "음료",
+              "컵",
+              "카페"
+            ]
+          }
+        ],
+        "minDistinctiveMatches": 1,
+        "minTotalMatches": 3,
+        "semanticFacets": {
+          "locations": [
+            "서울",
+            "경북"
+          ],
+          "actions": [],
+          "roles": [],
+          "dates": []
+        }
+      }
+    },
+    "actors": [],
+    "confirmedFacts": [
+      {
+        "id": "claim-afd9f47604ca",
+        "summary": "[서울=뉴시스] 셀프 볶음밥을 안 볶아줬다는 이유로 식당 업주에게 폭행을 가한 손님의 모습이 공개됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-d3e94bc1cc48",
+        "summary": "(사진=JTBC '사건반장' 캡처) [서울=뉴시스]장인혜 인턴 기자 = 식당과 카페에서 직원과 업주에게 무리한 요구를 한 뒤, 폭행과 협박까지 이어간 손님들의 제보 영상이 공개됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-841bbec89337",
+        "summary": "7일 JTBC '사건반장'에서는 업주들이 겪은 황당한 피해 사례가 소개됐다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-482562ee7559",
+        "summary": "첫 번째 사례는 경북 경산의 한 오리고기 전문점에서 발생했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-ae59330496ba",
+        "summary": "제보자인 업주는 \"중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했다\"며 \"처음에는 웃으며 반찬을 다시 채워줬다\"고 전했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "background",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-64d38e1c4d2c",
+        "summary": "이후 손님들은 고기를 다 먹은 뒤 2000원짜리 셀프 볶음밥 2인분을 주문했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-b3d6df8acf75",
+        "summary": "메뉴판에는 볶음밥이 '셀프'라고 명시돼 있었지만, 남성 손님은 직원에게 \"왜 밥 안 볶아줘?\"라고 따졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-c6c23cb7435c",
+        "summary": "직원이 \"이 메뉴는 셀프 볶음밥\"이라고 설명하자 남성은 \"2000원이나 받아 쳐 놓고 장난해 지금\"이라며 소리를 지른 것으로 전해졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-de8f49a23504",
+        "summary": "업주가 메뉴판에 '셀프'라고 적혀 있고 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 2000원을 받는 것이라고 설명했지만, 남성은 카운터까지 쫓아가 업주를 폭행한 것으로 알려졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-7287eb68a130",
+        "summary": "남성은 경찰에게도 \"장사 이렇게 하면 안 되지 않냐\"며 난동을 이어갔고, 다른 손님에게 \"맛없지 않느냐\"고 묻기도 한 것으로 전해졌다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-40b0b166d421",
+        "summary": "한 남성이 다 마신 컵을 들고 카페에 들어와 \"이거 리필\"이라고 요구했다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-82b14ee1afbb",
+        "summary": "카페 측이 \"저희는 리필이 안 됩니다\"라고 설명하자 남성은 밖으로 나갔다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-08fcabebc97e"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "investigationAndCharges": [],
+    "trialStagesAndSentenceChanges": [],
+    "prosecutionClaims": [],
+    "defenseClaims": [],
+    "courtFindings": [],
+    "victimImpact": [],
+    "timeline": [],
+    "conflicts": [],
+    "unknowns": [],
+    "laterChanges": [],
+    "narrative": {
+      "overview": [
+        {
+          "id": "claim-afd9f47604ca",
+          "summary": "[서울=뉴시스] 셀프 볶음밥을 안 볶아줬다는 이유로 식당 업주에게 폭행을 가한 손님의 모습이 공개됐다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-d3e94bc1cc48",
+          "summary": "(사진=JTBC '사건반장' 캡처) [서울=뉴시스]장인혜 인턴 기자 = 식당과 카페에서 직원과 업주에게 무리한 요구를 한 뒤, 폭행과 협박까지 이어간 손님들의 제보 영상이 공개됐다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-841bbec89337",
+          "summary": "7일 JTBC '사건반장'에서는 업주들이 겪은 황당한 피해 사례가 소개됐다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-482562ee7559",
+          "summary": "첫 번째 사례는 경북 경산의 한 오리고기 전문점에서 발생했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-ae59330496ba",
+          "summary": "제보자인 업주는 \"중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했다\"며 \"처음에는 웃으며 반찬을 다시 채워줬다\"고 전했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "background",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-64d38e1c4d2c",
+          "summary": "이후 손님들은 고기를 다 먹은 뒤 2000원짜리 셀프 볶음밥 2인분을 주문했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-b3d6df8acf75",
+          "summary": "메뉴판에는 볶음밥이 '셀프'라고 명시돼 있었지만, 남성 손님은 직원에게 \"왜 밥 안 볶아줘?\"라고 따졌다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-c6c23cb7435c",
+          "summary": "직원이 \"이 메뉴는 셀프 볶음밥\"이라고 설명하자 남성은 \"2000원이나 받아 쳐 놓고 장난해 지금\"이라며 소리를 지른 것으로 전해졌다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "chronology": [],
+      "sameEventFindings": [
+        {
+          "id": "claim-afd9f47604ca",
+          "summary": "[서울=뉴시스] 셀프 볶음밥을 안 볶아줬다는 이유로 식당 업주에게 폭행을 가한 손님의 모습이 공개됐다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-d3e94bc1cc48",
+          "summary": "(사진=JTBC '사건반장' 캡처) [서울=뉴시스]장인혜 인턴 기자 = 식당과 카페에서 직원과 업주에게 무리한 요구를 한 뒤, 폭행과 협박까지 이어간 손님들의 제보 영상이 공개됐다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-841bbec89337",
+          "summary": "7일 JTBC '사건반장'에서는 업주들이 겪은 황당한 피해 사례가 소개됐다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-482562ee7559",
+          "summary": "첫 번째 사례는 경북 경산의 한 오리고기 전문점에서 발생했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-ae59330496ba",
+          "summary": "제보자인 업주는 \"중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했다\"며 \"처음에는 웃으며 반찬을 다시 채워줬다\"고 전했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "background",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-64d38e1c4d2c",
+          "summary": "이후 손님들은 고기를 다 먹은 뒤 2000원짜리 셀프 볶음밥 2인분을 주문했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-b3d6df8acf75",
+          "summary": "메뉴판에는 볶음밥이 '셀프'라고 명시돼 있었지만, 남성 손님은 직원에게 \"왜 밥 안 볶아줘?\"라고 따졌다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-c6c23cb7435c",
+          "summary": "직원이 \"이 메뉴는 셀프 볶음밥\"이라고 설명하자 남성은 \"2000원이나 받아 쳐 놓고 장난해 지금\"이라며 소리를 지른 것으로 전해졌다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-de8f49a23504",
+          "summary": "업주가 메뉴판에 '셀프'라고 적혀 있고 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 2000원을 받는 것이라고 설명했지만, 남성은 카운터까지 쫓아가 업주를 폭행한 것으로 알려졌다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-7287eb68a130",
+          "summary": "남성은 경찰에게도 \"장사 이렇게 하면 안 되지 않냐\"며 난동을 이어갔고, 다른 손님에게 \"맛없지 않느냐\"고 묻기도 한 것으로 전해졌다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-40b0b166d421",
+          "summary": "한 남성이 다 마신 컵을 들고 카페에 들어와 \"이거 리필\"이라고 요구했다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-82b14ee1afbb",
+          "summary": "카페 측이 \"저희는 리필이 안 됩니다\"라고 설명하자 남성은 밖으로 나갔다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "priorContext": [],
+      "followUpDevelopments": [],
+      "detailSections": [
+        {
+          "id": "background",
+          "title": "갈등과 관계의 배경",
+          "description": "왜 갈등이 시작됐는지 확인된 범위",
+          "claims": [
+            {
+              "id": "claim-ae59330496ba",
+              "summary": "제보자인 업주는 \"중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했다\"며 \"처음에는 웃으며 반찬을 다시 채워줬다\"고 전했다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "background",
+              "sourceIds": [
+                "src-08fcabebc97e"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        },
+        {
+          "id": "harm",
+          "title": "피해와 후유증",
+          "description": "신체·정신적 피해와 공개되지 않은 범위",
+          "claims": [
+            {
+              "id": "claim-841bbec89337",
+              "summary": "7일 JTBC '사건반장'에서는 업주들이 겪은 황당한 피해 사례가 소개됐다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-08fcabebc97e"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        }
+      ],
+      "sourceAgreement": [
+        {
+          "claimId": "claim-afd9f47604ca",
+          "summary": "[서울=뉴시스] 셀프 볶음밥을 안 볶아줬다는 이유로 식당 업주에게 폭행을 가한 손님의 모습이 공개됐다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-d3e94bc1cc48",
+          "summary": "(사진=JTBC '사건반장' 캡처) [서울=뉴시스]장인혜 인턴 기자 = 식당과 카페에서 직원과 업주에게 무리한 요구를 한 뒤, 폭행과 협박까지 이어간 손님들의 제보 영상이 공개됐다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-841bbec89337",
+          "summary": "7일 JTBC '사건반장'에서는 업주들이 겪은 황당한 피해 사례가 소개됐다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-482562ee7559",
+          "summary": "첫 번째 사례는 경북 경산의 한 오리고기 전문점에서 발생했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-ae59330496ba",
+          "summary": "제보자인 업주는 \"중년 남녀 손님이 오리불고기를 주문한 뒤 반찬이 적다고 불만을 제기했다\"며 \"처음에는 웃으며 반찬을 다시 채워줬다\"고 전했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-64d38e1c4d2c",
+          "summary": "이후 손님들은 고기를 다 먹은 뒤 2000원짜리 셀프 볶음밥 2인분을 주문했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-b3d6df8acf75",
+          "summary": "메뉴판에는 볶음밥이 '셀프'라고 명시돼 있었지만, 남성 손님은 직원에게 \"왜 밥 안 볶아줘?\"라고 따졌다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-c6c23cb7435c",
+          "summary": "직원이 \"이 메뉴는 셀프 볶음밥\"이라고 설명하자 남성은 \"2000원이나 받아 쳐 놓고 장난해 지금\"이라며 소리를 지른 것으로 전해졌다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-de8f49a23504",
+          "summary": "업주가 메뉴판에 '셀프'라고 적혀 있고 김가루와 김치, 깻잎, 참기름 등을 제공하기 때문에 2000원을 받는 것이라고 설명했지만, 남성은 카운터까지 쫓아가 업주를 폭행한 것으로 알려졌다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-7287eb68a130",
+          "summary": "남성은 경찰에게도 \"장사 이렇게 하면 안 되지 않냐\"며 난동을 이어갔고, 다른 손님에게 \"맛없지 않느냐\"고 묻기도 한 것으로 전해졌다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-40b0b166d421",
+          "summary": "한 남성이 다 마신 컵을 들고 카페에 들어와 \"이거 리필\"이라고 요구했다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-82b14ee1afbb",
+          "summary": "카페 측이 \"저희는 리필이 안 됩니다\"라고 설명하자 남성은 밖으로 나갔다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-08fcabebc97e"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        }
+      ],
+      "conflicts": [],
+      "unresolvedQuestions": [],
+      "limitations": [
+        "독립적으로 검증된 동일 사건 추가 보도를 찾지 못했습니다.",
+        "이 사건의 직접적인 사전 맥락으로 확인된 보도를 찾지 못했습니다.",
+        "현재까지 확인된 후속 보도가 없습니다."
+      ]
+    },
+    "sourceCoverage": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "sameEventCoverageCount": 0,
+      "priorContextCount": 0,
+      "followUpCount": 0,
+      "independentPublisherCount": 1,
+      "corroboration": "single-source",
+      "rejectedSameEventSourceCount": 0
+    },
+    "readiness": {
+      "readyForLegal": true,
+      "readyForDraft": true,
+      "preferredCorroborationMet": false,
+      "detailedNarrativeComplete": true,
+      "storyClaimCount": 12,
+      "narrativePhaseCount": 3,
+      "blockers": [],
+      "warnings": [
+        "single-source-only"
+      ]
+    },
+    "sourceIndex": [
+      {
+        "sourceId": "src-08fcabebc97e",
+        "url": "https://www.newsis.com/view/NISX20260807_0003740192",
+        "title": "\"볶아달라니까!\"…셀프 볶음밥 안 볶아줬다고 사장 폭행한 손님",
+        "publisher": "뉴시스",
+        "date": "2026-08-07T19:46:00+09:00",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "sourceExclusions": [],
+    "currentHash": "ac70fc74ab75ed7f9c7c28f1ec1ea0c0274da5e9bac139f092e07843508108c6"
+  }
+}

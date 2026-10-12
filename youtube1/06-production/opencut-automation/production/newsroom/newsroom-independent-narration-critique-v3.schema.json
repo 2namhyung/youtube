@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-independent-narration-critique-v3",
+  "title": "Independent newsroom narration critique v3",
+  "description": "critic prompt v4 accept/reject record. Runtime admission permits an active draft only when every final finding passes, deterministic surface checks pass, and the owner-rate final estimate is 70.0 to 80.0 seconds.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "decision", "rejectionReasons", "initialVerdict", "findings", "revisionApplied", "revisionSummary", "initialAuthoritySha256", "finalAuthoritySha256", "timing"],
+  "properties": {
+    "schema": { "const": "newsroom-independent-narration-critique-v3" },
+    "decision": { "enum": ["accept", "reject"] },
+    "rejectionReasons": {
+      "type": "array", "maxItems": 12,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["code", "detail"],
+        "properties": {
+          "code": { "enum": ["insufficient-narrative-material", "duration-below-minimum", "duration-above-maximum", "factual-grounding-failure", "legal-qualification-failure", "weak-opening-stake", "low-information-gain", "provenance-narration", "repetition-or-padding", "modality-mismatch", "other-editorial-failure"] },
+          "detail": { "type": "string", "minLength": 1, "maxLength": 800 }
+        }
+      }
+    },
+    "initialVerdict": { "enum": ["pass", "revise"] },
+    "findings": {
+      "type": "array", "minItems": 9, "maxItems": 9,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["category", "initialStatus", "finalStatus", "targetAuthority", "detail", "exactQuote"],
+        "properties": {
+          "category": { "enum": ["factual-grounding", "legal-qualification", "observer-summary", "repetition", "progression", "interest", "modality-fit", "coda", "advisory-duration"] },
+          "initialStatus": { "enum": ["pass", "revise"] },
+          "finalStatus": { "enum": ["pass", "reject"] },
+          "targetAuthority": { "enum": ["global", "initial", "final"] },
+          "detail": { "type": "string", "minLength": 1, "maxLength": 1200 },
+          "exactQuote": { "type": "string", "maxLength": 500 }
+        }
+      }
+    },
+    "revisionApplied": { "type": "boolean" },
+    "revisionSummary": { "type": "string", "maxLength": 2000 },
+    "initialAuthoritySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "finalAuthoritySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "timing": {
+      "type": "object", "additionalProperties": false,
+      "required": ["initial", "final"],
+      "properties": {
+        "initial": {
+          "type": "object", "additionalProperties": false,
+          "required": ["schema", "compactCharacters", "observedCompactKoreanCharactersPerSecond", "estimatedSeconds", "targetMinimumSeconds", "targetMaximumSeconds", "withinAdvisoryTarget", "authority"],
+          "properties": {
+            "schema": { "const": "newsroom-owner-rate-advisory-estimate-v1" }, "compactCharacters": { "type": "integer", "minimum": 0 }, "observedCompactKoreanCharactersPerSecond": { "type": "number", "exclusiveMinimum": 0 }, "estimatedSeconds": { "type": "number", "minimum": 0 }, "targetMinimumSeconds": { "type": "number", "minimum": 0 }, "targetMaximumSeconds": { "type": "number", "minimum": 0 }, "withinAdvisoryTarget": { "type": "boolean" }, "authority": { "const": "advisory-only-owner-narration-locked-timing-remains-required" }
+          }
+        },
+        "final": {
+          "type": "object", "additionalProperties": false,
+          "required": ["schema", "compactCharacters", "observedCompactKoreanCharactersPerSecond", "estimatedSeconds", "targetMinimumSeconds", "targetMaximumSeconds", "withinAdvisoryTarget", "authority"],
+          "properties": {
+            "schema": { "const": "newsroom-owner-rate-advisory-estimate-v1" }, "compactCharacters": { "type": "integer", "minimum": 0 }, "observedCompactKoreanCharactersPerSecond": { "type": "number", "exclusiveMinimum": 0 }, "estimatedSeconds": { "type": "number", "minimum": 0 }, "targetMinimumSeconds": { "type": "number", "minimum": 0 }, "targetMaximumSeconds": { "type": "number", "minimum": 0 }, "withinAdvisoryTarget": { "type": "boolean" }, "authority": { "const": "advisory-only-owner-narration-locked-timing-remains-required" }
+          }
+        }
+      }
+    }
+  }
+}

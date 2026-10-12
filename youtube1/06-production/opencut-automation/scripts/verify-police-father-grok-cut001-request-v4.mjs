@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import { fileURLToPath } from 'node:url';
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const projectId = 'research-6b1a8af9b4143acb';
+const requestPath = path.join(root, 'out', 'newsroom', 'grok-sources', projectId, 'cut-001', 'request-v4-character-only', 'grok-request-v4-character-only.json');
+const admissionRoot = path.join(root, 'out', 'prototypes', `${projectId}-v33-grok-cut001-reference-fixes-production-v1`);
+const sha = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
+const requestBytes = fs.readFileSync(requestPath);
+const request = JSON.parse(requestBytes.toString('utf8'));
+if (request.schema !== 'grok-character-reference-cut-request-v1' || request.inputMode !== 'character-reference-or-text-only-v1' || request.grokSceneClass !== 'human-action') throw new Error('request contract drifted');
+if (!request.characterReference || request.characterReference.role !== 'character' || request.characterReference.order !== 1) throw new Error('single character reference is missing');
+if (!Array.isArray(request.forbiddenReferenceRoles) || request.forbiddenReferenceRoles.length !== 7) throw new Error('forbidden reference role gate drifted');
+const file = path.resolve(admissionRoot, request.characterReference.file);
+if (!file.startsWith(`${path.resolve(admissionRoot)}${path.sep}`) || fs.lstatSync(file).isSymbolicLink()) throw new Error('character reference containment failed');
+const bytes = fs.readFileSync(file);
+if (bytes.length !== request.characterReference.bytes || sha(bytes) !== request.characterReference.sha256) throw new Error('character reference bytes drifted');
+if (!request.prompt.includes('Create an anonymous records office and desk autonomously') || !request.prompt.includes('One teacher, one sheet, one phone')) throw new Error('autonomous scene/object-count prompt gate failed');
+if (request.permissions?.providerCall !== true || request.permissions?.finalRender !== false || request.permissions?.upload !== false || request.permissions?.publication !== false || request.permissions?.stage07 !== false) throw new Error('permission boundary drifted');
+console.log(JSON.stringify({ verified: true, requestSha256: sha(requestBytes), characterReferenceSha256: sha(bytes), referenceCount: 1 }, null, 2));

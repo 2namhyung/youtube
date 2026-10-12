@@ -1,0 +1,839 @@
+{
+  "schema": "imagegen-separated-character-frames-v1",
+  "status": "private-study-only",
+  "frameCount": 22,
+  "canvas": [
+    1080,
+    1600
+  ],
+  "sourceRoot": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\production\\motion-assets\\generic-character-poc-v1\\imagegen-22-separated-v1",
+  "sourceSheets": [
+    {
+      "file": "body-inbetweens-01-02-sheet.png",
+      "sha256": "42b965265a4532d46abb8e108d8674ca3e1c4c7207b31d8c924e78a8f09d8075"
+    },
+    {
+      "file": "body-inbetweens-02-03-sheet.png",
+      "sha256": "df8df3ec2dfa30fb9ee7ddea27d816c80a22f9b6093ffee35ae6f84461f4356c"
+    },
+    {
+      "file": "body-inbetweens-03-04-sheet.png",
+      "sha256": "d7ce494baaf871b0c0bb0ef2cdfe488f26bd8dc8494780614b436ae8775a0dde"
+    },
+    {
+      "file": "body-inbetweens-04-05-sheet.png",
+      "sha256": "28d3408cd32aef26edafde4c8f9dd75a33b3dd685d465fbf6d3163612bfb01e3"
+    },
+    {
+      "file": "body-inbetweens-05-06-sheet.png",
+      "sha256": "75d0f966a2f3fcb1b912b571ea00b2feb12ff0abb09c9deff8c4fcc190f80305"
+    },
+    {
+      "file": "body-inbetweens-06-07-sheet.png",
+      "sha256": "66c75caf3f199538baba741b390c20862ec85a009be39c93f16a79ed646b16f5"
+    },
+    {
+      "file": "body-inbetweens-07-08-sheet.png",
+      "sha256": "9c80229731448f225ec2704fadce50cbc93b3704cf6d8e66ef38f259ad97400d"
+    },
+    {
+      "file": "body-keys-01-02-sheet.png",
+      "sha256": "a0ce7c70395da29247f17fe0cef57c6f87e0157787a6e663eb5aa5ce3771f64f"
+    },
+    {
+      "file": "body-keys-03-04-sheet.png",
+      "sha256": "49b77a23b3611d64dbc5a408e8915a0a42508e8e72c4f819a50b3f3e79915967"
+    },
+    {
+      "file": "body-keys-05-06-sheet.png",
+      "sha256": "1ba630d7b0321c5b82815e2fe9cb596ac830fe081e680b8ce10921368d317823"
+    },
+    {
+      "file": "body-keys-07-08-sheet.png",
+      "sha256": "be4a3541eea8d5ac76dd0b8588d92deedc8cba68caae894feeb1bc5c43107a4b"
+    },
+    {
+      "file": "head-body-source-sheet-v1.png",
+      "sha256": "60a069e126ae172ba8bf05411b93d9a98f9bb1cb534a1564e8738b56b8c49311"
+    },
+    {
+      "file": "heads-01-02-sheet.png",
+      "sha256": "c3f19f38f922dc4c5849d7f274dc7221a5462f73ea44e70444d189c3eeb907d1"
+    },
+    {
+      "file": "heads-03-04-sheet.png",
+      "sha256": "27e3aeddecb7e03b73f2bdcaeeacd89e474288bbd188c227dff1f1dd5b1c0ee8"
+    },
+    {
+      "file": "heads-05-06-sheet.png",
+      "sha256": "b0f40d97c20f76798e24b73b4cc31c3be9fd656c2e85d856f257ec129382c5d4"
+    }
+  ],
+  "heads": [
+    {
+      "id": "head-01",
+      "sheet": "heads-01-02-sheet.png",
+      "side": 0,
+      "width": 486,
+      "height": 626,
+      "sha256": "cbe8718b5dfa08c73fded53e8a70b0eab2395d39832f3f0f2cc99eddc52d31db"
+    },
+    {
+      "id": "head-02",
+      "sheet": "heads-01-02-sheet.png",
+      "side": 1,
+      "width": 491,
+      "height": 613,
+      "sha256": "5d7697a41ac5258bccd513b58a930915d08bbd75d9801ad3f326f64f0d459a33"
+    },
+    {
+      "id": "head-03",
+      "sheet": "heads-03-04-sheet.png",
+      "side": 0,
+      "width": 495,
+      "height": 580,
+      "sha256": "1ae48ca30c646e0ce20029c66af5653fa989b214fdfcc27845f5fc018c1db826"
+    },
+    {
+      "id": "head-04",
+      "sheet": "heads-03-04-sheet.png",
+      "side": 1,
+      "width": 483,
+      "height": 586,
+      "sha256": "d2bc799000c11f5c72e579b926a5c3bac1fd1e3adff203d0d78de1c8591b70a4"
+    },
+    {
+      "id": "head-05",
+      "sheet": "heads-05-06-sheet.png",
+      "side": 0,
+      "width": 471,
+      "height": 592,
+      "sha256": "fe06527c54a499c5c6735765f39457e12974f307f6fa3579ba42249700e4049c"
+    },
+    {
+      "id": "head-06",
+      "sheet": "heads-05-06-sheet.png",
+      "side": 1,
+      "width": 456,
+      "height": 593,
+      "sha256": "6431cf681e8d61d6505f593a07a11255b3abec41a5160835544def58a11086e5"
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-01.png",
+        "sourceSheet": "body-keys-01-02-sheet.png",
+        "sourceSide": 0,
+        "sha256": "9067f4ee01987211b9c32d30aebd3256e6c64b9452a0b3cdfb0c92a43c2ce33b",
+        "width": 329,
+        "height": 843
+      },
+      "head": "head-01",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-01.png",
+        "sha256": "dd8c80d919d0760473ec82fe1b9c960273e684f9a6d636cc19ae10ad8895efef"
+      },
+      "bodyPlacement": [
+        362,
+        570,
+        355,
+        910
+      ],
+      "neckAnchor": [
+        536.96,
+        631.56
+      ],
+      "headPlacement": [
+        436,
+        403,
+        202,
+        260
+      ]
+    },
+    {
+      "frame": 2,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-02.png",
+        "sourceSheet": "body-inbetweens-01-02-sheet.png",
+        "sourceSide": 0,
+        "sha256": "1bd57d899022fbb2b81a0aedf207ff934db36afc4fcd4778b31dec84c34505a2",
+        "width": 332,
+        "height": 829
+      },
+      "head": "head-01",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-02.png",
+        "sha256": "1fdf1da279fabb2c931f5a3118738b338ca79931bd6f8095218e51cb4786a2de"
+      },
+      "bodyPlacement": [
+        360,
+        585,
+        359,
+        895
+      ],
+      "neckAnchor": [
+        540.36,
+        647.64
+      ],
+      "headPlacement": [
+        441,
+        422,
+        199,
+        256
+      ]
+    },
+    {
+      "frame": 3,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-03.png",
+        "sourceSheet": "body-inbetweens-01-02-sheet.png",
+        "sourceSide": 1,
+        "sha256": "455999592b6c71288771fe11b5c78a67d3b01dbf4373f2a49717880aa959152f",
+        "width": 311,
+        "height": 836
+      },
+      "head": "head-01",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-03.png",
+        "sha256": "3955881777d167aabc0c1dd20c4e145d4df7c36d4ba3b6a7c78ac85cc7b07fca"
+      },
+      "bodyPlacement": [
+        372,
+        577,
+        336,
+        903
+      ],
+      "neckAnchor": [
+        556.68,
+        639.64
+      ],
+      "headPlacement": [
+        457,
+        413,
+        200,
+        258
+      ]
+    },
+    {
+      "frame": 4,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-04.png",
+        "sourceSheet": "body-keys-01-02-sheet.png",
+        "sourceSide": 1,
+        "sha256": "07c777f00acf20def8d40be7ca7876e78bb4a586a9a5cdd660d8915c42366fc4",
+        "width": 311,
+        "height": 844
+      },
+      "head": "head-01",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-04.png",
+        "sha256": "ec432afbfd6c6da1732448c0bd2703abb3a8229d4c71c91ad2f023b83e0a1f18"
+      },
+      "bodyPlacement": [
+        372,
+        568,
+        336,
+        912
+      ],
+      "neckAnchor": [
+        554.52,
+        630.64
+      ],
+      "headPlacement": [
+        453,
+        401,
+        203,
+        261
+      ]
+    },
+    {
+      "frame": 5,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-05.png",
+        "sourceSheet": "body-inbetweens-02-03-sheet.png",
+        "sourceSide": 0,
+        "sha256": "eefa9ee9b9ddff52ca2059530f76363596ca0715f7e7792119a1146258782328",
+        "width": 321,
+        "height": 857
+      },
+      "head": "head-02",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-05.png",
+        "sha256": "dcb13fe126320c8869f085ffabdb7b04c867becb3ff3bcd62b388634c52def6b"
+      },
+      "bodyPlacement": [
+        366,
+        554,
+        347,
+        926
+      ],
+      "neckAnchor": [
+        539.88,
+        617.72
+      ],
+      "headPlacement": [
+        434,
+        385,
+        212,
+        265
+      ]
+    },
+    {
+      "frame": 6,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-06.png",
+        "sourceSheet": "body-inbetweens-02-03-sheet.png",
+        "sourceSide": 1,
+        "sha256": "3b1c710bcc49ad18ffa45c382f7ceb48b3b8e8488b5f13e164deec432774385b",
+        "width": 401,
+        "height": 842
+      },
+      "head": "head-02",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-06.png",
+        "sha256": "8fff5d3d60db8257fed89b6b4ab014373c1f340b8b7c2436d3797039c2b9ae9f"
+      },
+      "bodyPlacement": [
+        324,
+        571,
+        433,
+        909
+      ],
+      "neckAnchor": [
+        493.56,
+        634.72
+      ],
+      "headPlacement": [
+        390,
+        406,
+        208,
+        260
+      ]
+    },
+    {
+      "frame": 7,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-07.png",
+        "sourceSheet": "body-keys-03-04-sheet.png",
+        "sourceSide": 0,
+        "sha256": "4d5c623512e2fc0695f1a678b53b7d9b26841647f63ed60bcd3425d29ca24546",
+        "width": 340,
+        "height": 863
+      },
+      "head": "head-02",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-07.png",
+        "sha256": "5069fbf2acab4a4e074d4c1c7b85b85361474476e9d2db9b5095afaaf68e6559"
+      },
+      "bodyPlacement": [
+        356,
+        548,
+        367,
+        932
+      ],
+      "neckAnchor": [
+        519.08,
+        610.64
+      ],
+      "headPlacement": [
+        413,
+        377,
+        213,
+        266
+      ]
+    },
+    {
+      "frame": 8,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-08.png",
+        "sourceSheet": "body-inbetweens-03-04-sheet.png",
+        "sourceSide": 0,
+        "sha256": "3945cbc294ecdd8130405550f236504cd6822bbcc5aa6dfc6dfe435ce5ffb91d",
+        "width": 523,
+        "height": 811
+      },
+      "head": "head-03",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-08.png",
+        "sha256": "675547ff8372598c5d79284a35f4e549697ca03e3deec1743a5294deaa176cdd"
+      },
+      "bodyPlacement": [
+        258,
+        604,
+        565,
+        876
+      ],
+      "neckAnchor": [
+        496.68,
+        668.8
+      ],
+      "headPlacement": [
+        390,
+        449,
+        213,
+        250
+      ]
+    },
+    {
+      "frame": 9,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-09.png",
+        "sourceSheet": "body-inbetweens-03-04-sheet.png",
+        "sourceSide": 1,
+        "sha256": "1c0a538035fc0e6f7a4ea71187aa0b8513dc0459a8001dca3f835a6022bc0fdf",
+        "width": 551,
+        "height": 684
+      },
+      "head": "head-03",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-09.png",
+        "sha256": "fc8f3b17b9d9eb2b6145cfea05f327235f3cf8f343d17225ea2248ea10b0849c"
+      },
+      "bodyPlacement": [
+        242,
+        741,
+        595,
+        739
+      ],
+      "neckAnchor": [
+        593.0,
+        809.04
+      ],
+      "headPlacement": [
+        503,
+        623,
+        180,
+        211
+      ]
+    },
+    {
+      "frame": 10,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-10.png",
+        "sourceSheet": "body-keys-03-04-sheet.png",
+        "sourceSide": 1,
+        "sha256": "5f71bf4933cc1880b974493307b156c557379e474e31b3679d0dd12418f257e4",
+        "width": 547,
+        "height": 787
+      },
+      "head": "head-03",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-10.png",
+        "sha256": "028a3e70f440adf1be8a96d8750ee2a931cf94426e84b8b089d07bd182d8db99"
+      },
+      "bodyPlacement": [
+        244,
+        630,
+        591,
+        850
+      ],
+      "neckAnchor": [
+        557.2,
+        696.96
+      ],
+      "headPlacement": [
+        454,
+        483,
+        207,
+        243
+      ]
+    },
+    {
+      "frame": 11,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-11.png",
+        "sourceSheet": "body-inbetweens-04-05-sheet.png",
+        "sourceSide": 0,
+        "sha256": "bae6872490b8c29c02733b311ef3f257f7bd1a4666c17e1048ca3a6f0eb37f77",
+        "width": 572,
+        "height": 733
+      },
+      "head": "head-03",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-11.png",
+        "sha256": "a5a90f678197b6266fc795a7b9102a21f6d0cf9f779c42edb5c1b98cebd38ad1"
+      },
+      "bodyPlacement": [
+        231,
+        688,
+        618,
+        792
+      ],
+      "neckAnchor": [
+        606.84,
+        757.12
+      ],
+      "headPlacement": [
+        510,
+        558,
+        193,
+        226
+      ]
+    },
+    {
+      "frame": 12,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-12.png",
+        "sourceSheet": "body-inbetweens-04-05-sheet.png",
+        "sourceSide": 1,
+        "sha256": "4eb93bffd291915304116ea33fd96cd6691a43ed7953348447491b880c8e64da",
+        "width": 523,
+        "height": 636
+      },
+      "head": "head-03",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-12.png",
+        "sha256": "5f4f9b9b3d8197614024b70709e5acfcf869b2d9a0a706e9491b8e4225bfccf8"
+      },
+      "bodyPlacement": [
+        258,
+        793,
+        565,
+        687
+      ],
+      "neckAnchor": [
+        612.24,
+        863.2
+      ],
+      "headPlacement": [
+        529,
+        691,
+        167,
+        196
+      ]
+    },
+    {
+      "frame": 13,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-13.png",
+        "sourceSheet": "body-keys-05-06-sheet.png",
+        "sourceSide": 0,
+        "sha256": "82c4c174e66ec01c85cbfe104150c51f7fad88bcd0abe36d90e512513a620fd7",
+        "width": 541,
+        "height": 642
+      },
+      "head": "head-03",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-13.png",
+        "sha256": "4f73387900caceead95d4ca1b2b8a72d54533a3b67c5d29b62a29144e2eeb299"
+      },
+      "bodyPlacement": [
+        248,
+        787,
+        584,
+        693
+      ],
+      "neckAnchor": [
+        614.12,
+        853.96
+      ],
+      "headPlacement": [
+        530,
+        680,
+        169,
+        198
+      ]
+    },
+    {
+      "frame": 14,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-14.png",
+        "sourceSheet": "body-inbetweens-05-06-sheet.png",
+        "sourceSide": 0,
+        "sha256": "e7e4352ac8c0d3caa285b9e1c8ab85c5f2ace1f0ae76edacee780e6995ab9821",
+        "width": 527,
+        "height": 667
+      },
+      "head": "head-03",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-14.png",
+        "sha256": "b269f79dee465e875b4799abe5d7580f5215719ed730059499b637af8d840a81"
+      },
+      "bodyPlacement": [
+        256,
+        760,
+        569,
+        720
+      ],
+      "neckAnchor": [
+        622.12,
+        828.04
+      ],
+      "headPlacement": [
+        534,
+        647,
+        176,
+        206
+      ]
+    },
+    {
+      "frame": 15,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-15.png",
+        "sourceSheet": "body-inbetweens-05-06-sheet.png",
+        "sourceSide": 1,
+        "sha256": "1f17c1d6c53e9711231289ed132cac7b216562d69a0d8b2450d9228f4f4c1f9f",
+        "width": 525,
+        "height": 676
+      },
+      "head": "head-03",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-15.png",
+        "sha256": "3fb097b3d5cac57ee46a9cfdc040e4b7de247a716f586d945a8a821669a322d1"
+      },
+      "bodyPlacement": [
+        256,
+        750,
+        567,
+        730
+      ],
+      "neckAnchor": [
+        625.36,
+        819.12
+      ],
+      "headPlacement": [
+        536,
+        635,
+        178,
+        209
+      ]
+    },
+    {
+      "frame": 16,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-16.png",
+        "sourceSheet": "body-keys-05-06-sheet.png",
+        "sourceSide": 1,
+        "sha256": "7afaf62f26c562582ff44536aaaa210468bdcdde23f20947b7b818216f7f5e67",
+        "width": 533,
+        "height": 564
+      },
+      "head": "head-03",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-16.png",
+        "sha256": "ffc8ef72809414383eeff0860ec24973f5a8b2b787e51037b16091f67bcee2e5"
+      },
+      "bodyPlacement": [
+        252,
+        871,
+        576,
+        609
+      ],
+      "neckAnchor": [
+        604.08,
+        942.28
+      ],
+      "headPlacement": [
+        530,
+        789,
+        148,
+        174
+      ]
+    },
+    {
+      "frame": 17,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-17.png",
+        "sourceSheet": "body-inbetweens-06-07-sheet.png",
+        "sourceSide": 0,
+        "sha256": "fc5a59d3c5284e807cae7fa202df1054d118ac8c861d71317816abd58cfe53ed",
+        "width": 460,
+        "height": 750
+      },
+      "head": "head-04",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-17.png",
+        "sha256": "8464f22fa95d841df400b7e0131eecd6f01fcb76e76024441971a397c9deffb9"
+      },
+      "bodyPlacement": [
+        292,
+        670,
+        497,
+        810
+      ],
+      "neckAnchor": [
+        584.68,
+        738.04
+      ],
+      "headPlacement": [
+        490,
+        535,
+        190,
+        231
+      ]
+    },
+    {
+      "frame": 18,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-18.png",
+        "sourceSheet": "body-inbetweens-06-07-sheet.png",
+        "sourceSide": 1,
+        "sha256": "fa6e567e4df59d70b7f7d356730219b2cd13ce34464f85037a9ff1f64f360474",
+        "width": 416,
+        "height": 864
+      },
+      "head": "head-04",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-18.png",
+        "sha256": "5d7536c3a8099e39702b51a56a272257f0fa5f8e3fa394eb96d7e06654f0c887"
+      },
+      "bodyPlacement": [
+        316,
+        547,
+        449,
+        933
+      ],
+      "neckAnchor": [
+        497.44,
+        611.8
+      ],
+      "headPlacement": [
+        387,
+        377,
+        220,
+        267
+      ]
+    },
+    {
+      "frame": 19,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-19.png",
+        "sourceSheet": "body-keys-07-08-sheet.png",
+        "sourceSide": 0,
+        "sha256": "96cee1e46396edcffd3db6a64ff24cd4bcf1bc0a69a4403953f1ae1121344ba6",
+        "width": 417,
+        "height": 764
+      },
+      "head": "head-05",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-19.png",
+        "sha256": "0a7e17d84178cda9200cb90ff904c134602da3e4038f4f50e46d18e6fea9f255"
+      },
+      "bodyPlacement": [
+        315,
+        655,
+        450,
+        825
+      ],
+      "neckAnchor": [
+        559.08,
+        719.8
+      ],
+      "headPlacement": [
+        465,
+        512,
+        188,
+        236
+      ]
+    },
+    {
+      "frame": 20,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-20.png",
+        "sourceSheet": "body-inbetweens-07-08-sheet.png",
+        "sourceSide": 0,
+        "sha256": "9986ad08423f08fc50e3138b5362537738fe04d291fd8e92d3c44af6316339ad",
+        "width": 355,
+        "height": 754
+      },
+      "head": "head-05",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-20.png",
+        "sha256": "d80f5a79aabe05355ba4fb21e1238453f64c97919270a446fd57f6ecf55ef251"
+      },
+      "bodyPlacement": [
+        348,
+        666,
+        383,
+        814
+      ],
+      "neckAnchor": [
+        548.88,
+        730.8
+      ],
+      "headPlacement": [
+        456,
+        526,
+        185,
+        233
+      ]
+    },
+    {
+      "frame": 21,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-21.png",
+        "sourceSheet": "body-inbetweens-07-08-sheet.png",
+        "sourceSide": 1,
+        "sha256": "5abd040fd4dc8b72e4062ad37237fb0d750cfe1591276797dcf5c7ef0e2f05e2",
+        "width": 341,
+        "height": 845
+      },
+      "head": "head-06",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-21.png",
+        "sha256": "1e236f89e698593542bf84c5e943174b42b7d13ae76f2dfd300f3844bed59a63"
+      },
+      "bodyPlacement": [
+        356,
+        567,
+        368,
+        913
+      ],
+      "neckAnchor": [
+        525.56,
+        631.8
+      ],
+      "headPlacement": [
+        425,
+        402,
+        201,
+        261
+      ]
+    },
+    {
+      "frame": 22,
+      "body": {
+        "file": "public/separated-22-v1/bodies/body-22.png",
+        "sourceSheet": "body-keys-07-08-sheet.png",
+        "sourceSide": 1,
+        "sha256": "f0649c31679525439c9da8f273d74fcde145363707a6db68ac69b636be5c2fed",
+        "width": 355,
+        "height": 838
+      },
+      "head": "head-06",
+      "composite": {
+        "file": "public/separated-22-v1/frames/frame-22.png",
+        "sha256": "1f6c9b0d39d0e65ec3ed98a7f045a49ee24fc469366e251f84dcf51670c60d26"
+      },
+      "bodyPlacement": [
+        348,
+        575,
+        383,
+        905
+      ],
+      "neckAnchor": [
+        522.96,
+        639.8
+      ],
+      "headPlacement": [
+        423,
+        412,
+        199,
+        259
+      ]
+    }
+  ],
+  "contactSheet": {
+    "file": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\out\\studies\\generic-character-motion-test-v1\\separated-22-v1\\separated-22-contact-sheet.jpg",
+    "sha256": "e3fd90966d4690ed02c2369fc783866ea8786df7f9ba980965626e3c7b9af731"
+  },
+  "rules": {
+    "bodyScale": 1.08,
+    "baselineY": 1480,
+    "headScale": "body-height / 3.5",
+    "crossDissolve": false,
+    "bodyAndHeadStoredSeparately": true
+  }
+}

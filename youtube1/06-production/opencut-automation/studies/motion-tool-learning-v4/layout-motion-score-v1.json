@@ -1,0 +1,50 @@
+{
+  "schema": "layout-aware-motion-score-v1",
+  "purpose": "Compare derived geometry and motion mechanics while prohibiting reference-pixel, artwork, branding, text, palette, and source-code cloning.",
+  "threshold": {
+    "weightedPercent": 90,
+    "geometryFloor": 40.5,
+    "geometryMaximum": 45,
+    "motionFloor": 49.5,
+    "motionMaximum": 55,
+    "allAntiCloneChecksMustPass": true
+  },
+  "normalization": {
+    "coordinates": "x/canvasWidth and y/canvasHeight",
+    "time": "frame/(frameCount-1)",
+    "elementCorrespondence": "independently authored stable semantic element IDs",
+    "creatorInputBoundary": "learned-output creator receives only numeric measurement records and neutral topic requirements; it never receives reference pixels or source code"
+  },
+  "components": [
+    {"id": "bbox-trajectory", "group": "geometry", "weight": 18, "measurement": "mean normalized bounding-box IoU at fixed time samples"},
+    {"id": "centroid-trajectory", "group": "geometry", "weight": 12, "measurement": "one minus normalized centroid distance at fixed time samples"},
+    {"id": "relative-placement", "group": "geometry", "weight": 15, "measurement": "pairwise element vector and ordering agreement, normalized by canvas diagonal"},
+    {"id": "path-shape", "group": "motion", "weight": 18, "measurement": "normalized discrete Frechet agreement after preserving absolute layout anchor"},
+    {"id": "phase-timing", "group": "motion", "weight": 12, "measurement": "enter, peak, hold, exit marker error on normalized time"},
+    {"id": "easing-profile", "group": "motion", "weight": 10, "measurement": "agreement of normalized signed velocity and acceleration profiles"},
+    {"id": "event-order-visibility", "group": "motion", "weight": 10, "measurement": "exact ordered state and visibility events; any reversal scores zero"},
+    {"id": "endpoint-settle", "group": "motion", "weight": 5, "measurement": "final state, overshoot and settle-window agreement"}
+  ],
+  "antiClone": [
+    "reference artifact bytes and decoded pixels are inaccessible to the learned-output creator",
+    "learned assets are newly authored neutral primitives with independent hashes and provenance",
+    "no reference text, logo, trademark, character, palette, texture, or source code may propagate",
+    "exact artifact hash reuse, decoded-frame equality, OCR token overlap, or prohibited brand token causes failure",
+    "comparison video labels the left panel OFFICIAL REFERENCE and retains license/source attribution; a semantic board is never labeled original"
+  ],
+  "measurementRecordRequiredFields": [
+    "referenceArtifactSha256",
+    "decoderImplementationSha256",
+    "frameCount",
+    "canvas",
+    "trackedElements",
+    "normalizedBboxesByFrame",
+    "centroidsByFrame",
+    "visibilityByFrame",
+    "pathSamples",
+    "phaseMarkers",
+    "velocityProfile",
+    "easingClassification",
+    "recordSha256"
+  ]
+}

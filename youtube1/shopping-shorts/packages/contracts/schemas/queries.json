@@ -1,0 +1,90 @@
+{
+  "$defs": {
+    "Attestation": {
+      "additionalProperties": false,
+      "properties": {
+        "actor": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Actor",
+          "type": "string"
+        },
+        "model": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Model",
+          "type": "string"
+        },
+        "surface": {
+          "enum": [
+            "chrome-use",
+            "computer-use",
+            "manual",
+            "fixture",
+            "youtube-data-api"
+          ],
+          "title": "Surface",
+          "type": "string"
+        },
+        "receipt_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Receipt Ids",
+          "type": "array"
+        },
+        "notes": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Notes",
+          "type": "string"
+        }
+      },
+      "required": [
+        "actor",
+        "model",
+        "surface",
+        "receipt_ids",
+        "notes"
+      ],
+      "title": "Attestation",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "queries": {
+      "additionalProperties": {
+        "items": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "type": "string"
+        },
+        "maxItems": 2,
+        "minItems": 1,
+        "type": "array"
+      },
+      "propertyNames": {
+        "enum": [
+          "ko",
+          "en",
+          "zh",
+          "ja"
+        ]
+      },
+      "title": "Queries",
+      "type": "object"
+    },
+    "attestation": {
+      "$ref": "#/$defs/Attestation"
+    }
+  },
+  "required": [
+    "queries",
+    "attestation"
+  ],
+  "title": "QueryPlan",
+  "type": "object"
+}

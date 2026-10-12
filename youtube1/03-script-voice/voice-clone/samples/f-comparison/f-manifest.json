@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "profileId": "F",
+  "variant": "F",
+  "engine": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+  "modelRevision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+  "sampleRate": 24000,
+  "channels": 1,
+  "style": "hook",
+  "styles": {
+    "hook": {
+      "promptAudio": "F-prompt.wav",
+      "promptText": "여러분이라면, 이 상황을 그냥 넘길 수 있습니까? 범인은 잡혔습니다. 그런데 피해자의 공포는 그때부터 시작됐습니다. 매일 사용하는 물건에 누군가 손을 댄다면 어떨까요?"
+    }
+  },
+  "targetText": "범인은 잡혔습니다. 그런데 피해자의 공포는 그때부터 시작했습니다. 잡혔는데도 끝나지 않은 사건 대체 무엇이 잘못된 걸까요?",
+  "prompt": {
+    "audio": "F-prompt.wav",
+    "text": "여러분이라면, 이 상황을 그냥 넘길 수 있습니까? 범인은 잡혔습니다. 그런데 피해자의 공포는 그때부터 시작됐습니다. 매일 사용하는 물건에 누군가 손을 댄다면 어떨까요?",
+    "sourceFullReference": "../../profiles/F/refs/02_hook.full.wav",
+    "extraction": "trim source 1.05-13.10 s; ends at detected post-sentence silence (silence 12.06-13.08 s), retaining complete four-sentence hook prompt"
+  },
+  "output": {
+    "audio": "F-master.wav",
+    "format": "mono PCM32-float WAV",
+    "intendedDurationSeconds": 8.3,
+    "comparisonSources": [
+      "../f-trained-model-vc/provenance/C-carrier.wav",
+      "../f-trained-model-vc/provenance/E-carrier.wav"
+    ]
+  },
+  "synthesis": {
+    "speed": 1.055,
+    "device": "cuda-fp16",
+    "targetDurationSeconds": 8.3,
+    "measuredDurationSeconds": 8.3,
+    "postGain": "+3.0 dB after CosyVoice render; ebur128 integrated loudness -23.0 LUFS"
+  },
+  "qc": {
+    "sampleRateHz": 24000,
+    "channels": 1,
+    "codec": "pcm_f32le",
+    "integratedLufs": -23.0,
+    "truePeakDbfs": -2.5,
+    "clipping": false,
+    "durationMatchesCE": true,
+    "targetTextIdentity": "exact supplied target text; no SRT timestamps passed to synthesizer"
+  },
+  "provenance": {
+    "localOnly": true,
+    "sourceReferenceManifest": "../../profiles/F/manifest.json",
+    "promptTextReuseBasis": "Existing transcript-aligned hook text; F hook recording is the corresponding style/full reference. No invented target text.",
+    "asr": "unavailable locally; no ASR model download attempted",
+    "runtimeNetwork": "CosyVoice frontend auto-fetched cached wetext dependency from ModelScope on first run; synthesis model and all reference audio were local"
+  }
+}

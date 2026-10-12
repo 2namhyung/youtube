@@ -1,0 +1,12 @@
+# Isolated experimental environment; install into a disposable venv.
+# The Qwen source is pinned by immutable commit, not a moving branch.
+qwen-tts @ git+https://github.com/QwenLM/Qwen3-TTS.git@022e286b98fbec7e1e916cb940cdf532cd9f488e
+torch==2.4.1+cu124
+transformers==4.57.3
+peft==0.20.0
+accelerate==1.12.0
+librosa==0.11.0
+soundfile==0.14.0
+safetensors==0.8.0
+# Install torch from the validated CUDA 12.4 index before this file when needed.
+# pilot.py also verifies direct_url.json contains the exact Qwen commit.

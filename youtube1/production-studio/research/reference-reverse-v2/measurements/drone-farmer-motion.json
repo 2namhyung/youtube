@@ -1,0 +1,865 @@
+{
+  "interval": {
+    "startSeconds": 19.185833,
+    "endSeconds": 22.6226,
+    "sourceFps": 29.97002997002997,
+    "frameIndexRange": [
+      575,
+      678
+    ],
+    "frameIndexSemantics": "half-open [start,end); comparisons use exact source frames start <= index < end"
+  },
+  "roi": {
+    "x": 0,
+    "y": 170,
+    "width": 360,
+    "height": 270
+  },
+  "regionDefinitions": {
+    "backgroundBand": {
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 120,
+      "roiRelative": true,
+      "purpose": "technical static-background comparison; not a semantic label"
+    },
+    "lowerBand": {
+      "x": 0,
+      "y": 90,
+      "width": 360,
+      "height": 180,
+      "roiRelative": true,
+      "purpose": "technical lower-band comparison; may contain field, drone, farmer or captions at adjacent coordinates"
+    }
+  },
+  "method": "fallback-patch-image-displacement-not-semantic-motion",
+  "cv2Available": false,
+  "cv2Failure": "Python cv2 is unavailable in the configured runtime; no package was installed.",
+  "lkOpticalFlowOrRansacExecuted": false,
+  "limitations": [
+    "This is not LK optical flow or RANSAC affine estimation.",
+    "Reported dx/dy are image-patch displacements only and must not be read as semantic drone/farmer motion.",
+    "Central ROI contains sky, field and composited figures; background contamination, clipped initial state and identity drift after lower-band appearance remain explicit risks.",
+    "Measurements do not recover the source easing curve or establish semantic shot meaning."
+  ],
+  "samplingStrideFrames": 3,
+  "records": [
+    {
+      "fromFrameIndex": 575,
+      "toFrameIndex": 578,
+      "fromTimeSeconds": 19.185833,
+      "toTimeSeconds": 19.285933,
+      "backgroundBand": {
+        "sampledPatchCount": 7,
+        "acceptedPatchCount": 6,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.5136,
+        "inlierRatio": 0.8571,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 30,
+        "acceptedPatchCount": 30,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.8812,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 578,
+      "toFrameIndex": 581,
+      "fromTimeSeconds": 19.285933,
+      "toTimeSeconds": 19.386033,
+      "backgroundBand": {
+        "sampledPatchCount": 7,
+        "acceptedPatchCount": 6,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.4233,
+        "inlierRatio": 0.8571,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 31,
+        "acceptedPatchCount": 30,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.8049,
+        "inlierRatio": 0.9677,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 581,
+      "toFrameIndex": 584,
+      "fromTimeSeconds": 19.386033,
+      "toTimeSeconds": 19.486133,
+      "backgroundBand": {
+        "sampledPatchCount": 6,
+        "acceptedPatchCount": 5,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.5222,
+        "inlierRatio": 0.8333,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 31,
+        "acceptedPatchCount": 24,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.796,
+        "inlierRatio": 0.7742,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 584,
+      "toFrameIndex": 587,
+      "fromTimeSeconds": 19.486133,
+      "toTimeSeconds": 19.586233,
+      "backgroundBand": {
+        "sampledPatchCount": 6,
+        "acceptedPatchCount": 6,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.5312,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 30,
+        "acceptedPatchCount": 24,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.8413,
+        "inlierRatio": 0.8,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 587,
+      "toFrameIndex": 590,
+      "fromTimeSeconds": 19.586233,
+      "toTimeSeconds": 19.686333,
+      "backgroundBand": {
+        "sampledPatchCount": 7,
+        "acceptedPatchCount": 7,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.6483,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 31,
+        "acceptedPatchCount": 22,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.8145,
+        "inlierRatio": 0.7097,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 590,
+      "toFrameIndex": 593,
+      "fromTimeSeconds": 19.686333,
+      "toTimeSeconds": 19.786433,
+      "backgroundBand": {
+        "sampledPatchCount": 7,
+        "acceptedPatchCount": 7,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.5939,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 31,
+        "acceptedPatchCount": 23,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7937,
+        "inlierRatio": 0.7419,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 593,
+      "toFrameIndex": 596,
+      "fromTimeSeconds": 19.786433,
+      "toTimeSeconds": 19.886533,
+      "backgroundBand": {
+        "sampledPatchCount": 7,
+        "acceptedPatchCount": 7,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.4814,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 31,
+        "acceptedPatchCount": 21,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.755,
+        "inlierRatio": 0.6774,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 596,
+      "toFrameIndex": 599,
+      "fromTimeSeconds": 19.886533,
+      "toTimeSeconds": 19.986633,
+      "backgroundBand": {
+        "sampledPatchCount": 7,
+        "acceptedPatchCount": 7,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.3471,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 27,
+        "acceptedPatchCount": 17,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.71,
+        "inlierRatio": 0.6296,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 599,
+      "toFrameIndex": 602,
+      "fromTimeSeconds": 19.986633,
+      "toTimeSeconds": 20.086733,
+      "backgroundBand": {
+        "sampledPatchCount": 8,
+        "acceptedPatchCount": 8,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.5735,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 26,
+        "acceptedPatchCount": 16,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.6785,
+        "inlierRatio": 0.6154,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 602,
+      "toFrameIndex": 605,
+      "fromTimeSeconds": 20.086733,
+      "toTimeSeconds": 20.186833,
+      "backgroundBand": {
+        "sampledPatchCount": 7,
+        "acceptedPatchCount": 7,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.331,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 25,
+        "acceptedPatchCount": 12,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.6267,
+        "inlierRatio": 0.48,
+        "reliability": "fallback-block-match-with-background-contamination-risk"
+      }
+    },
+    {
+      "fromFrameIndex": 605,
+      "toFrameIndex": 608,
+      "fromTimeSeconds": 20.186833,
+      "toTimeSeconds": 20.286933,
+      "backgroundBand": {
+        "sampledPatchCount": 6,
+        "acceptedPatchCount": 6,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.5393,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 22,
+        "acceptedPatchCount": 12,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.4873,
+        "inlierRatio": 0.5455,
+        "reliability": "fallback-block-match-with-background-contamination-risk"
+      }
+    },
+    {
+      "fromFrameIndex": 608,
+      "toFrameIndex": 611,
+      "fromTimeSeconds": 20.286933,
+      "toTimeSeconds": 20.387033,
+      "backgroundBand": {
+        "sampledPatchCount": 8,
+        "acceptedPatchCount": 8,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.6654,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 23,
+        "acceptedPatchCount": 12,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.5595,
+        "inlierRatio": 0.5217,
+        "reliability": "fallback-block-match-with-background-contamination-risk"
+      }
+    },
+    {
+      "fromFrameIndex": 611,
+      "toFrameIndex": 614,
+      "fromTimeSeconds": 20.387033,
+      "toTimeSeconds": 20.487133,
+      "backgroundBand": {
+        "sampledPatchCount": 7,
+        "acceptedPatchCount": 7,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.4261,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 22,
+        "acceptedPatchCount": 16,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.4741,
+        "inlierRatio": 0.7273,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 614,
+      "toFrameIndex": 617,
+      "fromTimeSeconds": 20.487133,
+      "toTimeSeconds": 20.587233,
+      "backgroundBand": {
+        "sampledPatchCount": 6,
+        "acceptedPatchCount": 6,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.5038,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 23,
+        "acceptedPatchCount": 18,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.6663,
+        "inlierRatio": 0.7826,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 617,
+      "toFrameIndex": 620,
+      "fromTimeSeconds": 20.587233,
+      "toTimeSeconds": 20.687333,
+      "backgroundBand": {
+        "sampledPatchCount": 7,
+        "acceptedPatchCount": 6,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.4463,
+        "inlierRatio": 0.8571,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 30,
+        "acceptedPatchCount": 20,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.4297,
+        "inlierRatio": 0.6667,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 620,
+      "toFrameIndex": 623,
+      "fromTimeSeconds": 20.687333,
+      "toTimeSeconds": 20.787433,
+      "backgroundBand": {
+        "sampledPatchCount": 6,
+        "acceptedPatchCount": 6,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.5243,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 28,
+        "acceptedPatchCount": 22,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.6862,
+        "inlierRatio": 0.7857,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 623,
+      "toFrameIndex": 626,
+      "fromTimeSeconds": 20.787433,
+      "toTimeSeconds": 20.887533,
+      "backgroundBand": {
+        "sampledPatchCount": 9,
+        "acceptedPatchCount": 6,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.1884,
+        "inlierRatio": 0.6667,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 34,
+        "acceptedPatchCount": 22,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.5884,
+        "inlierRatio": 0.6471,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 626,
+      "toFrameIndex": 629,
+      "fromTimeSeconds": 20.887533,
+      "toTimeSeconds": 20.987633,
+      "backgroundBand": {
+        "sampledPatchCount": 12,
+        "acceptedPatchCount": 5,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.4033,
+        "inlierRatio": 0.4167,
+        "reliability": "fallback-block-match-with-background-contamination-risk"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 34,
+        "acceptedPatchCount": 24,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.6774,
+        "inlierRatio": 0.7059,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 629,
+      "toFrameIndex": 632,
+      "fromTimeSeconds": 20.987633,
+      "toTimeSeconds": 21.087733,
+      "backgroundBand": {
+        "sampledPatchCount": 9,
+        "acceptedPatchCount": 0,
+        "medianDxPixelsAtHalfResolution": null,
+        "medianDyPixelsAtHalfResolution": null,
+        "medianConfidence": 0.1448,
+        "inlierRatio": 0.0,
+        "reliability": "fallback-block-match-with-background-contamination-risk"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 33,
+        "acceptedPatchCount": 24,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.6991,
+        "inlierRatio": 0.7273,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 632,
+      "toFrameIndex": 635,
+      "fromTimeSeconds": 21.087733,
+      "toTimeSeconds": 21.187833,
+      "backgroundBand": {
+        "sampledPatchCount": 9,
+        "acceptedPatchCount": 2,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.1308,
+        "inlierRatio": 0.2222,
+        "reliability": "fallback-block-match-with-background-contamination-risk"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 39,
+        "acceptedPatchCount": 26,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7287,
+        "inlierRatio": 0.6667,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 635,
+      "toFrameIndex": 638,
+      "fromTimeSeconds": 21.187833,
+      "toTimeSeconds": 21.287933,
+      "backgroundBand": {
+        "sampledPatchCount": 16,
+        "acceptedPatchCount": 1,
+        "medianDxPixelsAtHalfResolution": -1.0,
+        "medianDyPixelsAtHalfResolution": 0.5,
+        "medianConfidence": 0.1392,
+        "inlierRatio": 0.0625,
+        "reliability": "fallback-block-match-with-background-contamination-risk"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 34,
+        "acceptedPatchCount": 27,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7617,
+        "inlierRatio": 0.7941,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 638,
+      "toFrameIndex": 641,
+      "fromTimeSeconds": 21.287933,
+      "toTimeSeconds": 21.388033,
+      "backgroundBand": {
+        "sampledPatchCount": 15,
+        "acceptedPatchCount": 9,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": -8.0,
+        "medianConfidence": 0.1289,
+        "inlierRatio": 0.6,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 39,
+        "acceptedPatchCount": 27,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.6968,
+        "inlierRatio": 0.6923,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 641,
+      "toFrameIndex": 644,
+      "fromTimeSeconds": 21.388033,
+      "toTimeSeconds": 21.488133,
+      "backgroundBand": {
+        "sampledPatchCount": 20,
+        "acceptedPatchCount": 8,
+        "medianDxPixelsAtHalfResolution": -1.0,
+        "medianDyPixelsAtHalfResolution": -8.0,
+        "medianConfidence": 0.1771,
+        "inlierRatio": 0.4,
+        "reliability": "fallback-block-match-with-background-contamination-risk"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 38,
+        "acceptedPatchCount": 27,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7142,
+        "inlierRatio": 0.7105,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 644,
+      "toFrameIndex": 647,
+      "fromTimeSeconds": 21.488133,
+      "toTimeSeconds": 21.588233,
+      "backgroundBand": {
+        "sampledPatchCount": 14,
+        "acceptedPatchCount": 8,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": -8.0,
+        "medianConfidence": 0.2014,
+        "inlierRatio": 0.5714,
+        "reliability": "fallback-block-match-with-background-contamination-risk"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 35,
+        "acceptedPatchCount": 27,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7483,
+        "inlierRatio": 0.7714,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 647,
+      "toFrameIndex": 650,
+      "fromTimeSeconds": 21.588233,
+      "toTimeSeconds": 21.688333,
+      "backgroundBand": {
+        "sampledPatchCount": 25,
+        "acceptedPatchCount": 18,
+        "medianDxPixelsAtHalfResolution": -1.0,
+        "medianDyPixelsAtHalfResolution": -8.0,
+        "medianConfidence": 0.3161,
+        "inlierRatio": 0.72,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 38,
+        "acceptedPatchCount": 28,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7159,
+        "inlierRatio": 0.7368,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 650,
+      "toFrameIndex": 653,
+      "fromTimeSeconds": 21.688333,
+      "toTimeSeconds": 21.788433,
+      "backgroundBand": {
+        "sampledPatchCount": 28,
+        "acceptedPatchCount": 21,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": -7.0,
+        "medianConfidence": 0.6061,
+        "inlierRatio": 0.75,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 38,
+        "acceptedPatchCount": 28,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.6733,
+        "inlierRatio": 0.7368,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 653,
+      "toFrameIndex": 656,
+      "fromTimeSeconds": 21.788433,
+      "toTimeSeconds": 21.888533,
+      "backgroundBand": {
+        "sampledPatchCount": 24,
+        "acceptedPatchCount": 13,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": -5.5,
+        "medianConfidence": 0.2903,
+        "inlierRatio": 0.5417,
+        "reliability": "fallback-block-match-with-background-contamination-risk"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 35,
+        "acceptedPatchCount": 29,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7557,
+        "inlierRatio": 0.8286,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 656,
+      "toFrameIndex": 659,
+      "fromTimeSeconds": 21.888533,
+      "toTimeSeconds": 21.988633,
+      "backgroundBand": {
+        "sampledPatchCount": 26,
+        "acceptedPatchCount": 23,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": -3.0,
+        "medianConfidence": 0.3265,
+        "inlierRatio": 0.8846,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 36,
+        "acceptedPatchCount": 36,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7465,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 659,
+      "toFrameIndex": 662,
+      "fromTimeSeconds": 21.988633,
+      "toTimeSeconds": 22.088733,
+      "backgroundBand": {
+        "sampledPatchCount": 24,
+        "acceptedPatchCount": 22,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": -2.0,
+        "medianConfidence": 0.502,
+        "inlierRatio": 0.9167,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 38,
+        "acceptedPatchCount": 38,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7466,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 662,
+      "toFrameIndex": 665,
+      "fromTimeSeconds": 22.088733,
+      "toTimeSeconds": 22.188833,
+      "backgroundBand": {
+        "sampledPatchCount": 25,
+        "acceptedPatchCount": 21,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": -1.0,
+        "medianConfidence": 0.6429,
+        "inlierRatio": 0.84,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 38,
+        "acceptedPatchCount": 38,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7511,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 665,
+      "toFrameIndex": 668,
+      "fromTimeSeconds": 22.188833,
+      "toTimeSeconds": 22.288933,
+      "backgroundBand": {
+        "sampledPatchCount": 25,
+        "acceptedPatchCount": 22,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": -1.0,
+        "medianConfidence": 0.6081,
+        "inlierRatio": 0.88,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 36,
+        "acceptedPatchCount": 36,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7553,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 668,
+      "toFrameIndex": 671,
+      "fromTimeSeconds": 22.288933,
+      "toTimeSeconds": 22.389033,
+      "backgroundBand": {
+        "sampledPatchCount": 26,
+        "acceptedPatchCount": 23,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": -1.0,
+        "medianConfidence": 0.566,
+        "inlierRatio": 0.8846,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 37,
+        "acceptedPatchCount": 37,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7498,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 671,
+      "toFrameIndex": 674,
+      "fromTimeSeconds": 22.389033,
+      "toTimeSeconds": 22.489133,
+      "backgroundBand": {
+        "sampledPatchCount": 24,
+        "acceptedPatchCount": 22,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": -1.0,
+        "medianConfidence": 0.6638,
+        "inlierRatio": 0.9167,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 38,
+        "acceptedPatchCount": 38,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.8031,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      }
+    },
+    {
+      "fromFrameIndex": 674,
+      "toFrameIndex": 677,
+      "fromTimeSeconds": 22.489133,
+      "toTimeSeconds": 22.589233,
+      "backgroundBand": {
+        "sampledPatchCount": 26,
+        "acceptedPatchCount": 25,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": -1.0,
+        "medianConfidence": 0.5609,
+        "inlierRatio": 0.9615,
+        "reliability": "fallback-block-match"
+      },
+      "lowerBand": {
+        "sampledPatchCount": 38,
+        "acceptedPatchCount": 38,
+        "medianDxPixelsAtHalfResolution": 0.0,
+        "medianDyPixelsAtHalfResolution": 0.0,
+        "medianConfidence": 0.7351,
+        "inlierRatio": 1.0,
+        "reliability": "fallback-block-match"
+      }
+    }
+  ]
+}

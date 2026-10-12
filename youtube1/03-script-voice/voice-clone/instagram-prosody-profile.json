@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "purpose": "Numeric prosody reference only; never use third-party audio as a voice prompt",
+  "sources": [
+    {
+      "id": "DbLHxMtuRz0",
+      "file": "reference-audio/instagram/DbLHxMtuRz0.prosody.json",
+      "duration_s": 37.966,
+      "f0_hz": {"median": 146.79, "p10": 109.14, "p90": 213.33},
+      "tempo_chars_per_s": {"median": 6.9, "p10": 6.18, "p90": 7.89},
+      "pause_s": {"median": 0.23, "p10": 0.1, "p90": 0.77},
+      "sentence_slope_st_per_s": {"median": -0.51, "p10": -1.92, "p90": 0.38}
+    },
+    {
+      "id": "DbF1MVgO93D",
+      "file": "reference-audio/instagram/DbF1MVgO93D.prosody.json",
+      "duration_s": 41.449,
+      "f0_hz": {"median": 166.67, "p10": 118.43, "p90": 225.35},
+      "tempo_chars_per_s": {"median": 7.71, "p10": 7.04, "p90": 8.98},
+      "pause_s": {"median": 0.42, "p10": 0.12, "p90": 1.27},
+      "sentence_slope_st_per_s": {"median": -0.67, "p10": -2.52, "p90": 1.71}
+    }
+  ],
+  "reference_summary": {
+    "f0_median_hz": 156.73,
+    "f0_target_range_hz": [114.0, 219.0],
+    "tempo_median_chars_per_s": 7.31,
+    "tempo_target_range_chars_per_s": [6.6, 8.4],
+    "pause_median_s": 0.33,
+    "pause_target_range_s": [0.1, 1.0],
+    "sentence_slope_median_st_per_s": -0.59,
+    "delivery": "firm conversational attack; mostly falling sentence endings with occasional upward emphasis"
+  },
+  "application": {
+    "engine": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "allowed_styles": ["neutral", "hook", "solution"],
+    "style_map": {
+      "hook": {"reference": "DbF1MVgO93D", "cloneSpeed": 1.0, "direction": "front-loaded emphasis; brief pauses 0.1-0.4s; end most phrases falling"},
+      "neutral": {"reference": "DbLHxMtuRz0", "cloneSpeed": 1.0, "direction": "conversational; preserve natural 0.2-0.8s pauses"},
+      "solution": {"reference": "DbLHxMtuRz0", "cloneSpeed": 0.95, "direction": "slightly slower close; firm falling cadence"}
+    },
+    "pitch_control": "CosyVoice prompt controls contour; no numeric pitch-shift is applied",
+    "speed_control": "cloneSpeed is the only numeric control; adjust 0.9-1.1 after listening",
+    "privacy": "Reference reels are analyzed numerically only and are never passed as promptAudio"
+  },
+  "limitations": [
+    "Instagram SRT text is mojibake, so tempo is a character-rate proxy, not semantic alignment.",
+    "F0 uses autocorrelation with an adaptive RMS gate; BGM and low speech_gate_ratio (0.179-0.314) can bias estimates.",
+    "User prompt recordings have different durations/text lengths; absolute F0 is not a target for identity cloning."
+  ]
+}

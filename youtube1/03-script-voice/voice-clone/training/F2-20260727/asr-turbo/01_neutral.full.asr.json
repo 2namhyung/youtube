@@ -1,0 +1,1111 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\profiles\\F\\refs\\01_neutral.full.wav",
+  "model": "turbo",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 86.272,
+  "duration_after_vad": 70.848,
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.03,
+      "end": 3.81,
+      "text": "안녕하세요. 지금도 제 목소리를 녹음하겠습니다.",
+      "avg_logprob": -0.07534827027155692,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7194444444444446,
+      "words": [
+        {
+          "start": 1.03,
+          "end": 1.53,
+          "word": " 안녕하세요.",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 2.03,
+          "end": 2.39,
+          "word": " 지금도",
+          "probability": 0.982177734375
+        },
+        {
+          "start": 2.39,
+          "end": 2.61,
+          "word": " 제",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 2.61,
+          "end": 3.15,
+          "word": " 목소리를",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 3.15,
+          "end": 3.81,
+          "word": " 녹음하겠습니다.",
+          "probability": 0.9982096354166666
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 4.66,
+      "end": 7.94,
+      "text": "평소 이야기할 때 사용하는 자연스러운 목소리로 읽고 있습니다.",
+      "avg_logprob": -0.07534827027155692,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7194444444444446,
+      "words": [
+        {
+          "start": 4.66,
+          "end": 5.06,
+          "word": " 평소",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 5.06,
+          "end": 5.58,
+          "word": " 이야기할",
+          "probability": 0.989990234375
+        },
+        {
+          "start": 5.58,
+          "end": 5.72,
+          "word": " 때",
+          "probability": 1.0
+        },
+        {
+          "start": 5.72,
+          "end": 6.22,
+          "word": " 사용하는",
+          "probability": 1.0
+        },
+        {
+          "start": 6.22,
+          "end": 6.76,
+          "word": " 자연스러운",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 6.76,
+          "end": 7.26,
+          "word": " 목소리로",
+          "probability": 0.9998779296875
+        },
+        {
+          "start": 7.26,
+          "end": 7.62,
+          "word": " 읽고",
+          "probability": 1.0
+        },
+        {
+          "start": 7.62,
+          "end": 7.94,
+          "word": " 있습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 8.94,
+      "end": 11.6,
+      "text": "너무 빠르지도 너무 느리지도 않게 말하겠습니다.",
+      "avg_logprob": -0.07534827027155692,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7194444444444446,
+      "words": [
+        {
+          "start": 8.94,
+          "end": 9.16,
+          "word": " 너무",
+          "probability": 1.0
+        },
+        {
+          "start": 9.16,
+          "end": 9.74,
+          "word": " 빠르지도",
+          "probability": 0.9993896484375
+        },
+        {
+          "start": 9.74,
+          "end": 10.14,
+          "word": " 너무",
+          "probability": 0.93359375
+        },
+        {
+          "start": 10.14,
+          "end": 10.56,
+          "word": " 느리지도",
+          "probability": 0.9982096354166666
+        },
+        {
+          "start": 10.56,
+          "end": 10.84,
+          "word": " 않게",
+          "probability": 1.0
+        },
+        {
+          "start": 10.84,
+          "end": 11.6,
+          "word": " 말하겠습니다.",
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 12.94,
+      "end": 15.68,
+      "text": "오늘 아침에는 평소보다 조금 일찍 일어났습니다.",
+      "avg_logprob": -0.07534827027155692,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7194444444444446,
+      "words": [
+        {
+          "start": 12.94,
+          "end": 13.28,
+          "word": " 오늘",
+          "probability": 1.0
+        },
+        {
+          "start": 13.28,
+          "end": 13.82,
+          "word": " 아침에는",
+          "probability": 1.0
+        },
+        {
+          "start": 13.82,
+          "end": 14.42,
+          "word": " 평소보다",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 14.42,
+          "end": 14.68,
+          "word": " 조금",
+          "probability": 1.0
+        },
+        {
+          "start": 14.68,
+          "end": 15.04,
+          "word": " 일찍",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 15.04,
+          "end": 15.68,
+          "word": " 일어났습니다.",
+          "probability": 0.9993896484375
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 16.43,
+      "end": 20.42,
+      "text": "창문을 열어보니 하늘은 맑았고 바람은 약하게 불고 있었습니다.",
+      "avg_logprob": -0.07534827027155692,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7194444444444446,
+      "words": [
+        {
+          "start": 16.43,
+          "end": 16.89,
+          "word": " 창문을",
+          "probability": 1.0
+        },
+        {
+          "start": 16.89,
+          "end": 17.35,
+          "word": " 열어보니",
+          "probability": 0.997265625
+        },
+        {
+          "start": 17.35,
+          "end": 17.77,
+          "word": " 하늘은",
+          "probability": 1.0
+        },
+        {
+          "start": 17.77,
+          "end": 18.37,
+          "word": " 맑았고",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 18.54,
+          "end": 19.22,
+          "word": " 바람은",
+          "probability": 0.8727213541666666
+        },
+        {
+          "start": 19.22,
+          "end": 19.58,
+          "word": " 약하게",
+          "probability": 1.0
+        },
+        {
+          "start": 19.58,
+          "end": 19.86,
+          "word": " 불고",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 19.86,
+          "end": 20.42,
+          "word": " 있었습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 21.4,
+      "end": 24.96,
+      "text": "간단하게 아침을 먹은 뒤 필요한 물건을 챙겨 집을 나섰습니다.",
+      "avg_logprob": -0.07534827027155692,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7194444444444446,
+      "words": [
+        {
+          "start": 21.4,
+          "end": 21.92,
+          "word": " 간단하게",
+          "probability": 1.0
+        },
+        {
+          "start": 21.92,
+          "end": 22.32,
+          "word": " 아침을",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 22.32,
+          "end": 22.6,
+          "word": " 먹은",
+          "probability": 0.997314453125
+        },
+        {
+          "start": 22.6,
+          "end": 22.74,
+          "word": " 뒤",
+          "probability": 0.99267578125
+        },
+        {
+          "start": 22.74,
+          "end": 23.2,
+          "word": " 필요한",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 23.2,
+          "end": 23.62,
+          "word": " 물건을",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 23.62,
+          "end": 23.98,
+          "word": " 챙겨",
+          "probability": 1.0
+        },
+        {
+          "start": 23.98,
+          "end": 24.38,
+          "word": " 집을",
+          "probability": 0.989990234375
+        },
+        {
+          "start": 24.38,
+          "end": 24.96,
+          "word": " 나섰습니다.",
+          "probability": 0.9996337890625
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 26.4,
+      "end": 30.0,
+      "text": "길을 걷다 보면 평소에는 눈에 들어오지 않던 것들이 보일 때가 있습니다.",
+      "avg_logprob": -0.07534827027155692,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7194444444444446,
+      "words": [
+        {
+          "start": 26.4,
+          "end": 26.68,
+          "word": " 길을",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 26.68,
+          "end": 26.92,
+          "word": " 걷다",
+          "probability": 0.8416341145833334
+        },
+        {
+          "start": 26.92,
+          "end": 27.12,
+          "word": " 보면",
+          "probability": 1.0
+        },
+        {
+          "start": 27.12,
+          "end": 27.9,
+          "word": " 평소에는",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 27.9,
+          "end": 28.18,
+          "word": " 눈에",
+          "probability": 0.98095703125
+        },
+        {
+          "start": 28.18,
+          "end": 28.6,
+          "word": " 들어오지",
+          "probability": 0.9796549479166666
+        },
+        {
+          "start": 28.6,
+          "end": 28.86,
+          "word": " 않던",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 28.86,
+          "end": 29.22,
+          "word": " 것들이",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 29.22,
+          "end": 29.46,
+          "word": " 보일",
+          "probability": 0.991455078125
+        },
+        {
+          "start": 29.46,
+          "end": 29.68,
+          "word": " 때가",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 29.68,
+          "end": 30.0,
+          "word": " 있습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 31.04,
+      "end": 33.74,
+      "text": "매일 지나던 골목의 작은 가게가 문을 닫았고",
+      "avg_logprob": -0.07534827027155692,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7194444444444446,
+      "words": [
+        {
+          "start": 31.04,
+          "end": 31.56,
+          "word": " 매일",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 31.56,
+          "end": 31.9,
+          "word": " 지나던",
+          "probability": 0.9890950520833334
+        },
+        {
+          "start": 31.9,
+          "end": 32.36,
+          "word": " 골목의",
+          "probability": 0.9679361979166666
+        },
+        {
+          "start": 32.36,
+          "end": 32.58,
+          "word": " 작은",
+          "probability": 1.0
+        },
+        {
+          "start": 32.58,
+          "end": 33.02,
+          "word": " 가게가",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 33.02,
+          "end": 33.3,
+          "word": " 문을",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 33.3,
+          "end": 33.74,
+          "word": " 닫았고",
+          "probability": 0.9996337890625
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 33.74,
+      "end": 36.55,
+      "text": "그 옆에는 새로운 간판이 걸려있습니다.",
+      "avg_logprob": -0.08748998196843343,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5982905982905984,
+      "words": [
+        {
+          "start": 33.74,
+          "end": 34.14,
+          "word": " 그",
+          "probability": 0.99609375
+        },
+        {
+          "start": 34.47,
+          "end": 34.93,
+          "word": " 옆에는",
+          "probability": 1.0
+        },
+        {
+          "start": 34.93,
+          "end": 35.37,
+          "word": " 새로운",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 35.37,
+          "end": 35.87,
+          "word": " 간판이",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 35.87,
+          "end": 36.55,
+          "word": " 걸려있습니다.",
+          "probability": 0.8931884765625
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 37.6,
+      "end": 40.92,
+      "text": "익숙한 장소도 시간이 지나면 조금씩 달라집니다.",
+      "avg_logprob": -0.08748998196843343,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5982905982905984,
+      "words": [
+        {
+          "start": 37.6,
+          "end": 38.2,
+          "word": " 익숙한",
+          "probability": 1.0
+        },
+        {
+          "start": 38.2,
+          "end": 38.6,
+          "word": " 장소도",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 38.6,
+          "end": 38.94,
+          "word": " 시간이",
+          "probability": 1.0
+        },
+        {
+          "start": 38.94,
+          "end": 39.78,
+          "word": " 지나면",
+          "probability": 0.9988606770833334
+        },
+        {
+          "start": 39.78,
+          "end": 40.24,
+          "word": " 조금씩",
+          "probability": 1.0
+        },
+        {
+          "start": 40.24,
+          "end": 40.92,
+          "word": " 달라집니다.",
+          "probability": 0.9998372395833334
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 42.06,
+      "end": 44.66,
+      "text": "사람마다 말하는 속도와 목소리의 높이는 다릅니다.",
+      "avg_logprob": -0.08748998196843343,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5982905982905984,
+      "words": [
+        {
+          "start": 42.06,
+          "end": 42.5,
+          "word": " 사람마다",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 42.5,
+          "end": 42.9,
+          "word": " 말하는",
+          "probability": 1.0
+        },
+        {
+          "start": 42.9,
+          "end": 43.32,
+          "word": " 속도와",
+          "probability": 1.0
+        },
+        {
+          "start": 43.32,
+          "end": 43.82,
+          "word": " 목소리의",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 43.82,
+          "end": 44.18,
+          "word": " 높이는",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 44.18,
+          "end": 44.66,
+          "word": " 다릅니다.",
+          "probability": 0.9993489583333334
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 45.78,
+      "end": 47.88,
+      "text": "어떤 사람은 짧고 분명하게 말하고",
+      "avg_logprob": -0.08748998196843343,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5982905982905984,
+      "words": [
+        {
+          "start": 45.78,
+          "end": 46.0,
+          "word": " 어떤",
+          "probability": 1.0
+        },
+        {
+          "start": 46.0,
+          "end": 46.48,
+          "word": " 사람은",
+          "probability": 1.0
+        },
+        {
+          "start": 46.48,
+          "end": 46.88,
+          "word": " 짧고",
+          "probability": 1.0
+        },
+        {
+          "start": 46.88,
+          "end": 47.46,
+          "word": " 분명하게",
+          "probability": 1.0
+        },
+        {
+          "start": 47.46,
+          "end": 47.88,
+          "word": " 말하고",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 48.19,
+      "end": 51.45,
+      "text": "어떤 사람은 생각할 시간을 가지며 천천히 설명합니다.",
+      "avg_logprob": -0.08748998196843343,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5982905982905984,
+      "words": [
+        {
+          "start": 48.19,
+          "end": 48.79,
+          "word": " 어떤",
+          "probability": 0.78466796875
+        },
+        {
+          "start": 48.79,
+          "end": 49.23,
+          "word": " 사람은",
+          "probability": 1.0
+        },
+        {
+          "start": 49.23,
+          "end": 49.69,
+          "word": " 생각할",
+          "probability": 1.0
+        },
+        {
+          "start": 49.69,
+          "end": 50.09,
+          "word": " 시간을",
+          "probability": 1.0
+        },
+        {
+          "start": 50.09,
+          "end": 50.43,
+          "word": " 가지며",
+          "probability": 0.9978841145833334
+        },
+        {
+          "start": 50.43,
+          "end": 50.85,
+          "word": " 천천히",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 50.85,
+          "end": 51.45,
+          "word": " 설명합니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 52.76,
+      "end": 56.8,
+      "text": "저는 중요한 내용을 설명할 때 문장 사이에 잠시 여유를 두는 편입니다.",
+      "avg_logprob": -0.08748998196843343,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5982905982905984,
+      "words": [
+        {
+          "start": 52.76,
+          "end": 52.98,
+          "word": " 저는",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 52.98,
+          "end": 53.36,
+          "word": " 중요한",
+          "probability": 1.0
+        },
+        {
+          "start": 53.36,
+          "end": 53.76,
+          "word": " 내용을",
+          "probability": 1.0
+        },
+        {
+          "start": 53.76,
+          "end": 54.22,
+          "word": " 설명할",
+          "probability": 1.0
+        },
+        {
+          "start": 54.22,
+          "end": 54.36,
+          "word": " 때",
+          "probability": 1.0
+        },
+        {
+          "start": 54.36,
+          "end": 54.94,
+          "word": " 문장",
+          "probability": 0.997802734375
+        },
+        {
+          "start": 54.94,
+          "end": 55.32,
+          "word": " 사이에",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 55.32,
+          "end": 55.78,
+          "word": " 잠시",
+          "probability": 1.0
+        },
+        {
+          "start": 55.78,
+          "end": 56.14,
+          "word": " 여유를",
+          "probability": 0.9959309895833334
+        },
+        {
+          "start": 56.14,
+          "end": 56.36,
+          "word": " 두는",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 56.36,
+          "end": 56.8,
+          "word": " 편입니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 57.94,
+      "end": 60.9,
+      "text": "오늘 날짜는 2026년 7월 26일입니다.",
+      "avg_logprob": -0.08748998196843343,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5982905982905984,
+      "words": [
+        {
+          "start": 57.94,
+          "end": 58.38,
+          "word": " 오늘",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 58.38,
+          "end": 58.86,
+          "word": " 날짜는",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 58.86,
+          "end": 59.74,
+          "word": " 2026년",
+          "probability": 0.9978841145833334
+        },
+        {
+          "start": 59.74,
+          "end": 60.08,
+          "word": " 7월",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 60.08,
+          "end": 60.9,
+          "word": " 26일입니다.",
+          "probability": 0.9970703125
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 61.79,
+      "end": 64.25,
+      "text": "현재 시각은 오전 10시 35분입니다.",
+      "avg_logprob": -0.08748998196843343,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5982905982905984,
+      "words": [
+        {
+          "start": 61.79,
+          "end": 62.03,
+          "word": " 현재",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 62.03,
+          "end": 62.59,
+          "word": " 시각은",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 62.59,
+          "end": 62.93,
+          "word": " 오전",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 62.93,
+          "end": 63.29,
+          "word": " 10시",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 63.29,
+          "end": 64.25,
+          "word": " 35분입니다.",
+          "probability": 0.9982096354166666
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 65.35,
+      "end": 69.11,
+      "text": "온도는 27.5도이고 예상 강소 확률은 40%입니다.",
+      "avg_logprob": -0.08748998196843343,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5982905982905984,
+      "words": [
+        {
+          "start": 65.35,
+          "end": 65.81,
+          "word": " 온도는",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 65.81,
+          "end": 66.17,
+          "word": " 27",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 66.17,
+          "end": 66.93,
+          "word": ".5도이고",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 66.93,
+          "end": 67.59,
+          "word": " 예상",
+          "probability": 0.97900390625
+        },
+        {
+          "start": 67.59,
+          "end": 67.89,
+          "word": " 강소",
+          "probability": 0.853271484375
+        },
+        {
+          "start": 67.89,
+          "end": 68.27,
+          "word": " 확률은",
+          "probability": 0.9937744140625
+        },
+        {
+          "start": 68.27,
+          "end": 68.51,
+          "word": " 40",
+          "probability": 1.0
+        },
+        {
+          "start": 68.51,
+          "end": 69.11,
+          "word": "%입니다.",
+          "probability": 0.99560546875
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 69.11,
+      "end": 72.73,
+      "text": "첫 번째, 두 번째, 세 번째 순서로 확인하겠습니다.",
+      "avg_logprob": -0.11541666587193807,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.4124293785310735,
+      "words": [
+        {
+          "start": 69.11,
+          "end": 69.71,
+          "word": " 첫",
+          "probability": 0.994140625
+        },
+        {
+          "start": 70.37,
+          "end": 70.63,
+          "word": " 번째,",
+          "probability": 0.5654296875
+        },
+        {
+          "start": 70.73,
+          "end": 70.79,
+          "word": " 두",
+          "probability": 0.998046875
+        },
+        {
+          "start": 70.79,
+          "end": 71.09,
+          "word": " 번째,",
+          "probability": 1.0
+        },
+        {
+          "start": 71.19,
+          "end": 71.29,
+          "word": " 세",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 71.29,
+          "end": 71.57,
+          "word": " 번째",
+          "probability": 1.0
+        },
+        {
+          "start": 71.57,
+          "end": 72.01,
+          "word": " 순서로",
+          "probability": 0.9972330729166666
+        },
+        {
+          "start": 72.01,
+          "end": 72.73,
+          "word": " 확인하겠습니다.",
+          "probability": 0.999267578125
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 73.88,
+      "end": 76.02,
+      "text": "하나부터 열까지 천천히 세워보겠습니다.",
+      "avg_logprob": -0.11541666587193807,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.4124293785310735,
+      "words": [
+        {
+          "start": 73.88,
+          "end": 74.44,
+          "word": " 하나부터",
+          "probability": 0.989990234375
+        },
+        {
+          "start": 74.44,
+          "end": 74.88,
+          "word": " 열까지",
+          "probability": 0.93798828125
+        },
+        {
+          "start": 74.88,
+          "end": 75.4,
+          "word": " 천천히",
+          "probability": 0.9977213541666666
+        },
+        {
+          "start": 75.4,
+          "end": 76.02,
+          "word": " 세워보겠습니다.",
+          "probability": 0.8582763671875
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 77.26,
+      "end": 81.92,
+      "text": "하나, 둘, 셋, 넷, 다섯, 여섯, 일곱, 여덟, 아홉, 열",
+      "avg_logprob": -0.11541666587193807,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.4124293785310735,
+      "words": [
+        {
+          "start": 77.26,
+          "end": 77.38,
+          "word": " 하나,",
+          "probability": 0.9091796875
+        },
+        {
+          "start": 77.66,
+          "end": 77.84,
+          "word": " 둘,",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 78.18,
+          "end": 78.34,
+          "word": " 셋,",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 78.72,
+          "end": 78.98,
+          "word": " 넷,",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 79.18,
+          "end": 79.5,
+          "word": " 다섯,",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 79.76,
+          "end": 80.02,
+          "word": " 여섯,",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 80.24,
+          "end": 80.64,
+          "word": " 일곱,",
+          "probability": 0.9969075520833334
+        },
+        {
+          "start": 80.8,
+          "end": 81.08,
+          "word": " 여덟,",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 81.32,
+          "end": 81.6,
+          "word": " 아홉,",
+          "probability": 0.9988606770833334
+        },
+        {
+          "start": 81.78,
+          "end": 81.92,
+          "word": " 열",
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 82.38,
+      "end": 85.16,
+      "text": "이것으로 기본 목소리 녹음을 마치겠습니다.",
+      "avg_logprob": -0.11541666587193807,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.4124293785310735,
+      "words": [
+        {
+          "start": 82.38,
+          "end": 83.18,
+          "word": " 이것으로",
+          "probability": 0.6988525390625
+        },
+        {
+          "start": 83.18,
+          "end": 83.68,
+          "word": " 기본",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 83.68,
+          "end": 84.16,
+          "word": " 목소리",
+          "probability": 0.99609375
+        },
+        {
+          "start": 84.16,
+          "end": 84.54,
+          "word": " 녹음을",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 84.54,
+          "end": 85.16,
+          "word": " 마치겠습니다.",
+          "probability": 0.9998372395833334
+        }
+      ]
+    }
+  ]
+}

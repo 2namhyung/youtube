@@ -1,0 +1,481 @@
+{
+  "slug": "jeju-school-intrusion",
+  "queries": [
+    {
+      "status": "unavailable",
+      "reason": "YOUTUBE_API_KEY is not configured",
+      "candidates": []
+    },
+    {
+      "status": "ready",
+      "query": "school classroom",
+      "fetchedAt": "2026-07-26T15:07:02.108Z",
+      "candidates": [
+        {
+          "videoId": "Ld5X3C_8OdM",
+          "title": "Instructional Classroom Language",
+          "channelTitle": "VOA Learning English",
+          "thumbnail": "https://i.ytimg.com/vi/Ld5X3C_8OdM/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=Ld5X3C_8OdM",
+          "duration": "PT8M19S",
+          "durationSeconds": 499,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:07:02.108Z"
+          },
+          "fetchedAt": "2026-07-26T15:07:02.108Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "CAYDRIbXFAc",
+          "title": "Afternoon Class - Animation Short Film (2014)",
+          "channelTitle": "Osro",
+          "thumbnail": "https://i.ytimg.com/vi/CAYDRIbXFAc/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=CAYDRIbXFAc",
+          "duration": "PT3M50S",
+          "durationSeconds": 230,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:07:02.108Z"
+          },
+          "fetchedAt": "2026-07-26T15:07:02.108Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "fR0YVsr8QhU",
+          "title": "Class, Classics, & the Classroom: A Short History of School",
+          "channelTitle": "Alliterative",
+          "thumbnail": "https://i.ytimg.com/vi/fR0YVsr8QhU/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=fR0YVsr8QhU",
+          "duration": "PT14M52S",
+          "durationSeconds": 892,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:07:02.108Z"
+          },
+          "fetchedAt": "2026-07-26T15:07:02.108Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "t3LXJXArz_o",
+          "title": "Boost productivity instantly with this 1 Hour Classroom Noises - Classroom Ambience - Study With Me",
+          "channelTitle": "Music & Sound Effects Pro",
+          "thumbnail": "https://i.ytimg.com/vi/t3LXJXArz_o/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=t3LXJXArz_o",
+          "duration": "PT1H1M4S",
+          "durationSeconds": 3664,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:07:02.108Z"
+          },
+          "fetchedAt": "2026-07-26T15:07:02.108Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "Mk82m0468ps",
+          "title": "Classroom Cleanup Routine",
+          "channelTitle": "Teach for Life",
+          "thumbnail": "https://i.ytimg.com/vi/Mk82m0468ps/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=Mk82m0468ps",
+          "duration": "PT2M56S",
+          "durationSeconds": 176,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:07:02.108Z"
+          },
+          "fetchedAt": "2026-07-26T15:07:02.108Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "OknWBh-e7rU",
+          "title": "Noisy Classroom Sound Effect (+Download Link)",
+          "channelTitle": "Jetebece Artworks",
+          "thumbnail": "https://i.ytimg.com/vi/OknWBh-e7rU/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=OknWBh-e7rU",
+          "duration": "PT1M49S",
+          "durationSeconds": 109,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:07:02.108Z"
+          },
+          "fetchedAt": "2026-07-26T15:07:02.108Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "Qh-S2u6r2WM",
+          "title": "This Class Is Boring. Yo Mrs G Can We Learn Something Else? #shorts #funny #viral #usa #tiktok #uk",
+          "channelTitle": "Alex",
+          "thumbnail": "https://i.ytimg.com/vi/Qh-S2u6r2WM/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=Qh-S2u6r2WM",
+          "duration": "PT15S",
+          "durationSeconds": 15,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:07:02.108Z"
+          },
+          "fetchedAt": "2026-07-26T15:07:02.108Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "fCw7gAypC0k",
+          "title": "Surprise party 🎉 & mijn laatste week in groep 8....😰| Janette",
+          "channelTitle": "Janette",
+          "thumbnail": "https://i.ytimg.com/vi/fCw7gAypC0k/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=fCw7gAypC0k",
+          "duration": "PT31M14S",
+          "durationSeconds": 1874,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:07:02.108Z"
+          },
+          "fetchedAt": "2026-07-26T15:07:02.108Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "EaracDyQSxI",
+          "title": "Do you have a NOISY Class?? | 10 Effective Classroom Management Tips for a Loud Classroom",
+          "channelTitle": "Andy - The ESL Guy",
+          "thumbnail": "https://i.ytimg.com/vi/EaracDyQSxI/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=EaracDyQSxI",
+          "duration": "PT7M29S",
+          "durationSeconds": 449,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:07:02.108Z"
+          },
+          "fetchedAt": "2026-07-26T15:07:02.108Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "AVVsOyj_Q-s",
+          "title": "Elementary vs. High School Teachers",
+          "channelTitle": "240 Tutoring",
+          "thumbnail": "https://i.ytimg.com/vi/AVVsOyj_Q-s/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=AVVsOyj_Q-s",
+          "duration": "PT11S",
+          "durationSeconds": 11,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:07:02.108Z"
+          },
+          "fetchedAt": "2026-07-26T15:07:02.108Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        }
+      ]
+    },
+    {
+      "status": "ready",
+      "query": "?? ???? ?? ?? CCTV",
+      "candidates": []
+    },
+    {
+      "status": "ready",
+      "query": "제주 초등학교 교실 침입 CCTV",
+      "fetchedAt": "2026-07-26T15:17:16.822Z",
+      "candidates": [
+        {
+          "videoId": "0l7AwfBJWBE",
+          "title": "초등 교실 연쇄 침입한 고등학생 '엽기행각'",
+          "channelTitle": "KCTV제주방송",
+          "thumbnail": "https://i.ytimg.com/vi/0l7AwfBJWBE/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=0l7AwfBJWBE",
+          "duration": "PT2M15S",
+          "durationSeconds": 135,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:17:16.822Z"
+          },
+          "fetchedAt": "2026-07-26T15:17:16.822Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "3EZqwxOvdzs",
+          "title": "교실 범죄에 무방비… \"방문증 제도 유명무실”",
+          "channelTitle": "KCTV제주방송",
+          "thumbnail": "https://i.ytimg.com/vi/3EZqwxOvdzs/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=3EZqwxOvdzs",
+          "duration": "PT2M23S",
+          "durationSeconds": 143,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:17:16.822Z"
+          },
+          "fetchedAt": "2026-07-26T15:17:16.822Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "n06KH3QRa8g",
+          "title": "강진 실종 여고생 8일 만에 숨진채 발견",
+          "channelTitle": "KBC 콘텐츠",
+          "thumbnail": "https://i.ytimg.com/vi/n06KH3QRa8g/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=n06KH3QRa8g",
+          "duration": "PT1M22S",
+          "durationSeconds": 82,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:17:16.822Z"
+          },
+          "fetchedAt": "2026-07-26T15:17:16.822Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        }
+      ]
+    },
+    {
+      "status": "ready",
+      "query": "제주 초등학교 교실 침입 CCTV",
+      "fetchedAt": "2026-07-26T15:18:42.117Z",
+      "candidates": [
+        {
+          "videoId": "0l7AwfBJWBE",
+          "title": "초등 교실 연쇄 침입한 고등학생 '엽기행각'",
+          "channelTitle": "KCTV제주방송",
+          "thumbnail": "https://i.ytimg.com/vi/0l7AwfBJWBE/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=0l7AwfBJWBE",
+          "duration": "PT2M15S",
+          "durationSeconds": 135,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:18:42.117Z"
+          },
+          "fetchedAt": "2026-07-26T15:18:42.117Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        },
+        {
+          "videoId": "3EZqwxOvdzs",
+          "title": "교실 범죄에 무방비… \"방문증 제도 유명무실”",
+          "channelTitle": "KCTV제주방송",
+          "thumbnail": "https://i.ytimg.com/vi/3EZqwxOvdzs/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=3EZqwxOvdzs",
+          "duration": "PT2M23S",
+          "durationSeconds": 143,
+          "license": "creativeCommon",
+          "embeddable": true,
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:18:42.117Z"
+          },
+          "fetchedAt": "2026-07-26T15:18:42.117Z",
+          "reviewStatus": "pending",
+          "rightsReview": "unverified",
+          "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "videoId": "0l7AwfBJWBE",
+      "title": "초등 교실 연쇄 침입한 고등학생 '엽기행각'",
+      "channelTitle": "KCTV제주방송",
+      "thumbnail": "https://i.ytimg.com/vi/0l7AwfBJWBE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0l7AwfBJWBE",
+      "duration": "PT2M15S",
+      "durationSeconds": 135,
+      "license": "creativeCommon",
+      "embeddable": true,
+      "licenseSnapshot": {
+        "license": "creativeCommon",
+        "embeddable": true,
+        "fetchedAt": "2026-07-26T15:18:42.117Z"
+      },
+      "fetchedAt": "2026-07-26T15:18:42.117Z",
+      "reviewStatus": "approved",
+      "rightsReview": {
+        "status": "completed",
+        "verdict": "conditional",
+        "recommended": false,
+        "evidence": {
+          "license": "creativeCommon",
+          "embeddable": true,
+          "officialUploader": true,
+          "uploaderChannel": "KCTV제주방송 (공식 채널 표기)",
+          "source": "YouTube Data API v3 (search.list + videos.list)",
+          "checkedAt": "2026-07-26T15:18:42.117Z",
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:18:42.117Z"
+          }
+        },
+        "restrictions": [
+          "피해자·인터뷰 대상의 얼굴과 목소리를 사용하지 않음",
+          "식별되지 않는 학교 외관·교실·CCTV 장면만 사용",
+          "인물 식별 가능 구간은 블러·크롭 후에도 재검토"
+        ],
+        "attribution": "출처: KCTV제주방송, 「초등 교실 연쇄 침입한 고등학생 '엽기행각'」, YouTube CC BY. https://www.youtube.com/watch?v=0l7AwfBJWBE",
+        "reviewedAt": "2026-07-27T00:00:00.000Z",
+        "disclaimer": "CC BY 표기와 업로더 확인은 현재 시점의 편집 검토 기록이며, 법적 권리 보장을 의미하지 않습니다."
+      },
+      "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+    },
+    {
+      "videoId": "3EZqwxOvdzs",
+      "title": "교실 범죄에 무방비… \"방문증 제도 유명무실”",
+      "channelTitle": "KCTV제주방송",
+      "thumbnail": "https://i.ytimg.com/vi/3EZqwxOvdzs/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3EZqwxOvdzs",
+      "duration": "PT2M23S",
+      "durationSeconds": 143,
+      "license": "creativeCommon",
+      "embeddable": true,
+      "licenseSnapshot": {
+        "license": "creativeCommon",
+        "embeddable": true,
+        "fetchedAt": "2026-07-26T15:18:42.117Z"
+      },
+      "fetchedAt": "2026-07-26T15:18:42.117Z",
+      "reviewStatus": "approved",
+      "rightsReview": {
+        "status": "completed",
+        "verdict": "conditional",
+        "recommended": true,
+        "evidence": {
+          "license": "creativeCommon",
+          "embeddable": true,
+          "officialUploader": true,
+          "uploaderChannel": "KCTV제주방송 (공식 채널 표기)",
+          "source": "YouTube Data API v3 (search.list + videos.list)",
+          "checkedAt": "2026-07-26T15:18:42.117Z",
+          "licenseSnapshot": {
+            "license": "creativeCommon",
+            "embeddable": true,
+            "fetchedAt": "2026-07-26T15:18:42.117Z"
+          }
+        },
+        "restrictions": [
+          "출입통제·학교 외관·CCTV 등 일반적인 장면을 우선 사용",
+          "식별 가능한 인물과 인터뷰 음성을 사용하지 않음",
+          "최종 편집 전 모자이크·음성 제거 상태를 다시 확인"
+        ],
+        "attribution": "출처: KCTV제주방송, 「교실 범죄에 무방비… 방문증 제도 유명무실」, YouTube CC BY. https://www.youtube.com/watch?v=3EZqwxOvdzs",
+        "reviewedAt": "2026-07-27T00:00:00.000Z",
+        "disclaimer": "CC BY 표기와 업로더 확인은 현재 시점의 편집 검토 기록이며, 법적 권리 보장을 의미하지 않습니다."
+      },
+      "rightsWarning": "업로더가 원저작권자인지는 검증되지 않았습니다. 사용 전 권리 확인과 승인이 필요합니다."
+    }
+  ],
+  "sources": [
+    {
+      "status": "ready",
+      "sourcePath": "production/newsroom/projects/jeju-school-intrusion/sources/kctv-0l7AwfBJWBE.mp4",
+      "contactSheetPath": "production/newsroom/projects/jeju-school-intrusion/sources/kctv-0l7AwfBJWBE-contact-sheet.jpg",
+      "sourceUrl": "https://vod.kctvjeju.com/vclip/260616clip_01.mp4/playlist.m3u8",
+      "articleUrl": "https://www.kctvjeju.com/news/view.kctv?article=k244113",
+      "publisher": "KCTV 제주방송",
+      "candidateVideoId": "0l7AwfBJWBE",
+      "durationSeconds": 134.500667,
+      "sizeBytes": 92281778,
+      "sha256": "2beefd674698ace28accc258562d460609bd1638e609e296b9e5354d3f0c73ce",
+      "attribution": "출처: KCTV제주방송, 「초등 교실 연쇄 침입한 고등학생 '엽기행각'」, YouTube CC BY. https://www.youtube.com/watch?v=0l7AwfBJWBE",
+      "acquiredAt": "2026-07-27T03:22:46.931Z"
+    }
+  ],
+  "clips": [
+    {
+      "path": "clips/1785122813460-3l6lc.mp4",
+      "sourcePath": "production/newsroom/projects/jeju-school-intrusion/sources/kctv-0l7AwfBJWBE.mp4",
+      "startSeconds": 20,
+      "endSeconds": 23,
+      "rightsAttested": true,
+      "createdAt": "2026-07-27T03:26:54.158Z"
+    },
+    {
+      "path": "clips/1785122820372-ew9ar.mp4",
+      "sourcePath": "production/newsroom/projects/jeju-school-intrusion/sources/kctv-0l7AwfBJWBE.mp4",
+      "startSeconds": 24,
+      "endSeconds": 27,
+      "rightsAttested": true,
+      "createdAt": "2026-07-27T03:27:01.016Z"
+    },
+    {
+      "path": "clips/1785122821065-eo99d.mp4",
+      "sourcePath": "production/newsroom/projects/jeju-school-intrusion/sources/kctv-0l7AwfBJWBE.mp4",
+      "startSeconds": 38,
+      "endSeconds": 41,
+      "rightsAttested": true,
+      "createdAt": "2026-07-27T03:27:01.749Z"
+    },
+    {
+      "path": "clips/1785122821777-palyl.mp4",
+      "sourcePath": "production/newsroom/projects/jeju-school-intrusion/sources/kctv-0l7AwfBJWBE.mp4",
+      "startSeconds": 42,
+      "endSeconds": 45,
+      "rightsAttested": true,
+      "createdAt": "2026-07-27T03:27:02.443Z"
+    }
+  ],
+  "bgm": {
+    "status": "idle"
+  }
+}

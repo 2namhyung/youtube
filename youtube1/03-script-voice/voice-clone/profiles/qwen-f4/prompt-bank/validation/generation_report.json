@@ -1,0 +1,172 @@
+{
+  "status": "pass",
+  "support": "canonical-base-validation",
+  "modelId": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+  "modelRevision": "5d83992436eae1d760afd27aff78a71d676296fc",
+  "dtype": "bfloat16",
+  "device": "cuda:0",
+  "seed": 20260730,
+  "temperature": 0.7,
+  "loraLoaded": false,
+  "adapterLoaded": false,
+  "styles": {
+    "hook": {
+      "text": "교실에서 선생님의 말 한마디가 녹음되고, 순식간에 민원으로 돌아오는 시대입니다. 그런데 교권을 지키는 제도는 정말 현장에서 작동하고 있을까요?",
+      "promptAudio": "assets/hook.wav",
+      "promptSha256": "20fd551e53127460eb2ec3f1c8ae2ca34eee0ad262710cf73fd456b9a6009c2b",
+      "promptTranscript": "교권보호국이라는 설정은 허구지만, 현실의 교권 보호 제도는 제대로 작동하고 있을까요?",
+      "output": "validation/samples/hook.wav",
+      "outputSha256": "8d4df4c9472a258094045109f5b03a48e6990659e068de751c2f518afd7f19fb",
+      "metrics": {
+        "sampleRate": 24000,
+        "durationSeconds": 9.04,
+        "peak": 0.287109375,
+        "clippedSampleRatio": 0.0,
+        "silenceRatio": 0.229490022172949,
+        "tempoCharactersPerVoicedSecond": 8.613993760743618,
+        "medianF0Hz": 107.52715702943429,
+        "p10F0Hz": 90.94299399062388,
+        "p90F0Hz": 126.40332431458029,
+        "endpointAmplitude": 0.01007080078125,
+        "boundaryMaxAdjacentJump": 0.007568359375
+      },
+      "audioGates": {
+        "duration_3_to_30_seconds": true,
+        "no_clipping": true,
+        "silence_ratio_le_0_45": true,
+        "tempo_3_to_15": true,
+        "endpoint_amplitude_le_0_02": true,
+        "boundary_jump_le_0_25": true
+      },
+      "audioStatus": "pass",
+      "peakGpuTempC": 58.0
+    },
+    "news_exposition": {
+      "text": "교육부는 교권 보호 대책을 확대하고, 학교마다 대응 절차를 마련했다고 설명합니다. 하지만 신고부터 조사와 지원까지 이어지는 과정은 지역과 학교에 따라 큰 차이를 보입니다.",
+      "promptAudio": "assets/news_exposition.wav",
+      "promptSha256": "ef813824a6d969fabf38f5782847c489b85c934cabe825d7d7f803953b8ea3d0",
+      "promptTranscript": "다음 날 여교사가 매일 쓰던 텀블러에서 수상한 액체를 발견했다고 밝혔습니다.",
+      "output": "validation/samples/news_exposition.wav",
+      "outputSha256": "5e3862c3003a679239a66051129b5b516aedbd25f820c530a8d29721c280205b",
+      "metrics": {
+        "sampleRate": 24000,
+        "durationSeconds": 12.080041666666666,
+        "peak": 0.37109375,
+        "clippedSampleRatio": 0.0,
+        "silenceRatio": 0.37645107794361526,
+        "tempoCharactersPerVoicedSecond": 9.425825244984198,
+        "medianF0Hz": 110.04048518456055,
+        "p10F0Hz": 89.38064778736214,
+        "p90F0Hz": 144.363004329854,
+        "endpointAmplitude": 3.0517578125e-05,
+        "boundaryMaxAdjacentJump": 0.0047607421875
+      },
+      "audioGates": {
+        "duration_3_to_30_seconds": true,
+        "no_clipping": true,
+        "silence_ratio_le_0_45": true,
+        "tempo_3_to_15": true,
+        "endpoint_amplitude_le_0_02": true,
+        "boundary_jump_le_0_25": true
+      },
+      "audioStatus": "pass",
+      "peakGpuTempC": 61.0
+    },
+    "tension": {
+      "text": "문제는 사건이 벌어진 다음입니다. 교사는 수업을 계속해야 하지만 보호 절차는 늦어지고, 책임을 둘러싼 갈등은 점점 더 커집니다.",
+      "promptAudio": "assets/tension.wav",
+      "promptSha256": "3e08532440b04dcb31d8c55e47682fd5c167a8cb04e0e17f16dd30d30d80ec40",
+      "promptTranscript": "피해자는 텀블러의 뚜껑이 열려 있었고 내용물이 조금 줄었다고 말했지만, 피의자는 복도에 들어간 사실만 인정했습니다.",
+      "output": "validation/samples/tension.wav",
+      "outputSha256": "6f58a70e2f63616cc908d64433a2de8d8b48cec4dcb885c98c9c3ba825a93dcf",
+      "metrics": {
+        "sampleRate": 24000,
+        "durationSeconds": 9.04,
+        "peak": 0.267578125,
+        "clippedSampleRatio": 0.0,
+        "silenceRatio": 0.32926829268292684,
+        "tempoCharactersPerVoicedSecond": 8.576025744167339,
+        "medianF0Hz": 105.67990483153781,
+        "p10F0Hz": 93.60782712160481,
+        "p90F0Hz": 140.25326982734947,
+        "endpointAmplitude": 0.01171875,
+        "boundaryMaxAdjacentJump": 0.037353515625
+      },
+      "audioGates": {
+        "duration_3_to_30_seconds": true,
+        "no_clipping": true,
+        "silence_ratio_le_0_45": true,
+        "tempo_3_to_15": true,
+        "endpoint_amplitude_le_0_02": true,
+        "boundary_jump_le_0_25": true
+      },
+      "audioStatus": "pass",
+      "peakGpuTempC": 62.0
+    },
+    "criticism": {
+      "text": "대책은 많아졌지만 현장의 부담을 개인에게 남겨 둔다면, 제도는 이름만 바뀐 채 같은 문제를 반복하게 됩니다. 실적보다 실제 대응 속도와 회복 과정을 따져봐야 합니다.",
+      "promptAudio": "assets/criticism.wav",
+      "promptSha256": "06343d9099e0ecc34b0dc2510b56c69c83a21d64f672e4bd342ac53733b2f495",
+      "promptTranscript": "그러나 작은 흔적을 넘기면 다음 신고를 막기 어렵습니다.",
+      "output": "validation/samples/criticism.wav",
+      "outputSha256": "249a2c56bea388c8c05b3ddfcb329b453755c9c5cd2c4197f88fb1927cc5d55d",
+      "metrics": {
+        "sampleRate": 24000,
+        "durationSeconds": 11.68,
+        "peak": 0.326171875,
+        "clippedSampleRatio": 0.0,
+        "silenceRatio": 0.3216123499142367,
+        "tempoCharactersPerVoicedSecond": 8.455786848622344,
+        "medianF0Hz": 102.08005931410268,
+        "p10F0Hz": 86.8361542464227,
+        "p90F0Hz": 133.14833664814137,
+        "endpointAmplitude": 0.00335693359375,
+        "boundaryMaxAdjacentJump": 0.000732421875
+      },
+      "audioGates": {
+        "duration_3_to_30_seconds": true,
+        "no_clipping": true,
+        "silence_ratio_le_0_45": true,
+        "tempo_3_to_15": true,
+        "endpoint_amplitude_le_0_02": true,
+        "boundary_jump_le_0_25": true
+      },
+      "audioStatus": "pass",
+      "peakGpuTempC": 63.0
+    },
+    "solution_closing": {
+      "text": "해법은 교사의 권한과 책임을 분명히 하고, 사건 초기부터 법률과 심리 지원을 함께 연결하는 데 있습니다. 교권 보호는 누군가를 공격하는 일이 아니라, 교실의 신뢰를 다시 세우는 일입니다.",
+      "promptAudio": "assets/solution_closing.wav",
+      "promptSha256": "893ebdd6d6f0bd8be7ca2185249ada269ee1e5bd111296a80bed26766ef62388",
+      "promptTranscript": "문제를 숨기는 것보다 사실을 차분히 말하고, 피해자의 일상과 교사의 수업을 함께 지키는 해법을 찾는 일이 중요합니다.",
+      "output": "validation/samples/solution_closing.wav",
+      "outputSha256": "70e3dfbe42d75dd15a3e9d70e83980f5d12051676ac52b3954530c055e994b0e",
+      "metrics": {
+        "sampleRate": 24000,
+        "durationSeconds": 12.64,
+        "peak": 0.345703125,
+        "clippedSampleRatio": 0.0,
+        "silenceRatio": 0.3019017432646593,
+        "tempoCharactersPerVoicedSecond": 8.499583327346658,
+        "medianF0Hz": 113.26491752180321,
+        "p10F0Hz": 95.24406311809196,
+        "p90F0Hz": 133.9196571156268,
+        "endpointAmplitude": 0.003387451171875,
+        "boundaryMaxAdjacentJump": 0.00506591796875
+      },
+      "audioGates": {
+        "duration_3_to_30_seconds": true,
+        "no_clipping": true,
+        "silence_ratio_le_0_45": true,
+        "tempo_3_to_15": true,
+        "endpoint_amplitude_le_0_02": true,
+        "boundary_jump_le_0_25": true
+      },
+      "audioStatus": "pass",
+      "peakGpuTempC": 69.0
+    }
+  },
+  "startGpuTempC": 46.0,
+  "peakGpuTempC": 69.0,
+  "finishedUtc": "2026-07-30T06:01:40Z"
+}

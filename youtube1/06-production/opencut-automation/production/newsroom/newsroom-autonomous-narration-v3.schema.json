@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-autonomous-narration-v3",
+  "title": "Newsroom autonomous narration authority v3",
+  "description": "Minimal narration authority shape used by prompt v15. Only a critic-v5 comparative-hook and retention accept decision with a clean surface and 70.0–80.0 second owner-rate estimate may become an active draft.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "modality", "narration", "sentences", "evidenceLineage"],
+  "properties": {
+    "schema": { "const": "newsroom-autonomous-narration-v3" },
+    "modality": { "enum": ["action-scene", "record-institution", "number-explanation", "evidence-reconstruction", "hybrid"] },
+    "narration": { "type": "string", "minLength": 1, "maxLength": 30000 },
+    "sentences": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 64,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text", "claimRefs"],
+        "properties": {
+          "text": { "type": "string", "minLength": 1, "maxLength": 2000 },
+          "claimRefs": { "type": "array", "maxItems": 64, "items": { "type": "string", "minLength": 1, "maxLength": 200 } }
+        }
+      }
+    },
+    "evidenceLineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "packageSha256", "eventDossierSha256", "legalReportSha256", "usedClaimRefs"],
+      "properties": {
+        "schema": { "const": "newsroom-autonomous-narration-evidence-lineage-v3" },
+        "packageSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "eventDossierSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "legalReportSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "usedClaimRefs": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 200 } }
+      }
+    }
+  }
+}

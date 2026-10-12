@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.news-radar.invalid/collection-delta.schema.json",
+  "title": "News Radar incremental collection delta",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "generatedAt", "mode", "bootstrap", "incrementalSince", "poolGeneratedAt", "knownUrlCountBefore", "newArticleCount", "articleIds"],
+  "properties": {
+    "version": { "const": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "mode": { "enum": ["current", "backfill", "incremental"] },
+    "bootstrap": { "type": "boolean" },
+    "incrementalSince": { "type": ["string", "null"], "format": "date-time" },
+    "poolGeneratedAt": { "type": "string", "format": "date-time" },
+    "knownUrlCountBefore": { "type": "integer", "minimum": 0 },
+    "newArticleCount": { "type": "integer", "minimum": 0 },
+    "articleIds": {
+      "type": "array",
+      "maxItems": 3000,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-f0-9]{24}$" }
+    }
+  }
+}

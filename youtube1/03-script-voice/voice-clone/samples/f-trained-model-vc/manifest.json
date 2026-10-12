@@ -1,0 +1,527 @@
+{
+  "version": 1,
+  "purpose": "Apply Fish-trained F timbre to original C/E carrier prosody using true speech-to-speech VC",
+  "lineage": {
+    "stage1": {
+      "inputs": [
+        {
+          "path": "voice-clone/profiles/F/refs/01_neutral.full.wav",
+          "sha256": "1E423DF2DA97A46FA64AB3C957F3B7093494A69FFF2B63CAD99D3D2A3F6504E1",
+          "format": "1ch 24000 Hz PCM_S",
+          "sampleRateHz": 24000,
+          "channels": 1,
+          "samples": 2070528,
+          "durationSeconds": 86.272,
+          "samplePeakDbfs": -9.014,
+          "clippedSamples": 0
+        },
+        {
+          "path": "voice-clone/profiles/F/refs/02_hook.full.wav",
+          "sha256": "8EB47A39F6A97600BFC549D80EF175E79EF508F6B06E4C5FB44A6B24729CDD98",
+          "format": "1ch 24000 Hz PCM_S",
+          "sampleRateHz": 24000,
+          "channels": 1,
+          "samples": 649216,
+          "durationSeconds": 27.050667,
+          "samplePeakDbfs": -7.848,
+          "clippedSamples": 0
+        },
+        {
+          "path": "voice-clone/profiles/F/refs/03_news.full.wav",
+          "sha256": "298E8EEABD5FB32715CA69676915BEA6970DACF85C9A09F79C974A101ECE1992",
+          "format": "1ch 24000 Hz PCM_S",
+          "sampleRateHz": 24000,
+          "channels": 1,
+          "samples": 1174528,
+          "durationSeconds": 48.938667,
+          "samplePeakDbfs": -8.853,
+          "clippedSamples": 0
+        },
+        {
+          "path": "voice-clone/profiles/F/refs/04_tension.full.wav",
+          "sha256": "0B9E8C6711D7B34E85B96C6532552FD74C5AE8EB5615A5E58590E8D5EB0EE973",
+          "format": "1ch 24000 Hz PCM_S",
+          "sampleRateHz": 24000,
+          "channels": 1,
+          "samples": 1025536,
+          "durationSeconds": 42.730667,
+          "samplePeakDbfs": -7.909,
+          "clippedSamples": 0
+        },
+        {
+          "path": "voice-clone/profiles/F/refs/05_criticism.full.wav",
+          "sha256": "648E7BDE0A03144B78778E2983A63B59C89EC5F7874264EE612F7B925A315A80",
+          "format": "1ch 24000 Hz PCM_S",
+          "sampleRateHz": 24000,
+          "channels": 1,
+          "samples": 1087488,
+          "durationSeconds": 45.312,
+          "samplePeakDbfs": -8.488,
+          "clippedSamples": 0
+        },
+        {
+          "path": "voice-clone/profiles/F/refs/06_solution.full.wav",
+          "sha256": "1ACDAB2EE6E1BDD68C87B926D92A17133E59606B785B2F02774E226D7F62CC1A",
+          "format": "1ch 24000 Hz PCM_S",
+          "sampleRateHz": 24000,
+          "channels": 1,
+          "samples": 1090048,
+          "durationSeconds": 45.418667,
+          "samplePeakDbfs": -9.048,
+          "clippedSamples": 0
+        }
+      ],
+      "datasetManifest": "C:/Users/User/tools/fish-speech/data/F/dataset_manifest.json",
+      "trainingReport": "voice-clone/training/F/TRAINING_REPORT.md",
+      "selectedLora": "C:/Users/User/tools/fish-speech/results/F_lora_20260726_r8/checkpoints/step_000000100.ckpt",
+      "mergedFishModel": "C:/Users/User/tools/fish-speech/checkpoints/fish-speech-1.5-F-r8-step100-20260726",
+      "trainedVoiceSample": {
+        "path": "voice-clone/samples/f-fish-trained-20260726/F-fish-r8-step100-comparison-master.wav",
+        "sha256": "A7201EE4361334085FB83340555BB04FA33401B50FC45B8EF88916A44D5C7416",
+        "format": "1ch 44100 Hz PCM_S",
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "samples": 432128,
+        "durationSeconds": 9.798821,
+        "samplePeakDbfs": -2.849,
+        "clippedSamples": 0
+      }
+    },
+    "stage2": "trained F voice sample -> CosyVoice3 inference_vc target speaker; original C/E speech tokens remain the carriers"
+  },
+  "engine": {
+    "name": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+    "mode": "AutoModel.inference_vc (source speech tokens; no text/TTS synthesis)",
+    "device": "CUDA fp16; ONNX speaker encoder on CPU"
+  },
+  "parameters": {
+    "seed": 20260726,
+    "stream": false,
+    "vcSpeed": 1.0,
+    "rawOutputSamples": 200160,
+    "targetSamples": 199200,
+    "durationCorrection": {
+      "engine": "FFmpeg rubberband",
+      "tempo": 1.0048192771084337,
+      "pitch": 1.0,
+      "percentDurationChange": 0.4796,
+      "options": "transients=crisp, detector=compound, phase=laminar, window=standard, smoothing=off, formant=preserved, pitchq=quality"
+    },
+    "loudness": "gain only after duration correction; C -0.6 dB, E -0.8 dB; no compression, denoise, or dynamic normalization"
+  },
+  "speakerAnchorQc": {
+    "method": "CAMPPlus cosine; evidence of timbre direction, not a biometric claim",
+    "trainedSampleToOriginalFRefs": {
+      "01_neutral.full.wav": 0.9052,
+      "02_hook.full.wav": 0.8665,
+      "03_news.full.wav": 0.8618,
+      "04_tension.full.wav": 0.8806,
+      "05_criticism.full.wav": 0.8926,
+      "06_solution.full.wav": 0.85
+    },
+    "meanTrainedSampleToOriginalFRefs": 0.8761
+  },
+  "outputs": {
+    "F-model-from-C.wav": {
+      "sourceCarrier": {
+        "path": "voice-clone/samples/f-trained-model-vc/provenance/C-carrier.wav",
+        "sha256": "036304C67955FAF36872D8E445934C7AF0D32D075369FBD2F92E478F42F26E56",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 199200,
+        "durationSeconds": 8.3,
+        "samplePeakDbfs": -3.006,
+        "clippedSamples": 0
+      },
+      "rawConversion": {
+        "path": "voice-clone/samples/f-trained-model-vc/raw/F-model-from-C-raw.wav",
+        "sha256": "06BE0D5B0EE93232671346E98F806A7D9F611266E15514EB19913556F1537F3F",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 200160,
+        "durationSeconds": 8.34,
+        "samplePeakDbfs": -2.166,
+        "clippedSamples": 0
+      },
+      "final": {
+        "path": "voice-clone/samples/f-trained-model-vc/F-model-from-C.wav",
+        "sha256": "6EACBF2AF18DFACAD84BE05C420271BEEDCAD17E72FC9FAD12B9FC7718E4FAD0",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 199200,
+        "durationSeconds": 8.3,
+        "samplePeakDbfs": -3.144,
+        "clippedSamples": 0,
+        "integratedLufs": -23.28,
+        "truePeakDbtp": -3.14,
+        "loudnessRangeLu": 1.2
+      },
+      "postProcessing": {
+        "gainDb": -0.6,
+        "formantPreservingTempoOnly": true,
+        "exactSampleLock": 199200
+      },
+      "timingProsodyQc": {
+        "f0FrameHopMs": 5.0,
+        "jointVoicedFrames": 693,
+        "voicedFrameAgreement": 0.8724,
+        "f0ContourPearsonCents": 0.9431,
+        "f0ContourSpearmanCents": 0.9447,
+        "medianAbsoluteF0DifferenceCents": 60.0,
+        "sourceNonSilentIntervalsSeconds": [
+          [
+            0.0,
+            0.06
+          ],
+          [
+            0.19,
+            0.255
+          ],
+          [
+            0.26,
+            0.37
+          ],
+          [
+            0.385,
+            0.4
+          ],
+          [
+            0.405,
+            0.415
+          ],
+          [
+            0.455,
+            0.475
+          ],
+          [
+            0.795,
+            1.795
+          ],
+          [
+            2.04,
+            4.175
+          ],
+          [
+            4.28,
+            4.285
+          ],
+          [
+            4.305,
+            4.765
+          ],
+          [
+            4.795,
+            5.79
+          ],
+          [
+            5.8,
+            6.405
+          ],
+          [
+            6.42,
+            6.66
+          ],
+          [
+            6.7,
+            6.835
+          ],
+          [
+            6.84,
+            7.875
+          ],
+          [
+            7.9,
+            8.155
+          ]
+        ],
+        "convertedNonSilentIntervalsSeconds": [
+          [
+            0.01,
+            0.115
+          ],
+          [
+            0.81,
+            1.225
+          ],
+          [
+            1.245,
+            1.8
+          ],
+          [
+            2.05,
+            2.325
+          ],
+          [
+            2.35,
+            2.685
+          ],
+          [
+            2.7,
+            3.14
+          ],
+          [
+            3.165,
+            4.17
+          ],
+          [
+            4.84,
+            5.01
+          ],
+          [
+            5.025,
+            5.725
+          ],
+          [
+            5.795,
+            6.335
+          ],
+          [
+            6.415,
+            6.645
+          ],
+          [
+            6.69,
+            6.8
+          ],
+          [
+            6.835,
+            7.6
+          ],
+          [
+            7.625,
+            7.845
+          ],
+          [
+            7.875,
+            8.13
+          ]
+        ],
+        "silenceDetection": "librosa.effects.split(top_db=35, frame=1024, hop=120)"
+      },
+      "speakerTimbreQc": {
+        "campplusCosineOutputToTrainedSample": 0.9489,
+        "campplusCosineCarrierToTrainedSample": 0.6914,
+        "similarityGainTowardTrainedSample": 0.2575,
+        "campplusCosineOutputToOriginalFRefs": {
+          "01_neutral.full.wav": 0.885,
+          "02_hook.full.wav": 0.856,
+          "03_news.full.wav": 0.8444,
+          "04_tension.full.wav": 0.8685,
+          "05_criticism.full.wav": 0.8831,
+          "06_solution.full.wav": 0.8381
+        },
+        "campplusCosineCarrierToOriginalFRefs": {
+          "01_neutral.full.wav": 0.7556,
+          "02_hook.full.wav": 0.7429,
+          "03_news.full.wav": 0.763,
+          "04_tension.full.wav": 0.7334,
+          "05_criticism.full.wav": 0.7586,
+          "06_solution.full.wav": 0.7537
+        },
+        "meanOutputToOriginalFRefs": 0.8625,
+        "meanCarrierToOriginalFRefs": 0.7512,
+        "meanSimilarityGainTowardOriginalFRefs": 0.1113
+      }
+    },
+    "F-model-from-E.wav": {
+      "sourceCarrier": {
+        "path": "voice-clone/samples/f-trained-model-vc/provenance/E-carrier.wav",
+        "sha256": "967844C23F89F012D6415B9A29E0923C87C7B3689BD9DE7D511B623761D85DB6",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 199200,
+        "durationSeconds": 8.3,
+        "samplePeakDbfs": -3.069,
+        "clippedSamples": 0
+      },
+      "rawConversion": {
+        "path": "voice-clone/samples/f-trained-model-vc/raw/F-model-from-E-raw.wav",
+        "sha256": "32CCC6CB0E59699901CDC6EB80D0F86CEDE3DA228D208168A5D992C2EE0C5853",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 200160,
+        "durationSeconds": 8.34,
+        "samplePeakDbfs": -1.676,
+        "clippedSamples": 0
+      },
+      "final": {
+        "path": "voice-clone/samples/f-trained-model-vc/F-model-from-E.wav",
+        "sha256": "943D4014F5FCD8B11923CE5CF9DE4E9CA27E8F5C32983074C3747F3D5E9BE7DB",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 199200,
+        "durationSeconds": 8.3,
+        "samplePeakDbfs": -2.718,
+        "clippedSamples": 0,
+        "integratedLufs": -23.34,
+        "truePeakDbtp": -2.68,
+        "loudnessRangeLu": 1.2
+      },
+      "postProcessing": {
+        "gainDb": -0.8,
+        "formantPreservingTempoOnly": true,
+        "exactSampleLock": 199200
+      },
+      "timingProsodyQc": {
+        "f0FrameHopMs": 5.0,
+        "jointVoicedFrames": 702,
+        "voicedFrameAgreement": 0.8579,
+        "f0ContourPearsonCents": 0.9456,
+        "f0ContourSpearmanCents": 0.9451,
+        "medianAbsoluteF0DifferenceCents": 60.0,
+        "sourceNonSilentIntervalsSeconds": [
+          [
+            0.0,
+            0.075
+          ],
+          [
+            0.19,
+            0.555
+          ],
+          [
+            0.58,
+            0.585
+          ],
+          [
+            0.63,
+            0.665
+          ],
+          [
+            0.795,
+            1.8
+          ],
+          [
+            1.885,
+            1.89
+          ],
+          [
+            2.04,
+            4.18
+          ],
+          [
+            4.27,
+            4.765
+          ],
+          [
+            4.795,
+            5.79
+          ],
+          [
+            5.8,
+            6.405
+          ],
+          [
+            6.42,
+            6.66
+          ],
+          [
+            6.7,
+            6.835
+          ],
+          [
+            6.84,
+            7.875
+          ],
+          [
+            7.9,
+            8.155
+          ]
+        ],
+        "convertedNonSilentIntervalsSeconds": [
+          [
+            0.005,
+            0.12
+          ],
+          [
+            0.81,
+            1.22
+          ],
+          [
+            1.245,
+            1.805
+          ],
+          [
+            2.05,
+            2.325
+          ],
+          [
+            2.35,
+            2.69
+          ],
+          [
+            2.7,
+            3.14
+          ],
+          [
+            3.165,
+            4.17
+          ],
+          [
+            4.84,
+            5.015
+          ],
+          [
+            5.025,
+            5.725
+          ],
+          [
+            5.8,
+            6.335
+          ],
+          [
+            6.415,
+            6.645
+          ],
+          [
+            6.69,
+            6.8
+          ],
+          [
+            6.835,
+            7.6
+          ],
+          [
+            7.625,
+            7.845
+          ],
+          [
+            7.875,
+            8.135
+          ]
+        ],
+        "silenceDetection": "librosa.effects.split(top_db=35, frame=1024, hop=120)"
+      },
+      "speakerTimbreQc": {
+        "campplusCosineOutputToTrainedSample": 0.9497,
+        "campplusCosineCarrierToTrainedSample": 0.6942,
+        "similarityGainTowardTrainedSample": 0.2555,
+        "campplusCosineOutputToOriginalFRefs": {
+          "01_neutral.full.wav": 0.8874,
+          "02_hook.full.wav": 0.8601,
+          "03_news.full.wav": 0.8462,
+          "04_tension.full.wav": 0.8695,
+          "05_criticism.full.wav": 0.8854,
+          "06_solution.full.wav": 0.8406
+        },
+        "campplusCosineCarrierToOriginalFRefs": {
+          "01_neutral.full.wav": 0.7525,
+          "02_hook.full.wav": 0.7407,
+          "03_news.full.wav": 0.7627,
+          "04_tension.full.wav": 0.7312,
+          "05_criticism.full.wav": 0.7591,
+          "06_solution.full.wav": 0.7518
+        },
+        "meanOutputToOriginalFRefs": 0.8649,
+        "meanCarrierToOriginalFRefs": 0.7497,
+        "meanSimilarityGainTowardOriginalFRefs": 0.1152
+      }
+    }
+  }
+}

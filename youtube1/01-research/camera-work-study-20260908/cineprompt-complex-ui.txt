@@ -1,0 +1,772 @@
+Browser tab: 1562644263, Title: "CinePrompt — AI Video Prompt Builder for Filmmakers", URL: "https://cineprompt.io/".
+0 AXWebArea CinePrompt — AI Video Prompt Builder for Filmmakers, URL: cineprompt.io/
+	1 container app-header
+		2 image CinePrompt
+		3 button Single
+		4 button Multi-Shot
+		5 button Frame → Motion
+		6 button Storyboard
+		7 container
+			8 button ⚙, Help: Settings, ID: header-settings-btn
+			9 button Sign In, ID: auth-sign-in-btn
+	998 container
+		999 button SIMPLE
+		1000 button COMPLEX
+	13 container prompts-drawer
+		14 heading 💾 My Prompts, Value: 3
+			15 text 💾 My Prompts
+		16 button + Project, ID: prompts-add-project
+		17 button ✕, ID: prompts-drawer-close
+		18 text field (settable) prompts-search
+		19 container prompts-layout
+			20 text Loading...
+			21 container prompts-unsorted-panel
+				22 text Unsorted
+				23 text (0)
+	24 container sublib-drawer
+		25 heading 📚 Subject Library, Value: 3
+			26 text 📚 Subject Library
+		27 button ✕, ID: sublib-close
+		28 container sublib-body
+			29 button + New Subject, ID: sublib-add-btn
+			30 container
+				31 text No subjects yet.
+				32 text Create your first character, creature, or object to build a reusable cast for your projects.
+	33 container app-layout
+		1001 container app
+			1002 container stp-bar
+				1003 text field (settable) stp-input
+				1004 container
+					1005 button ✦ Fill, Help: Fill prompt from description, ID: stp-submit
+					1006 button ▾, Help: Creativity level, ID: stp-level-toggle
+			1007 container
+				1008 text STYLE
+				1009 text 🔓
+				1010 text ▾
+			1011 container style-content
+				1012 text MEDIA TYPE
+				1013 container
+					1014 button 🎬 Cinematic
+					1015 button 📹 Documentary
+					1016 button 💼 Commercial
+					1017 button 🏢 Corporate
+					1018 button 🎵 Music Video
+					1019 button 📹 Home Video
+					1020 button 🎨 Avant-Garde
+					1021 button ✏️ Animation
+					1022 button 📡 Broadcast / News
+					1023 button 📱 Social Media
+					1024 button 🎓 Educational
+					1025 button 📼 Found Footage
+					1026 button 🎬 Behind-the-Scenes
+			1027 container
+				1028 text SUBJECT
+				1029 text 🔓
+				1030 text ▾
+			1031 container subject-content
+				1032 container sublib-toolbar
+					1033 button 💾 Save Subject, ID: sublib-save-subject-btn
+					1034 button 📚 Library, ID: sublib-open-btn
+				1035 button 👤 Character
+				1036 button 💎 Object
+				1037 button 🚕 Vehicle
+				1038 button 🐾 Creature / Animal
+				1039 button 🏔️ Scene / Landscape
+				1040 button 🌀 Abstract
+				1041 text Character
+				1042 text field (settable)
+				1414 text AGE RANGE
+				1415 container
+					1416 button 👶 Child
+					1417 button 🧑 Teen
+					1418 button 20s
+					1419 button 30s
+					1420 button 40s
+					1421 button 50s
+					1422 button 60s
+					1423 button 70s
+					1424 button 👴 Elderly
+				1425 text BUILD
+				1426 container
+					1427 button Slim
+					1428 button Athletic
+					1429 button Average
+					1430 button Stocky
+					1431 button Heavy
+					1432 button Tall
+					1433 button Petite
+				1434 text HAIR
+				1435 container
+					1436 button Short
+					1437 button Long
+					1438 button Shoulder
+					1439 button Curly
+					1440 button Straight
+					1441 button Wavy
+					1442 button Braided
+					1443 button Bald
+					1444 button Buzz Cut
+					1445 button Slicked Back
+				1446 text HAIR COLOR
+				1447 container
+					1448 button Black
+					1449 button Dark Brown
+					1450 button Light Brown
+					1451 button Blonde
+					1452 button Red
+					1453 button Auburn
+					1454 button Gray
+					1455 button White
+					1456 button Silver
+				1043 text Describe Your Character
+				1044 text entry area (settable)
+				1457 text Wardrobe
+				1458 text entry area (settable)
+				1459 text Expression
+				1460 text entry area (settable)
+				1461 text Body Language
+				1462 text entry area (settable)
+				1045 container framing-category
+					1046 text FRAMING / PLACEMENT
+					1047 container
+						1048 button ◧ Left Third
+						1049 button ◫ Center
+						1050 button ◨ Right Third
+						1051 button 🔲 Extreme Edge
+						1052 button 🎯 Symmetry / 1-Point
+						1053 button 🪞 Reflection
+						1054 button Foreground
+						1055 button Midground
+						1056 button Background
+						1463 button ⬆️ Extreme Headroom
+						1464 button 🏢 Dwarfed by Space
+						1465 button 🚶 Back to Camera
+						1466 button 🚪 Doorway Silhouette
+						1467 button 🕳️ Trunk Shot
+						1468 button ↦ Enter Left
+						1469 button ↤ Enter Right
+						1470 button 🚶 Toward Camera
+						1471 button 🚶 Away from Camera
+						1472 button 🌅 Silhouette
+						1473 button 🌑 Partially Hidden
+						1474 button ⬆️ Towering Above
+						1475 button ⬇️ From Above
+				1057 button + Add Secondary Subjects, ID: sec-subjects-btn
+			1058 container actions-section
+				1059 container
+					1060 text ACTIONS
+					1061 text 🔓
+					1062 text ▾
+				1063 container actions-content
+					1064 container movement-type-category
+						1065 text MOVEMENT TYPE
+						1066 container
+							1067 button 🚶 Walking
+							1068 button 🐌 Walking Slowly
+							1069 button 🏃 Running
+							1070 button 🧍 Standing
+							1071 button 🪑 Sitting
+							1072 button 🔄 Turning
+							1073 button 🤲 Reaching
+							1074 button ⬇️ Falling
+							1075 button 👊 Fighting
+							1076 button 💃 Dancing
+							1077 button 🚗 Driving
+							1078 button 🧗 Climbing
+							1079 button 🏊 Swimming
+							1080 button 🦵 Crouching
+							1081 button 🛌 Lying Down
+							1082 button 😎 Leaning
+							1083 button 🗣️ Gesturing
+							1084 button 🍃 Drifting
+							1085 button 🎈 Floating
+							1086 button 🌀 Spinning
+							1087 button 🛸 Hovering
+							1088 button 🌅 Emerging
+							1089 button 🫧 Dissolving
+					1090 text PACING / SPEED
+					1091 container
+						1092 button 🐌 Slow Motion
+						1093 button ▶️ Real-Time
+						1094 button ⏩ Fast Motion
+						1095 button ⏱️ Time-Lapse
+						1096 button 🏙️ Hyperlapse
+						1097 button 📈 Speed Ramp (Slow→Fast)
+						1098 button 📉 Speed Ramp (Fast→Slow)
+						1099 button ⏸️ Frozen / Still
+						1100 button ⏪ Reverse
+					1476 container interaction-type-category
+						1477 text INTERACTION TYPE
+						1478 container
+							1479 button 🧍 Solo
+							1480 button 🗣️ Dialogue
+							1481 button 👥 Crowd
+							1482 button 🤏 Object Interaction
+							1483 button ⚔️ Confrontation
+							1484 button 👁️ Observing
+							1485 button 🔗 Multi-Object
+							1486 button 🌍 Environmental
+							1487 button 🦋 Transformation
+					1101 container primary-action-category
+						1102 text Primary Action
+						1103 text entry area (settable)
+					1488 container beats-category
+						1489 text Beat 1: Opening
+						1490 text entry area (settable)
+						1491 text Beat 2: Development
+						1492 text entry area (settable)
+						1493 text Beat 3: Closing
+						1494 text entry area (settable)
+			1104 container dialogue-section
+				1105 container
+					1106 text DIALOGUE
+					1107 text 🔓
+					1108 text ▾
+				1109 container dialogue-content
+					1495 text DELIVERY STYLE
+					1496 container
+						1497 button 🤫 Whispered
+						1498 button 📢 Shouted
+						1499 button 😐 Monotone
+						1500 button 😢 Emotional
+						1501 button 🎙️ Voice-Over
+						1502 button 💭 Internal Monologue
+						1503 button 💬 Casual
+						1504 button 👔 Commanding
+						1505 button 😰 Nervous
+						1506 button 😏 Sarcastic
+						1507 button 😶 Mumbled
+						1508 button 😤 Muttered
+						1509 button 😮‍💨 Gasping
+						1510 button 🔊 High-Pitched
+						1511 button 🔈 Low-Pitched
+						1512 button 😣 Stuttering
+						1513 button 🎵 Sings
+						1514 button 😂 Laughing
+						1515 button 😭 Crying
+						1516 button 🤖 Robotic
+						1517 button 🏛️ Echoing
+						1518 button 🫥 Muffled
+						1519 button 📻 Over Comms
+						1520 button 🙏 Pleading
+						1521 button 🧊 Detached
+					1522 text field (settable)
+					1110 container
+						1111 text Spoken Lines  (auto-quoted in prompt)
+					1112 text entry area (settable)
+					1523 text Language
+					1524 text field (settable)
+			1113 container
+				1114 text ENVIRONMENT
+				1115 text 🔓
+				1116 text ▾
+			1117 container environment-content
+				1118 container setting-category
+					1119 text SETTING
+					1120 container
+						1121 button 🏠 Interior
+						1122 button 🌳 Exterior
+						1123 button 🚪 Int → Ext
+						1124 button 🚪 Ext → Int
+					1125 container
+						1126 button ⬜ White ISO
+						1127 button ⬛ Black ISO
+						1128 button 🟩 Green Screen
+				1129 text Location
+				1130 text entry area (settable)
+				1525 text Location Details
+				1526 text entry area (settable)
+				1131 container time-of-day-category
+					1132 text TIME OF DAY
+					1133 container
+						1134 button 🌅 Dawn
+						1135 button ☀️ Morning
+						1136 button 🌞 Midday
+						1137 button 🌤️ Afternoon
+						1138 button 🌇 Golden Hour
+						1139 button 🌆 Sunset
+						1140 button 🌗 Twilight
+						1141 button 🌃 Blue Hour
+						1142 button 🌙 Night
+						1143 button 🕐 Late Night
+				1144 container weather-category
+					1145 text WEATHER / ATMOSPHERE
+					1146 container
+						1147 button ☀️ Clear
+						1148 button ☁️ Overcast
+						1149 button 🌧️ Rain
+						1150 button ⛈️ Downpour
+						1151 button ❄️ Snow
+						1152 button 🌫️ Fog
+						1153 button 🌁 Mist / Haze
+						1154 button ⛈️ Storm
+						1155 button 💨 Wind
+						1156 button 🏜️ Dust
+						1157 button 🌫️ Smoke
+						1158 button 🌴 Humid
+				1527 text Props
+				1528 text entry area (settable)
+				1529 text Foreground
+				1530 text entry area (settable)
+				1531 text Midground
+				1532 text entry area (settable)
+				1533 text Background
+				1534 text entry area (settable)
+			1159 container
+				1160 text CINEMATOGRAPHY
+				1161 text 🔓
+				1162 text ▾
+			1163 container cinematography-content
+				1535 text FORMAT
+				1536 container
+					1537 button 35mm Film
+					1538 button 16mm Film
+					1539 button 8mm
+					1540 button Super 8mm
+					1541 button 65mm Film
+					1542 button VistaVision
+					1543 button DSLR / Mirrorless
+					1544 button MiniDV
+					1545 button VHS / Hi8
+					1546 button 360°
+					1547 button Surveillance CCTV
+					1548 button Anamorphic 35mm Film
+					1549 button Infrared Film
+					1550 button Hand-Cranked
+					1551 button Digital
+					1552 button Digital Large Format
+				1164 text SHOT TYPE
+				1165 container
+					1166 button 🏔️ Extreme Wide
+					1167 button 🌐 Wide Shot
+					1168 button 🏛️ Establishing
+					1169 button 🎬 Master
+					1170 button 🧍 Full Shot
+					1171 button 📐 Medium Wide
+					1172 button 🤠 Cowboy
+					1173 button 🙎 Medium
+					1174 button 🙂 Medium Close-Up
+					1175 button 👁️ Close-Up
+					1176 button 🔍 Extreme Close-Up
+					1177 button 👆 High Angle
+					1178 button 👇 Low Angle
+					1179 button 👤 Eye Level
+					1180 button 🦅 Bird's Eye
+					1181 button ⬇️ God Shot
+					1182 button 🔷 Dutch Angle
+					1183 button 👥 Two Shot
+					1184 button 👥 Three Shot
+					1185 button 😮 Reaction
+					1186 button 🗣️ OTS
+					1187 button 📌 Insert
+					1188 button 👀 POV
+					1189 button 🪞 Trunk Shot
+				1190 container ss-camera-movement
+					1191 text CAMERA MOVEMENT
+					1192 container
+						1193 button 🔒 Static
+						1194 button ↔️ Pan
+						1195 button ↕️ Tilt
+						1196 button 🛤️ Dolly
+						1197 button 😱 Dolly Zoom
+						1198 button 🎯 Tracking
+						1199 button 🏗️ Crane
+						1200 button 🎥 Steadicam
+						1201 button ✋ Handheld
+						1202 button 🚁 Aerial
+						1203 button 🔄 Orbit
+						1204 button 🔜 Push In
+						1205 button 🔙 Pull Out
+						1206 button ⚡ Whip Pan
+						1207 button 🔎 Zoom
+						1208 button 🎢 Jib
+						1209 button 💪 Shoulder Rig
+				1553 text CAMERA BODY
+				1554 container
+					1555 button ARRI Alexa 65
+					1556 button ARRI Alexa Mini LF
+					1557 button RED V-Raptor
+					1558 button Sony Venice 2
+					1559 button Blackmagic URSA
+					1560 button Panavision DXL2
+					1561 button Canon C500 II
+					1562 button Canon EOS R5
+					1563 button Sony A7S III
+					1564 button Arriflex 35 BL
+					1565 button Bolex H16
+					1566 button Panaflex
+					1567 button Aaton LTR
+					1568 button Mitchell BNC
+					1569 button Phantom
+					1570 button DJI Inspire
+					1571 button RED One
+					1572 button Sony FX6
+					1573 button Canon 5D II
+					1574 button Fujifilm X-T5
+					1575 button Panasonic GH5
+					1576 button BMPCC 6K
+					1577 button IMAX 65mm
+					1578 button Éclair NPR
+					1579 button Canon 814 XL-S
+					1580 button Kodak Brownie
+					1581 button Canon Scoopic
+					1582 button GoPro
+					1583 button iPhone
+				1210 text FOCAL LENGTH
+				1211 container
+					1212 button 8mm 🐟
+					1213 button 12mm
+					1214 button 14mm
+					1215 button 18mm
+					1216 button 21mm
+					1217 button 24mm
+					1218 button 28mm
+					1219 button 35mm
+					1220 button 40mm
+					1221 button 50mm
+					1222 button 65mm
+					1223 button 75mm
+					1224 button 85mm
+					1225 button 100mm
+					1226 button 135mm
+					1227 button 200mm
+					1228 button 300mm
+					1229 button 600mm
+				1584 text LENS
+				1585 container
+					1586 button ARRI Master Prime
+					1587 button ARRI Signature Prime
+					1588 button ARRI Master Anamorphic
+					1589 button Zeiss Super Speed
+					1590 button Zeiss Master Prime
+					1591 button Cooke S4/i
+					1592 button Cooke Speed Panchro
+					1593 button Cooke Varotal
+					1594 button Panavision Primo
+					1595 button Panavision C-Series
+					1596 button Panavision G-Series
+					1597 button Leica Summilux-C
+					1598 button Leica Summicron-C
+					1599 button Canon K-35
+					1600 button Canon FD
+					1601 button Angenieux Optimo
+					1602 button Fujinon Premista
+					1603 button Helios 44-2
+					1604 button Kowa Anamorphic
+					1605 button Lomo Round Front
+					1606 button Atlas Orion
+					1607 button Hawk V-Lite
+					1608 button Petzval
+					1609 button Super Baltar
+					1610 button Canon Dream Lens
+				1611 text LENS FILTER
+				1612 container
+					1613 button Black Pro-Mist
+					1614 button Pro-Mist 1/2
+					1615 button Classic Soft
+					1616 button Glimmerglass
+					1617 button Hollywood BM
+					1618 button ND
+					1619 button CPL
+					1620 button Streak
+					1621 button Star Filter
+					1622 button UV Haze
+					1623 button Fog Filter
+					1624 button Infrared
+					1625 button Grad ND
+					1626 button Diopter
+					1627 button Split Diopter
+				1230 text DEPTH OF FIELD
+				1231 container
+					1232 button ⭕ Shallow / Bokeh
+					1233 button 🌐 Deep Focus
+					1234 button 🔬 Tilt Shift
+				1628 text LIGHTING STYLE
+				1629 container
+					1630 button 🌤️ Soft Light
+					1631 button 🔆 Hard Light
+					1632 button ◼️ High Contrast
+					1633 button ◻️ Low Contrast
+					1634 button 👤 Silhouette
+					1635 button ⬇️ Top Light
+					1636 button 💡 High-Key
+					1637 button 🌑 Low-Key
+					1638 button 😈 Underlight
+					1639 button ✨ Backlight
+					1640 button 🔲 Edge Light
+					1641 button 💫 Rim Light
+					1642 button ◐ Split Lighting
+					1643 button 🎭 Chiaroscuro
+					1644 button 🦋 Butterfly
+					1645 button ✕ Cross Light
+				1235 text LIGHTING
+				1236 container
+					1237 button ☀️ Daylight
+					1238 button 🌞 Sunny
+					1239 button 🌙 Moonlight
+					1240 button 🕯️ Candlelight
+					1241 button 🔥 Fire Light
+					1242 button 💡 Artificial
+					1243 button 🪔 Practical
+					1244 button 🏪 Fluorescent
+					1245 button 🟠 Tungsten
+					1246 button 💜 Neon
+					1247 button 🟡 Sodium Vapor
+					1248 button 🔀 Mixed Light
+					1249 button 🪟 Window Light
+					1250 button 🪞 Reflected Light
+					1251 button 🌤️ God Rays
+				1646 text Key Light
+				1647 text entry area (settable)
+				1648 text Fill / Accent
+				1649 text entry area (settable)
+			1252 container
+				1253 text PALETTE
+				1254 text 🔓
+				1255 text ▾
+			1650 container palette-content
+				1651 container color-science-category
+					1652 container
+						1653 text COLOR SCIENCE  (RAW/LOG — OVERRIDES COLOR GRADE WHEN SELECTED)
+					1654 container
+						1655 button ARRI LogC3
+						1656 button ARRI LogC4
+						1657 button Sony S-Log3
+						1658 button RED Log3G10
+						1659 button Canon C-Log3
+						1660 button Blackmagic RAW
+						1661 button V-Log
+						1662 button Generic Flat/Log
+				1663 container film-stock-category
+					1664 container
+						1665 text FILM STOCK  (PROVIDES ITS OWN COLOR CHARACTER — COMBINE WITH COLOR GRADE INTENTIONALLY)
+					1666 container
+						1667 button Portra 160
+						1668 button Portra 400
+						1669 button Portra 800
+						1670 button Ektar 100
+						1671 button Gold 200
+						1672 button Ultramax 400
+						1673 button Pro 400H
+						1674 button Superia 400
+						1675 button Vision3 250D
+						1676 button Vision3 500T
+						1677 button CineStill 50D
+						1678 button CineStill 800T
+						1679 button Velvia 50
+						1680 button Velvia 100
+						1681 button Provia 100F
+						1682 button Kodachrome 64
+						1683 button Kodachrome 200
+						1684 button Ektachrome E100
+						1685 button Tri-X 400
+						1686 button HP5 Plus 400
+						1687 button Delta 3200
+						1688 button T-Max 100
+						1689 button T-Max 400
+						1690 button FP4 Plus
+						1691 button Lomo 400
+						1692 button Expired Film
+				1693 container color-grade-category
+					1694 text COLOR GRADE
+					1695 container
+						1696 button 🌿 Natural
+						1697 button 🔥 Warm
+						1698 button ❄️ Cool
+						1699 button 🎬 Teal/Orange
+						1700 button 🌫️ Desaturated
+						1701 button 📷 Vintage
+						1702 button ⚫ B&W
+						1703 button 🌃 Neon Noir
+						1704 button ⬛ Crushed Blacks
+						1705 button 🔀 Cross-Processed
+						1706 button 🌙 Day for Night
+						1707 button 🟦 Monochromatic
+						1708 button 🎨 Technicolor
+						1709 button 🌈 High Saturation
+						1710 button 🤎 Muted Earth
+						1711 button 🩶 Bleach Bypass
+				1712 text Primary / Secondary Colors
+				1713 text entry area (settable)
+				1714 text Skin Tones
+				1715 text entry area (settable)
+			1275 container sound-section
+				1276 container
+					1277 text SOUND
+					1278 text 🔓
+					1279 text ▾
+				1280 container sound-content
+					1281 button 🎙️ Clean Dialogue
+					1282 button 🔊 SFX / Ambient
+					1283 button 🎼 Score
+			1284 container
+				1285 container output-header
+					1286 button Reset, ID: reset-btn
+					1287 text PROMPT  ▾
+					1288 container
+						1289 text Optimize for
+						1290 pop up button (collapsed, settable) Value: Universal, ID: optimize-select, Secondary Actions: Expand
+							1291 menu
+								1292 (selected) Universal
+								1293 Seedance
+								1294 Kling
+								1295 Grok Imagine
+								1296 Flux
+								1297 Gemini Omni
+								1298 MiniMax
+								1299 LTX
+						1300 button 💾, Help: Save Prompt, ID: save-prompt-btn
+						1301 button 🔗, Help: Share Prompt, ID: share-prompt-btn
+						1302 button ✏️, Help: Edit prompt text, ID: edit-prompt-btn
+						1303 button { }, Help: Switch to JSON format, ID: json-toggle-btn
+						1304 button 📋 Copy, ID: copy-btn
+							1305 text 📋
+							1306 text Copy
+						1307 button Generate, Help: Generate video from this prompt, ID: generate-btn
+				1716 text Select options above to build your prompt...
+		1309 container
+			1310 text IMAGE MODEL
+			1311 pop up button (collapsed, settable) Value: Grok Imagine 2.0, ID: img-gen-model-select, Secondary Actions: Expand
+				1312 menu
+					1313 (selected) Grok Imagine 2.0
+					1314 Grok Imagine Quality
+					1315 GPT Image 2
+					1316 Nano Banana Pro
+					1317 Nano Banana 2
+					1318 Flux 2 Max
+					1319 Flux 2 Pro
+					1320 Chroma
+					1321 Seedream V5 Pro
+					1322 Luma Uni-1 Max
+					1323 Krea V2 Large
+			1324 container img-gen-settings-container
+				1325 text ASPECT RATIO
+				1326 button 1:1
+				1327 button 16:9
+				1328 button 9:16
+				1329 button 4:3
+				1330 button 3:4
+				1331 button 3:2
+				1332 button 2:3
+				1333 button 2:1
+				1334 button 1:2
+				1335 button 19.5:9
+				1336 button 9:19.5
+				1337 button 20:9
+				1338 button 9:20
+				1339 text RESOLUTION
+				1340 button 1K
+				1341 button 2K
+				1342 container img-num-inline
+					1343 text IMAGES
+					1344 container img-gen-num-options
+						1345 button 1
+						1346 button 2
+						1347 button 3
+						1348 button 4
+			1349 button (disabled) Generate Image, Help: Add an API key in Settings first, ID: img-gen-submit-btn
+			1350 text Est: 10 credits ($0.10) for 1 image
+			1351 button ↑ Upload, ID: img-upload-btn
+		918 container generate-panel
+			919 container
+				1352 text 💡
+				921 text Generate:
+				922 text  Add your API key in 
+				923 text Settings
+				924 text  to create videos directly. Your key stays in your browser and is never sent to CinePrompt.
+				925 button Dismiss
+				926 container gen-key-compact
+					927 text 🔑
+					928 link Description: Add an API key, ID: compact-key-add-link
+						929 text Add an API key
+					930 text  to generate
+				1353 text VIDEO MODEL
+				932 pop up button (collapsed, settable) Value: Grok Imagine 1.5 Private, ID: gen-model-select, Secondary Actions: Expand
+					933 menu
+						1354 (selected) Grok Imagine 1.5 Private
+						1355 Grok Imagine 1.5 R2V Private
+						1356 Sora 2 Pro
+						1357 Gemini Omni Flash 1.1
+						1358 Gemini Omni Flash 1.1 R2V
+						1359 Veo 3.1
+						1360 Flux 3
+						1361 Seedance 2.5
+						1362 Seedance 2.5 R2V
+						1363 Seedance 2.0
+						1364 Seedance 2.0 R2V
+						1365 Seedance 1.5 Pro
+						1366 Kling V3 4K
+						1367 Kling V3 4K R2V
+						1368 Kling O3 4K
+						1369 Kling O3 4K R2V
+						1370 MiniMax H3
+						1371 MiniMax H3 R2V
+						1372 MiniMax H3 Enhanced
+						1373 MiniMax H3 Enhanced R2V
+						1374 WAN 3.0 Prime
+						1375 WAN 3.0 Prime R2V
+						1376 HappyHorse 1.1
+						1377 HappyHorse 1.1 R2V
+						1378 LTX 2.3
+						1379 LTX 2.5 Pro
+						1380 PixVerse C1
+						1381 Runway Gen-4.5
+				962 container gen-settings-container
+					1382 text DURATION
+					1383 container gen-duration-btns
+						1384 button 1s
+						1385 button 2s
+						1386 button 3s
+						1387 button 4s
+						1388 button 5s
+						1389 button 6s
+						1390 button 7s
+						1391 button 8s
+						1392 button 9s
+						1393 button 10s
+						1394 button 11s
+						1395 button 12s
+						1396 button 13s
+						1397 button 14s
+						1398 button 15s
+					1399 text ASPECT RATIO
+					1400 container gen-aspect-btns
+						1401 button 16:9
+						1402 button 4:3
+						1403 button 3:2
+						1404 button 1:1
+						1405 button 2:3
+						1406 button 3:4
+						1407 button 9:16
+					1408 text RESOLUTION
+					1409 container gen-resolution-btns
+						1410 button 1080p
+						1411 button 720p
+						1412 button 480p
+				992 container gen-cost-estimate
+					993 text Est: 
+					1413 text ~80 credits ($0.80)
+					995 text  per clip
+				996 button (disabled) Generate Video, Help: Set up an API key in Settings first, ID: gen-submit-btn
+				997 button ↑ Upload, ID: vid-upload-btn
+	460 container
+		461 text © 2026 Light Owl, LLC ·
+		462 link Description: Terms, Value: cineprompt.io/terms
+		463 text ·
+		464 link Description: Privacy, Value: cineprompt.io/privacy
+		465 text ·
+		466 link Description: Field Notes, Value: cineprompt.io/field-notes
+		467 text ·
+		468 link Description: Podcast, Value: cineprompt.io/podcast
+		469 text ·
+		470 link Description: Blog, Value: cineprompt.io/blog
+		471 text ·
+		472 link Description: Models, Value: cineprompt.io/models
+		473 text ·
+		474 link Description: Changelog, Value: cineprompt.io/changelog
+		475 text ·
+		476 link Description: Feature Requests, Value: mailto:requests@cineprompt.io
+		477 text ·
+		478 link Description: ▶ Tutorial, Value: cineprompt.io/#, ID: tutorial-open
+
+The focused UI element is 3 button Single

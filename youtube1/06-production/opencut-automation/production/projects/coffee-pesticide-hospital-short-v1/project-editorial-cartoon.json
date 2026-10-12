@@ -1,0 +1,3496 @@
+{
+  "id": "coffee-pesticide-hospital-short-v1",
+  "title": {
+    "line1": "동료의 커피에",
+    "line2": "살충제를 넣었다"
+  },
+  "scriptSource": "script.final.json",
+  "assets": "assets",
+  "thumbnail": {
+    "image": "assets/images/thumbnail-reference-v3-v1.png",
+    "sha256": "4cd04acc6c92f98338498741f460073ffb84f257a5759f3df9b27e97baa07dc9",
+    "source": "deterministic reference-v3 composition of the event-specific scene01 ImageGen asset",
+    "provenance": "headline + event media + AI disclosure; spoken-caption layer omitted; exact source/tokens/renderer hashes in thumbnailContract"
+  },
+  "thumbnailContract": {
+    "schema": "editorial-thumbnail-contract-v1",
+    "layoutId": "reference-v3-caption-free-headline-v1",
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "spokenCaptions": false,
+    "headline": {
+      "required": true,
+      "line1": "동료의 커피에",
+      "line2": "살충제를 넣었다"
+    },
+    "aiDisclosure": {
+      "required": true,
+      "text": "사건 내용 기반 AI 재구성"
+    },
+    "source": {
+      "image": "assets/images/scene01-ordinary-coffee.png",
+      "sha256": "91f1134b1c6abbac5d77d6954aec40135cce20f349ae991f9456b0ae26919601",
+      "role": "event-specific ImageGen scene; visual media only"
+    },
+    "tokens": {
+      "path": "../../templates/reference-v3.tokens.json",
+      "sha256": "002888fa89b88d6d4edc9a542fdc26cedf8e092ff7499620a4dd8e52b995cd39"
+    },
+    "renderer": {
+      "id": "deterministic-editorial-thumbnail",
+      "version": 1,
+      "script": "../../../scripts/generate-editorial-thumbnail.mjs",
+      "sha256": "3c5ccae71f12f1311b21eb51b07f6d41e6100668742e0dbfb20cae1e04044a20",
+      "config": "thumbnail.config.json",
+      "configSha256": "3ae412351ddf3552913c75e92025cd8d0ce73754f08afcde70a2c7a9707f1e72"
+    },
+    "output": {
+      "image": "assets/images/thumbnail-reference-v3-v1.png",
+      "sha256": "4cd04acc6c92f98338498741f460073ffb84f257a5759f3df9b27e97baa07dc9",
+      "bytes": 1209936,
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "narration": {
+    "mode": "qwen3-tts",
+    "style": "auto",
+    "promptBank": "../../../../../03-script-voice/voice-clone/profiles/owner-voice-v1/prompt-bank/manifest.json",
+    "device": "cuda",
+    "seed": 20260807,
+    "maxAttempts": 4,
+    "temperature": 0.55,
+    "finalTempo": 1,
+    "maxSegmentChars": 220,
+    "criticalPhrases": [
+      "살충제",
+      "살인미수",
+      "특수상해",
+      "징역 1년 6개월",
+      "집행유예 3년",
+      "형이 줄었습니다",
+      "안심하고 일할 수 없다면"
+    ],
+    "criticalPhraseIsolation": false,
+    "criticalPhraseModels": [
+      "small",
+      "medium"
+    ],
+    "criticalPhraseAgreement": "at-least-one-model",
+    "pronunciationHints": [
+      {
+        "source": "살인미수",
+        "spoken": "살인 미수"
+      },
+      {
+        "source": "특수상해",
+        "spoken": "특수 상해"
+      },
+      {
+        "source": "집행유예",
+        "spoken": "집행 유예"
+      }
+    ],
+    "questionSentences": [
+      "여러분은 아무렇지 않게 다시 마실 수 있나요?"
+    ],
+    "questionStyle": "viewer_question",
+    "stylePlan": [
+      {
+        "segmentIndex": 0,
+        "textSha256": "ee0c56f09404e924da1e87bfc6120a138638553775f71c424901dfb98c1df57b",
+        "style": "hook"
+      },
+      {
+        "segmentIndex": 1,
+        "textSha256": "1327666f49261641ebde2f5315e837e9a263b2d9383d6002260c9663f5d9ee48",
+        "style": "news_exposition"
+      },
+      {
+        "segmentIndex": 2,
+        "textSha256": "580f30c5b67e7f184fcb25281d181496144e5f53e7c88f599a2882778f1cf843",
+        "style": "news_exposition"
+      },
+      {
+        "segmentIndex": 3,
+        "textSha256": "3c0a3f8c760cb52288f9ee4f104f1131f718ca28b409c25822a59aae4b319be0",
+        "style": "tension"
+      },
+      {
+        "segmentIndex": 4,
+        "textSha256": "febefc071e1a18f05ddd83c5a29b3ce82e87a190bc4ea7edcecdbcf14ddb019e",
+        "style": "legal_explanation"
+      },
+      {
+        "segmentIndex": 5,
+        "textSha256": "72b61de1e5964bae016b8625cab1c9dee122d5f4c63507ba8ce84ccaa4c4eb9d",
+        "style": "closing"
+      },
+      {
+        "segmentIndex": 6,
+        "textSha256": "b54617bfe1b6efe467e29a56f46ff8739f1d288658ed90077363816f59415e1b",
+        "style": "closing"
+      }
+    ],
+    "removeSilence": false,
+    "sentencePauseSeconds": 0,
+    "semanticPauseSeconds": 0,
+    "joinSafetySeconds": 0
+  },
+  "bgm": {
+    "provider": "ace-step-1.5",
+    "engineContract": "../../../../../05-bgm-generation/engines/ace-step-1.5-official-local-v1/manifest.json",
+    "prompt": "restrained psychological investigative documentary instrumental for an everyday workplace coffee contamination case, dark low drone, sparse felt piano pulses, muted bass, subtle dry ticking texture, slow 66 BPM, minor mode, uneasy but unobtrusive, gradual tension, no vocals, no lead melody, no bright resolution, leave space for Korean spoken narration",
+    "seed": 657380,
+    "audio": "../../../../../05-bgm-generation/runs/research-657380fce7eaccc9-ace-step-v1/event-bgm.wav",
+    "output": "../../../../../05-bgm-generation/runs/research-657380fce7eaccc9-ace-step-v1/event-bgm.wav",
+    "model": "acestep-v15-turbo + acestep-5Hz-lm-0.6B",
+    "version": "ACE-Step 1.5.0 official local, commit 6d467e4b5081ccb0abf1ec1bf4fdf9051a2d34b0",
+    "license": "MIT (ACE-Step code and official model repository metadata)",
+    "sha256": "dcb7fb93fe0651b348c4e97e032b0d5687f8a2efcad5c1eadf278973bf2eb68b",
+    "provenance": "../../../../../05-bgm-generation/runs/research-657380fce7eaccc9-ace-step-v1/manifest.json",
+    "volumeDb": -16,
+    "duckUnderNarration": true,
+    "fadeSeconds": 1.2,
+    "required": true
+  },
+  "releaseGate": {
+    "publishable": false,
+    "releaseStatus": "preview",
+    "uploadBlocked": true,
+    "blockers": [
+      {
+        "id": "human-playback-review-required",
+        "stage": "07-quality-assurance",
+        "severity": "block",
+        "claim": "커피 살충제 사건 비공개 완성본",
+        "reason": "정확한 렌더 파일에 대한 사람의 전체 재생 검토와 최종 승인이 필요합니다.",
+        "authority": {
+          "case": "local-editorial-approval",
+          "url": "https://example.invalid/local-editorial-approval"
+        }
+      }
+    ]
+  },
+  "captionPreset": {
+    "id": "information-delta-v14-white-on-black-2line",
+    "fontFamily": "Noto Sans KR",
+    "fontWeight": 800,
+    "fontSize": 88,
+    "scaleX": 94,
+    "safeWidth": 920,
+    "maxLines": 2,
+    "lineHeight": 1.08,
+    "x": 540,
+    "y": 1400,
+    "color": "#FFFFFF",
+    "outlineColor": "#000000",
+    "outlineWidth": 5,
+    "background": "black"
+  },
+  "transitionContract": {
+    "mode": "media-only",
+    "frameAccounting": "preserve-scene-sum",
+    "boundaries": [
+      {
+        "from": 1,
+        "to": 2,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "type": "dip-to-black",
+        "frames": 12,
+        "notes": "12-frame media-only semantic transition; title, captions, and disclosure remain fixed"
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 5,
+        "to": 6,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 6,
+        "to": 7,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 7,
+        "to": 8,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 8,
+        "to": 9,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 9,
+        "to": 10,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 10,
+        "to": 11,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 11,
+        "to": 12,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 12,
+        "to": 13,
+        "type": "slide-left",
+        "frames": 12,
+        "notes": "12-frame media-only semantic transition; title, captions, and disclosure remain fixed"
+      },
+      {
+        "from": 13,
+        "to": 14,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 14,
+        "to": 15,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 15,
+        "to": 16,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 16,
+        "to": 17,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 17,
+        "to": 18,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 18,
+        "to": 19,
+        "type": "dip-to-black",
+        "frames": 12,
+        "notes": "12-frame media-only semantic transition; title, captions, and disclosure remain fixed"
+      },
+      {
+        "from": 19,
+        "to": 20,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 20,
+        "to": 21,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 21,
+        "to": 22,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 22,
+        "to": 23,
+        "type": "dip-to-black",
+        "frames": 12,
+        "notes": "12-frame media-only semantic transition; title, captions, and disclosure remain fixed"
+      }
+    ]
+  },
+  "motionEvidence": {
+    "schema": "editorial-motion-evidence-v1",
+    "camera": {
+      "mode": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5
+    },
+    "ffmpeg": {
+      "mode": "transition-only",
+      "overlayLock": true,
+      "boundaries": [
+        {
+          "from": 1,
+          "to": 2,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "type": "dip-to-black",
+          "frames": 12,
+          "notes": "12-frame media-only semantic transition; title, captions, and disclosure remain fixed"
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 11,
+          "to": 12,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 12,
+          "to": 13,
+          "type": "slide-left",
+          "frames": 12,
+          "notes": "12-frame media-only semantic transition; title, captions, and disclosure remain fixed"
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 14,
+          "to": 15,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 15,
+          "to": 16,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 16,
+          "to": 17,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 17,
+          "to": 18,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 18,
+          "to": 19,
+          "type": "dip-to-black",
+          "frames": 12,
+          "notes": "12-frame media-only semantic transition; title, captions, and disclosure remain fixed"
+        },
+        {
+          "from": 19,
+          "to": 20,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 20,
+          "to": 21,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 21,
+          "to": 22,
+          "type": "hard-cut",
+          "frames": 0
+        },
+        {
+          "from": 22,
+          "to": 23,
+          "type": "dip-to-black",
+          "frames": 12,
+          "notes": "12-frame media-only semantic transition; title, captions, and disclosure remain fixed"
+        }
+      ]
+    },
+    "wan": {
+      "status": "blocked",
+      "selectedScenes": [],
+      "runtime": {
+        "engine": "ComfyUI",
+        "version": "0.18.1",
+        "python": "3.12.9",
+        "pytorch": "2.6.0+cu124",
+        "device": "NVIDIA GeForce RTX 3060 Ti 8GB",
+        "launch": "--lowvram --listen 127.0.0.1 --port 8188",
+        "workflow": "06-production/comfyui-video/scripts/generate_wan22_flf.py",
+        "node": "WanFirstLastFrameToVideo",
+        "width": 480,
+        "height": 832,
+        "frames": 49,
+        "fps": 24,
+        "steps": 20,
+        "cfg": 5,
+        "seed": 2026080823
+      },
+      "models": [
+        {
+          "id": "Wan2.2-TI2V-5B-Q5_0.gguf",
+          "role": "diffusion-model",
+          "path": "C:/Users/User/tools/ComfyUI/models/unet/Wan2.2-TI2V-5B-Q5_0.gguf",
+          "bytes": 3642503520,
+          "sha256": "ce3fe1bcc8e2298d68101a0278d268c0fb27c8a29e55d4caf58ff0e3d83223b9"
+        },
+        {
+          "id": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+          "role": "text-encoder",
+          "path": "C:/Users/User/tools/ComfyUI/models/text_encoders/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+          "bytes": 6735906897,
+          "sha256": "c3355d30191f1f066b26d93fba017ae9809dce6c627dda5f6a66eaa651204f68"
+        },
+        {
+          "id": "wan2.2_vae.safetensors",
+          "role": "vae",
+          "path": "C:/Users/User/tools/ComfyUI/models/vae/split_files/vae/wan2.2_vae.safetensors",
+          "bytes": 1409400960,
+          "sha256": "e40321bd36b9709991dae2530eb4ac303dd168276980d3e9bc4b6e2b75fed156"
+        }
+      ],
+      "assets": [],
+      "rejectedCandidates": [
+        {
+          "scene": 9,
+          "output": {
+            "path": "06-production/comfyui-video/rejected/coffee-pesticide-hospital-short-v1/scene09-cap-measure-rejected.mp4",
+            "bytes": 191371,
+            "sha256": "9e3ea92ab6a812c283b2b016d527d5d058aeca11bb62479a0be12a95a4234944"
+          },
+          "reason": "Rejected before project admission: it visualized a disputed quantity claim and unnecessary hand action around a hazardous substance."
+        },
+        {
+          "scene": 2,
+          "output": {
+            "path": "06-production/comfyui-video/rejected/coffee-pesticide-hospital-short-v1/scene02-single-i2v-v1-reentry-rejected.mp4",
+            "bytes": 106312,
+            "sha256": "8e41e1a47635d743c866cfb5ca755f64258c0e45473afac36de2a9251d31a662"
+          },
+          "reason": "Rejected before project admission: single-image I2V made the person re-enter from the opposite side after leaving."
+        },
+        {
+          "scene": 2,
+          "output": {
+            "path": "06-production/comfyui-video/rejected/coffee-pesticide-hospital-short-v1/scene02-single-i2v-v2-reentry-rejected.mp4",
+            "bytes": 59820,
+            "sha256": "4c680334abb610a4c3dda316cec96634e82e1481137b8cd3ced2d930f67043aa"
+          },
+          "reason": "Rejected before project admission: bounded shorter single-image I2V still enlarged/reintroduced the person instead of completing the exit."
+        },
+        {
+          "scene": 2,
+          "sourceImage": {
+            "path": "assets/images/wan-scene02-start-v1.png",
+            "bytes": 2091154,
+            "sha256": "e3cc708d0ee6e854518e0c6e0acaa7d5fde9dde75ab80bb90f80dda9c83becf6"
+          },
+          "endImage": {
+            "path": "assets/images/wan-scene02-end-v1.png",
+            "bytes": 2007542,
+            "sha256": "c1c6d4dfa3027224f79145055de47dcac9353d860678324f8fe8124ccd476987"
+          },
+          "output": {
+            "path": "06-production/comfyui-video/rejected/coffee-pesticide-hospital-short-v1/scene02-flf-style-semantic-failure-rejected.mp4",
+            "bytes": 59232,
+            "sha256": "451ad7931fbc31ddbf64cee4cb744f7cd99049f9bb91b7f0284ddf4e549cda2c"
+          },
+          "prompt": "One continuous restrained Korean editorial cartoon shot. Preserve the exact fictional clinic office, desk, plain paper coffee cup, teal chair, partitions, lighting, fixed camera and composition from the supplied first and last frames. The one anonymous adult already facing the doorway walks calmly forward and exits fully through that doorway exactly once, ending on the supplied empty-room last frame. The adult never turns, never returns, and never approaches or touches the cup. The cup, chair, desk and all office objects remain completely still. Locked camera, no zoom, no pan, no shake, no reframing, no new person, no hand close-up, no bottle, no pesticide, no pouring, no readable text.",
+          "promptSha256": "c2223a6a82b9f5734c330a830968b128fb2b52ca8a8f7171c943e5b5dda1501f",
+          "negativePrompt": "camera movement, zoom, pan, shake, drift, reframing, returning person, reverse walking, person entering, extra person, duplicate person, person approaching cup, hand near cup, touching cup, moving cup, moving chair, bottle, pesticide, liquid, pouring, morphing, warped anatomy, changed furniture, changed lighting, labels, text, watermark, photorealism, anime, 3D, gore",
+          "negativePromptSha256": "7e525c97ccf603d07308f1995ad39c034a4b975f4153f05289e35c1bf9ae4946",
+          "keyframeProvenance": {
+            "provider": "built-in-image_gen",
+            "references": [
+              {
+                "path": "assets/images/scene01-ordinary-coffee.png",
+                "bytes": 1972860,
+                "sha256": "91f1134b1c6abbac5d77d6954aec40135cce20f349ae991f9456b0ae26919601"
+              },
+              {
+                "path": "assets/images/scene02-unattended-cup.png",
+                "bytes": 1936506,
+                "sha256": "f45b563daa820b0879bcfdf3fbd52d22ba8a18b5c2769f0dc2736d0dcb7bab86"
+              }
+            ],
+            "startPrompt": "1080x1920 mature Korean editorial 2D cartoon, restrained ink outlines, flat gouache paper texture, exact same fictional clinic staff desk, plain white paper coffee cup foreground-left, teal rolling chair centered-right, frosted partitions and muted cream/teal palette matching refs. One anonymous adult clinic staff member seen only from behind stands beside the teal chair, torso turned toward the doorway at far upper-right, clearly about to leave. Fixed eye-level composition, realistic adult proportions, simplified non-identifiable face, no hand near cup, no bottle, no pesticide, no labels/readable text, no camera motion.",
+            "startPromptSha256": "51a37d4dfbe981c8b4946c017dfbd19371c160817e33859a2037def327cf2a0e",
+            "endPrompt": "Use START as composition reference. Pixel-consistent same fixed 9:16 clinic desk/cup/chair/partitions/light; the adult has fully exited through far upper-right doorway, leaving only the untouched coffee cup and empty teal chair. No person anywhere, no changed or moved object, no bottle/pesticide/hands/text. Mature restrained editorial 2D cartoon, same gouache/ink style.",
+            "endPromptSha256": "aafa4231386c6236c2739663a0264d1db982624eba230cc6e8a85df6e272ba13",
+            "styleMeaningLint": "pass: fixed composition, same cup/chair/desk, safe exit states"
+          },
+          "reason": "Rejected before project admission: first/last-frame Wan output omitted the adult from frame zero and materially flattened/changed the approved gouache office composition, so no exit information delta survived."
+        }
+      ],
+      "blocker": "No Wan candidate passed semantic/style continuity after bounded exact-model attempts; scene 2 uses its verified project-owned static unattended-cup fallback."
+    }
+  },
+  "scenes": [
+    {
+      "asset": "assets/images/scene01-ordinary-coffee.png",
+      "captionAnchor": "방금까지는 평범한 커피였습니다.",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-01",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-break-desk",
+          "backdrop": "an ordinary fictional Korean clinic staff desk",
+          "scene_subject": "scene01-ordinary-coffee",
+          "subject": "one untouched plain paper coffee cup beside a closed notebook and an empty teal chair",
+          "shot": "close-up",
+          "viewpoint": "slightly above desk level",
+          "placement": "cup centered low; empty chair behind",
+          "foreground": "desk edge",
+          "midground": "cup and notebook",
+          "background": "empty chair and plain partition"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-break-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [],
+          "scene": {
+            "backdrop": "an ordinary fictional Korean clinic staff desk",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene01-ordinary-coffee",
+              "description": "one untouched plain paper coffee cup beside a closed notebook and an empty teal chair",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "close-up",
+            "viewpoint": "slightly above desk level",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "cup centered low; empty chair behind",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "desk edge",
+              "midground": "cup and notebook",
+              "background": "empty chair and plain partition"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: an ordinary fictional Korean clinic staff desk; quiet static editorial scene. Subjects: one untouched plain paper coffee cup beside a closed notebook and an empty teal chair (scene01-ordinary-coffee; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: close-up, slightly above desk level, camera height eye-level. Composition: 9:16; cup centered low; empty chair behind; negative space: clean upper third and lower caption-safe band; depth layers: foreground: desk edge, midground: cup and notebook, background: empty chair and plain partition. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur.",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [],
+        "hash": "cb1cfa7fc8e4e5b862eb2865f9380a34ef15d366d387c0d969697e23ecd9adca"
+      },
+      "imageGenRecipeHash": "cb1cfa7fc8e4e5b862eb2865f9380a34ef15d366d387c0d969697e23ecd9adca"
+    },
+    {
+      "asset": "assets/images/scene02-unattended-cup.png",
+      "captionAnchor": "잠깐 자리를 비운 사이,",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-02",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-break-desk",
+          "backdrop": "the same clinic desk with its chair pulled away",
+          "scene_subject": "scene02-unattended-cup",
+          "subject": "the unattended plain coffee cup and a vacant teal chair",
+          "shot": "medium close-up",
+          "viewpoint": "from the side of the desk",
+          "placement": "cup in lower-left; vacant chair centered",
+          "foreground": "cup rim",
+          "midground": "desk and vacant chair",
+          "background": "frosted clinic partition"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-break-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same clinic desk with its chair pulled away",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene02-unattended-cup",
+              "description": "the unattended plain coffee cup and a vacant teal chair",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium close-up",
+            "viewpoint": "from the side of the desk",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "cup in lower-left; vacant chair centered",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "cup rim",
+              "midground": "desk and vacant chair",
+              "background": "frosted clinic partition"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same clinic desk with its chair pulled away; quiet static editorial scene. Subjects: the unattended plain coffee cup and a vacant teal chair (scene02-unattended-cup; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium close-up, from the side of the desk, camera height eye-level. Composition: 9:16; cup in lower-left; vacant chair centered; negative space: clean upper third and lower caption-safe band; depth layers: foreground: cup rim, midground: desk and vacant chair, background: frosted clinic partition. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "10defe6a340761b70afbcaba43f3a0db632a38153eaa35e5f584d57e71ae5783"
+      },
+      "imageGenRecipeHash": "10defe6a340761b70afbcaba43f3a0db632a38153eaa35e5f584d57e71ae5783"
+    },
+    {
+      "asset": "assets/images/scene03-hidden-risk.png",
+      "captionAnchor": "누군가 살충제를 넣기 전까지는",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-03",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-break-desk",
+          "backdrop": "the same unattended clinic desk",
+          "scene_subject": "scene03-hidden-risk",
+          "subject": "the plain coffee cup in focus with a small unlabeled amber utility bottle isolated at the far desk edge",
+          "shot": "close-up",
+          "viewpoint": "desk-height three-quarter view",
+          "placement": "cup in left third; bottle far right with clear separation",
+          "foreground": "desk scratches",
+          "midground": "cup and bottle",
+          "background": "vacant chair"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-break-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same unattended clinic desk",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene03-hidden-risk",
+              "description": "the plain coffee cup in focus with a small unlabeled amber utility bottle isolated at the far desk edge",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "close-up",
+            "viewpoint": "desk-height three-quarter view",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "cup in left third; bottle far right with clear separation",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "desk scratches",
+              "midground": "cup and bottle",
+              "background": "vacant chair"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same unattended clinic desk; quiet static editorial scene. Subjects: the plain coffee cup in focus with a small unlabeled amber utility bottle isolated at the far desk edge (scene03-hidden-risk; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: close-up, desk-height three-quarter view, camera height eye-level. Composition: 9:16; cup in left third; bottle far right with clear separation; negative space: clean upper third and lower caption-safe band; depth layers: foreground: desk scratches, midground: cup and bottle, background: vacant chair. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [
+            {
+              "code": "multiple-locations-review",
+              "message": "Possible multiple locations; confirm the frame has one location."
+            }
+          ],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "a212e265c6995e5beeafd240e74c8688f258be880b1cd3a7a0e215a10a7e6279"
+      },
+      "imageGenRecipeHash": "a212e265c6995e5beeafd240e74c8688f258be880b1cd3a7a0e215a10a7e6279"
+    },
+    {
+      "asset": "assets/images/scene04-clinic-establishing.png",
+      "captionAnchor": "경기도 구리시 한 병원.",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-04",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "fictional-guri-clinic",
+          "backdrop": "a non-identifiable Korean neighborhood medical clinic reception and corridor",
+          "scene_subject": "scene04-clinic-establishing",
+          "subject": "two anonymous adult clinic workers seen from behind",
+          "shot": "medium-wide",
+          "viewpoint": "from the waiting area",
+          "placement": "workers small at center; counter low",
+          "foreground": "waiting-chair edge",
+          "midground": "reception counter and workers",
+          "background": "plain corridor doors"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "fictional-guri-clinic",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "a non-identifiable Korean neighborhood medical clinic reception and corridor",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene04-clinic-establishing",
+              "description": "two anonymous adult clinic workers seen from behind",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium-wide",
+            "viewpoint": "from the waiting area",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "workers small at center; counter low",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "waiting-chair edge",
+              "midground": "reception counter and workers",
+              "background": "plain corridor doors"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: a non-identifiable Korean neighborhood medical clinic reception and corridor; quiet static editorial scene. Subjects: two anonymous adult clinic workers seen from behind (scene04-clinic-establishing; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium-wide, from the waiting area, camera height eye-level. Composition: 9:16; workers small at center; counter low; negative space: clean upper third and lower caption-safe band; depth layers: foreground: waiting-chair edge, midground: reception counter and workers, background: plain corridor doors. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "fdf24699b93bc8d340ca78a1346fbed99be8f80d98a9dbe957673427b665ac92"
+      },
+      "imageGenRecipeHash": "fdf24699b93bc8d340ca78a1346fbed99be8f80d98a9dbe957673427b665ac92"
+    },
+    {
+      "asset": "assets/images/scene05-workplace-reprimand.png",
+      "captionAnchor": "간호조무사 A씨는 업무로",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-05",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-staff-room",
+          "backdrop": "a small fictional clinic staff room with plain supply shelves",
+          "scene_subject": "scene05-workplace-reprimand",
+          "subject": "worker B in navy scrubs giving restrained work guidance to worker A in a burgundy cardigan over gray scrubs",
+          "shot": "medium",
+          "viewpoint": "from the end of the worktable",
+          "placement": "A left; B right; clear distance",
+          "foreground": "table corner",
+          "midground": "two workers",
+          "background": "neutral shelves"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-staff-room",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "a small fictional clinic staff room with plain supply shelves",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene05-workplace-reprimand",
+              "description": "worker B in navy scrubs giving restrained work guidance to worker A in a burgundy cardigan over gray scrubs",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium",
+            "viewpoint": "from the end of the worktable",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "A left; B right; clear distance",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "table corner",
+              "midground": "two workers",
+              "background": "neutral shelves"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: a small fictional clinic staff room with plain supply shelves; quiet static editorial scene. Subjects: worker B in navy scrubs giving restrained work guidance to worker A in a burgundy cardigan over gray scrubs (scene05-workplace-reprimand; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium, from the end of the worktable, camera height eye-level. Composition: 9:16; A left; B right; clear distance; negative space: clean upper third and lower caption-safe band; depth layers: foreground: table corner, midground: two workers, background: neutral shelves. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [
+            {
+              "code": "multiple-locations-review",
+              "message": "Possible multiple locations; confirm the frame has one location."
+            }
+          ],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "3c9bdb18d3ca7b01c6cb4442318cdbc442c1d6f7baee5d48dcc193e57662cf71"
+      },
+      "imageGenRecipeHash": "3c9bdb18d3ca7b01c6cb4442318cdbc442c1d6f7baee5d48dcc193e57662cf71"
+    },
+    {
+      "asset": "assets/images/scene06-held-grievance.png",
+      "captionAnchor": "핀잔을 주던 B씨에게 불만이 있었습니다.",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-06",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-staff-room",
+          "backdrop": "the same clinic staff room",
+          "scene_subject": "scene06-held-grievance",
+          "subject": "worker A alone at the worktable with tense lowered eyes; worker B is only a soft distant figure",
+          "shot": "medium close-up",
+          "viewpoint": "across the worktable",
+          "placement": "A foreground right; B distant left",
+          "foreground": "closed notebook",
+          "midground": "worker A",
+          "background": "distant worker B and shelves"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-staff-room",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same clinic staff room",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene06-held-grievance",
+              "description": "worker A alone at the worktable with tense lowered eyes; worker B is only a soft distant figure",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium close-up",
+            "viewpoint": "across the worktable",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "A foreground right; B distant left",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "closed notebook",
+              "midground": "worker A",
+              "background": "distant worker B and shelves"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same clinic staff room; quiet static editorial scene. Subjects: worker A alone at the worktable with tense lowered eyes; worker B is only a soft distant figure (scene06-held-grievance; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium close-up, across the worktable, camera height eye-level. Composition: 9:16; A foreground right; B distant left; negative space: clean upper third and lower caption-safe band; depth layers: foreground: closed notebook, midground: worker A, background: distant worker B and shelves. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "b7692784703be45d707bed9e5767e7d0a0087e979efef6f10b97bf381cde17f9"
+      },
+      "imageGenRecipeHash": "b7692784703be45d707bed9e5767e7d0a0087e979efef6f10b97bf381cde17f9"
+    },
+    {
+      "asset": "assets/images/scene07-previous-argument.png",
+      "captionAnchor": "다툰 다음 날,",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-07",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-staff-room",
+          "backdrop": "the same clinic worktable",
+          "scene_subject": "scene07-previous-argument",
+          "subject": "worker A and worker B facing each other with restrained angry posture and no physical contact",
+          "shot": "medium-wide",
+          "viewpoint": "eye-level at table end",
+          "placement": "A and B on opposite thirds",
+          "foreground": "empty table edge",
+          "midground": "two workers",
+          "background": "closed door and shelves"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-staff-room",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same clinic worktable",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene07-previous-argument",
+              "description": "worker A and worker B facing each other with restrained angry posture and no physical contact",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium-wide",
+            "viewpoint": "eye-level at table end",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "A and B on opposite thirds",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "empty table edge",
+              "midground": "two workers",
+              "background": "closed door and shelves"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same clinic worktable; quiet static editorial scene. Subjects: worker A and worker B facing each other with restrained angry posture and no physical contact (scene07-previous-argument; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium-wide, eye-level at table end, camera height eye-level. Composition: 9:16; A and B on opposite thirds; negative space: clean upper third and lower caption-safe band; depth layers: foreground: empty table edge, midground: two workers, background: closed door and shelves. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [
+            {
+              "code": "multiple-locations-review",
+              "message": "Possible multiple locations; confirm the frame has one location."
+            }
+          ],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "573774418bf4afa6424436382115369ee37aa5e10b8a0a4064861b8087287503"
+      },
+      "imageGenRecipeHash": "573774418bf4afa6424436382115369ee37aa5e10b8a0a4064861b8087287503"
+    },
+    {
+      "asset": "assets/images/scene08-vacant-seat.png",
+      "captionAnchor": "B씨가 자리를 뜨자",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-08",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-break-desk",
+          "backdrop": "the same clinic desk with a navy jacket on the vacant chair",
+          "scene_subject": "scene08-vacant-seat",
+          "subject": "worker A standing beside the unattended cup while the doorway remains empty",
+          "shot": "medium",
+          "viewpoint": "from across the desk",
+          "placement": "cup low center; A left; empty doorway right",
+          "foreground": "cup",
+          "midground": "worker A and vacant chair",
+          "background": "empty doorway"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-break-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same clinic desk with a navy jacket on the vacant chair",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene08-vacant-seat",
+              "description": "worker A standing beside the unattended cup while the doorway remains empty",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium",
+            "viewpoint": "from across the desk",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "cup low center; A left; empty doorway right",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "cup",
+              "midground": "worker A and vacant chair",
+              "background": "empty doorway"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same clinic desk with a navy jacket on the vacant chair; quiet static editorial scene. Subjects: worker A standing beside the unattended cup while the doorway remains empty (scene08-vacant-seat; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium, from across the desk, camera height eye-level. Composition: 9:16; cup low center; A left; empty doorway right; negative space: clean upper third and lower caption-safe band; depth layers: foreground: cup, midground: worker A and vacant chair, background: empty doorway. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "44765c97157436dc5debb471e1b15588c94bb501009ca165dc8bc5502ea62a81"
+      },
+      "imageGenRecipeHash": "44765c97157436dc5debb471e1b15588c94bb501009ca165dc8bc5502ea62a81"
+    },
+    {
+      "asset": "assets/images/scene09-pesticide-insertion.png",
+      "captionAnchor": "커피에 살충제를 넣었습니다.",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-09",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-break-desk",
+          "backdrop": "the same unattended desk",
+          "scene_subject": "scene09-pesticide-insertion",
+          "subject": "worker A beside the cup with one restrained hand near a small unlabeled amber utility bottle; no visible liquid",
+          "shot": "medium close-up",
+          "viewpoint": "desk-height three-quarter view",
+          "placement": "cup and bottle low center; A cropped above nose",
+          "foreground": "cup",
+          "midground": "bottle and restrained hand",
+          "background": "vacant chair"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-break-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same unattended desk",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene09-pesticide-insertion",
+              "description": "worker A beside the cup with one restrained hand near a small unlabeled amber utility bottle; no visible liquid",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium close-up",
+            "viewpoint": "desk-height three-quarter view",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "cup and bottle low center; A cropped above nose",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "cup",
+              "midground": "bottle and restrained hand",
+              "background": "vacant chair"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same unattended desk; quiet static editorial scene. Subjects: worker A beside the cup with one restrained hand near a small unlabeled amber utility bottle; no visible liquid (scene09-pesticide-insertion; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium close-up, desk-height three-quarter view, camera height eye-level. Composition: 9:16; cup and bottle low center; A cropped above nose; negative space: clean upper third and lower caption-safe band; depth layers: foreground: cup, midground: bottle and restrained hand, background: vacant chair. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "49b35a8545c43061f53e901fc92caa1cf36222ae092c0fe616f9de657dd4bbc2"
+      },
+      "imageGenRecipeHash": "49b35a8545c43061f53e901fc92caa1cf36222ae092c0fe616f9de657dd4bbc2"
+    },
+    {
+      "asset": "assets/images/scene10-first-sip.png",
+      "captionAnchor": "B씨는 한 모금 뒤",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-10",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-break-desk",
+          "backdrop": "the same clinic desk",
+          "scene_subject": "scene10-first-sip",
+          "subject": "worker B in navy scrubs holding the plain cup near her face with a guarded neutral expression; no other person visible",
+          "shot": "medium close-up",
+          "viewpoint": "eye-level across desk",
+          "placement": "B right; cup centered",
+          "foreground": "desk edge",
+          "midground": "worker B and cup",
+          "background": "plain partition"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-break-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same clinic desk",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene10-first-sip",
+              "description": "worker B in navy scrubs holding the plain cup near her face with a guarded neutral expression; no other person visible",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium close-up",
+            "viewpoint": "eye-level across desk",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "B right; cup centered",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "desk edge",
+              "midground": "worker B and cup",
+              "background": "plain partition"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same clinic desk; quiet static editorial scene. Subjects: worker B in navy scrubs holding the plain cup near her face with a guarded neutral expression; no other person visible (scene10-first-sip; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium close-up, eye-level across desk, camera height eye-level. Composition: 9:16; B right; cup centered; negative space: clean upper third and lower caption-safe band; depth layers: foreground: desk edge, midground: worker B and cup, background: plain partition. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "140bbace5e9f150d5b08c47443761cc343fb03679620a4301a8772266658dd64"
+      },
+      "imageGenRecipeHash": "140bbace5e9f150d5b08c47443761cc343fb03679620a4301a8772266658dd64"
+    },
+    {
+      "asset": "assets/images/scene11-abnormal-taste.png",
+      "captionAnchor": "이상한 맛에 멈췄지만",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-11",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-break-desk",
+          "backdrop": "the same clinic desk",
+          "scene_subject": "scene11-abnormal-taste",
+          "subject": "worker B with the upright cup resting on the desk and one hand near her mouth, showing restrained concern",
+          "shot": "medium close-up",
+          "viewpoint": "eye-level across desk",
+          "placement": "B right; cup isolated left",
+          "foreground": "cup",
+          "midground": "worker B",
+          "background": "plain partition"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-break-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same clinic desk",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene11-abnormal-taste",
+              "description": "worker B with the upright cup resting on the desk and one hand near her mouth, showing restrained concern",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium close-up",
+            "viewpoint": "eye-level across desk",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "B right; cup isolated left",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "cup",
+              "midground": "worker B",
+              "background": "plain partition"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same clinic desk; quiet static editorial scene. Subjects: worker B with the upright cup resting on the desk and one hand near her mouth, showing restrained concern (scene11-abnormal-taste; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium close-up, eye-level across desk, camera height eye-level. Composition: 9:16; B right; cup isolated left; negative space: clean upper third and lower caption-safe band; depth layers: foreground: cup, midground: worker B, background: plain partition. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "7bda2cef988e4ffd3dd7a84075c6b4be2eced0938065750928226d17c88d3ba9"
+      },
+      "imageGenRecipeHash": "7bda2cef988e4ffd3dd7a84075c6b4be2eced0938065750928226d17c88d3ba9"
+    },
+    {
+      "asset": "assets/images/scene12-health-impact.png",
+      "captionAnchor": "위장장애와 불안장애를 겪었습니다.",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-12",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-consultation-room",
+          "backdrop": "a plain fictional medical consultation room",
+          "scene_subject": "scene12-health-impact",
+          "subject": "worker B seated alone with folded tense posture, one hand lightly over her abdomen; no other person visible",
+          "shot": "medium",
+          "viewpoint": "from the doorway",
+          "placement": "B centered low with open space above",
+          "foreground": "visitor-chair edge",
+          "midground": "worker B",
+          "background": "plain wall and cabinet"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-consultation-room",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "a plain fictional medical consultation room",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene12-health-impact",
+              "description": "worker B seated alone with folded tense posture, one hand lightly over her abdomen; no other person visible",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium",
+            "viewpoint": "from the doorway",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "B centered low with open space above",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "visitor-chair edge",
+              "midground": "worker B",
+              "background": "plain wall and cabinet"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: a plain fictional medical consultation room; quiet static editorial scene. Subjects: worker B seated alone with folded tense posture, one hand lightly over her abdomen; no other person visible (scene12-health-impact; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium, from the doorway, camera height eye-level. Composition: 9:16; B centered low with open space above; negative space: clean upper third and lower caption-safe band; depth layers: foreground: visitor-chair edge, midground: worker B, background: plain wall and cabinet. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "11a76b96f7a52bc20f9c88f9ebdf44fec92ea94496804e9bab76f409d1dfdb3a"
+      },
+      "imageGenRecipeHash": "11a76b96f7a52bc20f9c88f9ebdf44fec92ea94496804e9bab76f409d1dfdb3a"
+    },
+    {
+      "asset": "assets/images/scene13-dangerous-substance.png",
+      "captionAnchor": "사람이 먹으면 안 되는 살충제잖아요.",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-13",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "symbolic-evidence-table",
+          "backdrop": "a sober anonymous evidence table",
+          "scene_subject": "scene13-dangerous-substance",
+          "subject": "a sealed plain coffee cup and small unlabeled amber pesticide bottle separated by a warning-like empty gap",
+          "shot": "close-up",
+          "viewpoint": "table height",
+          "placement": "cup left; bottle right; empty center",
+          "foreground": "table edge",
+          "midground": "cup and bottle",
+          "background": "charcoal wall"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "symbolic-evidence-table",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "a sober anonymous evidence table",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene13-dangerous-substance",
+              "description": "a sealed plain coffee cup and small unlabeled amber pesticide bottle separated by a warning-like empty gap",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "close-up",
+            "viewpoint": "table height",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "cup left; bottle right; empty center",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "table edge",
+              "midground": "cup and bottle",
+              "background": "charcoal wall"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: a sober anonymous evidence table; quiet static editorial scene. Subjects: a sealed plain coffee cup and small unlabeled amber pesticide bottle separated by a warning-like empty gap (scene13-dangerous-substance; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: close-up, table height, camera height eye-level. Composition: 9:16; cup left; bottle right; empty center; negative space: clean upper third and lower caption-safe band; depth layers: foreground: table edge, midground: cup and bottle, background: charcoal wall. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "e3b19b9cd3efbfd770162f521a0a9380072e272ff04c5193d8de69aef01d4b29"
+      },
+      "imageGenRecipeHash": "e3b19b9cd3efbfd770162f521a0a9380072e272ff04c5193d8de69aef01d4b29"
+    },
+    {
+      "asset": "assets/images/scene14-prosecution-theory.png",
+      "captionAnchor": "검찰은 살인미수를 주장했지만",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-14",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "fictional-legal-office",
+          "backdrop": "an anonymous Korean legal office with no emblems",
+          "scene_subject": "scene14-prosecution-theory",
+          "subject": "a closed case folder, sealed cup, unlabeled bottle, and an indistinct prosecutor silhouette; no clinic worker, medical scrubs, or water bottle visible",
+          "shot": "medium-wide",
+          "viewpoint": "from across evidence table",
+          "placement": "evidence low; silhouette high center",
+          "foreground": "table edge",
+          "midground": "folder cup and bottle",
+          "background": "prosecutor silhouette"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "fictional-legal-office",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "an anonymous Korean legal office with no emblems",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene14-prosecution-theory",
+              "description": "a closed case folder, sealed cup, unlabeled bottle, and an indistinct prosecutor silhouette; no clinic worker, medical scrubs, or water bottle visible",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium-wide",
+            "viewpoint": "from across evidence table",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "evidence low; silhouette high center",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "table edge",
+              "midground": "folder cup and bottle",
+              "background": "prosecutor silhouette"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: an anonymous Korean legal office with no emblems; quiet static editorial scene. Subjects: a closed case folder, sealed cup, unlabeled bottle, and an indistinct prosecutor silhouette; no clinic worker, medical scrubs, or water bottle visible (scene14-prosecution-theory; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium-wide, from across evidence table, camera height eye-level. Composition: 9:16; evidence low; silhouette high center; negative space: clean upper third and lower caption-safe band; depth layers: foreground: table edge, midground: folder cup and bottle, background: prosecutor silhouette. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "78e312d5e81be46ee98d4e5fd33d772a87eb78368527e8263f54fcb837c21b5d"
+      },
+      "imageGenRecipeHash": "78e312d5e81be46ee98d4e5fd33d772a87eb78368527e8263f54fcb837c21b5d"
+    },
+    {
+      "asset": "assets/images/scene15-special-injury-finding.png",
+      "captionAnchor": "법원이 인정한 건 특수상해였습니다.",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-15",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "fictional-courtroom",
+          "backdrop": "a plain fictional Korean courtroom without insignia",
+          "scene_subject": "scene15-special-injury-finding",
+          "subject": "an anonymous judge silhouette and one closed case folder on the lower table",
+          "shot": "medium-wide",
+          "viewpoint": "from the gallery",
+          "placement": "judge high center; folder low center",
+          "foreground": "gallery rail",
+          "midground": "closed folder",
+          "background": "plain judge bench"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "fictional-courtroom",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "a plain fictional Korean courtroom without insignia",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene15-special-injury-finding",
+              "description": "an anonymous judge silhouette and one closed case folder on the lower table",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium-wide",
+            "viewpoint": "from the gallery",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "judge high center; folder low center",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "gallery rail",
+              "midground": "closed folder",
+              "background": "plain judge bench"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: a plain fictional Korean courtroom without insignia; quiet static editorial scene. Subjects: an anonymous judge silhouette and one closed case folder on the lower table (scene15-special-injury-finding; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium-wide, from the gallery, camera height eye-level. Composition: 9:16; judge high center; folder low center; negative space: clean upper third and lower caption-safe band; depth layers: foreground: gallery rail, midground: closed folder, background: plain judge bench. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "c18a0af05800ef55fcf090c1a3578738e1dfd006dc1ba554e0d39dc40bcc4e29"
+      },
+      "imageGenRecipeHash": "c18a0af05800ef55fcf090c1a3578738e1dfd006dc1ba554e0d39dc40bcc4e29"
+    },
+    {
+      "asset": "assets/images/scene16-first-sentence.png",
+      "captionAnchor": "1심 징역 2년.",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-16",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "symbolic-court-desk",
+          "backdrop": "a restrained court desk still life",
+          "scene_subject": "scene16-first-sentence",
+          "subject": "one dark sealed judgment folder beside a balanced scale",
+          "shot": "close-up",
+          "viewpoint": "slightly above table level",
+          "placement": "folder lower left; scale upper right",
+          "foreground": "wood grain",
+          "midground": "dark folder",
+          "background": "balanced scale"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "symbolic-court-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "a restrained court desk still life",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene16-first-sentence",
+              "description": "one dark sealed judgment folder beside a balanced scale",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "close-up",
+            "viewpoint": "slightly above table level",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "folder lower left; scale upper right",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "wood grain",
+              "midground": "dark folder",
+              "background": "balanced scale"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: a restrained court desk still life; quiet static editorial scene. Subjects: one dark sealed judgment folder beside a balanced scale (scene16-first-sentence; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: close-up, slightly above table level, camera height eye-level. Composition: 9:16; folder lower left; scale upper right; negative space: clean upper third and lower caption-safe band; depth layers: foreground: wood grain, midground: dark folder, background: balanced scale. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "f778ec032167a0fc448cef037be1a9eec50c8ee2e07af3ed8f1c86d0337f7364"
+      },
+      "imageGenRecipeHash": "f778ec032167a0fc448cef037be1a9eec50c8ee2e07af3ed8f1c86d0337f7364"
+    },
+    {
+      "asset": "assets/images/scene17-appeal-suspended.png",
+      "captionAnchor": "항소심에선 징역 1년 6개월에 집행유예 3년으로",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-17",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "symbolic-appeal-desk",
+          "backdrop": "a second restrained court desk still life",
+          "scene_subject": "scene17-appeal-suspended",
+          "subject": "two sealed judgment folders with the upper folder lighter in tone beside a balanced scale",
+          "shot": "close-up",
+          "viewpoint": "slightly above table level",
+          "placement": "stacked folders left; scale right",
+          "foreground": "wood grain",
+          "midground": "two folders",
+          "background": "soft courthouse wall"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "symbolic-appeal-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "a second restrained court desk still life",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene17-appeal-suspended",
+              "description": "two sealed judgment folders with the upper folder lighter in tone beside a balanced scale",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "close-up",
+            "viewpoint": "slightly above table level",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "stacked folders left; scale right",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "wood grain",
+              "midground": "two folders",
+              "background": "soft courthouse wall"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: a second restrained court desk still life; quiet static editorial scene. Subjects: two sealed judgment folders with the upper folder lighter in tone beside a balanced scale (scene17-appeal-suspended; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: close-up, slightly above table level, camera height eye-level. Composition: 9:16; stacked folders left; scale right; negative space: clean upper third and lower caption-safe band; depth layers: foreground: wood grain, midground: two folders, background: soft courthouse wall. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "ee386805e9f576961f93f9ce84d93d7313aef495887262fcf31fe7c1ade404fe"
+      },
+      "imageGenRecipeHash": "ee386805e9f576961f93f9ce84d93d7313aef495887262fcf31fe7c1ade404fe"
+    },
+    {
+      "asset": "assets/images/scene18-sentence-reduced.png",
+      "captionAnchor": "형이 줄었습니다.",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-18",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "fictional-courtroom",
+          "backdrop": "the same plain fictional courtroom",
+          "scene_subject": "scene18-sentence-reduced",
+          "subject": "an empty defendant chair beneath a broad pale rectangle of courthouse light",
+          "shot": "medium-wide",
+          "viewpoint": "from the gallery",
+          "placement": "empty chair centered low; bench distant",
+          "foreground": "gallery rail",
+          "midground": "empty chair",
+          "background": "plain judge bench"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "fictional-courtroom",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same plain fictional courtroom",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene18-sentence-reduced",
+              "description": "an empty defendant chair beneath a broad pale rectangle of courthouse light",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium-wide",
+            "viewpoint": "from the gallery",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "empty chair centered low; bench distant",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "gallery rail",
+              "midground": "empty chair",
+              "background": "plain judge bench"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same plain fictional courtroom; quiet static editorial scene. Subjects: an empty defendant chair beneath a broad pale rectangle of courthouse light (scene18-sentence-reduced; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium-wide, from the gallery, camera height eye-level. Composition: 9:16; empty chair centered low; bench distant; negative space: clean upper third and lower caption-safe band; depth layers: foreground: gallery rail, midground: empty chair, background: plain judge bench. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "6e357ec3c50b417f9cc6c8018184e1ae06e12ef3e982f90aab4a75016806f442"
+      },
+      "imageGenRecipeHash": "6e357ec3c50b417f9cc6c8018184e1ae06e12ef3e982f90aab4a75016806f442"
+    },
+    {
+      "asset": "assets/images/scene19-fear-remains.png",
+      "captionAnchor": "하지만 피해자의 커피잔에 남은 공포도 줄었을까요?",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-19",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "symbolic-clinic-desk",
+          "backdrop": "the same plain clinic desk under restrained charcoal shadow",
+          "scene_subject": "scene19-fear-remains",
+          "subject": "a solitary coffee cup casting a long cage-like geometric shadow",
+          "shot": "close-up",
+          "viewpoint": "slightly above desk level",
+          "placement": "small cup centered low; shadow fills upper half",
+          "foreground": "cup rim",
+          "midground": "solitary cup",
+          "background": "geometric shadow and empty chair"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "symbolic-clinic-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same plain clinic desk under restrained charcoal shadow",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene19-fear-remains",
+              "description": "a solitary coffee cup casting a long cage-like geometric shadow",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "close-up",
+            "viewpoint": "slightly above desk level",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "small cup centered low; shadow fills upper half",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "cup rim",
+              "midground": "solitary cup",
+              "background": "geometric shadow and empty chair"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same plain clinic desk under restrained charcoal shadow; quiet static editorial scene. Subjects: a solitary coffee cup casting a long cage-like geometric shadow (scene19-fear-remains; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: close-up, slightly above desk level, camera height eye-level. Composition: 9:16; small cup centered low; shadow fills upper half; negative space: clean upper third and lower caption-safe band; depth layers: foreground: cup rim, midground: solitary cup, background: geometric shadow and empty chair. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "fa4c41cf2290d5fe8c194d1402dd3e5876c958290408249c97f86a31afdef46a"
+      },
+      "imageGenRecipeHash": "fa4c41cf2290d5fe8c194d1402dd3e5876c958290408249c97f86a31afdef46a"
+    },
+    {
+      "asset": "assets/images/scene20-victim-future.png",
+      "captionAnchor": "형은 언젠가 끝나지만,",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-20",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-corridor",
+          "backdrop": "a quiet fictional clinic corridor",
+          "scene_subject": "scene20-victim-future",
+          "subject": "worker B in navy scrubs standing alone beside a closed staff-room door",
+          "shot": "medium-wide",
+          "viewpoint": "from the far corridor",
+          "placement": "B small in lower center; long corridor around her",
+          "foreground": "dark floor edge",
+          "midground": "worker B",
+          "background": "closed door and empty corridor"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-corridor",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "a quiet fictional clinic corridor",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene20-victim-future",
+              "description": "worker B in navy scrubs standing alone beside a closed staff-room door",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium-wide",
+            "viewpoint": "from the far corridor",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "B small in lower center; long corridor around her",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "dark floor edge",
+              "midground": "worker B",
+              "background": "closed door and empty corridor"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: a quiet fictional clinic corridor; quiet static editorial scene. Subjects: worker B in navy scrubs standing alone beside a closed staff-room door (scene20-victim-future; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium-wide, from the far corridor, camera height eye-level. Composition: 9:16; B small in lower center; long corridor around her; negative space: clean upper third and lower caption-safe band; depth layers: foreground: dark floor edge, midground: worker B, background: closed door and empty corridor. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "a622899215ff350b93fe63acc7cd6c0c9b421827709225be27a1a3aadbf9fe29"
+      },
+      "imageGenRecipeHash": "a622899215ff350b93fe63acc7cd6c0c9b421827709225be27a1a3aadbf9fe29"
+    },
+    {
+      "asset": "assets/images/scene21-everyday-distrust.png",
+      "captionAnchor": "피해자는 그 이후를 살아가야 합니다.",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-21",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-break-desk",
+          "backdrop": "the same clinic staff desk",
+          "scene_subject": "scene21-everyday-distrust",
+          "subject": "worker B seated before an open cup while a distant anonymous coworker holds out a second plain cup",
+          "shot": "medium",
+          "viewpoint": "eye-level across desk",
+          "placement": "open cup foreground; B center; offered cup distant",
+          "foreground": "open cup",
+          "midground": "worker B",
+          "background": "soft coworker silhouette"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-break-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same clinic staff desk",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene21-everyday-distrust",
+              "description": "worker B seated before an open cup while a distant anonymous coworker holds out a second plain cup",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium",
+            "viewpoint": "eye-level across desk",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "open cup foreground; B center; offered cup distant",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "open cup",
+              "midground": "worker B",
+              "background": "soft coworker silhouette"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same clinic staff desk; quiet static editorial scene. Subjects: worker B seated before an open cup while a distant anonymous coworker holds out a second plain cup (scene21-everyday-distrust; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium, eye-level across desk, camera height eye-level. Composition: 9:16; open cup foreground; B center; offered cup distant; negative space: clean upper third and lower caption-safe band; depth layers: foreground: open cup, midground: worker B, background: soft coworker silhouette. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "d1e98a9aa5245059f93dc28cbefc9f57c1bb0dd95989c521c5c709ab6e26ba49"
+      },
+      "imageGenRecipeHash": "d1e98a9aa5245059f93dc28cbefc9f57c1bb0dd95989c521c5c709ab6e26ba49"
+    },
+    {
+      "asset": "assets/images/scene22-unsafe-workplace.png",
+      "captionAnchor": "안심하고 일할 수 없다면",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-22",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "clinic-staff-room",
+          "backdrop": "the same familiar staff room with an empty place at the table",
+          "scene_subject": "scene22-unsafe-workplace",
+          "subject": "worker B seated far from an untouched cup, hands held together",
+          "shot": "medium-wide",
+          "viewpoint": "from the doorway",
+          "placement": "cup foreground left; B distant right",
+          "foreground": "untouched cup",
+          "midground": "empty table space",
+          "background": "worker B and closed door"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "clinic-staff-room",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "the same familiar staff room with an empty place at the table",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene22-unsafe-workplace",
+              "description": "worker B seated far from an untouched cup, hands held together",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "medium-wide",
+            "viewpoint": "from the doorway",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "cup foreground left; B distant right",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "untouched cup",
+              "midground": "empty table space",
+              "background": "worker B and closed door"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: the same familiar staff room with an empty place at the table; quiet static editorial scene. Subjects: worker B seated far from an untouched cup, hands held together (scene22-unsafe-workplace; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: medium-wide, from the doorway, camera height eye-level. Composition: 9:16; cup foreground left; B distant right; negative space: clean upper third and lower caption-safe band; depth layers: foreground: untouched cup, midground: empty table space, background: worker B and closed door. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "eada8968870d4390b3ce76e7de1f04e5ed6b0fc82343243108a2324dc171bcd4"
+      },
+      "imageGenRecipeHash": "eada8968870d4390b3ce76e7de1f04e5ed6b0fc82343243108a2324dc171bcd4"
+    },
+    {
+      "asset": "assets/images/scene23-closing-question.png",
+      "captionAnchor": "직장 책상에 두고 온 커피.",
+      "label": "사건 내용 기반 AI 재구성",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5,
+      "imageGenRecipe": {
+        "schema": "imagegen-prompt-recipe-v1",
+        "recipe_id": "coffee-pesticide-editorial-23",
+        "version": 1,
+        "family": "mature-editorial-2d-cartoon",
+        "prompt_meta": {
+          "source_title": "research-657380fce7eaccc9 finalized suspense script and event dossier v3",
+          "author": "OpenCut newsroom editorial pipeline",
+          "original_language": "ko",
+          "captured_at": "2026-08-07T08:00:00.000Z"
+        },
+        "resolved_variables": {
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location": "ordinary-office-desk",
+          "backdrop": "an anonymous ordinary Korean workplace desk",
+          "scene_subject": "scene23-closing-question",
+          "subject": "one plain coffee cup beside a pulled-back chair, with no person visible",
+          "shot": "close-up",
+          "viewpoint": "slightly above desk level",
+          "placement": "cup centered low; empty chair behind; open negative space",
+          "foreground": "desk edge",
+          "midground": "plain cup",
+          "background": "empty chair and muted office partition"
+        },
+        "resolved_spec": {
+          "use_case": "illustration-story",
+          "asset_type": "static_frame",
+          "continuity_group": "coffee-pesticide-clinic-v2",
+          "location_id": "ordinary-office-desk",
+          "wardrobe_ids": [
+            "wardrobe-a-burgundy-gray",
+            "wardrobe-b-navy-scrubs"
+          ],
+          "prop_ids": [
+            "prop-plain-paper-coffee-cup",
+            "prop-unlabeled-amber-utility-bottle"
+          ],
+          "reference_ids": [
+            "ref-coffee-style-v1"
+          ],
+          "scene": {
+            "backdrop": "an anonymous ordinary Korean workplace desk",
+            "environment": "quiet static editorial scene"
+          },
+          "subjects": [
+            {
+              "id": "scene23-closing-question",
+              "description": "one plain coffee cup beside a pulled-back chair, with no person visible",
+              "invariants": [
+                "fictional anonymous Korean adults only",
+                "worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair",
+                "worker B keeps navy scrubs and a low ponytail",
+                "faces simplified and non-identifiable",
+                "mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions"
+              ]
+            }
+          ],
+          "shot": {
+            "type": "close-up",
+            "viewpoint": "slightly above desk level",
+            "camera_height": "eye-level"
+          },
+          "composition": {
+            "aspect_ratio": "9:16",
+            "spatial_placement": "cup centered low; empty chair behind; open negative space",
+            "negative_space": "clean upper third and lower caption-safe band",
+            "depth_layers": {
+              "foreground": "desk edge",
+              "midground": "plain cup",
+              "background": "empty chair and muted office partition"
+            }
+          },
+          "lighting": {
+            "description": "soft overcast daylight mixed with ordinary fluorescent light",
+            "color": "restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan",
+            "material_texture": "subtle paper grain, honest desk scratches, matte fabric and dry gouache shading"
+          },
+          "references": [
+            {
+              "id": "ref-coffee-style-v1",
+              "role": "style-continuity",
+              "path": "assets/images/scene01-ordinary-coffee.png"
+            }
+          ],
+          "exact_text_policy": {
+            "mode": "none",
+            "allowed": []
+          },
+          "avoid": [
+            "readable text, captions, labels, logos, trademarks or watermarks",
+            "real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery",
+            "photorealism, glossy 3D rendering, anime styling or childish caricature",
+            "temporal motion, camera movement, split screens, multiple time periods or motion blur"
+          ]
+        },
+        "rendered_prompt": "Static visual frame only; no temporal motion or camera movement. illustration-story, static_frame. Scene/backdrop: an anonymous ordinary Korean workplace desk; quiet static editorial scene. Subjects: one plain coffee cup beside a pulled-back chair, with no person visible (scene23-closing-question; invariants: fictional anonymous Korean adults only; worker A keeps a muted burgundy cardigan over gray scrubs and short dark hair; worker B keeps navy scrubs and a low ponytail; faces simplified and non-identifiable; mature Korean editorial 2D cartoon with restrained ink outlines, flat gouache texture and realistic proportions). Shot: close-up, slightly above desk level, camera height eye-level. Composition: 9:16; cup centered low; empty chair behind; open negative space; negative space: clean upper third and lower caption-safe band; depth layers: foreground: desk edge, midground: plain cup, background: empty chair and muted office partition. Lighting/color/material: soft overcast daylight mixed with ordinary fluorescent light; restrained charcoal, dusty cream, muted teal and burgundy with faint cold cyan; subtle paper grain, honest desk scratches, matte fabric and dry gouache shading.  No readable text unless explicitly allowed. Avoid: readable text, captions, labels, logos, trademarks or watermarks; real identifiable people, celebrity likenesses, sensational gore or explicit poisoning imagery; photorealism, glossy 3D rendering, anime styling or childish caricature; temporal motion, camera movement, split screens, multiple time periods or motion blur. Reference images: ref-coffee-style-v1 as style-continuity (assets/images/scene01-ordinary-coffee.png).",
+        "lint": {
+          "version": 1,
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "policy": {
+            "protected_content_mode": "block",
+            "approved_protected_terms": []
+          }
+        },
+        "reference_role_requirements": [
+          {
+            "role": "style-continuity",
+            "required": true
+          }
+        ],
+        "hash": "1dbdc32ce6d48aff87dfbc55043bb368988b8e4311a567f1847dd86241039b41"
+      },
+      "imageGenRecipeHash": "1dbdc32ce6d48aff87dfbc55043bb368988b8e4311a567f1847dd86241039b41"
+    }
+  ],
+  "captionProtectedTerms": [
+    "살충제",
+    "살인미수",
+    "특수상해",
+    "징역 1년 6개월",
+    "집행유예 3년",
+    "형이 줄었습니다"
+  ],
+  "pipelineContract": {
+    "path": "pipeline-contract-editorial-cartoon.json",
+    "sha256": "43e7574d860afc521dc04c1e74871bbdbc1e83b73dbb1fece5647db48965e158"
+  }
+}

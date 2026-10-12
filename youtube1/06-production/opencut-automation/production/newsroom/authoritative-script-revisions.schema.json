@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "authoritative-script-revisions-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "revisions"],
+  "properties": {
+    "schemaVersion": { "const": "authoritative-script-revisions-v1" },
+    "revisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["revisionId", "newsroomSlug", "productionProjectId", "expectedDraftSha256", "appliedAt", "requestedBy", "reason", "findText", "replacementText", "protectedExactPhrases"],
+        "properties": {
+          "revisionId": { "type": "string", "minLength": 1 },
+          "newsroomSlug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{5,80}$" },
+          "productionProjectId": { "type": "string", "minLength": 1 },
+          "expectedDraftSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "appliedAt": { "type": "string", "format": "date-time" },
+          "requestedBy": { "const": "user-editorial-action" },
+          "reason": { "type": "string", "minLength": 1 },
+          "findText": { "type": "string", "minLength": 1 },
+          "replacementText": { "type": "string", "minLength": 1 },
+          "protectedExactPhrases": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } }
+        }
+      }
+    }
+  }
+}

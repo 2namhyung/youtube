@@ -1,0 +1,22 @@
+{
+  "name": "generic-character-motion-test-v1",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "render": "remotion render src/index.jsx GenericCharacterMotionTest ../../out/studies/generic-character-motion-test-v1/motion-test.mp4 --codec h264 --crf 18",
+    "render:action": "remotion render src/index.jsx CharacterPhonePickupTest ../../out/studies/generic-character-motion-test-v1/character-action-test.mp4 --codec h264 --crf 18",
+    "render:rig": "remotion render src/index.jsx ArticulatedCharacterPhonePickup ../../out/studies/generic-character-motion-test-v1/articulated-character-test.mp4 --codec h264 --crf 18",
+    "render:drawn": "remotion render src/index.jsx DrawnCharacterPhonePickup ../../out/studies/generic-character-motion-test-v1/drawn-character-action-test.mp4 --codec h264 --crf 18",
+    "render:drawn:v2": "remotion render src/index.jsx DrawnCharacterPhonePickupNoFlicker ../../out/studies/generic-character-motion-test-v1/drawn-character-action-test-v2.mp4 --codec h264 --crf 18",
+    "render:continuous-arm": "remotion render src/index.jsx ContinuousArmMeshTest ../../out/studies/generic-character-motion-test-v1/continuous-arm-thickness-locked-test.mp4 --codec h264 --crf 18",
+    "render:separated-22": "remotion render src/index.jsx Separated22CharacterTest ../../out/studies/generic-character-motion-test-v1/separated-22-v1/separated-22-character-test.mp4 --codec h264 --crf 18",
+    "verify:separated-22": "node verify-separated-22.mjs",
+    "verify": "node verify-study.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.508",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.508"
+  }
+}

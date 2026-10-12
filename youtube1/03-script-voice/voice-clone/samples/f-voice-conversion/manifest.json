@@ -1,0 +1,473 @@
+{
+  "version": 1,
+  "purpose": "True speech-to-speech conversion of C/E carriers to F timbre",
+  "engine": {
+    "name": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+    "mode": "AutoModel.inference_vc (source speech tokens; no text/TTS synthesis)",
+    "entrypoint": "voice-clone/vendor/CosyVoice/cosyvoice/cli/cosyvoice.py:129",
+    "device": "CUDA fp16; ONNX tokenizer/speaker encoder on CPU provider",
+    "manualModelDownload": false,
+    "runtimeDependencyFetch": "ModelScope wetext automatic cache check/fetch during AutoModel initialization; VC itself used no text frontend"
+  },
+  "parameters": {
+    "seed": 20260726,
+    "stream": false,
+    "vcSpeed": 1.0,
+    "sourceTokenRateHz": 25,
+    "rawOutputSamples": 200640,
+    "targetSamples": 199200,
+    "durationCorrection": {
+      "engine": "FFmpeg rubberband",
+      "tempo": 1.0072289156626506,
+      "pitch": 1.0,
+      "percentDurationChange": 0.7177,
+      "options": "transients=crisp, detector=compound, phase=laminar, window=standard, smoothing=off, formant=preserved, pitchq=quality"
+    },
+    "loudness": "two-pass FFmpeg loudnorm I=-22.9 LUFS, TP=-2 dBTP, LRA=7; resampled to 24 kHz; exact atrim/apad to 199200 samples"
+  },
+  "targetSpeaker": {
+    "profile": "F (user-owned recordings)",
+    "availableFullReferences": [
+      {
+        "path": "voice-clone/profiles/F/refs/01_neutral.full.wav",
+        "sha256": "1E423DF2DA97A46FA64AB3C957F3B7093494A69FFF2B63CAD99D3D2A3F6504E1",
+        "format": "1ch 24000 Hz PCM_S",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 2070528,
+        "durationSeconds": 86.272,
+        "samplePeakDbfs": -9.014,
+        "clippedSamples": 0
+      },
+      {
+        "path": "voice-clone/profiles/F/refs/02_hook.full.wav",
+        "sha256": "8EB47A39F6A97600BFC549D80EF175E79EF508F6B06E4C5FB44A6B24729CDD98",
+        "format": "1ch 24000 Hz PCM_S",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 649216,
+        "durationSeconds": 27.050667,
+        "samplePeakDbfs": -7.848,
+        "clippedSamples": 0
+      },
+      {
+        "path": "voice-clone/profiles/F/refs/03_news.full.wav",
+        "sha256": "298E8EEABD5FB32715CA69676915BEA6970DACF85C9A09F79C974A101ECE1992",
+        "format": "1ch 24000 Hz PCM_S",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 1174528,
+        "durationSeconds": 48.938667,
+        "samplePeakDbfs": -8.853,
+        "clippedSamples": 0
+      },
+      {
+        "path": "voice-clone/profiles/F/refs/04_tension.full.wav",
+        "sha256": "0B9E8C6711D7B34E85B96C6532552FD74C5AE8EB5615A5E58590E8D5EB0EE973",
+        "format": "1ch 24000 Hz PCM_S",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 1025536,
+        "durationSeconds": 42.730667,
+        "samplePeakDbfs": -7.909,
+        "clippedSamples": 0
+      },
+      {
+        "path": "voice-clone/profiles/F/refs/05_criticism.full.wav",
+        "sha256": "648E7BDE0A03144B78778E2983A63B59C89EC5F7874264EE612F7B925A315A80",
+        "format": "1ch 24000 Hz PCM_S",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 1087488,
+        "durationSeconds": 45.312,
+        "samplePeakDbfs": -8.488,
+        "clippedSamples": 0
+      },
+      {
+        "path": "voice-clone/profiles/F/refs/06_solution.full.wav",
+        "sha256": "1ACDAB2EE6E1BDD68C87B926D92A17133E59606B785B2F02774E226D7F62CC1A",
+        "format": "1ch 24000 Hz PCM_S",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 1090048,
+        "durationSeconds": 45.418667,
+        "samplePeakDbfs": -9.048,
+        "clippedSamples": 0
+      }
+    ],
+    "selectedFullReference": "voice-clone/profiles/F/refs/02_hook.full.wav",
+    "selectedFullReferenceSha256": "8EB47A39F6A97600BFC549D80EF175E79EF508F6B06E4C5FB44A6B24729CDD98",
+    "prompt": "voice-clone/samples/f-comparison-v2/F-prompt.wav",
+    "promptSha256": "73954A74CA41D4402EF0511BF09ABC207D58EB44A9A609D56B05E50975B5AAD9",
+    "promptExtraction": {
+      "source": "02_hook.full.wav",
+      "startSeconds": 1.225583,
+      "endSeconds": 13.080458,
+      "durationSeconds": 11.854875,
+      "basis": "Complete voiced hook segment bounded by detected sentence silence"
+    }
+  },
+  "outputs": {
+    "F-from-C.wav": {
+      "source": {
+        "path": "voice-clone/samples/f-trained-model-vc/provenance/C-carrier.wav",
+        "sha256": "036304C67955FAF36872D8E445934C7AF0D32D075369FBD2F92E478F42F26E56",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 199200,
+        "durationSeconds": 8.3,
+        "samplePeakDbfs": -3.006,
+        "clippedSamples": 0
+      },
+      "rawConversion": {
+        "path": "voice-clone/samples/f-voice-conversion/raw/F-from-C-raw.wav",
+        "sha256": "E8AAD70C3B395655FBB786C267B291BCC33CBE2D94256F2141140A38F2297CFF",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 200640,
+        "durationSeconds": 8.36,
+        "samplePeakDbfs": -9.075,
+        "clippedSamples": 0
+      },
+      "final": {
+        "path": "voice-clone/samples/f-voice-conversion/F-from-C.wav",
+        "sha256": "E021251C113DC93C7BA3C8EB7C6A6356BD759AFD698B4D445DC39D1E1B21FD48",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 199200,
+        "durationSeconds": 8.3,
+        "samplePeakDbfs": -2.017,
+        "clippedSamples": 0,
+        "integratedLufs": -23.06,
+        "truePeakDbtp": -2.0,
+        "loudnessRangeLu": 1.5
+      },
+      "timingProsodyQc": {
+        "f0FrameHopMs": 5.0,
+        "jointVoicedFrames": 702,
+        "voicedFrameAgreement": 0.8621,
+        "f0ContourPearsonCents": 0.956,
+        "f0ContourSpearmanCents": 0.9483,
+        "medianAbsoluteF0DifferenceCents": 50.0,
+        "sourceNonSilentIntervalsSeconds": [
+          [
+            0.0,
+            0.06
+          ],
+          [
+            0.19,
+            0.255
+          ],
+          [
+            0.26,
+            0.37
+          ],
+          [
+            0.385,
+            0.4
+          ],
+          [
+            0.405,
+            0.415
+          ],
+          [
+            0.455,
+            0.475
+          ],
+          [
+            0.795,
+            1.795
+          ],
+          [
+            2.04,
+            4.175
+          ],
+          [
+            4.28,
+            4.285
+          ],
+          [
+            4.305,
+            4.765
+          ],
+          [
+            4.795,
+            5.79
+          ],
+          [
+            5.8,
+            6.405
+          ],
+          [
+            6.42,
+            6.66
+          ],
+          [
+            6.7,
+            6.835
+          ],
+          [
+            6.84,
+            7.875
+          ],
+          [
+            7.9,
+            8.155
+          ]
+        ],
+        "convertedNonSilentIntervalsSeconds": [
+          [
+            0.01,
+            0.145
+          ],
+          [
+            0.825,
+            1.24
+          ],
+          [
+            1.275,
+            1.805
+          ],
+          [
+            2.065,
+            2.34
+          ],
+          [
+            2.365,
+            3.15
+          ],
+          [
+            3.175,
+            3.275
+          ],
+          [
+            3.29,
+            4.18
+          ],
+          [
+            4.845,
+            5.015
+          ],
+          [
+            5.04,
+            5.73
+          ],
+          [
+            5.805,
+            6.34
+          ],
+          [
+            6.42,
+            6.635
+          ],
+          [
+            6.69,
+            6.795
+          ],
+          [
+            6.845,
+            7.595
+          ],
+          [
+            7.63,
+            7.845
+          ],
+          [
+            7.88,
+            8.125
+          ]
+        ],
+        "silenceDetection": "librosa.effects.split(top_db=35, frame=1024, hop=120)"
+      },
+      "speakerTimbreQc": {
+        "campplusCosineOutputToFPrompt": 0.9439,
+        "campplusCosineCarrierToFPrompt": 0.7256,
+        "similarityGainTowardF": 0.2182
+      }
+    },
+    "F-from-E.wav": {
+      "source": {
+        "path": "voice-clone/samples/f-trained-model-vc/provenance/E-carrier.wav",
+        "sha256": "967844C23F89F012D6415B9A29E0923C87C7B3689BD9DE7D511B623761D85DB6",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 199200,
+        "durationSeconds": 8.3,
+        "samplePeakDbfs": -3.069,
+        "clippedSamples": 0
+      },
+      "rawConversion": {
+        "path": "voice-clone/samples/f-voice-conversion/raw/F-from-E-raw.wav",
+        "sha256": "A371E0068C8BB8AD31A0D3FEC342885B8F23CB623AE52378A22C2A8CBAE24C8B",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 200640,
+        "durationSeconds": 8.36,
+        "samplePeakDbfs": -8.568,
+        "clippedSamples": 0
+      },
+      "final": {
+        "path": "voice-clone/samples/f-voice-conversion/F-from-E.wav",
+        "sha256": "AD0E8DBE550C91A0D9E58CF7143944210F7BCFA85486578AB8A5BB6CCE5758D1",
+        "format": "1ch 24000 Hz PCM_F",
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "samples": 199200,
+        "durationSeconds": 8.3,
+        "samplePeakDbfs": -2.023,
+        "clippedSamples": 0,
+        "integratedLufs": -23.06,
+        "truePeakDbtp": -2.0,
+        "loudnessRangeLu": 1.5
+      },
+      "timingProsodyQc": {
+        "f0FrameHopMs": 5.0,
+        "jointVoicedFrames": 686,
+        "voicedFrameAgreement": 0.8405,
+        "f0ContourPearsonCents": 0.9574,
+        "f0ContourSpearmanCents": 0.9498,
+        "medianAbsoluteF0DifferenceCents": 50.0,
+        "sourceNonSilentIntervalsSeconds": [
+          [
+            0.0,
+            0.075
+          ],
+          [
+            0.19,
+            0.555
+          ],
+          [
+            0.58,
+            0.585
+          ],
+          [
+            0.63,
+            0.665
+          ],
+          [
+            0.795,
+            1.8
+          ],
+          [
+            1.885,
+            1.89
+          ],
+          [
+            2.04,
+            4.18
+          ],
+          [
+            4.27,
+            4.765
+          ],
+          [
+            4.795,
+            5.79
+          ],
+          [
+            5.8,
+            6.405
+          ],
+          [
+            6.42,
+            6.66
+          ],
+          [
+            6.7,
+            6.835
+          ],
+          [
+            6.84,
+            7.875
+          ],
+          [
+            7.9,
+            8.155
+          ]
+        ],
+        "convertedNonSilentIntervalsSeconds": [
+          [
+            0.01,
+            0.145
+          ],
+          [
+            0.825,
+            1.245
+          ],
+          [
+            1.27,
+            1.815
+          ],
+          [
+            2.065,
+            2.34
+          ],
+          [
+            2.365,
+            3.155
+          ],
+          [
+            3.175,
+            3.275
+          ],
+          [
+            3.29,
+            4.185
+          ],
+          [
+            4.5,
+            4.625
+          ],
+          [
+            4.845,
+            5.02
+          ],
+          [
+            5.04,
+            5.735
+          ],
+          [
+            5.805,
+            6.34
+          ],
+          [
+            6.42,
+            6.635
+          ],
+          [
+            6.69,
+            6.795
+          ],
+          [
+            6.84,
+            7.595
+          ],
+          [
+            7.63,
+            7.845
+          ],
+          [
+            7.88,
+            8.125
+          ]
+        ],
+        "silenceDetection": "librosa.effects.split(top_db=35, frame=1024, hop=120)"
+      },
+      "speakerTimbreQc": {
+        "campplusCosineOutputToFPrompt": 0.9427,
+        "campplusCosineCarrierToFPrompt": 0.7237,
+        "similarityGainTowardF": 0.2191
+      }
+    }
+  },
+  "qcMethodNotes": {
+    "speakerEvidence": "Cosine similarity from the same CAMPPlus speaker encoder used by CosyVoice. Higher output-to-F than carrier-to-F supports timbre transfer; not a biometric identity claim.",
+    "contentTiming": "Exact sample lock plus source/output F0-in-cents and silence intervals. VC uses the source speech-token sequence directly and bypasses the LLM/text path."
+  }
+}

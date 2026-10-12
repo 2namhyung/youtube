@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "authoritative-script-restoration-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "mode", "normalizedDraftSha256", "restoredDraftSha256", "normalizationEvidenceSha256", "removedRuleIds", "exactCharacterRestoration", "spokenOnlyOverride", "creator"],
+  "properties": {
+    "schema": { "const": "authoritative-script-restoration-v1" },
+    "mode": { "const": "restore-pre-normalization-authoritative-draft" },
+    "normalizedDraftSha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "restoredDraftSha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "normalizationEvidenceSha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "removedRuleIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+    "exactCharacterRestoration": { "const": true },
+    "spokenOnlyOverride": { "const": false },
+    "creator": { "const": "scripts/restore-authoritative-script.mjs" }
+  }
+}

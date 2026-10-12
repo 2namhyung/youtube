@@ -1,0 +1,21 @@
+{
+  "schema_id": "private-motion-study-shot-ledger-v1",
+  "study_id": "wsj-hormuz-motion-study-v1",
+  "reference_id": "wsj-hormuz-vertical",
+  "reference_visual_observations": [
+    {"shot_id":"r01","start_s":0.00,"end_s":5.55,"description":"Dark maritime/incident image resolves from muted monochrome into bright fire imagery.","motion":"fast hard-cut sequence with luminance escalation","confidence":"high"},
+    {"shot_id":"r02","start_s":5.55,"end_s":11.68,"description":"Fire/ship source images continue with tight vertical crops and changing scale.","motion":"rapid editorial cuts; source-aspect retained","confidence":"high"},
+    {"shot_id":"r03","start_s":11.68,"end_s":19.85,"description":"Vertical presenter in newsroom frame appears and holds across several seconds.","motion":"hard cut to stable presenter; lower-third/source label persists","confidence":"high"},
+    {"shot_id":"r04","start_s":19.85,"end_s":27.86,"description":"Dark map card names the geographic area; coastline and marker remain centered.","motion":"label fade and gentle map state change","confidence":"high"},
+    {"shot_id":"r05","start_s":27.86,"end_s":39.46,"description":"Map alternates between dark and teal states with additional labels/routes.","motion":"state wipes, route emphasis, low-frequency camera movement","confidence":"medium"},
+    {"shot_id":"r06","start_s":39.46,"end_s":62.44,"description":"Presenter returns, then a press briefing crop replaces it.","motion":"hard cuts with lower-third identity bands","confidence":"high"},
+    {"shot_id":"r07","start_s":62.44,"end_s":86.63,"description":"Dark map/thermal/satellite panels show multiple source windows.","motion":"stacked panel changes and wipe-like state changes","confidence":"medium"},
+    {"shot_id":"r08","start_s":86.63,"end_s":112.65,"description":"Thermal/target imagery and briefing footage alternate.","motion":"short source shots; centered subject and persistent source marks","confidence":"medium"},
+    {"shot_id":"r09","start_s":112.65,"end_s":134.26,"description":"Presenter and a broadcast interview crop interleave.","motion":"hard cuts; lower-third holds","confidence":"high"},
+    {"shot_id":"r10","start_s":134.26,"end_s":155.16,"description":"Aqua map state develops into route paths and port labels.","motion":"map zoom/pan; route line draws progressively","confidence":"high"},
+    {"shot_id":"r11","start_s":155.16,"end_s":166.50,"description":"Presenter and official speaker return, with bold source lower thirds.","motion":"hard cut and identity-card holds","confidence":"high"},
+    {"shot_id":"r12","start_s":166.50,"end_s":174.82,"description":"Damage/harbor images and dark closing card end the short.","motion":"archival return, then fade/credit hold","confidence":"high"}
+  ],
+  "dense_change_points_s":[3.21,5.55,9.43,11.68,15.02,19.85,27.86,33.12,39.46,62.44,69.07,76.24,80.91,86.63,112.65,118.95,127.50,134.26,138.47,145.77,150.07,155.16,161.54,166.50,172.59],
+  "legal_note":"Observations are a private study reference, not publication evidence or a request to copy brand identity."
+}

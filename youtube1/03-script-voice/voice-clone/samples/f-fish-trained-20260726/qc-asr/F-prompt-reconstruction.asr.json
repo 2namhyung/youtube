@@ -1,0 +1,180 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-fish-trained-20260726\\F-prompt-reconstruction.wav",
+  "model": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\training\\F\\asr\\model-cache\\models--Systran--faster-whisper-large-v3\\snapshots\\edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 11.888625,
+  "duration_after_vad": 9.64,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.24,
+      "text": "여러분이라면 이 상황을 그냥 넘길 수 있습니까?",
+      "avg_logprob": -0.09765625,
+      "no_speech_prob": 0.0028438568115234375,
+      "compression_ratio": 1.2,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.62,
+          "word": " 여러분이라면",
+          "probability": 0.9910481770833334
+        },
+        {
+          "start": 0.62,
+          "end": 0.84,
+          "word": " 이",
+          "probability": 0.994140625
+        },
+        {
+          "start": 0.84,
+          "end": 1.28,
+          "word": " 상황을",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 1.28,
+          "end": 1.44,
+          "word": " 그냥",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 1.44,
+          "end": 1.78,
+          "word": " 넘길",
+          "probability": 0.974609375
+        },
+        {
+          "start": 1.78,
+          "end": 1.84,
+          "word": " 수",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 1.84,
+          "end": 2.24,
+          "word": " 있습니까?",
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.83,
+      "end": 3.91,
+      "text": "범인은 잡혔습니다.",
+      "avg_logprob": -0.09765625,
+      "no_speech_prob": 0.0028438568115234375,
+      "compression_ratio": 1.2,
+      "words": [
+        {
+          "start": 2.83,
+          "end": 3.37,
+          "word": " 범인은",
+          "probability": 0.998046875
+        },
+        {
+          "start": 3.37,
+          "end": 3.91,
+          "word": " 잡혔습니다.",
+          "probability": 0.9978841145833334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 4.07,
+      "end": 7.14,
+      "text": "그런데 피해자의 공포는 그때부터 시작됐습니다.",
+      "avg_logprob": -0.09765625,
+      "no_speech_prob": 0.0028438568115234375,
+      "compression_ratio": 1.2,
+      "words": [
+        {
+          "start": 4.07,
+          "end": 4.57,
+          "word": " 그런데",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 5.0,
+          "end": 5.6,
+          "word": " 피해자의",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 5.6,
+          "end": 5.96,
+          "word": " 공포는",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 5.96,
+          "end": 6.42,
+          "word": " 그때부터",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 6.42,
+          "end": 7.14,
+          "word": " 시작됐습니다.",
+          "probability": 0.9988606770833334
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 8.15,
+      "end": 10.65,
+      "text": "매일 사용하는 물건에 누군가 손을 댔다면 어떨까요?",
+      "avg_logprob": -0.09765625,
+      "no_speech_prob": 0.0028438568115234375,
+      "compression_ratio": 1.2,
+      "words": [
+        {
+          "start": 8.15,
+          "end": 8.39,
+          "word": " 매일",
+          "probability": 0.993408203125
+        },
+        {
+          "start": 8.39,
+          "end": 8.81,
+          "word": " 사용하는",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 8.81,
+          "end": 9.23,
+          "word": " 물건에",
+          "probability": 0.9886067708333334
+        },
+        {
+          "start": 9.23,
+          "end": 9.69,
+          "word": " 누군가",
+          "probability": 0.9977213541666666
+        },
+        {
+          "start": 9.69,
+          "end": 9.91,
+          "word": " 손을",
+          "probability": 0.913818359375
+        },
+        {
+          "start": 9.91,
+          "end": 10.19,
+          "word": " 댔다면",
+          "probability": 0.9949544270833334
+        },
+        {
+          "start": 10.19,
+          "end": 10.65,
+          "word": " 어떨까요?",
+          "probability": 0.9998372395833334
+        }
+      ]
+    }
+  ]
+}

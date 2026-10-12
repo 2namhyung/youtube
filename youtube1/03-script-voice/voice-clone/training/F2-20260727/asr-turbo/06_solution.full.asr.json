@@ -1,0 +1,622 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\profiles\\F\\refs\\06_solution.full.wav",
+  "model": "turbo",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 45.4186875,
+  "duration_after_vad": 36.496,
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.61,
+      "end": 3.53,
+      "text": "필요한 것은 개인적인 응징이 아닙니다.",
+      "avg_logprob": -0.09763313397853332,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.784,
+      "words": [
+        {
+          "start": 1.61,
+          "end": 2.01,
+          "word": " 필요한",
+          "probability": 0.81005859375
+        },
+        {
+          "start": 2.01,
+          "end": 2.23,
+          "word": " 것은",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 2.23,
+          "end": 2.73,
+          "word": " 개인적인",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 2.73,
+          "end": 3.13,
+          "word": " 응징이",
+          "probability": 0.9798177083333334
+        },
+        {
+          "start": 3.13,
+          "end": 3.53,
+          "word": " 아닙니다.",
+          "probability": 0.999755859375
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 4.18,
+      "end": 6.98,
+      "text": "사건이 발생하면 먼저 출입을 통제해야 합니다.",
+      "avg_logprob": -0.09763313397853332,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.784,
+      "words": [
+        {
+          "start": 4.18,
+          "end": 4.82,
+          "word": " 사건이",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 4.82,
+          "end": 5.38,
+          "word": " 발생하면",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 5.38,
+          "end": 5.8,
+          "word": " 먼저",
+          "probability": 0.998046875
+        },
+        {
+          "start": 5.8,
+          "end": 6.26,
+          "word": " 출입을",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 6.26,
+          "end": 6.74,
+          "word": " 통제해야",
+          "probability": 0.9969075520833334
+        },
+        {
+          "start": 6.74,
+          "end": 6.98,
+          "word": " 합니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 7.83,
+      "end": 10.67,
+      "text": "영상과 디지털 기록도 최대한 빠르게 확보해야 합니다.",
+      "avg_logprob": -0.09763313397853332,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.784,
+      "words": [
+        {
+          "start": 7.83,
+          "end": 8.27,
+          "word": " 영상과",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 8.27,
+          "end": 8.73,
+          "word": " 디지털",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 8.73,
+          "end": 9.11,
+          "word": " 기록도",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 9.11,
+          "end": 9.51,
+          "word": " 최대한",
+          "probability": 1.0
+        },
+        {
+          "start": 9.51,
+          "end": 9.85,
+          "word": " 빠르게",
+          "probability": 1.0
+        },
+        {
+          "start": 9.85,
+          "end": 10.33,
+          "word": " 확보해야",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 10.33,
+          "end": 10.67,
+          "word": " 합니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 11.57,
+      "end": 15.57,
+      "text": "피해자에게는 수사 진행 상황과 이용할 수 있는 보호 조치를 설명해야 합니다.",
+      "avg_logprob": -0.09763313397853332,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.784,
+      "words": [
+        {
+          "start": 11.57,
+          "end": 12.33,
+          "word": " 피해자에게는",
+          "probability": 0.99921875
+        },
+        {
+          "start": 12.33,
+          "end": 12.65,
+          "word": " 수사",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 12.65,
+          "end": 12.87,
+          "word": " 진행",
+          "probability": 0.92431640625
+        },
+        {
+          "start": 12.87,
+          "end": 13.39,
+          "word": " 상황과",
+          "probability": 0.982666015625
+        },
+        {
+          "start": 13.39,
+          "end": 13.83,
+          "word": " 이용할",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 13.83,
+          "end": 13.95,
+          "word": " 수",
+          "probability": 1.0
+        },
+        {
+          "start": 13.95,
+          "end": 14.15,
+          "word": " 있는",
+          "probability": 1.0
+        },
+        {
+          "start": 14.15,
+          "end": 14.47,
+          "word": " 보호",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 14.47,
+          "end": 14.77,
+          "word": " 조치를",
+          "probability": 0.890869140625
+        },
+        {
+          "start": 14.77,
+          "end": 15.31,
+          "word": " 설명해야",
+          "probability": 1.0
+        },
+        {
+          "start": 15.31,
+          "end": 15.57,
+          "word": " 합니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 16.64,
+      "end": 19.88,
+      "text": "학교와 수사 기관 사이의 책임도 명확하게 정해져야 합니다.",
+      "avg_logprob": -0.09763313397853332,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.784,
+      "words": [
+        {
+          "start": 16.64,
+          "end": 17.02,
+          "word": " 학교와",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 17.02,
+          "end": 17.3,
+          "word": " 수사",
+          "probability": 1.0
+        },
+        {
+          "start": 17.3,
+          "end": 17.62,
+          "word": " 기관",
+          "probability": 0.776611328125
+        },
+        {
+          "start": 17.62,
+          "end": 18.1,
+          "word": " 사이의",
+          "probability": 0.8763020833333334
+        },
+        {
+          "start": 18.1,
+          "end": 18.58,
+          "word": " 책임도",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 18.58,
+          "end": 19.18,
+          "word": " 명확하게",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 19.18,
+          "end": 19.62,
+          "word": " 정해져야",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 19.62,
+          "end": 19.88,
+          "word": " 합니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 21.26,
+      "end": 24.48,
+      "text": "피해자가 사건 이후에도 같은 공간으로 돌아가야 한다면",
+      "avg_logprob": -0.09763313397853332,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.784,
+      "words": [
+        {
+          "start": 21.26,
+          "end": 21.74,
+          "word": " 피해자가",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 21.74,
+          "end": 22.14,
+          "word": " 사건",
+          "probability": 1.0
+        },
+        {
+          "start": 22.14,
+          "end": 22.58,
+          "word": " 이후에도",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 22.58,
+          "end": 22.92,
+          "word": " 같은",
+          "probability": 1.0
+        },
+        {
+          "start": 22.92,
+          "end": 23.4,
+          "word": " 공간으로",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 23.4,
+          "end": 23.92,
+          "word": " 돌아가야",
+          "probability": 0.9903971354166666
+        },
+        {
+          "start": 23.92,
+          "end": 24.48,
+          "word": " 한다면",
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 24.48,
+      "end": 27.28,
+      "text": "안전하게 돌아갈 수 있는 조건부터 마련해야 합니다.",
+      "avg_logprob": -0.09763313397853332,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.784,
+      "words": [
+        {
+          "start": 24.48,
+          "end": 25.44,
+          "word": " 안전하게",
+          "probability": 0.9943033854166666
+        },
+        {
+          "start": 25.44,
+          "end": 25.78,
+          "word": " 돌아갈",
+          "probability": 1.0
+        },
+        {
+          "start": 25.78,
+          "end": 25.88,
+          "word": " 수",
+          "probability": 1.0
+        },
+        {
+          "start": 25.88,
+          "end": 26.04,
+          "word": " 있는",
+          "probability": 1.0
+        },
+        {
+          "start": 26.04,
+          "end": 26.54,
+          "word": " 조건부터",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 26.54,
+          "end": 26.96,
+          "word": " 마련해야",
+          "probability": 1.0
+        },
+        {
+          "start": 26.96,
+          "end": 27.28,
+          "word": " 합니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 28.4,
+      "end": 30.78,
+      "text": "범인을 잡는 것으로 수사가 끝날 수는 있습니다.",
+      "avg_logprob": -0.09763313397853332,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.784,
+      "words": [
+        {
+          "start": 28.4,
+          "end": 28.78,
+          "word": " 범인을",
+          "probability": 0.9973958333333334
+        },
+        {
+          "start": 28.78,
+          "end": 29.12,
+          "word": " 잡는",
+          "probability": 1.0
+        },
+        {
+          "start": 29.12,
+          "end": 29.44,
+          "word": " 것으로",
+          "probability": 1.0
+        },
+        {
+          "start": 29.44,
+          "end": 29.86,
+          "word": " 수사가",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 29.86,
+          "end": 30.22,
+          "word": " 끝날",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 30.22,
+          "end": 30.42,
+          "word": " 수는",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 30.42,
+          "end": 30.78,
+          "word": " 있습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 31.45,
+      "end": 34.49,
+      "text": "하지만 피해자의 공포까지 자동으로 끝나는 것은 아닙니다.",
+      "avg_logprob": -0.09763313397853332,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.784,
+      "words": [
+        {
+          "start": 31.45,
+          "end": 31.67,
+          "word": " 하지만",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 31.67,
+          "end": 32.21,
+          "word": " 피해자의",
+          "probability": 0.9998779296875
+        },
+        {
+          "start": 32.21,
+          "end": 32.81,
+          "word": " 공포까지",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 32.81,
+          "end": 33.39,
+          "word": " 자동으로",
+          "probability": 1.0
+        },
+        {
+          "start": 33.39,
+          "end": 33.79,
+          "word": " 끝나는",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 33.79,
+          "end": 34.05,
+          "word": " 것은",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 34.05,
+          "end": 34.49,
+          "word": " 아닙니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 34.99,
+      "end": 37.71,
+      "text": "현실에서 정말 필요한 것은 무엇일까요?",
+      "avg_logprob": -0.12234042553191489,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.218978102189781,
+      "words": [
+        {
+          "start": 34.99,
+          "end": 35.83,
+          "word": " 현실에서",
+          "probability": 0.9988606770833334
+        },
+        {
+          "start": 35.83,
+          "end": 36.09,
+          "word": " 정말",
+          "probability": 1.0
+        },
+        {
+          "start": 36.09,
+          "end": 36.49,
+          "word": " 필요한",
+          "probability": 1.0
+        },
+        {
+          "start": 36.49,
+          "end": 36.73,
+          "word": " 것은",
+          "probability": 1.0
+        },
+        {
+          "start": 36.73,
+          "end": 37.71,
+          "word": " 무엇일까요?",
+          "probability": 0.9996744791666666
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 38.49,
+      "end": 40.27,
+      "text": "사건이 벌어진 뒤에 철벌일까요?",
+      "avg_logprob": -0.12234042553191489,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.218978102189781,
+      "words": [
+        {
+          "start": 38.49,
+          "end": 39.07,
+          "word": " 사건이",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 39.07,
+          "end": 39.47,
+          "word": " 벌어진",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 39.47,
+          "end": 39.65,
+          "word": " 뒤에",
+          "probability": 0.947265625
+        },
+        {
+          "start": 39.65,
+          "end": 40.27,
+          "word": " 철벌일까요?",
+          "probability": 0.972412109375
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 40.71,
+      "end": 43.41,
+      "text": "아니면 사건 이후까지 책임지는 보호 시스템일까요?",
+      "avg_logprob": -0.12234042553191489,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.218978102189781,
+      "words": [
+        {
+          "start": 40.71,
+          "end": 41.07,
+          "word": " 아니면",
+          "probability": 1.0
+        },
+        {
+          "start": 41.07,
+          "end": 41.51,
+          "word": " 사건",
+          "probability": 1.0
+        },
+        {
+          "start": 41.51,
+          "end": 41.91,
+          "word": " 이후까지",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 41.91,
+          "end": 42.41,
+          "word": " 책임지는",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 42.41,
+          "end": 42.75,
+          "word": " 보호",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 42.75,
+          "end": 43.41,
+          "word": " 시스템일까요?",
+          "probability": 0.9811197916666666
+        }
+      ]
+    }
+  ]
+}

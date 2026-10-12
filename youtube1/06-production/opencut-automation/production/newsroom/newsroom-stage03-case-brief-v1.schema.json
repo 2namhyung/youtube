@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-stage03-case-brief-v1",
+  "title": "Stage 03 deterministic case brief v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "event", "entities", "eventBeats", "coreFacts", "sourceGroups", "conflicts", "unknowns", "legal", "narrativeContext", "sceneInventory", "narrativeAutonomy", "sha256"],
+  "properties": {
+    "schema": { "const": "newsroom-stage03-case-brief-v1" },
+    "event": { "type": "object" },
+    "entities": { "type": "array" },
+    "eventBeats": { "type": "array", "minItems": 1, "maxItems": 10 },
+    "coreFacts": { "type": "array", "minItems": 1 },
+    "sourceGroups": { "type": "array", "maxItems": 16 },
+    "conflicts": { "type": "array", "maxItems": 20 },
+    "unknowns": { "type": "array", "maxItems": 20 },
+    "legal": { "type": "object" },
+    "narrativeContext": { "type": "array" },
+    "sceneInventory": { "type": "array" },
+    "narrativeAutonomy": { "const": "Evidence inventory only. It does not prescribe a hook, twist, coda, or universal information order." },
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  }
+}

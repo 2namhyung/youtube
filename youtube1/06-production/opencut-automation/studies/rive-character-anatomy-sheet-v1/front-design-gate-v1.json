@@ -1,0 +1,90 @@
+{
+  "schema": "rive-front-design-gate-v1",
+  "status": "human-preferred-landmark-review-pending",
+  "productionApproved": false,
+  "source": {
+    "path": "source/front-anatomy-design-candidate-v1.png",
+    "sha256": "7b7a2a5d0f5806873ec3c8ddc1157efedc5b110b45e40b299e75677efe68601f",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "review": {
+    "overlayPath": "review/front-landmark-overlay-v1.png",
+    "overlaySha256": "28a4a98db1d3575ccb1350e16b1b5861180331382e3f59a552bab2fe40ea645f",
+    "cropPath": "review/front-character-crop-v1.png",
+    "cropSha256": "39cde3cee7fe3f49d0a2dae4c2b9efc8c658c751681ff9ba1410d3b984c8a942"
+  },
+  "landmarks": {
+    "head_top": [
+      988,
+      47
+    ],
+    "chin": [
+      988,
+      220
+    ],
+    "shoulder_l": [
+      878,
+      267
+    ],
+    "shoulder_r": [
+      1098,
+      267
+    ],
+    "elbow_l": [
+      856,
+      414
+    ],
+    "elbow_r": [
+      1118,
+      414
+    ],
+    "wrist_l": [
+      858,
+      520
+    ],
+    "wrist_r": [
+      1115,
+      520
+    ],
+    "hip_l": [
+      944,
+      537
+    ],
+    "hip_r": [
+      1033,
+      537
+    ],
+    "knee_l": [
+      948,
+      744
+    ],
+    "knee_r": [
+      1029,
+      744
+    ],
+    "ankle_l": [
+      947,
+      895
+    ],
+    "ankle_r": [
+      1029,
+      895
+    ],
+    "baseline": [
+      988,
+      956
+    ]
+  },
+  "measurements": {
+    "bodyHeightPx": 909,
+    "headLengthPx": 173,
+    "headsTall": 5.254,
+    "upperArmCenterlinePx": 148.637,
+    "forearmCenterlinePx": 106.019,
+    "upperArmToForearmRatio": 1.402
+  },
+  "nextGate": "human-landmark-and-silhouette-approval-before-vector-redraw"
+}

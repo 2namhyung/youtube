@@ -1,0 +1,512 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-20260729\\admission-work\\extra_01.full.wav",
+  "model": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F\\asr\\model-cache\\models--Systran--faster-whisper-large-v3\\snapshots\\edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 41.237375,
+  "duration_after_vad": 33.968,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.65,
+      "end": 4.31,
+      "text": "이 원고의 모든 상황은 음성 학습을 위한 허구의 예시이며",
+      "avg_logprob": -0.0787001518201243,
+      "no_speech_prob": 0.0011510848999023438,
+      "compression_ratio": 1.4675675675675677,
+      "words": [
+        {
+          "start": 0.65,
+          "end": 0.81,
+          "word": " 이",
+          "probability": 0.97216796875
+        },
+        {
+          "start": 0.81,
+          "end": 1.37,
+          "word": " 원고의",
+          "probability": 0.9952799479166666
+        },
+        {
+          "start": 1.37,
+          "end": 1.59,
+          "word": " 모든",
+          "probability": 0.9931640625
+        },
+        {
+          "start": 1.59,
+          "end": 2.17,
+          "word": " 상황은",
+          "probability": 0.987060546875
+        },
+        {
+          "start": 2.17,
+          "end": 2.55,
+          "word": " 음성",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 2.55,
+          "end": 3.01,
+          "word": " 학습을",
+          "probability": 0.8308919270833334
+        },
+        {
+          "start": 3.01,
+          "end": 3.23,
+          "word": " 위한",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 3.23,
+          "end": 3.67,
+          "word": " 허구의",
+          "probability": 0.9930013020833334
+        },
+        {
+          "start": 3.67,
+          "end": 4.31,
+          "word": " 예시이며",
+          "probability": 0.9888916015625
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 4.71,
+      "end": 9.39,
+      "text": "등장하는 인물과 장소는 실제와 무관한 익명에 존재하지 않은 곳입니다.",
+      "avg_logprob": -0.0787001518201243,
+      "no_speech_prob": 0.0011510848999023438,
+      "compression_ratio": 1.4675675675675677,
+      "words": [
+        {
+          "start": 4.71,
+          "end": 5.55,
+          "word": " 등장하는",
+          "probability": 0.8860677083333334
+        },
+        {
+          "start": 5.55,
+          "end": 6.05,
+          "word": " 인물과",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 6.05,
+          "end": 6.61,
+          "word": " 장소는",
+          "probability": 0.99609375
+        },
+        {
+          "start": 6.61,
+          "end": 7.17,
+          "word": " 실제와",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 7.17,
+          "end": 7.65,
+          "word": " 무관한",
+          "probability": 0.9982096354166666
+        },
+        {
+          "start": 7.65,
+          "end": 8.13,
+          "word": " 익명에",
+          "probability": 0.9329427083333334
+        },
+        {
+          "start": 8.13,
+          "end": 8.65,
+          "word": " 존재하지",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 8.65,
+          "end": 8.87,
+          "word": " 않은",
+          "probability": 0.95361328125
+        },
+        {
+          "start": 8.87,
+          "end": 9.39,
+          "word": " 곳입니다.",
+          "probability": 0.9951171875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 10.59,
+      "end": 15.35,
+      "text": "가상의 마을 세솔리에서는 2026년 7월 18일 오전 8시 40분",
+      "avg_logprob": -0.0787001518201243,
+      "no_speech_prob": 0.0011510848999023438,
+      "compression_ratio": 1.4675675675675677,
+      "words": [
+        {
+          "start": 10.59,
+          "end": 11.15,
+          "word": " 가상의",
+          "probability": 0.9884440104166666
+        },
+        {
+          "start": 11.15,
+          "end": 11.43,
+          "word": " 마을",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 11.43,
+          "end": 12.01,
+          "word": " 세솔리에서는",
+          "probability": 0.944140625
+        },
+        {
+          "start": 12.01,
+          "end": 13.19,
+          "word": " 2026년",
+          "probability": 0.939453125
+        },
+        {
+          "start": 13.19,
+          "end": 13.53,
+          "word": " 7월",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 13.53,
+          "end": 13.95,
+          "word": " 18일",
+          "probability": 0.986328125
+        },
+        {
+          "start": 13.95,
+          "end": 14.25,
+          "word": " 오전",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 14.25,
+          "end": 14.83,
+          "word": " 8시",
+          "probability": 0.987060546875
+        },
+        {
+          "start": 14.83,
+          "end": 15.35,
+          "word": " 40분",
+          "probability": 0.995849609375
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 15.35,
+      "end": 19.88,
+      "text": "작은 배움터의 문이 열리지 않는다는 연락이 관리실에 들어왔습니다.",
+      "avg_logprob": -0.0787001518201243,
+      "no_speech_prob": 0.0011510848999023438,
+      "compression_ratio": 1.4675675675675677,
+      "words": [
+        {
+          "start": 15.35,
+          "end": 15.83,
+          "word": " 작은",
+          "probability": 0.83349609375
+        },
+        {
+          "start": 16.42,
+          "end": 17.08,
+          "word": " 배움터의",
+          "probability": 0.8975830078125
+        },
+        {
+          "start": 17.08,
+          "end": 17.38,
+          "word": " 문이",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 17.38,
+          "end": 17.76,
+          "word": " 열리지",
+          "probability": 0.9977213541666666
+        },
+        {
+          "start": 17.76,
+          "end": 18.18,
+          "word": " 않는다는",
+          "probability": 0.97705078125
+        },
+        {
+          "start": 18.18,
+          "end": 18.76,
+          "word": " 연락이",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 18.76,
+          "end": 19.3,
+          "word": " 관리실에",
+          "probability": 0.9974365234375
+        },
+        {
+          "start": 19.3,
+          "end": 19.88,
+          "word": " 들어왔습니다.",
+          "probability": 0.9981689453125
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 21.02,
+      "end": 25.02,
+      "text": "출근하던 교사는 복도 바닥에 남은 흙자국을 먼저 봤습니다.",
+      "avg_logprob": -0.0787001518201243,
+      "no_speech_prob": 0.0011510848999023438,
+      "compression_ratio": 1.4675675675675677,
+      "words": [
+        {
+          "start": 21.02,
+          "end": 21.8,
+          "word": " 출근하던",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 21.8,
+          "end": 22.34,
+          "word": " 교사는",
+          "probability": 0.998046875
+        },
+        {
+          "start": 22.34,
+          "end": 22.7,
+          "word": " 복도",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 22.7,
+          "end": 23.14,
+          "word": " 바닥에",
+          "probability": 0.9964192708333334
+        },
+        {
+          "start": 23.14,
+          "end": 23.46,
+          "word": " 남은",
+          "probability": 0.997314453125
+        },
+        {
+          "start": 23.46,
+          "end": 24.34,
+          "word": " 흙자국을",
+          "probability": 0.95625
+        },
+        {
+          "start": 24.34,
+          "end": 24.52,
+          "word": " 먼저",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 24.52,
+          "end": 25.02,
+          "word": " 봤습니다.",
+          "probability": 0.99755859375
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 26.14,
+      "end": 28.94,
+      "text": "누군가 신발을 질질 끌고 들어온 듯 했지만",
+      "avg_logprob": -0.0787001518201243,
+      "no_speech_prob": 0.0011510848999023438,
+      "compression_ratio": 1.4675675675675677,
+      "words": [
+        {
+          "start": 26.14,
+          "end": 26.74,
+          "word": " 누군가",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 26.74,
+          "end": 27.24,
+          "word": " 신발을",
+          "probability": 0.9973958333333334
+        },
+        {
+          "start": 27.24,
+          "end": 27.58,
+          "word": " 질질",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 27.58,
+          "end": 27.96,
+          "word": " 끌고",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 27.96,
+          "end": 28.36,
+          "word": " 들어온",
+          "probability": 0.99609375
+        },
+        {
+          "start": 28.36,
+          "end": 28.48,
+          "word": " 듯",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 28.48,
+          "end": 28.94,
+          "word": " 했지만",
+          "probability": 0.918701171875
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 29.6,
+      "end": 32.08,
+      "text": "교실한 물건이 모두 사라진 것은 아니었습니다.",
+      "avg_logprob": -0.0787001518201243,
+      "no_speech_prob": 0.0011510848999023438,
+      "compression_ratio": 1.4675675675675677,
+      "words": [
+        {
+          "start": 29.6,
+          "end": 30.34,
+          "word": " 교실한",
+          "probability": 0.8375651041666666
+        },
+        {
+          "start": 30.34,
+          "end": 30.74,
+          "word": " 물건이",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 30.74,
+          "end": 30.94,
+          "word": " 모두",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 30.94,
+          "end": 31.38,
+          "word": " 사라진",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 31.38,
+          "end": 31.56,
+          "word": " 것은",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 31.56,
+          "end": 32.08,
+          "word": " 아니었습니다.",
+          "probability": 0.998291015625
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 32.08,
+      "end": 40.14,
+      "text": "책상 위에는 전날 놓아둔 텀블러와 안내문이 그대로 있었고 창가의 화분만 방향이 바뀌어 있었습니다.",
+      "avg_logprob": -0.07463728015621503,
+      "no_speech_prob": 0.0247802734375,
+      "compression_ratio": 1.0625,
+      "words": [
+        {
+          "start": 32.08,
+          "end": 33.0,
+          "word": " 책상",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 34.26,
+          "end": 34.56,
+          "word": " 위에는",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 34.56,
+          "end": 34.92,
+          "word": " 전날",
+          "probability": 0.998046875
+        },
+        {
+          "start": 34.92,
+          "end": 35.36,
+          "word": " 놓아둔",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 35.36,
+          "end": 35.84,
+          "word": " 텀블러와",
+          "probability": 0.9955240885416666
+        },
+        {
+          "start": 35.84,
+          "end": 36.44,
+          "word": " 안내문이",
+          "probability": 0.999609375
+        },
+        {
+          "start": 36.44,
+          "end": 36.62,
+          "word": " 그대로",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 36.62,
+          "end": 37.2,
+          "word": " 있었고",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 37.7,
+          "end": 38.42,
+          "word": " 창가의",
+          "probability": 0.8430989583333334
+        },
+        {
+          "start": 38.42,
+          "end": 38.88,
+          "word": " 화분만",
+          "probability": 0.970703125
+        },
+        {
+          "start": 38.88,
+          "end": 39.32,
+          "word": " 방향이",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 39.32,
+          "end": 39.66,
+          "word": " 바뀌어",
+          "probability": 0.9923502604166666
+        },
+        {
+          "start": 39.66,
+          "end": 40.14,
+          "word": " 있었습니다.",
+          "probability": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "contractId": "canonical-media-engines-v1",
+  "voice": {
+    "profile": "../../../../03-script-voice/releases/qwen-f4-owner-base-v1/manifest.json",
+    "provider": "qwen3-tts",
+    "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+    "device": "cuda",
+    "precision": "bf16",
+    "ownerProfileRequired": true,
+    "deterministicSeedRequired": true,
+    "dualAsrModels": ["small", "medium"],
+    "maxCharacterErrorRate": 0.08,
+    "maxFinalTempo": 1.08,
+    "loraAllowed": false,
+    "adapterAllowed": false,
+    "fallbackAllowed": false
+  },
+  "bgm": {
+    "engine": "../../../../05-bgm-generation/engines/ace-step-1.5-official-local-v1/manifest.json",
+    "provider": "ace-step-1.5",
+    "models": ["acestep-v15-turbo", "acestep-5Hz-lm-0.6B"],
+    "eventPromptRequired": true,
+    "eventSeedRequired": true,
+    "provenanceRequired": true,
+    "licenseRequired": true,
+    "sha256Required": true,
+    "output": { "sampleRate": 48000, "channels": 2, "codec": "pcm_s24le", "targetLufs": -24.0 },
+    "mixDefaults": { "volumeDb": -16, "duckUnderNarration": true, "fadeSeconds": 1.2 },
+    "overridesMustBeRecorded": true,
+    "crossEventAudioReuseForbidden": true
+  }
+}

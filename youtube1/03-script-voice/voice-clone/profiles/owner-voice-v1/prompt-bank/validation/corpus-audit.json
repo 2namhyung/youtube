@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "ledgerId": "owner-voice-v1-corpus-audit-20260808",
+  "status": "inventory-complete-pending-admission-decision",
+  "sourceRoot": "03-script-voice/reference-audio/user",
+  "sourcePolicy": {
+    "ownerAuthorization": "User explicitly authorized these owner recordings for local voice model, TTS, and video use on 2026-08-08.",
+    "ownerVoice": true,
+    "thirdPartyAudio": false,
+    "originalsReadOnly": true,
+    "exactTranscriptPolicy": "ASR is diagnostic. Exact transcript claims require an authoritative script/sidecar plus alignment evidence."
+  },
+  "auditRuntime": {
+    "asrModels": [
+      "small",
+      "medium"
+    ],
+    "device": "cuda",
+    "computeType": "float16",
+    "signalAnalysisSampleRate": 24000
+  },
+  "counts": {
+    "totalFiles": 6,
+    "audioFiles": 6,
+    "sidecarFiles": 0
+  },
+  "files": [
+    {
+      "relativePath": "owner-voice-v1/prompt-bank/assets/closing.wav",
+      "fileName": "closing.wav",
+      "sha256": "cd4a766014eea80e58eab5ce8cad6892367d555862806995d3786a0bfea25b3c",
+      "bytes": 311118,
+      "ownerVoice": true,
+      "thirdPartyAudio": false,
+      "originalPreservedReadOnly": true,
+      "media": {
+        "codec": "pcm_s16le",
+        "sampleRate": 24000,
+        "channels": 1,
+        "channelLayout": null,
+        "sampleFormat": "s16",
+        "bitsPerRawSample": null,
+        "durationSeconds": 6.48,
+        "bytes": 311118,
+        "bitRate": 384096
+      },
+      "signal": {
+        "analysisSampleRate": 24000,
+        "peakDbfs": -3.315,
+        "rmsDbfs": -22.007,
+        "dcOffset": 2.333e-05,
+        "clippedSamples": 0,
+        "silenceThresholdDbfs": -42,
+        "silenceRatio": 0.169753,
+        "speechActivityRatio": 0.830247,
+        "silenceRunsOver80ms": 5,
+        "leadingSilenceSeconds": 0.0,
+        "trailingSilenceSeconds": 0.34,
+        "maxInternalSilenceSeconds": 0.18,
+        "medianInternalSilenceSeconds": 0.09,
+        "noiseFloorProxyDbfs": -47.247
+      },
+      "transcriptEvidence": {
+        "status": "asr-diagnostic-only",
+        "exactTranscriptClaimed": false,
+        "reason": "No authoritative transcript sidecar was inferred from a filename."
+      },
+      "asr": {
+        "small": {
+          "artifact": "asr/closing.wav.small.json",
+          "artifactSha256": "4be4d40459e4b6ffa204c415cc683641a2bb23b5f44f87a4b27c8350d9e2f037",
+          "transcript": "내용만 보면 작은 공 같지만 실제로는 공간은 전혀 관계가 없습니다 오히려 코알라와 더 가까운 친척이라고 하죠",
+          "languageProbability": 1.0,
+          "generationSeconds": 1.707
+        },
+        "medium": {
+          "artifact": "asr/closing.wav.medium.json",
+          "artifactSha256": "74a0ecfc3427f3da565395cf4095b7099889414c366ab5411dbb5b6d0413d48d",
+          "transcript": "내용만 보면 작은 공 같지만 실제로는 공과는 전혀 관계가 없습니다 오히려 코알라와 더 가까운 친척이라고 하죠?",
+          "languageProbability": 1.0,
+          "generationSeconds": 0.927
+        }
+      }
+    },
+    {
+      "relativePath": "owner-voice-v1/prompt-bank/assets/hook.wav",
+      "fileName": "hook.wav",
+      "sha256": "41d9d3fd3753564f2445df28949c3586255b3434b698febe1ca29589d4e8e882",
+      "bytes": 516558,
+      "ownerVoice": true,
+      "thirdPartyAudio": false,
+      "originalPreservedReadOnly": true,
+      "media": {
+        "codec": "pcm_s16le",
+        "sampleRate": 24000,
+        "channels": 1,
+        "channelLayout": null,
+        "sampleFormat": "s16",
+        "bitsPerRawSample": null,
+        "durationSeconds": 10.76,
+        "bytes": 516558,
+        "bitRate": 384057
+      },
+      "signal": {
+        "analysisSampleRate": 24000,
+        "peakDbfs": -2.64,
+        "rmsDbfs": -22.609,
+        "dcOffset": 3.537e-05,
+        "clippedSamples": 0,
+        "silenceThresholdDbfs": -42,
+        "silenceRatio": 0.148699,
+        "speechActivityRatio": 0.851301,
+        "silenceRunsOver80ms": 9,
+        "leadingSilenceSeconds": 0.0,
+        "trailingSilenceSeconds": 0.0,
+        "maxInternalSilenceSeconds": 0.14,
+        "medianInternalSilenceSeconds": 0.1,
+        "noiseFloorProxyDbfs": -48.542
+      },
+      "transcriptEvidence": {
+        "status": "asr-diagnostic-only",
+        "exactTranscriptClaimed": false,
+        "reason": "No authoritative transcript sidecar was inferred from a filename."
+      },
+      "asr": {
+        "small": {
+          "artifact": "asr/hook.wav.small.json",
+          "artifactSha256": "fffb05f3f6ca75122b16a22be0859082de4097da49064c4a89c448ec56696ddb",
+          "transcript": "철조망의 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다 저번 호주 삼불 때 아는 동원들을 자신의 굴로 숨겨 구해준 작은 영웅이죠 그런데 원뱃이 이렇게 몸을 여기저기 비비는 이유가 있습니다",
+          "languageProbability": 1.0,
+          "generationSeconds": 0.893
+        },
+        "medium": {
+          "artifact": "asr/hook.wav.medium.json",
+          "artifactSha256": "2a22e328477a02b7a6c5c27e87f34cbb80dbeab08b663370b2cfd4f6f7ab876c",
+          "transcript": "철조망에 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다 저번 호주 산불 때 아는 동월들을 자신의 굴로 숨겨 구해준 작은 영웅이죠 그런데 원뱃이 몸을 여기저기 비비는 이유가 있습니다",
+          "languageProbability": 1.0,
+          "generationSeconds": 1.346
+        }
+      }
+    },
+    {
+      "relativePath": "owner-voice-v1/prompt-bank/assets/legal_explanation.wav",
+      "fileName": "legal_explanation.wav",
+      "sha256": "586f394b22f14299636191809f4a5e27de67cd9ae728b3402b68b67f951047c8",
+      "bytes": 288078,
+      "ownerVoice": true,
+      "thirdPartyAudio": false,
+      "originalPreservedReadOnly": true,
+      "media": {
+        "codec": "pcm_s16le",
+        "sampleRate": 24000,
+        "channels": 1,
+        "channelLayout": null,
+        "sampleFormat": "s16",
+        "bitsPerRawSample": null,
+        "durationSeconds": 6.0,
+        "bytes": 288078,
+        "bitRate": 384104
+      },
+      "signal": {
+        "analysisSampleRate": 24000,
+        "peakDbfs": -2.475,
+        "rmsDbfs": -23.808,
+        "dcOffset": 1.849e-05,
+        "clippedSamples": 0,
+        "silenceThresholdDbfs": -42,
+        "silenceRatio": 0.16,
+        "speechActivityRatio": 0.84,
+        "silenceRunsOver80ms": 3,
+        "leadingSilenceSeconds": 0.0,
+        "trailingSilenceSeconds": 0.16,
+        "maxInternalSilenceSeconds": 0.24,
+        "medianInternalSilenceSeconds": 0.19,
+        "noiseFloorProxyDbfs": -49.339
+      },
+      "transcriptEvidence": {
+        "status": "asr-diagnostic-only",
+        "exactTranscriptClaimed": false,
+        "reason": "No authoritative transcript sidecar was inferred from a filename."
+      },
+      "asr": {
+        "small": {
+          "artifact": "asr/legal_explanation.wav.small.json",
+          "artifactSha256": "3dd9486643e4303fb626d62d83710035b238a7fdd75a433a1a1b408bf8397405",
+          "transcript": "사실 원뱃은 사람을 꽤 좋아하는 동물입니다 사람과 함께 있는 걸 좋아하고 사람이 해주는 보살님도 꽤 즐기는 편이죠",
+          "languageProbability": 1.0,
+          "generationSeconds": 0.552
+        },
+        "medium": {
+          "artifact": "asr/legal_explanation.wav.medium.json",
+          "artifactSha256": "c605ac20734ed3829f474c5775db4e8c3ca9fb574866040efb9fe8048f69ece6",
+          "transcript": "사실 원뱃은 사람을 꽤 좋아하는 동물입니다 사람과 함께 있는 걸 좋아하고 사람이 해주는 보살님도 꽤 즐기는 편이죠",
+          "languageProbability": 1.0,
+          "generationSeconds": 0.876
+        }
+      }
+    },
+    {
+      "relativePath": "owner-voice-v1/prompt-bank/assets/news_exposition.wav",
+      "fileName": "news_exposition.wav",
+      "sha256": "1ae5c6b35ea23bec4b48463536a04839da8138d64db0fa146583795297443dd6",
+      "bytes": 376398,
+      "ownerVoice": true,
+      "thirdPartyAudio": false,
+      "originalPreservedReadOnly": true,
+      "media": {
+        "codec": "pcm_s16le",
+        "sampleRate": 24000,
+        "channels": 1,
+        "channelLayout": null,
+        "sampleFormat": "s16",
+        "bitsPerRawSample": null,
+        "durationSeconds": 7.84,
+        "bytes": 376398,
+        "bitRate": 384079
+      },
+      "signal": {
+        "analysisSampleRate": 24000,
+        "peakDbfs": -2.38,
+        "rmsDbfs": -22.429,
+        "dcOffset": 6.72e-06,
+        "clippedSamples": 0,
+        "silenceThresholdDbfs": -42,
+        "silenceRatio": 0.114796,
+        "speechActivityRatio": 0.885204,
+        "silenceRunsOver80ms": 4,
+        "leadingSilenceSeconds": 0.0,
+        "trailingSilenceSeconds": 0.0,
+        "maxInternalSilenceSeconds": 0.14,
+        "medianInternalSilenceSeconds": 0.14,
+        "noiseFloorProxyDbfs": -44.829
+      },
+      "transcriptEvidence": {
+        "status": "asr-diagnostic-only",
+        "exactTranscriptClaimed": false,
+        "reason": "No authoritative transcript sidecar was inferred from a filename."
+      },
+      "asr": {
+        "small": {
+          "artifact": "asr/news_exposition.wav.small.json",
+          "artifactSha256": "52545d996eb3a23238291049254c3ad22b0786a63e735072ad6212cce970ae32",
+          "transcript": "원뱃은 땅 꿀 파기에 다딘으로 거의 매일 땅을 파매 살아가는데요 그래서 몸에 크기 많이 묻어 피부가 자주 가려워집니다",
+          "languageProbability": 1.0,
+          "generationSeconds": 0.58
+        },
+        "medium": {
+          "artifact": "asr/news_exposition.wav.medium.json",
+          "artifactSha256": "a397d7ece407d0da0523da6f97f4331e3f709d1e7ca0c02c366e280bbfafc6f4",
+          "transcript": "원뱃은 땅굴을 파기에 다듬으러 거의 매일 땅을 파며 살아가는데요 그래서 몸에 흙이 많이 묻어 피부가 자주 가려워집니다",
+          "languageProbability": 1.0,
+          "generationSeconds": 1.035
+        }
+      }
+    },
+    {
+      "relativePath": "owner-voice-v1/prompt-bank/assets/tension.wav",
+      "fileName": "tension.wav",
+      "sha256": "8ced7c85ac56d878a244eabae5f097d20ab6bb88db69c9707ade60892d86079c",
+      "bytes": 326478,
+      "ownerVoice": true,
+      "thirdPartyAudio": false,
+      "originalPreservedReadOnly": true,
+      "media": {
+        "codec": "pcm_s16le",
+        "sampleRate": 24000,
+        "channels": 1,
+        "channelLayout": null,
+        "sampleFormat": "s16",
+        "bitsPerRawSample": null,
+        "durationSeconds": 6.8,
+        "bytes": 326478,
+        "bitRate": 384091
+      },
+      "signal": {
+        "analysisSampleRate": 24000,
+        "peakDbfs": -3.545,
+        "rmsDbfs": -22.668,
+        "dcOffset": 3.021e-05,
+        "clippedSamples": 0,
+        "silenceThresholdDbfs": -42,
+        "silenceRatio": 0.126471,
+        "speechActivityRatio": 0.873529,
+        "silenceRunsOver80ms": 3,
+        "leadingSilenceSeconds": 0.0,
+        "trailingSilenceSeconds": 0.0,
+        "maxInternalSilenceSeconds": 0.12,
+        "medianInternalSilenceSeconds": 0.1,
+        "noiseFloorProxyDbfs": -44.872
+      },
+      "transcriptEvidence": {
+        "status": "asr-diagnostic-only",
+        "exactTranscriptClaimed": false,
+        "reason": "No authoritative transcript sidecar was inferred from a filename."
+      },
+      "asr": {
+        "small": {
+          "artifact": "asr/tension.wav.small.json",
+          "artifactSha256": "f5fd9b7b0d74b60d5b8cd09a7b997afbd60f1821f09dff1e92d0222691cf480a",
+          "transcript": "하지만 다리가 너무 짧아서 긋지 못하는 곳이 많죠 그래서 주변에 나무나 철조만 같은 곳에 몸을 비비며 가령을 해결합니다",
+          "languageProbability": 1.0,
+          "generationSeconds": 0.545
+        },
+        "medium": {
+          "artifact": "asr/tension.wav.medium.json",
+          "artifactSha256": "4671e550508fe01dafdf1d31f5c067aa0e3781e6b6792402670f60de0de54381",
+          "transcript": "하지만 다리가 너무 짧아서 긁지 못하는 곳이 많죠 그래서 주변의 아무나 철저한 곳에 몸을 비비며 가령을 해결합니다",
+          "languageProbability": 1.0,
+          "generationSeconds": 0.915
+        }
+      }
+    },
+    {
+      "relativePath": "owner-voice-v1/prompt-bank/assets/viewer_question.wav",
+      "fileName": "viewer_question.wav",
+      "sha256": "eca578b86fcfc6e35de187f34de97dbb681dc7994f6ee037a79aeb9602de82ec",
+      "bytes": 311118,
+      "ownerVoice": true,
+      "thirdPartyAudio": false,
+      "originalPreservedReadOnly": true,
+      "media": {
+        "codec": "pcm_s16le",
+        "sampleRate": 24000,
+        "channels": 1,
+        "channelLayout": null,
+        "sampleFormat": "s16",
+        "bitsPerRawSample": null,
+        "durationSeconds": 6.48,
+        "bytes": 311118,
+        "bitRate": 384096
+      },
+      "signal": {
+        "analysisSampleRate": 24000,
+        "peakDbfs": -5.151,
+        "rmsDbfs": -26.832,
+        "dcOffset": -8.93e-06,
+        "clippedSamples": 0,
+        "silenceThresholdDbfs": -42,
+        "silenceRatio": 0.209877,
+        "speechActivityRatio": 0.790123,
+        "silenceRunsOver80ms": 5,
+        "leadingSilenceSeconds": 0.22,
+        "trailingSilenceSeconds": 0.12,
+        "maxInternalSilenceSeconds": 0.28,
+        "medianInternalSilenceSeconds": 0.18,
+        "noiseFloorProxyDbfs": -61.586
+      },
+      "transcriptEvidence": {
+        "status": "asr-diagnostic-only",
+        "exactTranscriptClaimed": false,
+        "reason": "No authoritative transcript sidecar was inferred from a filename."
+      },
+      "asr": {
+        "small": {
+          "artifact": "asr/viewer_question.wav.small.json",
+          "artifactSha256": "bd9beabdfe683af48df7e061dc021400b8f879c6406a09eb40892a16a5db2f5a",
+          "transcript": "현실에도 진짜 필요한 거 아니에요? 이게 말이 되나요? 하지만 수사, 상황 통지와 피해자 보호는 필요하지 않을까요?",
+          "languageProbability": 1.0,
+          "generationSeconds": 0.506
+        },
+        "medium": {
+          "artifact": "asr/viewer_question.wav.medium.json",
+          "artifactSha256": "f623aeb05a3092dd2d0280333a8a6991558173de6e332b8bd1ad4c3c7bc7f68f",
+          "transcript": "현실에도 진짜 필요한 거 아니에요? 이게 말이 되나요? 하지만 수사 상황 통지와 피해자 보호는 필요하지 않을까요?",
+          "languageProbability": 1.0,
+          "generationSeconds": 0.88
+        }
+      }
+    }
+  ]
+}

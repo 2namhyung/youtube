@@ -1,0 +1,875 @@
+{
+  "slug": "research-387204d07b43afae",
+  "topic": "'엽떡'부터 치킨상자까지…이웃 옥상에 '쓰레기 폭탄' 투하",
+  "mode": "investigation",
+  "fetchedAt": "2026-09-04T11:30:26.599Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-387204d07b43afae.research.config.json",
+    "queries": [
+      "'엽떡'부터 치킨상자까지…이웃 옥상에 '쓰레기 폭탄' 투하",
+      "엽떡 부터 치킨상자까지",
+      "엽떡 부터 엽떡 쓰레기 폭탄",
+      "엽떡 부터 이웃 쓰레기",
+      "엽떡 부터 경찰 신고 수사 처분",
+      "엽떡 부터 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv",
+      "naver-news",
+      "daum-news",
+      "news1-society"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ],
+    "eventFingerprint": {
+      "anchors": [
+        "엽떡",
+        "부터",
+        "치킨상자까지",
+        "이웃",
+        "옥상에",
+        "쓰레기",
+        "폭탄",
+        "투하",
+        "아파트에서",
+        "주민이"
+      ],
+      "distinctiveAnchors": [
+        {
+          "name": "커피",
+          "terms": [
+            "커피",
+            "음료",
+            "컵",
+            "카페"
+          ]
+        }
+      ],
+      "minDistinctiveMatches": 1,
+      "minTotalMatches": 3,
+      "semanticFacets": {
+        "locations": [],
+        "actions": [],
+        "roles": [],
+        "dates": []
+      }
+    }
+  },
+  "sources": [
+    {
+      "publisher": "JTBC 뉴스",
+      "title": "‘엽떡’부터 치킨상자까지…이웃 옥상에 ‘쓰레기 폭탄’ 투하",
+      "url": "https://news.jtbc.co.kr/article/NB12311930",
+      "date": null,
+      "status": "verified",
+      "snippet": "이웃 아파트에서 한 주민이 옥상과 건물 사이로 각종 배달 음식 쓰레기를 무단으로 투척해 피해를 입고 있다는 숙박업소 사장의 제보가 오늘(5일) JTBC 〈사건반장〉 을 통해 보도됐습니다. 부산에서 숙박업소를 운영 중인 제보자에 따르면 지난 5월부터 건물 옥상에 정체를 알 수 없는 쓰레기가 날아들기 시작했다고 합니다. 옥상 관리 차원에서 올라갔다가 조개가 가득 담긴 쓰레기를 발견한 것이 그 시작이었다고 하는데요. 제보자는 당시 화가 났지만 '치워두면 사람이 관리하는 줄 알고 안 버리겠지' 하는 마음으로 직접 쓰레기를 치웠다고 전했습니다. 하지만 이후에도 쓰레기 투척은 계속됐다고 합니다. 제보자는 쓰레기가 날아온 방향 등을 토대로 이웃 아파트 주민의 소행일 것으로 보고, 곧장 해당 아파트 관리사무소를 찾아가 엘리베이터에 '쓰레기 무단 투기 금지' 경고문을 붙여 달라고 요청했습니다. 이에 따라 지난 6월부터 경고문이 부착됐다고 하는데요. 하지만 경고문이 붙은 이후에도 쓰레기 투척은 멈추지 않았습니다. 버려진 쓰레기들은 매운 떡볶이 프랜차이즈 포장 용기부터 각종 프랜차이즈 치킨 상자, 햄버거 포장지까지 종류도 다양했습니다. 비닐봉지에 배달 음식 용기와 음료수, 물티슈 등 각종 쓰레기를 한꺼번에 넣어 던지거나, 배달 용기째 그대로 투척하기도 했습니다. 제보자는 이렇게 투척된 쓰레기로 인해 옥상뿐 아니라 건물과 건물 사이 바닥, 뒷건물 옥상까지 난장판이 됐다고 분통을 터뜨렸습니다. 〈사진=JTBC '사건반장' 방송화면 캡처〉 그런데 쓰레기에서는 누가 버렸는지 특정할 수 있는 영수증은 단 한장도 발견되지 않았다고 합니다. 제보자는 \"일부러 영수증은 다 치우고 버린 게 아닌가 생각이 들어 더 괘씸했다\"고 토로했습니다. 결국 참다못한 제보자는 범인을 잡기 위해 옥상에 CCTV를 설치했고, 지난달 중순쯤 배달 음식 쓰레기를 창문 밖으로 던지는 한 주민의 모습이 드디어 포착됐습니다. 쓰레기를 투척한 곳은 처음 의심했던 동이 아닌 '다른 동'의 고층 세대였다고 합니다. CCTV에는 문제의 주민이 창문을 연 뒤 왼손으로 정면이 아닌 옆쪽을 향해 쓰레기를 휙 던지는 모습이 고스란히 담겨 있었습니다. 제보자는 이를 확인하고 경찰에 신고했습니다. 현장에 출동한 경찰이 해당 세대를 찾아가자, 주민은 쓰레기를 버린 사실을 인정했다고 하는데요. 그러나 해당 주민에게 내려진 처분은 과태료 3만원이 전부였습니다. 제보자는 영업방해 혐의로도 신고했지만 경찰은 \"쓰레기로 인해 손님이 돌아가는 등 영업에 직접적 피해는 발생하지 않았고 옥상에 쓰레기를 던진 행위만으로는 적용이 어렵다\"고 설명했다고 합니다. 제보자는 \"5월부터 두 달 넘게 반복적으로 배달 음식 쓰레기를 치워왔고, 무단 투기자를 찾기 위해 CCTV까지 설치하며 힘든 시간을 보냈다\"면서 \"그런데 과태료 부과로 마무리되는 상황이 아쉽고 답답하다\"고 말했습니다. *지금 화제가 되는 뉴스를 정리해 드리는 〈사건반장〉입니다. 자세한 내용은 영상을 통해 확인하세요.",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "엽떡",
+          "부터",
+          "치킨상자까지",
+          "이웃",
+          "옥상에",
+          "쓰레기",
+          "폭탄",
+          "투하"
+        ],
+        "snippetLength": 1464,
+        "contentLength": 1464
+      },
+      "fetchedAt": "2026-09-04T11:30:26.608Z"
+    }
+  ],
+  "relatedCoverage": [],
+  "priorContext": [],
+  "followUps": [],
+  "laws": [],
+  "actors": [],
+  "contradictions": [],
+  "unknowns": [],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 0,
+    "priorContext": 0,
+    "originalMedia": 0,
+    "followUps": 0,
+    "laws": 0,
+    "errors": 0
+  },
+  "eventDossier": {
+    "schemaVersion": 3,
+    "slug": "research-387204d07b43afae",
+    "generatedAt": "2026-09-04T11:30:26.599Z",
+    "researchSnapshotSha256": "fb5c0e98ce257b7f264d08d5d3c9524be9b29c079bb1dc7d2133297bc2c71690",
+    "eventIdentity": {
+      "title": "'엽떡'부터 치킨상자까지…이웃 옥상에 '쓰레기 폭탄' 투하",
+      "fingerprint": {
+        "anchors": [
+          "엽떡",
+          "부터",
+          "치킨상자까지",
+          "이웃",
+          "옥상에",
+          "쓰레기",
+          "폭탄",
+          "투하",
+          "아파트에서",
+          "주민이"
+        ],
+        "distinctiveAnchors": [
+          {
+            "name": "커피",
+            "terms": [
+              "커피",
+              "음료",
+              "컵",
+              "카페"
+            ]
+          }
+        ],
+        "minDistinctiveMatches": 1,
+        "minTotalMatches": 3,
+        "semanticFacets": {
+          "locations": [],
+          "actions": [],
+          "roles": [],
+          "dates": []
+        }
+      }
+    },
+    "actors": [],
+    "confirmedFacts": [
+      {
+        "id": "claim-35f26d197286",
+        "summary": "이웃 아파트에서 한 주민이 옥상과 건물 사이로 각종 배달 음식 쓰레기를 무단으로 투척해 피해를 입고 있다는 숙박업소 사장의 제보가 오늘(5일) JTBC 〈사건반장〉 을 통해 보도됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-06a78480a4d9",
+        "summary": "부산에서 숙박업소를 운영 중인 제보자에 따르면 지난 5월부터 건물 옥상에 정체를 알 수 없는 쓰레기가 날아들기 시작했다고 합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4666c4620c39",
+        "summary": "옥상 관리 차원에서 올라갔다가 조개가 가득 담긴 쓰레기를 발견한 것이 그 시작이었다고 하는데요.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-318045dc5ab2",
+        "summary": "제보자는 당시 화가 났지만 '치워두면 사람이 관리하는 줄 알고 안 버리겠지' 하는 마음으로 직접 쓰레기를 치웠다고 전했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f7674d21a770",
+        "summary": "하지만 이후에도 쓰레기 투척은 계속됐다고 합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-738561515f12",
+        "summary": "제보자는 쓰레기가 날아온 방향 등을 토대로 이웃 아파트 주민의 소행일 것으로 보고, 곧장 해당 아파트 관리사무소를 찾아가 엘리베이터에 '쓰레기 무단 투기 금지' 경고문을 붙여 달라고 요청했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-7e0df8f9078b",
+        "summary": "이에 따라 지난 6월부터 경고문이 부착됐다고 하는데요.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-67a62b10657d",
+        "summary": "하지만 경고문이 붙은 이후에도 쓰레기 투척은 멈추지 않았습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4f3e21f7497e",
+        "summary": "버려진 쓰레기들은 매운 떡볶이 프랜차이즈 포장 용기부터 각종 프랜차이즈 치킨 상자, 햄버거 포장지까지 종류도 다양했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-2c2fc411d470",
+        "summary": "비닐봉지에 배달 음식 용기와 음료수, 물티슈 등 각종 쓰레기를 한꺼번에 넣어 던지거나, 배달 용기째 그대로 투척하기도 했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-85462bc8d32c",
+        "summary": "제보자는 이렇게 투척된 쓰레기로 인해 옥상뿐 아니라 건물과 건물 사이 바닥, 뒷건물 옥상까지 난장판이 됐다고 분통을 터뜨렸습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-12329c6cb727",
+        "summary": "〈사진=JTBC '사건반장' 방송화면 캡처〉 그런데 쓰레기에서는 누가 버렸는지 특정할 수 있는 영수증은 단 한장도 발견되지 않았다고 합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-387204d07b43"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "investigationAndCharges": [],
+    "trialStagesAndSentenceChanges": [],
+    "prosecutionClaims": [],
+    "defenseClaims": [],
+    "courtFindings": [],
+    "victimImpact": [],
+    "timeline": [],
+    "conflicts": [],
+    "unknowns": [],
+    "laterChanges": [],
+    "narrative": {
+      "overview": [
+        {
+          "id": "claim-35f26d197286",
+          "summary": "이웃 아파트에서 한 주민이 옥상과 건물 사이로 각종 배달 음식 쓰레기를 무단으로 투척해 피해를 입고 있다는 숙박업소 사장의 제보가 오늘(5일) JTBC 〈사건반장〉 을 통해 보도됐습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-06a78480a4d9",
+          "summary": "부산에서 숙박업소를 운영 중인 제보자에 따르면 지난 5월부터 건물 옥상에 정체를 알 수 없는 쓰레기가 날아들기 시작했다고 합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4666c4620c39",
+          "summary": "옥상 관리 차원에서 올라갔다가 조개가 가득 담긴 쓰레기를 발견한 것이 그 시작이었다고 하는데요.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-318045dc5ab2",
+          "summary": "제보자는 당시 화가 났지만 '치워두면 사람이 관리하는 줄 알고 안 버리겠지' 하는 마음으로 직접 쓰레기를 치웠다고 전했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f7674d21a770",
+          "summary": "하지만 이후에도 쓰레기 투척은 계속됐다고 합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-738561515f12",
+          "summary": "제보자는 쓰레기가 날아온 방향 등을 토대로 이웃 아파트 주민의 소행일 것으로 보고, 곧장 해당 아파트 관리사무소를 찾아가 엘리베이터에 '쓰레기 무단 투기 금지' 경고문을 붙여 달라고 요청했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-7e0df8f9078b",
+          "summary": "이에 따라 지난 6월부터 경고문이 부착됐다고 하는데요.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-67a62b10657d",
+          "summary": "하지만 경고문이 붙은 이후에도 쓰레기 투척은 멈추지 않았습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "chronology": [],
+      "sameEventFindings": [
+        {
+          "id": "claim-35f26d197286",
+          "summary": "이웃 아파트에서 한 주민이 옥상과 건물 사이로 각종 배달 음식 쓰레기를 무단으로 투척해 피해를 입고 있다는 숙박업소 사장의 제보가 오늘(5일) JTBC 〈사건반장〉 을 통해 보도됐습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "harm",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-06a78480a4d9",
+          "summary": "부산에서 숙박업소를 운영 중인 제보자에 따르면 지난 5월부터 건물 옥상에 정체를 알 수 없는 쓰레기가 날아들기 시작했다고 합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4666c4620c39",
+          "summary": "옥상 관리 차원에서 올라갔다가 조개가 가득 담긴 쓰레기를 발견한 것이 그 시작이었다고 하는데요.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-318045dc5ab2",
+          "summary": "제보자는 당시 화가 났지만 '치워두면 사람이 관리하는 줄 알고 안 버리겠지' 하는 마음으로 직접 쓰레기를 치웠다고 전했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f7674d21a770",
+          "summary": "하지만 이후에도 쓰레기 투척은 계속됐다고 합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-738561515f12",
+          "summary": "제보자는 쓰레기가 날아온 방향 등을 토대로 이웃 아파트 주민의 소행일 것으로 보고, 곧장 해당 아파트 관리사무소를 찾아가 엘리베이터에 '쓰레기 무단 투기 금지' 경고문을 붙여 달라고 요청했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-7e0df8f9078b",
+          "summary": "이에 따라 지난 6월부터 경고문이 부착됐다고 하는데요.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-67a62b10657d",
+          "summary": "하지만 경고문이 붙은 이후에도 쓰레기 투척은 멈추지 않았습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4f3e21f7497e",
+          "summary": "버려진 쓰레기들은 매운 떡볶이 프랜차이즈 포장 용기부터 각종 프랜차이즈 치킨 상자, 햄버거 포장지까지 종류도 다양했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-2c2fc411d470",
+          "summary": "비닐봉지에 배달 음식 용기와 음료수, 물티슈 등 각종 쓰레기를 한꺼번에 넣어 던지거나, 배달 용기째 그대로 투척하기도 했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-85462bc8d32c",
+          "summary": "제보자는 이렇게 투척된 쓰레기로 인해 옥상뿐 아니라 건물과 건물 사이 바닥, 뒷건물 옥상까지 난장판이 됐다고 분통을 터뜨렸습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-12329c6cb727",
+          "summary": "〈사진=JTBC '사건반장' 방송화면 캡처〉 그런데 쓰레기에서는 누가 버렸는지 특정할 수 있는 영수증은 단 한장도 발견되지 않았다고 합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "priorContext": [],
+      "followUpDevelopments": [],
+      "detailSections": [
+        {
+          "id": "harm",
+          "title": "피해와 후유증",
+          "description": "신체·정신적 피해와 공개되지 않은 범위",
+          "claims": [
+            {
+              "id": "claim-35f26d197286",
+              "summary": "이웃 아파트에서 한 주민이 옥상과 건물 사이로 각종 배달 음식 쓰레기를 무단으로 투척해 피해를 입고 있다는 숙박업소 사장의 제보가 오늘(5일) JTBC 〈사건반장〉 을 통해 보도됐습니다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "harm",
+              "sourceIds": [
+                "src-387204d07b43"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        }
+      ],
+      "sourceAgreement": [
+        {
+          "claimId": "claim-35f26d197286",
+          "summary": "이웃 아파트에서 한 주민이 옥상과 건물 사이로 각종 배달 음식 쓰레기를 무단으로 투척해 피해를 입고 있다는 숙박업소 사장의 제보가 오늘(5일) JTBC 〈사건반장〉 을 통해 보도됐습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-06a78480a4d9",
+          "summary": "부산에서 숙박업소를 운영 중인 제보자에 따르면 지난 5월부터 건물 옥상에 정체를 알 수 없는 쓰레기가 날아들기 시작했다고 합니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-4666c4620c39",
+          "summary": "옥상 관리 차원에서 올라갔다가 조개가 가득 담긴 쓰레기를 발견한 것이 그 시작이었다고 하는데요.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-318045dc5ab2",
+          "summary": "제보자는 당시 화가 났지만 '치워두면 사람이 관리하는 줄 알고 안 버리겠지' 하는 마음으로 직접 쓰레기를 치웠다고 전했습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-f7674d21a770",
+          "summary": "하지만 이후에도 쓰레기 투척은 계속됐다고 합니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-738561515f12",
+          "summary": "제보자는 쓰레기가 날아온 방향 등을 토대로 이웃 아파트 주민의 소행일 것으로 보고, 곧장 해당 아파트 관리사무소를 찾아가 엘리베이터에 '쓰레기 무단 투기 금지' 경고문을 붙여 달라고 요청했습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-7e0df8f9078b",
+          "summary": "이에 따라 지난 6월부터 경고문이 부착됐다고 하는데요.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-67a62b10657d",
+          "summary": "하지만 경고문이 붙은 이후에도 쓰레기 투척은 멈추지 않았습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-4f3e21f7497e",
+          "summary": "버려진 쓰레기들은 매운 떡볶이 프랜차이즈 포장 용기부터 각종 프랜차이즈 치킨 상자, 햄버거 포장지까지 종류도 다양했습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-2c2fc411d470",
+          "summary": "비닐봉지에 배달 음식 용기와 음료수, 물티슈 등 각종 쓰레기를 한꺼번에 넣어 던지거나, 배달 용기째 그대로 투척하기도 했습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-85462bc8d32c",
+          "summary": "제보자는 이렇게 투척된 쓰레기로 인해 옥상뿐 아니라 건물과 건물 사이 바닥, 뒷건물 옥상까지 난장판이 됐다고 분통을 터뜨렸습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-12329c6cb727",
+          "summary": "〈사진=JTBC '사건반장' 방송화면 캡처〉 그런데 쓰레기에서는 누가 버렸는지 특정할 수 있는 영수증은 단 한장도 발견되지 않았다고 합니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-387204d07b43"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        }
+      ],
+      "conflicts": [],
+      "unresolvedQuestions": [],
+      "limitations": [
+        "독립적으로 검증된 동일 사건 추가 보도를 찾지 못했습니다.",
+        "이 사건의 직접적인 사전 맥락으로 확인된 보도를 찾지 못했습니다.",
+        "현재까지 확인된 후속 보도가 없습니다."
+      ]
+    },
+    "sourceCoverage": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "sameEventCoverageCount": 0,
+      "priorContextCount": 0,
+      "followUpCount": 0,
+      "independentPublisherCount": 1,
+      "corroboration": "single-source",
+      "rejectedSameEventSourceCount": 0
+    },
+    "readiness": {
+      "readyForLegal": true,
+      "readyForDraft": true,
+      "preferredCorroborationMet": false,
+      "detailedNarrativeComplete": true,
+      "storyClaimCount": 12,
+      "narrativePhaseCount": 2,
+      "blockers": [],
+      "warnings": [
+        "single-source-only"
+      ]
+    },
+    "sourceIndex": [
+      {
+        "sourceId": "src-387204d07b43",
+        "url": "https://news.jtbc.co.kr/article/NB12311930",
+        "title": "‘엽떡’부터 치킨상자까지…이웃 옥상에 ‘쓰레기 폭탄’ 투하",
+        "publisher": "JTBC 뉴스",
+        "date": "",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "sourceExclusions": [],
+    "currentHash": "bd8d26a232ef6b6512da33454e97fac31d33dbb4994dbf26e6ba8e86c28db130"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "sourceId": "owner-recording-q3-20260801",
+    "sha256": "d6b4f584b578799dec8bc9e1916e4d85ac3e6e1c1d067a9331cb835432f0ae33",
+    "format": "AAC 48 kHz stereo",
+    "durationSeconds": 19.071958
+  },
+  "prompt": {
+    "audio": "../assets/question.wav",
+    "sha256": "eca578b86fcfc6e35de187f34de97dbb681dc7994f6ee037a79aeb9602de82ec",
+    "format": "PCM16 mono 24 kHz",
+    "durationSeconds": 6.48,
+    "clipRatio": 0,
+    "transcript": "현실에도 진짜 필요한 거 아니에요? 이게 말이 되나요? 하지만 수사 상황 통지와 피해자 보호는 필요하지 않을까요?"
+  },
+  "asr": {
+    "models": ["small", "medium"],
+    "reports": {
+      "small": "question-small.asr.json",
+      "medium": "question-medium.asr.json"
+    },
+    "sixQuestionsExact": true
+  },
+  "contour": {
+    "method": "autocorrelation F0; final 0.30 s versus preceding 0.40 s; RMS dBFS",
+    "questions": [
+      { "text": "현실에도 진짜 필요한 거 아니에요?", "f0PreHz": 108.4, "f0TailHz": 90.7, "deltaSemitones": -3.07, "rmsPreDbfs": -23.25, "rmsTailDbfs": -27.67, "tailDeltaDb": -4.42 },
+      { "text": "이게 말이 되나요?", "f0PreHz": 96.2, "f0TailHz": 93.8, "deltaSemitones": -0.45, "rmsPreDbfs": -26.39, "rmsTailDbfs": -30.54, "tailDeltaDb": -4.15 },
+      { "text": "하지만 수사 상황 통지와 피해자 보호는 필요하지 않을까요?", "f0PreHz": 114.3, "f0TailHz": 100.9, "deltaSemitones": -2.16, "rmsPreDbfs": -26.89, "rmsTailDbfs": -28.82, "tailDeltaDb": -1.93 }
+    ],
+    "gate": "falling contour is intentional; generated question tails must retain complete ASR and non-silent energy without forced rising F0"
+  }
+}

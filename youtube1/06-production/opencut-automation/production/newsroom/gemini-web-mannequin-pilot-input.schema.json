@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-gemini-web-mannequin-pilot-input-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "storyId", "pilotId", "authorization", "surfaceObservation", "references", "shots", "videoPromptIntentRelativePath", "submittedPromptRelativePath"],
+  "properties": {
+    "schema": {"const": "newsroom-gemini-web-mannequin-pilot-input-v1"},
+    "storyId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,79}$"},
+    "pilotId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,79}$"},
+    "authorization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scope", "authorizedOn", "source"],
+      "properties": {
+        "scope": {"type": "string", "minLength": 1, "maxLength": 240},
+        "authorizedOn": {"type": "string", "format": "date"},
+        "source": {"const": "current-user-request"}
+      }
+    },
+    "surfaceObservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "observedAt", "observedBy", "surface", "modelLabel", "modeLabel", "aspectRatio", "durationControlStatus", "requestedDurationIntentSeconds", "providerDurationSupportClaimed"],
+      "properties": {
+        "status": {"enum": ["unknown", "observed-partial", "observed"]},
+        "observedAt": {"type": "string"},
+        "observedBy": {"type": "string", "minLength": 1, "maxLength": 160},
+        "surface": {"const": "gemini-web"},
+        "modelLabel": {"type": "string", "maxLength": 160},
+        "modeLabel": {"type": "string", "maxLength": 160},
+        "aspectRatio": {"enum": ["unknown", "9:16"]},
+        "durationControlStatus": {"enum": ["unknown", "not-observed", "observed-8s", "observed-10s"]},
+        "requestedDurationIntentSeconds": {"enum": [8, 10]},
+        "providerDurationSupportClaimed": {"const": false}
+      }
+    },
+    "references": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["assetId", "role", "ordinal", "influenceScope", "imageRelativePath", "promptRelativePath", "generatorLabel"],
+        "properties": {
+          "assetId": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$"},
+          "role": {"enum": ["storyboard-reference", "character-reference", "location-reference", "prop-reference", "creature-reference", "style-reference", "entry-frame-reference"]},
+          "ordinal": {"type": "integer", "minimum": 1, "maximum": 5},
+          "influenceScope": {"enum": ["composition-only", "appearance-continuity-only", "environment-layout-only", "object-shape-only", "first-frame-continuity-only", "style-only"]},
+          "imageRelativePath": {"type": "string", "minLength": 1},
+          "promptRelativePath": {"type": "string", "minLength": 1},
+          "generatorLabel": {"type": "string", "minLength": 1, "maxLength": 160}
+        }
+      }
+    },
+    "shots": {"type": "array", "minItems": 1, "maxItems": 3, "items": {"type": "object", "additionalProperties": false, "required": ["shotId", "purpose", "requestedDurationSeconds", "sourceCutCoverageClaimed"], "properties": {"shotId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,79}$"}, "purpose": {"type": "string", "minLength": 1, "maxLength": 400}, "requestedDurationSeconds": {"type": "number", "minimum": 1.5, "maximum": 6}, "sourceCutCoverageClaimed": {"const": false}}}},
+    "videoPromptIntentRelativePath": {"type": "string", "minLength": 1},
+    "submittedPromptRelativePath": {"type": "string", "minLength": 1}
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "unsupported-experimental",
+  "qwen_source": {
+    "repository": "https://github.com/QwenLM/Qwen3-TTS.git",
+    "commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+    "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "revision": "5d83992436eae1d760afd27aff78a71d676296fc"
+  },
+  "runtime": {
+    "dtype": "bfloat16",
+    "attention_implementation": "sdpa",
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_sequence_length": 256,
+    "gradient_checkpointing": true,
+    "max_gpu_temperature_c": 74,
+    "max_vram_fraction": 0.90,
+    "max_used_vram_mib": 7500,
+    "min_free_vram_mib": 6000,
+    "max_peak_reserved_mib": 7168
+  },
+  "lora": {
+    "rank": 4,
+    "alpha": 8,
+    "dropout": 0.05,
+    "target_pattern": "talker.model.layers.<n>.self_attn.{q_proj,k_proj,v_proj,o_proj}"
+  },
+  "gate": {
+    "probe_steps": 0,
+    "overfit_steps": 8,
+    "max_overfit_steps": 16
+  },
+  "paths": {
+    "derived_dataset": "derived/train_with_codes.jsonl",
+    "output_root": "outputs"
+  }
+}

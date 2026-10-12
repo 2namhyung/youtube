@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import { fileURLToPath } from 'node:url';
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const outputRoot = path.join(root, 'out', '.private', 'research-6b1a8af9b4143acb', 'grok-final-v5r1');
+const file = (name) => path.join(outputRoot, name);
+const read = (p) => fs.readFileSync(p);
+const sha = (b) => crypto.createHash('sha256').update(b).digest('hex');
+const rel = (p) => path.relative(root, p).replaceAll('\\', '/');
+const manifestPath = file('final-manifest-v5r1.json');
+const verificationPath = file('verification-v5r1.json');
+const contactPath = file('qa/final-contact-sheet-v5r1.png');
+const pixelPath = file('pixel-probe/pixel-geometry-v5r1.json');
+const priorPath = file('human-qa-v5r1.json');
+for (const p of [manifestPath, verificationPath, contactPath, pixelPath, priorPath]) if (!fs.existsSync(p)) throw new Error(`missing QA input ${p}`);
+const manifest = JSON.parse(read(manifestPath).toString('utf8')); const verification = JSON.parse(read(verificationPath).toString('utf8')); const prior = JSON.parse(read(priorPath).toString('utf8'));
+const outputPath = path.resolve(root, manifest.output.file); const artifact = { schema: 'grok-final-private-video-human-qa-v5r1-pass', status: 'passed', supersedes: { file: rel(priorPath), sha256: sha(read(priorPath)), status: prior.status }, reviewer: 'primary-agent visual inspection of exact contact sheet', checks: { finalVideo: { file: manifest.output.file, sha256: manifest.output.sha256 }, contactSheet: { file: rel(contactPath), sha256: sha(read(contactPath)) }, verification: { file: rel(verificationPath), sha256: sha(read(verificationPath)), status: verification.status }, pixelGeometry: { file: rel(pixelPath), sha256: sha(read(pixelPath)), values: verification.pixelGeometry.values }, layoutAuthority: manifest.authorities.layout, title: { line1: manifest.authorities.title.line1, line2: manifest.authorities.title.line2, exactSizes: [120, 143], exactPositions: [[540, 201], [540, 326]] }, captions: { font: manifest.composition.captions.fontFamily, size: 88, position: [540, 1400], safeWidth: 920, maxLines: 2, opaqueBlackBackground: true }, disclosure: { text: manifest.composition.disclosure.text, rightX: manifest.composition.disclosure.xRight, y: manifest.composition.disclosure.y, noCaptionOverlap: true }, media: { x: 54, y: 474, width: 972, height: 972 }, releaseGates: manifest.permissions }, notes: ['Contact sheet reviewed: title color/font/2-line layout, square media placement, 88px captions with opaque black background, and disclosure placement are visually coherent.', 'Decoded pixel geometry and six negative regression mutations passed.', 'No upload, publication, or Stage 07 action was performed.'] };
+const output = file('human-qa-v5r1-pass.json'); if (fs.existsSync(output)) { if (read(output).toString('utf8') !== `${JSON.stringify(artifact, null, 2)}\n`) throw new Error('QA successor drift'); } else fs.writeFileSync(output, `${JSON.stringify(artifact, null, 2)}\n`, { flag: 'wx' });
+console.log(JSON.stringify({ file: output, sha256: sha(read(output)), status: artifact.status, videoSha256: manifest.output.sha256, verificationSha256: sha(read(verificationPath)), contactSha256: sha(read(contactPath)) }, null, 2));

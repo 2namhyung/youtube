@@ -1,0 +1,870 @@
+{
+  "slug": "research-1b6228cfdb86ef94",
+  "topic": "\"으악!\" 연기했지만 덜미…택시 바퀴에 발 넣은 남성 결국",
+  "mode": "investigation",
+  "fetchedAt": "2026-09-04T11:30:42.503Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-1b6228cfdb86ef94.research.config.json",
+    "queries": [
+      "\"으악!\" 연기했지만 덜미…택시 바퀴에 발 넣은 남성 결국",
+      "으악 연기했지만 덜미",
+      "으악 연기했지만 으악!",
+      "으악 연기했지만 택시 넣은",
+      "으악 연기했지만 경찰 신고 수사 처분",
+      "으악 연기했지만 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv",
+      "naver-news",
+      "daum-news",
+      "news1-society"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ],
+    "eventFingerprint": {
+      "anchors": [
+        "으악",
+        "연기했지만",
+        "덜미",
+        "택시",
+        "바퀴에",
+        "넣은",
+        "결국",
+        "스스로",
+        "발을"
+      ],
+      "distinctiveAnchors": [
+        {
+          "name": "으악",
+          "terms": [
+            "으악"
+          ]
+        },
+        {
+          "name": "연기했지만",
+          "terms": [
+            "연기했지만"
+          ]
+        },
+        {
+          "name": "덜미",
+          "terms": [
+            "덜미"
+          ]
+        },
+        {
+          "name": "택시",
+          "terms": [
+            "택시"
+          ]
+        }
+      ],
+      "minDistinctiveMatches": 2,
+      "minTotalMatches": 3,
+      "semanticFacets": {
+        "locations": [],
+        "actions": [],
+        "roles": [],
+        "dates": []
+      }
+    }
+  },
+  "sources": [
+    {
+      "publisher": "JTBC 뉴스",
+      "title": "\"으악!\" 연기했지만 덜미…택시 바퀴에 발 넣은 남성 결국",
+      "url": "https://news.jtbc.co.kr/article/NB12315132",
+      "date": null,
+      "status": "verified",
+      "snippet": "택시 바퀴에 고의로 발을 넣어 사고를 당한 것처럼 꾸민 남성이 검찰 조사를 받게 됐습니다. 25일 교통사고 전문 한문철 변호사는 자신의 유튜브 채널을 통해 최근 택시에 일부러 접근해 허위 사고를 꾸며낸 한 남성의 영상을 공개했습니다. 영상을 보면, 택시 승강장 자리를 메우기 위해 천천히 전진하던 택시에 한 남성이 다가갑니다. 이 남성은 문을 두드리는 척하더니 이내 자신의 오른발은 택시 바퀴에 넣습니다. \"으악!\" 소리를 지르며 넘어진 남성, 그러나 이 자작극은 택시에 달려있던 측방 블랙박스에 고스란히 담겼습니다. 결국 남성은 보험 사기 혐의로 검찰에 송치됐습니다. 한문철 변호사는 \"중요한 건 (보험사에) 대인 접수가 돼있었고 실행에 착수한 점\"이라며 \"무거운 처벌을 받을 것\"이라고 분석했습니다. (출처 : 유튜브 '한문철TV')",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "으악",
+          "연기했지만",
+          "덜미",
+          "택시",
+          "바퀴에",
+          "넣은",
+          "남성",
+          "결국"
+        ],
+        "snippetLength": 412,
+        "contentLength": 412
+      },
+      "fetchedAt": "2026-09-04T11:30:42.513Z"
+    }
+  ],
+  "relatedCoverage": [
+    {
+      "title": "&quot;으악!&quot; 연기했지만 덜미…택시 바퀴에 발 넣은 남성 결국｜지금 이 쇼츠",
+      "url": "https://www.youtube.com/watch?v=PXWZwLtDpCI",
+      "publisher": "JTBC News",
+      "date": "2026-08-26T02:35:00Z",
+      "status": "indexed",
+      "snippet": "택시 바퀴에 고의로 발을 넣어 사고를 당한 것처럼 꾸민 남성이 보험 사기 혐의로 검찰 조사를 받게 됐습니다. 25일 교통사고 전문 ...",
+      "fetchedAt": "2026-09-04T11:30:50.946Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/PXWZwLtDpCI/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 1,
+        "matchedAnchors": [
+          "으악",
+          "연기했지만",
+          "덜미",
+          "택시",
+          "바퀴에",
+          "넣은",
+          "결국",
+          "발을"
+        ],
+        "matchedDistinctiveAnchors": [
+          "으악",
+          "연기했지만",
+          "덜미",
+          "택시"
+        ],
+        "semanticMatch": {
+          "sharedActions": [],
+          "sharedLocations": [],
+          "sharedRoles": [],
+          "candidateFacets": {
+            "locations": [],
+            "actions": [
+              "fraud"
+            ],
+            "roles": [],
+            "dates": []
+          },
+          "minimumActionMatches": 0,
+          "minimumRoleMatches": 0,
+          "locationConflict": false
+        },
+        "eventFingerprint": {
+          "anchors": [
+            "으악",
+            "연기했지만",
+            "덜미",
+            "택시",
+            "바퀴에",
+            "넣은",
+            "결국",
+            "스스로",
+            "발을"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "으악",
+              "terms": [
+                "으악"
+              ]
+            },
+            {
+              "name": "연기했지만",
+              "terms": [
+                "연기했지만"
+              ]
+            },
+            {
+              "name": "덜미",
+              "terms": [
+                "덜미"
+              ]
+            },
+            {
+              "name": "택시",
+              "terms": [
+                "택시"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3,
+          "semanticFacets": {
+            "locations": [],
+            "actions": [],
+            "roles": [],
+            "dates": []
+          }
+        },
+        "rejectionReason": null
+      }
+    },
+    {
+      "title": "&quot;으악!&quot; 연기했지만 덜미…택시 바퀴에 발 넣은 남성 결국 #JTBC #Shorts",
+      "url": "https://www.youtube.com/watch?v=iv7xhmp39Fc",
+      "publisher": "JTBC News",
+      "date": "2026-08-26T01:27:49Z",
+      "status": "indexed",
+      "snippet": "지금, 이슈의 현장을 실시간으로! ☞JTBC 모바일라이브 시청하기 https://www.youtube.com/@jtbc_news/streams ☞JTBC유튜브 ...",
+      "fetchedAt": "2026-09-04T11:30:50.946Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/iv7xhmp39Fc/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 1,
+        "matchedAnchors": [
+          "으악",
+          "연기했지만",
+          "덜미",
+          "택시",
+          "바퀴에",
+          "넣은",
+          "결국"
+        ],
+        "matchedDistinctiveAnchors": [
+          "으악",
+          "연기했지만",
+          "덜미",
+          "택시"
+        ],
+        "semanticMatch": {
+          "sharedActions": [],
+          "sharedLocations": [],
+          "sharedRoles": [],
+          "candidateFacets": {
+            "locations": [],
+            "actions": [],
+            "roles": [],
+            "dates": []
+          },
+          "minimumActionMatches": 0,
+          "minimumRoleMatches": 0,
+          "locationConflict": false
+        },
+        "eventFingerprint": {
+          "anchors": [
+            "으악",
+            "연기했지만",
+            "덜미",
+            "택시",
+            "바퀴에",
+            "넣은",
+            "결국",
+            "스스로",
+            "발을"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "으악",
+              "terms": [
+                "으악"
+              ]
+            },
+            {
+              "name": "연기했지만",
+              "terms": [
+                "연기했지만"
+              ]
+            },
+            {
+              "name": "덜미",
+              "terms": [
+                "덜미"
+              ]
+            },
+            {
+              "name": "택시",
+              "terms": [
+                "택시"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3,
+          "semanticFacets": {
+            "locations": [],
+            "actions": [],
+            "roles": [],
+            "dates": []
+          }
+        },
+        "rejectionReason": null
+      }
+    }
+  ],
+  "priorContext": [],
+  "followUps": [],
+  "laws": [],
+  "actors": [],
+  "contradictions": [],
+  "unknowns": [],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 2,
+    "priorContext": 0,
+    "originalMedia": 2,
+    "followUps": 0,
+    "laws": 0,
+    "errors": 0
+  },
+  "eventDossier": {
+    "schemaVersion": 3,
+    "slug": "research-1b6228cfdb86ef94",
+    "generatedAt": "2026-09-04T11:30:42.503Z",
+    "researchSnapshotSha256": "5a8a3e6d60abbaf24b6fea2339b3a85fc74b1f8f286e87c767153ce73aa4d58e",
+    "eventIdentity": {
+      "title": "\"으악!\" 연기했지만 덜미…택시 바퀴에 발 넣은 남성 결국",
+      "fingerprint": {
+        "anchors": [
+          "으악",
+          "연기했지만",
+          "덜미",
+          "택시",
+          "바퀴에",
+          "넣은",
+          "결국",
+          "스스로",
+          "발을"
+        ],
+        "distinctiveAnchors": [
+          {
+            "name": "으악",
+            "terms": [
+              "으악"
+            ]
+          },
+          {
+            "name": "연기했지만",
+            "terms": [
+              "연기했지만"
+            ]
+          },
+          {
+            "name": "덜미",
+            "terms": [
+              "덜미"
+            ]
+          },
+          {
+            "name": "택시",
+            "terms": [
+              "택시"
+            ]
+          }
+        ],
+        "minDistinctiveMatches": 2,
+        "minTotalMatches": 3,
+        "semanticFacets": {
+          "locations": [],
+          "actions": [],
+          "roles": [],
+          "dates": []
+        }
+      }
+    },
+    "actors": [],
+    "confirmedFacts": [
+      {
+        "id": "claim-5a628e6362a5",
+        "summary": "택시 바퀴에 고의로 발을 넣어 사고를 당한 것처럼 꾸민 남성이 검찰 조사를 받게 됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-1b6228cfdb86"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-30e4eca84b31",
+        "summary": "25일 교통사고 전문 한문철 변호사는 자신의 유튜브 채널을 통해 최근 택시에 일부러 접근해 허위 사고를 꾸며낸 한 남성의 영상을 공개했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-1b6228cfdb86"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-fc4d0167fa23",
+        "summary": "영상을 보면, 택시 승강장 자리를 메우기 위해 천천히 전진하던 택시에 한 남성이 다가갑니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-1b6228cfdb86"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-34c33673380f",
+        "summary": "이 남성은 문을 두드리는 척하더니 이내 자신의 오른발은 택시 바퀴에 넣습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-1b6228cfdb86"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-e95538f3a55a",
+        "summary": "\"으악!\" 소리를 지르며 넘어진 남성, 그러나 이 자작극은 택시에 달려있던 측방 블랙박스에 고스란히 담겼습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-1b6228cfdb86"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-52bf3b43d3a8",
+        "summary": "한문철 변호사는 \"중요한 건 (보험사에) 대인 접수가 돼있었고 실행에 착수한 점\"이라며 \"무거운 처벌을 받을 것\"이라고 분석했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-1b6228cfdb86"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "investigationAndCharges": [
+      {
+        "id": "claim-2630f8fc09b8",
+        "summary": "결국 남성은 보험 사기 혐의로 검찰에 송치됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-1b6228cfdb86"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "trialStagesAndSentenceChanges": [],
+    "prosecutionClaims": [],
+    "defenseClaims": [],
+    "courtFindings": [],
+    "victimImpact": [],
+    "timeline": [],
+    "conflicts": [],
+    "unknowns": [],
+    "laterChanges": [],
+    "narrative": {
+      "overview": [
+        {
+          "id": "claim-5a628e6362a5",
+          "summary": "택시 바퀴에 고의로 발을 넣어 사고를 당한 것처럼 꾸민 남성이 검찰 조사를 받게 됐습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-30e4eca84b31",
+          "summary": "25일 교통사고 전문 한문철 변호사는 자신의 유튜브 채널을 통해 최근 택시에 일부러 접근해 허위 사고를 꾸며낸 한 남성의 영상을 공개했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-fc4d0167fa23",
+          "summary": "영상을 보면, 택시 승강장 자리를 메우기 위해 천천히 전진하던 택시에 한 남성이 다가갑니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-34c33673380f",
+          "summary": "이 남성은 문을 두드리는 척하더니 이내 자신의 오른발은 택시 바퀴에 넣습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-e95538f3a55a",
+          "summary": "\"으악!\" 소리를 지르며 넘어진 남성, 그러나 이 자작극은 택시에 달려있던 측방 블랙박스에 고스란히 담겼습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-2630f8fc09b8",
+          "summary": "결국 남성은 보험 사기 혐의로 검찰에 송치됐습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-52bf3b43d3a8",
+          "summary": "한문철 변호사는 \"중요한 건 (보험사에) 대인 접수가 돼있었고 실행에 착수한 점\"이라며 \"무거운 처벌을 받을 것\"이라고 분석했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "chronology": [],
+      "sameEventFindings": [
+        {
+          "id": "claim-5a628e6362a5",
+          "summary": "택시 바퀴에 고의로 발을 넣어 사고를 당한 것처럼 꾸민 남성이 검찰 조사를 받게 됐습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-30e4eca84b31",
+          "summary": "25일 교통사고 전문 한문철 변호사는 자신의 유튜브 채널을 통해 최근 택시에 일부러 접근해 허위 사고를 꾸며낸 한 남성의 영상을 공개했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-fc4d0167fa23",
+          "summary": "영상을 보면, 택시 승강장 자리를 메우기 위해 천천히 전진하던 택시에 한 남성이 다가갑니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-34c33673380f",
+          "summary": "이 남성은 문을 두드리는 척하더니 이내 자신의 오른발은 택시 바퀴에 넣습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-e95538f3a55a",
+          "summary": "\"으악!\" 소리를 지르며 넘어진 남성, 그러나 이 자작극은 택시에 달려있던 측방 블랙박스에 고스란히 담겼습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-2630f8fc09b8",
+          "summary": "결국 남성은 보험 사기 혐의로 검찰에 송치됐습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "investigation",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-52bf3b43d3a8",
+          "summary": "한문철 변호사는 \"중요한 건 (보험사에) 대인 접수가 돼있었고 실행에 착수한 점\"이라며 \"무거운 처벌을 받을 것\"이라고 분석했습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "priorContext": [],
+      "followUpDevelopments": [],
+      "detailSections": [
+        {
+          "id": "investigation",
+          "title": "수사와 양측 주장",
+          "description": "적용 혐의와 검찰·피고인 측 주장",
+          "claims": [
+            {
+              "id": "claim-2630f8fc09b8",
+              "summary": "결국 남성은 보험 사기 혐의로 검찰에 송치됐습니다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "investigation",
+              "sourceIds": [
+                "src-1b6228cfdb86"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": false
+            }
+          ]
+        }
+      ],
+      "sourceAgreement": [
+        {
+          "claimId": "claim-5a628e6362a5",
+          "summary": "택시 바퀴에 고의로 발을 넣어 사고를 당한 것처럼 꾸민 남성이 검찰 조사를 받게 됐습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-30e4eca84b31",
+          "summary": "25일 교통사고 전문 한문철 변호사는 자신의 유튜브 채널을 통해 최근 택시에 일부러 접근해 허위 사고를 꾸며낸 한 남성의 영상을 공개했습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-fc4d0167fa23",
+          "summary": "영상을 보면, 택시 승강장 자리를 메우기 위해 천천히 전진하던 택시에 한 남성이 다가갑니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-34c33673380f",
+          "summary": "이 남성은 문을 두드리는 척하더니 이내 자신의 오른발은 택시 바퀴에 넣습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-e95538f3a55a",
+          "summary": "\"으악!\" 소리를 지르며 넘어진 남성, 그러나 이 자작극은 택시에 달려있던 측방 블랙박스에 고스란히 담겼습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-2630f8fc09b8",
+          "summary": "결국 남성은 보험 사기 혐의로 검찰에 송치됐습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-52bf3b43d3a8",
+          "summary": "한문철 변호사는 \"중요한 건 (보험사에) 대인 접수가 돼있었고 실행에 착수한 점\"이라며 \"무거운 처벌을 받을 것\"이라고 분석했습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-1b6228cfdb86"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        }
+      ],
+      "conflicts": [],
+      "unresolvedQuestions": [],
+      "limitations": [
+        "독립적으로 검증된 동일 사건 추가 보도를 찾지 못했습니다.",
+        "이 사건의 직접적인 사전 맥락으로 확인된 보도를 찾지 못했습니다.",
+        "현재까지 확인된 후속 보도가 없습니다."
+      ]
+    },
+    "sourceCoverage": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "sameEventCoverageCount": 0,
+      "priorContextCount": 0,
+      "followUpCount": 0,
+      "independentPublisherCount": 1,
+      "corroboration": "single-source",
+      "rejectedSameEventSourceCount": 0
+    },
+    "readiness": {
+      "readyForLegal": true,
+      "readyForDraft": true,
+      "preferredCorroborationMet": false,
+      "detailedNarrativeComplete": true,
+      "storyClaimCount": 7,
+      "narrativePhaseCount": 2,
+      "blockers": [],
+      "warnings": [
+        "single-source-only"
+      ]
+    },
+    "sourceIndex": [
+      {
+        "sourceId": "src-1b6228cfdb86",
+        "url": "https://news.jtbc.co.kr/article/NB12315132",
+        "title": "\"으악!\" 연기했지만 덜미…택시 바퀴에 발 넣은 남성 결국",
+        "publisher": "JTBC 뉴스",
+        "date": "",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "sourceExclusions": [],
+    "currentHash": "556c7eba2fe68074f8e17d42f047a2c7351bf5b32a8f9c33414af9de42e0ed8a"
+  }
+}

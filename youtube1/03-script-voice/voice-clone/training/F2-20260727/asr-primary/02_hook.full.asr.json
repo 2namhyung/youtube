@@ -1,0 +1,391 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\profiles\\F\\refs\\02_hook.full.wav",
+  "model": "large-v3",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 27.0506875,
+  "duration_after_vad": 21.088,
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.19,
+      "end": 3.47,
+      "text": "여러분이라면 이 상황을 그냥 넘길 수 있습니까?",
+      "avg_logprob": -0.078657673841173,
+      "no_speech_prob": 0.0033245086669921875,
+      "compression_ratio": 1.4846625766871167,
+      "words": [
+        {
+          "start": 1.19,
+          "end": 1.83,
+          "word": " 여러분이라면",
+          "probability": 0.9925130208333334
+        },
+        {
+          "start": 1.83,
+          "end": 2.07,
+          "word": " 이",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 2.07,
+          "end": 2.49,
+          "word": " 상황을",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 2.49,
+          "end": 2.65,
+          "word": " 그냥",
+          "probability": 1.0
+        },
+        {
+          "start": 2.65,
+          "end": 3.01,
+          "word": " 넘길",
+          "probability": 0.997802734375
+        },
+        {
+          "start": 3.01,
+          "end": 3.05,
+          "word": " 수",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 3.05,
+          "end": 3.47,
+          "word": " 있습니까?",
+          "probability": 0.999755859375
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 4.06,
+      "end": 5.14,
+      "text": "범인은 잡혔습니다.",
+      "avg_logprob": -0.078657673841173,
+      "no_speech_prob": 0.0033245086669921875,
+      "compression_ratio": 1.4846625766871167,
+      "words": [
+        {
+          "start": 4.06,
+          "end": 4.6,
+          "word": " 범인은",
+          "probability": 0.9996337890625
+        },
+        {
+          "start": 4.6,
+          "end": 5.14,
+          "word": " 잡혔습니다.",
+          "probability": 0.9998372395833334
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 5.28,
+      "end": 8.36,
+      "text": "그런데 피해자의 공포는 그때부터 시작됐습니다.",
+      "avg_logprob": -0.078657673841173,
+      "no_speech_prob": 0.0033245086669921875,
+      "compression_ratio": 1.4846625766871167,
+      "words": [
+        {
+          "start": 5.28,
+          "end": 5.8,
+          "word": " 그런데",
+          "probability": 1.0
+        },
+        {
+          "start": 6.24,
+          "end": 6.82,
+          "word": " 피해자의",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 6.82,
+          "end": 7.2,
+          "word": " 공포는",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 7.2,
+          "end": 7.66,
+          "word": " 그때부터",
+          "probability": 0.9998779296875
+        },
+        {
+          "start": 7.66,
+          "end": 8.36,
+          "word": " 시작됐습니다.",
+          "probability": 0.9998372395833334
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 9.37,
+      "end": 11.87,
+      "text": "매일 사용하는 물건에 누군가 손을 댔다면 어떨까요?",
+      "avg_logprob": -0.078657673841173,
+      "no_speech_prob": 0.0033245086669921875,
+      "compression_ratio": 1.4846625766871167,
+      "words": [
+        {
+          "start": 9.37,
+          "end": 9.63,
+          "word": " 매일",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 9.63,
+          "end": 10.03,
+          "word": " 사용하는",
+          "probability": 1.0
+        },
+        {
+          "start": 10.03,
+          "end": 10.47,
+          "word": " 물건에",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 10.47,
+          "end": 10.91,
+          "word": " 누군가",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 10.91,
+          "end": 11.15,
+          "word": " 손을",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 11.15,
+          "end": 11.43,
+          "word": " 댔다면",
+          "probability": 0.9982096354166666
+        },
+        {
+          "start": 11.43,
+          "end": 11.87,
+          "word": " 어떨까요?",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 12.77,
+      "end": 14.99,
+      "text": "게다가 누가 그랬는지도 알 수 없다면요?",
+      "avg_logprob": -0.078657673841173,
+      "no_speech_prob": 0.0033245086669921875,
+      "compression_ratio": 1.4846625766871167,
+      "words": [
+        {
+          "start": 12.77,
+          "end": 13.29,
+          "word": " 게다가",
+          "probability": 1.0
+        },
+        {
+          "start": 13.29,
+          "end": 13.59,
+          "word": " 누가",
+          "probability": 1.0
+        },
+        {
+          "start": 13.59,
+          "end": 14.21,
+          "word": " 그랬는지도",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 14.21,
+          "end": 14.37,
+          "word": " 알",
+          "probability": 1.0
+        },
+        {
+          "start": 14.37,
+          "end": 14.49,
+          "word": " 수",
+          "probability": 1.0
+        },
+        {
+          "start": 14.49,
+          "end": 14.99,
+          "word": " 없다면요?",
+          "probability": 0.9996337890625
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 15.57,
+      "end": 17.83,
+      "text": "이것은 드라마 속 이야기가 아닙니다.",
+      "avg_logprob": -0.078657673841173,
+      "no_speech_prob": 0.0033245086669921875,
+      "compression_ratio": 1.4846625766871167,
+      "words": [
+        {
+          "start": 15.57,
+          "end": 16.19,
+          "word": " 이것은",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 16.19,
+          "end": 16.51,
+          "word": " 드라마",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 16.51,
+          "end": 16.61,
+          "word": " 속",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 16.61,
+          "end": 17.27,
+          "word": " 이야기가",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 17.27,
+          "end": 17.83,
+          "word": " 아닙니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 17.87,
+      "end": 21.16,
+      "text": "우리가 매일 지나는 곳에서 실제로 벌어진 일입니다.",
+      "avg_logprob": -0.078657673841173,
+      "no_speech_prob": 0.0033245086669921875,
+      "compression_ratio": 1.4846625766871167,
+      "words": [
+        {
+          "start": 17.87,
+          "end": 18.33,
+          "word": " 우리가",
+          "probability": 1.0
+        },
+        {
+          "start": 18.92,
+          "end": 19.28,
+          "word": " 매일",
+          "probability": 1.0
+        },
+        {
+          "start": 19.28,
+          "end": 19.6,
+          "word": " 지나는",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 19.6,
+          "end": 19.9,
+          "word": " 곳에서",
+          "probability": 1.0
+        },
+        {
+          "start": 19.9,
+          "end": 20.28,
+          "word": " 실제로",
+          "probability": 1.0
+        },
+        {
+          "start": 20.28,
+          "end": 20.82,
+          "word": " 벌어진",
+          "probability": 1.0
+        },
+        {
+          "start": 20.82,
+          "end": 21.16,
+          "word": " 일입니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 21.96,
+      "end": 23.68,
+      "text": "잡혔는데도 끝나지 않은 사건.",
+      "avg_logprob": -0.078657673841173,
+      "no_speech_prob": 0.0033245086669921875,
+      "compression_ratio": 1.4846625766871167,
+      "words": [
+        {
+          "start": 21.96,
+          "end": 22.7,
+          "word": " 잡혔는데도",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 22.7,
+          "end": 23.18,
+          "word": " 끝나지",
+          "probability": 1.0
+        },
+        {
+          "start": 23.18,
+          "end": 23.36,
+          "word": " 않은",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 23.36,
+          "end": 23.68,
+          "word": " 사건.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 23.78,
+      "end": 25.46,
+      "text": "대체 무엇이 잘못된 걸까요?",
+      "avg_logprob": -0.078657673841173,
+      "no_speech_prob": 0.0033245086669921875,
+      "compression_ratio": 1.4846625766871167,
+      "words": [
+        {
+          "start": 23.78,
+          "end": 24.44,
+          "word": " 대체",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 24.44,
+          "end": 24.8,
+          "word": " 무엇이",
+          "probability": 1.0
+        },
+        {
+          "start": 24.8,
+          "end": 25.22,
+          "word": " 잘못된",
+          "probability": 1.0
+        },
+        {
+          "start": 25.22,
+          "end": 25.46,
+          "word": " 걸까요?",
+          "probability": 0.999755859375
+        }
+      ]
+    }
+  ]
+}

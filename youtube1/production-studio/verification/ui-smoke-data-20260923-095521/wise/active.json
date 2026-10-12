@@ -1,0 +1,9 @@
+{
+  "status": "ready",
+  "run_id": "project-wise-35346ce5bdcb430d93afb8d5b1cd0100",
+  "source_count": 1,
+  "wise_url": "http://127.0.0.1:9670/project-wise-35346ce5bdcb430d93afb8d5b1cd0100/",
+  "server_pid": 6684,
+  "project_dir": "C:\\Users\\User\\Desktop\\app\\youtube\\production-studio\\data\\wise\\runs\\wise-35346ce5bdcb430d93afb8d5b1cd0100\\project-wise-35346ce5bdcb430d93afb8d5b1cd0100",
+  "manifest_path": "C:\\Users\\User\\Desktop\\app\\youtube\\production-studio\\data\\wise\\runs\\wise-35346ce5bdcb430d93afb8d5b1cd0100\\source-manifest.json"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-script-rejection-audit-v9",
+  "title": "Newsroom script rejection audit v9",
+  "description": "Append-only hash-chain entry for a rejected v27 script-only narration attempt.",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema", "decision", "reasons", "generation", "critique", "policyBinding", "editorialDirection", "editorialIntent", "recordedAt", "previousEntrySha256", "entrySha256"],
+  "properties": {
+    "schema": { "const": "newsroom-script-rejection-audit-v9" }, "decision": { "const": "reject" },
+    "reasons": { "$ref": "newsroom-script-admission-rejection-v6.schema.json#/properties/reasons" },
+    "generation": { "type": "object", "additionalProperties": false, "required": ["schemaVersion", "provider", "model", "reasoning", "promptContractVersion", "criticPromptContractVersion", "generatorPromptSha256", "criticPromptSha256", "packageSha256", "initialOutputSha256", "critiqueOutputSha256", "outputSha256", "cliVersion", "callCount", "generatorAttemptCount", "criticAttemptCount", "retryCount", "decision", "criticDecision", "revisionApplied", "timing", "generatedAt"], "properties": {
+      "schemaVersion": { "const": 23 }, "provider": { "const": "codex-cli" }, "model": { "const": "gpt-5.6-sol" }, "reasoning": { "const": "medium" }, "promptContractVersion": { "const": "newsroom-autonomous-narration-prompt-v27" }, "criticPromptContractVersion": { "const": "newsroom-independent-narration-critic-prompt-v13" },
+      "generatorPromptSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "criticPromptSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "packageSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "initialOutputSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "critiqueOutputSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "outputSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "cliVersion": { "type": "string", "maxLength": 120 },
+      "callCount": { "const": 2 }, "generatorAttemptCount": { "const": 1 }, "criticAttemptCount": { "const": 1 }, "retryCount": { "const": 0 }, "decision": { "const": "reject" }, "criticDecision": { "const": "reject" }, "revisionApplied": { "const": false }, "timing": { "$ref": "newsroom-independent-narration-critique-v8.schema.json#/properties/timing" }, "generatedAt": { "type": "string", "maxLength": 40 }
+    } },
+    "critique": { "$ref": "newsroom-independent-narration-critique-v8.schema.json" },
+    "policyBinding": { "type": "object", "additionalProperties": false, "required": ["eventDossierSha256", "legalReportSha256", "editorialIntentSha256", "caseBriefSha256", "packageSha256"], "properties": {
+      "eventDossierSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "legalReportSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "editorialIntentSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "caseBriefSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "packageSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+    } },
+    "editorialDirection": { "type": ["string", "null"], "maxLength": 2000 }, "editorialIntent": { "$ref": "newsroom-stage03-editorial-intent-v1.schema.json" }, "recordedAt": { "type": "string", "maxLength": 40 }, "previousEntrySha256": { "type": "string", "pattern": "^(?:|[a-f0-9]{64})$" }, "entrySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  }
+}

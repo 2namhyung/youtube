@@ -1,0 +1,193 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-20260728\\source-work\\F4_validation.full.wav",
+  "model": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F\\asr\\model-cache\\models--Systran--faster-whisper-large-v3\\snapshots\\edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 18.133375,
+  "duration_after_vad": 13.024,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.97,
+      "end": 7.53,
+      "text": "검찰은 건조물 침입과 재물손괴 혐의를 따로 검토했고 디지털 포렌식 결과도 함께 살폈습니다.",
+      "avg_logprob": -0.08417038371165593,
+      "no_speech_prob": 0.005218505859375,
+      "compression_ratio": 1.2268518518518519,
+      "words": [
+        {
+          "start": 0.97,
+          "end": 1.57,
+          "word": " 검찰은",
+          "probability": 0.9736328125
+        },
+        {
+          "start": 1.57,
+          "end": 2.07,
+          "word": " 건조물",
+          "probability": 0.9947509765625
+        },
+        {
+          "start": 2.07,
+          "end": 2.53,
+          "word": " 침입과",
+          "probability": 0.9793701171875
+        },
+        {
+          "start": 2.53,
+          "end": 3.21,
+          "word": " 재물손괴",
+          "probability": 0.85146484375
+        },
+        {
+          "start": 3.21,
+          "end": 3.55,
+          "word": " 혐의를",
+          "probability": 0.9981689453125
+        },
+        {
+          "start": 3.55,
+          "end": 3.85,
+          "word": " 따로",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 3.85,
+          "end": 4.39,
+          "word": " 검토했고",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 4.95,
+          "end": 5.85,
+          "word": " 디지털",
+          "probability": 0.94482421875
+        },
+        {
+          "start": 5.85,
+          "end": 6.21,
+          "word": " 포렌식",
+          "probability": 0.9915771484375
+        },
+        {
+          "start": 6.21,
+          "end": 6.63,
+          "word": " 결과도",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 6.63,
+          "end": 6.83,
+          "word": " 함께",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 6.83,
+          "end": 7.53,
+          "word": " 살폈습니다.",
+          "probability": 0.9984130859375
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 9.75,
+      "end": 13.33,
+      "text": "지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다.",
+      "avg_logprob": -0.08417038371165593,
+      "no_speech_prob": 0.005218505859375,
+      "compression_ratio": 1.2268518518518519,
+      "words": [
+        {
+          "start": 9.75,
+          "end": 10.23,
+          "word": " 지난",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 10.23,
+          "end": 10.63,
+          "word": " 6월",
+          "probability": 0.998046875
+        },
+        {
+          "start": 10.63,
+          "end": 11.01,
+          "word": " 제주",
+          "probability": 0.991455078125
+        },
+        {
+          "start": 11.01,
+          "end": 11.17,
+          "word": " 한",
+          "probability": 0.99365234375
+        },
+        {
+          "start": 11.17,
+          "end": 11.75,
+          "word": " 학교에서",
+          "probability": 0.9978841145833334
+        },
+        {
+          "start": 11.75,
+          "end": 12.29,
+          "word": " 비슷한",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 12.29,
+          "end": 12.67,
+          "word": " 신고가",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 12.67,
+          "end": 13.33,
+          "word": " 접수됐습니다.",
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 14.53,
+      "end": 17.15,
+      "text": "반복을 막으려면 어떤 보호장치가 필요할까요?",
+      "avg_logprob": -0.08417038371165593,
+      "no_speech_prob": 0.005218505859375,
+      "compression_ratio": 1.2268518518518519,
+      "words": [
+        {
+          "start": 14.53,
+          "end": 15.13,
+          "word": " 반복을",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 15.13,
+          "end": 15.57,
+          "word": " 막으려면",
+          "probability": 0.9996337890625
+        },
+        {
+          "start": 15.57,
+          "end": 15.79,
+          "word": " 어떤",
+          "probability": 0.998046875
+        },
+        {
+          "start": 15.79,
+          "end": 16.53,
+          "word": " 보호장치가",
+          "probability": 0.98486328125
+        },
+        {
+          "start": 16.53,
+          "end": 17.15,
+          "word": " 필요할까요?",
+          "probability": 0.9920247395833334
+        }
+      ]
+    }
+  ]
+}

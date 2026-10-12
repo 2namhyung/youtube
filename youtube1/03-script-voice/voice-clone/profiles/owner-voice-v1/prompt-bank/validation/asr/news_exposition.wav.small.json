@@ -1,0 +1,142 @@
+{
+  "language": "ko",
+  "languageProbability": 1.0,
+  "durationSeconds": 7.84,
+  "generationSeconds": 0.58,
+  "transcript": "원뱃은 땅 꿀 파기에 다딘으로 거의 매일 땅을 파매 살아가는데요 그래서 몸에 크기 많이 묻어 피부가 자주 가려워집니다",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.02,
+      "text": "원뱃은 땅 꿀 파기에 다딘으로 거의 매일 땅을 파매 살아가는데요",
+      "avgLogProbability": -0.267154,
+      "noSpeechProbability": 0.008827,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.64,
+          "text": "원뱃은",
+          "probability": 0.805542
+        },
+        {
+          "start": 0.64,
+          "end": 1.04,
+          "text": "땅",
+          "probability": 0.986328
+        },
+        {
+          "start": 1.04,
+          "end": 1.28,
+          "text": "꿀",
+          "probability": 0.568604
+        },
+        {
+          "start": 1.28,
+          "end": 1.58,
+          "text": "파기에",
+          "probability": 0.772949
+        },
+        {
+          "start": 1.58,
+          "end": 2.04,
+          "text": "다딘으로",
+          "probability": 0.74823
+        },
+        {
+          "start": 2.04,
+          "end": 2.56,
+          "text": "거의",
+          "probability": 0.964355
+        },
+        {
+          "start": 2.56,
+          "end": 3.02,
+          "text": "매일",
+          "probability": 0.992676
+        },
+        {
+          "start": 3.02,
+          "end": 3.34,
+          "text": "땅을",
+          "probability": 0.995768
+        },
+        {
+          "start": 3.34,
+          "end": 3.52,
+          "text": "파매",
+          "probability": 0.727295
+        },
+        {
+          "start": 3.52,
+          "end": 4.02,
+          "text": "살아가는데요",
+          "probability": 0.796631
+        }
+      ]
+    },
+    {
+      "start": 4.02,
+      "end": 7.58,
+      "text": "그래서 몸에 크기 많이 묻어 피부가 자주 가려워집니다",
+      "avgLogProbability": -0.267154,
+      "noSpeechProbability": 0.008827,
+      "words": [
+        {
+          "start": 4.02,
+          "end": 4.58,
+          "text": "그래서",
+          "probability": 0.53418
+        },
+        {
+          "start": 4.58,
+          "end": 5.24,
+          "text": "몸에",
+          "probability": 0.962891
+        },
+        {
+          "start": 5.24,
+          "end": 5.62,
+          "text": "크기",
+          "probability": 0.887939
+        },
+        {
+          "start": 5.62,
+          "end": 5.86,
+          "text": "많이",
+          "probability": 0.99707
+        },
+        {
+          "start": 5.86,
+          "end": 6.3,
+          "text": "묻어",
+          "probability": 0.914307
+        },
+        {
+          "start": 6.3,
+          "end": 6.8,
+          "text": "피부가",
+          "probability": 0.964355
+        },
+        {
+          "start": 6.8,
+          "end": 7.0,
+          "text": "자주",
+          "probability": 0.946777
+        },
+        {
+          "start": 7.0,
+          "end": 7.58,
+          "text": "가려워집니다",
+          "probability": 0.812695
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceFile": "news_exposition.wav",
+  "sourceSha256": "1ae5c6b35ea23bec4b48463536a04839da8138d64db0fa146583795297443dd6",
+  "model": "small",
+  "device": "cuda",
+  "computeType": "float16",
+  "diagnosticOnly": true
+}

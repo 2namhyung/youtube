@@ -1,0 +1,35 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import { execFileSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const projectId = 'research-6b1a8af9b4143acb';
+const out = path.join(root, 'out', 'prototypes', `${projectId}-v34-grok-cut001-layout-keyframe-candidate`);
+const manifestPath = path.join(out, 'candidate-manifest-v1.json');
+const reportPath = path.join(out, 'verifier-v1.json');
+const ffprobe = 'C:\\Users\\User\\tools\\ffmpeg-8.1-essentials_build\\bin\\ffprobe.exe';
+const sha = b => crypto.createHash('sha256').update(b).digest('hex');
+const read = p => fs.readFileSync(p);
+const assert = (ok, message) => { if (!ok) throw new Error(message); };
+const manifestBytes = read(manifestPath);
+const manifest = JSON.parse(manifestBytes.toString('utf8'));
+assert(manifest.schema === 'grok-layout-keyframe-candidate-v1', 'schema drift');
+assert(manifest.status === 'qa-passed-human-approval-pending', 'status drift');
+assert(manifest.production?.approved === false && manifest.permissions?.providerCall === false, 'candidate cannot authorize provider');
+assert(manifest.priorAttemptEvidence?.length === 3 && manifest.priorAttemptEvidence.every(x => x.semanticQa === 'rejected'), 'rejection lineage missing');
+assert(Object.values(manifest.visualQa ?? {}).every(Boolean), 'visual QA flag false');
+const imagePath = path.resolve(out, manifest.file);
+assert(path.dirname(imagePath) === out, 'image containment failure');
+const stat = fs.lstatSync(imagePath);
+assert(stat.isFile() && !stat.isSymbolicLink(), 'image not physical');
+const imageBytes = read(imagePath);
+assert(imageBytes.length === manifest.bytes && sha(imageBytes) === manifest.sha256, 'image bytes/hash drift');
+const probe = JSON.parse(execFileSync(ffprobe, ['-v','error','-select_streams','v:0','-show_entries','stream=width,height,pix_fmt','-of','json',imagePath], { encoding: 'utf8' }));
+assert(probe.streams?.[0]?.width === manifest.dimensions.width && probe.streams?.[0]?.height === manifest.dimensions.height, 'dimensions drift');
+const report = { schema:'grok-layout-keyframe-candidate-verifier-v1', verified:true, manifestSha256:sha(manifestBytes), imageSha256:sha(imageBytes), dimensions:probe.streams[0], productionApproved:false, providerCall:false, humanApprovalPending:true };
+const bytes = Buffer.from(`${JSON.stringify(report, null, 2)}\n`);
+if (fs.existsSync(reportPath)) assert(read(reportPath).equals(bytes), `append-only drift: ${reportPath}`);
+else { fs.writeFileSync(reportPath, bytes, { flag:'wx' }); fs.chmodSync(reportPath, 0o444); }
+console.log(JSON.stringify({ reportPath, reportSha256:sha(read(reportPath)), ...report }, null, 2));

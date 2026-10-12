@@ -1,0 +1,128 @@
+{
+  "createdAt": "2026-08-04T12:44:57.859060+00:00",
+  "purpose": "Jeju school intrusion AI documentary reenactment motion assets",
+  "model": {
+    "family": "Wan 2.2 TI2V 5B",
+    "diffusion": "Wan2.2-TI2V-5B-Q5_0.gguf",
+    "textEncoder": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "vae": "wan2.2_vae.safetensors",
+    "workflow": "ComfyUI native Wan22ImageToVideoLatent + ComfyUI-GGUF",
+    "sources": [
+      "https://docs.comfy.org/tutorials/video/wan/wan2_2",
+      "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF",
+      "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged"
+    ]
+  },
+  "generation": {
+    "width": 480,
+    "height": 832,
+    "frames": 49,
+    "fps": 24,
+    "steps": 20,
+    "cfg": 5.0,
+    "sampler": "uni_pc",
+    "scheduler": "simple",
+    "shift": 8.0
+  },
+  "motionPlan": "06-production/comfyui-video/scene-motion-plan.json",
+  "assets": [
+    {
+      "scene": 1,
+      "asset": "assets/video/canonical-v3-scene-01-hook.mp4",
+      "sha256": "045d40ad1f9d17f00e954d2c039e8a0132e7879419d885ac808531043ab81838",
+      "bytes": 162509,
+      "video": {
+        "width": 480,
+        "height": 832,
+        "avg_frame_rate": "24/1",
+        "duration": "2.041667",
+        "nb_frames": "49"
+      },
+      "sourceStill": "assets/images/canonical-v2-scene-01-hook.png"
+    },
+    {
+      "scene": 2,
+      "asset": "assets/video/canonical-v3-scene-02-intrusion.mp4",
+      "sha256": "6f6adc02e38a5d84c1bf1a161a52014844a4e44b8ee87b177760254c588346a6",
+      "bytes": 136350,
+      "video": {
+        "width": 480,
+        "height": 832,
+        "avg_frame_rate": "24/1",
+        "duration": "2.041667",
+        "nb_frames": "49"
+      },
+      "sourceStill": "assets/images/canonical-v2-scene-02-intrusion.png"
+    },
+    {
+      "scene": 3,
+      "asset": "assets/video/canonical-v3-scene-03-tumbler.mp4",
+      "sha256": "c3aea51c7be2eef2aae2a6e73fc841e4dd0c80d2b217dd7389b89398a288c0f7",
+      "bytes": 144155,
+      "video": {
+        "width": 480,
+        "height": 832,
+        "avg_frame_rate": "24/1",
+        "duration": "2.041667",
+        "nb_frames": "49"
+      },
+      "sourceStill": "assets/images/canonical-v2-scene-03-tumbler.png"
+    },
+    {
+      "scene": 5,
+      "asset": "assets/video/canonical-v3-scene-05-chair.mp4",
+      "sha256": "fd99052eb3e092e1624ecbd7c7e7fbfd9876769a83480e1ad769c8364863a762",
+      "bytes": 193119,
+      "video": {
+        "width": 480,
+        "height": 832,
+        "avg_frame_rate": "24/1",
+        "duration": "2.041667",
+        "nb_frames": "49"
+      },
+      "sourceStill": "assets/images/canonical-v2-scene-05-chair.png"
+    },
+    {
+      "scene": 6,
+      "asset": "assets/video/canonical-v3-scene-06-cctv.mp4",
+      "sha256": "c849425c45c049eecad337a3725f8ec4ef5b6103f4df7826f4777b39eab69794",
+      "bytes": 202668,
+      "video": {
+        "width": 480,
+        "height": 832,
+        "avg_frame_rate": "24/1",
+        "duration": "2.041667",
+        "nb_frames": "49"
+      },
+      "sourceStill": "assets/images/canonical-v2-scene-06-cctv.png"
+    },
+    {
+      "scene": 11,
+      "asset": "assets/video/canonical-v3-scene-11-teacher-anxiety.mp4",
+      "sha256": "961c05c86637ca735a4d9ad005fe0c22dfdb1505936760a69e4bca2a6d101a14",
+      "bytes": 153354,
+      "video": {
+        "width": 480,
+        "height": 832,
+        "avg_frame_rate": "24/1",
+        "duration": "2.041667",
+        "nb_frames": "49"
+      },
+      "sourceStill": "assets/images/canonical-v2-scene-11-teacher-anxiety.png"
+    },
+    {
+      "scene": 12,
+      "asset": "assets/video/canonical-v3-scene-12-protection.mp4",
+      "sha256": "2981c178efcf9f97d6cf88fb2bbbed0c9ec1caeeb9fc79bfec4810b31d830e83",
+      "bytes": 246844,
+      "video": {
+        "width": 480,
+        "height": 832,
+        "avg_frame_rate": "24/1",
+        "duration": "2.041667",
+        "nb_frames": "49"
+      },
+      "sourceStill": "assets/images/canonical-v2-scene-12-protection.png"
+    }
+  ]
+}

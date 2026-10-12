@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "profileId": "F",
+  "engine": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+  "modelRevision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+  "sampleRate": 24000,
+  "referenceFormat": "mono PCM16 WAV",
+  "conversion": {
+    "sourceFormat": "M4A/AAC",
+    "sourceSampleRate": 48000,
+    "sourceChannels": 2,
+    "processing": [
+      "decode AAC",
+      "downmix to mono",
+      "resample to 24000 Hz",
+      "write signed 16-bit PCM"
+    ],
+    "denoise": false,
+    "compression": false,
+    "normalization": false,
+    "trim": "none; full recordings retained because transcript alignment is pending"
+  },
+  "privacy": {
+    "localOnly": true,
+    "uploadReferenceAudio": false
+  },
+  "styles": {
+    "neutral": {
+      "role": "default timbre and conversational delivery",
+      "fullReference": "refs/01_neutral.full.wav",
+      "sourceFile": "01_neutral.m4a",
+      "promptAudio": null,
+      "promptText": null,
+      "status": "full reference retained; prompt segment pending transcript alignment",
+      "durationSeconds": 86.272,
+      "sha256": "1E423DF2DA97A46FA64AB3C957F3B7093494A69FFF2B63CAD99D3D2A3F6504E1",
+      "peakDbfs": -9.014,
+      "integratedLufs": -31.9,
+      "dcOffsetSamples": -0.016,
+      "clipping": false
+    },
+    "hook": {
+      "role": "short, firm attention hook",
+      "fullReference": "refs/02_hook.full.wav",
+      "sourceFile": "02_hook.m4a",
+      "promptAudio": null,
+      "promptText": null,
+      "status": "full reference retained; prompt segment pending transcript alignment",
+      "durationSeconds": 27.051,
+      "sha256": "8EB47A39F6A97600BFC549D80EF175E79EF508F6B06E4C5FB44A6B24729CDD98",
+      "peakDbfs": -7.848,
+      "integratedLufs": -31.3,
+      "dcOffsetSamples": -0.046,
+      "clipping": false
+    },
+    "news": {
+      "role": "calm factual narration",
+      "fullReference": "refs/03_news.full.wav",
+      "sourceFile": "03_news.m4a",
+      "promptAudio": null,
+      "promptText": null,
+      "status": "full reference retained; prompt segment pending transcript alignment",
+      "durationSeconds": 48.939,
+      "sha256": "298E8EEABD5FB32715CA69676915BEA6970DACF85C9A09F79C974A101ECE1992",
+      "peakDbfs": -8.853,
+      "integratedLufs": -31.6,
+      "dcOffsetSamples": -0.036,
+      "clipping": false
+    },
+    "tension": {
+      "role": "slower, lower, tense delivery",
+      "fullReference": "refs/04_tension.full.wav",
+      "sourceFile": "04_tension.m4a",
+      "promptAudio": null,
+      "promptText": null,
+      "status": "full reference retained; prompt segment pending transcript alignment",
+      "durationSeconds": 42.731,
+      "sha256": "0B9E8C6711D7B34E85B96C6532552FD74C5AE8EB5615A5E58590E8D5EB0EE973",
+      "peakDbfs": -7.909,
+      "integratedLufs": -30.8,
+      "dcOffsetSamples": -0.074,
+      "clipping": false
+    },
+    "criticism": {
+      "role": "restrained frustration and criticism",
+      "fullReference": "refs/05_criticism.full.wav",
+      "sourceFile": "05_criticism.m4a",
+      "promptAudio": null,
+      "promptText": null,
+      "status": "full reference retained; prompt segment pending transcript alignment",
+      "durationSeconds": 45.312,
+      "sha256": "648E7BDE0A03144B78778E2983A63B59C89EC5F7874264EE612F7B925A315A80",
+      "peakDbfs": -8.488,
+      "integratedLufs": -31.3,
+      "dcOffsetSamples": -0.078,
+      "clipping": false
+    },
+    "solution": {
+      "role": "firm solution-oriented close",
+      "fullReference": "refs/06_solution.full.wav",
+      "sourceFile": "06_solution.m4a",
+      "promptAudio": null,
+      "promptText": null,
+      "status": "full reference retained; prompt segment pending transcript alignment",
+      "durationSeconds": 45.419,
+      "sha256": "1ACDAB2EE6E1BDD68C87B926D92A17133E59606B785B2F02774E226D7F62CC1A",
+      "peakDbfs": -9.048,
+      "integratedLufs": -31.2,
+      "dcOffsetSamples": -0.075,
+      "clipping": false
+    }
+  }
+}

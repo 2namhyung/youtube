@@ -1,0 +1,18 @@
+{
+  "status": "ready",
+  "provider": "local-procedural",
+  "model": "local-procedural-investigative-bed",
+  "version": "1.0.0",
+  "seed": 20260731,
+  "prompt": "restrained investigative tension, sparse low pulse, uneasy everyday atmosphere, no vocals, no melodic lead, no heroic resolution",
+  "instrumental": true,
+  "vocals": false,
+  "durationSeconds": 52.733333,
+  "sampleRate": 44100,
+  "channels": 2,
+  "license": "project-original-no-third-party-samples",
+  "thirdPartySamples": false,
+  "sha256": "3e88ec6128c7927dca9e7e7b34c83e36521eb4753286580aabb334da10a5833c",
+  "generatedAt": "2026-07-31T02:07:40.703412+00:00",
+  "output": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\production\\projects\\jeju-school-intrusion-short-v1\\assets\\audio\\review-bgm.wav"
+}

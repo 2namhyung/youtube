@@ -1,0 +1,166 @@
+{
+  "status": "pass",
+  "support": "unsupported-experimental",
+  "policy": {
+    "nominal_target_lufs": -23.0,
+    "peak_ceiling_dbfs": -1.0,
+    "pair_fairness": "one common safe LUFS target per role; gain only; no dynamics or trimming"
+  },
+  "roles": {
+    "hook": {
+      "common_target_lufs": -23.0,
+      "variants": {
+        "base": {
+          "raw_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\hook_base.wav",
+          "raw_sha256": "0591b91fc5a71cc7baada9def56c15e54486e740ef0a896e7f129603b914bfb1",
+          "raw_lufs": -27.3,
+          "raw_peak_dbfs": -8.429364620912095,
+          "gain_db": 4.300000000000001,
+          "mastered_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\hook_base.wav",
+          "mastered_sha256": "cf9d0021b57a16fd792d28b772041e615e63fe512976342b420a8a853c39004b",
+          "mastered_lufs": -23.0,
+          "mastered_peak_dbfs": -4.129604535629369,
+          "clipped_samples": 0
+        },
+        "adapter": {
+          "raw_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\hook_adapter.wav",
+          "raw_sha256": "40b5d21e3f8e6eefc3e0088e35c7b48eb8f5ab37bf408090f78e5735d509ed9c",
+          "raw_lufs": -26.7,
+          "raw_peak_dbfs": -7.950321998401529,
+          "gain_db": 3.6999999999999993,
+          "mastered_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\hook_adapter.wav",
+          "mastered_sha256": "14a98792508f358ea17b488252406cdb6509e53e43e386329df9009d305a30ad",
+          "mastered_lufs": -23.0,
+          "mastered_peak_dbfs": -4.250697107817131,
+          "clipped_samples": 0
+        }
+      },
+      "loudness_delta_lu": 0.0,
+      "passes": true
+    },
+    "news_exposition": {
+      "common_target_lufs": -23.0,
+      "variants": {
+        "base": {
+          "raw_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\news_exposition_base.wav",
+          "raw_sha256": "eac104f13468da15b51796f1df6d3c4e5753d0f2ad10396a5207316919bc7915",
+          "raw_lufs": -27.1,
+          "raw_peak_dbfs": -7.376516922714248,
+          "gain_db": 4.100000000000001,
+          "mastered_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\news_exposition_base.wav",
+          "mastered_sha256": "5f392e26c4d725792cb06767701b6e886cc2168db21e82d417b80baf87fa4c94",
+          "mastered_lufs": -23.0,
+          "mastered_peak_dbfs": -3.2765507044670397,
+          "clipped_samples": 0
+        },
+        "adapter": {
+          "raw_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\news_exposition_adapter.wav",
+          "raw_sha256": "ae0409efadbe252530d8df043c7ec29741938b9715b3d6162fb3582047048cfa",
+          "raw_lufs": -27.5,
+          "raw_peak_dbfs": -7.536630021204509,
+          "gain_db": 4.5,
+          "mastered_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\news_exposition_adapter.wav",
+          "mastered_sha256": "1e9bc424699e09aa0b65e2f86a772c4598cbb37b6bb7ce8868053bd1ed7bede9",
+          "mastered_lufs": -23.0,
+          "mastered_peak_dbfs": -3.036759101351472,
+          "clipped_samples": 0
+        }
+      },
+      "loudness_delta_lu": 0.0,
+      "passes": true
+    },
+    "tension": {
+      "common_target_lufs": -23.0,
+      "variants": {
+        "base": {
+          "raw_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\tension_base.wav",
+          "raw_sha256": "ce87b839db83a33e3fe6972d29261c5ea9f0759e45e6b5687a49477cef8c3d36",
+          "raw_lufs": -26.8,
+          "raw_peak_dbfs": -7.577123752532798,
+          "gain_db": 3.8000000000000007,
+          "mastered_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\tension_base.wav",
+          "mastered_sha256": "0db1ad202cdd433f372a7e67976d00f9c00fe73f0e4cd424b667e1810fe2904c",
+          "mastered_lufs": -23.0,
+          "mastered_peak_dbfs": -3.777366330263857,
+          "clipped_samples": 0
+        },
+        "adapter": {
+          "raw_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\tension_adapter.wav",
+          "raw_sha256": "6e21a23dea1bd96366b99035e49eb5e55aab4e2c5192160ab1e96f13581571cb",
+          "raw_lufs": -27.2,
+          "raw_peak_dbfs": -8.748567088786636,
+          "gain_db": 4.199999999999999,
+          "mastered_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\tension_adapter.wav",
+          "mastered_sha256": "402c1f29d1e23acf1d76abf1a061290b6cbfac1512ea27dfaf9cee83fc1deabe",
+          "mastered_lufs": -23.0,
+          "mastered_peak_dbfs": -4.548935498557115,
+          "clipped_samples": 0
+        }
+      },
+      "loudness_delta_lu": 0.0,
+      "passes": true
+    },
+    "criticism": {
+      "common_target_lufs": -23.0,
+      "variants": {
+        "base": {
+          "raw_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\criticism_base.wav",
+          "raw_sha256": "78a191f861cad9f814374b8d6c33bad996e5db345afce4caf9c2e1ff68553c2f",
+          "raw_lufs": -27.9,
+          "raw_peak_dbfs": -8.702242234243018,
+          "gain_db": 4.899999999999999,
+          "mastered_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\criticism_base.wav",
+          "mastered_sha256": "ccc38b41d09310148f4fb39c216d6f7097fd9ec77783ccd07c0f7d1531e353ac",
+          "mastered_lufs": -23.0,
+          "mastered_peak_dbfs": -3.8023805943204474,
+          "clipped_samples": 0
+        },
+        "adapter": {
+          "raw_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\criticism_adapter.wav",
+          "raw_sha256": "fa789f00184039cbd4858b603757ca7364a0ae4f60e5d6319b51a0b383d0222c",
+          "raw_lufs": -26.7,
+          "raw_peak_dbfs": -5.430387963108856,
+          "gain_db": 3.6999999999999993,
+          "mastered_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\criticism_adapter.wav",
+          "mastered_sha256": "cf9e1692a0b7195d5dad2cf382bb983f48861c473d3ba1e3d06b1458c311b474",
+          "mastered_lufs": -23.0,
+          "mastered_peak_dbfs": -1.7304364013279538,
+          "clipped_samples": 0
+        }
+      },
+      "loudness_delta_lu": 0.0,
+      "passes": true
+    },
+    "solution_closing": {
+      "common_target_lufs": -23.0,
+      "variants": {
+        "base": {
+          "raw_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\solution_closing_base.wav",
+          "raw_sha256": "dc16aa7029b33218b0e54c8313372a6edcc780643f54c5d5cebfbedd9cce5ca4",
+          "raw_lufs": -26.8,
+          "raw_peak_dbfs": -7.86599231037826,
+          "gain_db": 3.8000000000000007,
+          "mastered_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\solution_closing_base.wav",
+          "mastered_sha256": "d5214cd44d3e5c0cfa0afa8749cffa27827e9c497df7ece36a30bfa663602c5d",
+          "mastered_lufs": -23.0,
+          "mastered_peak_dbfs": -4.066298189595134,
+          "clipped_samples": 0
+        },
+        "adapter": {
+          "raw_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\solution_closing_adapter.wav",
+          "raw_sha256": "6095f496a311a78d7d7c0d5456bed2d6c8ec8b425fcbadc44593cbc1b50ee2d5",
+          "raw_lufs": -27.5,
+          "raw_peak_dbfs": -5.885932260100256,
+          "gain_db": 4.5,
+          "mastered_path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\solution_closing_adapter.wav",
+          "mastered_sha256": "10a4bfa7b98f56156a64de7d331194e959d4076478ccc9c12b18f65e2bd8ab72",
+          "mastered_lufs": -23.0,
+          "mastered_peak_dbfs": -1.3860251852706937,
+          "clipped_samples": 0
+        }
+      },
+      "loudness_delta_lu": 0.0,
+      "passes": true
+    }
+  }
+}

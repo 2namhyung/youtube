@@ -1,0 +1,68 @@
+{
+  "templateId": "paper-cut-grok-storyboard-v2",
+  "format": "layered-paper-cutout-color-storyboard",
+  "visualPlanning": {
+    "schema": "paper-cut-grok-storyboard-visual-planning-v2",
+    "cutDensity": {
+      "targetNonWhitespaceCharactersPerCut": 24,
+      "shortsFloorCharacters": 300,
+      "shortsMinCuts": 1,
+      "shortsTargetMinCuts": 1,
+      "shortsTargetMaxCuts": 40,
+      "shortsMaxCuts": 40
+    },
+    "cutDurationPolicy": {
+      "targetMinSeconds": 2,
+      "targetMaxSeconds": 3,
+      "exceptionMinSeconds": 1.5,
+      "exceptionMaxSeconds": 3.5,
+      "exceptionReasons": ["final-required-sentence", "required-sentence-boundary"]
+    },
+    "style": {
+      "useCase": "illustration-story",
+      "description": "layered fibrous paper-cut editorial color storyboard with hand-torn edges, practical story props, active blocking and cinematic depth",
+      "occupationalLegibility": "Show roles through wardrobe, environment, posture and story props without agency emblems, names, ranks or unit identifiers.",
+      "verifiedRoleFidelity": "Preserve only recurring roles required by the bound narration and evidence.",
+      "lighting": "soft directional studio light with distinct matte contact shadows between paper planes",
+      "color": "charcoal, warm kraft cream, muted teal, burgundy and cold cyan",
+      "materialTexture": "visible fibrous matte paper with torn or scissor-cut edges and no glossy or photoreal surface",
+      "faceTreatment": "smooth blank unprinted paper face area with no facial features",
+      "avoid": ["photorealism", "glossy 3D", "readable text", "logos", "watermarks", "real-person identity", "facial features", "frontal lineup", "portrait pose", "empty stage", "floating props"]
+    },
+    "continuity": {
+      "sameStoryWorld": true,
+      "preserveLocationsPropsWardrobe": true,
+      "firstGeneratedFrameIsStyleSeed": false
+    }
+  },
+  "animation": {
+    "schema": "paper-cut-grok-storyboard-authority-v2",
+    "generator": "grok-color-storyboard-i2v",
+    "fps": 24,
+    "durationPolicy": "visualPlanning.cutDurationPolicy",
+    "imageGenEveryCut": true,
+    "generativeVideoAllowed": true,
+    "providerInput": "exactly-one-approved-color-storyboard",
+    "separateReferenceUploadsAllowed": false,
+    "providerExecution": "deferred-explicit-gate",
+    "semanticQa": "independent-selected-continuous-window",
+    "normalization": "preserve-source-then-lanczos-480x480-24fps",
+    "requireStoryProp": true,
+    "requireActiveBlocking": true,
+    "requireDepthPlanes": ["foreground", "midground", "background"],
+    "allowedShotScales": ["extreme-close-up", "close-up", "medium", "two-shot", "wide", "overhead"],
+    "allowedCameraAngles": ["front-three-quarter", "side", "overhead", "low", "high", "public-pov"],
+    "allowedMoves": ["push-in", "pull-out", "pan-left", "pan-right", "tilt-down", "tilt-up", "locked-insert"],
+    "captionExclusionZone": { "top": 1320, "bottom": 1580 },
+    "actionZone": { "left": 100, "top": 480, "right": 980, "bottom": 1280 }
+  },
+  "output": { "width": 1080, "height": 1920, "fps": 24 },
+  "locked": {
+    "captions": { "color": "#FFFFFF", "background": "black", "safeArea": "preserve-caption-exclusion-zone" },
+    "imageGen": "approved-rough-plus-zero-to-three-character-masters-to-one-color-storyboard",
+    "animation": "grok-color-storyboard-only-after-explicit-provider-gate",
+    "transitions": "FFmpeg-purposeful-only",
+    "aiDisclosure": "required-on-output",
+    "release": "private-first-exact-file-stage07-gate"
+  }
+}

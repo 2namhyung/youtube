@@ -1,0 +1,53 @@
+{
+  "fixture_only": true,
+  "port": 9672,
+  "status": "available",
+  "source_ids": [
+    "fixture_image",
+    "fixture_video"
+  ],
+  "manifest": [
+    {
+      "source_id": "fixture_image",
+      "sha256": "82b5e36fe39d72afddca68bc7b973f0f28b7a15b66524c74c0b0440b21e0acb9",
+      "wise_media_id": "fixture_image.png"
+    },
+    {
+      "source_id": "fixture_video",
+      "sha256": "b60dfdf5a26437d4767da2fe268a0acd08c86020739c282c2297cd77c966b265",
+      "wise_media_id": "fixture_video.mp4"
+    }
+  ],
+  "video": {
+    "status": "available",
+    "count": 1,
+    "unresolved": 0,
+    "results": [
+      {
+        "source_id": "fixture_video",
+        "sha256": "b60dfdf5a26437d4767da2fe268a0acd08c86020739c282c2297cd77c966b265",
+        "start": 0.0,
+        "end": 2.0,
+        "raw_start": 0.0,
+        "raw_end": 5.5,
+        "timestamp_clamped": true
+      }
+    ]
+  },
+  "image": {
+    "status": "available",
+    "count": 1,
+    "unresolved": 0
+  },
+  "second_index": {
+    "status": "ready",
+    "source_count": 1,
+    "wise_url": "http://127.0.0.1:9673/project-wise-second-fixture/",
+    "search_count": 1,
+    "search_source_ids": [
+      "fixture_video"
+    ]
+  },
+  "old_server_status_while_second_index": 200,
+  "recovered_job_status": "interrupted"
+}

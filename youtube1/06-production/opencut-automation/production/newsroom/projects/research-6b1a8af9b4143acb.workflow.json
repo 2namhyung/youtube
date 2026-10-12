@@ -1,0 +1,909 @@
+{
+  "version": 1,
+  "slug": "research-6b1a8af9b4143acb",
+  "title": "[단독] \"아들이 여교사 상대로\"…'경찰관 부친' 또 걸렸다",
+  "candidate": {
+    "id": "research-6b1a8af9b4143acb",
+    "slug": "research-6b1a8af9b4143acb",
+    "editorialStatus": "active-review",
+    "title": "[단독] \"아들이 여교사 상대로\"…'경찰관 부친' 또 걸렸다",
+    "source": "SBS 뉴스 사회",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008677214&plink=RSSLINK&cooper=RSSREADER",
+    "publishedAt": "2026-07-27T22:06:00+09:00",
+    "hook": "아들의 불법 촬영이 들통나자, 경찰관 아버지는 증거가 든 휴대전화부터 없앴다.",
+    "storySummary": "전북 전주에서 한 경찰 중간 간부의 10대 아들이 여교사를 불법 촬영하다 적발됐다. 경찰관인 아버지는 아들의 범죄 증거가 담긴 휴대전화를 폐기해 증거를 없앤 것으로 보도됐다. 가족의 범죄를 다뤄야 할 경찰관이 오히려 증거를 파기한 사례가 다시 발생한 가운데, 보도 시점에는 해당 사실이 단독 보도로 공개됐으며 구체적인 수사·징계 결과는 제시되지 않았다.",
+    "rationale": "학교라는 일상 공간에서 발생한 불법 촬영이 경찰관 가족의 증거 폐기로 확대된 사건이다. 범죄를 수사해야 할 직업적 책임과 실제 행동이 정면으로 어긋나며, 피해 위험과 노골적인 책임 회피가 함께 드러난다.",
+    "dimensions": {
+      "ordinaryContext": 3,
+      "disproportionateEscalation": 3,
+      "explanationActionMismatch": 3,
+      "tangibleRisk": 3,
+      "responsibilityEvasion": 3,
+      "relatableEmotion": 3
+    },
+    "factCheckRisks": [
+      "휴대전화 폐기의 구체적인 시점과 방법, 아버지가 증거임을 인식했는지는 기사 본문 확인이 필요하다.",
+      "아들의 불법 촬영 혐의와 피해 대상, 경찰관 아버지의 형사 입건 여부는 제한된 요약만으로 확정할 수 없다.",
+      "수사 및 징계의 현재 단계와 당사자 해명은 제공된 정보에 없다."
+    ],
+    "selectionReasons": [
+      "아들의 범죄 적발 뒤 경찰관 아버지가 증거를 없앴다는 비상식적인 확대 과정이 명확하다.",
+      "경찰관의 공적 책무와 가족을 위해 증거를 폐기한 행동 사이의 모순이 강하다.",
+      "불법 촬영 피해와 수사 방해가 결합돼 답답함과 불안을 동시에 유발한다."
+    ],
+    "relatedCoverage": [],
+    "approval": {
+      "kind": "human-promotion",
+      "approvedAt": "2026-08-09T03:48:53.775Z",
+      "sourceAction": "newsroom-semantic-card"
+    },
+    "provenance": {
+      "semanticSelectionPath": "out/newsroom/research-llm-analysis.json",
+      "semanticGeneratedAt": "2026-08-09T03:38:01.262Z",
+      "articlePoolPath": "01-research/news_radar/data/latest_article_pool.json",
+      "articlePoolGeneratedAt": "2026-08-09T12:36:27+09:00",
+      "articleId": "6b1a8af9b4143acbf4058d3e",
+      "excerptProvenance": "rss-description-or-atom-summary"
+    },
+    "verification": {
+      "state": "cross-source-verification-required",
+      "missing": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토"
+      ]
+    }
+  },
+  "createdAt": "2026-08-09T03:48:54.323Z",
+  "updatedAt": "2026-08-13T10:01:51.055Z",
+  "stages": {
+    "01": {
+      "status": "ready",
+      "completedAt": "2026-08-09T03:48:54.323Z"
+    },
+    "02": {
+      "status": "ready",
+      "completedAt": "2026-08-09T09:18:52.765Z",
+      "reportGeneratedAt": "2026-08-09T09:18:52.765Z",
+      "evidenceSha256": "784d28054c86997e0e98a49a5f85f8cfba1e8b0ef34724bbdfdc85618b82e186"
+    },
+    "03": {
+      "status": "ready",
+      "completedAt": "2026-08-13T10:01:51.055Z"
+    },
+    "04": {
+      "status": "in-progress",
+      "orchestrationJobId": "production-7507264f325b00424bd1de2f44beb56891ee5c15"
+    },
+    "05": {
+      "status": "in-progress",
+      "orchestrationJobId": "production-7507264f325b00424bd1de2f44beb56891ee5c15"
+    },
+    "06": {
+      "status": "in-progress",
+      "orchestrationJobId": "production-7507264f325b00424bd1de2f44beb56891ee5c15"
+    },
+    "07": {
+      "status": "pending",
+      "reason": "private-production-stops-before-stage07"
+    },
+    "08": {
+      "status": "pending",
+      "reason": "publication-not-authorized"
+    }
+  },
+  "legalContextReport": {
+    "schemaVersion": 5,
+    "slug": "research-6b1a8af9b4143acb",
+    "generatedAt": "2026-08-09T09:18:52.765Z",
+    "candidateSha256": "3a917d2de1bfe3498f8ec5744a9af0d2362d3a45304ab5fb4c1507b08e6f7f3e",
+    "researchSnapshotSha256": "784d28054c86997e0e98a49a5f85f8cfba1e8b0ef34724bbdfdc85618b82e186",
+    "eventDossierSha256": "756bf21718b50e1d3e537de028bdd7f02114867b54ea52e74179eb44ff1def85",
+    "confirmedFacts": [
+      {
+        "id": "claim-89897b4f291a",
+        "summary": "경찰관이 가족의 범죄 증거를 없애는 일이 또 발생했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-7e1da4cb29cd",
+        "summary": "전북 전주의 한 경찰 중간 간부가 불법 촬영 덜미가 잡힌 아들의 휴대전화를 폐기한 겁니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-09db7f2c5fa8",
+        "summary": "어젯(26일)밤 경찰 내부망에 올라온 글입니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-97b1d75f713d",
+        "summary": "고교생 아들이 여교사를 상대로 불법 촬영을 시도하다 적발됐단 내용과 함께, 순진했던 아이가 그런 일을 저질렀단 소식에 너무 큰 충격을 받아 휴대전화를 부숴 버렸다고 적혀 있습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-0f9a94f553e8",
+        "summary": "SBS 취재 결과, 글 게시자는 전북 전주 일대 모 파출소 소속 A 경감으로 확인됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-1cbdddf50d6f",
+        "summary": "\"피해 교사도 누군가의 자식이다\", \"오얏나무 아래에선 갓끈도 고쳐 매지 말라 했다\" 등 동료 경찰관들의 시선은 싸늘합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "reportedFacts": [
+      {
+        "id": "claim-89897b4f291a",
+        "summary": "경찰관이 가족의 범죄 증거를 없애는 일이 또 발생했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-7e1da4cb29cd",
+        "summary": "전북 전주의 한 경찰 중간 간부가 불법 촬영 덜미가 잡힌 아들의 휴대전화를 폐기한 겁니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-09db7f2c5fa8",
+        "summary": "어젯(26일)밤 경찰 내부망에 올라온 글입니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-97b1d75f713d",
+        "summary": "고교생 아들이 여교사를 상대로 불법 촬영을 시도하다 적발됐단 내용과 함께, 순진했던 아이가 그런 일을 저질렀단 소식에 너무 큰 충격을 받아 휴대전화를 부숴 버렸다고 적혀 있습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-0f9a94f553e8",
+        "summary": "SBS 취재 결과, 글 게시자는 전북 전주 일대 모 파출소 소속 A 경감으로 확인됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-1cbdddf50d6f",
+        "summary": "\"피해 교사도 누군가의 자식이다\", \"오얏나무 아래에선 갓끈도 고쳐 매지 말라 했다\" 등 동료 경찰관들의 시선은 싸늘합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-312cec66b1ad",
+        "summary": "장윤기 사건 이후 경찰 가족들이 연루된 사건을 전수 조사하는 과정에서 뒤늦게 확인됐습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-84492366a955",
+        "summary": "현직 경찰 간부가 불법 촬영 범죄의 핵심 증거에 해당할 수 있는 휴대전화 은폐를 실토한 셈인데, 피해 여교사의 고소로 수사에 나선 경찰은 A 경감의 아들을 지난달 말 검찰에 넘긴 데 이어 A 경감을 최근 증거 인멸 혐의로 입건했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "harm",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-6ef4504d0361",
+        "summary": "경찰 간부 아버지를 둔 장윤기 사건 수사 비위 의혹을 고발한 SBS 보도 이후, 경찰 수뇌부가 쇄신책을 꺼내 들었고, 경찰 가족 연루 사건을 전수 조사하는 과정에서 A 경감 사례가 확인된 걸로 전해졌습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-d29105bc3310",
+        "summary": "[유재성/경창청장 직무대행 (지난 10일) : 경찰 수사의 비위나 부패 행위는 더욱 철저히 수사하고, 단호히 조치하겠습니다.] 전북경찰청은 지난주 A 경감의 자택을 압수수색하는 등 강제 수사에 착수했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-bbd433225cbd",
+        "summary": "경찰 관계자는 친족 간 처벌특례규정에 따라 직계혈족 처벌은 불가하지만 입건은 가능하다며 증거 인멸 등 수사 개입 의혹을 확인하는 과정에 있다고 설명했습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-c70549eed18d",
+        "summary": "A 경감은 내부망에서 장윤기 사건에 빗대는 건 억울하고 부당하단 취지로 주장했습니다.",
+        "perspective": "defense",
+        "status": "reported",
+        "detailGroup": "investigation",
+        "sourceIds": [
+          "src-6b1a8af9b414"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      }
+    ],
+    "unverifiedFacts": [],
+    "possibleLegalIssues": [],
+    "missingFacts": [],
+    "safePhrasing": [
+      "검찰은 …라고 주장했습니다",
+      "당사자는 …라고 주장했습니다",
+      "재판부는 …라고 판단했습니다",
+      "정확한 내용은 확인되지 않았습니다"
+    ],
+    "sources": [
+      {
+        "sourceId": "src-6b1a8af9b414",
+        "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008677214&plink=RSSLINK&cooper=RSSREADER",
+        "title": "[단독] &#34;아들이 여교사 상대로&#34;&hellip;'경찰관 부친' 또 걸렸다",
+        "publisher": "SBS NEWS",
+        "date": "2026-07-27T20:53:00+09:00",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "legalSources": [
+      {
+        "title": "국가법령정보센터 형법",
+        "url": "https://www.law.go.kr/법령/형법",
+        "status": "authoritative-reference"
+      }
+    ],
+    "evidence": {
+      "verifiedSourceCount": 1,
+      "representativeSourceCount": 1,
+      "independentPublisherCount": 1,
+      "sameEventSnapshot": true,
+      "eventDossierCurrent": true
+    },
+    "verdict": "conditional",
+    "verdictLabel": "조건부 사용",
+    "reasons": [
+      "검증된 독립 보도가 한 곳뿐이므로 모든 사실에 출처 귀속이 필요합니다."
+    ],
+    "reasonCodes": [
+      "single-source"
+    ],
+    "requiredEdits": [],
+    "allowedMaterials": [
+      "사건 히스토리의 승인된 사실",
+      "직접 제작한 비식별 재연"
+    ],
+    "restrictedMaterials": [
+      "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+      "피해자와 제3자는 익명 표기를 유지하기",
+      "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+      "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+    ],
+    "requiredConditions": [
+      {
+        "id": "source-attribution",
+        "label": "단일 출처·당사자 주장·불일치 사실에 귀속과 한정 표현을 유지",
+        "required": true
+      }
+    ],
+    "assessment": {
+      "sourceCorroboration": "single-source",
+      "conflicts": 0,
+      "unknowns": 0
+    },
+    "contradictions": [],
+    "scriptPolicy": {
+      "version": 2,
+      "allowedFacts": [
+        "경찰관이 가족의 범죄 증거를 없애는 일이 또 발생했습니다.",
+        "전북 전주의 한 경찰 중간 간부가 불법 촬영 덜미가 잡힌 아들의 휴대전화를 폐기한 겁니다.",
+        "어젯(26일)밤 경찰 내부망에 올라온 글입니다.",
+        "고교생 아들이 여교사를 상대로 불법 촬영을 시도하다 적발됐단 내용과 함께, 순진했던 아이가 그런 일을 저질렀단 소식에 너무 큰 충격을 받아 휴대전화를 부숴 버렸다고 적혀 있습니다.",
+        "SBS 취재 결과, 글 게시자는 전북 전주 일대 모 파출소 소속 A 경감으로 확인됐습니다.",
+        "\"피해 교사도 누군가의 자식이다\", \"오얏나무 아래에선 갓끈도 고쳐 매지 말라 했다\" 등 동료 경찰관들의 시선은 싸늘합니다.",
+        "장윤기 사건 이후 경찰 가족들이 연루된 사건을 전수 조사하는 과정에서 뒤늦게 확인됐습니다.",
+        "현직 경찰 간부가 불법 촬영 범죄의 핵심 증거에 해당할 수 있는 휴대전화 은폐를 실토한 셈인데, 피해 여교사의 고소로 수사에 나선 경찰은 A 경감의 아들을 지난달 말 검찰에 넘긴 데 이어 A 경감을 최근 증거 인멸 혐의로 입건했습니다.",
+        "경찰 간부 아버지를 둔 장윤기 사건 수사 비위 의혹을 고발한 SBS 보도 이후, 경찰 수뇌부가 쇄신책을 꺼내 들었고, 경찰 가족 연루 사건을 전수 조사하는 과정에서 A 경감 사례가 확인된 걸로 전해졌습니다.",
+        "[유재성/경창청장 직무대행 (지난 10일) : 경찰 수사의 비위나 부패 행위는 더욱 철저히 수사하고, 단호히 조치하겠습니다.] 전북경찰청은 지난주 A 경감의 자택을 압수수색하는 등 강제 수사에 착수했습니다.",
+        "경찰 관계자는 친족 간 처벌특례규정에 따라 직계혈족 처벌은 불가하지만 입건은 가능하다며 증거 인멸 등 수사 개입 의혹을 확인하는 과정에 있다고 설명했습니다.",
+        "A 경감은 내부망에서 장윤기 사건에 빗대는 건 억울하고 부당하단 취지로 주장했습니다."
+      ],
+      "allowedClaims": [
+        {
+          "claimId": "claim-89897b4f291a",
+          "summary": "경찰관이 가족의 범죄 증거를 없애는 일이 또 발생했습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-7e1da4cb29cd",
+          "summary": "전북 전주의 한 경찰 중간 간부가 불법 촬영 덜미가 잡힌 아들의 휴대전화를 폐기한 겁니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-09db7f2c5fa8",
+          "summary": "어젯(26일)밤 경찰 내부망에 올라온 글입니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-97b1d75f713d",
+          "summary": "고교생 아들이 여교사를 상대로 불법 촬영을 시도하다 적발됐단 내용과 함께, 순진했던 아이가 그런 일을 저질렀단 소식에 너무 큰 충격을 받아 휴대전화를 부숴 버렸다고 적혀 있습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-0f9a94f553e8",
+          "summary": "SBS 취재 결과, 글 게시자는 전북 전주 일대 모 파출소 소속 A 경감으로 확인됐습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-1cbdddf50d6f",
+          "summary": "\"피해 교사도 누군가의 자식이다\", \"오얏나무 아래에선 갓끈도 고쳐 매지 말라 했다\" 등 동료 경찰관들의 시선은 싸늘합니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-312cec66b1ad",
+          "summary": "장윤기 사건 이후 경찰 가족들이 연루된 사건을 전수 조사하는 과정에서 뒤늦게 확인됐습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-84492366a955",
+          "summary": "현직 경찰 간부가 불법 촬영 범죄의 핵심 증거에 해당할 수 있는 휴대전화 은폐를 실토한 셈인데, 피해 여교사의 고소로 수사에 나선 경찰은 A 경감의 아들을 지난달 말 검찰에 넘긴 데 이어 A 경감을 최근 증거 인멸 혐의로 입건했습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-6ef4504d0361",
+          "summary": "경찰 간부 아버지를 둔 장윤기 사건 수사 비위 의혹을 고발한 SBS 보도 이후, 경찰 수뇌부가 쇄신책을 꺼내 들었고, 경찰 가족 연루 사건을 전수 조사하는 과정에서 A 경감 사례가 확인된 걸로 전해졌습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-d29105bc3310",
+          "summary": "[유재성/경창청장 직무대행 (지난 10일) : 경찰 수사의 비위나 부패 행위는 더욱 철저히 수사하고, 단호히 조치하겠습니다.] 전북경찰청은 지난주 A 경감의 자택을 압수수색하는 등 강제 수사에 착수했습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-bbd433225cbd",
+          "summary": "경찰 관계자는 친족 간 처벌특례규정에 따라 직계혈족 처벌은 불가하지만 입건은 가능하다며 증거 인멸 등 수사 개입 의혹을 확인하는 과정에 있다고 설명했습니다.",
+          "attributionRequired": false,
+          "perspective": "reported",
+          "confidence": "single-source"
+        },
+        {
+          "claimId": "claim-c70549eed18d",
+          "summary": "A 경감은 내부망에서 장윤기 사건에 빗대는 건 억울하고 부당하단 취지로 주장했습니다.",
+          "attributionRequired": true,
+          "perspective": "defense",
+          "confidence": "single-source"
+        }
+      ],
+      "prohibitedClaims": [],
+      "prohibitedPhrases": [
+        "보도에 따르면"
+      ],
+      "requiredQualifications": [
+        {
+          "id": "qualify-claim-c70549eed18d",
+          "claimIds": [
+            "claim-c70549eed18d"
+          ],
+          "semanticTrigger": "A 경감은 내부망에서 장윤기 사건에 빗대는 건 억울하고 부당하단 취지로 주장했습니다.",
+          "qualifier": "당사자는 …라고 주장했습니다"
+        }
+      ],
+      "safeReplacements": [],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ],
+      "uncertaintyInstructions": [],
+      "omissionInstructions": [],
+      "identityRestrictions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기"
+      ],
+      "footageRestrictions": [
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+      ],
+      "sourceAttribution": {
+        "mode": "script-scope",
+        "neutralPrefix": "공개된 보도에서 확인된 범위로는",
+        "claimIds": [
+          "claim-89897b4f291a",
+          "claim-7e1da4cb29cd",
+          "claim-09db7f2c5fa8",
+          "claim-97b1d75f713d",
+          "claim-0f9a94f553e8",
+          "claim-1cbdddf50d6f",
+          "claim-312cec66b1ad",
+          "claim-84492366a955",
+          "claim-6ef4504d0361",
+          "claim-d29105bc3310",
+          "claim-bbd433225cbd",
+          "claim-c70549eed18d"
+        ]
+      }
+    },
+    "factBrief": {
+      "confirmedFacts": [
+        "경찰관이 가족의 범죄 증거를 없애는 일이 또 발생했습니다.",
+        "전북 전주의 한 경찰 중간 간부가 불법 촬영 덜미가 잡힌 아들의 휴대전화를 폐기한 겁니다.",
+        "어젯(26일)밤 경찰 내부망에 올라온 글입니다.",
+        "고교생 아들이 여교사를 상대로 불법 촬영을 시도하다 적발됐단 내용과 함께, 순진했던 아이가 그런 일을 저질렀단 소식에 너무 큰 충격을 받아 휴대전화를 부숴 버렸다고 적혀 있습니다.",
+        "SBS 취재 결과, 글 게시자는 전북 전주 일대 모 파출소 소속 A 경감으로 확인됐습니다.",
+        "\"피해 교사도 누군가의 자식이다\", \"오얏나무 아래에선 갓끈도 고쳐 매지 말라 했다\" 등 동료 경찰관들의 시선은 싸늘합니다.",
+        "장윤기 사건 이후 경찰 가족들이 연루된 사건을 전수 조사하는 과정에서 뒤늦게 확인됐습니다.",
+        "현직 경찰 간부가 불법 촬영 범죄의 핵심 증거에 해당할 수 있는 휴대전화 은폐를 실토한 셈인데, 피해 여교사의 고소로 수사에 나선 경찰은 A 경감의 아들을 지난달 말 검찰에 넘긴 데 이어 A 경감을 최근 증거 인멸 혐의로 입건했습니다.",
+        "경찰 간부 아버지를 둔 장윤기 사건 수사 비위 의혹을 고발한 SBS 보도 이후, 경찰 수뇌부가 쇄신책을 꺼내 들었고, 경찰 가족 연루 사건을 전수 조사하는 과정에서 A 경감 사례가 확인된 걸로 전해졌습니다.",
+        "[유재성/경창청장 직무대행 (지난 10일) : 경찰 수사의 비위나 부패 행위는 더욱 철저히 수사하고, 단호히 조치하겠습니다.] 전북경찰청은 지난주 A 경감의 자택을 압수수색하는 등 강제 수사에 착수했습니다.",
+        "경찰 관계자는 친족 간 처벌특례규정에 따라 직계혈족 처벌은 불가하지만 입건은 가능하다며 증거 인멸 등 수사 개입 의혹을 확인하는 과정에 있다고 설명했습니다.",
+        "A 경감은 내부망에서 장윤기 사건에 빗대는 건 억울하고 부당하단 취지로 주장했습니다."
+      ],
+      "timeline": [],
+      "disputedFacts": [],
+      "unknownFacts": [],
+      "followUpChanges": []
+    },
+    "videoDecision": {
+      "decision": "conditional",
+      "reasons": [
+        "검증된 독립 보도가 한 곳뿐이므로 모든 사실에 출처 귀속이 필요합니다."
+      ]
+    },
+    "caseDispositionReview": {
+      "status": "complete",
+      "question": "이 사건의 처리와 판단은 유사한 과거 사례 및 법리에 비추어 설명 가능한가",
+      "similarCases": [],
+      "applicableIssues": [
+        "장윤기 사건 이후 경찰 가족들이 연루된 사건을 전수 조사하는 과정에서 뒤늦게 확인됐습니다.",
+        "현직 경찰 간부가 불법 촬영 범죄의 핵심 증거에 해당할 수 있는 휴대전화 은폐를 실토한 셈인데, 피해 여교사의 고소로 수사에 나선 경찰은 A 경감의 아들을 지난달 말 검찰에 넘긴 데 이어 A 경감을 최근 증거 인멸 혐의로 입건했습니다.",
+        "경찰 간부 아버지를 둔 장윤기 사건 수사 비위 의혹을 고발한 SBS 보도 이후, 경찰 수뇌부가 쇄신책을 꺼내 들었고, 경찰 가족 연루 사건을 전수 조사하는 과정에서 A 경감 사례가 확인된 걸로 전해졌습니다.",
+        "[유재성/경창청장 직무대행 (지난 10일) : 경찰 수사의 비위나 부패 행위는 더욱 철저히 수사하고, 단호히 조치하겠습니다.] 전북경찰청은 지난주 A 경감의 자택을 압수수색하는 등 강제 수사에 착수했습니다.",
+        "경찰 관계자는 친족 간 처벌특례규정에 따라 직계혈족 처벌은 불가하지만 입건은 가능하다며 증거 인멸 등 수사 개입 의혹을 확인하는 과정에 있다고 설명했습니다."
+      ],
+      "assessment": "현재 검증된 유사 판례를 찾지 못했습니다. 비교 결론을 만들지 않고, 이 한계를 대본에 반영해 사건의 형사책임·처벌·향후 수사 결과를 단정하지 않습니다.",
+      "limitations": [
+        "공개 보도만으로 전체 소송기록과 증거를 재평가할 수 없습니다.",
+        "검증된 유사 판례가 없다는 사실은 유사 사건이나 적용 법리가 존재하지 않는다는 뜻이 아닙니다.",
+        "이 검토는 법률 자문이나 판결의 옳고 그름을 확정하는 의견이 아닙니다."
+      ]
+    },
+    "videoUseReview": {
+      "status": "complete",
+      "decision": "conditional",
+      "question": "이 사건을 영상 소재로 활용할 수 있는가",
+      "allowedUse": [
+        "검증된 기사와 판결·법령을 요약한 자체 서술",
+        "실제 화면과 혼동되지 않도록 고지한 비식별 AI 재구성",
+        "출처와 불확실성을 함께 표시한 사건 연표"
+      ],
+      "conditions": [
+        "사건 관계자의 실명·얼굴·직장 세부 위치를 추가로 식별하지 않기",
+        "피해자와 제3자는 익명 표기를 유지하기",
+        "기사·방송 원본 화면은 별도 이용 허락 없이는 사용하지 않기",
+        "재연 화면은 실제 현장 화면이 아니라는 점을 표시하기"
+      ],
+      "prohibitedUse": [
+        "권리 확인 없는 기사·방송·CCTV 원본 재사용",
+        "관계자의 얼굴·이름·직장·위치를 추가로 특정",
+        "수사·재판 결과 또는 정신건강과 행위의 인과를 확인 사실처럼 단정"
+      ],
+      "reasons": [
+        "검증된 독립 보도가 한 곳뿐이므로 모든 사실에 출처 귀속이 필요합니다."
+      ]
+    },
+    "scriptWritingReview": {
+      "status": "complete",
+      "decision": "approved-with-conditions",
+      "question": "대본 작성 시 무엇을 지키고 피해야 하는가",
+      "required": [
+        "단일 출처에서 확인된 사실은 대본 전체에서 한 번 분명하게 출처에 귀속합니다.",
+        "검찰·당사자·재판부의 주장은 해당 발화 주체를 분명히 붙입니다.",
+        "발견·신고·입건·강제수사 등 실제로 확인된 사건 단계만 시간순으로 설명합니다."
+      ],
+      "avoid": [
+        "보도에 따르면"
+      ],
+      "safePhrasing": [
+        "검찰은 …라고 주장했습니다",
+        "당사자는 …라고 주장했습니다",
+        "재판부는 …라고 판단했습니다",
+        "정확한 내용은 확인되지 않았습니다"
+      ]
+    },
+    "reviewCompletion": {
+      "caseDisposition": true,
+      "videoUse": true,
+      "scriptWriting": true,
+      "allComplete": true
+    }
+  },
+  "draftFinalized": true,
+  "draft": {
+    "generator": "codex-cli:gpt-5.6-sol:medium:newsroom-markdown-guided-seven-sections-length-only-v4",
+    "sections": {
+      "hook": "불법 촬영을 시도한 학생을 고소했는데, 핵심 증거 휴대전화를 없앤 사람은 그 학생의 경찰관 아버지였습니다.",
+      "incident": "전북 전주의 한 파출소 소속 A 경감은 고등학생 아들이 여교사를 상대로 불법 촬영을 시도하다 적발되자 휴대전화를 부쉈다고 내부망에 적었습니다.",
+      "timeline": "아들은 지난달 말 검찰에 넘겨졌습니다. 그런데 A 경감의 행동은 곧바로 드러난 게 아니라, 경찰 가족 연루 사건을 전수 조사하는 과정에서 뒤늦게 확인됐습니다.",
+      "frustrating": "증거를 지켜야 할 현직 경찰 간부가 가족 사건의 증거를 없앤 셈입니다. 동료 경찰들조차 피해 교사도 누군가의 자식이라며 비판했습니다.",
+      "solution": "경찰은 A 경감을 증거 인멸 혐의로 입건했고, 지난주 자택을 압수수색했습니다. 수사 개입 의혹도 확인하고 있습니다.",
+      "legal": "하지만 경찰 설명상 직계혈족은 친족 간 처벌특례규정 때문에 처벌할 수 없습니다. 입건과 수사는 가능해도 실제 처벌에는 간극이 남은 겁니다.",
+      "confirmation": "가족이 연루되자 핵심 증거를 없앤 경찰, 우리는 경찰의 수사를 다시 믿고 맡길 수 있을까요?"
+    },
+    "policyBinding": {
+      "eventDossierSha256": "756bf21718b50e1d3e537de028bdd7f02114867b54ea52e74179eb44ff1def85",
+      "legalReportSha256": "c5978b4126af0ff727c3ded329f319170b6df8dc962f34365e26351f4bbb01b3",
+      "packageSha256": "11749601c010cc7f7b7408346f9b8417ff768bf17d78b6ecc820ce64ee179ba6"
+    },
+    "generation": {
+      "schemaVersion": 3,
+      "provider": "codex-cli",
+      "model": "gpt-5.6-sol",
+      "reasoning": "medium",
+      "promptContractVersion": "newsroom-markdown-guided-seven-sections-length-only-v4",
+      "promptSha256": "210b8428fced2702ffe2b437bbd90705d2bc986d6a5ee3cf28d0767b8c62788e",
+      "packageSha256": "11749601c010cc7f7b7408346f9b8417ff768bf17d78b6ecc820ce64ee179ba6",
+      "outputSha256": "72a3e1847de198a1a697beceee2255485699088a8e2b0230a3852bc0e9c20039",
+      "currentVariantsSha256": "62024abb38d2ef7665fea660293c75e8d878c72905a12c325b3d184994151c7e",
+      "userEdited": true,
+      "cliVersion": "codex-cli 0.146.0",
+      "attemptCount": 1,
+      "variantAttempts": {
+        "documentary": 1,
+        "direct": 1,
+        "suspense": 1,
+        "empathy": 1
+      },
+      "generatedAt": "2026-08-10T01:52:34.712Z"
+    },
+    "editAuthority": {
+      "type": "selected-variant-human-edit",
+      "selectedDraftId": "empathy",
+      "validatedAt": "2026-08-13T10:01:51.055Z",
+      "sectionsSha256": "a31aca4ddb7bf6a6a7869c45e8b502cd2486127940d15a45e41114fbefe89015"
+    },
+    "variants": [
+      {
+        "id": "documentary",
+        "label": "행동 우선형",
+        "description": "사건을 바꾼 구체 행동을 첫 문장에 놓고 뒤늦은 발견이나 결과를 중반에 공개합니다.",
+        "sections": {
+          "hook": "범죄 증거를 지켜야 할 현직 경찰 간부가 불법 촬영을 시도하다 적발된 아들의 휴대전화를 부숴 버렸습니다.",
+          "incident": "전북 전주의 한 파출소 소속 A 경감입니다. 고교생 아들은 여교사를 상대로 불법 촬영을 시도했고, 피해 교사의 고소로 수사가 시작됐습니다.",
+          "timeline": "A 경감은 충격을 받아 휴대전화를 부쉈다고 경찰 내부망에 적었습니다. 그런데 이 일은 곧바로 드러난 게 아니었습니다. 다른 경찰 가족 연루 사건 뒤 전수 조사에서 뒤늦게 확인됐습니다.",
+          "frustrating": "사라진 건 휴대전화만이 아닙니다. 불법 촬영 범죄의 핵심 증거가 될 수 있었고, 증거를 지켜야 할 경찰이 직접 없앤 겁니다.",
+          "solution": "전북경찰청은 A 경감의 자택을 압수수색하며 강제 수사에 들어갔고, 증거 인멸뿐 아니라 다른 수사 개입 의혹도 확인하고 있습니다.",
+          "legal": "아들은 지난달 말 검찰에 넘겨졌고 A 경감도 증거 인멸 혐의로 입건됐습니다. 다만 경찰은 직계혈족 사이의 증거 인멸은 처벌 특례상 처벌할 수 없다고 설명했습니다.",
+          "confirmation": "가족이 연루되자 핵심 증거를 없앤 경찰, 우리는 누구를 믿어아 할까요?"
+        },
+        "length": {
+          "compactLength": 384,
+          "withinTarget": true
+        }
+      },
+      {
+        "id": "direct",
+        "label": "역할 충돌형",
+        "description": "당사자의 본래 역할과 실제 행동을 맞붙이고 그 모순이 만든 책임 문제로 확장합니다.",
+        "sections": {
+          "hook": "증거를 지켜야 할 경찰 간부가 아들의 불법 촬영 증거가 될 휴대전화를 직접 부쉈습니다.",
+          "incident": "전북 전주의 A 경감. 고교생 아들이 여교사를 불법 촬영하려다 적발되자 휴대전화를 폐기했습니다.",
+          "timeline": "그는 경찰 내부망에 충격을 받아 휴대전화를 부쉈다고 적었습니다. 그런데 이 일은 경찰 가족 연루 사건 전수조사에서야 뒤늦게 확인됐습니다.",
+          "frustrating": "범죄를 수사해야 할 사람이 가족의 핵심 증거를 없앤 겁니다. A 경감은 다른 사건에 빗대는 건 억울하고 부당하다는 취지로 주장했습니다.",
+          "solution": "전북경찰청은 A 경감의 자택을 압수수색했고, 증거 인멸뿐 아니라 수사 개입 의혹까지 확인하고 있습니다.",
+          "legal": "아들은 지난달 말 검찰에 넘겨졌고 A 경감도 증거 인멸 혐의로 입건됐습니다. 다만 직계혈족은 친족 간 처벌특례로 처벌할 수 없다는 설명입니다.",
+          "confirmation": "가족이 연루되면 처벌조차 제한되는 상황에서, 경찰은 무엇을 공개하고 조사해야 그 수사를 다시 믿을 수 있을까요?"
+        },
+        "length": {
+          "compactLength": 347,
+          "withinTarget": true
+        }
+      },
+      {
+        "id": "suspense",
+        "label": "뒤늦은 발견형",
+        "description": "확인된 결과나 이상 징후부터 시작해 행위자·행동 또는 뒤늦은 발견 경위를 새 사실로 공개합니다.",
+        "sections": {
+          "hook": "불법 촬영 사건의 핵심 증거가 될 휴대전화가 이미 부서져 있었습니다. 증거를 지켜야 할 경찰 수사에서 벌어진 일이었습니다.",
+          "incident": "전북 전주에서 고교생이 여교사를 상대로 불법 촬영을 시도하다 적발됐고, 피해 교사의 고소로 경찰 수사가 시작됐습니다.",
+          "timeline": "그런데 휴대전화를 부순 사람은 전주 일대 파출소 소속 A 경감, 피의자의 아버지였습니다. 그는 충격을 받아 휴대전화를 부쉈다는 글을 경찰 내부망에 올렸습니다.",
+          "frustrating": "이 사실은 곧바로 드러난 것도 아닙니다. 다른 경찰 가족 연루 사건들을 전수 조사하는 과정에서 뒤늦게 확인됐습니다.",
+          "solution": "경찰은 아들을 지난달 말 검찰에 넘겼고, A 경감도 증거 인멸 혐의로 입건했습니다. 지난주에는 그의 자택을 압수수색했습니다.",
+          "legal": "다만 직계혈족은 친족 간 처벌 특례 때문에 처벌할 수 없다는 경찰 설명이 나왔습니다. 입건은 가능해 수사 개입 의혹은 계속 확인 중입니다.",
+          "confirmation": "가족 사건의 증거를 없앤 사람이 현직 경찰 간부라면, 그 경찰이 속한 조직의 수사를 다시 믿으려면 누가 어떤 과정을 밝혀야 할까요?"
+        },
+        "length": {
+          "compactLength": 385,
+          "withinTarget": true
+        }
+      },
+      {
+        "id": "empathy",
+        "label": "신뢰·일상 영향형",
+        "description": "다시 마주할 구체 상황이나 확인된 영향에서 시작해 행동과 제도적 간극을 추적합니다.",
+        "sections": {
+          "hook": "불법 촬영을 시도한 학생을 고소했는데, 핵심 증거 휴대전화를 없앤 사람은 그 학생의 경찰관 아버지였습니다.",
+          "incident": "전북 전주의 한 파출소 소속 A 경감은 고등학생 아들이 여교사를 상대로 불법 촬영을 시도하다 적발되자 휴대전화를 부쉈다고 내부망에 적었습니다.",
+          "timeline": "아들은 지난달 말 검찰에 넘겨졌습니다. 그런데 A 경감의 행동은 곧바로 드러난 게 아니라, 경찰 가족 연루 사건을 전수 조사하는 과정에서 뒤늦게 확인됐습니다.",
+          "frustrating": "증거를 지켜야 할 현직 경찰 간부가 가족 사건의 증거를 없앤 셈입니다. 동료 경찰들조차 피해 교사도 누군가의 자식이라며 비판했습니다.",
+          "solution": "경찰은 A 경감을 증거 인멸 혐의로 입건했고, 지난주 자택을 압수수색했습니다. 수사 개입 의혹도 확인하고 있습니다.",
+          "legal": "하지만 경찰 설명상 직계혈족은 친족 간 처벌특례규정 때문에 처벌할 수 없습니다. 입건과 수사는 가능해도 실제 처벌에는 간극이 남은 겁니다.",
+          "confirmation": "가족이 연루되자 핵심 증거를 없앤 경찰, 우리는 경찰의 수사를 다시 믿고 맡길 수 있을까요?"
+        },
+        "length": {
+          "compactLength": 378,
+          "withinTarget": true
+        }
+      }
+    ],
+    "selectedDraftId": "empathy"
+  },
+  "videoReferences": {
+    "referenceCatalog": [],
+    "sceneRecipes": [],
+    "summary": {
+      "referenceCount": 0,
+      "requiredCount": 0,
+      "assetCount": 0,
+      "recipeCount": 0
+    },
+    "updatedAt": "2026-08-13T10:01:51.055Z"
+  },
+  "productionOrchestration": {
+    "jobId": "production-7507264f325b00424bd1de2f44beb56891ee5c15",
+    "authorityHash": "7507264f325b00424bd1de2f44beb56891ee5c15ae496384f5d64c6a5fdcdbb6",
+    "state": "queued",
+    "stage": "finalized",
+    "privateOnly": true
+  },
+  "productionApproval": {
+    "headline": {
+      "approved": true,
+      "line1": "경찰 아버지가",
+      "line2": "부순 휴대전화"
+    },
+    "ownerVoiceAuthority": {
+      "approved": true,
+      "profileId": "owner-voice-v1",
+      "profileSha256": "e1fbc1dc0d482cd9fa52b5fe63b545a30858b40602782cf9c9f7f2f2b5b08ff7"
+    },
+    "approvedNarrationAuthority": {
+      "schema": "approved-owner-narration-authority-v1",
+      "approved": true,
+      "slug": "research-6b1a8af9b4143acb",
+      "sourceRoot": "out/newsroom/narration-revisions/research-6b1a8af9b4143acb/partial-qa-v1-eb9b25b00f5e200f",
+      "sourceProductionJobId": "production-eb9b25b00f5e200f7362a048c9cd4f73954e4636",
+      "sourceProductionAuthorityHash": "eb9b25b00f5e200f7362a048c9cd4f73954e4636c5e89209802d95d4adf85ce0",
+      "scriptSha256": "47f7caa49138267382ce23ec2c360359e1448434671abb1835f314f52de7f8ae",
+      "ownerVoiceProfileSha256": "e1fbc1dc0d482cd9fa52b5fe63b545a30858b40602782cf9c9f7f2f2b5b08ff7",
+      "audioSha256": "d57593fd6d5437caac96148b8ba8e963ebc164f3e8db2cdb99fe4edab88a6ac6",
+      "handoffSha256": "9ccc5a8b3e9fb6f6f82ab54e4a19ccf55df183bdd8f76ada9c055aa346af99e6",
+      "providerAcceptanceSha256": "bbf8612c1860176398144c666bfb91dbbf4bc4207b15f51924fb1f55fa518e55",
+      "durationSeconds": 55.016,
+      "cueCount": 7,
+      "segmentReuse": {
+        "schema": "qwen-segment-reuse-summary-v1",
+        "requested": 7,
+        "reused": 4,
+        "regenerated": 3
+      },
+      "files": [
+        {
+          "name": "manifest.json",
+          "sha256": "d8af79fe34ba7a5ab69766df32331f0e85c42d6adbd49254b732d2d708ff7ec3",
+          "bytes": 26757
+        },
+        {
+          "name": "handoff.json",
+          "sha256": "9ccc5a8b3e9fb6f6f82ab54e4a19ccf55df183bdd8f76ada9c055aa346af99e6",
+          "bytes": 219649
+        },
+        {
+          "name": "narration-final.m4a",
+          "sha256": "d57593fd6d5437caac96148b8ba8e963ebc164f3e8db2cdb99fe4edab88a6ac6",
+          "bytes": 681372
+        },
+        {
+          "name": "narration-final-inspection.wav",
+          "sha256": "ac596a843326fc4245dad249e20aaeaa2280e4af3b0ac794f3f9b2a34960ef07",
+          "bytes": 2641998
+        },
+        {
+          "name": "provider.acceptance.json",
+          "sha256": "bbf8612c1860176398144c666bfb91dbbf4bc4207b15f51924fb1f55fa518e55",
+          "bytes": 174125
+        }
+      ],
+      "artifactSha256": "c25b3c954ac54ee897cdba3b235cd765ec07c8aa7e3da008105721a7e35a9821"
+    },
+    "visualAuthorityId": "paper-cut-keyframe-v1",
+    "approvedAt": "2026-08-13T10:01:51.055Z"
+  }
+}

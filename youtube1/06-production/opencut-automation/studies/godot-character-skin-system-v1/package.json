@@ -1,0 +1,11 @@
+{
+  "name": "godot-character-skin-system-v1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fixture": "node create-fixture.mjs",
+    "test": "node --test test/validator.test.mjs",
+    "validate": "node validate-manifest.mjs sample-manifest.json",
+    "report": "node write-report.mjs"
+  }
+}

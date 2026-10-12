@@ -1,0 +1,78 @@
+{
+  "queue_id": "evidence-motion-v2-deferred",
+  "policy": "metadata and official preview URLs only; no login, purchase, API key, or copyrighted preview download",
+  "items": [
+    {
+      "id": "adobe-after-effects-aerender",
+      "role": "nle/template-render",
+      "source_url": "https://helpx.adobe.com/after-effects/using/automated-rendering-network-rendering.html",
+      "license_url": "https://www.adobe.com/legal/terms.html",
+      "status": "evaluate",
+      "reason": "Windows aerender is practical but the application and each MOGRT/template carry separate commercial terms."
+    },
+    {
+      "id": "blackmagic-resolve-fusion",
+      "role": "nle/fusion-lower-third",
+      "source_url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_Scripting.pdf",
+      "license_url": "https://www.blackmagicdesign.com/legal",
+      "status": "evaluate",
+      "reason": "Resolve/Fusion scripting and render automation are viable on Windows; template redistribution terms must be checked per asset."
+    },
+    {
+      "id": "mixkit-templates",
+      "role": "template/transitions",
+      "source_url": "https://mixkit.co/free-after-effects-templates/",
+      "license_url": "https://mixkit.co/license/",
+      "status": "defer",
+      "reason": "Free downloads exist, but item-level license and direct-download behavior vary; no file was admitted in this batch."
+    },
+    {
+      "id": "motion-array",
+      "role": "template/transitions",
+      "source_url": "https://motionarray.com/browse/after-effects-templates/",
+      "license_url": "https://motionarray.com/license/",
+      "status": "defer",
+      "reason": "Account/subscription and item-license checks are required; metadata only."
+    },
+    {
+      "id": "envato-elements",
+      "role": "template/transitions",
+      "source_url": "https://elements.envato.com/video-templates",
+      "license_url": "https://elements.envato.com/license-terms",
+      "status": "defer",
+      "reason": "Paid subscription and item registration make first-batch redistribution audit out of scope."
+    },
+    {
+      "id": "youtube-audio-library",
+      "role": "music/sfx",
+      "source_url": "https://support.google.com/youtube/answer/3376882",
+      "license_url": "https://support.google.com/youtube/answer/3376882",
+      "status": "defer",
+      "reason": "YouTube Studio login is required for downloads; use the directly downloadable Wikimedia SFX in this batch instead."
+    },
+    {
+      "id": "sonniss-gdc-bundle",
+      "role": "documentary-sfx",
+      "source_url": "https://sonniss.com/gdc-bundle/",
+      "license_url": "https://sonniss.com/gdc-bundle-license/",
+      "status": "defer",
+      "reason": "Free but a very large pack; exact file-level provenance and redistribution review are deferred."
+    },
+    {
+      "id": "pexels-video",
+      "role": "b-roll",
+      "source_url": "https://www.pexels.com/videos/",
+      "license_url": "https://www.pexels.com/license/",
+      "status": "defer",
+      "reason": "Direct clip downloads and API/account terms need an item-specific audit; no clip was downloaded."
+    },
+    {
+      "id": "osm-live-tiles",
+      "role": "map/route",
+      "source_url": "https://operations.osmfoundation.org/policies/tiles/",
+      "license_url": "https://www.openstreetmap.org/copyright",
+      "status": "reject-for-batch",
+      "reason": "Public tile servers prohibit bulk/offline/headless scraping; use pinned Natural Earth/TopoJSON instead."
+    }
+  ]
+}

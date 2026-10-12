@@ -1,0 +1,172 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "editorial-evidence-bundle-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "generationPolicy", "upstream", "researchSnapshotSha", "dossierSha", "legalReportSha", "scriptDraftSha", "scriptArtifactSha", "claims", "conflicts", "unknowns", "legal", "mediaConstraints", "sourceIndex", "scriptSpans", "bundleSha256"],
+  "properties": {
+    "schema": { "const": "editorial-evidence-bundle-v1" },
+    "generationPolicy": { "const": "explicit-mapping-only" },
+    "generatedAt": { "type": "string", "minLength": 1 },
+    "upstream": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["researchSnapshot", "eventDossier", "legalReport", "script"],
+      "properties": {
+        "researchSnapshot": { "$ref": "#/$defs/researchRef" },
+        "eventDossier": { "$ref": "#/$defs/dossierRef" },
+        "legalReport": { "$ref": "#/$defs/legalRef" },
+        "script": { "$ref": "#/$defs/scriptRef" }
+      }
+    },
+    "researchSnapshotSha": { "$ref": "#/$defs/sha256" },
+    "dossierSha": { "$ref": "#/$defs/sha256" },
+    "legalReportSha": { "$ref": "#/$defs/sha256" },
+    "scriptDraftSha": { "$ref": "#/$defs/sha256" },
+    "scriptArtifactSha": { "$ref": "#/$defs/sha256" },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claimId", "summary", "perspective", "status", "confidence", "sourceIds"],
+        "properties": {
+          "claimId": { "$ref": "#/$defs/nonEmpty" },
+          "summary": { "$ref": "#/$defs/nonEmpty" },
+          "field": { "$ref": "#/$defs/nonEmpty" },
+          "perspective": { "$ref": "#/$defs/nonEmpty" },
+          "status": { "$ref": "#/$defs/nonEmpty" },
+          "confidence": { "$ref": "#/$defs/nonEmpty" },
+          "sourceIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/nonEmpty" } }
+        }
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "statement"],
+        "properties": { "id": { "$ref": "#/$defs/nonEmpty" }, "statement": { "$ref": "#/$defs/nonEmpty" } }
+      }
+    },
+    "unknowns": { "type": "array", "items": { "$ref": "#/$defs/nonEmpty" }, "uniqueItems": true },
+    "legal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["videoDecision", "allowedClaims", "prohibitedClaims", "prohibitedPhrases", "requiredQualifications", "identityRestrictions", "footageRestrictions", "safePhrasing"],
+      "properties": {
+        "videoDecision": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["decision", "reasons"],
+          "properties": {
+            "decision": { "enum": ["allow", "conditional"] },
+            "reasons": { "type": "array", "items": { "$ref": "#/$defs/nonEmpty" }, "uniqueItems": true }
+          }
+        },
+        "allowedClaims": { "$ref": "#/$defs/stringArray" },
+        "prohibitedClaims": { "$ref": "#/$defs/stringArray" },
+        "prohibitedPhrases": { "$ref": "#/$defs/stringArray" },
+        "requiredQualifications": { "$ref": "#/$defs/scopedArray" },
+        "identityRestrictions": { "$ref": "#/$defs/scopedArray" },
+        "footageRestrictions": { "$ref": "#/$defs/scopedArray" },
+        "safePhrasing": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "mediaConstraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["identity", "footage"],
+      "properties": { "identity": { "$ref": "#/$defs/scopedArray" }, "footage": { "$ref": "#/$defs/scopedArray" } }
+    },
+    "sourceIndex": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "url", "status", "verified"],
+        "properties": {
+          "id": { "$ref": "#/$defs/nonEmpty" },
+          "url": { "type": "string", "pattern": "^https?://" },
+          "title": { "$ref": "#/$defs/nonEmpty" },
+          "publisher": { "$ref": "#/$defs/nonEmpty" },
+          "date": { "$ref": "#/$defs/nonEmpty" },
+          "status": { "const": "verified" },
+          "verified": { "const": true }
+        }
+      }
+    },
+    "scriptSpans": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["spanId", "scene", "claimIds", "evidenceClass", "qualificationIds", "legalConstraintIds", "mediaDecision", "mediaConstraints"],
+        "anyOf": [{ "required": ["captionAnchor"] }, { "required": ["excerpt"] }],
+        "properties": {
+          "spanId": { "$ref": "#/$defs/nonEmpty" },
+          "scene": { "type": "integer", "minimum": 1 },
+          "captionAnchor": { "$ref": "#/$defs/nonEmpty" },
+          "excerpt": { "$ref": "#/$defs/nonEmpty" },
+          "claimIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/nonEmpty" } },
+          "evidenceClass": { "enum": ["direct", "reported", "inference", "contextual"] },
+          "qualificationIds": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/nonEmpty" } },
+          "legalConstraintIds": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/nonEmpty" } },
+          "mediaDecision": {
+            "oneOf": [
+              { "type": "null" },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["decision"],
+                "properties": { "decision": { "$ref": "#/$defs/nonEmpty" }, "reason": { "$ref": "#/$defs/nonEmpty" } }
+              }
+            ]
+          },
+          "mediaConstraints": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["identityRestrictionIds", "footageRestrictionIds"],
+            "properties": {
+              "identityRestrictionIds": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/nonEmpty" } },
+              "footageRestrictionIds": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/nonEmpty" } }
+            }
+          }
+        }
+      }
+    },
+    "bundleSha256": { "$ref": "#/$defs/sha256" }
+  },
+  "$defs": {
+    "nonEmpty": { "type": "string", "minLength": 1 },
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "stringArray": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/nonEmpty" } },
+    "scopedArray": { "type": "array", "items": { "$ref": "#/$defs/scoped" } },
+    "scoped": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "text", "claimIds", "triggers", "global"],
+      "properties": {
+        "id": { "$ref": "#/$defs/nonEmpty" },
+        "text": { "$ref": "#/$defs/nonEmpty" },
+        "claimIds": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/nonEmpty" } },
+        "triggers": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/nonEmpty" } },
+        "global": { "type": "boolean" }
+      }
+    },
+    "refBase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "path", "sha256"],
+      "properties": { "kind": { "type": "string" }, "path": { "$ref": "#/$defs/nonEmpty" }, "sha256": { "$ref": "#/$defs/sha256" } }
+    },
+    "researchRef": { "allOf": [{ "$ref": "#/$defs/refBase" }, { "properties": { "kind": { "const": "researchSnapshot" } } }] },
+    "dossierRef": { "allOf": [{ "$ref": "#/$defs/refBase" }, { "properties": { "kind": { "const": "eventDossier" } } }] },
+    "legalRef": { "allOf": [{ "$ref": "#/$defs/refBase" }, { "properties": { "kind": { "const": "legalReport" } } }] },
+    "scriptRef": { "allOf": [{ "$ref": "#/$defs/refBase" }, { "properties": { "kind": { "const": "script" } } }] }
+  }
+}

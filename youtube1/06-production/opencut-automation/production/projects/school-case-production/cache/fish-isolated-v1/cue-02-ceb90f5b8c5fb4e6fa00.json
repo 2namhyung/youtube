@@ -1,0 +1,15 @@
+{
+  "cacheSchema": 3,
+  "audioPolicy": "leading-trim-100ms-tail-pad-v1",
+  "alignmentPolicy": "word-dp-critical-exact-v2",
+  "synthesisPolicy": "canonical-syllables-punctuation-microsegment-v3",
+  "duration": 1.0681179138321995,
+  "wavSha256": "5ef65b93091cc827ef0a04bcc9b994a5d82745d70ec103f21cbdb1b8275e67df",
+  "acceptance": {
+    "seed": 20262928,
+    "attempt": 3,
+    "leadingTrimSeconds": 0,
+    "validator": "faster-whisper-medium",
+    "primaryValidatorError": "Fish speech acceptance failed: overall ASR coverage 80.0% is below 82%"
+  }
+}

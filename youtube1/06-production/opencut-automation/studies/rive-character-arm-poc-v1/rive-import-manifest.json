@@ -1,0 +1,247 @@
+{
+  "schema": "rive-character-import-pack-v1",
+  "status": "private-editor-import-ready",
+  "productionApproved": false,
+  "artboard": {
+    "name": "char_anon01_front",
+    "width": 1024,
+    "height": 1536
+  },
+  "referencePattern": "torso-separate-from-arm-sleeve-and-hand",
+  "hierarchy": {
+    "root": [
+      "torso",
+      "arm_l",
+      "arm_r",
+      "hand_relaxed_l",
+      "hand_relaxed_r"
+    ],
+    "drawOrderBackToFront": [
+      "arm_l",
+      "arm_r",
+      "torso",
+      "hand_relaxed_l",
+      "hand_relaxed_r"
+    ],
+    "exactlyOneVisibleArmPerSide": true
+  },
+  "bones": {
+    "root": {
+      "parent": null,
+      "joint": [
+        512,
+        755
+      ]
+    },
+    "spine": {
+      "parent": "root",
+      "joint": [
+        512,
+        555
+      ]
+    },
+    "shoulder_l": {
+      "parent": "spine",
+      "joint": [
+        382,
+        494
+      ]
+    },
+    "elbow_l": {
+      "parent": "shoulder_l",
+      "joint": [
+        323,
+        625
+      ]
+    },
+    "wrist_l": {
+      "parent": "elbow_l",
+      "joint": [
+        323,
+        755
+      ]
+    },
+    "shoulder_r": {
+      "parent": "spine",
+      "joint": [
+        642,
+        494
+      ]
+    },
+    "elbow_r": {
+      "parent": "shoulder_r",
+      "joint": [
+        701,
+        625
+      ]
+    },
+    "wrist_r": {
+      "parent": "elbow_r",
+      "joint": [
+        701,
+        755
+      ]
+    }
+  },
+  "layers": [
+    {
+      "slot": "torso",
+      "semanticRole": "body-shell-no-arms-or-sleeves",
+      "path": "import-layers/char_anon01_front_torso.png",
+      "sourcePath": "opencut-automation/studies/rive-character-organic-mesh-sheet-v1/parts/04-torso.png",
+      "sourceSha256": "d4f5914295ff824e5a81779a12dcab027fdba8a94101edde3943c39c6fb9e797",
+      "sha256": "4d2d4610551806cefb88b7f5ab9727a0348589d9170f572cb06d6b1b66593b9c",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alphaBounds": [
+        362,
+        348,
+        662,
+        761
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "drawOrder": 30
+    },
+    {
+      "slot": "arm_l",
+      "semanticRole": "continuous-shoulder-to-wrist-sleeve",
+      "path": "import-layers/char_anon01_front_arm_l.png",
+      "sourcePath": "opencut-automation/studies/rive-character-organic-mesh-sheet-v1/parts/06-arm_full_l.png",
+      "sourceSha256": "c9a0b5b3af04138bfabed0bfed89f8cdbef25a099f4dab230284b43cbfb5b85d",
+      "sha256": "10c1c9c32e6619e3ad55154289b39abb9a6e59f27f93187dfdde2bccd6269d4f",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alphaBounds": [
+        278,
+        492,
+        403,
+        747
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "drawOrder": 20
+    },
+    {
+      "slot": "arm_r",
+      "semanticRole": "continuous-shoulder-to-wrist-sleeve",
+      "path": "import-layers/char_anon01_front_arm_r.png",
+      "sourcePath": "opencut-automation/studies/rive-character-organic-mesh-sheet-v1/parts/07-arm_full_r.png",
+      "sourceSha256": "2f9a1ae739fafbfab90b4056f64286873effe74630957dff787e5f695c94ee81",
+      "sha256": "7eb749a499db74637de49e16caeefaddb3193d1121044ac04a1f64faecf5b01f",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alphaBounds": [
+        622,
+        491,
+        747,
+        749
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "drawOrder": 20
+    },
+    {
+      "slot": "hand_relaxed_l",
+      "semanticRole": "rigid-hand-attachment",
+      "path": "import-layers/char_anon01_front_hand_relaxed_l.png",
+      "sourcePath": "opencut-automation/studies/rive-character-organic-mesh-sheet-v1/parts/11-hand_relaxed_l.png",
+      "sourceSha256": "a4497eae7cfd0d310db7a4054a6c230b123510e51a21bc3676c6fe492ba78e6f",
+      "sha256": "ad7b96cab915ad866bd4b8f328e00ace55ed27de385be6518359af00369aee5e",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alphaBounds": [
+        289,
+        734,
+        375,
+        876
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "drawOrder": 40
+    },
+    {
+      "slot": "hand_relaxed_r",
+      "semanticRole": "rigid-hand-attachment",
+      "path": "import-layers/char_anon01_front_hand_relaxed_r.png",
+      "sourcePath": "opencut-automation/studies/rive-character-organic-mesh-sheet-v1/parts/12-hand_relaxed_r.png",
+      "sourceSha256": "3ecf6a81f15de44be417c5f038627dea8e31cfe4cab5665f9b5721d49292d522",
+      "sha256": "71ecb6c2c9d9cf0d34bdc64c2dd838cdc10458727c27fe10d322a0f36e5fb587",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alphaBounds": [
+        649,
+        732,
+        735,
+        877
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "drawOrder": 40
+    }
+  ],
+  "meshPlan": {
+    "torso": {
+      "mode": "rigid-or-light-spine-deform",
+      "boundBones": [
+        "root",
+        "spine"
+      ]
+    },
+    "arm_l": {
+      "mode": "raster-mesh",
+      "boundBones": [
+        "shoulder_l",
+        "elbow_l",
+        "wrist_l"
+      ]
+    },
+    "arm_r": {
+      "mode": "raster-mesh",
+      "boundBones": [
+        "shoulder_r",
+        "elbow_r",
+        "wrist_r"
+      ]
+    },
+    "hands": {
+      "mode": "rigid-child",
+      "parents": {
+        "hand_relaxed_l": "wrist_l",
+        "hand_relaxed_r": "wrist_r"
+      }
+    }
+  },
+  "review": {
+    "staticComposite": {
+      "path": "review/static-composite.png",
+      "sha256": "d2c213fbb120ee57d28227b19e72d695ca2663dad4c0fbf8d20c10d4bd393356"
+    },
+    "rigOverlay": {
+      "path": "review/rig-overlay.png",
+      "sha256": "ed8baca6d4f0eadf549c20eac81044bdf11cbc7d1e3d03606345559063655f01"
+    },
+    "riveEditorMeshWeights": "pending",
+    "extremePoseSeamQa": "pending"
+  }
+}

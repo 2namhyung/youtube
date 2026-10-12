@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-independent-narration-critique-v1",
+  "title": "Independent newsroom narration critique v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "initialVerdict", "findings", "revisionApplied", "revisionSummary", "initialAuthoritySha256", "finalAuthoritySha256", "timing"],
+  "properties": {
+    "schema": { "const": "newsroom-independent-narration-critique-v1" },
+    "initialVerdict": { "enum": ["pass", "revise"] },
+    "findings": {
+      "type": "array",
+      "minItems": 9,
+      "maxItems": 9,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["category", "status", "detail", "sentenceIndexes"],
+        "properties": {
+          "category": { "enum": ["factual-grounding", "legal-qualification", "observer-summary", "repetition", "progression", "interest", "modality-fit", "coda", "advisory-duration"] },
+          "status": { "enum": ["pass", "revise"] },
+          "detail": { "type": "string", "minLength": 1, "maxLength": 1200 },
+          "sentenceIndexes": { "type": "array", "maxItems": 64, "items": { "type": "integer", "minimum": 1, "maximum": 64 } }
+        }
+      }
+    },
+    "revisionApplied": { "type": "boolean" },
+    "revisionSummary": { "type": "string", "maxLength": 2000 },
+    "initialAuthoritySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "finalAuthoritySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "timing": {
+      "type": "object",
+      "description": "Deterministic advisory estimates for initial and final authorities; owner narration locked timing remains authoritative."
+    }
+  }
+}

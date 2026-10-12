@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "engine": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512 inference_vc",
+  "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+  "seed": 20260807,
+  "sourceCarrier": {
+    "path": "03-script-voice/voice-clone/profiles/qwen-f4-reference-guide-v1-retake5/provenance/reference-carrier.wav",
+    "sha256": "74f11586b691ac75bcc6a3e64fd346113ce786dcd8fbb5efc606ea680746701c"
+  },
+  "targetOwnerReference": {
+    "path": "03-script-voice/runs/owner-voice-refresh-20260807/owner-timbre-reference-v1-retake5.wav",
+    "sha256": "5bebd6af7b095a01d7c18b228c97d3b1971c4bced221d52c3a45baefa20bb3d4"
+  },
+  "rawGuide": {
+    "path": "03-script-voice/voice-clone/profiles/qwen-f4-reference-guide-v1-retake5/provenance/reference-guide-raw.wav",
+    "sha256": "97aa3281529283efb321c5e065c5c2d51a29eca3df59d8b0dfccf2f393ebf769"
+  },
+  "finalGuide": {
+    "path": "03-script-voice/voice-clone/profiles/qwen-f4-reference-guide-v1-retake5/prompt-bank/assets/reference-guide.wav",
+    "sha256": "74a5edc17e33de901e574c6d27ee620c03df846f4de6f3497a9f9e1297383a70",
+    "durationSeconds": 10.76
+  },
+  "identityPolicy": "Locked Jeju Instagram carrier supplies delivery; the original owner reference remains primary and recording 5 supplements owner identity and legal diction."
+}

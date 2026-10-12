@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "profileId": "qwen-f4-reference-guide-v2",
+  "status": "validation-passed",
+  "productionEligible": true,
+  "ownerVoice": true,
+  "model": {
+    "id": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+    "precision": "bf16",
+    "language": "Korean",
+    "loraAllowed": false,
+    "adapterAllowed": false
+  },
+  "sourceAudit": {
+    "method": "locked Instagram delivery carrier -> CosyVoice3 inference_vc -> refreshed owner timbre; owner recording supplies legal and question prompts",
+    "thirdPartyProsodyCarrier": true,
+    "thirdPartySpeakerIdentityRetained": false,
+    "finalGuideSpeaker": "owner voice refresh 2026-08-07",
+    "sourceCarrier": "../../qwen-f4-reference-guide-v1/provenance/reference-carrier.wav",
+    "sourceCarrierSha256": "74f11586b691ac75bcc6a3e64fd346113ce786dcd8fbb5efc606ea680746701c",
+    "ownerRecording": "../../../../runs/owner-voice-refresh-20260807/owner-refresh-full.wav",
+    "ownerRecordingSha256": "18e134ea8832a1f04f41641fea35855ef61d1b36007b6931245a7048233c10ce",
+    "ownerLegalRetake": "../../../../runs/owner-voice-refresh-20260807/owner-legal-retake-full.wav",
+    "ownerLegalRetakeSha256": "ff0de86723421d219e910f44c7b50120b25ccbfed1a1c20689f18a0d62285b11",
+    "ownerTimbreReferenceSha256": "00607c45de6bab30c37b353d3a7141fd5d65e88315279c6a00d4012e596e9914",
+    "voiceConversionEngine": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "voiceConversionRevision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+    "usage": "local owner-voice generation prompt only; do not redistribute biometric or carrier assets"
+  },
+  "defaultStyle": "hook",
+  "styles": {
+    "neutral": {
+      "role": "canonical-neutral",
+      "audio": "assets/reference-guide.wav",
+      "sha256": "371ef34322274f681f3e5c07c317b144bb4baea66155e312c1c52f53bbb19b6d",
+      "transcript": "철조망에 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다. 저번 호주 산불 때 많은 동물들을 자신의 굴로 숨겨 구해준 작은 영웅이죠. 그런데 원뱃이 몸을 여기저기 비비는 이유가 있습니다."
+    },
+    "hook": {
+      "role": "hook",
+      "audio": "assets/reference-guide.wav",
+      "sha256": "371ef34322274f681f3e5c07c317b144bb4baea66155e312c1c52f53bbb19b6d",
+      "transcript": "철조망에 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다. 저번 호주 산불 때 많은 동물들을 자신의 굴로 숨겨 구해준 작은 영웅이죠. 그런데 원뱃이 몸을 여기저기 비비는 이유가 있습니다."
+    },
+    "news_exposition": {
+      "role": "news-exposition",
+      "audio": "assets/news_exposition.wav",
+      "sha256": "4ee17671843f2458038e6a7a2d8a8c089751c21aa6baeb9ae9636c66ee8c1178",
+      "transcript": "검찰은 살인미수를 주장했습니다. 살인미수 혐의가 인정됐는지 살펴보겠습니다.",
+      "source": "owner-recording",
+      "ownerOnly": true,
+      "localOnly": true
+    },
+    "tension": {
+      "role": "tension",
+      "audio": "assets/reference-guide.wav",
+      "sha256": "371ef34322274f681f3e5c07c317b144bb4baea66155e312c1c52f53bbb19b6d",
+      "transcript": "철조망에 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다. 저번 호주 산불 때 많은 동물들을 자신의 굴로 숨겨 구해준 작은 영웅이죠. 그런데 원뱃이 몸을 여기저기 비비는 이유가 있습니다."
+    },
+    "criticism": {
+      "role": "criticism",
+      "audio": "assets/reference-guide.wav",
+      "sha256": "371ef34322274f681f3e5c07c317b144bb4baea66155e312c1c52f53bbb19b6d",
+      "transcript": "철조망에 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다. 저번 호주 산불 때 많은 동물들을 자신의 굴로 숨겨 구해준 작은 영웅이죠. 그런데 원뱃이 몸을 여기저기 비비는 이유가 있습니다."
+    },
+    "solution_closing": {
+      "role": "solution-closing",
+      "audio": "assets/reference-guide.wav",
+      "sha256": "371ef34322274f681f3e5c07c317b144bb4baea66155e312c1c52f53bbb19b6d",
+      "transcript": "철조망에 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다. 저번 호주 산불 때 많은 동물들을 자신의 굴로 숨겨 구해준 작은 영웅이죠. 그런데 원뱃이 몸을 여기저기 비비는 이유가 있습니다."
+    },
+    "question": {
+      "role": "question",
+      "audio": "assets/question.wav",
+      "sha256": "521052b932dc84b00224b9a9ff8a07c708318d8d4bf03210956e657227a71be3",
+      "transcript": "마지막으로 시청자에게 묻겠습니다. 방금까지 평범했던 커피가 한순간에 두려움의 대상이 된다면, 여러분은 다음 날 아무렇지 않게 같은 자리에 앉을 수 있나요?",
+      "source": "owner-recording",
+      "ownerOnly": true,
+      "localOnly": true
+    }
+  },
+  "validation": {
+    "status": "candidate-retest-after-owner-legal-retake",
+    "dualAsrModels": ["small", "medium"],
+    "maxCharacterErrorRate": 0.08,
+    "failClosed": true,
+    "baseOnly": true,
+    "loraLoaded": false,
+    "adapterLoaded": false,
+    "failedCoffeeProbe": {
+      "versionId": "msiwl4cl-26340-g63lhv",
+      "acceptanceSha256": "6146a17e00ae33b674006144510eb912ff323066e8846280bb13cc085844551a",
+      "reason": "Neither strict ASR model pair consistently confirmed 살인미수 and 특수상해 after five deterministic attempts."
+    }
+  }
+}

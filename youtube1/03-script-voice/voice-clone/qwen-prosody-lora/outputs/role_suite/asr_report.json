@@ -1,0 +1,234 @@
+{
+  "status": "fail",
+  "support": "unsupported-experimental",
+  "models": {
+    "small": {
+      "roles": {
+        "hook": {
+          "base": {
+            "transcript": "교실에서 선생님의 말 한마디가 녹음되고 순식간에 민원으로 돌아오는 시대입니다. 그런데 교권을 지키는 제도는 정말 현장에서 작동하고 있을까요?",
+            "normalized": "교실에서선생님의말한마디가녹음되고순식간에민원으로돌아오는시대입니다그런데교권을지키는제도는정말현장에서작동하고있을까요",
+            "edits": 0,
+            "reference_characters": 60,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          },
+          "adapter": {
+            "transcript": "교실에서 선생님의 말 한마디가 녹음되고 순식간에 민원으로 돌아오는 시대입니다. 그런데 교권을 지키는 제도는 정말 현장에서 작동하고 있을까요?",
+            "normalized": "교실에서선생님의말한마디가녹음되고순식간에민원으로돌아오는시대입니다그런데교권을지키는제도는정말현장에서작동하고있을까요",
+            "edits": 0,
+            "reference_characters": 60,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          }
+        },
+        "news_exposition": {
+          "base": {
+            "transcript": "교육부는 교권 보호 대책을 확대하고 학교 마다 대응 절차를 마련했다고 설명합니다. 하지만 신고부터 조사와 지원까지 이어지는 과정은 지역과 학교에 따라 큰 차이를 보입니다.",
+            "normalized": "교육부는교권보호대책을확대하고학교마다대응절차를마련했다고설명합니다하지만신고부터조사와지원까지이어지는과정은지역과학교에따라큰차이를보입니다",
+            "edits": 0,
+            "reference_characters": 71,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          },
+          "adapter": {
+            "transcript": "교육부는 교건보호 대책을 확대하고 학교마다 대응 절차를 마련했다고 설명합니다. 하지만 신고부터 조사와 지원까지 이어지는 과정은 지역과 학교에 따라 큰 차이를 보입니다.",
+            "normalized": "교육부는교건보호대책을확대하고학교마다대응절차를마련했다고설명합니다하지만신고부터조사와지원까지이어지는과정은지역과학교에따라큰차이를보입니다",
+            "edits": 1,
+            "reference_characters": 71,
+            "cer": 0.014084507042253521,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          }
+        },
+        "tension": {
+          "base": {
+            "transcript": "문제는 사건이 벌어진 다음입니다. 교사는 수업을 계속해야 하지만 보호 절차는 늦어지고 책임을 둘러싼 갈등은 점점 더 커집니다.",
+            "normalized": "문제는사건이벌어진다음입니다교사는수업을계속해야하지만보호절차는늦어지고책임을둘러싼갈등은점점더커집니다",
+            "edits": 0,
+            "reference_characters": 52,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          },
+          "adapter": {
+            "transcript": "문제는 사건이 벌어진 다음입니다. 부산은 수업을 계속해야 하지만 보호 절차는 늦어지고 책임을 둘러싼 갈등은 점점 더 커집니다.",
+            "normalized": "문제는사건이벌어진다음입니다부산은수업을계속해야하지만보호절차는늦어지고책임을둘러싼갈등은점점더커집니다",
+            "edits": 3,
+            "reference_characters": 52,
+            "cer": 0.057692307692307696,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          }
+        },
+        "criticism": {
+          "base": {
+            "transcript": "대책은 많아졌지만 현장의 부담을 개인에게 남겨둔다면 제도는 이름만 바뀐 채 같은 문제를 반복하게 됩니다. 실적보다 실제 대응 속도와 회복과정을 따져봐야 합니다.",
+            "normalized": "대책은많아졌지만현장의부담을개인에게남겨둔다면제도는이름만바뀐채같은문제를반복하게됩니다실적보다실제대응속도와회복과정을따져봐야합니다",
+            "edits": 0,
+            "reference_characters": 67,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          },
+          "adapter": {
+            "transcript": "대책은 많아졌지만 현장의 부담을 개인에게 남겨둔다면 제도는 이름만 박힌 채 같은 문제를 반복하게 됩니다. 실적보다 실제 대응 속도와 회복 과정을 따져봐야 합니다.",
+            "normalized": "대책은많아졌지만현장의부담을개인에게남겨둔다면제도는이름만박힌채같은문제를반복하게됩니다실적보다실제대응속도와회복과정을따져봐야합니다",
+            "edits": 2,
+            "reference_characters": 67,
+            "cer": 0.029850746268656716,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          }
+        },
+        "solution_closing": {
+          "base": {
+            "transcript": "해법은 교사에 관한과 책임을 분명히 하고 사건 초기부터 법류가 심리 지원을 함께 연결하는 데 있습니다. 교권 보호는 누군가를 공격하는 일이 아니라 교실의 신뢰를 다시 세우는 일입니다.",
+            "normalized": "해법은교사에관한과책임을분명히하고사건초기부터법류가심리지원을함께연결하는데있습니다교권보호는누군가를공격하는일이아니라교실의신뢰를다시세우는일입니다",
+            "edits": 4,
+            "reference_characters": 75,
+            "cer": 0.05333333333333334,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          },
+          "adapter": {
+            "transcript": "해법은 교사의 권한과 책임을 분명히 하고 사건 초기부터 법률과 심리 지원을 함께 연결하는 데 있습니다. 교권 보호는 누군가를 공격하는 일이 아니라 교실의 신뢰를 다시 세우는 일입니다.",
+            "normalized": "해법은교사의권한과책임을분명히하고사건초기부터법률과심리지원을함께연결하는데있습니다교권보호는누군가를공격하는일이아니라교실의신뢰를다시세우는일입니다",
+            "edits": 0,
+            "reference_characters": 75,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          }
+        }
+      },
+      "summary": {
+        "base_mean_cer": 0.010666666666666668,
+        "adapter_mean_cer": 0.020325512200643586,
+        "adapter_minus_base_mean_cer": 0.009658845533976917,
+        "adapter_worse_role_count": 3,
+        "all_adapter_samples_cer_le_0_08": true,
+        "mean_adapter_not_over_base_by_0_02": true,
+        "no_majority_role_regression": false
+      },
+      "status": "fail"
+    },
+    "medium": {
+      "roles": {
+        "hook": {
+          "base": {
+            "transcript": "교실에서 선생님의 말 한마디가 녹음되고 순식간에 민원으로 돌아오는 시대입니다. 그런데 교권을 지키는 제도는 정말 현장에서 작동하고 있을까요?",
+            "normalized": "교실에서선생님의말한마디가녹음되고순식간에민원으로돌아오는시대입니다그런데교권을지키는제도는정말현장에서작동하고있을까요",
+            "edits": 0,
+            "reference_characters": 60,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          },
+          "adapter": {
+            "transcript": "교실에서 선생님의 말 한마디가 녹음되고 순식간에 민원으로 돌아오는 시대입니다. 그런데 교권을 지키는 제도는 정말 현장에서 작동하고 있을까요?",
+            "normalized": "교실에서선생님의말한마디가녹음되고순식간에민원으로돌아오는시대입니다그런데교권을지키는제도는정말현장에서작동하고있을까요",
+            "edits": 0,
+            "reference_characters": 60,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          }
+        },
+        "news_exposition": {
+          "base": {
+            "transcript": "교육부는 교권보호 대책을 확대하고 학교하다 대응 절차를 마련했다고 설명합니다. 하지만 신고부터 조사와 지원까지 이어지는 과정은 지역과 학교에 따라 큰 차이를 보입니다.",
+            "normalized": "교육부는교권보호대책을확대하고학교하다대응절차를마련했다고설명합니다하지만신고부터조사와지원까지이어지는과정은지역과학교에따라큰차이를보입니다",
+            "edits": 1,
+            "reference_characters": 71,
+            "cer": 0.014084507042253521,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          },
+          "adapter": {
+            "transcript": "교육부는 교권보호 대책을 확대하고 학교마다 대응 절차를 마련했다고 설명합니다. 하지만 신고부터 조사와 지원까지 이어지는 과정은 지역과 학교에 따라 큰 차이를 보입니다.",
+            "normalized": "교육부는교권보호대책을확대하고학교마다대응절차를마련했다고설명합니다하지만신고부터조사와지원까지이어지는과정은지역과학교에따라큰차이를보입니다",
+            "edits": 0,
+            "reference_characters": 71,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          }
+        },
+        "tension": {
+          "base": {
+            "transcript": "문제는 사건이 벌어진 다음입니다. 교사는 수업을 계속해야지만 보호 절차는 늦어지고 책임을 둘러싼 갈등은 점점 더 커집니다.",
+            "normalized": "문제는사건이벌어진다음입니다교사는수업을계속해야지만보호절차는늦어지고책임을둘러싼갈등은점점더커집니다",
+            "edits": 1,
+            "reference_characters": 52,
+            "cer": 0.019230769230769232,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          },
+          "adapter": {
+            "transcript": "문제는 사건이 벌어진 다음입니다. 교사는 수업을 계속해야 하지만 보호 절차는 늦어지고 책임을 둘러싼 갈등은 점점 더 커집니다.",
+            "normalized": "문제는사건이벌어진다음입니다교사는수업을계속해야하지만보호절차는늦어지고책임을둘러싼갈등은점점더커집니다",
+            "edits": 0,
+            "reference_characters": 52,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          }
+        },
+        "criticism": {
+          "base": {
+            "transcript": "대책은 많아졌지만 현장의 부담을 개인에게 남겨둔다면, 제도는 이름만 바뀐 채 같은 문제를 반복하게 됩니다. 실적보다 실제 대응 속도와 회복 과정을 따져봐야 합니다.",
+            "normalized": "대책은많아졌지만현장의부담을개인에게남겨둔다면제도는이름만바뀐채같은문제를반복하게됩니다실적보다실제대응속도와회복과정을따져봐야합니다",
+            "edits": 0,
+            "reference_characters": 67,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          },
+          "adapter": {
+            "transcript": "대책은 많아졌지만 현장의 부담을 개인에게 남겨둔다면, 제도는 이름만 바뀐 채 같은 문제를 반복하게 됩니다. 실적보다 실제 대응속도와 회복과정을 따져봐야 합니다.",
+            "normalized": "대책은많아졌지만현장의부담을개인에게남겨둔다면제도는이름만바뀐채같은문제를반복하게됩니다실적보다실제대응속도와회복과정을따져봐야합니다",
+            "edits": 0,
+            "reference_characters": 67,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          }
+        },
+        "solution_closing": {
+          "base": {
+            "transcript": "해법은 교사의 관한과 책임을 분명히 하고 사건 초기부터 법류와 심리 지원을 함께 연결하는 데 있습니다. 교권보호는 누군가를 공격하는 일이 아니라 교실의 신뢰를 다시 세우는 일입니다.",
+            "normalized": "해법은교사의관한과책임을분명히하고사건초기부터법류와심리지원을함께연결하는데있습니다교권보호는누군가를공격하는일이아니라교실의신뢰를다시세우는일입니다",
+            "edits": 3,
+            "reference_characters": 75,
+            "cer": 0.04,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          },
+          "adapter": {
+            "transcript": "해법은 교사의 권한과 책임을 분명히 하고 사건 초기부터 법률과 심리 지원을 함께 연결하는데 있습니다. 교권보호는 누군가를 공격하는 일이 아니라 교실의 신뢰를 다시 세우는 일입니다.",
+            "normalized": "해법은교사의권한과책임을분명히하고사건초기부터법률과심리지원을함께연결하는데있습니다교권보호는누군가를공격하는일이아니라교실의신뢰를다시세우는일입니다",
+            "edits": 0,
+            "reference_characters": 75,
+            "cer": 0.0,
+            "language_probability": 1,
+            "passes_cer_0_08": true
+          }
+        }
+      },
+      "summary": {
+        "base_mean_cer": 0.01466305525460455,
+        "adapter_mean_cer": 0.0,
+        "adapter_minus_base_mean_cer": -0.01466305525460455,
+        "adapter_worse_role_count": 0,
+        "all_adapter_samples_cer_le_0_08": true,
+        "mean_adapter_not_over_base_by_0_02": true,
+        "no_majority_role_regression": true
+      },
+      "status": "pass"
+    }
+  }
+}

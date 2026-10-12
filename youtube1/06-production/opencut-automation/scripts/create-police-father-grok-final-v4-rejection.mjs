@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import { fileURLToPath } from 'node:url';
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const dir = path.join(root, 'out', '.private', 'research-6b1a8af9b4143acb', 'grok-final-v4');
+const sha = (b) => crypto.createHash('sha256').update(b).digest('hex');
+const rel = (p) => path.relative(root, p).replaceAll('\\', '/');
+const creator = path.join(root, 'scripts', 'create-police-father-grok-final-private-video-v1.mjs');
+const manifest = path.join(dir, 'final-manifest-v1.json');
+const output = path.join(dir, 'police-father-grok-final-private-v1.mp4');
+if (!fs.existsSync(manifest) || !fs.existsSync(output)) throw new Error('v4 audit inputs missing');
+const artifact = { schema: 'grok-final-private-video-rejection-v1', status: 'rejected-audit-only', rejectedAt: '2026-08-14', reason: ['hard-coded divergent title/caption layout', 'caption font58 instead of canonical 88', 'Malgun Gothic instead of bound Noto Sans KR ExtraBold', 'string-only geometry verification', 'caption/disclosure collision and mid-word splits'], supersededBy: { path: 'out/.private/research-6b1a8af9b4143acb/grok-final-v5r1/police-father-grok-final-private-v5r1.mp4', sha256: '7a0fda01791c2ffd6c72cb442e41cf0d1234854fc664ec119784f3081f7014ab' }, rejectedCreator: { file: rel(creator), sha256: sha(fs.readFileSync(creator, 'utf8')) }, rejectedManifest: { file: rel(manifest), sha256: sha(fs.readFileSync(manifest)) }, rejectedOutput: { file: rel(output), sha256: sha(fs.readFileSync(output)) }, permissions: { upload: false, publication: false, stage07: false } };
+const out = path.join(dir, 'qa', 'layout-contract-rejection-v1.json'); fs.mkdirSync(path.dirname(out), { recursive: true }); const bytes = Buffer.from(`${JSON.stringify(artifact, null, 2)}\n`); if (fs.existsSync(out)) { if (!fs.readFileSync(out).equals(bytes)) throw new Error('rejection artifact drift'); } else fs.writeFileSync(out, bytes, { flag: 'wx' }); console.log(JSON.stringify({ file: out, sha256: sha(fs.readFileSync(out)), status: artifact.status, rejectedOutputSha256: artifact.rejectedOutput.sha256 }, null, 2));

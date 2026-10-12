@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "providers": [
+    {
+      "id": "youtube",
+      "label": "YouTube Shorts",
+      "availability": "official-api",
+      "accountRequirement": "Google account and a YouTube channel",
+      "scope": "https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.readonly https://www.googleapis.com/auth/youtube.force-ssl",
+      "workflow": "resumable upload -> processing poll -> metadata/thumbnail/captions",
+      "publicGate": "Unverified API projects created after 2020-07-28 are restricted to private uploads until audit.",
+      "aiDisclosure": "status.containsSyntheticMedia",
+      "officialDocs": "https://developers.google.com/youtube/v3/docs/videos/insert"
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok",
+      "availability": "official-api",
+      "accountRequirement": "TikTok Login Kit account authorization",
+      "scope": "video.publish",
+      "workflow": "creator_info -> explicit preview/consent -> init -> upload -> status poll/webhook",
+      "publicGate": "Unaudited clients are private-only; public Direct Post requires TikTok audit.",
+      "aiDisclosure": "is_aigc",
+      "officialDocs": "https://developers.tiktok.com/doc/content-posting-api-reference-direct-post"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram Reels",
+      "availability": "official-api",
+      "accountRequirement": "Instagram Professional account (Business or Creator)",
+      "scope": "instagram_content_publish or instagram_business_content_publish",
+      "workflow": "media container -> FINISHED poll -> media_publish",
+      "publicGate": "The connected account and app permissions must be eligible for content publishing.",
+      "aiDisclosure": "platform UI/policy disclosure plus caption disclosure when required",
+      "officialDocs": "https://developers.facebook.com/docs/instagram-platform/content-publishing/"
+    },
+    {
+      "id": "daum",
+      "label": "Daum / KakaoTV",
+      "availability": "manual-only",
+      "accountRequirement": "Manual KakaoTV creator workflow",
+      "scope": null,
+      "workflow": "manual upload only",
+      "publicGate": "No public creator-video upload API is documented.",
+      "aiDisclosure": "follow KakaoTV publishing UI and policy",
+      "officialDocs": "https://developers.kakao.com/docs/en/daum-search/common"
+    }
+  ]
+}

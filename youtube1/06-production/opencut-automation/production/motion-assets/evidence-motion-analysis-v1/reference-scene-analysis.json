@@ -1,0 +1,1224 @@
+{
+  "schema_id": "reference-scene-analysis-v1",
+  "method": "Official YouTube URLs were fetched with yt-dlp 2026.07.04 using worst progressive formats only; FFmpeg created dense cadence contact sheets outside production and local frame images were visually inspected. Temporary videos/contact sheets were deleted after ledger extraction. Audio/SFX were not assessed.",
+  "references": [
+    {
+      "reference_id": "nyt-george-floyd",
+      "title": "NYT — 8 Minutes and 46 Seconds",
+      "url": "https://www.youtube.com/watch?v=vksEJR9EPQ8",
+      "official_url": "https://www.youtube.com/watch?v=vksEJR9EPQ8",
+      "inspection_mode": "yt-dlp worst progressive review copy (no cookies/account), FFmpeg frame sampling and local visual inspection; no audio claim",
+      "coverage_status": "sampled-contact-sheet",
+      "sampling_plan": {
+        "cadence_seconds": 30,
+        "duration_seconds": 570.49,
+        "sampled_frame_count": 20,
+        "coverage_percent": 100,
+        "sampled_timestamps_seconds": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150,
+          180,
+          210,
+          240,
+          270,
+          300,
+          330,
+          360,
+          390,
+          420,
+          450,
+          480,
+          510,
+          540,
+          570
+        ]
+      },
+      "sampled_intervals": [
+        {
+          "start_s": 0,
+          "end_s": 30,
+          "visual": "Vertical phone footage with white side pillars shows police restraint in a street.",
+          "narrative_purpose": "Establish source footage and incident context.",
+          "motion_grammar": "Phone provenance; hard cut; source-aspect framing.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use a centered vertical evidence plate with a persistent source label."
+        },
+        {
+          "start_s": 90,
+          "end_s": 120,
+          "visual": "Police/vehicle angle and fixed street surveillance alternate.",
+          "narrative_purpose": "Corroborate event from multiple camera sources.",
+          "motion_grammar": "Synchronized source juxtaposition; CCTV timestamp overlay.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Stack two source cards rather than crop away provenance."
+        },
+        {
+          "start_s": 180,
+          "end_s": 210,
+          "visual": "Dark map labeled Minnesota/Minneapolis appears with locator emphasis.",
+          "narrative_purpose": "Orient the viewer geographically.",
+          "motion_grammar": "Map locator; label fade/marker emphasis.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use Natural Earth/authority geometry and a single marker."
+        },
+        {
+          "start_s": 270,
+          "end_s": 300,
+          "visual": "Fixed CCTV view with date/time overlay and highlighted street area.",
+          "narrative_purpose": "Anchor chronology to a verifiable time.",
+          "motion_grammar": "Forensic timestamp; crop/zoom callout.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Keep date/time legible in a high-contrast inset."
+        },
+        {
+          "start_s": 390,
+          "end_s": 420,
+          "visual": "Document/transcript page with orange highlighted phrases.",
+          "narrative_purpose": "Tie visual evidence to quoted text.",
+          "motion_grammar": "Document highlight; mask reveal.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use exact text coordinates and redaction-aware highlight."
+        },
+        {
+          "start_s": 540,
+          "end_s": 570,
+          "visual": "Memorial/incident aftermath and night footage close the sampled arc.",
+          "narrative_purpose": "Shift from event to consequence.",
+          "motion_grammar": "Archival montage; dissolve/hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use restrained dissolve and source credit."
+        }
+      ],
+      "scene_motion_ledger": [
+        {
+          "start_s": 0,
+          "end_s": 30,
+          "visual": "Vertical phone footage with white side pillars shows police restraint in a street.",
+          "narrative_purpose": "Establish source footage and incident context.",
+          "motion_grammar": "Phone provenance; hard cut; source-aspect framing.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use a centered vertical evidence plate with a persistent source label."
+        },
+        {
+          "start_s": 90,
+          "end_s": 120,
+          "visual": "Police/vehicle angle and fixed street surveillance alternate.",
+          "narrative_purpose": "Corroborate event from multiple camera sources.",
+          "motion_grammar": "Synchronized source juxtaposition; CCTV timestamp overlay.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Stack two source cards rather than crop away provenance."
+        },
+        {
+          "start_s": 180,
+          "end_s": 210,
+          "visual": "Dark map labeled Minnesota/Minneapolis appears with locator emphasis.",
+          "narrative_purpose": "Orient the viewer geographically.",
+          "motion_grammar": "Map locator; label fade/marker emphasis.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use Natural Earth/authority geometry and a single marker."
+        },
+        {
+          "start_s": 270,
+          "end_s": 300,
+          "visual": "Fixed CCTV view with date/time overlay and highlighted street area.",
+          "narrative_purpose": "Anchor chronology to a verifiable time.",
+          "motion_grammar": "Forensic timestamp; crop/zoom callout.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Keep date/time legible in a high-contrast inset."
+        },
+        {
+          "start_s": 390,
+          "end_s": 420,
+          "visual": "Document/transcript page with orange highlighted phrases.",
+          "narrative_purpose": "Tie visual evidence to quoted text.",
+          "motion_grammar": "Document highlight; mask reveal.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use exact text coordinates and redaction-aware highlight."
+        },
+        {
+          "start_s": 540,
+          "end_s": 570,
+          "visual": "Memorial/incident aftermath and night footage close the sampled arc.",
+          "narrative_purpose": "Shift from event to consequence.",
+          "motion_grammar": "Archival montage; dissolve/hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use restrained dissolve and source credit."
+        }
+      ],
+      "coverage_note": "Observed dense 30-second contact-sheet samples; source is low-resolution review-only."
+    },
+    {
+      "reference_id": "nyt-day-of-rage",
+      "title": "NYT — Day of Rage",
+      "url": "https://www.youtube.com/watch?v=jWJVMoe7OY0",
+      "official_url": "https://www.youtube.com/watch?v=jWJVMoe7OY0",
+      "inspection_mode": "yt-dlp worst progressive review copy (no cookies/account), FFmpeg frame sampling and local visual inspection; no audio claim",
+      "coverage_status": "sampled-contact-sheet",
+      "sampling_plan": {
+        "cadence_seconds": 30,
+        "duration_seconds": 2432.15,
+        "sampled_frame_count": 82,
+        "coverage_percent": 100,
+        "sampled_timestamps_seconds": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150,
+          180,
+          210,
+          240,
+          270,
+          300,
+          330,
+          360,
+          390,
+          420,
+          450,
+          480,
+          510,
+          540,
+          570,
+          600,
+          630,
+          660,
+          690,
+          720,
+          750,
+          780,
+          810,
+          840,
+          870,
+          900,
+          930,
+          960,
+          990,
+          1020,
+          1050,
+          1080,
+          1110,
+          1140,
+          1170,
+          1200,
+          1230,
+          1260,
+          1290,
+          1320,
+          1350,
+          1380,
+          1410,
+          1440,
+          1470,
+          1500,
+          1530,
+          1560,
+          1590,
+          1620,
+          1650,
+          1680,
+          1710,
+          1740,
+          1770,
+          1800,
+          1830,
+          1860,
+          1890,
+          1920,
+          1950,
+          1980,
+          2010,
+          2040,
+          2070,
+          2100,
+          2130,
+          2160,
+          2190,
+          2220,
+          2250,
+          2280,
+          2310,
+          2340,
+          2370,
+          2400,
+          2430
+        ]
+      },
+      "sampled_intervals": [
+        {
+          "start_s": 0,
+          "end_s": 30,
+          "visual": "Night bus/city and Capitol exterior footage.",
+          "narrative_purpose": "Set date/location before the chronology.",
+          "motion_grammar": "Archival montage; hard cut.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Open with an evidence card and location label."
+        },
+        {
+          "start_s": 300,
+          "end_s": 330,
+          "visual": "Transcript/document overlays include orange highlighted lines.",
+          "narrative_purpose": "Show how records support the account.",
+          "motion_grammar": "Document highlight; scroll/clip reveal.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use vertical document crop with line-level highlights."
+        },
+        {
+          "start_s": 600,
+          "end_s": 630,
+          "visual": "White Capitol reconstruction/map with room labels and route callouts.",
+          "narrative_purpose": "Explain movement through a complex site.",
+          "motion_grammar": "2.5D floor plan; path/label animation.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use a vertical route path with numbered beats."
+        },
+        {
+          "start_s": 900,
+          "end_s": 930,
+          "visual": "Crowd footage and Capitol stairs from several handheld angles.",
+          "narrative_purpose": "Connect map reconstruction to eyewitness media.",
+          "motion_grammar": "Multi-source sync; match cut.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Stack source windows with provenance labels."
+        },
+        {
+          "start_s": 1200,
+          "end_s": 1230,
+          "visual": "Floor-plan diagram returns with orange/black labels and arrows.",
+          "narrative_purpose": "Clarify sequence and disputed points.",
+          "motion_grammar": "Diagram redraw; callout pulse.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use D3/SVG connectors and evidence IDs."
+        },
+        {
+          "start_s": 1800,
+          "end_s": 1830,
+          "visual": "Interior corridor/doorway footage with rapid movement.",
+          "narrative_purpose": "Raise urgency while retaining spatial context.",
+          "motion_grammar": "Handheld motion; speed changes.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use short source clips with no synthetic camera shake."
+        },
+        {
+          "start_s": 2100,
+          "end_s": 2130,
+          "visual": "Reconstructed floor plans and labeled rooms.",
+          "narrative_purpose": "Resolve chronology before conclusion.",
+          "motion_grammar": "Diagram zoom/pan; highlight state.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Keep one route state per card for 9:16."
+        },
+        {
+          "start_s": 2400,
+          "end_s": 2432,
+          "visual": "Credits/notes and source acknowledgements.",
+          "narrative_purpose": "Close with provenance.",
+          "motion_grammar": "End-card hold/fade.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Reserve an attribution-safe final card."
+        }
+      ],
+      "scene_motion_ledger": [
+        {
+          "start_s": 0,
+          "end_s": 30,
+          "visual": "Night bus/city and Capitol exterior footage.",
+          "narrative_purpose": "Set date/location before the chronology.",
+          "motion_grammar": "Archival montage; hard cut.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Open with an evidence card and location label."
+        },
+        {
+          "start_s": 300,
+          "end_s": 330,
+          "visual": "Transcript/document overlays include orange highlighted lines.",
+          "narrative_purpose": "Show how records support the account.",
+          "motion_grammar": "Document highlight; scroll/clip reveal.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use vertical document crop with line-level highlights."
+        },
+        {
+          "start_s": 600,
+          "end_s": 630,
+          "visual": "White Capitol reconstruction/map with room labels and route callouts.",
+          "narrative_purpose": "Explain movement through a complex site.",
+          "motion_grammar": "2.5D floor plan; path/label animation.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use a vertical route path with numbered beats."
+        },
+        {
+          "start_s": 900,
+          "end_s": 930,
+          "visual": "Crowd footage and Capitol stairs from several handheld angles.",
+          "narrative_purpose": "Connect map reconstruction to eyewitness media.",
+          "motion_grammar": "Multi-source sync; match cut.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Stack source windows with provenance labels."
+        },
+        {
+          "start_s": 1200,
+          "end_s": 1230,
+          "visual": "Floor-plan diagram returns with orange/black labels and arrows.",
+          "narrative_purpose": "Clarify sequence and disputed points.",
+          "motion_grammar": "Diagram redraw; callout pulse.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use D3/SVG connectors and evidence IDs."
+        },
+        {
+          "start_s": 1800,
+          "end_s": 1830,
+          "visual": "Interior corridor/doorway footage with rapid movement.",
+          "narrative_purpose": "Raise urgency while retaining spatial context.",
+          "motion_grammar": "Handheld motion; speed changes.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use short source clips with no synthetic camera shake."
+        },
+        {
+          "start_s": 2100,
+          "end_s": 2130,
+          "visual": "Reconstructed floor plans and labeled rooms.",
+          "narrative_purpose": "Resolve chronology before conclusion.",
+          "motion_grammar": "Diagram zoom/pan; highlight state.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Keep one route state per card for 9:16."
+        },
+        {
+          "start_s": 2400,
+          "end_s": 2432,
+          "visual": "Credits/notes and source acknowledgements.",
+          "narrative_purpose": "Close with provenance.",
+          "motion_grammar": "End-card hold/fade.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Reserve an attribution-safe final card."
+        }
+      ],
+      "coverage_note": "Dense 30-second contact sheets sampled the full 40-minute copy; no audio/SFX claims."
+    },
+    {
+      "reference_id": "nyt-rayshard-brooks",
+      "title": "How a Police Encounter Turned Fatal: The Killing of Rayshard Brooks | Visual Investigations",
+      "url": "https://www.youtube.com/watch?v=chdTYo4NUh4",
+      "official_url": "https://www.youtube.com/watch?v=chdTYo4NUh4",
+      "duration_seconds": 666,
+      "coverage_status": "blocked-video-403",
+      "coverage_percent": 0,
+      "coverage_note": "yt-dlp metadata succeeded (official URL/title/duration), but low-resolution video requests returned HTTP 403; no visual scene claims made.",
+      "inspection_mode": "metadata-only; deferred frame sampling",
+      "sampled_intervals": []
+    },
+    {
+      "reference_id": "johnny-harris-taiwan",
+      "title": "Johnny Harris — Taiwan",
+      "url": "https://www.youtube.com/watch?v=VNZ0so0LCoM",
+      "official_url": "https://www.youtube.com/watch?v=VNZ0so0LCoM",
+      "inspection_mode": "yt-dlp worst progressive review copy (no cookies/account), FFmpeg frame sampling and local visual inspection; no audio claim",
+      "coverage_status": "sampled-contact-sheet",
+      "sampling_plan": {
+        "cadence_seconds": 30,
+        "duration_seconds": 1293.77,
+        "sampled_frame_count": 44,
+        "coverage_percent": 100,
+        "sampled_timestamps_seconds": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150,
+          180,
+          210,
+          240,
+          270,
+          300,
+          330,
+          360,
+          390,
+          420,
+          450,
+          480,
+          510,
+          540,
+          570,
+          600,
+          630,
+          660,
+          690,
+          720,
+          750,
+          780,
+          810,
+          840,
+          870,
+          900,
+          930,
+          960,
+          990,
+          1020,
+          1050,
+          1080,
+          1110,
+          1140,
+          1170,
+          1200,
+          1230,
+          1260,
+          1290
+        ]
+      },
+      "sampled_intervals": [
+        {
+          "start_s": 0,
+          "end_s": 30,
+          "visual": "Rocket/night imagery and graphic opener.",
+          "narrative_purpose": "Introduce geopolitical scale.",
+          "motion_grammar": "Graphic cold open; kinetic type.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use a restrained title card, not a branded replica."
+        },
+        {
+          "start_s": 120,
+          "end_s": 150,
+          "visual": "Newspaper scan with orange highlight and hand-drawn emphasis.",
+          "narrative_purpose": "Surface historical source material.",
+          "motion_grammar": "Document crop/marker highlight.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Pair NARA-like scan treatment with exact citation."
+        },
+        {
+          "start_s": 240,
+          "end_s": 270,
+          "visual": "Presenter at desk with screen insert.",
+          "narrative_purpose": "Explain the frame in plain language.",
+          "motion_grammar": "Talking-head cutaway; screen insert.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use neutral presenter card or evidence still."
+        },
+        {
+          "start_s": 360,
+          "end_s": 390,
+          "visual": "Dark map with labels and a route/marker around Taiwan.",
+          "narrative_purpose": "Orient the conflict geographically.",
+          "motion_grammar": "Map pan/zoom; route line.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use authority-bound coastlines and labels."
+        },
+        {
+          "start_s": 600,
+          "end_s": 630,
+          "visual": "Chart/table with highlighted cells and values.",
+          "narrative_purpose": "Quantify the claim.",
+          "motion_grammar": "Data-viz progressive reveal; highlight pulse.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use D3 scales with source/units always visible."
+        },
+        {
+          "start_s": 900,
+          "end_s": 930,
+          "visual": "Red/black geopolitical map with Taiwan inset and callout.",
+          "narrative_purpose": "Show proximity and pressure.",
+          "motion_grammar": "Mask reveal; inset zoom.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use color as claim encoding with a legend."
+        },
+        {
+          "start_s": 1200,
+          "end_s": 1230,
+          "visual": "Presenter close with documents on desk.",
+          "narrative_purpose": "Summarize implications.",
+          "motion_grammar": "Talking-head return; dissolve.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Close with source list rather than personality branding."
+        }
+      ],
+      "scene_motion_ledger": [
+        {
+          "start_s": 0,
+          "end_s": 30,
+          "visual": "Rocket/night imagery and graphic opener.",
+          "narrative_purpose": "Introduce geopolitical scale.",
+          "motion_grammar": "Graphic cold open; kinetic type.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use a restrained title card, not a branded replica."
+        },
+        {
+          "start_s": 120,
+          "end_s": 150,
+          "visual": "Newspaper scan with orange highlight and hand-drawn emphasis.",
+          "narrative_purpose": "Surface historical source material.",
+          "motion_grammar": "Document crop/marker highlight.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Pair NARA-like scan treatment with exact citation."
+        },
+        {
+          "start_s": 240,
+          "end_s": 270,
+          "visual": "Presenter at desk with screen insert.",
+          "narrative_purpose": "Explain the frame in plain language.",
+          "motion_grammar": "Talking-head cutaway; screen insert.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use neutral presenter card or evidence still."
+        },
+        {
+          "start_s": 360,
+          "end_s": 390,
+          "visual": "Dark map with labels and a route/marker around Taiwan.",
+          "narrative_purpose": "Orient the conflict geographically.",
+          "motion_grammar": "Map pan/zoom; route line.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use authority-bound coastlines and labels."
+        },
+        {
+          "start_s": 600,
+          "end_s": 630,
+          "visual": "Chart/table with highlighted cells and values.",
+          "narrative_purpose": "Quantify the claim.",
+          "motion_grammar": "Data-viz progressive reveal; highlight pulse.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use D3 scales with source/units always visible."
+        },
+        {
+          "start_s": 900,
+          "end_s": 930,
+          "visual": "Red/black geopolitical map with Taiwan inset and callout.",
+          "narrative_purpose": "Show proximity and pressure.",
+          "motion_grammar": "Mask reveal; inset zoom.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use color as claim encoding with a legend."
+        },
+        {
+          "start_s": 1200,
+          "end_s": 1230,
+          "visual": "Presenter close with documents on desk.",
+          "narrative_purpose": "Summarize implications.",
+          "motion_grammar": "Talking-head return; dissolve.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Close with source list rather than personality branding."
+        }
+      ],
+      "coverage_note": "Dense 30-second contact sheet sampled the 21-minute copy; no audio/SFX claims."
+    },
+    {
+      "reference_id": "vox-western-weapons",
+      "title": "Vox — Western weapons in Ukraine",
+      "url": "https://www.youtube.com/watch?v=5tjV4RkBEwE",
+      "official_url": "https://www.youtube.com/watch?v=5tjV4RkBEwE",
+      "inspection_mode": "yt-dlp worst progressive review copy (no cookies/account), FFmpeg frame sampling and local visual inspection; no audio claim",
+      "coverage_status": "sampled-contact-sheet",
+      "sampling_plan": {
+        "cadence_seconds": 30,
+        "duration_seconds": 503.94,
+        "sampled_frame_count": 17,
+        "coverage_percent": 100,
+        "sampled_timestamps_seconds": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150,
+          180,
+          210,
+          240,
+          270,
+          300,
+          330,
+          360,
+          390,
+          420,
+          450,
+          480
+        ]
+      },
+      "sampled_intervals": [
+        {
+          "start_s": 0,
+          "end_s": 30,
+          "visual": "Dark Ukraine/Russia map and speaker card.",
+          "narrative_purpose": "Frame the question and actors.",
+          "motion_grammar": "Map/title card; split source plate.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use vertical map header plus source tag."
+        },
+        {
+          "start_s": 60,
+          "end_s": 90,
+          "visual": "White bar chart titled US Military Aid Recipients.",
+          "narrative_purpose": "Make a numeric comparison legible.",
+          "motion_grammar": "Animated bar reveal; label hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use D3 bar chart with units/date."
+        },
+        {
+          "start_s": 120,
+          "end_s": 150,
+          "visual": "Atlas-style map with large UKRAINE label.",
+          "narrative_purpose": "Orient before discussing equipment.",
+          "motion_grammar": "Map zoom/label.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use Natural Earth with neutral palette."
+        },
+        {
+          "start_s": 180,
+          "end_s": 210,
+          "visual": "Interview talking head in a home setting.",
+          "narrative_purpose": "Add expert explanation.",
+          "motion_grammar": "Talking-head cut; lower-third.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Keep face/identity admitted and captioned."
+        },
+        {
+          "start_s": 240,
+          "end_s": 270,
+          "visual": "Vector equipment silhouettes arranged in a horizontal inventory row.",
+          "narrative_purpose": "Compare categories of supplied systems.",
+          "motion_grammar": "Icon/shape build; staggered reveal.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use generic icons only when evidence names the category."
+        },
+        {
+          "start_s": 300,
+          "end_s": 330,
+          "visual": "Country labels and equipment cards populate a dark map.",
+          "narrative_purpose": "Connect donor to recipient.",
+          "motion_grammar": "Card stacking; route/line draw.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use sourced labels, avoid implied causation."
+        },
+        {
+          "start_s": 390,
+          "end_s": 420,
+          "visual": "Red-highlighted region on Ukraine map.",
+          "narrative_purpose": "Show current geography.",
+          "motion_grammar": "Mask fill; camera push.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Bind color to legend and date."
+        },
+        {
+          "start_s": 450,
+          "end_s": 480,
+          "visual": "January 2023 chronology with country/equipment timeline.",
+          "narrative_purpose": "Place deliveries in time.",
+          "motion_grammar": "Timeline; progressive marker reveal.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use beat-timeline module with 9:16 stacking."
+        }
+      ],
+      "scene_motion_ledger": [
+        {
+          "start_s": 0,
+          "end_s": 30,
+          "visual": "Dark Ukraine/Russia map and speaker card.",
+          "narrative_purpose": "Frame the question and actors.",
+          "motion_grammar": "Map/title card; split source plate.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use vertical map header plus source tag."
+        },
+        {
+          "start_s": 60,
+          "end_s": 90,
+          "visual": "White bar chart titled US Military Aid Recipients.",
+          "narrative_purpose": "Make a numeric comparison legible.",
+          "motion_grammar": "Animated bar reveal; label hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use D3 bar chart with units/date."
+        },
+        {
+          "start_s": 120,
+          "end_s": 150,
+          "visual": "Atlas-style map with large UKRAINE label.",
+          "narrative_purpose": "Orient before discussing equipment.",
+          "motion_grammar": "Map zoom/label.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use Natural Earth with neutral palette."
+        },
+        {
+          "start_s": 180,
+          "end_s": 210,
+          "visual": "Interview talking head in a home setting.",
+          "narrative_purpose": "Add expert explanation.",
+          "motion_grammar": "Talking-head cut; lower-third.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Keep face/identity admitted and captioned."
+        },
+        {
+          "start_s": 240,
+          "end_s": 270,
+          "visual": "Vector equipment silhouettes arranged in a horizontal inventory row.",
+          "narrative_purpose": "Compare categories of supplied systems.",
+          "motion_grammar": "Icon/shape build; staggered reveal.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use generic icons only when evidence names the category."
+        },
+        {
+          "start_s": 300,
+          "end_s": 330,
+          "visual": "Country labels and equipment cards populate a dark map.",
+          "narrative_purpose": "Connect donor to recipient.",
+          "motion_grammar": "Card stacking; route/line draw.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use sourced labels, avoid implied causation."
+        },
+        {
+          "start_s": 390,
+          "end_s": 420,
+          "visual": "Red-highlighted region on Ukraine map.",
+          "narrative_purpose": "Show current geography.",
+          "motion_grammar": "Mask fill; camera push.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Bind color to legend and date."
+        },
+        {
+          "start_s": 450,
+          "end_s": 480,
+          "visual": "January 2023 chronology with country/equipment timeline.",
+          "narrative_purpose": "Place deliveries in time.",
+          "motion_grammar": "Timeline; progressive marker reveal.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use beat-timeline module with 9:16 stacking."
+        }
+      ],
+      "coverage_note": "Dense 30-second contact sheet sampled the 8.4-minute copy; no audio/SFX claims."
+    },
+    {
+      "reference_id": "wapo-backup-calls",
+      "title": "D.C. Police requested backup at least 17 times in 78 minutes during Capitol riot | Visual Forensics",
+      "url": "https://www.youtube.com/watch?v=rsQTY9083r8",
+      "official_url": "https://www.youtube.com/watch?v=rsQTY9083r8",
+      "duration_seconds": 1099,
+      "coverage_status": "blocked-video-403",
+      "coverage_percent": 0,
+      "coverage_note": "yt-dlp metadata succeeded (official URL/title/duration), but low-resolution video requests returned HTTP 403; no visual scene claims made.",
+      "inspection_mode": "metadata-only; deferred frame sampling",
+      "sampled_intervals": []
+    },
+    {
+      "reference_id": "wsj-hormuz-vertical",
+      "title": "WSJ — Hormuz vertical",
+      "url": "https://www.youtube.com/shorts/xhTbSgZqpvU",
+      "official_url": "https://www.youtube.com/shorts/xhTbSgZqpvU",
+      "inspection_mode": "yt-dlp worst progressive review copy (no cookies/account), FFmpeg frame sampling and local visual inspection; no audio claim",
+      "coverage_status": "sampled-contact-sheet",
+      "sampling_plan": {
+        "cadence_seconds": 10,
+        "duration_seconds": 174.82,
+        "sampled_frame_count": 18,
+        "coverage_percent": 100,
+        "sampled_timestamps_seconds": [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110,
+          120,
+          130,
+          140,
+          150,
+          160,
+          170
+        ]
+      },
+      "sampled_intervals": [
+        {
+          "start_s": 0,
+          "end_s": 10,
+          "visual": "Vertical sea/ship-fire source footage with WSJ mark.",
+          "narrative_purpose": "Immediate incident hook.",
+          "motion_grammar": "Vertical source crop; hard cut.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Preserve source watermark and provenance."
+        },
+        {
+          "start_s": 20,
+          "end_s": 30,
+          "visual": "Dark map/title card labels Strait of Hormuz.",
+          "narrative_purpose": "Orient the route.",
+          "motion_grammar": "Map title; label fade.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use authority map and short title."
+        },
+        {
+          "start_s": 40,
+          "end_s": 50,
+          "visual": "Vertical anchor shot in newsroom framing.",
+          "narrative_purpose": "Narrate the evidence.",
+          "motion_grammar": "Vertical lower-third; talking head.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use Korean lower-third safe margins."
+        },
+        {
+          "start_s": 60,
+          "end_s": 70,
+          "visual": "Gulf map with route lines and place labels.",
+          "narrative_purpose": "Explain movement.",
+          "motion_grammar": "Route draw; camera pan.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use TopoJSON/D3 path and marker."
+        },
+        {
+          "start_s": 80,
+          "end_s": 90,
+          "visual": "Satellite/thermal imagery in stacked panels.",
+          "narrative_purpose": "Show corroborating sensor views.",
+          "motion_grammar": "Synchronized split-screen; wipe.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Stack two admitted sources, label each."
+        },
+        {
+          "start_s": 100,
+          "end_s": 110,
+          "visual": "Press briefing with lower-third identification.",
+          "narrative_purpose": "Attribute official statement.",
+          "motion_grammar": "Lower-third; caption hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use neutral source label, not WSJ styling."
+        },
+        {
+          "start_s": 120,
+          "end_s": 130,
+          "visual": "Coastline/satellite close-up.",
+          "narrative_purpose": "Narrow to incident location.",
+          "motion_grammar": "Map zoom; dissolve.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use 9:16 crop with north/scale."
+        },
+        {
+          "start_s": 150,
+          "end_s": 160,
+          "visual": "Map with multiple vector route paths.",
+          "narrative_purpose": "Summarize movement alternatives.",
+          "motion_grammar": "Multi-route draw; legend.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use route colors only with explicit legend."
+        },
+        {
+          "start_s": 170,
+          "end_s": 174.82,
+          "visual": "Damaged harbor/source footage.",
+          "narrative_purpose": "Return to physical consequence.",
+          "motion_grammar": "Archival cut; hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Close with source and date."
+        }
+      ],
+      "scene_motion_ledger": [
+        {
+          "start_s": 0,
+          "end_s": 10,
+          "visual": "Vertical sea/ship-fire source footage with WSJ mark.",
+          "narrative_purpose": "Immediate incident hook.",
+          "motion_grammar": "Vertical source crop; hard cut.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Preserve source watermark and provenance."
+        },
+        {
+          "start_s": 20,
+          "end_s": 30,
+          "visual": "Dark map/title card labels Strait of Hormuz.",
+          "narrative_purpose": "Orient the route.",
+          "motion_grammar": "Map title; label fade.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use authority map and short title."
+        },
+        {
+          "start_s": 40,
+          "end_s": 50,
+          "visual": "Vertical anchor shot in newsroom framing.",
+          "narrative_purpose": "Narrate the evidence.",
+          "motion_grammar": "Vertical lower-third; talking head.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use Korean lower-third safe margins."
+        },
+        {
+          "start_s": 60,
+          "end_s": 70,
+          "visual": "Gulf map with route lines and place labels.",
+          "narrative_purpose": "Explain movement.",
+          "motion_grammar": "Route draw; camera pan.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use TopoJSON/D3 path and marker."
+        },
+        {
+          "start_s": 80,
+          "end_s": 90,
+          "visual": "Satellite/thermal imagery in stacked panels.",
+          "narrative_purpose": "Show corroborating sensor views.",
+          "motion_grammar": "Synchronized split-screen; wipe.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Stack two admitted sources, label each."
+        },
+        {
+          "start_s": 100,
+          "end_s": 110,
+          "visual": "Press briefing with lower-third identification.",
+          "narrative_purpose": "Attribute official statement.",
+          "motion_grammar": "Lower-third; caption hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use neutral source label, not WSJ styling."
+        },
+        {
+          "start_s": 120,
+          "end_s": 130,
+          "visual": "Coastline/satellite close-up.",
+          "narrative_purpose": "Narrow to incident location.",
+          "motion_grammar": "Map zoom; dissolve.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use 9:16 crop with north/scale."
+        },
+        {
+          "start_s": 150,
+          "end_s": 160,
+          "visual": "Map with multiple vector route paths.",
+          "narrative_purpose": "Summarize movement alternatives.",
+          "motion_grammar": "Multi-route draw; legend.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use route colors only with explicit legend."
+        },
+        {
+          "start_s": 170,
+          "end_s": 174.82,
+          "visual": "Damaged harbor/source footage.",
+          "narrative_purpose": "Return to physical consequence.",
+          "motion_grammar": "Archival cut; hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Close with source and date."
+        }
+      ],
+      "coverage_note": "Dense 10-second samples cover the full 2:55 vertical copy; no audio/SFX claims."
+    },
+    {
+      "reference_id": "bbc-turkey-kurds",
+      "title": "BBC — Turkey/Kurds",
+      "url": "https://www.youtube.com/watch?v=HrxIvUTerXM",
+      "official_url": "https://www.youtube.com/watch?v=HrxIvUTerXM",
+      "inspection_mode": "yt-dlp worst progressive review copy (no cookies/account), FFmpeg frame sampling and local visual inspection; no audio claim",
+      "coverage_status": "sampled-contact-sheet",
+      "sampling_plan": {
+        "cadence_seconds": 10,
+        "duration_seconds": 175.94,
+        "sampled_frame_count": 18,
+        "coverage_percent": 100,
+        "sampled_timestamps_seconds": [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110,
+          120,
+          130,
+          140,
+          150,
+          160,
+          170
+        ]
+      },
+      "sampled_intervals": [
+        {
+          "start_s": 0,
+          "end_s": 10,
+          "visual": "Red title card over conflict imagery asks why Turkey is bombing Kurds.",
+          "narrative_purpose": "Frame the investigation.",
+          "motion_grammar": "Kinetic title; color wash.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use project-owned title treatment."
+        },
+        {
+          "start_s": 20,
+          "end_s": 30,
+          "visual": "Pale map/route strokes establish geography.",
+          "narrative_purpose": "Orient the region.",
+          "motion_grammar": "Map line draw; fade.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use authority-bound region map."
+        },
+        {
+          "start_s": 40,
+          "end_s": 50,
+          "visual": "Armored vehicle in desert and field footage.",
+          "narrative_purpose": "Show ground context.",
+          "motion_grammar": "Archive montage; cut.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use admitted footage with captions."
+        },
+        {
+          "start_s": 60,
+          "end_s": 70,
+          "visual": "Kurdish flag group and emblem.",
+          "narrative_purpose": "Identify actors/identity.",
+          "motion_grammar": "Flag reveal; hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Avoid symbol-as-proof inference."
+        },
+        {
+          "start_s": 80,
+          "end_s": 90,
+          "visual": "Correspondent stand-up in a dusty location.",
+          "narrative_purpose": "Explain the situation directly.",
+          "motion_grammar": "Talking head; lower-third.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use neutral caption and source."
+        },
+        {
+          "start_s": 100,
+          "end_s": 110,
+          "visual": "Archive leaders/interview footage.",
+          "narrative_purpose": "Add policy context.",
+          "motion_grammar": "Cross-cut; source tags.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Separate archive dates visibly."
+        },
+        {
+          "start_s": 120,
+          "end_s": 130,
+          "visual": "Red question card “What might happen now?”.",
+          "narrative_purpose": "Transition to implications.",
+          "motion_grammar": "Headline slam; hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use generic headline primitive."
+        },
+        {
+          "start_s": 150,
+          "end_s": 160,
+          "visual": "Crowd/protest march and flags.",
+          "narrative_purpose": "Show public response.",
+          "motion_grammar": "Montage; push-in.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Do not imply crowd identity beyond caption."
+        },
+        {
+          "start_s": 170,
+          "end_s": 175.94,
+          "visual": "End slate/subscribe treatment.",
+          "narrative_purpose": "Close the package.",
+          "motion_grammar": "End card; fade.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use project-owned attribution card."
+        }
+      ],
+      "scene_motion_ledger": [
+        {
+          "start_s": 0,
+          "end_s": 10,
+          "visual": "Red title card over conflict imagery asks why Turkey is bombing Kurds.",
+          "narrative_purpose": "Frame the investigation.",
+          "motion_grammar": "Kinetic title; color wash.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use project-owned title treatment."
+        },
+        {
+          "start_s": 20,
+          "end_s": 30,
+          "visual": "Pale map/route strokes establish geography.",
+          "narrative_purpose": "Orient the region.",
+          "motion_grammar": "Map line draw; fade.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use authority-bound region map."
+        },
+        {
+          "start_s": 40,
+          "end_s": 50,
+          "visual": "Armored vehicle in desert and field footage.",
+          "narrative_purpose": "Show ground context.",
+          "motion_grammar": "Archive montage; cut.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use admitted footage with captions."
+        },
+        {
+          "start_s": 60,
+          "end_s": 70,
+          "visual": "Kurdish flag group and emblem.",
+          "narrative_purpose": "Identify actors/identity.",
+          "motion_grammar": "Flag reveal; hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Avoid symbol-as-proof inference."
+        },
+        {
+          "start_s": 80,
+          "end_s": 90,
+          "visual": "Correspondent stand-up in a dusty location.",
+          "narrative_purpose": "Explain the situation directly.",
+          "motion_grammar": "Talking head; lower-third.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use neutral caption and source."
+        },
+        {
+          "start_s": 100,
+          "end_s": 110,
+          "visual": "Archive leaders/interview footage.",
+          "narrative_purpose": "Add policy context.",
+          "motion_grammar": "Cross-cut; source tags.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Separate archive dates visibly."
+        },
+        {
+          "start_s": 120,
+          "end_s": 130,
+          "visual": "Red question card “What might happen now?”.",
+          "narrative_purpose": "Transition to implications.",
+          "motion_grammar": "Headline slam; hold.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use generic headline primitive."
+        },
+        {
+          "start_s": 150,
+          "end_s": 160,
+          "visual": "Crowd/protest march and flags.",
+          "narrative_purpose": "Show public response.",
+          "motion_grammar": "Montage; push-in.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Do not imply crowd identity beyond caption."
+        },
+        {
+          "start_s": 170,
+          "end_s": 175.94,
+          "visual": "End slate/subscribe treatment.",
+          "narrative_purpose": "Close the package.",
+          "motion_grammar": "End card; fade.",
+          "evidence_status": "Visible frame sample only; not evidence admission.",
+          "vertical_transfer_note": "Use project-owned attribution card."
+        }
+      ],
+      "coverage_note": "Dense 10-second samples cover the 2:56 copy; no audio/SFX claims."
+    },
+    {
+      "reference_id": "kurzgesagt-dyson",
+      "title": "Cómo construir una esfera Dyson: la megaestructura suprema",
+      "url": "https://www.youtube.com/watch?v=5NBQ2PBiobM",
+      "official_url": "https://www.youtube.com/watch?v=5NBQ2PBiobM",
+      "duration_seconds": 503,
+      "coverage_status": "blocked-video-403",
+      "coverage_percent": 0,
+      "coverage_note": "yt-dlp metadata succeeded (official URL/title/duration), but low-resolution video requests returned HTTP 403; no visual scene claims made.",
+      "inspection_mode": "metadata-only; deferred frame sampling",
+      "sampled_intervals": []
+    }
+  ],
+  "coverage_summary": {
+    "references_total": 9,
+    "references_with_visual_samples": 6,
+    "references_blocked": 3,
+    "visible_frame_coverage_percent": 67,
+    "sampled_video_duration_seconds": 5151.109999999999,
+    "total_known_duration_seconds": 7419.109999999999,
+    "duration_coverage_percent": 69,
+    "sampling_cadence": "30 s for long-form; 10 s for short/vertical; key change points called out in ledgers",
+    "blocker": "Three official URLs returned HTTP 403 for video bytes; metadata-only rows remain deferred."
+  }
+}

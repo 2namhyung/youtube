@@ -1,0 +1,24 @@
+{
+  "engine": "Fun-CosyVoice3 inference_vc",
+  "modelDir": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\models\\Fun-CosyVoice3-0.5B",
+  "targetSpeakerReference": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-fish-trained-20260726\\F-fish-r8-step100-comparison-master.wav",
+  "seed": 20260726,
+  "speed": 1.0,
+  "device": "cuda-fp16",
+  "outputs": {
+    "C": {
+      "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-trained-model-vc\\provenance\\C-carrier.wav",
+      "output": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-trained-model-vc\\raw\\F-model-from-C-raw.wav",
+      "sampleRate": 24000,
+      "samples": 200160,
+      "durationSeconds": 8.34
+    },
+    "E": {
+      "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-trained-model-vc\\provenance\\E-carrier.wav",
+      "output": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-trained-model-vc\\raw\\F-model-from-E-raw.wav",
+      "sampleRate": 24000,
+      "samples": 200160,
+      "durationSeconds": 8.34
+    }
+  }
+}

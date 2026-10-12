@@ -1,0 +1,14 @@
+import crypto from 'node:crypto';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { hashRealMediaAdmissionContent, verifyRealMediaFiles } from './newsroom-real-media-admission.mjs';
+const root = path.resolve(import.meta.dirname, '..'); const outRoot = path.join(root, 'out', 'studies', 'newsroom-real-media-admission-v2'); const sha = (b) => crypto.createHash('sha256').update(b).digest('hex');
+const latest = async (d) => { const e = (await fs.readdir(d, { withFileTypes: true })).filter((x) => x.isDirectory() && x.name.startsWith('run-')).sort((a, b) => b.name.localeCompare(a.name)); if (!e.length) throw new Error('no admission run'); return path.join(d, e[0].name); };
+export async function verifyNewsroomPhotoAssetsV2() { const dir = await latest(outRoot); const admissionBytes = await fs.readFile(path.join(dir, 'admission.json')); const admission = JSON.parse(admissionBytes); if (admission.schema !== 'newsroom-real-media-acquisition-admission-v2') throw new Error('schema mismatch'); if (admission.approval?.sha256 !== hashRealMediaAdmissionContent(admission)) throw new Error('admission approval hash stale');
+  const keys = new Set(); const ids = new Set(); const shas = new Set(); const hashes = new Set(); for (const asset of admission.assets) { if (ids.has(asset.assetId)) throw new Error(`duplicate assetId ${asset.assetId}`); ids.add(asset.assetId); if (shas.has(asset.original.sha256)) throw new Error(`duplicate source SHA ${asset.original.sha256}`); shas.add(asset.original.sha256); if (hashes.has(asset.phash)) throw new Error(`perceptual duplicate ${asset.phash}`); hashes.add(asset.phash); }
+  for (const a of admission.assignments) { const k = `${a.storyId}:${a.cutId}`; if (keys.has(k)) throw new Error(`duplicate composite assignment ${k}`); keys.add(k); if (!ids.has(a.assetId)) throw new Error(`unknown asset ${a.assetId}`); }
+  const counts = new Map(); for (const a of admission.assignments) counts.set(a.assetId, (counts.get(a.assetId) || 0) + 1); for (const [id, n] of counts) if (n > 1) throw new Error(`primary asset ${id} reused ${n} times`);
+  await verifyRealMediaFiles({ assets: admission.assets.filter((a) => a.derivative), projectRoot: root }); return { runDir: dir, assets: ids.size, assignments: keys.size, uniquePrimary: shas.size, stories: admission.stories.map((s) => ({ storyId: s.storyId, uniquePrimary: s.diversity.uniquePrimary, assignedPrimary: s.diversity.assignedPrimary, ratio: s.diversity.ratio, coverage: s.coverage.fraction })) };
+}
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) verifyNewsroomPhotoAssetsV2().then((r) => process.stdout.write(`${JSON.stringify(r, null, 2)}\n`)).catch((e) => { process.stderr.write(`${e.stack || e}\n`); process.exitCode = 1; });

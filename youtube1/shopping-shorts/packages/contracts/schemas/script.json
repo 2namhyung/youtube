@@ -1,0 +1,175 @@
+{
+  "$defs": {
+    "Attestation": {
+      "additionalProperties": false,
+      "properties": {
+        "actor": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Actor",
+          "type": "string"
+        },
+        "model": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Model",
+          "type": "string"
+        },
+        "surface": {
+          "enum": [
+            "chrome-use",
+            "computer-use",
+            "manual",
+            "fixture",
+            "youtube-data-api"
+          ],
+          "title": "Surface",
+          "type": "string"
+        },
+        "receipt_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Receipt Ids",
+          "type": "array"
+        },
+        "notes": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Notes",
+          "type": "string"
+        }
+      },
+      "required": [
+        "actor",
+        "model",
+        "surface",
+        "receipt_ids",
+        "notes"
+      ],
+      "title": "Attestation",
+      "type": "object"
+    },
+    "Beat": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "spoken_text": {
+          "maxLength": 400,
+          "minLength": 1,
+          "title": "Spoken Text",
+          "type": "string"
+        },
+        "caption_text": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Caption Text",
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "hook",
+            "problem",
+            "use",
+            "result",
+            "cta"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "claim_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "title": "Claim Ids",
+          "type": "array"
+        },
+        "shot_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "maxItems": 3,
+          "minItems": 1,
+          "title": "Shot Ids",
+          "type": "array"
+        },
+        "usage_role": {
+          "enum": [
+            "EXACT_PRODUCT",
+            "STORY_BROLL",
+            "GRAPHIC"
+          ],
+          "title": "Usage Role",
+          "type": "string"
+        },
+        "estimated_frames": {
+          "maximum": 900,
+          "minimum": 15,
+          "title": "Estimated Frames",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "spoken_text",
+        "caption_text",
+        "role",
+        "claim_ids",
+        "shot_ids",
+        "usage_role",
+        "estimated_frames"
+      ],
+      "title": "Beat",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "maxLength": 60,
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "reference_based": {
+      "default": false,
+      "title": "Reference Based",
+      "type": "boolean"
+    },
+    "reference_receipt_ids": {
+      "items": {
+        "pattern": "^[A-Za-z0-9_-]{1,100}$",
+        "type": "string"
+      },
+      "title": "Reference Receipt Ids",
+      "type": "array"
+    },
+    "beats": {
+      "items": {
+        "$ref": "#/$defs/Beat"
+      },
+      "maxItems": 40,
+      "minItems": 1,
+      "title": "Beats",
+      "type": "array"
+    },
+    "attestation": {
+      "$ref": "#/$defs/Attestation"
+    }
+  },
+  "required": [
+    "title",
+    "beats",
+    "attestation"
+  ],
+  "title": "Script",
+  "type": "object"
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "approved-owner-narration-authority-v1",
+  "approved": true,
+  "slug": "research-6b1a8af9b4143acb",
+  "sourceRoot": "out/newsroom/narration-revisions/research-6b1a8af9b4143acb/partial-qa-v1-eb9b25b00f5e200f",
+  "sourceProductionJobId": "production-eb9b25b00f5e200f7362a048c9cd4f73954e4636",
+  "sourceProductionAuthorityHash": "eb9b25b00f5e200f7362a048c9cd4f73954e4636c5e89209802d95d4adf85ce0",
+  "scriptSha256": "47f7caa49138267382ce23ec2c360359e1448434671abb1835f314f52de7f8ae",
+  "ownerVoiceProfileSha256": "e1fbc1dc0d482cd9fa52b5fe63b545a30858b40602782cf9c9f7f2f2b5b08ff7",
+  "audioSha256": "d57593fd6d5437caac96148b8ba8e963ebc164f3e8db2cdb99fe4edab88a6ac6",
+  "handoffSha256": "9ccc5a8b3e9fb6f6f82ab54e4a19ccf55df183bdd8f76ada9c055aa346af99e6",
+  "providerAcceptanceSha256": "bbf8612c1860176398144c666bfb91dbbf4bc4207b15f51924fb1f55fa518e55",
+  "durationSeconds": 55.016,
+  "cueCount": 7,
+  "segmentReuse": {
+    "schema": "qwen-segment-reuse-summary-v1",
+    "requested": 7,
+    "reused": 4,
+    "regenerated": 3
+  },
+  "files": [
+    {
+      "name": "manifest.json",
+      "sha256": "d8af79fe34ba7a5ab69766df32331f0e85c42d6adbd49254b732d2d708ff7ec3",
+      "bytes": 26757
+    },
+    {
+      "name": "handoff.json",
+      "sha256": "9ccc5a8b3e9fb6f6f82ab54e4a19ccf55df183bdd8f76ada9c055aa346af99e6",
+      "bytes": 219649
+    },
+    {
+      "name": "narration-final.m4a",
+      "sha256": "d57593fd6d5437caac96148b8ba8e963ebc164f3e8db2cdb99fe4edab88a6ac6",
+      "bytes": 681372
+    },
+    {
+      "name": "narration-final-inspection.wav",
+      "sha256": "ac596a843326fc4245dad249e20aaeaa2280e4af3b0ac794f3f9b2a34960ef07",
+      "bytes": 2641998
+    },
+    {
+      "name": "provider.acceptance.json",
+      "sha256": "bbf8612c1860176398144c666bfb91dbbf4bc4207b15f51924fb1f55fa518e55",
+      "bytes": 174125
+    }
+  ],
+  "artifactSha256": "c25b3c954ac54ee897cdba3b235cd765ec07c8aa7e3da008105721a7e35a9821"
+}

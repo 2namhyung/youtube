@@ -1,0 +1,197 @@
+{
+  "database": "data/news_radar.db",
+  "csv_output": "data/latest_candidates.csv",
+  "article_pool_output": "data/latest_article_pool.json",
+  "collection_status_output": "data/latest_collection_status.json",
+  "collection_delta_output": "data/latest_collection_delta.json",
+  "article_pool_limit": 3000,
+  "daily_article_limit": 100,
+  "excerpt_max_chars": 600,
+  "stale_after_hours": 6,
+  "lookback_days": 30,
+  "minimum_score": 4,
+  "acquisition": {
+    "primary": "publisher_feeds",
+    "semantic_inference_on_collect": false,
+    "historical_default_days": 30
+  },
+  "historical_sources": [
+    {
+      "name": "한국경제 공식 일별 기사 sitemap",
+      "sitemap_url": "https://www.hankyung.com/sitemap/daily-article.xml",
+      "allowed_hosts": ["www.hankyung.com"],
+      "sitemap_path_prefixes": ["/sitemap/"],
+      "article_path_prefixes": ["/article/"],
+      "child_date_regex": "/daily-article/(?P<date>[0-9]{8})\\.xml$",
+      "child_date_format": "%Y%m%d",
+      "provenance": "publisher-sitemap",
+      "enabled": true,
+      "max_depth": 1,
+      "max_sitemaps": 31,
+      "max_urls": 600,
+      "max_urls_per_sitemap": 10,
+      "max_sitemap_bytes": 2000000,
+      "max_article_bytes": 750000,
+      "concurrency": 8,
+      "timeout_seconds": 15,
+      "official_discovery": "https://www.hankyung.com/robots.txt"
+    },
+    {
+      "name": "JTBC 공식 일별 기사 sitemap",
+      "sitemap_url": "https://news.jtbc.co.kr/sitemaps/articles/2026",
+      "sitemap_url_template": "https://news.jtbc.co.kr/sitemaps/articles/{year}",
+      "allowed_hosts": ["news.jtbc.co.kr"],
+      "sitemap_path_prefixes": ["/sitemaps/articles/"],
+      "article_path_prefixes": ["/article/"],
+      "child_date_regex": "/articles/(?P<date>[0-9]{4}/[0-9]{4})$",
+      "child_date_format": "%Y/%m%d",
+      "provenance": "publisher-sitemap",
+      "enabled": true,
+      "max_depth": 1,
+      "max_sitemaps": 32,
+      "max_urls": 600,
+      "max_urls_per_sitemap": 10,
+      "max_sitemap_bytes": 2000000,
+      "max_article_bytes": 750000,
+      "concurrency": 8,
+      "timeout_seconds": 15,
+      "official_discovery": "https://news.jtbc.co.kr/robots.txt"
+    },
+    {
+      "name": "나우뉴스 공식 날짜별 전체기사 archive",
+      "adapter": "html-daily-archive",
+      "archive_url_template": "https://nownews.seoul.co.kr/sitemap/sitemap_index_{date}",
+      "allowed_hosts": ["nownews.seoul.co.kr"],
+      "sitemap_path_prefixes": ["/sitemap/sitemap_index_"],
+      "article_path_prefixes": ["/news/newsView.php"],
+      "article_url_regex": "/news/newsView\\.php\\?id=[0-9]+",
+      "child_date_regex": "/sitemap_index_(?P<date>[0-9]{8})$",
+      "child_date_format": "%Y%m%d",
+      "provenance": "publisher-archive",
+      "enabled": true,
+      "max_depth": 0,
+      "max_sitemaps": 30,
+      "max_urls": 2000,
+      "max_urls_per_sitemap": 50,
+      "max_sitemap_bytes": 750000,
+      "max_article_bytes": 750000,
+      "concurrency": 8,
+      "timeout_seconds": 15,
+      "official_discovery": "https://nownews.seoul.co.kr/sitemap/sitemap_index.php"
+    }
+  ],
+  "rss_sources": [
+    {
+      "name": "뉴시스 사회",
+      "url": "https://nwww.newsis.com/RSS/society.xml",
+      "enabled": true
+    },
+    {
+      "name": "뉴시스 수도권",
+      "url": "https://nwww.newsis.com/RSS/met.xml",
+      "enabled": true
+    },
+    {
+      "name": "뉴시스 지방",
+      "url": "https://nwww.newsis.com/RSS/country.xml",
+      "enabled": true
+    },
+    {
+      "name": "뉴시스 포토",
+      "url": "https://nwww.newsis.com/RSS/photo.xml",
+      "enabled": true
+    },
+    {
+      "name": "SBS 뉴스 사회",
+      "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=03&plink=RSSREADER",
+      "enabled": true
+    },
+    {
+      "name": "MBN 뉴스 사회",
+      "url": "https://www.mbn.co.kr/rss/society/",
+      "enabled": true
+    },
+    {
+      "name": "연합뉴스 사회",
+      "url": "https://www.yna.co.kr/rss/society.xml",
+      "enabled": true
+    },
+    {
+      "name": "JTBC 뉴스 사회",
+      "url": "https://news-ex.jtbc.co.kr/v1/get/rss/section/30",
+      "enabled": true
+    },
+    {
+      "name": "조선일보 사회",
+      "url": "https://www.chosun.com/arc/outboundfeeds/rss/category/national/?outputType=xml",
+      "enabled": true
+    },
+    {
+      "name": "한국경제 사회",
+      "url": "https://www.hankyung.com/feed/society",
+      "enabled": true
+    },
+    {
+      "name": "한겨레 사회",
+      "url": "https://www.hani.co.kr/rss/society/",
+      "enabled": true
+    }
+  ],
+  "naver_search": {
+    "enabled": true,
+    "role": "optional_supplement"
+  },
+  "naver_queries": [
+    "황당 사고",
+    "아파트 사고",
+    "주차장 사고",
+    "엘리베이터 사고",
+    "블랙박스 사고",
+    "도로 붕괴 싱크홀",
+    "택배 황당",
+    "숙박 피해",
+    "책임 떠넘기기 사고",
+    "CCTV 황당",
+    "리필 거절 폭행",
+    "경적 흉기",
+    "아파트 소화전 마약 은닉",
+    "학교 텀블러 오염",
+    "신차 벌레 이물질",
+    "위조 배터리 폭발",
+    "판매자 연락두절"
+  ],
+  "scoring": {
+    "fear": [
+      "사고", "추락", "붕괴", "폭발", "화재", "감전", "침수", "매몰",
+      "싱크홀", "땅꺼짐", "돌진", "관통", "날벼락", "아찔", "위험", "공포",
+      "끼임", "역주행", "낙하", "들이받", "급발진", "폭행", "흉기", "칼부림",
+      "위협", "오염", "이물질", "독성", "위험물", "침입", "벌레", "체액", "마약"
+    ],
+    "frustration": [
+      "책임", "보상", "나몰라라", "방치", "관리 부실", "늑장", "민원",
+      "고장", "오작동", "피해자", "억울", "환불", "배상", "떠넘기",
+      "먹튀", "바가지", "사기", "무단", "도난", "절도", "파손", "오인", "허위", "갑질",
+      "판매자", "플랫폼", "연락두절", "응답없", "나몰라라"
+    ],
+    "absurd": [
+      "황당", "어이", "착각", "실수", "엉뚱", "알고 보니", "무슨 일",
+      "통째로", "갑자기", "버젓이", "깜짝", "정체불명", "잘못", "뒤바뀐", "바뀐", "오배송",
+      "이상", "설명불가", "가짜", "위조", "벌레", "둥지", "오염", "갑자기",
+      "리필", "거절하자", "경적", "은닉", "숨겨", "소화전", "피난유도등"
+    ],
+    "everyday": [
+      "아파트", "주차장", "엘리베이터", "도로", "횡단보도", "버스", "지하철",
+      "택배", "배달", "세차장", "숙박", "편의점", "식당", "학교", "병원",
+      "자동차", "오토바이", "킥보드", "맨홀", "공사장", "신축", "이사",
+      "카페", "숙소", "마트", "음식점", "가게", "빌라", "차량", "신차", "온라인 쇼핑",
+      "쇼핑몰", "선생님", "교사", "주택가", "공동공간"
+    ],
+    "visual": [
+      "CCTV", "블랙박스", "블박", "영상", "포착", "사진", "순간", "카메라", "현장"
+    ],
+    "exclude": [
+      "대통령", "국회", "정당", "선거", "외교", "북한", "월드컵", "야구",
+      "축구", "연예", "배우", "가수", "증시", "코스피", "환율"
+    ]
+  }
+}

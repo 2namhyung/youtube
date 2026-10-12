@@ -1,0 +1,21 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "topic_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,100}$",
+      "title": "Topic Id",
+      "type": "string"
+    },
+    "expected_revision": {
+      "minimum": 1,
+      "title": "Expected Revision",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "topic_id",
+    "expected_revision"
+  ],
+  "title": "StorySelection",
+  "type": "object"
+}

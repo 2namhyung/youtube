@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "slug": "research-63c8b8ed8a51c5aa",
+  "title": "또 다른 허위 종결 가족, 두 차례 경찰 찾아갔지만 그마저 무시당했다",
+  "candidate": {
+    "id": "research-63c8b8ed8a51c5aa",
+    "slug": "research-63c8b8ed8a51c5aa",
+    "editorialStatus": "active-review",
+    "title": "또 다른 허위 종결 가족, 두 차례 경찰 찾아갔지만 그마저 무시당했다",
+    "source": "JTBC 공식 일별 기사 sitemap",
+    "url": "https://news.jtbc.co.kr/article/NB12314647",
+    "publishedAt": "2026-08-23T00:00:00+00:00",
+    "hook": "실종 신고를 종결한 경찰, 두 번 더 찾아온 가족의 호소마저 외면했다",
+    "storySummary": "한 60대 남성의 가족은 그가 실종되자 경찰에 신고했다. 그러나 신고는 허위로 종결됐고, 가족이 최초 신고 뒤 두 차례 더 경찰서를 찾아갔지만 이들의 호소마저 받아들여지지 않은 것으로 전해졌다. 실종자는 신고 종결 51일 만에 백골 시신으로 발견됐다. 보도 시점에는 가족의 반복 방문까지 무시됐다는 사실이 추가로 드러난 상태다.",
+    "rationale": "도움을 요청하는 일상적인 경찰서 방문이 반복적인 묵살로 확대됐고, 허위 종결 뒤 실종자가 시신으로 발견되는 중대한 결과가 발생했다. 신고 종결과 가족의 거듭된 방문 사이의 모순이 강하며, 공적 책임과 대응 부실을 집중적으로 다룰 수 있는 후보이다.",
+    "dimensions": {
+      "ordinaryContext": 3,
+      "disproportionateEscalation": 3,
+      "explanationActionMismatch": 3,
+      "tangibleRisk": 3,
+      "responsibilityEvasion": 3,
+      "relatableEmotion": 3
+    },
+    "factCheckRisks": [
+      "‘허위 종결’의 구체적인 처리 과정과 당시 담당자의 판단 근거는 제한된 요약만으로 확인할 수 없다.",
+      "가족 방문을 누가 어떤 방식으로 무시했는지, 경찰 측 반론이나 공식 해명이 제시되지 않았다.",
+      "신고 종결 시점과 시신 발견까지 51일이라는 기간의 정확한 기준일을 원문에서 확인해야 한다.",
+      "실종자의 사망 시점과 경찰 대응이 결과에 미친 영향은 현재 정보만으로 단정할 수 없다."
+    ],
+    "selectionReasons": [
+      "실종 신고와 경찰서 방문이라는 평범한 공적 절차에서 비상식적인 대응이 이어졌다.",
+      "가족이 두 차례 더 방문했는데도 받아들여지지 않아 초기 종결의 문제성이 커졌다.",
+      "51일 뒤 백골 시신으로 발견됐다는 돌이킬 수 없는 결과가 명시돼 있다.",
+      "허위 종결과 반복된 호소 묵살이 책임 회피 및 행정 부실의 핵심 갈등을 형성한다."
+    ],
+    "relatedCoverage": [
+      {
+        "source": "조선일보 사회",
+        "title": "실종 ‘허위 종결’ 여파... 제주경찰청장 승진 무산됐다",
+        "url": "https://www.chosun.com/national/national_general/2026/09/02/J7HRFGFVEJDGPJEWM4ZAKZOIGE/",
+        "publishedAt": "2026-09-01T23:48:28+09:00",
+        "similarity": 0.25,
+        "status": "coverage-candidate-unverified"
+      },
+      {
+        "source": "SBS 뉴스 사회",
+        "title": "\"일 많아질까 봐 허위 종결\"…황당한 범행 동기",
+        "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008732794&plink=RSSLINK&cooper=RSSREADER",
+        "publishedAt": "2026-09-01T21:54:00+09:00",
+        "similarity": 0.25,
+        "status": "coverage-candidate-unverified"
+      },
+      {
+        "source": "JTBC 공식 일별 기사 sitemap",
+        "title": "‘허위 종결’ 의혹 제주 부 경장…실종신고 63건 삭제하거나 미입력했다",
+        "url": "https://news.jtbc.co.kr/article/NB12315898",
+        "publishedAt": "2026-08-31T00:00:00+00:00",
+        "similarity": 0.25,
+        "status": "coverage-candidate-unverified"
+      },
+      {
+        "source": "한국경제 사회",
+        "title": "경찰관 가족 사건, 다른 관서가 수사…내달 '상피제' 도입",
+        "url": "https://www.hankyung.com/article/202608071425i",
+        "publishedAt": "2026-08-07T19:00:21+09:00",
+        "similarity": 0.25,
+        "status": "coverage-candidate-unverified"
+      },
+      {
+        "source": "JTBC 공식 일별 기사 sitemap",
+        "title": "장미란 실종 3번 신고됐는데…경찰, 19일 지나서야 ‘허위 종결’ 의심",
+        "url": "https://news.jtbc.co.kr/article/NB12315331",
+        "publishedAt": "2026-08-27T00:00:00+00:00",
+        "similarity": 0.22,
+        "status": "coverage-candidate-unverified"
+      }
+    ],
+    "approval": {
+      "kind": "human-promotion",
+      "approvedAt": "2026-09-02T13:19:06.765Z",
+      "sourceAction": "newsroom-semantic-card"
+    },
+    "provenance": {
+      "semanticSelectionPath": "out/newsroom/research-llm-analysis.json",
+      "semanticGeneratedAt": "2026-09-02T13:06:53.881Z",
+      "articlePoolPath": "01-research/news_radar/data/latest_article_pool.json",
+      "articlePoolGeneratedAt": "2026-09-02T22:09:22+09:00",
+      "articleId": "63c8b8ed8a51c5aa5ce84355",
+      "excerptProvenance": "publisher-sitemap"
+    },
+    "verification": {
+      "state": "cross-source-verification-required",
+      "missing": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토"
+      ]
+    }
+  },
+  "createdAt": "2026-09-02T13:19:07.277Z",
+  "updatedAt": "2026-09-02T13:19:07.277Z",
+  "stages": {
+    "01": {
+      "status": "ready",
+      "completedAt": "2026-09-02T13:19:07.277Z"
+    },
+    "02": {
+      "status": "in-progress"
+    },
+    "03": {
+      "status": "pending"
+    },
+    "04": {
+      "status": "pending"
+    },
+    "05": {
+      "status": "pending"
+    },
+    "06": {
+      "status": "pending"
+    },
+    "07": {
+      "status": "pending"
+    },
+    "08": {
+      "status": "pending"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-gemini-web-source-capture-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "storyId", "batchId", "authorities", "manualExecution", "source", "audioPolicy", "production", "approval"],
+  "properties": {
+    "schema": {"const": "newsroom-gemini-web-source-capture-v1"},
+    "storyId": {"type": "string", "minLength": 1},
+    "batchId": {"type": "string", "minLength": 1},
+    "authorities": {"type": "object", "required": ["promptBatchArtifactSha256", "promptSha256"]},
+    "manualExecution": {"type": "object", "additionalProperties": false, "required": ["surface", "modelId", "status", "performedBy", "capturedAt", "promptCopiedSha256", "uploadOrder", "receipt", "attestationSha256", "providerEchoAuthority"], "properties": {"surface": {"const": "gemini-web"}, "status": {"const": "human-attested-not-provider-proven"}, "providerEchoAuthority": {"const": false}, "receipt": {"$ref": "#/$defs/file"}}},
+    "source": {"type": "object", "required": ["relativePath", "realpath", "bytes", "sha256", "width", "height", "durationSeconds", "fps", "audioPresent", "preserved"]},
+    "audioPolicy": {"const": "discard-provider-audio-before-owner-narration-mix"},
+    "production": {"$ref": "#/$defs/production"},
+    "approval": {"type": "object", "additionalProperties": false, "required": ["approved", "status", "sha256"], "properties": {"approved": {"const": true}, "status": {"const": "captured"}, "sha256": {"$ref": "#/$defs/sha256"}}}
+  },
+  "$defs": {"sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "file": {"type": "object", "additionalProperties": false, "required": ["relativePath", "realpath", "bytes", "sha256", "width", "height", "mimeType", "preserved"]}, "production": {"type": "object", "additionalProperties": false, "required": ["provider", "render", "upload", "publication", "stage07", "continuationAuthorized"], "properties": {"provider": {"const": false}, "render": {"const": false}, "upload": {"const": false}, "publication": {"const": false}, "stage07": {"const": false}, "continuationAuthorized": {"const": false}}}}
+}

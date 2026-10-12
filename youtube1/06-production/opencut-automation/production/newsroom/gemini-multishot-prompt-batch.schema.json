@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-gemini-multishot-prompt-batch-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "storyId", "authorities", "provider", "batches", "production", "approval"],
+  "properties": {
+    "schema": {"const": "newsroom-gemini-multishot-prompt-batch-v1"},
+    "storyId": {"type": "string", "minLength": 1},
+    "authorities": {"type": "object", "required": ["fullVisualStorylineSha256", "semanticCutPlanSha256", "referenceCatalogSha256"]},
+    "provider": {
+      "type": "object",
+      "required": ["surface", "execution", "aspectRatio", "durationPolicy", "referenceSemantics"],
+      "properties": {
+        "surface": {"const": "gemini-web"},
+        "execution": {"const": "manual-deferred-unauthorized"},
+        "aspectRatio": {"const": "9:16"},
+        "durationPolicy": {"const": "6-10s-provider-source; shot-times-are-intent-only"},
+        "referenceSemantics": {"const": "non-authoritative-reference-only"}
+      }
+    },
+    "batches": {"type": "array", "minItems": 1, "items": {"type": "object", "additionalProperties": false, "required": ["batchId", "order", "sequenceId", "cutIds", "requestedDurationSeconds", "shotIntents", "referenceBindings", "prompt"], "properties": {"requestedDurationSeconds": {"type": "number", "minimum": 6, "maximum": 10}, "shotIntents": {"type": "array", "minItems": 1, "maxItems": 3}, "referenceBindings": {"type": "array", "maxItems": 5}, "prompt": {"type": "object", "additionalProperties": false, "required": ["text", "bytes", "sha256"]}}}},
+    "production": {"$ref": "#/$defs/production"},
+    "approval": {"type": "object", "additionalProperties": false, "required": ["approved", "status", "sha256"], "properties": {"approved": {"const": true}, "status": {"const": "compiled"}, "sha256": {"$ref": "#/$defs/sha256"}}}
+  },
+  "$defs": {"sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "production": {"type": "object", "additionalProperties": false, "required": ["provider", "render", "upload", "publication", "stage07", "continuationAuthorized"], "properties": {"provider": {"const": false}, "render": {"const": false}, "upload": {"const": false}, "publication": {"const": false}, "stage07": {"const": false}, "continuationAuthorized": {"const": false}}}}
+}

@@ -1,0 +1,122 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-fish-trained-20260726\\F-fish-r8-step100-comparison.wav",
+  "model": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\training\\F\\asr\\model-cache\\models--Systran--faster-whisper-large-v3\\snapshots\\edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 9.7988125,
+  "duration_after_vad": 8.112,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.1,
+      "end": 4.2,
+      "text": "범인은 잡혔습니다. 그런데 피해자의 공포는 그때부터 시작했습니다.",
+      "avg_logprob": -0.06835937214658615,
+      "no_speech_prob": 0.0014104843139648438,
+      "compression_ratio": 1.1476510067114094,
+      "words": [
+        {
+          "start": 0.1,
+          "end": 0.48,
+          "word": " 범인은",
+          "probability": 0.9981689453125
+        },
+        {
+          "start": 0.48,
+          "end": 1.0,
+          "word": " 잡혔습니다.",
+          "probability": 0.9986979166666666
+        },
+        {
+          "start": 1.14,
+          "end": 1.64,
+          "word": " 그런데",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 2.08,
+          "end": 2.66,
+          "word": " 피해자의",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 2.66,
+          "end": 3.06,
+          "word": " 공포는",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 3.06,
+          "end": 3.58,
+          "word": " 그때부터",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 3.58,
+          "end": 4.2,
+          "word": " 시작했습니다.",
+          "probability": 0.999267578125
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 5.09,
+      "end": 8.77,
+      "text": "잡혔는데도 끝나지 않은 사건, 대체 무엇이 잘못된 걸까요?",
+      "avg_logprob": -0.06835937214658615,
+      "no_speech_prob": 0.0014104843139648438,
+      "compression_ratio": 1.1476510067114094,
+      "words": [
+        {
+          "start": 5.09,
+          "end": 5.89,
+          "word": " 잡혔는데도",
+          "probability": 0.99921875
+        },
+        {
+          "start": 5.89,
+          "end": 6.23,
+          "word": " 끝나지",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 6.23,
+          "end": 6.41,
+          "word": " 않은",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 6.41,
+          "end": 6.73,
+          "word": " 사건,",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 6.89,
+          "end": 7.61,
+          "word": " 대체",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 7.61,
+          "end": 8.01,
+          "word": " 무엇이",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 8.01,
+          "end": 8.43,
+          "word": " 잘못된",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 8.43,
+          "end": 8.77,
+          "word": " 걸까요?",
+          "probability": 0.998046875
+        }
+      ]
+    }
+  ]
+}

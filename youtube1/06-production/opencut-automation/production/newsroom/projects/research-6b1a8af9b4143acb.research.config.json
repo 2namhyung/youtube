@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-6b1a8af9b4143acb",
+  "topic": "[단독] \"아들이 여교사 상대로\"…'경찰관 부친' 또 걸렸다",
+  "query": "[단독] \"아들이 여교사 상대로\"…'경찰관 부친' 또 걸렸다",
+  "keywords": [
+    "단독",
+    "아들이",
+    "여교사",
+    "상대로",
+    "경찰관",
+    "부친",
+    "걸렸다",
+    "아들의",
+    "불법",
+    "촬영이"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "SBS 뉴스 사회",
+      "title": "[단독] \"아들이 여교사 상대로\"…'경찰관 부친' 또 걸렸다",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008677214&plink=RSSLINK&cooper=RSSREADER"
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "단독",
+      "아들이",
+      "여교사",
+      "상대로",
+      "경찰관",
+      "부친",
+      "걸렸다",
+      "아들의",
+      "불법",
+      "촬영이"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "불법촬영",
+        "terms": [
+          "불법촬영",
+          "불법 촬영",
+          "몰래 촬영",
+          "몰카"
+        ]
+      },
+      {
+        "name": "경찰관 가족",
+        "terms": [
+          "경찰관 아버지",
+          "경찰 간부 아버지",
+          "경찰관 부친",
+          "경감"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "단독",
+      "아들이",
+      "여교사",
+      "상대로",
+      "경찰관",
+      "부친",
+      "걸렸다",
+      "아들의",
+      "불법",
+      "촬영이"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "불법촬영",
+        "terms": [
+          "불법촬영",
+          "불법 촬영",
+          "몰래 촬영",
+          "몰카"
+        ]
+      },
+      {
+        "name": "경찰관 가족",
+        "terms": [
+          "경찰관 아버지",
+          "경찰 간부 아버지",
+          "경찰관 부친",
+          "경감"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "contradictions": [],
+  "limit": 30,
+  "generatedFrom": "promoted-newsroom-candidate"
+}

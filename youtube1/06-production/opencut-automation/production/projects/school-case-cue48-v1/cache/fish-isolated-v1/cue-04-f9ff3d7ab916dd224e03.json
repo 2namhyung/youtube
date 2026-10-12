@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "duration": 1.1609977324263039,
+  "wavSha256": "c3c2c4a83f1abdbdc8e64914457e381263b64625ce15db8e19708a8e880f1934",
+  "acceptance": {
+    "seed": 20264928,
+    "attempt": 3,
+    "leadingTrimSeconds": 0
+  }
+}

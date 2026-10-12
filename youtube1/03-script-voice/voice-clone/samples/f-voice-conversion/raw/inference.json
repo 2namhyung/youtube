@@ -1,0 +1,24 @@
+{
+  "engine": "Fun-CosyVoice3 inference_vc",
+  "modelDir": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\models\\Fun-CosyVoice3-0.5B",
+  "prompt": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-comparison-v2\\F-prompt.wav",
+  "seed": 20260726,
+  "speed": 1.0,
+  "device": "cuda-fp16",
+  "outputs": {
+    "C": {
+      "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-trained-model-vc\\provenance\\C-carrier.wav",
+      "output": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-voice-conversion\\raw\\F-from-C-raw.wav",
+      "sampleRate": 24000,
+      "samples": 200640,
+      "durationSeconds": 8.36
+    },
+    "E": {
+      "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-trained-model-vc\\provenance\\E-carrier.wav",
+      "output": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\samples\\f-voice-conversion\\raw\\F-from-E-raw.wav",
+      "sampleRate": 24000,
+      "samples": 200640,
+      "durationSeconds": 8.36
+    }
+  }
+}

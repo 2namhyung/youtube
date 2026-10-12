@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "profileId": "qwen-f4-reference-guide-v2",
+  "ownerVoice": true,
+  "engine": {
+    "provider": "qwen3-tts",
+    "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+    "precision": "bf16",
+    "language": "Korean"
+  },
+  "guide": {
+    "method": "approved Instagram delivery carrier converted to refreshed owner timbre before Qwen voice cloning",
+    "speakerIdentity": "owner recording 2026-08-07",
+    "prosodySource": "locked Instagram male narration carrier",
+    "legalPronunciationSource": "direct owner recording",
+    "questionProsodySource": "direct owner recording",
+    "directProsodyPrompt": true,
+    "candidateSelection": false
+  },
+  "promptBank": {
+    "manifest": "prompt-bank/manifest.json",
+    "manifestSha256": "25bbefae664db927ca14dd3ea48ef6ccfc5bcb65cfc566c0c513bbda2bc2ab3b",
+    "styles": ["neutral", "hook", "news_exposition", "tension", "criticism", "solution_closing", "question"],
+    "validationStatus": "machine-validated-owner-playback-pending",
+    "ownerVoiceOnly": true,
+    "loraAllowed": false,
+    "adapterAllowed": false
+  },
+  "latestValidation": {
+    "date": "2026-08-07",
+    "projectId": "coffee-pesticide-hospital-short-v1",
+    "renderVersion": "msixrpzt-22396-m4r6c7",
+    "speechAccepted": true,
+    "ownerPlaybackPending": true,
+    "registered": false,
+    "uploaded": false,
+    "sourceRetakeSha256": "80479d0dc06f33f2310c3c7e21bc2d84e1bb1f6030bb9f58738474f101f3b7ab",
+    "acceptedNarrationSha256": "cc2efaa297d769f8fdda952ff5764ee87b95401aabc9d49ec210c33683bcd7f3",
+    "retimedNarrationSha256": "a72f3aed3461ff1c28dcefb410e575b96ac3f3790ff0035aed49827acfc1b5c9",
+    "videoSha256": "43eea637a1a9fa228cdd5311288f117b7c44b7be50ceb56b9da45c72ff0c849d"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "queries": {
+      "items": {
+        "maxLength": 200,
+        "minLength": 2,
+        "type": "string"
+      },
+      "maxItems": 12,
+      "title": "Queries",
+      "type": "array"
+    },
+    "window_days": {
+      "default": 7,
+      "maximum": 28,
+      "minimum": 1,
+      "title": "Window Days",
+      "type": "integer"
+    },
+    "search_budget": {
+      "default": 6,
+      "maximum": 12,
+      "minimum": 0,
+      "title": "Search Budget",
+      "type": "integer"
+    },
+    "read_budget": {
+      "default": 100,
+      "maximum": 300,
+      "minimum": 0,
+      "title": "Read Budget",
+      "type": "integer"
+    },
+    "stats_budget": {
+      "default": 20,
+      "maximum": 50,
+      "minimum": 0,
+      "title": "Stats Budget",
+      "type": "integer"
+    },
+    "max_candidates": {
+      "default": 150,
+      "maximum": 500,
+      "minimum": 1,
+      "title": "Max Candidates",
+      "type": "integer"
+    }
+  },
+  "title": "StoryCollectionRequest",
+  "type": "object"
+}

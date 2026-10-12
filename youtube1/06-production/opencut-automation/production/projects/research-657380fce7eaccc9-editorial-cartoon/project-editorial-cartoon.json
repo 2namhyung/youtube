@@ -1,0 +1,93 @@
+{
+  "id": "research-657380fce7eaccc9-editorial-cartoon",
+  "title": {
+    "line1": "커피에 살충제",
+    "line2": "항소심 감형"
+  },
+  "scriptSource": "script.final.json",
+  "assets": "assets",
+  "narration": {
+    "mode": "edge-tts",
+    "voice": "ko-KR-SunHiNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "bgm": {
+    "provider": "stable-audio-3",
+    "prompt": "restrained factual newsroom underscore, no suspense swell",
+    "seed": 732,
+    "provenance": "script.final.json",
+    "duckUnderNarration": true,
+    "required": false
+  },
+  "releaseGate": {
+    "publishable": false,
+    "releaseStatus": "preview",
+    "uploadBlocked": true,
+    "blockers": [
+      {
+        "id": "stage07-review-required",
+        "stage": "07-quality-assurance",
+        "severity": "block",
+        "claim": "Editorial-cartoon preview",
+        "reason": "Render, exact artifact hashing, and Stage 07 approval are pending.",
+        "authority": {
+          "case": "local-release-policy",
+          "url": "https://example.invalid/local-release-policy"
+        }
+      }
+    ]
+  },
+  "captionPreset": {
+    "id": "information-delta-v14-white-on-black-2line",
+    "fontFamily": "Noto Sans KR",
+    "fontWeight": 800,
+    "fontSize": 88,
+    "scaleX": 94,
+    "safeWidth": 920,
+    "maxLines": 2,
+    "lineHeight": 1.08,
+    "x": 540,
+    "y": 1400,
+    "color": "#FFFFFF",
+    "outlineColor": "#000000",
+    "outlineWidth": 5,
+    "background": "black"
+  },
+  "scenes": [
+    {
+      "label": "AI 재연·편집",
+      "captionAnchor": "커피에 살충제를",
+      "asset": "assets/scene-01-cafe-placeholder.png",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5
+    },
+    {
+      "label": "AI 재연·편집",
+      "captionAnchor": "1심은 특수상해",
+      "asset": "assets/scene-02-court-placeholder.png",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5
+    },
+    {
+      "label": "AI 재연·편집",
+      "captionAnchor": "사건일은 보도마다",
+      "asset": "assets/scene-03-record-placeholder.png",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5
+    }
+  ],
+  "pipelineContract": {
+    "path": "pipeline-contract-editorial-cartoon.json",
+    "sha256": "ebf71aa65ca6cc606a5f4fc741f9393d51dfffc81b7fde20b9b2025b04b80ed3"
+  }
+}

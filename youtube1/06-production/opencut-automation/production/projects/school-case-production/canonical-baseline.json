@@ -1,0 +1,253 @@
+{
+  "contractId": "reference-v3-semantic-2line-pipeline-v2",
+  "versionId": "ms1jbca7-20152-hhn9lt",
+  "sourceFinalVersionId": "ms1jbca7-20152-hhn9lt",
+  "projectId": "0986312f-e8a4-4354-8725-9134e71e247c",
+  "frames": 2625,
+  "duration": 87.5,
+  "cueCount": 48,
+  "cueTextSha256": "dad0795f283046d064609e16a7c7ea739ea185d195b4689c208a5807f398a6f2",
+  "cuesSha256": "fe1fe1ca2bee9fd834903d1cdaf6da0d04411a2a5fd9ff1b2495f49da1b3b175",
+  "audio": {
+    "name": "narration-retimed.m4a",
+    "mime": "audio/mp4",
+    "sha256": "c1d2e1432f6d1c625dd022ac300555a5b430431517414f3e0e25c2a61e241595"
+  },
+  "images": [
+    {
+      "scene": 1,
+      "file": "exec-354dd592-94df-4c52-b98c-9fad1d953485.png",
+      "sha256": "eb5d1ec626deaf67d3ae0fb6596944d842bbfb46bef24e1f0b047475725ab702",
+      "startFrame": 0,
+      "frameCount": 110,
+      "zoom": 1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 2,
+      "file": "exec-354dd592-94df-4c52-b98c-9fad1d953485.png",
+      "sha256": "eb5d1ec626deaf67d3ae0fb6596944d842bbfb46bef24e1f0b047475725ab702",
+      "startFrame": 110,
+      "frameCount": 110,
+      "zoom": 1.08,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 3,
+      "file": "exec-17e9ba7c-4648-4db0-b631-f71dca8ab7d6.png",
+      "sha256": "3ffc4a86a57fe8ee645909aaeaf26496f6eff537db9b6e5fe82b09528ee59807",
+      "startFrame": 220,
+      "frameCount": 110,
+      "zoom": 1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 4,
+      "file": "exec-ee54766c-bf56-4550-a8c4-b42c38b1c974.png",
+      "sha256": "3019ab7bd68f771836a0f92b39fdd29878dd2435862878a4dfcfac369bada5ec",
+      "startFrame": 330,
+      "frameCount": 94,
+      "zoom": 1.1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 5,
+      "file": "teacher-discovers-tumbler-v2.png",
+      "sha256": "f3ec19ec079d61d2077b40a8d16a30e98ba4f34c2eb4eb7f292fbcde77f74525",
+      "startFrame": 424,
+      "frameCount": 37,
+      "zoom": 1.04,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 6,
+      "file": "exec-c4c305fb-5eae-47ba-8a5c-441c458ea897.png",
+      "sha256": "0cfcba57453ef3c09e3ae22a0dbd6f5d028cf18c264d7d45e81826834ddd9dbf",
+      "startFrame": 461,
+      "frameCount": 58,
+      "zoom": 1.08,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 7,
+      "file": "exec-05c5ba5e-ed16-44e7-be70-7444a3e99746.png",
+      "sha256": "1808f1656b28fee13410bcc211a3e982f7561b7ce81b3e465d62019f870e83d6",
+      "startFrame": 519,
+      "frameCount": 70,
+      "zoom": 1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 8,
+      "file": "exec-05c5ba5e-ed16-44e7-be70-7444a3e99746.png",
+      "sha256": "1808f1656b28fee13410bcc211a3e982f7561b7ce81b3e465d62019f870e83d6",
+      "startFrame": 589,
+      "frameCount": 70,
+      "zoom": 1.1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 9,
+      "file": "teacher-discovers-tumbler-v2.png",
+      "sha256": "f3ec19ec079d61d2077b40a8d16a30e98ba4f34c2eb4eb7f292fbcde77f74525",
+      "startFrame": 659,
+      "frameCount": 110,
+      "zoom": 1.14,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 10,
+      "file": "exec-17e9ba7c-4648-4db0-b631-f71dca8ab7d6.png",
+      "sha256": "3ffc4a86a57fe8ee645909aaeaf26496f6eff537db9b6e5fe82b09528ee59807",
+      "startFrame": 769,
+      "frameCount": 110,
+      "zoom": 1.08,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 11,
+      "file": "exec-fd10a2a6-60bc-4cf1-a120-5462366e9d1f.png",
+      "sha256": "e6dd363b82fecc135c73771ca5249c426b967338f4f808098e726299d21b5385",
+      "startFrame": 879,
+      "frameCount": 110,
+      "zoom": 1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 12,
+      "file": "exec-4d829dcd-a3cc-49cd-9ab1-0cea5fb6882f.png",
+      "sha256": "350323b369f918a9224a9e9fb7fa8c514f1e2e97cb12ac02954e0436caf7a01e",
+      "startFrame": 989,
+      "frameCount": 110,
+      "zoom": 1.1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 13,
+      "file": "exec-ee54766c-bf56-4550-a8c4-b42c38b1c974.png",
+      "sha256": "3019ab7bd68f771836a0f92b39fdd29878dd2435862878a4dfcfac369bada5ec",
+      "startFrame": 1099,
+      "frameCount": 109,
+      "zoom": 1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 14,
+      "file": "exec-ee54766c-bf56-4550-a8c4-b42c38b1c974.png",
+      "sha256": "3019ab7bd68f771836a0f92b39fdd29878dd2435862878a4dfcfac369bada5ec",
+      "startFrame": 1208,
+      "frameCount": 109,
+      "zoom": 1.15,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 15,
+      "file": "exec-aae0e85e-8d4b-44af-8d36-f710c7d83377.png",
+      "sha256": "ed92b5f02fb19aaeb22fba54c9a7128a1c7f34853fd3bbc204b88081e38e18d6",
+      "startFrame": 1317,
+      "frameCount": 109,
+      "zoom": 1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 16,
+      "file": "exec-4d829dcd-a3cc-49cd-9ab1-0cea5fb6882f.png",
+      "sha256": "350323b369f918a9224a9e9fb7fa8c514f1e2e97cb12ac02954e0436caf7a01e",
+      "startFrame": 1426,
+      "frameCount": 109,
+      "zoom": 1.1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 17,
+      "file": "exec-3607b039-e43b-41ee-a47d-aa283b15fd6a.png",
+      "sha256": "bbe7eb18670340f3e2334e2ecf99e207e105d3ea18c16e067051f735e5d6551e",
+      "startFrame": 1535,
+      "frameCount": 109,
+      "zoom": 1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 18,
+      "file": "exec-aae0e85e-8d4b-44af-8d36-f710c7d83377.png",
+      "sha256": "ed92b5f02fb19aaeb22fba54c9a7128a1c7f34853fd3bbc204b88081e38e18d6",
+      "startFrame": 1644,
+      "frameCount": 109,
+      "zoom": 1.12,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 19,
+      "file": "exec-6335d670-2731-4517-99f0-12be3920899e.png",
+      "sha256": "491bc1ad18413fe2c2075bbd27479d5df8946e18cbf9b89e5e423b26a6bd29e2",
+      "startFrame": 1753,
+      "frameCount": 109,
+      "zoom": 1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 20,
+      "file": "exec-ee54766c-bf56-4550-a8c4-b42c38b1c974.png",
+      "sha256": "3019ab7bd68f771836a0f92b39fdd29878dd2435862878a4dfcfac369bada5ec",
+      "startFrame": 1862,
+      "frameCount": 109,
+      "zoom": 1.15,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 21,
+      "file": "exec-6335d670-2731-4517-99f0-12be3920899e.png",
+      "sha256": "491bc1ad18413fe2c2075bbd27479d5df8946e18cbf9b89e5e423b26a6bd29e2",
+      "startFrame": 1971,
+      "frameCount": 109,
+      "zoom": 1.12,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 22,
+      "file": "exec-354dd592-94df-4c52-b98c-9fad1d953485.png",
+      "sha256": "eb5d1ec626deaf67d3ae0fb6596944d842bbfb46bef24e1f0b047475725ab702",
+      "startFrame": 2080,
+      "frameCount": 109,
+      "zoom": 1.18,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 23,
+      "file": "exec-6335d670-2731-4517-99f0-12be3920899e.png",
+      "sha256": "491bc1ad18413fe2c2075bbd27479d5df8946e18cbf9b89e5e423b26a6bd29e2",
+      "startFrame": 2189,
+      "frameCount": 109,
+      "zoom": 1.06,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 24,
+      "file": "exec-d08bac9c-d362-4238-a9c1-c2e68a44bade.png",
+      "sha256": "2c6a5e51af5183e85932a177ac5afbbbaea0e7c351d8c6cc4c80e25c8529c388",
+      "startFrame": 2298,
+      "frameCount": 109,
+      "zoom": 1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 25,
+      "file": "exec-3607b039-e43b-41ee-a47d-aa283b15fd6a.png",
+      "sha256": "bbe7eb18670340f3e2334e2ecf99e207e105d3ea18c16e067051f735e5d6551e",
+      "startFrame": 2407,
+      "frameCount": 109,
+      "zoom": 1.1,
+      "label": "사건 내용 기반 AI 재구성"
+    },
+    {
+      "scene": 26,
+      "file": "exec-d08bac9c-d362-4238-a9c1-c2e68a44bade.png",
+      "sha256": "2c6a5e51af5183e85932a177ac5afbbbaea0e7c351d8c6cc4c80e25c8529c388",
+      "startFrame": 2516,
+      "frameCount": 109,
+      "zoom": 1.12,
+      "label": "사건 내용 기반 AI 재구성"
+    }
+  ]
+}
+

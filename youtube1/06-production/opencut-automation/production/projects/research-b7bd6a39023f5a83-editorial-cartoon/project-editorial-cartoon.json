@@ -1,0 +1,93 @@
+{
+  "id": "research-b7bd6a39023f5a83-editorial-cartoon",
+  "title": {
+    "line1": "빵집 앞 흡연 제지",
+    "line2": "'어깨빵' 난동, 황당 해명"
+  },
+  "scriptSource": "script.final.json",
+  "assets": "assets",
+  "narration": {
+    "mode": "edge-tts",
+    "voice": "ko-KR-SunHiNeural",
+    "rate": "+0%",
+    "pitch": "+0Hz"
+  },
+  "bgm": {
+    "provider": "stable-audio-3",
+    "prompt": "restrained factual newsroom underscore, no suspense swell",
+    "seed": 731,
+    "provenance": "script.final.json",
+    "duckUnderNarration": true,
+    "required": false
+  },
+  "releaseGate": {
+    "publishable": false,
+    "releaseStatus": "preview",
+    "uploadBlocked": true,
+    "blockers": [
+      {
+        "id": "stage07-review-required",
+        "stage": "07-quality-assurance",
+        "severity": "block",
+        "claim": "Editorial-cartoon preview",
+        "reason": "Render, exact artifact hashing, and Stage 07 approval are pending.",
+        "authority": {
+          "case": "local-release-policy",
+          "url": "https://example.invalid/local-release-policy"
+        }
+      }
+    ]
+  },
+  "captionPreset": {
+    "id": "information-delta-v14-white-on-black-2line",
+    "fontFamily": "Noto Sans KR",
+    "fontWeight": 800,
+    "fontSize": 88,
+    "scaleX": 94,
+    "safeWidth": 920,
+    "maxLines": 2,
+    "lineHeight": 1.08,
+    "x": 540,
+    "y": 1400,
+    "color": "#FFFFFF",
+    "outlineColor": "#000000",
+    "outlineWidth": 5,
+    "background": "black"
+  },
+  "scenes": [
+    {
+      "label": "AI 재연·편집",
+      "captionAnchor": "빵집 앞 흡연을",
+      "asset": "assets/scene-01-bakery-placeholder.png",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5
+    },
+    {
+      "label": "AI 재연·편집",
+      "captionAnchor": "폭언과 물리적 위협",
+      "asset": "assets/scene-02-entrance-placeholder.png",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5
+    },
+    {
+      "label": "AI 재연·편집",
+      "captionAnchor": "모든 재연 화면",
+      "asset": "assets/scene-03-evidence-placeholder.png",
+      "camera": "none",
+      "intensity": 0,
+      "zoom": 1,
+      "panX": 0.5,
+      "panY": 0.5
+    }
+  ],
+  "pipelineContract": {
+    "path": "pipeline-contract-editorial-cartoon.json",
+    "sha256": "50f81b28d80c478729943a08cc9a169767e6ea45b05eb8dca6c2a5939ee5f507"
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "$defs": {
+    "AudioTrack": {
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "enum": [
+            "voice",
+            "sfx"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "blob_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Blob Id",
+          "type": "string"
+        },
+        "sound_id": {
+          "anyOf": [
+            {
+              "pattern": "^[A-Za-z0-9_-]{1,100}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sound Id"
+        },
+        "source_start_sample": {
+          "minimum": 0,
+          "title": "Source Start Sample",
+          "type": "integer"
+        },
+        "source_end_sample": {
+          "exclusiveMinimum": 0,
+          "title": "Source End Sample",
+          "type": "integer"
+        },
+        "timeline_start_sample": {
+          "minimum": 0,
+          "title": "Timeline Start Sample",
+          "type": "integer"
+        },
+        "gain_db": {
+          "maximum": 0,
+          "minimum": -40,
+          "title": "Gain Db",
+          "type": "number"
+        },
+        "fade_in_samples": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Fade In Samples",
+          "type": "integer"
+        },
+        "fade_out_samples": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Fade Out Samples",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "role",
+        "blob_id",
+        "source_start_sample",
+        "source_end_sample",
+        "timeline_start_sample",
+        "gain_db"
+      ],
+      "title": "AudioTrack",
+      "type": "object"
+    },
+    "Caption": {
+      "additionalProperties": false,
+      "properties": {
+        "start_frame": {
+          "minimum": 0,
+          "title": "Start Frame",
+          "type": "integer"
+        },
+        "end_frame": {
+          "exclusiveMinimum": 0,
+          "title": "End Frame",
+          "type": "integer"
+        },
+        "text": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_frame",
+        "end_frame",
+        "text"
+      ],
+      "title": "Caption",
+      "type": "object"
+    },
+    "Crop": {
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "default": "fit",
+          "enum": [
+            "fit",
+            "crop"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "x": {
+          "default": 0,
+          "minimum": 0,
+          "title": "X",
+          "type": "integer"
+        },
+        "y": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Y",
+          "type": "integer"
+        },
+        "width": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Width",
+          "type": "integer"
+        },
+        "height": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Height",
+          "type": "integer"
+        },
+        "background": {
+          "default": "#141A19",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "title": "Background",
+          "type": "string"
+        }
+      },
+      "title": "Crop",
+      "type": "object"
+    },
+    "ManifestClip": {
+      "additionalProperties": false,
+      "properties": {
+        "beat_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Beat Id",
+          "type": "string"
+        },
+        "shot_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Shot Id",
+          "type": "string"
+        },
+        "observation_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Observation Id",
+          "type": "string"
+        },
+        "asset_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Asset Id",
+          "type": "string"
+        },
+        "asset_hash": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Asset Hash",
+          "type": "string"
+        },
+        "master_blob_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Master Blob Id",
+          "type": "string"
+        },
+        "source_start_frame": {
+          "minimum": 0,
+          "title": "Source Start Frame",
+          "type": "integer"
+        },
+        "source_end_frame": {
+          "exclusiveMinimum": 0,
+          "title": "Source End Frame",
+          "type": "integer"
+        },
+        "start_frame": {
+          "minimum": 0,
+          "title": "Start Frame",
+          "type": "integer"
+        },
+        "end_frame": {
+          "exclusiveMinimum": 0,
+          "title": "End Frame",
+          "type": "integer"
+        },
+        "layout": {
+          "$ref": "#/$defs/Crop"
+        },
+        "speed": {
+          "const": 1,
+          "title": "Speed",
+          "type": "integer"
+        },
+        "usage_role": {
+          "enum": [
+            "EXACT_PRODUCT",
+            "STORY_BROLL",
+            "GRAPHIC"
+          ],
+          "title": "Usage Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "beat_id",
+        "shot_id",
+        "observation_id",
+        "asset_id",
+        "asset_hash",
+        "master_blob_id",
+        "source_start_frame",
+        "source_end_frame",
+        "start_frame",
+        "end_frame",
+        "layout",
+        "speed",
+        "usage_role"
+      ],
+      "title": "ManifestClip",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "shopping-render-manifest-v2",
+      "title": "Schema",
+      "type": "string"
+    },
+    "mode": {
+      "enum": [
+        "production",
+        "synthetic-test"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "locked": {
+      "title": "Locked",
+      "type": "boolean"
+    },
+    "fps": {
+      "const": 30,
+      "title": "Fps",
+      "type": "integer"
+    },
+    "sample_rate": {
+      "const": 48000,
+      "title": "Sample Rate",
+      "type": "integer"
+    },
+    "width": {
+      "const": 1080,
+      "title": "Width",
+      "type": "integer"
+    },
+    "height": {
+      "const": 1920,
+      "title": "Height",
+      "type": "integer"
+    },
+    "script_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,100}$",
+      "title": "Script Id",
+      "type": "string"
+    },
+    "product_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,100}$",
+      "title": "Product Id",
+      "type": "string"
+    },
+    "title": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "voice_id": {
+      "anyOf": [
+        {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Voice Id"
+    },
+    "voice_blob_id": {
+      "anyOf": [
+        {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Voice Blob Id"
+    },
+    "font_blob_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,100}$",
+      "title": "Font Blob Id",
+      "type": "string"
+    },
+    "clips": {
+      "items": {
+        "$ref": "#/$defs/ManifestClip"
+      },
+      "minItems": 1,
+      "title": "Clips",
+      "type": "array"
+    },
+    "total_frames": {
+      "exclusiveMinimum": 0,
+      "title": "Total Frames",
+      "type": "integer"
+    },
+    "total_samples": {
+      "exclusiveMinimum": 0,
+      "title": "Total Samples",
+      "type": "integer"
+    },
+    "captions": {
+      "items": {
+        "$ref": "#/$defs/Caption"
+      },
+      "minItems": 1,
+      "title": "Captions",
+      "type": "array"
+    },
+    "audio_tracks": {
+      "items": {
+        "$ref": "#/$defs/AudioTrack"
+      },
+      "title": "Audio Tracks",
+      "type": "array"
+    },
+    "original_audio_included": {
+      "const": false,
+      "title": "Original Audio Included",
+      "type": "boolean"
+    },
+    "publication_authorized": {
+      "const": false,
+      "title": "Publication Authorized",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "schema",
+    "mode",
+    "locked",
+    "fps",
+    "sample_rate",
+    "width",
+    "height",
+    "script_id",
+    "product_id",
+    "title",
+    "voice_id",
+    "voice_blob_id",
+    "font_blob_id",
+    "clips",
+    "total_frames",
+    "total_samples",
+    "captions",
+    "audio_tracks",
+    "original_audio_included",
+    "publication_authorized"
+  ],
+  "title": "RenderManifest",
+  "type": "object"
+}

@@ -1,0 +1,28 @@
+{
+  "source_manifest": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\dataset_manifest.json",
+  "source_manifest_sha256": "B6535555E3CC845CE8034F44F8268A7995F223686648B229A9CF3555C4305409",
+  "reference_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\f4_ref_gyogwon.wav",
+  "reference_audio_sha256": "31B3FDEE6E1417DAEE8DD863F479B01408A840CC21762C2927E2A3C97B4A4646",
+  "selection": [
+    {
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_bwat_03_x1.wav",
+      "source_audio_sha256": "B27ECD2646F17A90A2AD1996C63DECD1614F369B5667A90697FB2D8A6D444765",
+      "derived_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\derived\\probe_01.wav",
+      "derived_audio_sha256": "CAB2B4DED840BE8A089C60AD7EBB219F6BC7F71C7464DF44B82B83E3D1F3558B",
+      "duration_seconds": 2.160041666666667,
+      "role": "target-remediation",
+      "sampling_copy": 1
+    },
+    {
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_bwat_04_x1.wav",
+      "source_audio_sha256": "5C4670E30803B8CE9CBF2070D81B109B5C8E4DB98967F8B90DE36973873D6483",
+      "derived_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\derived\\probe_02.wav",
+      "derived_audio_sha256": "92A95C8EDFA7F291C55D4415D3DACEF17BA65D6F1746C5107C979E5D650219AF",
+      "duration_seconds": 2.600041666666667,
+      "role": "target-remediation",
+      "sampling_copy": 1
+    }
+  ],
+  "raw_jsonl": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\derived\\train_raw.jsonl",
+  "raw_jsonl_sha256": "A743DAD48E2626A85C8635FD2C7D202F2B658CA88017807815417F3A5F1693A1"
+}

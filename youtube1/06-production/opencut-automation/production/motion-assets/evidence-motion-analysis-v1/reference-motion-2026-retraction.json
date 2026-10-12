@@ -1,0 +1,20 @@
+{
+  "schema_id": "reference-motion-2026-retraction-v1",
+  "recorded_at": "2026-08-12T00:00:00+09:00",
+  "status": "individual_claims_retracted",
+  "reason": "The existing strict catalog was valid. Two later WSJ additions were incorrectly classified and should have been retracted individually instead of deleting the entire catalog.",
+  "invalidated_artifact": "reference-motion-2026-strict.json",
+  "invalidated_claims": [
+    "WSJ psychedelic relationship-diagram classification at 89-98 seconds",
+    "WSJ psychedelic document-forensics classification at 526-537 seconds"
+  ],
+  "not_authorized_for_planning": true,
+  "required_reverification": {
+    "continuous_playback": true,
+    "minimum_observations": ["start frame", "multiple intermediate frames", "end frame"],
+    "identity_test": "Track the same synthetic object across the interval.",
+    "property_test": "Name and observe its changing property, such as position, scale, opacity, path length, mask extent, color, state, or text content.",
+    "exclusions": ["shot changes", "footage changes", "camera motion", "photo pan or zoom", "static overlays", "hard cuts", "3D reenactment alone"],
+    "admission_rule": "If continuous motion cannot be demonstrated directly, the candidate remains rejected."
+  }
+}

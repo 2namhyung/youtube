@@ -1,0 +1,1168 @@
+{
+  "schema": "godot-skin-slot-contract-v1",
+  "manifestId": "synthetic-front-skin-pack-a",
+  "view": "front",
+  "canvas": {
+    "width": 1024,
+    "height": 1536
+  },
+  "skeleton": {
+    "id": "generic-front-skeleton-v1",
+    "bones": [
+      {
+        "id": "root_bone",
+        "parent": null,
+        "joint": {
+          "x": 512,
+          "y": 768
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": -1,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -5,
+            5
+          ],
+          "translation": {
+            "x": [
+              -8,
+              8
+            ],
+            "y": [
+              -8,
+              8
+            ]
+          }
+        }
+      },
+      {
+        "id": "head_bone",
+        "parent": null,
+        "joint": {
+          "x": 432,
+          "y": 180
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 0,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "hair_back_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 592,
+          "y": 250
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 1,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "hair_front_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 432,
+          "y": 320
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 2,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "torso_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 592,
+          "y": 390
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 3,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "upper_arm_l_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 432,
+          "y": 460
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 4,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "upper_arm_r_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 592,
+          "y": 530
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 5,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "forearm_l_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 432,
+          "y": 600
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 6,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "forearm_r_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 592,
+          "y": 670
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 7,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "hand_l_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 432,
+          "y": 740
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 8,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "hand_r_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 592,
+          "y": 810
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 9,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "thigh_l_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 432,
+          "y": 880
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 10,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "thigh_r_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 592,
+          "y": 950
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 11,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "shin_l_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 432,
+          "y": 1020
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 12,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "shin_r_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 592,
+          "y": 1090
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 13,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "foot_l_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 432,
+          "y": 1160
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 14,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "id": "foot_r_bone",
+        "parent": "root_bone",
+        "joint": {
+          "x": 592,
+          "y": 1230
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "drawOrder": 15,
+        "allowedMotionEnvelope": {
+          "rotationDeg": [
+            -20,
+            20
+          ],
+          "translation": {
+            "x": [
+              -24,
+              24
+            ],
+            "y": [
+              -24,
+              24
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "slots": [
+    {
+      "id": "head",
+      "boneId": "head_bone",
+      "z": 0,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "core-v1",
+      "attachments": [
+        {
+          "id": "head-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/head-visible.png",
+          "bytes": 74,
+          "sha256": "b35fa69ec66686afb54691fb82148391ed8294b560efb285c8b7ddba2708091f",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "core-v1"
+        }
+      ]
+    },
+    {
+      "id": "hair_back",
+      "boneId": "hair_back_bone",
+      "z": 1,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "core-v1",
+      "attachments": [
+        {
+          "id": "hair_back-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/hair_back-visible.png",
+          "bytes": 75,
+          "sha256": "09f9d76f9a9f77a453a040dfc431d5118a045a33ea27ce81255aca1b23b74171",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "core-v1"
+        }
+      ]
+    },
+    {
+      "id": "hair_front",
+      "boneId": "hair_front_bone",
+      "z": 2,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "core-v1",
+      "attachments": [
+        {
+          "id": "hair_front-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/hair_front-visible.png",
+          "bytes": 75,
+          "sha256": "82202ba073755c7933962542d542a753b39ba5e47ae68c265e1463c761ed849c",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "core-v1"
+        }
+      ]
+    },
+    {
+      "id": "torso",
+      "boneId": "torso_bone",
+      "z": 3,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "core-v1",
+      "attachments": [
+        {
+          "id": "torso-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/torso-visible.png",
+          "bytes": 75,
+          "sha256": "eb5aa2efa212df231efb805cd785318c931eeda8b11bd445b8f7ea8d9790ef08",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "core-v1"
+        },
+        {
+          "id": "torso-hidden-fill-a",
+          "role": "hidden-fill",
+          "path": "fixtures/skin-pack-a/torso-hidden-fill.png",
+          "bytes": 75,
+          "sha256": "8a504d73074eae39023bfa61514f00cb9f976a402c19fbd514a3bf0bcc3a4593",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "core-v1"
+        }
+      ]
+    },
+    {
+      "id": "upper_arm_l",
+      "boneId": "upper_arm_l_bone",
+      "z": 4,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "upper_arm_l-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/upper_arm_l-visible.png",
+          "bytes": 75,
+          "sha256": "16618951678e8dee0321f66ef63c143b4a1c41d6db8d99641bc8fe8bdad961a8",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "limb-v1"
+        },
+        {
+          "id": "upper_arm_l-hidden-fill-a",
+          "role": "hidden-fill",
+          "path": "fixtures/skin-pack-a/upper_arm_l-hidden-fill.png",
+          "bytes": 75,
+          "sha256": "7d3f2be0a7001f56115d61305e73d243f225cc33950d4665f1a832fe81d4c646",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "upper_arm_r",
+      "boneId": "upper_arm_r_bone",
+      "z": 5,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "upper_arm_r-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/upper_arm_r-visible.png",
+          "bytes": 75,
+          "sha256": "95733bd1027ba5ae841071ac60b419b073eeb93182236e31f11bdbc6289d0d85",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "limb-v1"
+        },
+        {
+          "id": "upper_arm_r-hidden-fill-a",
+          "role": "hidden-fill",
+          "path": "fixtures/skin-pack-a/upper_arm_r-hidden-fill.png",
+          "bytes": 75,
+          "sha256": "1f37923eda794a413ecb850610acfa69fdf08e0a551a2077367beeeb036d4857",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "forearm_l",
+      "boneId": "forearm_l_bone",
+      "z": 6,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "forearm_l-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/forearm_l-visible.png",
+          "bytes": 75,
+          "sha256": "ab175cc842faa5a481dfd2a92da162d827a4b602dade6bfbe7570cacffac2c58",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "limb-v1"
+        },
+        {
+          "id": "forearm_l-hidden-fill-a",
+          "role": "hidden-fill",
+          "path": "fixtures/skin-pack-a/forearm_l-hidden-fill.png",
+          "bytes": 75,
+          "sha256": "fc169efc418cff30526a85f4d20ced38c36d74c4abfa1e0747a7be5417033ad8",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "forearm_r",
+      "boneId": "forearm_r_bone",
+      "z": 7,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "forearm_r-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/forearm_r-visible.png",
+          "bytes": 75,
+          "sha256": "67c8ca5a14f99b380bc21bf477e033565fd9d01c2dfb5702cdbd97aae31fabe8",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "limb-v1"
+        },
+        {
+          "id": "forearm_r-hidden-fill-a",
+          "role": "hidden-fill",
+          "path": "fixtures/skin-pack-a/forearm_r-hidden-fill.png",
+          "bytes": 75,
+          "sha256": "afc90918f4a5ffa25e783b9e03e2b0d0c5b99919abfa62b6cac9618fba316fda",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "hand_l",
+      "boneId": "hand_l_bone",
+      "z": 8,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "hand_l-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/hand_l-visible.png",
+          "bytes": 75,
+          "sha256": "13933c56a19cdf84ebd15f44504afd50712667095b3ebce2bf6633ee95b7c207",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "hand_r",
+      "boneId": "hand_r_bone",
+      "z": 9,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "limb-v1",
+      "attachments": [
+        {
+          "id": "hand_r-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/hand_r-visible.png",
+          "bytes": 75,
+          "sha256": "d8eb0ea94eff472ce58c9fe080c35826a0b4b71c9fd0be56187a5b85015e1e33",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "limb-v1"
+        }
+      ]
+    },
+    {
+      "id": "thigh_l",
+      "boneId": "thigh_l_bone",
+      "z": 10,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "thigh_l-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/thigh_l-visible.png",
+          "bytes": 75,
+          "sha256": "628e5abe4fce8da7fb75e158bb316554742bbfe3bb1808db0a580f009a0f39e3",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "leg-v1"
+        },
+        {
+          "id": "thigh_l-hidden-fill-a",
+          "role": "hidden-fill",
+          "path": "fixtures/skin-pack-a/thigh_l-hidden-fill.png",
+          "bytes": 75,
+          "sha256": "2a37d6afe8406b28bc0c42f02293019e6335f34e739ab14d3dfdd7a56e49836a",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    },
+    {
+      "id": "thigh_r",
+      "boneId": "thigh_r_bone",
+      "z": 11,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "thigh_r-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/thigh_r-visible.png",
+          "bytes": 75,
+          "sha256": "4ab1ebbfc129d2e60bf6aeaca6d3a9b2296ef235da1f135787b51b5e927163f4",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "leg-v1"
+        },
+        {
+          "id": "thigh_r-hidden-fill-a",
+          "role": "hidden-fill",
+          "path": "fixtures/skin-pack-a/thigh_r-hidden-fill.png",
+          "bytes": 75,
+          "sha256": "bcdf86ce095a3f8281fb6165b197c8a83ee4a83e4cebfe05503ac3b767290888",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    },
+    {
+      "id": "shin_l",
+      "boneId": "shin_l_bone",
+      "z": 12,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "shin_l-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/shin_l-visible.png",
+          "bytes": 75,
+          "sha256": "e6bfd34c0f8c88e7f47921d749f070a7c6480498c6ffb972c7d6e4ab56df1f65",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "leg-v1"
+        },
+        {
+          "id": "shin_l-hidden-fill-a",
+          "role": "hidden-fill",
+          "path": "fixtures/skin-pack-a/shin_l-hidden-fill.png",
+          "bytes": 75,
+          "sha256": "211154f5626119e06936612140400fdb3e271038132058bb48c65f8c3340b767",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    },
+    {
+      "id": "shin_r",
+      "boneId": "shin_r_bone",
+      "z": 13,
+      "articulates": true,
+      "requiresHiddenFill": true,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "shin_r-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/shin_r-visible.png",
+          "bytes": 75,
+          "sha256": "3aac15aa6f9dc5bf8d7c87deb3a9601934689a8eebd27866a2c22692083b1ed1",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "leg-v1"
+        },
+        {
+          "id": "shin_r-hidden-fill-a",
+          "role": "hidden-fill",
+          "path": "fixtures/skin-pack-a/shin_r-hidden-fill.png",
+          "bytes": 75,
+          "sha256": "1d2cdce5d145722af12ac504ed739154fe64639f0d0a3992ce46f3c6c19a826c",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    },
+    {
+      "id": "foot_l",
+      "boneId": "foot_l_bone",
+      "z": 14,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "foot_l-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/foot_l-visible.png",
+          "bytes": 75,
+          "sha256": "afc3dff97848adf44f6ce7bb99e886846be478b2ae1e14c048eb5aea5446799e",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    },
+    {
+      "id": "foot_r",
+      "boneId": "foot_r_bone",
+      "z": 15,
+      "articulates": false,
+      "requiresHiddenFill": false,
+      "geometryGroup": "leg-v1",
+      "attachments": [
+        {
+          "id": "foot_r-visible-a",
+          "role": "visible",
+          "path": "fixtures/skin-pack-a/foot_r-visible.png",
+          "bytes": 75,
+          "sha256": "9b2dd2d4321e175b7322cbbf98f152b4d6b452e228a9f50dbe9da95af1390d93",
+          "dimensions": {
+            "width": 4,
+            "height": 4
+          },
+          "alphaBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 4
+          },
+          "geometryGroup": "leg-v1"
+        }
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "id": "skin-a",
+      "slots": {
+        "head": "head-visible-a",
+        "hair_back": "hair_back-visible-a",
+        "hair_front": "hair_front-visible-a",
+        "torso": "torso-visible-a",
+        "upper_arm_l": "upper_arm_l-visible-a",
+        "upper_arm_r": "upper_arm_r-visible-a",
+        "forearm_l": "forearm_l-visible-a",
+        "forearm_r": "forearm_r-visible-a",
+        "hand_l": "hand_l-visible-a",
+        "hand_r": "hand_r-visible-a",
+        "thigh_l": "thigh_l-visible-a",
+        "thigh_r": "thigh_r-visible-a",
+        "shin_l": "shin_l-visible-a",
+        "shin_r": "shin_r-visible-a",
+        "foot_l": "foot_l-visible-a",
+        "foot_r": "foot_r-visible-a"
+      }
+    }
+  ],
+  "geometryCompatibility": {
+    "groups": {
+      "core-v1": [
+        "head",
+        "hair_back",
+        "hair_front",
+        "torso"
+      ],
+      "limb-v1": [
+        "upper_arm_l",
+        "upper_arm_r",
+        "forearm_l",
+        "forearm_r",
+        "hand_l",
+        "hand_r"
+      ],
+      "leg-v1": [
+        "thigh_l",
+        "thigh_r",
+        "shin_l",
+        "shin_r",
+        "foot_l",
+        "foot_r"
+      ]
+    }
+  }
+}

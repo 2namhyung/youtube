@@ -1,0 +1,498 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-20260729\\admission-work\\extra_05.full.wav",
+  "model": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F\\asr-turbo\\model-cache\\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\\snapshots\\0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 45.8666875,
+  "duration_after_vad": 36.688,
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.26,
+      "end": 3.72,
+      "text": "조사팀은 복도에서 신발 자국을 봤습니다.",
+      "avg_logprob": -0.0850268370169072,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7710843373493976,
+      "words": [
+        {
+          "start": 1.26,
+          "end": 1.94,
+          "word": " 조사팀은",
+          "probability": 0.9748046875
+        },
+        {
+          "start": 1.94,
+          "end": 2.44,
+          "word": " 복도에서",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 2.44,
+          "end": 2.78,
+          "word": " 신발",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 2.78,
+          "end": 3.22,
+          "word": " 자국을",
+          "probability": 0.9900716145833334
+        },
+        {
+          "start": 3.22,
+          "end": 3.72,
+          "word": " 봤습니다.",
+          "probability": 0.839599609375
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 5.02,
+      "end": 7.62,
+      "text": "보관함 옆에는 누군가 놓고 간 상자를 받았습니다.",
+      "avg_logprob": -0.0850268370169072,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7710843373493976,
+      "words": [
+        {
+          "start": 5.02,
+          "end": 5.4,
+          "word": " 보관함",
+          "probability": 0.99609375
+        },
+        {
+          "start": 5.4,
+          "end": 5.84,
+          "word": " 옆에는",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 5.84,
+          "end": 6.32,
+          "word": " 누군가",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 6.32,
+          "end": 6.58,
+          "word": " 놓고",
+          "probability": 0.99609375
+        },
+        {
+          "start": 6.58,
+          "end": 6.72,
+          "word": " 간",
+          "probability": 0.958984375
+        },
+        {
+          "start": 6.72,
+          "end": 7.1,
+          "word": " 상자를",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 7.1,
+          "end": 7.62,
+          "word": " 받았습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 9.18,
+      "end": 11.56,
+      "text": "급히 이동하던 사람이 경고선을 밟았습니다.",
+      "avg_logprob": -0.0850268370169072,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7710843373493976,
+      "words": [
+        {
+          "start": 9.18,
+          "end": 9.46,
+          "word": " 급히",
+          "probability": 0.995849609375
+        },
+        {
+          "start": 9.46,
+          "end": 9.96,
+          "word": " 이동하던",
+          "probability": 0.9993896484375
+        },
+        {
+          "start": 9.96,
+          "end": 10.32,
+          "word": " 사람이",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 10.32,
+          "end": 11.02,
+          "word": " 경고선을",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 11.02,
+          "end": 11.56,
+          "word": " 밟았습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 13.22,
+      "end": 17.34,
+      "text": "그래서 팀은 동선은 다시 표시하고 표지판의 위치를 바꿨습니다.",
+      "avg_logprob": -0.0850268370169072,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7710843373493976,
+      "words": [
+        {
+          "start": 13.22,
+          "end": 13.4,
+          "word": " 그래서",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 13.4,
+          "end": 13.82,
+          "word": " 팀은",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 13.82,
+          "end": 14.26,
+          "word": " 동선은",
+          "probability": 0.8849283854166666
+        },
+        {
+          "start": 14.26,
+          "end": 14.46,
+          "word": " 다시",
+          "probability": 1.0
+        },
+        {
+          "start": 14.46,
+          "end": 15.6,
+          "word": " 표시하고",
+          "probability": 0.9923502604166666
+        },
+        {
+          "start": 15.6,
+          "end": 16.34,
+          "word": " 표지판의",
+          "probability": 0.985107421875
+        },
+        {
+          "start": 16.34,
+          "end": 16.66,
+          "word": " 위치를",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 16.66,
+          "end": 17.34,
+          "word": " 바꿨습니다.",
+          "probability": 0.9986979166666666
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 18.41,
+      "end": 21.07,
+      "text": "이 네 장면은 비슷하게 들리지만 뜻이 다릅니다.",
+      "avg_logprob": -0.0850268370169072,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7710843373493976,
+      "words": [
+        {
+          "start": 18.41,
+          "end": 18.59,
+          "word": " 이",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 18.59,
+          "end": 18.73,
+          "word": " 네",
+          "probability": 0.88134765625
+        },
+        {
+          "start": 18.73,
+          "end": 19.29,
+          "word": " 장면은",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 19.29,
+          "end": 19.77,
+          "word": " 비슷하게",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 19.77,
+          "end": 20.23,
+          "word": " 들리지만",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 20.23,
+          "end": 20.57,
+          "word": " 뜻이",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 20.57,
+          "end": 21.07,
+          "word": " 다릅니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 22.1,
+      "end": 24.94,
+      "text": "받습니다는 눈으로 확인했다는 뜻이고",
+      "avg_logprob": -0.0850268370169072,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7710843373493976,
+      "words": [
+        {
+          "start": 22.1,
+          "end": 22.76,
+          "word": " 받습니다는",
+          "probability": 0.88720703125
+        },
+        {
+          "start": 22.76,
+          "end": 23.82,
+          "word": " 눈으로",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 23.82,
+          "end": 24.44,
+          "word": " 확인했다는",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 24.44,
+          "end": 24.94,
+          "word": " 뜻이고",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 25.43,
+      "end": 28.67,
+      "text": "받았습니다는 물건이나 도움을 건넸다는 뜻이며",
+      "avg_logprob": -0.0850268370169072,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7710843373493976,
+      "words": [
+        {
+          "start": 25.43,
+          "end": 26.57,
+          "word": " 받았습니다는",
+          "probability": 0.9287109375
+        },
+        {
+          "start": 26.57,
+          "end": 27.13,
+          "word": " 물건이나",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 27.13,
+          "end": 27.59,
+          "word": " 도움을",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 27.59,
+          "end": 28.11,
+          "word": " 건넸다는",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 28.11,
+          "end": 28.67,
+          "word": " 뜻이며",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 29.14,
+      "end": 31.76,
+      "text": "밟았습니다는 발로 눌렀다는 뜻입니다.",
+      "avg_logprob": -0.0850268370169072,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7710843373493976,
+      "words": [
+        {
+          "start": 29.14,
+          "end": 30.32,
+          "word": " 밟았습니다는",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 30.32,
+          "end": 30.7,
+          "word": " 발로",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 30.7,
+          "end": 31.22,
+          "word": " 눌렀다는",
+          "probability": 0.99931640625
+        },
+        {
+          "start": 31.22,
+          "end": 31.76,
+          "word": " 뜻입니다.",
+          "probability": 0.999755859375
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 32.94,
+      "end": 36.54,
+      "text": "바꿨습니다는 위치나 상태를 새롭게 조성했다는 의미입니다.",
+      "avg_logprob": -0.0850268370169072,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.7710843373493976,
+      "words": [
+        {
+          "start": 32.94,
+          "end": 33.82,
+          "word": " 바꿨습니다는",
+          "probability": 0.994873046875
+        },
+        {
+          "start": 33.82,
+          "end": 34.36,
+          "word": " 위치나",
+          "probability": 0.9983723958333334
+        },
+        {
+          "start": 34.36,
+          "end": 34.84,
+          "word": " 상태를",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 34.84,
+          "end": 35.26,
+          "word": " 새롭게",
+          "probability": 1.0
+        },
+        {
+          "start": 35.26,
+          "end": 35.84,
+          "word": " 조성했다는",
+          "probability": 0.9964599609375
+        },
+        {
+          "start": 35.84,
+          "end": 36.54,
+          "word": " 의미입니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 37.26,
+      "end": 44.72,
+      "text": "문장 끝에 습니다 소리는 약하게 흘리지 말고 앞 음절과 자연스럽게 읽어야 합니다.",
+      "avg_logprob": -0.11627604439854622,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.0,
+      "words": [
+        {
+          "start": 37.26,
+          "end": 38.02,
+          "word": " 문장",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 38.02,
+          "end": 39.64,
+          "word": " 끝에",
+          "probability": 0.9765625
+        },
+        {
+          "start": 39.94,
+          "end": 40.76,
+          "word": " 습니다",
+          "probability": 0.87451171875
+        },
+        {
+          "start": 40.76,
+          "end": 41.14,
+          "word": " 소리는",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 41.14,
+          "end": 41.58,
+          "word": " 약하게",
+          "probability": 1.0
+        },
+        {
+          "start": 41.58,
+          "end": 41.96,
+          "word": " 흘리지",
+          "probability": 0.998046875
+        },
+        {
+          "start": 41.96,
+          "end": 42.26,
+          "word": " 말고",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 42.26,
+          "end": 42.68,
+          "word": " 앞",
+          "probability": 0.9287109375
+        },
+        {
+          "start": 42.68,
+          "end": 43.3,
+          "word": " 음절과",
+          "probability": 0.89404296875
+        },
+        {
+          "start": 43.3,
+          "end": 44.08,
+          "word": " 자연스럽게",
+          "probability": 1.0
+        },
+        {
+          "start": 44.08,
+          "end": 44.48,
+          "word": " 읽어야",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 44.48,
+          "end": 44.72,
+          "word": " 합니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    }
+  ]
+}

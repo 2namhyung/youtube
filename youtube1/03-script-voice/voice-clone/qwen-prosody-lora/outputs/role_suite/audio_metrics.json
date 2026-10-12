@@ -1,0 +1,576 @@
+{
+  "status": "pass",
+  "support": "unsupported-experimental",
+  "roles": {
+    "hook": {
+      "text": "교실에서 선생님의 말 한마디가 녹음되고, 순식간에 민원으로 돌아오는 시대입니다. 그런데 교권을 지키는 제도는 정말 현장에서 작동하고 있을까요?",
+      "normalized_characters": 60,
+      "raw": {
+        "base": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\hook_base.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 10.8,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.2940630797773655,
+          "tempo_characters_per_voiced_second": 7.869762009052416,
+          "peak": 0.37890625,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 9.1552734375e-05,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.002227783203125,
+          "pitch_hz": {
+            "median": 105.07123336870623,
+            "p10": 93.7705065094064,
+            "p90": 128.61281550435518,
+            "p10_p90_range_semitones": 5.469939302954955,
+            "voiced_frames": 834
+          }
+        },
+        "adapter": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\hook_adapter.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 12.0,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.3380634390651085,
+          "tempo_characters_per_voiced_second": 7.553593947036569,
+          "peak": 0.400390625,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 6.103515625e-05,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.00213623046875,
+          "pitch_hz": {
+            "median": 111.31909403295714,
+            "p10": 94.15009174761009,
+            "p90": 130.8609279198309,
+            "p10_p90_range_semitones": 5.699999999999999,
+            "voiced_frames": 958
+          }
+        },
+        "comparison": {
+          "duration_ratio_adapter_to_base": 1.111111111111111,
+          "silence_delta_adapter_minus_base": 0.044000359287742985,
+          "tempo_ratio_adapter_to_base": 0.9598249525649993,
+          "median_pitch_ratio_adapter_to_base": 1.0594630943592953
+        },
+        "gates": {
+          "adapter_no_clipping": true,
+          "duration_ratio_0_70_to_1_40": true,
+          "adapter_silence_ratio_le_0_45": true,
+          "adapter_silence_increase_le_0_15": true,
+          "tempo_ratio_0_70_to_1_40": true,
+          "median_pitch_ratio_0_75_to_1_333": true,
+          "adapter_endpoint_amplitude_le_0_02": true,
+          "adapter_boundary_jump_le_0_25": true
+        },
+        "status": "pass"
+      },
+      "mastered": {
+        "base": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\hook_base.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 10.8,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.23283858998144713,
+          "tempo_characters_per_voiced_second": 7.241703614134085,
+          "peak": 0.621612548828125,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.0001220703125,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.003662109375,
+          "pitch_hz": {
+            "median": 105.07123336870623,
+            "p10": 93.7705065094064,
+            "p90": 128.61281550435518,
+            "p10_p90_range_semitones": 5.469939302954955,
+            "voiced_frames": 834
+          }
+        },
+        "adapter": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\hook_adapter.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 12.0,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.2996661101836394,
+          "tempo_characters_per_voiced_second": 7.139451728247915,
+          "peak": 0.613006591796875,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.0001220703125,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.003265380859375,
+          "pitch_hz": {
+            "median": 111.31909403295714,
+            "p10": 94.15009174761009,
+            "p90": 130.8609279198309,
+            "p10_p90_range_semitones": 5.699999999999999,
+            "voiced_frames": 958
+          }
+        },
+        "comparison": {
+          "duration_ratio_adapter_to_base": 1.111111111111111,
+          "silence_delta_adapter_minus_base": 0.06682752020219229,
+          "tempo_ratio_adapter_to_base": 0.9858801338283717,
+          "median_pitch_ratio_adapter_to_base": 1.0594630943592953
+        },
+        "gates": {
+          "adapter_no_clipping": true,
+          "duration_ratio_0_70_to_1_40": true,
+          "adapter_silence_ratio_le_0_45": true,
+          "adapter_silence_increase_le_0_15": true,
+          "tempo_ratio_0_70_to_1_40": true,
+          "median_pitch_ratio_0_75_to_1_333": true,
+          "adapter_endpoint_amplitude_le_0_02": true,
+          "adapter_boundary_jump_le_0_25": true
+        },
+        "status": "pass"
+      }
+    },
+    "news_exposition": {
+      "text": "교육부는 교권 보호 대책을 확대하고, 학교마다 대응 절차를 마련했다고 설명합니다. 하지만 신고부터 조사와 지원까지 이어지는 과정은 지역과 학교에 따라 큰 차이를 보입니다.",
+      "normalized_characters": 71,
+      "raw": {
+        "base": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\news_exposition_base.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 12.4,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.32794830371567046,
+          "tempo_characters_per_voiced_second": 8.51988988833747,
+          "peak": 0.427734375,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.0233154296875,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.017578125,
+          "pitch_hz": {
+            "median": 110.04048518456055,
+            "p10": 93.39217055697253,
+            "p90": 141.06574875403305,
+            "p10_p90_range_semitones": 7.13993071205849,
+            "voiced_frames": 937
+          }
+        },
+        "adapter": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\news_exposition_adapter.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 12.4,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.3134087237479806,
+          "tempo_characters_per_voiced_second": 8.339468690702086,
+          "peak": 0.419921875,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 6.103515625e-05,
+          "boundary_max_adjacent_jump_first_last_20ms": 9.1552734375e-05,
+          "pitch_hz": {
+            "median": 104.4660675955349,
+            "p10": 91.99970068017603,
+            "p90": 130.8609279198309,
+            "p10_p90_range_semitones": 6.100000000000001,
+            "voiced_frames": 955
+          }
+        },
+        "comparison": {
+          "duration_ratio_adapter_to_base": 1.0,
+          "silence_delta_adapter_minus_base": -0.014539579967689842,
+          "tempo_ratio_adapter_to_base": 0.9788235294117644,
+          "median_pitch_ratio_adapter_to_base": 0.9493421209505192
+        },
+        "gates": {
+          "adapter_no_clipping": true,
+          "duration_ratio_0_70_to_1_40": true,
+          "adapter_silence_ratio_le_0_45": true,
+          "adapter_silence_increase_le_0_15": true,
+          "tempo_ratio_0_70_to_1_40": true,
+          "median_pitch_ratio_0_75_to_1_333": true,
+          "adapter_endpoint_amplitude_le_0_02": true,
+          "adapter_boundary_jump_le_0_25": true
+        },
+        "status": "pass"
+      },
+      "mastered": {
+        "base": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\news_exposition_base.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 12.4,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.2681744749596123,
+          "tempo_characters_per_voiced_second": 7.824004842270169,
+          "peak": 0.685760498046875,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.037353515625,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.0281982421875,
+          "pitch_hz": {
+            "median": 110.04048518456055,
+            "p10": 93.39217055697253,
+            "p90": 141.06574875403305,
+            "p10_p90_range_semitones": 7.13993071205849,
+            "voiced_frames": 937
+          }
+        },
+        "adapter": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\news_exposition_adapter.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 12.4,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.24474959612277866,
+          "tempo_characters_per_voiced_second": 7.5813351733655345,
+          "peak": 0.7049560546875,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.0001220703125,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.00018310546875,
+          "pitch_hz": {
+            "median": 104.4660675955349,
+            "p10": 91.99970068017603,
+            "p90": 130.8609279198309,
+            "p10_p90_range_semitones": 6.100000000000001,
+            "voiced_frames": 955
+          }
+        },
+        "comparison": {
+          "duration_ratio_adapter_to_base": 1.0,
+          "silence_delta_adapter_minus_base": -0.023424878836833612,
+          "tempo_ratio_adapter_to_base": 0.9689839572192516,
+          "median_pitch_ratio_adapter_to_base": 0.9493421209505192
+        },
+        "gates": {
+          "adapter_no_clipping": true,
+          "duration_ratio_0_70_to_1_40": true,
+          "adapter_silence_ratio_le_0_45": true,
+          "adapter_silence_increase_le_0_15": true,
+          "tempo_ratio_0_70_to_1_40": true,
+          "median_pitch_ratio_0_75_to_1_333": true,
+          "adapter_endpoint_amplitude_le_0_02": true,
+          "adapter_boundary_jump_le_0_25": true
+        },
+        "status": "pass"
+      }
+    },
+    "tension": {
+      "text": "문제는 사건이 벌어진 다음입니다. 교사는 수업을 계속해야 하지만 보호 절차는 늦어지고, 책임을 둘러싼 갈등은 점점 더 커집니다.",
+      "normalized_characters": 52,
+      "raw": {
+        "base": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\tension_base.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 8.96,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.22371364653243847,
+          "tempo_characters_per_voiced_second": 7.4760703993412925,
+          "peak": 0.41796875,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 6.103515625e-05,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.009490966796875,
+          "pitch_hz": {
+            "median": 106.9078461768407,
+            "p10": 94.15009174761009,
+            "p90": 146.04042164047092,
+            "p10_p90_range_semitones": 7.6,
+            "voiced_frames": 741
+          }
+        },
+        "adapter": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\tension_adapter.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 8.32,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.2385542168674699,
+          "tempo_characters_per_voiced_second": 8.208069620253164,
+          "peak": 0.365234375,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 6.103515625e-05,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.00323486328125,
+          "pitch_hz": {
+            "median": 104.4660675955349,
+            "p10": 93.06868571002408,
+            "p90": 132.38145865964958,
+            "p10_p90_range_semitones": 6.099999999999998,
+            "voiced_frames": 697
+          }
+        },
+        "comparison": {
+          "duration_ratio_adapter_to_base": 0.9285714285714285,
+          "silence_delta_adapter_minus_base": 0.014840570335031417,
+          "tempo_ratio_adapter_to_base": 1.097912296408601,
+          "median_pitch_ratio_adapter_to_base": 0.977159968434246
+        },
+        "gates": {
+          "adapter_no_clipping": true,
+          "duration_ratio_0_70_to_1_40": true,
+          "adapter_silence_ratio_le_0_45": true,
+          "adapter_silence_increase_le_0_15": true,
+          "tempo_ratio_0_70_to_1_40": true,
+          "median_pitch_ratio_0_75_to_1_333": true,
+          "adapter_endpoint_amplitude_le_0_02": true,
+          "adapter_boundary_jump_le_0_25": true
+        },
+        "status": "pass"
+      },
+      "mastered": {
+        "base": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\tension_base.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 8.96,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.18232662192393737,
+          "tempo_characters_per_voiced_second": 7.09766464725425,
+          "peak": 0.6473388671875,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.0001220703125,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.01470947265625,
+          "pitch_hz": {
+            "median": 106.9078461768407,
+            "p10": 94.15009174761009,
+            "p90": 146.04042164047092,
+            "p10_p90_range_semitones": 7.6,
+            "voiced_frames": 741
+          }
+        },
+        "adapter": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\tension_adapter.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 8.32,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.163855421686747,
+          "tempo_characters_per_voiced_second": 7.47478386167147,
+          "peak": 0.592315673828125,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.0001220703125,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.0052490234375,
+          "pitch_hz": {
+            "median": 104.4660675955349,
+            "p10": 93.06868571002408,
+            "p90": 132.38145865964958,
+            "p10_p90_range_semitones": 6.099999999999998,
+            "voiced_frames": 697
+          }
+        },
+        "comparison": {
+          "duration_ratio_adapter_to_base": 0.9285714285714285,
+          "silence_delta_adapter_minus_base": -0.01847120023719037,
+          "tempo_ratio_adapter_to_base": 1.0531328589274938,
+          "median_pitch_ratio_adapter_to_base": 0.977159968434246
+        },
+        "gates": {
+          "adapter_no_clipping": true,
+          "duration_ratio_0_70_to_1_40": true,
+          "adapter_silence_ratio_le_0_45": true,
+          "adapter_silence_increase_le_0_15": true,
+          "tempo_ratio_0_70_to_1_40": true,
+          "median_pitch_ratio_0_75_to_1_333": true,
+          "adapter_endpoint_amplitude_le_0_02": true,
+          "adapter_boundary_jump_le_0_25": true
+        },
+        "status": "pass"
+      }
+    },
+    "criticism": {
+      "text": "대책은 많아졌지만 현장의 부담을 개인에게 남겨 둔다면, 제도는 이름만 바뀐 채 같은 문제를 반복하게 됩니다. 실적보다 실제 대응 속도와 회복 과정을 따져봐야 합니다.",
+      "normalized_characters": 67,
+      "raw": {
+        "base": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\criticism_base.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 12.4,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.3247172859450727,
+          "tempo_characters_per_voiced_second": 8.001427689458248,
+          "peak": 0.3671875,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.000885009765625,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.000885009765625,
+          "pitch_hz": {
+            "median": 103.2661724693196,
+            "p10": 92.53264952447644,
+            "p90": 130.1072244361702,
+            "p10_p90_range_semitones": 5.900000000000003,
+            "voiced_frames": 915
+          }
+        },
+        "adapter": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\criticism_adapter.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 12.08,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.2860696517412935,
+          "tempo_characters_per_voiced_second": 7.768765719823707,
+          "peak": 0.53515625,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 6.103515625e-05,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.00042724609375,
+          "pitch_hz": {
+            "median": 104.4660675955349,
+            "p10": 94.15009174761009,
+            "p90": 127.65111353372734,
+            "p10_p90_range_semitones": 5.2700606036238655,
+            "voiced_frames": 934
+          }
+        },
+        "comparison": {
+          "duration_ratio_adapter_to_base": 0.9741935483870967,
+          "silence_delta_adapter_minus_base": -0.0386476342037792,
+          "tempo_ratio_adapter_to_base": 0.9709224430108804,
+          "median_pitch_ratio_adapter_to_base": 1.0116194403019225
+        },
+        "gates": {
+          "adapter_no_clipping": true,
+          "duration_ratio_0_70_to_1_40": true,
+          "adapter_silence_ratio_le_0_45": true,
+          "adapter_silence_increase_le_0_15": true,
+          "tempo_ratio_0_70_to_1_40": true,
+          "median_pitch_ratio_0_75_to_1_333": true,
+          "adapter_endpoint_amplitude_le_0_02": true,
+          "adapter_boundary_jump_le_0_25": true
+        },
+        "status": "pass"
+      },
+      "mastered": {
+        "base": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\criticism_base.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 12.4,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.2560581583198708,
+          "tempo_characters_per_voiced_second": 7.262968022135827,
+          "peak": 0.645477294921875,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.00152587890625,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.001556396484375,
+          "pitch_hz": {
+            "median": 103.2661724693196,
+            "p10": 92.53264952447644,
+            "p90": 130.1072244361702,
+            "p10_p90_range_semitones": 5.900000000000003,
+            "voiced_frames": 915
+          }
+        },
+        "adapter": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\criticism_adapter.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 12.08,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.23714759535655058,
+          "tempo_characters_per_voiced_second": 7.270551396487186,
+          "peak": 0.819366455078125,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.0001220703125,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.00067138671875,
+          "pitch_hz": {
+            "median": 104.4660675955349,
+            "p10": 94.15009174761009,
+            "p90": 127.65111353372734,
+            "p10_p90_range_semitones": 5.2700606036238655,
+            "voiced_frames": 934
+          }
+        },
+        "comparison": {
+          "duration_ratio_adapter_to_base": 0.9741935483870967,
+          "silence_delta_adapter_minus_base": -0.018910562963320193,
+          "tempo_ratio_adapter_to_base": 1.001044115068144,
+          "median_pitch_ratio_adapter_to_base": 1.0116194403019225
+        },
+        "gates": {
+          "adapter_no_clipping": true,
+          "duration_ratio_0_70_to_1_40": true,
+          "adapter_silence_ratio_le_0_45": true,
+          "adapter_silence_increase_le_0_15": true,
+          "tempo_ratio_0_70_to_1_40": true,
+          "median_pitch_ratio_0_75_to_1_333": true,
+          "adapter_endpoint_amplitude_le_0_02": true,
+          "adapter_boundary_jump_le_0_25": true
+        },
+        "status": "pass"
+      }
+    },
+    "solution_closing": {
+      "text": "해법은 교사의 권한과 책임을 분명히 하고, 사건 초기부터 법률과 심리 지원을 함께 연결하는 데 있습니다. 교권 보호는 누군가를 공격하는 일이 아니라, 교실의 신뢰를 다시 세우는 일입니다.",
+      "normalized_characters": 75,
+      "raw": {
+        "base": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\solution_closing_base.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 13.52,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.2644444444444444,
+          "tempo_characters_per_voiced_second": 7.541697205884983,
+          "peak": 0.404296875,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 6.103515625e-05,
+          "boundary_max_adjacent_jump_first_last_20ms": 6.103515625e-05,
+          "pitch_hz": {
+            "median": 108.15005551329962,
+            "p10": 95.24406311809196,
+            "p90": 134.69544579712476,
+            "p10_p90_range_semitones": 6.000000000000002,
+            "voiced_frames": 1092
+          }
+        },
+        "adapter": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\raw\\solution_closing_adapter.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 14.0,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.3190271816881259,
+          "tempo_characters_per_voiced_second": 7.86689675870348,
+          "peak": 0.5078125,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 6.103515625e-05,
+          "boundary_max_adjacent_jump_first_last_20ms": 9.1552734375e-05,
+          "pitch_hz": {
+            "median": 106.29210229228326,
+            "p10": 91.99970068017603,
+            "p90": 128.31651338078038,
+            "p10_p90_range_semitones": 5.76006928794151,
+            "voiced_frames": 995
+          }
+        },
+        "comparison": {
+          "duration_ratio_adapter_to_base": 1.0355029585798816,
+          "silence_delta_adapter_minus_base": 0.054582737243681456,
+          "tempo_ratio_adapter_to_base": 1.043120208083233,
+          "median_pitch_ratio_adapter_to_base": 0.9828205985452511
+        },
+        "gates": {
+          "adapter_no_clipping": true,
+          "duration_ratio_0_70_to_1_40": true,
+          "adapter_silence_ratio_le_0_45": true,
+          "adapter_silence_increase_le_0_15": true,
+          "tempo_ratio_0_70_to_1_40": true,
+          "median_pitch_ratio_0_75_to_1_333": true,
+          "adapter_endpoint_amplitude_le_0_02": true,
+          "adapter_boundary_jump_le_0_25": true
+        },
+        "status": "pass"
+      },
+      "mastered": {
+        "base": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\solution_closing_base.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 13.52,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.23407407407407407,
+          "tempo_characters_per_voiced_second": 7.242655053620685,
+          "peak": 0.62615966796875,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.0001220703125,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.0001220703125,
+          "pitch_hz": {
+            "median": 108.15005551329962,
+            "p10": 95.24406311809196,
+            "p90": 134.69544579712476,
+            "p10_p90_range_semitones": 6.000000000000002,
+            "voiced_frames": 1088
+          }
+        },
+        "adapter": {
+          "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\role_suite\\mastered\\solution_closing_adapter.wav",
+          "sample_rate": 24000,
+          "duration_seconds": 14.0,
+          "silence_ratio_rms_below_minus_40_dbfs": 0.2632331902718169,
+          "tempo_characters_per_voiced_second": 7.27115117891817,
+          "peak": 0.852508544921875,
+          "clipped_sample_ratio": 0.0,
+          "endpoint_max_abs_amplitude": 0.0001220703125,
+          "boundary_max_adjacent_jump_first_last_20ms": 0.000152587890625,
+          "pitch_hz": {
+            "median": 106.29210229228326,
+            "p10": 91.99970068017603,
+            "p90": 128.31651338078038,
+            "p10_p90_range_semitones": 5.76006928794151,
+            "voiced_frames": 995
+          }
+        },
+        "comparison": {
+          "duration_ratio_adapter_to_base": 1.0355029585798816,
+          "silence_delta_adapter_minus_base": 0.029159116197742835,
+          "tempo_ratio_adapter_to_base": 1.003934486053321,
+          "median_pitch_ratio_adapter_to_base": 0.9828205985452511
+        },
+        "gates": {
+          "adapter_no_clipping": true,
+          "duration_ratio_0_70_to_1_40": true,
+          "adapter_silence_ratio_le_0_45": true,
+          "adapter_silence_increase_le_0_15": true,
+          "tempo_ratio_0_70_to_1_40": true,
+          "median_pitch_ratio_0_75_to_1_333": true,
+          "adapter_endpoint_amplitude_le_0_02": true,
+          "adapter_boundary_jump_le_0_25": true
+        },
+        "status": "pass"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+file 'C:/Users/User/Desktop/app/youtube/03-script-voice/voice-clone/profiles/owner-voice-v1/provenance/owner-core-01.wav'
+file 'C:/Users/User/Desktop/app/youtube/03-script-voice/voice-clone/profiles/owner-voice-v1/provenance/owner-core-02.wav'
+file 'C:/Users/User/Desktop/app/youtube/03-script-voice/voice-clone/profiles/owner-voice-v1/provenance/owner-core-03.wav'
+file 'C:/Users/User/Desktop/app/youtube/03-script-voice/voice-clone/profiles/owner-voice-v1/provenance/owner-core-04.wav'
+file 'C:/Users/User/Desktop/app/youtube/03-script-voice/voice-clone/profiles/owner-voice-v1/provenance/owner-core-05.wav'
+file 'C:/Users/User/Desktop/app/youtube/03-script-voice/voice-clone/profiles/owner-voice-v1/provenance/owner-core-06.wav'

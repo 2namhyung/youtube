@@ -1,0 +1,56 @@
+{
+  "base": {
+    "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\comparison\\base.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 3.52,
+    "peak": 0.458984375,
+    "clipped_sample_ratio": 0.0,
+    "silence_ratio_rms_below_minus_40_dbfs": 0.2914285714285714,
+    "voiced_seconds_estimate": 2.4941714285714287,
+    "tempo_characters_per_voiced_second": 8.419629765395895,
+    "boundary_endpoint_max_abs_amplitude": 6.103515625e-05,
+    "boundary_max_adjacent_jump_first_last_20ms": 9.1552734375e-05,
+    "pitch_hz": {
+      "median": 104.4660675955349,
+      "p10": 96.35074582360518,
+      "p90": 111.706013003833,
+      "voiced_frames": 285
+    }
+  },
+  "adapter": {
+    "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\outputs\\comparison\\adapter.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 3.36,
+    "peak": 0.40234375,
+    "clipped_sample_ratio": 0.0,
+    "silence_ratio_rms_below_minus_40_dbfs": 0.27844311377245506,
+    "voiced_seconds_estimate": 2.424431137724551,
+    "tempo_characters_per_voiced_second": 8.661825726141078,
+    "boundary_endpoint_max_abs_amplitude": 0.0001220703125,
+    "boundary_max_adjacent_jump_first_last_20ms": 0.07763671875,
+    "pitch_hz": {
+      "median": 105.07123336870623,
+      "p10": 98.034927194466,
+      "p90": 119.79265525743172,
+      "voiced_frames": 274
+    }
+  },
+  "comparison": {
+    "duration_ratio_adapter_to_base": 0.9545454545454545,
+    "silence_ratio_delta_adapter_minus_base": -0.012985457656116361,
+    "tempo_ratio_adapter_to_base": 1.028765630733621,
+    "median_pitch_ratio_adapter_to_base": 1.0057929410678534
+  },
+  "audio_gate": {
+    "duration_ratio_0_75_to_1_35": true,
+    "adapter_silence_ratio_le_0_45": true,
+    "adapter_silence_increase_le_0_15": true,
+    "tempo_ratio_0_75_to_1_35": true,
+    "median_pitch_ratio_0_75_to_1_333": true,
+    "adapter_no_clipping": true,
+    "adapter_endpoint_amplitude_le_0_02": true,
+    "adapter_boundary_jump_le_0_25": true
+  },
+  "asr_status": "pass",
+  "status": "pass"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-sequence-first-radio-edit-v1",
+  "type": "object",
+  "required": ["schema", "sequenceAuthority", "semanticUnits", "visualBlocks", "sourceAssets", "cuts"],
+  "properties": {
+    "schema": {"const": "newsroom-sequence-first-radio-edit-v1"},
+    "sequenceAuthority": {
+      "type": "object",
+      "required": ["source", "narrationAudioSha256", "semanticCutPlanSha256"],
+      "properties": {
+        "source": {"const": "locked-owner-narration"},
+        "narrationAudioSha256": {"type": "string", "minLength": 1},
+        "semanticCutPlanSha256": {"type": "string", "minLength": 1}
+      }
+    },
+    "semanticUnits": {"type": "array", "items": {"type": "object", "required": ["unitId", "narrationSpanId"]}},
+    "visualBlocks": {"type": "array", "items": {"type": "object", "required": ["blockId", "visualRole", "semanticUnitIds", "cutIds", "sourceAssetIds", "treatments"], "properties": {"evidenceOverlayRequirement": {"type": "object", "required": ["required", "status"]}}}},
+    "sourceAssets": {"type": "array", "items": {"type": "object", "required": ["assetId", "providerInputStatus", "editScope", "rightsEvidence", "privacyReview"]}},
+    "cuts": {"type": "array", "items": {"type": "object", "required": ["cutId", "order", "durationSeconds"]}}
+  }
+}

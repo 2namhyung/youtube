@@ -1,0 +1,98 @@
+{
+  "kind": "qwen3-tts-prosody-lora-pilot",
+  "status": "unsupported-experimental",
+  "source": {
+    "repository": "https://github.com/QwenLM/Qwen3-TTS.git",
+    "commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+    "model_id": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "model_revision": "5d83992436eae1d760afd27aff78a71d676296fc"
+  },
+  "training": {
+    "lora_rank": 4,
+    "lora_alpha": 8,
+    "target_modules": "talker.model.layers.<n>.self_attn.{q_proj,k_proj,v_proj,o_proj}",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_sequence_length": 256,
+    "watchdog": {"max_temperature_c": 74, "max_used_vram_mib": 7500, "min_free_vram_mib": 6000, "max_peak_reserved_mib": 7168},
+    "probe_optimizer_steps": 0,
+    "overfit_gate_steps": "8 (hard maximum 16)"
+  },
+  "commands": {
+    "install": "uv pip install --no-cache --no-deps --target .\\vendor --python C:\\Users\\User\\tools\\qwen3-tts-pilot\\.venv\\Scripts\\python.exe git+https://github.com/QwenLM/Qwen3-TTS.git@022e286b98fbec7e1e916cb940cdf532cd9f488e peft==0.20.0",
+    "build_subset": "C:\\Users\\User\\tools\\qwen3-tts-pilot\\.venv\\Scripts\\python.exe build_f4_subset.py",
+    "prepare": "C:\\Users\\User\\tools\\qwen3-tts-pilot\\.venv\\Scripts\\python.exe prepare_dataset.py --input-jsonl derived\\train_raw.jsonl --output-jsonl derived\\train_with_codes.jsonl --tokenizer-model C:\\Users\\User\\.cache\\huggingface\\hub\\models--Qwen--Qwen3-TTS-12Hz-0.6B-Base\\snapshots\\5d83992436eae1d760afd27aff78a71d676296fc\\speech_tokenizer --device cuda:0",
+    "probe": "C:\\Users\\User\\tools\\qwen3-tts-pilot\\.venv\\Scripts\\python.exe pilot.py --probe --train-jsonl derived\\train_with_codes.jsonl",
+    "gate": "C:\\Users\\User\\tools\\qwen3-tts-pilot\\.venv\\Scripts\\python.exe pilot.py --run-overfit-gate --train-jsonl derived\\train_with_codes.jsonl"
+  },
+  "metrics": ["loss", "grad_norm", "trainable_parameters", "gpu_temperature_c", "physical_vram_used_mib", "torch_peak_reserved_mib", "gate_passed"],
+  "artifacts": {
+    "report": "outputs/report.json",
+    "probe_report": "outputs/probe_report.json",
+    "experimental_adapter": null,
+    "production_adapter": null
+  },
+  "execution": {
+    "decision": "GO only for a bounded non-production research pilot; NO-GO for production or checkpoint export",
+    "probe": {
+      "status": "pass",
+      "optimizer_steps": 0,
+      "loss": 17.175945281982422,
+      "gradient_norm": 25.15419684229593,
+      "target_module_count": 112,
+      "trainable_parameters": 1146880,
+      "torch_peak_reserved_mib": 2392.0,
+      "gpu_temperature_c": 47
+    },
+    "overfit_gate": {
+      "status": "pass",
+      "micro_steps": 8,
+      "gradient_accumulation_steps": 8,
+      "optimizer_steps": 1,
+      "pre_update_eval_mean": 15.854255676269531,
+      "post_update_eval_mean": 15.852726936340332,
+      "torch_peak_reserved_mib": 2226.0,
+      "gpu_temperature_c": 48,
+      "adapter_saved": false
+    },
+    "input_hashes": {
+      "f4_source_manifest_sha256": "B6535555E3CC845CE8034F44F8268A7995F223686648B229A9CF3555C4305409",
+      "reference_audio_sha256": "31B3FDEE6E1417DAEE8DD863F479B01408A840CC21762C2927E2A3C97B4A4646",
+      "train_jsonl_sha256": "f7ad9b6bd3fc0bc7b6fc69f2c1e4421a97bf24ceca201da9f0eae8514216f2f8",
+      "model_config_sha256": "2e714c787c8edb98b05432685cddb634add2de4d4e645f653d68251ef72ba011",
+      "model_weights_sha256": "180b3b10eb1c9f1b4db7806d5475bae3071c0243c299d49926bab1da3b6946f6"
+    }
+  },
+  "perceptual_pilot": {
+    "decision": "PASS for isolated comparison; NO-GO for production integration",
+    "dataset": {
+      "audited_unique_train": 35,
+      "raw_original": 35,
+      "mild_relative_atempo": 17,
+      "total_train": 52,
+      "raw_fraction": 0.6730769230769231,
+      "protected_validation_rows": 2
+    },
+    "training": {
+      "rank": 4,
+      "optimizer_steps": 16,
+      "micro_steps": 128,
+      "baseline_validation_loss": 13.785775661468506,
+      "best_validation_loss": 13.676898956298828,
+      "adapter_saved": true,
+      "adapter_weights_sha256": "7a134a3dc43d087bfc147a6f7688f06b3cf8a39bbd60115b123185ce67c28fde"
+    },
+    "comparison": {
+      "base_wav": "outputs/comparison/base.wav",
+      "adapter_wav": "outputs/comparison/adapter.wav",
+      "adapter_small_cer": 0.0,
+      "adapter_medium_cer": 0.047619047619047616,
+      "quality_gate": "pass",
+      "merged_checkpoint_saved": false,
+      "production_integration": false
+    },
+    "report": "PERCEPTUAL_REPORT.md"
+  }
+}

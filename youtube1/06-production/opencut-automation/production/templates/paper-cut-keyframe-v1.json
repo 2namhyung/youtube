@@ -1,0 +1,63 @@
+{
+  "templateId": "paper-cut-keyframe-v1",
+  "format": "layered-paper-cutout-keyframe",
+  "visualPlanning": {
+    "schema": "paper-cut-keyframe-visual-planning-v1",
+    "cutDensity": {
+      "targetNonWhitespaceCharactersPerCut": 24,
+      "shortsFloorCharacters": 300,
+      "shortsMinCuts": 1,
+      "shortsTargetMinCuts": 1,
+      "shortsTargetMaxCuts": 40,
+      "shortsMaxCuts": 40
+    },
+    "cutDurationPolicy": {
+      "targetMinSeconds": 2,
+      "targetMaxSeconds": 3,
+      "exceptionMinSeconds": 1.5,
+      "exceptionMaxSeconds": 3.5,
+      "exceptionReasons": ["final-required-sentence", "required-sentence-boundary"]
+    },
+    "style": {
+      "useCase": "illustration-story",
+      "description": "layered fibrous paper-cut editorial animation with hand-torn edges, visible practical props, active blocking and cinematic depth",
+      "occupationalLegibility": "Show roles through wardrobe, environment, posture and story props without agency emblems, names, ranks or unit identifiers.",
+      "verifiedRoleFidelity": "Preserve the adult female teacher, male high-school student and police-officer father exactly when their bound narration requires them.",
+      "lighting": "soft directional studio light with distinct matte contact shadows between paper planes",
+      "color": "charcoal, warm kraft cream, muted teal, burgundy and cold cyan",
+      "materialTexture": "visible fibrous matte paper with torn or scissor-cut edges and no glossy or photoreal surface",
+      "faceTreatment": "smooth blank unprinted paper face area with no facial features",
+      "avoid": ["photorealism", "glossy 3D", "readable text", "logos", "watermarks", "real-person identity", "facial features", "frontal lineup", "portrait pose", "empty stage", "floating props"]
+    },
+    "continuity": {
+      "sameStoryWorld": true,
+      "preserveLocationsPropsWardrobe": true,
+      "firstGeneratedFrameIsStyleSeed": true
+    }
+  },
+  "animation": {
+    "schema": "paper-cut-keyframe-authority-v1",
+    "generator": "ffmpeg-deterministic-keyframes",
+    "fps": 24,
+    "durationPolicy": "visualPlanning.cutDurationPolicy",
+    "imageGenEveryCut": true,
+    "generativeVideoAllowed": false,
+    "requireStoryProp": true,
+    "requireActiveBlocking": true,
+    "requireDepthPlanes": ["foreground", "midground", "background"],
+    "allowedShotScales": ["extreme-close-up", "close-up", "medium", "two-shot", "wide", "overhead"],
+    "allowedCameraAngles": ["front-three-quarter", "side", "overhead", "low", "high", "public-pov"],
+    "allowedMoves": ["push-in", "pull-out", "pan-left", "pan-right", "tilt-down", "tilt-up", "locked-insert"],
+    "captionExclusionZone": { "top": 1320, "bottom": 1580 },
+    "actionZone": { "left": 100, "top": 480, "right": 980, "bottom": 1280 }
+  },
+  "output": { "width": 1080, "height": 1920, "fps": 24 },
+  "locked": {
+    "captions": { "color": "#FFFFFF", "background": "black", "safeArea": "preserve-caption-exclusion-zone" },
+    "imageGen": "one-composed-paper-cut-frame-per-cut-before-render",
+    "animation": "deterministic-keyframes-only-no-generative-video",
+    "transitions": "FFmpeg-purposeful-only",
+    "aiDisclosure": "required-on-output",
+    "release": "private-first-exact-file-stage07-gate"
+  }
+}

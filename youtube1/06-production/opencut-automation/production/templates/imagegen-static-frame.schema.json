@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "static-frame-v1",
+  "title": "ImageGen static visual frame prompt",
+  "type": "object",
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": { "properties": { "exact_text_policy": { "properties": { "mode": { "const": "none" } }, "required": ["mode"] } } },
+      "then": { "properties": { "exact_text_policy": { "properties": { "allowed": { "maxItems": 0 } } } } }
+    }
+  ],
+  "required": ["use_case", "asset_type", "continuity_group", "location_id", "wardrobe_ids", "prop_ids", "reference_ids", "scene", "subjects", "shot", "composition", "lighting", "references", "exact_text_policy", "avoid"],
+  "properties": {
+    "use_case": { "enum": ["photorealistic-natural", "product-mockup", "ui-mockup", "infographic-diagram", "scientific-educational", "ads-marketing", "productivity-visual", "logo-brand", "illustration-story", "stylized-concept", "historical-scene"] },
+    "asset_type": { "const": "static_frame" },
+    "continuity_group": { "type": "string", "minLength": 1 },
+    "location_id": { "type": "string", "minLength": 1 },
+    "wardrobe_ids": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "prop_ids": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "reference_ids": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "scene": { "type": "object", "required": ["backdrop"], "properties": { "backdrop": { "type": "string", "minLength": 1 }, "environment": { "type": "string" } }, "additionalProperties": true },
+    "subjects": { "type": "array", "items": { "type": "object", "required": ["id", "description", "invariants"], "properties": { "id": { "type": "string", "minLength": 1 }, "description": { "type": "string", "minLength": 1 }, "invariants": { "type": "array", "items": { "type": "string", "minLength": 1 } } }, "additionalProperties": true } },
+    "shot": { "type": "object", "required": ["type", "viewpoint", "camera_height"], "properties": { "type": { "type": "string", "minLength": 1 }, "viewpoint": { "type": "string", "minLength": 1 }, "camera_height": { "type": "string", "minLength": 1 } }, "additionalProperties": true },
+    "composition": { "type": "object", "required": ["aspect_ratio", "spatial_placement", "negative_space", "depth_layers"], "properties": { "aspect_ratio": { "const": "9:16" }, "spatial_placement": { "type": "string", "minLength": 1 }, "negative_space": { "type": "string", "minLength": 1 }, "depth_layers": { "type": "object" } }, "additionalProperties": true },
+    "lighting": { "type": "object", "required": ["description", "color", "material_texture"], "properties": { "description": { "type": "string", "minLength": 1 }, "color": { "type": "string", "minLength": 1 }, "material_texture": { "type": "string", "minLength": 1 } }, "additionalProperties": true },
+    "references": { "type": "array", "items": { "type": "object", "required": ["id", "role"], "properties": { "id": { "type": "string", "minLength": 1 }, "role": { "type": "string", "minLength": 1 }, "path": { "type": "string" } }, "additionalProperties": true } },
+    "exact_text_policy": { "type": "object", "required": ["mode", "allowed"], "properties": { "mode": { "enum": ["none", "exact"] }, "allowed": { "type": "array", "items": { "type": "string", "minLength": 1 } } }, "additionalProperties": true },
+    "avoid": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+  }
+}

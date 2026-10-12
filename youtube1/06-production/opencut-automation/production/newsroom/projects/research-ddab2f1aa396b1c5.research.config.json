@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-ddab2f1aa396b1c5",
+  "topic": "[밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 '최고급 아파트'",
+  "query": "[밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 '최고급 아파트'",
+  "keywords": [
+    "밀착카메라",
+    "헬멧",
+    "벗고",
+    "화물칸",
+    "타라",
+    "라이더",
+    "울리는",
+    "최고급",
+    "아파트",
+    "아파트가"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv",
+    "naver-news",
+    "daum-news",
+    "news1-society"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "JTBC 뉴스 사회",
+      "title": "[밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 '최고급 아파트'",
+      "url": "https://news.jtbc.co.kr/article/NB12311491"
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "밀착카메라",
+      "헬멧",
+      "벗고",
+      "화물칸",
+      "타라",
+      "라이더",
+      "울리는",
+      "최고급",
+      "아파트",
+      "아파트가"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "밀착카메라",
+        "terms": [
+          "밀착카메라"
+        ]
+      },
+      {
+        "name": "헬멧",
+        "terms": [
+          "헬멧"
+        ]
+      },
+      {
+        "name": "벗고",
+        "terms": [
+          "벗고"
+        ]
+      },
+      {
+        "name": "화물칸",
+        "terms": [
+          "화물칸"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "밀착카메라",
+      "헬멧",
+      "벗고",
+      "화물칸",
+      "타라",
+      "라이더",
+      "울리는",
+      "최고급",
+      "아파트",
+      "아파트가"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "밀착카메라",
+        "terms": [
+          "밀착카메라"
+        ]
+      },
+      {
+        "name": "헬멧",
+        "terms": [
+          "헬멧"
+        ]
+      },
+      {
+        "name": "벗고",
+        "terms": [
+          "벗고"
+        ]
+      },
+      {
+        "name": "화물칸",
+        "terms": [
+          "화물칸"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "contradictions": [],
+  "limit": 50,
+  "generatedFrom": "promoted-newsroom-candidate"
+}

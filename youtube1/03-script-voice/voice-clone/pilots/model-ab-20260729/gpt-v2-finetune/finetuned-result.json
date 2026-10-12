@@ -1,0 +1,333 @@
+{
+  "engine": "GPT-SoVITS V2 S1 fine-tuned candidate",
+  "version": "v2",
+  "tempo": 1.0,
+  "gate": {
+    "temperature_c": 39.0,
+    "vram_used_mb": 1194.0
+  },
+  "ref_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt_ref_trim.wav",
+  "ref_text": "교권보호국은 교권을 보호하는 가상의 기관입니다.",
+  "texts": {
+    "critical": "교권보호국은 제주에서 제조한 텀블러를 봤습니다. 상자를 받았습니다. 경고선을 밟았습니다. 안내판 위치를 바꿨습니다. 경찰은 건조물침입과 재물손괴 가능성을 기록하고 휴대전화 포렌식 자료를 확인했습니다.\n",
+    "heldout": "검찰은 건조물침입과 재물손괴 혐의를 따로 검토했고, 디지털 포렌식 결과도 함께 살폈습니다. 지난 6월 제주 한 학교에서 비슷한 신고가 접수됐습니다. 반복을 막으려면 어떤 보호 장치가 필요할까요?\n"
+  },
+  "checkpoint": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\training\\full\\weights\\model-ab-20260729-gpt-v2-full-e2.ckpt",
+  "outputs": {
+    "critical": {
+      "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\gpt_ft_critical.wav",
+      "sample_rate": 32000,
+      "duration_seconds": 13.22
+    },
+    "heldout": {
+      "path": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\pilots\\model-ab-20260729\\gpt-v2-finetune\\gpt_ft_heldout.wav",
+      "sample_rate": 32000,
+      "duration_seconds": 13.34
+    }
+  },
+  "status": "completed",
+  "gpu_events": [
+    {
+      "unix_time": 1785323229.544236,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1194.0
+    },
+    {
+      "unix_time": 1785323230.094236,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1194.0
+    },
+    {
+      "unix_time": 1785323230.6483493,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1194.0
+    },
+    {
+      "unix_time": 1785323231.199347,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1194.0
+    },
+    {
+      "unix_time": 1785323231.7433014,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1194.0
+    },
+    {
+      "unix_time": 1785323232.2993875,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1194.0
+    },
+    {
+      "unix_time": 1785323232.869759,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1194.0
+    },
+    {
+      "unix_time": 1785323233.484976,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1194.0
+    },
+    {
+      "unix_time": 1785323234.0399733,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323234.5959573,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323235.1509438,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323235.693932,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323236.2489314,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323236.8599312,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323237.4243822,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323237.9753835,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323238.5483973,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323239.194556,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323239.7516973,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323240.3216982,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323240.8778644,
+      "temperature_c": 39.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323241.4354672,
+      "temperature_c": 38.0,
+      "vram_used_mb": 1193.0
+    },
+    {
+      "unix_time": 1785323241.9904668,
+      "temperature_c": 38.0,
+      "vram_used_mb": 1214.0
+    },
+    {
+      "unix_time": 1785323242.5454664,
+      "temperature_c": 43.0,
+      "vram_used_mb": 2012.0
+    },
+    {
+      "unix_time": 1785323243.100388,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2152.0
+    },
+    {
+      "unix_time": 1785323243.6563895,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2246.0
+    },
+    {
+      "unix_time": 1785323244.211388,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2396.0
+    },
+    {
+      "unix_time": 1785323244.8113885,
+      "temperature_c": 45.0,
+      "vram_used_mb": 2396.0
+    },
+    {
+      "unix_time": 1785323245.3813882,
+      "temperature_c": 45.0,
+      "vram_used_mb": 2396.0
+    },
+    {
+      "unix_time": 1785323245.9373891,
+      "temperature_c": 45.0,
+      "vram_used_mb": 2396.0
+    },
+    {
+      "unix_time": 1785323246.492388,
+      "temperature_c": 45.0,
+      "vram_used_mb": 2396.0
+    },
+    {
+      "unix_time": 1785323247.0473893,
+      "temperature_c": 46.0,
+      "vram_used_mb": 2550.0
+    },
+    {
+      "unix_time": 1785323247.6023886,
+      "temperature_c": 46.0,
+      "vram_used_mb": 2550.0
+    },
+    {
+      "unix_time": 1785323248.4708183,
+      "temperature_c": 46.0,
+      "vram_used_mb": 2550.0
+    },
+    {
+      "unix_time": 1785323249.043922,
+      "temperature_c": 41.0,
+      "vram_used_mb": 2580.0
+    },
+    {
+      "unix_time": 1785323249.5990405,
+      "temperature_c": 42.0,
+      "vram_used_mb": 2580.0
+    },
+    {
+      "unix_time": 1785323250.1690404,
+      "temperature_c": 43.0,
+      "vram_used_mb": 2580.0
+    },
+    {
+      "unix_time": 1785323250.7243721,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2580.0
+    },
+    {
+      "unix_time": 1785323251.2795682,
+      "temperature_c": 43.0,
+      "vram_used_mb": 2580.0
+    },
+    {
+      "unix_time": 1785323251.8345683,
+      "temperature_c": 43.0,
+      "vram_used_mb": 2600.0
+    },
+    {
+      "unix_time": 1785323252.4045684,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2600.0
+    },
+    {
+      "unix_time": 1785323252.9744391,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2600.0
+    },
+    {
+      "unix_time": 1785323253.5443783,
+      "temperature_c": 43.0,
+      "vram_used_mb": 2600.0
+    },
+    {
+      "unix_time": 1785323254.0998836,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2600.0
+    },
+    {
+      "unix_time": 1785323254.6549504,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2600.0
+    },
+    {
+      "unix_time": 1785323255.2121177,
+      "temperature_c": 43.0,
+      "vram_used_mb": 2730.0
+    },
+    {
+      "unix_time": 1785323255.7735655,
+      "temperature_c": 43.0,
+      "vram_used_mb": 2730.0
+    },
+    {
+      "unix_time": 1785323256.330567,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2732.0
+    },
+    {
+      "unix_time": 1785323256.887758,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2746.0
+    },
+    {
+      "unix_time": 1785323257.4577582,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2746.0
+    },
+    {
+      "unix_time": 1785323258.0127585,
+      "temperature_c": 42.0,
+      "vram_used_mb": 2746.0
+    },
+    {
+      "unix_time": 1785323258.583775,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2746.0
+    },
+    {
+      "unix_time": 1785323259.1536696,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2748.0
+    },
+    {
+      "unix_time": 1785323259.724566,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2748.0
+    },
+    {
+      "unix_time": 1785323260.2795653,
+      "temperature_c": 43.0,
+      "vram_used_mb": 2764.0
+    },
+    {
+      "unix_time": 1785323260.8497744,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2764.0
+    },
+    {
+      "unix_time": 1785323261.4347749,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2764.0
+    },
+    {
+      "unix_time": 1785323261.990083,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2764.0
+    },
+    {
+      "unix_time": 1785323262.5600834,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2764.0
+    },
+    {
+      "unix_time": 1785323263.1150832,
+      "temperature_c": 44.0,
+      "vram_used_mb": 2764.0
+    }
+  ],
+  "peak_temperature_c": 46.0,
+  "peak_vram_used_mb": 2764.0
+}

@@ -1,0 +1,1165 @@
+{
+  "status": "admitted",
+  "seed": 20260730,
+  "source_manifest": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\dataset_manifest.json",
+  "source_manifest_sha256": "B6535555E3CC845CE8034F44F8268A7995F223686648B229A9CF3555C4305409",
+  "protected_validation": {
+    "row_audio_sha256": [
+      "7AA9E59583196D293C8F4767DEE7EF5F44535E5EE5CA0B2D592CB28BD66C152D",
+      "F92982CF3EBDAE11BF770A45952E9AED8DF86F712BB8817A6E6B3EFEE2AB13E0"
+    ],
+    "source_sha256": "180AC9954D84B3A7AC6ED5E4CFAAB0F53DF35F1E03CF64CFDB39FE6FBF2B7DE8",
+    "pcm_sha256": "47844B884948F67B3BEA8F88742F1C6C9A1073410F4B6FC3699C2A1FF06859EF",
+    "used_in_training": false,
+    "used_in_augmentation": false,
+    "used_as_reference": false
+  },
+  "counts": {
+    "audited_unique_train": 35,
+    "raw_original": 35,
+    "mild_augmented": 17,
+    "total_train": 52,
+    "raw_fraction": 0.6730769230769231,
+    "validation": 2
+  },
+  "policy": {
+    "third_party_waveform": false,
+    "third_party_embedding": false,
+    "absolute_pitch_target": false,
+    "fixed_pitch_fall": false,
+    "inserted_silence": false,
+    "augmentation": "relative ffmpeg atempo 0.97..1.03; pitch/formants retained"
+  },
+  "train_jsonl": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\train_raw.jsonl",
+  "train_jsonl_sha256": "35F0AF5C64D224048F952A0FBB895F67C3DE0FBBDCDB738CB874E5E038DC9498",
+  "validation_jsonl": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\validation_raw.jsonl",
+  "validation_jsonl_sha256": "75E118236B98710F4EB01C4496BBBA67AB5BE7FE97D7F7ECFE99229C1D72294C",
+  "clips": [
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s03_03.wav",
+      "source_sha256": "03A81F4A6B3870DC1CF72371596CAEB85F2B5C03A1B94DD4322EE49808639252",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_001.wav",
+      "output_sha256": "B92BBE453E858D67AF8ED69FD8F29911E48E690B5F0A3E5AA55A3C2BAAB48232",
+      "text_sha256": "1BCDCFD33E3DBDC55DEAA5BFF09D63B7BC7BF32A796D9D2B8034C8AD35876B5D",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 8.28,
+        "peak": 0.280609130859375,
+        "max_adjacent_jump": 0.107086181640625,
+        "edge_amplitude": 0.00048828125
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_songoeg_01_x1.wav",
+      "source_sha256": "053EFDAA8E323E14416A0084F94BFA6D3B537DA908678DD2801D075477C685B8",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_002.wav",
+      "output_sha256": "47819281965576E2BBD6D19F13BE1D729D1CB753A7819E9F029650F9A4D53F5C",
+      "text_sha256": "7EA19840368FAEB8997ED1A81E9819BA42B8B51BEDE69304B89467B74DE893C4",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.64,
+        "peak": 0.42486572265625,
+        "max_adjacent_jump": 0.135589599609375,
+        "edge_amplitude": 0.097686767578125
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s07_01.wav",
+      "source_sha256": "0BB47CC934943EFC7058A7640F0C62C239224EA4CA3EB10B25FCE2A4B0FF960C",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_003.wav",
+      "output_sha256": "9F405CE1361D8A45327FECC519C5A83E6D3C0F52660E04A72F07963F9E6A40A6",
+      "text_sha256": "9CD64E203B49F5781514FB86775E36E7C5EFD290A1C3EA34099F87AF9C49D5AD",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.46,
+        "peak": 0.425689697265625,
+        "max_adjacent_jump": 0.134063720703125,
+        "edge_amplitude": 0.00042724609375
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s03_02.wav",
+      "source_sha256": "1378E756FC27838FEE5DC9BF4C154C4531F1AB7A2461E33104DA39A867A7613C",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_004.wav",
+      "output_sha256": "85D8CE3B539A469A812C42ABF08C27F94D63B90E4402833FFCA9A1E39DC98A20",
+      "text_sha256": "16F2D2D4807D552889102F8CEFA7D693C76277E323E9872CF1AD3F932BB60340",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.84,
+        "peak": 0.336700439453125,
+        "max_adjacent_jump": 0.157684326171875,
+        "edge_amplitude": 0.055908203125
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s06_01.wav",
+      "source_sha256": "19DB00D883B0806E44F6443447D8A2447274426BEDA1FC5EE82479F53E2119AA",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_005.wav",
+      "output_sha256": "AB6B874B859BD6872FA78CC06F2218FE0CB28DF75DE5D06AEAF0E0069033B41C",
+      "text_sha256": "FC5BA965102F245F3FF0B6FE35579E62514155F565E0571123BFB9707B21283F",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 5.6,
+        "peak": 0.324066162109375,
+        "max_adjacent_jump": 0.098968505859375,
+        "edge_amplitude": 0.009246826171875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s04_02.wav",
+      "source_sha256": "1AB1322C106724FEFB860AE8E2BE33E2744DD98E22187BC7070D6DA5BBCD2B36",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_006.wav",
+      "output_sha256": "8AAEEF9B018B53FABF1D1A13556FAA747BAFBDD046D71CF44CA33666C7F202D2",
+      "text_sha256": "5A612A03D9CE2830EA11DF5401C5A281365E0B96A46E0C794A0BA7BE28534DE6",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.22,
+        "peak": 0.40374755859375,
+        "max_adjacent_jump": 0.110260009765625,
+        "edge_amplitude": 0.00372314453125
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_gyogwon_02_x1.wav",
+      "source_sha256": "1AE6B9BB2AE8B929CCDE7594CD89F8237F189396624868DB951260377C6A8A1B",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_007.wav",
+      "output_sha256": "8DF13644A0AAE4596261B0630630D805EAA0769166CA61A928B786D594913ECE",
+      "text_sha256": "CBE2CD0B606CFED365E2B59698B85F1C266AE89FFA7A19D1F6ECE7E4AA538996",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.66,
+        "peak": 0.344970703125,
+        "max_adjacent_jump": 0.110260009765625,
+        "edge_amplitude": 0.110565185546875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_songoeg_03_x1.wav",
+      "source_sha256": "1DAEBBEEB7BBB3BDD0D8489CD60F98189EB8CA49BAEA949F2E3F1FD4853C62E3",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_008.wav",
+      "output_sha256": "EB84BFBABABC0131D28964A3E2540956C0D23EA0A811B9937A74D8F73492683C",
+      "text_sha256": "6427D971342C502D10E8797188FA2EFA4E3371D2155AB2C67FEC0D11828E302D",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 4.38,
+        "peak": 0.422760009765625,
+        "max_adjacent_jump": 0.1507568359375,
+        "edge_amplitude": 0.022430419921875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_old_05.wav",
+      "source_sha256": "2105327BCF9197E916A521BB4B0FBB8E0610B3B37CABF1F3E60860F5CC50388E",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_009.wav",
+      "output_sha256": "355B8F5FF6763577D4FAF7D319EED113B2CB241423615252E8EC39B9AA600873",
+      "text_sha256": "9A71C5C571D8C715BCF0DDF964591366056482267D1C1897EC5EF82A0AA9436A",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.5,
+        "peak": 0.332366943359375,
+        "max_adjacent_jump": 0.098114013671875,
+        "edge_amplitude": 0.00128173828125
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_old_01.wav",
+      "source_sha256": "23C79CB02713452740CBDE705BE5D05D27A93EB6B53A220B3C0AA219217663DF",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_010.wav",
+      "output_sha256": "20FD551E53127460EB2EC3F1C8AE2CA34EEE0AD262710CF73FD456B9A6009C2B",
+      "text_sha256": "B394BD2D533C4A821B44CE04E3D911DA07E1E7CE4F2E5EDBE86F24A4865FF788",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 5.96,
+        "peak": 0.51904296875,
+        "max_adjacent_jump": 0.1461181640625,
+        "edge_amplitude": 0.001922607421875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s06_04.wav",
+      "source_sha256": "48DA8452273203D1AA7E2742FD5AE404F9FBB6006AA638ADB4709F1DCD985D50",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_011.wav",
+      "output_sha256": "6AAFA857DD88940354628F07BAFBF139FD309048B47C03735A9E1A4C1ABF4A26",
+      "text_sha256": "BEA13484700E3449DB07D7F6EB8A628C2EF25E8A3560936D0E09A4AAA19E2E6F",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 1.7,
+        "peak": 0.371856689453125,
+        "max_adjacent_jump": 0.138580322265625,
+        "edge_amplitude": 0.01416015625
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_gyogwon_03_x1.wav",
+      "source_sha256": "4CC7CADB9D2949D923178EDA60F5DB246F317B2739877BBBDF1A8E94FD1B7A2E",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_012.wav",
+      "output_sha256": "6880396D7F833891A302A14BC6B59F8BCFF23EDE61D68C83746B02AEFE08530C",
+      "text_sha256": "66320069F49977CD2927518F5BCB32A0FEAC6CEBE0B4845997A0997B30DD108C",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.26,
+        "peak": 0.39105224609375,
+        "max_adjacent_jump": 0.093719482421875,
+        "edge_amplitude": 0.014739990234375
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_songoeg_02_x1.wav",
+      "source_sha256": "589F7EF0D2CA29A653044EDA49E878BF529C39A806B7184EACBBFAEE20DDC0E7",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_013.wav",
+      "output_sha256": "9AB8DC5033608F31A4A4DBDAEA6FC2C5D0E3132163699325FEA8BDD165C7DEF1",
+      "text_sha256": "0705935B0C9065863B7A7E3AF5E204B937D817FED337E71A31416733F00AD5F3",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.86,
+        "peak": 0.448333740234375,
+        "max_adjacent_jump": 0.16387939453125,
+        "edge_amplitude": 0.02850341796875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_bwat_04_x1.wav",
+      "source_sha256": "5C4670E30803B8CE9CBF2070D81B109B5C8E4DB98967F8B90DE36973873D6483",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_014.wav",
+      "output_sha256": "50100C86FEBAD17ADF456DA54312510844D5E383DE4DCD0EDC6B75DBC1D1933B",
+      "text_sha256": "494EE66D2E5A15C7576F5FDD22F9E3244191375DFC0EDF635AF038163D496F24",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.6,
+        "peak": 0.580657958984375,
+        "max_adjacent_jump": 0.1951904296875,
+        "edge_amplitude": 0.03997802734375
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s03_04.wav",
+      "source_sha256": "600C2610F3A0085C2DF1CFA0301C59218290EEDFB98A18D4B198C28A0971F565",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_015.wav",
+      "output_sha256": "5114800359DA4DB14FA866C8CEE989D8BEDA884AC5ED853A3CF5CFA0D0598750",
+      "text_sha256": "41E55B49A34D7646463A048D756783F3C70309BDB3677691658AC7C8E1852CF3",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 10.36,
+        "peak": 0.33892822265625,
+        "max_adjacent_jump": 0.11285400390625,
+        "edge_amplitude": 0.004852294921875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_bwat_01_x1.wav",
+      "source_sha256": "6590917B9119BFB303379AF697FB247E83649828F6AD429F930EE814E9EDC378",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_016.wav",
+      "output_sha256": "3E1693A207B9D4E650233E87CC82278D8A305090523BA077C6C4306ED831FD8B",
+      "text_sha256": "D25C7A3C21B92FF40A873D878D736F7CE65BE4E4157B0148E0C485F62BC21A8D",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.62,
+        "peak": 0.47137451171875,
+        "max_adjacent_jump": 0.157470703125,
+        "edge_amplitude": 0.043243408203125
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s02_01.wav",
+      "source_sha256": "6631438BD40E88F7360AC61AF414C0CC76CDD9479AA3CA1F3F2EEB3657650450",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_017.wav",
+      "output_sha256": "5A11DAAF5E56634990D0C5C7155B564FD8E8B1D8B04A1158E3D8A3A7C52A9B2B",
+      "text_sha256": "E32CA2AFAAFC7933FBD03FEC107875302CCAD913485CFBF1B9EEB3CB793326AF",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.12,
+        "peak": 0.396575927734375,
+        "max_adjacent_jump": 0.12762451171875,
+        "edge_amplitude": 0.01739501953125
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s07_04.wav",
+      "source_sha256": "69ED82ADBC7D96B7974893C5193251C51B33C8F22DFCECE22997D47D2C917B33",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_018.wav",
+      "output_sha256": "C989B6EDF50BB613DA33CB11E9CF0E3FC9FFE5C6BBDA73385B9BC626D9AE8585",
+      "text_sha256": "B8CC02927E2876CCA53CC1BCCEE67717A8F875320BA594BD1F0EF423676FD70E",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 6.1,
+        "peak": 0.4564208984375,
+        "max_adjacent_jump": 0.12652587890625,
+        "edge_amplitude": 0.028717041015625
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_gyogwon_01_x1.wav",
+      "source_sha256": "793B79308E8A894E830B967B61DAFF8CA21AFF4980A053715EFA74AF9300D8B3",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_019.wav",
+      "output_sha256": "9D3B0FA82E7B5E1564F5FF7AAE995B64C8282110C7D472B430C995389D809E2F",
+      "text_sha256": "6FBAA7F68C595F7234C6704643CCDC6B7B610CA4BB12ED911381439945D34E26",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 4.0,
+        "peak": 0.51348876953125,
+        "max_adjacent_jump": 0.13006591796875,
+        "edge_amplitude": 0.0223388671875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_old_03.wav",
+      "source_sha256": "9A27E6E8D65101A559AFF978C18A32ADD035984DF5016ACE025142E28127F405",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_020.wav",
+      "output_sha256": "EF813824A6D969FABF38F5782847C489B85C934CABE825D7D7F803953B8EA3D0",
+      "text_sha256": "49CFAC902637282B2C7A3624BE6CC3495EEAF0E19512F2C1BF653CF65AD4ADE6",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 4.98,
+        "peak": 0.387725830078125,
+        "max_adjacent_jump": 0.1270751953125,
+        "edge_amplitude": 0.000274658203125
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s04_01.wav",
+      "source_sha256": "9DAF44A4569777FAB3964CDEF96629421B7471824041C40EDFBF6C820837874C",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_021.wav",
+      "output_sha256": "C09E79D0C6DC7B9FCCC24C9CA0BA73902CB80C4A9AB6A7D6355C710B0579AC93",
+      "text_sha256": "15C06FCFF5D54A4A7382C685AB2163A7B14188D8450A4B72E057ECE4DA541B25",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.76,
+        "peak": 0.298919677734375,
+        "max_adjacent_jump": 0.099853515625,
+        "edge_amplitude": 0.000518798828125
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s05_03.wav",
+      "source_sha256": "A073143313974681E027D9B6553D4AB03C54095AEE2480AE53D94AE2BA89B6F5",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_022.wav",
+      "output_sha256": "3E08532440B04DCB31D8C55E47682FD5C167A8CB04E0E17F16DD30D30D80EC40",
+      "text_sha256": "AD5E660823C747533A38F86FBDF07F1EE2A9536A426A82DAFDF76E31A9BFA485",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 8.32,
+        "peak": 0.327880859375,
+        "max_adjacent_jump": 0.107879638671875,
+        "edge_amplitude": 0.019561767578125
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s07_07.wav",
+      "source_sha256": "A9665735E16354226883EB262C82BA1F638DA558FD2A489B3EBB17D49C924FBB",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_023.wav",
+      "output_sha256": "893EBDD6D6F0BD8BE7CA2185249ADA269EE1E5BD111296A80BED26766EF62388",
+      "text_sha256": "66A319B76D92F99B10A4D8E921FB85B35F0A20DF789FD1CEF3F3BD20B1F14629",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 7.98,
+        "peak": 0.339599609375,
+        "max_adjacent_jump": 0.112396240234375,
+        "edge_amplitude": 0.018035888671875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_bwat_03_x1.wav",
+      "source_sha256": "B27ECD2646F17A90A2AD1996C63DECD1614F369B5667A90697FB2D8A6D444765",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_024.wav",
+      "output_sha256": "F7A832B8DD819F540924DE1E37CBF82D32D98474EA973E7638D01C1A4EB9510F",
+      "text_sha256": "D5239D5821A1EC0E56B4746F2C43994B5FEFE32646C47BB3BC4949514BC76F59",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.16,
+        "peak": 0.414459228515625,
+        "max_adjacent_jump": 0.136871337890625,
+        "edge_amplitude": 0.01019287109375
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s05_01.wav",
+      "source_sha256": "BEB6D9301D28B7F9F3ADE184FE97EBAF93FC87B43E9E9802D10A82926BBC52D3",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_025.wav",
+      "output_sha256": "1DA07B18C9A48D4B0DE53A27C832369C4D0AEB5A8D0229CEF32D614DB2CB2CDF",
+      "text_sha256": "E375DB8F91655D40593A9509D862B8DA8945EB26C3F0C7BC9F09F12395DF672F",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 4.04,
+        "peak": 0.293060302734375,
+        "max_adjacent_jump": 0.119903564453125,
+        "edge_amplitude": 0.00457763671875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s07_02.wav",
+      "source_sha256": "C0FA13D4DA4B2FECA62F44E1AFFB5B8CA1DB40F79E58EAD91210B8F7E89D608F",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_026.wav",
+      "output_sha256": "06343D9099E0ECC34B0DC2510B56C69C83A21D64F672E4BD342AC53733B2F495",
+      "text_sha256": "3C5931EA921CF00314F972D1B30FF36F4383537B7DD0DE164DDA09A735B37BA5",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.84,
+        "peak": 0.3507080078125,
+        "max_adjacent_jump": 0.131500244140625,
+        "edge_amplitude": 0.0025634765625
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s02_02.wav",
+      "source_sha256": "C7A80B3BD877FF03351A69EC075640FD0566B439462AEC99CB3A6A60735AFB3A",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_027.wav",
+      "output_sha256": "CF88C628FED3CE4C731D6B70A795503891A486DF7E3749DDAA9E29E8578951C3",
+      "text_sha256": "9F703F6F735C669E3BC4EF92760D49D7302A32F9B01770E5CB8A0317A7B87540",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 6.8,
+        "peak": 0.31805419921875,
+        "max_adjacent_jump": 0.093658447265625,
+        "edge_amplitude": 0.001556396484375
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_old_04.wav",
+      "source_sha256": "D7D5C51A28323978C1BD42C58D896FE124B2915CEF0280F38973D38F8E2297F4",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_028.wav",
+      "output_sha256": "E8D5831C0967BC025979803CD15CF5EDCB3ADA30A515DAADCFCB5C41997A6989",
+      "text_sha256": "8FE744473AE8FFC4434ED489F2F48B5476CE9C606AA89A8CB531C32B31CCF707",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 4.42,
+        "peak": 0.446380615234375,
+        "max_adjacent_jump": 0.139404296875,
+        "edge_amplitude": 0.002899169921875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s01_03.wav",
+      "source_sha256": "DA62095F94004DA5D614B5C1E9B63EFA4E74C4F3F698B847D1B892B84D8D8D34",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_029.wav",
+      "output_sha256": "740CAEE53CFD6C7929A8493BAB56423497F9FFD20CA1094FC39C66C0669DBC03",
+      "text_sha256": "E672135EE823CDBDB7B9E3EC5C48077BDA5E27F2739902F17DA466BB58A9642C",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 4.46,
+        "peak": 0.26348876953125,
+        "max_adjacent_jump": 0.101776123046875,
+        "edge_amplitude": 0.001220703125
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s04_03.wav",
+      "source_sha256": "E634D1B7C62795FE85C46A94EC84AE9E1D9580B3AA95F028547BB04A3D7C5B2C",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_030.wav",
+      "output_sha256": "24BB73979442101E7EA649D6C856E11CFC225EB44736211F89824CC363E6621F",
+      "text_sha256": "C12EB4BC3CA7FEF9225DA18BE2146C32429B08CE028236CB827F7CB5E5BDD8A3",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.9,
+        "peak": 0.376861572265625,
+        "max_adjacent_jump": 0.099517822265625,
+        "edge_amplitude": 0.02056884765625
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s07_03.wav",
+      "source_sha256": "EA2BA6BD489EEA0F54040D141B859B9FCF98A34DC8D0EAC0913A97B2850A765E",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_031.wav",
+      "output_sha256": "9140448A97F70FCB4470B297C13514F0290F877FF9856390DA166B7CA99FF139",
+      "text_sha256": "D66EEB6E455AC545C5AC528BEE176AD2E208C381496944F3CE519185ED3CAF6D",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 5.91,
+        "peak": 0.3348388671875,
+        "max_adjacent_jump": 0.14166259765625,
+        "edge_amplitude": 0.00140380859375
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s07_05.wav",
+      "source_sha256": "ED158322B14ECA14A9119F463C3A2490F0F412A4DB4BE9A70D4F059671B1EF95",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_032.wav",
+      "output_sha256": "6A0115246B525921EEADA184D8A179CAA37A25A4E4537C0FB87530F39736166B",
+      "text_sha256": "0A956150DE78D504BCB8F4AF0048FDA518F4A97B5541FBCEC02D23C9E236CB4B",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.22,
+        "peak": 0.306427001953125,
+        "max_adjacent_jump": 0.1226806640625,
+        "edge_amplitude": 0.03778076171875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s04_05.wav",
+      "source_sha256": "F2294C61E993FB3B6EB433F4B50EF37088EB825D54589FB0C8E31AD4D16705B9",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_033.wav",
+      "output_sha256": "0FBEB41149AFC00C787BC7A0B0BB1477C2FBA6F94E9E9A110029FDBFA50F3877",
+      "text_sha256": "B26E9A630E3CF809EA02B3A8FCB70B5BA9372420C75F6AED1A2506812D488493",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.2,
+        "peak": 0.384552001953125,
+        "max_adjacent_jump": 0.1400146484375,
+        "edge_amplitude": 0.000213623046875
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\base_s02_03.wav",
+      "source_sha256": "F24EC2A426E1A4A96E81A35EA294C1BC689818411FBEB842997B78A0E79695C2",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_034.wav",
+      "output_sha256": "6F65395994033B4E53333827046EFF0524C4158D4135D471F23AADBE79BF3C6C",
+      "text_sha256": "05C567F80A899F83C37664BAA2F6C10BE3A5E7646537DF7722872D9B2AFCCDE9",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 9.03,
+        "peak": 0.360626220703125,
+        "max_adjacent_jump": 0.124755859375,
+        "edge_amplitude": 0.020111083984375
+      }
+    },
+    {
+      "kind": "raw-original-resampled",
+      "seed": null,
+      "transform": {
+        "resample_hz": 24000,
+        "channels": 1
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\fish-dataset\\train\\F4\\target_bwat_02_x1.wav",
+      "source_sha256": "F9810325B7C4B1397DD2B654E701EB09D2185E65D2D3C901761EC4BF780C3AEC",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_035.wav",
+      "output_sha256": "22E2E9A796B72DB762065ED532A20C26EC23557FC351B9D42CA21838CF48179F",
+      "text_sha256": "5B3066F283EBF6740766624A1C5C049BD7FE4DD3BE41EA0586F304C2E441F94E",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.98,
+        "peak": 0.312408447265625,
+        "max_adjacent_jump": 0.12274169921875,
+        "edge_amplitude": 0.004150390625
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260731,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 0.9714870270849295,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_001.wav",
+      "source_sha256": "B92BBE453E858D67AF8ED69FD8F29911E48E690B5F0A3E5AA55A3C2BAAB48232",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_001.wav",
+      "output_sha256": "85A03F049DD64757F3FBE82372C0E4DCF73F526052B3A5ACCE020AF7C406B9EF",
+      "text_sha256": "1BCDCFD33E3DBDC55DEAA5BFF09D63B7BC7BF32A796D9D2B8034C8AD35876B5D",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 8.517583333333333,
+        "peak": 0.28045654296875,
+        "max_adjacent_jump": 0.106903076171875,
+        "edge_amplitude": 0.00048828125
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260732,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 0.988,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_003.wav",
+      "source_sha256": "9F405CE1361D8A45327FECC519C5A83E6D3C0F52660E04A72F07963F9E6A40A6",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_002.wav",
+      "output_sha256": "D639F5B5F83220D434967EE4C9368E666B6C7EF7BF70FFCE5EA0BE08B2646EC8",
+      "text_sha256": "9CD64E203B49F5781514FB86775E36E7C5EFD290A1C3EA34099F87AF9C49D5AD",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.4781666666666666,
+        "peak": 0.4256591796875,
+        "max_adjacent_jump": 0.13385009765625,
+        "edge_amplitude": 0.000396728515625
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260733,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 1.02006181892526,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_005.wav",
+      "source_sha256": "AB6B874B859BD6872FA78CC06F2218FE0CB28DF75DE5D06AEAF0E0069033B41C",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_003.wav",
+      "output_sha256": "21FFBAD0E9FADB06F4F6C14A85CAAA6554978308F42064BEAF4C2A0F7038727C",
+      "text_sha256": "FC5BA965102F245F3FF0B6FE35579E62514155F565E0571123BFB9707B21283F",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 5.490666666666667,
+        "peak": 0.323883056640625,
+        "max_adjacent_jump": 0.098785400390625,
+        "edge_amplitude": 0.009246826171875
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260734,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 1.0194049851582931,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_007.wav",
+      "source_sha256": "8DF13644A0AAE4596261B0630630D805EAA0769166CA61A928B786D594913ECE",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_004.wav",
+      "output_sha256": "C05C273CD6F076489C2D2EAD3627E2F81D3E8C448BC4992D7872D7962E94830D",
+      "text_sha256": "CBE2CD0B606CFED365E2B59698B85F1C266AE89FFA7A19D1F6ECE7E4AA538996",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.58575,
+        "peak": 0.344512939453125,
+        "max_adjacent_jump": 0.110076904296875,
+        "edge_amplitude": 0.110565185546875
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260735,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 1.012,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_009.wav",
+      "source_sha256": "355B8F5FF6763577D4FAF7D319EED113B2CB241423615252E8EC39B9AA600873",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_005.wav",
+      "output_sha256": "A566BA4BA522ADB03350F686CA8A1BB5807920B0918A5E0532DBF35FA1D45EED",
+      "text_sha256": "9A71C5C571D8C715BCF0DDF964591366056482267D1C1897EC5EF82A0AA9436A",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.4775833333333335,
+        "peak": 0.33184814453125,
+        "max_adjacent_jump": 0.098052978515625,
+        "edge_amplitude": 0.00128173828125
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260736,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 1.0114823239339406,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_011.wav",
+      "source_sha256": "6AAFA857DD88940354628F07BAFBF139FD309048B47C03735A9E1A4C1ABF4A26",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_006.wav",
+      "output_sha256": "9F1730CD518DF4222B32DA313A4CBBBFA480F3BF5261CCB508A6B0F3BBF14A3D",
+      "text_sha256": "BEA13484700E3449DB07D7F6EB8A628C2EF25E8A3560936D0E09A4AAA19E2E6F",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 1.6853333333333333,
+        "peak": 0.371826171875,
+        "max_adjacent_jump": 0.13836669921875,
+        "edge_amplitude": 0.01416015625
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260737,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 1.019005405837744,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_013.wav",
+      "source_sha256": "9AB8DC5033608F31A4A4DBDAEA6FC2C5D0E3132163699325FEA8BDD165C7DEF1",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_007.wav",
+      "output_sha256": "0A1A1925266046677BA6F168D6BDD7126672433A179210E2D21663B8D14D3732",
+      "text_sha256": "0705935B0C9065863B7A7E3AF5E204B937D817FED337E71A31416733F00AD5F3",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.794875,
+        "peak": 0.44769287109375,
+        "max_adjacent_jump": 0.163604736328125,
+        "edge_amplitude": 0.02850341796875
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260738,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 0.9838416991578586,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_015.wav",
+      "source_sha256": "5114800359DA4DB14FA866C8CEE989D8BEDA884AC5ED853A3CF5CFA0D0598750",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_008.wav",
+      "output_sha256": "FB020B9F1D5F1447F3B7C3527ED55CC517A9037DFF517631925EFBF89656F638",
+      "text_sha256": "41E55B49A34D7646463A048D756783F3C70309BDB3677691658AC7C8E1852CF3",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 10.524125,
+        "peak": 0.3388671875,
+        "max_adjacent_jump": 0.11285400390625,
+        "edge_amplitude": 0.004852294921875
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260739,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 1.0190255884696842,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_017.wav",
+      "source_sha256": "5A11DAAF5E56634990D0C5C7155B564FD8E8B1D8B04A1158E3D8A3A7C52A9B2B",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_009.wav",
+      "output_sha256": "6710C5E42B604B4A4A2B110CEDACAD44E51A93B35EE83D48F8E276D19CDF9261",
+      "text_sha256": "E32CA2AFAAFC7933FBD03FEC107875302CCAD913485CFBF1B9EEB3CB793326AF",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.06225,
+        "peak": 0.395965576171875,
+        "max_adjacent_jump": 0.127593994140625,
+        "edge_amplitude": 0.01739501953125
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260740,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 0.9826953969184178,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_019.wav",
+      "source_sha256": "9D3B0FA82E7B5E1564F5FF7AAE995B64C8282110C7D472B430C995389D809E2F",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_010.wav",
+      "output_sha256": "7C798DAB05A9F15A7D3E83E4650020661D0A0B3C5F491F21D2EB6BAD0FD4B67B",
+      "text_sha256": "6FBAA7F68C595F7234C6704643CCDC6B7B610CA4BB12ED911381439945D34E26",
+      "role": "target-remediation",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 4.060208333333334,
+        "peak": 0.51300048828125,
+        "max_adjacent_jump": 0.1298828125,
+        "edge_amplitude": 0.0223388671875
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260741,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 0.9752740452019342,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_021.wav",
+      "source_sha256": "C09E79D0C6DC7B9FCCC24C9CA0BA73902CB80C4A9AB6A7D6355C710B0579AC93",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_011.wav",
+      "output_sha256": "B61381BED22E8DB9887BF6753B1590E316192CB1BB6A76204CE783C081F0B9D4",
+      "text_sha256": "15C06FCFF5D54A4A7382C685AB2163A7B14188D8450A4B72E057ECE4DA541B25",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 2.818125,
+        "peak": 0.2987060546875,
+        "max_adjacent_jump": 0.09967041015625,
+        "edge_amplitude": 0.000518798828125
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260742,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 0.988,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_023.wav",
+      "source_sha256": "893EBDD6D6F0BD8BE7CA2185249ADA269EE1E5BD111296A80BED26766EF62388",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_012.wav",
+      "output_sha256": "8B5A567E4FDD5E2AE42F9A25BA794455E006FD7D5A3D4D361B42CA19CF3EFF97",
+      "text_sha256": "66A319B76D92F99B10A4D8E921FB85B35F0A20DF789FD1CEF3F3BD20B1F14629",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 8.0655,
+        "peak": 0.339141845703125,
+        "max_adjacent_jump": 0.1123046875,
+        "edge_amplitude": 0.018035888671875
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260743,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 1.024785706684823,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_025.wav",
+      "source_sha256": "1DA07B18C9A48D4B0DE53A27C832369C4D0AEB5A8D0229CEF32D614DB2CB2CDF",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_013.wav",
+      "output_sha256": "979F94464E2A4156E43CC20806E1DA02429FC1483A0AAF1F6D039794BBB22EE4",
+      "text_sha256": "E375DB8F91655D40593A9509D862B8DA8945EB26C3F0C7BC9F09F12395DF672F",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.9490416666666666,
+        "peak": 0.2926025390625,
+        "max_adjacent_jump": 0.119720458984375,
+        "edge_amplitude": 0.00457763671875
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260744,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 1.012,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_027.wav",
+      "source_sha256": "CF88C628FED3CE4C731D6B70A795503891A486DF7E3749DDAA9E29E8578951C3",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_014.wav",
+      "output_sha256": "6C3582E94DCC06DEDEAD628619C68B6687E81B59A0EF28F8A28540B8A3A23A82",
+      "text_sha256": "9F703F6F735C669E3BC4EF92760D49D7302A32F9B01770E5CB8A0317A7B87540",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 6.72475,
+        "peak": 0.3179931640625,
+        "max_adjacent_jump": 0.093597412109375,
+        "edge_amplitude": 0.001556396484375
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260745,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 1.019817104299793,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_029.wav",
+      "source_sha256": "740CAEE53CFD6C7929A8493BAB56423497F9FFD20CA1094FC39C66C0669DBC03",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_015.wav",
+      "output_sha256": "A72BB3FFC6C61DFCC1B52044F0E86B2DDCB12633DA8B96BD115ECA47748EA163",
+      "text_sha256": "E672135EE823CDBDB7B9E3EC5C48077BDA5E27F2739902F17DA466BB58A9642C",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 4.3805,
+        "peak": 0.26336669921875,
+        "max_adjacent_jump": 0.101715087890625,
+        "edge_amplitude": 0.001220703125
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260746,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 1.0227359652973806,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_031.wav",
+      "source_sha256": "9140448A97F70FCB4470B297C13514F0290F877FF9856390DA166B7CA99FF139",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_016.wav",
+      "output_sha256": "270B34DFC36CB9E5D181E4527E2E06D1462E26C2B0DCE978230E754DA50F49A3",
+      "text_sha256": "D66EEB6E455AC545C5AC528BEE176AD2E208C381496944F3CE519185ED3CAF6D",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 5.780125,
+        "peak": 0.33447265625,
+        "max_adjacent_jump": 0.14141845703125,
+        "edge_amplitude": 0.00140380859375
+      }
+    },
+    {
+      "kind": "mild-relative-tempo",
+      "seed": 20260747,
+      "transform": {
+        "engine": "ffmpeg-atempo",
+        "tempo_factor": 1.0150406796283122,
+        "pitch_shift_semitones": 0.0,
+        "inserted_silence_seconds": 0.0
+      },
+      "source_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\raw_24k\\raw_033.wav",
+      "source_sha256": "0FBEB41149AFC00C787BC7A0B0BB1477C2FBA6F94E9E9A110029FDBFA50F3877",
+      "output_audio": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\qwen-prosody-lora\\perceptual_data\\augmented_24k\\tempo_017.wav",
+      "output_sha256": "14DE196651F97B6A654885AE12FB60B9D4D84EB2E5ACCA1CE06ADEF57FDFDF5B",
+      "text_sha256": "B26E9A630E3CF809EA02B3A8FCB70B5BA9372420C75F6AED1A2506812D488493",
+      "role": "salvage-base",
+      "metrics": {
+        "sample_rate": 24000,
+        "duration_seconds": 3.1559583333333334,
+        "peak": 0.384368896484375,
+        "max_adjacent_jump": 0.139801025390625,
+        "edge_amplitude": 0.000213623046875
+      }
+    }
+  ]
+}

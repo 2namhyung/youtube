@@ -1,0 +1,381 @@
+{
+  "slug": "jeju-school-intrusion",
+  "topic": "제주 초등학교 교실 침입 사건",
+  "mode": "investigation",
+  "fetchedAt": "2026-07-26T15:13:25.997Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "queries": [
+      "제주 초등학교 교실 침입 텀블러",
+      "제주 초등학교 교실",
+      "제주 초등학교 교실 침입 텀블러 초등학교",
+      "제주 초등학교 교실 침입 텀블러 후속 영장"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "헤드라인제주",
+      "url": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=594552",
+      "title": "초등학교 교실 침입해 여교사 물품·의자에 체액·소변 테러",
+      "date": "2026-06-16T17:14:20+09:00",
+      "status": "verified",
+      "snippet": "제주도내 한 초등학교 교실에 고등학생이 잇따라 무단 침입해 여교사의 개인 물품과 의자에 체액과 소변을 남긴 사건이 발생해 충격을 주고 있다. 해당 학생은 2차 범행 이후 경찰에 붙잡혀 조사를 받고 있다.16일 제주교사노동조합에 따르면 서귀포시 한 초등학교에 근무하는 A교사가 자신이 겪은 피해 사실을 노조에 제보하면서 사건이 알려졌다.제보 내용에 따르면 사건은 지난 4월 28일과 6월 5일 두 차례에 걸쳐 발생했다.A교사는 지난 4월 28일 한 남성이 자신이 근무하는 초등학교 교실에 무단 침입해 개인 텀블러에 정액을 남겼다고 주장했다",
+      "fetchedAt": "2026-07-26T15:13:25.997Z"
+    },
+    {
+      "publisher": "경향신문",
+      "url": "https://www.khan.co.kr/article/202606161620001",
+      "title": "제주 초등학교 교실 무단 침입 체액·소변 남긴 10대 붙잡혀",
+      "date": "2026-06-16T16:20:00+09:00",
+      "status": "verified",
+      "snippet": "제주의 한 초등학교 교실에 무단 침입해 교사의 물품에 체액과 소변을 남기고 달아난 10대가 경찰에 붙잡혔다. 제주 서귀포경찰서는 건조물 침입 및 재물손괴 혐의로 고교생 A군(10대)을 입건해 조사 중이라고 16일 밝혔다. A군은 지난 4월27일 오후 서귀포시에 있는 한 초등학교 교실에 침입해 20대 여교사 B씨가 사용하던 텀블러에 자신의 체액을 담은 ...",
+      "fetchedAt": "2026-07-26T15:13:26.002Z"
+    },
+    {
+      "publisher": "나우뉴스",
+      "url": "https://nownews.seoul.co.kr/news/newsView.php?id=20260617601002",
+      "title": "“참교육 현실판?”…초등 여교사 텀블러에 체액 남긴 고교생 [핫이슈]",
+      "date": "2026-06-17T09:36:52+09:00",
+      "status": "verified",
+      "snippet": "제주의 한 고등학생이 초등학교 교실에 무단 침입해 여성 교사의 개인 물품에 체액과 소변을 남긴 사건이 알려지면서 공분이 커지고 있다. 피해 교사는 불안 증세와 외상후 스트레스 장애를 호소하고 있고, 교원단체는 철저한 수사와 학교 안전망 강화를 요구했다. 16일 제주교사노동조합에 따르면…",
+      "fetchedAt": "2026-07-26T15:13:26.002Z"
+    },
+    {
+      "publisher": "제주MBC",
+      "url": "https://jejumbc.com/NewsArticle/846079",
+      "title": "초등학교 여교사 자리에 정액·소변 테러",
+      "date": null,
+      "status": "verified",
+      "snippet": "◀ 앵 커 ▶최근 넷플릭스 '참교육' 흥행으로교권 보호에 대한 관심이 높은데요.제주에서 고등학교 남학생이 초등학교 교실에 몰래 들어가 정액과 소변을 남기는 엽기적인 사건이 발생했습니다.여교사 텀블러와 의자를 노렸는데, 피해 교사는 충격에 학교를 못 나오고 있습니다.남민주 기자입니다. ◀ 리포트 ▶제주의 유명 관...",
+      "fetchedAt": "2026-07-26T15:13:26.002Z"
+    }
+  ],
+  "followUps": [
+    {
+      "title": "제주 초등학교 교실 무단 침입 체액·소변 남긴 10대 붙잡혀",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1YYXc0dDE4aHU5YjJmZ0lOblhtWGV4bS1WSHpqWDVvZFB5b195TEMyWGN5WXBibDU4Wjg5YkhjbWFGbVUtcXc?oc=5",
+      "publisher": "v.daum.net",
+      "date": "2026-06-16T07:00:00.000Z",
+      "status": "candidate",
+      "score": 44,
+      "evidence": {
+        "everydayProximity": [
+          "학교",
+          "초등",
+          "교실",
+          "제주"
+        ],
+        "inexplicableBehavior": [
+          "침입",
+          "무단"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "교실",
+          "침입"
+        ]
+      }
+    },
+    {
+      "title": "초등학교 교실 침입해 여교사 물품·의자에 체액·소변 테러",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxeklIODhscTRIWmNsMEhteS1IU3poXzN6YTU1WnpvQmV0aGhIRFJQQmNieTJtbzlRMEhFQlJrNzFGR0t5VkpqR3VEM3p6SkZFUlBFZ0xBNzBVNG1FX0diZ21Qd18tdWprNm5VRFdnQUZHSU0?oc=5",
+      "publisher": "헤드라인제주",
+      "date": "2026-06-16T07:00:00.000Z",
+      "status": "candidate",
+      "score": 34,
+      "evidence": {
+        "everydayProximity": [
+          "학교",
+          "초등",
+          "교실",
+          "제주"
+        ],
+        "inexplicableBehavior": [
+          "침입"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "교실",
+          "침입"
+        ]
+      }
+    },
+    {
+      "title": "제주 초등학교 교실 연쇄 침입…체액·소변 테러",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GeXpER0N3RjkxWFpRUkRqQmFHWEFuOGV5NWFsd3lzVUx6WWI3bmNjb0U2bkdxUDFoT3FzeDJxdnowdU1nbWdXTjZGNzRMM29KcFg1OTNYdmYxZ0NGUkU3WFM3UjVHMzNtN1Fr?oc=5",
+      "publisher": "뉴스제주",
+      "date": "2026-06-16T07:00:00.000Z",
+      "status": "candidate",
+      "score": 34,
+      "evidence": {
+        "everydayProximity": [
+          "학교",
+          "초등",
+          "교실",
+          "제주"
+        ],
+        "inexplicableBehavior": [
+          "침입"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "교실",
+          "침입"
+        ]
+      }
+    },
+    {
+      "title": "초등학교 교실 침입해 체액 남긴 고교생, 또다시 소변 테러",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KeU9ORDJybUE3ZmtESDN1LVByQTBWM19yekdPNlg4THd6SjZsS0RaWG80WXR6dW1aQ19qMVM3TWh5VE5tbHBORVVNUWU5UnU3TkpTV1VhNzVsaUk?oc=5",
+      "publisher": "경기일보",
+      "date": "2026-06-16T07:00:00.000Z",
+      "status": "candidate",
+      "score": 33,
+      "evidence": {
+        "everydayProximity": [
+          "학교",
+          "초등",
+          "교실"
+        ],
+        "inexplicableBehavior": [
+          "침입"
+        ],
+        "sustainedVictimFear": [
+          "또다시"
+        ],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "교실",
+          "침입"
+        ]
+      }
+    },
+    {
+      "title": "초등학교 여교사 교실 침입한 고교생…텀블러에 체액·의자에 소변 테러",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE82bmFpNG81ZXZjeWtiSVNGMVVCZHI4S0NKTEljeG16MWRMaG1hVWcwWnR2UFFMRU1VSTFmUzlQa0plRmZlN2FmNlU3UlRkSjNEUjFHQlhtYnM5M0h1UzJ4OGlDc2ZVSzQ?oc=5",
+      "publisher": "연합뉴스TV",
+      "date": "2026-06-16T07:00:00.000Z",
+      "status": "candidate",
+      "score": 29,
+      "evidence": {
+        "everydayProximity": [
+          "학교",
+          "초등",
+          "교실"
+        ],
+        "inexplicableBehavior": [
+          "침입"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "교실",
+          "침입"
+        ]
+      }
+    },
+    {
+      "title": "초등학교 교실 잇단 침입…교사 물건에 ‘체액·소변 테러’",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FT1lXX1l3V2RMc3V3U2lDc1g1OTZmbjc4N0lXajlnYXdmNzdxVVdGV0p2bUcyeHFyUnpJM1huQ2xxT2dHLXZLakgxdGM1b05TX3FNY3FRQXkwXzg?oc=5",
+      "publisher": "KBS 뉴스",
+      "date": "2026-06-16T07:00:00.000Z",
+      "status": "candidate",
+      "score": 29,
+      "evidence": {
+        "everydayProximity": [
+          "학교",
+          "초등",
+          "교실"
+        ],
+        "inexplicableBehavior": [
+          "침입"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "교실",
+          "침입"
+        ]
+      }
+    },
+    {
+      "title": "초등학교 침입한 남고생…교실에 체액·소변 테러 '경악' [지금이뉴스]",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OMm1iQ3VQWUlxOExkSUJmZjVQRk1OYkNSVmp1VVVCNnAzMG84eHkyNXZKSUFpZ1RMNWN2TzJZQ0V1cEFmdlI0bkdVRHRzN1o5TExDbTJLY3BHendiWWc?oc=5",
+      "publisher": "YTN",
+      "date": "2026-06-16T07:00:00.000Z",
+      "status": "candidate",
+      "score": 29,
+      "evidence": {
+        "everydayProximity": [
+          "학교",
+          "초등",
+          "교실"
+        ],
+        "inexplicableBehavior": [
+          "침입"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "교실",
+          "침입"
+        ]
+      }
+    },
+    {
+      "title": "“여교사 텀블러에 체액, 의자엔 소변”… 초등학교 교실의 수상한 행위",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14R25tX21qRkJSSkFIZUlJMElqTVBKdHQwN29NT25aT3Z4MmZKUzYwVENRd3EySEVyOENYd29hRER3M1lvamY5S1RFMFJVa0pEYUNmSFJhc2tqTWVOYjVRT0ZYVmRPSF83Q1JwY0JfUjlYa2NiTGNTT3JVbw?oc=5",
+      "publisher": "서울신문",
+      "date": "2026-06-16T07:00:00.000Z",
+      "status": "candidate",
+      "score": 29,
+      "evidence": {
+        "everydayProximity": [
+          "학교",
+          "초등",
+          "교실"
+        ],
+        "inexplicableBehavior": [
+          "수상한"
+        ],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": [
+          "교실",
+          "문"
+        ]
+      }
+    }
+  ],
+  "laws": [
+    {
+      "title": "국가법령정보센터",
+      "url": "https://www.law.go.kr/LSW/lsSc.do?eventGubun=060101&query=%EB%B2%94%EC%A3%84%ED%94%BC%ED%95%B4%EC%9E%90%20%EB%B3%B4%ED%98%B8%EB%B2%95",
+      "publisher": "국가법령정보센터",
+      "date": null,
+      "status": "verified",
+      "snippet": "국가법령정보센터 본문 바로가기 이 누리집은 대한민국 공식 전자정부 누리집입니다. 법제처 국가법령정보센터 로고 로그인 회원가입 국가법령 만족도조사 English 화면 글씨크기확대 글씨크기확대초기화 글씨크기축소 법령검색 방법 상세내용 확인 검색어 입력 마우스 입력기 한글 1 2 3 4 5 6 7 8 9 0 Bksp ㅂ ㅈ ㄷ ㄱ ㅅ ㅛ ㅕ ㅑ ㅐ ㅔ Shift ㅁ ㄴ ㅇ ㄹ ㅎ ㅗ ㅓ ㅏ ㅣ ㅋ ㅌ ㅊ ㅍ ㅠ ㅜ ㅡ 띄어쓰기 검색 ! @ # $ % ^ & * ( ) Bksp ㅃ ㅉ ㄸ ㄲ ㅆ ㅛ ㅕ ㅑ ㅒ ㅖ Shift ㅁ ㄴ ㅇ ㄹ ㅎ ㅗ ㅓ ㅏ ㅣ ㅋ ㅌ ㅊ ㅍ ㅠ ㅜ ㅡ 띄어쓰기 검색 영문 1 2 3 4 5 6 7 8 9 0 Bksp q w e r t y u i o p Shift a s d f g h j k l z x c v b n m 띄어쓰기 검색 ! @ # $ % ^ & * ( ) Bksp Q W E R T Y U I O P Shift A S D F G H J K L Z X C V B N M 띄어쓰기 검색 검색기록 열기 내가 찾은 검색어 전체삭제 | 닫기 상세검색 분류검색 법령 (법률·대통령령·부령) 현행법령 연혁법령 근대법령 외국어번역 최신법령 조약 ",
+      "fetchedAt": "2026-07-26T15:13:28.828Z"
+    },
+    {
+      "title": "형사소송법",
+      "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%98%95%EC%82%AC%EC%86%8C%EC%86%A1%EB%B2%95",
+      "publisher": "국가법령정보센터",
+      "date": null,
+      "status": "verified",
+      "snippet": "형사소송법",
+      "fetchedAt": "2026-07-26T15:13:28.828Z"
+    },
+    {
+      "title": "형법",
+      "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%98%95%EB%B2%95",
+      "publisher": "국가법령정보센터",
+      "date": null,
+      "status": "verified",
+      "snippet": "형법",
+      "fetchedAt": "2026-07-26T15:13:28.828Z"
+    },
+    {
+      "title": "형법",
+      "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%98%95%EB%B2%95",
+      "publisher": "국가법령정보센터",
+      "date": null,
+      "status": "verified",
+      "snippet": "형법",
+      "fetchedAt": "2026-07-26T15:13:28.828Z"
+    },
+    {
+      "title": "소년법",
+      "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%85%84%EB%B2%95",
+      "publisher": "국가법령정보센터",
+      "date": null,
+      "status": "verified",
+      "snippet": "소년법",
+      "fetchedAt": "2026-07-26T15:13:28.828Z"
+    },
+    {
+      "title": "국가법령정보센터",
+      "url": "https://www.law.go.kr/LSW/admRulSc.do?menuId=5&query=%EB%B2%94%EC%A3%84%ED%94%BC%ED%95%B4%EC%9E%90%20%EB%B3%B4%ED%98%B8%EA%B7%9C%EC%B9%99",
+      "publisher": "국가법령정보센터",
+      "date": null,
+      "status": "verified",
+      "snippet": "국가법령정보센터 본문 바로가기 이 누리집은 대한민국 공식 전자정부 누리집입니다. 법제처 국가법령정보센터 로고 로그인 회원가입 국가법령 만족도조사 English 화면 글씨크기확대 글씨크기확대초기화 글씨크기축소 법령검색 방법 상세내용 확인 검색어 입력 마우스 입력기 한글 1 2 3 4 5 6 7 8 9 0 Bksp ㅂ ㅈ ㄷ ㄱ ㅅ ㅛ ㅕ ㅑ ㅐ ㅔ Shift ㅁ ㄴ ㅇ ㄹ ㅎ ㅗ ㅓ ㅏ ㅣ ㅋ ㅌ ㅊ ㅍ ㅠ ㅜ ㅡ 띄어쓰기 검색 ! @ # $ % ^ & * ( ) Bksp ㅃ ㅉ ㄸ ㄲ ㅆ ㅛ ㅕ ㅑ ㅒ ㅖ Shift ㅁ ㄴ ㅇ ㄹ ㅎ ㅗ ㅓ ㅏ ㅣ ㅋ ㅌ ㅊ ㅍ ㅠ ㅜ ㅡ 띄어쓰기 검색 영문 1 2 3 4 5 6 7 8 9 0 Bksp q w e r t y u i o p Shift a s d f g h j k l z x c v b n m 띄어쓰기 검색 ! @ # $ % ^ & * ( ) Bksp Q W E R T Y U I O P Shift A S D F G H J K L Z X C V B N M 띄어쓰기 검색 검색기록 열기 내가 찾은 검색어 전체삭제 | 닫기 상세검색 분류검색 법령 (법률·대통령령·부령) 행정규칙 (훈령·예규·고시) 현행행정규칙 연혁행정규칙",
+      "fetchedAt": "2026-07-26T15:13:28.828Z"
+    },
+    {
+      "title": "초ㆍ중등교육법",
+      "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B4%88%E3%86%8D%EC%A4%91%EB%93%B1%EA%B5%90%EC%9C%A1%EB%B2%95",
+      "publisher": "국가법령정보센터",
+      "date": null,
+      "status": "verified",
+      "snippet": "초ㆍ중등교육법",
+      "fetchedAt": "2026-07-26T15:13:28.828Z"
+    },
+    {
+      "title": "교원의 지위 향상 및 교육활동 보호를 위한 특별법",
+      "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%90%EC%9B%90%EC%9D%98%20%EC%A7%80%EC%9C%84%20%ED%96%A5%EC%83%81%20%EB%B0%8F%20%EA%B5%90%EC%9C%A1%ED%99%9C%EB%8F%99%20%EB%B3%B4%ED%98%B8%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%ED%8A%B9%EB%B3%84%EB%B2%95",
+      "publisher": "국가법령정보센터",
+      "date": null,
+      "status": "verified",
+      "snippet": "교원의 지위 향상 및 교육활동 보호를 위한 특별법",
+      "fetchedAt": "2026-07-26T15:13:28.828Z"
+    },
+    {
+      "title": "성폭력범죄의 처벌 등에 관한 특례법",
+      "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%84%B1%ED%8F%AD%EB%A0%A5%EB%B2%94%EC%A3%84%EC%9D%98%20%EC%B2%98%EB%B2%8C%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%ED%8A%B9%EB%A1%80%EB%B2%95",
+      "publisher": "국가법령정보센터",
+      "date": null,
+      "status": "verified",
+      "snippet": "성폭력범죄의 처벌 등에 관한 특례법",
+      "fetchedAt": "2026-07-26T15:13:28.828Z"
+    }
+  ],
+  "contradictions": [
+    {
+      "field": "firstIntrusionDate",
+      "values": [
+        "4월 27일",
+        "4월 28일"
+      ],
+      "status": "unresolved"
+    },
+    {
+      "field": "secondIntrusionDate",
+      "values": [
+        "6월 4일",
+        "6월 5일"
+      ],
+      "status": "unresolved"
+    },
+    {
+      "field": "intrusionReason",
+      "values": [
+        "간식을 찾으려 했다",
+        "화장실이 급했다"
+      ],
+      "status": "unresolved"
+    }
+  ],
+  "errors": [],
+  "counts": {
+    "sources": 4,
+    "followUps": 8,
+    "laws": 9,
+    "errors": 0
+  }
+}

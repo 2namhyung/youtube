@@ -1,0 +1,58 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "expected_revision": {
+      "exclusiveMinimum": 0,
+      "title": "Expected Revision",
+      "type": "integer"
+    },
+    "query": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Query",
+      "type": "string"
+    },
+    "candidate_id": {
+      "anyOf": [
+        {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Candidate Id"
+    },
+    "age_hours": {
+      "default": 72,
+      "enum": [
+        24,
+        72,
+        168
+      ],
+      "title": "Age Hours",
+      "type": "integer"
+    },
+    "region_code": {
+      "default": "KR",
+      "pattern": "^[A-Z]{2}$",
+      "title": "Region Code",
+      "type": "string"
+    },
+    "max_results": {
+      "default": 50,
+      "maximum": 50,
+      "minimum": 10,
+      "title": "Max Results",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "expected_revision",
+    "query"
+  ],
+  "title": "YouTubeDiscoveryRequest",
+  "type": "object"
+}

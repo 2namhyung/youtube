@@ -1,0 +1,130 @@
+{
+  "language": "ko",
+  "languageProbability": 1.0,
+  "durationSeconds": 6.48,
+  "generationSeconds": 1.707,
+  "transcript": "내용만 보면 작은 공 같지만 실제로는 공간은 전혀 관계가 없습니다 오히려 코알라와 더 가까운 친척이라고 하죠",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.56,
+      "text": "내용만 보면 작은 공 같지만 실제로는 공간은 전혀 관계가 없습니다",
+      "avgLogProbability": -0.263421,
+      "noSpeechProbability": 0.011131,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.4,
+          "text": "내용만",
+          "probability": 0.594727
+        },
+        {
+          "start": 0.4,
+          "end": 0.56,
+          "text": "보면",
+          "probability": 0.994141
+        },
+        {
+          "start": 0.56,
+          "end": 0.88,
+          "text": "작은",
+          "probability": 0.988281
+        },
+        {
+          "start": 0.88,
+          "end": 1.06,
+          "text": "공",
+          "probability": 0.932617
+        },
+        {
+          "start": 1.06,
+          "end": 1.42,
+          "text": "같지만",
+          "probability": 0.850586
+        },
+        {
+          "start": 1.42,
+          "end": 2.28,
+          "text": "실제로는",
+          "probability": 0.897949
+        },
+        {
+          "start": 2.28,
+          "end": 2.8,
+          "text": "공간은",
+          "probability": 0.89974
+        },
+        {
+          "start": 2.8,
+          "end": 3.04,
+          "text": "전혀",
+          "probability": 0.976562
+        },
+        {
+          "start": 3.04,
+          "end": 3.36,
+          "text": "관계가",
+          "probability": 0.991536
+        },
+        {
+          "start": 3.36,
+          "end": 3.56,
+          "text": "없습니다",
+          "probability": 0.992188
+        }
+      ]
+    },
+    {
+      "start": 3.56,
+      "end": 6.06,
+      "text": "오히려 코알라와 더 가까운 친척이라고 하죠",
+      "avgLogProbability": -0.263421,
+      "noSpeechProbability": 0.011131,
+      "words": [
+        {
+          "start": 3.56,
+          "end": 4.26,
+          "text": "오히려",
+          "probability": 0.773926
+        },
+        {
+          "start": 4.26,
+          "end": 4.86,
+          "text": "코알라와",
+          "probability": 0.786377
+        },
+        {
+          "start": 4.86,
+          "end": 5.02,
+          "text": "더",
+          "probability": 0.97998
+        },
+        {
+          "start": 5.02,
+          "end": 5.34,
+          "text": "가까운",
+          "probability": 0.899902
+        },
+        {
+          "start": 5.34,
+          "end": 5.76,
+          "text": "친척이라고",
+          "probability": 0.959717
+        },
+        {
+          "start": 5.76,
+          "end": 6.06,
+          "text": "하죠",
+          "probability": 0.886963
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceFile": "closing.wav",
+  "sourceSha256": "cd4a766014eea80e58eab5ce8cad6892367d555862806995d3786a0bfea25b3c",
+  "model": "small",
+  "device": "cuda",
+  "computeType": "float16",
+  "diagnosticOnly": true
+}

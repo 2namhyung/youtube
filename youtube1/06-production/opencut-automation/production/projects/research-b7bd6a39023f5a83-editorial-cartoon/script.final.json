@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-b7bd6a39023f5a83",
+  "sourceWorkflow": "http://localhost:3002/api/newsroom/projects/research-b7bd6a39023f5a83/workflow",
+  "status": "final",
+  "finalized": true,
+  "finalizedAt": "2026-08-06T14:16:46.921Z",
+  "generator": "stage03-korean-factual-v1",
+  "policyBinding": {
+    "eventDossierSha256": "b9bcfed8878a6eddfd0926226968e722581acb793059ea3d1df5b7a2e0596b1d",
+    "legalReportSha256": "e78f2a70ecffa31f250ce20ca2c0a4b62570dd1f85ae6890d3bf33a65b80206b",
+    "styleSha256": "f2b5b8e90e8438b113f81f0b25af99f283415af4a0d30e2c8e9ed70c5e633b5a",
+    "packageSha256": "b9d7ebe91ce5e2b44e98e378f6fc7b70bc49b64fb8a13ddbd062a7a072a086a6"
+  },
+  "draft": "보도에 따르면, 빵집 앞 흡연을 말리던 사장이 폭언과 물리적 위협을 겪은 사연이 알려졌습니다.\n보도에 따르면 빵집 사장 A씨는 매장 입구에서 담배를 피우던 사람들에게 다른 곳에서 피워 달라고 요청했고, 촬영 중 한 명이 A씨를 어깨로 밀쳤습니다.\n보도에 따르면 빵집 사장이 매장 앞 흡연자들을 제지하다가 폭언과 물리적 위협을 당한 사연이 알려졌습니다.\n비흡연자를 위한 요청이 욕설과 물리적 위협으로 번졌다는 점이 답답함을 키웁니다.\n사건을 전할 때는 보도된 사실과 당사자 주장을 구분하고, 익명 표기를 유지하겠습니다.\n보도에 언급된 내용만 다루며, 확인되지 않은 처분이나 책임을 단정하지 않습니다.\n기사·방송 원본 화면은 사용하지 않고, 모든 재연 화면에 AI 재연임을 표시합니다.",
+  "sections": {
+    "hook": "보도에 따르면, 빵집 앞 흡연을 말리던 사장이 폭언과 물리적 위협을 겪은 사연이 알려졌습니다.",
+    "incident": "보도에 따르면 빵집 사장 A씨는 매장 입구에서 담배를 피우던 사람들에게 다른 곳에서 피워 달라고 요청했고, 촬영 중 한 명이 A씨를 어깨로 밀쳤습니다.",
+    "timeline": "보도에 따르면 빵집 사장이 매장 앞 흡연자들을 제지하다가 폭언과 물리적 위협을 당한 사연이 알려졌습니다.",
+    "frustrating": "비흡연자를 위한 요청이 욕설과 물리적 위협으로 번졌다는 점이 답답함을 키웁니다.",
+    "solution": "사건을 전할 때는 보도된 사실과 당사자 주장을 구분하고, 익명 표기를 유지하겠습니다.",
+    "legal": "보도에 언급된 내용만 다루며, 확인되지 않은 처분이나 책임을 단정하지 않습니다.",
+    "confirmation": "기사·방송 원본 화면은 사용하지 않고, 모든 재연 화면에 AI 재연임을 표시합니다."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "vqazceu9xw-reference-reconstruction-v2",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Standalone local motion-structure study using code-drawn SVG assets.",
+  "renderer": "Remotion 4.0.508 (reused from generic-character-motion-test-v1)",
+  "scripts": {
+    "render": "node scripts/render.mjs",
+    "manifest": "node scripts/record-manifest.mjs"
+  }
+}

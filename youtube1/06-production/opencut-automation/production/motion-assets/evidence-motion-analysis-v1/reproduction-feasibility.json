@@ -1,0 +1,398 @@
+{
+  "schema_id": "reproduction-feasibility-v1",
+  "verdict_enum": [
+    "READY",
+    "ADAPT",
+    "BUILD",
+    "EXTERNAL_ASSET",
+    "DO_NOT_COPY"
+  ],
+  "references": [
+    "nyt-george-floyd",
+    "nyt-day-of-rage",
+    "nyt-rayshard-brooks",
+    "johnny-harris-taiwan",
+    "vox-western-weapons",
+    "wapo-backup-calls",
+    "wsj-hormuz-vertical",
+    "bbc-turkey-kurds",
+    "kurzgesagt-dyson"
+  ],
+  "rows": [
+    {
+      "grammar_id": "map-route-pan",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-04-map"
+      ],
+      "verdict": "ADAPT",
+      "gap": "Bind authority-bound Jeju geometry and route data.",
+      "work_estimate": "M",
+      "tools": "D3/topojson + SVG/FFmpeg",
+      "legal_style_copy_risk": "Illustrative source maps cannot be evidence.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    },
+    {
+      "grammar_id": "document-highlight",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-12-document"
+      ],
+      "verdict": "ADAPT",
+      "gap": "Add source crop/redaction and exact text coordinates.",
+      "work_estimate": "M",
+      "tools": "SVG masks + FFmpeg",
+      "legal_style_copy_risk": "Do not copy NYT/WaPo house treatment.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    },
+    {
+      "grammar_id": "sync-split-screen",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-12-document",
+        "effect-07-lower-third"
+      ],
+      "verdict": "ADAPT",
+      "gap": "Add deterministic frame sync and claim/source labels.",
+      "work_estimate": "M",
+      "tools": "HTML/CSS/Canvas + FFmpeg",
+      "legal_style_copy_risk": "Neutral functional equivalent only.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    },
+    {
+      "grammar_id": "investigation-timeline",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-13-timeline"
+      ],
+      "verdict": "ADAPT",
+      "gap": "Bind case-specific beats and evidence IDs.",
+      "work_estimate": "S",
+      "tools": "SVG/Motion Canvas",
+      "legal_style_copy_risk": "No unsupported causal arrows.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    },
+    {
+      "grammar_id": "network-relationship",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-14-network"
+      ],
+      "verdict": "ADAPT",
+      "gap": "Supply authority-bound relationship table and confidence.",
+      "work_estimate": "M",
+      "tools": "D3/SVG",
+      "legal_style_copy_risk": "Do not imply association from proximity.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    },
+    {
+      "grammar_id": "kinetic-korean-type",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-06-caption",
+        "effect-11-typography"
+      ],
+      "verdict": "READY",
+      "gap": "Local fonts and word-wipe source are available; compile adapter.",
+      "work_estimate": "S",
+      "tools": "HTML/CSS/GSAP/FFmpeg",
+      "legal_style_copy_risk": "Avoid branded headline imitation.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    },
+    {
+      "grammar_id": "editorial-transition",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-03-transition"
+      ],
+      "verdict": "READY",
+      "gap": "Generic wipe/flash primitives are localizable.",
+      "work_estimate": "S",
+      "tools": "FFmpeg or GSAP",
+      "legal_style_copy_risk": "Keep transitions subordinate to evidence.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    },
+    {
+      "grammar_id": "phone-provenance",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-08-icon",
+        "effect-05-audio"
+      ],
+      "verdict": "READY",
+      "gap": "Icons/SFX local; actual call/media evidence still needs admission.",
+      "work_estimate": "S",
+      "tools": "SVG + FFmpeg",
+      "legal_style_copy_risk": "Never fabricate call/audio content.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    },
+    {
+      "grammar_id": "lower-third-source-label",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-07-lower-third",
+        "effect-06-caption"
+      ],
+      "verdict": "ADAPT",
+      "gap": "Replace Barlow/BILD treatment and keep Korean safe margins.",
+      "work_estimate": "S",
+      "tools": "SVG/FFmpeg",
+      "legal_style_copy_risk": "Style-copy risk if house styling is cloned.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    },
+    {
+      "grammar_id": "generic-3d-camera",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-10-motion"
+      ],
+      "verdict": "BUILD",
+      "gap": "Examples expose grammar, not a ready documentary scene.",
+      "work_estimate": "L",
+      "tools": "Motion Canvas/GSAP",
+      "legal_style_copy_risk": "Do not reproduce distinctive illustration style.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    },
+    {
+      "grammar_id": "documentary-sfx",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-05-audio"
+      ],
+      "verdict": "READY",
+      "gap": "Local hash-bound files; teleprinter requires CC BY attribution.",
+      "work_estimate": "S",
+      "tools": "FFmpeg loudness/ducking",
+      "legal_style_copy_risk": "No manipulative stings under factual claims.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    },
+    {
+      "grammar_id": "branded-house-style",
+      "reference_ids": [
+        "nyt-george-floyd",
+        "nyt-day-of-rage",
+        "nyt-rayshard-brooks",
+        "johnny-harris-taiwan",
+        "vox-western-weapons",
+        "wapo-backup-calls",
+        "wsj-hormuz-vertical",
+        "bbc-turkey-kurds",
+        "kurzgesagt-dyson"
+      ],
+      "module_ids": [
+        "effect-07-lower-third"
+      ],
+      "verdict": "DO_NOT_COPY",
+      "gap": "Timing only; identity/avatar/channel branding is not project-owned.",
+      "work_estimate": "S",
+      "tools": "Rebuild neutral lower third",
+      "legal_style_copy_risk": "Trademark/identity/style imitation risk.",
+      "closest_functional_equivalent": "Use generic collected primitive with project-owned Korean data, evidence IDs and persistent source labels.",
+      "case_priority": [
+        "jeju",
+        "nurse",
+        "phone"
+      ]
+    }
+  ],
+  "coverage": {
+    "reference_visual_sample_coverage_percent": 67,
+    "sampled_reference_ids": [
+      "nyt-george-floyd",
+      "nyt-day-of-rage",
+      "johnny-harris-taiwan",
+      "vox-western-weapons",
+      "wsj-hormuz-vertical",
+      "bbc-turkey-kurds"
+    ],
+    "blocked_reference_ids": [
+      "nyt-rayshard-brooks",
+      "wapo-backup-calls",
+      "kurzgesagt-dyson"
+    ],
+    "module_category_coverage_percent": 100,
+    "note": "Six references have dense visual frame samples; three remain metadata-only after HTTP 403. Module coverage is complete."
+  },
+  "backlog": [
+    {
+      "priority": 1,
+      "build": "Retry visible/frame sampling for the three HTTP-403 URLs (Rayshard Brooks, WaPo backup calls, Kurzgesagt Dyson).",
+      "estimate": "S"
+    },
+    {
+      "priority": 2,
+      "build": "Compile local HyperFrames/D3 modules into frame-seek adapters.",
+      "estimate": "L"
+    },
+    {
+      "priority": 3,
+      "build": "Bind authority evidence schemas for Jeju map, nurse records and phone provenance.",
+      "estimate": "L"
+    }
+  ]
+}

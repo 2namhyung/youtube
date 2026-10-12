@@ -1,0 +1,116 @@
+{
+  "$defs": {
+    "Attestation": {
+      "additionalProperties": false,
+      "properties": {
+        "actor": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Actor",
+          "type": "string"
+        },
+        "model": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Model",
+          "type": "string"
+        },
+        "surface": {
+          "enum": [
+            "chrome-use",
+            "computer-use",
+            "manual",
+            "fixture",
+            "youtube-data-api"
+          ],
+          "title": "Surface",
+          "type": "string"
+        },
+        "receipt_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Receipt Ids",
+          "type": "array"
+        },
+        "notes": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Notes",
+          "type": "string"
+        }
+      },
+      "required": [
+        "actor",
+        "model",
+        "surface",
+        "receipt_ids",
+        "notes"
+      ],
+      "title": "Attestation",
+      "type": "object"
+    },
+    "BeatAudio": {
+      "additionalProperties": false,
+      "properties": {
+        "beat_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Beat Id",
+          "type": "string"
+        },
+        "blob_id": {
+          "pattern": "^[A-Za-z0-9_-]{1,100}$",
+          "title": "Blob Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "beat_id",
+        "blob_id"
+      ],
+      "title": "BeatAudio",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "profile": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Profile",
+      "type": "string"
+    },
+    "script_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,100}$",
+      "title": "Script Id",
+      "type": "string"
+    },
+    "segments": {
+      "items": {
+        "$ref": "#/$defs/BeatAudio"
+      },
+      "minItems": 1,
+      "title": "Segments",
+      "type": "array"
+    },
+    "pronunciation_checked": {
+      "const": true,
+      "title": "Pronunciation Checked",
+      "type": "boolean"
+    },
+    "attestation": {
+      "$ref": "#/$defs/Attestation"
+    }
+  },
+  "required": [
+    "profile",
+    "script_id",
+    "segments",
+    "pronunciation_checked",
+    "attestation"
+  ],
+  "title": "Voice",
+  "type": "object"
+}

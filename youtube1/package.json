@@ -1,0 +1,16 @@
+{
+  "name": "youtube-local-workspace",
+  "private": true,
+  "scripts": {
+    "dev:shopping": "powershell -NoProfile -File shopping-shorts/start.ps1",
+    "test:shopping": "shopping-shorts\\.venv\\Scripts\\python.exe -m pytest shopping-shorts/tests -q",
+    "dev": "powershell -NoProfile -File production-studio/start.ps1",
+    "start": "powershell -NoProfile -File production-studio/start.ps1",
+    "dev:newsroom": "npm --prefix 06-production/opencut-automation run dev:newsroom",
+    "dev:studio": "powershell -NoProfile -File production-studio/start.ps1 -Foreground -NoOpen",
+    "build:studio": "npm --prefix production-studio/web run build",
+    "test:studio": "shopping-shorts\\.venv\\Scripts\\python.exe -m pytest production-studio/tests -q",
+    "newsroom:imagegen-omni-i2v": "npm --prefix 06-production/opencut-automation run newsroom:imagegen-omni-i2v",
+    "test:newsroom-imagegen-omni-i2v": "npm --prefix 06-production/opencut-automation run test:newsroom-imagegen-omni-i2v"
+  }
+}

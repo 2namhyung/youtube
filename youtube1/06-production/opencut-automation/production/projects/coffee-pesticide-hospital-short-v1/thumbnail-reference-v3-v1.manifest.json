@@ -1,0 +1,42 @@
+{
+  "schema": "editorial-thumbnail-contract-v1",
+  "layoutId": "reference-v3-caption-free-headline-v1",
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "spokenCaptions": false,
+  "headline": {
+    "required": true,
+    "line1": "동료의 커피에",
+    "line2": "살충제를 넣었다"
+  },
+  "aiDisclosure": {
+    "required": true,
+    "text": "사건 내용 기반 AI 재구성"
+  },
+  "source": {
+    "image": "assets/images/scene01-ordinary-coffee.png",
+    "sha256": "91f1134b1c6abbac5d77d6954aec40135cce20f349ae991f9456b0ae26919601",
+    "role": "event-specific ImageGen scene; visual media only"
+  },
+  "tokens": {
+    "path": "../../templates/reference-v3.tokens.json",
+    "sha256": "002888fa89b88d6d4edc9a542fdc26cedf8e092ff7499620a4dd8e52b995cd39"
+  },
+  "renderer": {
+    "id": "deterministic-editorial-thumbnail",
+    "version": 1,
+    "script": "../../../scripts/generate-editorial-thumbnail.mjs",
+    "sha256": "3c5ccae71f12f1311b21eb51b07f6d41e6100668742e0dbfb20cae1e04044a20",
+    "config": "thumbnail.config.json",
+    "configSha256": "3ae412351ddf3552913c75e92025cd8d0ce73754f08afcde70a2c7a9707f1e72"
+  },
+  "output": {
+    "image": "assets/images/thumbnail-reference-v3-v1.png",
+    "sha256": "4cd04acc6c92f98338498741f460073ffb84f257a5759f3df9b27e97baa07dc9",
+    "bytes": 1209936,
+    "width": 1080,
+    "height": 1920
+  }
+}

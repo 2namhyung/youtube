@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-full-visual-storyline-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "storyId", "authorities", "format", "fullStoryline", "sequences", "cuts", "production", "approval"],
+  "properties": {
+    "schema": {"const": "newsroom-full-visual-storyline-v1"},
+    "storyId": {"type": "string", "minLength": 1},
+    "authorities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["newsSha256", "scriptSha256", "legalReviewSha256", "titleApprovalSha256", "titleSha256", "ownerNarrationApprovalSha256", "supersessionReconciliationSha256", "entryAuthoritySha256", "narrationAudioSha256", "narrationTimingSha256", "storylineSha256", "semanticCutPlanSha256"],
+      "properties": {
+        "newsSha256": {"$ref": "#/$defs/sha256"}, "scriptSha256": {"$ref": "#/$defs/sha256"}, "legalReviewSha256": {"$ref": "#/$defs/sha256"},
+        "titleApprovalSha256": {"$ref": "#/$defs/sha256"}, "titleSha256": {"$ref": "#/$defs/sha256"}, "ownerNarrationApprovalSha256": {"$ref": "#/$defs/sha256"},
+        "supersessionReconciliationSha256": {"$ref": "#/$defs/sha256"}, "entryAuthoritySha256": {"$ref": "#/$defs/sha256"}, "narrationAudioSha256": {"$ref": "#/$defs/sha256"},
+        "narrationTimingSha256": {"$ref": "#/$defs/sha256"}, "storylineSha256": {"$ref": "#/$defs/sha256"}, "semanticCutPlanSha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "format": {
+      "type": "object",
+      "required": ["aspectRatio", "fps", "targetDurationSeconds"],
+      "properties": {
+        "aspectRatio": {"const": "9:16"},
+        "fps": {"const": 24},
+        "targetDurationSeconds": {"type": "number", "minimum": 65, "maximum": 80}
+      }
+    },
+    "fullStoryline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["beginning", "development", "turn", "resolution", "endQuestion", "globalVisualPrompt", "cameraGrammar", "actionGrammar", "continuityRules", "prohibitedContent"],
+      "properties": {"beginning": {"type": "string"}, "development": {"type": "string"}, "turn": {"type": "string"}, "resolution": {"type": "string"}, "endQuestion": {"type": "string"}, "globalVisualPrompt": {"type": "string"}, "cameraGrammar": {"type": "string"}, "actionGrammar": {"type": "string"}, "continuityRules": {"type": "string"}, "prohibitedContent": {"type": "string"}}
+    },
+    "sequences": {"type": "array", "minItems": 1, "items": {"type": "object", "additionalProperties": false, "required": ["sequenceId", "order", "cutIds", "purpose", "promptFoundation", "cameraArc", "actionArc", "entryStateId", "exitStateId"], "properties": {"sequenceId": {"type": "string"}, "order": {"type": "integer", "minimum": 1}, "cutIds": {"type": "array", "minItems": 1, "items": {"type": "string"}}, "purpose": {"type": "string"}, "promptFoundation": {"type": "string"}, "cameraArc": {"type": "string"}, "actionArc": {"type": "string"}, "entryStateId": {"type": "string"}, "exitStateId": {"type": "string"}}}},
+    "cuts": {"type": "array", "minItems": 1, "items": {"type": "object", "additionalProperties": false, "required": ["cutId", "order", "sequenceId", "authoredDurationSeconds", "spanBindings", "transition", "entryStateId", "exitStateId", "visualPurpose", "promptFoundation", "cameraPlan", "actionPlan"], "properties": {"cutId": {"type": "string"}, "order": {"type": "integer", "minimum": 1}, "sequenceId": {"type": "string"}, "authoredDurationSeconds": {"type": "number", "minimum": 1.5, "maximum": 3.5}, "spanBindings": {"type": "array"}, "transition": {"enum": ["continue", "hard-cut-location-change", "hard-cut-time-jump", "hard-cut-subject-change"]}, "entryStateId": {"type": "string"}, "exitStateId": {"type": "string"}, "visualPurpose": {"type": "string"}, "promptFoundation": {"type": "string"}, "cameraPlan": {"type": "object", "required": ["framing", "angle", "movement", "composition"]}, "actionPlan": {"type": "object", "required": ["subject", "startState", "action", "endState", "screenDirection"]}}}},
+    "production": {
+      "type": "object",
+      "properties": {
+        "provider": {"const": false},
+        "render": {"const": false},
+        "upload": {"const": false},
+        "publication": {"const": false},
+        "stage07": {"const": false},
+        "continuationAuthorized": {"const": false}
+      },
+      "required": ["provider", "render", "upload", "publication", "stage07", "continuationAuthorized"]
+    },
+    "approval": {"type": "object", "additionalProperties": false, "required": ["approved", "status", "sha256"], "properties": {"approved": {"const": true}, "status": {"const": "admitted"}, "sha256": {"$ref": "#/$defs/sha256"}}}
+  },
+  "$defs": {"sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+}

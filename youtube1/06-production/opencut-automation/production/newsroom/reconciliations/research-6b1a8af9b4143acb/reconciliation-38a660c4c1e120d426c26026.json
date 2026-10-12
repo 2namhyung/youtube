@@ -1,0 +1,52 @@
+{
+  "schema": "newsroom-production-reconciliation-v1",
+  "slug": "research-6b1a8af9b4143acb",
+  "createdAt": "2026-08-11T03:45:11.990Z",
+  "creator": "newsroom-production-reconciliation-creator-v1",
+  "verifier": "newsroom-production-reconciliation-verifier-v1",
+  "workflow": {
+    "path": "production/newsroom/projects/research-6b1a8af9b4143acb.workflow.json",
+    "sha256": "9463f67cdabf67e1b63da736c8f09af402e01eedfa3302b2fd3a04436052411f",
+    "bytes": 43708,
+    "jobId": "production-258331f844b6cc8a1843d8ba0bdd6ccf79fa8627",
+    "authorityHash": "258331f844b6cc8a1843d8ba0bdd6ccf79fa86270a46a56b5d821059f0f6396d"
+  },
+  "registry": {
+    "path": "out/newsroom/project-registry.json",
+    "sha256": "64572c890e6565ce51d8ec59ace350825a830b13a2cf77d6152f105bb0f25bae",
+    "bytes": 391937,
+    "jobId": "production-9655276baacd2f0ea81698677495cb082adc98cb",
+    "authorityHash": null
+  },
+  "missingJobs": [
+    {
+      "jobId": "production-258331f844b6cc8a1843d8ba0bdd6ccf79fa8627",
+      "observedState": "missing-directory",
+      "observedAt": "2026-08-11T03:45:11.990Z"
+    },
+    {
+      "jobId": "production-9655276baacd2f0ea81698677495cb082adc98cb",
+      "observedState": "missing-directory",
+      "observedAt": "2026-08-11T03:45:11.990Z"
+    }
+  ],
+  "successorIntent": {
+    "preserveExistingJobs": true,
+    "createSeparateImmutableJob": true,
+    "supersedesArtifactSha256": "82d4c139a49e9a923438cad180bd2480de10400e219f916b0160e9c02ce407ee",
+    "selectedDraftId": "empathy",
+    "sectionsSha256": "a31aca4ddb7bf6a6a7869c45e8b502cd2486127940d15a45e41114fbefe89015",
+    "headline": {
+      "approved": true,
+      "line1": "경찰 아버지가",
+      "line2": "부순 휴대전화"
+    },
+    "ownerVoiceAuthority": {
+      "approved": true,
+      "profileId": "owner-voice-v1",
+      "profileSha256": "e1fbc1dc0d482cd9fa52b5fe63b545a30858b40602782cf9c9f7f2f2b5b08ff7"
+    },
+    "visualAuthorityId": "paper-cut-i2v-v1"
+  },
+  "artifactSha256": "38a660c4c1e120d426c26026413715d6e711926f4b7426ab5728f4f9b31ced56"
+}

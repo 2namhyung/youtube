@@ -1,0 +1,41 @@
+{
+  "use_case": "illustration-story",
+  "asset_type": "static_frame",
+  "continuity_group": "classroom-morning",
+  "location_id": "loc-classroom-01",
+  "wardrobe_ids": ["wardrobe-teacher-neutral"],
+  "prop_ids": ["prop-tumbler-clean"],
+  "reference_ids": ["ref-classroom-layout-v1"],
+  "scene": {
+    "backdrop": "an ordinary, fictional, non-identifiable classroom with a worn teacher desk",
+    "environment": "quiet following-morning interior"
+  },
+  "subjects": [
+    {
+      "id": "subject-teacher-01",
+      "description": "anonymous adult teacher approaching from behind",
+      "invariants": ["face outside frame", "same charcoal cardigan", "no visible identifying marks"]
+    }
+  ],
+  "shot": { "type": "medium-wide", "viewpoint": "from the classroom doorway", "camera_height": "eye-level" },
+  "composition": {
+    "aspect_ratio": "9:16",
+    "spatial_placement": "teacher in the right third; clean tumbler on the lower-left desk",
+    "negative_space": "uncluttered upper third for captions",
+    "depth_layers": { "foreground": "doorframe edge", "midground": "teacher and desk", "background": "empty classroom" }
+  },
+  "lighting": {
+    "description": "soft overcast daylight mixed with practical fluorescent light",
+    "color": "restrained neutral gray and faded wood palette",
+    "material_texture": "honest desk scratches and brushed stainless steel"
+  },
+  "references": [
+    { "id": "ref-classroom-layout-v1", "role": "layout", "path": "assets/references/classroom-layout-v1.png" }
+  ],
+  "exact_text_policy": { "mode": "none", "allowed": [] },
+  "avoid": [
+    "temporal motion, camera movement or motion blur",
+    "readable text, logos, minors, visible faces or extra hands",
+    "dramatic cinematic lighting, shallow depth of field or artificial bokeh"
+  ]
+}

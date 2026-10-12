@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-script-admission-rejection-v5",
+  "title": "Newsroom script admission rejection v5",
+  "description": "Non-authoritative envelope for a v19 attempt rejected by safety critic or deterministic duration/lineage gates.",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema", "decision", "reasons", "packageSha256", "generationSha256", "critiqueSha256", "attemptedAuthoritySha256", "timing"],
+  "properties": {
+    "schema": { "const": "newsroom-script-admission-rejection-v5" },
+    "decision": { "const": "reject" },
+    "reasons": { "$ref": "newsroom-script-admission-rejection-v4.schema.json#/properties/reasons" },
+    "packageSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "generationSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "critiqueSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "attemptedAuthoritySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "timing": { "$ref": "newsroom-independent-narration-critique-v7.schema.json#/properties/timing" }
+  }
+}

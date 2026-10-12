@@ -1,0 +1,41 @@
+{
+  "cacheSchema": 3,
+  "audioPolicy": "leading-trim-100ms-tail-pad-v1",
+  "alignmentPolicy": "word-dp-critical-exact-v2",
+  "synthesisPolicy": "canonical-syllables-punctuation-microsegment-v3",
+  "duration": 6.847346938775511,
+  "wavSha256": "3fc8338603a42d04c1e1e3f351df769d0e87b9487dec16425c32b60a88d09fb9",
+  "acceptance": {
+    "seed": 20270726,
+    "attempt": 1,
+    "leadingTrimSeconds": 0,
+    "validator": "cached-per-microsegment-exact-asr",
+    "microSegments": [
+      {
+        "originalText": "피해 교사 측이 요청한",
+        "synthesisText": "피해 교사 측이 요청한",
+        "variant": 1,
+        "seed": 20270726,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-small"
+      },
+      {
+        "originalText": "휴대전화와 컴퓨터",
+        "synthesisText": "휴대전화와 컴퓨터",
+        "variant": 1,
+        "seed": 20270743,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-small"
+      },
+      {
+        "originalText": "포렌식 영장은 기각됐고,",
+        "synthesisText": "포렌식, 영장은 기각됐고,",
+        "variant": 3,
+        "seed": 20270962,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-medium"
+      }
+    ],
+    "microSegmentPauseSeconds": 0.08
+  }
+}

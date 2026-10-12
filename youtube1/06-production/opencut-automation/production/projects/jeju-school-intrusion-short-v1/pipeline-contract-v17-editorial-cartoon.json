@@ -1,0 +1,280 @@
+{
+  "contractId": "jeju-school-intrusion-v17-editorial-cartoon",
+  "parentContract": "jeju-school-intrusion-v15-transition-only",
+  "version": 17,
+  "purpose": "Full 21-scene editorial-cartoon visual replacement inheriting the v15 transition-only contract.",
+  "output": {
+    "scenes": 21,
+    "frames": 1524,
+    "durationSeconds": 50.8,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "lockedContent": {
+    "title": "unchanged from v15",
+    "captions": {
+      "cueCount": 36,
+      "text": "unchanged from v15",
+      "timing": "unchanged from v15",
+      "style": "white text on opaque black box"
+    },
+    "narration": "unchanged from v15",
+    "bgm": "unchanged from v15",
+    "disclosure": "unchanged from v15"
+  },
+  "camera": {
+    "mode": "none",
+    "intensity": 0,
+    "zoom": 1,
+    "allScenes": true
+  },
+  "wanMotionScenes": [
+    6,
+    11,
+    20
+  ],
+  "assets": [
+    {
+      "scene": 1,
+      "asset": "assets/images/v17-editorial-cartoon/scene01-classroom-window-overcast.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 2,
+      "asset": "assets/images/v17-editorial-cartoon/scene02-classroom-window-closed.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 3,
+      "asset": "assets/images/v17-editorial-cartoon/scene03-security-desk-static.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 4,
+      "asset": "assets/images/v16-style-audition/editorial-cartoon/scene04-school-exterior.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 5,
+      "asset": "assets/images/v16-style-audition/editorial-cartoon/scene05-classroom-threshold.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 6,
+      "asset": "assets/video/v16-style-audition/editorial-cartoon/scene06-next-morning-discovery.mp4",
+      "assetType": "motion-video"
+    },
+    {
+      "scene": 7,
+      "asset": "assets/images/v16-style-audition/editorial-cartoon/scene07-tumbler.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 8,
+      "asset": "assets/images/v16-style-audition/editorial-cartoon/scene08-tumbler-interior.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 9,
+      "asset": "assets/images/v16-style-audition/editorial-cartoon/scene09-classroom-aisle.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 10,
+      "asset": "assets/images/v17-editorial-cartoon/scene10-teacher-chair-second-visit.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 11,
+      "asset": "assets/video/v17-editorial-cartoon/scene11-cctv-route-continuity.mp4",
+      "assetType": "motion-video"
+    },
+    {
+      "scene": 12,
+      "asset": "assets/images/v17-editorial-cartoon/scene12-case-folder-recorder-evidence.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 13,
+      "asset": "assets/images/v17-editorial-cartoon/scene13-empty-interview-room.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 14,
+      "asset": "assets/images/v17-editorial-cartoon/scene14-phone-forensics-request.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 15,
+      "asset": "assets/images/v17-editorial-cartoon/scene15-digital-forensics-workstation.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 16,
+      "asset": "assets/images/v17-editorial-cartoon/scene16-evidence-bag-static.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 17,
+      "asset": "assets/images/v17-editorial-cartoon/scene17-threshold-hesitation.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 18,
+      "asset": "assets/images/v17-editorial-cartoon/scene18-locked-door-hallway.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 19,
+      "asset": "assets/images/v17-editorial-cartoon/scene19-empty-classroom.png",
+      "assetType": "image"
+    },
+    {
+      "scene": 20,
+      "asset": "assets/video/v17-editorial-cartoon/scene20-proposed-access-control.mp4",
+      "assetType": "motion-video"
+    },
+    {
+      "scene": 21,
+      "asset": "assets/images/v17-editorial-cartoon/scene21-access-reader-detail.png",
+      "assetType": "image"
+    }
+  ],
+  "transitionContract": {
+    "mode": "media-only",
+    "frameAccounting": "preserve-scene-sum",
+    "boundaries": [
+      {
+        "from": 1,
+        "to": 2,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 5,
+        "to": 6,
+        "type": "dip-to-black",
+        "frames": 6,
+        "notes": "A last 3 fade out, B first 3 fade in"
+      },
+      {
+        "from": 6,
+        "to": 7,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 7,
+        "to": 8,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 8,
+        "to": 9,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 9,
+        "to": 10,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 10,
+        "to": 11,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 11,
+        "to": 12,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 12,
+        "to": 13,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 13,
+        "to": 14,
+        "type": "slide-left",
+        "frames": 8,
+        "notes": "A full, A last frame + B first 8 slide, B first 8 removed from tail"
+      },
+      {
+        "from": 14,
+        "to": 15,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 15,
+        "to": 16,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 16,
+        "to": 17,
+        "type": "dip-to-black",
+        "frames": 6,
+        "notes": "A last 3 fade out, B first 3 fade in"
+      },
+      {
+        "from": 17,
+        "to": 18,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 18,
+        "to": 19,
+        "type": "hard-cut",
+        "frames": 0
+      },
+      {
+        "from": 19,
+        "to": 20,
+        "type": "slide-left",
+        "frames": 8,
+        "notes": "A full, A last frame + B first 8 slide, B first 8 removed from tail"
+      },
+      {
+        "from": 20,
+        "to": 21,
+        "type": "hard-cut",
+        "frames": 0
+      }
+    ]
+  },
+  "scope": {
+    "transitions": "media-region-only",
+    "overlays": "title/captions/AI disclosure fixed",
+    "visualVariable": "editorial-cartoon assets only",
+    "upload": "blocked local preview only"
+  }
+}

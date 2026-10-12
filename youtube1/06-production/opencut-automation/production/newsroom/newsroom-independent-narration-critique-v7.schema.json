@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-independent-narration-critique-v7",
+  "title": "Newsroom independent narration safety critique v7",
+  "description": "Read-only factual and legal safety admission for v19 narration.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "decision", "findings", "authoritySha256", "timing"],
+  "properties": {
+    "schema": { "const": "newsroom-independent-narration-critique-v7" },
+    "decision": { "enum": ["pass", "reject"] },
+    "findings": { "type": "array", "minItems": 1, "maxItems": 1, "items": {
+      "type": "object", "additionalProperties": false, "required": ["category", "status", "detail", "exactQuote"], "properties": {
+        "category": { "const": "factual-legal" },
+        "status": { "enum": ["pass", "reject"] },
+        "detail": { "type": "string", "minLength": 1, "maxLength": 800 },
+        "exactQuote": { "type": "string", "maxLength": 500 }
+      }
+    } },
+    "authoritySha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "timing": { "type": "object", "additionalProperties": false, "required": ["schema", "compactCharacters", "observedCompactKoreanCharactersPerSecond", "estimatedSeconds", "targetMinimumSeconds", "targetMaximumSeconds", "withinAdvisoryTarget", "authority"], "properties": {
+      "schema": { "const": "newsroom-owner-rate-advisory-estimate-v1" },
+      "compactCharacters": { "type": "integer", "minimum": 0 },
+      "observedCompactKoreanCharactersPerSecond": { "type": "number", "exclusiveMinimum": 0 },
+      "estimatedSeconds": { "type": "number", "minimum": 0 },
+      "targetMinimumSeconds": { "const": 70 },
+      "targetMaximumSeconds": { "const": 80 },
+      "withinAdvisoryTarget": { "type": "boolean" },
+      "authority": { "const": "advisory-only-owner-narration-locked-timing-remains-required" }
+    } }
+  }
+}

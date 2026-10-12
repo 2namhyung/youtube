@@ -1,0 +1,117 @@
+{
+  "schema": "godot-front-skeleton-parts-v1",
+  "packs": {
+    "a": {
+      "body": {
+        "bbox": [
+          327,
+          431,
+          696,
+          1430
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-a/body.png"
+      },
+      "head": {
+        "bbox": [
+          378,
+          110,
+          647,
+          431
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-a/head.png"
+      },
+      "upper_arm_l": {
+        "bbox": [
+          281,
+          426,
+          431,
+          676
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-a/upper_arm_l.png"
+      },
+      "forearm_l": {
+        "bbox": [
+          182,
+          592,
+          411,
+          916
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-a/forearm_l.png"
+      },
+      "upper_arm_r": {
+        "bbox": [
+          594,
+          425,
+          744,
+          676
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-a/upper_arm_r.png"
+      },
+      "forearm_r": {
+        "bbox": [
+          614,
+          592,
+          842,
+          916
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-a/forearm_r.png"
+      }
+    },
+    "b": {
+      "body": {
+        "bbox": [
+          326,
+          431,
+          696,
+          1430
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-b/body.png"
+      },
+      "head": {
+        "bbox": [
+          368,
+          110,
+          651,
+          431
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-b/head.png"
+      },
+      "upper_arm_l": {
+        "bbox": [
+          281,
+          426,
+          431,
+          676
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-b/upper_arm_l.png"
+      },
+      "forearm_l": {
+        "bbox": [
+          182,
+          592,
+          411,
+          917
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-b/forearm_l.png"
+      },
+      "upper_arm_r": {
+        "bbox": [
+          594,
+          426,
+          743,
+          676
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-b/upper_arm_r.png"
+      },
+      "forearm_r": {
+        "bbox": [
+          614,
+          593,
+          842,
+          917
+        ],
+        "path": "C:/Users/User/Desktop/app/youtube/06-production/opencut-automation/studies/godot-reusable-front-skeleton-v1/assets/pack-b/forearm_r.png"
+      }
+    }
+  }
+}

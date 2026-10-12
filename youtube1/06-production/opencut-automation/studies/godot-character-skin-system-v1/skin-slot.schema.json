@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "godot-skin-slot-contract-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "manifestId", "view", "canvas", "skeleton", "slots", "skins", "geometryCompatibility"],
+  "properties": {
+    "schema": {"const": "godot-skin-slot-contract-v1"},
+    "manifestId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]+$"},
+    "view": {"const": "front"},
+    "canvas": {
+      "type": "object", "additionalProperties": false, "required": ["width", "height"],
+      "properties": {"width": {"type": "integer", "minimum": 1}, "height": {"type": "integer", "minimum": 1}}
+    },
+    "skeleton": {
+      "type": "object", "additionalProperties": false, "required": ["id", "bones"],
+      "properties": {
+        "id": {"type": "string"},
+        "bones": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/bone"}}
+      }
+    },
+    "slots": {"type": "array", "minItems": 15, "items": {"$ref": "#/$defs/slot"}},
+    "skins": {"type": "array", "minItems": 1, "items": {"type": "object", "additionalProperties": false, "required": ["id", "slots"], "properties": {"id": {"type": "string"}, "slots": {"type": "object", "additionalProperties": {"type": "string"}}}}},
+    "geometryCompatibility": {
+      "type": "object", "additionalProperties": false, "required": ["groups"],
+      "properties": {"groups": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "array", "items": {"type": "string"}}}}
+    }
+  },
+  "$defs": {
+    "point": {"type": "object", "additionalProperties": false, "required": ["x", "y"], "properties": {"x": {"type": "number"}, "y": {"type": "number"}}},
+    "envelope": {
+      "type": "object", "additionalProperties": false, "required": ["rotationDeg", "translation"],
+      "properties": {
+        "rotationDeg": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "number"}},
+        "translation": {"type": "object", "additionalProperties": false, "required": ["x", "y"], "properties": {"x": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "number"}}, "y": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "number"}}}}
+      }
+    },
+    "bone": {
+      "type": "object", "additionalProperties": false, "required": ["id", "parent", "joint", "pivot", "drawOrder", "allowedMotionEnvelope"],
+      "properties": {"id": {"type": "string"}, "parent": {"type": ["string", "null"]}, "joint": {"$ref": "#/$defs/point"}, "pivot": {"$ref": "#/$defs/point"}, "drawOrder": {"type": "integer"}, "allowedMotionEnvelope": {"$ref": "#/$defs/envelope"}}
+    },
+    "attachment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "role", "path", "bytes", "sha256", "dimensions", "alphaBounds", "geometryGroup"],
+      "properties": {
+        "id": {"type": "string"}, "role": {"enum": ["visible", "hidden-fill"]}, "path": {"type": "string"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "dimensions": {"type": "object", "additionalProperties": false, "required": ["width", "height"], "properties": {"width": {"type": "integer", "minimum": 1}, "height": {"type": "integer", "minimum": 1}}},
+        "alphaBounds": {"type": "object", "additionalProperties": false, "required": ["x", "y", "width", "height"], "properties": {"x": {"type": "integer", "minimum": 0}, "y": {"type": "integer", "minimum": 0}, "width": {"type": "integer", "minimum": 1}, "height": {"type": "integer", "minimum": 1}}},
+        "geometryGroup": {"type": "string"}
+      }
+    },
+    "slot": {
+      "type": "object", "additionalProperties": false, "required": ["id", "boneId", "z", "articulates", "requiresHiddenFill", "geometryGroup", "attachments"],
+      "properties": {"id": {"type": "string"}, "boneId": {"type": "string"}, "z": {"type": "integer"}, "articulates": {"type": "boolean"}, "requiresHiddenFill": {"type": "boolean"}, "geometryGroup": {"type": "string"}, "attachments": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/attachment"}}}
+    }
+  }
+}

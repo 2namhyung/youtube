@@ -1,0 +1,400 @@
+{
+  "version": 1,
+  "slug": "research-657380fce7eaccc9",
+  "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+  "candidate": {
+    "id": "research-657380fce7eaccc9",
+    "slug": "research-657380fce7eaccc9",
+    "editorialStatus": "active-review",
+    "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+    "source": "뉴시스 사회",
+    "url": "https://www.newsis.com/view/NISX20260806_0003738534",
+    "publishedAt": "2026-08-06T10:36:34+09:00",
+    "hook": "직장 동료의 커피에 살충제를 몰래 넣은 간호조무사, 항소심에서 형이 크게 줄었습니다.",
+    "storySummary": "같은 병원에서 근무하던 간호조무사 A씨는 업무 문제로 사이가 좋지 않았던 동료와 말다툼을 벌인 뒤, 동료가 마실 커피에 살충제를 몰래 넣었습니다. 검찰은 살충제를 음료에 탄 행위에 살인의 고의가 있었다고 주장했지만, 재판부는 사용량과 치사 가능성이 명확히 증명되지 않았다고 판단했습니다. 1심에서 징역 2년을 선고받은 A씨는 항소심에서 징역 1년 6개월에 집행유예 3년으로 감형됐습니다. 재판부는 살충제를 미리 사둔 점과 살해 동기가 충분하지 않다는 점 등을 감형 판단에 반영했습니다.",
+    "rationale": "평범한 직장 내 갈등이 동료 음료에 독성 물질을 몰래 넣는 행위로 급격히 확대됐고, 행위의 위험성과 재판부가 인정한 고의·동기 판단 사이에 큰 간극이 드러납니다. 피해자가 일상적으로 마시는 음료가 공격 수단이 됐다는 점과 항소심 감형 결과가 답답함과 황당함을 동시에 유발할 수 있습니다.",
+    "dimensions": {
+      "ordinaryContext": 3,
+      "disproportionateEscalation": 3,
+      "explanationActionMismatch": 3,
+      "tangibleRisk": 3,
+      "responsibilityEvasion": 2,
+      "relatableEmotion": 3
+    },
+    "factCheckRisks": [
+      "피해자가 실제로 어떤 증상을 겪었는지와 살충제의 정확한 종류·투입량은 제공된 정보만으로 확인되지 않음",
+      "항소심 판결의 정확한 선고일과 감형 사유 전체는 원문 판결문 확인이 필요함",
+      "재판부가 살인미수 혐의를 최종적으로 어떻게 판단했는지 요약이 일부 잘려 있어 확인이 필요함"
+    ],
+    "selectionReasons": [
+      "직장이라는 익숙한 공간에서 사적인 갈등이 은밀한 독성 물질 투입으로 확대됨",
+      "피해 위험이 있는 행동과 살인 고의·동기에 대한 법원의 판단이 엇갈림",
+      "1심 실형에서 항소심 집행유예로 감형된 결과가 사건의 후속 쟁점을 제공함"
+    ],
+    "relatedCoverage": [],
+    "approval": {
+      "kind": "human-promotion",
+      "approvedAt": "2026-08-06T02:58:05.299Z",
+      "sourceAction": "newsroom-semantic-card"
+    },
+    "provenance": {
+      "semanticSelectionPath": "out/newsroom/research-llm-analysis.json",
+      "semanticGeneratedAt": "2026-08-06T02:40:57.146Z",
+      "articlePoolPath": "01-research/news_radar/data/latest_article_pool.json",
+      "articlePoolGeneratedAt": "2026-08-06T11:34:33+09:00",
+      "articleId": "657380fce7eaccc918841f32",
+      "excerptProvenance": "rss-description-or-atom-summary"
+    },
+    "verification": {
+      "state": "cross-source-verification-required",
+      "missing": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토"
+      ]
+    }
+  },
+  "createdAt": "2026-08-06T06:34:43.686Z",
+  "updatedAt": "2026-08-06T07:47:17.808Z",
+  "stages": {
+    "01": {
+      "status": "ready",
+      "completedAt": "2026-08-06T06:34:43.686Z"
+    },
+    "02": {
+      "status": "in-progress",
+      "reason": "legal-context-report-missing-or-stale"
+    },
+    "03": {
+      "status": "pending"
+    },
+    "04": {
+      "status": "pending"
+    },
+    "05": {
+      "status": "pending"
+    },
+    "06": {
+      "status": "pending"
+    },
+    "07": {
+      "status": "pending"
+    },
+    "08": {
+      "status": "pending"
+    }
+  },
+  "legalContextReport": {
+    "schemaVersion": 3,
+    "slug": "research-657380fce7eaccc9",
+    "generatedAt": "2026-08-06T06:35:08.796Z",
+    "candidateSha256": "ac461d194003d70d0a46c582570055bfe9b6996e36a79772b2aa30334ca48a21",
+    "researchSnapshotSha256": "a955e79e9cdf3e0f4903a4dbbdd5180e01e8e9ea2a2a666df5a3a6d706b3cc3a",
+    "confirmedFacts": [
+      {
+        "claim": "출처 확인됨(기사 전체 사실을 확정하지 않음): 직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+        "source": "https://www.newsis.com/view/NISX20260806_0003738534",
+        "status": "source-confirmed"
+      }
+    ],
+    "reportedFacts": [
+      {
+        "claim": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+        "source": "https://www.newsis.com/view/NISX20260806_0003738534",
+        "status": "reported"
+      },
+      {
+        "claim": "같은 병원에서 근무하던 간호조무사 A씨는 업무 문제로 사이가 좋지 않았던 동료와 말다툼을 벌인 뒤, 동료가 마실 커피에 살충제를 몰래 넣었습니다. 검찰은 살충제를 음료에 탄 행위에 살인의 고의가 있었다고 주장했지만, 재판부는 사용량과 치사 가능성이 명확히 증명되지 않았다고 판단했습니다. 1심에서 징역 2년을 선고받은 A씨는 항소심에서 징역 1년 6개월에 집행유예 3년으로 감형됐습니다. 재판부는 살충제를 미리 사둔 점과 살해 동기가 충분하지 않다는 점 등을 감형 판단에 반영했습니다.",
+        "source": "https://www.newsis.com/view/NISX20260806_0003738534",
+        "status": "reported"
+      }
+    ],
+    "unverifiedFacts": [
+      "기사 원문 사실 확인",
+      "독립 출처 교차 검증",
+      "당사자·기관 반론",
+      "02 Context/Legal 인계 검토",
+      "피해자가 실제로 어떤 증상을 겪었는지와 살충제의 정확한 종류·투입량은 제공된 정보만으로 확인되지 않음",
+      "항소심 판결의 정확한 선고일과 감형 사유 전체는 원문 판결문 확인이 필요함",
+      "재판부가 살인미수 혐의를 최종적으로 어떻게 판단했는지 요약이 일부 잘려 있어 확인이 필요함"
+    ],
+    "possibleLegalIssues": [
+      {
+        "key": "privacy",
+        "label": "개인정보·식별 위험",
+        "why": "식별 정보의 필요성과 공개 범위를 확인합니다.",
+        "status": "possible-issue",
+        "notConclusion": true
+      },
+      {
+        "key": "copyright",
+        "label": "저작권·출처 이용 조건",
+        "why": "기사 화면·사진·영상은 원문 이용 조건과 별도 권리를 확인해야 합니다.",
+        "status": "possible-issue",
+        "notConclusion": true
+      }
+    ],
+    "missingFacts": [
+      "기사 원문 사실 확인",
+      "독립 출처 교차 검증",
+      "당사자·기관 반론",
+      "02 Context/Legal 인계 검토",
+      "피해자가 실제로 어떤 증상을 겪었는지와 살충제의 정확한 종류·투입량은 제공된 정보만으로 확인되지 않음",
+      "항소심 판결의 정확한 선고일과 감형 사유 전체는 원문 판결문 확인이 필요함",
+      "재판부가 살인미수 혐의를 최종적으로 어떻게 판단했는지 요약이 일부 잘려 있어 확인이 필요함"
+    ],
+    "safePhrasing": [
+      "보도에 따르면 …이라고 전해졌습니다.",
+      "현재 확인된 자료 범위에서는 사실관계와 최종 처분을 단정할 수 없습니다.",
+      "법적 책임이나 혐의의 성립 여부는 판단하지 않고, 확인된 출처와 미확인 사실을 구분해 말합니다."
+    ],
+    "sources": [
+      {
+        "title": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+        "publisher": "뉴시스 사회",
+        "url": "https://www.newsis.com/view/NISX20260806_0003738534",
+        "status": "verified",
+        "date": "2026-08-06T11:56:24+09:00",
+        "sourceType": "representative-source",
+        "contentVerification": {
+          "status": "verified",
+          "reason": "verified-content",
+          "httpOk": true,
+          "articleLike": true,
+          "meaningfulContent": true,
+          "titleOverlap": true,
+          "overlapTokens": [
+            "직장",
+            "동료",
+            "커피에",
+            "몰래",
+            "살충제",
+            "간호조무사",
+            "2심서",
+            "감형"
+          ],
+          "snippetLength": 202
+        }
+      }
+    ],
+    "legalSources": [
+      {
+        "title": "개인정보 보호법(공식 법령)",
+        "url": "https://www.law.go.kr/법령/개인정보보호법",
+        "status": "authoritative-reference",
+        "sourceType": "issue-catalog-law"
+      },
+      {
+        "title": "저작권법 제28조(공식 법령)",
+        "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1025202859",
+        "status": "authoritative-reference",
+        "sourceType": "issue-catalog-law"
+      }
+    ],
+    "evidence": {
+      "candidateUrl": "https://www.newsis.com/view/NISX20260806_0003738534",
+      "sourceCount": 1,
+      "verifiedSourceCount": 1,
+      "legalSourceCount": 2,
+      "sameEventSnapshot": true
+    },
+    "verdict": "conditional",
+    "verdictLabel": "조건부 사용",
+    "reasons": [
+      "독립적으로 교차 확인된 출처가 부족합니다.",
+      "혐의·비난 표현은 확인 범위와 출처 귀속을 분리해야 합니다.",
+      "피해자·미성년자 등 식별 가능성이 있는 인물은 비식별 처리가 우선입니다.",
+      "사건의 신고·수사·처분 상태가 확인되지 않았습니다."
+    ],
+    "reasonCodes": [
+      "single-or-unverified-source",
+      "allegation-wording",
+      "identification-minimization",
+      "case-disposition"
+    ],
+    "requiredEdits": [
+      "확인된 사실이 아닌 내용은 ‘보도에 따르면’처럼 출처 귀속 표현으로 작성",
+      "피해자·미성년자·제3자의 얼굴·이름·위치 등 식별 요소를 최소화",
+      "확인되지 않은 신고·수사·합의·처분 결과를 사실처럼 말하지 않음"
+    ],
+    "allowedMaterials": [
+      "원문 기사 링크와 확인된 사실을 요약한 텍스트",
+      "권리 상태가 기록된 자체 제작 그래픽·일반 현장 재연",
+      "AI 사용 시 실제 영상이 아니라는 고지와 식별자 제거를 적용한 재연 이미지"
+    ],
+    "restrictedMaterials": [
+      "이용 허락이 없는 방송사·CCTV·제보 원본 영상",
+      "피해자·미성년자·제3자를 식별할 수 있는 얼굴·이름·위치 정보",
+      "확인되지 않은 혐의·처분·정신건강 인과를 단정하는 자막·내레이션"
+    ],
+    "requiredConditions": [
+      {
+        "id": "reported-attribution",
+        "label": "확인된 사실이 아닌 내용은 ‘보도에 따르면’처럼 출처 귀속 표현으로 작성",
+        "required": true
+      },
+      {
+        "id": "identification-minimization",
+        "label": "피해자·미성년자·제3자의 얼굴·이름·위치 등 식별 요소를 최소화",
+        "required": true
+      },
+      {
+        "id": "case-disposition",
+        "label": "확인되지 않은 신고·수사·합의·처분 결과를 사실처럼 말하지 않음",
+        "required": true
+      }
+    ],
+    "assessment": {
+      "sourceCorroboration": "single-source",
+      "allegationWording": "attribution-required",
+      "privacyAndIdentification": "minimize",
+      "copyrightAndFootageRights": "text-or-original-only",
+      "aiReenactmentDisclosure": "not-triggered",
+      "platformSafeTreatment": "no-graphic-or-identifying-treatment"
+    },
+    "contradictions": [],
+    "scriptPolicy": {
+      "version": 1,
+      "allowedFacts": [
+        "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+        "같은 병원에서 근무하던 간호조무사 A씨는 업무 문제로 사이가 좋지 않았던 동료와 말다툼을 벌인 뒤, 동료가 마실 커피에 살충제를 몰래 넣었습니다.",
+        "검찰은 살충제를 음료에 탄 행위에 살인의 고의가 있었다고 주장했지만, 재판부는 사용량과 치사 가능성이 명확히 증명되지 않았다고 판단했습니다.",
+        "1심에서 징역 2년을 선고받은 A씨는 항소심에서 징역 1년 6개월에 집행유예 3년으로 감형됐습니다.",
+        "재판부는 살충제를 미리 사둔 점과 살해 동기가 충분하지 않다는 점 등을 감형 판단에 반영했습니다."
+      ],
+      "prohibitedClaims": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토",
+        "피해자가 실제로 어떤 증상을 겪었는지와 살충제의 정확한 종류·투입량은 제공된 정보만으로 확인되지 않음",
+        "항소심 판결의 정확한 선고일과 감형 사유 전체는 원문 판결문 확인이 필요함",
+        "재판부가 살인미수 혐의를 최종적으로 어떻게 판단했는지 요약이 일부 잘려 있어 확인이 필요함"
+      ],
+      "prohibitedPhrases": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토",
+        "피해자가 실제로 어떤 증상을 겪었는지와 살충제의 정확한 종류·투입량은 제공된 정보만으로 확인되지 않음",
+        "항소심 판결의 정확한 선고일과 감형 사유 전체는 원문 판결문 확인이 필요함",
+        "재판부가 살인미수 혐의를 최종적으로 어떻게 판단했는지 요약이 일부 잘려 있어 확인이 필요함"
+      ],
+      "requiredQualifications": [
+        {
+          "id": "reported-attribution",
+          "trigger": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+          "qualifier": "보도에 따르면 …이라고 전해졌습니다."
+        },
+        {
+          "id": "identification-minimization",
+          "trigger": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+          "qualifier": "보도에 따르면 …이라고 전해졌습니다."
+        },
+        {
+          "id": "case-disposition",
+          "trigger": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+          "qualifier": "보도에 따르면 …이라고 전해졌습니다."
+        }
+      ],
+      "safeReplacements": [
+        {
+          "unsafe": "기사 원문 사실 확인",
+          "safe": "보도에 따르면 …이라고 전해졌습니다."
+        },
+        {
+          "unsafe": "독립 출처 교차 검증",
+          "safe": "보도에 따르면 …이라고 전해졌습니다."
+        },
+        {
+          "unsafe": "당사자·기관 반론",
+          "safe": "보도에 따르면 …이라고 전해졌습니다."
+        },
+        {
+          "unsafe": "02 Context/Legal 인계 검토",
+          "safe": "보도에 따르면 …이라고 전해졌습니다."
+        },
+        {
+          "unsafe": "피해자가 실제로 어떤 증상을 겪었는지와 살충제의 정확한 종류·투입량은 제공된 정보만으로 확인되지 않음",
+          "safe": "보도에 따르면 …이라고 전해졌습니다."
+        },
+        {
+          "unsafe": "항소심 판결의 정확한 선고일과 감형 사유 전체는 원문 판결문 확인이 필요함",
+          "safe": "보도에 따르면 …이라고 전해졌습니다."
+        },
+        {
+          "unsafe": "재판부가 살인미수 혐의를 최종적으로 어떻게 판단했는지 요약이 일부 잘려 있어 확인이 필요함",
+          "safe": "보도에 따르면 …이라고 전해졌습니다."
+        }
+      ],
+      "safePhrasing": [
+        "보도에 따르면 …이라고 전해졌습니다.",
+        "현재 확인된 자료 범위에서는 사실관계와 최종 처분을 단정할 수 없습니다.",
+        "법적 책임이나 혐의의 성립 여부는 판단하지 않고, 확인된 출처와 미확인 사실을 구분해 말합니다."
+      ],
+      "uncertaintyInstructions": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토",
+        "피해자가 실제로 어떤 증상을 겪었는지와 살충제의 정확한 종류·투입량은 제공된 정보만으로 확인되지 않음",
+        "항소심 판결의 정확한 선고일과 감형 사유 전체는 원문 판결문 확인이 필요함",
+        "재판부가 살인미수 혐의를 최종적으로 어떻게 판단했는지 요약이 일부 잘려 있어 확인이 필요함"
+      ],
+      "omissionInstructions": [
+        "Omit unless separately verified: 기사 원문 사실 확인",
+        "Omit unless separately verified: 독립 출처 교차 검증",
+        "Omit unless separately verified: 당사자·기관 반론",
+        "Omit unless separately verified: 02 Context/Legal 인계 검토",
+        "Omit unless separately verified: 피해자가 실제로 어떤 증상을 겪었는지와 살충제의 정확한 종류·투입량은 제공된 정보만으로 확인되지 않음",
+        "Omit unless separately verified: 항소심 판결의 정확한 선고일과 감형 사유 전체는 원문 판결문 확인이 필요함",
+        "Omit unless separately verified: 재판부가 살인미수 혐의를 최종적으로 어떻게 판단했는지 요약이 일부 잘려 있어 확인이 필요함"
+      ]
+    },
+    "factBrief": {
+      "confirmedFacts": [
+        "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+        "같은 병원에서 근무하던 간호조무사 A씨는 업무 문제로 사이가 좋지 않았던 동료와 말다툼을 벌인 뒤, 동료가 마실 커피에 살충제를 몰래 넣었습니다.",
+        "검찰은 살충제를 음료에 탄 행위에 살인의 고의가 있었다고 주장했지만, 재판부는 사용량과 치사 가능성이 명확히 증명되지 않았다고 판단했습니다.",
+        "1심에서 징역 2년을 선고받은 A씨는 항소심에서 징역 1년 6개월에 집행유예 3년으로 감형됐습니다.",
+        "재판부는 살충제를 미리 사둔 점과 살해 동기가 충분하지 않다는 점 등을 감형 판단에 반영했습니다."
+      ],
+      "timeline": [
+        "같은 병원에서 근무하던 간호조무사 A씨는 업무 문제로 사이가 좋지 않았던 동료와 말다툼을 벌인 뒤, 동료가 마실 커피에 살충제를 몰래 넣었습니다.",
+        "검찰은 살충제를 음료에 탄 행위에 살인의 고의가 있었다고 주장했지만, 재판부는 사용량과 치사 가능성이 명확히 증명되지 않았다고 판단했습니다.",
+        "1심에서 징역 2년을 선고받은 A씨는 항소심에서 징역 1년 6개월에 집행유예 3년으로 감형됐습니다.",
+        "재판부는 살충제를 미리 사둔 점과 살해 동기가 충분하지 않다는 점 등을 감형 판단에 반영했습니다."
+      ],
+      "disputedFacts": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토",
+        "피해자가 실제로 어떤 증상을 겪었는지와 살충제의 정확한 종류·투입량은 제공된 정보만으로 확인되지 않음",
+        "항소심 판결의 정확한 선고일과 감형 사유 전체는 원문 판결문 확인이 필요함",
+        "재판부가 살인미수 혐의를 최종적으로 어떻게 판단했는지 요약이 일부 잘려 있어 확인이 필요함"
+      ],
+      "unknownFacts": [
+        "기사 원문 사실 확인",
+        "독립 출처 교차 검증",
+        "당사자·기관 반론",
+        "02 Context/Legal 인계 검토",
+        "피해자가 실제로 어떤 증상을 겪었는지와 살충제의 정확한 종류·투입량은 제공된 정보만으로 확인되지 않음",
+        "항소심 판결의 정확한 선고일과 감형 사유 전체는 원문 판결문 확인이 필요함",
+        "재판부가 살인미수 혐의를 최종적으로 어떻게 판단했는지 요약이 일부 잘려 있어 확인이 필요함"
+      ],
+      "followUpChanges": []
+    },
+    "videoDecision": {
+      "decision": "conditional",
+      "reasons": [
+        "독립적으로 교차 확인된 출처가 부족합니다.",
+        "혐의·비난 표현은 확인 범위와 출처 귀속을 분리해야 합니다.",
+        "피해자·미성년자 등 식별 가능성이 있는 인물은 비식별 처리가 우선입니다.",
+        "사건의 신고·수사·처분 상태가 확인되지 않았습니다."
+      ]
+    }
+  },
+  "draftFinalized": false
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "profileId": "qwen-f4",
+  "status": "validation-passed",
+  "productionEligible": true,
+  "ownerVoice": true,
+  "model": {
+    "id": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+    "precision": "bf16",
+    "language": "Korean",
+    "loraAllowed": false,
+    "adapterAllowed": false
+  },
+  "sourceAudit": {
+    "manifest": "../../../training/F4-target-20260729/fish-dataset/dataset_manifest.json",
+    "manifestSha256": "B6535555E3CC845CE8034F44F8268A7995F223686648B229A9CF3555C4305409",
+    "speaker": "F4",
+    "split": "train",
+    "thirdPartyAudio": false,
+    "syntheticPrompt": false,
+    "transcripts": "exact owner-recording transcripts from the locked F4 manifest"
+  },
+  "defaultStyle": "neutral",
+  "styles": {
+    "neutral": {
+      "role": "canonical-neutral",
+      "audio": "../../../pilots/model-ab-20260729/f4_ref_gyogwon.wav",
+      "sha256": "31B3FDEE6E1417DAEE8DD863F479B01408A840CC21762C2927E2A3C97B4A4646",
+      "transcript": "교권보호국은 교권을 보호하는 가상의 기관입니다. 현실의 교권 보호 제도는 제대로 작동하고 있을까요? 교권과 권한은 서로 다른 의미를 가집니다.",
+      "canonical": true
+    },
+    "hook": {
+      "role": "hook",
+      "audio": "assets/hook.wav",
+      "sha256": "20FD551E53127460EB2EC3F1C8AE2CA34EEE0AD262710CF73FD456B9A6009C2B",
+      "transcript": "교권보호국이라는 설정은 허구지만, 현실의 교권 보호 제도는 제대로 작동하고 있을까요?",
+      "source": "../../../training/F4-target-20260729/fish-dataset/train/F4/base_old_01.wav",
+      "sourceSha256": "23C79CB02713452740CBDE705BE5D05D27A93EB6B53A220B3C0AA219217663DF",
+      "derivation": "owner recording resampled only to mono 24 kHz PCM16",
+      "metrics": {"durationSeconds": 5.96, "sampleRate": 24000, "channels": 1, "peak": 0.51904296875, "silenceRatio": 0.23737373737373738, "endpointAmplitude": 0.001922607421875, "maxAdjacentJump": 0.1461181640625},
+      "validationText": "교실에서 선생님의 말 한마디가 녹음되고, 순식간에 민원으로 돌아오는 시대입니다. 그런데 교권을 지키는 제도는 정말 현장에서 작동하고 있을까요?"
+    },
+    "news_exposition": {
+      "role": "news-exposition",
+      "audio": "assets/news_exposition.wav",
+      "sha256": "EF813824A6D969FABF38F5782847C489B85C934CABE825D7D7F803953B8EA3D0",
+      "transcript": "다음 날 여교사가 매일 쓰던 텀블러에서 수상한 액체를 발견했다고 밝혔습니다.",
+      "source": "../../../training/F4-target-20260729/fish-dataset/train/F4/base_old_03.wav",
+      "sourceSha256": "9A27E6E8D65101A559AFF978C18A32ADD035984DF5016ACE025142E28127F405",
+      "derivation": "owner recording resampled only to mono 24 kHz PCM16",
+      "metrics": {"durationSeconds": 4.98, "sampleRate": 24000, "channels": 1, "peak": 0.387725830078125, "silenceRatio": 0.2701612903225806, "endpointAmplitude": 0.000274658203125, "maxAdjacentJump": 0.1270751953125},
+      "validationText": "교육부는 교권 보호 대책을 확대하고, 학교마다 대응 절차를 마련했다고 설명합니다. 하지만 신고부터 조사와 지원까지 이어지는 과정은 지역과 학교에 따라 큰 차이를 보입니다."
+    },
+    "tension": {
+      "role": "tension",
+      "audio": "assets/tension.wav",
+      "sha256": "3E08532440B04DCB31D8C55E47682FD5C167A8CB04E0E17F16DD30D30D80EC40",
+      "transcript": "피해자는 텀블러의 뚜껑이 열려 있었고 내용물이 조금 줄었다고 말했지만, 피의자는 복도에 들어간 사실만 인정했습니다.",
+      "source": "../../../training/F4-target-20260729/fish-dataset/train/F4/base_s05_03.wav",
+      "sourceSha256": "A073143313974681E027D9B6553D4AB03C54095AEE2480AE53D94AE2BA89B6F5",
+      "derivation": "owner recording resampled only to mono 24 kHz PCM16",
+      "metrics": {"durationSeconds": 8.32, "sampleRate": 24000, "channels": 1, "peak": 0.327880859375, "silenceRatio": 0.3168674698795181, "endpointAmplitude": 0.019561767578125, "maxAdjacentJump": 0.107879638671875},
+      "validationText": "문제는 사건이 벌어진 다음입니다. 교사는 수업을 계속해야 하지만 보호 절차는 늦어지고, 책임을 둘러싼 갈등은 점점 더 커집니다."
+    },
+    "criticism": {
+      "role": "criticism",
+      "audio": "assets/criticism.wav",
+      "sha256": "06343D9099E0ECC34B0DC2510B56C69C83A21D64F672E4BD342AC53733B2F495",
+      "transcript": "그러나 작은 흔적을 넘기면 다음 신고를 막기 어렵습니다.",
+      "source": "../../../training/F4-target-20260729/fish-dataset/train/F4/base_s07_02.wav",
+      "sourceSha256": "C0FA13D4DA4B2FECA62F44E1AFFB5B8CA1DB40F79E58EAD91210B8F7E89D608F",
+      "derivation": "owner recording resampled only to mono 24 kHz PCM16",
+      "metrics": {"durationSeconds": 3.84, "sampleRate": 24000, "channels": 1, "peak": 0.3507080078125, "silenceRatio": 0.24345549738219896, "endpointAmplitude": 0.0025634765625, "maxAdjacentJump": 0.131500244140625},
+      "validationText": "대책은 많아졌지만 현장의 부담을 개인에게 남겨 둔다면, 제도는 이름만 바뀐 채 같은 문제를 반복하게 됩니다. 실적보다 실제 대응 속도와 회복 과정을 따져봐야 합니다."
+    },
+    "solution_closing": {
+      "role": "solution-closing",
+      "audio": "assets/solution_closing.wav",
+      "sha256": "893EBDD6D6F0BD8BE7CA2185249ADA269EE1E5BD111296A80BED26766EF62388",
+      "transcript": "문제를 숨기는 것보다 사실을 차분히 말하고, 피해자의 일상과 교사의 수업을 함께 지키는 해법을 찾는 일이 중요합니다.",
+      "source": "../../../training/F4-target-20260729/fish-dataset/train/F4/base_s07_07.wav",
+      "sourceSha256": "A9665735E16354226883EB262C82BA1F638DA558FD2A489B3EBB17D49C924FBB",
+      "derivation": "owner recording resampled only to mono 24 kHz PCM16",
+      "metrics": {"durationSeconds": 7.98, "sampleRate": 24000, "channels": 1, "peak": 0.339599609375, "silenceRatio": 0.2952261306532663, "endpointAmplitude": 0.018035888671875, "maxAdjacentJump": 0.112396240234375},
+      "validationText": "해법은 교사의 권한과 책임을 분명히 하고, 사건 초기부터 법률과 심리 지원을 함께 연결하는 데 있습니다. 교권 보호는 누군가를 공격하는 일이 아니라, 교실의 신뢰를 다시 세우는 일입니다."
+    }
+  },
+  "validation": {
+    "status": "passed",
+    "seed": 20260730,
+    "temperature": 0.7,
+    "dualAsrModels": ["small", "medium"],
+    "maxCharacterErrorRate": 0.08,
+    "failClosed": true,
+    "allSamplesPassed": true,
+    "baseOnly": true,
+    "loraLoaded": false,
+    "adapterLoaded": false,
+    "peakGpuTempC": 69.0,
+    "generationReport": "validation/generation_report.json",
+    "asrReport": "validation/asr_report.json"
+  }
+}

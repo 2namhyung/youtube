@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "newsroom-archive-v1",
+  "generatedAt": "2026-08-08T10:12:59.679Z",
+  "creator": "scripts/create-newsroom-archive.mjs",
+  "selection": {
+    "provider": "youtube",
+    "state": "published",
+    "privacy": "public",
+    "dedupe": "latest-successful-public-upload-per-story-slug"
+  },
+  "entryCount": 2,
+  "entries": [
+    {
+      "slug": "research-657380fce7eaccc9",
+      "storyTitle": "직장 동료 커피에 몰래 살충제 탄 간호조무사, 2심서 감형",
+      "status": "archived",
+      "archivedAt": "2026-08-08T10:12:59.679Z",
+      "upload": {
+        "provider": "youtube",
+        "jobId": "youtube-9ec3415e22075566",
+        "jobPath": "08-upload-delivery/runtime/jobs/youtube-9ec3415e22075566.json",
+        "jobSha256": "c0f0c2a8d767f6447cb9cf34ec9d5ed93d7b7c8b89cca89a31bba8a7eeedbf70",
+        "versionId": "msk7ah24-20136-k4g3v4",
+        "platformId": "zuJXFG1SlvU",
+        "postUrl": "https://www.youtube.com/watch?v=zuJXFG1SlvU",
+        "title": "앞으로 커피 마실때 텀블러 두고 가지 마세요",
+        "privacy": "public",
+        "providerStatus": "public-verified",
+        "videoSha256": "d5b12b315721eaa69ffd5be90d4b5c7faeb0a92f64464146b5c793ddcc2df832"
+      },
+      "production": {
+        "versionRegistryPath": "06-production/opencut-automation/out/registry/versions/msk7ah24-20136-k4g3v4.json",
+        "versionRegistrySha256": "7b313c7303db9d57398956236de813739148b31c1e60dcb24238bec1324032b9",
+        "handoffPath": "06-production/opencut-automation/out/registry/versions/msk7ah24-20136-k4g3v4.handoff.json",
+        "handoffSha256": "8e7b1262ad06897166bba0f091a1c3139757824ea31e79e5e696878b84e8639d",
+        "videoPath": "06-production/opencut-automation/out/coffee-pesticide-hospital-short-v1-msk7ah24-20136-k4g3v4.mp4",
+        "videoSha256": "d5b12b315721eaa69ffd5be90d4b5c7faeb0a92f64464146b5c793ddcc2df832"
+      }
+    },
+    {
+      "slug": "jeju-school-intrusion",
+      "storyTitle": "제주 초등학교 교실 침입 사건",
+      "status": "archived",
+      "archivedAt": "2026-08-05T14:29:04.563Z",
+      "upload": {
+        "provider": "youtube",
+        "jobId": "youtube-546442a373423eb2",
+        "jobPath": "08-upload-delivery/runtime/jobs/youtube-546442a373423eb2.json",
+        "jobSha256": "d556760049e1e7435af4484c367ad7c23a1e2aaf44431733a321a4dde5ac7231",
+        "versionId": "msg5rl1z-45892-5gfps1",
+        "platformId": "zxdR6K_6vO0",
+        "postUrl": "https://www.youtube.com/watch?v=zxdR6K_6vO0",
+        "title": "제주 초등학교 교실 침입 사건",
+        "privacy": "public",
+        "providerStatus": "succeeded",
+        "videoSha256": "ffe3e25e27e4728a4b8764f3cfa808a179340e0765ba59870c84f204117692c6"
+      },
+      "production": {
+        "versionRegistryPath": "06-production/opencut-automation/out/registry/versions/msg5rl1z-45892-5gfps1.json",
+        "versionRegistrySha256": "d86fee3ada589842e40d29e2d2f37ecdd4e4c1be937b650f7b9987f0a8f0eb9c",
+        "handoffPath": "06-production/opencut-automation/out/registry/versions/msg5rl1z-45892-5gfps1.handoff.json",
+        "handoffSha256": "57e7638e2616dba9d9781eae98ab8a0164670b776a4edfbd079d790b4e6be0c2",
+        "videoPath": "06-production/opencut-automation/out/jeju-school-intrusion-short-v1-v17-editorial-cartoon-msg5rl1z-45892-5gfps1.mp4",
+        "videoSha256": "ffe3e25e27e4728a4b8764f3cfa808a179340e0765ba59870c84f204117692c6"
+      }
+    }
+  ]
+}

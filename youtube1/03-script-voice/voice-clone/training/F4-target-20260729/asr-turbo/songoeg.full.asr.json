@@ -1,0 +1,140 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-target-20260729\\admission-work\\songoeg.full.wav",
+  "model": "03-script-voice/voice-clone/training/F/asr-turbo/model-cache/models--mobiuslabsgmbh--faster-whisper-large-v3-turbo/snapshots/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 14.613375,
+  "duration_after_vad": 11.28,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.97,
+      "end": 7.94,
+      "text": "경찰은 재물손괴 혐의를 검토했습니다. 건조물 침입과 재물손괴는 서로 다른 혐의입니다.",
+      "avg_logprob": -0.0670166026102379,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.3642384105960266,
+      "words": [
+        {
+          "start": 0.97,
+          "end": 1.55,
+          "word": " 경찰은",
+          "probability": 0.992919921875
+        },
+        {
+          "start": 1.55,
+          "end": 2.33,
+          "word": " 재물손괴",
+          "probability": 0.93134765625
+        },
+        {
+          "start": 2.33,
+          "end": 2.77,
+          "word": " 혐의를",
+          "probability": 0.997802734375
+        },
+        {
+          "start": 2.77,
+          "end": 3.55,
+          "word": " 검토했습니다.",
+          "probability": 0.9964192708333334
+        },
+        {
+          "start": 4.54,
+          "end": 4.98,
+          "word": " 건조물",
+          "probability": 0.98486328125
+        },
+        {
+          "start": 4.98,
+          "end": 5.58,
+          "word": " 침입과",
+          "probability": 0.98583984375
+        },
+        {
+          "start": 5.58,
+          "end": 6.6,
+          "word": " 재물손괴는",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 6.6,
+          "end": 6.86,
+          "word": " 서로",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 6.86,
+          "end": 7.2,
+          "word": " 다른",
+          "probability": 0.94140625
+        },
+        {
+          "start": 7.2,
+          "end": 7.94,
+          "word": " 혐의입니다.",
+          "probability": 0.9964599609375
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 9.01,
+      "end": 12.93,
+      "text": "수사관은 재물손괴 여부를 확인한 뒤 사건 경위를 조사했습니다.",
+      "avg_logprob": -0.0670166026102379,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.3642384105960266,
+      "words": [
+        {
+          "start": 9.01,
+          "end": 9.57,
+          "word": " 수사관은",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 9.57,
+          "end": 10.29,
+          "word": " 재물손괴",
+          "probability": 0.9978515625
+        },
+        {
+          "start": 10.29,
+          "end": 10.71,
+          "word": " 여부를",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 10.71,
+          "end": 11.11,
+          "word": " 확인한",
+          "probability": 0.997802734375
+        },
+        {
+          "start": 11.11,
+          "end": 11.29,
+          "word": " 뒤",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 11.29,
+          "end": 11.83,
+          "word": " 사건",
+          "probability": 0.9853515625
+        },
+        {
+          "start": 11.83,
+          "end": 12.27,
+          "word": " 경위를",
+          "probability": 0.9703776041666666
+        },
+        {
+          "start": 12.27,
+          "end": 12.93,
+          "word": " 조사했습니다.",
+          "probability": 0.9996744791666666
+        }
+      ]
+    }
+  ]
+}

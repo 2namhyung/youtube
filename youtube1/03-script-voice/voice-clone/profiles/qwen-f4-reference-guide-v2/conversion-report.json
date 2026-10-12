@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "engine": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512 inference_vc",
+  "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+  "seed": 20260807,
+  "sourceCarrier": {
+    "path": "03-script-voice/voice-clone/profiles/qwen-f4-reference-guide-v1/provenance/reference-carrier.wav",
+    "sha256": "74f11586b691ac75bcc6a3e64fd346113ce786dcd8fbb5efc606ea680746701c"
+  },
+  "targetOwnerReference": {
+    "path": "03-script-voice/runs/owner-voice-refresh-20260807/owner-timbre-reference.wav",
+    "sha256": "00607c45de6bab30c37b353d3a7141fd5d65e88315279c6a00d4012e596e9914"
+  },
+  "rawGuide": {
+    "path": "03-script-voice/voice-clone/profiles/qwen-f4-reference-guide-v2/provenance/reference-guide-raw.wav",
+    "sha256": "4745e0730eadfe0fe3d113c14780d3da2886a6a62cfe114e72d508ec62dbc32e"
+  },
+  "finalGuide": {
+    "path": "03-script-voice/voice-clone/profiles/qwen-f4-reference-guide-v2/prompt-bank/assets/reference-guide.wav",
+    "sha256": "371ef34322274f681f3e5c07c317b144bb4baea66155e312c1c52f53bbb19b6d",
+    "durationSeconds": 10.76
+  },
+  "identityPolicy": "Instagram carrier supplies delivery only; final guide target speaker is the owner recording."
+}

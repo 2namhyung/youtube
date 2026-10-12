@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "motion-tool-learning-v4-official-reference-admission",
+  "title": "Official reference admission for layout-aware motion learning v4",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "referenceId", "toolId", "origin", "license", "artifact", "renderEvidence", "admission"],
+  "properties": {
+    "schema": {"const": "motion-tool-official-reference-v4"},
+    "referenceId": {"type": "string", "minLength": 1},
+    "toolId": {"enum": ["gsap-html-v1", "motion-canvas-v1", "canvas-d3-v1", "lottie-web-v1", "dotlottie-web-v1", "ffmpeg-layer-keyframes-v1"]},
+    "origin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["officialRepository", "sourceCommit", "sourceUrl", "packageName", "packageVersion", "packageTarballUrl", "packageIntegrity"],
+      "properties": {
+        "officialRepository": {"type": "string", "pattern": "^https://"},
+        "sourceCommit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "sourceUrl": {"type": "string", "pattern": "^https://.*[0-9a-f]{40}.*"},
+        "packageName": {"type": ["string", "null"]},
+        "packageVersion": {"type": ["string", "null"]},
+        "packageTarballUrl": {"type": ["string", "null"]},
+        "packageIntegrity": {"type": ["string", "null"]}
+      }
+    },
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["spdxOrExactLabel", "artifactFile", "artifactSha256", "sourceUrl", "reviewStatus"],
+      "properties": {
+        "spdxOrExactLabel": {"type": "string", "minLength": 1},
+        "artifactFile": {"type": "string", "minLength": 1},
+        "artifactSha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "sourceUrl": {"type": "string", "pattern": "^https://"},
+        "reviewStatus": {"const": "approved-for-reference-measurement-and-comparison"}
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "sha256", "bytes", "mediaType", "physicalNonSymlink", "containedRealpath"],
+      "properties": {
+        "file": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "bytes": {"type": "integer", "minimum": 1},
+        "mediaType": {"enum": ["video/mp4", "video/webm", "image/png", "image/jpeg", "image/gif"]},
+        "physicalNonSymlink": {"const": true},
+        "containedRealpath": {"const": true}
+      }
+    },
+    "renderEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "officialPreRenderedPixels", "sourceCodeExecuted"],
+      "properties": {
+        "kind": {"enum": ["official-pre-rendered-video", "official-pre-rendered-image-sequence"]},
+        "officialPreRenderedPixels": {"const": true},
+        "sourceCodeExecuted": {"const": false}
+      }
+    },
+    "admission": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "blockers"],
+      "properties": {
+        "status": {"const": "admitted"},
+        "blockers": {"type": "array", "maxItems": 0}
+      }
+    }
+  }
+}

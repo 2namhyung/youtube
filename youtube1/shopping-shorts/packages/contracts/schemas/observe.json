@@ -1,0 +1,151 @@
+{
+  "$defs": {
+    "Attestation": {
+      "additionalProperties": false,
+      "properties": {
+        "actor": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Actor",
+          "type": "string"
+        },
+        "model": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Model",
+          "type": "string"
+        },
+        "surface": {
+          "enum": [
+            "chrome-use",
+            "computer-use",
+            "manual",
+            "fixture",
+            "youtube-data-api"
+          ],
+          "title": "Surface",
+          "type": "string"
+        },
+        "receipt_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Receipt Ids",
+          "type": "array"
+        },
+        "notes": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Notes",
+          "type": "string"
+        }
+      },
+      "required": [
+        "actor",
+        "model",
+        "surface",
+        "receipt_ids",
+        "notes"
+      ],
+      "title": "Attestation",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "shot_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,100}$",
+      "title": "Shot Id",
+      "type": "string"
+    },
+    "description": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Description",
+      "type": "string"
+    },
+    "action": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Action",
+      "type": "string"
+    },
+    "usage_role": {
+      "enum": [
+        "EXACT_PRODUCT",
+        "STORY_BROLL",
+        "GRAPHIC"
+      ],
+      "title": "Usage Role",
+      "type": "string"
+    },
+    "product_model": {
+      "title": "Product Model",
+      "type": "string"
+    },
+    "product_variant": {
+      "title": "Product Variant",
+      "type": "string"
+    },
+    "product_match": {
+      "enum": [
+        "same_model_same_variant",
+        "different",
+        "insufficient",
+        "not_applicable"
+      ],
+      "title": "Product Match",
+      "type": "string"
+    },
+    "clear": {
+      "title": "Clear",
+      "type": "boolean"
+    },
+    "uncertain": {
+      "title": "Uncertain",
+      "type": "boolean"
+    },
+    "start_frame": {
+      "minimum": 0,
+      "title": "Start Frame",
+      "type": "integer"
+    },
+    "end_frame": {
+      "exclusiveMinimum": 0,
+      "title": "End Frame",
+      "type": "integer"
+    },
+    "frame_ids": {
+      "items": {
+        "pattern": "^[A-Za-z0-9_-]{1,100}$",
+        "type": "string"
+      },
+      "maxItems": 60,
+      "minItems": 3,
+      "title": "Frame Ids",
+      "type": "array"
+    },
+    "attestation": {
+      "$ref": "#/$defs/Attestation"
+    }
+  },
+  "required": [
+    "shot_id",
+    "description",
+    "action",
+    "usage_role",
+    "product_model",
+    "product_variant",
+    "product_match",
+    "clear",
+    "uncertain",
+    "start_frame",
+    "end_frame",
+    "frame_ids",
+    "attestation"
+  ],
+  "title": "ShotObservation",
+  "type": "object"
+}

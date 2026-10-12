@@ -1,0 +1,57 @@
+{
+  "schema_id": "private-motion-study-comparison-difference-v1",
+  "reference_id": "wsj-hormuz-vertical",
+  "study_id": "wsj-hormuz-motion-study-v1",
+  "copyright_policy": "Numeric/text comparison only; no reference frames, audio or source pixels retained.",
+  "geometry": {
+    "reference_review_frame": {"width": 202, "height": 360, "aspect_ratio": 0.561111},
+    "study_frame": {"width": 1080, "height": 1920, "aspect_ratio": 0.5625},
+    "aspect_ratio_absolute_delta": 0.001389,
+    "study_side_gutter_px": 72,
+    "study_caption_safe_band_y": [1320, 1580],
+    "reference_geometry_confidence": "medium: inferred from dense low-resolution frames"
+  },
+  "timing": {
+    "reference_duration_s": 174.82,
+    "study_duration_s": 25.0,
+    "reference_change_point_count": 25,
+    "study_beat_count": 6,
+    "study_fps": 24,
+    "study_frame_count": 600,
+    "reference_observed_mechanics": [
+      {"mechanic":"incident hook / source crop","reference_interval_s":[0,19.85],"study_interval_s":[0,3.5],"delta_s":-16.35},
+      {"mechanic":"map state and route reveal","reference_interval_s":[19.85,39.46],"study_interval_s":[3.5,8.0],"delta_s":-15.11},
+      {"mechanic":"stacked source panels / wipe","reference_interval_s":[62.44,86.63],"study_interval_s":[8.0,12.0],"delta_s":-20.19},
+      {"mechanic":"source chip/lower-third hold","reference_interval_s":[100.0,134.26],"study_interval_s":[16.5,21.0],"delta_s":-29.76},
+      {"mechanic":"multi-route return test","reference_interval_s":[134.26,166.5],"study_interval_s":[12.0,16.5],"delta_s":-27.74}
+    ],
+    "timing_confidence": "medium: reference intervals are shot-ledger observations, not frame-accurate editorial exports"
+  },
+  "mechanical_proximity_scores_0_to_100": {
+    "motion_timing": {"score": 78, "basis": "Study preserves short hook/map/panel/hold/return phases and ease-out route reveals, but compresses a 174.82s reference into 25s."},
+    "shot_density": {"score": 72, "basis": "Six study beats retain the observed macro rhythm; the reference has substantially more source changes and presenter returns."},
+    "layer_composition": {"score": 84, "basis": "Both use a persistent vertical rail, map/panel/card layers and source chips; study intentionally removes branded marks and footage."},
+    "typography_hierarchy": {"score": 80, "basis": "Study uses a large headline, small source metadata, caption-safe lower band and persistent private label; typeface and wording are original replacements."},
+    "map_route": {"score": 86, "basis": "Study includes dark map plate, marker, single/multiple route draws, legend-like labels and return state; geography is deliberately dummy."},
+    "source_panels": {"score": 76, "basis": "Two neutral records reproduce stacked-panel timing and wipe mechanics without satellite/thermal pixels or presenter imagery."},
+    "transitions": {"score": 82, "basis": "Directional wipe, hard-cut beat boundaries and settle timing are represented; no WSJ transition artwork is copied."},
+    "audio": {"score": 0, "basis": "Intentionally unimplemented: no reference audio was retained or inspected and study MP4 is silent."},
+    "actual_footage_presenter": {"score": 10, "basis": "Intentional replacement with neutral cards/icons; no copyrighted footage, presenter or logo is present."}
+  },
+  "overall_mechanical_proximity_score": 74,
+  "why_not_90": [
+    "The study is only a 25-second representative excerpt, while the reference is 174.82 seconds with many more shot changes.",
+    "No actual footage, presenter, satellite/thermal imagery, watermark, logo, branded palette or reference audio was retained or reproduced.",
+    "Map geometry is a dummy replacement rather than the reference geography; panel content and captions are neutral training labels.",
+    "Audio timing and sound-design correspondence are intentionally absent.",
+    "Scores describe mechanics for private learning only, not visual similarity, publication readiness or evidence validity."
+  ],
+  "style_distance": {
+    "copied_brand_palette": false,
+    "copied_logo_or_watermark": false,
+    "copied_footage_or_audio": false,
+    "copied_headline_or_graphic": false,
+    "replacement_content": "neutral phone-event training sample and dummy geography",
+    "mechanics_similarity_scope": "route draw, stacked panels, lower-third/source chip, progress rail and wipe timing only"
+  }
+}

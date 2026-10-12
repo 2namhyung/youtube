@@ -1,0 +1,58 @@
+{
+  "expected": "교권보호국은 교권을 보호하는 가상의 기관입니다.",
+  "normalized_expected": "교권보호국은교권을보호하는가상의기관입니다",
+  "models": {
+    "small": {
+      "base": {
+        "transcript": "교건보호국은 교건을 보호하는 가상의 기관입니다.",
+        "normalized": "교건보호국은교건을보호하는가상의기관입니다",
+        "edits": 2,
+        "reference_characters": 21,
+        "cer": 0.09523809523809523,
+        "language_probability": 1,
+        "passes_cer_0_08": false
+      },
+      "adapter": {
+        "transcript": "교권 보호국은 교권을 보호하는 가상의 기관입니다.",
+        "normalized": "교권보호국은교권을보호하는가상의기관입니다",
+        "edits": 0,
+        "reference_characters": 21,
+        "cer": 0.0,
+        "language_probability": 1,
+        "passes_cer_0_08": true
+      }
+    },
+    "medium": {
+      "base": {
+        "transcript": "교권보호국은 교권을 보호하는 가상의 기관입니다.",
+        "normalized": "교권보호국은교권을보호하는가상의기관입니다",
+        "edits": 0,
+        "reference_characters": 21,
+        "cer": 0.0,
+        "language_probability": 1,
+        "passes_cer_0_08": true
+      },
+      "adapter": {
+        "transcript": "교건보호국은 교권을 보호하는 가상의 기관입니다.",
+        "normalized": "교건보호국은교권을보호하는가상의기관입니다",
+        "edits": 1,
+        "reference_characters": 21,
+        "cer": 0.047619047619047616,
+        "language_probability": 1,
+        "passes_cer_0_08": true
+      }
+    }
+  },
+  "gate": {
+    "adapter_both_cer_le_0_08": true
+  },
+  "comparison": {
+    "small": {
+      "adapter_minus_base_cer": -0.09523809523809523
+    },
+    "medium": {
+      "adapter_minus_base_cer": 0.047619047619047616
+    }
+  },
+  "status": "pass"
+}

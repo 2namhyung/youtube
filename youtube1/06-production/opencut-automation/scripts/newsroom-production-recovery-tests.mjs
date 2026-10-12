@@ -1,0 +1,43 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+import { loadEditorialCartoonAuthority, loadVisualAuthority } from './editorial-cartoon-authority.mjs';
+import { normalizeApprovedHeadline, normalizeApprovedOwnerVoice, productionAuthorityHash } from './newsroom-production-orchestration.mjs';
+import { createProductionReconciliation, verifyProductionReconciliation } from './newsroom-production-reconciliation.mjs';
+
+const owner = { approved: true, profileId: 'owner-voice-v1', profileSha256: 'e1fbc1dc0d482cd9fa52b5fe63b545a30858b40602782cf9c9f7f2f2b5b08ff7' };
+const headline = { approved: true, line1: '경찰 아버지가', line2: '부순 휴대전화' };
+const defaultAuthority = loadEditorialCartoonAuthority(); const selectedAuthority = loadVisualAuthority('paper-cut-grok-storyboard-v2');
+assert.equal(defaultAuthority.templateId, 'paper-cut-grok-storyboard-v2');
+assert.equal(defaultAuthority.format, 'layered-paper-cutout-color-storyboard');
+assert.deepEqual(defaultAuthority, selectedAuthority);
+assert.equal(selectedAuthority.animation.generator, 'grok-color-storyboard-i2v');
+assert.equal(selectedAuthority.animation.generativeVideoAllowed, true);
+assert.equal(selectedAuthority.animation.providerInput, 'exactly-one-approved-color-storyboard');
+assert.match(selectedAuthority.style.description, /fibrous paper-cut/u); assert.ok(selectedAuthority.style.avoid.includes('readable text'));
+
+assert.deepEqual(normalizeApprovedHeadline(headline), { schema: 'approved-two-line-headline-v1', ...headline, line1FontSize: 120, line2FontSize: 143, safeWidth: 920 });
+assert.throws(() => normalizeApprovedHeadline({ approved: true, line1: '가'.repeat(20), line2: '나' }), /920px/u);
+const config = { ownerVoiceProfile: { profileId: 'owner-voice-v1', profileSha256: owner.profileSha256 }, templateId: 'paper-cut-grok-storyboard-v2' };
+assert.equal(normalizeApprovedOwnerVoice(owner, config).profileSha256, owner.profileSha256);
+assert.throws(() => normalizeApprovedOwnerVoice({ ...owner, profileSha256: '0'.repeat(64) }, config), /does not match/u);
+const sections = Object.fromEntries(['hook', 'incident', 'timeline', 'frustrating', 'solution', 'legal', 'confirmation'].map((key) => [key, key]));
+const authorityInput = { slug: 'research-6b1a8af9b4143acb', title: 'story-title', selectedDraftId: 'empathy', sections, researchSnapshot: {}, legalReport: {}, headline, ownerVoiceAuthority: owner, visualAuthorityId: 'paper-cut-grok-storyboard-v2', productionConfig: { ...config, editorialCartoonAuthority: selectedAuthority, agentVideoDesignWorkflow: true } };
+assert.throws(() => productionAuthorityHash(authorityInput), /Storyline canonical approval/u, 'production authority must fail closed before the two-stage artifacts exist');
+
+const root = await fs.mkdtemp(path.join(os.tmpdir(), 'newsroom-reconcile-')); const slug = 'research-6b1a8af9b4143acb';
+const workflowJob = `production-${'2'.repeat(40)}`; const registryJob = `production-${'9'.repeat(40)}`;
+await fs.mkdir(path.join(root, 'production', 'newsroom', 'projects'), { recursive: true }); await fs.mkdir(path.join(root, 'out', 'newsroom', 'jobs'), { recursive: true });
+const workflow = { slug, draft: { selectedDraftId: 'empathy', sections }, stages: { '04': { orchestrationJobId: workflowJob } }, productionOrchestration: { jobId: workflowJob, authorityHash: 'a'.repeat(64) } };
+const registry = { version: 1, projects: [{ slug, title: 'story', stages: { '04': { orchestrationJobId: registryJob } }, productionOrchestration: { jobId: registryJob, authorityHash: 'b'.repeat(64) } }] };
+await fs.writeFile(path.join(root, 'production', 'newsroom', 'projects', `${slug}.workflow.json`), `${JSON.stringify(workflow)}\n`); await fs.writeFile(path.join(root, 'out', 'newsroom', 'project-registry.json'), `${JSON.stringify(registry)}\n`);
+const beforeJobs = await fs.readdir(path.join(root, 'out', 'newsroom', 'jobs'));
+const created = await createProductionReconciliation({ slug, headline, ownerVoiceAuthority: owner, visualAuthorityId: 'paper-cut-grok-storyboard-v2', root, now: '2026-08-11T00:00:00.000Z' });
+assert.equal(created.artifact.workflow.jobId, workflowJob); assert.equal(created.artifact.registry.jobId, registryJob); assert.deepEqual(created.artifact.missingJobs.map((item) => item.jobId), [workflowJob, registryJob]);
+await verifyProductionReconciliation(created.artifact, { root });
+assert.deepEqual(await fs.readdir(path.join(root, 'out', 'newsroom', 'jobs')), beforeJobs, 'reconciliation must not mutate old jobs');
+await fs.writeFile(path.join(root, 'out', 'newsroom', 'project-registry.json'), `${JSON.stringify({ ...registry, updatedAt: 'changed' })}\n`);
+await assert.rejects(verifyProductionReconciliation(created.artifact, { root }), /source files changed/u);
+await fs.rm(root, { recursive: true, force: true });
+console.log('newsroom production recovery tests passed');

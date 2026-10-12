@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.youtube.invalid/schemas/owner-voice-profile.schema.json",
+  "title": "Owner voice production profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "profileId",
+    "status",
+    "productionEligible",
+    "ownerVoice",
+    "modelRoute",
+    "model",
+    "admissionLedger",
+    "ownerTimbreCore",
+    "sourceAudit",
+    "defaultStyle",
+    "styles",
+    "generationContract",
+    "validation"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "profileId": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["candidate", "validation-passed", "rejected"] },
+    "productionEligible": { "type": "boolean" },
+    "ownerVoice": { "const": true },
+    "modelRoute": { "enum": ["versioned-prompt-bank-profile-no-sft", "versioned-custom-model"] },
+    "model": {
+      "type": "object",
+      "required": ["id", "revision", "precision", "loraAllowed", "adapterAllowed", "fallbackAllowed"],
+      "properties": {
+        "id": { "type": "string" },
+        "revision": { "type": "string", "pattern": "^[a-f0-9]{40}$" },
+        "precision": { "type": "string" },
+        "loraAllowed": { "const": false },
+        "adapterAllowed": { "const": false },
+        "fallbackAllowed": { "const": false }
+      }
+    },
+    "admissionLedger": { "$ref": "#/$defs/hashedArtifact" },
+    "ownerTimbreCore": { "type": "object" },
+    "sourceAudit": { "$ref": "#/$defs/hashedArtifact" },
+    "defaultStyle": { "type": "string" },
+    "styles": {
+      "type": "object",
+      "required": ["hook", "news_exposition", "tension", "legal_explanation", "viewer_question", "closing"],
+      "properties": {
+        "hook": { "$ref": "#/$defs/style" },
+        "news_exposition": { "$ref": "#/$defs/style" },
+        "tension": { "$ref": "#/$defs/style" },
+        "legal_explanation": { "$ref": "#/$defs/style" },
+        "viewer_question": { "$ref": "#/$defs/style" },
+        "closing": { "$ref": "#/$defs/style" }
+      }
+    },
+    "generationContract": {
+      "type": "object",
+      "required": ["targetUnit", "phraseIsolationAllowed", "directOwnerTargetSpansAllowedOnlyWithExactAlignment", "fixedPauseSeconds", "pausePolicy"],
+      "properties": {
+        "targetUnit": { "const": "natural-sentence-or-semantic-paragraph" },
+        "phraseIsolationAllowed": { "const": false },
+        "directOwnerTargetSpansAllowedOnlyWithExactAlignment": { "const": true },
+        "fixedPauseSeconds": { "type": "null" },
+        "pausePolicy": { "type": "string", "minLength": 1 }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "required": ["status", "admissionLedger", "guideAudit", "heldOutNurseParagraph", "humanAuditableAudio", "humanListeningRequiredForFinalVideo"],
+      "properties": {
+        "status": { "const": "passed" },
+        "admissionLedger": { "$ref": "#/$defs/hashedArtifact" },
+        "guideAudit": { "type": "object" },
+        "heldOutNurseParagraph": { "type": "object" },
+        "humanAuditableAudio": { "type": "array", "minItems": 7 },
+        "humanListeningRequiredForFinalVideo": { "const": true }
+      }
+    }
+  },
+  "$defs": {
+    "hashedArtifact": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    },
+    "style": {
+      "type": "object",
+      "required": ["role", "audio", "sha256", "transcript", "source", "ownerVoice"],
+      "properties": {
+        "role": { "type": "string" },
+        "audio": { "type": "string" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "transcript": { "type": "string", "minLength": 1 },
+        "source": { "type": "string", "minLength": 1 },
+        "ownerVoice": { "const": true },
+        "thirdPartyAudio": { "const": false },
+        "thirdPartySpeakerIdentityRetained": { "const": false },
+        "directTargetSplicingAllowed": { "const": false }
+      }
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "manifestId": "jeju-school-intrusion-v16-style-audition",
+  "version": 16,
+  "purpose": "Controlled five-style audition on one fixed 10.266667-second source window.",
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 308,
+    "durationSeconds": 10.266666666666667
+  },
+  "sourceWindow": {
+    "sourceStartFrame": 165,
+    "sourceEndFrameExclusive": 473,
+    "sourceStartSeconds": 5.5,
+    "sourceEndSeconds": 15.766666666666667,
+    "frameCount": 308,
+    "scenes": [
+      {
+        "id": "scene-04-school-exterior",
+        "sourceScene": 4,
+        "startFrame": 165,
+        "endFrame": 213,
+        "frames": 48,
+        "durationSeconds": 1.6
+      },
+      {
+        "id": "scene-05-threshold",
+        "sourceScene": 5,
+        "startFrame": 213,
+        "endFrame": 268,
+        "frames": 55,
+        "durationSeconds": 1.8333333333333333
+      },
+      {
+        "id": "scene-06-next-morning-discovery",
+        "sourceScene": 6,
+        "startFrame": 268,
+        "endFrame": 326,
+        "frames": 58,
+        "durationSeconds": 1.9333333333333333
+      },
+      {
+        "id": "scene-07-tumbler",
+        "sourceScene": 7,
+        "startFrame": 326,
+        "endFrame": 385,
+        "frames": 59,
+        "durationSeconds": 1.9666666666666666
+      },
+      {
+        "id": "scene-08-tumbler-interior",
+        "sourceScene": 8,
+        "startFrame": 385,
+        "endFrame": 428,
+        "frames": 43,
+        "durationSeconds": 1.4333333333333333
+      },
+      {
+        "id": "scene-09-classroom-aisle",
+        "sourceScene": 9,
+        "startFrame": 428,
+        "endFrame": 473,
+        "frames": 45,
+        "durationSeconds": 1.5
+      }
+    ]
+  },
+  "transitionContract": {
+    "mode": "media-only",
+    "frameAccounting": "preserve-scene-sum",
+    "boundaries": [
+      {
+        "from": 5,
+        "to": 6,
+        "type": "dip-to-black",
+        "frames": 6,
+        "notes": "last 3 frames fade out; first 3 frames fade in; overlays remain fixed"
+      }
+    ]
+  },
+  "commonInvariants": {
+    "independentVariable": "visual style only",
+    "locked": [
+      "narration/audio",
+      "BGM",
+      "title",
+      "white-on-black captions",
+      "AI disclosure",
+      "scene frame timing",
+      "1080x1920 canvas",
+      "30fps",
+      "5->6 six-frame media-only dip-to-black"
+    ],
+    "safety": [
+      "no readable text",
+      "no logos",
+      "no minors",
+      "no faces",
+      "unsupported evidence prohibited",
+      "adult teacher rear view only",
+      "fictional reenactment disclosure retained"
+    ]
+  },
+  "styles": [
+    {
+      "id": "realistic",
+      "label": "Realistic (v15 reference)",
+      "mode": "source-trim",
+      "sourceVideo": "out/.private/jeju-school-intrusion-short-v1-v15-transition-only/jeju-school-intrusion-short-v1-v15-transition-only-msg0z1pv-29380-dish8l.mp4",
+      "prompt": "Use the latest v15 realistic render; exact frame trim only.",
+      "scenes": [
+        {
+          "id": "scene-04-school-exterior",
+          "asset": null,
+          "placeholder": false,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-05-threshold",
+          "asset": null,
+          "placeholder": false,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-06-next-morning-discovery",
+          "asset": null,
+          "placeholder": false,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-07-tumbler",
+          "asset": null,
+          "placeholder": false,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-08-tumbler-interior",
+          "asset": null,
+          "placeholder": false,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-09-classroom-aisle",
+          "asset": null,
+          "placeholder": false,
+          "assetType": "image"
+        }
+      ]
+    },
+    {
+      "id": "editorial-cartoon",
+      "label": "Editorial cartoon",
+      "mode": "scene-assets",
+      "prompt": "Editorial newspaper cartoon, restrained ink and flat color, clear silhouettes, serious investigative tone.",
+      "scenes": [
+        {
+          "id": "scene-04-school-exterior",
+          "asset": "assets/images/v16-style-audition/editorial-cartoon/scene04-school-exterior.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-05-threshold",
+          "asset": "assets/images/v16-style-audition/editorial-cartoon/scene05-classroom-threshold.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-06-next-morning-discovery",
+          "asset": "assets/video/v16-style-audition/editorial-cartoon/scene06-next-morning-discovery.mp4",
+          "placeholder": false,
+          "assetType": "motion-video"
+        },
+        {
+          "id": "scene-07-tumbler",
+          "asset": "assets/images/v16-style-audition/editorial-cartoon/scene07-tumbler.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-08-tumbler-interior",
+          "asset": "assets/images/v16-style-audition/editorial-cartoon/scene08-tumbler-interior.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-09-classroom-aisle",
+          "asset": "assets/images/v16-style-audition/editorial-cartoon/scene09-classroom-aisle.png",
+          "placeholder": true,
+          "assetType": "image"
+        }
+      ]
+    },
+    {
+      "id": "premium-3d",
+      "label": "Premium 3D",
+      "mode": "scene-assets",
+      "prompt": "Premium stylized 3D illustration, soft cinematic materials, controlled depth of field, no toy-like exaggeration.",
+      "scenes": [
+        {
+          "id": "scene-04-school-exterior",
+          "asset": "assets/images/v16-style-audition/premium-3d/scene04-school-exterior.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-05-threshold",
+          "asset": "assets/images/v16-style-audition/premium-3d/scene05-classroom-threshold.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-06-next-morning-discovery",
+          "asset": "assets/video/v16-style-audition/premium-3d/scene06-next-morning-discovery.mp4",
+          "placeholder": false,
+          "assetType": "motion-video"
+        },
+        {
+          "id": "scene-07-tumbler",
+          "asset": "assets/images/v16-style-audition/premium-3d/scene07-tumbler.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-08-tumbler-interior",
+          "asset": "assets/images/v16-style-audition/premium-3d/scene08-tumbler-interior.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-09-classroom-aisle",
+          "asset": "assets/images/v16-style-audition/premium-3d/scene09-classroom-aisle.png",
+          "placeholder": true,
+          "assetType": "image"
+        }
+      ]
+    },
+    {
+      "id": "cinematic-webtoon",
+      "label": "Cinematic webtoon",
+      "mode": "scene-assets",
+      "prompt": "Cinematic Korean webtoon panels, clean linework, dramatic but restrained lighting, adult rear-view teacher only.",
+      "scenes": [
+        {
+          "id": "scene-04-school-exterior",
+          "asset": "assets/images/v16-style-audition/cinematic-webtoon/scene04-school-exterior.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-05-threshold",
+          "asset": "assets/images/v16-style-audition/cinematic-webtoon/scene05-classroom-threshold.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-06-next-morning-discovery",
+          "asset": "assets/video/v16-style-audition/cinematic-webtoon/scene06-next-morning-discovery.mp4",
+          "placeholder": false,
+          "assetType": "motion-video"
+        },
+        {
+          "id": "scene-07-tumbler",
+          "asset": "assets/images/v16-style-audition/cinematic-webtoon/scene07-tumbler.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-08-tumbler-interior",
+          "asset": "assets/images/v16-style-audition/cinematic-webtoon/scene08-tumbler-interior.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-09-classroom-aisle",
+          "asset": "assets/images/v16-style-audition/cinematic-webtoon/scene09-classroom-aisle.png",
+          "placeholder": true,
+          "assetType": "image"
+        }
+      ]
+    },
+    {
+      "id": "paper-collage",
+      "label": "Paper collage",
+      "mode": "scene-assets",
+      "prompt": "Tactile paper collage with layered cut paper, documentary evidence-board mood, legible shapes without text.",
+      "scenes": [
+        {
+          "id": "scene-04-school-exterior",
+          "asset": "assets/images/v16-style-audition/paper-collage/scene04-school-exterior.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-05-threshold",
+          "asset": "assets/images/v16-style-audition/paper-collage/scene05-classroom-threshold.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-06-next-morning-discovery",
+          "asset": "assets/video/v16-style-audition/paper-collage/scene06-next-morning-discovery.mp4",
+          "placeholder": false,
+          "assetType": "motion-video"
+        },
+        {
+          "id": "scene-07-tumbler",
+          "asset": "assets/images/v16-style-audition/paper-collage/scene07-tumbler.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-08-tumbler-interior",
+          "asset": "assets/images/v16-style-audition/paper-collage/scene08-tumbler-interior.png",
+          "placeholder": true,
+          "assetType": "image"
+        },
+        {
+          "id": "scene-09-classroom-aisle",
+          "asset": "assets/images/v16-style-audition/paper-collage/scene09-classroom-aisle.png",
+          "placeholder": true,
+          "assetType": "image"
+        }
+      ]
+    }
+  ],
+  "render": {
+    "assembler": "scripts/assemble-v16-style-audition.mjs",
+    "audioSource": "out/.private/jeju-school-intrusion-short-v1-v15-transition-only/jeju-school-intrusion-short-v1-v15-transition-only-msg0z1pv-29380-dish8l.mp4",
+    "overlays": "locked from v15; media-only replacement"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "cacheSchema": 3,
+  "audioPolicy": "leading-trim-100ms-tail-pad-v1",
+  "alignmentPolicy": "word-dp-critical-exact-v2",
+  "synthesisPolicy": "canonical-syllables-punctuation-microsegment-v3",
+  "duration": 4.4995918367346945,
+  "wavSha256": "f490a9c7732d786938f6bc5f75e3f42aadd52574ddb3c6bbb1586305b112e02b",
+  "acceptance": {
+    "seed": 20278726,
+    "attempt": 1,
+    "leadingTrimSeconds": 0,
+    "validator": "cached-per-microsegment-exact-asr",
+    "microSegments": [
+      {
+        "originalText": "하지만 수사 상황 통지와",
+        "synthesisText": "하지만 수사 상황 통지와",
+        "variant": 1,
+        "seed": 20278726,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-small"
+      },
+      {
+        "originalText": "피해자 보호는",
+        "synthesisText": "피해자 보호는",
+        "variant": 1,
+        "seed": 20278743,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-small"
+      },
+      {
+        "originalText": "필요하지 않을까요?",
+        "synthesisText": "필요하지 않을까요?",
+        "variant": 1,
+        "seed": 20278760,
+        "untimedExactTranscript": false,
+        "validator": "faster-whisper-small"
+      }
+    ],
+    "microSegmentPauseSeconds": 0.16
+  }
+}

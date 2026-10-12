@@ -1,0 +1,433 @@
+{
+  "schema": "reference-reverse-measurement-v2",
+  "createdAt": "2026-09-23T06:52:48.063398+00:00",
+  "source": {
+    "url": "https://youtube.com/shorts/VQazcEuV9Xw?si=ItY8QKfQsT2nwNzT",
+    "path": "C:\\Users\\User\\Desktop\\app\\youtube\\production-studio\\research\\reference-reverse-v1\\source\\VQazcEuV9Xw.mp4",
+    "sha256": "595b1403ba99c1f8899c761b21564cbb15da7b8d4ee55ed929df8364fdcbcdc4",
+    "bytes": 2010644,
+    "analysisOnly": true,
+    "reuseLicenseVerified": false
+  },
+  "measured": {
+    "durationSeconds": 48.854,
+    "width": 360,
+    "height": 640,
+    "avgFrameRate": "30000/1001",
+    "fps": 29.97002997002997,
+    "frameCount": "1464",
+    "roi": {
+      "x": 0,
+      "y": 170,
+      "width": 360,
+      "height": 270
+    }
+  },
+  "sceneDetection": {
+    "threshold": 0.18,
+    "candidateCount": 20,
+    "log": "C:\\Users\\User\\Desktop\\app\\youtube\\production-studio\\research\\reference-reverse-v2\\measurements\\ffmpeg-scene-score.log"
+  },
+  "script": {
+    "path": "C:\\Users\\User\\Desktop\\app\\youtube\\production-studio\\research\\reference-reverse-v2\\measure.py",
+    "sha256": "84c1fe6653e6fb919b409c1aeda8966a5d80e392b3a7c8b14929da35e0d09135"
+  },
+  "files": [
+    {
+      "path": "measure.py",
+      "bytes": 18560,
+      "sha256": "84c1fe6653e6fb919b409c1aeda8966a5d80e392b3a7c8b14929da35e0d09135"
+    },
+    {
+      "path": "evidence/candidate-before-after-01.png",
+      "bytes": 1506244,
+      "sha256": "bd04b349ffb57c30a43e700745fd30a966c8a9aba4e90bda279f69f23d2d43de"
+    },
+    {
+      "path": "evidence/candidate-before-after-02.png",
+      "bytes": 345083,
+      "sha256": "5b618a2d8fb1cd1f78f3e5b4977826d7d279eb27cf90cdcca5839f35f83a6182"
+    },
+    {
+      "path": "evidence/candidates/candidate-01-after.png",
+      "bytes": 84629,
+      "sha256": "c503b03bd68a3e3cec0d2c8147955f72de0d3503f92b36371eb1eb3009a43dd0"
+    },
+    {
+      "path": "evidence/candidates/candidate-01-before.png",
+      "bytes": 9113,
+      "sha256": "6024207ddfc568cc84f78fce9c13bc135c61128cd5e3e63ec480a6b70b4399c3"
+    },
+    {
+      "path": "evidence/candidates/candidate-01-center.png",
+      "bytes": 83171,
+      "sha256": "9d4ea29ced7e602d4e9bf12e3694dd326ce0e4ff880bbcc4c44e7ae73a9c4df1"
+    },
+    {
+      "path": "evidence/candidates/candidate-02-after.png",
+      "bytes": 90163,
+      "sha256": "d8e447e841f424e01df89815935b58f35ac6016c0d58e6c284c8645a422b906f"
+    },
+    {
+      "path": "evidence/candidates/candidate-02-before.png",
+      "bytes": 72172,
+      "sha256": "e9a5767603e56bfd58e3de0065d0eb5147798392c579348e9bf3ce5964bc97da"
+    },
+    {
+      "path": "evidence/candidates/candidate-02-center.png",
+      "bytes": 90204,
+      "sha256": "390e7e8c14a698d23c39d2c4b896815ba28249769b8af60c0eb4259c883cefdb"
+    },
+    {
+      "path": "evidence/candidates/candidate-03-after.png",
+      "bytes": 66540,
+      "sha256": "57873563350ccd2acd7441b6d2e456bc57171f1f20f2a56a643f82be935315ce"
+    },
+    {
+      "path": "evidence/candidates/candidate-03-before.png",
+      "bytes": 100706,
+      "sha256": "450bdad8136cd64f8fa9f698d7420c8c8132df3a1c69aafd3a818c44c87323a5"
+    },
+    {
+      "path": "evidence/candidates/candidate-03-center.png",
+      "bytes": 66555,
+      "sha256": "3790f1b0444c4d8d3d282feb922c7f923496c9190da293a91b33022fc4799692"
+    },
+    {
+      "path": "evidence/candidates/candidate-04-after.png",
+      "bytes": 116062,
+      "sha256": "eec95f8bb9e7e051b7983b0f3833c7b9230279d66d29c2c9fd0c17fe31b7e54e"
+    },
+    {
+      "path": "evidence/candidates/candidate-04-before.png",
+      "bytes": 76910,
+      "sha256": "d6da18e128382b857a5123eb171d6cb7304740a94d155b05b17c3bb21b6f3b5b"
+    },
+    {
+      "path": "evidence/candidates/candidate-04-center.png",
+      "bytes": 116344,
+      "sha256": "325b2810af86e953cbf9cca610f831ac5104806a7ee1c2960d4c321ed12d08dd"
+    },
+    {
+      "path": "evidence/candidates/candidate-05-after.png",
+      "bytes": 59098,
+      "sha256": "121c7e44ac8363a72e1841ea3530c688914c27dcc7e6c6ec53a89e97e811a73b"
+    },
+    {
+      "path": "evidence/candidates/candidate-05-before.png",
+      "bytes": 107961,
+      "sha256": "0eeb00ff8ef790b8c8f6e46372c7ecc869845aa7bba7ee98bc11254118b1e4cd"
+    },
+    {
+      "path": "evidence/candidates/candidate-05-center.png",
+      "bytes": 58699,
+      "sha256": "36eabfe0c15e7776e1760a2768740c9939e90201366d83aa430faf22da95b2b2"
+    },
+    {
+      "path": "evidence/candidates/candidate-06-after.png",
+      "bytes": 95290,
+      "sha256": "99983dc72da7cd43a4cbba47512d0d3ab444978437417e7b0f6d225c0aa9bed3"
+    },
+    {
+      "path": "evidence/candidates/candidate-06-before.png",
+      "bytes": 83674,
+      "sha256": "49cfee8c54e22e42fbddc20b5b939f9f324e0ac028bedd284ba0e7cf92864444"
+    },
+    {
+      "path": "evidence/candidates/candidate-06-center.png",
+      "bytes": 95466,
+      "sha256": "f3d05ecebe5b7d97f3eb789e96c91b7571743c93f16e1c86c60ad3bcae277779"
+    },
+    {
+      "path": "evidence/candidates/candidate-07-after.png",
+      "bytes": 64081,
+      "sha256": "1228920035ec60a4650850390808768b8cd4dc221601942273b0e43ee4d3ffe7"
+    },
+    {
+      "path": "evidence/candidates/candidate-07-before.png",
+      "bytes": 102799,
+      "sha256": "c1bc57e241b7d7d7962ec66c92b84ac7b64985cdfffa5a6f0c72caaee985f583"
+    },
+    {
+      "path": "evidence/candidates/candidate-07-center.png",
+      "bytes": 64192,
+      "sha256": "a9c2a96cd58119add18d675e9830e8b9a4d1376fed352c5bb3cb09958bdf4419"
+    },
+    {
+      "path": "evidence/candidates/candidate-08-after.png",
+      "bytes": 266400,
+      "sha256": "aa778f214830c25616150ee32eeae11114691b856137ab36616e82757bfb037d"
+    },
+    {
+      "path": "evidence/candidates/candidate-08-before.png",
+      "bytes": 64839,
+      "sha256": "6c531ba5dedb9e725d632988033c85c7a6b944d1c1adaf027415e3405fec243c"
+    },
+    {
+      "path": "evidence/candidates/candidate-08-center.png",
+      "bytes": 266232,
+      "sha256": "0e5cbac3c05b17e63101fae084495f016027f542c2f120402fa69da6663cd47f"
+    },
+    {
+      "path": "evidence/candidates/candidate-09-after.png",
+      "bytes": 87151,
+      "sha256": "4d0b1ed31c736f2b61b1e8536e248cfc0a74f027ad3695ec583a5355b378e757"
+    },
+    {
+      "path": "evidence/candidates/candidate-09-before.png",
+      "bytes": 265645,
+      "sha256": "5dfd52ee069e3d3bc5ba5195e8a9529f6be59ac11522523f7371b315513627c3"
+    },
+    {
+      "path": "evidence/candidates/candidate-09-center.png",
+      "bytes": 86308,
+      "sha256": "ca71db5824c9e5f0158e4069ac429b2f00f443d96d1ec0fb8056f4db1e92fe27"
+    },
+    {
+      "path": "evidence/candidates/candidate-10-after.png",
+      "bytes": 118319,
+      "sha256": "364d41fa39d32282cfaf7cac9cc447e3ad34941d1185d52ee825059ba2eae487"
+    },
+    {
+      "path": "evidence/candidates/candidate-10-before.png",
+      "bytes": 115581,
+      "sha256": "f0bcaf82a12067b2a5640069b3dbf87e175986a0829e0309fd9ff228cf1448c3"
+    },
+    {
+      "path": "evidence/candidates/candidate-10-center.png",
+      "bytes": 115869,
+      "sha256": "9dca6d178affa16fbc4b05fcfb4c1cf682cdf36a6ce299a9a9e85b940fc9d102"
+    },
+    {
+      "path": "evidence/candidates/candidate-11-after.png",
+      "bytes": 114813,
+      "sha256": "cbb87dec138b29084decc6746f43d90c730f701ab663b5e3986c2c654c96b26b"
+    },
+    {
+      "path": "evidence/candidates/candidate-11-before.png",
+      "bytes": 114967,
+      "sha256": "46df86bd33b0c95579560f8f65f37d2bdd37501815f2a2055a42da4c31430903"
+    },
+    {
+      "path": "evidence/candidates/candidate-11-center.png",
+      "bytes": 112262,
+      "sha256": "6b8b7001a039e29ceb53f3e0c5c11c88576dd2e4927045ccfa26c2a6526860c6"
+    },
+    {
+      "path": "evidence/candidates/candidate-12-after.png",
+      "bytes": 90626,
+      "sha256": "dccf8dba2f8114acdab2d5bac1a6e2eddd7c0eae8354dd28b8dc45c4752abb7d"
+    },
+    {
+      "path": "evidence/candidates/candidate-12-before.png",
+      "bytes": 129023,
+      "sha256": "e00895c3c1e288e284704faafa6cd13e59e1cfdd7a00a74daaa8889be1152219"
+    },
+    {
+      "path": "evidence/candidates/candidate-12-center.png",
+      "bytes": 92645,
+      "sha256": "f68404e980dd4a229f296de1abb93ced2dbec6344c438f0f4aa1e06bf74cce3d"
+    },
+    {
+      "path": "evidence/candidates/candidate-13-after.png",
+      "bytes": 142085,
+      "sha256": "6feff9205d3152f97aae280c439b9769a6168b0a0eddbe3ef3a231fd20bd7161"
+    },
+    {
+      "path": "evidence/candidates/candidate-13-before.png",
+      "bytes": 89240,
+      "sha256": "a7838fc8352950a8843265c53fbf82b881cfc62c376a0b7825a6b2b3f385aa35"
+    },
+    {
+      "path": "evidence/candidates/candidate-13-center.png",
+      "bytes": 140181,
+      "sha256": "6fbeb64e87a1c0d426e75823d17f2c0492634b9e0e66e037a3390a4d84489bfe"
+    },
+    {
+      "path": "evidence/candidates/candidate-14-after.png",
+      "bytes": 45561,
+      "sha256": "ab4eccfb8c7e41c1888463242557df7ad3163d19ce0db9af9d1f98b04e7ba639"
+    },
+    {
+      "path": "evidence/candidates/candidate-14-before.png",
+      "bytes": 146615,
+      "sha256": "16b00e902e5fbdd226cbc9f188c380ea55912465e0c09e727e403510128b101b"
+    },
+    {
+      "path": "evidence/candidates/candidate-14-center.png",
+      "bytes": 43963,
+      "sha256": "bd93255d021cc46a177660cfaebf8813f0bac709917c9a35f75827806ccb72bd"
+    },
+    {
+      "path": "evidence/candidates/candidate-15-after.png",
+      "bytes": 151216,
+      "sha256": "e1760a6e156b2448e70fc0fd1518aaf102eaec335c6d4a80f564c275f4ca9013"
+    },
+    {
+      "path": "evidence/candidates/candidate-15-before.png",
+      "bytes": 80537,
+      "sha256": "d71f1d18691b06c1b161cc27aecf16232574e9fe7e209f774964b9585c7dceb4"
+    },
+    {
+      "path": "evidence/candidates/candidate-15-center.png",
+      "bytes": 151132,
+      "sha256": "66d52fd34dc199335bd94a14f9de999a17cebd909a2c9cdf83ef35be0d1b0ac0"
+    },
+    {
+      "path": "evidence/candidates/candidate-16-after.png",
+      "bytes": 70500,
+      "sha256": "54ea456ceee4afe2d4d40e0d7f45690715f6f691bec6e9b0141473a0163cb878"
+    },
+    {
+      "path": "evidence/candidates/candidate-16-before.png",
+      "bytes": 162918,
+      "sha256": "2e8ee4a1dca3cddd4827c49bba53dece4d5b8332a77baa05e451ced2ab378355"
+    },
+    {
+      "path": "evidence/candidates/candidate-16-center.png",
+      "bytes": 70490,
+      "sha256": "2ea4053a56b5eb36a8fa52a9510061733be46b5d4de81f7c7f172a6d5e08cb89"
+    },
+    {
+      "path": "evidence/candidates/candidate-17-after.png",
+      "bytes": 97987,
+      "sha256": "9ffa8cff02bd2cf6b6da14a0618694f1a85d823344b23ba2be6b4bec87a4b7db"
+    },
+    {
+      "path": "evidence/candidates/candidate-17-before.png",
+      "bytes": 71089,
+      "sha256": "034cf31960bf4f402d51d4079f6c9c4a98cce183bd9a16ce8395bf6dbe4066db"
+    },
+    {
+      "path": "evidence/candidates/candidate-17-center.png",
+      "bytes": 95604,
+      "sha256": "90c5da7c42ec85ff8024e31abc6866fa210206555e66ca0efb889ca2c872c3ab"
+    },
+    {
+      "path": "evidence/candidates/candidate-18-after.png",
+      "bytes": 78885,
+      "sha256": "32535929384bd7fc426bd00e85f5029ef1398ec5bedbb9b72656b63246897112"
+    },
+    {
+      "path": "evidence/candidates/candidate-18-before.png",
+      "bytes": 153451,
+      "sha256": "25276b810a4a80f3c299cc96e135b28f4f40122f17a8e450176256d01373acd8"
+    },
+    {
+      "path": "evidence/candidates/candidate-18-center.png",
+      "bytes": 83810,
+      "sha256": "e6063ffe3df5f2817e9083e7b4dc29b951248f77db5f41ae05a1a612e7cbc0f2"
+    },
+    {
+      "path": "evidence/candidates/candidate-19-after.png",
+      "bytes": 72947,
+      "sha256": "b77eb99d7c547b24c73be40fa3526bfe00635cd89bc5b12e953edd684394f17c"
+    },
+    {
+      "path": "evidence/candidates/candidate-19-before.png",
+      "bytes": 91300,
+      "sha256": "5ea7f100ca59e8591a215c0504a01aab60cf65ee46d0904e2fe51ce693a7df71"
+    },
+    {
+      "path": "evidence/candidates/candidate-19-center.png",
+      "bytes": 72977,
+      "sha256": "3bb012d8362496eb1754f56cfd5535de1dd8815a67425407869c4ebfe93ad6ab"
+    },
+    {
+      "path": "evidence/candidates/candidate-20-after.png",
+      "bytes": 73859,
+      "sha256": "26cdff05c0a0607b10463fb77343da69926e40b47c2c612de70077b5ee5cb230"
+    },
+    {
+      "path": "evidence/candidates/candidate-20-before.png",
+      "bytes": 73504,
+      "sha256": "41b299b155e9d99fa441454570065cf51654d3acce2bdff31fb28926192d80ea"
+    },
+    {
+      "path": "evidence/candidates/candidate-20-center.png",
+      "bytes": 73886,
+      "sha256": "1685f83a931ad9b19f47602ded67fbfc9fb19743ca0dc95d7d093d5d085ffa09"
+    },
+    {
+      "path": "evidence/full-sample-01.png",
+      "bytes": 621159,
+      "sha256": "2fdb6401dd050b687d5933339ba728c7036bdf1337d63d7f614aa6d4569a424b"
+    },
+    {
+      "path": "evidence/full-sample-02.png",
+      "bytes": 1155432,
+      "sha256": "a587ef6197705e6f5824121119fca69b1b6c1af36b0ebd2511a73e5b185dffc0"
+    },
+    {
+      "path": "evidence/full-sample-03.png",
+      "bytes": 1081989,
+      "sha256": "ce965c1351581c6d9e0347be53b9edd8da54a46958ce8725d990344b540e3253"
+    },
+    {
+      "path": "evidence/full-sample-04.png",
+      "bytes": 918498,
+      "sha256": "e3b00418400c3ce0ddf1c407a5d58f53692ca1373cbfe041f8f8bc4d41736473"
+    },
+    {
+      "path": "evidence/full-sample-05.png",
+      "bytes": 646643,
+      "sha256": "0477b95f6de43f3a5a340b6bfaaf4c30334e5f78959a9cdd81e8bb864be26c5d"
+    },
+    {
+      "path": "evidence/pose-detail-01.png",
+      "bytes": 243301,
+      "sha256": "3f831c616e675960f6b4e456270f24559bb3d04ea92bbdf3c0642c46ab771858"
+    },
+    {
+      "path": "evidence/pose-detail-02.png",
+      "bytes": 139050,
+      "sha256": "09463f8d49a4aad175b01f0203c0209fdeb56e3c7bf666bd18d01ff5030c1c9c"
+    },
+    {
+      "path": "evidence/pose-detail-03.png",
+      "bytes": 134209,
+      "sha256": "a17b6c4fcff3b7151d3b6dde3f9f2a07f788fcba3ab18276ad858affafeeeaaa"
+    },
+    {
+      "path": "evidence/pose-detail-04.png",
+      "bytes": 264623,
+      "sha256": "34ece0c2f51f9073c62b97db2d5db4623d4b5c18d5435233aa400c998be9f002"
+    },
+    {
+      "path": "evidence/pose-detail-05.png",
+      "bytes": 228296,
+      "sha256": "6c7dce9230fd958f9aeb2a97a37b82524ba52a4e2ad33da5cbc1925dcca9287d"
+    },
+    {
+      "path": "measurements/candidate-before-after.json",
+      "bytes": 16476,
+      "sha256": "9b163e800f34ba69df4f56484f1605ca6140c30786fc0c3d9fc8b38488b5a22d"
+    },
+    {
+      "path": "measurements/drone-farmer-motion.json",
+      "bytes": 28229,
+      "sha256": "d3331c6de5d8e7c043de6215f4194ee85e44dc2c3d8c2099f3bf153fb800e6a4"
+    },
+    {
+      "path": "measurements/ffmpeg-scene-score.log",
+      "bytes": 4654,
+      "sha256": "1ad9d6864737802227e7a6d4af87e00ab343f47d88e539796b06dce56b950657"
+    },
+    {
+      "path": "measurements/full-sample-frame-map.json",
+      "bytes": 11674,
+      "sha256": "8e20a90176d86375056d927725ddadf9e107976124b48d136f556ba395722d35"
+    },
+    {
+      "path": "measurements/pose-transition-candidates.json",
+      "bytes": 6355,
+      "sha256": "d9209a46ae6862452591ee59c12f2aec28e1fc39c0f83b7275eb0a76081b134b"
+    },
+    {
+      "path": "measurements/source-probe.json",
+      "bytes": 3680,
+      "sha256": "69772d9d35f2d3d016224218f155b3f9b44275a33230e472db913bcb9a4f3872"
+    }
+  ],
+  "productionAuthority": false
+}

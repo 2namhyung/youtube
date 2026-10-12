@@ -1,0 +1,14 @@
+{
+  "cacheSchema": 3,
+  "audioPolicy": "leading-trim-100ms-tail-pad-v1",
+  "alignmentPolicy": "word-dp-critical-exact-v2",
+  "synthesisPolicy": "canonical-syllables-punctuation-microsegment-v3",
+  "duration": 3.7616326530612243,
+  "wavSha256": "129e18e522324f0ad093d7739c5b015c3d73f55b6e1786d8b3ff6cf669eaa083",
+  "acceptance": {
+    "seed": 20278726,
+    "attempt": 1,
+    "leadingTrimSeconds": 0,
+    "validator": "faster-whisper-small"
+  }
+}

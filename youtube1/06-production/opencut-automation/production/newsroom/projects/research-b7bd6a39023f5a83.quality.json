@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-04T05:17:40.007Z",
+  "slug": "research-b7bd6a39023f5a83",
+  "versionId": "unrendered",
+  "status": "blocked",
+  "publishable": false,
+  "uploadBlocked": true,
+  "renderSha256": "",
+  "renderRegistrySha256": "",
+  "scriptSha256": "f93ce1be3cc63a72d67cdf3ed2b9eb5301d169f9c37b0337acdf6bb1044b6fed",
+  "renderPath": null,
+  "thumbnailPath": null,
+  "checks": [
+    {
+      "id": "script-finalized",
+      "category": "대본",
+      "label": "최종 대본이 확정됨",
+      "status": "blocked",
+      "evidence": {
+        "finalized": false,
+        "characters": 689
+      }
+    },
+    {
+      "id": "render-integrity",
+      "category": "영상",
+      "label": "완성 영상 파일과 버전이 존재함",
+      "status": "blocked",
+      "evidence": "Completed render metadata is unavailable."
+    },
+    {
+      "id": "thumbnail-integrity",
+      "category": "표지",
+      "label": "썸네일 파일이 존재함",
+      "status": "blocked",
+      "evidence": "Thumbnail metadata is unavailable."
+    },
+    {
+      "id": "editorial-verification",
+      "category": "사실",
+      "label": "추가 확인 항목 검토",
+      "status": "warning",
+      "evidence": {
+        "missing": [
+          "기사 원문 사실 확인",
+          "독립 출처 교차 검증",
+          "당사자·기관 반론",
+          "02 Context/Legal 인계 검토"
+        ]
+      }
+    },
+    {
+      "id": "human-playback-approval",
+      "category": "사람 검수",
+      "label": "최종 영상 재생 검수",
+      "status": "pending",
+      "evidence": null
+    }
+  ],
+  "blockers": [
+    {
+      "id": "script-not-finalized",
+      "reason": "03 단계에서 대본을 확정해야 합니다."
+    },
+    {
+      "id": "render-missing",
+      "reason": "06 단계의 완성 영상이 없거나 유효하지 않습니다."
+    },
+    {
+      "id": "thumbnail-missing",
+      "reason": "현재 영상과 연결된 썸네일이 필요합니다."
+    },
+    {
+      "id": "human-playback-approval-required",
+      "reason": "현재 영상과 대본을 사람이 끝까지 재생 검수해야 합니다."
+    }
+  ],
+  "warnings": [
+    {
+      "id": "verification-1",
+      "claim": "기사 원문 사실 확인"
+    },
+    {
+      "id": "verification-2",
+      "claim": "독립 출처 교차 검증"
+    },
+    {
+      "id": "verification-3",
+      "claim": "당사자·기관 반론"
+    },
+    {
+      "id": "verification-4",
+      "claim": "02 Context/Legal 인계 검토"
+    }
+  ],
+  "approval": null
+}

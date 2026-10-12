@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 1,
+  "profileId": "owner-voice-v1",
+  "status": "validation-passed",
+  "productionEligible": true,
+  "ownerVoice": true,
+  "modelRoute": "versioned-prompt-bank-profile-no-sft",
+  "model": {
+    "id": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+    "precision": "bf16",
+    "language": "Korean",
+    "loraAllowed": false,
+    "adapterAllowed": false,
+    "fallbackAllowed": false
+  },
+  "admissionLedger": {
+    "path": "03-script-voice/runs/owner-voice-v1-20260808/admission-ledger.json",
+    "sha256": "01235f818a617f82d60973d66707ff90bafcd7f2c71c37f8e633dba3ab08f077"
+  },
+  "ownerTimbreCore": {
+    "audio": "provenance/owner-timbre-core.wav",
+    "sha256": "d2796135896a360345687d45e35fdf8e64d70b48dfc84c0a394b08e5612a1ba7",
+    "sources": [
+      {
+        "file": "01_neutral.m4a",
+        "sourceSha256": "1c80e667472d2c2fc61147311a1b1a3e50ad2e1cc71f8fafcc1fb61ce4055942",
+        "spanSeconds": [
+          0.55,
+          4.75
+        ]
+      },
+      {
+        "file": "02_hook.m4a",
+        "sourceSha256": "a7dd74149b98053dc46c85b372e163604ca6dad2b948d1432464c496887326d9",
+        "spanSeconds": [
+          0.45,
+          4.65
+        ]
+      },
+      {
+        "file": "03_news.m4a",
+        "sourceSha256": "207ce3c928ce00d395ec9d12f655500b1da9e6fd9e7f16d47b6612f61e1fce23",
+        "spanSeconds": [
+          0.8,
+          5
+        ]
+      },
+      {
+        "file": "04_tension.m4a",
+        "sourceSha256": "6d6d14eb1c643f22cffe13c425539377870fd9b06a6a68e80e004c39fa23c5bb",
+        "spanSeconds": [
+          0.75,
+          4.95
+        ]
+      },
+      {
+        "file": "05_criticism.m4a",
+        "sourceSha256": "a33e567c92e9902b1816264add01dfe1ed360bc363fcc143e5f87030bb6274fc",
+        "spanSeconds": [
+          0.7,
+          4.9
+        ]
+      },
+      {
+        "file": "06_solution.m4a",
+        "sourceSha256": "17d134ce2df5c4e29e7c301eb01cd692d662c7ac05970ca70d50a9266db7ee97",
+        "spanSeconds": [
+          0.7,
+          4.9
+        ]
+      }
+    ]
+  },
+  "sourceAudit": {
+    "method": "role-specific Instagram carrier spans -> CosyVoice3 inference_vc -> multi-recording owner timbre core",
+    "thirdPartyProsodyCarrier": true,
+    "thirdPartySpeakerIdentityRetained": false,
+    "voiceConversionEngine": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "voiceConversionRevision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+    "carrierSha256": "1e6a17f2490157d54832b025d6cee88dde084d87f27e127934bad721eaf17f43",
+    "usage": "local private generation only; do not redistribute carrier, guides, or biometric provenance"
+  },
+  "defaultStyle": "news_exposition",
+  "styles": {
+    "hook": {
+      "role": "hook",
+      "audio": "assets/hook.wav",
+      "sha256": "41d9d3fd3753564f2445df28949c3586255b3434b698febe1ca29589d4e8e882",
+      "transcript": "철조망에 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다. 저번 호주 산불 때 많은 동물들을 자신의 굴로 숨겨 구해준 작은 영웅이죠. 그런데 원뱃이 몸을 여기저기 비비는 이유가 있습니다.",
+      "source": "instagram-prosody-carrier-converted-to-owner-timbre",
+      "carrierSpanSeconds": [
+        0,
+        10.76
+      ],
+      "ownerVoice": true,
+      "thirdPartySpeakerIdentityRetained": false
+    },
+    "news_exposition": {
+      "role": "news-exposition",
+      "audio": "assets/news_exposition.wav",
+      "sha256": "1ae5c6b35ea23bec4b48463536a04839da8138d64db0fa146583795297443dd6",
+      "transcript": "원뱃은 땅굴 파기의 달인으로 거의 매일 땅을 파며 살아가는데요. 그래서 몸에 흙이 많이 묻어 피부가 자주 가려워집니다.",
+      "source": "instagram-prosody-carrier-converted-to-owner-timbre",
+      "carrierSpanSeconds": [
+        10.76,
+        18.6
+      ],
+      "ownerVoice": true,
+      "thirdPartySpeakerIdentityRetained": false
+    },
+    "tension": {
+      "role": "tension",
+      "audio": "assets/tension.wav",
+      "sha256": "8ced7c85ac56d878a244eabae5f097d20ab6bb88db69c9707ade60892d86079c",
+      "transcript": "하지만 다리가 너무 짧아서 긁지 못하는 곳이 많죠. 그래서 주변의 나무나 철조망 같은 곳에 몸을 비비며 가려움을 해결합니다.",
+      "source": "instagram-prosody-carrier-converted-to-owner-timbre",
+      "carrierSpanSeconds": [
+        18.6,
+        25.4
+      ],
+      "ownerVoice": true,
+      "thirdPartySpeakerIdentityRetained": false
+    },
+    "legal_explanation": {
+      "role": "legal-explanation",
+      "audio": "assets/legal_explanation.wav",
+      "sha256": "586f394b22f14299636191809f4a5e27de67cd9ae728b3402b68b67f951047c8",
+      "transcript": "사실 원뱃은 사람을 꽤 좋아하는 동물입니다. 사람과 함께 있는 걸 좋아하고 사람이 해주는 보살핌도 꽤 즐기는 편이죠.",
+      "source": "instagram-prosody-carrier-converted-to-owner-timbre",
+      "carrierSpanSeconds": [
+        25.4,
+        31.4
+      ],
+      "ownerVoice": true,
+      "thirdPartySpeakerIdentityRetained": false
+    },
+    "closing": {
+      "role": "closing",
+      "audio": "assets/closing.wav",
+      "sha256": "cd4a766014eea80e58eab5ce8cad6892367d555862806995d3786a0bfea25b3c",
+      "transcript": "외형만 보면 작은 곰 같지만 실제로는 곰과 전혀 관계가 없습니다. 오히려 코알라와 더 가까운 친척이라고 하죠.",
+      "source": "instagram-prosody-carrier-converted-to-owner-timbre",
+      "carrierSpanSeconds": [
+        31.4,
+        37.88
+      ],
+      "ownerVoice": true,
+      "thirdPartySpeakerIdentityRetained": false
+    },
+    "viewer_question": {
+      "role": "viewer-question",
+      "audio": "assets/viewer_question.wav",
+      "sha256": "eca578b86fcfc6e35de187f34de97dbb681dc7994f6ee037a79aeb9602de82ec",
+      "transcript": "현실에도 진짜 필요한 거 아니에요? 이게 말이 되나요? 하지만 수사 상황 통지와 피해자 보호는 필요하지 않을까요?",
+      "source": "verified-owner-recording-question-spans",
+      "sourceAudioSha256": "d6b4f584b578799dec8bc9e1916e4d85ac3e6e1c1d067a9331cb835432f0ae33",
+      "ownerVoice": true,
+      "thirdPartyAudio": false,
+      "directTargetSplicingAllowed": false
+    }
+  },
+  "generationContract": {
+    "targetUnit": "natural-sentence-or-semantic-paragraph",
+    "phraseIsolationAllowed": false,
+    "directOwnerTargetSpansAllowedOnlyWithExactAlignment": true,
+    "fixedPauseSeconds": null,
+    "pausePolicy": "preserve generated sentence rhythm; add variable boundary guards only when needed"
+  },
+  "validation": {
+    "status": "passed",
+    "admissionLedger": {
+      "path": "03-script-voice/runs/owner-voice-v1-20260808/admission-ledger.json",
+      "sha256": "01235f818a617f82d60973d66707ff90bafcd7f2c71c37f8e633dba3ab08f077"
+    },
+    "guideAudit": {
+      "path": "03-script-voice/voice-clone/profiles/owner-voice-v1/prompt-bank/validation/corpus-audit.json",
+      "sha256": "6ee65fd27ed313c4eeca6af44a91a361b043d06965102d67f7a939afbc7a5036",
+      "styles": [
+        {
+          "style": "hook",
+          "audioSha256": "41d9d3fd3753564f2445df28949c3586255b3434b698febe1ca29589d4e8e882",
+          "signal": {
+            "analysisSampleRate": 24000,
+            "peakDbfs": -2.64,
+            "rmsDbfs": -22.609,
+            "dcOffset": 0.00003537,
+            "clippedSamples": 0,
+            "silenceThresholdDbfs": -42,
+            "silenceRatio": 0.148699,
+            "speechActivityRatio": 0.851301,
+            "silenceRunsOver80ms": 9,
+            "leadingSilenceSeconds": 0,
+            "trailingSilenceSeconds": 0,
+            "maxInternalSilenceSeconds": 0.14,
+            "medianInternalSilenceSeconds": 0.1,
+            "noiseFloorProxyDbfs": -48.542
+          },
+          "small": {
+            "artifact": "asr/hook.wav.small.json",
+            "artifactSha256": "fffb05f3f6ca75122b16a22be0859082de4097da49064c4a89c448ec56696ddb",
+            "transcript": "철조망의 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다 저번 호주 삼불 때 아는 동원들을 자신의 굴로 숨겨 구해준 작은 영웅이죠 그런데 원뱃이 이렇게 몸을 여기저기 비비는 이유가 있습니다",
+            "languageProbability": 1,
+            "generationSeconds": 0.893
+          },
+          "medium": {
+            "artifact": "asr/hook.wav.medium.json",
+            "artifactSha256": "2a22e328477a02b7a6c5c27e87f34cbb80dbeab08b663370b2cfd4f6f7ab876c",
+            "transcript": "철조망에 몸을 계속 비비고 있는 이 동물은 바로 원뱃입니다 저번 호주 산불 때 아는 동월들을 자신의 굴로 숨겨 구해준 작은 영웅이죠 그런데 원뱃이 몸을 여기저기 비비는 이유가 있습니다",
+            "languageProbability": 1,
+            "generationSeconds": 1.346
+          },
+          "transcriptEvidence": {
+            "exactTranscriptClaimed": false,
+            "status": "instagram-sidecar-intended-text-plus-dual-asr-diagnostic",
+            "note": "Recognizer output is diagnostic and is retained verbatim; it is not silently promoted to an exact transcript claim."
+          }
+        },
+        {
+          "style": "news_exposition",
+          "audioSha256": "1ae5c6b35ea23bec4b48463536a04839da8138d64db0fa146583795297443dd6",
+          "signal": {
+            "analysisSampleRate": 24000,
+            "peakDbfs": -2.38,
+            "rmsDbfs": -22.429,
+            "dcOffset": 0.00000672,
+            "clippedSamples": 0,
+            "silenceThresholdDbfs": -42,
+            "silenceRatio": 0.114796,
+            "speechActivityRatio": 0.885204,
+            "silenceRunsOver80ms": 4,
+            "leadingSilenceSeconds": 0,
+            "trailingSilenceSeconds": 0,
+            "maxInternalSilenceSeconds": 0.14,
+            "medianInternalSilenceSeconds": 0.14,
+            "noiseFloorProxyDbfs": -44.829
+          },
+          "small": {
+            "artifact": "asr/news_exposition.wav.small.json",
+            "artifactSha256": "52545d996eb3a23238291049254c3ad22b0786a63e735072ad6212cce970ae32",
+            "transcript": "원뱃은 땅 꿀 파기에 다딘으로 거의 매일 땅을 파매 살아가는데요 그래서 몸에 크기 많이 묻어 피부가 자주 가려워집니다",
+            "languageProbability": 1,
+            "generationSeconds": 0.58
+          },
+          "medium": {
+            "artifact": "asr/news_exposition.wav.medium.json",
+            "artifactSha256": "a397d7ece407d0da0523da6f97f4331e3f709d1e7ca0c02c366e280bbfafc6f4",
+            "transcript": "원뱃은 땅굴을 파기에 다듬으러 거의 매일 땅을 파며 살아가는데요 그래서 몸에 흙이 많이 묻어 피부가 자주 가려워집니다",
+            "languageProbability": 1,
+            "generationSeconds": 1.035
+          },
+          "transcriptEvidence": {
+            "exactTranscriptClaimed": false,
+            "status": "instagram-sidecar-intended-text-plus-dual-asr-diagnostic",
+            "note": "Recognizer output is diagnostic and is retained verbatim; it is not silently promoted to an exact transcript claim."
+          }
+        },
+        {
+          "style": "tension",
+          "audioSha256": "8ced7c85ac56d878a244eabae5f097d20ab6bb88db69c9707ade60892d86079c",
+          "signal": {
+            "analysisSampleRate": 24000,
+            "peakDbfs": -3.545,
+            "rmsDbfs": -22.668,
+            "dcOffset": 0.00003021,
+            "clippedSamples": 0,
+            "silenceThresholdDbfs": -42,
+            "silenceRatio": 0.126471,
+            "speechActivityRatio": 0.873529,
+            "silenceRunsOver80ms": 3,
+            "leadingSilenceSeconds": 0,
+            "trailingSilenceSeconds": 0,
+            "maxInternalSilenceSeconds": 0.12,
+            "medianInternalSilenceSeconds": 0.1,
+            "noiseFloorProxyDbfs": -44.872
+          },
+          "small": {
+            "artifact": "asr/tension.wav.small.json",
+            "artifactSha256": "f5fd9b7b0d74b60d5b8cd09a7b997afbd60f1821f09dff1e92d0222691cf480a",
+            "transcript": "하지만 다리가 너무 짧아서 긋지 못하는 곳이 많죠 그래서 주변에 나무나 철조만 같은 곳에 몸을 비비며 가령을 해결합니다",
+            "languageProbability": 1,
+            "generationSeconds": 0.545
+          },
+          "medium": {
+            "artifact": "asr/tension.wav.medium.json",
+            "artifactSha256": "4671e550508fe01dafdf1d31f5c067aa0e3781e6b6792402670f60de0de54381",
+            "transcript": "하지만 다리가 너무 짧아서 긁지 못하는 곳이 많죠 그래서 주변의 아무나 철저한 곳에 몸을 비비며 가령을 해결합니다",
+            "languageProbability": 1,
+            "generationSeconds": 0.915
+          },
+          "transcriptEvidence": {
+            "exactTranscriptClaimed": false,
+            "status": "instagram-sidecar-intended-text-plus-dual-asr-diagnostic",
+            "note": "Recognizer output is diagnostic and is retained verbatim; it is not silently promoted to an exact transcript claim."
+          }
+        },
+        {
+          "style": "legal_explanation",
+          "audioSha256": "586f394b22f14299636191809f4a5e27de67cd9ae728b3402b68b67f951047c8",
+          "signal": {
+            "analysisSampleRate": 24000,
+            "peakDbfs": -2.475,
+            "rmsDbfs": -23.808,
+            "dcOffset": 0.00001849,
+            "clippedSamples": 0,
+            "silenceThresholdDbfs": -42,
+            "silenceRatio": 0.16,
+            "speechActivityRatio": 0.84,
+            "silenceRunsOver80ms": 3,
+            "leadingSilenceSeconds": 0,
+            "trailingSilenceSeconds": 0.16,
+            "maxInternalSilenceSeconds": 0.24,
+            "medianInternalSilenceSeconds": 0.19,
+            "noiseFloorProxyDbfs": -49.339
+          },
+          "small": {
+            "artifact": "asr/legal_explanation.wav.small.json",
+            "artifactSha256": "3dd9486643e4303fb626d62d83710035b238a7fdd75a433a1a1b408bf8397405",
+            "transcript": "사실 원뱃은 사람을 꽤 좋아하는 동물입니다 사람과 함께 있는 걸 좋아하고 사람이 해주는 보살님도 꽤 즐기는 편이죠",
+            "languageProbability": 1,
+            "generationSeconds": 0.552
+          },
+          "medium": {
+            "artifact": "asr/legal_explanation.wav.medium.json",
+            "artifactSha256": "c605ac20734ed3829f474c5775db4e8c3ca9fb574866040efb9fe8048f69ece6",
+            "transcript": "사실 원뱃은 사람을 꽤 좋아하는 동물입니다 사람과 함께 있는 걸 좋아하고 사람이 해주는 보살님도 꽤 즐기는 편이죠",
+            "languageProbability": 1,
+            "generationSeconds": 0.876
+          },
+          "transcriptEvidence": {
+            "exactTranscriptClaimed": false,
+            "status": "instagram-sidecar-intended-text-plus-dual-asr-diagnostic",
+            "note": "Recognizer output is diagnostic and is retained verbatim; it is not silently promoted to an exact transcript claim."
+          }
+        },
+        {
+          "style": "viewer_question",
+          "audioSha256": "eca578b86fcfc6e35de187f34de97dbb681dc7994f6ee037a79aeb9602de82ec",
+          "signal": {
+            "analysisSampleRate": 24000,
+            "peakDbfs": -5.151,
+            "rmsDbfs": -26.832,
+            "dcOffset": -0.00000893,
+            "clippedSamples": 0,
+            "silenceThresholdDbfs": -42,
+            "silenceRatio": 0.209877,
+            "speechActivityRatio": 0.790123,
+            "silenceRunsOver80ms": 5,
+            "leadingSilenceSeconds": 0.22,
+            "trailingSilenceSeconds": 0.12,
+            "maxInternalSilenceSeconds": 0.28,
+            "medianInternalSilenceSeconds": 0.18,
+            "noiseFloorProxyDbfs": -61.586
+          },
+          "small": {
+            "artifact": "asr/viewer_question.wav.small.json",
+            "artifactSha256": "bd9beabdfe683af48df7e061dc021400b8f879c6406a09eb40892a16a5db2f5a",
+            "transcript": "현실에도 진짜 필요한 거 아니에요? 이게 말이 되나요? 하지만 수사, 상황 통지와 피해자 보호는 필요하지 않을까요?",
+            "languageProbability": 1,
+            "generationSeconds": 0.506
+          },
+          "medium": {
+            "artifact": "asr/viewer_question.wav.medium.json",
+            "artifactSha256": "f623aeb05a3092dd2d0280333a8a6991558173de6e332b8bd1ad4c3c7bc7f68f",
+            "transcript": "현실에도 진짜 필요한 거 아니에요? 이게 말이 되나요? 하지만 수사 상황 통지와 피해자 보호는 필요하지 않을까요?",
+            "languageProbability": 1,
+            "generationSeconds": 0.88
+          },
+          "transcriptEvidence": {
+            "exactTranscriptClaimed": false,
+            "status": "owner-span-authority-plus-dual-asr-diagnostic",
+            "note": "Recognizer output is diagnostic and is retained verbatim; it is not silently promoted to an exact transcript claim."
+          }
+        },
+        {
+          "style": "closing",
+          "audioSha256": "cd4a766014eea80e58eab5ce8cad6892367d555862806995d3786a0bfea25b3c",
+          "signal": {
+            "analysisSampleRate": 24000,
+            "peakDbfs": -3.315,
+            "rmsDbfs": -22.007,
+            "dcOffset": 0.00002333,
+            "clippedSamples": 0,
+            "silenceThresholdDbfs": -42,
+            "silenceRatio": 0.169753,
+            "speechActivityRatio": 0.830247,
+            "silenceRunsOver80ms": 5,
+            "leadingSilenceSeconds": 0,
+            "trailingSilenceSeconds": 0.34,
+            "maxInternalSilenceSeconds": 0.18,
+            "medianInternalSilenceSeconds": 0.09,
+            "noiseFloorProxyDbfs": -47.247
+          },
+          "small": {
+            "artifact": "asr/closing.wav.small.json",
+            "artifactSha256": "4be4d40459e4b6ffa204c415cc683641a2bb23b5f44f87a4b27c8350d9e2f037",
+            "transcript": "내용만 보면 작은 공 같지만 실제로는 공간은 전혀 관계가 없습니다 오히려 코알라와 더 가까운 친척이라고 하죠",
+            "languageProbability": 1,
+            "generationSeconds": 1.707
+          },
+          "medium": {
+            "artifact": "asr/closing.wav.medium.json",
+            "artifactSha256": "74a0ecfc3427f3da565395cf4095b7099889414c366ab5411dbb5b6d0413d48d",
+            "transcript": "내용만 보면 작은 공 같지만 실제로는 공과는 전혀 관계가 없습니다 오히려 코알라와 더 가까운 친척이라고 하죠?",
+            "languageProbability": 1,
+            "generationSeconds": 0.927
+          },
+          "transcriptEvidence": {
+            "exactTranscriptClaimed": false,
+            "status": "instagram-sidecar-intended-text-plus-dual-asr-diagnostic",
+            "note": "Recognizer output is diagnostic and is retained verbatim; it is not silently promoted to an exact transcript claim."
+          }
+        }
+      ]
+    },
+    "heldOutNurseParagraph": {
+      "acceptance": "03-script-voice/runs/owner-voice-v1-20260808/held-out/nurse-plain-legal-paragraph.acceptance.json",
+      "acceptanceSha256": "ef501c798bd154c5ab95008b487b2cda46086c729dc770bf949e86d0674534c8",
+      "audio": "03-script-voice/runs/owner-voice-v1-20260808/held-out/nurse-plain-legal-paragraph.wav",
+      "audioSha256": "7bb509e59a04691ba509f809543c213a69e4c0cc456540218e563405197f4a6f",
+      "attemptCount": 1,
+      "segmentCount": 1,
+      "generationMode": "single-natural-semantic-paragraph",
+      "phraseIsolation": false,
+      "pronunciationHints": false,
+      "directOwnerTargetSpans": false,
+      "asrChecks": [
+        {
+          "model": "small",
+          "text": "사람이 먹으면 안 되는 살충제잖아요. 검찰은 사람을 죽이려 한 행동을 주장했지만 법원이 인정한 건 위험한 물질로 동료를 다치게 한 책임이었습니다. 1심 징역 2년. 항소심에서는 징역 1년 6개월이었고 3년 동안 문제를 일으키지 않으면 바로 감옥에 가지 않는 판결로 형이 줄었습니다.",
+          "cer": 0.017543859649122806
+        },
+        {
+          "model": "medium",
+          "text": "사람이 먹으면 안 되는 살충제잖아요 검찰은 사람을 죽이려 한 행동을 주장했지만 법원이 인정한 건 위험한 물질로 동료를 다치게 한 책임이었습니다 1심 징역 2년 항소심에선 징역 1년 6개월이었고 3년 동안 문제를 일으키지 않으면 바로 감옥에 가지 않는 판결로 형이 줄었습니다",
+          "cer": 0
+        }
+      ],
+      "criticalPhraseChecks": [
+        {
+          "model": "small",
+          "required": [
+            "사람을죽이려한행동",
+            "위험한물질로동료를다치게한책임",
+            "징역1년6개월",
+            "3년동안",
+            "형이줄었습니다"
+          ],
+          "missing": []
+        },
+        {
+          "model": "medium",
+          "required": [
+            "사람을죽이려한행동",
+            "위험한물질로동료를다치게한책임",
+            "징역1년6개월",
+            "3년동안",
+            "형이줄었습니다"
+          ],
+          "missing": []
+        }
+      ],
+      "signal": {
+        "sampleRate": 24000,
+        "durationSeconds": 15.35725,
+        "peak": 0.89013671875,
+        "peakDbfs": -1.0108656729763368,
+        "rmsDbfs": -24.432567056739124,
+        "activeRmsDbfs": -22.447796700519973,
+        "firstSample": 0,
+        "lastSample": -0.0078125,
+        "endpointAmplitude": 0.0078125,
+        "boundaryMaxAdjacentJump": 0.01800537109375,
+        "clippedSamples": 0
+      },
+      "loudness": {
+        "method": "active-RMS median; gain-only; capped to +/-3 dB and -1 dBFS peak headroom",
+        "targetActiveRmsDbfs": -21.92695734717892,
+        "gainsDb": [
+          -0.6539028358305913
+        ],
+        "joins": [],
+        "formantPreservation": "gain-only concatenation after segment preparation; no pitch, formant, compression, or crossfade; verified owner segments include 20 ms edge guards and 5 ms edge fades"
+      }
+    },
+    "humanAuditableAudio": [
+      {
+        "role": "guide-hook",
+        "path": "03-script-voice/voice-clone/profiles/owner-voice-v1/prompt-bank/assets/hook.wav",
+        "sha256": "41d9d3fd3753564f2445df28949c3586255b3434b698febe1ca29589d4e8e882"
+      },
+      {
+        "role": "guide-news_exposition",
+        "path": "03-script-voice/voice-clone/profiles/owner-voice-v1/prompt-bank/assets/news_exposition.wav",
+        "sha256": "1ae5c6b35ea23bec4b48463536a04839da8138d64db0fa146583795297443dd6"
+      },
+      {
+        "role": "guide-tension",
+        "path": "03-script-voice/voice-clone/profiles/owner-voice-v1/prompt-bank/assets/tension.wav",
+        "sha256": "8ced7c85ac56d878a244eabae5f097d20ab6bb88db69c9707ade60892d86079c"
+      },
+      {
+        "role": "guide-legal_explanation",
+        "path": "03-script-voice/voice-clone/profiles/owner-voice-v1/prompt-bank/assets/legal_explanation.wav",
+        "sha256": "586f394b22f14299636191809f4a5e27de67cd9ae728b3402b68b67f951047c8"
+      },
+      {
+        "role": "guide-viewer_question",
+        "path": "03-script-voice/voice-clone/profiles/owner-voice-v1/prompt-bank/assets/viewer_question.wav",
+        "sha256": "eca578b86fcfc6e35de187f34de97dbb681dc7994f6ee037a79aeb9602de82ec"
+      },
+      {
+        "role": "guide-closing",
+        "path": "03-script-voice/voice-clone/profiles/owner-voice-v1/prompt-bank/assets/closing.wav",
+        "sha256": "cd4a766014eea80e58eab5ce8cad6892367d555862806995d3786a0bfea25b3c"
+      },
+      {
+        "role": "held-out-nurse-paragraph",
+        "path": "03-script-voice/runs/owner-voice-v1-20260808/held-out/nurse-plain-legal-paragraph.wav",
+        "sha256": "7bb509e59a04691ba509f809543c213a69e4c0cc456540218e563405197f4a6f"
+      }
+    ],
+    "humanListeningRequiredForFinalVideo": true
+  }
+}

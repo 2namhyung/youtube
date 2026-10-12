@@ -1,0 +1,628 @@
+{
+  "gpt_ft_critical": {
+    "duration_seconds": 13.22,
+    "sample_rate": 32000,
+    "peak_dbfs": -7.0463677784954,
+    "silence_intervals_ge_50ms": [
+      {
+        "start": 1.4741875,
+        "end": 1.954375,
+        "duration": 0.4801875
+      },
+      {
+        "start": 2.53478125,
+        "end": 2.58725,
+        "duration": 0.05246875
+      },
+      {
+        "start": 3.29228125,
+        "end": 4.096375,
+        "duration": 0.80409375
+      },
+      {
+        "start": 5.072,
+        "end": 5.14634375,
+        "duration": 0.07434375
+      },
+      {
+        "start": 5.7470625,
+        "end": 6.67678125,
+        "duration": 0.92971875
+      },
+      {
+        "start": 7.939875,
+        "end": 8.0579375,
+        "duration": 0.1180625
+      },
+      {
+        "start": 9.47796875,
+        "end": 9.52965625,
+        "duration": 0.0516875
+      },
+      {
+        "start": 9.71828125,
+        "end": 9.7741875,
+        "duration": 0.05590625
+      },
+      {
+        "start": 10.1246875,
+        "end": 10.65434375,
+        "duration": 0.52965625
+      },
+      {
+        "start": 11.1769375,
+        "end": 11.25178125,
+        "duration": 0.07484375
+      },
+      {
+        "start": 11.253625,
+        "end": 11.30778125,
+        "duration": 0.05415625
+      },
+      {
+        "start": 11.638,
+        "end": 11.7318125,
+        "duration": 0.0938125
+      }
+    ],
+    "max_silence_seconds": 0.92971875,
+    "pitch_median_hz": 112.05728747175394,
+    "pitch_jump_count_gt_80hz": 133,
+    "pitch_max_jump_hz": 274.93839991340906,
+    "boundary_leading_silence_seconds": 0.31328125,
+    "boundary_trailing_silence_seconds": 0.30203125
+  },
+  "gpt_ft_heldout": {
+    "duration_seconds": 13.34,
+    "sample_rate": 32000,
+    "peak_dbfs": -9.092776303367447,
+    "silence_intervals_ge_50ms": [
+      {
+        "start": 1.165875,
+        "end": 1.2284375,
+        "duration": 0.0625625
+      },
+      {
+        "start": 1.4086875,
+        "end": 1.48284375,
+        "duration": 0.07415625
+      },
+      {
+        "start": 1.808,
+        "end": 1.98640625,
+        "duration": 0.17840625
+      },
+      {
+        "start": 2.14784375,
+        "end": 2.80934375,
+        "duration": 0.6615
+      },
+      {
+        "start": 3.00246875,
+        "end": 3.0681875,
+        "duration": 0.06571875
+      },
+      {
+        "start": 3.23296875,
+        "end": 3.2876875,
+        "duration": 0.05471875
+      },
+      {
+        "start": 3.28790625,
+        "end": 3.346,
+        "duration": 0.05809375
+      },
+      {
+        "start": 3.67303125,
+        "end": 3.73171875,
+        "duration": 0.0586875
+      },
+      {
+        "start": 4.44059375,
+        "end": 4.49415625,
+        "duration": 0.0535625
+      },
+      {
+        "start": 5.44740625,
+        "end": 6.510625,
+        "duration": 1.06321875
+      },
+      {
+        "start": 7.5894375,
+        "end": 7.72946875,
+        "duration": 0.14003125
+      },
+      {
+        "start": 8.010125,
+        "end": 8.0728125,
+        "duration": 0.0626875
+      },
+      {
+        "start": 8.2226875,
+        "end": 8.286875,
+        "duration": 0.0641875
+      },
+      {
+        "start": 9.8099375,
+        "end": 10.4305625,
+        "duration": 0.620625
+      },
+      {
+        "start": 11.504,
+        "end": 11.579,
+        "duration": 0.075
+      },
+      {
+        "start": 11.7525,
+        "end": 11.81140625,
+        "duration": 0.05890625
+      },
+      {
+        "start": 12.692625,
+        "end": 12.79928125,
+        "duration": 0.10665625
+      }
+    ],
+    "max_silence_seconds": 1.06321875,
+    "pitch_median_hz": 116.87962573300673,
+    "pitch_jump_count_gt_80hz": 84,
+    "pitch_max_jump_hz": 276.02397610358156,
+    "boundary_leading_silence_seconds": 0.122375,
+    "boundary_trailing_silence_seconds": 0.33765625
+  },
+  "gpt_critical": {
+    "duration_seconds": 15.58,
+    "sample_rate": 32000,
+    "peak_dbfs": -8.68565440492491,
+    "silence_intervals_ge_50ms": [
+      {
+        "start": 2.39725,
+        "end": 2.844125,
+        "duration": 0.446875
+      },
+      {
+        "start": 3.92559375,
+        "end": 4.4169375,
+        "duration": 0.49134375
+      },
+      {
+        "start": 5.58465625,
+        "end": 6.3640625,
+        "duration": 0.77940625
+      },
+      {
+        "start": 6.57884375,
+        "end": 6.63434375,
+        "duration": 0.0555
+      },
+      {
+        "start": 6.89340625,
+        "end": 7.21228125,
+        "duration": 0.318875
+      },
+      {
+        "start": 8.25628125,
+        "end": 8.87434375,
+        "duration": 0.6180625
+      },
+      {
+        "start": 9.826,
+        "end": 9.876875,
+        "duration": 0.050875
+      },
+      {
+        "start": 10.09853125,
+        "end": 10.22990625,
+        "duration": 0.131375
+      },
+      {
+        "start": 11.592375,
+        "end": 11.64625,
+        "duration": 0.053875
+      },
+      {
+        "start": 11.8440625,
+        "end": 11.9186875,
+        "duration": 0.074625
+      },
+      {
+        "start": 12.032875,
+        "end": 12.0876875,
+        "duration": 0.0548125
+      },
+      {
+        "start": 12.31609375,
+        "end": 12.767875,
+        "duration": 0.45178125
+      },
+      {
+        "start": 13.24425,
+        "end": 13.32659375,
+        "duration": 0.08234375
+      },
+      {
+        "start": 13.6869375,
+        "end": 13.75615625,
+        "duration": 0.06921875
+      },
+      {
+        "start": 14.1630625,
+        "end": 14.42046875,
+        "duration": 0.25740625
+      }
+    ],
+    "max_silence_seconds": 0.77940625,
+    "pitch_median_hz": 115.7871897002253,
+    "pitch_jump_count_gt_80hz": 129,
+    "pitch_max_jump_hz": 281.7793560151639,
+    "boundary_leading_silence_seconds": 0.35440625,
+    "boundary_trailing_silence_seconds": 0.4039375
+  },
+  "gpt_heldout": {
+    "duration_seconds": 14.46,
+    "sample_rate": 32000,
+    "peak_dbfs": -8.203565037058484,
+    "silence_intervals_ge_50ms": [
+      {
+        "start": 1.84046875,
+        "end": 1.9368125,
+        "duration": 0.09634375
+      },
+      {
+        "start": 2.17959375,
+        "end": 2.23621875,
+        "duration": 0.056625
+      },
+      {
+        "start": 2.4496875,
+        "end": 2.5168125,
+        "duration": 0.067125
+      },
+      {
+        "start": 2.71446875,
+        "end": 2.856875,
+        "duration": 0.14240625
+      },
+      {
+        "start": 3.00975,
+        "end": 3.43696875,
+        "duration": 0.42721875
+      },
+      {
+        "start": 3.65996875,
+        "end": 3.7193125,
+        "duration": 0.05934375
+      },
+      {
+        "start": 3.88759375,
+        "end": 3.95175,
+        "duration": 0.06415625
+      },
+      {
+        "start": 3.951875,
+        "end": 4.01525,
+        "duration": 0.063375
+      },
+      {
+        "start": 4.35871875,
+        "end": 4.43921875,
+        "duration": 0.0805
+      },
+      {
+        "start": 5.18275,
+        "end": 5.25653125,
+        "duration": 0.07378125
+      },
+      {
+        "start": 6.03265625,
+        "end": 6.726875,
+        "duration": 0.69421875
+      },
+      {
+        "start": 7.9185625,
+        "end": 7.9993125,
+        "duration": 0.08075
+      },
+      {
+        "start": 8.5373125,
+        "end": 8.87,
+        "duration": 0.3326875
+      },
+      {
+        "start": 8.98734375,
+        "end": 9.05440625,
+        "duration": 0.0670625
+      },
+      {
+        "start": 10.43259375,
+        "end": 11.1143125,
+        "duration": 0.68171875
+      },
+      {
+        "start": 12.1509375,
+        "end": 12.5885625,
+        "duration": 0.437625
+      },
+      {
+        "start": 13.51865625,
+        "end": 13.57675,
+        "duration": 0.05809375
+      },
+      {
+        "start": 13.85225,
+        "end": 13.9114375,
+        "duration": 0.0591875
+      }
+    ],
+    "max_silence_seconds": 0.69421875,
+    "pitch_median_hz": 120.02927415031743,
+    "pitch_jump_count_gt_80hz": 125,
+    "pitch_max_jump_hz": 281.7793560151639,
+    "boundary_leading_silence_seconds": 0.75428125,
+    "boundary_trailing_silence_seconds": 0.33609375
+  },
+  "gpt_ref_trim": {
+    "duration_seconds": 8.0,
+    "sample_rate": 32000,
+    "peak_dbfs": -5.694401807640749,
+    "silence_intervals_ge_50ms": [
+      {
+        "start": 0.05378125,
+        "end": 0.4431875,
+        "duration": 0.38940625
+      },
+      {
+        "start": 0.494875,
+        "end": 1.42565625,
+        "duration": 0.93078125
+      },
+      {
+        "start": 1.55078125,
+        "end": 1.6639375,
+        "duration": 0.11315625
+      },
+      {
+        "start": 2.65778125,
+        "end": 2.752875,
+        "duration": 0.09509375
+      },
+      {
+        "start": 2.75296875,
+        "end": 2.99721875,
+        "duration": 0.24425
+      },
+      {
+        "start": 3.12625,
+        "end": 3.19990625,
+        "duration": 0.07365625
+      },
+      {
+        "start": 3.47359375,
+        "end": 3.52459375,
+        "duration": 0.051
+      },
+      {
+        "start": 4.10484375,
+        "end": 4.1621875,
+        "duration": 0.05734375
+      },
+      {
+        "start": 5.3439375,
+        "end": 6.37196875,
+        "duration": 1.02803125
+      },
+      {
+        "start": 6.95659375,
+        "end": 7.04425,
+        "duration": 0.08765625
+      }
+    ],
+    "max_silence_seconds": 1.02803125,
+    "pitch_median_hz": 112.45429475754898,
+    "pitch_jump_count_gt_80hz": 90,
+    "pitch_max_jump_hz": 280.80755164400944,
+    "boundary_leading_silence_seconds": 0.051,
+    "boundary_trailing_silence_seconds": 0.00734375
+  },
+  "qwen_critical": {
+    "duration_seconds": 14.96,
+    "sample_rate": 24000,
+    "peak_dbfs": -7.456204542546025,
+    "silence_intervals_ge_50ms": [
+      {
+        "start": 0.3207083333333333,
+        "end": 0.421,
+        "duration": 0.10029166666666667
+      },
+      {
+        "start": 1.3050416666666667,
+        "end": 1.3580833333333333,
+        "duration": 0.05304166666666667
+      },
+      {
+        "start": 2.9727083333333333,
+        "end": 3.030666666666667,
+        "duration": 0.057958333333333334
+      },
+      {
+        "start": 3.632833333333333,
+        "end": 3.7679583333333335,
+        "duration": 0.135125
+      },
+      {
+        "start": 4.934125,
+        "end": 5.005041666666667,
+        "duration": 0.07091666666666667
+      },
+      {
+        "start": 6.400458333333333,
+        "end": 6.714333333333333,
+        "duration": 0.313875
+      },
+      {
+        "start": 6.95075,
+        "end": 7.014125,
+        "duration": 0.063375
+      },
+      {
+        "start": 7.572916666666667,
+        "end": 7.632875,
+        "duration": 0.059958333333333336
+      },
+      {
+        "start": 7.7145,
+        "end": 7.835541666666667,
+        "duration": 0.12104166666666667
+      },
+      {
+        "start": 8.453375,
+        "end": 9.003375,
+        "duration": 0.55
+      },
+      {
+        "start": 9.021458333333333,
+        "end": 9.087541666666667,
+        "duration": 0.06608333333333333
+      },
+      {
+        "start": 10.439708333333334,
+        "end": 10.531375,
+        "duration": 0.09166666666666666
+      },
+      {
+        "start": 12.044708333333332,
+        "end": 12.132833333333334,
+        "duration": 0.088125
+      },
+      {
+        "start": 12.46175,
+        "end": 12.7335,
+        "duration": 0.27175
+      },
+      {
+        "start": 13.680666666666667,
+        "end": 13.749958333333334,
+        "duration": 0.06929166666666667
+      }
+    ],
+    "max_silence_seconds": 0.55,
+    "pitch_median_hz": 107.7961694426975,
+    "pitch_jump_count_gt_80hz": 60,
+    "pitch_max_jump_hz": 277.422303898515,
+    "boundary_leading_silence_seconds": 0.21016666666666667,
+    "boundary_trailing_silence_seconds": 0.050708333333333334
+  },
+  "qwen_heldout": {
+    "duration_seconds": 16.48,
+    "sample_rate": 24000,
+    "peak_dbfs": -6.727159160114483,
+    "silence_intervals_ge_50ms": [
+      {
+        "start": 1.37525,
+        "end": 1.4724166666666667,
+        "duration": 0.09716666666666667
+      },
+      {
+        "start": 2.746625,
+        "end": 2.821833333333333,
+        "duration": 0.07520833333333334
+      },
+      {
+        "start": 3.433333333333333,
+        "end": 3.5417083333333332,
+        "duration": 0.108375
+      },
+      {
+        "start": 3.7125,
+        "end": 4.2724166666666665,
+        "duration": 0.5599166666666666
+      },
+      {
+        "start": 4.480541666666666,
+        "end": 4.560375,
+        "duration": 0.07983333333333334
+      },
+      {
+        "start": 4.727833333333334,
+        "end": 4.788375,
+        "duration": 0.06054166666666667
+      },
+      {
+        "start": 5.132041666666667,
+        "end": 5.1935416666666665,
+        "duration": 0.0615
+      },
+      {
+        "start": 5.708083333333334,
+        "end": 5.791,
+        "duration": 0.08291666666666667
+      },
+      {
+        "start": 6.225,
+        "end": 6.278291666666667,
+        "duration": 0.05329166666666667
+      },
+      {
+        "start": 6.868625,
+        "end": 8.317333333333334,
+        "duration": 1.4487083333333333
+      },
+      {
+        "start": 9.483541666666667,
+        "end": 9.577333333333334,
+        "duration": 0.09379166666666666
+      },
+      {
+        "start": 10.055375,
+        "end": 10.175,
+        "duration": 0.119625
+      },
+      {
+        "start": 10.337666666666667,
+        "end": 10.408125,
+        "duration": 0.07045833333333333
+      },
+      {
+        "start": 10.869166666666667,
+        "end": 10.92,
+        "duration": 0.050833333333333335
+      },
+      {
+        "start": 12.063375,
+        "end": 12.657833333333333,
+        "duration": 0.5944583333333333
+      },
+      {
+        "start": 12.677791666666666,
+        "end": 13.323083333333333,
+        "duration": 0.6452916666666667
+      },
+      {
+        "start": 13.340125,
+        "end": 13.776958333333333,
+        "duration": 0.43683333333333335
+      },
+      {
+        "start": 14.990083333333333,
+        "end": 15.076041666666667,
+        "duration": 0.08595833333333333
+      },
+      {
+        "start": 15.852416666666667,
+        "end": 15.913708333333334,
+        "duration": 0.06129166666666667
+      },
+      {
+        "start": 16.198916666666666,
+        "end": 16.25825,
+        "duration": 0.059333333333333335
+      }
+    ],
+    "max_silence_seconds": 1.4487083333333333,
+    "pitch_median_hz": 110.88162658710056,
+    "pitch_jump_count_gt_80hz": 81,
+    "pitch_max_jump_hz": 265.3871138755198,
+    "boundary_leading_silence_seconds": 0.06404166666666666,
+    "boundary_trailing_silence_seconds": 0.029291666666666667
+  }
+}

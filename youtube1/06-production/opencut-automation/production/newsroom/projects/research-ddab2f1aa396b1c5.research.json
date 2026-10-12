@@ -1,0 +1,1940 @@
+{
+  "slug": "research-ddab2f1aa396b1c5",
+  "topic": "[밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 '최고급 아파트'",
+  "mode": "investigation",
+  "fetchedAt": "2026-09-04T11:30:51.206Z",
+  "provenance": {
+    "collector": "newsroom-lib.fetchCandidates",
+    "config": "research-ddab2f1aa396b1c5.research.config.json",
+    "queries": [
+      "[밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 '최고급 아파트'",
+      "밀착카메라 헬멧 벗고",
+      "밀착카메라 헬멧 헬멧 벗고 화물칸 타라 최고급 아파트",
+      "밀착카메라 헬멧 화물칸 라이더",
+      "밀착카메라 헬멧 경찰 신고 수사 처분",
+      "밀착카메라 헬멧 후속 사과 합의 보상"
+    ],
+    "adapters": [
+      "google-news",
+      "yonhaptv",
+      "naver-news",
+      "daum-news",
+      "news1-society"
+    ],
+    "mediaAdapters": [
+      "youtube"
+    ],
+    "eventFingerprint": {
+      "anchors": [
+        "밀착카메라",
+        "헬멧",
+        "벗고",
+        "화물칸",
+        "타라",
+        "라이더",
+        "울리는",
+        "최고급",
+        "아파트",
+        "아파트가"
+      ],
+      "distinctiveAnchors": [
+        {
+          "name": "밀착카메라",
+          "terms": [
+            "밀착카메라"
+          ]
+        },
+        {
+          "name": "헬멧",
+          "terms": [
+            "헬멧"
+          ]
+        },
+        {
+          "name": "벗고",
+          "terms": [
+            "벗고"
+          ]
+        },
+        {
+          "name": "화물칸",
+          "terms": [
+            "화물칸"
+          ]
+        }
+      ],
+      "minDistinctiveMatches": 2,
+      "minTotalMatches": 3,
+      "semanticFacets": {
+        "locations": [
+          "서울",
+          "역삼동"
+        ],
+        "actions": [],
+        "roles": [],
+        "dates": []
+      }
+    }
+  },
+  "sources": [
+    {
+      "publisher": "JTBC 뉴스",
+      "title": "[밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 ‘최고급 아파트’",
+      "url": "https://news.jtbc.co.kr/article/NB12311491",
+      "date": null,
+      "status": "verified",
+      "snippet": "[앵커] 이렇게 더운 날씨에 배달 오토바이는 정문에 세우고 걸어오라 하고, 에어컨 없는 화물용 엘리베이터를 타라고 합니다. 서울 강남 최고급 아파트에서 배달 기사들에게 이런 부당한 차별을 하고 있다는데 어떤 일이 벌어지고 있는 것인지 밀착카메라 이은진 기자가 직접 배달을 해봤습니다. [기자] [뭐 헬멧을 벗어라, 거의 90%가 다 그래요.] [차라리 배달을 안 시키든가, 본인들이 시켜놓고 문을 안 열어주면은…] [정말 기피 대상이죠.] 이 지역 아파트, 배달 기사들은 '천룡인 아파트'라고 부릅니다. [강모 씨 /배달 라이더 : 만화에 나오는 귀족 세력을 천룡인이라고 하는데, 그거를 말 그대로 빗대어서…강남이 제일 심하죠.] 천룡인은 만화에 등장하는 가상 특권층입니다. 현실에선 '누구도 건드리지 못하는', '과도한 특권을 누리는 집단'을 의미합니다. [강모 씨/배달 라이더 : 오토바이 출입 제한, 제 이름과 전화번호 (적고.) 그다음에 이제 소지품도 맡겨야 되고…] 이 아파트들이 그랬습니다. 서울 강남 최고가 아파트들입니다. 정문에 도착하니 신분부터 확인합니다. [아파트 관리원 : 출입 일자 (쓰세요.)] 일반 엘리베이터는 타지 못합니다. 화물용을 이용해야 합니다. [아파트 관리원 : 바로 오른쪽에 철문 여세요.] 단지가 크면 더 힘든 절차가 많아집니다. 서울 역삼동의 한 아파트입니다. 이곳은 정문부터 오토바이 출입이 금지됩니다. 그래서 오늘 같은 폭염에도 직접 음식을 들고 걸어가야 합니다. 입주민 오토바이는 들어갈 수 있습니다. 배달 오토바이는 안 됩니다. 정문에서 단지까지 걸어서 10분. 시간 맞추지 못하면 패널티가 있습니다. 매번 뛰어야 합니다. [강모 씨/배달 라이더 : 걸어가면 이동 거리가 길어서 저도 너무 배달 시간이 오래 걸리고…다 왔다.] 오늘 체감온도 32도입니다. 서 있기만 해도 정말 너무 더운데요. 이번엔 제가 직접 배달 일을 해보면서 얼마나 많은 과정을 거쳐야 하는지 직접 확인해 보겠습니다. 천룡인 아파트로 가는 콜. 음식을 찾고, 한참 달려 도착했습니다. [아파트 관리원 : {46층이요.} 물건 맡겨주시면 키 교환해드릴게요. {물건이요?} 네. 카드나 신분증, 열쇠…] 이름과 연락처를 적고, 소지품을 맡긴 뒤 화물칸에 올라탔습니다. 화물용 엘리베이터 안인데요. 지금 내부 온도가 너무 높고 악취도 조금 납니다. 주민용과 달리 에어컨은 안 나옵니다. 입주민들 쓰레기 버리는 공간에 화물용 엘리베이터가 있는데, 배달 기사는 이곳을 사용해야 됩니다. [배달 라이더 : 주민들 타는 엘리베이터는 한 6대, 8대 막 이렇게 돼 있는데 화물칸은 1칸이에요. 그러면 저기 엘리베이터는 다 놀고 있어.] 그렇다고 배달료나 팁을 더 주는 것도 아닙니다. 관리 사무소는 입주민 안전을 위한 조치라고 했습니다. [아파트 관리원 : 아무나 방문을 하면 안 되는 거잖아요. 더 심해질 거예요. 더 안전을 생각하고 있으니까.] 이 지역 말고 다른 아파트라고 해서 안전을 생각하지 않는 건 아닐 겁니다. [강모 씨/배달 라이더 : 없다고 어른들은 얘기하지만 여기서는 만들어버리잖아요, 귀천을. 아이들도 그러면 '저런 사람들한테 저렇게 해도 되나' 생각할 수도 있잖아요.] 내 집이 안전했으면 하는 마음은 누구나 마찬가지입니다. 다만 그게 다른 사람을 함부로 대할 이유가 될 수는 없습니다. [영상취재 김준택 영상편집 류효정 VJ 김광준 작가 강은혜 취재지원 김동환 김수린 영상디자인 김현주]",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "밀착카메라",
+          "헬멧",
+          "벗고",
+          "화물칸",
+          "타라",
+          "라이더",
+          "울리는",
+          "최고급",
+          "아파트"
+        ],
+        "snippetLength": 1688,
+        "contentLength": 1688
+      },
+      "fetchedAt": "2026-09-04T11:30:51.215Z"
+    }
+  ],
+  "relatedCoverage": [
+    {
+      "title": "[밀착카메라] &quot;헬멧 벗고 화물칸 타라&quot;…라이더 울리는 &#39;최고급 아파트&#39; / JTBC 뉴스룸",
+      "url": "https://www.youtube.com/watch?v=PY50vpuLQvI",
+      "publisher": "JTBC News",
+      "date": "2026-08-03T12:12:18Z",
+      "status": "indexed",
+      "snippet": "이렇게 더운 날씨에 배달 오토바이는 정문에 세우고 걸어오라 하고, 에어컨 없는 화물용 엘리베이터를 타라고 합니다. 서울 강남 ...",
+      "fetchedAt": "2026-09-04T11:30:58.852Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/PY50vpuLQvI/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 1,
+        "matchedAnchors": [
+          "밀착카메라",
+          "헬멧",
+          "벗고",
+          "화물칸",
+          "타라",
+          "라이더",
+          "울리는",
+          "최고급",
+          "아파트"
+        ],
+        "matchedDistinctiveAnchors": [
+          "밀착카메라",
+          "헬멧",
+          "벗고",
+          "화물칸"
+        ],
+        "semanticMatch": {
+          "sharedActions": [],
+          "sharedLocations": [
+            "서울"
+          ],
+          "sharedRoles": [],
+          "candidateFacets": {
+            "locations": [
+              "서울"
+            ],
+            "actions": [],
+            "roles": [],
+            "dates": []
+          },
+          "minimumActionMatches": 0,
+          "minimumRoleMatches": 0,
+          "locationConflict": false
+        },
+        "eventFingerprint": {
+          "anchors": [
+            "밀착카메라",
+            "헬멧",
+            "벗고",
+            "화물칸",
+            "타라",
+            "라이더",
+            "울리는",
+            "최고급",
+            "아파트",
+            "아파트가"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "밀착카메라",
+              "terms": [
+                "밀착카메라"
+              ]
+            },
+            {
+              "name": "헬멧",
+              "terms": [
+                "헬멧"
+              ]
+            },
+            {
+              "name": "벗고",
+              "terms": [
+                "벗고"
+              ]
+            },
+            {
+              "name": "화물칸",
+              "terms": [
+                "화물칸"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3,
+          "semanticFacets": {
+            "locations": [
+              "서울",
+              "역삼동"
+            ],
+            "actions": [],
+            "roles": [],
+            "dates": []
+          }
+        },
+        "rejectionReason": null
+      }
+    },
+    {
+      "title": "&quot;헬멧 벗고 화물칸 타라&quot;…라이더 울리는 &#39;최고급 아파트&#39; [이슈PLAY] / JTBC News",
+      "url": "https://www.youtube.com/watch?v=X4rzWGuPmkA",
+      "publisher": "JTBC News",
+      "date": "2026-08-08T08:13:36Z",
+      "status": "indexed",
+      "snippet": "이렇게 더운 날씨에 배달 오토바이는 정문에 세우고 걸어오라 하고, 에어컨 없는 화물용 엘리베이터를 타라고 합니다. 서울 강남 ...",
+      "fetchedAt": "2026-09-04T11:30:58.852Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/X4rzWGuPmkA/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 0.8875000000000001,
+        "matchedAnchors": [
+          "헬멧",
+          "벗고",
+          "화물칸",
+          "타라",
+          "라이더",
+          "울리는",
+          "최고급",
+          "아파트"
+        ],
+        "matchedDistinctiveAnchors": [
+          "헬멧",
+          "벗고",
+          "화물칸"
+        ],
+        "semanticMatch": {
+          "sharedActions": [],
+          "sharedLocations": [
+            "서울"
+          ],
+          "sharedRoles": [],
+          "candidateFacets": {
+            "locations": [
+              "서울"
+            ],
+            "actions": [],
+            "roles": [],
+            "dates": []
+          },
+          "minimumActionMatches": 0,
+          "minimumRoleMatches": 0,
+          "locationConflict": false
+        },
+        "eventFingerprint": {
+          "anchors": [
+            "밀착카메라",
+            "헬멧",
+            "벗고",
+            "화물칸",
+            "타라",
+            "라이더",
+            "울리는",
+            "최고급",
+            "아파트",
+            "아파트가"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "밀착카메라",
+              "terms": [
+                "밀착카메라"
+              ]
+            },
+            {
+              "name": "헬멧",
+              "terms": [
+                "헬멧"
+              ]
+            },
+            {
+              "name": "벗고",
+              "terms": [
+                "벗고"
+              ]
+            },
+            {
+              "name": "화물칸",
+              "terms": [
+                "화물칸"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3,
+          "semanticFacets": {
+            "locations": [
+              "서울",
+              "역삼동"
+            ],
+            "actions": [],
+            "roles": [],
+            "dates": []
+          }
+        },
+        "rejectionReason": null
+      }
+    },
+    {
+      "title": "&quot;여기 어디 아파트인가요??&quot; 강릉 강남 수원 우르르..반응 갈렸다 #뉴스다 / JTBC News",
+      "url": "https://www.youtube.com/watch?v=6bwil2LaJfg",
+      "publisher": "JTBC News",
+      "date": "2026-08-05T07:10:11Z",
+      "status": "indexed",
+      "snippet": "0:00 \"택배기사님만 쓰세요\"…출입구 코앞 '주차 명당' 내준 아파트 (8.5 지금 이 쇼츠) 0:46 [밀착카메라] \"헬멧 벗고 화물칸 타라\"…",
+      "fetchedAt": "2026-09-04T11:30:58.852Z",
+      "mediaType": "video",
+      "thumbnail": "https://i.ytimg.com/vi/6bwil2LaJfg/hqdefault.jpg",
+      "rightsStatus": "reference-only",
+      "kind": "related-video",
+      "sameEvent": {
+        "verified": true,
+        "confidence": 1,
+        "matchedAnchors": [
+          "밀착카메라",
+          "헬멧",
+          "벗고",
+          "화물칸",
+          "타라",
+          "아파트"
+        ],
+        "matchedDistinctiveAnchors": [
+          "밀착카메라",
+          "헬멧",
+          "벗고",
+          "화물칸"
+        ],
+        "semanticMatch": {
+          "sharedActions": [],
+          "sharedLocations": [],
+          "sharedRoles": [],
+          "candidateFacets": {
+            "locations": [],
+            "actions": [],
+            "roles": [],
+            "dates": []
+          },
+          "minimumActionMatches": 0,
+          "minimumRoleMatches": 0,
+          "locationConflict": false
+        },
+        "eventFingerprint": {
+          "anchors": [
+            "밀착카메라",
+            "헬멧",
+            "벗고",
+            "화물칸",
+            "타라",
+            "라이더",
+            "울리는",
+            "최고급",
+            "아파트",
+            "아파트가"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "밀착카메라",
+              "terms": [
+                "밀착카메라"
+              ]
+            },
+            {
+              "name": "헬멧",
+              "terms": [
+                "헬멧"
+              ]
+            },
+            {
+              "name": "벗고",
+              "terms": [
+                "벗고"
+              ]
+            },
+            {
+              "name": "화물칸",
+              "terms": [
+                "화물칸"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3,
+          "semanticFacets": {
+            "locations": [
+              "서울",
+              "역삼동"
+            ],
+            "actions": [],
+            "roles": [],
+            "dates": []
+          }
+        },
+        "rejectionReason": null
+      }
+    }
+  ],
+  "priorContext": [],
+  "followUps": [
+    {
+      "title": "밀착카메라 헬멧 벗고 화물칸 타라라이더 울리는 최고급 아파트",
+      "url": "https://bbs.ruliweb.com/news/board/1005/read/3785313",
+      "publisher": "루리웹",
+      "status": "verified",
+      "snippet": "Search 검색 / 게시판 찾기 마이피 · 중고장터 &nbsp;&nbsp; 글꼴 차단 ON 차단 갱신 다크 모드 퀵 로그인 GNB 메뉴 PS5 스위치2 XSX PC 버튜버/VR 모바일 AC/고전 뉴스/겜툰 핫딜&#x1F525; 취미갤 유저게시판 게임게시판 커뮤니티&#x1F433; BEST 만화 피규어 프라모델 애니/책 ➕ 더보기 패밀리 사이트 🔽 PS5 스위치2 XSX PC 버튜버/VR 모바일 AC/고전 뉴스/겜툰 핫딜&#x1F525; 취미갤 유저게시판 게임게시판 커뮤니티&#x1F433; BEST 만화 피규어 프라모델 애니/책 커피&#x2615; 끌올&#x1F51D; 숏츠? 커피 무료 쿠폰 신규 게시판 PUBG: 데드넷 프로젝트 제타 타래: 언바운드 에이지 트위스터 노 로우 (No Law) 데드 어카운트: 두 개의 푸른 불꽃 애니모 노두스폴 라이크 오어 다이 파레이돌리아 아스트라에 오라티오 더 블러드 오브 던워커 게시판 순위 유머 게시판 정치유머 게시판 사회/정치/경제 정보 플레이스테이션 정보 스포츠 정보 PC 게임 정보 방송/연예 정보 플레이스테이션 게임 이야기 애니메이션 정보 엑스박스 잡담 게시판 유저 예판 핫딜 뽐뿌 게시판 만화책 라노벨 도서 웹툰 정보 본문 뉴스/겜툰 루리웹기사 리뷰/읽을거리 게임툰 웹툰 비디오게임 PS4 / PS5 XBO / XBSX SWITCH PSP / VITA NDS / 3DS 판매순위 PC/온라인 PC H/W 모바일 VR 유저정보 콘솔 PC 모바일 버튜버 취미 예판/핫딜 종합게시판 게임쇼 도쿄게임쇼 지스타 E3 expo PlayX4 게임스컴 AGF 게임 관련 ETC 게임 동영상 게임 스토리 게임 방송 게임 심의결과 유저 스크린샷 콘솔 스샷 PC온라인 스샷 PC패키지 스샷 모바일 스샷 (구)스샷/영상 유저 동영상 콘솔 영상 PC온라인 영상 PC패키지 영상 모바일 영상 종합 정보 게시판 글쓰기 &nbsp; 목록 | 이전글 | 다음글 [사회] [밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 '최고급 아파트' [4] 昏庸無道 (3364689) 추천흡수기 정보통 모험가 매트릭스 활동내역 작성글 쪽지 마이피 타임라인 출석일수 : 4270일 | LV.156 Exp. 86% 추천 0 | 조회 1199 | 비추력 25997 작성일 2026.08.04 (00:01:08) IP : (IP보기클릭) 118.36.***.*** 스크랩 | URL 복사 | | | | | 프로필 열기/닫기 昏庸無道 (3364689) 0 | 4 | 1199 | 비추력 25997 프로필 열기/닫기 2026.08.04 (00:01:08) 출처 : https://www.youtube.com/watch?v=PY50vpuLQvI 0 0 글쓰기 스크랩 | URL 복사 | | | | | 글꼴 신고 | 차단 목록 | 이전글 | 다음글 댓글 | 총 4 개 1 &nbsp;댓글 BEST ON OFF 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 26.08.04 00:09 추천 12 비추천 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 26.08.04 00:13 추천 8 비추천 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나? 이건 반대할 사람 많아보이지 않는데.. 등가교환으로 힘든 것 비례해서 배달료도 30000원쯤 받게 하던가 서로 가려고 그럴걸? 26.08.04 03:32 추천 5 비추천 0 신고 장동건 (196093) (IP보기클릭) 220.70.***.*** BEST 목동쪽에도 있습니다. 저 구석에 화물칸 타라고 하는데 어디 숨겨져 있어서 찾다가 밖으로 나가면.일방통행문이라 잘못 나가면 다시 정문으로.. 엿멕이는건가. 쌍욕이 안나오면 정상인이 아닙니다. 별짓다해요. 헬멧 벗기고.우의 벗기고 . 뭘 적어라 맡겨라. 실제로 있습니다. 이게 한 5~6년에 겪었던건데 아직도 저짓꺼리 하나보네요. 26.08.04 01:06 추천 4 비추천 0 신고 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 등록 26.08.04 00:09 12 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 등록 26.08.04 00:13 8 0 신고 장동건 (196093) (IP보기클릭) 220.70.***.*** BEST 목동쪽에도 있습니다. 저 구석에 화물칸 타라고 하는데 어디 숨겨져 있어서 찾다가 밖으로 나가면.일방통행문이라 잘못 나가면 다시 정문으로.. 엿멕이는건가. 쌍욕이 안나오면 정상인이 아닙니다. 별짓다해요. 헬멧 벗기고.우의 벗기고 . 뭘 적어라 맡겨라. 실제로 있습니다. 이게 한 5~6년에 겪었던건데 아직도 저짓꺼리 하나보네요. 등록 26.08.04 01:06 4 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나? 이건 반대할 사람 많아보이지 않는데.. 등가교환으로 힘든 것 비례해서 배달료도 30000원쯤 받게 하던가 서로 가려고 그럴걸? 등록 26.08.04 03:32 5 0 신고 1 &nbsp;댓글 로그인이 필요합니다. 글쓰기 목록 | 이전글 | 다음글 글쓰기 공지 스킨 인증글 베스트 ID 구분 제목 게시판 글쓴이 추천 조회 날짜 3800225 사회 “10억 아파트에 5억 ‘영끌’” 국토장관 후보자…1년 새 4억 올랐다 (1) 사회/정치/경제 정보 슈퍼 개허접마카롱 99 20:28 3800224 경제 \"5년 안에 세계 판매량 1위\" 中 BYD 선언 현실성 있나? 사회/정치/경제 정보 원히트원더-미국춤™ 54 20:25 3800223 정치 개각 반전은 없었다…李대통령 지지율 40% 최저 사회/정치/경제 정보 루리웹-1734279427 47 20:24 3800222 농구 [KBL] '세금 분쟁' 라건아, 가스공사 복귀‥등록 보류 가처분 인용 스포츠 정보 최강삼성 승리하리라 13 20:24 3800221 사회 반성문 잉크 마르기도 전에…경찰, 실탄 빼돌리고 성추행도 사회/정치/경제 정보 루리웹-1734279427 23 20:24 3800220 축구 [UCL] 챔피언스 리그 기준에 맞게 새 단장한 코모의 홈 스타디움 스포츠 정보 로맨스쿠나 56 20:23 3800219 정치 [단독]김성수, 피해자 합의 없었는데 미성년자 성착취범 감형 사회/정치/경제 정보 루리웹-1734279427 2 192 20:22 3800218 농구 [나고야로 간 BASKETKOREA] 박준영이 한국가스공사에 더할 에너지 스포츠 정보 최강삼성 승리하리라 15 20:21 3800217 사회 [단독]김승원, 판사 시절 음주운전자 ‘징역 4개월→벌금 500만원’ 감... (2) 사회/정치/경제 정보 슈퍼 개허접마카롱 1 234 20:18 3800216 정보 [비하인드] 하츠투하츠 2026 SBS 가요대전 서머 방송/연예 정보 도발전설 63 20:16 3800214 정보 [비하인드] 이즈나 - 'DUMB HOT!' MV 촬영 방송/연예 정보 도발전설 50 20:14 3800213 경제 “매일 밑바닥 보는 기분”…2030 덮친 ‘빚투 청구서’ (5) 사회/정치/경제 정보 홍콩할배귀신 314 20:14 3800211 정치 [단독] '가족소득당' 논란 기본소득당, 이번엔 '고액후원자 → 시장 후... 사회/정치/경제 정보 홍콩할배귀신 2 166 20:11 3800210 사회 '오세훈 아내'라는 굴레…수십 년 인내한 끝에 내놓은 대답 (1) 사회/정치/경제 정보 홍콩할배귀신 1 204 20:10 3800209 정치 [단독] 이 대통령 \"호르무즈 파병 진척 없어‥우리 필요가 최우선\" (1) 사회/정치/경제 정보 루리웹-2727598421 1 372 20:09 3800206 정치 일본조차 \"파병 불가\"‥동맹국들 모두 참전은 'NO' (3) 사회/정치/경제 정보 말리스미제르 3 419 20:05",
+      "contentVerification": {
+        "status": "verified",
+        "reason": "verified-content",
+        "httpOk": true,
+        "articleLike": true,
+        "meaningfulContent": true,
+        "titleOverlap": true,
+        "overlapTokens": [
+          "사회",
+          "헬멧",
+          "벗고",
+          "화물칸",
+          "타라",
+          "라이더",
+          "울리는",
+          "최고급",
+          "아파트"
+        ],
+        "snippetLength": 4000,
+        "contentLength": 4000
+      },
+      "fetchedAt": "2026-09-04T11:30:58.858Z",
+      "score": 5,
+      "evidence": {
+        "everydayProximity": [
+          "아파트"
+        ],
+        "inexplicableBehavior": [],
+        "sustainedVictimFear": [],
+        "institutionalFrustration": [],
+        "solutionPotential": [],
+        "visualizability": []
+      },
+      "sameEvent": {
+        "verified": true,
+        "confidence": 1,
+        "matchedAnchors": [
+          "밀착카메라",
+          "헬멧",
+          "벗고",
+          "화물칸",
+          "타라",
+          "라이더",
+          "울리는",
+          "최고급",
+          "아파트"
+        ],
+        "matchedDistinctiveAnchors": [
+          "밀착카메라",
+          "헬멧",
+          "벗고",
+          "화물칸"
+        ],
+        "semanticMatch": {
+          "sharedActions": [],
+          "sharedLocations": [],
+          "sharedRoles": [],
+          "candidateFacets": {
+            "locations": [],
+            "actions": [
+              "sexual-assault"
+            ],
+            "roles": [
+              "driver",
+              "spouses"
+            ],
+            "dates": []
+          },
+          "minimumActionMatches": 0,
+          "minimumRoleMatches": 0,
+          "locationConflict": false
+        },
+        "eventFingerprint": {
+          "anchors": [
+            "밀착카메라",
+            "헬멧",
+            "벗고",
+            "화물칸",
+            "타라",
+            "라이더",
+            "울리는",
+            "최고급",
+            "아파트",
+            "아파트가"
+          ],
+          "distinctiveAnchors": [
+            {
+              "name": "밀착카메라",
+              "terms": [
+                "밀착카메라"
+              ]
+            },
+            {
+              "name": "헬멧",
+              "terms": [
+                "헬멧"
+              ]
+            },
+            {
+              "name": "벗고",
+              "terms": [
+                "벗고"
+              ]
+            },
+            {
+              "name": "화물칸",
+              "terms": [
+                "화물칸"
+              ]
+            }
+          ],
+          "minDistinctiveMatches": 2,
+          "minTotalMatches": 3,
+          "semanticFacets": {
+            "locations": [
+              "서울",
+              "역삼동"
+            ],
+            "actions": [],
+            "roles": [],
+            "dates": []
+          }
+        },
+        "rejectionReason": null,
+        "verificationStage": "post-fetch",
+        "contentEvidenceVerified": true
+      },
+      "kind": "follow-up",
+      "mediaType": "article"
+    }
+  ],
+  "laws": [],
+  "actors": [],
+  "contradictions": [],
+  "unknowns": [],
+  "errors": [],
+  "counts": {
+    "sources": 1,
+    "relatedCoverage": 3,
+    "priorContext": 0,
+    "originalMedia": 3,
+    "followUps": 1,
+    "laws": 0,
+    "errors": 0
+  },
+  "eventDossier": {
+    "schemaVersion": 3,
+    "slug": "research-ddab2f1aa396b1c5",
+    "generatedAt": "2026-09-04T11:30:51.206Z",
+    "researchSnapshotSha256": "97bec5165c59ea0cf2049f8c78dc7a134982b9cfbb71a8c2bb7aa2b487abd96f",
+    "eventIdentity": {
+      "title": "[밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 '최고급 아파트'",
+      "fingerprint": {
+        "anchors": [
+          "밀착카메라",
+          "헬멧",
+          "벗고",
+          "화물칸",
+          "타라",
+          "라이더",
+          "울리는",
+          "최고급",
+          "아파트",
+          "아파트가"
+        ],
+        "distinctiveAnchors": [
+          {
+            "name": "밀착카메라",
+            "terms": [
+              "밀착카메라"
+            ]
+          },
+          {
+            "name": "헬멧",
+            "terms": [
+              "헬멧"
+            ]
+          },
+          {
+            "name": "벗고",
+            "terms": [
+              "벗고"
+            ]
+          },
+          {
+            "name": "화물칸",
+            "terms": [
+              "화물칸"
+            ]
+          }
+        ],
+        "minDistinctiveMatches": 2,
+        "minTotalMatches": 3,
+        "semanticFacets": {
+          "locations": [
+            "서울",
+            "역삼동"
+          ],
+          "actions": [],
+          "roles": [],
+          "dates": []
+        }
+      }
+    },
+    "actors": [],
+    "confirmedFacts": [
+      {
+        "id": "claim-c15fccda4047",
+        "summary": "[앵커] 이렇게 더운 날씨에 배달 오토바이는 정문에 세우고 걸어오라 하고, 에어컨 없는 화물용 엘리베이터를 타라고 합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-cedeed57d1b5",
+        "summary": "서울 강남 최고급 아파트에서 배달 기사들에게 이런 부당한 차별을 하고 있다는데 어떤 일이 벌어지고 있는 것인지 밀착카메라 이은진 기자가 직접 배달을 해봤습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-9bdab113870d",
+        "summary": "[기자] [뭐 헬멧을 벗어라, 거의 90%가 다 그래요.] [차라리 배달을 안 시키든가, 본인들이 시켜놓고 문을 안 열어주면은…] [정말 기피 대상이죠.] 이 지역 아파트, 배달 기사들은 '천룡인 아파트'라고 부릅니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f78eb6cece92",
+        "summary": "[강모 씨 /배달 라이더 : 만화에 나오는 귀족 세력을 천룡인이라고 하는데, 그거를 말 그대로 빗대어서…강남이 제일 심하죠.] 천룡인은 만화에 등장하는 가상 특권층입니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-965e15e6616d",
+        "summary": "현실에선 '누구도 건드리지 못하는', '과도한 특권을 누리는 집단'을 의미합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-053b92ea9a66",
+        "summary": "[강모 씨/배달 라이더 : 오토바이 출입 제한, 제 이름과 전화번호 (적고.) 그다음에 이제 소지품도 맡겨야 되고…] 이 아파트들이 그랬습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-4c0194054bae",
+        "summary": "[아파트 관리원 : 출입 일자 (쓰세요.)] 일반 엘리베이터는 타지 못합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-3d50107fc0b3",
+        "summary": "[아파트 관리원 : 바로 오른쪽에 철문 여세요.] 단지가 크면 더 힘든 절차가 많아집니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-0b3af7ae8b48",
+        "summary": "그래서 오늘 같은 폭염에도 직접 음식을 들고 걸어가야 합니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-62beff94265f",
+        "summary": "[강모 씨/배달 라이더 : 걸어가면 이동 거리가 길어서 저도 너무 배달 시간이 오래 걸리고…다 왔다.] 오늘 체감온도 32도입니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-1580f5d1cb4b",
+        "summary": "이번엔 제가 직접 배달 일을 해보면서 얼마나 많은 과정을 거쳐야 하는지 직접 확인해 보겠습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-f2600d422b44",
+        "summary": "[아파트 관리원 : {46층이요.} 물건 맡겨주시면 키 교환해드릴게요.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-ddab2f1aa396"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": false
+      },
+      {
+        "id": "claim-1deeb9b1f3de",
+        "summary": "Search 검색 / 게시판 찾기 마이피 · 중고장터 글꼴 차단 ON 차단 갱신 다크 모드 퀵 로그인 GNB 메뉴 PS5 스위치2 XSX PC 버튜버/VR 모바일 AC/고전 뉴스/겜툰 핫딜🔥 취미갤 유저게시판 게임게시판 커뮤니티🐳 BEST 만화 피규어 프라모델 애니/책 ➕ 더보기 패밀리 사이트 🔽 PS5 스위치2 XSX PC 버튜버/VR 모바일 AC/고전 뉴스/겜툰 핫딜🔥 취미갤 유저게시판 게임게시판 커뮤니티🐳 BEST 만화 피규어 프라모델 애니/책 커피☕ 끌올🔝 숏츠?",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-39f64b9b3498",
+        "summary": "커피 무료 쿠폰 신규 게시판 PUBG: 데드넷 프로젝트 제타 타래: 언바운드 에이지 트위스터 노 로우 (No Law) 데드 어카운트: 두 개의 푸른 불꽃 애니모 노두스폴 라이크 오어 다이 파레이돌리아 아스트라에 오라티오 더 블러드 오브 던워커 게시판 순위 유머 게시판 정치유머 게시판 사회/정치/경제 정보 플레이스테이션 정보 스포츠 정보 PC 게임 정보 방송/연예 정보 플레이스테이션 게임 이야기 애니메이션 정보 엑스박스 잡담 게시판 유저 예판 핫딜 뽐뿌 게시판 만화책 라노벨 도서 웹툰 정보 본문 뉴스/겜툰 루리웹기사 리뷰/읽을거리 게임툰 웹툰 비디오게임 PS4 / PS5 XBO / XBSX SWITCH PSP / VITA NDS / 3DS 판매순위 PC/온라인 PC H/W 모바일 VR 유저정보 콘솔 PC 모바일 버튜버 취미 예판/핫딜 종합게시판 게임쇼 도쿄게임쇼 지스타 E3 expo PlayX4 게임스컴 AGF 게임 관련 ETC 게임 동영상 게임 스토리 게임 방송 게임 심의결과 유저 스크린샷 콘솔 스샷 PC온라인 스샷 PC패키지 스샷 모바일 스샷 (구)스샷/영상 유저 동영상 콘솔 영상 PC온라인 영상 PC패키지 영상 모바일 영상 종합 정보 게시판 글쓰기 목록 | 이전글 | 다음글 [사회] [밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 '최고급 아파트' [4] 昏庸無道 (3364689) 추천흡수기 정보통 모험가 매트릭스 활동내역 작성글 쪽지 마이피 타임라인 출석일수 : 4270일 | LV.156 Exp.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-0352a03825bb",
+        "summary": "86% 추천 0 | 조회 1199 | 비추력 25997 작성일 2026.08.04 (00:01:08) IP : (IP보기클릭) 118.36.***.*** 스크랩 | URL 복사 | | | | | 프로필 열기/닫기 昏庸無道 (3364689) 0 | 4 | 1199 | 비추력 25997 프로필 열기/닫기 2026.08.04 (00:01:08) 출처 : 0 0 글쓰기 스크랩 | URL 복사 | | | | | 글꼴 신고 | 차단 목록 | 이전글 | 다음글 댓글 | 총 4 개 1 댓글 BEST ON OFF 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 26.08.04 00:09 추천 12 비추천 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 26.08.04 00:13 추천 8 비추천 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나?",
+        "date": "2026.08.04",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "preparation",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-12ded6539173",
+        "summary": "등가교환으로 힘든 것 비례해서 배달료도 30000원쯤 받게 하던가 서로 가려고 그럴걸?",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-ef9db2bf4641",
+        "summary": "26.08.04 03:32 추천 5 비추천 0 신고 장동건 (196093) (IP보기클릭) 220.70.***.*** BEST 목동쪽에도 있습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-29dd5bd3e0da",
+        "summary": "저 구석에 화물칸 타라고 하는데 어디 숨겨져 있어서 찾다가 밖으로 나가면.일방통행문이라 잘못 나가면 다시 정문으로..",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-53728a358bcf",
+        "summary": "이게 한 5~6년에 겪었던건데 아직도 저짓꺼리 하나보네요.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-11ba22fca181",
+        "summary": "26.08.04 01:06 추천 4 비추천 0 신고 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 등록 26.08.04 00:09 12 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 등록 26.08.04 00:13 8 0 신고 장동건 (196093) (IP보기클릭) 220.70.***.*** BEST 목동쪽에도 있습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "preparation",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-df95157fda5b",
+        "summary": "등록 26.08.04 01:06 4 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나?",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      }
+    ],
+    "investigationAndCharges": [],
+    "trialStagesAndSentenceChanges": [],
+    "prosecutionClaims": [],
+    "defenseClaims": [],
+    "courtFindings": [],
+    "victimImpact": [],
+    "timeline": [
+      {
+        "id": "claim-0352a03825bb",
+        "summary": "86% 추천 0 | 조회 1199 | 비추력 25997 작성일 2026.08.04 (00:01:08) IP : (IP보기클릭) 118.36.***.*** 스크랩 | URL 복사 | | | | | 프로필 열기/닫기 昏庸無道 (3364689) 0 | 4 | 1199 | 비추력 25997 프로필 열기/닫기 2026.08.04 (00:01:08) 출처 : 0 0 글쓰기 스크랩 | URL 복사 | | | | | 글꼴 신고 | 차단 목록 | 이전글 | 다음글 댓글 | 총 4 개 1 댓글 BEST ON OFF 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 26.08.04 00:09 추천 12 비추천 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 26.08.04 00:13 추천 8 비추천 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나?",
+        "date": "2026.08.04",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "preparation",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      }
+    ],
+    "conflicts": [],
+    "unknowns": [],
+    "laterChanges": [
+      {
+        "id": "claim-1deeb9b1f3de",
+        "summary": "Search 검색 / 게시판 찾기 마이피 · 중고장터 글꼴 차단 ON 차단 갱신 다크 모드 퀵 로그인 GNB 메뉴 PS5 스위치2 XSX PC 버튜버/VR 모바일 AC/고전 뉴스/겜툰 핫딜🔥 취미갤 유저게시판 게임게시판 커뮤니티🐳 BEST 만화 피규어 프라모델 애니/책 ➕ 더보기 패밀리 사이트 🔽 PS5 스위치2 XSX PC 버튜버/VR 모바일 AC/고전 뉴스/겜툰 핫딜🔥 취미갤 유저게시판 게임게시판 커뮤니티🐳 BEST 만화 피규어 프라모델 애니/책 커피☕ 끌올🔝 숏츠?",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-39f64b9b3498",
+        "summary": "커피 무료 쿠폰 신규 게시판 PUBG: 데드넷 프로젝트 제타 타래: 언바운드 에이지 트위스터 노 로우 (No Law) 데드 어카운트: 두 개의 푸른 불꽃 애니모 노두스폴 라이크 오어 다이 파레이돌리아 아스트라에 오라티오 더 블러드 오브 던워커 게시판 순위 유머 게시판 정치유머 게시판 사회/정치/경제 정보 플레이스테이션 정보 스포츠 정보 PC 게임 정보 방송/연예 정보 플레이스테이션 게임 이야기 애니메이션 정보 엑스박스 잡담 게시판 유저 예판 핫딜 뽐뿌 게시판 만화책 라노벨 도서 웹툰 정보 본문 뉴스/겜툰 루리웹기사 리뷰/읽을거리 게임툰 웹툰 비디오게임 PS4 / PS5 XBO / XBSX SWITCH PSP / VITA NDS / 3DS 판매순위 PC/온라인 PC H/W 모바일 VR 유저정보 콘솔 PC 모바일 버튜버 취미 예판/핫딜 종합게시판 게임쇼 도쿄게임쇼 지스타 E3 expo PlayX4 게임스컴 AGF 게임 관련 ETC 게임 동영상 게임 스토리 게임 방송 게임 심의결과 유저 스크린샷 콘솔 스샷 PC온라인 스샷 PC패키지 스샷 모바일 스샷 (구)스샷/영상 유저 동영상 콘솔 영상 PC온라인 영상 PC패키지 영상 모바일 영상 종합 정보 게시판 글쓰기 목록 | 이전글 | 다음글 [사회] [밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 '최고급 아파트' [4] 昏庸無道 (3364689) 추천흡수기 정보통 모험가 매트릭스 활동내역 작성글 쪽지 마이피 타임라인 출석일수 : 4270일 | LV.156 Exp.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-0352a03825bb",
+        "summary": "86% 추천 0 | 조회 1199 | 비추력 25997 작성일 2026.08.04 (00:01:08) IP : (IP보기클릭) 118.36.***.*** 스크랩 | URL 복사 | | | | | 프로필 열기/닫기 昏庸無道 (3364689) 0 | 4 | 1199 | 비추력 25997 프로필 열기/닫기 2026.08.04 (00:01:08) 출처 : 0 0 글쓰기 스크랩 | URL 복사 | | | | | 글꼴 신고 | 차단 목록 | 이전글 | 다음글 댓글 | 총 4 개 1 댓글 BEST ON OFF 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 26.08.04 00:09 추천 12 비추천 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 26.08.04 00:13 추천 8 비추천 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나?",
+        "date": "2026.08.04",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "preparation",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-12ded6539173",
+        "summary": "등가교환으로 힘든 것 비례해서 배달료도 30000원쯤 받게 하던가 서로 가려고 그럴걸?",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-ef9db2bf4641",
+        "summary": "26.08.04 03:32 추천 5 비추천 0 신고 장동건 (196093) (IP보기클릭) 220.70.***.*** BEST 목동쪽에도 있습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-29dd5bd3e0da",
+        "summary": "저 구석에 화물칸 타라고 하는데 어디 숨겨져 있어서 찾다가 밖으로 나가면.일방통행문이라 잘못 나가면 다시 정문으로..",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-53728a358bcf",
+        "summary": "이게 한 5~6년에 겪었던건데 아직도 저짓꺼리 하나보네요.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-11ba22fca181",
+        "summary": "26.08.04 01:06 추천 4 비추천 0 신고 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 등록 26.08.04 00:09 12 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 등록 26.08.04 00:13 8 0 신고 장동건 (196093) (IP보기클릭) 220.70.***.*** BEST 목동쪽에도 있습니다.",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "preparation",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      },
+      {
+        "id": "claim-df95157fda5b",
+        "summary": "등록 26.08.04 01:06 4 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나?",
+        "perspective": "reported",
+        "status": "reported",
+        "detailGroup": "core",
+        "sourceIds": [
+          "src-c3a466ad1713"
+        ],
+        "agreement": {
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        "confidence": "single-source",
+        "followUp": true
+      }
+    ],
+    "narrative": {
+      "overview": [
+        {
+          "id": "claim-c15fccda4047",
+          "summary": "[앵커] 이렇게 더운 날씨에 배달 오토바이는 정문에 세우고 걸어오라 하고, 에어컨 없는 화물용 엘리베이터를 타라고 합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-cedeed57d1b5",
+          "summary": "서울 강남 최고급 아파트에서 배달 기사들에게 이런 부당한 차별을 하고 있다는데 어떤 일이 벌어지고 있는 것인지 밀착카메라 이은진 기자가 직접 배달을 해봤습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-9bdab113870d",
+          "summary": "[기자] [뭐 헬멧을 벗어라, 거의 90%가 다 그래요.] [차라리 배달을 안 시키든가, 본인들이 시켜놓고 문을 안 열어주면은…] [정말 기피 대상이죠.] 이 지역 아파트, 배달 기사들은 '천룡인 아파트'라고 부릅니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f78eb6cece92",
+          "summary": "[강모 씨 /배달 라이더 : 만화에 나오는 귀족 세력을 천룡인이라고 하는데, 그거를 말 그대로 빗대어서…강남이 제일 심하죠.] 천룡인은 만화에 등장하는 가상 특권층입니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-965e15e6616d",
+          "summary": "현실에선 '누구도 건드리지 못하는', '과도한 특권을 누리는 집단'을 의미합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-053b92ea9a66",
+          "summary": "[강모 씨/배달 라이더 : 오토바이 출입 제한, 제 이름과 전화번호 (적고.) 그다음에 이제 소지품도 맡겨야 되고…] 이 아파트들이 그랬습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4c0194054bae",
+          "summary": "[아파트 관리원 : 출입 일자 (쓰세요.)] 일반 엘리베이터는 타지 못합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-3d50107fc0b3",
+          "summary": "[아파트 관리원 : 바로 오른쪽에 철문 여세요.] 단지가 크면 더 힘든 절차가 많아집니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "chronology": [
+        {
+          "id": "claim-0352a03825bb",
+          "summary": "86% 추천 0 | 조회 1199 | 비추력 25997 작성일 2026.08.04 (00:01:08) IP : (IP보기클릭) 118.36.***.*** 스크랩 | URL 복사 | | | | | 프로필 열기/닫기 昏庸無道 (3364689) 0 | 4 | 1199 | 비추력 25997 프로필 열기/닫기 2026.08.04 (00:01:08) 출처 : 0 0 글쓰기 스크랩 | URL 복사 | | | | | 글꼴 신고 | 차단 목록 | 이전글 | 다음글 댓글 | 총 4 개 1 댓글 BEST ON OFF 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 26.08.04 00:09 추천 12 비추천 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 26.08.04 00:13 추천 8 비추천 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나?",
+          "date": "2026.08.04",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "preparation",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        }
+      ],
+      "sameEventFindings": [
+        {
+          "id": "claim-c15fccda4047",
+          "summary": "[앵커] 이렇게 더운 날씨에 배달 오토바이는 정문에 세우고 걸어오라 하고, 에어컨 없는 화물용 엘리베이터를 타라고 합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-cedeed57d1b5",
+          "summary": "서울 강남 최고급 아파트에서 배달 기사들에게 이런 부당한 차별을 하고 있다는데 어떤 일이 벌어지고 있는 것인지 밀착카메라 이은진 기자가 직접 배달을 해봤습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-9bdab113870d",
+          "summary": "[기자] [뭐 헬멧을 벗어라, 거의 90%가 다 그래요.] [차라리 배달을 안 시키든가, 본인들이 시켜놓고 문을 안 열어주면은…] [정말 기피 대상이죠.] 이 지역 아파트, 배달 기사들은 '천룡인 아파트'라고 부릅니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f78eb6cece92",
+          "summary": "[강모 씨 /배달 라이더 : 만화에 나오는 귀족 세력을 천룡인이라고 하는데, 그거를 말 그대로 빗대어서…강남이 제일 심하죠.] 천룡인은 만화에 등장하는 가상 특권층입니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-965e15e6616d",
+          "summary": "현실에선 '누구도 건드리지 못하는', '과도한 특권을 누리는 집단'을 의미합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-053b92ea9a66",
+          "summary": "[강모 씨/배달 라이더 : 오토바이 출입 제한, 제 이름과 전화번호 (적고.) 그다음에 이제 소지품도 맡겨야 되고…] 이 아파트들이 그랬습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-4c0194054bae",
+          "summary": "[아파트 관리원 : 출입 일자 (쓰세요.)] 일반 엘리베이터는 타지 못합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-3d50107fc0b3",
+          "summary": "[아파트 관리원 : 바로 오른쪽에 철문 여세요.] 단지가 크면 더 힘든 절차가 많아집니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-0b3af7ae8b48",
+          "summary": "그래서 오늘 같은 폭염에도 직접 음식을 들고 걸어가야 합니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-62beff94265f",
+          "summary": "[강모 씨/배달 라이더 : 걸어가면 이동 거리가 길어서 저도 너무 배달 시간이 오래 걸리고…다 왔다.] 오늘 체감온도 32도입니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-1580f5d1cb4b",
+          "summary": "이번엔 제가 직접 배달 일을 해보면서 얼마나 많은 과정을 거쳐야 하는지 직접 확인해 보겠습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        },
+        {
+          "id": "claim-f2600d422b44",
+          "summary": "[아파트 관리원 : {46층이요.} 물건 맡겨주시면 키 교환해드릴게요.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": false
+        }
+      ],
+      "priorContext": [],
+      "followUpDevelopments": [
+        {
+          "id": "claim-1deeb9b1f3de",
+          "summary": "Search 검색 / 게시판 찾기 마이피 · 중고장터 글꼴 차단 ON 차단 갱신 다크 모드 퀵 로그인 GNB 메뉴 PS5 스위치2 XSX PC 버튜버/VR 모바일 AC/고전 뉴스/겜툰 핫딜🔥 취미갤 유저게시판 게임게시판 커뮤니티🐳 BEST 만화 피규어 프라모델 애니/책 ➕ 더보기 패밀리 사이트 🔽 PS5 스위치2 XSX PC 버튜버/VR 모바일 AC/고전 뉴스/겜툰 핫딜🔥 취미갤 유저게시판 게임게시판 커뮤니티🐳 BEST 만화 피규어 프라모델 애니/책 커피☕ 끌올🔝 숏츠?",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-39f64b9b3498",
+          "summary": "커피 무료 쿠폰 신규 게시판 PUBG: 데드넷 프로젝트 제타 타래: 언바운드 에이지 트위스터 노 로우 (No Law) 데드 어카운트: 두 개의 푸른 불꽃 애니모 노두스폴 라이크 오어 다이 파레이돌리아 아스트라에 오라티오 더 블러드 오브 던워커 게시판 순위 유머 게시판 정치유머 게시판 사회/정치/경제 정보 플레이스테이션 정보 스포츠 정보 PC 게임 정보 방송/연예 정보 플레이스테이션 게임 이야기 애니메이션 정보 엑스박스 잡담 게시판 유저 예판 핫딜 뽐뿌 게시판 만화책 라노벨 도서 웹툰 정보 본문 뉴스/겜툰 루리웹기사 리뷰/읽을거리 게임툰 웹툰 비디오게임 PS4 / PS5 XBO / XBSX SWITCH PSP / VITA NDS / 3DS 판매순위 PC/온라인 PC H/W 모바일 VR 유저정보 콘솔 PC 모바일 버튜버 취미 예판/핫딜 종합게시판 게임쇼 도쿄게임쇼 지스타 E3 expo PlayX4 게임스컴 AGF 게임 관련 ETC 게임 동영상 게임 스토리 게임 방송 게임 심의결과 유저 스크린샷 콘솔 스샷 PC온라인 스샷 PC패키지 스샷 모바일 스샷 (구)스샷/영상 유저 동영상 콘솔 영상 PC온라인 영상 PC패키지 영상 모바일 영상 종합 정보 게시판 글쓰기 목록 | 이전글 | 다음글 [사회] [밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 '최고급 아파트' [4] 昏庸無道 (3364689) 추천흡수기 정보통 모험가 매트릭스 활동내역 작성글 쪽지 마이피 타임라인 출석일수 : 4270일 | LV.156 Exp.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-0352a03825bb",
+          "summary": "86% 추천 0 | 조회 1199 | 비추력 25997 작성일 2026.08.04 (00:01:08) IP : (IP보기클릭) 118.36.***.*** 스크랩 | URL 복사 | | | | | 프로필 열기/닫기 昏庸無道 (3364689) 0 | 4 | 1199 | 비추력 25997 프로필 열기/닫기 2026.08.04 (00:01:08) 출처 : 0 0 글쓰기 스크랩 | URL 복사 | | | | | 글꼴 신고 | 차단 목록 | 이전글 | 다음글 댓글 | 총 4 개 1 댓글 BEST ON OFF 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 26.08.04 00:09 추천 12 비추천 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 26.08.04 00:13 추천 8 비추천 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나?",
+          "date": "2026.08.04",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "preparation",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-12ded6539173",
+          "summary": "등가교환으로 힘든 것 비례해서 배달료도 30000원쯤 받게 하던가 서로 가려고 그럴걸?",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-ef9db2bf4641",
+          "summary": "26.08.04 03:32 추천 5 비추천 0 신고 장동건 (196093) (IP보기클릭) 220.70.***.*** BEST 목동쪽에도 있습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-29dd5bd3e0da",
+          "summary": "저 구석에 화물칸 타라고 하는데 어디 숨겨져 있어서 찾다가 밖으로 나가면.일방통행문이라 잘못 나가면 다시 정문으로..",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-53728a358bcf",
+          "summary": "이게 한 5~6년에 겪었던건데 아직도 저짓꺼리 하나보네요.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-11ba22fca181",
+          "summary": "26.08.04 01:06 추천 4 비추천 0 신고 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 등록 26.08.04 00:09 12 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 등록 26.08.04 00:13 8 0 신고 장동건 (196093) (IP보기클릭) 220.70.***.*** BEST 목동쪽에도 있습니다.",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "preparation",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        },
+        {
+          "id": "claim-df95157fda5b",
+          "summary": "등록 26.08.04 01:06 4 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나?",
+          "perspective": "reported",
+          "status": "reported",
+          "detailGroup": "core",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "agreement": {
+            "sourceCount": 1,
+            "independentPublisherCount": 1
+          },
+          "confidence": "single-source",
+          "followUp": true
+        }
+      ],
+      "detailSections": [
+        {
+          "id": "preparation",
+          "title": "도구와 준비 정황",
+          "description": "사용 물질의 출처·위험성과 사전 준비 여부",
+          "claims": [
+            {
+              "id": "claim-0352a03825bb",
+              "summary": "86% 추천 0 | 조회 1199 | 비추력 25997 작성일 2026.08.04 (00:01:08) IP : (IP보기클릭) 118.36.***.*** 스크랩 | URL 복사 | | | | | 프로필 열기/닫기 昏庸無道 (3364689) 0 | 4 | 1199 | 비추력 25997 프로필 열기/닫기 2026.08.04 (00:01:08) 출처 : 0 0 글쓰기 스크랩 | URL 복사 | | | | | 글꼴 신고 | 차단 목록 | 이전글 | 다음글 댓글 | 총 4 개 1 댓글 BEST ON OFF 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 26.08.04 00:09 추천 12 비추천 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 26.08.04 00:13 추천 8 비추천 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나?",
+              "date": "2026.08.04",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "preparation",
+              "sourceIds": [
+                "src-c3a466ad1713"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": true
+            },
+            {
+              "id": "claim-11ba22fca181",
+              "summary": "26.08.04 01:06 추천 4 비추천 0 신고 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 등록 26.08.04 00:09 12 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 등록 26.08.04 00:13 8 0 신고 장동건 (196093) (IP보기클릭) 220.70.***.*** BEST 목동쪽에도 있습니다.",
+              "perspective": "reported",
+              "status": "reported",
+              "detailGroup": "preparation",
+              "sourceIds": [
+                "src-c3a466ad1713"
+              ],
+              "agreement": {
+                "sourceCount": 1,
+                "independentPublisherCount": 1
+              },
+              "confidence": "single-source",
+              "followUp": true
+            }
+          ]
+        }
+      ],
+      "sourceAgreement": [
+        {
+          "claimId": "claim-c15fccda4047",
+          "summary": "[앵커] 이렇게 더운 날씨에 배달 오토바이는 정문에 세우고 걸어오라 하고, 에어컨 없는 화물용 엘리베이터를 타라고 합니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-cedeed57d1b5",
+          "summary": "서울 강남 최고급 아파트에서 배달 기사들에게 이런 부당한 차별을 하고 있다는데 어떤 일이 벌어지고 있는 것인지 밀착카메라 이은진 기자가 직접 배달을 해봤습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-9bdab113870d",
+          "summary": "[기자] [뭐 헬멧을 벗어라, 거의 90%가 다 그래요.] [차라리 배달을 안 시키든가, 본인들이 시켜놓고 문을 안 열어주면은…] [정말 기피 대상이죠.] 이 지역 아파트, 배달 기사들은 '천룡인 아파트'라고 부릅니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-f78eb6cece92",
+          "summary": "[강모 씨 /배달 라이더 : 만화에 나오는 귀족 세력을 천룡인이라고 하는데, 그거를 말 그대로 빗대어서…강남이 제일 심하죠.] 천룡인은 만화에 등장하는 가상 특권층입니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-965e15e6616d",
+          "summary": "현실에선 '누구도 건드리지 못하는', '과도한 특권을 누리는 집단'을 의미합니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-053b92ea9a66",
+          "summary": "[강모 씨/배달 라이더 : 오토바이 출입 제한, 제 이름과 전화번호 (적고.) 그다음에 이제 소지품도 맡겨야 되고…] 이 아파트들이 그랬습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-4c0194054bae",
+          "summary": "[아파트 관리원 : 출입 일자 (쓰세요.)] 일반 엘리베이터는 타지 못합니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-3d50107fc0b3",
+          "summary": "[아파트 관리원 : 바로 오른쪽에 철문 여세요.] 단지가 크면 더 힘든 절차가 많아집니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-0b3af7ae8b48",
+          "summary": "그래서 오늘 같은 폭염에도 직접 음식을 들고 걸어가야 합니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-62beff94265f",
+          "summary": "[강모 씨/배달 라이더 : 걸어가면 이동 거리가 길어서 저도 너무 배달 시간이 오래 걸리고…다 왔다.] 오늘 체감온도 32도입니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-1580f5d1cb4b",
+          "summary": "이번엔 제가 직접 배달 일을 해보면서 얼마나 많은 과정을 거쳐야 하는지 직접 확인해 보겠습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-f2600d422b44",
+          "summary": "[아파트 관리원 : {46층이요.} 물건 맡겨주시면 키 교환해드릴게요.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-ddab2f1aa396"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-1deeb9b1f3de",
+          "summary": "Search 검색 / 게시판 찾기 마이피 · 중고장터 글꼴 차단 ON 차단 갱신 다크 모드 퀵 로그인 GNB 메뉴 PS5 스위치2 XSX PC 버튜버/VR 모바일 AC/고전 뉴스/겜툰 핫딜🔥 취미갤 유저게시판 게임게시판 커뮤니티🐳 BEST 만화 피규어 프라모델 애니/책 ➕ 더보기 패밀리 사이트 🔽 PS5 스위치2 XSX PC 버튜버/VR 모바일 AC/고전 뉴스/겜툰 핫딜🔥 취미갤 유저게시판 게임게시판 커뮤니티🐳 BEST 만화 피규어 프라모델 애니/책 커피☕ 끌올🔝 숏츠?",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-39f64b9b3498",
+          "summary": "커피 무료 쿠폰 신규 게시판 PUBG: 데드넷 프로젝트 제타 타래: 언바운드 에이지 트위스터 노 로우 (No Law) 데드 어카운트: 두 개의 푸른 불꽃 애니모 노두스폴 라이크 오어 다이 파레이돌리아 아스트라에 오라티오 더 블러드 오브 던워커 게시판 순위 유머 게시판 정치유머 게시판 사회/정치/경제 정보 플레이스테이션 정보 스포츠 정보 PC 게임 정보 방송/연예 정보 플레이스테이션 게임 이야기 애니메이션 정보 엑스박스 잡담 게시판 유저 예판 핫딜 뽐뿌 게시판 만화책 라노벨 도서 웹툰 정보 본문 뉴스/겜툰 루리웹기사 리뷰/읽을거리 게임툰 웹툰 비디오게임 PS4 / PS5 XBO / XBSX SWITCH PSP / VITA NDS / 3DS 판매순위 PC/온라인 PC H/W 모바일 VR 유저정보 콘솔 PC 모바일 버튜버 취미 예판/핫딜 종합게시판 게임쇼 도쿄게임쇼 지스타 E3 expo PlayX4 게임스컴 AGF 게임 관련 ETC 게임 동영상 게임 스토리 게임 방송 게임 심의결과 유저 스크린샷 콘솔 스샷 PC온라인 스샷 PC패키지 스샷 모바일 스샷 (구)스샷/영상 유저 동영상 콘솔 영상 PC온라인 영상 PC패키지 영상 모바일 영상 종합 정보 게시판 글쓰기 목록 | 이전글 | 다음글 [사회] [밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 '최고급 아파트' [4] 昏庸無道 (3364689) 추천흡수기 정보통 모험가 매트릭스 활동내역 작성글 쪽지 마이피 타임라인 출석일수 : 4270일 | LV.156 Exp.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-0352a03825bb",
+          "summary": "86% 추천 0 | 조회 1199 | 비추력 25997 작성일 2026.08.04 (00:01:08) IP : (IP보기클릭) 118.36.***.*** 스크랩 | URL 복사 | | | | | 프로필 열기/닫기 昏庸無道 (3364689) 0 | 4 | 1199 | 비추력 25997 프로필 열기/닫기 2026.08.04 (00:01:08) 출처 : 0 0 글쓰기 스크랩 | URL 복사 | | | | | 글꼴 신고 | 차단 목록 | 이전글 | 다음글 댓글 | 총 4 개 1 댓글 BEST ON OFF 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 26.08.04 00:09 추천 12 비추천 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 26.08.04 00:13 추천 8 비추천 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나?",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-12ded6539173",
+          "summary": "등가교환으로 힘든 것 비례해서 배달료도 30000원쯤 받게 하던가 서로 가려고 그럴걸?",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-ef9db2bf4641",
+          "summary": "26.08.04 03:32 추천 5 비추천 0 신고 장동건 (196093) (IP보기클릭) 220.70.***.*** BEST 목동쪽에도 있습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-29dd5bd3e0da",
+          "summary": "저 구석에 화물칸 타라고 하는데 어디 숨겨져 있어서 찾다가 밖으로 나가면.일방통행문이라 잘못 나가면 다시 정문으로..",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-53728a358bcf",
+          "summary": "이게 한 5~6년에 겪었던건데 아직도 저짓꺼리 하나보네요.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-11ba22fca181",
+          "summary": "26.08.04 01:06 추천 4 비추천 0 신고 서쿠쿠_ (5887062) (IP보기클릭) 14.6.***.*** BEST 아주 청룡인 납셨네 등록 26.08.04 00:09 12 0 신고 크롬메탈 (5055162) (IP보기클릭) 116.46.***.*** BEST 최고급 아파트인데 수위실 옆에 택배 보관함이나 쳐만들고 거따가 다 쳐넣고 직접 내려와서 찾아 가던가 ㅋㅋㅋㅋ 등록 26.08.04 00:13 8 0 신고 장동건 (196093) (IP보기클릭) 220.70.***.*** BEST 목동쪽에도 있습니다.",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        },
+        {
+          "claimId": "claim-df95157fda5b",
+          "summary": "등록 26.08.04 01:06 4 0 신고 20센치소년 (1253127) (IP보기클릭) 119.198.***.*** BEST 법으로 죠지면 안되나?",
+          "confidence": "single-source",
+          "sourceIds": [
+            "src-c3a466ad1713"
+          ],
+          "sourceCount": 1,
+          "independentPublisherCount": 1
+        }
+      ],
+      "conflicts": [],
+      "unresolvedQuestions": [],
+      "limitations": [
+        "독립적으로 검증된 동일 사건 추가 보도를 찾지 못했습니다.",
+        "이 사건의 직접적인 사전 맥락으로 확인된 보도를 찾지 못했습니다."
+      ]
+    },
+    "sourceCoverage": {
+      "verifiedSourceCount": 2,
+      "representativeSourceCount": 1,
+      "sameEventCoverageCount": 0,
+      "priorContextCount": 0,
+      "followUpCount": 1,
+      "independentPublisherCount": 2,
+      "corroboration": "multi-source",
+      "rejectedSameEventSourceCount": 0
+    },
+    "readiness": {
+      "readyForLegal": true,
+      "readyForDraft": true,
+      "preferredCorroborationMet": true,
+      "detailedNarrativeComplete": true,
+      "storyClaimCount": 21,
+      "narrativePhaseCount": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    "sourceIndex": [
+      {
+        "sourceId": "src-ddab2f1aa396",
+        "url": "https://news.jtbc.co.kr/article/NB12311491",
+        "title": "[밀착카메라] \"헬멧 벗고 화물칸 타라\"…라이더 울리는 ‘최고급 아파트’",
+        "publisher": "JTBC 뉴스",
+        "date": "",
+        "bucket": "representative",
+        "status": "verified",
+        "relationshipReason": ""
+      },
+      {
+        "sourceId": "src-c3a466ad1713",
+        "url": "https://bbs.ruliweb.com/news/board/1005/read/3785313",
+        "title": "밀착카메라 헬멧 벗고 화물칸 타라라이더 울리는 최고급 아파트",
+        "publisher": "루리웹",
+        "date": "",
+        "bucket": "follow-up",
+        "status": "verified",
+        "relationshipReason": ""
+      }
+    ],
+    "sourceExclusions": [],
+    "currentHash": "a4c44bec276a9594df8c727dfdf714940e80c58d7304553480275dbe161276b2"
+  }
+}

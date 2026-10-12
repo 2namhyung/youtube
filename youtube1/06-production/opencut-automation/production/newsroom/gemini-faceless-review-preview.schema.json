@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "newsroom-gemini-faceless-review-input-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "storyId", "previewId", "authorization", "facePolicy", "sources", "windowMap"],
+  "properties": {
+    "schema": { "const": "newsroom-gemini-faceless-review-input-v1" },
+    "storyId": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,96}$" },
+    "previewId": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,96}$" },
+    "authorization": { "type": "object", "additionalProperties": false, "required": ["scope", "authorizedOn", "source"], "properties": { "scope": { "type": "string" }, "authorizedOn": { "type": "string", "format": "date" }, "source": { "const": "current-user-request" } } },
+    "facePolicy": { "type": "object", "additionalProperties": false, "required": ["faceGeometryAllowed", "requiredDescription"], "properties": { "faceGeometryAllowed": { "const": false }, "requiredDescription": { "const": "smooth continuous blank matte face with no facial geometry" } } },
+    "cast": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["castId", "role", "silhouette", "wardrobe", "facialGeometry"], "properties": { "castId": { "type": "string" }, "role": { "type": "string" }, "silhouette": { "type": "string" }, "wardrobe": { "type": "string" }, "facialGeometry": { "const": "none" } } } },
+    "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "additionalProperties": false, "required": ["sourceId", "relativePath", "promptRelativePath", "windows"], "properties": { "sourceId": { "type": "string" }, "relativePath": { "type": "string" }, "promptRelativePath": { "type": "string" }, "captureRelativePath": { "type": "string" }, "windows": { "type": "array" } } } },
+    "windowMap": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["cutId", "sourceId", "sourceInSeconds", "sourceOutSeconds", "reviewObservation"], "properties": { "cutId": { "type": "string" }, "sourceId": { "type": "string" }, "sourceInSeconds": { "type": "number" }, "sourceOutSeconds": { "type": "number" }, "reviewObservation": { "type": "string" } } } }
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F4-20260729\\admission-work\\extra_06.full.wav",
+  "model": "C:\\Users\\User\\Desktop\\app\\youtube\\03-script-voice\\voice-clone\\training\\F\\asr-turbo\\model-cache\\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo\\snapshots\\0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 41.301375,
+  "duration_after_vad": 34.304,
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.0,
+      "end": 4.74,
+      "text": "가상수사관은 사건의 법적 이름을 서둘러 단정하지 않았습니다.",
+      "avg_logprob": -0.0769350134971126,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5653495440729484,
+      "words": [
+        {
+          "start": 1.0,
+          "end": 1.96,
+          "word": " 가상수사관은",
+          "probability": 0.989990234375
+        },
+        {
+          "start": 1.96,
+          "end": 2.5,
+          "word": " 사건의",
+          "probability": 0.997314453125
+        },
+        {
+          "start": 2.5,
+          "end": 2.86,
+          "word": " 법적",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 2.86,
+          "end": 3.2,
+          "word": " 이름을",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 3.2,
+          "end": 3.58,
+          "word": " 서둘러",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 3.58,
+          "end": 4.14,
+          "word": " 단정하지",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 4.14,
+          "end": 4.74,
+          "word": " 않았습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 5.76,
+      "end": 12.78,
+      "text": "건조물 침입 가능성과 재물손괴 가능성을 각각 기록하고 피의자와 피해자의 진술을 따로 들었습니다.",
+      "avg_logprob": -0.0769350134971126,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5653495440729484,
+      "words": [
+        {
+          "start": 5.76,
+          "end": 6.26,
+          "word": " 건조물",
+          "probability": 0.984130859375
+        },
+        {
+          "start": 6.26,
+          "end": 6.6,
+          "word": " 침입",
+          "probability": 0.90673828125
+        },
+        {
+          "start": 6.6,
+          "end": 7.34,
+          "word": " 가능성과",
+          "probability": 0.9988606770833334
+        },
+        {
+          "start": 7.34,
+          "end": 8.06,
+          "word": " 재물손괴",
+          "probability": 0.814306640625
+        },
+        {
+          "start": 8.06,
+          "end": 8.62,
+          "word": " 가능성을",
+          "probability": 0.9921875
+        },
+        {
+          "start": 8.62,
+          "end": 9.02,
+          "word": " 각각",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 9.02,
+          "end": 9.66,
+          "word": " 기록하고",
+          "probability": 1.0
+        },
+        {
+          "start": 9.66,
+          "end": 10.96,
+          "word": " 피의자와",
+          "probability": 0.9581298828125
+        },
+        {
+          "start": 10.96,
+          "end": 11.66,
+          "word": " 피해자의",
+          "probability": 0.9969482421875
+        },
+        {
+          "start": 11.66,
+          "end": 12.1,
+          "word": " 진술을",
+          "probability": 0.9977213541666666
+        },
+        {
+          "start": 12.1,
+          "end": 12.32,
+          "word": " 따로",
+          "probability": 1.0
+        },
+        {
+          "start": 12.32,
+          "end": 12.78,
+          "word": " 들었습니다.",
+          "probability": 0.997314453125
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 13.86,
+      "end": 21.76,
+      "text": "피해자는 텀블러의 뚜껑이 열려있었고 내용물이 조금 줄었다고 말했지만 피의자는 복도에 들어간 사실만 인정했습니다.",
+      "avg_logprob": -0.0769350134971126,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5653495440729484,
+      "words": [
+        {
+          "start": 13.86,
+          "end": 14.48,
+          "word": " 피해자는",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 14.48,
+          "end": 15.04,
+          "word": " 텀블러의",
+          "probability": 0.950439453125
+        },
+        {
+          "start": 15.04,
+          "end": 15.46,
+          "word": " 뚜껑이",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 15.46,
+          "end": 16.24,
+          "word": " 열려있었고",
+          "probability": 0.9619140625
+        },
+        {
+          "start": 16.24,
+          "end": 16.94,
+          "word": " 내용물이",
+          "probability": 0.9972330729166666
+        },
+        {
+          "start": 16.94,
+          "end": 17.2,
+          "word": " 조금",
+          "probability": 1.0
+        },
+        {
+          "start": 17.2,
+          "end": 17.72,
+          "word": " 줄었다고",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 17.72,
+          "end": 18.32,
+          "word": " 말했지만",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 18.32,
+          "end": 19.56,
+          "word": " 피의자는",
+          "probability": 0.95361328125
+        },
+        {
+          "start": 19.56,
+          "end": 20.34,
+          "word": " 복도에",
+          "probability": 0.9993489583333334
+        },
+        {
+          "start": 20.34,
+          "end": 20.68,
+          "word": " 들어간",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 20.68,
+          "end": 21.12,
+          "word": " 사실만",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 21.12,
+          "end": 21.76,
+          "word": " 인정했습니다.",
+          "probability": 0.9998372395833334
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 23.13,
+      "end": 31.06,
+      "text": "수사관은 휴대전화 포렌식 자료와 출입문 영상을 확인한 뒤 필요한 영장을 신청할지 검토했습니다.",
+      "avg_logprob": -0.0769350134971126,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.5653495440729484,
+      "words": [
+        {
+          "start": 23.13,
+          "end": 23.77,
+          "word": " 수사관은",
+          "probability": 0.9996337890625
+        },
+        {
+          "start": 23.77,
+          "end": 24.33,
+          "word": " 휴대전화",
+          "probability": 0.99736328125
+        },
+        {
+          "start": 24.33,
+          "end": 24.81,
+          "word": " 포렌식",
+          "probability": 0.99267578125
+        },
+        {
+          "start": 24.81,
+          "end": 25.27,
+          "word": " 자료와",
+          "probability": 0.9983723958333334
+        },
+        {
+          "start": 25.27,
+          "end": 25.83,
+          "word": " 출입문",
+          "probability": 0.998046875
+        },
+        {
+          "start": 25.83,
+          "end": 26.35,
+          "word": " 영상을",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 26.35,
+          "end": 27.29,
+          "word": " 확인한",
+          "probability": 1.0
+        },
+        {
+          "start": 27.29,
+          "end": 27.51,
+          "word": " 뒤",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 27.69,
+          "end": 28.43,
+          "word": " 필요한",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 28.43,
+          "end": 28.85,
+          "word": " 영장을",
+          "probability": 0.997314453125
+        },
+        {
+          "start": 28.85,
+          "end": 29.59,
+          "word": " 신청할지",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 30.12,
+          "end": 31.06,
+          "word": " 검토했습니다.",
+          "probability": 0.9993489583333334
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 32.54,
+      "end": 40.07,
+      "text": "영장이 발부되면 자료를 보존하고 기각되면 다른 합법적인 확인 방법을 찾기로 했습니다.",
+      "avg_logprob": -0.07410037878787878,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.043859649122807,
+      "words": [
+        {
+          "start": 32.54,
+          "end": 33.42,
+          "word": " 영장이",
+          "probability": 0.981689453125
+        },
+        {
+          "start": 33.42,
+          "end": 34.04,
+          "word": " 발부되면",
+          "probability": 0.9982421875
+        },
+        {
+          "start": 34.04,
+          "end": 34.48,
+          "word": " 자료를",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 34.48,
+          "end": 35.06,
+          "word": " 보존하고",
+          "probability": 0.9306640625
+        },
+        {
+          "start": 35.06,
+          "end": 35.78,
+          "word": " 기각되면",
+          "probability": 0.97763671875
+        },
+        {
+          "start": 35.78,
+          "end": 35.96,
+          "word": " 다른",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 35.96,
+          "end": 36.56,
+          "word": " 합법적인",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 37.25,
+          "end": 38.93,
+          "word": " 확인",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 38.93,
+          "end": 39.45,
+          "word": " 방법을",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 39.45,
+          "end": 39.77,
+          "word": " 찾기로",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 39.77,
+          "end": 40.07,
+          "word": " 했습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "source": "C:\\Users\\User\\Desktop\\app\\youtube\\voice-clone\\profiles\\F\\refs\\04_tension.full.wav",
+  "model": "turbo",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 42.7306875,
+  "duration_after_vad": 34.448,
+  "segments": [
+    {
+      "id": 1,
+      "start": 1.1,
+      "end": 2.42,
+      "text": "그런데 이상한 점이 있습니다.",
+      "avg_logprob": -0.11517589998816302,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.8923512747875355,
+      "words": [
+        {
+          "start": 1.1,
+          "end": 1.44,
+          "word": " 그런데",
+          "probability": 0.96435546875
+        },
+        {
+          "start": 1.44,
+          "end": 1.82,
+          "word": " 이상한",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 1.82,
+          "end": 2.04,
+          "word": " 점이",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 2.04,
+          "end": 2.42,
+          "word": " 있습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.66,
+      "end": 4.92,
+      "text": "피해자는 피해자의 얼굴을 알고 있습니다.",
+      "avg_logprob": -0.11517589998816302,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.8923512747875355,
+      "words": [
+        {
+          "start": 2.66,
+          "end": 3.44,
+          "word": " 피해자는",
+          "probability": 0.9864501953125
+        },
+        {
+          "start": 3.44,
+          "end": 4.02,
+          "word": " 피해자의",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 4.02,
+          "end": 4.36,
+          "word": " 얼굴을",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 4.36,
+          "end": 4.56,
+          "word": " 알고",
+          "probability": 1.0
+        },
+        {
+          "start": 4.56,
+          "end": 4.92,
+          "word": " 있습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 6.07,
+      "end": 8.15,
+      "text": "피해자가 어디에 근무하는지도 알고 있습니다.",
+      "avg_logprob": -0.11517589998816302,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.8923512747875355,
+      "words": [
+        {
+          "start": 6.07,
+          "end": 6.53,
+          "word": " 피해자가",
+          "probability": 0.9996337890625
+        },
+        {
+          "start": 6.53,
+          "end": 6.87,
+          "word": " 어디에",
+          "probability": 0.96728515625
+        },
+        {
+          "start": 6.87,
+          "end": 7.45,
+          "word": " 근무하는지도",
+          "probability": 0.97021484375
+        },
+        {
+          "start": 7.45,
+          "end": 7.73,
+          "word": " 알고",
+          "probability": 1.0
+        },
+        {
+          "start": 7.73,
+          "end": 8.15,
+          "word": " 있습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 9.44,
+      "end": 12.56,
+      "text": "하지만 피해자는 피해자가 정확히 누구인지 알기 어렵습니다.",
+      "avg_logprob": -0.11517589998816302,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.8923512747875355,
+      "words": [
+        {
+          "start": 9.44,
+          "end": 9.72,
+          "word": " 하지만",
+          "probability": 1.0
+        },
+        {
+          "start": 9.72,
+          "end": 10.34,
+          "word": " 피해자는",
+          "probability": 0.9993896484375
+        },
+        {
+          "start": 10.34,
+          "end": 10.86,
+          "word": " 피해자가",
+          "probability": 0.9949951171875
+        },
+        {
+          "start": 10.86,
+          "end": 11.26,
+          "word": " 정확히",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 11.26,
+          "end": 11.68,
+          "word": " 누구인지",
+          "probability": 0.995849609375
+        },
+        {
+          "start": 11.68,
+          "end": 12.02,
+          "word": " 알기",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 12.02,
+          "end": 12.56,
+          "word": " 어렵습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 13.33,
+      "end": 15.59,
+      "text": "길에서 마주쳐도 알아보지 못할 수 있습니다.",
+      "avg_logprob": -0.11517589998816302,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.8923512747875355,
+      "words": [
+        {
+          "start": 13.33,
+          "end": 13.63,
+          "word": " 길에서",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 13.63,
+          "end": 14.15,
+          "word": " 마주쳐도",
+          "probability": 0.997802734375
+        },
+        {
+          "start": 14.15,
+          "end": 14.77,
+          "word": " 알아보지",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 14.77,
+          "end": 15.05,
+          "word": " 못할",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 15.05,
+          "end": 15.17,
+          "word": " 수",
+          "probability": 1.0
+        },
+        {
+          "start": 15.17,
+          "end": 15.59,
+          "word": " 있습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 16.63,
+      "end": 20.51,
+      "text": "사건은 끝났다고 생각했지만 같은 장소에서 또 다른 일이 발생했습니다.",
+      "avg_logprob": -0.11517589998816302,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.8923512747875355,
+      "words": [
+        {
+          "start": 16.63,
+          "end": 17.05,
+          "word": " 사건은",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 17.05,
+          "end": 17.49,
+          "word": " 끝났다고",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 17.49,
+          "end": 18.17,
+          "word": " 생각했지만",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 18.17,
+          "end": 18.59,
+          "word": " 같은",
+          "probability": 0.8994140625
+        },
+        {
+          "start": 18.59,
+          "end": 19.07,
+          "word": " 장소에서",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 19.07,
+          "end": 19.23,
+          "word": " 또",
+          "probability": 1.0
+        },
+        {
+          "start": 19.23,
+          "end": 19.47,
+          "word": " 다른",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 19.47,
+          "end": 19.77,
+          "word": " 일이",
+          "probability": 1.0
+        },
+        {
+          "start": 19.77,
+          "end": 20.51,
+          "word": " 발생했습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 21.33,
+      "end": 24.23,
+      "text": "누군가 다시 들어올 수 있다는 생각을 떨쳐내기 어렵습니다.",
+      "avg_logprob": -0.11517589998816302,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.8923512747875355,
+      "words": [
+        {
+          "start": 21.33,
+          "end": 21.89,
+          "word": " 누군가",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 21.89,
+          "end": 22.19,
+          "word": " 다시",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 22.19,
+          "end": 22.51,
+          "word": " 들어올",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 22.51,
+          "end": 22.59,
+          "word": " 수",
+          "probability": 1.0
+        },
+        {
+          "start": 22.59,
+          "end": 22.81,
+          "word": " 있다는",
+          "probability": 1.0
+        },
+        {
+          "start": 22.81,
+          "end": 23.17,
+          "word": " 생각을",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 23.17,
+          "end": 23.65,
+          "word": " 떨쳐내기",
+          "probability": 0.99931640625
+        },
+        {
+          "start": 23.65,
+          "end": 24.23,
+          "word": " 어렵습니다.",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 25.24,
+      "end": 28.0,
+      "text": "익숙했던 교실은 더 이상 안전한 공간이 아니었습니다.",
+      "avg_logprob": -0.11517589998816302,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.8923512747875355,
+      "words": [
+        {
+          "start": 25.24,
+          "end": 25.8,
+          "word": " 익숙했던",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 25.8,
+          "end": 26.32,
+          "word": " 교실은",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 26.32,
+          "end": 26.48,
+          "word": " 더",
+          "probability": 1.0
+        },
+        {
+          "start": 26.48,
+          "end": 26.68,
+          "word": " 이상",
+          "probability": 0.9921875
+        },
+        {
+          "start": 26.68,
+          "end": 27.08,
+          "word": " 안전한",
+          "probability": 1.0
+        },
+        {
+          "start": 27.08,
+          "end": 27.5,
+          "word": " 공간이",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 27.5,
+          "end": 28.0,
+          "word": " 아니었습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 29.26,
+      "end": 32.06,
+      "text": "매일 사용하던 물건도 안심하고 만질 수 없게 됐습니다.",
+      "avg_logprob": -0.11517589998816302,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.8923512747875355,
+      "words": [
+        {
+          "start": 29.26,
+          "end": 29.52,
+          "word": " 매일",
+          "probability": 0.963134765625
+        },
+        {
+          "start": 29.52,
+          "end": 30.04,
+          "word": " 사용하던",
+          "probability": 1.0
+        },
+        {
+          "start": 30.04,
+          "end": 30.44,
+          "word": " 물건도",
+          "probability": 0.9982096354166666
+        },
+        {
+          "start": 30.44,
+          "end": 30.94,
+          "word": " 안심하고",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 30.94,
+          "end": 31.24,
+          "word": " 만질",
+          "probability": 0.996337890625
+        },
+        {
+          "start": 31.24,
+          "end": 31.36,
+          "word": " 수",
+          "probability": 1.0
+        },
+        {
+          "start": 31.36,
+          "end": 31.58,
+          "word": " 없게",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 31.58,
+          "end": 32.06,
+          "word": " 됐습니다.",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 33.29,
+      "end": 34.73,
+      "text": "그런데 범인은 잡혔습니다.",
+      "avg_logprob": -0.11517589998816302,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.8923512747875355,
+      "words": [
+        {
+          "start": 33.29,
+          "end": 33.63,
+          "word": " 그런데",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 33.63,
+          "end": 34.13,
+          "word": " 범인은",
+          "probability": 0.9637451171875
+        },
+        {
+          "start": 34.13,
+          "end": 34.73,
+          "word": " 잡혔습니다.",
+          "probability": 0.9996744791666666
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 35.39,
+      "end": 38.41,
+      "text": "그런데도 피해자는 여전히 주변을 의심해야 합니다.",
+      "avg_logprob": -0.08110608297743295,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.0573770491803278,
+      "words": [
+        {
+          "start": 35.39,
+          "end": 36.23,
+          "word": " 그런데도",
+          "probability": 0.9993896484375
+        },
+        {
+          "start": 36.23,
+          "end": 36.87,
+          "word": " 피해자는",
+          "probability": 0.9986572265625
+        },
+        {
+          "start": 36.87,
+          "end": 37.31,
+          "word": " 여전히",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 37.31,
+          "end": 37.63,
+          "word": " 주변을",
+          "probability": 0.9537760416666666
+        },
+        {
+          "start": 37.63,
+          "end": 38.07,
+          "word": " 의심해야",
+          "probability": 0.9988606770833334
+        },
+        {
+          "start": 38.07,
+          "end": 38.41,
+          "word": " 합니다.",
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 39.18,
+      "end": 42.02,
+      "text": "잡혔는데도 공포가 끝나지 않은 상황입니다.",
+      "avg_logprob": -0.08110608297743295,
+      "no_speech_prob": 0.0,
+      "compression_ratio": 1.0573770491803278,
+      "words": [
+        {
+          "start": 39.18,
+          "end": 40.02,
+          "word": " 잡혔는데도",
+          "probability": 0.9826171875
+        },
+        {
+          "start": 40.02,
+          "end": 40.54,
+          "word": " 공포가",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 40.54,
+          "end": 40.94,
+          "word": " 끝나지",
+          "probability": 1.0
+        },
+        {
+          "start": 40.94,
+          "end": 41.14,
+          "word": " 않은",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 41.14,
+          "end": 42.02,
+          "word": " 상황입니다.",
+          "probability": 1.0
+        }
+      ]
+    }
+  ]
+}

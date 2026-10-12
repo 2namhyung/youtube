@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-71c3c55c86a0cc54",
+  "topic": "배달 갔던 집 다시 가서 성폭행 시도…20대 배달원 구속 송치",
+  "query": "배달 갔던 집 다시 가서 성폭행 시도…20대 배달원 구속 송치",
+  "keywords": [
+    "배달",
+    "갔던",
+    "다시",
+    "가서",
+    "성폭행",
+    "시도",
+    "20대",
+    "배달원",
+    "구속",
+    "송치"
+  ],
+  "adapterIds": [
+    "google-news",
+    "yonhaptv",
+    "naver-news",
+    "daum-news",
+    "news1-society"
+  ],
+  "mediaAdapters": [
+    "youtube"
+  ],
+  "sources": [
+    {
+      "publisher": "JTBC 공식 일별 기사 sitemap",
+      "title": "배달 갔던 집 다시 가서 성폭행 시도…20대 배달원 구속 송치",
+      "url": "https://news.jtbc.co.kr/article/NB12315638"
+    },
+    {
+      "publisher": "뉴스1",
+      "title": "한달 전 배달 갔던 집 찾아 성폭행 시도…20대 배달원 구속송치",
+      "url": "https://www.news1.kr/society/incident-accident/6273166",
+      "kind": "same-event",
+      "relationshipReason": "후보 단계에서 원문 본문과 동일 사건을 검증한 독립 보도이며 프로젝트 조사에서 다시 검증합니다."
+    }
+  ],
+  "laws": [],
+  "relevance": {
+    "anchors": [
+      "배달",
+      "갔던",
+      "다시",
+      "가서",
+      "성폭행",
+      "시도",
+      "20대",
+      "배달원",
+      "구속",
+      "송치"
+    ],
+    "minMatches": 2,
+    "excludeWhenNoAnchor": [],
+    "distinctiveAnchors": [
+      {
+        "name": "배달",
+        "terms": [
+          "배달"
+        ]
+      },
+      {
+        "name": "갔던",
+        "terms": [
+          "갔던"
+        ]
+      },
+      {
+        "name": "다시",
+        "terms": [
+          "다시"
+        ]
+      },
+      {
+        "name": "가서",
+        "terms": [
+          "가서"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "eventFingerprint": {
+    "anchors": [
+      "배달",
+      "갔던",
+      "다시",
+      "가서",
+      "성폭행",
+      "시도",
+      "20대",
+      "배달원",
+      "구속",
+      "송치"
+    ],
+    "distinctiveAnchors": [
+      {
+        "name": "배달",
+        "terms": [
+          "배달"
+        ]
+      },
+      {
+        "name": "갔던",
+        "terms": [
+          "갔던"
+        ]
+      },
+      {
+        "name": "다시",
+        "terms": [
+          "다시"
+        ]
+      },
+      {
+        "name": "가서",
+        "terms": [
+          "가서"
+        ]
+      }
+    ],
+    "minDistinctiveMatches": 2,
+    "minTotalMatches": 3
+  },
+  "contradictions": [],
+  "limit": 50,
+  "generatedFrom": "promoted-newsroom-candidate"
+}

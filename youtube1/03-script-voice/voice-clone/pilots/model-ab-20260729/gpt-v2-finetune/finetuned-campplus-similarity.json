@@ -1,0 +1,13 @@
+{
+  "method": "CAMPPlus ONNX",
+  "model_sha256": "A6AC6A63997761AE2997373E2EE1C47040854B4B759EA41EC48E4E42DF0F4D73",
+  "reference": "f4_ref_gyogwon.wav",
+  "outputs": {
+    "gpt_ft_critical": {
+      "cosine_to_f4_ref": 0.8207111358642578
+    },
+    "gpt_ft_heldout": {
+      "cosine_to_f4_ref": 0.8133716583251953
+    }
+  }
+}

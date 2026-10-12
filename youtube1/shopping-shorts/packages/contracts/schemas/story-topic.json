@@ -1,0 +1,281 @@
+{
+  "$defs": {
+    "ProductBridge": {
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Category",
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "story_object",
+            "action_tool",
+            "taste_expression",
+            "related_problem"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "reason": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        },
+        "placement": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Placement",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "unrelated_product_would_be_awkward": {
+          "title": "Unrelated Product Would Be Awkward",
+          "type": "boolean"
+        },
+        "identity": {
+          "default": "category_only",
+          "enum": [
+            "category_only",
+            "exact_item_unverified"
+          ],
+          "title": "Identity",
+          "type": "string"
+        }
+      },
+      "required": [
+        "category",
+        "role",
+        "reason",
+        "placement",
+        "evidence_ids",
+        "unrelated_product_would_be_awkward"
+      ],
+      "title": "ProductBridge",
+      "type": "object"
+    },
+    "StoryClaim": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "pattern": "^[A-Za-z0-9_-]{1,100}$",
+            "type": "string"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "text",
+        "evidence_ids"
+      ],
+      "title": "StoryClaim",
+      "type": "object"
+    },
+    "StoryOutline": {
+      "additionalProperties": false,
+      "properties": {
+        "content_kind": {
+          "default": "unknown",
+          "enum": [
+            "personal_story",
+            "reported_event",
+            "fiction",
+            "explanation",
+            "unknown"
+          ],
+          "title": "Content Kind",
+          "type": "string"
+        },
+        "hook": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Hook",
+          "type": "string"
+        },
+        "setup": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Setup",
+          "type": "string"
+        },
+        "turn": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Turn",
+          "type": "string"
+        },
+        "payoff": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "title": "Payoff",
+          "type": "string"
+        },
+        "claims": {
+          "items": {
+            "$ref": "#/$defs/StoryClaim"
+          },
+          "maxItems": 20,
+          "minItems": 1,
+          "title": "Claims",
+          "type": "array"
+        },
+        "survives_without_sales_pitch": {
+          "title": "Survives Without Sales Pitch",
+          "type": "boolean"
+        },
+        "content_review_complete": {
+          "default": false,
+          "title": "Content Review Complete",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "hook",
+        "setup",
+        "turn",
+        "payoff",
+        "claims",
+        "survives_without_sales_pitch"
+      ],
+      "title": "StoryOutline",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "topic_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,100}$",
+      "title": "Topic Id",
+      "type": "string"
+    },
+    "topic": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Topic",
+      "type": "string"
+    },
+    "angle": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Angle",
+      "type": "string"
+    },
+    "why_now": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Why Now",
+      "type": "string"
+    },
+    "evidence_ids": {
+      "items": {
+        "pattern": "^[A-Za-z0-9_-]{1,100}$",
+        "type": "string"
+      },
+      "maxItems": 30,
+      "minItems": 1,
+      "title": "Evidence Ids",
+      "type": "array"
+    },
+    "independent_source_ids": {
+      "items": {
+        "pattern": "^[A-Za-z0-9_-]{1,100}$",
+        "type": "string"
+      },
+      "maxItems": 20,
+      "title": "Independent Source Ids",
+      "type": "array"
+    },
+    "independence_reason": {
+      "default": "",
+      "maxLength": 2000,
+      "title": "Independence Reason",
+      "type": "string"
+    },
+    "video_ids": {
+      "items": {
+        "pattern": "^[A-Za-z0-9_-]{1,100}$",
+        "type": "string"
+      },
+      "maxItems": 20,
+      "title": "Video Ids",
+      "type": "array"
+    },
+    "story": {
+      "$ref": "#/$defs/StoryOutline"
+    },
+    "bridges": {
+      "items": {
+        "$ref": "#/$defs/ProductBridge"
+      },
+      "maxItems": 3,
+      "title": "Bridges",
+      "type": "array"
+    },
+    "followup_queries": {
+      "items": {
+        "maxLength": 200,
+        "minLength": 2,
+        "type": "string"
+      },
+      "maxItems": 5,
+      "title": "Followup Queries",
+      "type": "array"
+    },
+    "missing_evidence": {
+      "items": {
+        "maxLength": 4000,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 20,
+      "title": "Missing Evidence",
+      "type": "array"
+    },
+    "actor": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Actor",
+      "type": "string"
+    },
+    "model": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "title": "Model",
+      "type": "string"
+    }
+  },
+  "required": [
+    "topic_id",
+    "topic",
+    "angle",
+    "why_now",
+    "evidence_ids",
+    "story",
+    "actor",
+    "model"
+  ],
+  "title": "StoryTopicReview",
+  "type": "object"
+}

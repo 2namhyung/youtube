@@ -1,0 +1,18 @@
+{
+  "status": "ready",
+  "provider": "local-procedural",
+  "model": "local-procedural-investigative-bed",
+  "version": "1.0.0",
+  "seed": 20260807,
+  "prompt": "psychological investigative instrumental for an everyday workplace drink-contamination case, restrained low drone, dry pulse, sparse glass-like ticks, 66 BPM, uneasy but unobtrusive, no vocals, no lead melody",
+  "instrumental": true,
+  "vocals": false,
+  "durationSeconds": 65.0,
+  "sampleRate": 44100,
+  "channels": 2,
+  "license": "project-original-no-third-party-samples",
+  "thirdPartySamples": false,
+  "sha256": "b45ac7c08649f8f1fbe25c4373849798aad002515ed9512663699b001af26aa6",
+  "generatedAt": "2026-08-07T08:19:25.637332+00:00",
+  "output": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\production\\projects\\coffee-pesticide-hospital-short-v1\\assets\\audio\\coffee-pesticide-investigative-bed.wav"
+}

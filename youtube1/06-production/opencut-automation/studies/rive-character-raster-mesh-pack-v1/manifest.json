@@ -1,0 +1,139 @@
+{
+  "schema": "rive-raster-mesh-pack-v1",
+  "status": "private-static-reconstruction-review",
+  "productionApproved": false,
+  "parent": {
+    "path": "C:\\Users\\User\\Desktop\\app\\youtube\\06-production\\opencut-automation\\studies\\rive-character-anatomy-sheet-v1\\source\\front-anatomy-design-candidate-v1.png",
+    "sha256": "7b7a2a5d0f5806873ec3c8ddc1157efedc5b110b45e40b299e75677efe68601f",
+    "cropBox": [
+      807,
+      27,
+      1168,
+      976
+    ]
+  },
+  "canvas": [
+    361,
+    949
+  ],
+  "drawOrderBackToFront": [
+    "arm_l",
+    "arm_r",
+    "torso",
+    "hand_l",
+    "hand_r"
+  ],
+  "layers": [
+    {
+      "slot": "torso",
+      "path": "layers/char_anon01_front_torso.png",
+      "sha256": "6bfb95e6a773de348eace94beefaed09a8261ba8af92f71780b7e42fed3ae5d1",
+      "dimensions": [
+        361,
+        949
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "alphaBounds": [
+        63,
+        194,
+        299,
+        506
+      ],
+      "mode": "rigid-or-light-deform"
+    },
+    {
+      "slot": "arm_l",
+      "path": "layers/char_anon01_front_arm_l.png",
+      "sha256": "13b4db18015484dbcbe9944977ccfeed73c2707341da60e3f95707fd3f05713d",
+      "dimensions": [
+        361,
+        949
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "alphaBounds": [
+        33,
+        221,
+        127,
+        510
+      ],
+      "mode": "raster-mesh"
+    },
+    {
+      "slot": "arm_r",
+      "path": "layers/char_anon01_front_arm_r.png",
+      "sha256": "81c7ea7666398827181df9d4eba6558754a8baa883d82d8bb5f7603e5123444a",
+      "dimensions": [
+        361,
+        949
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "alphaBounds": [
+        235,
+        221,
+        327,
+        510
+      ],
+      "mode": "raster-mesh"
+    },
+    {
+      "slot": "hand_l",
+      "path": "layers/char_anon01_front_hand_l.png",
+      "sha256": "34e33e0d237bd848f5849f38c2de6f0ca411fc406d4db8488a4ca9006dd578f8",
+      "dimensions": [
+        361,
+        949
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "alphaBounds": [
+        32,
+        480,
+        112,
+        613
+      ],
+      "mode": "rigid-or-light-deform"
+    },
+    {
+      "slot": "hand_r",
+      "path": "layers/char_anon01_front_hand_r.png",
+      "sha256": "8faa5f2384a756790b3b486bdd596b86724309e32895231bc4f27ad820aa8f4a",
+      "dimensions": [
+        361,
+        949
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "alphaBounds": [
+        250,
+        480,
+        327,
+        613
+      ],
+      "mode": "rigid-or-light-deform"
+    }
+  ],
+  "review": {
+    "composite": {
+      "path": "review/upper-body-static-composite-v1.png",
+      "sha256": "69d5bd0598d5d8ee574710cdf5f8a10f00a745b4cf24f1f20359584b5d501a11"
+    },
+    "comparison": {
+      "path": "review/source-vs-separated-v1.png",
+      "sha256": "40c4f4418135b414ab7e0eaa0a4f6dd9a05356ffc03d165e1f7f5e07877a1eb6"
+    }
+  },
+  "nextGate": "human-static-reconstruction-review-before-rive-left-arm-mesh"
+}
