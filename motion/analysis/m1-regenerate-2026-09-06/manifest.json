@@ -1,0 +1,56 @@
+{
+  "status": "generation_complete_qc_failed_needs_rework",
+  "created": "2026-09-06",
+  "purpose": "User-authorized M1 regenerate-from-images run using selected Seoul start and Tokyo end keyframes.",
+  "authorization": {
+    "user_authorized": true,
+    "motion_preservation_claim": false,
+    "scope_note": "Regenerate from images, not approved T3 motion preservation or anatomical proof.",
+    "original_13s_source_untouched": true
+  },
+  "provenance": {
+    "start_image": "production/ticket-travel/assets/locked-keyframes/K1-seoul-hanbok.png",
+    "start_image_sha256": "05FA57560525050634A7E9AAE418447553FD12FB821F0B6F7BD7BC0B96190DDE",
+    "end_image": "production/ticket-travel/assets/locked-keyframes/K2-tokyo-kimono.png",
+    "end_image_sha256": "AE7673BBC864439F58D2DBCFCC92968D6DDF72AF76B936614F55D0C3E01D6883",
+    "picker_history": "Prior START SEOUL / END TOKYO scene; exact source asset IDs are not separately available."
+  },
+  "flow": {
+    "scene_id": "2c754118-d4b8-49e8-87ab-d6c5a5b1ff13",
+    "mode": "Frames",
+    "model_ui": "Omni1.1Flash",
+    "aspect_ratio": "9:16",
+    "resolution_ui": "720p",
+    "duration_ui_seconds": 4,
+    "scale": "1x",
+    "credits_displayed": 7,
+    "submitted": true,
+    "result": "success_visible_ui",
+    "scene_result_id": "4ae94342-a7a5-4c3b-a184-0ff91c50e11b",
+    "media_id": "1a612ee6-6554-4434-9e70-aa9364700985",
+    "output_duration_ui_seconds": 4,
+    "download_clicked": true,
+    "local_download_verified": false,
+    "download_issue": "Assets bundle fetch failed on page; no local file verified."
+  },
+  "prompt": {
+    "file": "prompt.txt",
+    "exact": true
+  },
+  "qc": {
+    "result": "fail_needs_rework",
+    "observations": [
+      "~1.5 s (UI 1:12): incoming edge was just at the bottom.",
+      "~1.708 s (UI 1:17): two heads were visible while the incoming kimono moved upward with the card.",
+      "2.0 s (UI 2:00): card had not reached its final position."
+    ],
+    "failure": "Desired independent person motion and edge-led wardrobe reveal were not achieved.",
+    "pass": false,
+    "replaces_original_13s": false,
+    "next": "Needs rework. No 13 s replacement or pass claimed."
+  },
+  "source_reuse_caveat": "K1/K2 are existing selected assets; prior picker history is generic START SEOUL / END TOKYO history only and does not prove they are the exact old inputs used in the prior scene.",
+  "integrity": {
+    "original_files_mutated": false
+  }
+}

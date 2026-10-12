@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1100" viewBox="0 0 840 1100">
+  <defs>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#36291f" flood-opacity="0.22"/>
+    </filter>
+    <mask id="window-cutout">
+      <rect width="840" height="1100" rx="34" fill="white"/>
+      <rect x="82" y="170" width="676" height="704" rx="18" fill="black"/>
+    </mask>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="0" y="0" width="840" height="1100" rx="34" fill="#fffaf0" mask="url(#window-cutout)"/>
+  </g>
+  <rect x="0" y="0" width="840" height="1100" rx="34" fill="none" stroke="#2b2926" stroke-width="6"/>
+  <rect x="82" y="170" width="676" height="704" rx="18" fill="none" stroke="#2b2926" stroke-width="4"/>
+  <path d="M82 126H758" stroke="#d76c54" stroke-width="12"/>
+  <text x="82" y="82" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="5" fill="#2b2926">TRAVEL PASS</text>
+  <text x="82" y="1030" font-family="Arial, sans-serif" font-size="20" letter-spacing="3" fill="#6d645a">CITY A  →  CITY D</text>
+  <text x="758" y="1030" text-anchor="end" font-family="Arial, sans-serif" font-size="20" letter-spacing="3" fill="#6d645a">BOARDING 07:30</text>
+  <g transform="translate(82 912)">
+    <rect width="676" height="54" fill="#efe1cf"/>
+    <path d="M18 12h3v30h-3zm9 0h6v30h-6zm14 0h2v30h-2zm12 0h7v30h-7zm16 0h3v30h-3zm12 0h9v30h-9zm20 0h2v30h-2zm12 0h5v30h-5zm16 0h8v30h-8zm20 0h3v30h-3zm14 0h6v30h-6zm18 0h2v30h-2zm14 0h9v30h-9zm21 0h3v30h-3zm14 0h6v30h-6zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h4v30h-4zm15 0h2v30h-2zm12 0h8v30h-8zm20 0h3v30h-3zm14 0h6v30h-6zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h4v30h-4zm15 0h2v30h-2zm12 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h9v30h-9zm21 0h3v30h-3zm14 0h6v30h-6zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h4v30h-4zm15 0h2v30h-2zm12 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7zm18 0h2v30h-2zm14 0h8v30h-8zm20 0h3v30h-3zm14 0h7v30h-7" stroke="#2b2926" stroke-width="3"/>
+  </g>
+</svg>

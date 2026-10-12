@@ -1,0 +1,407 @@
+{
+  "created_utc": "2026-09-06T07:40:37.254469+00:00",
+  "purpose": "bounded visual review of face/head orientation, gaze proxy, and trunk position",
+  "sources": {
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4": {
+      "sha256": "bd60b90c27e588a57c506621f390294a25ca34bd01adbfc3aeb183ccbdac0cdc",
+      "probe": {
+        "width": 1080,
+        "height": 2160,
+        "r_frame_rate": "30/1",
+        "nb_frames": "400",
+        "duration": "13.333333"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4": {
+      "sha256": "7f167e64e45f5ff32cddf41e77bda847c9edfd6f98ece838999b37b57df9e5be",
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "nb_frames": "240",
+        "duration": "10.005000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4": {
+      "sha256": "2be9d87556adf3049d0489340ad441089bef1cb4bdd9bd799e9a0cef4af5b9b0",
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "nb_frames": "240",
+        "duration": "10.005000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-cut-local-2026-09-06\\t3-seoul-tokyo-local-1.80x-4s.mp4": {
+      "sha256": "a1ea1b094e36d465a2f481eaa4b87b275ac0b010cf10eb8cfb98df290f5d99a3",
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "nb_frames": "96",
+        "duration": "4.000000"
+      }
+    }
+  },
+  "rows": [
+    {
+      "name": "reference Seoul",
+      "source": "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4",
+      "times_seconds": [
+        6.8,
+        7.2,
+        7.6,
+        8.0
+      ],
+      "fps": 30,
+      "crop_box_xyxy": [
+        170,
+        180,
+        910,
+        1400
+      ]
+    },
+    {
+      "name": "reference Tokyo",
+      "source": "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4",
+      "times_seconds": [
+        11.2,
+        11.6,
+        12.0,
+        12.4
+      ],
+      "fps": 30,
+      "crop_box_xyxy": [
+        170,
+        180,
+        910,
+        1400
+      ]
+    },
+    {
+      "name": "current Seoul source",
+      "source": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4",
+      "times_seconds": [
+        2.5,
+        3.4,
+        4.3,
+        5.2
+      ],
+      "fps": 24,
+      "crop_box_xyxy": [
+        120,
+        30,
+        600,
+        850
+      ]
+    },
+    {
+      "name": "current Tokyo source",
+      "source": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4",
+      "times_seconds": [
+        5.2,
+        6.1,
+        7.0,
+        7.9
+      ],
+      "fps": 24,
+      "crop_box_xyxy": [
+        120,
+        30,
+        600,
+        850
+      ]
+    },
+    {
+      "name": "T3 candidate overlap",
+      "source": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-cut-local-2026-09-06\\t3-seoul-tokyo-local-1.80x-4s.mp4",
+      "times_seconds": [
+        1.5,
+        1.666667,
+        1.833333,
+        1.958333
+      ],
+      "fps": 24,
+      "crop_box_xyxy": [
+        120,
+        30,
+        600,
+        850
+      ]
+    }
+  ],
+  "contact": {
+    "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\head-stability-review-2026-09-06\\head-stability-contact.jpg",
+    "sha256": "dba55bf4089ecca8119a3573f4770b056742195e9bbf11c27de2bcaff3298c97",
+    "bytes": 876728,
+    "width": 1280,
+    "height": 2370,
+    "frames": [
+      {
+        "row": "reference Seoul",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4",
+        "time_seconds": 6.8,
+        "frame_index": 204,
+        "fps": 30,
+        "crop_box": [
+          170,
+          180,
+          910,
+          1400
+        ]
+      },
+      {
+        "row": "reference Seoul",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4",
+        "time_seconds": 7.2,
+        "frame_index": 216,
+        "fps": 30,
+        "crop_box": [
+          170,
+          180,
+          910,
+          1400
+        ]
+      },
+      {
+        "row": "reference Seoul",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4",
+        "time_seconds": 7.6,
+        "frame_index": 228,
+        "fps": 30,
+        "crop_box": [
+          170,
+          180,
+          910,
+          1400
+        ]
+      },
+      {
+        "row": "reference Seoul",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4",
+        "time_seconds": 8.0,
+        "frame_index": 240,
+        "fps": 30,
+        "crop_box": [
+          170,
+          180,
+          910,
+          1400
+        ]
+      },
+      {
+        "row": "reference Tokyo",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4",
+        "time_seconds": 11.2,
+        "frame_index": 336,
+        "fps": 30,
+        "crop_box": [
+          170,
+          180,
+          910,
+          1400
+        ]
+      },
+      {
+        "row": "reference Tokyo",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4",
+        "time_seconds": 11.6,
+        "frame_index": 348,
+        "fps": 30,
+        "crop_box": [
+          170,
+          180,
+          910,
+          1400
+        ]
+      },
+      {
+        "row": "reference Tokyo",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4",
+        "time_seconds": 12.0,
+        "frame_index": 360,
+        "fps": 30,
+        "crop_box": [
+          170,
+          180,
+          910,
+          1400
+        ]
+      },
+      {
+        "row": "reference Tokyo",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4",
+        "time_seconds": 12.4,
+        "frame_index": 372,
+        "fps": 30,
+        "crop_box": [
+          170,
+          180,
+          910,
+          1400
+        ]
+      },
+      {
+        "row": "current Seoul source",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4",
+        "time_seconds": 2.5,
+        "frame_index": 60,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      },
+      {
+        "row": "current Seoul source",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4",
+        "time_seconds": 3.4,
+        "frame_index": 82,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      },
+      {
+        "row": "current Seoul source",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4",
+        "time_seconds": 4.3,
+        "frame_index": 103,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      },
+      {
+        "row": "current Seoul source",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4",
+        "time_seconds": 5.2,
+        "frame_index": 125,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      },
+      {
+        "row": "current Tokyo source",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4",
+        "time_seconds": 5.2,
+        "frame_index": 125,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      },
+      {
+        "row": "current Tokyo source",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4",
+        "time_seconds": 6.1,
+        "frame_index": 146,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      },
+      {
+        "row": "current Tokyo source",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4",
+        "time_seconds": 7.0,
+        "frame_index": 168,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      },
+      {
+        "row": "current Tokyo source",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4",
+        "time_seconds": 7.9,
+        "frame_index": 190,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      },
+      {
+        "row": "T3 candidate overlap",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-cut-local-2026-09-06\\t3-seoul-tokyo-local-1.80x-4s.mp4",
+        "time_seconds": 1.5,
+        "frame_index": 36,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      },
+      {
+        "row": "T3 candidate overlap",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-cut-local-2026-09-06\\t3-seoul-tokyo-local-1.80x-4s.mp4",
+        "time_seconds": 1.666667,
+        "frame_index": 40,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      },
+      {
+        "row": "T3 candidate overlap",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-cut-local-2026-09-06\\t3-seoul-tokyo-local-1.80x-4s.mp4",
+        "time_seconds": 1.833333,
+        "frame_index": 44,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      },
+      {
+        "row": "T3 candidate overlap",
+        "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-cut-local-2026-09-06\\t3-seoul-tokyo-local-1.80x-4s.mp4",
+        "time_seconds": 1.958333,
+        "frame_index": 47,
+        "fps": 24,
+        "crop_box": [
+          120,
+          30,
+          600,
+          850
+        ]
+      }
+    ]
+  },
+  "limits": [
+    "visual head orientation is a proxy, not lens-gaze or eye-vector measurement",
+    "different people/costumes/cards and independent generated takes confound speed attribution",
+    "T3 candidate remains provisional and is not a full T3 PASS"
+  ]
+}

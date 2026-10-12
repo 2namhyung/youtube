@@ -1,0 +1,57 @@
+{
+  "source": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\assets\\imagegen-plates-v1\\source.png",
+  "output": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\assets\\imagegen-plates-v1\\probe-plate-rgba.png",
+  "size": [
+    1080,
+    1920
+  ],
+  "mode": "RGBA",
+  "transform": {
+    "scale": 1.1483253588516746,
+    "translate": [
+      -0.287081,
+      0.0
+    ],
+    "resampling": "LANCZOS"
+  },
+  "estimated_background_rgb": [
+    1.0,
+    109.0,
+    252.0
+  ],
+  "subject_bbox_source_xyxy": [
+    146,
+    193,
+    781,
+    1491
+  ],
+  "subject_bbox_output_xyxy": [
+    166,
+    220,
+    899,
+    1714
+  ],
+  "visible_pixel_count": 640595,
+  "opaque_pixel_count": 623758,
+  "partial_alpha_pixel_count": 16837,
+  "transparent_pixel_count": 1433005,
+  "partial_alpha_blue_dominant_pixels": 12365,
+  "partial_alpha_screen_like_pixels_d85": 55,
+  "transparent_rgb_nonzero_pixels": 0,
+  "alpha_min_max": [
+    0,
+    255
+  ],
+  "head_bbox_output_xyxy": [
+    456,
+    222,
+    659,
+    459
+  ],
+  "feet_bbox_output_xyxy": [
+    233,
+    1550,
+    848,
+    1713
+  ]
+}

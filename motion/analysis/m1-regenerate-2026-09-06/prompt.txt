@@ -1,0 +1,9 @@
+Create a continuous four-second vertical fashion video using the supplied SEOUL hanbok image as the first frame and the TOKYO kimono image as the last frame.
+
+The same woman walks in place with brisk, regular alternating steps throughout. Keep her average screen position, apparent body size and three-quarter body orientation stable. Her walk continues through the outfit change without stopping or restarting.
+
+From 0.0 to 1.5 seconds, show the Seoul look and ongoing walk. Between timestamps 1.5 and 2.0 seconds, the Tokyo boarding-pass card slides upward from below the frame on a slightly diagonal path. Begin with a small slow entry, accelerate sharply through the middle, then decelerate smoothly into its upright final placement.
+
+Only the card travels upward. The woman stays at the same screen height. The rising card edge reveals the kimono from feet to head while the hanbok above the edge remains visible until the edge passes. This is an edge-led wipe, not a whole-person upward slide or a dissolve.
+
+From 2.0 to 4.0 seconds, keep the Tokyo card settled while she continues walking naturally with the parasol. Preserve the supplied face, ticket design, lettering, barcode and white background. Locked camera. No zoom, hard cut, bounce, added blur, duplicate body or frozen ending.

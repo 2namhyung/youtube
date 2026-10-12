@@ -1,0 +1,25 @@
+{
+  "purpose": "Dense visible lower-body evidence before any full candidate render",
+  "fixed_boundary_output_seconds": 9.0,
+  "factor": 1.8,
+  "boundary_mapping": {
+    "tokyo_outgoing": "7.0 + 1.8*d",
+    "shanghai_incoming": "2.5 + 1.8*d",
+    "d_seconds": "0..0.458333 (12 output frames)"
+  },
+  "sources": {
+    "tokyo": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4",
+    "shanghai": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\shanghai-fan-10s.mp4"
+  },
+  "artifacts": [
+    "tokyo-shanghai-boundary-dense.jpg",
+    "tokyo-shanghai-boundary-first4.jpg",
+    "tokyo-lowerbody-phase-grid.jpg",
+    "shanghai-lowerbody-phase-grid.jpg",
+    "tokyo-cut-phase-atlas.jpg",
+    "shanghai-cut-phase-atlas.jpg",
+    "tokyo-cut-phase-close-atlas.jpg",
+    "shanghai-cut-phase-close-atlas.jpg"
+  ],
+  "note": "Visual foot/ankle confidence is reduced where parasol/robe/fan or card matte occludes ankles; hip and hem motion remain visible."
+}

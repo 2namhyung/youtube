@@ -1,0 +1,167 @@
+{
+  "path": "references/taoagou/nonfinger/ticket_travel_7648553013002489109.mp4",
+  "sha256": "bd60b90c27e588a57c506621f390294a25ca34bd01adbfc3aeb183ccbdac0cdc",
+  "width": 1080,
+  "height": 2160,
+  "fps": 30.0,
+  "avg_frame_rate": "30/1",
+  "nb_frames": 400,
+  "duration_seconds": 13.333333,
+  "codec_name": "h264",
+  "pix_fmt": "yuv420p",
+  "groups": {
+    "entry-bangkok": [
+      {
+        "frame": 126,
+        "time_seconds": 4.2
+      },
+      {
+        "frame": 127,
+        "time_seconds": 4.233333333333333
+      },
+      {
+        "frame": 129,
+        "time_seconds": 4.3
+      },
+      {
+        "frame": 130,
+        "time_seconds": 4.333333333333333
+      },
+      {
+        "frame": 134,
+        "time_seconds": 4.466666666666667
+      },
+      {
+        "frame": 135,
+        "time_seconds": 4.5
+      },
+      {
+        "frame": 141,
+        "time_seconds": 4.7
+      },
+      {
+        "frame": 144,
+        "time_seconds": 4.8
+      },
+      {
+        "frame": 150,
+        "time_seconds": 5.0
+      }
+    ],
+    "bangkok-seoul": [
+      {
+        "frame": 196,
+        "time_seconds": 6.533333333333333
+      },
+      {
+        "frame": 197,
+        "time_seconds": 6.566666666666666
+      },
+      {
+        "frame": 198,
+        "time_seconds": 6.6
+      },
+      {
+        "frame": 199,
+        "time_seconds": 6.633333333333334
+      },
+      {
+        "frame": 200,
+        "time_seconds": 6.666666666666667
+      },
+      {
+        "frame": 201,
+        "time_seconds": 6.7
+      },
+      {
+        "frame": 203,
+        "time_seconds": 6.766666666666667
+      },
+      {
+        "frame": 206,
+        "time_seconds": 6.866666666666666
+      },
+      {
+        "frame": 214,
+        "time_seconds": 7.133333333333334
+      }
+    ],
+    "seoul-dali": [
+      {
+        "frame": 260,
+        "time_seconds": 8.666666666666666
+      },
+      {
+        "frame": 261,
+        "time_seconds": 8.7
+      },
+      {
+        "frame": 262,
+        "time_seconds": 8.733333333333333
+      },
+      {
+        "frame": 263,
+        "time_seconds": 8.766666666666667
+      },
+      {
+        "frame": 265,
+        "time_seconds": 8.833333333333334
+      },
+      {
+        "frame": 266,
+        "time_seconds": 8.866666666666667
+      },
+      {
+        "frame": 268,
+        "time_seconds": 8.933333333333334
+      },
+      {
+        "frame": 270,
+        "time_seconds": 9.0
+      },
+      {
+        "frame": 278,
+        "time_seconds": 9.266666666666667
+      }
+    ],
+    "dali-tokyo": [
+      {
+        "frame": 328,
+        "time_seconds": 10.933333333333334
+      },
+      {
+        "frame": 329,
+        "time_seconds": 10.966666666666667
+      },
+      {
+        "frame": 330,
+        "time_seconds": 11.0
+      },
+      {
+        "frame": 331,
+        "time_seconds": 11.033333333333333
+      },
+      {
+        "frame": 333,
+        "time_seconds": 11.1
+      },
+      {
+        "frame": 334,
+        "time_seconds": 11.133333333333333
+      },
+      {
+        "frame": 336,
+        "time_seconds": 11.2
+      },
+      {
+        "frame": 338,
+        "time_seconds": 11.266666666666667
+      },
+      {
+        "frame": 346,
+        "time_seconds": 11.533333333333333
+      }
+    ]
+  },
+  "measurement_warning": "Frame anchors describe visible composition changes. They do not recover hidden first motion, original keyframes, layer order, or whether a card is a single rendered plate."
+}

@@ -1,0 +1,105 @@
+{
+  "created_utc": "2026-09-06T07:45:20.919554+00:00",
+  "purpose": "Direct Seoul gait comparison at unchanged source start, 1.00x versus user-selected 1.80x",
+  "source": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4",
+  "source_probe": {
+    "width": "720",
+    "height": "1280",
+    "r_frame_rate": "24/1",
+    "avg_frame_rate": "24/1",
+    "nb_frames": "240",
+    "duration": "10.005000"
+  },
+  "source_start_seconds": 2.5,
+  "factor_definition": "standard playback speed; source_time = source_start + factor * output_time",
+  "output": {
+    "fps": 24,
+    "frames": 48,
+    "seconds": 2.0,
+    "width": 720,
+    "height": 1280
+  },
+  "candidates": [
+    {
+      "factor": 1.0,
+      "source_window_seconds": [
+        2.5,
+        4.5
+      ],
+      "output_window_seconds": [
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "factor": 1.8,
+      "source_window_seconds": [
+        2.5,
+        6.1
+      ],
+      "output_window_seconds": [
+        0.0,
+        2.0
+      ]
+    }
+  ],
+  "comparison": {
+    "layout": "2 columns, 720x1280 each, 1440x1280 total",
+    "seconds": 2.0
+  },
+  "fixed": [
+    "same canonical Seoul source and source start",
+    "person-only retime",
+    "no card, head, matte, audio, Flow, or production changes"
+  ],
+  "artifacts": {
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4": {
+      "sha256": "7f167e64e45f5ff32cddf41e77bda847c9edfd6f98ece838999b37b57df9e5be",
+      "bytes": 2819873,
+      "probe": {
+        "width": "720",
+        "height": "1280",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "240",
+        "duration": "10.005000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\canonical-hanbok-1.00x-2s.mp4": {
+      "sha256": "5959dddfaaebc1e1ed5f55090a8aefd1cc7a00166eefa6e71148fd3259c27dec",
+      "bytes": 457320,
+      "probe": {
+        "width": "720",
+        "height": "1280",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\canonical-hanbok-1.80x-2s.mp4": {
+      "sha256": "bf5ddc1a2796c5c3974963d713872380650911b504b9dbd7c4a003923d916de3",
+      "bytes": 561091,
+      "probe": {
+        "width": "720",
+        "height": "1280",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\canonical-hanbok-1.00x-vs-1.80x-2s.mp4": {
+      "sha256": "afef73d4a583fc7eb2e1191409ad8739e0583ee0f925a4034df8abe285982ff2",
+      "bytes": 977094,
+      "probe": {
+        "width": "1440",
+        "height": "1280",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    }
+  }
+}

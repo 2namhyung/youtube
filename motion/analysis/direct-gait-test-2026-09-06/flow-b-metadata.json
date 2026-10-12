@@ -1,0 +1,124 @@
+{
+  "created_utc": "2026-09-06T07:58:00.485739+00:00",
+  "purpose": "Raw Flow B gait inspection at source 2.5s against unchanged local 1.00x and 1.80x candidates",
+  "flow_input": {
+    "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-direct-gait-B-10s.mp4",
+    "downloaded_raw_preserved": true,
+    "probe": {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "240",
+      "duration": "10.005333"
+    },
+    "sha256": "32e8899c23fdcf4c6e13954ab48fb69090577d4923fbf0cdb1d5a8534708d7ec"
+  },
+  "window": {
+    "source_start_seconds": 2.5,
+    "output_seconds": 2.0,
+    "fps": 24,
+    "frames": 48,
+    "flow_extract": "2.5–4.5s raw normal playback; no retime"
+  },
+  "comparison": {
+    "columns": [
+      "original 1.00x",
+      "Flow B raw",
+      "original 1.80x"
+    ],
+    "resize_only_for_comparison": true,
+    "width": 1440,
+    "height": 852,
+    "fps": 24,
+    "frames": 48,
+    "seconds": 2.0
+  },
+  "foot_phase": {
+    "status": "NOT_MEASURABLE",
+    "reason": "visual contact sheet only; clothing hem and generated take differences prevent reliable left/right contact and trajectory tracking"
+  },
+  "head_feet_contact": {
+    "status": "visual_review_artifact",
+    "exact_eye_gaze": "UNKNOWN"
+  },
+  "artifacts": {
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-direct-gait-B-10s.mp4": {
+      "sha256": "32e8899c23fdcf4c6e13954ab48fb69090577d4923fbf0cdb1d5a8534708d7ec",
+      "bytes": 9565412,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "240",
+        "duration": "10.005333"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\canonical-hanbok-1.00x-2s.mp4": {
+      "sha256": "5959dddfaaebc1e1ed5f55090a8aefd1cc7a00166eefa6e71148fd3259c27dec",
+      "bytes": 457320,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\canonical-hanbok-1.80x-2s.mp4": {
+      "sha256": "bf5ddc1a2796c5c3974963d713872380650911b504b9dbd7c4a003923d916de3",
+      "bytes": 561091,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-direct-gait-B-source2.5-2s.mp4": {
+      "sha256": "c9dca68190fcfa36818691a023f26922bfff944e4a4a945f0b06b305acdf66d7",
+      "bytes": 444333,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\direct-gait-original1.00x-flowB-original1.80x-2s.mp4": {
+      "sha256": "0fa1ecb932deff16f7a591e339eaa070fafef14d0dc6e645441064f4ff7b2b09",
+      "bytes": 761716,
+      "probe": {
+        "codec": "h264",
+        "width": 1440,
+        "height": 852,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\direct-gait-flowB-head-feet-contact.jpg": {
+      "sha256": "36c49055b048eea3cf892c56854f73aedc03abea912a2280e0dd06148b351370",
+      "bytes": 702547,
+      "probe": null
+    }
+  },
+  "limits": [
+    "Flow B is kept at raw normal playback",
+    "comparison resize does not alter playback speed",
+    "no claim that Flow universally changes gait",
+    "no card/head/matte/production changes"
+  ]
+}

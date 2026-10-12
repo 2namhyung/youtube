@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "analysis_language": "ko",
+  "recommendation": {
+    "first_prototype": "blind_outfit",
+    "scope": "0.0-6.2s, two outfits, one transition",
+    "order": ["blind_outfit", "polaroid", "ticket_travel"]
+  },
+  "sources": [
+    {
+      "id": "blind_outfit",
+      "file": "../../references/taoagou/nonfinger/blind_outfit_7651359823430176018.mp4",
+      "duration_s": 12.543991,
+      "width": 576,
+      "height": 864,
+      "fps": 30,
+      "codec": "h264",
+      "sha256": "E1780DA90ACC21EAAD398531FA8BBEBB5FEE3D2350FE9280C60C65A943C67C36",
+      "segments": [
+        {
+          "time_s": [0.0, 2.6],
+          "observed_fact": "White set, light outfit, fixed frontal pose, cord at screen-left, horizontal blind slats over image.",
+          "candidate_operator": "Locked character clip plus deterministic slat overlay.",
+          "alternative": "Generate blinds inside each character clip.",
+          "confidence": "high",
+          "uncertainty": "Physical-versus-composited blind contribution is unknown.",
+          "forbidden_substitute": "Changing camera or hand position between outfit clips."
+        },
+        {
+          "time_s": [2.6, 12.543991],
+          "observed_fact": "Light and dark costume families alternate at approximately 3.1-second intervals.",
+          "candidate_operator": "Hard source swap at maximum slat occlusion; optional 1-frame exposure pulse.",
+          "alternative": "Two-to-three-frame luma wipe.",
+          "confidence": "high",
+          "uncertainty": "Exact exposure correction is not measured.",
+          "forbidden_substitute": "Long morph or cross-dissolve.",
+          "detected_cuts_s": [2.633333, 5.733333, 8.866667, 11.966667]
+        }
+      ],
+      "generation": {"imagegen": "same character in four outfits, matched framing and hand anchor", "gemini_omni": "3.2s fixed frontal cord pull per outfit"},
+      "deterministic_composite": ["horizontal slat mask", "source swap", "position/scale alignment", "exposure pulse"]
+    },
+    {
+      "id": "polaroid",
+      "file": "../../references/taoagou/nonfinger/polaroid_7666847800793042183.mp4",
+      "duration_s": 11.7,
+      "width": 576,
+      "height": 1152,
+      "fps": 30,
+      "codec": "h264",
+      "sha256": "835DBDD00EB36CACAAF82C547CB5EE561C0A21E767B6835588CFF8F8DCE18736",
+      "segments": [
+        {
+          "time_s": [0.0, 1.933333],
+          "observed_fact": "Two people settle into a pose in a rounded frame, followed by a bright cut.",
+          "candidate_operator": "Short generated pose clip and a two-frame flash cut.",
+          "alternative": "Animate a still with subtle parallax.",
+          "confidence": "medium",
+          "uncertainty": "Original capture method is unknown.",
+          "forbidden_substitute": "Long freeform character motion."
+        },
+        {
+          "time_s": [1.933333, 7.0],
+          "observed_fact": "Instant camera remains at the bottom while blank film rises and reveals a photo.",
+          "candidate_operator": "Camera PNG, card Y animation, image reveal.",
+          "alternative": "Simple 3D render.",
+          "confidence": "high",
+          "uncertainty": "Reveal curve is approximate.",
+          "forbidden_substitute": "Generating camera typography frame by frame."
+        },
+        {
+          "time_s": [7.0, 11.7],
+          "observed_fact": "A stack of instant-photo cards flips and changes the front image.",
+          "candidate_operator": "2.5D Y rotation, z-order swap near 90 degrees, drop-shadow reversal.",
+          "alternative": "2D corner-pin and scale.",
+          "confidence": "high",
+          "uncertainty": "Exact rotation axis and spacing are not measured.",
+          "forbidden_substitute": "Plain slideshow cuts.",
+          "detected_changes_s": [9.466667, 9.5, 9.766667]
+        }
+      ],
+      "generation": {"imagegen": "four or five consistent portrait stills", "gemini_omni": "optional 1.8s pose-settle intro only"},
+      "deterministic_composite": ["camera body", "film card", "image reveal", "2.5D card stack", "shadows", "fixed typography"]
+    },
+    {
+      "id": "ticket_travel",
+      "file": "../../references/taoagou/nonfinger/ticket_travel_7648553013002489109.mp4",
+      "duration_s": 13.333333,
+      "width": 1080,
+      "height": 2160,
+      "fps": 30,
+      "codec": "h264",
+      "sha256": "BD60B90C27E588A57C506621F390294A25CA34BD01ADBFC3AEB183CCBDAC0CDC",
+      "segments": [
+        {
+          "time_s": [0.0, 4.8],
+          "observed_fact": "Full-body traveler reads a passport or ticket against white while walking.",
+          "candidate_operator": "Locked short walking clip.",
+          "alternative": "Walk-in-place cycle with 2D X translation.",
+          "confidence": "high",
+          "uncertainty": "Exact entrance motion is approximate.",
+          "forbidden_substitute": "Generated camera movement."
+        },
+        {
+          "time_s": [4.8, 13.333333],
+          "observed_fact": "A large ticket graphic contains successive full-body travel outfits while the graphic frame remains coherent.",
+          "candidate_operator": "Ticket precomp containing phase-matched person mattes; swap under card overlap or wipe.",
+          "alternative": "Scale punch around each swap.",
+          "confidence": "medium-high",
+          "uncertainty": "Swap boundaries are visually estimated at about 6.2, 8.3, and 10.3 seconds.",
+          "forbidden_substitute": "Allowing character foot phase, floor height, or scale to jump."
+        }
+      ],
+      "generation": {"imagegen": "same character and body across four destination outfits", "gemini_omni": "four 2.2s walk-in-place clips beginning on the same foot phase"},
+      "deterministic_composite": ["ticket SVG", "person mattes", "barcode and typography", "card shadow", "phase-matched swaps"]
+    }
+  ],
+  "limitations": [
+    "Files are public-mirror encodes and may differ from original upload resolution and compression.",
+    "Ticket and some polaroid boundaries are observation-based approximations, not verified edit decision lists."
+  ]
+}

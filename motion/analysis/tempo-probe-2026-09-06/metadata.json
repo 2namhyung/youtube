@@ -1,0 +1,102 @@
+{
+  "created_utc": "2026-09-06T00:28:36.570226+00:00",
+  "purpose": "T1 whole-body person-only tempo probe; not a reference speed measurement",
+  "source": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4",
+  "source_sha256": "2be9d87556adf3049d0489340ad441089bef1cb4bdd9bd799e9a0cef4af5b9b0",
+  "source_start_seconds": 3.5,
+  "output_seconds": 2.0,
+  "fps": 24,
+  "frame_count": 48,
+  "factor_definition": "standard playback speed; source_time = source_start + factor * output_time",
+  "candidates": [
+    {
+      "factor": 1.0,
+      "source_window_seconds": 2.0,
+      "output_window_seconds": 2.0
+    },
+    {
+      "factor": 1.1,
+      "source_window_seconds": 2.2,
+      "output_window_seconds": 2.0
+    },
+    {
+      "factor": 1.2,
+      "source_window_seconds": 2.4,
+      "output_window_seconds": 2.0
+    }
+  ],
+  "fixed": [
+    "card not included in this person-only probe; production card remains unchanged",
+    "original source camera and background; no spatial transform",
+    "audio omitted for visual isolation",
+    "source start"
+  ],
+  "known_limit": "whole-body retime also changes face, upper body, arms, props and cloth; stride amplitude is not increased",
+  "artifacts": {
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4": {
+      "sha256": "2be9d87556adf3049d0489340ad441089bef1cb4bdd9bd799e9a0cef4af5b9b0",
+      "bytes": 2726602,
+      "probe": {
+        "width": "720",
+        "height": "1280",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "240",
+        "duration": "10.005000"
+      }
+    },
+    "analysis\\tempo-probe-2026-09-06\\tokyo-person-1.00x-2s.mp4": {
+      "sha256": "530677d5da7e2d0583e312f66634abe178fb50327c2542df6ae0cf468db36740",
+      "bytes": 455134,
+      "probe": {
+        "width": "720",
+        "height": "1280",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "analysis\\tempo-probe-2026-09-06\\tokyo-person-1.10x-2s.mp4": {
+      "sha256": "c3f45ee9f3813e6afcd714a8001bcdb0bc243ce2a53b4640d04e86189c97b4e5",
+      "bytes": 467771,
+      "probe": {
+        "width": "720",
+        "height": "1280",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "analysis\\tempo-probe-2026-09-06\\tokyo-person-1.20x-2s.mp4": {
+      "sha256": "cadc082ab90a3cc9aaa8131c06a53b14ba6744ddba79fac958ded427dd113c37",
+      "bytes": 482773,
+      "probe": {
+        "width": "720",
+        "height": "1280",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "analysis\\tempo-probe-2026-09-06\\tokyo-person-tempo-comparison-side-by-side.mp4": {
+      "sha256": "3dedcdd16e6fb456784c64ad48027e07b77b9b2d99664e668f5a8113be69eda4",
+      "bytes": 1362683,
+      "probe": {
+        "width": "2160",
+        "height": "1280",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "analysis\\tempo-probe-2026-09-06\\tokyo-person-tempo-contact-sheet.jpg": {
+      "sha256": "6837c370b9c36ad28aeb59103e7b55e8e69dd36607f20dd0410dadab398bfda3",
+      "bytes": 464565,
+      "probe": null
+    }
+  }
+}

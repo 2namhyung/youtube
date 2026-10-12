@@ -1,0 +1,21 @@
+Probe 01 geometry check (read-only measurement)
+
+Input: probe-01-omni.mp4, 720x1280, 24fps, 96 frames, 4.000s.
+Contact: probe-01-contact.jpg.
+
+Using decoded PNG frames and a threshold min(R,G,B)<235, the non-white outer extent was identical at sampled frames f=0,8,...,88:
+  x=113..628, y=60..1244
+This corresponds to approximately x=.157.. .872 and y=.047.. .972 in normalized probe coordinates. It indicates a strongly locked card rectangle in this clip; it is not a reference-scale claim because the probe is 720x1280 while the reference is 1080x2160.
+
+Visual review of the 5x4 contact and a 2x crop: card typography, barcode, rounded frame and shadow remain fixed; the embedded pink-dress figure changes pose. The figure is cleanly integrated at this scale; no obvious white matte/halo boundary was visible around head, arm, dress or legs in the crop. This is a qualitative observation, not a pixel-alpha test.
+
+Limitations / no false PASS:
+- Probe contains one Bangkok card only; it does not test the initial backpack walk or any slide transition/stacked-card alignment.
+- A 4s single-card clip cannot establish cross-card identity consistency, inter-card walking continuity, or transition easing.
+- Person bbox was not robustly separable from printed ticket text, so no numeric person-scale PASS is asserted. The contact shows pose motion with approximately stable apparent scale, but this needs a masked person layer or landmark measurement in the next probe.
+
+Focused decode command for next probe:
+  ffprobe -v error -select_streams v:0 -show_entries stream=width,height,r_frame_rate,nb_frames,duration -of default=noprint_wrappers=1 <probe>.mp4
+  ffmpeg -hide_banner -loglevel error -i <probe>.mp4 -vf "fps=10,scale=360:640,tile=5x4:padding=3:margin=3" -frames:v 1 <probe>_contact.jpg
+
+Proposed QC only (not measured here): after normalization, card outer edge drift <=10px source-equivalent; person head anchor vertical drift <=20px during a same-costume walk; apparent person height change <3-5% after pose allowance; no bright matte band at high-contrast silhouette edges.

@@ -1,0 +1,76 @@
+{
+  "reference": {
+    "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\references\\taoagou\\nonfinger\\ticket_travel_7648553013002489109.mp4",
+    "width": 1080,
+    "height": 2160,
+    "fps": "30/1",
+    "duration": 13.333333,
+    "frames": 400
+  },
+  "current_v2": {
+    "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\final-sequence-v2\\final-sequence-v2.mp4",
+    "width": 720,
+    "height": 1280,
+    "fps": "24/1",
+    "duration": 13.0,
+    "frames": 312
+  },
+  "sheets": [
+    {
+      "label": "reference intro, walking onset",
+      "start": 2.0,
+      "duration": 2.3,
+      "rate": 10,
+      "frames": 23,
+      "output": "reference-intro-2.0-4.3-labeled.jpg"
+    },
+    {
+      "label": "current v2 intro, walking onset",
+      "start": 1.8,
+      "duration": 1.8,
+      "rate": 10,
+      "frames": 19,
+      "output": "v2-intro-1.8-3.6-labeled.jpg"
+    },
+    {
+      "label": "reference Bangkok clean city window",
+      "start": 4.9,
+      "duration": 1.4,
+      "rate": 10,
+      "frames": 14,
+      "output": "reference-bangkok-4.9-6.3-labeled.jpg"
+    },
+    {
+      "label": "reference Seoul clean city window",
+      "start": 6.8,
+      "duration": 1.6,
+      "rate": 10,
+      "frames": 16,
+      "output": "reference-seoul-6.8-8.4-labeled.jpg"
+    },
+    {
+      "label": "current v2 Seoul city window",
+      "start": 4.1,
+      "duration": 1.8,
+      "rate": 10,
+      "frames": 19,
+      "output": "v2-seoul-4.1-5.9-labeled.jpg"
+    },
+    {
+      "label": "current v2 Tokyo clean city window",
+      "start": 6.8,
+      "duration": 1.9,
+      "rate": 10,
+      "frames": 20,
+      "output": "v2-tokyo-6.8-8.7-labeled.jpg"
+    },
+    {
+      "label": "current v2 Shanghai clean city window",
+      "start": 9.7,
+      "duration": 1.5,
+      "rate": 10,
+      "frames": 15,
+      "output": "v2-shanghai-9.7-11.2-labeled.jpg"
+    }
+  ]
+}

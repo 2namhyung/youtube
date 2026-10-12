@@ -1,0 +1,82 @@
+{
+  "status": "provisional visual candidate, no user phase PASS",
+  "change": "Only Hanoi source start 6.000 -> 5.750 seconds; source end nominal 9.350 seconds",
+  "factor": 1.8,
+  "card_times": [
+    3.5,
+    6.5,
+    9.0,
+    11.0
+  ],
+  "preserved": "Other city source maps, card geometry/masks/timing, original audio and 13s duration",
+  "baseline": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-all-city-2026-09-06\\t3-all-city-1.80x-13s.mp4",
+  "baseline_sha256": "63041b7225fad09a25d296329a59e2f771280ed1b88bd6ab404aacf441cb94c3",
+  "artifacts": {
+    "provisional-hanoi-phase-13s.mp4": {
+      "sha256": "8a9fa8d6152715459588ca9c7b1338bcac31a6592cbd741487ebad9067aab549",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "24/1",
+            "duration": "13.000000",
+            "nb_read_frames": "312"
+          },
+          {
+            "r_frame_rate": "0/0",
+            "duration": "13.000000",
+            "nb_read_frames": "610"
+          }
+        ],
+        "format": {
+          "duration": "13.000000"
+        }
+      },
+      "full_decode": "PASS"
+    },
+    "hanoi-start-5.750-last3s.mp4": {
+      "sha256": "1ee19a0599cce4d1d18ff3d64933ebe2bde27bfed51730b5beba0f305b789f85",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "24/1",
+            "duration": "3.000000",
+            "nb_read_frames": "72"
+          }
+        ],
+        "format": {
+          "duration": "3.000000"
+        }
+      },
+      "full_decode": "PASS"
+    },
+    "hanoi-phase-before-after-last3s.mp4": {
+      "sha256": "ba5b5ac30543319c615a210c07d01a85722052099365d9ec664f17fc9f7b4fc5",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1440,
+            "height": 1280,
+            "r_frame_rate": "24/1",
+            "duration": "3.000000",
+            "nb_read_frames": "72"
+          }
+        ],
+        "format": {
+          "duration": "3.000000"
+        }
+      },
+      "full_decode": "PASS"
+    }
+  },
+  "limits": "Offset is a visual pose-continuity candidate, not tracked anatomical contact certification. Head direction and outfit geometry remain unchanged."
+}

@@ -1,0 +1,96 @@
+{
+  "status": "completed_screening_render",
+  "created": "2026-09-06",
+  "purpose": "Screen whether removing independent upper-body performance improves gait continuity while preserving the same-source-time A/B assembly rule.",
+  "provenance": {
+    "canonical_source": {
+      "path": "C:/Users/every/Documents/project/motiongraphic/production/ticket-travel/performance-v2/canonical-hanbok-10s.mp4",
+      "sha256": "7F167E64E45F5FF32CDDF41E77BDA847C9EDFD6F98ECE838999B37B57DF9E5BE",
+      "role": "Flow input for both the historical and new clothing edits"
+    },
+    "kimono_reference": {
+      "path": "C:/Users/every/Documents/project/motiongraphic/production/ticket-travel/assets/locked-keyframes/K2-tokyo-kimono.png",
+      "sha256": "AE7673BBC864439F58D2DBCFCC92968D6DDF72AF76B936614F55D0C3E01D6883",
+      "role": "Garment reference for B; exclude all non-garment elements"
+    },
+    "a_existing_output": {
+      "path": "C:/Users/every/Documents/project/motiongraphic/production/ticket-travel/performance-v2/tokyo-parasol-10s.mp4",
+      "sha256": "2BE9D87556ADF3049D0489340AD441089BEF1CB4BDD9BD799E9A0CEF4AF5B9B0",
+      "role": "Historical A candidate with independent parasol/upper-body acting"
+    },
+    "prompt_source": "C:/Users/every/Documents/project/motiongraphic/production/ticket-travel/performance-v2/long-variant-prompts.md"
+  },
+  "variants": {
+    "A": {
+      "name": "existing_tokyo_parasol",
+      "input": "canonical-hanbok-10s.mp4",
+      "output": "tokyo-parasol-10s.mp4",
+      "upper_body": "independent parasol handling, sideways glance, faint smile; original pouch removed",
+      "prompt_record": "flow-prompt-pack.md#A"
+    },
+    "B": {
+      "name": "new_clothing_only_kimono",
+      "input": "canonical-hanbok-10s.mp4",
+      "reference": "K2-tokyo-kimono.png",
+      "output": "C:/Users/every/Downloads/Woman_walking_in_hanbok_202609061909.mp4",
+      "sha256": "38D8D3EE340CEBEC35F0D9E34C8332526B55AD0F0387E9D640C8AD009055081D",
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "fps": "24/1",
+        "video_frames": 240,
+        "video_duration_seconds": 10.0,
+        "audio_duration_seconds": 10.005333
+      },
+      "flow_submission": "submitted_once_in_flow_omni_1_1_flash; downloaded_and_screened",
+      "upper_body": "preserve source arms, hands, head direction, gaze, facial expression, pouch and timing; no added performance",
+      "prompt_record": "flow-prompt-pack.md#B"
+    }
+  },
+  "assembly": {
+    "resolution": "720x1280",
+    "fps": 24,
+    "person_sampling_factor": 1.8,
+    "global_interval": [6.0, 7.5],
+    "card_boundary": 6.5,
+    "card_transition_seconds": 0.5,
+    "outgoing_seoul_source_start": 2.5,
+    "incoming_tokyo_source_start_A": 7.9,
+    "incoming_tokyo_source_start_B": 7.9,
+    "audio": "not included in the silent diagnostic; preserve production audio when promoting a candidate"
+  },
+  "verification_plan": {
+    "reuse": "analysis/clothing-only-ab-2026-09-06/run_clothing_only_ab.py (imports the prior same-time renderer; does not run without an explicit downloaded B path)",
+    "required_new_input": "Completed: downloaded B Flow output was probed, hashed and rendered from the actual local path recorded under variants.B.",
+    "outputs": [
+      "A historical same-source-time diagnostic",
+      "B clothing-only same-source-time diagnostic",
+      "A/B side-by-side 1.5-second transition",
+      "24fps dense lower-body/contact sheet around global 6.5s",
+      "paired full-body frames for screen position, head direction and apparent size"
+    ],
+    "decision": "B is a viable clothing-only candidate for the next assembly: the matched-clock frame sheets show no new visible gait restart and remove the requested independent upper-body acting. This is not anatomical pixel-identical gait certification."
+  },
+  "results": {
+    "visual_review": [
+      "At global 6.500–6.708s, B preserves the same broad lower-body progression as A under identical source-clock mapping.",
+      "B retains the source handheld pouch and source-facing head/upper-body behavior; A contains the historical parasol performance, so B has a simpler and more controllable transition silhouette.",
+      "Raw Seoul/A/B matched-time lower-body samples show compatible alternating-foot progression; residual garment and footwear silhouette differences remain.",
+      "This is a 1.5-second transition screening, not approval of the full 13-second sequence."
+    ],
+    "artifacts": {
+      "A-historical-sameclock-1.5s.mp4": {"sha256": "FD003A7A00BD264C9BE840B72FD05DC11DADA3A058E0A084B85C11178F9B41C7", "width": 720, "height": 1280, "fps": "24/1", "frames": 36, "duration_seconds": 1.5},
+      "B-clothing-only-sameclock-1.5s.mp4": {"sha256": "AC401D3D429A108989AF12F08EA6CA77CA922B08ACEC0BC50235FEC3AEF9C528", "width": 720, "height": 1280, "fps": "24/1", "frames": 36, "duration_seconds": 1.5},
+      "AB-clothing-only-sameclock-1.5s.mp4": {"sha256": "4885ABDA6CECCAF1B6DA639325BA4C2B20CF1043A427EFFF08134918D7F437E3", "width": 1440, "height": 1280, "fps": "24/1", "frames": 36, "duration_seconds": 1.5},
+      "AB-transition-6frames.jpg": {"sha256": "1E6A866E4B395CE220B193AA3D6ED40C383E642104A26301634786FDD7D85B99"},
+      "raw-three-way-matched-source-clock-feet.jpg": {"sha256": "445D92B106CBFBADF6F12465BE6E1B9F6656C8470F1DFAB80E166AC2B65573B2"},
+      "raw-three-way-late-source-clock-feet.jpg": {"sha256": "5BCF564F23F0A1B29D86EA26828ED98539FCC15F457453B5D1DA29B26A49B604"}
+    }
+  },
+  "constraints": [
+    "Do not overwrite A or the canonical source.",
+    "Do not render before B is downloaded from Flow; the analysis script exits if the B path is missing.",
+    "Do not change ticket geometry, mask, camera or playback factor during this isolated test.",
+    "A versus B is a screening comparison against an independently generated historical render; stochastic generation prevents a causal claim."
+  ]
+}

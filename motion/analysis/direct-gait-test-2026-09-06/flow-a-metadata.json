@@ -1,0 +1,149 @@
+{
+  "created_utc": "2026-09-06T07:51:02.942927+00:00",
+  "purpose": "Raw Flow A gait inspection at the same source start/window as local 1.00x and 1.80x candidates",
+  "flow_input": {
+    "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-direct-gait-A-10s.mp4",
+    "downloaded_raw_preserved": true,
+    "probe": {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "240",
+      "duration": "10.005333"
+    },
+    "sha256": "7dcdaf20fddd903598afff22219434be0b6d60d22f2880762cfef65221e4003e"
+  },
+  "source": {
+    "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4",
+    "probe": {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "240",
+      "duration": "10.005000"
+    },
+    "sha256": "7f167e64e45f5ff32cddf41e77bda847c9edfd6f98ece838999b37b57df9e5be"
+  },
+  "window": {
+    "source_start_seconds": 2.5,
+    "output_seconds": 2.0,
+    "fps": 24,
+    "frames": 48,
+    "flow_extract": "2.5–4.5s raw normal playback; no retime"
+  },
+  "comparison": {
+    "columns": [
+      "original 1.00x",
+      "Flow A raw",
+      "original 1.80x"
+    ],
+    "resize_only_for_comparison": true,
+    "width": 1440,
+    "height": 852,
+    "fps": 24,
+    "frames": 48,
+    "seconds": 2.0
+  },
+  "foot_phase": {
+    "status": "NOT_MEASURABLE",
+    "reason": "visual contact sheet only; clothing hem and generated take differences prevent reliable left/right contact and trajectory tracking"
+  },
+  "head_feet_contact": {
+    "status": "visual_review_artifact",
+    "exact_eye_gaze": "UNKNOWN"
+  },
+  "artifacts": {
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-direct-gait-A-10s.mp4": {
+      "sha256": "7dcdaf20fddd903598afff22219434be0b6d60d22f2880762cfef65221e4003e",
+      "bytes": 9516824,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "240",
+        "duration": "10.005333"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4": {
+      "sha256": "7f167e64e45f5ff32cddf41e77bda847c9edfd6f98ece838999b37b57df9e5be",
+      "bytes": 2819873,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "240",
+        "duration": "10.005000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\canonical-hanbok-1.00x-2s.mp4": {
+      "sha256": "5959dddfaaebc1e1ed5f55090a8aefd1cc7a00166eefa6e71148fd3259c27dec",
+      "bytes": 457320,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\canonical-hanbok-1.80x-2s.mp4": {
+      "sha256": "bf5ddc1a2796c5c3974963d713872380650911b504b9dbd7c4a003923d916de3",
+      "bytes": 561091,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-direct-gait-A-source2.5-2s.mp4": {
+      "sha256": "61a9dcf2613cd55649307c2b747471bcb90377f497cfbbabe653783cf4ccda68",
+      "bytes": 421803,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\direct-gait-original1.00x-flowA-original1.80x-2s.mp4": {
+      "sha256": "4954b63778a0c96f88a1b5fce17cf2c9e29110d9b38dedaf144f5090a0900f03",
+      "bytes": 746282,
+      "probe": {
+        "codec": "h264",
+        "width": 1440,
+        "height": 852,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\direct-gait-flowA-head-feet-contact.jpg": {
+      "sha256": "8f5efb58195777394b3177b0c1331ea6f8c7a1c02d0430515c059eed34b341e0",
+      "bytes": 694314,
+      "probe": null
+    }
+  },
+  "limits": [
+    "Flow A is kept at raw normal playback; no claim that Flow universally changes gait",
+    "comparison resize does not alter playback speed",
+    "no card/head/matte/production changes"
+  ]
+}

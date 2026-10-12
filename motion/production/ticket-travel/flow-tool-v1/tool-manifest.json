@@ -1,0 +1,41 @@
+{
+  "name": "Ticket Journey Director v1.1",
+  "flow_project_id": "a37f8501-9284-4599-bee5-bafd23699149",
+  "flow_tool_id": "0be73191-a90a-4bd6-9b61-374c754c4eb6",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 390,
+    "duration_seconds": 13
+  },
+  "composite_contract": "Pn = exact Tn pixels + keyed Mn subject; slide the complete incoming Pn over the previous Pn",
+  "timeline": [
+    {"id": "intro", "start_frame": 0, "end_frame": 60},
+    {"id": "walk", "start_frame": 60, "end_frame": 105},
+    {"id": "seoul", "slide_frames": [105, 117], "end_frame": 195},
+    {"id": "tokyo", "slide_frames": [195, 207], "end_frame": 270},
+    {"id": "shanghai", "slide_frames": [270, 282], "end_frame": 330},
+    {"id": "hanoi", "slide_frames": [330, 342], "end_frame": 390}
+  ],
+  "flow_slots": {
+    "connected": ["K0", "K1", "K2", "K3", "K4", "T1"],
+    "pending_manual_upload": ["T2", "T3", "T4"],
+    "pending_flow_generation": ["M0", "M1", "M2", "M3", "M4"]
+  },
+  "pending_manual_upload_paths": {
+    "T2": "C:/Users/every/Documents/project/motiongraphic/production/ticket-travel/assets/image-first/tickets/02-tokyo-ticket.png",
+    "T3": "C:/Users/every/Documents/project/motiongraphic/production/ticket-travel/assets/image-first/tickets/03-shanghai-ticket.png",
+    "T4": "C:/Users/every/Documents/project/motiongraphic/production/ticket-travel/assets/image-first/tickets/04-hanoi-ticket.png"
+  },
+  "binding_persistence": {
+    "storage_key": "FLOW_TICKET_JOURNEY_BINDINGS_V1.1",
+    "reload_verified": true
+  },
+  "qc_status": "blocked-missing-T2-T4-and-M0-M4",
+  "notes": [
+    "Flow file-picker automation did not expose the local system upload surface; no wrong or duplicate ticket was substituted.",
+    "The tool includes corrected Flow video prompt packages for M0-M4 and labels still-only output as a static layout preview.",
+    "Built-in ImageGen transparent-background results were RGB checkerboard composites rather than real alpha and are not production-approved."
+  ]
+}

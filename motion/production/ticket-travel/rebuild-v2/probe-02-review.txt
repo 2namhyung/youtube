@@ -1,0 +1,20 @@
+Probe 02 transition review (read-only)
+
+Input: probe-02-transition.mp4, 720x1280, 24fps, 96 frames, 4.000s.
+Evidence: probe-02-contact.jpg; supplemental 12fps strip at analysis/ticket-travel-rebuild-v2/probe02/transition_contact_12fps.jpg.
+
+Observed transition (manual, 12fps strip; ±1–2 frames):
+- Bangkok card remains fully visible through about 1.58–1.65s.
+- Seoul card first appears from the bottom around 1.67s (roughly f40 at 24fps).
+- It rises to full-card coverage/alignment around 1.92–2.00s (roughly f46–48); visual transition duration about 0.3–0.4s.
+- This is bottom-up occlusion/slide, broadly matching the reference direction. The probe card stays in the same centered portrait rectangle. A pronounced diagonal entering angle or clearly exposed prior-card side/backing is not visible at this scale; the transition reads more like a vertical wipe/slide than the reference's slightly angled stacked slide.
+
+Person and continuity:
+- Before/after figures are different costumes (Bangkok pink dress/sunhat vs Seoul blue-white outfit/cap), so cross-costume identity and scale cannot be numerically judged from silhouette alone.
+- Within each settled card, leg poses change across frames and there is no obvious hard freeze. In the transition frames, the incoming figure is already visible above the rising card top, so the lower body is not simply clipped by the panel. However, the probe does not prove a coherent foot trajectory or identity-preserving costume replacement across the overlap; do not call cross-transition walking a PASS.
+- The card frame/typography/barcode remain visually locked; no broad white halo is apparent around the embedded figures in the contact strip. This is qualitative, not an alpha-edge measurement.
+
+Limitations / misses:
+- 720x1280 probe, only one transition, no initial backpack shot, no Dali/Tokyo transitions, and no 13s end-to-end timing.
+- No reliable person bbox: printed fields overlap the figure. Need a foreground-mask/landmark probe to measure person scale and head anchor.
+- Probe is useful evidence for fixed-card geometry and bottom-up direction, but not evidence of full reference match.

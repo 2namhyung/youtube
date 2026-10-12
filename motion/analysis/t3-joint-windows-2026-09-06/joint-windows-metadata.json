@@ -1,0 +1,63 @@
+{
+  "created_utc": "2026-09-06T12:19:27.116222+00:00",
+  "status": "provisional joint source-window candidate; not T3 PASS",
+  "factor": 1.8,
+  "source_starts": {
+    "seoul": 2.5,
+    "tokyo": 1.625,
+    "shanghai": 2.75,
+    "hanoi": 6.0
+  },
+  "timeline": {
+    "seoul": 3.5,
+    "tokyo": 6.5,
+    "shanghai": 9.0,
+    "hanoi": 11.0
+  },
+  "transition_duration": 0.5,
+  "output": {
+    "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-joint-windows-2026-09-06\\joint-windows-1.80x-13s.mp4",
+    "sha256": "e1d929d60550d4c5cc3e5c72ae6bb621047c07c0ff12aeb2bc22123b7c768fe3",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "24/1",
+          "duration": "13.000000",
+          "nb_read_frames": "312"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "13.000000",
+          "nb_read_frames": "610"
+        }
+      ],
+      "format": {
+        "duration": "13.000000"
+      }
+    },
+    "full_decode": "PASS"
+  },
+  "preserved": {
+    "prior_t3_path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-all-city-2026-09-06\\t3-all-city-1.80x-13s.mp4",
+    "prior_t3_sha256": "63041b7225fad09a25d296329a59e2f771280ed1b88bd6ab404aacf441cb94c3",
+    "prior_t3_unchanged": true,
+    "card_timing_geometry": "inherited",
+    "audio": "copied from production/ticket-travel/final-sequence-v2/final-sequence-v2.mp4; original timing retained",
+    "matte": "inherited Hanoi green matte",
+    "no_loops_freezes_padding": true
+  },
+  "phase_qc": {
+    "seoul_tokyo": "NOT_MEASURABLE/visible stance jump remains; no PASS",
+    "tokyo_shanghai": "bounded candidate selected at Shanghai 2.750s; visual review only",
+    "shanghai_hanoi": "bounded candidate selected at Hanoi 6.000s; visual review only",
+    "note": "garments/card matte hide contact; no anatomical foot tracker"
+  }
+}

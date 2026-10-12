@@ -1,0 +1,7 @@
+file 'C:\Users\every\Documents\project\motiongraphic\production\ticket-travel\assets\generated\clips\01-intro-close.mp4'
+file 'C:\Users\every\Documents\project\motiongraphic\production\ticket-travel\assets\generated\clips\02-intro-full.mp4'
+file 'C:\Users\every\Documents\project\motiongraphic\production\ticket-travel\assets\generated\clips\03-card-slide.mp4'
+file 'C:\Users\every\Documents\project\motiongraphic\production\ticket-travel\assets\generated\clips\04-look1.mp4'
+file 'C:\Users\every\Documents\project\motiongraphic\production\ticket-travel\assets\generated\clips\05-look2.mp4'
+file 'C:\Users\every\Documents\project\motiongraphic\production\ticket-travel\assets\generated\clips\06-look3.mp4'
+file 'C:\Users\every\Documents\project\motiongraphic\production\ticket-travel\assets\generated\clips\07-look4.mp4'

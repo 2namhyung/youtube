@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "source_unchanged_ticket": true,
+    "source_unchanged_blind": true,
+    "source_unchanged_polaroid": true,
+    "source_unchanged_slap": true,
+    "source_unchanged_interactive": true,
+    "source_unchanged_flow_integrated": true,
+    "source_unchanged_flow_final": true,
+    "script_syntax": true,
+    "local_links": true,
+    "images_decode": true,
+    "videos_full_decode": true,
+    "selected_edge_monotonic": true,
+    "edge_sensitivity_max3px": true
+  },
+  "all_pass": true,
+  "image_count": 22,
+  "video_metadata": {
+    "transition-comparison-half-speed.mp4": {
+      "width": 1080,
+      "height": 760,
+      "avg_frame_rate": "60/1",
+      "duration": "2.800000",
+      "nb_frames": "168"
+    },
+    "transition-comparison.mp4": {
+      "width": 1080,
+      "height": 760,
+      "avg_frame_rate": "120/1",
+      "duration": "1.400000",
+      "nb_frames": "168"
+    }
+  },
+  "bad_links": [],
+  "max_roi_threshold_spread_px": 3,
+  "limits": "Technical artifact integrity only; no full source reconstruction, perceptual PASS or new generation approval."
+}

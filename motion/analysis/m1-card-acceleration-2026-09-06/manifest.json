@@ -1,0 +1,147 @@
+{
+  "status": "isolation_diagnostic_e_success_download_pending",
+  "created": "2026-09-06",
+  "purpose": "Prepare the accepted T3 Seoul-to-Tokyo four-second input for the M1 card-acceleration timing test.",
+  "authorization": {
+    "user_today": "accepted gait and authorized next M1",
+    "scope_note": "Creative motion-selection acceptance only; not anatomical proof or pixel-identical gait certification.",
+    "flow_generation_submitted": true,
+    "rights_consent": "User authorized ordinary 동의; not never again."
+  },
+  "provenance": {
+    "source": "analysis/t3-joint-windows-2026-09-06/joint-windows-1.80x-13s.mp4",
+    "sourcehash": "E1D929D60550D4C5CC3E5C72AE6BB621047C07C0FF12AEB2BC22123B7C768FE3",
+    "source_role": "Accepted T3 joint-windows video; source clock is retained.",
+    "input": "analysis/m1-card-acceleration-2026-09-06/m1-input-seoul-tokyo-4s.mp4",
+    "inputhash": "E2289B7F6037980120A701913303E9BA7658DAFC0DFA82DE0B6722B665DC05AD"
+  },
+  "extraction": {
+    "global_start_seconds": 5.0,
+    "global_end_seconds": 9.0,
+    "duration_seconds": 4.0,
+    "video_frames": 96,
+    "width": 720,
+    "height": 1280,
+    "fps": "24/1",
+    "audio": "not included",
+    "retime": false,
+    "ffmpeg": "C:/Users/every/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.1-full_build/bin/ffmpeg.exe"
+  },
+  "prompts": {
+    "A": "A.txt",
+    "B": "B.txt",
+    "source": "C:/Users/every/Documents/project/23jung/wiki/syntheses/taoagou-ticket-journey-flow-imagegen-pipeline-v0.1.md",
+    "source_lines": "318-340",
+    "transition_window_seconds": [1.5, 2.0]
+  },
+  "flow": {
+    "upload": "completed",
+    "scene_id": "bd42d146-275e-4b96-b370-53048b28223f",
+    "project_id": "a37f8501-9284-4599-bee5-bafd23699149",
+    "duration_ui_seconds": 4,
+    "model_ui": "Omni1.1Flash",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt_file": "A.txt",
+        "prompt_exact": true,
+        "result": "generic_failure",
+        "visible_message": "죄송합니다. 동영상을 생성할 수 없습니다",
+        "charged": false,
+        "recaptcha": "service connection error",
+        "cause_assessment": "Unknown; not classified as policy refusal or M1 model-quality failure."
+      },
+      {
+        "attempt": 2,
+        "prompt_file": "A.txt",
+        "prompt_exact": true,
+        "kind": "retry_after_refresh",
+        "result": "generic_failure",
+        "visible_message": "죄송합니다. 동영상을 생성할 수 없습니다",
+        "charged": false,
+        "recaptcha": "warning disappeared after refresh",
+        "cause_assessment": "Unknown; not classified as policy refusal or M1 model-quality failure."
+      },
+      {
+        "attempt": 3,
+        "prompt_file": "B.txt",
+        "prompt_exact": true,
+        "kind": "first_attempt",
+        "result": "generic_failure",
+        "visible_message": "죄송합니다. 동영상을 생성할 수 없습니다",
+        "charged": false,
+        "recaptcha": "warning absent",
+        "cause_assessment": "Unknown; not classified as policy refusal or M1 model-quality failure."
+      }
+    ],
+    "total_requests": 3,
+    "request_breakdown": "A×2, B×1",
+    "outputs": 0,
+    "quality_comparison": false,
+    "recaptcha_initial": "service connection error",
+    "recaptcha_after_refresh": "warning disappeared",
+    "next_action": "No further diagnostic tests; main handoff/download remains in the UI.",
+    "retry_submitted": true,
+    "upload_and_consent_complete": true,
+    "diagnostic": {
+      "prompt_file": "C-simple.txt",
+      "prompt_exact": true,
+      "scene_id": "bd42d146-275e-4b96-b370-53048b28223f",
+      "duration_ui_seconds": 4,
+      "model_ui": "Omni1.1Flash",
+      "submitted": true,
+      "result": "generic_failure",
+      "visible_message": "죄송합니다. 동영상을 생성할 수 없습니다",
+      "charged": false,
+      "outputs": 0,
+      "next_if_failed": "simple color-control prompt on the same input"
+    },
+    "next_diagnostic": {
+      "prompt_file": "D-control.txt",
+      "prompt_exact": true,
+      "prompt_text": "Make this video black and white. Keep everything else the same.",
+      "scene_id": "bd42d146-275e-4b96-b370-53048b28223f",
+      "duration_ui_seconds": 4,
+      "model_ui": "Omni1.1Flash",
+      "submitted": true,
+      "result": "generic_failure",
+      "visible_message": "죄송합니다. 동영상을 생성할 수 없습니다",
+      "charged": false,
+      "outputs": 0
+    },
+    "d_control_original_input_result": {
+      "prompt_file": "D-control.txt",
+      "prompt_exact": true,
+      "result": "generic_failure",
+      "visible_message": "죄송합니다. 동영상을 생성할 수 없습니다",
+      "charged": false,
+      "outputs": 0
+    },
+    "isolation_diagnostic_e": {
+      "prompt_file": "D-control.txt",
+      "prompt_exact": true,
+      "prompt_text": "Make this video black and white. Keep everything else the same.",
+      "purpose": "Existing-generation-path check.",
+      "input": "10 s Flow-generated kimono clothing-only variant from the latest clothing-only stack (separate from the 4 s uploaded M1 input)",
+      "ingredient": "pink kimono",
+      "visible_result": "kimono, grayscale",
+      "source_asset_id": null,
+      "source_asset_id_note": "Exact source asset ID unavailable; do not claim canonical hanbok.",
+      "scene_id": "782edb55-2d01-4e7e-b61c-380fbdcdcd11",
+      "project_id": "a37f8501-9284-4599-bee5-bafd23699149",
+      "model_ui": "Omni1.1Flash",
+      "submitted": true,
+      "result": "success_visible_ui",
+      "output_duration_ui_seconds": 10,
+      "download_clicked": true,
+      "local_download_verified": false,
+      "result_url": "https://flow.google.com/project/a37f8501-9284-4599-bee5-bafd23699149/edit/782edb55-2d01-4e7e-b61c-380fbdcdcd11",
+      "confound": "10 s generated kimono variant versus 4 s uploaded input; this cannot prove the root cause.",
+      "conclusion": "Input/ingest/content path may be involved; not a global Flow outage or the long prompt alone. No exact cause established."
+    }
+  },
+  "integrity": {
+    "original_files_mutated": false,
+    "raw_13s_input_untouched": true
+  }
+}

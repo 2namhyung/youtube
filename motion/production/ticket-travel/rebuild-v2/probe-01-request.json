@@ -1,0 +1,19 @@
+{
+  "status": "generated-downloaded-partially-verified",
+  "result": {"path": "probe-01-omni.mp4", "mediaId": "6d0ccef1-f7f5-45d6-b53c-39edc00524fb", "width": 720, "height": 1280, "fps": 24, "frames": 96, "durationSeconds": 4},
+  "previousAttempt": {"model": "Veo 3.1 - Lite", "durationSeconds": 4, "outcome": "SDK Error: rj", "cause": "unconfirmed; builder claims tier duration restriction, not independently verified"},
+  "toolUrl": "https://flow.google.com/project/a37f8501-9284-4599-bee5-bafd23699149/tool/81bf79b6-43bd-4ce1-a32a-3609491097e7",
+  "sourceImage": "assets/F1-bangkok-imagegen.png",
+  "imageProvenance": "OpenAI built-in ImageGen; exec-dbf1dd40-9994-420a-99e6-685e437f39d2.png",
+  "request": {
+    "aspectRatio": "9:16",
+    "modelDisplayName": "Omni 1.1 Flash",
+    "firstFrameImageMediaId": "a49be087-c128-4893-8b70-bdbedaaf1082",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "lastFrame": null,
+    "prompt": "One continuous fixed-camera fashion studio shot. The same woman walks continuously in place at a relaxed even cadence, alternating feet, subtle natural arm swing and cloth motion. Her pelvis remains anchored at the same screen coordinate and her head-to-foot scale stays constant. The printed boarding-pass card stays rigid, stationary, flat and exactly the same size as the supplied frame; every printed letter and barcode remains unchanged. Natural sharp subject edges, no white halo, no cutout border. No camera movement, no zoom, no reframing, no cut, no dissolve, no pose hold, no frozen person. Keep the supplied face and body identity."
+  },
+  "scope": "Single-card walking stability test; not the finished 13-second reproduction.",
+  "qualityStatus": "Sampled card outer extent fixed; no obvious white halo in contact. Person motion visible, numeric person-scale and cross-card continuity not yet validated. See probe-01-geometry.txt."
+}

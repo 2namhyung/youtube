@@ -1,0 +1,11 @@
+{
+  "status": "generated-downloaded-review-pending",
+  "result": {"path": "probe-02-transition.mp4", "mediaId": "bb9b9054-7ef0-44ab-be55-6ba18626820d", "width": 720, "height": 1280, "fps": 24, "frames": 96, "durationSeconds": 4},
+  "modelDisplayName": "Omni 1.1 Flash",
+  "aspectRatio": "9:16",
+  "durationSeconds": 4,
+  "resolution": "720p",
+  "firstFrameImageMediaId": "a49be087-c128-4893-8b70-bdbedaaf1082",
+  "lastFrameImageMediaId": "958b2b57-d546-4e86-8f94-e3959f0a18a4",
+  "prompt": "One continuous locked-camera 4-second portrait fashion film, matching the supplied first and last frames. 0.0-1.5 seconds: the woman in the pink dress is already walking with small relaxed alternating steps, NOT marching, keeping the same screen position and anatomical body scale. The Bangkok ticket remains completely rigid and stationary. 1.5-2.0 seconds: a SECOND whole rigid Seoul boarding-pass card physically slides upward from below the bottom edge, slightly tilted then easing upright. Its blue stripe, printed typography and SAME woman already dressed in the Seoul outfit travel upward together as one complete card scene. This solid foreground card occludes and covers the old Bangkok scene from bottom to top. No dissolving, no morphing the old ticket or clothing in place, no hard cut. 2.0-4.0 seconds: the Seoul ticket stays stationary exactly matching the final frame and the same woman continues a natural relaxed alternating walk while looking at her phone. Keep her head and pelvis anchored after card settles, same body scale as before. Walking never stops and feet never freeze, with low foot clearance, no high-knee march. Camera absolutely fixed: no pan, zoom, dolly, reframe, perspective changes. Preserve crisp card typography, barcode and precise sharp subject silhouette without any white matte, halo or glow. Only the incoming card translates during the brief transition; there are no other camera or card size changes."
+}

@@ -1,0 +1,27 @@
+{
+  "created_local_date": "2026-09-06",
+  "reference": {
+    "path": "references/taoagou/nonfinger/ticket_travel_7648553013002489109.mp4",
+    "window_seconds": [4.95, 6.35],
+    "native_fps": 30,
+    "note": "Bangkok stable segment; no retime applied"
+  },
+  "candidates": {
+    "source_folder": "analysis/tempo-probe-2026-09-06",
+    "factors": [1.0, 1.1, 1.2],
+    "comparison_window_seconds": 1.4,
+    "native_fps": 24
+  },
+  "display": {
+    "panel_size": [540, 1080],
+    "method": "scale/pad only; no geometric warp or crop",
+    "container_fps": 120,
+    "timing_method": "frame hold; no interpolation"
+  },
+  "measurement": {
+    "observable_event": "leg spread/close and rear-leg bend/lift pose progression",
+    "cadence_steps_per_second": "NOT_MEASURABLE",
+    "reference_speed_factor": "NOT_MEASURED",
+    "qualitative_result": "1.20x approaches the faster-rhythm direction among candidates and is first to review; reference tempo match is unverified and large-stride differences remain"
+  }
+}

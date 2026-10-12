@@ -1,0 +1,249 @@
+{
+  "created_utc": "2026-09-06T07:31:32.125074+00:00",
+  "purpose": "Provisional T3 cut-local Seoul-to-Tokyo 1.8x retime candidate",
+  "factor": 1.8,
+  "factor_definition": "standard playback speed; source_time = per-cut source_start + 1.8 * active_output_time",
+  "output": {
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "frames": 96,
+    "seconds": 4.0
+  },
+  "timeline": {
+    "seoul_static_local": "0.0-1.5s",
+    "transition_local": "1.5-2.0s",
+    "tokyo_static_local": "2.0-4.0s",
+    "baseline_source_window": "v2 5.0-9.0s"
+  },
+  "sources": {
+    "seoul": {
+      "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4",
+      "duration_seconds": 10.005,
+      "output_coverage_seconds": 2.0,
+      "source_window_seconds": [
+        2.5,
+        6.1
+      ]
+    },
+    "tokyo": {
+      "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4",
+      "duration_seconds": 10.005,
+      "output_coverage_seconds": 2.5,
+      "source_window_seconds": [
+        5.2,
+        9.7
+      ]
+    }
+  },
+  "window_convention": "source windows are end-exclusive nominal continuous-time intervals; the final 24fps sample is rounded by the renderer and remains within the measured 10.005s source duration",
+  "transition_overlap": {
+    "output_window_seconds": [
+      1.5,
+      2.0
+    ],
+    "matched_source_window_seconds_nominal": [
+      5.2,
+      6.1
+    ],
+    "matching": "same source timestamp map for both clips; exact foot-contact phase is unmeasured",
+    "frame_rounding": "round(source_time * 24), so endpoint/frame identity can differ by about one frame",
+    "status": "provisional"
+  },
+  "fixed": [
+    "existing v1/v2 ticket timing, card geometry and matte helpers",
+    "existing source identities and 720x1280/24fps inputs",
+    "no audio, Flow generation, upload, publish, or production overwrite"
+  ],
+  "artifacts": {
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4": {
+      "sha256": "7f167e64e45f5ff32cddf41e77bda847c9edfd6f98ece838999b37b57df9e5be",
+      "bytes": 2819873,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "240",
+        "duration": "10.005000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4": {
+      "sha256": "2be9d87556adf3049d0489340ad441089bef1cb4bdd9bd799e9a0cef4af5b9b0",
+      "bytes": 2726602,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "240",
+        "duration": "10.005000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\final-sequence-v2\\final-sequence-v2.mp4": {
+      "sha256": "23de9df7f3458c57dc353b00044cbb2291f5efeabda5ac46178be8cd0400a1c1",
+      "bytes": 3692716,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "312",
+        "duration": "13.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-cut-local-2026-09-06\\t3-seoul-tokyo-local-1.80x-4s.mp4": {
+      "sha256": "a1ea1b094e36d465a2f481eaa4b87b275ac0b010cf10eb8cfb98df290f5d99a3",
+      "bytes": 1105981,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "96",
+        "duration": "4.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-cut-local-2026-09-06\\t3-seoul-tokyo-local-1.80x-4s-half-speed.mp4": {
+      "sha256": "82b79e0179ce34fd17b17d6f1abcb150a2e8c2b9985c1c0bc837856b34cd8060",
+      "bytes": 1269436,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "12/1",
+        "avg_frame_rate": "2304/191",
+        "nb_frames": "96",
+        "duration": "7.958333"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-cut-local-2026-09-06\\existing-v2-seoul-tokyo-5-9s.mp4": {
+      "sha256": "199a918b2f02dba776a11ca65bd4d01f2dd1c4f78786d2d0ccf8a26653745225",
+      "bytes": 913940,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "96",
+        "duration": "4.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-cut-local-2026-09-06\\t3-local-vs-existing-v2-5-9s.mp4": {
+      "sha256": "7b10c83c3656d3971e6ed0dd705a9b6739888ae12ce1a177f0ed4a8b5440cc46",
+      "bytes": 1928675,
+      "probe": {
+        "width": 1440,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "96",
+        "duration": "4.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-cut-local-2026-09-06\\t3-local-vs-existing-v2-contact.jpg": {
+      "sha256": "b8bcb0f7970f8a408c1912eb7c75e7e132da8c8a4914ace40ebb157d4b08d15d",
+      "bytes": 872028,
+      "probe": null
+    }
+  },
+  "timing_samples": {
+    "transition_overlap_samples": [
+      {
+        "output_time": 1.5,
+        "seoul_source_frame": 125,
+        "tokyo_source_frame": 125,
+        "seoul_source_time": 5.2,
+        "tokyo_source_time": 5.2
+      },
+      {
+        "output_time": 1.541667,
+        "seoul_source_frame": 127,
+        "tokyo_source_frame": 127,
+        "seoul_source_time": 5.275,
+        "tokyo_source_time": 5.275
+      },
+      {
+        "output_time": 1.583333,
+        "seoul_source_frame": 128,
+        "tokyo_source_frame": 128,
+        "seoul_source_time": 5.35,
+        "tokyo_source_time": 5.35
+      },
+      {
+        "output_time": 1.625,
+        "seoul_source_frame": 130,
+        "tokyo_source_frame": 130,
+        "seoul_source_time": 5.425,
+        "tokyo_source_time": 5.425
+      },
+      {
+        "output_time": 1.666667,
+        "seoul_source_frame": 132,
+        "tokyo_source_frame": 132,
+        "seoul_source_time": 5.5,
+        "tokyo_source_time": 5.5
+      },
+      {
+        "output_time": 1.708333,
+        "seoul_source_frame": 134,
+        "tokyo_source_frame": 134,
+        "seoul_source_time": 5.575,
+        "tokyo_source_time": 5.575
+      },
+      {
+        "output_time": 1.75,
+        "seoul_source_frame": 136,
+        "tokyo_source_frame": 136,
+        "seoul_source_time": 5.65,
+        "tokyo_source_time": 5.65
+      },
+      {
+        "output_time": 1.791667,
+        "seoul_source_frame": 137,
+        "tokyo_source_frame": 137,
+        "seoul_source_time": 5.725,
+        "tokyo_source_time": 5.725
+      },
+      {
+        "output_time": 1.833333,
+        "seoul_source_frame": 139,
+        "tokyo_source_frame": 139,
+        "seoul_source_time": 5.8,
+        "tokyo_source_time": 5.8
+      },
+      {
+        "output_time": 1.875,
+        "seoul_source_frame": 141,
+        "tokyo_source_frame": 141,
+        "seoul_source_time": 5.875,
+        "tokyo_source_time": 5.875
+      },
+      {
+        "output_time": 1.916667,
+        "seoul_source_frame": 143,
+        "tokyo_source_frame": 143,
+        "seoul_source_time": 5.95,
+        "tokyo_source_time": 5.95
+      },
+      {
+        "output_time": 1.958333,
+        "seoul_source_frame": 145,
+        "tokyo_source_frame": 145,
+        "seoul_source_time": 6.025,
+        "tokyo_source_time": 6.025
+      }
+    ],
+    "source_windows": {
+      "seoul": {
+        "output_seconds": 2.0,
+        "source_start_seconds": 2.5,
+        "source_end_seconds": 6.1
+      },
+      "tokyo": {
+        "output_seconds": 2.5,
+        "source_start_seconds": 5.2,
+        "source_end_seconds": 9.7
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "ticket": {
+    "path": "references/taoagou/nonfinger/ticket_travel_7648553013002489109.mp4",
+    "width": 1080,
+    "height": 2160,
+    "avg_frame_rate": "30/1",
+    "duration": "13.333333",
+    "nb_frames": "400",
+    "fps": 30.0,
+    "sha256": "bd60b90c27e588a57c506621f390294a25ca34bd01adbfc3aeb183ccbdac0cdc"
+  },
+  "blind": {
+    "path": "references/taoagou/nonfinger/blind_outfit_7651359823430176018.mp4",
+    "width": 576,
+    "height": 864,
+    "avg_frame_rate": "30/1",
+    "duration": "12.500000",
+    "nb_frames": "375",
+    "fps": 30.0,
+    "sha256": "e1780da90acc21eaad398531fa8bbebb5fee3d2350fe9280c60c65a943c67c36"
+  },
+  "polaroid": {
+    "path": "references/taoagou/nonfinger/polaroid_7666847800793042183.mp4",
+    "width": 576,
+    "height": 1152,
+    "avg_frame_rate": "30/1",
+    "duration": "11.700000",
+    "nb_frames": "351",
+    "fps": 30.0,
+    "sha256": "835dbdd00eb36cacaaf82c547cb5ee561c0a21e767b6835588cff8f8dce18736"
+  },
+  "slap": {
+    "path": "references/taoagou/nonfinger/slap_travel_7536265348543270151.mp4",
+    "width": 720,
+    "height": 1280,
+    "avg_frame_rate": "2997/100",
+    "duration": "18.718719",
+    "nb_frames": "561",
+    "fps": 29.97,
+    "sha256": "3a706cdf8d58311f0d292fed1b1a9a6a6c5e4de58f13285ed07fa8979da6f187"
+  },
+  "interactive": {
+    "path": "references/taoagou/taoagou_interactive_swipe_KuXyyAClOqSnCAcAmYvUZyEMmlNf3fM6ECnFVT00cEuM.mp4",
+    "width": 960,
+    "height": 1920,
+    "avg_frame_rate": "129510000/2160661",
+    "duration": "24.007344",
+    "nb_frames": "1439",
+    "fps": 59.93999058621413,
+    "sha256": "64681b25a2ea36cc61936b6c9f2073c3fcf90fb6de943f83c20b9e41ec089b12"
+  },
+  "flow_integrated": {
+    "path": "production/ticket-travel/rebuild-v2/probe-02-transition.mp4",
+    "width": 720,
+    "height": 1280,
+    "avg_frame_rate": "24/1",
+    "duration": "4.000000",
+    "nb_frames": "96",
+    "fps": 24.0,
+    "sha256": "8fba4e9173efc8e6136ebf429cb4f02b86582012c2481d33033b108198bbcdbd"
+  },
+  "flow_final": {
+    "path": "production/ticket-travel/final-sequence-v1/final-sequence-v1.mp4",
+    "width": 720,
+    "height": 1280,
+    "avg_frame_rate": "24/1",
+    "duration": "13.000000",
+    "nb_frames": "312",
+    "fps": 24.0,
+    "sha256": "be15b31f00199fd192aa7f9fdcf2ad7105410f877dd6a3048e99aa54ecb6a910"
+  }
+}

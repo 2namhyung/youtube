@@ -1,0 +1,233 @@
+{
+  "created_utc": "2026-09-06T08:11:28.884627+00:00",
+  "purpose": "Bounded H1 head-stability review at source 2.5s with raw and 1.80x windows",
+  "flow_input": {
+    "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-head-stable-H1-direct-download-10s.mp4",
+    "downloaded_raw_preserved": true,
+    "download_kind": "direct video download",
+    "probe": {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "240",
+      "duration": "10.000000",
+      "format_duration": "10.005000"
+    },
+    "sha256": "45dd1ce4ae3d0a246301185bb9ec1dd9f6d17089edc0ff5e3af28ecee5754c99"
+  },
+  "scene_export_input": {
+    "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-head-stable-H1-10s.mp4",
+    "downloaded_raw_preserved": true,
+    "probe": {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "nb_frames": "240",
+      "duration": "10.000000",
+      "format_duration": "10.005333"
+    },
+    "sha256": "d0f651464f417636c3dc24adede9667545413a76e007d2564cd89c13f70f6625"
+  },
+  "window": {
+    "source_start_seconds": 2.5,
+    "raw_source_window_seconds": [
+      2.5,
+      4.5
+    ],
+    "retimed_source_window_seconds": [
+      2.5,
+      6.1
+    ],
+    "output_seconds": 2.0,
+    "fps": 24,
+    "frames": 48,
+    "raw_extract": "2.5–4.5s raw normal playback; no retime",
+    "retimed_extract": "2.5–6.1s source mapped to 2.0s at 1.80x; nominal endpoints"
+  },
+  "comparison": {
+    "columns": [
+      "original 1.80x",
+      "H1 1.80x"
+    ],
+    "resize_only_for_comparison": true,
+    "width": 960,
+    "height": 852,
+    "fps": 24,
+    "frames": 48,
+    "seconds": 2.0
+  },
+  "provenance_comparison": {
+    "columns": [
+      "H1 direct download",
+      "H1 scene export"
+    ],
+    "window": "source 2.5–4.5s nominal",
+    "resize_only_for_comparison": true,
+    "width": 960,
+    "height": 852,
+    "fps": 24,
+    "frames": 48,
+    "seconds": 2.0
+  },
+  "review_questions": {
+    "head_down_interval_source_seconds": [
+      2.5,
+      3.5
+    ],
+    "exact_eye_gaze": "UNKNOWN",
+    "foot_phase_quantification": "NOT_REQUESTED",
+    "qualitative_targets": [
+      "head upright/chin level",
+      "simultaneous foot pose preservation",
+      "face/colour side effects"
+    ]
+  },
+  "limits": [
+    "H1 is a generated take; no exact identity/phase measurement",
+    "comparison resize does not alter playback speed",
+    "no claim of universal Flow behavior",
+    "no card/head/matte/production/wiki changes"
+  ],
+  "artifacts": {
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-head-stable-H1-direct-download-10s.mp4": {
+      "sha256": "45dd1ce4ae3d0a246301185bb9ec1dd9f6d17089edc0ff5e3af28ecee5754c99",
+      "bytes": 2594346,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "240",
+        "duration": "10.000000",
+        "format_duration": "10.005000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-head-stable-H1-10s.mp4": {
+      "sha256": "d0f651464f417636c3dc24adede9667545413a76e007d2564cd89c13f70f6625",
+      "bytes": 9561051,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "240",
+        "duration": "10.000000",
+        "format_duration": "10.005333"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\canonical-hanbok-1.00x-2s.mp4": {
+      "sha256": "5959dddfaaebc1e1ed5f55090a8aefd1cc7a00166eefa6e71148fd3259c27dec",
+      "bytes": 457320,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000",
+        "format_duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\canonical-hanbok-1.80x-2s.mp4": {
+      "sha256": "bf5ddc1a2796c5c3974963d713872380650911b504b9dbd7c4a003923d916de3",
+      "bytes": 561091,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000",
+        "format_duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-head-stable-H1-source2.5-2s.mp4": {
+      "sha256": "6112f279a0eab09e28cef944d5f94bc8dffb941f855de19fca1302ef7591af02",
+      "bytes": 431498,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000",
+        "format_duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-head-stable-H1-scene-export-source2.5-2s.mp4": {
+      "sha256": "8b6094478c83cbe37777e009e1a98231b2233ddfcc616de0a12ec99ec4302dc9",
+      "bytes": 427620,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000",
+        "format_duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-head-stable-H1-1.80x-2s.mp4": {
+      "sha256": "00cc68ecd853fd29887f80af5f6bd062d1f376426239b7be5a5d26092da7f4f5",
+      "bytes": 528080,
+      "probe": {
+        "codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000",
+        "format_duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-head-stable-H1-original1.80x-vs-H1-1.80x-2s.mp4": {
+      "sha256": "c720ba43ce9d5c3d2a78b5c20ce3572946c4bc333f603e9d2b492bf555d3bcea",
+      "bytes": 563509,
+      "probe": {
+        "codec": "h264",
+        "width": 960,
+        "height": 852,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000",
+        "format_duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-head-stable-H1-direct-vs-scene-export-2.5-2s.mp4": {
+      "sha256": "68fdda5c5c7516095da10cb94758641563d5821c96dc82eda374ea3c8ceaa61c",
+      "bytes": 459725,
+      "probe": {
+        "codec": "h264",
+        "width": 960,
+        "height": 852,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "48",
+        "duration": "2.000000",
+        "format_duration": "2.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-head-stable-H1-head-feet-contact.jpg": {
+      "sha256": "901aae236c4d3700fd9c1ee1252d9b6f81d1c0db86168fac02f1be1790fe4fd7",
+      "bytes": 740343,
+      "probe": null
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\direct-gait-test-2026-09-06\\flow-head-stable-H1-head-overview.jpg": {
+      "sha256": "bba113b4bd6f436f8dc47ac82c9503f9c3f0736872c8cd4b4d749d8b10af4703",
+      "bytes": 162176,
+      "probe": null
+    }
+  }
+}

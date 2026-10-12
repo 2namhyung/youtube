@@ -1,0 +1,96 @@
+{
+  "factor": 1.8,
+  "source_starts": {
+    "seoul": 2.5,
+    "tokyo": 1.625,
+    "shanghai": 2.5,
+    "hanoi": 5.75
+  },
+  "records": [
+    {
+      "boundary": "seoul->tokyo",
+      "global_start": 6.25,
+      "duration": 1.5,
+      "output": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-joint-windows-2026-09-06\\joint-audition-seoul-tokyo-base.mp4",
+      "starts": {
+        "seoul": 2.5,
+        "tokyo": 1.625,
+        "shanghai": 2.5,
+        "hanoi": 5.75
+      }
+    },
+    {
+      "boundary": "tokyo->shanghai",
+      "global_start": 8.75,
+      "duration": 1.5,
+      "output": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-joint-windows-2026-09-06\\joint-audition-tokyo-shanghai-base.mp4",
+      "starts": {
+        "seoul": 2.5,
+        "tokyo": 1.625,
+        "shanghai": 2.5,
+        "hanoi": 5.75
+      }
+    },
+    {
+      "boundary": "shanghai->hanoi",
+      "global_start": 10.75,
+      "duration": 1.5,
+      "output": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-joint-windows-2026-09-06\\joint-audition-shanghai-hanoi-base.mp4",
+      "starts": {
+        "seoul": 2.5,
+        "tokyo": 1.625,
+        "shanghai": 2.5,
+        "hanoi": 5.75
+      }
+    },
+    {
+      "boundary": "tokyo->shanghai",
+      "global_start": 8.75,
+      "duration": 1.5,
+      "output": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-joint-windows-2026-09-06\\joint-audition-tokyo-shanghai-shanghai-2.500.mp4",
+      "starts": {
+        "seoul": 2.5,
+        "tokyo": 1.625,
+        "shanghai": 2.5,
+        "hanoi": 5.75
+      }
+    },
+    {
+      "boundary": "tokyo->shanghai",
+      "global_start": 8.75,
+      "duration": 1.5,
+      "output": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-joint-windows-2026-09-06\\joint-audition-tokyo-shanghai-shanghai-2.750.mp4",
+      "starts": {
+        "seoul": 2.5,
+        "tokyo": 1.625,
+        "shanghai": 2.75,
+        "hanoi": 5.75
+      }
+    },
+    {
+      "boundary": "shanghai->hanoi",
+      "global_start": 10.75,
+      "duration": 1.5,
+      "output": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-joint-windows-2026-09-06\\joint-audition-shanghai-hanoi-chain-shanghai-2.750-hanoi-5.750.mp4",
+      "starts": {
+        "seoul": 2.5,
+        "tokyo": 1.625,
+        "shanghai": 2.75,
+        "hanoi": 5.75
+      }
+    },
+    {
+      "boundary": "shanghai->hanoi",
+      "global_start": 10.75,
+      "duration": 1.5,
+      "output": "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-joint-windows-2026-09-06\\joint-audition-shanghai-hanoi-chain-shanghai-2.750-hanoi-6.000.mp4",
+      "starts": {
+        "seoul": 2.5,
+        "tokyo": 1.625,
+        "shanghai": 2.75,
+        "hanoi": 6.0
+      }
+    }
+  ],
+  "status": "bounded visual auditions; no T3 PASS"
+}

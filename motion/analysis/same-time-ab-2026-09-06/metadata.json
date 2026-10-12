@@ -1,0 +1,573 @@
+{
+  "created_utc": "2026-09-06T09:59:58.428029+00:00",
+  "purpose": "A/B test of production mapping vs same-source-time incoming edit",
+  "provenance": {
+    "source_note": "performance-v2/long-variant-prompts.md: Seoul and Tokyo each directly edit the original hanbok history source; neither is derived from the other",
+    "seoul": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4",
+    "tokyo": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4"
+  },
+  "timeline": {
+    "global_start": 6.0,
+    "duration": 1.5,
+    "card_boundary": 6.5,
+    "card_transition_seconds": 0.5,
+    "factor": 1.8
+  },
+  "A_existing_production_mapping": {
+    "seoul_start": 2.5,
+    "tokyo_start": 2.5,
+    "boundary": {
+      "seoul_source_time": 7.9,
+      "tokyo_source_time": 2.5
+    },
+    "description": "current all-city mapping restarts incoming Tokyo at source 2.5s",
+    "frames": [
+      {
+        "frame": 0,
+        "global_time": 6.0,
+        "old_source_frame": 168,
+        "old_source_time": 7.0
+      },
+      {
+        "frame": 1,
+        "global_time": 6.041667,
+        "old_source_frame": 170,
+        "old_source_time": 7.075
+      },
+      {
+        "frame": 2,
+        "global_time": 6.083333,
+        "old_source_frame": 172,
+        "old_source_time": 7.15
+      },
+      {
+        "frame": 3,
+        "global_time": 6.125,
+        "old_source_frame": 173,
+        "old_source_time": 7.225
+      },
+      {
+        "frame": 4,
+        "global_time": 6.166667,
+        "old_source_frame": 175,
+        "old_source_time": 7.3
+      },
+      {
+        "frame": 5,
+        "global_time": 6.208333,
+        "old_source_frame": 177,
+        "old_source_time": 7.375
+      },
+      {
+        "frame": 6,
+        "global_time": 6.25,
+        "old_source_frame": 179,
+        "old_source_time": 7.45
+      },
+      {
+        "frame": 7,
+        "global_time": 6.291667,
+        "old_source_frame": 181,
+        "old_source_time": 7.525
+      },
+      {
+        "frame": 8,
+        "global_time": 6.333333,
+        "old_source_frame": 182,
+        "old_source_time": 7.6
+      },
+      {
+        "frame": 9,
+        "global_time": 6.375,
+        "old_source_frame": 184,
+        "old_source_time": 7.675
+      },
+      {
+        "frame": 10,
+        "global_time": 6.416667,
+        "old_source_frame": 186,
+        "old_source_time": 7.75
+      },
+      {
+        "frame": 11,
+        "global_time": 6.458333,
+        "old_source_frame": 188,
+        "old_source_time": 7.825
+      },
+      {
+        "frame": 12,
+        "global_time": 6.5,
+        "old_source_frame": 190,
+        "old_source_time": 7.9,
+        "new_source_frame": 60,
+        "new_source_time": 2.5
+      },
+      {
+        "frame": 13,
+        "global_time": 6.541667,
+        "old_source_frame": 191,
+        "old_source_time": 7.975,
+        "new_source_frame": 62,
+        "new_source_time": 2.575
+      },
+      {
+        "frame": 14,
+        "global_time": 6.583333,
+        "old_source_frame": 193,
+        "old_source_time": 8.05,
+        "new_source_frame": 64,
+        "new_source_time": 2.65
+      },
+      {
+        "frame": 15,
+        "global_time": 6.625,
+        "old_source_frame": 195,
+        "old_source_time": 8.125,
+        "new_source_frame": 65,
+        "new_source_time": 2.725
+      },
+      {
+        "frame": 16,
+        "global_time": 6.666667,
+        "old_source_frame": 197,
+        "old_source_time": 8.2,
+        "new_source_frame": 67,
+        "new_source_time": 2.8
+      },
+      {
+        "frame": 17,
+        "global_time": 6.708333,
+        "old_source_frame": 199,
+        "old_source_time": 8.275,
+        "new_source_frame": 69,
+        "new_source_time": 2.875
+      },
+      {
+        "frame": 18,
+        "global_time": 6.75,
+        "old_source_frame": 200,
+        "old_source_time": 8.35,
+        "new_source_frame": 71,
+        "new_source_time": 2.95
+      },
+      {
+        "frame": 19,
+        "global_time": 6.791667,
+        "old_source_frame": 202,
+        "old_source_time": 8.425,
+        "new_source_frame": 73,
+        "new_source_time": 3.025
+      },
+      {
+        "frame": 20,
+        "global_time": 6.833333,
+        "old_source_frame": 204,
+        "old_source_time": 8.5,
+        "new_source_frame": 74,
+        "new_source_time": 3.1
+      },
+      {
+        "frame": 21,
+        "global_time": 6.875,
+        "old_source_frame": 206,
+        "old_source_time": 8.575,
+        "new_source_frame": 76,
+        "new_source_time": 3.175
+      },
+      {
+        "frame": 22,
+        "global_time": 6.916667,
+        "old_source_frame": 208,
+        "old_source_time": 8.65,
+        "new_source_frame": 78,
+        "new_source_time": 3.25
+      },
+      {
+        "frame": 23,
+        "global_time": 6.958333,
+        "old_source_frame": 209,
+        "old_source_time": 8.725,
+        "new_source_frame": 80,
+        "new_source_time": 3.325
+      },
+      {
+        "frame": 24,
+        "global_time": 7.0,
+        "new_source_frame": 82,
+        "new_source_time": 3.4
+      },
+      {
+        "frame": 25,
+        "global_time": 7.041667,
+        "new_source_frame": 83,
+        "new_source_time": 3.475
+      },
+      {
+        "frame": 26,
+        "global_time": 7.083333,
+        "new_source_frame": 85,
+        "new_source_time": 3.55
+      },
+      {
+        "frame": 27,
+        "global_time": 7.125,
+        "new_source_frame": 87,
+        "new_source_time": 3.625
+      },
+      {
+        "frame": 28,
+        "global_time": 7.166667,
+        "new_source_frame": 89,
+        "new_source_time": 3.7
+      },
+      {
+        "frame": 29,
+        "global_time": 7.208333,
+        "new_source_frame": 91,
+        "new_source_time": 3.775
+      },
+      {
+        "frame": 30,
+        "global_time": 7.25,
+        "new_source_frame": 92,
+        "new_source_time": 3.85
+      },
+      {
+        "frame": 31,
+        "global_time": 7.291667,
+        "new_source_frame": 94,
+        "new_source_time": 3.925
+      },
+      {
+        "frame": 32,
+        "global_time": 7.333333,
+        "new_source_frame": 96,
+        "new_source_time": 4.0
+      },
+      {
+        "frame": 33,
+        "global_time": 7.375,
+        "new_source_frame": 98,
+        "new_source_time": 4.075
+      },
+      {
+        "frame": 34,
+        "global_time": 7.416667,
+        "new_source_frame": 100,
+        "new_source_time": 4.15
+      },
+      {
+        "frame": 35,
+        "global_time": 7.458333,
+        "new_source_frame": 101,
+        "new_source_time": 4.225
+      }
+    ]
+  },
+  "B_same_source_time_mapping": {
+    "seoul_start": 2.5,
+    "tokyo_start": 7.9,
+    "boundary": {
+      "seoul_source_time": 7.9,
+      "tokyo_source_time": 7.9
+    },
+    "description": "incoming Tokyo starts at the source time reached by outgoing Seoul",
+    "frames": [
+      {
+        "frame": 0,
+        "global_time": 6.0,
+        "old_source_frame": 168,
+        "old_source_time": 7.0
+      },
+      {
+        "frame": 1,
+        "global_time": 6.041667,
+        "old_source_frame": 170,
+        "old_source_time": 7.075
+      },
+      {
+        "frame": 2,
+        "global_time": 6.083333,
+        "old_source_frame": 172,
+        "old_source_time": 7.15
+      },
+      {
+        "frame": 3,
+        "global_time": 6.125,
+        "old_source_frame": 173,
+        "old_source_time": 7.225
+      },
+      {
+        "frame": 4,
+        "global_time": 6.166667,
+        "old_source_frame": 175,
+        "old_source_time": 7.3
+      },
+      {
+        "frame": 5,
+        "global_time": 6.208333,
+        "old_source_frame": 177,
+        "old_source_time": 7.375
+      },
+      {
+        "frame": 6,
+        "global_time": 6.25,
+        "old_source_frame": 179,
+        "old_source_time": 7.45
+      },
+      {
+        "frame": 7,
+        "global_time": 6.291667,
+        "old_source_frame": 181,
+        "old_source_time": 7.525
+      },
+      {
+        "frame": 8,
+        "global_time": 6.333333,
+        "old_source_frame": 182,
+        "old_source_time": 7.6
+      },
+      {
+        "frame": 9,
+        "global_time": 6.375,
+        "old_source_frame": 184,
+        "old_source_time": 7.675
+      },
+      {
+        "frame": 10,
+        "global_time": 6.416667,
+        "old_source_frame": 186,
+        "old_source_time": 7.75
+      },
+      {
+        "frame": 11,
+        "global_time": 6.458333,
+        "old_source_frame": 188,
+        "old_source_time": 7.825
+      },
+      {
+        "frame": 12,
+        "global_time": 6.5,
+        "old_source_frame": 190,
+        "old_source_time": 7.9,
+        "new_source_frame": 190,
+        "new_source_time": 7.9
+      },
+      {
+        "frame": 13,
+        "global_time": 6.541667,
+        "old_source_frame": 191,
+        "old_source_time": 7.975,
+        "new_source_frame": 191,
+        "new_source_time": 7.975
+      },
+      {
+        "frame": 14,
+        "global_time": 6.583333,
+        "old_source_frame": 193,
+        "old_source_time": 8.05,
+        "new_source_frame": 193,
+        "new_source_time": 8.05
+      },
+      {
+        "frame": 15,
+        "global_time": 6.625,
+        "old_source_frame": 195,
+        "old_source_time": 8.125,
+        "new_source_frame": 195,
+        "new_source_time": 8.125
+      },
+      {
+        "frame": 16,
+        "global_time": 6.666667,
+        "old_source_frame": 197,
+        "old_source_time": 8.2,
+        "new_source_frame": 197,
+        "new_source_time": 8.2
+      },
+      {
+        "frame": 17,
+        "global_time": 6.708333,
+        "old_source_frame": 199,
+        "old_source_time": 8.275,
+        "new_source_frame": 199,
+        "new_source_time": 8.275
+      },
+      {
+        "frame": 18,
+        "global_time": 6.75,
+        "old_source_frame": 200,
+        "old_source_time": 8.35,
+        "new_source_frame": 200,
+        "new_source_time": 8.35
+      },
+      {
+        "frame": 19,
+        "global_time": 6.791667,
+        "old_source_frame": 202,
+        "old_source_time": 8.425,
+        "new_source_frame": 202,
+        "new_source_time": 8.425
+      },
+      {
+        "frame": 20,
+        "global_time": 6.833333,
+        "old_source_frame": 204,
+        "old_source_time": 8.5,
+        "new_source_frame": 204,
+        "new_source_time": 8.5
+      },
+      {
+        "frame": 21,
+        "global_time": 6.875,
+        "old_source_frame": 206,
+        "old_source_time": 8.575,
+        "new_source_frame": 206,
+        "new_source_time": 8.575
+      },
+      {
+        "frame": 22,
+        "global_time": 6.916667,
+        "old_source_frame": 208,
+        "old_source_time": 8.65,
+        "new_source_frame": 208,
+        "new_source_time": 8.65
+      },
+      {
+        "frame": 23,
+        "global_time": 6.958333,
+        "old_source_frame": 209,
+        "old_source_time": 8.725,
+        "new_source_frame": 209,
+        "new_source_time": 8.725
+      },
+      {
+        "frame": 24,
+        "global_time": 7.0,
+        "new_source_frame": 211,
+        "new_source_time": 8.8
+      },
+      {
+        "frame": 25,
+        "global_time": 7.041667,
+        "new_source_frame": 213,
+        "new_source_time": 8.875
+      },
+      {
+        "frame": 26,
+        "global_time": 7.083333,
+        "new_source_frame": 215,
+        "new_source_time": 8.95
+      },
+      {
+        "frame": 27,
+        "global_time": 7.125,
+        "new_source_frame": 217,
+        "new_source_time": 9.025
+      },
+      {
+        "frame": 28,
+        "global_time": 7.166667,
+        "new_source_frame": 218,
+        "new_source_time": 9.1
+      },
+      {
+        "frame": 29,
+        "global_time": 7.208333,
+        "new_source_frame": 220,
+        "new_source_time": 9.175
+      },
+      {
+        "frame": 30,
+        "global_time": 7.25,
+        "new_source_frame": 222,
+        "new_source_time": 9.25
+      },
+      {
+        "frame": 31,
+        "global_time": 7.291667,
+        "new_source_frame": 224,
+        "new_source_time": 9.325
+      },
+      {
+        "frame": 32,
+        "global_time": 7.333333,
+        "new_source_frame": 226,
+        "new_source_time": 9.4
+      },
+      {
+        "frame": 33,
+        "global_time": 7.375,
+        "new_source_frame": 227,
+        "new_source_time": 9.475
+      },
+      {
+        "frame": 34,
+        "global_time": 7.416667,
+        "new_source_frame": 229,
+        "new_source_time": 9.55
+      },
+      {
+        "frame": 35,
+        "global_time": 7.458333,
+        "new_source_frame": 231,
+        "new_source_time": 9.625
+      }
+    ]
+  },
+  "limitations": [
+    "The two Flow edits are independent generated renders; same nominal source timestamp is a design alignment, not proof of pixel-identical gait.",
+    "Frame sheets show visible lower-body/foot continuity; no anatomical keypoint tracker is claimed.",
+    "B consumes Tokyo source 7.9–9.7s and is a 1.5s diagnostic, not a full-sequence replacement."
+  ],
+  "artifacts": {
+    "A-existing-tokyo-restart-1.5s.mp4": {
+      "sha256": "e32b829ef704bf010fdc0e48f92f80500b4a8289afead443dae7164c4e744e9d",
+      "bytes": 510403,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "fps": "24/1",
+        "frames": "36",
+        "duration": "1.500000"
+      }
+    },
+    "B-common-source-clock-1.5s.mp4": {
+      "sha256": "fd003a7a00bd264c9be840b72fd05dc11dada3a058e0a084b85c11178f9b41c7",
+      "bytes": 521723,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "fps": "24/1",
+        "frames": "36",
+        "duration": "1.500000"
+      }
+    },
+    "AB-same-transition-side-by-side-1.5s.mp4": {
+      "sha256": "8d019a50c81506623e461c95787e9e63eb09a89ba5729bf26b5dac6573d233e9",
+      "bytes": 1044075,
+      "probe": {
+        "width": 1440,
+        "height": 1280,
+        "fps": "24/1",
+        "frames": "36",
+        "duration": "1.500000"
+      }
+    },
+    "A-foot-transition-dense.jpg": {
+      "sha256": "1eb78133e8c1a9470fd573cf7903d538ad4d9036928a0952fdad8d8106e3c3c5",
+      "bytes": 736659,
+      "probe": null
+    },
+    "B-foot-transition-dense.jpg": {
+      "sha256": "43f5cd51a782b5d4fd1560a9a51e3c1a544ffdf9355695d655311c6547b693ac",
+      "bytes": 745881,
+      "probe": null
+    },
+    "raw-source-time-lower-body-contact.jpg": {
+      "sha256": "fe0bc6c6f1e5f50e42c4ff13049ec03ce77421a59d16d1b49bfd0a6fd1ff74a1",
+      "bytes": 371667,
+      "probe": null
+    }
+  }
+}

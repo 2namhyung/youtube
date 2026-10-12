@@ -1,0 +1,102 @@
+{
+  "analysis_version": "0.1",
+  "status": "observed-hypothesis-pending-probe",
+  "source": {
+    "path": "../../references/taoagou/taoagou_interactive_swipe_KuXyyAClOqSnCAcAmYvUZyEMmlNf3fM6ECnFVT00cEuM.mp4",
+    "sha256": "64681B25A2EA36CC61936B6C9F2073C3FCF90FB6DE943F83C20B9E41EC089B12",
+    "duration_seconds": 24.085333,
+    "video": {
+      "codec": "h264",
+      "profile": "High",
+      "width": 960,
+      "height": 1920,
+      "nominal_fps": "60000/1001",
+      "frame_count": 1439,
+      "pixel_format": "yuv420p",
+      "color": "bt709",
+      "scan": "progressive"
+    },
+    "audio": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2
+    }
+  },
+  "scene_boundary_candidates_seconds": [8.734022, 11.4701, 14.189478, 16.942233, 19.111067],
+  "segments": [
+    {
+      "id": "gesture-instruction",
+      "start": 0.0,
+      "end": 8.734022,
+      "observed_fact": "Static room/person plate is overlaid with instructional text, arrow, and an animated white finger trajectory.",
+      "candidate_operator": "svg-path-draw plus deterministic screen-chrome timing",
+      "alternative": "pre-rendered hand-outline overlay video",
+      "confidence": "high for observable overlay motion; unknown authoring tool",
+      "uncertainty": "Exact path points, easing, and source layer tree are unknown.",
+      "forbidden_substitute": "global wipe or generating the instructional text inside the person video"
+    },
+    {
+      "id": "outfit-carousel",
+      "start": 8.734022,
+      "end": 11.4701,
+      "observed_fact": "Multiple outfit states share one room/platform shell and exchange focal prominence through position, scale, rotation, and occlusion.",
+      "candidate_operator": "independent cutout targets on a 2.5D carousel",
+      "alternative": "pose-matched hard cuts hidden by fast subject motion",
+      "confidence": "medium-high",
+      "uncertainty": "Cannot determine whether each subject state was filmed, keyed, or generated.",
+      "forbidden_substitute": "one flattened montage layer or equal prominence for every outfit"
+    },
+    {
+      "id": "eye-and-prop-selection",
+      "start": 11.4701,
+      "end": 14.189478,
+      "observed_fact": "Blink boundaries exchange eye/makeup state; geometric sparkles and large foreground props then cross the frame.",
+      "candidate_operator": "blink-occluded clip swap plus independent sprite/prop layers",
+      "alternative": "localized video-to-video transformation",
+      "confidence": "medium",
+      "uncertainty": "Original capture and retouch method are unknown.",
+      "forbidden_substitute": "full-frame dissolve through the open-eye interval"
+    },
+    {
+      "id": "driving-montage",
+      "start": 14.189478,
+      "end": 16.942233,
+      "observed_fact": "Dashboard, steering wheel, and rear-view eye crop behave as a shell while exterior storefronts move or change.",
+      "candidate_operator": "fixed vehicle shell plus translated/cut background plates",
+      "alternative": "multiple matched source-video clips",
+      "confidence": "medium",
+      "uncertainty": "Dense registration is still required to distinguish panorama motion from matched cuts.",
+      "forbidden_substitute": "regenerating the UI/shell on every exterior state"
+    },
+    {
+      "id": "cake-reaction",
+      "start": 16.942233,
+      "end": 19.111067,
+      "observed_fact": "Fork and facial performance carry the action; pixel hearts enter briefly after the reaction.",
+      "candidate_operator": "single person/fork motion clip plus deterministic heart sprites",
+      "alternative": "separate fork layer with tracked occlusion matte",
+      "confidence": "high for layer responsibilities",
+      "uncertainty": "Exact fork/hand compositing method is unknown.",
+      "forbidden_substitute": "AI-generated text or baked-in hearts that cannot be retimed"
+    },
+    {
+      "id": "camera-ui-and-final-transition",
+      "start": 19.111067,
+      "end": 24.085333,
+      "observed_fact": "Camera chrome/lens dial overlays an outdoor subject, followed by full-frame rotation, scale, motion blur, occlusion, and a final close-up.",
+      "candidate_operator": "deterministic camera UI plus 2D camera transform and foreground wipe",
+      "alternative": "practical camera spin joined by blur-matched cuts",
+      "confidence": "medium-high",
+      "uncertainty": "Cannot prove practical versus synthetic camera motion from sampled frames.",
+      "forbidden_substitute": "uncontrolled end-to-end AI generation of camera UI and final transition"
+    }
+  ],
+  "evidence": [
+    "evidence/strategic_contact.jpg",
+    "evidence/contact_00-08.75.jpg",
+    "evidence/contact_08.70-14.20.jpg",
+    "evidence/contact_14.15-19.20.jpg",
+    "evidence/contact_19.05-24.09.jpg"
+  ],
+  "next_gate": "Build a minimal playable probe for 0.000-11.470 seconds and compare synchronized source/probe frames."
+}

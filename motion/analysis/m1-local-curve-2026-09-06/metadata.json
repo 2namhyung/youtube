@@ -1,0 +1,481 @@
+{
+  "status": "candidate awaiting visual/user review",
+  "baseline_sha256": "e1d929d60550d4c5cc3e5c72ae6bb621047c07c0ff12aeb2bc22123b7c768fe3",
+  "output_sha256": "f8f4a70f82fe1668a84668f47f8d21e031897fa8af838b06d7aa91fd1680c873",
+  "probe": {
+    "width": 720,
+    "height": 1280,
+    "r_frame_rate": "24/1",
+    "frames": "312",
+    "duration": "13.000000"
+  },
+  "decode": "PASS",
+  "source_starts": {
+    "seoul": 2.5,
+    "tokyo": 1.625,
+    "shanghai": 2.75,
+    "hanoi": 6.0
+  },
+  "person_factor": 1.8,
+  "intro_factor": 1,
+  "changed": "card vertical translation curve and corresponding edge-reveal timing only",
+  "preserved": [
+    "person source frames",
+    "rotation time curve",
+    "blur time curve",
+    "transition duration 0.5s",
+    "card assets",
+    "matting",
+    "audio"
+  ],
+  "curve": {
+    "method": "monotone PCHIP",
+    "warning": "normalized measured visible left edge proxy, not recovered authoring keyframes",
+    "x": [
+      0.0,
+      0.07142857142857142,
+      0.14285714285714285,
+      0.21428571428571427,
+      0.2857142857142857,
+      0.35714285714285715,
+      0.42857142857142855,
+      0.5,
+      0.5714285714285714,
+      0.6428571428571429,
+      0.7142857142857143,
+      0.7857142857142857,
+      0.8571428571428571,
+      0.9285714285714286,
+      1.0
+    ],
+    "y": [
+      0.0,
+      0.030360531309297913,
+      0.07685009487666034,
+      0.15844402277039848,
+      0.47058823529411764,
+      0.7836812144212524,
+      0.8662239089184061,
+      0.9127134724857685,
+      0.9440227703984819,
+      0.9648956356736242,
+      0.9800759013282733,
+      0.9895635673624289,
+      0.9962049335863378,
+      0.9990512333965844,
+      1.0
+    ]
+  },
+  "timing": {
+    "transition_samples": [
+      {
+        "time": 3.5,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 60,
+        "new_source_time": 2.5
+      },
+      {
+        "time": 3.541667,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 62,
+        "new_source_time": 2.575
+      },
+      {
+        "time": 3.583333,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 64,
+        "new_source_time": 2.65
+      },
+      {
+        "time": 3.625,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 65,
+        "new_source_time": 2.725
+      },
+      {
+        "time": 3.666667,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 67,
+        "new_source_time": 2.8
+      },
+      {
+        "time": 3.708333,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 69,
+        "new_source_time": 2.875
+      },
+      {
+        "time": 3.75,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 71,
+        "new_source_time": 2.95
+      },
+      {
+        "time": 3.791667,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 73,
+        "new_source_time": 3.025
+      },
+      {
+        "time": 3.833333,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 74,
+        "new_source_time": 3.1
+      },
+      {
+        "time": 3.875,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 76,
+        "new_source_time": 3.175
+      },
+      {
+        "time": 3.916667,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 78,
+        "new_source_time": 3.25
+      },
+      {
+        "time": 3.958333,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 80,
+        "new_source_time": 3.325
+      },
+      {
+        "time": 6.5,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 190,
+        "new_source_frame": 39,
+        "old_source_time": 7.9,
+        "new_source_time": 1.625
+      },
+      {
+        "time": 6.541667,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 191,
+        "new_source_frame": 41,
+        "old_source_time": 7.975,
+        "new_source_time": 1.7
+      },
+      {
+        "time": 6.583333,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 193,
+        "new_source_frame": 43,
+        "old_source_time": 8.05,
+        "new_source_time": 1.775
+      },
+      {
+        "time": 6.625,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 195,
+        "new_source_frame": 44,
+        "old_source_time": 8.125,
+        "new_source_time": 1.85
+      },
+      {
+        "time": 6.666667,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 197,
+        "new_source_frame": 46,
+        "old_source_time": 8.2,
+        "new_source_time": 1.925
+      },
+      {
+        "time": 6.708333,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 199,
+        "new_source_frame": 48,
+        "old_source_time": 8.275,
+        "new_source_time": 2.0
+      },
+      {
+        "time": 6.75,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 200,
+        "new_source_frame": 50,
+        "old_source_time": 8.35,
+        "new_source_time": 2.075
+      },
+      {
+        "time": 6.791667,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 202,
+        "new_source_frame": 52,
+        "old_source_time": 8.425,
+        "new_source_time": 2.15
+      },
+      {
+        "time": 6.833333,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 204,
+        "new_source_frame": 53,
+        "old_source_time": 8.5,
+        "new_source_time": 2.225
+      },
+      {
+        "time": 6.875,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 206,
+        "new_source_frame": 55,
+        "old_source_time": 8.575,
+        "new_source_time": 2.3
+      },
+      {
+        "time": 6.916667,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 208,
+        "new_source_frame": 57,
+        "old_source_time": 8.65,
+        "new_source_time": 2.375
+      },
+      {
+        "time": 6.958333,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 209,
+        "new_source_frame": 59,
+        "old_source_time": 8.725,
+        "new_source_time": 2.45
+      },
+      {
+        "time": 9.0,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 147,
+        "new_source_frame": 66,
+        "old_source_time": 6.125,
+        "new_source_time": 2.75
+      },
+      {
+        "time": 9.041667,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 149,
+        "new_source_frame": 68,
+        "old_source_time": 6.2,
+        "new_source_time": 2.825
+      },
+      {
+        "time": 9.083333,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 151,
+        "new_source_frame": 70,
+        "old_source_time": 6.275,
+        "new_source_time": 2.9
+      },
+      {
+        "time": 9.125,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 152,
+        "new_source_frame": 71,
+        "old_source_time": 6.35,
+        "new_source_time": 2.975
+      },
+      {
+        "time": 9.166667,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 154,
+        "new_source_frame": 73,
+        "old_source_time": 6.425,
+        "new_source_time": 3.05
+      },
+      {
+        "time": 9.208333,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 156,
+        "new_source_frame": 75,
+        "old_source_time": 6.5,
+        "new_source_time": 3.125
+      },
+      {
+        "time": 9.25,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 158,
+        "new_source_frame": 77,
+        "old_source_time": 6.575,
+        "new_source_time": 3.2
+      },
+      {
+        "time": 9.291667,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 160,
+        "new_source_frame": 79,
+        "old_source_time": 6.65,
+        "new_source_time": 3.275
+      },
+      {
+        "time": 9.333333,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 161,
+        "new_source_frame": 80,
+        "old_source_time": 6.725,
+        "new_source_time": 3.35
+      },
+      {
+        "time": 9.375,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 163,
+        "new_source_frame": 82,
+        "old_source_time": 6.8,
+        "new_source_time": 3.425
+      },
+      {
+        "time": 9.416667,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 165,
+        "new_source_frame": 84,
+        "old_source_time": 6.875,
+        "new_source_time": 3.5
+      },
+      {
+        "time": 9.458333,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 167,
+        "new_source_frame": 86,
+        "old_source_time": 6.95,
+        "new_source_time": 3.575
+      },
+      {
+        "time": 11.0,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 152,
+        "new_source_frame": 144,
+        "old_source_time": 6.35,
+        "new_source_time": 6.0
+      },
+      {
+        "time": 11.041667,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 154,
+        "new_source_frame": 146,
+        "old_source_time": 6.425,
+        "new_source_time": 6.075
+      },
+      {
+        "time": 11.083333,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 156,
+        "new_source_frame": 148,
+        "old_source_time": 6.5,
+        "new_source_time": 6.15
+      },
+      {
+        "time": 11.125,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 158,
+        "new_source_frame": 149,
+        "old_source_time": 6.575,
+        "new_source_time": 6.225
+      },
+      {
+        "time": 11.166667,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 160,
+        "new_source_frame": 151,
+        "old_source_time": 6.65,
+        "new_source_time": 6.3
+      },
+      {
+        "time": 11.208333,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 161,
+        "new_source_frame": 153,
+        "old_source_time": 6.725,
+        "new_source_time": 6.375
+      },
+      {
+        "time": 11.25,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 163,
+        "new_source_frame": 155,
+        "old_source_time": 6.8,
+        "new_source_time": 6.45
+      },
+      {
+        "time": 11.291667,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 165,
+        "new_source_frame": 157,
+        "old_source_time": 6.875,
+        "new_source_time": 6.525
+      },
+      {
+        "time": 11.333333,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 167,
+        "new_source_frame": 158,
+        "old_source_time": 6.95,
+        "new_source_time": 6.6
+      },
+      {
+        "time": 11.375,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 169,
+        "new_source_frame": 160,
+        "old_source_time": 7.025,
+        "new_source_time": 6.675
+      },
+      {
+        "time": 11.416667,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 170,
+        "new_source_frame": 162,
+        "old_source_time": 7.1,
+        "new_source_time": 6.75
+      },
+      {
+        "time": 11.458333,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 172,
+        "new_source_frame": 164,
+        "old_source_time": 7.175,
+        "new_source_time": 6.825
+      }
+    ]
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "created_utc": "2026-09-06T08:48:50.032559+00:00",
+  "purpose": "Provisional all-city T3 cut-local 1.80x person-only external retime",
+  "status": "provisional; not T3 approval",
+  "factor": 1.8,
+  "factor_definition": "source_time = chosen per-city source_start + 1.80 * local outfit output time",
+  "output": {
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "frames": 312,
+    "seconds": 13.0,
+    "audio": "copied from existing final-sequence-v2; original timing retained"
+  },
+  "timeline": {
+    "intro": "0.0-3.5s",
+    "seoul": "3.5-6.5s",
+    "tokyo": "6.5-9.0s",
+    "shanghai": "9.0-11.0s",
+    "hanoi": "11.0-13.0s",
+    "transition_duration": 0.5
+  },
+  "source_windows": {
+    "seoul": {
+      "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4",
+      "source_start_seconds": 2.5,
+      "nominal_consumption_seconds": 6.3,
+      "source_end_seconds": 8.8,
+      "available_seconds": 10.0
+    },
+    "tokyo": {
+      "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4",
+      "source_start_seconds": 2.5,
+      "nominal_consumption_seconds": 5.4,
+      "source_end_seconds": 7.9,
+      "available_seconds": 10.0
+    },
+    "shanghai": {
+      "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\shanghai-fan-10s.mp4",
+      "source_start_seconds": 2.5,
+      "nominal_consumption_seconds": 4.5,
+      "source_end_seconds": 7.0,
+      "available_seconds": 10.0
+    },
+    "hanoi": {
+      "path": "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\hanoi-hat-green-10s.mp4",
+      "source_start_seconds": 6.0,
+      "nominal_consumption_seconds": 3.6,
+      "source_end_seconds": 9.6,
+      "available_seconds": 10.0
+    }
+  },
+  "phase_matching": {
+    "observed": "Windows were chosen for bounded coverage, continuous lower-body walking where visible, and retention of existing prop/acting portions; the included coarse scan is posthoc visual QA evidence.",
+    "unmeasurable": "Exact left/right foot-contact phase across city boundaries is not certified: feet are partly occluded by garments/matte and these are independent generated takes. Same nominal frame/time does not imply identical motion.",
+    "boundary_review": "Transition contact sheet is supplied for visual review; no boundary is marked PASS here."
+  },
+  "fixed": [
+    "intro frames",
+    "card timing and geometry",
+    "ticket artwork",
+    "Hanoi green matte/despill",
+    "original v2 audio timing",
+    "720x1280/24fps",
+    "no loops/freezes/padding"
+  ],
+  "artifacts": {
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\intro-casual.mp4": {
+      "sha256": "6c0f00bcbea3d99c02121776e5d2608eeec08945cd9e0298d16da0e7f112cd25",
+      "bytes": 1305313,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "frames": "96",
+        "duration": "4.010000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\canonical-hanbok-10s.mp4": {
+      "sha256": "7f167e64e45f5ff32cddf41e77bda847c9edfd6f98ece838999b37b57df9e5be",
+      "bytes": 2819873,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "frames": "240",
+        "duration": "10.005000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\tokyo-parasol-10s.mp4": {
+      "sha256": "2be9d87556adf3049d0489340ad441089bef1cb4bdd9bd799e9a0cef4af5b9b0",
+      "bytes": 2726602,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "frames": "240",
+        "duration": "10.005000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\shanghai-fan-10s.mp4": {
+      "sha256": "6265d9ca8572d2a9aac843f4296e2cfb2b2394821b48865cbdc6f604ae22010c",
+      "bytes": 2972341,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "frames": "240",
+        "duration": "10.005000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\performance-v2\\hanoi-hat-green-10s.mp4": {
+      "sha256": "8f61ee87cbb666c4dd00373e12332ce924e9f43511424358e49c34c674509149",
+      "bytes": 2548287,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "frames": "240",
+        "duration": "10.005000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\production\\ticket-travel\\final-sequence-v2\\final-sequence-v2.mp4": {
+      "sha256": "23de9df7f3458c57dc353b00044cbb2291f5efeabda5ac46178be8cd0400a1c1",
+      "bytes": 3692716,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "frames": "312",
+        "duration": "13.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-all-city-2026-09-06\\t3-all-city-1.80x-13s.mp4": {
+      "sha256": "63041b7225fad09a25d296329a59e2f771280ed1b88bd6ab404aacf441cb94c3",
+      "bytes": 3925882,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "frames": "312",
+        "duration": "13.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-all-city-2026-09-06\\t3-all-city-1.80x-13s-half-speed.mp4": {
+      "sha256": "a998297cf876596c6d7f0aff72036b90a849b56d6caf2af4fe2c76dbab2695ad",
+      "bytes": 4587128,
+      "probe": {
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "12/1",
+        "frames": "312",
+        "duration": "25.995000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-all-city-2026-09-06\\t3-all-city-vs-existing-v2.mp4": {
+      "sha256": "235cfefe438bbb83f1082e81ef4dfe06450e22310d3acc426046eaca105a9f9f",
+      "bytes": 7085550,
+      "probe": {
+        "width": 1440,
+        "height": 1280,
+        "r_frame_rate": "24/1",
+        "frames": "312",
+        "duration": "13.000000"
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-all-city-2026-09-06\\t3-all-city-transition-contact.jpg": {
+      "sha256": "8dde58d03e16ab10e77e6d8494a16dc3d4917cd51bc14f8f10b461e73708b52c",
+      "bytes": 1168587,
+      "probe": null
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-all-city-2026-09-06\\t3-all-city-source-window-scan.jpg": {
+      "sha256": "14a77e8928358bc25f727b796d2cb8211316b140bfa192ed7783e02afa0a55bd",
+      "bytes": 337525,
+      "probe": null
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-all-city-2026-09-06\\t3-all-city-boundary-intro-seoul.jpg": {
+      "sha256": "5a32a3ae4c16abd903b88cd23e1555b81c0a978ba028610463b94e071ff4c327",
+      "bytes": 228848,
+      "probe": null
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-all-city-2026-09-06\\t3-all-city-boundary-seoul-tokyo.jpg": {
+      "sha256": "5493d5403ade5ccf09a8b78276b300fc600139c4490b343605ad775052d040f8",
+      "bytes": 268737,
+      "probe": null
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-all-city-2026-09-06\\t3-all-city-boundary-tokyo-shanghai.jpg": {
+      "sha256": "71ed91a6d0e3bf9c48da4bd7764a3dceb23109a092bfb67d84e3aabaa536dcf7",
+      "bytes": 282378,
+      "probe": null
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-all-city-2026-09-06\\t3-all-city-boundary-shanghai-hanoi.jpg": {
+      "sha256": "4c72c2437a41d5b4893c366adc1a4980964994594b64df73ac4021097de55591",
+      "bytes": 203792,
+      "probe": null
+    }
+  },
+  "timing_samples": {
+    "transition_samples": [
+      {
+        "time": 3.5,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 60,
+        "new_source_time": 2.5
+      },
+      {
+        "time": 3.541667,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 62,
+        "new_source_time": 2.575
+      },
+      {
+        "time": 3.583333,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 64,
+        "new_source_time": 2.65
+      },
+      {
+        "time": 3.625,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 65,
+        "new_source_time": 2.725
+      },
+      {
+        "time": 3.666667,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 67,
+        "new_source_time": 2.8
+      },
+      {
+        "time": 3.708333,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 69,
+        "new_source_time": 2.875
+      },
+      {
+        "time": 3.75,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 71,
+        "new_source_time": 2.95
+      },
+      {
+        "time": 3.791667,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 73,
+        "new_source_time": 3.025
+      },
+      {
+        "time": 3.833333,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 74,
+        "new_source_time": 3.1
+      },
+      {
+        "time": 3.875,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 76,
+        "new_source_time": 3.175
+      },
+      {
+        "time": 3.916667,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 78,
+        "new_source_time": 3.25
+      },
+      {
+        "time": 3.958333,
+        "old": "intro",
+        "new": "seoul",
+        "new_source_frame": 80,
+        "new_source_time": 3.325
+      },
+      {
+        "time": 6.5,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 190,
+        "new_source_frame": 60,
+        "old_source_time": 7.9,
+        "new_source_time": 2.5
+      },
+      {
+        "time": 6.541667,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 191,
+        "new_source_frame": 62,
+        "old_source_time": 7.975,
+        "new_source_time": 2.575
+      },
+      {
+        "time": 6.583333,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 193,
+        "new_source_frame": 64,
+        "old_source_time": 8.05,
+        "new_source_time": 2.65
+      },
+      {
+        "time": 6.625,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 195,
+        "new_source_frame": 65,
+        "old_source_time": 8.125,
+        "new_source_time": 2.725
+      },
+      {
+        "time": 6.666667,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 197,
+        "new_source_frame": 67,
+        "old_source_time": 8.2,
+        "new_source_time": 2.8
+      },
+      {
+        "time": 6.708333,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 199,
+        "new_source_frame": 69,
+        "old_source_time": 8.275,
+        "new_source_time": 2.875
+      },
+      {
+        "time": 6.75,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 200,
+        "new_source_frame": 71,
+        "old_source_time": 8.35,
+        "new_source_time": 2.95
+      },
+      {
+        "time": 6.791667,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 202,
+        "new_source_frame": 73,
+        "old_source_time": 8.425,
+        "new_source_time": 3.025
+      },
+      {
+        "time": 6.833333,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 204,
+        "new_source_frame": 74,
+        "old_source_time": 8.5,
+        "new_source_time": 3.1
+      },
+      {
+        "time": 6.875,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 206,
+        "new_source_frame": 76,
+        "old_source_time": 8.575,
+        "new_source_time": 3.175
+      },
+      {
+        "time": 6.916667,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 208,
+        "new_source_frame": 78,
+        "old_source_time": 8.65,
+        "new_source_time": 3.25
+      },
+      {
+        "time": 6.958333,
+        "old": "seoul",
+        "new": "tokyo",
+        "old_source_frame": 209,
+        "new_source_frame": 80,
+        "old_source_time": 8.725,
+        "new_source_time": 3.325
+      },
+      {
+        "time": 9.0,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 168,
+        "new_source_frame": 60,
+        "old_source_time": 7.0,
+        "new_source_time": 2.5
+      },
+      {
+        "time": 9.041667,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 170,
+        "new_source_frame": 62,
+        "old_source_time": 7.075,
+        "new_source_time": 2.575
+      },
+      {
+        "time": 9.083333,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 172,
+        "new_source_frame": 64,
+        "old_source_time": 7.15,
+        "new_source_time": 2.65
+      },
+      {
+        "time": 9.125,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 173,
+        "new_source_frame": 65,
+        "old_source_time": 7.225,
+        "new_source_time": 2.725
+      },
+      {
+        "time": 9.166667,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 175,
+        "new_source_frame": 67,
+        "old_source_time": 7.3,
+        "new_source_time": 2.8
+      },
+      {
+        "time": 9.208333,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 177,
+        "new_source_frame": 69,
+        "old_source_time": 7.375,
+        "new_source_time": 2.875
+      },
+      {
+        "time": 9.25,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 179,
+        "new_source_frame": 71,
+        "old_source_time": 7.45,
+        "new_source_time": 2.95
+      },
+      {
+        "time": 9.291667,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 181,
+        "new_source_frame": 73,
+        "old_source_time": 7.525,
+        "new_source_time": 3.025
+      },
+      {
+        "time": 9.333333,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 182,
+        "new_source_frame": 74,
+        "old_source_time": 7.6,
+        "new_source_time": 3.1
+      },
+      {
+        "time": 9.375,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 184,
+        "new_source_frame": 76,
+        "old_source_time": 7.675,
+        "new_source_time": 3.175
+      },
+      {
+        "time": 9.416667,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 186,
+        "new_source_frame": 78,
+        "old_source_time": 7.75,
+        "new_source_time": 3.25
+      },
+      {
+        "time": 9.458333,
+        "old": "tokyo",
+        "new": "shanghai",
+        "old_source_frame": 188,
+        "new_source_frame": 80,
+        "old_source_time": 7.825,
+        "new_source_time": 3.325
+      },
+      {
+        "time": 11.0,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 146,
+        "new_source_frame": 144,
+        "old_source_time": 6.1,
+        "new_source_time": 6.0
+      },
+      {
+        "time": 11.041667,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 148,
+        "new_source_frame": 146,
+        "old_source_time": 6.175,
+        "new_source_time": 6.075
+      },
+      {
+        "time": 11.083333,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 150,
+        "new_source_frame": 148,
+        "old_source_time": 6.25,
+        "new_source_time": 6.15
+      },
+      {
+        "time": 11.125,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 152,
+        "new_source_frame": 149,
+        "old_source_time": 6.325,
+        "new_source_time": 6.225
+      },
+      {
+        "time": 11.166667,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 154,
+        "new_source_frame": 151,
+        "old_source_time": 6.4,
+        "new_source_time": 6.3
+      },
+      {
+        "time": 11.208333,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 155,
+        "new_source_frame": 153,
+        "old_source_time": 6.475,
+        "new_source_time": 6.375
+      },
+      {
+        "time": 11.25,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 157,
+        "new_source_frame": 155,
+        "old_source_time": 6.55,
+        "new_source_time": 6.45
+      },
+      {
+        "time": 11.291667,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 159,
+        "new_source_frame": 157,
+        "old_source_time": 6.625,
+        "new_source_time": 6.525
+      },
+      {
+        "time": 11.333333,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 161,
+        "new_source_frame": 158,
+        "old_source_time": 6.7,
+        "new_source_time": 6.6
+      },
+      {
+        "time": 11.375,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 163,
+        "new_source_frame": 160,
+        "old_source_time": 6.775,
+        "new_source_time": 6.675
+      },
+      {
+        "time": 11.416667,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 164,
+        "new_source_frame": 162,
+        "old_source_time": 6.85,
+        "new_source_time": 6.75
+      },
+      {
+        "time": 11.458333,
+        "old": "shanghai",
+        "new": "hanoi",
+        "old_source_frame": 166,
+        "new_source_frame": 164,
+        "old_source_time": 6.925,
+        "new_source_time": 6.825
+      }
+    ]
+  }
+}

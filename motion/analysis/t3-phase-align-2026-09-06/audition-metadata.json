@@ -1,0 +1,177 @@
+{
+  "created_utc": "2026-09-06T09:41:10.457249+00:00",
+  "factor": 1.8,
+  "duration_seconds": 1.5,
+  "offsets": [
+    2.375,
+    2.5,
+    2.625
+  ],
+  "fixed": [
+    "720x1280",
+    "24fps",
+    "card timing/geometry",
+    "body mask and Hanoi matte",
+    "Tokyo start 2.5",
+    "Hanoi start 6.0"
+  ],
+  "boundaries": {
+    "tokyo-shanghai": "absolute output 8.25..9.75s",
+    "shanghai-hanoi": "absolute output 10.25..11.75s"
+  },
+  "artifacts": {
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-phase-align-2026-09-06\\audition-tokyo-shanghai-shanghai-2.375.mp4": {
+      "bytes": 533934,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "24/1",
+            "duration": "1.500000",
+            "nb_read_frames": "36"
+          }
+        ],
+        "format": {
+          "duration": "1.500000"
+        }
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-phase-align-2026-09-06\\audition-tokyo-shanghai-shanghai-2.500.mp4": {
+      "bytes": 533766,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "24/1",
+            "duration": "1.500000",
+            "nb_read_frames": "36"
+          }
+        ],
+        "format": {
+          "duration": "1.500000"
+        }
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-phase-align-2026-09-06\\audition-tokyo-shanghai-shanghai-2.625.mp4": {
+      "bytes": 533060,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "24/1",
+            "duration": "1.500000",
+            "nb_read_frames": "36"
+          }
+        ],
+        "format": {
+          "duration": "1.500000"
+        }
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-phase-align-2026-09-06\\audition-tokyo-shanghai-3col.mp4": {
+      "bytes": 1523266,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 2160,
+            "height": 1280,
+            "r_frame_rate": "24/1",
+            "duration": "1.500000",
+            "nb_read_frames": "36"
+          }
+        ],
+        "format": {
+          "duration": "1.500000"
+        }
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-phase-align-2026-09-06\\audition-shanghai-hanoi-shanghai-2.375.mp4": {
+      "bytes": 491266,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "24/1",
+            "duration": "1.500000",
+            "nb_read_frames": "36"
+          }
+        ],
+        "format": {
+          "duration": "1.500000"
+        }
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-phase-align-2026-09-06\\audition-shanghai-hanoi-shanghai-2.500.mp4": {
+      "bytes": 490495,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "24/1",
+            "duration": "1.500000",
+            "nb_read_frames": "36"
+          }
+        ],
+        "format": {
+          "duration": "1.500000"
+        }
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-phase-align-2026-09-06\\audition-shanghai-hanoi-shanghai-2.625.mp4": {
+      "bytes": 494758,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 720,
+            "height": 1280,
+            "r_frame_rate": "24/1",
+            "duration": "1.500000",
+            "nb_read_frames": "36"
+          }
+        ],
+        "format": {
+          "duration": "1.500000"
+        }
+      }
+    },
+    "C:\\Users\\every\\Documents\\project\\motiongraphic\\analysis\\t3-phase-align-2026-09-06\\audition-shanghai-hanoi-3col.mp4": {
+      "bytes": 1411438,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 2160,
+            "height": 1280,
+            "r_frame_rate": "24/1",
+            "duration": "1.500000",
+            "nb_read_frames": "36"
+          }
+        ],
+        "format": {
+          "duration": "1.500000"
+        }
+      }
+    }
+  },
+  "note": "Silent visual audition only; no full 13s render or production overwrite."
+}
