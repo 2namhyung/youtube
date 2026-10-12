@@ -12,7 +12,7 @@ export class StoreError extends Error {
 
 export function dataRoot() { return path.resolve(process.env.VISUALMAKER_DATA_DIR || 'data/visualmaker'); }
 
-function openDb() {
+export function openDb() {
   mkdirSync(dataRoot(), {recursive: true});
   const db = new DatabaseSync(path.join(dataRoot(), 'studio.sqlite'));
   db.exec(`PRAGMA journal_mode=WAL; PRAGMA busy_timeout=5000;

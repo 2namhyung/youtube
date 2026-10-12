@@ -75,7 +75,7 @@
     "media:index-acquired-scenes": "node video/scripts/index-acquired-video-scenes.mjs",
     "video:qa:build-all-cut-candidate-board": "node video/scripts/build-episode-001-all-cut-candidate-board.mjs",
     "visualmaker:dev": "next dev --hostname 127.0.0.1 --port 3017",
-    "visualmaker:check": "pnpm run typecheck && node --experimental-strip-types --test tests/visualmaker-domain.test.mjs tests/visualmaker-store.test.mjs"
+    "visualmaker:check": "pnpm run typecheck && node --experimental-strip-types --test tests/visualmaker-domain.test.mjs tests/visualmaker-store.test.mjs tests/visualmaker-jobs.test.mjs"
   },
   "keywords": [],
   "author": "",
