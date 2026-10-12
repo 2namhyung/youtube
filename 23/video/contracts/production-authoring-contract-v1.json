@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "contract_id": "production-authoring-contract-v1",
+  "episode_id": "episode-001",
+  "status": "active-contract",
+  "authority_route": {
+    "kind": "sole-linear-authority",
+    "steps": [
+      {
+        "id": "episode-spec",
+        "path": "video/episodes/episode-001/episode-spec.json",
+        "edit_policy": "sole-manually-edited"
+      },
+      {
+        "id": "generated-manifest-contracts",
+        "path": "video/episodes/episode-001/generated/manifest-contracts.json",
+        "edit_policy": "generated-only"
+      },
+      {
+        "id": "active-cut-manifests",
+        "path": "production-state.active_cut_root/cuts/SH###/manifest.json",
+        "edit_policy": "spec-bound-implementation-only"
+      },
+      {
+        "id": "render-catalog",
+        "path": "video/episodes/episode-001/generated/render-catalog.json",
+        "edit_policy": "generated-only"
+      },
+      {
+        "id": "episode-timeline",
+        "path": "video/src/vox/scene/EpisodeTimeline.tsx",
+        "edit_policy": "runtime-consumer-only"
+      }
+    ],
+    "runtime_entrypoint": "video/src/production-index.tsx",
+    "manifest_generator": "video/scripts/generate-episode-001-plans.mjs",
+    "scaffold_generator": "video/scripts/new-cut.mjs",
+    "catalog_generator": "video/scripts/generate-render-catalog.mjs",
+    "route_expression": "episode-spec -> generated-manifest-contracts -> active-cut-manifests -> render-catalog -> EpisodeTimeline"
+  },
+  "contract_separation": {
+    "visual_treatment": {
+      "role": "appearance-only",
+      "required_fields": ["surface", "palette", "typography", "texture", "prohibited_treatments"],
+      "must_not_contain": ["frame ranges", "motion operators", "source rights claims"]
+    },
+    "motion_contract": {
+      "role": "observable-state-change-only",
+      "required_fields": ["target_asset_id", "operator_id", "start_frame", "end_frame", "state_delta", "reading_hold"],
+      "must_not_contain": ["unbound visual assets", "unverified source claims"]
+    },
+    "source_contract": {
+      "role": "evidence-and-rights-only",
+      "required_fields": ["source_id", "source_kind", "locator", "rights_status", "materialization_status"],
+      "sha256_policy": "sha256 is required only when materialization_status=materialized; pending sources use null",
+      "must_not_contain": ["camera easing", "decorative motion", "unobserved layout grammar"]
+    }
+  },
+  "coverage_matrix": {
+    "dimensions": [
+      "stage",
+      "focal",
+      "supporting",
+      "depth",
+      "entrance",
+      "internal-change",
+      "transition",
+      "hold",
+      "exclusions"
+    ],
+    "dimension_contract": {
+      "stage": "shared surface/background and its treatment",
+      "focal": "exactly one dominant focal component and its viewer message",
+      "supporting": "supporting components and their subordinate relationship",
+      "depth": "foreground/midground/background order and intentional occlusion",
+      "entrance": "observable entry operator and start/end state",
+      "internal-change": "change inside the focal asset, such as count, chart, path, or screen state",
+      "transition": "cut, exit, morph, or scene-to-scene operator and adjacent binding",
+      "hold": "motion-free stable reading interval of at least 60 frames",
+      "exclusions": "observed-but-deliberately-omitted elements and prohibited additions"
+    },
+    "coverage_statuses": ["planned", "implemented", "blocked", "not-applicable"],
+    "required_per_cut": true,
+    "reference_count_is_authority": false
+  },
+  "manifest_declaration": {
+    "field": "production_authoring_contract",
+    "required_version": 1,
+    "required_sections": ["visual_treatment", "motion_contract", "source_contract", "coverage_matrix"],
+    "promotion_requires": [
+      "episode_spec_sha256 matches the local episode-spec.json",
+      "generated_manifest_contracts_sha256 matches the local generated manifest contracts",
+      "cut contract hashes match the generated contract for the same shot",
+      "all nine coverage dimensions are present",
+      "production authority remains false until the stage and user approvals allow promotion"
+    ]
+  },
+  "non_authority_routes": {
+    "blocked_as_production_authority": [
+      "video/scripts/production-qa.mjs",
+      "video/src/qa-index.tsx",
+      "video/src/motion-reverse-engineering-suite-v02-index.tsx",
+      "video/src/style-calibration-index.tsx",
+      "video/src/motion-reverse-engineering-suite-v01-index.tsx",
+      "video/src/remotion-motion-grammar-v02-prototype-index.tsx",
+      "video/src/remotion-motion-grammar-v02-sample-cuts-index.tsx",
+      "video/src/sh006-vox-motion-calibration-index.tsx",
+      "video/src/sh006-vox-motion-calibration-v04-index.tsx",
+      "video/src/motion-reverse-engineering-pilot-v01-index.tsx"
+    ],
+    "rule": "Every listed path is scanned by the canonical validator. These paths may create or inspect historical/calibration evidence only; they cannot select an active production root, consume the production render catalog, or feed EpisodeTimeline.",
+    "package_command_prefix": "video:qa:",
+    "forbidden_ambiguous_command_prefixes": [
+      "video:build-sh006-",
+      "video:build-reference-style-",
+      "video:build-motion-reverse-",
+      "video:validate-motion-reverse-",
+      "video:style-calibration-",
+      "video:sh006-vox-motion-",
+      "video:assembly-set-calibration-"
+    ]
+  },
+  "historical_policy": {
+    "active_cut_root_null_is_valid": true,
+    "historical_roots_are_non_production": true,
+    "historical_manifests_are_not_rewritten": true,
+    "versioned_episode_ids_are_forbidden": true
+  }
+}

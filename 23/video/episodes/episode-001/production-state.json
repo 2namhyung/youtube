@@ -1,0 +1,392 @@
+{
+  "schema_version": 2,
+  "episode_id": "episode-001",
+  "stage": "timing-draft",
+  "expected_cut_count": 36,
+  "active_cut_root": null,
+  "render_authority": {
+    "status": "blocked-superseded-by-editorial-revision",
+    "cut_root": null,
+    "catalog": null,
+    "catalog_sha256": null,
+    "manifest_set_sha256": null,
+    "production_authority": false,
+    "note": "The prior work root does not match ep001-narrative-source-first-v3. It is historical review material only."
+  },
+  "style_calibration": {
+    "status": "blocked-superseded-by-editorial-revision",
+    "authority": null,
+    "candidate_root": null,
+    "shot_ids": [],
+    "playable_shot_ids": [],
+    "keyframe_gallery_shot_ids": [],
+    "user_approved": false,
+    "approval_marker": null,
+    "note": "No style calibration candidate exists for ep001-narrative-source-first-v3."
+  },
+  "reference_calibration": {
+    "contract_version": 1,
+    "status": "reference-calibration-passed",
+    "candidate_set": {
+      "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/manifest.json",
+      "sha256": "8b7a017d3b973fd1a2748bbb9c236e3a4cd3930bb37f5e60484730b3e99bc5a5"
+    },
+    "shared_locked_reference_bundle": [
+      {
+        "path": "raw/inbox/vox-style-claude-remotion-reference.mp4",
+        "sha256": "0af9affa84a2e4b21f8e3f4ff45ff75650efdb229e742e8b25e678a10b41a9e9"
+      },
+      {
+        "path": "video/qa/reference-study/vox-primary/opening-0-40s-2s-grid.png",
+        "sha256": "9dc89cdfb43aca155eff2fe311d3068015340dac52fd793034975cd15eee9b7c"
+      },
+      {
+        "path": "wiki/sources/vox-style-claude-remotion-reference.md",
+        "sha256": "466da64c5d7b8ad574b35fb02288c10308de45b1dc106fea92ca74e0f8db8461"
+      }
+    ],
+    "eligible_for_user_style_frame_review": false,
+    "user_reference_calibration_pass": true,
+    "grammar_promoted": true,
+    "exact_bindings_complete": true,
+    "side_by_side_complete": true,
+    "approval_marker": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-calibration-approval-v02.json",
+    "approval_marker_sha256": "0e2ab88c1565109f702233787a16c820f4c4924629fb1f9f3191e69b9f316a93",
+    "approved_inputs_sha256": "fdfaab740afd9dca6fddd03110767d1f84eaf84b8c8437eb34633b3088b235ce",
+    "blockers": [
+      "The approved-script source-first candidates still need human semantic, rights and materialization review."
+    ],
+    "approval_route": "motion-reverse-engineering-review-v02",
+    "approval_validator": "video/scripts/validate-reference-calibration-approval-v02.mjs",
+    "expected_approval_marker": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-calibration-approval-v02.json",
+    "legacy_v01_approval_route_enabled": false,
+    "next_gate": "source-approval-and-materialization",
+    "supersession": {
+      "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-calibration-supersession.json",
+      "sha256": "165176df6f99e666cf21f9ccdec665b4446058c319d160aadcc72d9f2a252a25"
+    },
+    "note": "The previously approved grammar allowlist remains intact. The Hanbang analysis guides footage cadence but does not claim a new grammar PASS."
+  },
+  "style_frame_review": {
+    "status": "not-started-pending-reference-and-source-gates",
+    "candidate_id": null,
+    "representative_beats": [
+      "opening",
+      "evidence-or-change",
+      "final-summary"
+    ],
+    "manifest": null,
+    "manifest_sha256": null,
+    "user_approved": false,
+    "approval_marker": null,
+    "approval_marker_sha256": null,
+    "approved_inputs_sha256": null,
+    "production_asset_decomposition_status": "blocked-pending-reference-and-source-review",
+    "blockers": [
+      {
+        "scope": "episode-001",
+        "reason": "The source-first candidate plan still needs human semantic and rights review plus materialization."
+      },
+      {
+        "scope": "episode-001",
+        "reason": "The new reference-calibration direction has not received human PASS."
+      }
+    ],
+    "note": "Blockers from the superseded visual plan do not apply to this revision."
+  },
+  "superseded_pending_style_frame_reviews": [
+    {
+      "candidate_id": "SH006-editorial-v06",
+      "historical_status": "superseded-by-v07-quality-revision",
+      "manifest": "video/qa/style-frames/episode-001/SH006-editorial-v06/manifest.json",
+      "manifest_sha256": "9cf84c50914fd6c5d3fe4baadcba736a5f3c57333f27faf2b0d99e14c5df77a6",
+      "production_authority": false,
+      "reason": "V06 was validator-safe but retained slide-like headers, equalized support objects, inconsistent asset treatments, and weak physical relationships. It never received user style-frame PASS."
+    }
+  ],
+  "superseded_style_frame_review": {
+    "candidate_id": "SH006-editorial-v03",
+    "historical_status": "previously-approved-direction-superseded-by-clarified-rotation-rule",
+    "manifest": "video/qa/style-frames/episode-001/SH006-editorial-v03/manifest.json",
+    "manifest_sha256": "8a9a861d433194a8fae27ead7190baf4aae6166e08b0574813a9fcb4214a3360",
+    "approval_marker": "video/qa/style-frames/episode-001/SH006-editorial-v03/style-frame-approval.json",
+    "approval_marker_sha256": "43b32f709a7cc6441f96e710a269e2f5896a73853e615025867c859447ee3a08",
+    "approved_inputs_sha256": "c59999fc4fc440c89c8b5aa27be53026e62699e9bcd6ba9e92207e5c2a0a623a",
+    "production_authority": false,
+    "reason": "V03 rotated detached B01 labels. The clarified rule permits rotation only for text actually overlaid on a named PNG surface."
+  },
+  "rejected_style_frame_reviews": [
+    {
+      "candidate_id": "SH006-editorial-v04",
+      "historical_status": "rejected-by-user-for-text-asset-collision-and-unnatural-spacing",
+      "manifest": "video/qa/style-frames/episode-001/SH006-editorial-v04/manifest.json",
+      "manifest_sha256": "3f9867981c62294f3f51068c7bbc905d0c48e7867685b8e823e85d54c33b39b4",
+      "production_authority": false,
+      "reason": "V04 preserved detached labels and arbitrary coordinates without target geometry, minimum spacing, or connector-lane validation."
+    }
+  ],
+  "reference_style_gates": {
+    "status": "blocked-pending-source-approval-and-materialization",
+    "contract": "video/episodes/episode-001/reference-style-gates.json",
+    "contract_sha256": "486ff4799234a92fe88ee8306391423b2ef82dbfb2244348bc06dbea10417335",
+    "candidate_index": null,
+    "candidate_index_sha256": null,
+    "source_queue": "video/episodes/episode-001/generated/acquisition-queue.json",
+    "source_queue_sha256": "95465dfa6068f4c8feb170f10de5b97dd4ed337b1585bb60d1deee904cd7bdab",
+    "cut_blueprint": "video/episodes/episode-001/generated/reference-cut-blueprint.json",
+    "cut_blueprint_sha256": "89eabe02bd864a9548356f707c5f18159e199abac33bd9d3ab6d2ee177763748",
+    "source_gate_status": "blocked-pending-human-source-review-and-materialization",
+    "transfer_selection_status": "not-started-pending-source-gate",
+    "selected_transfer_count": 0,
+    "style_direction_status": "not-started-pending-source-gate",
+    "playable_motion_status": "blocked-pending-applicable-style-direction-pass",
+    "note": "Reference grammar is an allowlist selected per cut/beat after source readiness. Historical family packages cannot grant production authority."
+  },
+  "stage_contract": [
+    "timing-draft",
+    "cut-previews-ready",
+    "cut-review-approved",
+    "provisional-video-ready",
+    "visual-review-approved",
+    "script-locked",
+    "final-voice-locked",
+    "audio-timed-assembly",
+    "picture-locked"
+  ],
+  "draft_inputs": {
+    "episode_spec": "video/episodes/episode-001/episode-spec.json",
+    "episode_spec_sha256": "c5947f537d8d700483210883da0e957dd34e0bf1038d9139e3ce1331aebbe9b3",
+    "narration_plan": "video/episodes/episode-001/narration-plan.json",
+    "narration_generated_source_sha256": "c5947f537d8d700483210883da0e957dd34e0bf1038d9139e3ce1331aebbe9b3",
+    "speaking_rate_compact_korean_chars_per_second": 4.965,
+    "temporary_narration_required": false,
+    "temporary_script_available": true
+  },
+  "cut_review": {
+    "status": "pending",
+    "all_cuts_passed": false,
+    "approval_marker": null,
+    "approved_inputs_sha256": null
+  },
+  "generation_input_review": {
+    "status": "blocked-pending-source-approval-and-materialization",
+    "all_inputs_passed": false,
+    "approval_marker": null,
+    "approved_bundle_sha256": null
+  },
+  "playable_cut_review": {
+    "status": "blocked-pending-source-approval-and-materialization",
+    "all_playable_cuts_passed": false,
+    "approval_marker": null,
+    "approved_bundle_sha256": null
+  },
+  "omni_video_generation": {
+    "status": "blocked_until_all_cuts_passed",
+    "allowed_after_marker": null
+  },
+  "provisional_video": {
+    "status": "blocked-pending-source-approval-and-materialization",
+    "artifact": null,
+    "artifact_sha256": null,
+    "approval_marker": null
+  },
+  "visual_review": {
+    "status": "blocked-pending-source-approval-and-materialization",
+    "user_approved": false,
+    "all_cuts_passed": false,
+    "approval_marker": null,
+    "provisional_video_approval_marker": null,
+    "approved_artifact_sha256": null
+  },
+  "final_script": {
+    "status": "blocked-pending-source-approval-and-materialization",
+    "user_visual_review_approval_marker": null,
+    "locked_at": null
+  },
+  "final_voice": {
+    "status": "blocked-pending-source-approval-and-materialization",
+    "final_script_lock_marker": null,
+    "all_cut_audio_measured": false,
+    "locked_at": null
+  },
+  "picture_lock": {
+    "status": "blocked-pending-source-approval-and-materialization",
+    "final_qc_marker": null,
+    "approved": false
+  },
+  "provisional_artifacts": {
+    "exports/episode-001-master-animatic-v2.mp4": "rejected-provisional-visual",
+    "video/history/rejected-roots/episode-001": "historical-rejected-provisional-visual",
+    "video/public/assets/episode-001-v03": "rejected-provisional-visual",
+    "video/public/assets/episode-001-v04": "historical-rejected-style-calibration",
+    "video/public/assets/episode-001-v05": "historical-viewer-quality-failure",
+    "video/public/assets/episode-001-v06": "historical-rejected-style-calibration",
+    "video/public/assets/episode-001-work-v01": "style-calibration-candidate",
+    "note": "These artifacts are review material only and must never be presented as master/final/picture-locked output.",
+    "video/qa/style-frames/episode-001/reference-style-families-v04": "historical-human-review-failed",
+    "video/qa/style-frames/episode-001/reference-style-families-v06": "historical-human-review-failed",
+    "video/qa/style-frames/episode-001/reference-style-families-v05": "historical-human-review-failed",
+    "video/qa/style-frames/episode-001/reference-style-families-v07": "historical-human-review-failed",
+    "video/qa/style-frames/episode-001/reference-style-families-v08": "historical-human-review-failed",
+    "video/qa/style-frames/episode-001/reference-style-families-v09": "historical-human-review-failed",
+    "video/qa/style-frames/episode-001/reference-style-families-v10": "historical-human-review-failed"
+  },
+  "superseded_render_authorities": [
+    {
+      "status": "timing-draft-partial",
+      "cut_root": "video/public/assets/episode-001-work-v01",
+      "present_shot_ids": [
+        "SH003",
+        "SH004",
+        "SH005",
+        "SH006"
+      ],
+      "manifest_set_sha256": "44b70fd21fed8a7cbd3350776519dd1f758136c9c0de4c795706641e05103535",
+      "catalog": "video/episodes/episode-001/generated/render-catalog.json",
+      "catalog_sha256": "b82285bbc39d299a4133a172a4a2c97db025dadda188bfa982f859536f7482f6",
+      "scene_runtime_sha256": "e8af4efc1efa109b2786929c1748cf50a803bd83a88b157a12b8a5c9ea5e462c",
+      "transition_runtime_sha256": "c2f9487c23c1cac385e647d385419d5811020b1809d9dec30c4a9fbabb5a5df4",
+      "note": "The only current Studio/render authority. Partial timing-draft work root; not an active production root and not a PASS marker.",
+      "asset_sheet_schema": {
+        "path": "video/contracts/asset-sheet.schema.json",
+        "sha256": "9eadc230d83b1bd953a97956315c3e9ef59be734fdd62da9dd04a73a02477564"
+      },
+      "asset_sheet_set_sha256": "6d3cde5582186dbae483c660fa4831f6c89b156c87660730b3d35e6e022baddf",
+      "render_input_set_sha256": "5bd0acf5e50f75a27ea699fd35ee3db012425a780bd0f9a279e5950298d92ee1",
+      "spatial_candidate_status": "pending-user-review",
+      "previous_visual_direction_status": "not-production-pass-superseded-by-asset-sheet-runtime",
+      "treatment_contract_set_sha256": "9afafdadc9e47b232bfc96338935afecbe9c9559d64b4e2a4eb66c18fff3cce0",
+      "superseded_by": "ep001-live-action-footage-first-v1",
+      "production_authority": false
+    }
+  ],
+  "superseded_editorial_state": {
+    "superseded_by": "ep001-live-action-footage-first-v1",
+    "production_authority": false,
+    "style_calibration": {
+      "status": "draft",
+      "authority": "render_authority",
+      "candidate_root": "video/public/assets/episode-001-work-v01",
+      "shot_ids": [
+        "SH003",
+        "SH004",
+        "SH005",
+        "SH006"
+      ],
+      "playable_shot_ids": [
+        "SH003",
+        "SH004",
+        "SH005",
+        "SH006"
+      ],
+      "keyframe_gallery_shot_ids": [],
+      "user_approved": false,
+      "approval_marker": null,
+      "note": "Partial timing-draft views are derived only from render_authority EpisodeTimeline. Machine QA cannot grant semantic/artistic PASS, advance production, or unlock Omni video."
+    },
+    "reference_calibration": {
+      "contract_version": 1,
+      "status": "reference-calibration-passed",
+      "candidate_set": {
+        "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/manifest.json",
+        "sha256": "8b7a017d3b973fd1a2748bbb9c236e3a4cd3930bb37f5e60484730b3e99bc5a5"
+      },
+      "shared_locked_reference_bundle": [
+        {
+          "path": "raw/inbox/vox-style-claude-remotion-reference.mp4",
+          "sha256": "0af9affa84a2e4b21f8e3f4ff45ff75650efdb229e742e8b25e678a10b41a9e9"
+        },
+        {
+          "path": "video/qa/reference-study/vox-primary/opening-0-40s-2s-grid.png",
+          "sha256": "9dc89cdfb43aca155eff2fe311d3068015340dac52fd793034975cd15eee9b7c"
+        },
+        {
+          "path": "wiki/sources/vox-style-claude-remotion-reference.md",
+          "sha256": "466da64c5d7b8ad574b35fb02288c10308de45b1dc106fea92ca74e0f8db8461"
+        }
+      ],
+      "eligible_for_user_style_frame_review": false,
+      "user_reference_calibration_pass": true,
+      "grammar_promoted": true,
+      "exact_bindings_complete": true,
+      "side_by_side_complete": true,
+      "approval_marker": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-calibration-approval-v02.json",
+      "approval_marker_sha256": "0e2ab88c1565109f702233787a16c820f4c4924629fb1f9f3191e69b9f316a93",
+      "approved_inputs_sha256": "fdfaab740afd9dca6fddd03110767d1f84eaf84b8c8437eb34633b3088b235ce",
+      "blockers": [
+        "assembly-editorial requires a Korean National Assembly chamber source or approved source-bound design layers",
+        "omni-fiction-continuity requires continuity-locked SH008/SH011/SH014 keyframes"
+      ],
+      "approval_route": "motion-reverse-engineering-review-v02",
+      "approval_validator": "video/scripts/validate-reference-calibration-approval-v02.mjs",
+      "expected_approval_marker": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-calibration-approval-v02.json",
+      "legacy_v01_approval_route_enabled": false,
+      "next_gate": "source-approval-and-materialization",
+      "supersession": {
+        "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-calibration-supersession.json",
+        "sha256": "165176df6f99e666cf21f9ccdec665b4446058c319d160aadcc72d9f2a252a25"
+      },
+      "note": "Reference calibration remains approved. The former v10 six-family transfer is historical; current progress is blocked by source review and materialization, not family completion."
+    },
+    "style_frame_review": {
+      "status": "not-started-pending-source-gate",
+      "candidate_id": null,
+      "representative_beats": [
+        "opening",
+        "evidence-or-change",
+        "final-summary"
+      ],
+      "manifest": null,
+      "manifest_sha256": null,
+      "user_approved": false,
+      "approval_marker": null,
+      "approval_marker_sha256": null,
+      "approved_inputs_sha256": null,
+      "production_asset_decomposition_status": "blocked-pending-source-ready-style-direction-pass",
+      "blockers": [
+        {
+          "scope": "SH003",
+          "reason": "Korean National Assembly chamber source/design layers are not materialized."
+        },
+        {
+          "scope": "SH003",
+          "reason": "Official VOD is metadata-only and production-rights-blocked."
+        },
+        {
+          "scope": "SH003",
+          "reason": "The U.S. House chamber image is forbidden as a Korean-context substitute."
+        },
+        {
+          "scope": "SH008-SH014",
+          "reason": "Continuity-locked keyframes for laptop payment → wrong-item reveal → police intake are absent."
+        },
+        {
+          "scope": "SH008-SH014",
+          "reason": "Existing plates do not match the episode-spec action chain."
+        },
+        {
+          "scope": "SH008-SH014",
+          "reason": "Omni remains keyframe-input only; no generated video or Remotion motion claim is allowed."
+        }
+      ],
+      "note": "No current style candidate exists. Build only source-ready representative episode directions; no fixed family or sample count applies."
+    },
+    "reference_style_gates": {
+      "status": "blocked-pending-source-approval-and-materialization",
+      "contract": "video/episodes/episode-001/reference-style-gates.json",
+      "contract_sha256": "c41fdfe430c1e3f43b778f54b816adf37f0d25949fd4a8f6e7c02a03dcb5fa53",
+      "candidate_index": null,
+      "candidate_index_sha256": null,
+      "source_queue": "video/episodes/episode-001/generated/acquisition-queue.json",
+      "source_queue_sha256": "ecbd1771e2aa1ebd434f8323ddfdd042d820ce922b9decd2afb97261453c986f",
+      "cut_blueprint": "video/episodes/episode-001/generated/reference-cut-blueprint.json",
+      "cut_blueprint_sha256": "a3ba36ef1449da403fee7a073fc9f2921e0f6182388be41bad3dd43551043cb7",
+      "source_gate_status": "blocked-pending-human-source-review-and-materialization",
+      "transfer_selection_status": "not-started-pending-source-gate",
+      "selected_transfer_count": 0,
+      "style_direction_status": "not-started-pending-source-gate",
+      "playable_motion_status": "blocked-pending-applicable-style-direction-pass",
+      "note": "Reference grammar is an allowlist selected per cut/beat after source readiness. Historical family packages cannot grant production authority."
+    }
+  }
+}

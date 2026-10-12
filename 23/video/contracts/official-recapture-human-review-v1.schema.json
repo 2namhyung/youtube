@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "video/contracts/official-recapture-human-review-v1.schema.json",
+  "title": "Historical evidence-only EP001 official-page recapture review package",
+  "type": "object",
+  "required": ["schema_version", "package_id", "status", "production_eligibility", "capture_pixels_evidence_only", "style_frame_pixel_input_allowed", "production_visible_allowed", "motion_target_allowed", "rights_research", "items", "boards", "human_approval", "source_approved", "rights_approved", "registry_replacement", "materialized", "production_authority"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "package_id": {"const": "episode-001-official-recapture-v03-human-review-v1"},
+    "status": {"const": "historical-evidence-only"},
+    "production_eligibility": {"const": "permanently-ineligible-capture-containing-rendered-text"},
+    "capture_pixels_evidence_only": {"const": true},
+    "style_frame_pixel_input_allowed": {"const": false},
+    "production_visible_allowed": {"const": false},
+    "motion_target_allowed": {"const": false},
+    "rights_research": {"type": "object"},
+    "items": {"type": "array", "minItems": 3, "maxItems": 3},
+    "boards": {"type": "array", "minItems": 4, "maxItems": 4},
+    "human_approval": {"const": false},
+    "source_approved": {"const": false},
+    "rights_approved": {"const": false},
+    "registry_replacement": {"const": false},
+    "materialized": {"const": false},
+    "production_authority": {"const": false}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,1112 @@
+{
+  "reference_grammar_contract_version": 1,
+  "status": "approved-human-grammar",
+  "approval_marker": {
+    "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+    "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+  },
+  "calibration_approval_marker": {
+    "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-calibration-approval-v02.json",
+    "sha256": "0e2ab88c1565109f702233787a16c820f4c4924629fb1f9f3191e69b9f316a93"
+  },
+  "purpose": "Human-approved, contract-bound v02 grammar allowlist derived only from corrected active samples 01–09; sample10 remains excluded.",
+  "source": {
+    "path": "raw/inbox/vox-style-claude-remotion-reference.mp4",
+    "source_kind": "primary-locked-reference-video",
+    "sha256": "0af9affa84a2e4b21f8e3f4ff45ff75650efdb229e742e8b25e678a10b41a9e9"
+  },
+  "approved_review_package": {
+    "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/manifest.json",
+    "sha256": "8b7a017d3b973fd1a2748bbb9c236e3a4cd3930bb37f5e60484730b3e99bc5a5",
+    "approved_inputs_sha256": "fdfaab740afd9dca6fddd03110767d1f84eaf84b8c8437eb34633b3088b235ce",
+    "board": {
+      "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/review-board-9-samples-1920x1080.png",
+      "sha256": "839389a6cee33d29dfca8023d27b525c438d83e8279614815a8bb471588d3924"
+    },
+    "reel": {
+      "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/review-reel-9-samples-provisional.mp4",
+      "sha256": "55108df6fd5e4a59bda2dd3c89907d68743a898a42e37843d81ee6ef3502fc6f"
+    },
+    "motion_contract_package": {
+      "required": true,
+      "authority": "mandatory-analysis-contract-upstream-only",
+      "manifest": {
+        "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/manifest.json",
+        "sha256": "b97c9ca082b5209cab50b8b815d5cbc6b64b17dc3693be6ba37085c33d46433d"
+      },
+      "active_contracts": [
+        {
+          "sample_number": 1,
+          "sample_id": "sample-01-shared-background-accumulation",
+          "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+          "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/sample-01-shared-background-accumulation/contract.json",
+          "sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8",
+          "status": "reanalysis-contract-complete-pending-human-reference-review"
+        },
+        {
+          "sample_number": 2,
+          "sample_id": "sample-02-numeric-step-progression",
+          "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+          "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/sample-02-numeric-step-progression/contract.json",
+          "sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0",
+          "status": "reanalysis-contract-complete-pending-human-reference-review"
+        },
+        {
+          "sample_number": 3,
+          "sample_id": "sample-03-chart-reveal",
+          "contract_id": "sample-03-chart-reveal-frame-accurate-v02",
+          "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/sample-03-chart-reveal/contract.json",
+          "sha256": "2af5651a33bd4e73d12d094eeb7581e39f474c89e36b64357a51db70a7e8d086",
+          "status": "reanalysis-contract-complete-pending-human-reference-review"
+        },
+        {
+          "sample_number": 4,
+          "sample_id": "sample-04-map-route-reframe",
+          "contract_id": "sample-04-map-route-reframe-frame-accurate-v02",
+          "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/sample-04-map-route-reframe/contract.json",
+          "sha256": "d21c9974c165534c2040cca009b0cdb55cbf4274b81f5cd54ccacdedde89574a",
+          "status": "reanalysis-contract-complete-pending-human-reference-review"
+        },
+        {
+          "sample_number": 5,
+          "sample_id": "sample-05-object-preserving-layout-reframe",
+          "contract_id": "sample-05-object-preserving-layout-reframe-frame-accurate-v02",
+          "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/sample-05-object-preserving-layout-reframe/contract.json",
+          "sha256": "6300136ecf45f85d2fee83479ac57238470d6853e0aae30eccf9e6ef09814b7c",
+          "status": "reanalysis-contract-complete-pending-human-reference-review"
+        },
+        {
+          "sample_number": 6,
+          "sample_id": "sample-06-directional-exit-hard-cut-pair",
+          "contract_id": "sample-06-directional-exit-hard-cut-pair-frame-accurate-v02",
+          "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/sample-06-directional-exit-hard-cut-pair/contract.json",
+          "sha256": "923a41f3ccedb9dd4e4a24a5b7245073d401b7c259a503d3afbd8b762eb073f7",
+          "status": "reanalysis-contract-complete-pending-human-reference-review"
+        },
+        {
+          "sample_number": 7,
+          "sample_id": "sample-07-hook-reel-collage-montage",
+          "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+          "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/sample-07-hook-reel-collage-montage/contract.json",
+          "sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6",
+          "status": "reanalysis-contract-complete-pending-human-reference-review"
+        },
+        {
+          "sample_number": 8,
+          "sample_id": "sample-08-speaker-supporting-overlay-entry-corrected",
+          "contract_id": "sample-08-speaker-supporting-overlay-entry-corrected-frame-accurate-v02",
+          "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/sample-08-speaker-supporting-overlay-entry-corrected/contract.json",
+          "sha256": "a90ef3405fe4c8ce2498a6499bb5166c09e52b7ed09da28151af759c03619b40",
+          "status": "reanalysis-contract-complete-pending-human-reference-review"
+        },
+        {
+          "sample_number": 9,
+          "sample_id": "sample-09-device-light-focal-motion-corrected",
+          "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+          "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/sample-09-device-light-focal-motion-corrected/contract.json",
+          "sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc",
+          "status": "reanalysis-contract-complete-pending-human-reference-review"
+        }
+      ],
+      "exclusion_contract": {
+        "sample_number": 10,
+        "sample_id": "sample-10-source-video-selection-exclusion",
+        "contract_id": "sample-10-source-video-selection-exclusion-frame-accurate-v02",
+        "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/sample-10-source-video-selection-exclusion/contract.json",
+        "sha256": "ba7cec5b31b996ced466e54cca2f5eefcd9e257d488088ed06a5828f2bda1d91",
+        "status": "audited-source-video-selection-excluded-from-remotion"
+      }
+    }
+  },
+  "categories": {
+    "visual_object_role": [
+      {
+        "grammar_id": "dominant-concrete-focal",
+        "evidence_contracts": [
+          {
+            "sample_number": 1,
+            "sample_id": "sample-01-shared-background-accumulation",
+            "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+            "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+          },
+          {
+            "sample_number": 2,
+            "sample_id": "sample-02-numeric-step-progression",
+            "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+            "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+          },
+          {
+            "sample_number": 3,
+            "sample_id": "sample-03-chart-reveal",
+            "contract_id": "sample-03-chart-reveal-frame-accurate-v02",
+            "contract_sha256": "2af5651a33bd4e73d12d094eeb7581e39f474c89e36b64357a51db70a7e8d086"
+          },
+          {
+            "sample_number": 4,
+            "sample_id": "sample-04-map-route-reframe",
+            "contract_id": "sample-04-map-route-reframe-frame-accurate-v02",
+            "contract_sha256": "d21c9974c165534c2040cca009b0cdb55cbf4274b81f5cd54ccacdedde89574a"
+          },
+          {
+            "sample_number": 5,
+            "sample_id": "sample-05-object-preserving-layout-reframe",
+            "contract_id": "sample-05-object-preserving-layout-reframe-frame-accurate-v02",
+            "contract_sha256": "6300136ecf45f85d2fee83479ac57238470d6853e0aae30eccf9e6ef09814b7c"
+          },
+          {
+            "sample_number": 7,
+            "sample_id": "sample-07-hook-reel-collage-montage",
+            "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+            "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+          },
+          {
+            "sample_number": 8,
+            "sample_id": "sample-08-speaker-supporting-overlay-entry-corrected",
+            "contract_id": "sample-08-speaker-supporting-overlay-entry-corrected-frame-accurate-v02",
+            "contract_sha256": "a90ef3405fe4c8ce2498a6499bb5166c09e52b7ed09da28151af759c03619b40"
+          },
+          {
+            "sample_number": 9,
+            "sample_id": "sample-09-device-light-focal-motion-corrected",
+            "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+            "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      },
+      {
+        "grammar_id": "persistent-editorial-background",
+        "evidence_contracts": [
+          {
+            "sample_number": 1,
+            "sample_id": "sample-01-shared-background-accumulation",
+            "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+            "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      },
+      {
+        "grammar_id": "supporting-source-object",
+        "evidence_contracts": [
+          {
+            "sample_number": 1,
+            "sample_id": "sample-01-shared-background-accumulation",
+            "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+            "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+          },
+          {
+            "sample_number": 2,
+            "sample_id": "sample-02-numeric-step-progression",
+            "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+            "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+          },
+          {
+            "sample_number": 4,
+            "sample_id": "sample-04-map-route-reframe",
+            "contract_id": "sample-04-map-route-reframe-frame-accurate-v02",
+            "contract_sha256": "d21c9974c165534c2040cca009b0cdb55cbf4274b81f5cd54ccacdedde89574a"
+          },
+          {
+            "sample_number": 5,
+            "sample_id": "sample-05-object-preserving-layout-reframe",
+            "contract_id": "sample-05-object-preserving-layout-reframe-frame-accurate-v02",
+            "contract_sha256": "6300136ecf45f85d2fee83479ac57238470d6853e0aae30eccf9e6ef09814b7c"
+          },
+          {
+            "sample_number": 7,
+            "sample_id": "sample-07-hook-reel-collage-montage",
+            "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+            "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+          },
+          {
+            "sample_number": 8,
+            "sample_id": "sample-08-speaker-supporting-overlay-entry-corrected",
+            "contract_id": "sample-08-speaker-supporting-overlay-entry-corrected-frame-accurate-v02",
+            "contract_sha256": "a90ef3405fe4c8ce2498a6499bb5166c09e52b7ed09da28151af759c03619b40"
+          },
+          {
+            "sample_number": 9,
+            "sample_id": "sample-09-device-light-focal-motion-corrected",
+            "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+            "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      }
+    ],
+    "layout_relation": [
+      {
+        "grammar_id": "layered-collage",
+        "evidence_contracts": [
+          {
+            "sample_number": 1,
+            "sample_id": "sample-01-shared-background-accumulation",
+            "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+            "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+          },
+          {
+            "sample_number": 2,
+            "sample_id": "sample-02-numeric-step-progression",
+            "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+            "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+          },
+          {
+            "sample_number": 4,
+            "sample_id": "sample-04-map-route-reframe",
+            "contract_id": "sample-04-map-route-reframe-frame-accurate-v02",
+            "contract_sha256": "d21c9974c165534c2040cca009b0cdb55cbf4274b81f5cd54ccacdedde89574a"
+          },
+          {
+            "sample_number": 5,
+            "sample_id": "sample-05-object-preserving-layout-reframe",
+            "contract_id": "sample-05-object-preserving-layout-reframe-frame-accurate-v02",
+            "contract_sha256": "6300136ecf45f85d2fee83479ac57238470d6853e0aae30eccf9e6ef09814b7c"
+          },
+          {
+            "sample_number": 6,
+            "sample_id": "sample-06-directional-exit-hard-cut-pair",
+            "contract_id": "sample-06-directional-exit-hard-cut-pair-frame-accurate-v02",
+            "contract_sha256": "923a41f3ccedb9dd4e4a24a5b7245073d401b7c259a503d3afbd8b762eb073f7"
+          },
+          {
+            "sample_number": 7,
+            "sample_id": "sample-07-hook-reel-collage-montage",
+            "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+            "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+          },
+          {
+            "sample_number": 8,
+            "sample_id": "sample-08-speaker-supporting-overlay-entry-corrected",
+            "contract_id": "sample-08-speaker-supporting-overlay-entry-corrected-frame-accurate-v02",
+            "contract_sha256": "a90ef3405fe4c8ce2498a6499bb5166c09e52b7ed09da28151af759c03619b40"
+          },
+          {
+            "sample_number": 9,
+            "sample_id": "sample-09-device-light-focal-motion-corrected",
+            "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+            "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      }
+    ],
+    "depth_occlusion": [
+      {
+        "grammar_id": "background-midground-foreground",
+        "evidence_contracts": [
+          {
+            "sample_number": 1,
+            "sample_id": "sample-01-shared-background-accumulation",
+            "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+            "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      }
+    ],
+    "text_surface_role": [
+      {
+        "grammar_id": "source-surface-text",
+        "evidence_contracts": [
+          {
+            "sample_number": 2,
+            "sample_id": "sample-02-numeric-step-progression",
+            "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+            "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+          },
+          {
+            "sample_number": 3,
+            "sample_id": "sample-03-chart-reveal",
+            "contract_id": "sample-03-chart-reveal-frame-accurate-v02",
+            "contract_sha256": "2af5651a33bd4e73d12d094eeb7581e39f474c89e36b64357a51db70a7e8d086"
+          },
+          {
+            "sample_number": 9,
+            "sample_id": "sample-09-device-light-focal-motion-corrected",
+            "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+            "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      }
+    ],
+    "motion_operator": [
+      {
+        "grammar_id": "discrete-title-state-progression",
+        "evidence_contracts": [
+          {
+            "sample_number": 7,
+            "sample_id": "sample-07-hook-reel-collage-montage",
+            "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+            "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      },
+      {
+        "grammar_id": "independent-target-translate",
+        "evidence_contracts": [
+          {
+            "sample_number": 1,
+            "sample_id": "sample-01-shared-background-accumulation",
+            "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+            "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+          },
+          {
+            "sample_number": 2,
+            "sample_id": "sample-02-numeric-step-progression",
+            "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+            "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+          },
+          {
+            "sample_number": 5,
+            "sample_id": "sample-05-object-preserving-layout-reframe",
+            "contract_id": "sample-05-object-preserving-layout-reframe-frame-accurate-v02",
+            "contract_sha256": "6300136ecf45f85d2fee83479ac57238470d6853e0aae30eccf9e6ef09814b7c"
+          },
+          {
+            "sample_number": 7,
+            "sample_id": "sample-07-hook-reel-collage-montage",
+            "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+            "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      },
+      {
+        "grammar_id": "map-reframe-local-overlay-lifecycle",
+        "evidence_contracts": [
+          {
+            "sample_number": 4,
+            "sample_id": "sample-04-map-route-reframe",
+            "contract_id": "sample-04-map-route-reframe-frame-accurate-v02",
+            "contract_sha256": "d21c9974c165534c2040cca009b0cdb55cbf4274b81f5cd54ccacdedde89574a"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      },
+      {
+        "grammar_id": "numeric-group-rise-fade-count-up",
+        "evidence_contracts": [
+          {
+            "sample_number": 2,
+            "sample_id": "sample-02-numeric-step-progression",
+            "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+            "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      },
+      {
+        "grammar_id": "plot-local-progressive-reveal",
+        "evidence_contracts": [
+          {
+            "sample_number": 3,
+            "sample_id": "sample-03-chart-reveal",
+            "contract_id": "sample-03-chart-reveal-frame-accurate-v02",
+            "contract_sha256": "2af5651a33bd4e73d12d094eeb7581e39f474c89e36b64357a51db70a7e8d086"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      },
+      {
+        "grammar_id": "source-surface-state-progression",
+        "evidence_contracts": [
+          {
+            "sample_number": 9,
+            "sample_id": "sample-09-device-light-focal-motion-corrected",
+            "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+            "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      },
+      {
+        "grammar_id": "staggered-object-accumulation",
+        "evidence_contracts": [
+          {
+            "sample_number": 1,
+            "sample_id": "sample-01-shared-background-accumulation",
+            "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+            "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+          },
+          {
+            "sample_number": 7,
+            "sample_id": "sample-07-hook-reel-collage-montage",
+            "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+            "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+          },
+          {
+            "sample_number": 8,
+            "sample_id": "sample-08-speaker-supporting-overlay-entry-corrected",
+            "contract_id": "sample-08-speaker-supporting-overlay-entry-corrected-frame-accurate-v02",
+            "contract_sha256": "a90ef3405fe4c8ce2498a6499bb5166c09e52b7ed09da28151af759c03619b40"
+          },
+          {
+            "sample_number": 9,
+            "sample_id": "sample-09-device-light-focal-motion-corrected",
+            "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+            "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      }
+    ],
+    "transition_operator": [
+      {
+        "grammar_id": "directional-scene-exit-left",
+        "evidence_contracts": [
+          {
+            "sample_number": 6,
+            "sample_id": "sample-06-directional-exit-hard-cut-pair",
+            "contract_id": "sample-06-directional-exit-hard-cut-pair-frame-accurate-v02",
+            "contract_sha256": "923a41f3ccedb9dd4e4a24a5b7245073d401b7c259a503d3afbd8b762eb073f7"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      },
+      {
+        "grammar_id": "hard-cut",
+        "evidence_contracts": [
+          {
+            "sample_number": 6,
+            "sample_id": "sample-06-directional-exit-hard-cut-pair",
+            "contract_id": "sample-06-directional-exit-hard-cut-pair-frame-accurate-v02",
+            "contract_sha256": "923a41f3ccedb9dd4e4a24a5b7245073d401b7c259a503d3afbd8b762eb073f7"
+          },
+          {
+            "sample_number": 7,
+            "sample_id": "sample-07-hook-reel-collage-montage",
+            "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+            "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      },
+      {
+        "grammar_id": "object-preserving-layout-reframe",
+        "evidence_contracts": [
+          {
+            "sample_number": 5,
+            "sample_id": "sample-05-object-preserving-layout-reframe",
+            "contract_id": "sample-05-object-preserving-layout-reframe-frame-accurate-v02",
+            "contract_sha256": "6300136ecf45f85d2fee83479ac57238470d6853e0aae30eccf9e6ef09814b7c"
+          }
+        ],
+        "human_approval": {
+          "status": "approved",
+          "approved": true,
+          "marker": {
+            "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+            "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+          }
+        }
+      }
+    ],
+    "treatment": []
+  },
+  "bindings": [
+    {
+      "sample_number": 1,
+      "sample_id": "sample-01-shared-background-accumulation",
+      "category": "visual_object_role",
+      "grammar_id": "persistent-editorial-background",
+      "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+      "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+    },
+    {
+      "sample_number": 1,
+      "sample_id": "sample-01-shared-background-accumulation",
+      "category": "visual_object_role",
+      "grammar_id": "dominant-concrete-focal",
+      "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+      "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+    },
+    {
+      "sample_number": 1,
+      "sample_id": "sample-01-shared-background-accumulation",
+      "category": "visual_object_role",
+      "grammar_id": "supporting-source-object",
+      "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+      "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+    },
+    {
+      "sample_number": 1,
+      "sample_id": "sample-01-shared-background-accumulation",
+      "category": "layout_relation",
+      "grammar_id": "layered-collage",
+      "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+      "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+    },
+    {
+      "sample_number": 1,
+      "sample_id": "sample-01-shared-background-accumulation",
+      "category": "depth_occlusion",
+      "grammar_id": "background-midground-foreground",
+      "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+      "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+    },
+    {
+      "sample_number": 1,
+      "sample_id": "sample-01-shared-background-accumulation",
+      "category": "motion_operator",
+      "grammar_id": "independent-target-translate",
+      "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+      "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+    },
+    {
+      "sample_number": 1,
+      "sample_id": "sample-01-shared-background-accumulation",
+      "category": "motion_operator",
+      "grammar_id": "staggered-object-accumulation",
+      "contract_id": "sample-01-shared-background-accumulation-frame-accurate-v02",
+      "contract_sha256": "161d8c9b31cd91dd004012a374ab057562d2de85c7918c48c80e8c95fa0639a8"
+    },
+    {
+      "sample_number": 2,
+      "sample_id": "sample-02-numeric-step-progression",
+      "category": "visual_object_role",
+      "grammar_id": "dominant-concrete-focal",
+      "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+      "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+    },
+    {
+      "sample_number": 2,
+      "sample_id": "sample-02-numeric-step-progression",
+      "category": "visual_object_role",
+      "grammar_id": "supporting-source-object",
+      "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+      "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+    },
+    {
+      "sample_number": 2,
+      "sample_id": "sample-02-numeric-step-progression",
+      "category": "layout_relation",
+      "grammar_id": "layered-collage",
+      "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+      "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+    },
+    {
+      "sample_number": 2,
+      "sample_id": "sample-02-numeric-step-progression",
+      "category": "text_surface_role",
+      "grammar_id": "source-surface-text",
+      "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+      "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+    },
+    {
+      "sample_number": 2,
+      "sample_id": "sample-02-numeric-step-progression",
+      "category": "motion_operator",
+      "grammar_id": "independent-target-translate",
+      "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+      "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+    },
+    {
+      "sample_number": 2,
+      "sample_id": "sample-02-numeric-step-progression",
+      "category": "motion_operator",
+      "grammar_id": "numeric-group-rise-fade-count-up",
+      "contract_id": "sample-02-numeric-step-progression-frame-accurate-v02",
+      "contract_sha256": "29b0478859bce1693fd197808ff01fedbcf3f5755acf5e2569fe692c31e24bb0"
+    },
+    {
+      "sample_number": 3,
+      "sample_id": "sample-03-chart-reveal",
+      "category": "visual_object_role",
+      "grammar_id": "dominant-concrete-focal",
+      "contract_id": "sample-03-chart-reveal-frame-accurate-v02",
+      "contract_sha256": "2af5651a33bd4e73d12d094eeb7581e39f474c89e36b64357a51db70a7e8d086"
+    },
+    {
+      "sample_number": 3,
+      "sample_id": "sample-03-chart-reveal",
+      "category": "text_surface_role",
+      "grammar_id": "source-surface-text",
+      "contract_id": "sample-03-chart-reveal-frame-accurate-v02",
+      "contract_sha256": "2af5651a33bd4e73d12d094eeb7581e39f474c89e36b64357a51db70a7e8d086"
+    },
+    {
+      "sample_number": 3,
+      "sample_id": "sample-03-chart-reveal",
+      "category": "motion_operator",
+      "grammar_id": "plot-local-progressive-reveal",
+      "contract_id": "sample-03-chart-reveal-frame-accurate-v02",
+      "contract_sha256": "2af5651a33bd4e73d12d094eeb7581e39f474c89e36b64357a51db70a7e8d086"
+    },
+    {
+      "sample_number": 4,
+      "sample_id": "sample-04-map-route-reframe",
+      "category": "visual_object_role",
+      "grammar_id": "dominant-concrete-focal",
+      "contract_id": "sample-04-map-route-reframe-frame-accurate-v02",
+      "contract_sha256": "d21c9974c165534c2040cca009b0cdb55cbf4274b81f5cd54ccacdedde89574a"
+    },
+    {
+      "sample_number": 4,
+      "sample_id": "sample-04-map-route-reframe",
+      "category": "visual_object_role",
+      "grammar_id": "supporting-source-object",
+      "contract_id": "sample-04-map-route-reframe-frame-accurate-v02",
+      "contract_sha256": "d21c9974c165534c2040cca009b0cdb55cbf4274b81f5cd54ccacdedde89574a"
+    },
+    {
+      "sample_number": 4,
+      "sample_id": "sample-04-map-route-reframe",
+      "category": "layout_relation",
+      "grammar_id": "layered-collage",
+      "contract_id": "sample-04-map-route-reframe-frame-accurate-v02",
+      "contract_sha256": "d21c9974c165534c2040cca009b0cdb55cbf4274b81f5cd54ccacdedde89574a"
+    },
+    {
+      "sample_number": 4,
+      "sample_id": "sample-04-map-route-reframe",
+      "category": "motion_operator",
+      "grammar_id": "map-reframe-local-overlay-lifecycle",
+      "contract_id": "sample-04-map-route-reframe-frame-accurate-v02",
+      "contract_sha256": "d21c9974c165534c2040cca009b0cdb55cbf4274b81f5cd54ccacdedde89574a"
+    },
+    {
+      "sample_number": 5,
+      "sample_id": "sample-05-object-preserving-layout-reframe",
+      "category": "visual_object_role",
+      "grammar_id": "dominant-concrete-focal",
+      "contract_id": "sample-05-object-preserving-layout-reframe-frame-accurate-v02",
+      "contract_sha256": "6300136ecf45f85d2fee83479ac57238470d6853e0aae30eccf9e6ef09814b7c"
+    },
+    {
+      "sample_number": 5,
+      "sample_id": "sample-05-object-preserving-layout-reframe",
+      "category": "visual_object_role",
+      "grammar_id": "supporting-source-object",
+      "contract_id": "sample-05-object-preserving-layout-reframe-frame-accurate-v02",
+      "contract_sha256": "6300136ecf45f85d2fee83479ac57238470d6853e0aae30eccf9e6ef09814b7c"
+    },
+    {
+      "sample_number": 5,
+      "sample_id": "sample-05-object-preserving-layout-reframe",
+      "category": "layout_relation",
+      "grammar_id": "layered-collage",
+      "contract_id": "sample-05-object-preserving-layout-reframe-frame-accurate-v02",
+      "contract_sha256": "6300136ecf45f85d2fee83479ac57238470d6853e0aae30eccf9e6ef09814b7c"
+    },
+    {
+      "sample_number": 5,
+      "sample_id": "sample-05-object-preserving-layout-reframe",
+      "category": "motion_operator",
+      "grammar_id": "independent-target-translate",
+      "contract_id": "sample-05-object-preserving-layout-reframe-frame-accurate-v02",
+      "contract_sha256": "6300136ecf45f85d2fee83479ac57238470d6853e0aae30eccf9e6ef09814b7c"
+    },
+    {
+      "sample_number": 5,
+      "sample_id": "sample-05-object-preserving-layout-reframe",
+      "category": "transition_operator",
+      "grammar_id": "object-preserving-layout-reframe",
+      "contract_id": "sample-05-object-preserving-layout-reframe-frame-accurate-v02",
+      "contract_sha256": "6300136ecf45f85d2fee83479ac57238470d6853e0aae30eccf9e6ef09814b7c"
+    },
+    {
+      "sample_number": 6,
+      "sample_id": "sample-06-directional-exit-hard-cut-pair",
+      "category": "layout_relation",
+      "grammar_id": "layered-collage",
+      "contract_id": "sample-06-directional-exit-hard-cut-pair-frame-accurate-v02",
+      "contract_sha256": "923a41f3ccedb9dd4e4a24a5b7245073d401b7c259a503d3afbd8b762eb073f7"
+    },
+    {
+      "sample_number": 6,
+      "sample_id": "sample-06-directional-exit-hard-cut-pair",
+      "category": "transition_operator",
+      "grammar_id": "directional-scene-exit-left",
+      "contract_id": "sample-06-directional-exit-hard-cut-pair-frame-accurate-v02",
+      "contract_sha256": "923a41f3ccedb9dd4e4a24a5b7245073d401b7c259a503d3afbd8b762eb073f7"
+    },
+    {
+      "sample_number": 6,
+      "sample_id": "sample-06-directional-exit-hard-cut-pair",
+      "category": "transition_operator",
+      "grammar_id": "hard-cut",
+      "contract_id": "sample-06-directional-exit-hard-cut-pair-frame-accurate-v02",
+      "contract_sha256": "923a41f3ccedb9dd4e4a24a5b7245073d401b7c259a503d3afbd8b762eb073f7"
+    },
+    {
+      "sample_number": 7,
+      "sample_id": "sample-07-hook-reel-collage-montage",
+      "category": "visual_object_role",
+      "grammar_id": "dominant-concrete-focal",
+      "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+      "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+    },
+    {
+      "sample_number": 7,
+      "sample_id": "sample-07-hook-reel-collage-montage",
+      "category": "visual_object_role",
+      "grammar_id": "supporting-source-object",
+      "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+      "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+    },
+    {
+      "sample_number": 7,
+      "sample_id": "sample-07-hook-reel-collage-montage",
+      "category": "layout_relation",
+      "grammar_id": "layered-collage",
+      "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+      "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+    },
+    {
+      "sample_number": 7,
+      "sample_id": "sample-07-hook-reel-collage-montage",
+      "category": "motion_operator",
+      "grammar_id": "independent-target-translate",
+      "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+      "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+    },
+    {
+      "sample_number": 7,
+      "sample_id": "sample-07-hook-reel-collage-montage",
+      "category": "motion_operator",
+      "grammar_id": "staggered-object-accumulation",
+      "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+      "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+    },
+    {
+      "sample_number": 7,
+      "sample_id": "sample-07-hook-reel-collage-montage",
+      "category": "motion_operator",
+      "grammar_id": "discrete-title-state-progression",
+      "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+      "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+    },
+    {
+      "sample_number": 7,
+      "sample_id": "sample-07-hook-reel-collage-montage",
+      "category": "transition_operator",
+      "grammar_id": "hard-cut",
+      "contract_id": "sample-07-hook-reel-collage-montage-frame-accurate-v02",
+      "contract_sha256": "e16f48d6e3ddec9806a85c327315b0e878918523f375b4c5ff950e2ea08698b6"
+    },
+    {
+      "sample_number": 8,
+      "sample_id": "sample-08-speaker-supporting-overlay-entry-corrected",
+      "category": "visual_object_role",
+      "grammar_id": "dominant-concrete-focal",
+      "contract_id": "sample-08-speaker-supporting-overlay-entry-corrected-frame-accurate-v02",
+      "contract_sha256": "a90ef3405fe4c8ce2498a6499bb5166c09e52b7ed09da28151af759c03619b40"
+    },
+    {
+      "sample_number": 8,
+      "sample_id": "sample-08-speaker-supporting-overlay-entry-corrected",
+      "category": "visual_object_role",
+      "grammar_id": "supporting-source-object",
+      "contract_id": "sample-08-speaker-supporting-overlay-entry-corrected-frame-accurate-v02",
+      "contract_sha256": "a90ef3405fe4c8ce2498a6499bb5166c09e52b7ed09da28151af759c03619b40"
+    },
+    {
+      "sample_number": 8,
+      "sample_id": "sample-08-speaker-supporting-overlay-entry-corrected",
+      "category": "layout_relation",
+      "grammar_id": "layered-collage",
+      "contract_id": "sample-08-speaker-supporting-overlay-entry-corrected-frame-accurate-v02",
+      "contract_sha256": "a90ef3405fe4c8ce2498a6499bb5166c09e52b7ed09da28151af759c03619b40"
+    },
+    {
+      "sample_number": 8,
+      "sample_id": "sample-08-speaker-supporting-overlay-entry-corrected",
+      "category": "motion_operator",
+      "grammar_id": "staggered-object-accumulation",
+      "contract_id": "sample-08-speaker-supporting-overlay-entry-corrected-frame-accurate-v02",
+      "contract_sha256": "a90ef3405fe4c8ce2498a6499bb5166c09e52b7ed09da28151af759c03619b40"
+    },
+    {
+      "sample_number": 9,
+      "sample_id": "sample-09-device-light-focal-motion-corrected",
+      "category": "visual_object_role",
+      "grammar_id": "dominant-concrete-focal",
+      "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+      "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+    },
+    {
+      "sample_number": 9,
+      "sample_id": "sample-09-device-light-focal-motion-corrected",
+      "category": "visual_object_role",
+      "grammar_id": "supporting-source-object",
+      "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+      "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+    },
+    {
+      "sample_number": 9,
+      "sample_id": "sample-09-device-light-focal-motion-corrected",
+      "category": "layout_relation",
+      "grammar_id": "layered-collage",
+      "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+      "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+    },
+    {
+      "sample_number": 9,
+      "sample_id": "sample-09-device-light-focal-motion-corrected",
+      "category": "text_surface_role",
+      "grammar_id": "source-surface-text",
+      "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+      "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+    },
+    {
+      "sample_number": 9,
+      "sample_id": "sample-09-device-light-focal-motion-corrected",
+      "category": "motion_operator",
+      "grammar_id": "source-surface-state-progression",
+      "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+      "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+    },
+    {
+      "sample_number": 9,
+      "sample_id": "sample-09-device-light-focal-motion-corrected",
+      "category": "motion_operator",
+      "grammar_id": "staggered-object-accumulation",
+      "contract_id": "sample-09-device-light-focal-motion-corrected-frame-accurate-v02",
+      "contract_sha256": "900870bbb02d49c85ff61fe92bcd192b197de18e6f1e1a07a419b172e153e7dc"
+    }
+  ],
+  "approved_subset": [
+    "background-midground-foreground",
+    "directional-scene-exit-left",
+    "discrete-title-state-progression",
+    "dominant-concrete-focal",
+    "hard-cut",
+    "independent-target-translate",
+    "layered-collage",
+    "map-reframe-local-overlay-lifecycle",
+    "numeric-group-rise-fade-count-up",
+    "object-preserving-layout-reframe",
+    "persistent-editorial-background",
+    "plot-local-progressive-reveal",
+    "source-surface-state-progression",
+    "source-surface-text",
+    "staggered-object-accumulation",
+    "supporting-source-object"
+  ],
+  "unmapped_visual_grammar": [],
+  "novel_visual_grammar": [],
+  "pending_evidence_entries": [
+    {
+      "category": "motion_operator",
+      "grammar_id": "chart-self-draw",
+      "status": "pending_evidence",
+      "reason": "The approved evidence proves plot-local progressive reveal, but not whether the hidden authoring used strokeDashoffset rather than a clip.",
+      "required_evidence": [
+        "authoring project or layer export",
+        "operator-isolated runtime proof"
+      ]
+    },
+    {
+      "category": "motion_operator",
+      "grammar_id": "camera-reframe",
+      "status": "pending_evidence",
+      "reason": "The approved map and layout evidence cannot uniquely distinguish a camera transform from coordinated target transforms or pre-rendered motion.",
+      "required_evidence": [
+        "authoring transform track",
+        "camera-versus-target isolation proof"
+      ]
+    },
+    {
+      "category": "motion_operator",
+      "grammar_id": "svg-path-stroke-draw",
+      "status": "pending_evidence",
+      "reason": "The approved map path may be a local clip reveal; literal SVG stroke drawing is not proven.",
+      "required_evidence": [
+        "path layer export",
+        "strokeDashoffset runtime proof"
+      ]
+    },
+    {
+      "category": "motion_operator",
+      "grammar_id": "homography-perspective-animation",
+      "status": "pending_evidence",
+      "reason": "The flattened phone pixels do not expose an animated homography and measured angle change is negligible.",
+      "required_evidence": [
+        "corner-track homography evidence",
+        "perspective runtime proof"
+      ]
+    },
+    {
+      "category": "motion_operator",
+      "grammar_id": "source-footage-internal-motion",
+      "status": "pending_evidence",
+      "reason": "Motion inside embedded footage is contextual source motion, not a transferable Remotion operator.",
+      "required_evidence": [
+        "separable authored overlay proof",
+        "transfer prototype"
+      ]
+    },
+    {
+      "category": "treatment",
+      "grammar_id": "paper-print-texture",
+      "status": "pending_evidence",
+      "reason": "The appearance may be baked into source pixels and no treatment-isolated before/after evidence exists.",
+      "required_evidence": [
+        "treatment-isolated source evidence",
+        "before-and-after runtime proof"
+      ]
+    },
+    {
+      "category": "motion_operator",
+      "grammar_id": "micro-easing-profile",
+      "status": "pending_evidence",
+      "reason": "Exact easing curves cannot be recovered from the flattened MP4 with sufficient confidence.",
+      "required_evidence": [
+        "authoring keyframe graph",
+        "operator-specific curve export"
+      ]
+    }
+  ],
+  "hidden_authoring_uncertainties": [
+    "Flattened MP4s do not expose original layers, masks, keyframes, or exact easing.",
+    "Sample 03 proves a plot-local progressive reveal but cannot distinguish stroke drawing from a tight plot-local clip.",
+    "Sample 04 does not expose exact camera interpolation or whether some map motion was pre-rendered; the path may be a clip reveal rather than an SVG stroke draw.",
+    "Sample 09 does not expose the original phone homography or perspective animation.",
+    "Source-footage internal motion is contextual evidence and is not promoted as a transferable Remotion operator."
+  ],
+  "channel_exceptions": [
+    {
+      "exception_id": "beige-checker-background",
+      "purpose": "house-background",
+      "target_type": "component"
+    },
+    {
+      "exception_id": "source-rights-chrome",
+      "purpose": "source-attribution",
+      "target_type": "component"
+    },
+    {
+      "exception_id": "source-locked-legal-retype",
+      "purpose": "readability-compliance",
+      "target_type": "component"
+    },
+    {
+      "exception_id": "short-asset-label-below-target",
+      "purpose": "asset-identification",
+      "target_type": "component"
+    }
+  ],
+  "exception_constraints": {
+    "may_be_focal": false,
+    "may_define_motion": false,
+    "may_define_transition": false,
+    "may_be_decorative_motif": false
+  },
+  "candidate_review_package": {
+    "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/manifest.json",
+    "sha256": "8b7a017d3b973fd1a2748bbb9c236e3a4cd3930bb37f5e60484730b3e99bc5a5",
+    "status": "pending-human-corrected-reference-calibration-review"
+  },
+  "supersession": {
+    "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-calibration-supersession.json",
+    "sha256": "165176df6f99e666cf21f9ccdec665b4446058c319d160aadcc72d9f2a252a25"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.23jung/video/contracts/asset-sheet.schema.json",
+  "title": "Cut-local spatial asset sheet",
+  "type": "object",
+  "required": ["schema_version", "contract_kind", "shot_id", "layout_binding", "canvas", "safe_areas", "background", "layers", "system_layers", "provenance"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "contract_kind": {"const": "spatial-implementation-contract"},
+    "shot_id": {"type": "string", "pattern": "^SH[0-9]{3}$"},
+    "layout_binding": {"const": "manifest-component-layout"},
+    "canvas": {
+      "type": "object",
+      "required": ["width", "height"],
+      "properties": {"width": {"const": 1920}, "height": {"const": 1080}},
+      "additionalProperties": false
+    },
+    "safe_areas": {
+      "type": "object",
+      "required": ["essential", "overlay"],
+      "additionalProperties": {"$ref": "#/$defs/insets"}
+    },
+    "background": {"$ref": "#/$defs/background"},
+    "layers": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/layer"}},
+    "system_layers": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/systemLayer"}},
+    "provenance": {"type": "object", "required": ["authoring", "basis", "status"]}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "insets": {
+      "type": "object",
+      "required": ["left", "top", "right", "bottom"],
+      "properties": {
+        "left": {"type": "number", "minimum": 0}, "top": {"type": "number", "minimum": 0},
+        "right": {"type": "number", "minimum": 0}, "bottom": {"type": "number", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "background": {
+      "type": "object",
+      "required": ["asset_binding", "layer_role", "depth", "anchor", "safe_area_policy", "treatment"],
+      "properties": {
+        "asset_binding": {"const": "manifest.background"}, "layer_role": {"const": "background"},
+        "depth": {"type": "integer", "maximum": 0}, "anchor": {"const": "canvas-fill"},
+        "safe_area_policy": {"const": "edge-to-edge"},
+        "treatment": {"$ref": "#/$defs/treatmentPolicy"}
+      },
+      "additionalProperties": false
+    },
+    "layer": {
+      "type": "object",
+      "required": ["component_id", "asset_id", "layer_role", "depth", "anchor", "safe_area_policy", "occludes", "occluded_by", "treatment"],
+      "properties": {
+        "component_id": {"type": "string", "minLength": 1},
+        "asset_id": {"type": ["string", "null"]},
+        "layer_role": {"enum": ["structure", "midground", "subject", "foreground", "overlay"]},
+        "depth": {"type": "integer", "minimum": 1, "maximum": 899},
+        "anchor": {"type": "string", "minLength": 1},
+        "safe_area_policy": {"enum": ["essential", "overlay", "edge-to-edge"]},
+        "occludes": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "occluded_by": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "treatment": {"$ref": "#/$defs/treatmentPolicy"}
+      },
+      "additionalProperties": false
+    },
+    "systemLayer": {
+      "type": "object",
+      "required": ["system_id", "layer_role", "depth", "anchor", "safe_area_policy", "treatment"],
+      "properties": {
+        "system_id": {"enum": ["target-labels", "source-chrome"]},
+        "layer_role": {"const": "overlay"}, "depth": {"type": "integer", "minimum": 900},
+        "anchor": {"type": "string"}, "safe_area_policy": {"const": "overlay"},
+        "treatment": {"$ref": "#/$defs/treatmentPolicy"}
+      },
+      "additionalProperties": false
+    },
+    "treatmentPolicy": {
+      "type": "object",
+      "required": ["mode", "operator_ids"],
+      "properties": {
+        "mode": {"enum": ["eligible", "untreated", "protected-alpha-core", "protected-system-render-order"]},
+        "operator_ids": {"type": "array", "items": {"const": "grain.overlay@1"}, "uniqueItems": true},
+        "protection_mask": {"enum": ["component-alpha-core", "system-render-order"]}
+      },
+      "additionalProperties": false
+    }
+  }
+}

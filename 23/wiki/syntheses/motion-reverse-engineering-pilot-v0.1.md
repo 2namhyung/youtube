@@ -1,0 +1,28 @@
+# MP4 모션 역설계 파일럿 v0.1
+
+- 상태: 기술 파일럿 완료, 사람 검수 대기
+- 범위: 레퍼런스 sample 02·03만
+- 원본: [잠긴 MP4](../../raw/inbox/vox-style-claude-remotion-reference.mp4), SHA-256 `0af9affa84a2e4b21f8e3f4ff45ff75650efdb229e742e8b25e678a10b41a9e9`
+- 산출물: [manifest](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/manifest.json)
+
+## 목적
+
+완성 MP4의 의미를 비슷한 디자인으로 번역하는 대신, `exact source frame → stable/dynamic ROI → bbox·glyph·endpoint 측정 → operator 후보·대안 → 최소 Remotion probe → 좌우 비교` 순서로 관찰 가능한 동작을 역설계한다. MP4에는 원래 레이어·마스크·키프레임·easing 메타데이터가 없으므로 hidden implementation은 사실로 단정하지 않는다. Source: [잠긴 MP4](../../raw/inbox/vox-style-claude-remotion-reference.mp4), [sample 02 hypothesis](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/sample-02-numeric-step-progression/operator-hypotheses.json), [sample 03 hypothesis](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/sample-03-chart-reveal/operator-hypotheses.json).
+
+## Sample 02: moving-group reveal + internal count-up
+
+원본 frame `563–623`을 모두 다시 추출했다. 탱커 영역 `[250,500,1450,350]`에서 grayscale `<96` threshold mask를 만들고 centroid seed 주변 ±16px integer translation의 IoU를 최대화하면 F563→F623 이동은 `dx=+46px`, `dy=+11px`, `IoU=0.870151`이다. 따라서 탱커를 기하학적으로 고정된 plate로 보는 가설은 반려한다. 바다는 한 translation으로 환원되지 않는 source-footage 내부 픽셀 motion으로 분리한다. 숫자 그룹의 초기 ROI `[1270,300,450,250]`는 내려와 있는 초기 unit을 잘랐으므로 `[1200,250,600,430]`으로 넓혔다. orange icon 연결요소는 F571에서 처음 검출됐고, 정착 anchor `y=320`에 대한 전역 이동량은 `F571 +214px → F578 +114 → F585 +22 → F593 0`이며 F623까지 0을 유지했다. Source: [원본 `00:18.767–00:20.767`](../../raw/inbox/vox-style-claude-remotion-reference.mp4), [per-frame analysis](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/sample-02-numeric-step-progression/analysis.json).
+
+사람 전사는 source-bound frame에서 `hidden → $25 → $40 → $57 → $70 → $89 → $103 → $116`을 읽었고, 로컬 OCR이 없어 이 값 자체는 자동 OCR 결과로 가장하지 않는다. 자동 glyph 측정은 count window의 인접 45쌍 중 43쌍에서 변화를 검출했다. 그룹 이동을 orange icon anchor로 제거한 F585–623 내부 좌표에서 숫자 baseline 최대 잔차는 11px, unit top 최대 잔차는 10px이다. 최우선 후보는 `독립 탱커 slow translate + 바다 source-footage internal motion + numeric group upward translate/opacity reveal과 그 내부 framewise count-up`의 세 층이다. fixed tanker/frozen ocean/full-card reveal·몇 장의 숫자 카드 교체·digit이 icon/unit과 독립적으로 이동하는 모델은 반려한다. Source: [hypothesis](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/sample-02-numeric-step-progression/operator-hypotheses.json), [360×203 synchronized contact](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/sample-02-numeric-step-progression/sample-02-reference-vs-probe-contact-360x203.png).
+
+## Sample 03: shell settle → stable-shell plot draw
+
+원본 frame `749–837`을 모두 다시 추출했다. chart shell/title/legend/axis/year ROI의 final-relative mean absolute RGB는 F749에서 `19.9093`이다. 8-bit channel range의 1.25%를 0.1 단위로 올린 `3.2`를 decode/noise 허용 임계로 고정했을 때, 이후 전 프레임이 이를 유지하기 시작하는 측정 정착 경계는 F763이다(정착 이후 최대 `3.1125`). orange-series는 F766에서 처음 12픽셀 임계를 넘는다. 따라서 F749–763은 shell opacity settle, F766–837은 stable-shell plot-only phase다. 이 후반 구간의 plot changed fraction은 `0.002503 → 0.049906`으로 증가한다. 전체 window에서 shell이 처음부터 완전히 고정됐다는 이전 결론은 폐기한다. Source: [원본 `00:24.967–00:27.900`](../../raw/inbox/vox-style-claude-remotion-reference.mp4), [analysis](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/sample-03-chart-reveal/analysis.json).
+
+후반 plot operator는 `two SVG stroke draws + point milestones`를 1순위로 두지만, 완성 픽셀만으로 `plot-local horizontal clip + independent point reveal`을 완전히 배제할 수 없어 신뢰도는 `0.68/0.32`로 보존한다. whole-chart PNG wipe와 F766 이후 shell/title/axes가 계속 리빌되는 모델은 반려한다. Source: [hypothesis](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/sample-03-chart-reveal/operator-hypotheses.json), [360×203 synchronized contact](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/sample-03-chart-reveal/sample-03-reference-vs-probe-contact-360x203.png).
+
+## Playable proof와 게이트
+
+두 probe는 각각 1920×1080·30fps·300프레임으로 등록·렌더됐고 action 뒤 60프레임 이상의 stable hold를 둔다. source frame offset과 probe frame은 1:1이다. 02는 `F563→probe F0`, `F623→F60`; 03은 `F749→F0`, `F837→F88`로 action 종료를 맞췄으므로 이전 12프레임 tail mismatch가 없다. 360×203 contact도 각 열에 `REF/PROBE` 대응 frame을 표기하고, 모든 16:9 source/probe frame을 `contain`+letterbox로 축소해 portrait cell의 `cover` crop을 금지한다. Validator는 contact 픽셀을 재구축하고 source frame 150개의 raw RGB identity와 47개 artifact/runtime hash만 확인하는 데서 멈추지 않고 probe MP4 action frame을 다시 decode한다. 02 probe에서 탱커 `+46/+11px`, numeric-group rise `113.813→21.962→0.049→0px`, count glyph `45/45` adjacent changes·baseline residual 4px을 측정한다. 03 probe에서는 shell initial→settled RGB delta `15.728709`, post-settle maximum `0.059056`, first series F17, right-edge growth 1056px을 측정한다. 18개 adversarial test에는 hash를 다시 결속한 cover-cropped contact, fixed-tanker/step-card 대체 영상, global chart wipe 대체 영상, runtime path substitution이 포함되어 선언만 맞춘 구현도 반려한다. Source: [manifest](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/manifest.json), [validator](../../video/scripts/validate-motion-reverse-engineering-pilot-v01.mjs), [tests](../../tests/motion-reverse-engineering-pilot-v01.test.mjs).
+
+이 파일럿은 operator inference를 증명할 뿐 visual styling, reference-calibration PASS, grammar promotion, production authority, active cut root, Omni 생성 권한을 부여하지 않는다. 사람은 [sample 02 좌우 비교](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/sample-02-numeric-step-progression/sample-02-reference-vs-probe-provisional.mp4)와 [sample 03 좌우 비교](../../video/qa/reference-study/motion-reverse-engineering-pilot-v01/sample-03-chart-reveal/sample-03-reference-vs-probe-provisional.mp4)를 보고 후보 operator와 허용 오차를 확정해야 한다.

@@ -1,0 +1,216 @@
+{
+  "schema_version": 4,
+  "contract_id": "episode-001-reference-transfer-gates-v1",
+  "episode_id": "episode-001",
+  "status": "blocked-pending-source-approval-and-materialization",
+  "production_authority": false,
+  "authority_route": "episode-spec -> generated-manifest-contracts -> active-cut-manifests -> render-catalog -> EpisodeTimeline",
+  "reference_calibration": {
+    "contract_version": 1,
+    "status": "reference-calibration-passed",
+    "candidate_set": {
+      "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/manifest.json",
+      "sha256": "8b7a017d3b973fd1a2748bbb9c236e3a4cd3930bb37f5e60484730b3e99bc5a5"
+    },
+    "user_reference_calibration_pass": true,
+    "grammar_promoted": true,
+    "approval_marker": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-calibration-approval-v02.json",
+    "approval_marker_sha256": "0e2ab88c1565109f702233787a16c820f4c4924629fb1f9f3191e69b9f316a93",
+    "approved_inputs_sha256": "fdfaab740afd9dca6fddd03110767d1f84eaf84b8c8437eb34633b3088b235ce",
+    "frame_accurate_contract": {
+      "path": "video/qa/reference-study/frame-accurate-motion-contract-v02/manifest.json",
+      "sha256": "b97c9ca082b5209cab50b8b815d5cbc6b64b17dc3693be6ba37085c33d46433d"
+    },
+    "approved_sample_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "excluded_sample": {
+      "sample_number": 10,
+      "sample_id": "sample-10-source-video-selection-exclusion",
+      "review_profile": "source-video-selection",
+      "reason": "The observed segment is source footage selection, not transferable Remotion or Omni motion grammar."
+    },
+    "next_gate": "source-approval-and-materialization"
+  },
+  "grammar_allowlist": {
+    "contract": {
+      "path": "video/episodes/episode-001/reference-grammar-contract.json",
+      "sha256": "cbee56dee9e0f509f5e64be5300acbb1056013874146dcd81ed5da1cd103458e",
+      "required_status": "approved-human-grammar"
+    },
+    "selection_scope": "per-cut-or-visual-beat",
+    "coverage_quota": null,
+    "all_samples_must_be_used": false,
+    "content_family_is_not_motion_authority": true,
+    "selection_record_contract": {
+      "allowed_decisions": [
+        "applicable",
+        "not-applicable"
+      ],
+      "required_fields": [
+        "shot_id",
+        "beat_id",
+        "decision",
+        "rationale",
+        "episode_source_ids",
+        "episode_input_bindings",
+        "grammar_bindings"
+      ],
+      "applicable_requires": [
+        "one or more approved grammar IDs",
+        "exact local episode input path and SHA-256 for every moving or changing target",
+        "exact target asset/component ID",
+        "observable state delta and frame range",
+        "minimum 60-frame stable reading hold when the beat presents readable evidence"
+      ],
+      "not_applicable_requires": [
+        "nonblank semantic rationale",
+        "empty grammar_bindings"
+      ],
+      "implementation_claim_rule": "An observed result grammar does not prove a literal SVG, camera, chart, morph, or other runtime operator. Runtime implementation requires separate executable evidence."
+    },
+    "current_selections": [],
+    "selection_status": "not-started-pending-source-gate"
+  },
+  "source_gate": {
+    "status": "blocked-pending-human-source-review-and-materialization",
+    "pass": false,
+    "queue": {
+      "path": "video/episodes/episode-001/generated/acquisition-queue.json",
+      "sha256": "95465dfa6068f4c8feb170f10de5b97dd4ed337b1585bb60d1deee904cd7bdab"
+    },
+    "observed_counts": {
+      "total_requirements": 95,
+      "registered_candidates": 15,
+      "missing": 45,
+      "candidate_pending_review": 50,
+      "approved_ready": 0,
+      "materialized": 0,
+      "blocked_non_media_work": 0
+    },
+    "pass_requires": [
+      "every planned source requirement is approved or explicitly resolved not-applicable in episode-spec",
+      "every production-visible input is materialized with exact local bytes, item-level rights metadata and SHA-256",
+      "every real-media cut has action, object, place and viewpoint matched to its narration before source PASS",
+      "every fictional Omni cut has separately reviewed continuity-locked keyframe inputs; no generated video before all cut PASS"
+    ],
+    "blocks": [
+      "episode style-direction candidate review",
+      "reference grammar selection promotion",
+      "active_cut_root promotion",
+      "Omni video generation"
+    ]
+  },
+  "style_direction_gate": {
+    "status": "not-started-pending-source-gate",
+    "pass": false,
+    "candidate_set": null,
+    "approval_marker": null,
+    "selection_rule": "Create only source-ready representative episode cuts for materially distinct visual treatments or a rejected visual direction; do not satisfy a fixed family or sample count.",
+    "required_states": [
+      "opening",
+      "evidence-or-change",
+      "final-summary"
+    ],
+    "required_outputs": [
+      "1920x1080",
+      "360x203"
+    ],
+    "approval_scope": "static composition, hierarchy, legibility, and treatment only",
+    "does_not_approve": [
+      "playable motion",
+      "cut PASS",
+      "rights",
+      "Omni video",
+      "production authority"
+    ]
+  },
+  "playable_motion_gate": {
+    "status": "blocked-pending-applicable-style-direction-pass",
+    "pass": false,
+    "parity_records": [],
+    "selection_rule": "Require playable parity only for a selected applicable reference grammar and the exact episode target/input bundle; not-applicable decisions require no motion artifact.",
+    "required_evidence": [
+      "registered production composition rendered through EpisodeTimeline",
+      "runtime operator and exact target binding",
+      "start/end observable non-opacity geometry or content-state delta",
+      "submitted artifact to Remotion sampled-frame identity",
+      "minimum 60-frame pixel-stable reading hold where readable evidence is presented"
+    ]
+  },
+  "transition_policy": {
+    "selection_scope": "per-adjacent-cut-semantic-transition",
+    "hard_cut_allowed_between_any_modes": true,
+    "hard_cut_requirements": [
+      "episode-spec declares a semantic hard-cut intent",
+      "hard-cut binds the approved hard-cut reference grammar when claimed as reference-derived",
+      "adjacent-frame artifact proves zero blend"
+    ],
+    "shared_element_optional": true,
+    "shared_element_requirements_when_selected": [
+      "outgoing and incoming component and asset IDs",
+      "non-zero resolved trajectory",
+      "pair artifact from the canonical EpisodeTimeline"
+    ],
+    "rule": "A Remotion-to-Remotion boundary does not require shared-element continuity when a source-appropriate hard cut or another semantically declared transition is selected."
+  },
+  "historical_candidates": [
+    {
+      "candidate_id": "reference-style-families-v04",
+      "status": "historical-human-review-failed",
+      "production_authority": false
+    },
+    {
+      "candidate_id": "reference-style-families-v05",
+      "status": "historical-human-review-failed",
+      "production_authority": false
+    },
+    {
+      "candidate_id": "reference-style-families-v06",
+      "status": "historical-human-review-failed",
+      "production_authority": false
+    },
+    {
+      "candidate_id": "reference-style-families-v07",
+      "status": "historical-human-review-failed",
+      "production_authority": false
+    },
+    {
+      "candidate_id": "reference-style-families-v08",
+      "status": "historical-human-review-failed",
+      "production_authority": false
+    },
+    {
+      "candidate_id": "reference-style-families-v09",
+      "status": "historical-human-review-failed",
+      "production_authority": false
+    },
+    {
+      "candidate_id": "reference-style-families-v10",
+      "path": "video/qa/style-frames/episode-001/reference-style-families-v10/family-index.json",
+      "sha256": "6192bcc1068bb87c6f73f305db8dc23588593a25eabeaef3bdd2f1f83339b920",
+      "status": "historical-human-review-failed",
+      "production_authority": false,
+      "reason": "The fixed six-family transfer forced semantically mismatched chart, map, device, and presenter grammars onto episode cuts."
+    }
+  ],
+  "post_cut_prohibition_audit": [
+    "no-placeholder-or-unrelated-substitute",
+    "no-reference-sample-coverage-quota",
+    "no-content-family-as-motion-authority",
+    "no-text-box-or-screen-chrome-as-focal",
+    "no-animation-name-without-runtime-delta",
+    "no-reading-hold-camera-or-document-motion",
+    "no-omni-video-before-all-cut-pass",
+    "no-runtime-operator-claim-from-flattened-reference-observation",
+    "no-network-or-generation-during-render"
+  ]
+}

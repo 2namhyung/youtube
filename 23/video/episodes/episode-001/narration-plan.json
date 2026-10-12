@@ -1,0 +1,1218 @@
+{
+  "_generated": {
+    "do_not_edit": true,
+    "source": "episode-spec.json",
+    "source_sha256": "c5947f537d8d700483210883da0e957dd34e0bf1038d9139e3ce1331aebbe9b3",
+    "generator": "video/scripts/generate-episode-001-plans.mjs",
+    "marker_schema_version": 1
+  },
+  "schema_version": 1,
+  "episode_id": "episode-001",
+  "title": "보완수사권: 빠진 확인은 누가 다시 하나?",
+  "fps": 30,
+  "status": "editorial-refactor-pending-user-review-provisional-timing",
+  "duration_policy": "provisional-until-final-voice",
+  "draft_timing_assumption": {
+    "compact_korean_chars_per_second": 4.965,
+    "note": "사용자 제공 발화속도 측정값(2026-08-25): 한국어 공백 제거 글자 기준 초당 4.965자(분당 약 297.9자). 최종 녹음에서는 컷별 호흡과 실제 파일 길이를 다시 측정한다."
+  },
+  "runtime_target_seconds": {
+    "min": 480,
+    "max": 600
+  },
+  "runtime_note": "36 semantic cuts from the new narrative candidate; provisional until the user reviews the complete script and final audio is measured.",
+  "draft_compact_character_target": {
+    "min": 2498,
+    "max": 2498
+  },
+  "cut_count_target": {
+    "min": 36,
+    "max": 36
+  },
+  "audio_policy": {
+    "scratch_dir": "video/source-intake/episode-001/narration/scratch",
+    "final_dir": "video/source-intake/episode-001/narration/final",
+    "supported_extensions": [
+      ".wav",
+      ".mp3",
+      ".m4a",
+      ".webm"
+    ],
+    "file_pattern": "SH###.<extension>",
+    "strict_requires": "one final recording per cut"
+  },
+  "cuts": [
+    {
+      "shot_id": "SH001",
+      "production_mode": "omni",
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "중고 노트북을 샀는데 택배 상자에는 다른 물건이 들어 있었습니다.",
+      "visual_purpose": "열어 본 택배 상자: 노트북 대신 다른 물건이 보이는 상자 상태",
+      "visual_action": "노트북 대신 다른 물건이 보이는 상자 상태",
+      "source_ids": [
+        "FICTION-SH001"
+      ],
+      "estimated_voice_seconds": [
+        5.076,
+        6.203
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH002",
+      "production_mode": "omni",
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "경찰에 신고했고, 사건 기록은 검사에게 넘어갔습니다.",
+      "visual_purpose": "가상 신고와 기록 이동: 가상 사건의 신고 후 기록 묶음이 넘겨지는 상태",
+      "visual_action": "가상 사건의 신고 후 기록 묶음이 넘겨지는 상태",
+      "source_ids": [
+        "FICTION-SH002"
+      ],
+      "estimated_voice_seconds": [
+        4.35,
+        5.317
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH003",
+      "production_mode": "omni",
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "그런데 판매자의 다른 계좌와 택배 접수 장소의 CCTV는 확인되지 않았습니다.",
+      "visual_purpose": "사건 기록의 빠진 확인: 다른 계좌와 CCTV 결과가 없는 기록의 상태",
+      "visual_action": "다른 계좌와 CCTV 결과가 없는 기록의 상태",
+      "source_ids": [
+        "FICTION-SH003"
+      ],
+      "estimated_voice_seconds": [
+        6.163,
+        7.533
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH004",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "이제 검사가 직접 확인할까요, 아니면 무엇이 빠졌는지 적어 경찰에 다시 확인을 요구할까요?",
+      "visual_purpose": "검사의 두 가지 확인 경로: 직접 확인과 구체적 보완 요구의 경로를 대비한다",
+      "visual_action": "직접 확인과 구체적 보완 요구의 경로를 대비한다",
+      "source_ids": [
+        "LAW-195",
+        "LAW-196",
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        7.069,
+        8.64
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH005",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "10월 2일 시행 예정인 개정에서 바뀌는 지점이 바로 이것입니다.",
+      "visual_purpose": "시행 예정일과 변화 지점: 시행 예정일과 직접 확인·요구 경로의 관계를 보여준다",
+      "visual_action": "시행 예정일과 직접 확인·요구 경로의 관계를 보여준다",
+      "source_ids": [
+        "LAW-TRANS"
+      ],
+      "estimated_voice_seconds": [
+        5.076,
+        6.203
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH006",
+      "production_mode": "omni",
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "이 사례는 실제 사건이 아니라, 달라지는 절차를 따라가기 위한 가상의 이야기입니다. 오늘 확인할 것은 검사가 무엇을 할 수 있느냐를 한마디로 단정하는 일이 아닙니다. 개정문에 적힌 역할과 아직 알 수 없는 결과를 나누어 보겠습니다.",
+      "visual_purpose": "가상 사례임을 밝히는 사건 화면: 가상 상자와 기록을 이어 보이되 사실 자료로 주장하지 않는다",
+      "visual_action": "가상 상자와 기록을 이어 보이되 사실 자료로 주장하지 않는다",
+      "source_ids": [
+        "FICTION-SH006"
+      ],
+      "estimated_voice_seconds": [
+        17.583,
+        21.49
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH007",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "빠진 확인을 발견했을 때 누가 무엇을 요구하고, 그 결과를 어떻게 돌려받는지입니다.",
+      "visual_purpose": "보완 요구의 질문: 빠진 항목 발견부터 요구와 결과 통보까지의 경로를 보여준다",
+      "visual_action": "빠진 항목 발견부터 요구와 결과 통보까지의 경로를 보여준다",
+      "source_ids": [
+        "LAW-1972",
+        "LAW-1973"
+      ],
+      "estimated_voice_seconds": [
+        6.526,
+        7.976
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH008",
+      "production_mode": "source-video",
+      "media_strategy": {
+        "dominant_surface": "full-frame-real-source",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "먼저 보완수사라는 말을 정리해 보겠습니다. 보완수사는 처음 수사에서 빠진 사실이나 증거를 더 확인하는 절차를 가리킵니다.",
+      "visual_purpose": "빠진 자료를 다시 확인하는 행동: 일반 기록을 읽고 누락된 항목을 대조한다",
+      "visual_action": "일반 기록을 읽고 누락된 항목을 대조한다",
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        9.607,
+        11.742
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH009",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "송치는 경찰이 수사한 사건 기록과 증거를 검사에게 넘기는 단계입니다. 따라서 경찰에 신고한 순간 검사에게 보완수사를 요구하는 절차가 바로 시작된다고 볼 수는 없습니다.",
+      "visual_purpose": "송치와 보완 요구의 다른 시점: 경찰 신고·기록 송치·검사 검토의 순서를 분리한다",
+      "visual_action": "경찰 신고·기록 송치·검사 검토의 순서를 분리한다",
+      "source_ids": [
+        "LAW-195",
+        "LAW-1972",
+        "LAW-TRANS"
+      ],
+      "estimated_voice_seconds": [
+        13.051,
+        15.952
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH010",
+      "production_mode": "omni",
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "사건이 어느 기관에 있고 어떤 자료가 넘어갔는지를 먼저 봐야 합니다. 그래야 누가 빈칸을 채울지 말할 수 있습니다. 가상의 사건 기록에는 결제 내역과 메시지는 있지만, 다른 계좌와 CCTV 확인 결과가 비어 있습니다.",
+      "visual_purpose": "가상 사건의 빈 기록: 결제·메시지와 아직 없는 계좌·CCTV 확인을 대비한다",
+      "visual_action": "결제·메시지와 아직 없는 계좌·CCTV 확인을 대비한다",
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        16.495,
+        20.161
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH011",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "그 빈칸을 채우는 방식이 개정 전후를 가르는 출발점입니다. 이름보다 실제 경로를 먼저 보겠습니다. 이제 기록을 읽는 검사와 확인을 수행하는 수사기관의 역할을 나누어 보겠습니다.",
+      "visual_purpose": "검토와 확인 수행의 역할: 기록을 읽는 검사와 확인을 수행하는 수사기관을 분리한다",
+      "visual_action": "기록을 읽는 검사와 확인을 수행하는 수사기관을 분리한다",
+      "source_ids": [
+        "LAW-196",
+        "LAW-195",
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        13.776,
+        16.838
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH012",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "현재 시행 중인 형사소송법 제196조 제1항은 검사가 범인, 범죄사실과 증거를 수사한다고 정합니다.",
+      "visual_purpose": "현행 제196조의 정확한 문구: 현행 제196조의 명시적 수사 조항을 읽힌다",
+      "visual_action": "현행 제196조의 명시적 수사 조항을 읽힌다",
+      "source_ids": [
+        "LAW-196"
+      ],
+      "estimated_voice_seconds": [
+        7.976,
+        9.748
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH013",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "개정문에는 짧고 분명한 문장이 들어 있습니다. ‘제196조를 삭제한다’는 문장입니다.",
+      "visual_purpose": "제196조 삭제 문구: 개정문에서 제196조 삭제라는 상태 변화가 읽힌다",
+      "visual_action": "개정문에서 제196조 삭제라는 상태 변화가 읽힌다",
+      "source_ids": [
+        "LAW-196"
+      ],
+      "estimated_voice_seconds": [
+        7.069,
+        8.64
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH014",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "그렇다고 검사의 모든 법적 역할이 사라진다고 말하면 범위를 넘어섭니다. 같은 개정문은 새 제195조 제2항에 검사의 직무를 따로 적어 둡니다.",
+      "visual_purpose": "새 제195조 제2항의 직무: 삭제 조항 옆에 새 조항에서 남는 직무를 놓는다",
+      "visual_action": "삭제 조항 옆에 새 조항에서 남는 직무를 놓는다",
+      "source_ids": [
+        "LAW-195",
+        "LAW-196"
+      ],
+      "estimated_voice_seconds": [
+        11.057,
+        13.515
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH015",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "그 직무에는 사법경찰관의 수사에 관한 영장의 청구가 포함됩니다. 그리고 보완수사요구와 재수사요구도 포함됩니다.",
+      "visual_purpose": "남는 검사의 구체적 직무: 영장 청구·보완수사요구·재수사요구를 정확히 구분한다",
+      "visual_action": "영장 청구·보완수사요구·재수사요구를 정확히 구분한다",
+      "source_ids": [
+        "LAW-195"
+      ],
+      "estimated_voice_seconds": [
+        9.063,
+        11.078
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH016",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "그러니 확인되는 변화는 제196조의 명시적 수사 조항은 삭제되고, 수사기관에 요구하는 직무는 남는다는 대비입니다. 여기서 모든 검사 기능의 소멸을 읽어내면 안 됩니다.",
+      "visual_purpose": "삭제와 존속의 대비: 제196조 삭제와 제195조 제2항 존속을 한 화면에서 비교한다",
+      "visual_action": "제196조 삭제와 제195조 제2항 존속을 한 화면에서 비교한다",
+      "source_ids": [
+        "LAW-195",
+        "LAW-196"
+      ],
+      "estimated_voice_seconds": [
+        13.233,
+        16.173
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH017",
+      "production_mode": "omni",
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "가상의 기록으로 돌아가 보겠습니다. 검사가 판매자의 다른 계좌와 택배 접수 장소의 특정 시간대 CCTV가 빠졌다는 점을 발견합니다.",
+      "visual_purpose": "가상 사건 기록의 누락 발견: 가상 기록에서 다른 계좌와 특정 시간 CCTV가 없는 상태를 보여준다",
+      "visual_action": "가상 기록에서 다른 계좌와 특정 시간 CCTV가 없는 상태를 보여준다",
+      "source_ids": [
+        "FICTION-SH017"
+      ],
+      "estimated_voice_seconds": [
+        10.332,
+        12.628
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH018",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "개정 뒤 기본 흐름은 검사가 그 계좌와 CCTV를 직접 확인하는 장면으로 설명되지 않습니다. 대신 무엇이 빠졌는지, 무엇을 확인해야 하는지, 왜 필요한지를 적어 수사기관에 보완수사를 요구합니다.",
+      "visual_purpose": "보완 요구로 가는 경로: 빠진 대상·확인 이유를 적어 수사기관에 요구하는 흐름을 보여준다",
+      "visual_action": "빠진 대상·확인 이유를 적어 수사기관에 요구하는 흐름을 보여준다",
+      "source_ids": [
+        "LAW-195",
+        "LAW-196",
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        15.227,
+        18.61
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH019",
+      "production_mode": "source-video",
+      "media_strategy": {
+        "dominant_surface": "full-frame-real-source",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "요구서는 ‘다시 알아보세요’라는 한마디로 끝나는 문서가 아닙니다. 확인할 대상과 요구하는 이유가 드러나야 합니다. 무엇을 찾는지 모호하면 이행 여부도 확인하기 어렵습니다.",
+      "visual_purpose": "문서를 읽고 확인 대상 적기: 실제 서류에서 한 항목을 찾고 별도 메모를 작성하는 연속 동작",
+      "visual_action": "실제 서류에서 한 항목을 찾고 별도 메모를 작성하는 연속 동작",
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        13.776,
+        16.838
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH020",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "예를 들면 판매자의 다른 계좌를 확인하라는 내용과, 택배 접수 장소의 해당 시간대 CCTV를 확인하라는 내용입니다. 관련 서류와 증거물을 함께 보내는 것이 원칙이고, 조문에는 그 송부 방식의 예외도 적혀 있습니다.",
+      "visual_purpose": "구체적인 계좌·CCTV 요구: 가상 사례의 두 확인 대상과 서류·증거 송부를 분리한다",
+      "visual_action": "가상 사례의 두 확인 대상과 서류·증거 송부를 분리한다",
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        16.495,
+        20.161
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH021",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "요구가 전달되면 누가 언제 무엇을 요구했는지 관리 기록에 남습니다. 수사기관이 무엇을 확인했고 어떤 결과를 보냈는지도 이어서 기록됩니다.",
+      "visual_purpose": "요구와 결과 관리: 요구 내용·이행 여부·결과 통보의 관계를 보인다",
+      "visual_action": "요구 내용·이행 여부·결과 통보의 관계를 보인다",
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        10.876,
+        13.293
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH022",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "그렇다면 이 확인은 언제까지 해야 할까요? 개정문이 제시하는 원칙적인 이행 기준은 요구를 받은 날부터 한 달입니다.",
+      "visual_purpose": "한 달의 시작과 끝: 요구 수령일과 이행·결과 통보의 기준을 연결한다",
+      "visual_action": "요구 수령일과 이행·결과 통보의 기준을 연결한다",
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        8.882,
+        10.856
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH023",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "여기서 한 달은 보완수사를 이행하고 그 결과를 통보하는 기준입니다. 신고부터 판결까지 한 달에 끝난다거나, 피해자가 한 달 안에 돈을 돌려받는다는 뜻은 아닙니다. 시작점은 요구를 받은 날입니다.",
+      "visual_purpose": "한 달이 뜻하지 않는 결과: 보완 이행 기한과 사건 종결·피해 회복을 다른 축으로 분리한다",
+      "visual_action": "보완 이행 기한과 사건 종결·피해 회복을 다른 축으로 분리한다",
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        15.045,
+        18.389
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH024",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "검사가 별도 기간을 정할 수 있고, 상당한 이유가 있으면 법이 정한 범위에서 기간을 연장할 수 있습니다. 적절한 보완을 기대하기 어렵다는 조건에서는 상급 수사관서나 다른 수사기관을 지정해 요구할 수도 있습니다. 이 역시 모든 사건을 자동으로 옮긴다는 뜻은 아닙니다.",
+      "visual_purpose": "별도 기간·연장·기관 지정 조건: 기간 예외와 수사기관 지정 조건을 구별한다",
+      "visual_action": "기간 예외와 수사기관 지정 조건을 구별한다",
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        20.302,
+        24.814
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH025",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "이제 이름이 비슷하지만 출발점이 다른 절차를 구분하겠습니다. 불송치 통지를 받은 고소인이나 피해자가 결과에 이의를 제기하는 절차가 있습니다.",
+      "visual_purpose": "불송치 뒤 이의신청의 출발점: 불송치 통지 이후 이의 제기의 시작점을 보인다",
+      "visual_action": "불송치 통지 이후 이의 제기의 시작점을 보인다",
+      "source_ids": [
+        "LAW-2457",
+        "LAW-2458"
+      ],
+      "estimated_voice_seconds": [
+        11.239,
+        13.736
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH026",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "검사가 사법경찰관에게 재수사를 요구하는 절차도 따로 있습니다. 보완수사요구와 불송치 뒤 이의신청을 하나의 절차처럼 말하면 안 됩니다. 하나는 수사기록의 보완을 요구하는 흐름이고, 다른 하나는 통지받은 결과에 대한 이의 제기입니다.",
+      "visual_purpose": "재수사요구와 보완수사요구의 구분: 서로 다른 절차의 출발점과 요구 대상을 비교한다",
+      "visual_action": "서로 다른 절차의 출발점과 요구 대상을 비교한다",
+      "source_ids": [
+        "LAW-1972",
+        "LAW-2457",
+        "LAW-2458"
+      ],
+      "estimated_voice_seconds": [
+        18.308,
+        22.377
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH027",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "검사는 공소 제기나 재수사요구, 공소 유지를 위해 의견을 듣거나 자료를 받을 수 있는 경우도 있습니다. 하지만 제245조의13에 따른 사실관계 확인과 면담으로 얻은 진술·자료는 재판에서 증거로 사용할 수 없습니다.",
+      "visual_purpose": "사실관계 확인과 증거 사용 제한: 의견·자료 확인과 재판상 증거 사용 가능성을 분리한다",
+      "visual_action": "의견·자료 확인과 재판상 증거 사용 가능성을 분리한다",
+      "source_ids": [
+        "LAW-24513"
+      ],
+      "estimated_voice_seconds": [
+        16.677,
+        20.383
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH028",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "확인할 수 있는 권한과 재판에서 증거로 쓸 수 있는 권한은 같은 말이 아닙니다. 화면에서 자료를 받는 장면만으로 증거능력을 단정할 수 없습니다. 절차의 이름이 비슷할수록 시작점과 결과를 따로 적어야 합니다.",
+      "visual_purpose": "절차 이름과 결과의 다른 범위: 이의신청·재수사·보완 요구를 하나의 절차로 합치지 않는다",
+      "visual_action": "이의신청·재수사·보완 요구를 하나의 절차로 합치지 않는다",
+      "source_ids": [
+        "LAW-24513",
+        "LAW-1972",
+        "LAW-2457",
+        "LAW-2458"
+      ],
+      "estimated_voice_seconds": [
+        15.77,
+        19.275
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH029",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "시행일도 함께 봐야 합니다. 법률 제21857호는 2026년 8월 4일 공포됐고, 주요 개정은 2026년 10월 2일부터 시행될 예정입니다.",
+      "visual_purpose": "공포일과 시행 예정일: 2026년 8월 4일 공포와 10월 2일 시행 예정일을 대조한다",
+      "visual_action": "2026년 8월 4일 공포와 10월 2일 시행 예정일을 대조한다",
+      "source_ids": [
+        "LAW-TRANS",
+        "BILL-2220257"
+      ],
+      "estimated_voice_seconds": [
+        11.239,
+        13.736
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH030",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "공포된 날과 실제 절차가 바뀌는 날은 같지 않을 수 있으므로 조항별 시행일을 확인해야 합니다. 날짜 하나만 보고 모든 사건의 적용을 단정할 수 없습니다. 시행 당시 이미 검사가 맡고 있던 사건에는 별도의 적용례와 부칙이 붙습니다.",
+      "visual_purpose": "조항별 시행과 기존 사건 적용: 시행 시점과 이미 맡은 사건의 적용례를 나눈다",
+      "visual_action": "시행 시점과 이미 맡은 사건의 적용례를 나눈다",
+      "source_ids": [
+        "LAW-TRANS"
+      ],
+      "estimated_voice_seconds": [
+        17.221,
+        21.047
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH031",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "종전 규정으로 검사가 수사 중인 사건 가운데 공소시효가 임박했거나 사건 성질상 불가피한 경우에는 시행일부터 최대 90일의 경과조치가 있습니다. 이 90일은 모든 사건에 열려 있는 일반적인 연장이 아닙니다.",
+      "visual_purpose": "조건부 90일 경과조치: 공소시효 임박·불가피한 경우와 90일 한계를 묶는다",
+      "visual_action": "공소시효 임박·불가피한 경우와 90일 한계를 묶는다",
+      "source_ids": [
+        "LAW-TRANS-APPLICATION"
+      ],
+      "estimated_voice_seconds": [
+        15.952,
+        19.496
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH032",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "그리고 시행 전인 지금은 실제 처리 속도나 피해 회복 결과를 말할 자료가 없습니다. 법 조문만으로 현장의 속도를 미리 계산할 수도 없습니다. 그 결과는 시행 뒤 사건 처리 자료로 확인해야 할 질문으로 남습니다.",
+      "visual_purpose": "시행 뒤 확인할 결과의 빈자리: 시행일과 이후 자료의 미확정을 분리해 질문으로 남긴다",
+      "visual_action": "시행일과 이후 자료의 미확정을 분리해 질문으로 남긴다",
+      "source_ids": [
+        "LAW-TRANS"
+      ],
+      "estimated_voice_seconds": [
+        15.589,
+        19.053
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH033",
+      "production_mode": "omni",
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "다시 처음의 중고 노트북 사건에 이 흐름을 넣어 보겠습니다. 경찰이 사건을 수사해 기록을 검사에게 보냈지만, 판매자의 다른 계좌와 CCTV 확인이 빠져 있습니다.",
+      "visual_purpose": "처음 사례의 빠진 기록 재등장: 가상 기록의 계좌·CCTV 누락을 처음 상자와 이어 보여준다",
+      "visual_action": "가상 기록의 계좌·CCTV 누락을 처음 상자와 이어 보여준다",
+      "source_ids": [
+        "FICTION-SH033"
+      ],
+      "estimated_voice_seconds": [
+        12.508,
+        15.287
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH034",
+      "production_mode": "remotion",
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "개정 뒤 이 장면의 핵심은 검사가 그 계좌와 CCTV를 직접 수사한다는 일반적인 설명이 아닙니다. 빠진 항목과 확인 이유를 특정해 수사기관에 보완수사를 요구하는 경로입니다.",
+      "visual_purpose": "구체적인 요구 경로의 회수: 계좌·CCTV를 직접 수사하는 설명과 보완 요구 경로를 대비한다",
+      "visual_action": "계좌·CCTV를 직접 수사하는 설명과 보완 요구 경로를 대비한다",
+      "source_ids": [
+        "LAW-195",
+        "LAW-196",
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        13.414,
+        16.395
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH035",
+      "production_mode": "omni",
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "수사기관은 요구받은 계좌와 CCTV, 배송 기록을 확인하고 그 결과를 보냅니다. 원칙적인 기준은 한 달이지만, 별도 기간과 법이 정한 연장 가능성을 함께 봐야 합니다.",
+      "visual_purpose": "가상 사례의 확인과 결과 통보: 가상 확인 행동과 결과 회신을 이어 보여주되 미래 실제 성과로 주장하지 않는다",
+      "visual_action": "가상 확인 행동과 결과 회신을 이어 보여주되 미래 실제 성과로 주장하지 않는다",
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        12.87,
+        15.73
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    },
+    {
+      "shot_id": "SH036",
+      "production_mode": "omni",
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "draft_narration": "결국 중요한 것은 서류가 몇 번 오갔는지가 아니라, 빠진 확인을 누가 요구했고 실제로 수행했는지입니다. 그 이행 결과가 다음 판단의 근거가 됩니다. 처음의 상자로 돌아가면 답은 하나의 약속이 아니라, 판매자의 다른 계좌와 택배 접수 장소의 CCTV가 실제로 확인됐는지에서 드러납니다. 그 질문을 끝까지 확인하는 것이 이 개정의 실제 의미를 판단하는 출발점입니다.",
+      "visual_purpose": "상자로 돌아오는 최종 질문: 다른 계좌와 택배 접수 장소 CCTV가 실제로 확인됐는지 묻는다",
+      "visual_action": "다른 계좌와 택배 접수 장소 CCTV가 실제로 확인됐는지 묻는다",
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "estimated_voice_seconds": [
+        27.915,
+        34.119
+      ],
+      "pre_roll_frames": 0,
+      "post_hold_frames": 60,
+      "transition_overlap_frames": 0,
+      "duration_frames": null,
+      "master_occupancy_frames": null
+    }
+  ]
+}

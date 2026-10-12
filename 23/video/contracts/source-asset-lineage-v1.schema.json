@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "video/contracts/source-asset-lineage-v1.schema.json",
+  "title": "Non-promoting evidence-source, source-derived Imagegen, and derivative planning contract",
+  "type": "object",
+  "required": [
+    "version",
+    "source_review",
+    "rendered_text_policy",
+    "requirement_classification",
+    "source_candidates",
+    "imagegen_asset_candidates",
+    "planned_derivatives"
+  ],
+  "properties": {
+    "version": {"const": 1},
+    "source_review": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      },
+      "additionalProperties": false
+    },
+    "rendered_text_policy": {
+      "type": "object",
+      "required": ["captured_page_pixels_are_evidence_only", "captured_page_pixels_forbidden_in_style_frames", "captured_page_pixels_forbidden_as_visual_or_motion_targets", "raster_text_composites_forbidden", "imagegen_summary_is_prompt_intent_not_pixel_text", "exact_source_text_requires_raster_free_native_surface", "asset_label_below_outside_only", "screen_chrome_separate_rail_only", "new_or_changed_official_page_requires_structured_recapture_provenance"],
+      "properties": {
+        "captured_page_pixels_are_evidence_only": {"const": true},
+        "captured_page_pixels_forbidden_in_style_frames": {"const": true},
+        "captured_page_pixels_forbidden_as_visual_or_motion_targets": {"const": true},
+        "raster_text_composites_forbidden": {"const": true},
+        "imagegen_summary_is_prompt_intent_not_pixel_text": {"const": true},
+        "exact_source_text_requires_raster_free_native_surface": {"const": true},
+        "asset_label_below_outside_only": {"const": true},
+        "screen_chrome_separate_rail_only": {"const": true},
+        "new_or_changed_official_page_requires_structured_recapture_provenance": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "requirement_classification": {"type": "array", "minItems": 1},
+    "source_candidates": {"type": "array", "minItems": 15, "maxItems": 15},
+    "imagegen_asset_candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["shot_id", "candidate_id", "requirement_ids", "asset_class", "origin", "identity_scope", "named_real_person", "evidence", "ai_disclosure", "source_references", "semantic_summary", "visual_translation", "prompt_contract", "content_constraints", "output_requirements", "generation_status", "output_path", "output_sha256", "human_review", "semantic_review", "decomposition_review", "production_visible", "motion_target_binding", "blockers"],
+        "properties": {
+          "shot_id": {"type": "string", "pattern": "^SH[0-9]{3}$"},
+          "candidate_id": {"type": "string", "minLength": 1},
+          "requirement_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "asset_class": {"enum": ["object", "prop", "document", "interior", "context"]},
+          "origin": {"const": "imagegen-editorial-reconstruction"},
+          "identity_scope": {"const": "non-person-editorial-reconstruction"},
+          "named_real_person": {"const": false},
+          "evidence": {"const": false},
+          "ai_disclosure": {"const": true},
+          "source_references": {"type": "array", "minItems": 1},
+          "semantic_summary": {"type": "string", "minLength": 1},
+          "visual_translation": {"type": "string", "minLength": 1},
+          "prompt_contract": {
+            "type": "object",
+            "required": ["prompt", "avoid", "summary_must_not_be_rendered_as_text"],
+            "properties": {
+              "prompt": {"type": "string", "minLength": 1},
+              "avoid": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+              "summary_must_not_be_rendered_as_text": {"const": true}
+            },
+            "additionalProperties": false
+          },
+          "content_constraints": {
+            "type": "object",
+            "required": ["legible_text", "names", "dates", "numbers", "logos", "ui", "watermarks"],
+            "properties": {
+              "legible_text": {"const": false}, "names": {"const": false}, "dates": {"const": false}, "numbers": {"const": false},
+              "logos": {"const": false}, "ui": {"const": false}, "watermarks": {"const": false}
+            },
+            "additionalProperties": false
+          },
+          "output_requirements": {
+            "type": "object",
+            "required": ["independent_cutout_required", "decoded_alpha_required", "transparent_background_required"],
+            "properties": {
+              "independent_cutout_required": {"type": "boolean"},
+              "decoded_alpha_required": {"type": "boolean"},
+              "transparent_background_required": {"type": "boolean"}
+            },
+            "additionalProperties": false
+          },
+          "generation_status": {"const": "not-generated"},
+          "output_path": {"type": "null"},
+          "output_sha256": {"type": "null"},
+          "human_review": {"const": false},
+          "semantic_review": {"const": false},
+          "decomposition_review": {"const": false},
+          "production_visible": {"const": false},
+          "motion_target_binding": {"type": "object"},
+          "blockers": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+        }
+      }
+    },
+    "planned_derivatives": {"type": "array", "minItems": 1}
+  },
+  "additionalProperties": false
+}

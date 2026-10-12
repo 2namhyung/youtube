@@ -1,0 +1,6 @@
+import {renderStyleFrameBuffers,renderContactBuffer,renderBlockedContactBuffer} from './grammar-bound-style-frame-renderer-v09.mjs';
+import {readFile} from 'node:fs/promises';
+import sharp from 'sharp';
+export {renderStyleFrameBuffers,renderContactBuffer,renderBlockedContactBuffer};
+export const CONTACT_WIDTH=1920,CONTACT_HEIGHT=520,RENDERER_RECIPE_ID='episode-source-surface-compositor-v10',RENDERER_RECIPE_PATH='video/scripts/lib/grammar-bound-style-frame-renderer-v10.mjs';
+export async function renderBoardBuffer({root,rows}){const cs=await Promise.all(rows.map(r=>sharp(`${root}/${r.contact.path}`).resize(1800,488).png().toBuffer()));const h=110+rows.length*548;const svg=Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="${h}"><rect width="100%" height="100%" fill="#ded4c5"/><text x="60" y="62" font-family="Arial" font-size="36" font-weight="700" fill="#17212b">EP001 v10 — recognizable source-surface review</text><text x="60" y="94" font-family="Arial" font-size="19" fill="#685f55">Structural source cues required · no text-only strips or generic cards</text></svg>`);return sharp(svg).composite(cs.map((input,i)=>({input,left:60,top:110+i*548}))).png({compressionLevel:9,adaptiveFiltering:false}).toBuffer();}

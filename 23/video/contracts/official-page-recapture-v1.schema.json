@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "video/contracts/official-page-recapture-v1.schema.json",
+  "title": "Unregistered official-page recapture evidence",
+  "type": "object",
+  "required": ["schema_version", "schema", "status", "capture_tool", "viewport", "captures", "production_authority"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "schema": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"const": "video/contracts/official-page-recapture-v1.schema.json"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      },
+      "additionalProperties": false
+    },
+    "status": {"const": "unregistered-source-candidate-evidence"},
+    "capture_tool": {"type": "string", "minLength": 1},
+    "viewport": {
+      "type": "object",
+      "required": ["width", "height", "device_scale_factor"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1},
+        "device_scale_factor": {"type": "number", "exclusiveMinimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "captures": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["source_id", "replacement_for", "captured_at", "requested_url", "exact_url", "locator", "locator_evidence", "matched_text", "file", "actual_mime", "actual_extension", "sha256", "bytes", "source_candidate_status", "byte_preserved_copy", "human_approval", "rights_approved", "materialized"],
+        "properties": {
+          "source_id": {"type": "string", "minLength": 1},
+          "replacement_for": {"type": "string", "minLength": 1},
+          "captured_at": {"type": "string", "format": "date-time"},
+          "requested_url": {"type": "string", "format": "uri"},
+          "exact_url": {"type": "string", "format": "uri"},
+          "locator": {"type": "string", "minLength": 1},
+          "locator_evidence": {
+            "type": "object",
+            "required": ["selector", "matched_text", "scroll_top", "target_rect", "container_rect"],
+            "properties": {
+              "selector": {"const": "#viewwrapCenter"},
+              "matched_text": {"type": "string", "minLength": 1},
+              "scroll_top": {"type": "number", "minimum": 0},
+              "target_rect": {"$ref": "#/$defs/rect"},
+              "container_rect": {"$ref": "#/$defs/rect"}
+            },
+            "additionalProperties": false
+          },
+          "matched_text": {"type": "string", "minLength": 1},
+          "file": {"type": "string", "pattern": "^[^/\\\\]+\\.png$"},
+          "actual_mime": {"const": "image/png"},
+          "actual_extension": {"const": ".png"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "bytes": {"type": "integer", "minimum": 1},
+          "source_candidate_status": {"const": "unapproved-source-candidate"},
+          "byte_preserved_copy": {
+            "type": "object",
+            "required": ["relationship", "relative_path", "sha256", "status"],
+            "properties": {
+              "relationship": {"const": "planned-byte-identical-copy-of-capture-on-registration"},
+              "relative_path": {"type": "string", "minLength": 1},
+              "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+              "status": {"const": "not-created-pending-registration"}
+            },
+            "additionalProperties": false
+          },
+          "human_approval": {"const": false},
+          "rights_approved": {"const": false},
+          "materialized": {"const": false}
+        },
+        "additionalProperties": false
+      }
+    },
+    "production_authority": {"const": false}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "rect": {
+      "type": "object",
+      "required": ["top", "left", "width", "height"],
+      "properties": {
+        "top": {"type": "number"},
+        "left": {"type": "number"},
+        "width": {"type": "number", "minimum": 0},
+        "height": {"type": "number", "exclusiveMinimum": 0}
+      },
+      "additionalProperties": false
+    }
+  }
+}

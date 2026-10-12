@@ -1,0 +1,155 @@
+{
+  "card-stack@1.0.0": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "minItems": 1,
+        "maxItems": 8
+      },
+      "highlightIndex": {
+        "type": "integer",
+        "minimum": -1,
+        "maximum": 7
+      },
+      "variant": {
+        "enum": [
+          "collect",
+          "sum",
+          "mark_unused"
+        ]
+      }
+    },
+    "required": [
+      "cards",
+      "highlightIndex",
+      "variant"
+    ]
+  },
+  "annotated-stock@1.0.0": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "caption": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000
+      },
+      "captionSide": {
+        "enum": [
+          "left",
+          "right",
+          "bottom"
+        ]
+      }
+    },
+    "required": [
+      "caption",
+      "captionSide"
+    ]
+  },
+  "comparison@1.0.0": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "leftTitle": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000
+      },
+      "rightTitle": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000
+      },
+      "rows": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "minItems": 1,
+        "maxItems": 6
+      }
+    },
+    "required": [
+      "leftTitle",
+      "rightTitle",
+      "rows"
+    ]
+  },
+  "process@1.0.0": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "steps": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "minItems": 2,
+        "maxItems": 6
+      },
+      "activeStep": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 5
+      }
+    },
+    "required": [
+      "steps",
+      "activeStep"
+    ]
+  },
+  "source-highlight@1.0.0": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "label": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000
+      },
+      "highlightText": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000
+      }
+    },
+    "required": [
+      "label",
+      "highlightText"
+    ]
+  },
+  "character-reaction@1.0.0": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "emotion": {
+        "enum": [
+          "neutral",
+          "curious",
+          "concerned",
+          "relieved"
+        ]
+      },
+      "bubble": {
+        "type": "string",
+        "maxLength": 20000
+      }
+    },
+    "required": [
+      "emotion",
+      "bubble"
+    ]
+  }
+}

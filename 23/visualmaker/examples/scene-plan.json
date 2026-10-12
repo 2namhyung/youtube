@@ -1,0 +1,412 @@
+{
+  "schemaVersion": "visual-director-plan-v0.2",
+  "id": "project_example",
+  "revision": 1,
+  "title": "설계 예시 — 구독 목록을 정리하는 방법",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "script": {
+    "id": "script_r1",
+    "rawText": "먼저 구독 중인 서비스를 한곳에 모아보세요.\n각각 얼마인지보다 모두 합쳐 얼마인지 확인하는 겁니다.\n그다음 최근에 쓰지 않은 서비스를 표시하세요.",
+    "rawSha256": "be370a7700a02e32b4bc4c9242adb161528a8b90a4749f6fa59b3330728526c8",
+    "segments": [
+      {
+        "id": "seg_1",
+        "start": 0,
+        "end": 24,
+        "text": "먼저 구독 중인 서비스를 한곳에 모아보세요."
+      },
+      {
+        "id": "seg_2",
+        "start": 25,
+        "end": 55,
+        "text": "각각 얼마인지보다 모두 합쳐 얼마인지 확인하는 겁니다."
+      },
+      {
+        "id": "seg_3",
+        "start": 56,
+        "end": 81,
+        "text": "그다음 최근에 쓰지 않은 서비스를 표시하세요."
+      }
+    ],
+    "spokenText": "먼저 구독 중인 서비스를 한곳에 모아보세요.\n각각 얼마인지보다 모두 합쳐 얼마인지 확인하는 겁니다.\n그다음 최근에 쓰지 않은 서비스를 표시하세요.",
+    "spokenSha256": "be370a7700a02e32b4bc4c9242adb161528a8b90a4749f6fa59b3330728526c8",
+    "spokenApproval": "draft"
+  },
+  "beats": [
+    {
+      "id": "beat_1",
+      "segmentIds": [
+        "seg_1"
+      ],
+      "intent": "구독 목록을 한곳에 모은다.",
+      "role": "process",
+      "claimIds": []
+    },
+    {
+      "id": "beat_2",
+      "segmentIds": [
+        "seg_2"
+      ],
+      "intent": "개별 금액이 아니라 합계를 확인한다.",
+      "role": "process",
+      "claimIds": []
+    },
+    {
+      "id": "beat_3",
+      "segmentIds": [
+        "seg_3"
+      ],
+      "intent": "미사용 항목을 표시한다.",
+      "role": "process",
+      "claimIds": []
+    }
+  ],
+  "claims": [],
+  "evidence": [],
+  "assets": [],
+  "requirements": [
+    {
+      "id": "req_1_stock",
+      "mediaType": "video",
+      "acquisition": "stock",
+      "description": "휴대폰에서 항목을 확인하는 일반적인 실사. 실제 서비스의 결제 근거가 아님.",
+      "queryKo": "스마트폰 목록 확인 손 클로즈업",
+      "queryEn": "hand checking list smartphone close up",
+      "epistemicRole": "illustration",
+      "assetId": null
+    },
+    {
+      "id": "req_2_stock",
+      "mediaType": "video",
+      "acquisition": "stock",
+      "description": "휴대폰에서 항목을 확인하는 일반적인 실사. 실제 서비스의 결제 근거가 아님.",
+      "queryKo": "스마트폰 목록 확인 손 클로즈업",
+      "queryEn": "hand checking list smartphone close up",
+      "epistemicRole": "illustration",
+      "assetId": null
+    },
+    {
+      "id": "req_3_stock",
+      "mediaType": "video",
+      "acquisition": "stock",
+      "description": "휴대폰에서 항목을 확인하는 일반적인 실사. 실제 서비스의 결제 근거가 아님.",
+      "queryKo": "스마트폰 목록 확인 손 클로즈업",
+      "queryEn": "hand checking list smartphone close up",
+      "epistemicRole": "illustration",
+      "assetId": null
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "order": 0,
+      "beatIds": [
+        "beat_1"
+      ],
+      "visualGroupId": "group_subscription_cards",
+      "candidates": [
+        {
+          "id": "option_1_cards",
+          "label": "같은 카드 화면 발전",
+          "reason": "설명 단계가 바뀌어도 기존 카드와 배치를 재사용한다.",
+          "startState": "서비스 A·B·C 카드가 같은 시각 그룹 안에 있다.",
+          "change": "카드가 차례로 모인다.",
+          "endState": "다음 설명에서 동일한 카드 ID와 디자인을 이어 사용한다.",
+          "layers": [
+            {
+              "id": "layer_1_cards",
+              "kind": "template",
+              "zIndex": 0,
+              "assetId": null,
+              "requirementId": null,
+              "templateId": "card-stack",
+              "templateVersion": "1.0.0",
+              "props": {
+                "cards": [
+                  "서비스 A",
+                  "서비스 B",
+                  "서비스 C"
+                ],
+                "highlightIndex": -1,
+                "variant": "collect"
+              }
+            }
+          ],
+          "cues": [
+            {
+              "targetLayerId": "layer_1_cards",
+              "segmentId": "seg_1",
+              "phrase": "모아보세요",
+              "occurrence": 1,
+              "operation": "reveal"
+            }
+          ],
+          "effort": "low",
+          "effortBasis": "이 예시의 제안 레지스트리에 있는 카드 템플릿 재사용. 실제 컴포넌트 구현은 별도 필요.",
+          "apiEstimate": {
+            "currency": "USD",
+            "amount": null,
+            "basis": "제공자·모델·실제 이용량을 결정하기 전에는 금액을 산정하지 않음.",
+            "asOf": null
+          }
+        },
+        {
+          "id": "option_1_stock",
+          "label": "실사 위에 설명 추가",
+          "reason": "사람이 구독 목록을 확인하는 상황을 실사로 보여준다. 실제 서비스 증거로 취급하지 않는다.",
+          "startState": "스마트폰을 확인하는 사람의 실사 화면.",
+          "change": "화면 여백에 핵심 설명을 강조한다.",
+          "endState": "다음 카드 화면으로 전환한다.",
+          "layers": [
+            {
+              "id": "layer_1_media",
+              "kind": "media",
+              "zIndex": 0,
+              "assetId": null,
+              "requirementId": "req_1_stock",
+              "templateId": null,
+              "templateVersion": null,
+              "props": {}
+            },
+            {
+              "id": "layer_1_overlay",
+              "kind": "template",
+              "zIndex": 1,
+              "assetId": null,
+              "requirementId": null,
+              "templateId": "annotated-stock",
+              "templateVersion": "1.0.0",
+              "props": {
+                "caption": "먼저 구독 중인 서비스를 한곳에 모아보세요.",
+                "captionSide": "bottom"
+              }
+            }
+          ],
+          "cues": [],
+          "effort": "medium",
+          "effortBasis": "실사 소스 검색·구도 확인·이용 조건 확인이 추가로 필요.",
+          "apiEstimate": {
+            "currency": "USD",
+            "amount": null,
+            "basis": "소스 미선택. 비용 확인 전.",
+            "asOf": null
+          }
+        }
+      ],
+      "selectedCandidateId": "option_1_cards",
+      "approval": "draft",
+      "lockedFields": [],
+      "durationEstimateSec": 4.5,
+      "notes": "시간은 임시 추정이다. 가상 서비스명이며 실제 파일·API 검색 결과는 포함하지 않는다."
+    },
+    {
+      "id": "scene_2",
+      "order": 1,
+      "beatIds": [
+        "beat_2"
+      ],
+      "visualGroupId": "group_subscription_cards",
+      "candidates": [
+        {
+          "id": "option_2_cards",
+          "label": "같은 카드 화면 발전",
+          "reason": "설명 단계가 바뀌어도 기존 카드와 배치를 재사용한다.",
+          "startState": "서비스 A·B·C 카드가 같은 시각 그룹 안에 있다.",
+          "change": "카드 전체를 하나의 합계 영역으로 묶는다.",
+          "endState": "다음 설명에서 동일한 카드 ID와 디자인을 이어 사용한다.",
+          "layers": [
+            {
+              "id": "layer_2_cards",
+              "kind": "template",
+              "zIndex": 0,
+              "assetId": null,
+              "requirementId": null,
+              "templateId": "card-stack",
+              "templateVersion": "1.0.0",
+              "props": {
+                "cards": [
+                  "서비스 A",
+                  "서비스 B",
+                  "서비스 C"
+                ],
+                "highlightIndex": -1,
+                "variant": "sum"
+              }
+            }
+          ],
+          "cues": [
+            {
+              "targetLayerId": "layer_2_cards",
+              "segmentId": "seg_2",
+              "phrase": "모두 합쳐",
+              "occurrence": 1,
+              "operation": "highlight"
+            }
+          ],
+          "effort": "low",
+          "effortBasis": "이 예시의 제안 레지스트리에 있는 카드 템플릿 재사용. 실제 컴포넌트 구현은 별도 필요.",
+          "apiEstimate": {
+            "currency": "USD",
+            "amount": null,
+            "basis": "제공자·모델·실제 이용량을 결정하기 전에는 금액을 산정하지 않음.",
+            "asOf": null
+          }
+        },
+        {
+          "id": "option_2_stock",
+          "label": "실사 위에 설명 추가",
+          "reason": "사람이 구독 목록을 확인하는 상황을 실사로 보여준다. 실제 서비스 증거로 취급하지 않는다.",
+          "startState": "스마트폰을 확인하는 사람의 실사 화면.",
+          "change": "화면 여백에 핵심 설명을 강조한다.",
+          "endState": "다음 카드 화면으로 전환한다.",
+          "layers": [
+            {
+              "id": "layer_2_media",
+              "kind": "media",
+              "zIndex": 0,
+              "assetId": null,
+              "requirementId": "req_2_stock",
+              "templateId": null,
+              "templateVersion": null,
+              "props": {}
+            },
+            {
+              "id": "layer_2_overlay",
+              "kind": "template",
+              "zIndex": 1,
+              "assetId": null,
+              "requirementId": null,
+              "templateId": "annotated-stock",
+              "templateVersion": "1.0.0",
+              "props": {
+                "caption": "각각 얼마인지보다 모두 합쳐 얼마인지 확인하는 겁니다.",
+                "captionSide": "bottom"
+              }
+            }
+          ],
+          "cues": [],
+          "effort": "medium",
+          "effortBasis": "실사 소스 검색·구도 확인·이용 조건 확인이 추가로 필요.",
+          "apiEstimate": {
+            "currency": "USD",
+            "amount": null,
+            "basis": "소스 미선택. 비용 확인 전.",
+            "asOf": null
+          }
+        }
+      ],
+      "selectedCandidateId": "option_2_cards",
+      "approval": "draft",
+      "lockedFields": [],
+      "durationEstimateSec": 5.0,
+      "notes": "시간은 임시 추정이다. 가상 서비스명이며 실제 파일·API 검색 결과는 포함하지 않는다."
+    },
+    {
+      "id": "scene_3",
+      "order": 2,
+      "beatIds": [
+        "beat_3"
+      ],
+      "visualGroupId": "group_subscription_cards",
+      "candidates": [
+        {
+          "id": "option_3_cards",
+          "label": "같은 카드 화면 발전",
+          "reason": "설명 단계가 바뀌어도 기존 카드와 배치를 재사용한다.",
+          "startState": "서비스 A·B·C 카드가 같은 시각 그룹 안에 있다.",
+          "change": "사용하지 않은 카드에 표시를 붙인다.",
+          "endState": "다음 설명에서 동일한 카드 ID와 디자인을 이어 사용한다.",
+          "layers": [
+            {
+              "id": "layer_3_cards",
+              "kind": "template",
+              "zIndex": 0,
+              "assetId": null,
+              "requirementId": null,
+              "templateId": "card-stack",
+              "templateVersion": "1.0.0",
+              "props": {
+                "cards": [
+                  "서비스 A",
+                  "서비스 B",
+                  "서비스 C"
+                ],
+                "highlightIndex": 1,
+                "variant": "mark_unused"
+              }
+            }
+          ],
+          "cues": [
+            {
+              "targetLayerId": "layer_3_cards",
+              "segmentId": "seg_3",
+              "phrase": "표시하세요",
+              "occurrence": 1,
+              "operation": "highlight"
+            }
+          ],
+          "effort": "low",
+          "effortBasis": "이 예시의 제안 레지스트리에 있는 카드 템플릿 재사용. 실제 컴포넌트 구현은 별도 필요.",
+          "apiEstimate": {
+            "currency": "USD",
+            "amount": null,
+            "basis": "제공자·모델·실제 이용량을 결정하기 전에는 금액을 산정하지 않음.",
+            "asOf": null
+          }
+        },
+        {
+          "id": "option_3_stock",
+          "label": "실사 위에 설명 추가",
+          "reason": "사람이 구독 목록을 확인하는 상황을 실사로 보여준다. 실제 서비스 증거로 취급하지 않는다.",
+          "startState": "스마트폰을 확인하는 사람의 실사 화면.",
+          "change": "화면 여백에 핵심 설명을 강조한다.",
+          "endState": "다음 카드 화면으로 전환한다.",
+          "layers": [
+            {
+              "id": "layer_3_media",
+              "kind": "media",
+              "zIndex": 0,
+              "assetId": null,
+              "requirementId": "req_3_stock",
+              "templateId": null,
+              "templateVersion": null,
+              "props": {}
+            },
+            {
+              "id": "layer_3_overlay",
+              "kind": "template",
+              "zIndex": 1,
+              "assetId": null,
+              "requirementId": null,
+              "templateId": "annotated-stock",
+              "templateVersion": "1.0.0",
+              "props": {
+                "caption": "그다음 최근에 쓰지 않은 서비스를 표시하세요.",
+                "captionSide": "bottom"
+              }
+            }
+          ],
+          "cues": [],
+          "effort": "medium",
+          "effortBasis": "실사 소스 검색·구도 확인·이용 조건 확인이 추가로 필요.",
+          "apiEstimate": {
+            "currency": "USD",
+            "amount": null,
+            "basis": "소스 미선택. 비용 확인 전.",
+            "asOf": null
+          }
+        }
+      ],
+      "selectedCandidateId": "option_3_cards",
+      "approval": "draft",
+      "lockedFields": [],
+      "durationEstimateSec": 4.0,
+      "notes": "시간은 임시 추정이다. 가상 서비스명이며 실제 파일·API 검색 결과는 포함하지 않는다."
+    }
+  ],
+  "compiledTimeline": null
+}

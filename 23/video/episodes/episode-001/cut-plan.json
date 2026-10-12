@@ -1,0 +1,2193 @@
+{
+  "_generated": {
+    "do_not_edit": true,
+    "source": "episode-spec.json",
+    "source_sha256": "c5947f537d8d700483210883da0e957dd34e0bf1038d9139e3ce1331aebbe9b3",
+    "generator": "video/scripts/generate-episode-001-plans.mjs",
+    "marker_schema_version": 1
+  },
+  "schema_version": 3,
+  "episode_id": "episode-001",
+  "title": "보완수사권: 빠진 확인은 누가 다시 하나?",
+  "status": "generated-compatibility-output / edit-episode-spec-only",
+  "manual_authority": "./episode-spec.json",
+  "cut_design": "./cut-source-design.json",
+  "narration_plan": "./narration-plan.json",
+  "production_state": "./production-state.json",
+  "runtime": {
+    "target_seconds": [
+      480,
+      600
+    ],
+    "provisional_seconds": 575.8,
+    "provisional_frames": 17274,
+    "provisional_note": "episode-spec timing authority에서 결정론적으로 생성됨; final 사용자 음성 전에는 확정하지 않는다."
+  },
+  "planned_cut_count": 36,
+  "detailed_intro_and_action_cut_count": 15,
+  "detailed_closing_cut_count": 8,
+  "background_contract": {
+    "required_per_cut": "approved full-frame source-video/source-photo, continuity-locked fictional Omni keyframe input, or specifically justified raster-free explanation",
+    "visual": "real source fills actual context; fictional continuity uses reviewed text-free keyframe inputs; exact legal relationships use raster-free native surfaces",
+    "rule": "의미에 맞는 source가 없으면 gap으로 남기고 production_authority=false를 유지한다."
+  },
+  "intro_rules": {
+    "hook_order": [
+      "중고 노트북을 샀는데 택배 상자에는 다른 물건이 들어 있었습니다.",
+      "경찰에 신고했고, 사건 기록은 검사에게 넘어갔습니다.",
+      "그런데 판매자의 다른 계좌와 택배 접수 장소의 CCTV는 확인되지 않았습니다.",
+      "이제 검사가 직접 확인할까요, 아니면 무엇이 빠졌는지 적어 경찰에 다시 확인을 요구할까요?",
+      "10월 2일 시행 예정인 개정에서 바뀌는 지점이 바로 이것입니다."
+    ],
+    "host_intro_modes": [
+      "omni",
+      "remotion"
+    ],
+    "omni_allowed": true,
+    "text_rule": "실제 맥락은 실사를 우선하고, 명시된 가상 사건은 연속성이 잠긴 Omni keyframe-input으로 계획한다.",
+    "fictional_case_notice": {
+      "version": 1,
+      "required_shot_ids": [
+        "SH001",
+        "SH002",
+        "SH003"
+      ],
+      "literal_text": "가상 사례 · AI 재구성",
+      "channel_exception_id": "source-rights-chrome",
+      "purpose": "AI reconstruction origin attribution and fictional-case disclosure",
+      "text_surface_role": "screen-chrome",
+      "placement": "separate-raster-free-rail-outside-image",
+      "first_visible_frame": 0,
+      "static_during_reading_hold": true,
+      "status": "required-before-user-cut-review"
+    }
+  },
+  "intro_source_candidates": [],
+  "cuts": [
+    {
+      "shot_id": "SH001",
+      "production_mode": "omni",
+      "production_decision": {
+        "version": 1,
+        "mode": "omni",
+        "purpose": "fictional-action",
+        "reason": "열어 본 택배 상자는 대본 의미로 선택한 omni 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "열어 본 택배 상자",
+        "observable_action": "노트북 대신 다른 물건이 보이는 상자 상태",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "한 화면의 실제 행동 또는 명시적 가상 사건을 임의 그래픽으로 대체하지 않는다.",
+          "omni": "선택됨: 가상 사건의 연속 keyframe만 계획한다."
+        },
+        "continuity_group": "ep001-fictional-purchase-delivery-report",
+        "asset_search_briefs": [],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/0",
+      "narration": "중고 노트북을 샀는데 택배 상자에는 다른 물건이 들어 있었습니다.",
+      "visual_purpose": "열어 본 택배 상자: 노트북 대신 다른 물건이 보이는 상자 상태",
+      "background": "full-frame-fictional-keyframe-input",
+      "assets": [
+        "sh001-keyframe-1",
+        "sh001-keyframe-2"
+      ],
+      "source_ids": [
+        "FICTION-SH001"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "노트북 대신 다른 물건이 보이는 상자 상태",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH002",
+      "production_mode": "omni",
+      "production_decision": {
+        "version": 1,
+        "mode": "omni",
+        "purpose": "fictional-action",
+        "reason": "가상 신고와 기록 이동는 대본 의미로 선택한 omni 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "가상 신고와 기록 이동",
+        "observable_action": "가상 사건의 신고 후 기록 묶음이 넘겨지는 상태",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "한 화면의 실제 행동 또는 명시적 가상 사건을 임의 그래픽으로 대체하지 않는다.",
+          "omni": "선택됨: 가상 사건의 연속 keyframe만 계획한다."
+        },
+        "continuity_group": "ep001-fictional-purchase-delivery-report",
+        "asset_search_briefs": [],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/1",
+      "narration": "경찰에 신고했고, 사건 기록은 검사에게 넘어갔습니다.",
+      "visual_purpose": "가상 신고와 기록 이동: 가상 사건의 신고 후 기록 묶음이 넘겨지는 상태",
+      "background": "full-frame-fictional-keyframe-input",
+      "assets": [
+        "sh002-keyframe-1",
+        "sh002-keyframe-2"
+      ],
+      "source_ids": [
+        "FICTION-SH002"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "가상 사건의 신고 후 기록 묶음이 넘겨지는 상태",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH003",
+      "production_mode": "omni",
+      "production_decision": {
+        "version": 1,
+        "mode": "omni",
+        "purpose": "fictional-action",
+        "reason": "사건 기록의 빠진 확인는 대본 의미로 선택한 omni 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "사건 기록의 빠진 확인",
+        "observable_action": "다른 계좌와 CCTV 결과가 없는 기록의 상태",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "한 화면의 실제 행동 또는 명시적 가상 사건을 임의 그래픽으로 대체하지 않는다.",
+          "omni": "선택됨: 가상 사건의 연속 keyframe만 계획한다."
+        },
+        "continuity_group": "ep001-fictional-purchase-delivery-report",
+        "asset_search_briefs": [],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/2",
+      "narration": "그런데 판매자의 다른 계좌와 택배 접수 장소의 CCTV는 확인되지 않았습니다.",
+      "visual_purpose": "사건 기록의 빠진 확인: 다른 계좌와 CCTV 결과가 없는 기록의 상태",
+      "background": "full-frame-fictional-keyframe-input",
+      "assets": [
+        "sh003-keyframe-1",
+        "sh003-keyframe-2"
+      ],
+      "source_ids": [
+        "FICTION-SH003"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "다른 계좌와 CCTV 결과가 없는 기록의 상태",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH004",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "검사의 두 가지 확인 경로는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "검사의 두 가지 확인 경로",
+        "observable_action": "직접 확인과 구체적 보완 요구의 경로를 대비한다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH004-visual",
+            "subject": "한국 경찰·검찰 기관 원본 사진",
+            "action": "직접 확인과 구체적 보완 요구의 경로를 대비한다",
+            "role": "independent-layer",
+            "specificity": "korea-institution",
+            "queries_ko": [
+              "한국 경찰 검찰 기관"
+            ],
+            "queries_en": [
+              "South Korea police prosecution official building photo",
+              "Korean government records source photo"
+            ],
+            "provider_routes": [
+              "korean-official-open-item",
+              "kogl-photo",
+              "commons-object"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "korean-institution",
+            "place_context": "대한민국 해당 기관의 정확한 metadata",
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "한국 경찰·검찰 기관 원본 사진",
+                "action": "직접 확인과 구체적 보완 요구의 경로를 대비한다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH004-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/3",
+      "narration": "이제 검사가 직접 확인할까요, 아니면 무엇이 빠졌는지 적어 경찰에 다시 확인을 요구할까요?",
+      "visual_purpose": "검사의 두 가지 확인 경로: 직접 확인과 구체적 보완 요구의 경로를 대비한다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh004-visual-input",
+        "sh004-law-195-evidence",
+        "sh004-law-196-evidence",
+        "sh004-law-1972-evidence"
+      ],
+      "source_ids": [
+        "LAW-195",
+        "LAW-196",
+        "LAW-1972"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "직접 확인과 구체적 보완 요구의 경로를 대비한다",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH005",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "시행 예정일과 변화 지점는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "시행 예정일과 변화 지점",
+        "observable_action": "시행 예정일과 직접 확인·요구 경로의 관계를 보여준다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH005-visual",
+            "subject": "개정 법률 원문·실제 한국 기관 원본",
+            "action": "시행 예정일과 직접 확인·요구 경로의 관계를 보여준다",
+            "role": "independent-layer",
+            "specificity": "korea-institution",
+            "queries_ko": [
+              "개정 법률 원문 실제 한국 기관"
+            ],
+            "queries_en": [
+              "South Korea police prosecution official building photo",
+              "Korean government records source photo"
+            ],
+            "provider_routes": [
+              "korean-official-open-item",
+              "kogl-photo",
+              "commons-object"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "korean-institution",
+            "place_context": "대한민국 해당 기관의 정확한 metadata",
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "개정 법률 원문·실제 한국 기관 원본",
+                "action": "시행 예정일과 직접 확인·요구 경로의 관계를 보여준다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH005-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/4",
+      "narration": "10월 2일 시행 예정인 개정에서 바뀌는 지점이 바로 이것입니다.",
+      "visual_purpose": "시행 예정일과 변화 지점: 시행 예정일과 직접 확인·요구 경로의 관계를 보여준다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh005-visual-input",
+        "sh005-law-trans-evidence"
+      ],
+      "source_ids": [
+        "LAW-TRANS"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "시행 예정일과 직접 확인·요구 경로의 관계를 보여준다",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH006",
+      "production_mode": "omni",
+      "production_decision": {
+        "version": 1,
+        "mode": "omni",
+        "purpose": "fictional-action",
+        "reason": "가상 사례임을 밝히는 사건 화면는 대본 의미로 선택한 omni 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "가상 사례임을 밝히는 사건 화면",
+        "observable_action": "가상 상자와 기록을 이어 보이되 사실 자료로 주장하지 않는다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "한 화면의 실제 행동 또는 명시적 가상 사건을 임의 그래픽으로 대체하지 않는다.",
+          "omni": "선택됨: 가상 사건의 연속 keyframe만 계획한다."
+        },
+        "continuity_group": "ep001-fictional-purchase-delivery-report",
+        "asset_search_briefs": [],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/5",
+      "narration": "이 사례는 실제 사건이 아니라, 달라지는 절차를 따라가기 위한 가상의 이야기입니다. 오늘 확인할 것은 검사가 무엇을 할 수 있느냐를 한마디로 단정하는 일이 아닙니다. 개정문에 적힌 역할과 아직 알 수 없는 결과를 나누어 보겠습니다.",
+      "visual_purpose": "가상 사례임을 밝히는 사건 화면: 가상 상자와 기록을 이어 보이되 사실 자료로 주장하지 않는다",
+      "background": "full-frame-fictional-keyframe-input",
+      "assets": [
+        "sh006-keyframe-1",
+        "sh006-keyframe-2"
+      ],
+      "source_ids": [
+        "FICTION-SH006"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "가상 상자와 기록을 이어 보이되 사실 자료로 주장하지 않는다",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH007",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "보완 요구의 질문는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "보완 요구의 질문",
+        "observable_action": "빠진 항목 발견부터 요구와 결과 통보까지의 경로를 보여준다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH007-visual",
+            "subject": "한국 경찰·검찰 기관 및 기록 원본",
+            "action": "빠진 항목 발견부터 요구와 결과 통보까지의 경로를 보여준다",
+            "role": "independent-layer",
+            "specificity": "korea-institution",
+            "queries_ko": [
+              "한국 경찰 검찰 기관 및 기록"
+            ],
+            "queries_en": [
+              "South Korea police prosecution official building photo",
+              "Korean government records source photo"
+            ],
+            "provider_routes": [
+              "korean-official-open-item",
+              "kogl-photo",
+              "commons-object"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "korean-institution",
+            "place_context": "대한민국 해당 기관의 정확한 metadata",
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "한국 경찰·검찰 기관 및 기록 원본",
+                "action": "빠진 항목 발견부터 요구와 결과 통보까지의 경로를 보여준다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH007-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/6",
+      "narration": "빠진 확인을 발견했을 때 누가 무엇을 요구하고, 그 결과를 어떻게 돌려받는지입니다.",
+      "visual_purpose": "보완 요구의 질문: 빠진 항목 발견부터 요구와 결과 통보까지의 경로를 보여준다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh007-visual-input",
+        "sh007-law-1972-evidence",
+        "sh007-law-1973-evidence"
+      ],
+      "source_ids": [
+        "LAW-1972",
+        "LAW-1973"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "빠진 항목 발견부터 요구와 결과 통보까지의 경로를 보여준다",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH008",
+      "production_mode": "source-video",
+      "production_decision": {
+        "version": 1,
+        "mode": "source-video",
+        "purpose": "real-context",
+        "reason": "빠진 자료를 다시 확인하는 행동는 대본 의미로 선택한 source-video 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "빠진 자료를 다시 확인하는 행동",
+        "observable_action": "일반 기록을 읽고 누락된 항목을 대조한다",
+        "rejected_modes": {
+          "live_action": "선택됨: 의미에 맞는 실제 원본을 찾는다.",
+          "motion_graphics": "한 화면의 실제 행동 또는 명시적 가상 사건을 임의 그래픽으로 대체하지 않는다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH008-visual",
+            "subject": "실제 문서 검토·두 기록 대조 영상",
+            "action": "일반 기록을 읽고 누락된 항목을 대조한다",
+            "role": "full-frame",
+            "specificity": "generic-object",
+            "queries_ko": [
+              "실제 문서 검토 두 기록 대조 영상"
+            ],
+            "queries_en": [
+              "document review hands close up",
+              "case file folder evidence review",
+              "calendar and document source photo"
+            ],
+            "provider_routes": [
+              "commons-object",
+              "kogl-photo",
+              "kogl-video",
+              "pexels-generic-last"
+            ],
+            "media_types": [
+              "video"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "generic-evidence-object",
+            "place_context": null,
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "실제 문서 검토·두 기록 대조 영상",
+                "action": "일반 기록을 읽고 누락된 항목을 대조한다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "full-frame-real-source",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/7",
+      "narration": "먼저 보완수사라는 말을 정리해 보겠습니다. 보완수사는 처음 수사에서 빠진 사실이나 증거를 더 확인하는 절차를 가리킵니다.",
+      "visual_purpose": "빠진 자료를 다시 확인하는 행동: 일반 기록을 읽고 누락된 항목을 대조한다",
+      "background": "full-frame-real-source",
+      "assets": [
+        "sh008-visual-input",
+        "sh008-law-1972-evidence"
+      ],
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "일반 기록을 읽고 누락된 항목을 대조한다",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH009",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "송치와 보완 요구의 다른 시점는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "송치와 보완 요구의 다른 시점",
+        "observable_action": "경찰 신고·기록 송치·검사 검토의 순서를 분리한다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH009-visual",
+            "subject": "한국 경찰·검찰 기관 원본 사진",
+            "action": "경찰 신고·기록 송치·검사 검토의 순서를 분리한다",
+            "role": "independent-layer",
+            "specificity": "korea-institution",
+            "queries_ko": [
+              "한국 경찰 검찰 기관"
+            ],
+            "queries_en": [
+              "South Korea police prosecution official building photo",
+              "Korean government records source photo"
+            ],
+            "provider_routes": [
+              "korean-official-open-item",
+              "kogl-photo",
+              "commons-object"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "korean-institution",
+            "place_context": "대한민국 해당 기관의 정확한 metadata",
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "한국 경찰·검찰 기관 원본 사진",
+                "action": "경찰 신고·기록 송치·검사 검토의 순서를 분리한다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH009-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/8",
+      "narration": "송치는 경찰이 수사한 사건 기록과 증거를 검사에게 넘기는 단계입니다. 따라서 경찰에 신고한 순간 검사에게 보완수사를 요구하는 절차가 바로 시작된다고 볼 수는 없습니다.",
+      "visual_purpose": "송치와 보완 요구의 다른 시점: 경찰 신고·기록 송치·검사 검토의 순서를 분리한다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh009-visual-input",
+        "sh009-law-195-evidence",
+        "sh009-law-1972-evidence",
+        "sh009-law-trans-evidence"
+      ],
+      "source_ids": [
+        "LAW-195",
+        "LAW-1972",
+        "LAW-TRANS"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "경찰 신고·기록 송치·검사 검토의 순서를 분리한다",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH010",
+      "production_mode": "omni",
+      "production_decision": {
+        "version": 1,
+        "mode": "omni",
+        "purpose": "fictional-action",
+        "reason": "가상 사건의 빈 기록는 대본 의미로 선택한 omni 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "가상 사건의 빈 기록",
+        "observable_action": "결제·메시지와 아직 없는 계좌·CCTV 확인을 대비한다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "한 화면의 실제 행동 또는 명시적 가상 사건을 임의 그래픽으로 대체하지 않는다.",
+          "omni": "선택됨: 가상 사건의 연속 keyframe만 계획한다."
+        },
+        "continuity_group": "ep001-fictional-purchase-delivery-report",
+        "asset_search_briefs": [],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/9",
+      "narration": "사건이 어느 기관에 있고 어떤 자료가 넘어갔는지를 먼저 봐야 합니다. 그래야 누가 빈칸을 채울지 말할 수 있습니다. 가상의 사건 기록에는 결제 내역과 메시지는 있지만, 다른 계좌와 CCTV 확인 결과가 비어 있습니다.",
+      "visual_purpose": "가상 사건의 빈 기록: 결제·메시지와 아직 없는 계좌·CCTV 확인을 대비한다",
+      "background": "full-frame-fictional-keyframe-input",
+      "assets": [
+        "sh010-law-1972-evidence",
+        "sh010-keyframe-1",
+        "sh010-keyframe-2"
+      ],
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "결제·메시지와 아직 없는 계좌·CCTV 확인을 대비한다",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH011",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "검토와 확인 수행의 역할는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "검토와 확인 수행의 역할",
+        "observable_action": "기록을 읽는 검사와 확인을 수행하는 수사기관을 분리한다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH011-visual",
+            "subject": "한국 경찰·검찰 기관 원본 사진",
+            "action": "기록을 읽는 검사와 확인을 수행하는 수사기관을 분리한다",
+            "role": "independent-layer",
+            "specificity": "korea-institution",
+            "queries_ko": [
+              "한국 경찰 검찰 기관"
+            ],
+            "queries_en": [
+              "South Korea police prosecution official building photo",
+              "Korean government records source photo"
+            ],
+            "provider_routes": [
+              "korean-official-open-item",
+              "kogl-photo",
+              "commons-object"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "korean-institution",
+            "place_context": "대한민국 해당 기관의 정확한 metadata",
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "한국 경찰·검찰 기관 원본 사진",
+                "action": "기록을 읽는 검사와 확인을 수행하는 수사기관을 분리한다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH011-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/10",
+      "narration": "그 빈칸을 채우는 방식이 개정 전후를 가르는 출발점입니다. 이름보다 실제 경로를 먼저 보겠습니다. 이제 기록을 읽는 검사와 확인을 수행하는 수사기관의 역할을 나누어 보겠습니다.",
+      "visual_purpose": "검토와 확인 수행의 역할: 기록을 읽는 검사와 확인을 수행하는 수사기관을 분리한다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh011-visual-input",
+        "sh011-law-196-evidence",
+        "sh011-law-195-evidence",
+        "sh011-law-1972-evidence"
+      ],
+      "source_ids": [
+        "LAW-196",
+        "LAW-195",
+        "LAW-1972"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "기록을 읽는 검사와 확인을 수행하는 수사기관을 분리한다",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH012",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "현행 제196조의 정확한 문구는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "현행 제196조의 정확한 문구",
+        "observable_action": "현행 제196조의 명시적 수사 조항을 읽힌다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH012-visual",
+            "subject": "법률 원문·한국 검찰 기관 원본 사진",
+            "action": "현행 제196조의 명시적 수사 조항을 읽힌다",
+            "role": "independent-layer",
+            "specificity": "korea-institution",
+            "queries_ko": [
+              "법률 원문 한국 검찰 기관"
+            ],
+            "queries_en": [
+              "South Korea police prosecution official building photo",
+              "Korean government records source photo"
+            ],
+            "provider_routes": [
+              "korean-official-open-item",
+              "kogl-photo",
+              "commons-object"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "korean-institution",
+            "place_context": "대한민국 해당 기관의 정확한 metadata",
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "법률 원문·한국 검찰 기관 원본 사진",
+                "action": "현행 제196조의 명시적 수사 조항을 읽힌다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH012-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/11",
+      "narration": "현재 시행 중인 형사소송법 제196조 제1항은 검사가 범인, 범죄사실과 증거를 수사한다고 정합니다.",
+      "visual_purpose": "현행 제196조의 정확한 문구: 현행 제196조의 명시적 수사 조항을 읽힌다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh012-visual-input",
+        "sh012-law-196-evidence"
+      ],
+      "source_ids": [
+        "LAW-196"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "현행 제196조의 명시적 수사 조항을 읽힌다",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH013",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "제196조 삭제 문구는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "제196조 삭제 문구",
+        "observable_action": "개정문에서 제196조 삭제라는 상태 변화가 읽힌다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH013-visual",
+            "subject": "개정 법률 원문·한국 검찰 기관 원본 사진",
+            "action": "개정문에서 제196조 삭제라는 상태 변화가 읽힌다",
+            "role": "independent-layer",
+            "specificity": "korea-institution",
+            "queries_ko": [
+              "개정 법률 원문 한국 검찰 기관"
+            ],
+            "queries_en": [
+              "South Korea police prosecution official building photo",
+              "Korean government records source photo"
+            ],
+            "provider_routes": [
+              "korean-official-open-item",
+              "kogl-photo",
+              "commons-object"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "korean-institution",
+            "place_context": "대한민국 해당 기관의 정확한 metadata",
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "개정 법률 원문·한국 검찰 기관 원본 사진",
+                "action": "개정문에서 제196조 삭제라는 상태 변화가 읽힌다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH013-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/12",
+      "narration": "개정문에는 짧고 분명한 문장이 들어 있습니다. ‘제196조를 삭제한다’는 문장입니다.",
+      "visual_purpose": "제196조 삭제 문구: 개정문에서 제196조 삭제라는 상태 변화가 읽힌다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh013-visual-input",
+        "sh013-law-196-evidence"
+      ],
+      "source_ids": [
+        "LAW-196"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "개정문에서 제196조 삭제라는 상태 변화가 읽힌다",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH014",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "새 제195조 제2항의 직무는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "새 제195조 제2항의 직무",
+        "observable_action": "삭제 조항 옆에 새 조항에서 남는 직무를 놓는다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH014-visual",
+            "subject": "개정 법률 원문·한국 검찰 기관 원본 사진",
+            "action": "삭제 조항 옆에 새 조항에서 남는 직무를 놓는다",
+            "role": "independent-layer",
+            "specificity": "korea-institution",
+            "queries_ko": [
+              "개정 법률 원문 한국 검찰 기관"
+            ],
+            "queries_en": [
+              "South Korea police prosecution official building photo",
+              "Korean government records source photo"
+            ],
+            "provider_routes": [
+              "korean-official-open-item",
+              "kogl-photo",
+              "commons-object"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "korean-institution",
+            "place_context": "대한민국 해당 기관의 정확한 metadata",
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "개정 법률 원문·한국 검찰 기관 원본 사진",
+                "action": "삭제 조항 옆에 새 조항에서 남는 직무를 놓는다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH014-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/13",
+      "narration": "그렇다고 검사의 모든 법적 역할이 사라진다고 말하면 범위를 넘어섭니다. 같은 개정문은 새 제195조 제2항에 검사의 직무를 따로 적어 둡니다.",
+      "visual_purpose": "새 제195조 제2항의 직무: 삭제 조항 옆에 새 조항에서 남는 직무를 놓는다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh014-visual-input",
+        "sh014-law-195-evidence",
+        "sh014-law-196-evidence"
+      ],
+      "source_ids": [
+        "LAW-195",
+        "LAW-196"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "삭제 조항 옆에 새 조항에서 남는 직무를 놓는다",
+      "transition_out": "cut when the narration meaning changes"
+    },
+    {
+      "shot_id": "SH015",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "남는 검사의 구체적 직무는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "남는 검사의 구체적 직무",
+        "observable_action": "영장 청구·보완수사요구·재수사요구를 정확히 구분한다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH015-visual",
+            "subject": "개정 법률 원문·한국 기관 원본 사진",
+            "action": "영장 청구·보완수사요구·재수사요구를 정확히 구분한다",
+            "role": "independent-layer",
+            "specificity": "korea-institution",
+            "queries_ko": [
+              "개정 법률 원문 한국 기관"
+            ],
+            "queries_en": [
+              "South Korea police prosecution official building photo",
+              "Korean government records source photo"
+            ],
+            "provider_routes": [
+              "korean-official-open-item",
+              "kogl-photo",
+              "commons-object"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "korean-institution",
+            "place_context": "대한민국 해당 기관의 정확한 metadata",
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "개정 법률 원문·한국 기관 원본 사진",
+                "action": "영장 청구·보완수사요구·재수사요구를 정확히 구분한다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH015-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/14",
+      "narration": "그 직무에는 사법경찰관의 수사에 관한 영장의 청구가 포함됩니다. 그리고 보완수사요구와 재수사요구도 포함됩니다.",
+      "visual_purpose": "남는 검사의 구체적 직무: 영장 청구·보완수사요구·재수사요구를 정확히 구분한다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh015-visual-input",
+        "sh015-law-195-evidence"
+      ],
+      "source_ids": [
+        "LAW-195"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "영장 청구·보완수사요구·재수사요구를 정확히 구분한다",
+      "transition_out": "cut when the narration meaning changes"
+    }
+  ],
+  "closing_cuts": [
+    {
+      "shot_id": "SH029",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "공포일과 시행 예정일는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "공포일과 시행 예정일",
+        "observable_action": "2026년 8월 4일 공포와 10월 2일 시행 예정일을 대조한다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH029-visual",
+            "subject": "법률 원문·달력 원본 사진",
+            "action": "2026년 8월 4일 공포와 10월 2일 시행 예정일을 대조한다",
+            "role": "independent-layer",
+            "specificity": "generic-object",
+            "queries_ko": [
+              "법률 원문 달력"
+            ],
+            "queries_en": [
+              "document review hands close up",
+              "case file folder evidence review",
+              "calendar and document source photo"
+            ],
+            "provider_routes": [
+              "commons-object",
+              "kogl-photo",
+              "kogl-video",
+              "pexels-generic-last"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "generic-evidence-object",
+            "place_context": null,
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "법률 원문·달력 원본 사진",
+                "action": "2026년 8월 4일 공포와 10월 2일 시행 예정일을 대조한다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH029-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/28",
+      "narration": "시행일도 함께 봐야 합니다. 법률 제21857호는 2026년 8월 4일 공포됐고, 주요 개정은 2026년 10월 2일부터 시행될 예정입니다.",
+      "visual_purpose": "공포일과 시행 예정일: 2026년 8월 4일 공포와 10월 2일 시행 예정일을 대조한다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh029-visual-input",
+        "sh029-law-trans-evidence",
+        "sh029-bill-2220257-evidence"
+      ],
+      "source_ids": [
+        "LAW-TRANS",
+        "BILL-2220257"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "2026년 8월 4일 공포와 10월 2일 시행 예정일을 대조한다",
+      "transition_out": "cut when the narration meaning changes",
+      "transition_in": "generated from SH029 presentation contract",
+      "final_hold": "60 frame stable reading hold"
+    },
+    {
+      "shot_id": "SH030",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "조항별 시행과 기존 사건 적용는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "조항별 시행과 기존 사건 적용",
+        "observable_action": "시행 시점과 이미 맡은 사건의 적용례를 나눈다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH030-visual",
+            "subject": "법률 원문·사건 기록 원본 사진",
+            "action": "시행 시점과 이미 맡은 사건의 적용례를 나눈다",
+            "role": "independent-layer",
+            "specificity": "generic-object",
+            "queries_ko": [
+              "법률 원문 사건 기록"
+            ],
+            "queries_en": [
+              "document review hands close up",
+              "case file folder evidence review",
+              "calendar and document source photo"
+            ],
+            "provider_routes": [
+              "commons-object",
+              "kogl-photo",
+              "kogl-video",
+              "pexels-generic-last"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "generic-evidence-object",
+            "place_context": null,
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "법률 원문·사건 기록 원본 사진",
+                "action": "시행 시점과 이미 맡은 사건의 적용례를 나눈다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH030-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/29",
+      "narration": "공포된 날과 실제 절차가 바뀌는 날은 같지 않을 수 있으므로 조항별 시행일을 확인해야 합니다. 날짜 하나만 보고 모든 사건의 적용을 단정할 수 없습니다. 시행 당시 이미 검사가 맡고 있던 사건에는 별도의 적용례와 부칙이 붙습니다.",
+      "visual_purpose": "조항별 시행과 기존 사건 적용: 시행 시점과 이미 맡은 사건의 적용례를 나눈다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh030-visual-input",
+        "sh030-law-trans-evidence"
+      ],
+      "source_ids": [
+        "LAW-TRANS"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "시행 시점과 이미 맡은 사건의 적용례를 나눈다",
+      "transition_out": "cut when the narration meaning changes",
+      "transition_in": "generated from SH030 presentation contract",
+      "final_hold": "60 frame stable reading hold"
+    },
+    {
+      "shot_id": "SH031",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "조건부 90일 경과조치는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "조건부 90일 경과조치",
+        "observable_action": "공소시효 임박·불가피한 경우와 90일 한계를 묶는다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH031-visual",
+            "subject": "법률 원문·달력 원본 사진",
+            "action": "공소시효 임박·불가피한 경우와 90일 한계를 묶는다",
+            "role": "independent-layer",
+            "specificity": "generic-object",
+            "queries_ko": [
+              "법률 원문 달력"
+            ],
+            "queries_en": [
+              "document review hands close up",
+              "case file folder evidence review",
+              "calendar and document source photo"
+            ],
+            "provider_routes": [
+              "commons-object",
+              "kogl-photo",
+              "kogl-video",
+              "pexels-generic-last"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "generic-evidence-object",
+            "place_context": null,
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "법률 원문·달력 원본 사진",
+                "action": "공소시효 임박·불가피한 경우와 90일 한계를 묶는다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH031-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/30",
+      "narration": "종전 규정으로 검사가 수사 중인 사건 가운데 공소시효가 임박했거나 사건 성질상 불가피한 경우에는 시행일부터 최대 90일의 경과조치가 있습니다. 이 90일은 모든 사건에 열려 있는 일반적인 연장이 아닙니다.",
+      "visual_purpose": "조건부 90일 경과조치: 공소시효 임박·불가피한 경우와 90일 한계를 묶는다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh031-visual-input",
+        "sh031-law-trans-application-evidence"
+      ],
+      "source_ids": [
+        "LAW-TRANS-APPLICATION"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "공소시효 임박·불가피한 경우와 90일 한계를 묶는다",
+      "transition_out": "cut when the narration meaning changes",
+      "transition_in": "generated from SH031 presentation contract",
+      "final_hold": "60 frame stable reading hold"
+    },
+    {
+      "shot_id": "SH032",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "시행 뒤 확인할 결과의 빈자리는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "시행 뒤 확인할 결과의 빈자리",
+        "observable_action": "시행일과 이후 자료의 미확정을 분리해 질문으로 남긴다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH032-visual",
+            "subject": "달력과 사건 기록 원본 사진",
+            "action": "시행일과 이후 자료의 미확정을 분리해 질문으로 남긴다",
+            "role": "independent-layer",
+            "specificity": "generic-object",
+            "queries_ko": [
+              "달력과 사건 기록"
+            ],
+            "queries_en": [
+              "document review hands close up",
+              "case file folder evidence review",
+              "calendar and document source photo"
+            ],
+            "provider_routes": [
+              "commons-object",
+              "kogl-photo",
+              "kogl-video",
+              "pexels-generic-last"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "generic-evidence-object",
+            "place_context": null,
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "달력과 사건 기록 원본 사진",
+                "action": "시행일과 이후 자료의 미확정을 분리해 질문으로 남긴다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH032-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/31",
+      "narration": "그리고 시행 전인 지금은 실제 처리 속도나 피해 회복 결과를 말할 자료가 없습니다. 법 조문만으로 현장의 속도를 미리 계산할 수도 없습니다. 그 결과는 시행 뒤 사건 처리 자료로 확인해야 할 질문으로 남습니다.",
+      "visual_purpose": "시행 뒤 확인할 결과의 빈자리: 시행일과 이후 자료의 미확정을 분리해 질문으로 남긴다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh032-visual-input",
+        "sh032-law-trans-evidence"
+      ],
+      "source_ids": [
+        "LAW-TRANS"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "시행일과 이후 자료의 미확정을 분리해 질문으로 남긴다",
+      "transition_out": "cut when the narration meaning changes",
+      "transition_in": "generated from SH032 presentation contract",
+      "final_hold": "60 frame stable reading hold"
+    },
+    {
+      "shot_id": "SH033",
+      "production_mode": "omni",
+      "production_decision": {
+        "version": 1,
+        "mode": "omni",
+        "purpose": "fictional-action",
+        "reason": "처음 사례의 빠진 기록 재등장는 대본 의미로 선택한 omni 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "처음 사례의 빠진 기록 재등장",
+        "observable_action": "가상 기록의 계좌·CCTV 누락을 처음 상자와 이어 보여준다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "한 화면의 실제 행동 또는 명시적 가상 사건을 임의 그래픽으로 대체하지 않는다.",
+          "omni": "선택됨: 가상 사건의 연속 keyframe만 계획한다."
+        },
+        "continuity_group": "ep001-fictional-purchase-delivery-report",
+        "asset_search_briefs": [],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/32",
+      "narration": "다시 처음의 중고 노트북 사건에 이 흐름을 넣어 보겠습니다. 경찰이 사건을 수사해 기록을 검사에게 보냈지만, 판매자의 다른 계좌와 CCTV 확인이 빠져 있습니다.",
+      "visual_purpose": "처음 사례의 빠진 기록 재등장: 가상 기록의 계좌·CCTV 누락을 처음 상자와 이어 보여준다",
+      "background": "full-frame-fictional-keyframe-input",
+      "assets": [
+        "sh033-keyframe-1",
+        "sh033-keyframe-2"
+      ],
+      "source_ids": [
+        "FICTION-SH033"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "가상 기록의 계좌·CCTV 누락을 처음 상자와 이어 보여준다",
+      "transition_out": "cut when the narration meaning changes",
+      "transition_in": "generated from SH033 presentation contract",
+      "final_hold": "60 frame stable reading hold"
+    },
+    {
+      "shot_id": "SH034",
+      "production_mode": "remotion",
+      "production_decision": {
+        "version": 1,
+        "mode": "remotion",
+        "purpose": "explanation",
+        "reason": "구체적인 요구 경로의 회수는 대본 의미로 선택한 remotion 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "구체적인 요구 경로의 회수",
+        "observable_action": "계좌·CCTV를 직접 수사하는 설명과 보완 요구 경로를 대비한다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "선택됨: 출처 원본과 별도 텍스트 표면을 결합한다.",
+          "omni": "법률·실제 기관·업무 행동을 생성 장면으로 증거화하지 않는다."
+        },
+        "continuity_group": null,
+        "asset_search_briefs": [
+          {
+            "brief_id": "SH034-visual",
+            "subject": "한국 기관·계좌·CCTV 원본 사진",
+            "action": "계좌·CCTV를 직접 수사하는 설명과 보완 요구 경로를 대비한다",
+            "role": "independent-layer",
+            "specificity": "korea-institution",
+            "queries_ko": [
+              "한국 기관 계좌 CCTV"
+            ],
+            "queries_en": [
+              "South Korea police prosecution official building photo",
+              "Korean government records source photo"
+            ],
+            "provider_routes": [
+              "korean-official-open-item",
+              "kogl-photo",
+              "commons-object"
+            ],
+            "media_types": [
+              "photo"
+            ],
+            "exclusions": [
+              "웹페이지·뉴스·법률 캡처 픽셀은 근거 확인 전용",
+              "권리 미확인 원본 또는 다른 사건을 해당 사건 증거로 제시하지 않음",
+              "같은 원본의 크롭·인접 구간을 새 원본으로 계산하지 않음"
+            ],
+            "subject_family": "korean-institution",
+            "place_context": "대한민국 해당 기관의 정확한 metadata",
+            "viewpoint": "대상과 행동이 실제로 식별되는 장면 또는 독립 asset 원본",
+            "required_evidence": [
+              {
+                "subject": "한국 기관·계좌·CCTV 원본 사진",
+                "action": "계좌·CCTV를 직접 수사하는 설명과 보완 요구 경로를 대비한다",
+                "dimension": "subject-action-viewpoint"
+              }
+            ]
+          },
+          {
+            "brief_id": "SH034-law-evidence",
+            "subject": "개정 법률 정확 원문",
+            "action": "대본 사실·문구를 화면 밖 원본에서 확인한다",
+            "role": "off-canvas-evidence",
+            "specificity": "exact-source",
+            "queries_ko": [
+              "국가법령정보센터 형사소송법 법률 제21857호"
+            ],
+            "queries_en": [],
+            "provider_routes": [
+              "korean-official-open-item"
+            ],
+            "exclusions": [
+              "캡처 픽셀의 생산 화면 사용"
+            ],
+            "subject_family": "statutory-source",
+            "media_types": [
+              "photo"
+            ]
+          }
+        ],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "raster-free-native-procedure-surface",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "korea-institution"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/33",
+      "narration": "개정 뒤 이 장면의 핵심은 검사가 그 계좌와 CCTV를 직접 수사한다는 일반적인 설명이 아닙니다. 빠진 항목과 확인 이유를 특정해 수사기관에 보완수사를 요구하는 경로입니다.",
+      "visual_purpose": "구체적인 요구 경로의 회수: 계좌·CCTV를 직접 수사하는 설명과 보완 요구 경로를 대비한다",
+      "background": "raster-free-native-procedure-surface",
+      "assets": [
+        "sh034-visual-input",
+        "sh034-law-195-evidence",
+        "sh034-law-196-evidence",
+        "sh034-law-1972-evidence"
+      ],
+      "source_ids": [
+        "LAW-195",
+        "LAW-196",
+        "LAW-1972"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "계좌·CCTV를 직접 수사하는 설명과 보완 요구 경로를 대비한다",
+      "transition_out": "cut when the narration meaning changes",
+      "transition_in": "generated from SH034 presentation contract",
+      "final_hold": "60 frame stable reading hold"
+    },
+    {
+      "shot_id": "SH035",
+      "production_mode": "omni",
+      "production_decision": {
+        "version": 1,
+        "mode": "omni",
+        "purpose": "fictional-action",
+        "reason": "가상 사례의 확인과 결과 통보는 대본 의미로 선택한 omni 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "가상 사례의 확인과 결과 통보",
+        "observable_action": "가상 확인 행동과 결과 회신을 이어 보여주되 미래 실제 성과로 주장하지 않는다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "한 화면의 실제 행동 또는 명시적 가상 사건을 임의 그래픽으로 대체하지 않는다.",
+          "omni": "선택됨: 가상 사건의 연속 keyframe만 계획한다."
+        },
+        "continuity_group": "ep001-fictional-purchase-delivery-report",
+        "asset_search_briefs": [],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/34",
+      "narration": "수사기관은 요구받은 계좌와 CCTV, 배송 기록을 확인하고 그 결과를 보냅니다. 원칙적인 기준은 한 달이지만, 별도 기간과 법이 정한 연장 가능성을 함께 봐야 합니다.",
+      "visual_purpose": "가상 사례의 확인과 결과 통보: 가상 확인 행동과 결과 회신을 이어 보여주되 미래 실제 성과로 주장하지 않는다",
+      "background": "full-frame-fictional-keyframe-input",
+      "assets": [
+        "sh035-law-1972-evidence",
+        "sh035-keyframe-1",
+        "sh035-keyframe-2"
+      ],
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "가상 확인 행동과 결과 회신을 이어 보여주되 미래 실제 성과로 주장하지 않는다",
+      "transition_out": "cut when the narration meaning changes",
+      "transition_in": "generated from SH035 presentation contract",
+      "final_hold": "60 frame stable reading hold"
+    },
+    {
+      "shot_id": "SH036",
+      "production_mode": "omni",
+      "production_decision": {
+        "version": 1,
+        "mode": "omni",
+        "purpose": "fictional-action",
+        "reason": "상자로 돌아오는 최종 질문는 대본 의미로 선택한 omni 제작 방식이다. 자료 미확보가 선택 이유가 아니다.",
+        "visible_subject": "상자로 돌아오는 최종 질문",
+        "observable_action": "다른 계좌와 택배 접수 장소 CCTV가 실제로 확인됐는지 묻는다",
+        "rejected_modes": {
+          "live_action": "정확한 관계·조건 또는 가상 연속성을 실제 사건 화면으로 가장하지 않는다.",
+          "motion_graphics": "한 화면의 실제 행동 또는 명시적 가상 사건을 임의 그래픽으로 대체하지 않는다.",
+          "omni": "선택됨: 가상 사건의 연속 keyframe만 계획한다."
+        },
+        "continuity_group": "ep001-fictional-purchase-delivery-report",
+        "asset_search_briefs": [],
+        "reuse_reason": null,
+        "existing_selection_status": "all-prior-selections-superseded-pending-new-review",
+        "human_review_status": "pending",
+        "search_completion_status": "pending-action-view-specific-source-selection"
+      },
+      "media_strategy": {
+        "dominant_surface": "full-frame-fictional-keyframe-input",
+        "source_contract": {
+          "status": "pending-item-level-source-review",
+          "specificity": "generic-object"
+        },
+        "visual_treatment": {
+          "status": "pending-source-ready-style-frame-review"
+        },
+        "motion_contract": {
+          "status": "blocked-action-intent-only"
+        }
+      },
+      "narration_ref": "narration-plan.json#/cuts/35",
+      "narration": "결국 중요한 것은 서류가 몇 번 오갔는지가 아니라, 빠진 확인을 누가 요구했고 실제로 수행했는지입니다. 그 이행 결과가 다음 판단의 근거가 됩니다. 처음의 상자로 돌아가면 답은 하나의 약속이 아니라, 판매자의 다른 계좌와 택배 접수 장소의 CCTV가 실제로 확인됐는지에서 드러납니다. 그 질문을 끝까지 확인하는 것이 이 개정의 실제 의미를 판단하는 출발점입니다.",
+      "visual_purpose": "상자로 돌아오는 최종 질문: 다른 계좌와 택배 접수 장소 CCTV가 실제로 확인됐는지 묻는다",
+      "background": "full-frame-fictional-keyframe-input",
+      "assets": [
+        "sh036-law-1972-evidence",
+        "sh036-keyframe-1",
+        "sh036-keyframe-2"
+      ],
+      "source_ids": [
+        "LAW-1972"
+      ],
+      "source_status": "blocked; see episode-spec requirements",
+      "effects": [],
+      "visual_action": "다른 계좌와 택배 접수 장소 CCTV가 실제로 확인됐는지 묻는다",
+      "transition_out": "hold the final question for reading",
+      "transition_in": "generated from SH036 presentation contract",
+      "final_hold": "60 frame stable reading hold"
+    }
+  ],
+  "continuation": {
+    "shot_ids": "SH016–SH036",
+    "all_shot_ids": [
+      "SH016",
+      "SH017",
+      "SH018",
+      "SH019",
+      "SH020",
+      "SH021",
+      "SH022",
+      "SH023",
+      "SH024",
+      "SH025",
+      "SH026",
+      "SH027",
+      "SH028",
+      "SH029",
+      "SH030",
+      "SH031",
+      "SH032",
+      "SH033",
+      "SH034",
+      "SH035",
+      "SH036"
+    ],
+    "source_of_truth": "episode-spec.json",
+    "rule": "compatibility output only; source, narration, beats and transitions are generated from episode-spec.json",
+    "required_transition": "전환은 episode-spec의 cut별 intent를 따르며, pair artifact 검수 전에는 morph나 scene-to-scene 구현을 주장하지 않는다."
+  },
+  "production_gates": [
+    "new full script awaits user review; the favored opening alone is not a full-script PASS",
+    "all media requires scene/timecode and item-level source/rights/semantic review",
+    "source-photo/source-video actual context only; captured webpage/legal pixels remain off-canvas evidence",
+    "Omni keyframes only until every cut receives user cut PASS"
+  ]
+}

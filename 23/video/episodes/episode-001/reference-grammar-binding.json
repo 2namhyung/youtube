@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "grammar_contract": {
+    "path": "video/episodes/episode-001/reference-grammar-contract.json",
+    "sha256": "cbee56dee9e0f509f5e64be5300acbb1056013874146dcd81ed5da1cd103458e"
+  },
+  "status": "approved-human-grammar",
+  "approval_marker": {
+    "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-grammar-approval-v02.json",
+    "sha256": "6afd7ab52346efe4cec144091cd657feb851f0993ba2b6bde69f29b5764a8e8b"
+  },
+  "calibration_approval_marker": {
+    "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-calibration-approval-v02.json",
+    "sha256": "0e2ab88c1565109f702233787a16c820f4c4924629fb1f9f3191e69b9f316a93"
+  },
+  "supersession": {
+    "path": "video/qa/reference-study/motion-reverse-engineering-review-v02/reference-calibration-supersession.json",
+    "sha256": "165176df6f99e666cf21f9ccdec665b4446058c319d160aadcc72d9f2a252a25"
+  }
+}

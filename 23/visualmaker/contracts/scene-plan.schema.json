@@ -1,0 +1,935 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/visual-director/scene-plan-v0.2.schema.json",
+  "title": "Visual Director v0.2 — proposed editable planning contract",
+  "description": "Design reference, not an upstream schema or a complete production API contract. Cross-reference, template-prop and publishing validation is performed in validate_design.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": "visual-director-plan-v0.2"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20000
+    },
+    "video": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "fps": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 120
+        }
+      },
+      "required": [
+        "width",
+        "height",
+        "fps"
+      ]
+    },
+    "script": {
+      "$ref": "#/$defs/script"
+    },
+    "beats": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/beat"
+      },
+      "minItems": 1,
+      "maxItems": 1000
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      },
+      "minItems": 0,
+      "maxItems": 1000
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidence"
+      },
+      "minItems": 0,
+      "maxItems": 1000
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/asset"
+      },
+      "minItems": 0,
+      "maxItems": 1000
+    },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/requirement"
+      },
+      "minItems": 0,
+      "maxItems": 1000
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/scene"
+      },
+      "minItems": 1,
+      "maxItems": 1000
+    },
+    "compiledTimeline": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/timing"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "id",
+    "revision",
+    "title",
+    "video",
+    "script",
+    "beats",
+    "claims",
+    "evidence",
+    "assets",
+    "requirements",
+    "scenes",
+    "compiledTimeline"
+  ],
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,95}$"
+    },
+    "segment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "start": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        }
+      },
+      "required": [
+        "id",
+        "start",
+        "end",
+        "text"
+      ]
+    },
+    "script": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "rawText": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "rawSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "segments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/segment"
+          },
+          "minItems": 1,
+          "maxItems": 1000
+        },
+        "spokenText": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "spokenSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "spokenApproval": {
+          "enum": [
+            "draft",
+            "approved"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "rawText",
+        "rawSha256",
+        "segments",
+        "spokenText",
+        "spokenSha256",
+        "spokenApproval"
+      ]
+    },
+    "beat": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "segmentIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 1,
+          "maxItems": 1000
+        },
+        "intent": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "role": {
+          "enum": [
+            "context",
+            "explanation",
+            "comparison",
+            "process",
+            "emotion",
+            "evidence",
+            "transition"
+          ]
+        },
+        "claimIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 0,
+          "maxItems": 1000
+        }
+      },
+      "required": [
+        "id",
+        "segmentIds",
+        "intent",
+        "role",
+        "claimIds"
+      ]
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "kind": {
+          "enum": [
+            "factual",
+            "illustrative"
+          ]
+        },
+        "status": {
+          "enum": [
+            "unverified",
+            "supported",
+            "disputed"
+          ]
+        },
+        "evidenceIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 0,
+          "maxItems": 1000
+        }
+      },
+      "required": [
+        "id",
+        "text",
+        "kind",
+        "status",
+        "evidenceIds"
+      ]
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "sourceUri": {
+          "type": "string",
+          "format": "uri"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "checkedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "reviewStatus": {
+          "enum": [
+            "pending",
+            "checked"
+          ]
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 20000
+        }
+      },
+      "required": [
+        "id",
+        "sourceUri",
+        "locator",
+        "checkedAt",
+        "reviewStatus",
+        "note"
+      ]
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "unknown",
+            "needs_review",
+            "approved_for_use",
+            "rejected"
+          ]
+        },
+        "decisionId": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "basis": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 20000
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "licenseUri": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 20000
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "checkedAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 20000
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "creditText": {
+          "type": "string",
+          "maxLength": 20000
+        },
+        "allowCloudAnalysis": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "status",
+        "decisionId",
+        "basis",
+        "licenseUri",
+        "checkedAt",
+        "creditText",
+        "allowCloudAnalysis"
+      ]
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "mediaType": {
+          "enum": [
+            "video",
+            "image",
+            "svg",
+            "audio",
+            "data"
+          ]
+        },
+        "acquisition": {
+          "enum": [
+            "upload",
+            "stock",
+            "capture",
+            "generated",
+            "self_created"
+          ]
+        },
+        "sourceUri": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 20000
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "localPath": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 20000
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "contentSha256": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "availability": {
+          "enum": [
+            "candidate",
+            "available",
+            "missing"
+          ]
+        },
+        "rights": {
+          "$ref": "#/$defs/rights"
+        }
+      },
+      "required": [
+        "id",
+        "mediaType",
+        "acquisition",
+        "sourceUri",
+        "localPath",
+        "contentSha256",
+        "availability",
+        "rights"
+      ]
+    },
+    "requirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "mediaType": {
+          "enum": [
+            "video",
+            "image",
+            "svg",
+            "audio",
+            "data"
+          ]
+        },
+        "acquisition": {
+          "enum": [
+            "upload",
+            "stock",
+            "capture",
+            "generated",
+            "self_created"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "queryKo": {
+          "type": "string",
+          "maxLength": 20000
+        },
+        "queryEn": {
+          "type": "string",
+          "maxLength": 20000
+        },
+        "epistemicRole": {
+          "enum": [
+            "illustration",
+            "evidence"
+          ]
+        },
+        "assetId": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "mediaType",
+        "acquisition",
+        "description",
+        "queryKo",
+        "queryEn",
+        "epistemicRole",
+        "assetId"
+      ]
+    },
+    "layer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "kind": {
+          "enum": [
+            "media",
+            "template",
+            "text",
+            "character"
+          ]
+        },
+        "zIndex": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "assetId": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "requirementId": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "templateId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 20000
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "templateVersion": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 20000
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "props": {
+          "type": "object",
+          "maxProperties": 20
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "zIndex",
+        "assetId",
+        "requirementId",
+        "templateId",
+        "templateVersion",
+        "props"
+      ]
+    },
+    "cue": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "targetLayerId": {
+          "$ref": "#/$defs/id"
+        },
+        "segmentId": {
+          "$ref": "#/$defs/id"
+        },
+        "phrase": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "occurrence": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "operation": {
+          "enum": [
+            "reveal",
+            "highlight",
+            "move",
+            "fade",
+            "hold"
+          ]
+        }
+      },
+      "required": [
+        "targetLayerId",
+        "segmentId",
+        "phrase",
+        "occurrence",
+        "operation"
+      ]
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "startState": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "change": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "endState": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "layers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/layer"
+          },
+          "minItems": 1,
+          "maxItems": 16
+        },
+        "cues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/cue"
+          },
+          "minItems": 0,
+          "maxItems": 64
+        },
+        "effort": {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "effortBasis": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "apiEstimate": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "currency": {
+              "enum": [
+                "USD",
+                "KRW"
+              ]
+            },
+            "amount": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "basis": {
+              "type": "string",
+              "maxLength": 20000
+            },
+            "asOf": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "maxLength": 20000
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "currency",
+            "amount",
+            "basis",
+            "asOf"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "reason",
+        "startState",
+        "change",
+        "endState",
+        "layers",
+        "cues",
+        "effort",
+        "effortBasis",
+        "apiEstimate"
+      ]
+    },
+    "scene": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "beatIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 1,
+          "maxItems": 1000
+        },
+        "visualGroupId": {
+          "$ref": "#/$defs/id"
+        },
+        "candidates": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/candidate"
+          },
+          "minItems": 2,
+          "maxItems": 3
+        },
+        "selectedCandidateId": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "approval": {
+          "enum": [
+            "draft",
+            "approved"
+          ]
+        },
+        "lockedFields": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "selectedCandidateId",
+              "visualGroupId",
+              "notes"
+            ]
+          },
+          "minItems": 0,
+          "maxItems": 3
+        },
+        "durationEstimateSec": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 20000
+        }
+      },
+      "required": [
+        "id",
+        "order",
+        "beatIds",
+        "visualGroupId",
+        "candidates",
+        "selectedCandidateId",
+        "approval",
+        "lockedFields",
+        "durationEstimateSec",
+        "notes"
+      ]
+    },
+    "timing": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "audioTakeId": {
+          "$ref": "#/$defs/id"
+        },
+        "audioSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "sourceSpokenSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "status": {
+          "enum": [
+            "estimated",
+            "aligned",
+            "reviewed"
+          ]
+        },
+        "totalFrames": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "clips": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "sceneId": {
+                "$ref": "#/$defs/id"
+              },
+              "startFrame": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "durationFrames": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "sceneId",
+              "startFrame",
+              "durationFrames"
+            ]
+          },
+          "minItems": 1,
+          "maxItems": 1000
+        }
+      },
+      "required": [
+        "audioTakeId",
+        "audioSha256",
+        "sourceSpokenSha256",
+        "status",
+        "totalFrames",
+        "clips"
+      ]
+    }
+  }
+}
