@@ -440,8 +440,9 @@ export function validatePlan(value: unknown): Plan {
         decision: oneOf(item.decision, ['pending', 'acceptable', 'rejected'] as const, `sourceReviews[${index}].decision`),
         rationale: text(item.rationale, `sourceReviews[${index}].rationale`, 2_000).trim(),
         recordedAt: text(item.recordedAt, `sourceReviews[${index}].recordedAt`, 100),
-        recordedBy: oneOf(item.recordedBy, ['local-session'] as const, `sourceReviews[${index}].recordedBy`), productionAuthority: false};
+        recordedBy: oneOf(item.recordedBy, ['local-session','provider-license-policy'] as const, `sourceReviews[${index}].recordedBy`), productionAuthority: false};
       if (!review.rationale || item.productionAuthority !== false || !ISO.test(review.recordedAt) || Number.isNaN(Date.parse(review.recordedAt))) fail(`sourceReviews[${index}] has invalid review evidence`);
+      if(review.recordedBy==='provider-license-policy'&&(review.dimension!=='rights'||review.decision!=='acceptable'))fail(`sourceReviews[${index}] has invalid automated policy observation`);
       return review;
     });
     assertUnique(plan.sourceReviews.map(item => item.id), 'sourceReviews');

@@ -47,7 +47,7 @@ export function createImmediateGate(){
 }
 
 /** Exact browser projection of director.makeDraftScene for an adoption revision. Drift fails closed. */
-function expectedDraft(scene:Scene,beat:Beat,meaning:string,revision:number):{candidates:Candidate[];requirements:Requirement[]}{
+export function expectedDraft(scene:Scene,beat:Beat,meaning:string,revision:number):{candidates:Candidate[];requirements:Requirement[]}{
   const mode:CandidateMode=beat.role==='fiction'?'omni':beat.role==='comparison'?'remotion':
     beat.role==='process'?(/걷|달리|쓰|말하|움직|만들|방문|잡|확인|누르|열|엽|닫|이동|촬영|모으|수집|정리/iu.test(meaning)?
       'source-video':'remotion'):beat.role==='action'?'source-video':'source-photo';

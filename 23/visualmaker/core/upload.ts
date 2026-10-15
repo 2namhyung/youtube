@@ -4,7 +4,7 @@ import {spawnSync} from 'node:child_process';
 import path from 'node:path';
 import sharp from 'sharp';
 import {attachAssetBytes, dataRoot, getProject, StoreError} from './store.ts';
-import type {Asset} from './model.ts';
+import type {Asset,Plan,Requirement} from './model.ts';
 
 function checkedProbeDirectory(directory:string){
   const volume=path.parse(directory).root,parts=path.relative(volume,directory).split(path.sep).filter(Boolean);
@@ -80,7 +80,8 @@ export async function measureAssetBytes(bytes: Buffer, mediaType: Asset['mediaTy
 }
 
 export async function attachUpload(id: string, baseRevision: number, requirementId: string, bytes: Buffer, fields: Record<string,string>,
-  receiptExtension: Record<string,unknown> = {}, expectedMimeType?: string, signal?:AbortSignal) {
+  receiptExtension: Record<string,unknown> = {}, expectedMimeType?: string, signal?:AbortSignal,
+  afterAttach?: (plan:Plan,requirement:Requirement,asset:Asset)=>void) {
   if(signal?.aborted)throw new StoreError('자료 수집이 취소됐습니다.',409);
   const plan = getProject(id);
   if (plan.revision !== baseRevision) throw new StoreError('다른 창에서 수정되었습니다. 최신 내용을 불러오세요.',409);
@@ -102,5 +103,5 @@ export async function attachUpload(id: string, baseRevision: number, requirement
   const asset:Asset={id:`asset_${randomUUID()}`,originalName:path.basename(fields.originalName),mediaType,path:relativePath,sha256,mimeType,width,height,durationSeconds,
     sourceUrl:fields.sourceUrl,creator:fields.creator,rightsNote:fields.rightsNote,semanticNote:fields.semanticNote,status:'pending-review',
     evidenceOnly:mediaType==='data'||fields.evidenceOnly!=='false'};
-  return attachAssetBytes(id,baseRevision,requirementId,asset,bytes,receiptExtension,signal);
+  return attachAssetBytes(id,baseRevision,requirementId,asset,bytes,receiptExtension,signal,afterAttach);
 }

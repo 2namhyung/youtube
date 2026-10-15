@@ -5,6 +5,7 @@ import {reviewStates} from './director.ts';
 import type {Plan,Requirement} from './model.ts';
 import {acquireLiveProviderFile,searchLiveProvider} from '../../src/lib/live-source-providers.ts';
 import type {FetchLike,LiveMediaType,LiveProvider,ProviderCandidate} from '../../src/lib/live-source-providers.ts';
+import {applyAutomaticRights,issueRightsPolicy} from './automatic-rights.ts';
 
 export const LIVE_SOURCE_SCHEMA='visualmaker-live-source-v1' as const;
 type SearchInput={projectId:unknown;baseRevision:unknown;requirementId:unknown;provider:unknown;query:unknown;page:unknown;mediaType:unknown};
@@ -29,7 +30,7 @@ function validate(input:SearchInput){
   if(owningLocked(plan,requirement.id))throw new StoreError('잠긴 장면의 자료는 변경할 수 없습니다.',423);
   return {plan,requirement,provider,mediaType,query:input.query.trim(),page:input.page as number};
 }
-function publicCandidate(candidate:ProviderCandidate){const {downloadUrl:unused,...card}=candidate;void unused;return card;}
+function publicCandidate(candidate:ProviderCandidate){const {downloadUrl:unused,rightsEvidence:privateEvidence,...card}=candidate;void unused;void privateEvidence;return card;}
 export async function searchLiveSources(input:SearchInput,options:{fetcher?:FetchLike;signal?:AbortSignal}={}){
   const scope=validate(input);
   const candidates=(await searchLiveProvider({...scope,fetcher:options.fetcher,signal:options.signal})).map(publicCandidate);
@@ -57,7 +58,13 @@ export async function acquireLiveSource(input:AcquireInput,options:{fetcher?:Fet
     semanticNote:input.semanticNote.trim(),evidenceOnly:String(input.evidenceOnly)};
   const provenance={version:1,provider:scope.provider,providerId:candidate.providerId,itemUrl:candidate.itemUrl,query:scope.query,page:scope.page,
     metadataSha256:candidate.metadataSha256,retrievedAt:new Date().toISOString(),variant:file.variant,providerAssetHref:file.providerAssetHref,selectedAssetUrl:file.selectedAssetUrl,selectionSha256:file.selectionSha256,assetManifestSha256:file.assetManifestSha256,downloadSha256:file.downloadSha256,productionAuthority:false};
-  const plan=await attachUpload(current.plan.id,current.plan.revision,current.requirement.id,file.bytes,fields,{liveSourceProvenance:provenance},file.mime,options.signal);
+  const policy=scope.provider==='wikimedia'&&candidate.rightsEvidence?issueRightsPolicy({provider:'wikimedia',providerId:candidate.providerId,itemUrl:candidate.itemUrl,
+    metadataSha256:candidate.metadataSha256,...candidate.rightsEvidence,retrievedAt:provenance.retrievedAt,
+    selectionSha256:file.selectionSha256,downloadSha256:file.downloadSha256}):null;
+  const receipt=policy?{liveSourceProvenance:provenance,automaticRightsPolicy:{version:1,license:policy.license,evidence:policy.evidence,
+    assetSha256:file.downloadSha256,productionAuthority:false}}:{liveSourceProvenance:provenance};
+  const plan=await attachUpload(current.plan.id,current.plan.revision,current.requirement.id,file.bytes,fields,receipt,file.mime,options.signal,
+    policy?(next,requirement,asset)=>{applyAutomaticRights(next,requirement,asset,policy);}:undefined);
   const assetId=plan.requirements.find(row=>row.id===current.requirement.id)?.assetId;
   if(!assetId)throw new StoreError('등록된 자료를 확인할 수 없습니다.',409);
   return {schemaVersion:LIVE_SOURCE_SCHEMA,scope:scoped(plan,current.requirement),assetId,inputSha256:file.downloadSha256,metadataSha256:candidate.metadataSha256,selectionSha256:file.selectionSha256,variant:file.variant,productionAuthority:false as const,plan,sourceReviewStates:reviewStates(plan)};

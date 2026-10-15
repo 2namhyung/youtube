@@ -110,7 +110,7 @@ export type SourceReview = {
   decision: SourceReviewDecision;
   rationale: string;
   recordedAt: string;
-  recordedBy: 'local-session';
+  recordedBy: 'local-session'|'provider-license-policy';
   productionAuthority: false;
 };
 export type SourceReviewState = {requirementId: string; assetId: string | null; contextSha256: string;

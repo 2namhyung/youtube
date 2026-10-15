@@ -26,8 +26,8 @@ function Requirements({items}:{items:AdoptionReport['scenes'][number]['selectedR
       <dl><dt>출처 URL</dt><dd>{item.asset.sourceUrl}</dd><dt>제작자</dt><dd>{item.asset.creator}</dd>
         <dt>사용 조건 기록</dt><dd>{item.asset.rightsNote}</dd><dt>의미 기록</dt><dd>{item.asset.semanticNote}</dd></dl></div>:<p>연결된 자료 없음</p>}
     {item.sourceReviewState?<div><p>현재 작업용 관찰 · 제작 자료 승인 아님</p>
-      <ul>{(['source','rights','semantic'] as const).map(dimension=>{const current=item.sourceReviewState?.current[dimension];return <li key={dimension}><b>{label(dimension)}</b> · {current?label(current.decision):'기록 없음'}{current?<><span> · {current.rationale}</span><small> · {current.recordedAt}</small></>:null}</li>;})}</ul>
-      {item.sourceReviewState.history.length?<details><summary>이전 관찰 {item.sourceReviewState.history.length}건</summary><ol>{item.sourceReviewState.history.map(entry=><li key={entry.id}>{label(entry.dimension)} · {label(entry.decision)} · {entry.rationale} · {entry.recordedAt} · 자료 SHA-256 {entry.assetSha256}</li>)}</ol></details>:null}</div>:null}
+      <ul>{(['source','rights','semantic'] as const).map(dimension=>{const current=item.sourceReviewState?.current[dimension];return <li key={dimension}><b>{label(dimension)}</b> · {current?label(current.decision):'기록 없음'}{current?<><span> · {current.recordedBy==='provider-license-policy'?'제공처 라이선스 자동 판정 · ':''}{current.rationale}</span><small> · {current.recordedAt}</small></>:null}</li>;})}</ul>
+      {item.sourceReviewState.history.length?<details><summary>이전 관찰 {item.sourceReviewState.history.length}건</summary><ol>{item.sourceReviewState.history.map(entry=><li key={entry.id}>{label(entry.dimension)} · {label(entry.decision)} · {entry.recordedBy==='provider-license-policy'?'제공처 라이선스 자동 판정 · ':''}{entry.rationale} · {entry.recordedAt} · 자료 SHA-256 {entry.assetSha256}</li>)}</ol></details>:null}</div>:null}
   </li>)}</ul> : <p>선택한 방향의 자료 요구 없음</p>;
 }
 

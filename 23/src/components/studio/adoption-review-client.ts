@@ -21,7 +21,8 @@ const statePath = 'video/episodes/episode-001/production-state.json';
 function validReview(value:unknown):boolean {
   return object(value) && falseFlag(value) && string(value.id) && string(value.requirementId) && string(value.assetId) &&
     sha(value.assetSha256) && sha(value.contextSha256) && ['source','rights','semantic'].includes(String(value.dimension)) &&
-    ['pending','acceptable','rejected'].includes(String(value.decision)) && string(value.rationale) && string(value.recordedAt) && value.recordedBy === 'local-session';
+    ['pending','acceptable','rejected'].includes(String(value.decision)) && string(value.rationale) && string(value.recordedAt) &&
+    (value.recordedBy==='local-session'||value.recordedBy==='provider-license-policy'&&value.dimension==='rights'&&value.decision==='acceptable');
 }
 
 function validRequirement(value:unknown):boolean {

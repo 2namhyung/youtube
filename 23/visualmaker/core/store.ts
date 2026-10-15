@@ -4,7 +4,7 @@ import path from 'node:path';
 import {createHash, randomUUID} from 'node:crypto';
 import {applyCommand, validatePlan} from './director.ts';
 import {createManualTimingDraft} from './narration-timing.ts';
-import type {Asset, Command, NarrationTake, NarrationTiming, Plan} from './model.ts';
+import type {Asset, Command, NarrationTake, NarrationTiming, Plan,Requirement} from './model.ts';
 
 export class StoreError extends Error {
   status: number;
@@ -133,7 +133,8 @@ export function updateProject(id: string, baseRevision: number, command: Command
 
 /** Bind an already decoded original and its receipt to a Plan in one transaction. */
 export function attachAssetBytes(id: string, baseRevision: number, requirementId: string, asset: Asset, bytes: Buffer,
-  receiptExtension: Record<string, unknown> = {},signal?:AbortSignal): Plan {
+  receiptExtension: Record<string, unknown> = {},signal?:AbortSignal,
+  afterAttach?: (plan:Plan,requirement:Requirement,asset:Asset)=>void): Plan {
   const db = openDb();
   let ownedAsset: string | null = null;
   let ownedReceipt: string | null = null;
@@ -150,6 +151,10 @@ export function attachAssetBytes(id: string, baseRevision: number, requirementId
       asset.path !== `assets/${asset.sha256}.${asset.path.split('.').at(-1)}` ||
       createHash('sha256').update(bytes).digest('hex') !== asset.sha256) throw new StoreError('자료 바이트가 검증 기록과 다릅니다.', 409);
     const next = applyCommand(current, {type:'attach-asset',requirementId,asset});
+    const attachedRequirement=next.requirements.find(item=>item.id===requirementId);
+    if(!attachedRequirement)throw new StoreError('자료 요구를 찾을 수 없습니다.',409);
+    afterAttach?.(next,attachedRequirement,asset);
+    validatePlan(next);
     const root = realpathSync(dataRoot());
     for (const name of ['assets','receipts']) {
       mkdirSync(path.join(root,name),{recursive:true});

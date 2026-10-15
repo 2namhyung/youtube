@@ -77,12 +77,17 @@ export function validLiveAcquire(value:unknown,scope:LiveScope,selected:LiveCand
     !exactKeys(state.current,['source','rights','semantic']))return false;
   return (['source','rights','semantic'] as const).every(dimension=>{
     const row=state.current[dimension];
-    if(!isRecord(row)||row.productionAuthority!==false||row.decision!=='pending'||row.dimension!==dimension||
+    if(!isRecord(row)||row.productionAuthority!==false||
+      !(dimension==='rights'&&row.decision==='acceptable'&&row.recordedBy==='provider-license-policy'||
+        row.decision==='pending'&&row.recordedBy==='local-session')||row.dimension!==dimension||
       row.requirementId!==scope.requirementId||row.assetId!==value.assetId||row.assetSha256!==value.inputSha256||
       row.contextSha256!==state.contextSha256||!bounded(row.id,200)||!bounded(row.rationale,4000)||
-      row.recordedBy!=='local-session')return false;
+      (dimension!=='rights'&&row.recordedBy!=='local-session'))return false;
+    if(row.recordedBy==='provider-license-policy'&&
+      (selected.publisher!=='Wikimedia Commons'||!selected.itemUrl.startsWith('https://commons.wikimedia.org/wiki/')||
+        !(row.rationale as string).includes(selected.metadataSha256)||!(row.rationale as string).includes(value.selectionSha256 as string)))return false;
     const latest=[...plan.sourceReviews!].reverse().find(item=>item.requirementId===scope.requirementId&&item.assetId===value.assetId&&
       item.assetSha256===value.inputSha256&&item.contextSha256===state.contextSha256&&item.dimension===dimension);
-    return !!latest&&latest.id===row.id&&latest.decision==='pending'&&latest.productionAuthority===false;
+    return !!latest&&JSON.stringify(latest)===JSON.stringify(row);
   });
 }

@@ -1,11 +1,12 @@
 import {createHash} from 'node:crypto';
 import {StoreError} from '../../visualmaker/core/store.ts';
+import type {RightsEvidence} from '../../visualmaker/core/automatic-rights.ts';
 
 export type LiveProvider='wikimedia'|'nasa'|'loc';
 export type LiveMediaType='image'|'video';
 export type LiveVariant={kind:'original'|'published-asset'|'derivative-or-unknown';label:string};
 export type LiveCandidate={providerId:string;itemUrl:string;title:string;creator:string;publisher:string;license:string;rightsStatus:string;mediaType:LiveMediaType;width:number|null;height:number|null;variant:LiveVariant;metadataSha256:string};
-export type ProviderCandidate=LiveCandidate&{downloadUrl:string|null};
+export type ProviderCandidate=LiveCandidate&{downloadUrl:string|null;rightsEvidence?:Pick<RightsEvidence,'licenseLabel'|'licenseUrl'|'licenseCode'|'creator'|'artistRaw'|'usageTerms'>};
 export type FetchLike=(input:string|URL|Request,init?:RequestInit)=>Promise<Response>;
 export type ProviderRequest={provider:LiveProvider;mediaType:LiveMediaType;query:string;page:number;signal?:AbortSignal;fetcher?:FetchLike};
 const MAX_JSON=1_000_000,MAX_MEDIA=40_000_000,MAX_ROWS=12;
@@ -27,7 +28,7 @@ function nasaManifestAssetHref(value:unknown):{providerHref:string;downloadUrl:s
   return downloadUrl?{providerHref:value,downloadUrl}:null;
 }
 function card(row:Omit<ProviderCandidate,'metadataSha256'>):ProviderCandidate{
-  return {...row,metadataSha256:fingerprint({providerId:row.providerId,itemUrl:row.itemUrl,title:row.title,creator:row.creator,publisher:row.publisher,license:row.license,rightsStatus:row.rightsStatus,mediaType:row.mediaType,width:row.width,height:row.height,variant:row.variant,downloadUrl:row.downloadUrl})};
+  return {...row,metadataSha256:fingerprint({providerId:row.providerId,itemUrl:row.itemUrl,title:row.title,creator:row.creator,publisher:row.publisher,license:row.license,rightsStatus:row.rightsStatus,mediaType:row.mediaType,width:row.width,height:row.height,variant:row.variant,downloadUrl:row.downloadUrl,rightsEvidence:row.rightsEvidence??null})};
 }
 function commons(payload:unknown,mediaType:LiveMediaType):ProviderCandidate[]{
   const pages=obj(obj(payload).query).pages;const rows=Array.isArray(pages)?pages:Object.values(obj(pages));const result:ProviderCandidate[]=[];
@@ -36,8 +37,12 @@ function commons(payload:unknown,mediaType:LiveMediaType):ProviderCandidate[]{
     const providerId=String(positive(page.pageid)??''),title=clean(page.title,300),downloadUrl=fixedHttpsUrl(info.url,hosts.wikimedia);
     const itemUrl=fixedHttpsUrl(`https://commons.wikimedia.org/wiki/${encodeURIComponent(title.replaceAll(' ','_'))}`,['commons.wikimedia.org']);
     if(!providerId||!title||!downloadUrl||!itemUrl)continue;
-    const meta=obj(info.extmetadata),creator=clean(obj(meta.Artist).value),license=clean(obj(meta.LicenseShortName).value),rightsStatus=clean(obj(meta.UsageTerms).value);
-    result.push(card({providerId,itemUrl,title,creator,publisher:'Wikimedia Commons',license,rightsStatus,mediaType,width:positive(info.width),height:positive(info.height),variant:{kind:'original',label:'Commons imageinfo.url 원본'},downloadUrl}));
+    const meta=obj(info.extmetadata),artistRaw=typeof obj(meta.Artist).value==='string'?obj(meta.Artist).value:'',creator=clean(artistRaw),license=clean(obj(meta.LicenseShortName).value),rightsStatus=clean(obj(meta.UsageTerms).value);
+    const licenseUrl=typeof obj(meta.LicenseUrl).value==='string'?obj(meta.LicenseUrl).value:'';
+    result.push(card({providerId,itemUrl,title,creator,publisher:'Wikimedia Commons',license,rightsStatus,mediaType,width:positive(info.width),height:positive(info.height),variant:{kind:'original',label:'Commons imageinfo.url 원본'},downloadUrl,
+      rightsEvidence:{licenseLabel:typeof obj(meta.LicenseShortName).value==='string'?obj(meta.LicenseShortName).value:'',
+        licenseUrl,licenseCode:typeof obj(meta.License).value==='string'?obj(meta.License).value:'',
+        creator,artistRaw,usageTerms:typeof obj(meta.UsageTerms).value==='string'?obj(meta.UsageTerms).value:''}}));
   }return result;
 }
 function nasa(payload:unknown):ProviderCandidate[]{
