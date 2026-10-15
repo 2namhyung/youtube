@@ -1,0 +1,6 @@
+export const DIAGNOSTIC_SCHEMA='visualmaker-renderer-diagnostic-v1' as const;
+export const DIAGNOSTIC_FILES=['diagnostic.mp4','diagnostic.json'] as const;
+export const DIAGNOSTIC_ID='VisualMakerEngineDiagnostic';
+export const DIAGNOSTIC_RECIPE={width:640,height:360,fps:30,durationInFrames:60,codec:'h264',audio:false} as const;
+export type DiagnosticFile=typeof DIAGNOSTIC_FILES[number];
+export type DiagnosticReceipt={schemaVersion:typeof DIAGNOSTIC_SCHEMA;artifactKind:'renderer-diagnostic';purpose:'engine-execution-check';reviewProfile:'remotion-motion';reviewScope:'engine-diagnostic-only';productionAuthority:false;cutPreview:false;eligibleForCutReview:false;grammarApproved:false;playableParity:false;sourceAssetIds:[];episodeIds:[];jobId:string;projectId:string;requestedRevision:number;snapshotSha256:string;compositionId:string;recipe:{width:640;height:360;fps:30;durationInFrames:60;codec:'h264';audio:false};rendererVersion:string;entrySha256:string;runnerSha256:string;contractSha256:string;output:{name:'diagnostic.mp4';bytes:number;sha256:string};measured:{width:number;height:number;fps:number;frames:number;durationSeconds:number;codec:'h264';audioStreams:0;firstFrameSha256:string;lastFrameSha256:string;framesDiffer:true}};

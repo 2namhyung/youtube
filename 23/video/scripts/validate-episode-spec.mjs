@@ -7,6 +7,7 @@ import {provisionalCutTiming} from './narration-timing-lib.mjs';
 import {OPERATOR_CAPABILITIES} from './visual-contract-v2.mjs';
 import {validateSourceFirstWindowContracts} from './source-first-window-contract.mjs';
 import {auditEditorialRouting, validateDeferredBeatIntent} from './editorial-route-contract.mjs';
+import {sourceFirstProgressionStatus, validateV3RealMediaProgression, validateV3FictionDeclaration, requiresV3FictionalNotice} from './source-first-progression-policy.mjs';
 
 const root = process.cwd();
 const episodeDir = path.join(root, 'video', 'episodes', 'episode-001');
@@ -347,8 +348,9 @@ if (sh048?.visual_beats?.length !== 4 || new Set(sh048.visual_beats.map((b) => b
   const modeCounts = cuts.reduce((counts, cut) => ({...counts,[cut.production_mode]:(counts[cut.production_mode] ?? 0) + 1}), {});
   if (JSON.stringify(modeCounts) !== JSON.stringify(spec.editorial_revision?.mode_counts)) failures.push('source-first mode counts must match the editorial declaration');
   const omniAllowlist = new Set(spec.editorial_revision?.fictional_continuity?.cut_ids ?? []);
+  if (narrativeSourceFirstV3) failures.push(...validateV3FictionDeclaration(cuts, spec.editorial_revision?.fictional_continuity?.cut_ids));
   let matrix = null;
-  const matrixPending = narrativeSourceFirstV3
+  const matrixPending = narrativeSourceFirstV3 && spec.editorial_revision?.status === 'candidate-plan-blocked'
     && (spec.editorial_revision?.source_review_status === 'pending' || spec.editorial_revision?.source_selection_status === 'pending')
     && spec.editorial_visual_policy?.source_acquisition_matrix_status === 'pending'
     && !spec.editorial_revision?.source_review
@@ -385,8 +387,6 @@ if (sh048?.visual_beats?.length !== 4 || new Set(sh048.visual_beats.map((b) => b
     const matrixCut = matrixCuts.get(label);
     if (!matrixPending && (!matrixCut || matrixCut.narration !== cut.draft_narration || matrixCut.production_mode !== cut.production_mode
       || matrixCut.source_need_taxonomy !== cut.source_need_taxonomy)) failures.push(`${label}: cut is not byte/semantic bound to the source matrix`);
-    if (matrixPending && ['source-video','source-photo'].includes(cut.production_mode)
-      && !(cut.requirements ?? []).some((item) => item.source_id === `SOURCE-SEARCH-${label}` && item.status === 'blocked')) failures.push(`${label}: pending acquisition requires an explicit blocked source gap`);
     if (!['exact-event','actual-speech','general-korean-context','document-workflow','legal-text','fictional-continuity'].includes(cut.source_need_taxonomy)) failures.push(`${label}: invalid source need taxonomy`);
     if (cut.production_authority !== false || selection?.rights_approval !== false || selection?.production_visible !== false) failures.push(`${label}: source-first candidate must remain unapproved and non-production`);
     if (cut.typography_surface_contract_version !== 2 || cut.layout_contract_version !== 2 || cut.layout_contract?.version !== 2) failures.push(`${label}: typography/layout v2 required`);
@@ -394,8 +394,7 @@ if (sh048?.visual_beats?.length !== 4 || new Set(sh048.visual_beats.map((b) => b
     for (const segment of cut.internal_presentation_segments ?? []) if (!Number.isInteger(segment.start_frame) || !Number.isInteger(segment.end_frame_exclusive) || segment.end_frame_exclusive <= segment.start_frame) failures.push(`${label}: source presentation segment must have a positive integer frame range`);
     if (narrativeSourceFirstV3) {
       if (!['source-video','source-photo','remotion','omni'].includes(cut.production_mode)) failures.push(`${label}: unsupported v3 production mode`);
-      if (['source-video','source-photo'].includes(cut.production_mode)
-        && !(cut.requirements ?? []).some((item) => item.source_id === `SOURCE-SEARCH-${label}` && item.status === 'blocked')) failures.push(`${label}: v3 real-media cut needs an explicit blocked source gap`);
+      failures.push(...validateV3RealMediaProgression(cut, spec.editorial_revision?.status));
     } else if (['source-video','source-photo'].includes(cut.production_mode)) {
       if (cut.media_strategy?.dominant_surface !== 'full-frame-real-source') failures.push(`${label}: real-media cut must use a full-frame real source`);
       for (const requirement of cut.requirements ?? []) {
@@ -445,7 +444,7 @@ if (sh048?.visual_beats?.length !== 4 || new Set(sh048.visual_beats.map((b) => b
   }
 }
 
-if (narrativeSourceFirstV3) {
+if (narrativeSourceFirstV3 && requiresV3FictionalNotice(cuts, spec.editorial_revision?.fictional_continuity?.cut_ids)) {
   const notice = spec.intro_rules?.fictional_case_notice;
   const openingIds = ['SH001', 'SH002', 'SH003'];
   if (notice?.version !== 1 || JSON.stringify(notice.required_shot_ids) !== JSON.stringify(openingIds)
@@ -489,7 +488,7 @@ for (const [name, expected] of buildEpisodePlanOutputs(spec, specBytes)) {
   if (actual !== expected) failures.push(`${name}: byte drift; regenerate`);
 }
 if (state.expected_cut_count !== expectedCutCount) failures.push('production state cut count differs from episode-spec');
-if (!sourceFirstRevision || sourceSearchDraft) {
+if (!sourceFirstRevision || (sourceSearchDraft && spec.editorial_revision?.status !== 'source-selected-editorial-plan')) {
 if (state.stage !== 'timing-draft' || state.expected_cut_count !== expectedCutCount || state.active_cut_root !== null) failures.push(`production state must remain timing-draft/${expectedCutCount}/active-null`);
 if (editorialRevision && (state.render_authority?.status !== 'blocked-superseded-by-editorial-revision'
   || state.render_authority?.cut_root !== null || state.render_authority?.catalog !== null
@@ -506,7 +505,7 @@ if (state.cut_review?.all_cuts_passed !== false || state.style_calibration?.user
 if (state.omni_video_generation?.status !== 'blocked_until_all_cuts_passed' || state.omni_video_generation?.allowed_after_marker !== null) failures.push('Omni must remain blocked until all cuts pass review');
 } else {
   // A source-led plan can advance only through the existing stage validator; this editorial validator cannot mint approvals.
-  if (spec.editorial_revision?.status !== 'source-selected-editorial-plan' || spec.status !== 'approved-script-source-first-semantic-plan') failures.push('source-led progression requires the source-selected editorial phase; a blocked plan cannot activate');
+  if (!sourceFirstProgressionStatus(spec.editorial_revision?.id, spec.editorial_revision?.status, spec.status)) failures.push('source-led progression requires the source-selected editorial phase; a blocked plan cannot activate');
   try {
     execFileSync(process.execPath, [path.join(root, 'video/scripts/validate-production-stage.mjs'), '--state', statePath, '--assets-root', publicRoot], {cwd: root, encoding: 'utf8', windowsHide: true});
   } catch (error) { failures.push(`source-led progression requires stage/asset/user-approval validation: ${String(error.stdout || error.message).slice(0, 1200)}`); }

@@ -1,5 +1,6 @@
 import {guard, failure} from '../../../../../visualmaker/core/http';
 import {attachUpload} from '../../../../../visualmaker/core/upload';
+import {reviewStates} from '../../../../../visualmaker/core/director';
 
 export const runtime='nodejs';
 export async function POST(request:Request) {
@@ -13,6 +14,6 @@ export async function POST(request:Request) {
     const file=form.get('file');if(!(file instanceof File))throw new Error('파일을 선택하세요.');
     const fields=Object.fromEntries(['sourceUrl','creator','rightsNote','semanticNote','evidenceOnly'].map(k=>[k,String(form.get(k)||'')]));
     const plan=await attachUpload(String(form.get('id')),Number(form.get('baseRevision')),String(form.get('requirementId')),Buffer.from(await file.arrayBuffer()),{...fields,originalName:file.name});
-    return Response.json({plan});
+    return Response.json({plan,sourceReviewStates:reviewStates(plan)});
   }catch(error){return failure(error);}
 }

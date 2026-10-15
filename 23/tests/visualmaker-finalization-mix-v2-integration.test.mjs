@@ -1,0 +1,34 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import path from 'node:path';
+import {createCanonicalExportFixture,prepareCanonicalExportInputs,runFixtureGate} from './helpers/canonical-export-fixture.mjs';
+
+test('normal durable finalization v2 binds synthetic mix approvals and preserves source presentation',t=>{
+  const fixture=createCanonicalExportFixture();let completed=false;
+  t.after(()=>{if(completed&&process.env.VISUALMAKER_KEEP_CANONICAL_PROOF!=='1')fixture.cleanup();else t.diagnostic(`Retained exact isolated v2 proof: ${fixture.proofPath}`);});
+  prepareCanonicalExportInputs(fixture);
+  runFixtureGate(fixture,process.execPath,['tests/helpers/canonical-export-child.mjs']);
+  runFixtureGate(fixture,process.execPath,['video/scripts/generate-render-catalog.mjs']);
+  assert.equal(runFixtureGate(fixture,process.execPath,['video/scripts/validate-production-stage.mjs','--lock','cut-review-approved'],{allowFailure:true}).status,0);
+  assert.equal(runFixtureGate(fixture,process.execPath,['video/scripts/validate-render-authority.mjs'],{allowFailure:true}).status,0);
+  const run=runFixtureGate(fixture,process.execPath,['tests/helpers/canonical-export-child.mjs','--pipeline','--mix-v2'],{allowFailure:true});
+  assert.equal(run.status,0,`v2 normal worker failed; ${fixture.proofPath}\n${run.stdout}\n${run.stderr}`);
+  const success=JSON.parse(readFileSync(path.join(fixture.root,'canonical-export-success.json'),'utf8'));
+  const terminal=JSON.parse(readFileSync(path.join(fixture.root,'finalization-job-terminal.json'),'utf8'));
+  const receipt=JSON.parse(readFileSync(path.join(fixture.root,'.fixture-data/jobs',terminal.id,`attempt-${terminal.attempt}`,'export.json'),'utf8'));
+  const authored=JSON.parse(readFileSync(path.join(fixture.root,'synthetic-mix-v2-authoring.json'),'utf8'));
+  assert.equal(terminal.status,'succeeded');assert.equal(terminal.artifacts.length,5);
+  assert.equal(receipt.schemaVersion,'visualmaker-finalization-job-receipt-v2');assert.equal(receipt.technical.schemaVersion,'visualmaker-finalization-receipt-v2');
+  assert.equal(receipt.technical.mix.mode,'fixed-gain-stems');assert.equal(receipt.technical.mix.measurements.sourceVoice.decodedSamples,authored.decoded);
+  assert.equal(receipt.technical.mix.measurements.sourceVoice.presentedSamples,authored.presented);
+  assert.equal(receipt.technical.mix.measurements.sourceVoice.tailDiscardSamples,authored.tailDiscard);
+  assert.equal(receipt.technical.mix.measurements.encoded.presentedSamples,authored.presented);
+  assert.equal(receipt.technical.mix.measurements.outputAudio.presentedSamples,authored.presented);
+  assert.equal(receipt.technical.mix.measurements.encoded.packetSha256,receipt.technical.mix.measurements.outputAudio.packetSha256);
+  assert.equal(receipt.technical.mix.measurements.encoded.decodedPcmSha256,receipt.technical.mix.measurements.outputAudio.decodedPcmSha256);
+  assert.equal(receipt.technical.measured.videoPacketSha256,receipt.technical.measured.sourceVideoPacketSha256);
+  assert.equal(receipt.technical.measured.thumbnailFrameSha256,receipt.technical.measured.sourceThumbnailFrameSha256);
+  assert.equal(success.productionAuthority,false);assert.equal(success.reviewApproved,false);
+  fixture.proof.achieved.push('Normal v2 finalization worker published five synthetic artifacts and authenticated download handlers returned matching bytes.');fixture.saveProof();completed=true;
+});

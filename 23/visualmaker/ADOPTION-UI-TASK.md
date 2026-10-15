@@ -1,0 +1,17 @@
+# Read-only adoption review UI
+
+## Ownership
+
+One frontend writer owns src/components/studio/studio.tsx, new adoption-review UI/controller components/helpers, src/app/studio/studio.css, focused tests/package inclusion, visualmaker/README.md. Extract shared response types into a client-safe type-only module if necessary, preserving server report shape. You are not alone: preserve all previous uncommitted changes, including unrelated current header/navigation edits. No subagents, commits, pushes or deletions.
+
+Forbidden: raw/, wiki/, video/, production spec/state/generated/approval markers, media/user runtime data, dependency installs, original checkouts and other youtube subtrees. No renderer/production adoption execution, no external API/search/model calls.
+
+## Story / API contract
+
+Add a '제작 변경안 검토' control by existing handoff export. It fetches existing authenticated GET `/api/studio?id=...&format=handoff` and displays adoptionReview inline in an accessible read-only region (avoid modal complexity). Preserve all existing exports and jobs. No server core/fs/crypto/SQLite value imports in client; direct imports and type-only DTO sharing. Do not weaken guards.
+
+Render: proposal-only notice, report project/revision, exact plan/spec/state SHA, declared current stage/count/root explicitly not validator PASS, target unavailable/invalid and origin stale/unbound, editorial vs production blockers, mapping conflicts/unmapped cuts, ordered scene rows, selected vs unselected direction and alternatives, before/after narration/purpose/mode/action, separate original takeaway vs proposed candidateEndState (not comparable fields), planning timing explicitly not production timing, selected requirements and current three observation dimensions/history with exact asset SHA/source metadata (observations not clearance). Details elements can bound initial verbosity; labels in Korean with raw IDs accessible. Avoid arbitrary ready/approved/progress-percentage claims. No adopt/approve/PASS/run button.
+
+State contract: request scoped to project ID+revision, mounted state and sequence/abort guards. On project/revision changes or open/close/refetch, discard invalid prior report; a late old response must never replace the current report. Response project/revision mismatch visibly rejected. Missing/malformed response must fail closed as an error, not show normal report. Explicit loading/error/retry/close; don't reuse global save-in-progress state misleadingly for a read-only fetch. Refetch reads current target hashes; no background autosave or actual data writes. Preserve old review package only as a deliberate artifact export, never a current screen after stale changes. Parse untrusted JSON defensively enough to avoid crashes/false authority, including all authority fields must be false and schema expected.
+
+Verification: focused pure controller/validation tests for race old response/new project, revision mismatch, close/unmount invalidation, malformed/authority=true payload, success/refetch errors and absence of production action. Run visualmaker:check + git diff --check. Main/independent verifier will test real browser: open current imported EP001 -> summary36/mapping -> row before/after -> close/reopen -> switch project -> no stale report -> error/retry where feasible, plus unchanged spec/state SHA. Canonical full check known blocked by missing/drifted production inputs; do not repair. Stop writer and report paths/test count.

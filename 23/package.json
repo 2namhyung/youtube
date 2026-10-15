@@ -75,12 +75,17 @@
     "media:index-acquired-scenes": "node video/scripts/index-acquired-video-scenes.mjs",
     "video:qa:build-all-cut-candidate-board": "node video/scripts/build-episode-001-all-cut-candidate-board.mjs",
     "visualmaker:dev": "next dev --hostname 127.0.0.1 --port 3017",
-    "visualmaker:check": "pnpm run typecheck && node --experimental-strip-types --test tests/visualmaker-domain.test.mjs tests/visualmaker-store.test.mjs tests/visualmaker-jobs.test.mjs"
+    "visualmaker:check": "pnpm run typecheck && node --experimental-strip-types --test tests/visualmaker-domain.test.mjs tests/visualmaker-store.test.mjs tests/visualmaker-jobs.test.mjs tests/visualmaker-worker.test.mjs tests/visualmaker-source-review.test.mjs tests/visualmaker-adoption-review.test.mjs tests/visualmaker-adoption-ui.test.mjs tests/visualmaker-reference-study.test.mjs tests/visualmaker-narration.test.mjs tests/visualmaker-narration-ui.test.mjs tests/visualmaker-narration-timing.test.mjs tests/visualmaker-narration-timing-ui.test.mjs tests/visualmaker-subtitle-export.test.mjs tests/visualmaker-timeline-inspection.test.mjs tests/visualmaker-preview-readiness.test.mjs tests/visualmaker-preview-readiness-ui.test.mjs tests/visualmaker-renderer-diagnostic.test.mjs tests/visualmaker-diagnostic-ui.test.mjs tests/visualmaker-canonical-cut.test.mjs tests/visualmaker-episode-provisional.test.mjs tests/visualmaker-episode-engine.test.mjs tests/visualmaker-episode-ui.test.mjs tests/visualmaker-episode-opfs.test.mjs tests/visualmaker-archive-bridge.test.mjs tests/visualmaker-live-source.test.mjs tests/visualmaker-live-source-ui.test.mjs tests/visualmaker-audio-assembly.test.mjs tests/visualmaker-audio-assembly-ui.test.mjs tests/visualmaker-finalization.test.mjs tests/visualmaker-finalization-job.test.mjs tests/visualmaker-finalization-client.test.mjs tests/visualmaker-post-lock-transition.test.mjs tests/visualmaker-source-first-progression.test.mjs tests/runtime-approval-hash.test.mjs tests/historical-ledger-isolation.test.mjs tests/active-cut-identity.test.mjs tests/visualmaker-canonical-export.test.mjs tests/visualmaker-fixed-gain-mix.test.mjs tests/visualmaker-finalization-mix-v2-contract.test.mjs tests/visualmaker-finalization-mix-v2-subtitles.test.mjs tests/visualmaker-finalization-mix-v2-integration.test.mjs tests/visualmaker-finalization-browser-prep.test.mjs",
+    "visualmaker:worker": "node --experimental-strip-types visualmaker/worker.ts --drain",
+    "visualmaker:check-ai": "pnpm run typecheck && node --experimental-strip-types --test tests/visualmaker-ai-codex-cli.test.mjs tests/visualmaker-ai-analysis.test.mjs tests/visualmaker-ai-analysis-schema.test.mjs tests/visualmaker-ai-analysis-job.test.mjs tests/visualmaker-ai-analysis-client.test.mjs tests/visualmaker-ai-analysis-browser-prep.test.mjs tests/visualmaker-ai-analysis-adoption.test.mjs tests/visualmaker-ai-analysis-adoption-client.test.mjs",
+    "visualmaker:check-backup": "pnpm run typecheck && node --experimental-strip-types --test tests/visualmaker-backup.test.mjs tests/visualmaker-backup-ui.test.mjs tests/visualmaker-backup-browser-prep.test.mjs tests/visualmaker-store.test.mjs tests/visualmaker-narration.test.mjs tests/visualmaker-source-review.test.mjs tests/visualmaker-ai-analysis-adoption.test.mjs",
+    "visualmaker:check-ai-connection": "pnpm run typecheck && node --experimental-strip-types --test tests/visualmaker-ai-codex-cli.test.mjs tests/visualmaker-ai-connection.test.mjs tests/visualmaker-ai-connection-client.test.mjs tests/visualmaker-ai-analysis-job.test.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ai": "^7.0.139",
     "next": "15.5.9",
     "react": "19.1.0",
     "react-dom": "19.1.0",

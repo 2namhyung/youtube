@@ -4,6 +4,8 @@ import path from 'node:path';
 
 import {validateManifestAgainstEpisodeContract} from './episode-manifest-contract.mjs';
 import {buildAuthorityCatalog, loadAuthorityState, normalize, renderCatalogTypeScript, ROOT, sha256Bytes, sha256File} from './render-authority-lib.mjs';
+import {runtimeSha256} from './visual-contract-v2.mjs';
+import {historicalLedgerDecision} from './historical-ledger-isolation.mjs';
 import {sharedElementTrajectory, validateSharedElementTransition} from './shared-element-contract.mjs';
 
 const sharp = createRequire(import.meta.url)('sharp');
@@ -188,11 +190,12 @@ if (state && built) {
 
   try {
     const contracts = await readJson(path.resolve(ROOT, 'video/episodes/episode-001/generated/manifest-contracts.json'));
+    const approvedRuntimeSha = await runtimeSha256(ROOT);
     for (const cut of built.cuts) {
       const contract = contracts.cuts.find((candidate) => candidate.shot_id === cut.shot_id);
       if (!contract) fail(`${cut.shot_id}: generated episode contract missing`);
       else for (const message of validateManifestAgainstEpisodeContract(cut.manifest, contract)) fail(message);
-      if (cut.manifest.runtime_contract?.operator_registry !== 'video/src/vox/motion/operator-registry.ts' || cut.manifest.runtime_contract?.scene_renderer !== 'video/src/vox/scene/ManifestScene.tsx' || cut.manifest.runtime_contract?.runtime_sha256 !== built.scene_runtime_sha256) fail(`${cut.shot_id}: runtime contract is not bound to the current registered scene operators`);
+      if (cut.manifest.runtime_contract?.operator_registry !== 'video/src/vox/motion/operator-registry.ts' || cut.manifest.runtime_contract?.scene_renderer !== 'video/src/vox/scene/ManifestScene.tsx' || cut.manifest.runtime_contract?.runtime_sha256 !== approvedRuntimeSha) fail(`${cut.shot_id}: runtime contract is not bound to the current scene and transition approval runtime`);
     }
     for (const boundary of built.boundaries) {
       const outgoing = built.cuts.find((cut) => cut.shot_id === boundary.outgoing_shot_id);
@@ -348,13 +351,16 @@ if (sourceLedActiveRoute) {
   fail(`canonical review ledger missing or invalid: ${error.message}`);
 }
 
+const historicalPath = path.resolve(ROOT, 'video/qa/history/invalid-duplicate-renderers/episode-001-sh003-sh004-v08-v01.json');
+let historicalLedger;
 try {
-  const historicalInvalid = await readJson(path.resolve(ROOT, 'video/qa/history/invalid-duplicate-renderers/episode-001-sh003-sh004-v08-v01.json'));
-  if (historicalInvalid.status !== 'invalid-duplicate-renderer' || historicalInvalid.historical_only !== true || historicalInvalid.excluded_from_current_render_authority !== true) fail('historical specialized pair must remain isolated as invalid-duplicate-renderer');
-} catch (error) { fail(`historical duplicate-renderer ledger missing or invalid: ${error.message}`); }
+  const historicalInvalid = await readJson(historicalPath);
+  historicalLedger = historicalLedgerDecision({sourceLedActiveRoute,expectedPath:historicalPath,ledger:historicalInvalid});
+} catch (error) { historicalLedger = historicalLedgerDecision({sourceLedActiveRoute,expectedPath:historicalPath,error}); }
+if (historicalLedger.error) fail(historicalLedger.error);
 
 if (failures.length) {
-  console.error(JSON.stringify({ok: false, failures}, null, 2));
+  console.error(JSON.stringify({ok: false, historical_duplicate_renderer_ledger:{status:historicalLedger.status,production_authority:false}, failures}, null, 2));
   process.exit(1);
 }
-console.log(JSON.stringify({ok: true, authority_root: built?.authority_root, compositions: built?.compositions.map((composition) => composition.composition_id), review_ledger: allowMissingReview ? 'optional' : normalize(path.relative(ROOT, ledgerPath))}, null, 2));
+console.log(JSON.stringify({ok: true, authority_root: built?.authority_root, compositions: built?.compositions.map((composition) => composition.composition_id), review_ledger: allowMissingReview ? 'optional' : normalize(path.relative(ROOT, ledgerPath)), historical_duplicate_renderer_ledger:{status:historicalLedger.status,production_authority:false}}, null, 2));

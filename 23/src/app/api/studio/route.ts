@@ -1,4 +1,4 @@
-import {createPlan, planCsv, requirementsExport, scriptDiff, validatePlan} from '../../../../visualmaker/core/director';
+import {createPlan, planCsv, prepareImportedCopy, requirementsExport, reviewStates, scriptDiff} from '../../../../visualmaker/core/director';
 import {getProject, insertProject, listProjects, updateProject, verifyAssets} from '../../../../visualmaker/core/store';
 import {guard, readJson, failure} from '../../../../visualmaker/core/http';
 import {importEpisode, handoff} from '../../../../visualmaker/core/episode';
@@ -19,7 +19,7 @@ export async function GET(request: Request) {
     if (format === 'requirements') return Response.json(requirementsExport(plan));
     if (format === 'handoff') return Response.json(handoff(plan));
     if (format === 'json') verifyAssets(plan);
-    return Response.json({plan});
+    return Response.json({plan, sourceReviewStates:reviewStates(plan)});
   } catch (error) { return failure(error); }
 }
 
@@ -28,9 +28,10 @@ export async function POST(request: Request) {
     guard(request); const body = await readJson(request);
     if (body.operation === 'diff') return Response.json(scriptDiff(getProject(String(body.id)), String(body.text ?? '')));
     const plan = body.operation === 'episode' ? importEpisode()
-      : body.operation === 'import' ? validatePlan(body.plan)
+      : body.operation === 'import' ? prepareImportedCopy(body.plan)
       : createPlan(String(body.title || '새 영상'), String(body.text || ''));
-    return Response.json({plan:insertProject(plan, body.operation === 'import')}, {status:201});
+    const saved = insertProject(plan, body.operation === 'import');
+    return Response.json({plan:saved, sourceReviewStates:reviewStates(saved), importReviewReset:body.operation === 'import'}, {status:201});
   } catch (error) { return failure(error); }
 }
 
@@ -39,6 +40,7 @@ export async function PATCH(request: Request) {
     guard(request); const body = await readJson(request);
     const command = body.command as Command;
     if (!command || command.type === 'attach-asset') throw new Error('파일 자료는 검증된 업로드 경로로 등록하세요.');
-    return Response.json({plan:updateProject(String(body.id), Number(body.baseRevision), command)});
+    const plan = updateProject(String(body.id), Number(body.baseRevision), command);
+    return Response.json({plan, sourceReviewStates:reviewStates(plan)});
   } catch (error) { return failure(error); }
 }

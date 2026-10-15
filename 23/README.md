@@ -2,7 +2,7 @@
 
 ## VisualMaker — 대본과 장면 설계
 
-`pnpm run visualmaker:dev` 후 [로컬 작업대](http://127.0.0.1:3017/studio)를 엽니다. 현재 EP001 가져오기 또는 한국어 대본 입력 → 표현 비교 → 직접 수정/잠금 → 원본 파일/출처 등록 → 장면표 JSON/CSV·자료 요구·파이프라인 전달안 내보내기를 지원합니다. 로컬 규칙 제안기이며 AI 생성·자동 자료 검색·영상 렌더는 연결하지 않았습니다.
+`pnpm run visualmaker:dev` 후 [로컬 작업대](http://127.0.0.1:3017/studio)를 엽니다. 현재 EP001 가져오기 또는 한국어 대본 입력 → 표현 비교 → 직접 수정/잠금 → 원본 파일/출처 등록 또는 기존 로컬 수집 보관함 후보 연결 → 장면표 JSON/CSV·자료 요구·파이프라인 전달안 내보내기를 지원합니다. 보관함 검색은 이미 수집된 제목·제공처·검색어의 로컬 조회이며 새 자료를 인터넷에서 자동 수집하지 않습니다. 수집 원본 연결도 출처·권리·의미 승인이나 제작 허가가 아닙니다.
 
 원장은 `data/visualmaker/studio.sqlite`, 원본 파일은 `data/visualmaker/assets/`에 저장됩니다. 자세한 범위·복원 방법·제약은 [실행 안내](visualmaker/README.md), [구현과 설계 변경](visualmaker/IMPLEMENTATION.md), [제작 운영 정본](wiki/syntheses/remotion-vox-production-playbook-v0.1.md)을 따릅니다.
 

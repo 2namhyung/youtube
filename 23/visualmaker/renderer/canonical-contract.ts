@@ -1,0 +1,6 @@
+import type {CanonicalInput,CanonicalReport} from '../core/canonical-cut-render.ts';
+
+export const CANONICAL_FILES=['provisional-cut.mp4','provisional-cut.json'] as const;
+export const CANONICAL_RENDERER_VERSION='4.0.516' as const;
+export type CanonicalExecutionContract={schemaVersion:'visualmaker-canonical-execution-v1';report:CanonicalReport;reportSha256:string;createdAt:string};
+export type CanonicalReceipt={schemaVersion:'visualmaker-canonical-cut-receipt-v1';artifactKind:'canonical-cut-preview';episodeId:'episode-001';jobId:string;attempt:number;projectId:string;requestedRevision:number;sceneId:string;cutId:string;snapshotSha256:string;executionContractSha256:string;composition:{id:string;width:number;height:number;fps:number;durationFrames:number;mode:string};dependencyCutIds:string[];boundaryIds:string[];inputs:CanonicalInput[];authorityFingerprints:Record<string,string|null>;rendererVersion:typeof CANONICAL_RENDERER_VERSION;reviewProfile:'source-photo-treatment'|'source-video-selection'|'omni-keyframe-input'|'remotion-motion';productionAuthority:false;cutPass:false;stylePass:false;playableParity:false;output:{name:'provisional-cut.mp4';bytes:number;sha256:string};measured:{width:number;height:number;fps:number;frames:number;durationSeconds:number;codec:'h264';audioStreams:0;frameSha256:[string,string,string]}};

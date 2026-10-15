@@ -2,8 +2,9 @@ import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {createPlan, validatePlan} from './director.ts';
 import type {Plan, Candidate, Requirement} from './model.ts';
+import {buildAdoptionReview, EPISODE_SPEC_PATH, PRODUCTION_STATE_PATH} from './adoption-review.ts';
 
-const SPEC = 'video/episodes/episode-001/episode-spec.json';
+const SPEC = EPISODE_SPEC_PATH;
 type Brief = {brief_id:string;subject:string;action:string;role:string;specificity:string;queries_ko?:string[];queries_en?:string[];media_types?:string[];exclusions?:string[];viewpoint?:string;place_context?:string};
 type Cut = {shot_id:string;draft_narration:string;production_mode:Candidate['mode'];estimated_voice_seconds:number;visual_purpose:string;viewer_takeaway:string;production_decision:{reason:string;observable_action:string;visible_subject:string;rejected_modes:Record<string,string>;asset_search_briefs:Brief[];reuse_reason:string|null}};
 
@@ -55,14 +56,20 @@ export function importEpisode(): Plan {
 
 export function handoff(plan: Plan) {
   const bound = plan.origin?.kind === 'episode-spec' && plan.origin.path === SPEC;
-  const currentHash = bound ? createHash('sha256').update(readFileSync(SPEC)).digest('hex') : null;
+  const readOptional = (path: string) => { try { return readFileSync(path); } catch { return null; } };
+  const specBytes = readOptional(SPEC);
+  const stateBytes = readOptional(PRODUCTION_STATE_PATH);
+  const adoptionReview = buildAdoptionReview(plan,specBytes,stateBytes);
+  const currentHash = adoptionReview.target.spec.sha256;
   return {
-    schemaVersion:'visualmaker-editorial-handoff-v1',status:'proposal-only',productionAuthority:false,
+    schemaVersion:'visualmaker-editorial-handoff-v1',status:'proposal-only',productionAuthority:false,renderEligible:false,appliesChanges:false,
     projectId:plan.id,revision:plan.revision,origin:plan.origin || null,
-    originUnchanged:bound ? plan.origin?.sha256 === currentHash : null,
+    originUnchanged:bound ? (currentHash !== null && plan.origin?.sha256 === currentHash) : null,
     target:bound ? SPEC : null,manualAdoptionRequired:true,
     nextAction:bound ? '사용자가 장면 방향을 검토한 뒤 episode-spec.json에 의미·대본·자료 요구를 반영하고 정식 생성기를 실행한다. 이 파일은 active-cut-manifest가 아니다.' : '먼저 대상 에피소드를 정하고 장면별 매핑을 검토한다. 이 계획은 기존 EP001을 수정할 권한이 없다.',
     script:plan.script,scenes:plan.scenes,beats:plan.beats,requirements:plan.requirements,assets:plan.assets,
+    sourceReviews:plan.sourceReviews ?? [],
+    adoptionReview,
     blockers:['source/rights review','reference grammar applicability','style-frame review','all-cut review'],
   };
 }

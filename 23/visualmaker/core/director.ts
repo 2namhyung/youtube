@@ -1,6 +1,7 @@
 import { createHash, randomUUID } from 'node:crypto';
 import type {
   Asset,
+  AIAnalysisAdoption,
   Beat,
   BeatRole,
   Candidate,
@@ -8,6 +9,9 @@ import type {
   Command,
   Effort,
   Layer,
+  NarrationTake,
+  NarrationTiming,
+  NarrationTimingSegment,
   Plan,
   PlanDecision,
   Requirement,
@@ -15,8 +19,11 @@ import type {
   Scene,
   Segment,
   SegmentKind,
+  SourceReview,
 } from './model.ts';
 import { PLAN_SCHEMA_VERSION } from './model.ts';
+import {appendReview, reconcileReviews, REVIEW_DIMENSIONS, reviewStates} from './source-review.ts';
+export {reviewStates} from './source-review.ts';
 
 type Status = 400 | 409 | 423;
 
@@ -423,13 +430,180 @@ export function validatePlan(value: unknown): Plan {
   });
   assertUnique(decisions.map((item) => item.id), 'decisions');
   const plan: Plan = { schemaVersion: PLAN_SCHEMA_VERSION, id: id(row.id, 'id'), title: text(row.title, 'title', 200), revision: finiteNumber(row.revision, 'revision', 1), createdAt: text(row.createdAt, 'createdAt', 100), updatedAt: text(row.updatedAt, 'updatedAt', 100), productionAuthority: false, script, beats, scenes, requirements, assets, decisions };
+  if (row.sourceReviews !== undefined) {
+    plan.sourceReviews = arr(row.sourceReviews, 'sourceReviews').map((value, index): SourceReview => {
+      const item = object(value);
+      const review: SourceReview = {id: id(item.id, `sourceReviews[${index}].id`), requirementId: id(item.requirementId, `sourceReviews[${index}].requirementId`),
+        assetId: id(item.assetId, `sourceReviews[${index}].assetId`), assetSha256: sha(item.assetSha256, `sourceReviews[${index}].assetSha256`),
+        contextSha256: sha(item.contextSha256, `sourceReviews[${index}].contextSha256`),
+        dimension: oneOf(item.dimension, REVIEW_DIMENSIONS, `sourceReviews[${index}].dimension`),
+        decision: oneOf(item.decision, ['pending', 'acceptable', 'rejected'] as const, `sourceReviews[${index}].decision`),
+        rationale: text(item.rationale, `sourceReviews[${index}].rationale`, 2_000).trim(),
+        recordedAt: text(item.recordedAt, `sourceReviews[${index}].recordedAt`, 100),
+        recordedBy: oneOf(item.recordedBy, ['local-session'] as const, `sourceReviews[${index}].recordedBy`), productionAuthority: false};
+      if (!review.rationale || item.productionAuthority !== false || !ISO.test(review.recordedAt) || Number.isNaN(Date.parse(review.recordedAt))) fail(`sourceReviews[${index}] has invalid review evidence`);
+      return review;
+    });
+    assertUnique(plan.sourceReviews.map(item => item.id), 'sourceReviews');
+  }
+  if (row.narrationTakes !== undefined) {
+    plan.narrationTakes = arr(row.narrationTakes, 'narrationTakes').map((value, index): NarrationTake => {
+      const item = object(value);
+      const prefix = `narrationTakes[${index}]`;
+      const fields = new Set(['id', 'projectId', 'originalName', 'format', 'mimeType', 'byteCount', 'sha256', 'path',
+        'durationSeconds', 'sampleRate', 'channels', 'createdAt', 'capturedRevision', 'scriptSha256',
+        'measurement', 'alignmentStatus', 'productionAuthority']);
+      for (const key of Object.keys(item)) if (!fields.has(key)) fail(`${prefix}.${key} is not part of the recording contract`);
+      for (const key of fields) if (!Object.hasOwn(item, key)) fail(`${prefix}.${key} is required`);
+      const format = oneOf(item.format, ['wav', 'mp3', 'm4a'] as const, `${prefix}.format`);
+      const mimeType = oneOf(item.mimeType, ['audio/wav', 'audio/mpeg', 'audio/mp4'] as const, `${prefix}.mimeType`);
+      if (mimeType !== {wav:'audio/wav', mp3:'audio/mpeg', m4a:'audio/mp4'}[format]) fail(`${prefix} format and MIME disagree`);
+      const take: NarrationTake = {
+        id: id(item.id, `${prefix}.id`), projectId: id(item.projectId, `${prefix}.projectId`),
+        originalName: text(item.originalName, `${prefix}.originalName`, 500), format, mimeType,
+        byteCount: finiteNumber(item.byteCount, `${prefix}.byteCount`, 1), sha256: sha(item.sha256, `${prefix}.sha256`),
+        path: text(item.path, `${prefix}.path`, 200), durationSeconds: finiteNumber(item.durationSeconds, `${prefix}.durationSeconds`, 0.001),
+        sampleRate: nullableNumber(item.sampleRate, `${prefix}.sampleRate`), channels: nullableNumber(item.channels, `${prefix}.channels`),
+        createdAt: text(item.createdAt, `${prefix}.createdAt`, 100), capturedRevision: finiteNumber(item.capturedRevision, `${prefix}.capturedRevision`, 1),
+        scriptSha256: sha(item.scriptSha256, `${prefix}.scriptSha256`), measurement: 'ffprobe', alignmentStatus: 'unavailable', productionAuthority: false,
+      };
+      if (item.measurement !== 'ffprobe' || item.alignmentStatus !== 'unavailable' || item.productionAuthority !== false ||
+          take.projectId !== row.id || take.path !== `narration/${take.sha256}.${take.format}` ||
+          !Number.isInteger(take.byteCount) || take.byteCount > 40_000_000 || !Number.isInteger(take.capturedRevision) ||
+          take.capturedRevision > Number(row.revision) || !ISO.test(take.createdAt) || Number.isNaN(Date.parse(take.createdAt)) ||
+          (take.sampleRate !== null && (!Number.isInteger(take.sampleRate) || take.sampleRate <= 0)) ||
+          (take.channels !== null && (!Number.isInteger(take.channels) || take.channels <= 0))) fail(`${prefix} has invalid measurement evidence`);
+      return take;
+    });
+    assertUnique(plan.narrationTakes.map(item => item.id), 'narrationTakes');
+  }
+  if (row.narrationTimings !== undefined) {
+    const takesById = new Map((plan.narrationTakes ?? []).map(item => [item.id, item]));
+    const scriptsByHash = new Map([[script.rawSha256, script.rawText], ...history.map(item => [item.rawSha256, item.rawText] as const)]);
+    plan.narrationTimings = arr(row.narrationTimings, 'narrationTimings').map((value, index): NarrationTiming => {
+      const item = object(value); const prefix = `narrationTimings[${index}]`;
+      const fields = new Set(['id', 'projectId', 'capturedRevision', 'takeId', 'audioSha256', 'scriptSha256',
+        'createdAt', 'method', 'reviewStatus', 'manualReviewConfirmed', 'manualReviewConfirmedAt', 'productionAuthority', 'segments']);
+      for (const key of Object.keys(item)) if (!fields.has(key)) fail(`${prefix}.${key} is not part of the timing contract`);
+      for (const key of fields) if (key !== 'manualReviewConfirmed' && key !== 'manualReviewConfirmedAt' && !Object.hasOwn(item, key)) fail(`${prefix}.${key} is required`);
+      const hasConfirmation=Object.hasOwn(item,'manualReviewConfirmed');
+      if(hasConfirmation!==Object.hasOwn(item,'manualReviewConfirmedAt') ||
+        (hasConfirmation && (item.manualReviewConfirmed!==true || typeof item.manualReviewConfirmedAt!=='string' ||
+          !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(item.manualReviewConfirmedAt) ||
+          Number.isNaN(Date.parse(item.manualReviewConfirmedAt)) ||
+          new Date(item.manualReviewConfirmedAt).toISOString()!==item.manualReviewConfirmedAt)))
+        fail(`${prefix} has invalid manual draft confirmation`);
+      const snapshot = arr(item.segments, `${prefix}.segments`).map((value, segmentIndex): NarrationTimingSegment => {
+        const segment = object(value); const field = `${prefix}.segments[${segmentIndex}]`;
+        const keys = new Set(['segmentId', 'start', 'end', 'text', 'startSeconds', 'endSeconds']);
+        for (const key of Object.keys(segment)) if (!keys.has(key)) fail(`${field}.${key} is not part of the timing segment contract`);
+        for (const key of keys) if (!Object.hasOwn(segment, key)) fail(`${field}.${key} is required`);
+        return {segmentId:id(segment.segmentId, `${field}.segmentId`), start:finiteNumber(segment.start, `${field}.start`),
+          end:finiteNumber(segment.end, `${field}.end`), text:text(segment.text, `${field}.text`, MAX_TEXT),
+          startSeconds:finiteNumber(segment.startSeconds, `${field}.startSeconds`), endSeconds:finiteNumber(segment.endSeconds, `${field}.endSeconds`)};
+      });
+      const timing: NarrationTiming = {
+        id:id(item.id, `${prefix}.id`), projectId:id(item.projectId, `${prefix}.projectId`),
+        capturedRevision:finiteNumber(item.capturedRevision, `${prefix}.capturedRevision`, 1),
+        takeId:id(item.takeId, `${prefix}.takeId`), audioSha256:sha(item.audioSha256, `${prefix}.audioSha256`),
+        scriptSha256:sha(item.scriptSha256, `${prefix}.scriptSha256`), createdAt:text(item.createdAt, `${prefix}.createdAt`, 100),
+        method:oneOf(item.method, ['manual-timing-draft'] as const, `${prefix}.method`),
+        reviewStatus:oneOf(item.reviewStatus, ['draft'] as const, `${prefix}.reviewStatus`),
+        ...(hasConfirmation ? {manualReviewConfirmed:true as const,manualReviewConfirmedAt:item.manualReviewConfirmedAt as string} : {}),
+        productionAuthority:false, segments:snapshot,
+      };
+      const take = takesById.get(timing.takeId);
+      const sourceText = scriptsByHash.get(timing.scriptSha256);
+      if (!/^timing_[a-f0-9-]{36}$/.test(timing.id) || timing.projectId !== row.id || item.productionAuthority !== false ||
+          !Number.isInteger(timing.capturedRevision) || timing.capturedRevision > Number(row.revision) ||
+          !ISO.test(timing.createdAt) || Number.isNaN(Date.parse(timing.createdAt)) ||
+          !take || timing.capturedRevision <= take.capturedRevision || timing.audioSha256 !== take.sha256 ||
+          timing.scriptSha256 !== take.scriptSha256 || !sourceText || !snapshot.length) fail(`${prefix} has invalid binding`);
+      assertUnique(snapshot.map(segment => segment.segmentId), `${prefix}.segments`);
+      const sourcePoints = codePoints(sourceText);
+      let previousOffset = -1; let previousEndSeconds = 0;
+      for (const segment of snapshot) {
+        if (!Number.isInteger(segment.start) || !Number.isInteger(segment.end) || segment.start <= previousOffset ||
+            segment.end <= segment.start || segment.end > sourcePoints.length ||
+            sourcePoints.slice(segment.start, segment.end).join('') !== segment.text ||
+            segment.startSeconds < previousEndSeconds || segment.endSeconds <= segment.startSeconds ||
+            segment.endSeconds > take.durationSeconds) fail(`${prefix} has invalid segment ranges`);
+        previousOffset = segment.start; previousEndSeconds = segment.endSeconds;
+      }
+      if (timing.scriptSha256 === script.rawSha256 && timing.capturedRevision === Number(row.revision) - 1) {
+        const currentNarration = segments.filter(segment => segment.kind === 'narration');
+        if (snapshot.length !== currentNarration.length || snapshot.some((item, i) =>
+          item.segmentId !== currentNarration[i].id || item.start !== currentNarration[i].start ||
+          item.end !== currentNarration[i].end || item.text !== currentNarration[i].text)) fail(`${prefix} does not cover the current narration`);
+      }
+      return timing;
+    });
+    assertUnique(plan.narrationTimings.map(item => item.id), 'narrationTimings');
+  }
   if (!Number.isInteger(plan.revision) || !ISO.test(plan.createdAt) || !ISO.test(plan.updatedAt) || Number.isNaN(Date.parse(plan.createdAt)) || Number.isNaN(Date.parse(plan.updatedAt))) fail('plan dates or revision are invalid');
   if (row.origin !== undefined) {
     const origin = object(row.origin);
     if (origin.kind !== 'episode-spec') fail('origin.kind must be episode-spec');
     plan.origin = { kind: 'episode-spec', path: text(origin.path, 'origin.path', 4_000), sha256: sha(origin.sha256, 'origin.sha256') };
   }
+  if (row.aiAnalysisAdoption !== undefined) {
+    const field='aiAnalysisAdoption',item=object(row.aiAnalysisAdoption);
+    const exact=(value:Record<string,unknown>,fields:string[],label:string)=>{
+      if(Object.keys(value).sort().join('|')!==fields.sort().join('|'))fail(`${label} has invalid fields`);
+    };
+    exact(item,['schemaVersion','id','createdAt','jobId','artifactSha256','scope','model','beforeRevision','afterRevision','scriptSha256','productionAuthority','requiresHumanReview','records'],field);
+    const scope=object(item.scope),model=object(item.model);
+    exact(scope,['projectId','revision','scriptSha256','snapshotSha256'],`${field}.scope`);
+    exact(model,['adapter','requestedModelId','responseModelId'],`${field}.model`);
+    const beforeRevision=finiteNumber(item.beforeRevision,`${field}.beforeRevision`,1),afterRevision=finiteNumber(item.afterRevision,`${field}.afterRevision`,2);
+    const receipt:AIAnalysisAdoption={
+      schemaVersion:'visualmaker-ai-analysis-adoption-v1',id:id(item.id,`${field}.id`),createdAt:text(item.createdAt,`${field}.createdAt`,100),
+      jobId:id(item.jobId,`${field}.jobId`),artifactSha256:sha(item.artifactSha256,`${field}.artifactSha256`),
+      scope:{projectId:id(scope.projectId,`${field}.scope.projectId`),revision:finiteNumber(scope.revision,`${field}.scope.revision`,1),
+        scriptSha256:sha(scope.scriptSha256,`${field}.scope.scriptSha256`),snapshotSha256:sha(scope.snapshotSha256,`${field}.scope.snapshotSha256`)},
+      model:{adapter:oneOf(model.adapter,['gateway-api-key','sdk-test','codex-cli'] as const,`${field}.model.adapter`),
+        requestedModelId:text(model.requestedModelId,`${field}.model.requestedModelId`,160),
+        responseModelId:model.responseModelId===null?null:text(model.responseModelId,`${field}.model.responseModelId`,160)},
+      beforeRevision,afterRevision,scriptSha256:sha(item.scriptSha256,`${field}.scriptSha256`),productionAuthority:false,requiresHumanReview:true,
+      records:arr(item.records,`${field}.records`).map((value,index)=>{
+        const entry=object(value),prefix=`${field}.records[${index}]`;
+        exact(entry,['segmentId','beatId','sceneId','source','mainMessage','uncertainty','visualMeaningBrief','searchBriefKo','searchBriefEn','beforeIntent','appliedIntent'],prefix);
+        const source=object(entry.source);exact(source,['start','end','text','kind'],`${prefix}.source`);
+        const bounded=(name:string)=>{const value=text(entry[name],`${prefix}.${name}`,600);if(value.trim()!==value)fail(`${prefix}.${name} has invalid whitespace`);return value;};
+        return {segmentId:id(entry.segmentId,`${prefix}.segmentId`),beatId:id(entry.beatId,`${prefix}.beatId`),sceneId:id(entry.sceneId,`${prefix}.sceneId`),
+          source:{start:finiteNumber(source.start,`${prefix}.source.start`),end:finiteNumber(source.end,`${prefix}.source.end`),
+            text:text(source.text,`${prefix}.source.text`,MAX_TEXT),kind:oneOf(source.kind,['narration','note','reference'] as const,`${prefix}.source.kind`)},
+          mainMessage:bounded('mainMessage'),uncertainty:bounded('uncertainty'),visualMeaningBrief:bounded('visualMeaningBrief'),
+          searchBriefKo:bounded('searchBriefKo'),searchBriefEn:bounded('searchBriefEn'),
+          beforeIntent:text(entry.beforeIntent,`${prefix}.beforeIntent`),appliedIntent:bounded('appliedIntent')};
+      }),
+    };
+    if(item.schemaVersion!==receipt.schemaVersion||!/^adopt_[a-f0-9-]{36}$/u.test(receipt.id)||!/^job_[a-f0-9-]{36}$/u.test(receipt.jobId)||
+        item.productionAuthority!==false||item.requiresHumanReview!==true||receipt.scope.projectId!==plan.id||
+        receipt.scope.revision!==receipt.beforeRevision||receipt.afterRevision!==receipt.beforeRevision+1||receipt.afterRevision>plan.revision||
+        !Number.isSafeInteger(receipt.beforeRevision)||!Number.isSafeInteger(receipt.afterRevision)||receipt.scriptSha256!==receipt.scope.scriptSha256||
+        !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/u.test(receipt.createdAt)||Number.isNaN(Date.parse(receipt.createdAt))||
+        new Date(receipt.createdAt).toISOString()!==receipt.createdAt||receipt.records.length<1||receipt.records.length>40||
+        Buffer.byteLength(JSON.stringify(item),'utf8')>200_000)fail(`${field} has invalid provenance`);
+    const originalText=([[script.rawSha256,script.rawText],...history.map(entry=>[entry.rawSha256,entry.rawText])].find(([hash])=>hash===receipt.scriptSha256)??[])[1];
+    if(typeof originalText!=='string')fail(`${field} script history is missing`);
+    const points=codePoints(originalText),seenSegments=new Set<string>(),seenBeats=new Set<string>(),seenScenes=new Set<string>();let previousStart=-1;
+    for(const entry of receipt.records){
+      if(seenSegments.has(entry.segmentId)||seenBeats.has(entry.beatId)||seenScenes.has(entry.sceneId)||
+          !Number.isSafeInteger(entry.source.start)||!Number.isSafeInteger(entry.source.end)||entry.source.start<=previousStart||
+          entry.source.end<=entry.source.start||entry.source.end>points.length||points.slice(entry.source.start,entry.source.end).join('')!==entry.source.text||
+          entry.appliedIntent!==entry.mainMessage)fail(`${field} has invalid selected records`);
+      seenSegments.add(entry.segmentId);seenBeats.add(entry.beatId);seenScenes.add(entry.sceneId);previousStart=entry.source.start;
+    }
+    plan.aiAnalysisAdoption=receipt;
+  }
   return plan;
+}
+
+export function prepareImportedCopy(value: unknown): Plan {
+  const row = object(value);
+  const {aiAnalysisAdoption:_discard,...copy}=row;
+  return validatePlan({...copy, sourceReviews: [], narrationTakes: [], narrationTimings: []});
 }
 
 function cloned(plan: Plan): Plan {
@@ -567,7 +741,8 @@ function applyScriptRevision(plan: Plan, rawText: string): Plan {
   const retainedRequirementIds = new Set(newScenes.flatMap((scene) => scene.candidates.flatMap((candidate) => candidate.requirementIds)));
   const requirements = [...plan.requirements.filter((item) => retainedRequirementIds.has(item.id)), ...newRequirements];
   const oldScript = { id: plan.script.id, rawText: plan.script.rawText, rawSha256: plan.script.rawSha256 };
-  const revised: Plan = { ...cloned(plan), revision: plan.revision + 1, updatedAt: now(), script: { id: `script-${randomUUID()}`, rawText, rawSha256: hashText(rawText), segments: mapping.segments, history: [...plan.script.history, oldScript] }, beats: newBeats, scenes: newScenes, requirements, assets: plan.assets.filter((asset) => requirements.some((requirement) => requirement.assetId === asset.id)) };
+  const revised: Plan = { ...cloned(plan), revision: plan.revision + 1, updatedAt: now(), script: { id: `script-${randomUUID()}`, rawText, rawSha256: hashText(rawText), segments: mapping.segments, history: [...plan.script.history, oldScript] }, beats: newBeats, scenes: newScenes, requirements, assets: plan.assets };
+  reconcileReviews(plan, revised);
   return validatePlan(revised);
 }
 
@@ -639,7 +814,6 @@ export function applyCommand(inputPlan: Plan, command: Command): Plan {
       scene.reviewStatus = 'draft';
       const referenced = new Set(next.scenes.flatMap((item) => item.candidates.flatMap((candidate) => candidate.requirementIds)));
       next.requirements = next.requirements.filter((requirement) => referenced.has(requirement.id));
-      next.assets = next.assets.filter((asset) => next.requirements.some((requirement) => requirement.assetId === asset.id));
     }
     beat.intent = intent; beat.role = role;
     if (beat.role === 'evidence' || beat.role === 'comparison') beat.claimReview = 'pending';
@@ -709,11 +883,76 @@ export function applyCommand(inputPlan: Plan, command: Command): Plan {
     if (asset.mediaType !== requirement.mediaType) fail('asset media type does not match requirement', 409);
     if (asset.evidenceOnly && next.scenes.some((scene) => scene.candidates.some((candidate) => candidate.layers.some((layer) => layer.role === 'focal' && layer.requirementId === requirementId)))) fail('evidence-only assets cannot fulfill a focal layer', 409);
     next.assets.push(asset); requirement.assetId = asset.id;
+  } else if (typeValue === 'assign-asset' || typeValue === 'detach-asset' || typeValue === 'review-source') {
+    const requirementId = id(row.requirementId, 'command.requirementId');
+    const requirement = next.requirements.find(item => item.id === requirementId);
+    if (!requirement) fail(`unknown requirement ${requirementId}`, 409);
+    const sharingScenes = next.scenes.filter(scene => scene.candidates.some(candidate => candidate.requirementIds.includes(requirementId)));
+    if (sharingScenes.some(scene => scene.locked)) fail(`requirement ${requirementId} is used by a locked scene`, 423);
+    if (typeValue === 'detach-asset') {
+      if (requirement.assetId === null) fail('requirement has no assigned asset', 409);
+      requirement.assetId = null;
+    } else if (typeValue === 'assign-asset') {
+      const asset = next.assets.find(item => item.id === id(row.assetId, 'command.assetId'));
+      if (!asset) fail('unknown registered asset', 409);
+      if (requirement.assetId !== null) fail('detach the currently assigned asset first', 409);
+      if (asset.mediaType !== requirement.mediaType) fail('asset media type does not match requirement', 409);
+      if (requirement.acquisition === 'generated-keyframe' && asset.mimeType !== 'image/png') fail('Omni input requires a PNG keyframe', 409);
+      if (asset.evidenceOnly && sharingScenes.some(scene => scene.candidates.some(candidate => candidate.layers.some(layer => layer.role === 'focal' && layer.requirementId === requirementId)))) fail('evidence-only assets cannot fulfill a focal layer', 409);
+      requirement.assetId = asset.id;
+    } else {
+      if (!requirement.assetId) fail('assign an asset before recording observations', 409);
+      const asset = next.assets.find(item => item.id === requirement.assetId);
+      if (!asset) fail('assigned asset is missing', 409);
+      const dimension = oneOf(row.dimension, REVIEW_DIMENSIONS, 'command.dimension');
+      const decision = oneOf(row.decision, ['pending', 'acceptable', 'rejected'] as const, 'command.decision');
+      const rationale = text(row.rationale, 'command.rationale', 2_000).trim();
+      if (!rationale) fail('review rationale must not be blank');
+      appendReview(next, requirement, asset, dimension, decision, rationale);
+    }
   } else {
     fail(`unknown command type ${String(typeValue)}`);
   }
+  reconcileReviews(plan, next);
   next.revision = plan.revision + 1;
   next.updatedAt = now();
+  return validatePlan(next);
+}
+
+/** Dedicated adoption path, deliberately not part of the public Command union. */
+export function applyAIAnalysisIntentBatch(inputPlan:Plan,changes:readonly {beatId:string;intent:string}[]):Plan{
+  const plan=validatePlan(inputPlan);
+  if(!Array.isArray(changes)||changes.length<1||changes.length>40)fail('AI adoption selection is invalid');
+  const seenBeats=new Set<string>(),seenScenes=new Set<string>();
+  const resolved=changes.map((change,index)=>{
+    const beat=requireBeat(plan,id(change.beatId,`adoption[${index}].beatId`));
+    const intent=text(change.intent,`adoption[${index}].intent`,600);
+    const owners=plan.scenes.filter(scene=>scene.beatIds.includes(beat.id));
+    if(owners.length!==1)fail('AI adoption scene mapping is ambiguous',409);
+    const scene=owners[0];ensureUnlocked(scene);
+    if(seenBeats.has(beat.id)||seenScenes.has(scene.id))fail('AI adoption scene selection is ambiguous',409);
+    seenBeats.add(beat.id);seenScenes.add(scene.id);
+    return {beatId:beat.id,sceneId:scene.id,intent};
+  });
+  const next=cloned(plan);
+  for(const change of resolved){
+    const beat=requireBeat(next,change.beatId),scene=requireScene(next,change.sceneId);
+    if(change.intent!==beat.intent){
+      const priorEstimate=scene.estimatedSeconds;
+      const rebuilt=makeDraftScene(scene.id,scene.beatIds,change.intent,beat.role,`-r${plan.revision+1}`);
+      scene.candidates=rebuilt.scene.candidates;
+      scene.originCutIds=scene.originCutIds?[...scene.originCutIds]:undefined;
+      scene.estimatedSeconds=priorEstimate;
+      next.requirements.push(...rebuilt.requirements);
+      scene.selectedCandidateId=null;scene.reviewStatus='draft';
+    }
+    beat.intent=change.intent;
+    if(beat.role==='evidence'||beat.role==='comparison')beat.claimReview='pending';
+  }
+  const referenced=new Set(next.scenes.flatMap(scene=>scene.candidates.flatMap(candidate=>candidate.requirementIds)));
+  next.requirements=next.requirements.filter(requirement=>referenced.has(requirement.id));
+  reconcileReviews(plan,next);
+  next.revision=plan.revision+1;next.updatedAt=now();
   return validatePlan(next);
 }
 
@@ -737,8 +976,11 @@ export function planCsv(inputPlan: Plan): string {
   return `${rows.map((row) => row.map(csvCell).join(',')).join('\n')}\n`;
 }
 
-export function requirementsExport(inputPlan: Plan): { schemaVersion: 'visualmaker-requirements-v1'; planId: string; revision: number; requirements: Array<Requirement & { status: 'unresolved' | 'pending-review'; asset: Asset | null }> } {
+export function requirementsExport(inputPlan: Plan) {
   const plan = validatePlan(inputPlan);
   const assets = new Map(plan.assets.map((asset) => [asset.id, asset]));
-  return { schemaVersion: 'visualmaker-requirements-v1', planId: plan.id, revision: plan.revision, requirements: plan.requirements.map((requirement) => ({ ...requirement, status: requirement.assetId === null ? 'unresolved' : 'pending-review', asset: requirement.assetId === null ? null : assets.get(requirement.assetId) ?? null })) };
+  const states = new Map(reviewStates(plan).map(state => [state.requirementId, state]));
+  return { schemaVersion: 'visualmaker-requirements-v1' as const, planId: plan.id, revision: plan.revision, productionAuthority: false as const,
+    requirements: plan.requirements.map((requirement) => ({ ...requirement, status: requirement.assetId === null ? 'unresolved' as const : 'pending-review' as const,
+      asset: requirement.assetId === null ? null : assets.get(requirement.assetId) ?? null, review: states.get(requirement.id) })) };
 }

@@ -1,6 +1,8 @@
 import {createHash} from 'node:crypto';
-import {readFile, stat} from 'node:fs/promises';
+import {stat} from 'node:fs/promises';
 import path from 'node:path';
+import {streamingSha256} from './streaming-sha256.mjs';
+import {APPROVAL_RUNTIME_FILES} from './runtime-file-closure.mjs';
 
 export const OPERATOR_CAPABILITIES = Object.freeze({
   'transform.spring@1': ['layer-entry', 'layer-transform'],
@@ -110,17 +112,12 @@ export function validateVisualContractV2(manifest, {requireTransitionArtifact = 
 const sha256 = (buffer) => createHash('sha256').update(buffer).digest('hex');
 const exists = async (file) => { try { await stat(file); return true; } catch { return false; } };
 
-export async function runtimeSha256(root, files = [
-    'video/src/vox/motion/operator-registry.ts',
-    'video/src/vox/scene/ManifestScene.tsx',
-    'video/src/vox/scene/PresentationScene.tsx',
-    'video/src/vox/scene/TransitionPair.tsx',
-  ]) {
+export async function runtimeSha256(root, files = APPROVAL_RUNTIME_FILES) {
   const rows = [];
   for (const relative of files) {
     const file = path.resolve(root, relative);
     if (!(await exists(file))) throw new Error(`missing runtime file ${relative}`);
-    rows.push(`${relative}|${sha256(await readFile(file))}`);
+    rows.push(`${relative}|${await streamingSha256(file)}`);
   }
   return sha256(Buffer.from(rows.sort().join('\n')));
 }
@@ -143,14 +140,14 @@ export async function reviewBundleSha256({root, cutRoot, manifest, reviewArtifac
     for (const entry of entries) {
       const file = path.resolve(cutRoot, entry.file);
       if (!(await exists(file)) || !file.startsWith(`${path.resolve(cutRoot)}${path.sep}`)) throw new Error(`missing or unsafe ${kind} ${entry.file}`);
-      rows.push(`${kind}|${entry.file.replaceAll('\\', '/')}|${sha256(await readFile(file))}`);
+      rows.push(`${kind}|${entry.file.replaceAll('\\', '/')}|${await streamingSha256(file)}`);
     }
   }
   rows.push(`runtime|${await runtimeSha256(root)}`);
   if (reviewArtifact) {
     const file = path.resolve(root, reviewArtifact);
     if (!(await exists(file))) throw new Error(`missing review artifact ${reviewArtifact}`);
-    rows.push(`review-artifact|${reviewArtifact.replaceAll('\\', '/')}|${sha256(await readFile(file))}`);
+    rows.push(`review-artifact|${reviewArtifact.replaceAll('\\', '/')}|${await streamingSha256(file)}`);
   }
   return sha256(Buffer.from(rows.sort().join('\n')));
 }

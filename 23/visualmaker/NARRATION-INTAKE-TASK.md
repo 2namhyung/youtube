@@ -1,0 +1,25 @@
+# Narration recording intake — vertical feature
+
+## Purpose and writer ownership
+
+Tool completion precedes reference-video reproduction. Implement a real local workflow: select an audio recording in Studio -> authenticated bounded multipart request -> real ffprobe audio measurement -> hash-bound durable record -> playback and measured duration in Studio. This is provisional recording intake, never final-voice lock, alignment, transcription, retiming or production approval.
+
+One writer owns new narration core/client components/routes/tests plus necessary edits to `core/model.ts`, `core/director.ts`, `core/store.ts`, `studio.tsx`, `studio.css`, `package.json`, `visualmaker/README.md` and `IMPLEMENTATION.md`. Prefer separate modules for recording logic; keep existing asset requirements, uploads/jobs/exports and all dirty changes intact. No redelegation, commit, push or new dependency.
+
+Forbidden writes: raw, wiki, video, episode-spec/state/generated/active roots/approval markers, other worktrees and existing user projects/assets. Only isolated test fixtures may change temp data. Never delete an existing content-addressed file while cleaning up an unsuccessful upload.
+
+## API/data contract
+
+- Append-only optional `narrationTakes` on runtime Plan, absent for old plans. Each take includes stable ID/project binding, original name (display only), sniffed audio format/MIME, byte count, SHA-256/content-addressed local relative path, measured positive audio duration, sample rate/channels as available, created timestamp, captured input revision and script SHA binding. Every record declares `productionAuthority=false`, measurement only and alignment unavailable. No production authority fields may become true.
+- Upload authenticates using existing local guard before reading multipart. Enforce content length and streaming/body bound consistent with existing upload (40 MiB cap or stricter documented cap). Supported formats must be explicit; at minimum real WAV, MP3 and M4A if reliably sniffed. Do not trust extension/browser MIME or accept video-only media. Reject invalid/truncated media or nonpositive/nonfinite duration; ffprobe execution uses fixed args, timeout, bounded output and isolated staging, never client-supplied executable/path. Decode/ffprobe must prove audio stream presence. Be honest whether playback format is browser compatible.
+- Under transaction, recheck baseRevision and current script hash before attaching. Return updated Plan and take on success, 409 on conflict. Existing recordings survive new revisions as history, but mismatched script hash is stale and visibly not current. An unrelated plan edit must not falsely mark unchanged script audio stale. Import into a new project resets recordings unless files/receipts are explicitly safely supported; choose reset and document it for this slice.
+- Store bytes plus deterministic verification receipt and revalidate record/path/hash/receipt on read and playback. Plan JSON is not an audio backup. Path resolution stays inside configured data directory, no client-controlled absolute paths. No hash tampering should continue playback/current valid status. FS/DB rollback cleanup must not remove shared/existing immutable inputs. Missing ffprobe returns actionable error and no success record.
+- Audio read route uses same local authorization guard, no public path. Support correct Content-Type/length/no-store and bounded single Range responses (206/416) or explicitly verified working playback without ranges; token must not be placed in URL/logs. Client should authenticated-fetch blob URL and revoke on switch/unmount as needed. No secrets in error output.
+- UI accessible section labelled `녹음 음성`/`측정 길이`, file selector, upload/loading/error/retry, duration, original name, script match/history status, actual audio player. Do not label final voice/approved/synced. Project/revision switch and late responses must not replace current project; stale baseRevision refresh/error is explicit. No arbitrary synthetic soundtrack on user plans.
+- `IMPLEMENTATION.md` is dated history; add a current capability addendum without claiming other unimplemented features or entire tool completion. No automatic rendering from imported recordings.
+
+## Completion evidence
+
+Baseline `visualmaker:check` 63 tests. Add focused real synthetic audio fixture tests, fake extension/corrupt/video-only rejection, missing ffprobe, bounded upload, stale/concurrent revision, duplicate-byte safe cleanup, read hash/receipt tamper and import reset/stale history. Contract parser tests for unexpected approval flags. No source-string-only proof.
+
+Run `pnpm run visualmaker:check` and `git diff --check`. Return writer ownership before independent execution and review. Existing local Next server 127.0.0.1:8138 uses temp `VISUALMAKER_DATA_DIR`; reuse, no second server on shared cache. Verifier may create new `[TEST]` plan and synthetic audio only in temp for HTTP/upload/playback/reload/conflict tests; main alone uses CUA for browser verification. Production validators are not claimed to pass, and known missing production inputs must not be repaired in this feature.

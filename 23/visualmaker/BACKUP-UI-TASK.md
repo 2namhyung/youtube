@@ -1,0 +1,43 @@
+# Studio project backup and restore controls
+
+Connect the accepted portable backup API to Studio without changing JSON import/export. A ZIP download preserves the current planning project and referenced local inputs. ZIP restore creates a new copy; it never replaces the open project or restores production approval. Backend behavior and format remain governed by [BACKUP-TASK.md](BACKUP-TASK.md).
+
+## Ownership and boundaries
+
+Work only in `C:/Users/every/Documents/project/youtube-visualmaker/23`. After backend verification and root writer release, one frontend writer owns new `src/components/studio/backup-client.ts`, `backup-panel.tsx`, `tests/visualmaker-backup-ui.test.mjs`, and narrow integration in `studio.tsx` and `src/app/studio/studio.css`. Root owns task documentation and diagnostic registration. Execution verifier and independent reviewer do not edit product files. No redelegation and no concurrent writer.
+
+Do not modify backend, model, store, dependencies, provider configuration, real user data, raw/wiki, episode inputs, production approvals or sibling projects. No Git mutation. Tests use synthetic values and isolated Temp only. Preserve unrelated edits.
+
+## API and response contract
+
+Download uses `GET /api/studio/backup?projectId=…&baseRevision=…` with the session token and no-store. Capture project ID, revision, script hash and token before the operation; discard a result if that scope changes. Require 200, no-store, application/zip, a safe attachment filename and a positive bounded Content-Length matching the actual streamed bytes. Bound the stream to 128 MiB and cancel on overflow or scope invalidation. Never download an error response as ZIP. Create and revoke an object URL for the verified Blob. Do not report that an operating-system save finished merely because a browser download was triggered.
+
+Restore accepts exactly one nonempty `.zip` file no larger than 128 MiB. Require an explicit new-copy acknowledgement before sending binary bytes to `POST /api/studio/backup`, with application/zip, token and `x-visualmaker-restore-copy:1`, no target project or destination path. Require 201/no-store and bounded JSON `{plan,summary}` before calling parent state installation. Keep Node filesystem/crypto and backend imports out of the browser bundle; type-only domain imports are allowed.
+
+The current summary contains `sourceProjectId`, `sourceRevision`, `assets`, `recordings`, `timingDrafts`, `clearedSourceReviews`, `clearedSourceReceiptExtensions`, `clearedAIAdoption`, `clearedEpisodeOrigin`, `clearedSceneOriginCutIds`, `clearedTimingAttestations` and `productionAuthority:false`. Validate exact summary keys, finite nonnegative integer counts, positive source revision and identifiers. Validate the Plan runtime shape and cross-references needed by Studio, schema `visualmaker-plan-v1`, false production authority, a new ID unequal to the source ID, matching preserved revision and summary counts, cleared approvals/origins/AI adoption/manual attestations, narration ownership and timing references, and script byte hash using browser crypto. Reject malformed responses instead of casting unknown JSON to Plan. Unknown nested objects must not crash rendering after installation. A response is bound to its own request and captured UI scope; this API does not return a cryptographic receipt for the uploaded ZIP, so do not claim an independently verified archive-to-response binding.
+
+The client must build a bounded, allowlisted validated projection of every field used by Studio rendering and subsequent commands, not pass through partially checked nested objects. Check arrays, primitive types, finite numeric ranges, unique IDs and all segment/beat/scene/candidate/requirement/asset/take/timing references. Recursively reject approval-key injections and any production authority other than false. Require `sourceReviews=[]` and absence of `origin`, scene `originCutIds`, AI adoption receipt and timing listening-attestation fields. Validate optional fields when present and reject unknown unsafe fields. A shallow top-level check followed by `as Plan` is not acceptance.
+
+Use safe fixed failure messages for transport, malformed response, stale revision, invalid ZIP and size overflow. Do not display internal server errors or archive paths. No automatic restore retry: a network failure or invalid success response may follow a committed copy. Tell the user to refresh the project list and check for a new copy before retrying.
+
+## Interaction and state
+
+Use the existing synchronous shared mutation gate before the first await, including file reading. Double clicks, JSON import, project changes and other writes must not race a pending backup operation. Release the gate in finally. Keep pending, error and successful restore summary distinct. Abort on unmount and discard stale callbacks; aborting a restore is not evidence that the server rolled it back.
+
+Provide backup download for a loaded project and restore controls even when no project is loaded. Keep JSON import labelled separately. Show the limits: ZIP 128 MiB, payload 120 MiB, 512 entries, media 50 MiB each, Plan 3 MiB and receipt/manifest 256 KiB. Explain that this is the current planning project with local media and recordings, not a complete database, jobs, generated videos or machine backup.
+
+Before restore, explain that source-review approvals, episode bindings, AI adoption provenance and manual timing attestations are cleared; direction locks, script history and media are preserved. Successful installation uses Studio's existing accept path, clears stale selections/reviews/jobs as appropriate and refreshes the project list. A later list-refresh failure is a saved-copy warning, not a restore failure or reason to retry POST. If the UI scope changed after submission, do not replace an unrelated open project; provide a refresh/check-copy notice instead. Clear acknowledgement on file changes and after successful restore.
+
+Use explicit labels, accessible file input and acknowledgement checkbox, keyboard-operable buttons, live pending/result status and alert errors. Preserve current CSS conventions. React review covers hook dependencies, functional state where necessary, cleanup, no effect-based mutations and client-safe imports.
+
+## Verification gates
+
+Focused client and UI tests cover download headers/body limits, wrong status/type/length, stale scopes, object URL cleanup, malformed Plan/summary, count/reference/hash/authority mismatch, restore size/acknowledgement, double-click synchronous gating, exactly one POST, scope change, uncertain committed outcome and refresh failure after success. Include valid populated and empty-plan responses rather than testing only snapshots or source strings. Run typecheck and focused backup/UI regressions, then independent diff review and proportional full diagnostics.
+
+Actual browser download, file selection, acknowledgement, new-copy restoration, reload persistence and independent byte/DB checks are a separate gate using an owned synthetic server. User tabs and servers must remain untouched. Synthetic tests do not prove real provider quality, production readiness or human approval.
+
+## UI implementation status on 2026 10 14
+
+Studio has separate ZIP backup and new-copy restore controls, including when no project is open, alongside explicitly labelled JSON import. The browser client validates bounded ZIP download responses and a bounded allowlisted Plan/summary projection. Restore clears old displayed jobs/reviews/timing selection only after the same-scope response is accepted; failed list refresh is a saved-copy warning. Strict `sourceReviews=[]` response validation includes rejection of omitted, null, object and nonempty values.
+
+Before the last strict-key correction, independent typecheck and 34/34 focused backup/UI/AI-adoption/timing/live-source tests passed with unchanged scoped and EP001 hashes. Evidence is retained at `C:/Users/every/AppData/Local/Temp/vm-backup-ui-verify-efd280b2cada436f80a9621284f7b585`. After the correction, independent `visualmaker:check-backup` passed typecheck and 44/44 tests with no skips, including the actual core response and explicit empty-review-list cases. All 17 scoped hashes and EP001 inputs remained unchanged; evidence is at `C:/Users/every/AppData/Local/Temp/vm-backup-final-verify-8bb70df2da1c43de8bceed96bd8b484b`. Independent code review found no remaining confirmed P1/P2. The registered command includes the UI tests. The separate [browser gate](BACKUP-BROWSER-TASK.md) is still required for actual acknowledgement, file choice, download, double-click behavior and reload persistence; helper tests do not establish those UI behaviors.

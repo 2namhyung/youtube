@@ -1,0 +1,6 @@
+import type {EpisodeReport} from '../core/episode-provisional.ts';
+
+export const EPISODE_FILES=['provisional-episode.mp4','provisional-episode.json'] as const;
+export const EPISODE_RENDERER_VERSION='4.0.516' as const;
+export type EpisodeExecutionContract={schemaVersion:'visualmaker-episode-execution-v1';report:EpisodeReport;reportSha256:string;createdAt:string};
+export type EpisodeReceipt={schemaVersion:'visualmaker-provisional-episode-receipt-v1';artifactKind:'episode-provisional-video';episodeId:'episode-001';jobId:string;attempt:number;projectId:string;requestedRevision:number;snapshotSha256:string;executionContractSha256:string;composition:NonNullable<EpisodeReport['composition']>;cuts:EpisodeReport['cuts'];boundaries:EpisodeReport['boundaries'];inputs:EpisodeReport['inputs'];authorityFingerprints:EpisodeReport['fingerprints'];rendererVersion:typeof EPISODE_RENDERER_VERSION;reviewProfile:'remotion-motion';productionAuthority:false;reviewApproved:false;audioSynchronized:false;output:{name:'provisional-episode.mp4';bytes:number;sha256:string};measured:{width:number;height:number;fps:number;frames:number;durationSeconds:number;codec:'h264';audioStreams:0;frameSha256:[string,string,string]}};

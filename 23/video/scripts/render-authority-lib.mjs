@@ -3,42 +3,23 @@ import {readFile, readdir, stat} from 'node:fs/promises';
 import path from 'node:path';
 
 import {loadCutAssetSheet} from './asset-sheet-contract.mjs';
+import {streamingSha256} from './streaming-sha256.mjs';
+import {SCENE_RUNTIME_FILES, TRANSITION_RUNTIME_FILES} from './runtime-file-closure.mjs';
 
 export const ROOT = process.cwd();
 export const sha256Bytes = (value) => createHash('sha256').update(value).digest('hex');
-export const sha256File = async (file) => sha256Bytes(await readFile(file));
+export const sha256File = streamingSha256;
 export const normalize = (value) => String(value).replaceAll('\\', '/');
 export const exists = async (file) => { try { await stat(file); return true; } catch { return false; } };
 
-const sceneRuntimeFiles = [
-  'video/src/cut-manifest.ts',
-  'video/src/motion.tsx',
-  'video/src/vox/scene/ManifestScene.tsx',
-  'video/src/vox/scene/PresentationScene.tsx',
-  'video/src/vox/scene/presentation-runtime.ts',
-  'video/src/vox/scene/asset-sheet.ts',
-  'video/src/vox/scene/model.ts',
-  'video/src/vox/scene/source-video.ts',
-  'video/src/vox/motion/operator-registry.ts',
-  'video/src/vox/motion/presets.ts',
-  'video/src/vox/collage/index.tsx',
-  'video/src/vox/charts/index.tsx',
-  'video/src/vox/charts/model.ts',
-];
-
-const transitionRuntimeFiles = [
-  'video/src/vox/scene/TransitionPair.tsx',
-  'video/src/vox/scene/EpisodeTimeline.tsx',
-];
-
-async function hashFileSet(files) {
+async function hashFileSet(files, root = ROOT) {
   const rows = [];
-  for (const relative of files) rows.push(`${relative}|${await sha256File(path.resolve(ROOT, relative))}`);
+  for (const relative of files) rows.push(`${relative}|${await sha256File(path.resolve(root, relative))}`);
   return sha256Bytes(rows.sort().join('\n'));
 }
 
-export const sceneRuntimeSha256 = () => hashFileSet(sceneRuntimeFiles);
-export const transitionRuntimeSha256 = () => hashFileSet(transitionRuntimeFiles);
+export const sceneRuntimeSha256 = (root = ROOT) => hashFileSet(SCENE_RUNTIME_FILES, root);
+export const transitionRuntimeSha256 = (root = ROOT) => hashFileSet(TRANSITION_RUNTIME_FILES, root);
 
 export async function assetBundleSha256(cutRoot, manifest) {
   const inputs = [

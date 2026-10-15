@@ -98,6 +98,71 @@ export type Asset = {
   evidenceOnly: boolean;
 };
 
+export type SourceReviewDimension = 'source' | 'rights' | 'semantic';
+export type SourceReviewDecision = 'pending' | 'acceptable' | 'rejected';
+export type SourceReview = {
+  id: string;
+  requirementId: string;
+  assetId: string;
+  assetSha256: string;
+  contextSha256: string;
+  dimension: SourceReviewDimension;
+  decision: SourceReviewDecision;
+  rationale: string;
+  recordedAt: string;
+  recordedBy: 'local-session';
+  productionAuthority: false;
+};
+export type SourceReviewState = {requirementId: string; assetId: string | null; contextSha256: string;
+  current: Record<SourceReviewDimension, SourceReview | null>; history: SourceReview[]; productionAuthority: false};
+
+/** A measured local recording, never a final voice or production approval. */
+export type NarrationTake = {
+  id: string;
+  projectId: string;
+  originalName: string;
+  format: 'wav' | 'mp3' | 'm4a';
+  mimeType: 'audio/wav' | 'audio/mpeg' | 'audio/mp4';
+  byteCount: number;
+  sha256: string;
+  path: string;
+  durationSeconds: number;
+  sampleRate: number | null;
+  channels: number | null;
+  createdAt: string;
+  capturedRevision: number;
+  scriptSha256: string;
+  measurement: 'ffprobe';
+  alignmentStatus: 'unavailable';
+  productionAuthority: false;
+};
+
+export type NarrationTimingSegment = {
+  segmentId: string;
+  start: number;
+  end: number;
+  text: string;
+  startSeconds: number;
+  endSeconds: number;
+};
+
+/** Immutable editorial timing proposal bound to measured audio and exact script text. */
+export type NarrationTiming = {
+  id: string;
+  projectId: string;
+  capturedRevision: number;
+  takeId: string;
+  audioSha256: string;
+  scriptSha256: string;
+  createdAt: string;
+  method: 'manual-timing-draft';
+  reviewStatus: 'draft';
+  manualReviewConfirmed?: true;
+  manualReviewConfirmedAt?: string;
+  productionAuthority: false;
+  segments: NarrationTimingSegment[];
+};
+
 export type Scene = {
   id: string;
   beatIds: string[];
@@ -125,6 +190,17 @@ export type PlanDecision = {
 
 export type Decision = PlanDecision;
 
+/** Editorial-only record of exactly what a user applied from a validated AI proposal. */
+export type AIAnalysisAdoption = {
+  schemaVersion:'visualmaker-ai-analysis-adoption-v1'; id:string; createdAt:string; jobId:string; artifactSha256:string;
+  scope:{projectId:string;revision:number;scriptSha256:string;snapshotSha256:string};
+  model:{adapter:'gateway-api-key'|'sdk-test'|'codex-cli';requestedModelId:string;responseModelId:string|null};
+  beforeRevision:number; afterRevision:number; scriptSha256:string; productionAuthority:false; requiresHumanReview:true;
+  records:Array<{segmentId:string;beatId:string;sceneId:string;source:{start:number;end:number;text:string;kind:SegmentKind};
+    mainMessage:string;uncertainty:string;visualMeaningBrief:string;searchBriefKo:string;searchBriefEn:string;
+    beforeIntent:string;appliedIntent:string}>;
+};
+
 export type Plan = {
   schemaVersion: 'visualmaker-plan-v1';
   id: string;
@@ -138,7 +214,11 @@ export type Plan = {
   scenes: Scene[];
   requirements: Requirement[];
   assets: Asset[];
+  sourceReviews?: SourceReview[];
+  narrationTakes?: NarrationTake[];
+  narrationTimings?: NarrationTiming[];
   decisions: PlanDecision[];
+  aiAnalysisAdoption?: AIAnalysisAdoption;
   origin?: PlanOrigin;
 };
 
@@ -151,7 +231,10 @@ export type Command =
   | { type: 'reuse'; sceneId: string; fromSceneId: string; reason: string }
   | { type: 'revise-script'; text: string }
   | { type: 'merge-next'; sceneId: string }
-  | { type: 'attach-asset'; requirementId: string; asset: Asset };
+  | { type: 'attach-asset'; requirementId: string; asset: Asset }
+  | { type: 'assign-asset'; requirementId: string; assetId: string }
+  | { type: 'detach-asset'; requirementId: string }
+  | { type: 'review-source'; requirementId: string; dimension: SourceReviewDimension; decision: SourceReviewDecision; rationale: string };
 
 /** Stable UI labels. They are deliberately descriptive rather than template names. */
 export const labels = {

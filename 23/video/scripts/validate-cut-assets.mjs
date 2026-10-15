@@ -10,6 +10,7 @@ import {validateVisualContractV3} from './visual-contract-v3.mjs';
 import {validateApprovedContractRequirements, validateManifestAgainstEpisodeContract} from './episode-manifest-contract.mjs';
 import {validateSourceVideoContract} from './source-video-contract.mjs';
 import {validatePersonOnlyImagegenPolicy} from './asset-origin-policy.mjs';
+import {cutIdentityErrors} from './active-cut-identity.mjs';
 
 const root = process.cwd();
 const sharp = createRequire(import.meta.url)('sharp');
@@ -180,9 +181,7 @@ function validateLifecycle(manifest, label, durationFrames, assetIds, effectIds)
 function validateManifest(manifest, label, episodeName, shotName, {requireAssetOriginPolicy = false} = {}) {
   const allowedAnimationTypes = new Set(['spring-enter', 'place', 'slap', 'rise', 'wipe', 'highlight', 'camera', 'ease-move', 'scale', 'opacity', 'mask-reveal', 'draw-path', 'chart-draw', 'hold']);
   const allowedChartTypes = new Set(['bar', 'line', 'counter', 'dot-plot', 'timeline', 'process']);
-  if (manifest.episode_id !== episodeName || manifest.shot_id !== shotName) {
-    failures.push(`${label}: manifest episode_id/shot_id mismatch`);
-  }
+  for (const message of cutIdentityErrors({rootRelative:normalize(path.relative(root,path.join(assetsRoot,episodeName))),activeCutRoot,folderEpisodeName:episodeName,folderShotName:shotName,manifestEpisodeId:manifest.episode_id,manifestShotId:manifest.shot_id,stateEpisodeId:productionState.episode_id,specEpisodeId:episodeSpec.episode_id})) failures.push(`${label}: ${message}`);
   for (const message of validatePersonOnlyImagegenPolicy(manifest, {label, requirePolicy: requireAssetOriginPolicy})) failures.push(message);
   if (manifest.background !== 'background.png') failures.push(`${label}: background must be background.png`);
   for (const message of validateSourceVideoContract(manifest)) failures.push(`${label}: ${message}`);
@@ -480,6 +479,7 @@ for (const episode of episodes) {
   const rejectedRoot = nonProductionStatus !== undefined;
   if (activeCutRoot === rootRelative) {
     activeCutRootSeen = true;
+    for (const message of cutIdentityErrors({rootRelative,activeCutRoot,folderEpisodeName:episode.name,stateEpisodeId:productionState.episode_id,specEpisodeId:episodeSpec.episode_id})) failures.push(`${episode.name}: ${message}`);
     if (shots.length !== expectedCutCount) failures.push(`${episode.name}: production state's active_cut_root must contain exactly ${expectedCutCount} physical cuts; found ${shots.length}`);
     if (plannedShotIds.length && shots.map((shot) => shot.name).join('|') !== plannedShotIds.join('|')) failures.push(`${episode.name}: active_cut_root must contain the exact ordered episode-spec planned cut set`);
     if (!plannedShotIds.length) failures.push(`${episode.name}: active_cut_root cannot be checked without episode-spec planned cut IDs`);

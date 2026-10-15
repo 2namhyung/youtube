@@ -11,7 +11,7 @@ export async function GET(request:Request){
     const name=query.get('name') as ArtifactName;
     const {bytes}=artifactFile(query.get('jobId')||'',name);
     return new Response(bytes,{headers:{
-      'Content-Type':name==='scenes.csv'?'text/csv; charset=utf-8':'application/json; charset=utf-8',
+      'Content-Type':name==='scenes.csv'?'text/csv; charset=utf-8':name==='diagnostic.mp4'?'video/mp4':'application/json; charset=utf-8',
       'Content-Disposition':`attachment; filename="${name}"`,
       'Cache-Control':'no-store',
       'X-Content-Type-Options':'nosniff',
